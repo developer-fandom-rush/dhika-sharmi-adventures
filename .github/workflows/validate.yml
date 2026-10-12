@@ -15,5 +15,7 @@ jobs:
         run: node --check app.js
       - name: Check source validator syntax
         run: node --check scripts/validate.mjs
-      - name: Verify raw source, six JSON datasets and AI Director forecast
+      - name: Verify complete E01-E02 source integrity
         run: node scripts/validate.mjs
+      - name: Verify relationship pair indexes
+        run: node scripts/validate_relationships.mjs
