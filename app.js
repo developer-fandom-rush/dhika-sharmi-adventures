@@ -309,7 +309,7 @@ function renderCrossReferences(item){
   b.addEventListener("click",()=>{
    STATE.view=x.view;STATE.episode=x.e.episode_id;STATE.character="";STATE.query="";STATE.selected=x.e.id;
    $("characterFilter").value="";$("episodeFilter").value=STATE.episode;$("searchInput").value="";
-   render();
+   updateToolbar();render();
   });
   wrap.append(b);
  }
@@ -371,12 +371,39 @@ function renderSource(item){
  pane.scrollTop=0;
 }
 function downloadActive(){
- const payload=(STATE.view==="episode"&&STATE.episode==="E02")?DATA.e02:DATA[STATE.view];
- const data=JSON.stringify(payload,null,2)+"\n";
+ let payload,filename;
+ if(STATE.view==="relationship"){
+  payload={
+   schema_version:1,
+   kind:"relationship_timeline_export",
+   relationship_id:STATE.relationship,
+   participant_ids:relationshipPeople(STATE.relationship),
+   episode_scope:STATE.episode==="ALL"?["E01","E02"]:[STATE.episode],
+   source:"raw/Dhika.txt",
+   note:"Chronological references from the source-locked datasets. Overlapping quoted lines may recur across distinct analysis categories. Raw source remains unchanged.",
+   records:filteredItems().map(e=>({
+    id:e.id,episode_id:e.episode_id,source_kind:e.related_view,
+    line_start:e.line_start,line_end:e.line_end,raw_lines:e.raw_lines,
+    analysis:{
+     label:itemHeading(e),action:e.action||null,
+     prior_state:e.prior_state_or_expectation||null,observed_change:e.observed_state_or_difference||null,
+     source_voice:e.source_voice||null,trigger_phrase:e.phrase||null,
+     why_phrase_matters:e.why_this_exact_phrase_matters||null,
+     consent_status:e.consent_status||null,inner_reaction:e.state_tag||null,
+     reader_information:e.reader_information||null,
+     group_participants:e.participant_tracks||null
+    }
+   }))
+  };
+  filename=STATE.relationship+"_timeline_"+STATE.episode.toLowerCase()+".json";
+ }else{
+  payload=(STATE.view==="episode"&&STATE.episode==="E02")?DATA.e02:DATA[STATE.view];
+  filename=URLS[(STATE.view==="episode"&&STATE.episode==="E02")?"e02":STATE.view].split("/").at(-1);
+ }
+ const data=JSON.stringify(payload,null,2)+"\\n";
  const blob=new Blob([data],{type:"application/json;charset=utf-8"});
- const url=URL.createObjectURL(blob);
- const a=document.createElement("a");a.href=url;
- a.download=URLS[(STATE.view==="episode"&&STATE.episode==="E02")?"e02":STATE.view].split("/").at(-1);a.click();URL.revokeObjectURL(url);
+ const url=URL.createObjectURL(blob),a=document.createElement("a");
+ a.href=url;a.download=filename;a.click();URL.revokeObjectURL(url);
 }
 function copySelected(){
  const item=filteredItems().find(x=>x.id===STATE.selected);if(!item)return;
