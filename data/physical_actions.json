@@ -704,7 +704,7 @@
           "other_character": "bantu",
           "action": "bag_slips_and_clothing_is_displaced",
           "action_domain": "unplanned_clothing_accident",
-          "contact_evidence": "not_intentional_exposure",
+          "contact_evidence": "unplanned_accident_no_person_contact",
           "consent_status": "not_applicable",
           "episode_id": "E02",
           "line_start": 122,
@@ -726,6 +726,9 @@
               "line": 125,
               "text": "Feeling horrified and not knowing what do to.... Her free hand went for the bag first instead of the pallu, in nervousness. She bent down fully.... exposing her spilling boobs more...to two teenage students and then seconds later she took the pallu and fixed it............"
             }
+          ],
+          "other_participants": [
+            "bobby"
           ]
         },
         {
@@ -768,9 +771,9 @@
           "id": "PHY-E02-016",
           "subject": "dhika",
           "other_character": "chotu",
-          "action": "selects_clothing_to_wear",
-          "action_domain": "self_dressing_intention",
-          "contact_evidence": "selection_not_completed",
+          "action": "takes_kurti_then_notices_alternative_dress",
+          "action_domain": "self_clothing_gesture",
+          "contact_evidence": "self_directed_choice_unresolved",
           "consent_status": "not_assumed",
           "episode_id": "E02",
           "line_start": 155,
