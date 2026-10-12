@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "kind": "blind_episode_director_forecast",
+  "prediction_id": "E05-BLIND-V1",
+  "target_episode": "E05",
+  "frozen_prior_to_reading_target": true,
+  "source_cutoff": "E04",
+  "known_canon": [
+    "E01",
+    "E02",
+    "E03",
+    "E04"
+  ],
+  "target_episode_raw_read": false,
+  "prediction_status": "hypothetical_not_canon",
+  "expected_structure": "final-question payoff -> changed inner state -> ordinary activity -> one pair thread develops -> unresolved exit",
+  "primary_thread": "dhika_bantu_bobby",
+  "secondary_thread": "dhika_chotu",
+  "primary_interaction_hypothesis": "The latest tutoring conversation gets a short payoff before a new domestic or tuition setting",
+  "alternative_opening": "A next-day or later present-time cold open may precede retrospective resolution, as in E04",
+  "overall_confidence": "low_to_medium",
+  "scenes": [
+    {
+      "id": "P05-S01",
+      "order": 1,
+      "title": "Unanswered request at the end of tuition",
+      "time": "Immediately following E04 closing or presented briefly as a retrospective",
+      "setting": "Dhika's home; tutoring session",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "setup_from": [
+        "E04:195-202"
+      ],
+      "objective": "Pay off the final personal question/comment without silently pretending it was already resolved",
+      "directions": [
+        "Begin with the just-finished conversation so the reader can identify which question needs a reply",
+        "Dhika responds in her recognizable expressive, slightly embarrassed teacher voice; she may correct tone or deflect",
+        "Keep Bantu eager to continue conversation; Bobby's reaction is quieter and distinct",
+        "Allow Dhika to close the tutoring session deliberately"
+      ],
+      "action_names": [
+        "react_to_personal_question",
+        "verbally_redirect_conversation",
+        "end_tutoring",
+        "prepare_to_depart"
+      ],
+      "inner_tension": "Does Dhika see this as harmless banter or an increasingly uncomfortable distraction?",
+      "exit": "Twins leave or a clear time transition is signalled",
+      "confidence": "medium",
+      "category": "new_forecast_noncanon"
+    },
+    {
+      "id": "P05-S02",
+      "order": 2,
+      "title": "Short private decompression",
+      "time": "After the students depart",
+      "setting": "Dhika's house",
+      "participants": [
+        "dhika"
+      ],
+      "setup_from": [
+        "E04:181-202",
+        "E03:153-183"
+      ],
+      "objective": "Make Dhika compare changed confidence at home tuition with her earlier embarrassment",
+      "directions": [
+        "Return her to an ordinary domestic task",
+        "Have a short internal comparison between how Bantu and Bobby each spoke, without treating their intentions as identical",
+        "Leave room for both fondness and concern; do not resolve contradictory feelings with a flat summary"
+      ],
+      "action_names": [
+        "resume_domestic_task",
+        "recall_tuition_conversation",
+        "compare_student_behaviors"
+      ],
+      "inner_tension": "Familiarity has changed but her self-image and role as teacher remain relevant",
+      "exit": "Routine event or family context interrupts",
+      "confidence": "medium"
+    },
+    {
+      "id": "P05-S03",
+      "order": 3,
+      "title": "Bantu and Bobby debrief",
+      "time": "After leaving class or at next opportunity",
+      "setting": "A familiar walk home or private meeting (setting speculative)",
+      "participants": [
+        "bantu",
+        "bobby"
+      ],
+      "setup_from": [
+        "E04:77-92",
+        "E04:189-194"
+      ],
+      "objective": "Contrast Bantu's planning with Bobby's quieter confidence and show what each actually understands",
+      "directions": [
+        "Allow Bantu to analyze the tutoring exchange openly",
+        "Bobby reacts with a few specific lines rather than a long monologue",
+        "End with a difference in their expectations for the next visit"
+      ],
+      "action_names": [
+        "compare_class_experience",
+        "ask_followup_question",
+        "express_different_interpretations"
+      ],
+      "inner_tension": "Bantu's strategic enthusiasm versus Bobby's uncertainty and empathy",
+      "exit": "Separate paths or a future tutoring commitment",
+      "confidence": "low",
+      "optional": true
+    },
+    {
+      "id": "P05-S04",
+      "order": 4,
+      "title": "Ordinary family baseline",
+      "time": "Evening or following morning",
+      "setting": "Home",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "setup_from": [
+        "E04:32-34",
+        "E03:137-151"
+      ],
+      "objective": "Preserve family life and the everyday circumstances framing encounters",
+      "directions": [
+        "Establish family routine in a few grounded exchanges",
+        "Use a practical issue such as household plans without manufacturing a new revelation",
+        "Keep Dhika's private information distinct from what John knows"
+      ],
+      "action_names": [
+        "family_routine",
+        "discuss_household_task",
+        "privately_recall_recent_class"
+      ],
+      "inner_tension": "Reader's knowledge versus John's knowledge",
+      "exit": "Next planned practical task or tutoring obligation",
+      "confidence": "low",
+      "optional": true
+    },
+    {
+      "id": "P05-S05",
+      "order": 5,
+      "title": "Reintroduce painting continuity",
+      "time": "Another suitable visit or phone request—not assumed the immediate next day",
+      "setting": "Pappu's room or delivery-related setting",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "setup_from": [
+        "E03:201-235",
+        "E04:9-25"
+      ],
+      "objective": "Carry forward the unfinished painting project and remembered awkward conversation",
+      "directions": [
+        "Give a mundane reason for contact before discussing emotional residue",
+        "Show Chotu returning to his helpful practical role rather than jumping to a new physical milestone",
+        "Show whether Dhika and Chotu avoid or acknowledge the prior awkward exchange; mark any new boundary change as a fresh event"
+      ],
+      "action_names": [
+        "arrive_to_help",
+        "resume_room_task",
+        "briefly_recall_prior_conversation",
+        "respond_to_awkwardness"
+      ],
+      "inner_tension": "Practical familiarity versus earlier embarrassment",
+      "exit": "Task continues; next interruption or conversation opportunity",
+      "confidence": "low",
+      "optional": true
+    },
+    {
+      "id": "P05-S06",
+      "order": 6,
+      "title": "Return to a teaching scene",
+      "time": "Next scheduled tuition visit",
+      "setting": "Dhika's home",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "setup_from": [
+        "E04:35-50",
+        "E04:189-194"
+      ],
+      "objective": "Test Bobby's expressed intention to be more outspoken against Bantu's lead",
+      "directions": [
+        "Start from a real lesson rather than personal discussion",
+        "Bobby opens with a clearer line than usual; Dhika acknowledges the change",
+        "Bantu attempts a joke or follow-up; teacher may explicitly redirect toward studies",
+        "Use pauses and short speaker turns to show different personalities"
+      ],
+      "action_names": [
+        "begin_lesson",
+        "bobby_initiate_dialogue",
+        "bantu_make_playful_comment",
+        "dhika_redirect_to_study"
+      ],
+      "inner_tension": "Bobby growing more vocal while Dhika balances warmth and classroom role",
+      "exit": "A novel ordinary problem or an unanswered interpersonal question",
+      "confidence": "medium",
+      "optional": true
+    },
+    {
+      "id": "P05-S07",
+      "order": 7,
+      "title": "Episode's emotional comparison",
+      "time": "After an encounter",
+      "setting": "Private thought",
+      "participants": [
+        "dhika"
+      ],
+      "setup_from": [
+        "E04:26-29",
+        "E04:120-140"
+      ],
+      "objective": "Consolidate one character-change checkpoint through a remembered contrast, not a label",
+      "directions": [
+        "Use a character-specific internal question with distinct earlier and present behavior",
+        "Keep what she knows separate from what the boys privately think",
+        "Do not manufacture conclusions about the future"
+      ],
+      "action_names": [
+        "reconsider_personal_comfort",
+        "recall_recent_dialogue"
+      ],
+      "inner_tension": "Changing behavior and a continuing self-image",
+      "exit": "Interrupt with an ordinary task or cliffhanger",
+      "confidence": "medium",
+      "optional": true
+    },
+    {
+      "id": "P05-S08",
+      "order": 8,
+      "title": "Unresolved ending",
+      "time": "Closing lines",
+      "setting": "One of the established encounter settings",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "setup_from": [
+        "E03:233-235",
+        "E04:195-202"
+      ],
+      "objective": "End at a consequential question or newly noticed detail, leaving the next speaker's response unwritten",
+      "directions": [
+        "Introduce one unanswered question rather than an unmotivated shock",
+        "Stop before the character's reply",
+        "Record exactly who must respond and when it can be answered in E06"
+      ],
+      "action_names": [
+        "ask_unresolved_question",
+        "pause_before_reply"
+      ],
+      "inner_tension": "Reader expects a meaningful response next",
+      "exit": "Open episode boundary",
+      "confidence": "low"
+    }
+  ],
+  "style_instructions": {
+    "narration": "Casual close-third narrator, everyday task anchor, visible reactions and each character's distinct private knowledge",
+    "rhythm": "Short dialogue exchanges and timely interjections; a humorous deflection followed by an ordinary-task reset",
+    "analysis_invariants": [
+      "Do not call this E05 canon before reading E05",
+      "Do not count predicted action as accomplished",
+      "Do not backfill source lines that are unknown",
+      "Keep Bobby and Bantu perspectives separate",
+      "Remember the Chotu painting project may resume but is not certain to be the immediate next encounter",
+      "Carry forward the actual E04 final unanswered question"
+    ]
+  },
+  "review_rubric": {
+    "when_actual_e05_is_read": [
+      "opening_time_structure_match",
+      "last_line_question_resolution_match",
+      "which_pair_is_main",
+      "scene_order_match",
+      "character_voice_match",
+      "emotional_change_match",
+      "exact_predicted_action_names_that_occur",
+      "invented_actions_that_did_not_occur",
+      "ending_cliffhanger_match"
+    ],
+    "comparison_method": "mark hit/partial/miss with actual E05 line citations; never alter frozen prediction; save a new comparison file"
+  },
+  "explicitness": "Non-graphic, character-driven direction; no invented erotic anatomical choreography"
+}
