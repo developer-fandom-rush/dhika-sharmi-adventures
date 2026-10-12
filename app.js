@@ -400,7 +400,7 @@ function downloadActive(){
   payload=(STATE.view==="episode"&&STATE.episode==="E02")?DATA.e02:DATA[STATE.view];
   filename=URLS[(STATE.view==="episode"&&STATE.episode==="E02")?"e02":STATE.view].split("/").at(-1);
  }
- const data=JSON.stringify(payload,null,2)+"\\n";
+ const data=JSON.stringify(payload,null,2)+"\n";
  const blob=new Blob([data],{type:"application/json;charset=utf-8"});
  const url=URL.createObjectURL(blob),a=document.createElement("a");
  a.href=url;a.download=filename;a.click();URL.revokeObjectURL(url);
