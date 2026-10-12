@@ -161,16 +161,50 @@ function appendHighlighted(node,source,query){
  }
  if(from<source.length)node.append(document.createTextNode(source.slice(from)));
 }
+function renderCrossReferences(item){
+ let container=document.getElementById("relatedRecords");
+ if(!container){
+  container=text("div","","related-records");container.id="relatedRecords";
+  document.querySelector(".source-top").append(container);
+ }
+ container.replaceChildren();
+ if(!item)return;
+ const related=[];
+ for(const view of Object.keys(META)){
+  if(view===STATE.view)continue;
+  for(const e of listItems(view)){
+   const overlap=Math.min(item.line_end,e.line_end)-Math.max(item.line_start,e.line_start)+1;
+   if(overlap>0)related.push({view,e,overlap});
+  }
+ }
+ related.sort((a,b)=>b.overlap-a.overlap||a.e.line_start-b.e.line_start);
+ if(!related.length)return;
+ container.append(text("div","Related source evidence","related-title"));
+ const wrap=text("div","","related-links");
+ for(const x of related.slice(0,14)){
+  const b=text("button",META[x.view].tab+" · "+x.e.id,"relation-button");
+  b.type="button";b.title=lineLabel(x.e);
+  b.addEventListener("click",()=>{
+   STATE.view=x.view;STATE.character="";STATE.query="";STATE.selected=x.e.id;
+   $("characterFilter").value="";$("searchInput").value="";
+   render();
+  });
+  wrap.append(b);
+ }
+ container.append(wrap);
+}
 function renderSource(item){
  const pane=$("sourceLines");pane.replaceChildren();
  const copy=$("copySource");copy.disabled=!item;
  if(!item){
+  renderCrossReferences(null);
   $("sourceHeading").textContent="Select an evidence record";
   $("sourceMeta").textContent="Every excerpt is original author wording from E01.";
   $("viewGithubLine").href=repoPath;
   pane.append(text("div","Choose a source record to inspect exact lines.","placeholder"));
   return;
  }
+ renderCrossReferences(item);
  $("sourceHeading").textContent=itemHeading(item);
  $("sourceMeta").textContent=item.id+" · "+lineLabel(item)+" · "+(item.raw_lines||[]).length+" lines";
  // E01 begins at L003 of the complete master, so E01-local L001 -> master L003.
