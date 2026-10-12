@@ -490,7 +490,8 @@ async function main(){
    if(nums.length!==ep.line_count||new Set(nums).size!==ep.line_count||!nums.every((n,i)=>n===i+1))throw Error("Source integrity failed for "+ep.episode_id);
   }
   renderCharacterOptions();renderRelationshipOptions();
-  const url=new URL(window.location.href),pair=url.searchParams.get("pair"),ep=url.searchParams.get("episode");
+  const url=new URL(window.location.href),pair=url.searchParams.get("pair"),ep=url.searchParams.get("episode"),view=url.searchParams.get("view");
+  if(view&&Object.prototype.hasOwnProperty.call(META,view))STATE.view=view;
   if(pair&&DATA.bonds.relationships.some(r=>r.id===pair))STATE.relationship=pair;
   if(["ALL","E01","E02","E03"].includes(ep))STATE.episode=ep;
   updateToolbar();
