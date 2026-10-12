@@ -266,4 +266,28 @@ for(const scene of indexE05.scenes){
 assert(nextE05===234,"E05 scene index missing last lines");
 console.log("PASS: 65 short author quotes exactly matched E01–E05 source; 9 voice profiles; 8 interaction signatures; full E05 indexed.");
 
+const pilot=load("data/e05_semantic_trace_pilot.json");
+assert(pilot.kind==="e05_semantic_trace_pilot"&&pilot.fully_reviewed_whole_episode===false,"E05 pilot cannot claim total completeness");
+assert(pilot.analyzed_range[0]===5&&pilot.analyzed_range[1]===50,"Pilot source window changed");
+assert(pilot.records.length===pilot.atomic_records&&pilot.line_disposition.length===46,"Pilot record count mismatch");
+const pilotIds=new Set(),pilotByLine=new Map();
+for(const event of pilot.records){
+ assert(event.episode_id==="E05"&&event.line>=5&&event.line<=50,"Pilot record outside scoped lines: "+event.id);
+ assert(!pilotIds.has(event.id),"Duplicate pilot record: "+event.id);pilotIds.add(event.id);
+ const line=e05[event.line-1],quote=event.source.verbatim_short_span;
+ assert(line.slice(event.source.span_start,event.source.span_end)===quote,"Pilot exact span mismatch: "+event.id);
+ assert(/^[a-z][a-z0-9_]*$/.test(event.action_name),"Pilot action name malformed: "+event.id);
+ const v=pilotByLine.get(event.line)||[];v.push(event.id);pilotByLine.set(event.line,v);
+}
+for(let line=5;line<=50;line++){
+ const state=pilot.line_disposition.find(x=>x.line===line),ids=pilotByLine.get(line)||[];
+ assert(state?.status==="provisionally_annotated"&&ids.length>0,"Pilot unreviewed line: E05 L"+line);
+ assert(ids.length===state.record_ids.length&&ids.every(id=>state.record_ids.includes(id)),"Pilot line->event pointers mismatch: E05 L"+line);
+}
+assert(pilot.records.filter(x=>x.line===16&&x.action_name==="kiss_on_cheek").length===2,"Separate twins' cheek gestures lost");
+assert(pilot.records.some(x=>x.line===19&&x.actor==="bobby"&&x.action_name==="return_for_cheek_peck"),"Bobby separate parting action lost");
+assert(pilot.records.some(x=>x.line===35&&x.certainty==="ambiguous"&&x.action_name==="unresolved_guest_speaker_label"),"Leo/Ron speaker ambiguity was silently normalized");
+assert(JSON.stringify(pilot.known_unreviewed_line_ranges)==="[[51,233]]","E05 pilot must mark remaining lines unreviewed");
+console.log("PASS: E05 semantic pilot checks 46 of 233 lines and "+pilot.records.length+" source-anchored events; rest NOT reviewed.");
+
 console.log("PASS: GitHub source has 69 complete episode headings; E01–E04 analyzed, E05 audited.");
