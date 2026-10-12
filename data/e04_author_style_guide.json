@@ -9,7 +9,7 @@
   ],
   "evidence_scope": "analysis until E04; original E05 neither accessed nor used",
   "source": "raw/Dhika.txt",
-  "style_goal": "Source-grounded mechanics for future scene directions; avoid copying distinctive passages; focus on pacing, viewpoint, conversation and emotional continuity",
+  "style_goal": "Source-grounded mechanics for future scene directions; avoid copying distinctive passages; focus on pacing, viewpoint, conversation and emotional continuity Every claim-versus-event contrast and multi-person visual scene requires evidence-granularity rather than a generic summary.",
   "features": [
     {
       "id": "STYLE-01",
@@ -276,6 +276,53 @@
       ],
       "mechanic": "A scene stops at a physical observation or verbal question before the other character responds; next episode may use immediate scene continuation or a retrospective opener",
       "writer_instruction": "Store explicit cliffhanger condition: last act, who must respond, setting, what information is withheld, and permitted next-transition alternatives"
+    },
+    {
+      "id": "STYLE-13",
+      "name": "separate_dialogue_label_from_narrated_visual_fact",
+      "evidence": [
+        [
+          "E04",
+          123,
+          126
+        ],
+        [
+          "E04",
+          152,
+          177
+        ]
+      ],
+      "mechanic": "The narrator specifies the visible event, a speaker later uses a stronger label, and another speaker disputes the literal label. These are three different evidence classes, not one physical action.",
+      "writer_instruction": "Record visible event separately from the spoken claim or question. Preserve the source-supported degree of exposure and the explicit correction. Do not equate a question with a confirmed event.",
+      "character_specific": {
+        "dhika": "Corrects how her appearance is characterized; reaction can differ from narration.",
+        "bantu": "Uses a provocative label and later backs away from its literal wording.",
+        "bobby": "Speaks and observes independently rather than automatically sharing Bantu's interpretation."
+      }
+    },
+    {
+      "id": "STYLE-14",
+      "name": "single_scene_actor_observer_response_triplet",
+      "evidence": [
+        [
+          "E03",
+          219,
+          235
+        ],
+        [
+          "E04",
+          120,
+          142
+        ]
+      ],
+      "mechanic": "A chosen adjustment changes the visible context; another character notices; the first character observes the attention and forms a new private interpretation. No one participant's perspective is equivalent to all three beats.",
+      "writer_instruction": "Create separate IDs for initiating gesture, what each observer notices, immediate spoken/visible response, and mental reaction. Cite each local source line and link IDs in temporal order.",
+      "character_specific": {
+        "dhika": "Choice, self-consciousness, observation of another's gaze and immediate verbal response must be individually indexed.",
+        "bantu": "Spoken confidence and tactics are distinct from actually observed behavior.",
+        "bobby": "Quiet visual attention and shorter statements are separate from Bantu's strategy.",
+        "chotu": "Private interpretation of visual attention must not be silently transferred into Dhika's knowledge."
+      }
     }
   ],
   "character_voice_profiles": {
