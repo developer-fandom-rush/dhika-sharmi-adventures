@@ -1,0 +1,1454 @@
+{
+  "schema_version": 1,
+  "kind": "bond_evolution",
+  "episode_scope": [
+    "E01"
+  ],
+  "source": {
+    "id": "Dhika.txt",
+    "path": "raw/Dhika.txt",
+    "episode_id": "E01",
+    "line_numbering": "E01-local inclusive; EPISODE 1 is L001; includes empty lines",
+    "master_line_count": 14046,
+    "episode_line_count": 229,
+    "episode_characters": 27914
+  },
+  "append_only": true,
+  "relationships": [
+    {
+      "id": "dhika_uncle",
+      "participants": [
+        "dhika",
+        "uncle"
+      ],
+      "states": [
+        {
+          "id": "dhika_uncle:E01:1",
+          "sequence": 1,
+          "state_tag": "trusted_neighbor_vs_concealed_interest",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 19,
+          "line_end": 20,
+          "raw_lines": [
+            {
+              "line": 19,
+              "text": "Aunty and Uncle, both in their early 60s lived next door, were almost like second guardians for Dhika and John. Having no heir to themselves, Aunty treated Dhika and John like her own kids, and as to Uncle, Dhika was a little more than that. With his marital life stale, and Dhika being the gorgeous next door girl,... he never missed a chance to ogle at her."
+            },
+            {
+              "line": 20,
+              "text": "But, he never let Dhika or John know anything about it, and especially his wife."
+            }
+          ]
+        },
+        {
+          "id": "dhika_uncle:E01:2",
+          "sequence": 2,
+          "state_tag": "childcare_access",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 21,
+          "line_end": 29,
+          "raw_lines": [
+            {
+              "line": 21,
+              "text": "Uncle: Dhika, come come. Is Pappu still sleeping ?"
+            },
+            {
+              "line": 22,
+              "text": "Dhika: Yes Uncle... Is Aunty here ?"
+            },
+            {
+              "line": 23,
+              "text": "Uncle: She just went down.... Give him to me."
+            },
+            {
+              "line": 24,
+              "text": "Dhika: Thank you Uncle...."
+            },
+            {
+              "line": 25,
+              "text": "Dhika: I have milk stored for Pappu in the fridge."
+            },
+            {
+              "line": 26,
+              "text": "Dhika: And when he wakes up..... *"
+            },
+            {
+              "line": 27,
+              "text": "Uncle: I got it Dhika, don't worry."
+            },
+            {
+              "line": 28,
+              "text": "Dhika: Thanks again Uncle,... I am running late,.. Please inform aunty....."
+            },
+            {
+              "line": 29,
+              "text": "And before her voice trailed off,... Dhika vanished down the stairs."
+            }
+          ]
+        },
+        {
+          "id": "dhika_uncle:E01:3",
+          "sequence": 3,
+          "state_tag": "unconsented_private_action_hidden",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 65,
+          "line_end": 69,
+          "raw_lines": [
+            {
+              "line": 65,
+              "text": "Eyes closed,... fingers fiddling with her bra,... Uncle imagined two milky breasts filled in those little cups,... struggling to spill out of the enclosure,....... and a tiny set of fingers caressing the top of those bulging breasts......"
+            },
+            {
+              "line": 66,
+              "text": "Head swinging, he groaned as he sniffed into the inside of her used bra......"
+            },
+            {
+              "line": 67,
+              "text": "Aunty: Wherree are youuu ?"
+            },
+            {
+              "line": 68,
+              "text": "Uncle: uhn,.... I'm Coming........."
+            },
+            {
+              "line": 69,
+              "text": "Dropping Dhika's bra on her bathroom floor, and grabbing the milk bottle from the fridge, Uncle ran back to his own house, heals hitting his head."
+            }
+          ]
+        },
+        {
+          "id": "dhika_uncle:E01:4",
+          "sequence": 4,
+          "state_tag": "displaced_object_unrecognized",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 113,
+          "line_end": 114,
+          "raw_lines": [
+            {
+              "line": 113,
+              "text": "Dhika: (  taking her Kurti... she went to bathroom. ) what is this... why is my bra lying on the floor."
+            },
+            {
+              "line": 114,
+              "text": "She noticed one bra was drying in the sink and one bra was lying on the floor. She left it at the side of the tap on the sink. No one else comes to her house expect aunty or uncle to take milk from fridge. she took it light and thought may be it slipped and fell down slowly. She is very innocent and did not suspect anything else."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dhika_sharmi",
+      "participants": [
+        "dhika",
+        "sharmi"
+      ],
+      "states": [
+        {
+          "id": "dhika_sharmi:E01:1",
+          "sequence": 1,
+          "state_tag": "friendship_familiarity",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 52,
+          "line_end": 56,
+          "raw_lines": [
+            {
+              "line": 52,
+              "text": "Sharmi: Oi, Big Girl...."
+            },
+            {
+              "line": 53,
+              "text": "Dhika: Ahh... heyyyy...."
+            },
+            {
+              "line": 54,
+              "text": "Pinching Dhika's waist,... a bubbly character pulled beside her....."
+            },
+            {
+              "line": 55,
+              "text": "Sharmi, the bubbly character was Dhika's childhood friend,... college mate, college mate, and best friend,.... and just as good hearted as Dhika, but only not as shy as her. With eyes bigger than Dhika's, Sharmi had even fuller lips, and both those big eyes and full lips never settled down, always twinkling naughtiness."
+            },
+            {
+              "line": 56,
+              "text": "Though being from a rich background, Sharmi never showed it to Dhika,... and wanting to be with her friend, Sharmi had taken a job at the same college where Dhika taught."
+            }
+          ]
+        },
+        {
+          "id": "dhika_sharmi:E01:2",
+          "sequence": 2,
+          "state_tag": "teasing_comparison",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 57,
+          "line_end": 63,
+          "raw_lines": [
+            {
+              "line": 57,
+              "text": "Unlike Dhika, Sharmi was quite the opposite of conservative."
+            },
+            {
+              "line": 58,
+              "text": "She was very naughty, very modern and dressed in sleeveless blouses to the college."
+            },
+            {
+              "line": 59,
+              "text": "Even though Sharmi was quite attractive herself, she was always a bit envious of Dhika who despite covering her whole body from head to toe, looked more attractive and had many fan followers. Even Sharmi's husband Raj had complemented the beauty of Dhika, and Sharmi knew how hard was it to impress him."
+            },
+            {
+              "line": 60,
+              "text": "Sharmi constantly teased Dhika that she was particularly jealous(  on a playful side) of something that Dhika had it much bigger than of her own."
+            },
+            {
+              "line": 61,
+              "text": "Dhika: Hehe, dutt... Don't start in the morning itself."
+            },
+            {
+              "line": 62,
+              "text": "Dhika: And like you have something bigger than most... she put her tongue out."
+            },
+            {
+              "line": 63,
+              "text": "Giggling and laughing, both entered the college....."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dhika_john",
+      "participants": [
+        "dhika",
+        "john"
+      ],
+      "states": [
+        {
+          "id": "dhika_john:E01:1",
+          "sequence": 1,
+          "state_tag": "married_household_baseline",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 7,
+          "line_end": 12,
+          "raw_lines": [
+            {
+              "line": 7,
+              "text": "Name          : Dhika John"
+            },
+            {
+              "line": 8,
+              "text": "Age             : 29"
+            },
+            {
+              "line": 9,
+              "text": "Height        : 5'6''"
+            },
+            {
+              "line": 10,
+              "text": "Weight       : 56 kgs"
+            },
+            {
+              "line": 11,
+              "text": "Husband    : John"
+            },
+            {
+              "line": 12,
+              "text": "Dhika is a high college teacher, teaching Physics to senior students. Her kind hearted nature makes her the most favorite of her students and she does take special care in helping any student who is in need. She was married a few years ago and has a 2 year old son.She lives with her family in a nice apartment in the outskirts of a city."
+            }
+          ]
+        },
+        {
+          "id": "dhika_john:E01:2",
+          "sequence": 2,
+          "state_tag": "work_emergency_phone_reassurance",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 158,
+          "line_end": 163,
+          "raw_lines": [
+            {
+              "line": 158,
+              "text": "It was 8 PM and still John did not come. Usually he tries to come a little early on Friday nights and try to have some good time with her... but he was very late today. She thought something must be urgent in office and kept waiting. After few minutes, she got a call from John."
+            },
+            {
+              "line": 159,
+              "text": "John: Baby, I will not be coming home today. There is a huge production issue and everyone is staying back to fix it...... so sorry my dear."
+            },
+            {
+              "line": 160,
+              "text": "John was always very sweet and caring towards her."
+            },
+            {
+              "line": 161,
+              "text": "Dhika: ohhh..... but its Friday night banana . No one has to work on Friday late evening. She understood the situation but still tired to play with him like usual. (  Childish play, not naughty play)"
+            },
+            {
+              "line": 162,
+              "text": "John: I have to go baby, I will come tomorrow morning. He said kisses and kept the call."
+            },
+            {
+              "line": 163,
+              "text": "Dhika understood the situation, John was always a good worker and he loved his job just as much as he lover her. She knew that from the initial days of her marriage itself and it is one of the things she admires about him."
+            }
+          ]
+        },
+        {
+          "id": "dhika_john:E01:3",
+          "sequence": 3,
+          "state_tag": "work_absence_continues",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 170,
+          "line_end": 172,
+          "raw_lines": [
+            {
+              "line": 170,
+              "text": "She woke up the next morning and went to check on Pappu. He was still sleeping. She thought to call John and called him but he did not pick the call. She thought probably he is taking rest in office. She kept the phone and went to refresh and prepare breakfast."
+            },
+            {
+              "line": 171,
+              "text": "It was around 10 PM when John called her, while she was feeding Pappu. He asked about them and then informed that issue is still going on he would come by evening. He said that he had refreshed in office itself and that he will come evening and take bath. She teased him playfully that he would be stinking when he comes home."
+            },
+            {
+              "line": 172,
+              "text": "She finished feeding Pappu and took him to bath. She bathed him, put him in front of TV and she also bathed. She didn't have anywhere to go, so she wore a casual sleeveless low cut salwar. John had brought it for her and she wears it only at home. Later she played sometime with Pappu and they watched TV for a while and then afternoon only after she put Pappu to sleep, she remembered something. She has not paid money to Maami yet. She didn't want to change her dress and go out. So she called Maami and asked to send Chotu if he was free."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dhika_bantu",
+      "participants": [
+        "dhika",
+        "bantu"
+      ],
+      "states": [
+        {
+          "id": "dhika_bantu:E01:1",
+          "sequence": 1,
+          "state_tag": "regular_compliments",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 31,
+          "line_end": 35,
+          "raw_lines": [
+            {
+              "line": 31,
+              "text": "Bantu: Looking very pretty miss.."
+            },
+            {
+              "line": 32,
+              "text": "Bantu: Just like yesterday,.. and the day before..."
+            },
+            {
+              "line": 33,
+              "text": "Dhika: Blushing,... Ai... Shush !!"
+            },
+            {
+              "line": 34,
+              "text": "Even before turning, she knew who it was,... She just hoped no one else was around....."
+            },
+            {
+              "line": 35,
+              "text": "Not anyone can speak to Dhika like this... but her favourite twins did have a few exceptions with her..."
+            }
+          ]
+        },
+        {
+          "id": "dhika_bantu:E01:2",
+          "sequence": 2,
+          "state_tag": "favourite_student_and_expected_praise",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 39,
+          "line_end": 44,
+          "raw_lines": [
+            {
+              "line": 39,
+              "text": "Bantu and Bobby are twins, and her most favourite students. Very studious and always behind her. Well, Bantu was always behind her and Bobby just followed him around."
+            },
+            {
+              "line": 40,
+              "text": "Bantu was the charming, always talking one, and he does know how to put a smile on someone's face. Bobby on the other hand was very shy but not anywhere near timid. He does talk freely, but only with Bantu and that always intrigued Dhika."
+            },
+            {
+              "line": 41,
+              "text": "Out of her two favourites, Dhika liked Bobby a bit more because one, he looked a little chubby and two,... he was always a little more shier around her."
+            },
+            {
+              "line": 42,
+              "text": "Bantu never failed to compliment his teacher every single day. Initially, she felt uncomfortable when he said pretty, but over time Bantu being her favourite and all, she started to liked it and nowadays, Dhika secretly expects it."
+            },
+            {
+              "line": 43,
+              "text": "Dhika: The saree looks so good on you, miss...."
+            },
+            {
+              "line": 44,
+              "text": "Dhika: Ai,.. stop it. Run to the class now..."
+            }
+          ]
+        },
+        {
+          "id": "dhika_bantu:E01:3",
+          "sequence": 3,
+          "state_tag": "afternoon_compliment",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 70,
+          "line_end": 78,
+          "raw_lines": [
+            {
+              "line": 70,
+              "text": "It was 4 PM and Dhika was alone in the staff room. She was winding up for the day when she saw Bantu and Bobby coming towards her."
+            },
+            {
+              "line": 71,
+              "text": "Dhika: Hey Bantu... didn't you go to home yet.... what are you doing in college still."
+            },
+            {
+              "line": 72,
+              "text": "Bantu: I came to say tata to my beautiful miss."
+            },
+            {
+              "line": 73,
+              "text": "****Bobby was as usual silent and looking at them."
+            },
+            {
+              "line": 74,
+              "text": "Dhika: hehe.... stop it Bantu, I am not that beautiful."
+            },
+            {
+              "line": 75,
+              "text": "Bantu: Promise miss.... you look very beautiful."
+            },
+            {
+              "line": 76,
+              "text": "Dhika:There are lot of pretty girls in your class and you should be praising them not me."
+            },
+            {
+              "line": 77,
+              "text": "*****She was blushing inside that a 18 year old thinks her as beautiful."
+            },
+            {
+              "line": 78,
+              "text": "Bantu: No miss.... I think you are more beautiful them anyone in this college. In fact, you are the most beautiful person I have ever seen. He was very charming and know how to talk to a women."
+            }
+          ]
+        },
+        {
+          "id": "dhika_bantu:E01:4",
+          "sequence": 4,
+          "state_tag": "misrepresented_transport_request",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 81,
+          "line_end": 89,
+          "raw_lines": [
+            {
+              "line": 81,
+              "text": "Bantu: Miss... you know we live near your house. can you please take us with you today."
+            },
+            {
+              "line": 82,
+              "text": "Dhika: why bantu... where is your scooty."
+            },
+            {
+              "line": 83,
+              "text": "Bantu: Miss... petrol over and we didn't bring money today"
+            },
+            {
+              "line": 84,
+              "text": "Dhika: ohh Bantu... dont worry. I will give money for petrol."
+            },
+            {
+              "line": 85,
+              "text": "Bantu: No miss... please. Dad will scold if he knows I took money from others."
+            },
+            {
+              "line": 86,
+              "text": "Dhika: Its okay Bantu.... take it and you can return it to me tomorrow,"
+            },
+            {
+              "line": 87,
+              "text": "Bantu: No miss..... please give us lift and I will bring petrol and take bike tomorrow."
+            },
+            {
+              "line": 88,
+              "text": "There was nothing wrong with the bike. Bantu wanted to ride with Dhika"
+            },
+            {
+              "line": 89,
+              "text": "Dhika: abbaa... okay dear. I will take you both. Come lets leave."
+            }
+          ]
+        },
+        {
+          "id": "dhika_bantu:E01:5",
+          "sequence": 5,
+          "state_tag": "ride_seat_frustration_and_silence",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 90,
+          "line_end": 106,
+          "raw_lines": [
+            {
+              "line": 90,
+              "text": "She took her bag and went to the parking lot. Both the boys followed a little behind her. Bantu saw her beautiful apple like ass jiggling lightly when she walked. He also saw innocent Bobby looking at her ass. He hit Bobby lightly in his shoulders and winked at him. Bobby blushed and returned a smile."
+            },
+            {
+              "line": 91,
+              "text": "Dhika: okay dears....lets go.. Bobby, give your bag to Bantu and climb in the middle. Bantu can sit behind you."
+            },
+            {
+              "line": 92,
+              "text": "Bobby: okay miss.... He was secretly smiling. He wanted to sit close to her but didn't have courage to tell that to Bantu."
+            },
+            {
+              "line": 93,
+              "text": "Bantu wanted to sit close to Dhika. He was about to tell something when he saw Bobby run and climb the bike before him. Scolding inside... he too got in the bike and they started to leave."
+            },
+            {
+              "line": 94,
+              "text": "Dhika: Bobby, you can hold me so that you don't miss balance. Bantu, hold and sit Bobby."
+            },
+            {
+              "line": 95,
+              "text": "Bantu: hrrrrrr...... okay miss. he said sadly."
+            },
+            {
+              "line": 96,
+              "text": "Bobby: giggling silently..... okay miss.."
+            },
+            {
+              "line": 97,
+              "text": "He did something which Dhika did not expect. Bobby, instead of holding her shoulders, put both his hands around her hip and held her stomach tightly."
+            },
+            {
+              "line": 98,
+              "text": "Dhika: isss..... what is he doing. I meant him to hold my shoulders."
+            },
+            {
+              "line": 99,
+              "text": "Dhika thought he is like innocent to hold her around the stomach like a child. So she didn't want to embarrass him and kept quite and started driving in silence."
+            },
+            {
+              "line": 100,
+              "text": "A little later she felt a light tapping in her stomach. She looked down and say Bobby's one finger was tapping her stomach over the saree. She also felt due to this, his hands at the side of the hips were moving slowly and rubbing against her bare hip."
+            },
+            {
+              "line": 101,
+              "text": "She felt a chill go through her body. No one expect her husband has touch her even in the hips. She was feeling very shy but couldn't do anything. Lucky for her, they reached their place already and they got down."
+            },
+            {
+              "line": 102,
+              "text": "Bobby: Thank you miss.... he said with a shy smile....."
+            },
+            {
+              "line": 103,
+              "text": "Bantu: Thank you miss.... he said sadly...."
+            },
+            {
+              "line": 104,
+              "text": "Dhika: don't worry dears..... why are you sad Bantu ?"
+            },
+            {
+              "line": 105,
+              "text": "Bantu: uhn.... nothing miss... he didnt want to tell her the reason."
+            },
+            {
+              "line": 106,
+              "text": "Dhika said her byes and left. Bantu started cursing Bobby for running and sitting next to her. Only Bobby know what all he did but didn't want to tell Bantu and make him more sad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dhika_bobby",
+      "participants": [
+        "dhika",
+        "bobby"
+      ],
+      "states": [
+        {
+          "id": "dhika_bobby:E01:1",
+          "sequence": 1,
+          "state_tag": "shy_favourite_student",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 39,
+          "line_end": 42,
+          "raw_lines": [
+            {
+              "line": 39,
+              "text": "Bantu and Bobby are twins, and her most favourite students. Very studious and always behind her. Well, Bantu was always behind her and Bobby just followed him around."
+            },
+            {
+              "line": 40,
+              "text": "Bantu was the charming, always talking one, and he does know how to put a smile on someone's face. Bobby on the other hand was very shy but not anywhere near timid. He does talk freely, but only with Bantu and that always intrigued Dhika."
+            },
+            {
+              "line": 41,
+              "text": "Out of her two favourites, Dhika liked Bobby a bit more because one, he looked a little chubby and two,... he was always a little more shier around her."
+            },
+            {
+              "line": 42,
+              "text": "Bantu never failed to compliment his teacher every single day. Initially, she felt uncomfortable when he said pretty, but over time Bantu being her favourite and all, she started to liked it and nowadays, Dhika secretly expects it."
+            }
+          ]
+        },
+        {
+          "id": "dhika_bobby:E01:2",
+          "sequence": 2,
+          "state_tag": "noticed_attention",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 79,
+          "line_end": 80,
+          "raw_lines": [
+            {
+              "line": 79,
+              "text": "****Bobby was quite and smiling and suddenly he saw something he has never seen before. He saw Dhika saree at the hip was a little below and a small white hip was visible. He was a shy guy but liked his teacher just like Bantu."
+            },
+            {
+              "line": 80,
+              "text": "Dhika turned to Bobby to say something when she noticed saw Bobby looking down at something from his corner eye. She look down to see what it is and found that her hip was showing some skin. She felt embarrassed but didn't cover it as she didn't want to embarrass Bobby. She turned a little pink with Bobby peeking at her hip."
+            }
+          ]
+        },
+        {
+          "id": "dhika_bobby:E01:3",
+          "sequence": 3,
+          "state_tag": "middle_seat_and_safety_instruction",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 91,
+          "line_end": 96,
+          "raw_lines": [
+            {
+              "line": 91,
+              "text": "Dhika: okay dears....lets go.. Bobby, give your bag to Bantu and climb in the middle. Bantu can sit behind you."
+            },
+            {
+              "line": 92,
+              "text": "Bobby: okay miss.... He was secretly smiling. He wanted to sit close to her but didn't have courage to tell that to Bantu."
+            },
+            {
+              "line": 93,
+              "text": "Bantu wanted to sit close to Dhika. He was about to tell something when he saw Bobby run and climb the bike before him. Scolding inside... he too got in the bike and they started to leave."
+            },
+            {
+              "line": 94,
+              "text": "Dhika: Bobby, you can hold me so that you don't miss balance. Bantu, hold and sit Bobby."
+            },
+            {
+              "line": 95,
+              "text": "Bantu: hrrrrrr...... okay miss. he said sadly."
+            },
+            {
+              "line": 96,
+              "text": "Bobby: giggling silently..... okay miss.."
+            }
+          ]
+        },
+        {
+          "id": "dhika_bobby:E01:4",
+          "sequence": 4,
+          "state_tag": "contact_not_matching_instruction",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 97,
+          "line_end": 101,
+          "raw_lines": [
+            {
+              "line": 97,
+              "text": "He did something which Dhika did not expect. Bobby, instead of holding her shoulders, put both his hands around her hip and held her stomach tightly."
+            },
+            {
+              "line": 98,
+              "text": "Dhika: isss..... what is he doing. I meant him to hold my shoulders."
+            },
+            {
+              "line": 99,
+              "text": "Dhika thought he is like innocent to hold her around the stomach like a child. So she didn't want to embarrass him and kept quite and started driving in silence."
+            },
+            {
+              "line": 100,
+              "text": "A little later she felt a light tapping in her stomach. She looked down and say Bobby's one finger was tapping her stomach over the saree. She also felt due to this, his hands at the side of the hips were moving slowly and rubbing against her bare hip."
+            },
+            {
+              "line": 101,
+              "text": "She felt a chill go through her body. No one expect her husband has touch her even in the hips. She was feeling very shy but couldn't do anything. Lucky for her, they reached their place already and they got down."
+            }
+          ]
+        },
+        {
+          "id": "dhika_bobby:E01:5",
+          "sequence": 5,
+          "state_tag": "departure_without_discussion",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 102,
+          "line_end": 106,
+          "raw_lines": [
+            {
+              "line": 102,
+              "text": "Bobby: Thank you miss.... he said with a shy smile....."
+            },
+            {
+              "line": 103,
+              "text": "Bantu: Thank you miss.... he said sadly...."
+            },
+            {
+              "line": 104,
+              "text": "Dhika: don't worry dears..... why are you sad Bantu ?"
+            },
+            {
+              "line": 105,
+              "text": "Bantu: uhn.... nothing miss... he didnt want to tell her the reason."
+            },
+            {
+              "line": 106,
+              "text": "Dhika said her byes and left. Bantu started cursing Bobby for running and sitting next to her. Only Bobby know what all he did but didn't want to tell Bantu and make him more sad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bantu_bobby",
+      "participants": [
+        "bantu",
+        "bobby"
+      ],
+      "states": [
+        {
+          "id": "bantu_bobby:E01:1",
+          "sequence": 1,
+          "state_tag": "twin_personality_contrast",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 39,
+          "line_end": 42,
+          "raw_lines": [
+            {
+              "line": 39,
+              "text": "Bantu and Bobby are twins, and her most favourite students. Very studious and always behind her. Well, Bantu was always behind her and Bobby just followed him around."
+            },
+            {
+              "line": 40,
+              "text": "Bantu was the charming, always talking one, and he does know how to put a smile on someone's face. Bobby on the other hand was very shy but not anywhere near timid. He does talk freely, but only with Bantu and that always intrigued Dhika."
+            },
+            {
+              "line": 41,
+              "text": "Out of her two favourites, Dhika liked Bobby a bit more because one, he looked a little chubby and two,... he was always a little more shier around her."
+            },
+            {
+              "line": 42,
+              "text": "Bantu never failed to compliment his teacher every single day. Initially, she felt uncomfortable when he said pretty, but over time Bantu being her favourite and all, she started to liked it and nowadays, Dhika secretly expects it."
+            }
+          ]
+        },
+        {
+          "id": "bantu_bobby:E01:2",
+          "sequence": 2,
+          "state_tag": "competition_over_position",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 90,
+          "line_end": 96,
+          "raw_lines": [
+            {
+              "line": 90,
+              "text": "She took her bag and went to the parking lot. Both the boys followed a little behind her. Bantu saw her beautiful apple like ass jiggling lightly when she walked. He also saw innocent Bobby looking at her ass. He hit Bobby lightly in his shoulders and winked at him. Bobby blushed and returned a smile."
+            },
+            {
+              "line": 91,
+              "text": "Dhika: okay dears....lets go.. Bobby, give your bag to Bantu and climb in the middle. Bantu can sit behind you."
+            },
+            {
+              "line": 92,
+              "text": "Bobby: okay miss.... He was secretly smiling. He wanted to sit close to her but didn't have courage to tell that to Bantu."
+            },
+            {
+              "line": 93,
+              "text": "Bantu wanted to sit close to Dhika. He was about to tell something when he saw Bobby run and climb the bike before him. Scolding inside... he too got in the bike and they started to leave."
+            },
+            {
+              "line": 94,
+              "text": "Dhika: Bobby, you can hold me so that you don't miss balance. Bantu, hold and sit Bobby."
+            },
+            {
+              "line": 95,
+              "text": "Bantu: hrrrrrr...... okay miss. he said sadly."
+            },
+            {
+              "line": 96,
+              "text": "Bobby: giggling silently..... okay miss.."
+            }
+          ]
+        },
+        {
+          "id": "bantu_bobby:E01:3",
+          "sequence": 3,
+          "state_tag": "withheld_details",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 102,
+          "line_end": 106,
+          "raw_lines": [
+            {
+              "line": 102,
+              "text": "Bobby: Thank you miss.... he said with a shy smile....."
+            },
+            {
+              "line": 103,
+              "text": "Bantu: Thank you miss.... he said sadly...."
+            },
+            {
+              "line": 104,
+              "text": "Dhika: don't worry dears..... why are you sad Bantu ?"
+            },
+            {
+              "line": 105,
+              "text": "Bantu: uhn.... nothing miss... he didnt want to tell her the reason."
+            },
+            {
+              "line": 106,
+              "text": "Dhika said her byes and left. Bantu started cursing Bobby for running and sitting next to her. Only Bobby know what all he did but didn't want to tell Bantu and make him more sad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dhika_chotu",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "states": [
+        {
+          "id": "dhika_chotu:E01:1",
+          "sequence": 1,
+          "state_tag": "established_didi_delivery_trust",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 117,
+          "line_end": 125,
+          "raw_lines": [
+            {
+              "line": 117,
+              "text": "20 minutes later she heard the door bell ring. She saw through the peep whole and saw Chotu standing here."
+            },
+            {
+              "line": 118,
+              "text": "Chotu's real name is Babu, a 19 year old boy, who works at the departmental store. He is the one who always delivers products in and around her apartments. She has know Chotu for almost a year now and she felt bad for him as he left his studies and came to work to support his family. She was always kind to him by giving him extra tips for delivery and tea or coffee when he comes to deliver. Chotu is also very good and always polite with her. He always brought a chocolate to Pappu whenever he came."
+            },
+            {
+              "line": 119,
+              "text": "Initially Chotu used to stand outside and deliver and leave. Later when she got acquainted with him, she invited him inside to give him tea. Chotu was happy to be in the presence of her and he would drink tea and play with Pappu 2 mins and leave. Over the months, the two got closer and she thought Chotu like her brother. He told her all the problems in his family and she used to give him advice to make more money in his free time."
+            },
+            {
+              "line": 120,
+              "text": "She took her shawl and covered her modestly and opened the door."
+            },
+            {
+              "line": 121,
+              "text": "Chotu: didi.... please move...quick.... the bag is very heavy. he almost pushed her. He placed the heavy bag on the floor and started unpacking"
+            },
+            {
+              "line": 122,
+              "text": "Dhika: Chotu Babu..... thanks for bringing them. if not for you, I would have to carry them myself, hehe, thank god."
+            },
+            {
+              "line": 123,
+              "text": "Chotu: (  unpacking) didi...... everyone either calls me chotu or babu. Why do you say chotu babu ?"
+            },
+            {
+              "line": 124,
+              "text": "Dhika: giggling...... I like calling you that. Chotu Babu.... she giggled like a child."
+            },
+            {
+              "line": 125,
+              "text": "Chotu: hehe..... you are so like a child didi... he finished unpacking and stood up and gave the bill to her."
+            }
+          ]
+        },
+        {
+          "id": "dhika_chotu:E01:2",
+          "sequence": 2,
+          "state_tag": "unplanned_return",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 126,
+          "line_end": 130,
+          "raw_lines": [
+            {
+              "line": 126,
+              "text": "Dhika: Looking at the bill.......Chotu, you missed noodles packet. I was planning to make it for dinner tonight...."
+            },
+            {
+              "line": 127,
+              "text": "Chotu: sorry didi..... give me 10 mins. He said and ran outside before she could stop him."
+            },
+            {
+              "line": 128,
+              "text": "She smiled and closed the door and went to arrange the store items in her fridge. She felt the dupatta coming in between many a times. At one point, she got childish angry and grabbed the dupatta and threw it on the sofa where Pappu was sitting. When the dupatta fell on Pappu, he rolled the cloth around him like a ghost and laughed at his mom about his new appearance. Dhika too laughed with him like another child and proceeded with her work."
+            },
+            {
+              "line": 129,
+              "text": "10 mins later, she again heard the bell. She went to the peep hole and saw Chotu. She immediately went to the sofa to fetch her dupatta but Pappu wouldn't give it. She tried pulling, but if she try harder, she may pull Pappu down the floor. Pappu wouldn't leave it."
+            },
+            {
+              "line": 130,
+              "text": "Meanwhile Chotu kept ringing the bell.. Thinking that it is only her innocent Chotu and he would get the money and leave from outside, she went to open the door..........."
+            }
+          ]
+        },
+        {
+          "id": "dhika_chotu:E01:3",
+          "sequence": 3,
+          "state_tag": "first_awkward_event_unresolved",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 141,
+          "line_end": 151,
+          "raw_lines": [
+            {
+              "line": 141,
+              "text": "Dhika: Here my Chotu Babu.... she said with a giggle and as Chotu was on floor, she bent down to give it to him."
+            },
+            {
+              "line": 142,
+              "text": "She saw Chotu's laugh vanishing and he taking the glass from her with a deep thought in his eyes. She didn't realize what was happening. She gave it to him and stood up. As soon as she stood up, she realized what happened....."
+            },
+            {
+              "line": 143,
+              "text": "Dhika: ooohhhmmmmyyyy ayyoooo....... I bent down without wearing dupatta. what if he saw inside my dress."
+            },
+            {
+              "line": 144,
+              "text": "She looked at Chotu who was still in dream state. She realized something was wrong, but couldn't be sure."
+            },
+            {
+              "line": 145,
+              "text": "Dhika: Chotu..... what happened !! why do you look stunned??"
+            },
+            {
+              "line": 146,
+              "text": "Chotu: ...."
+            },
+            {
+              "line": 147,
+              "text": "Dhika: CHOTU.... she said a little loud."
+            },
+            {
+              "line": 148,
+              "text": "Chotu: uh haan ya didi..... did you say something ?"
+            },
+            {
+              "line": 149,
+              "text": "Dhika: hmmm... what happened !! why do you look stunned??"
+            },
+            {
+              "line": 150,
+              "text": "Chotu: Errrr...... nothing didi. Just .... he gulped the juice and said it is getting late and left without even getting the money from her."
+            },
+            {
+              "line": 151,
+              "text": "Dhika couldn't be sure if he saw her cleavage or her bra or what if something more was visible. She felt a little frightened but at the same time she felt a little excited. Nothing like this has happened to her and this was a new experience to her. She didn't understand what to feel."
+            }
+          ]
+        },
+        {
+          "id": "dhika_chotu:E01:4",
+          "sequence": 4,
+          "state_tag": "charitable_reinterpretation",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 152,
+          "line_end": 157,
+          "raw_lines": [
+            {
+              "line": 152,
+              "text": "Dhika went to clean the glasses and that's when she realized that Chotu did not take money for the things. She immediately called Maami."
+            },
+            {
+              "line": 153,
+              "text": "Maami: Its okay kanna... I will take it tomorrow. I don't have anyone to send now and you don't have to come now."
+            },
+            {
+              "line": 154,
+              "text": "Dhika: why Maami.... where is Chotu ?"
+            },
+            {
+              "line": 155,
+              "text": "Maami: He said he wanted to leave soon and I let him go..... poor kid has to go home and help his mother too. He works very hard."
+            },
+            {
+              "line": 156,
+              "text": "Dhika: okay Maami.... I will bring the money tomorrow... and she kept the call."
+            },
+            {
+              "line": 157,
+              "text": "Upon hearing Maami saying about Chotu, she felt bad for him and thought that he was in a dream state probably thinking about his poor family situation. She left her thoughts there and went back to work."
+            }
+          ]
+        },
+        {
+          "id": "dhika_chotu:E01:5",
+          "sequence": 5,
+          "state_tag": "return_and_evasive_reply",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 174,
+          "line_end": 180,
+          "raw_lines": [
+            {
+              "line": 174,
+              "text": "Chotu: Didi..... please open the door. Chotu was ringing the bell and shouting joyfully from the other side of the door."
+            },
+            {
+              "line": 175,
+              "text": "Dhika: opening the door.....my Chotu Babu...... looking happy today. Yesterday you ran without getting money even."
+            },
+            {
+              "line": 176,
+              "text": "Chotu: Scratching his head...... haaaannn didi... I suddenly remembered a work mom gave and had to run..he lied."
+            },
+            {
+              "line": 177,
+              "text": "Dhika: stupid fellow... hehe..... always forgetting things."
+            },
+            {
+              "line": 178,
+              "text": "Chotu came in and was feeling hurry to get the money and leave."
+            },
+            {
+              "line": 179,
+              "text": "Dhika: Why are you in a hurry.... wait let me get the money."
+            },
+            {
+              "line": 180,
+              "text": "Chotu: its my lunch time didi..... I only have an hour to go home eat and come back.. soon didi...give me the money."
+            }
+          ]
+        },
+        {
+          "id": "dhika_chotu:E01:6",
+          "sequence": 6,
+          "state_tag": "hospitality_and_shared_meal",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 181,
+          "line_end": 193,
+          "raw_lines": [
+            {
+              "line": 181,
+              "text": "Dhika: ok ok.... don't cry.... wait. She has never given food to him, she thought."
+            },
+            {
+              "line": 182,
+              "text": "Dhika: Chotu...... would you like to eat with me today."
+            },
+            {
+              "line": 183,
+              "text": "Chotu: feeling surprised...... didi mom would have made food"
+            },
+            {
+              "line": 184,
+              "text": "Dhika: John is in office and I made food for him too.... he will not come to eat. besides, you have never tasted my food."
+            },
+            {
+              "line": 185,
+              "text": "After few minutes of asking, Chotu decided to eat. He helped her to take plates and food. He refused to sit in the dining table and she was tired in making him sit there. So she decided to sit with him on the floor."
+            },
+            {
+              "line": 186,
+              "text": "Chotu: didi... you sit in the table and eat."
+            },
+            {
+              "line": 187,
+              "text": "Dhika: why chotu.... you won't sit with me on table but I want to sit and eat with you. that's polite."
+            },
+            {
+              "line": 188,
+              "text": "Chotu: he felt moved.."
+            },
+            {
+              "line": 189,
+              "text": "both began eating."
+            },
+            {
+              "line": 190,
+              "text": "Chotu: didi....... your food is really tasty... if I eat this daily, I will become fat."
+            },
+            {
+              "line": 191,
+              "text": "Dhika: hehe..... don't say rhat just to impress me.... I am sure your mom cooks tasty food."
+            },
+            {
+              "line": 192,
+              "text": "Chotu: promise didi.... she cooks good too... but yours is different and very tasty."
+            },
+            {
+              "line": 193,
+              "text": "They talked about many things like family and everything and once finished, he helped her to carry everything to kitchen and to the sink."
+            }
+          ]
+        },
+        {
+          "id": "dhika_chotu:E01:7",
+          "sequence": 7,
+          "state_tag": "compliment_and_private_perception_change",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 194,
+          "line_end": 205,
+          "raw_lines": [
+            {
+              "line": 194,
+              "text": "While standing behind her in the kitchen, he noticed now that she is wearing a dress with no sleeves."
+            },
+            {
+              "line": 195,
+              "text": "Chotu: didi...... are you wearing a new dress ? I have never seen you in dress like this before."
+            },
+            {
+              "line": 196,
+              "text": "Dhika: feeling little shy that he noticed the sleeveless..... haan yeah Chotu... not new.... but I wear this only at home."
+            },
+            {
+              "line": 197,
+              "text": "Chotu: thinking..... why didi..... it is a nice dress and you look beautiful in it. Why you won't wear it outside ?"
+            },
+            {
+              "line": 198,
+              "text": "Dhika: Felt that it is the first time Chotu has said her beautiful."
+            },
+            {
+              "line": 199,
+              "text": "She remembered Bantu calling her pretty everyday and she liked when someone complimented her."
+            },
+            {
+              "line": 200,
+              "text": "Dhika: errr.... chotu... this dress is a little casual. I don't wear sleeveless outside. people will see my hands fully."
+            },
+            {
+              "line": 201,
+              "text": "Chotu: hehehe.... its just hands didi.. besides I can see it now."
+            },
+            {
+              "line": 202,
+              "text": "Dhika: feeling little blushed..... I know you very well and trust you.... and you proved now that I can trust you."
+            },
+            {
+              "line": 203,
+              "text": "Chotu: what ??//... I proved ???"
+            },
+            {
+              "line": 204,
+              "text": "Dhika: You said its just hands. you are my innocent chotu babu....she giggled."
+            },
+            {
+              "line": 205,
+              "text": "Chotu did not understand but did not ask anything too. He just realized that Dhika looked very beautiful and her skin looked so white and soft. He felt a little crush on her. He has always liked her because of her kindness but this is the first time he saw her as a beautiful woman."
+            }
+          ]
+        },
+        {
+          "id": "dhika_chotu:E01:8",
+          "sequence": 8,
+          "state_tag": "deliberate_attention_test_and_abrupt_exit",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 206,
+          "line_end": 224,
+          "raw_lines": [
+            {
+              "line": 206,
+              "text": "It was only 30 minutes and Chotu still had 30 more minutes left. She asked him to wash his hands and wait in hall. He followed her instructions, went to hall and leaned on sofa and sat down."
+            },
+            {
+              "line": 207,
+              "text": "Dhika saw some food spilled in the place they ate and decided to clean it. She went inside her bedroom to fetch cloth from bathroom."
+            },
+            {
+              "line": 208,
+              "text": "As she was in the bathroom, she looked herself in the mirror."
+            },
+            {
+              "line": 209,
+              "text": "Dhika: Chotu too thinks me as beautiful. am I really still beautiful after having one kid...."
+            },
+            {
+              "line": 210,
+              "text": "Suddenly she remembered her yesterday's bending down and her thoughts at night. Unknown to her, something took over her and she felt very very excited. Not knowing what happened next, she removed her dupatta slowly and looked at herself in mirror."
+            },
+            {
+              "line": 211,
+              "text": "She looked at her own body. It was a deep cut dress and she could see her own cleavage. She felt unknown excitement and bit her lip and smiler herself blushingly. Her white skin was shining against black sleeveless dress."
+            },
+            {
+              "line": 212,
+              "text": "Suddenly a thought came to her mind. She wasn't sure if Chotu saw inside her dress yesterday and she felt a great urge to find if he would see. This was not her.... she has never done anything like this and she didn't know what to do."
+            },
+            {
+              "line": 213,
+              "text": "Without an answer for her thoughts, she just took a waste cloth and went to hall without Dupatta......."
+            },
+            {
+              "line": 214,
+              "text": "As soon as she entered the hall, Chotu saw that she did not wear dupatta but he simply thought she missed and kept it in bedroom or bathroom. He was sitting exactly opposite to her."
+            },
+            {
+              "line": 215,
+              "text": "Dhika felt very nervous and excited at the same time...... she was going to be openly showing her cleavage first time in her life(  outside her husband) and she couldn't understand what is driving her. Her thoughts were so clouded due to excitement."
+            },
+            {
+              "line": 216,
+              "text": "Without thinking much she bent down..... got on all fours and began wiping the floor."
+            },
+            {
+              "line": 217,
+              "text": "Chotu was shocked and wide eyed looking at the so cream colored boobs in front of him. He could see only like 1/3rd of her boobs but still he has never seen anything like this apart from movies. He was so stunned and lost in the sight."
+            },
+            {
+              "line": 218,
+              "text": "Dhika was very very nervous and didn't dare to look up and at Chotu... She kept wiping the floor for next 1 minute and meanwhile Chotu was still wide eyed and having the time of his life."
+            },
+            {
+              "line": 219,
+              "text": "After a minutes, Dhika mustered all the courage she could and she looked in the direction of Chotu."
+            },
+            {
+              "line": 220,
+              "text": "Their eyes met."
+            },
+            {
+              "line": 221,
+              "text": "Chotu wide eyed and Dhika with excitement and nervousness in eyes. She was biting her lips very subtly."
+            },
+            {
+              "line": 222,
+              "text": "In a second Chotu stood up and took the money she gave earlier and left with a bye which sounded from very far."
+            },
+            {
+              "line": 223,
+              "text": "Dhika could not believe what she just did and still feeling very excited, she dropped the cloth on the floor and from the position of all fours, she just flipped and dropped on her back, laying down....then and there on the floor."
+            },
+            {
+              "line": 224,
+              "text": "She covered her face with all excitement and blushing and shyness and this time she felt a tingle ...... not down her spine but .... down there in-between her legs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dhika_aunty",
+      "participants": [
+        "dhika",
+        "aunty"
+      ],
+      "states": [
+        {
+          "id": "dhika_aunty:E01:1",
+          "sequence": 1,
+          "state_tag": "trusted_neighbour_childcare",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 19,
+          "line_end": 29,
+          "raw_lines": [
+            {
+              "line": 19,
+              "text": "Aunty and Uncle, both in their early 60s lived next door, were almost like second guardians for Dhika and John. Having no heir to themselves, Aunty treated Dhika and John like her own kids, and as to Uncle, Dhika was a little more than that. With his marital life stale, and Dhika being the gorgeous next door girl,... he never missed a chance to ogle at her."
+            },
+            {
+              "line": 20,
+              "text": "But, he never let Dhika or John know anything about it, and especially his wife."
+            },
+            {
+              "line": 21,
+              "text": "Uncle: Dhika, come come. Is Pappu still sleeping ?"
+            },
+            {
+              "line": 22,
+              "text": "Dhika: Yes Uncle... Is Aunty here ?"
+            },
+            {
+              "line": 23,
+              "text": "Uncle: She just went down.... Give him to me."
+            },
+            {
+              "line": 24,
+              "text": "Dhika: Thank you Uncle...."
+            },
+            {
+              "line": 25,
+              "text": "Dhika: I have milk stored for Pappu in the fridge."
+            },
+            {
+              "line": 26,
+              "text": "Dhika: And when he wakes up..... *"
+            },
+            {
+              "line": 27,
+              "text": "Uncle: I got it Dhika, don't worry."
+            },
+            {
+              "line": 28,
+              "text": "Dhika: Thanks again Uncle,... I am running late,.. Please inform aunty....."
+            },
+            {
+              "line": 29,
+              "text": "And before her voice trailed off,... Dhika vanished down the stairs."
+            }
+          ]
+        },
+        {
+          "id": "dhika_aunty:E01:2",
+          "sequence": 2,
+          "state_tag": "childcare_return",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 107,
+          "line_end": 112,
+          "raw_lines": [
+            {
+              "line": 107,
+              "text": "Her place is just 10 minutes from here. When she reached her apartments and opened the door, she saw aunty coming towards her with Pappu with her. Pappu ran and jumped his mom."
+            },
+            {
+              "line": 108,
+              "text": "Aunty: Dhika... Pappu drank milk only in the morning..... afternoon he didn't drink and so I gave him rice and curd."
+            },
+            {
+              "line": 109,
+              "text": "Dhika: its okay aunty.... he is already 2.3 years old, and I want to give him more solid food but my mother asked me to give him milk still."
+            },
+            {
+              "line": 110,
+              "text": "Aunty: yes Beti.... Mothers milk is very good for a child... you should continue it."
+            },
+            {
+              "line": 111,
+              "text": "Dhika smiled politely and said bye and went inside the house with Pappu. It was only 5 PM and John will come only at 7 PM. As soon as inside, Pappu went to see Rhymes in the TV. Dhika thought kids now a days know everything from using mobile to switching on youtube in TV on their own."
+            },
+            {
+              "line": 112,
+              "text": "Anyways, she left him to watch tv and went inside to refresh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dhika_maami",
+      "participants": [
+        "dhika",
+        "maami"
+      ],
+      "states": [
+        {
+          "id": "dhika_maami:E01:1",
+          "sequence": 1,
+          "state_tag": "shop_delivery_relationship",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 115,
+          "line_end": 119,
+          "raw_lines": [
+            {
+              "line": 115,
+              "text": "She refreshed and changed to a lovely kurti and went to kitchen. That's when she remembered that she forgot to buy groceries. She immediately took her phone and dialed to Bindu Maami."
+            },
+            {
+              "line": 116,
+              "text": "Bindu Maami is a 53 years old woman who has a small departmental store next to her apartment. She placed the order to maami and went to see TV with Pappu."
+            },
+            {
+              "line": 117,
+              "text": "20 minutes later she heard the door bell ring. She saw through the peep whole and saw Chotu standing here."
+            },
+            {
+              "line": 118,
+              "text": "Chotu's real name is Babu, a 19 year old boy, who works at the departmental store. He is the one who always delivers products in and around her apartments. She has know Chotu for almost a year now and she felt bad for him as he left his studies and came to work to support his family. She was always kind to him by giving him extra tips for delivery and tea or coffee when he comes to deliver. Chotu is also very good and always polite with her. He always brought a chocolate to Pappu whenever he came."
+            },
+            {
+              "line": 119,
+              "text": "Initially Chotu used to stand outside and deliver and leave. Later when she got acquainted with him, she invited him inside to give him tea. Chotu was happy to be in the presence of her and he would drink tea and play with Pappu 2 mins and leave. Over the months, the two got closer and she thought Chotu like her brother. He told her all the problems in his family and she used to give him advice to make more money in his free time."
+            }
+          ]
+        },
+        {
+          "id": "dhika_maami:E01:2",
+          "sequence": 2,
+          "state_tag": "shopkeeper_explanation",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 152,
+          "line_end": 157,
+          "raw_lines": [
+            {
+              "line": 152,
+              "text": "Dhika went to clean the glasses and that's when she realized that Chotu did not take money for the things. She immediately called Maami."
+            },
+            {
+              "line": 153,
+              "text": "Maami: Its okay kanna... I will take it tomorrow. I don't have anyone to send now and you don't have to come now."
+            },
+            {
+              "line": 154,
+              "text": "Dhika: why Maami.... where is Chotu ?"
+            },
+            {
+              "line": 155,
+              "text": "Maami: He said he wanted to leave soon and I let him go..... poor kid has to go home and help his mother too. He works very hard."
+            },
+            {
+              "line": 156,
+              "text": "Dhika: okay Maami.... I will bring the money tomorrow... and she kept the call."
+            },
+            {
+              "line": 157,
+              "text": "Upon hearing Maami saying about Chotu, she felt bad for him and thought that he was in a dream state probably thinking about his poor family situation. She left her thoughts there and went back to work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharmi_raj",
+      "participants": [
+        "sharmi",
+        "raj"
+      ],
+      "states": [
+        {
+          "id": "sharmi_raj:E01:1",
+          "sequence": 1,
+          "state_tag": "offscene_mention_only",
+          "evidence_kind": "direct_source_or_narrated_thought",
+          "episode_id": "E01",
+          "line_start": 59,
+          "line_end": 59,
+          "raw_lines": [
+            {
+              "line": 59,
+              "text": "Even though Sharmi was quite attractive herself, she was always a bit envious of Dhika who despite covering her whole body from head to toe, looked more attractive and had many fan followers. Even Sharmi's husband Raj had complemented the beauty of Dhika, and Sharmi knew how hard was it to impress him."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
