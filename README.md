@@ -94,3 +94,13 @@ The new **Exact Style Examples ★** dashboard tab (`?view=mechanisms`) connects
 - [E05 prediction audit](./data/e05_prediction_audit.json): 3 broad scene hits, 2 partials, 3 misses; no retroactive forecast editing.
 
 Raj is marked **unestablished in E01–E05**; Sharmi is marked **limited E01 evidence**, not a mature invented voice profile. To continue in a new chat, start with the repository paths above, verify latest GitHub Actions and source, then extend individual E05 actions; freeze an E06 prediction before reading actual E06. Do not claim this sampled style index gives exhaustive per-scene coverage.
+
+## E04 semantic correction and mandatory Director QA
+
+Following a source re-audit, the E04 scene around local lines 123–177 is no longer compressed into generic clothing/dialogue tags. The source depicts significant partial upper-body visibility and then a separate spoken question/claim about the word “topless,” explicitly qualified by Dhika saying her blouse was still worn. The visual event, two separate participants' observations, the question, claim, and correction are now separate E04 source-pointer events. The E04 ledger contains **90** action records (13 added; the previous L123 generic label sharpened). The E01–E04 author-style guide now has **14** named writing mechanisms, including how narration differs from dialogue claims and actor/observer/reaction chains.
+
+- [E04 corrected action ledger](./data/e04_atomic_director_ledger.json)
+- [Updated source-grounded writing mechanisms](./data/e04_author_style_guide.json)
+- [Required QA contract / no-assumptions checklist](./data/director_qa_contract.json)
+
+The CI checks source references, pointer consistency, and explicit regression anchors. **Passing CI is NOT a claim that every source detail was exhaustively tagged**: a separate scene-by-scene editorial completeness pass is required before promoting an episode to 'fully reviewed.' Continue future episodes only with that rule, and never replace prior verified data with vague new summaries. A new E05–E06 experimental dataset and its frozen forecast exist separately; its validator must pass independently.
