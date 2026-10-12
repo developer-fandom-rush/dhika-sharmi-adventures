@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "kind": "episode_direction_index",
+  "episode_id": "E04",
+  "source": {
+    "path": "raw/Dhika.txt",
+    "line_reference": "EPISODE 4 local numbering",
+    "preserve_original": true
+  },
+  "analysis_cutoff": "E04",
+  "style": "pointer_only; original lines not recopied",
+  "scene_count": 17,
+  "source_line_count": 207,
+  "scenes": [
+    {
+      "id": "E04-D01",
+      "source_lines": [
+        5,
+        8
+      ],
+      "title": "Present shower opening",
+      "narrative_function": "cold_open",
+      "participants": [
+        "dhika"
+      ],
+      "stage_order": 1
+    },
+    {
+      "id": "E04-D02",
+      "source_lines": [
+        9,
+        12
+      ],
+      "title": "Previous afternoon and Chotu background",
+      "narrative_function": "flashback_setup",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "stage_order": 2
+    },
+    {
+      "id": "E04-D03",
+      "source_lines": [
+        13,
+        25
+      ],
+      "title": "Awkward lunch conversation and resolution",
+      "narrative_function": "flashback_exchange",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "stage_order": 3
+    },
+    {
+      "id": "E04-D04",
+      "source_lines": [
+        26,
+        31
+      ],
+      "title": "Return to shower and unresolved feelings",
+      "narrative_function": "present_aftermath",
+      "participants": [
+        "dhika"
+      ],
+      "stage_order": 4
+    },
+    {
+      "id": "E04-D05",
+      "source_lines": [
+        32,
+        34
+      ],
+      "title": "College day and tuition preparation",
+      "narrative_function": "routine_transition",
+      "participants": [
+        "dhika"
+      ],
+      "stage_order": 5
+    },
+    {
+      "id": "E04-D06",
+      "source_lines": [
+        35,
+        50
+      ],
+      "title": "Tuition begins; hot weather and clothing discussion",
+      "narrative_function": "daily_life_trigger",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage_order": 6
+    },
+    {
+      "id": "E04-D07",
+      "source_lines": [
+        51,
+        72
+      ],
+      "title": "Comfort and trust discussed during class",
+      "narrative_function": "dialogue_turn",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage_order": 7
+    },
+    {
+      "id": "E04-D08",
+      "source_lines": [
+        73,
+        77
+      ],
+      "title": "Quiet student's attention and teacher's response",
+      "narrative_function": "reaction_and_boundary",
+      "participants": [
+        "dhika",
+        "bobby",
+        "bantu"
+      ],
+      "stage_order": 8
+    },
+    {
+      "id": "E04-D09",
+      "source_lines": [
+        78,
+        92
+      ],
+      "title": "Earlier outfit recalled and requested",
+      "narrative_function": "memory_callback",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage_order": 9
+    },
+    {
+      "id": "E04-D10",
+      "source_lines": [
+        93,
+        101
+      ],
+      "title": "Private outfit change and return to class",
+      "narrative_function": "choice_and_reentry",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage_order": 10
+    },
+    {
+      "id": "E04-D11",
+      "source_lines": [
+        102,
+        108
+      ],
+      "title": "Different reactions and teaching resumes",
+      "narrative_function": "observation_difference",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage_order": 11
+    },
+    {
+      "id": "E04-D12",
+      "source_lines": [
+        109,
+        123
+      ],
+      "title": "Renewed discomfort and decision about attire",
+      "narrative_function": "decision_point",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage_order": 12
+    },
+    {
+      "id": "E04-D13",
+      "source_lines": [
+        124,
+        140
+      ],
+      "title": "Compliments, gestures, and growing awkwardness",
+      "narrative_function": "action_response_cycle",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage_order": 13
+    },
+    {
+      "id": "E04-D14",
+      "source_lines": [
+        141,
+        156
+      ],
+      "title": "Personal accessory noticed and discussion redirected",
+      "narrative_function": "boundary_test",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage_order": 14
+    },
+    {
+      "id": "E04-D15",
+      "source_lines": [
+        157,
+        180
+      ],
+      "title": "Increasingly personal questions and playful corrections",
+      "narrative_function": "conversation_escalation",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage_order": 15
+    },
+    {
+      "id": "E04-D16",
+      "source_lines": [
+        181,
+        194
+      ],
+      "title": "Verbal slip and discussion of mutual trust",
+      "narrative_function": "dialogue_payoff",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage_order": 16
+    },
+    {
+      "id": "E04-D17",
+      "source_lines": [
+        195,
+        202
+      ],
+      "title": "Delayed departure and final unresolved question",
+      "narrative_function": "episode_cliffhanger",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage_order": 17
+    }
+  ],
+  "note": "Source references only; read original from raw/Dhika.txt. E05 unread at forecast time."
+}
