@@ -11,5 +11,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Verify raw source and all six JSON datasets
+      - name: Check browser JavaScript syntax
+        run: node --check app.js
+      - name: Check source validator syntax
+        run: node --check scripts/validate.mjs
+      - name: Verify raw source, six JSON datasets and AI Director forecast
         run: node scripts/validate.mjs
