@@ -11,12 +11,12 @@ const lockedRawSha="590b4dce02db105b1ff150a118d309fcef7778f2";
 const lockedPredictionSha="4a15aabf53c3740dd42653202d0cce963d217818";
 assert(hash(source)===lockedRawSha,"Canonical raw source changed.");
 const raw=read(source);
-const heads=[...raw.matchAll(/^EPISODE\\s+(\\d+)\\s*$/gm)];
+const heads=[...raw.matchAll(/^EPISODE\s+(\d+)\s*$/gm)];
 assert(heads.length===69,"Expected 69 episode headings.");
 const part=n=>{
  const a=heads.findIndex(x=>Number(x[1])===n);
  assert(a>=0,"Missing episode "+n);
- return raw.slice(heads[a].index,heads[a+1].index).split(/\\r?\\n/);
+ return raw.slice(heads[a].index,heads[a+1].index).split(/\r?\n/);
 };
 const e05=part(5),e06=part(6);
 assert(e05.length===233&&e06.length===232,"E05/E06 local line counts differ.");
