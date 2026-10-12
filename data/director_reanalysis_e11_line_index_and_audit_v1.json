@@ -1,0 +1,1039 @@
+{
+  "kind": "E11_reviewed_line_to_beat_index_and_prediction_audit",
+  "source": {
+    "path": "raw/Dhika.txt",
+    "sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+    "episode": 11,
+    "physical_lines": 164,
+    "github_first_line": 2135
+  },
+  "line_index": [
+    {
+      "episode_line": 1,
+      "github_line": 2135,
+      "beat": 1
+    },
+    {
+      "episode_line": 2,
+      "github_line": 2136,
+      "beat": 1
+    },
+    {
+      "episode_line": 3,
+      "github_line": 2137,
+      "beat": 1
+    },
+    {
+      "episode_line": 4,
+      "github_line": 2138,
+      "beat": 1
+    },
+    {
+      "episode_line": 5,
+      "github_line": 2139,
+      "beat": 2
+    },
+    {
+      "episode_line": 6,
+      "github_line": 2140,
+      "beat": 2
+    },
+    {
+      "episode_line": 7,
+      "github_line": 2141,
+      "beat": 2
+    },
+    {
+      "episode_line": 8,
+      "github_line": 2142,
+      "beat": 2
+    },
+    {
+      "episode_line": 9,
+      "github_line": 2143,
+      "beat": 2
+    },
+    {
+      "episode_line": 10,
+      "github_line": 2144,
+      "beat": 2
+    },
+    {
+      "episode_line": 11,
+      "github_line": 2145,
+      "beat": 2
+    },
+    {
+      "episode_line": 12,
+      "github_line": 2146,
+      "beat": 2
+    },
+    {
+      "episode_line": 13,
+      "github_line": 2147,
+      "beat": 2
+    },
+    {
+      "episode_line": 14,
+      "github_line": 2148,
+      "beat": 2
+    },
+    {
+      "episode_line": 15,
+      "github_line": 2149,
+      "beat": 2
+    },
+    {
+      "episode_line": 16,
+      "github_line": 2150,
+      "beat": 2
+    },
+    {
+      "episode_line": 17,
+      "github_line": 2151,
+      "beat": 2
+    },
+    {
+      "episode_line": 18,
+      "github_line": 2152,
+      "beat": 3
+    },
+    {
+      "episode_line": 19,
+      "github_line": 2153,
+      "beat": 3
+    },
+    {
+      "episode_line": 20,
+      "github_line": 2154,
+      "beat": 3
+    },
+    {
+      "episode_line": 21,
+      "github_line": 2155,
+      "beat": 3
+    },
+    {
+      "episode_line": 22,
+      "github_line": 2156,
+      "beat": 3
+    },
+    {
+      "episode_line": 23,
+      "github_line": 2157,
+      "beat": 3
+    },
+    {
+      "episode_line": 24,
+      "github_line": 2158,
+      "beat": 3
+    },
+    {
+      "episode_line": 25,
+      "github_line": 2159,
+      "beat": 3
+    },
+    {
+      "episode_line": 26,
+      "github_line": 2160,
+      "beat": 3
+    },
+    {
+      "episode_line": 27,
+      "github_line": 2161,
+      "beat": 3
+    },
+    {
+      "episode_line": 28,
+      "github_line": 2162,
+      "beat": 3
+    },
+    {
+      "episode_line": 29,
+      "github_line": 2163,
+      "beat": 3
+    },
+    {
+      "episode_line": 30,
+      "github_line": 2164,
+      "beat": 3
+    },
+    {
+      "episode_line": 31,
+      "github_line": 2165,
+      "beat": 3
+    },
+    {
+      "episode_line": 32,
+      "github_line": 2166,
+      "beat": 4
+    },
+    {
+      "episode_line": 33,
+      "github_line": 2167,
+      "beat": 4
+    },
+    {
+      "episode_line": 34,
+      "github_line": 2168,
+      "beat": 4
+    },
+    {
+      "episode_line": 35,
+      "github_line": 2169,
+      "beat": 4
+    },
+    {
+      "episode_line": 36,
+      "github_line": 2170,
+      "beat": 5
+    },
+    {
+      "episode_line": 37,
+      "github_line": 2171,
+      "beat": 5
+    },
+    {
+      "episode_line": 38,
+      "github_line": 2172,
+      "beat": 5
+    },
+    {
+      "episode_line": 39,
+      "github_line": 2173,
+      "beat": 5
+    },
+    {
+      "episode_line": 40,
+      "github_line": 2174,
+      "beat": 5
+    },
+    {
+      "episode_line": 41,
+      "github_line": 2175,
+      "beat": 5
+    },
+    {
+      "episode_line": 42,
+      "github_line": 2176,
+      "beat": 5
+    },
+    {
+      "episode_line": 43,
+      "github_line": 2177,
+      "beat": 5
+    },
+    {
+      "episode_line": 44,
+      "github_line": 2178,
+      "beat": 5
+    },
+    {
+      "episode_line": 45,
+      "github_line": 2179,
+      "beat": 5
+    },
+    {
+      "episode_line": 46,
+      "github_line": 2180,
+      "beat": 5
+    },
+    {
+      "episode_line": 47,
+      "github_line": 2181,
+      "beat": 6
+    },
+    {
+      "episode_line": 48,
+      "github_line": 2182,
+      "beat": 6
+    },
+    {
+      "episode_line": 49,
+      "github_line": 2183,
+      "beat": 6
+    },
+    {
+      "episode_line": 50,
+      "github_line": 2184,
+      "beat": 6
+    },
+    {
+      "episode_line": 51,
+      "github_line": 2185,
+      "beat": 6
+    },
+    {
+      "episode_line": 52,
+      "github_line": 2186,
+      "beat": 6
+    },
+    {
+      "episode_line": 53,
+      "github_line": 2187,
+      "beat": 6
+    },
+    {
+      "episode_line": 54,
+      "github_line": 2188,
+      "beat": 7
+    },
+    {
+      "episode_line": 55,
+      "github_line": 2189,
+      "beat": 7
+    },
+    {
+      "episode_line": 56,
+      "github_line": 2190,
+      "beat": 7
+    },
+    {
+      "episode_line": 57,
+      "github_line": 2191,
+      "beat": 7
+    },
+    {
+      "episode_line": 58,
+      "github_line": 2192,
+      "beat": 8
+    },
+    {
+      "episode_line": 59,
+      "github_line": 2193,
+      "beat": 8
+    },
+    {
+      "episode_line": 60,
+      "github_line": 2194,
+      "beat": 8
+    },
+    {
+      "episode_line": 61,
+      "github_line": 2195,
+      "beat": 8
+    },
+    {
+      "episode_line": 62,
+      "github_line": 2196,
+      "beat": 8
+    },
+    {
+      "episode_line": 63,
+      "github_line": 2197,
+      "beat": 8
+    },
+    {
+      "episode_line": 64,
+      "github_line": 2198,
+      "beat": 8
+    },
+    {
+      "episode_line": 65,
+      "github_line": 2199,
+      "beat": 8
+    },
+    {
+      "episode_line": 66,
+      "github_line": 2200,
+      "beat": 9
+    },
+    {
+      "episode_line": 67,
+      "github_line": 2201,
+      "beat": 9
+    },
+    {
+      "episode_line": 68,
+      "github_line": 2202,
+      "beat": 9
+    },
+    {
+      "episode_line": 69,
+      "github_line": 2203,
+      "beat": 9
+    },
+    {
+      "episode_line": 70,
+      "github_line": 2204,
+      "beat": 9
+    },
+    {
+      "episode_line": 71,
+      "github_line": 2205,
+      "beat": 9
+    },
+    {
+      "episode_line": 72,
+      "github_line": 2206,
+      "beat": 9
+    },
+    {
+      "episode_line": 73,
+      "github_line": 2207,
+      "beat": 9
+    },
+    {
+      "episode_line": 74,
+      "github_line": 2208,
+      "beat": 9
+    },
+    {
+      "episode_line": 75,
+      "github_line": 2209,
+      "beat": 9
+    },
+    {
+      "episode_line": 76,
+      "github_line": 2210,
+      "beat": 9
+    },
+    {
+      "episode_line": 77,
+      "github_line": 2211,
+      "beat": 9
+    },
+    {
+      "episode_line": 78,
+      "github_line": 2212,
+      "beat": 9
+    },
+    {
+      "episode_line": 79,
+      "github_line": 2213,
+      "beat": 9
+    },
+    {
+      "episode_line": 80,
+      "github_line": 2214,
+      "beat": 10
+    },
+    {
+      "episode_line": 81,
+      "github_line": 2215,
+      "beat": 10
+    },
+    {
+      "episode_line": 82,
+      "github_line": 2216,
+      "beat": 10
+    },
+    {
+      "episode_line": 83,
+      "github_line": 2217,
+      "beat": 10
+    },
+    {
+      "episode_line": 84,
+      "github_line": 2218,
+      "beat": 10
+    },
+    {
+      "episode_line": 85,
+      "github_line": 2219,
+      "beat": 10
+    },
+    {
+      "episode_line": 86,
+      "github_line": 2220,
+      "beat": 10
+    },
+    {
+      "episode_line": 87,
+      "github_line": 2221,
+      "beat": 10
+    },
+    {
+      "episode_line": 88,
+      "github_line": 2222,
+      "beat": 10
+    },
+    {
+      "episode_line": 89,
+      "github_line": 2223,
+      "beat": 10
+    },
+    {
+      "episode_line": 90,
+      "github_line": 2224,
+      "beat": 10
+    },
+    {
+      "episode_line": 91,
+      "github_line": 2225,
+      "beat": 10
+    },
+    {
+      "episode_line": 92,
+      "github_line": 2226,
+      "beat": 10
+    },
+    {
+      "episode_line": 93,
+      "github_line": 2227,
+      "beat": 10
+    },
+    {
+      "episode_line": 94,
+      "github_line": 2228,
+      "beat": 10
+    },
+    {
+      "episode_line": 95,
+      "github_line": 2229,
+      "beat": 10
+    },
+    {
+      "episode_line": 96,
+      "github_line": 2230,
+      "beat": 11
+    },
+    {
+      "episode_line": 97,
+      "github_line": 2231,
+      "beat": 11
+    },
+    {
+      "episode_line": 98,
+      "github_line": 2232,
+      "beat": 11
+    },
+    {
+      "episode_line": 99,
+      "github_line": 2233,
+      "beat": 11
+    },
+    {
+      "episode_line": 100,
+      "github_line": 2234,
+      "beat": 11
+    },
+    {
+      "episode_line": 101,
+      "github_line": 2235,
+      "beat": 11
+    },
+    {
+      "episode_line": 102,
+      "github_line": 2236,
+      "beat": 11
+    },
+    {
+      "episode_line": 103,
+      "github_line": 2237,
+      "beat": 11
+    },
+    {
+      "episode_line": 104,
+      "github_line": 2238,
+      "beat": 11
+    },
+    {
+      "episode_line": 105,
+      "github_line": 2239,
+      "beat": 11
+    },
+    {
+      "episode_line": 106,
+      "github_line": 2240,
+      "beat": 11
+    },
+    {
+      "episode_line": 107,
+      "github_line": 2241,
+      "beat": 11
+    },
+    {
+      "episode_line": 108,
+      "github_line": 2242,
+      "beat": 11
+    },
+    {
+      "episode_line": 109,
+      "github_line": 2243,
+      "beat": 11
+    },
+    {
+      "episode_line": 110,
+      "github_line": 2244,
+      "beat": 11
+    },
+    {
+      "episode_line": 111,
+      "github_line": 2245,
+      "beat": 11
+    },
+    {
+      "episode_line": 112,
+      "github_line": 2246,
+      "beat": 11
+    },
+    {
+      "episode_line": 113,
+      "github_line": 2247,
+      "beat": 11
+    },
+    {
+      "episode_line": 114,
+      "github_line": 2248,
+      "beat": 11
+    },
+    {
+      "episode_line": 115,
+      "github_line": 2249,
+      "beat": 11
+    },
+    {
+      "episode_line": 116,
+      "github_line": 2250,
+      "beat": 11
+    },
+    {
+      "episode_line": 117,
+      "github_line": 2251,
+      "beat": 11
+    },
+    {
+      "episode_line": 118,
+      "github_line": 2252,
+      "beat": 11
+    },
+    {
+      "episode_line": 119,
+      "github_line": 2253,
+      "beat": 12
+    },
+    {
+      "episode_line": 120,
+      "github_line": 2254,
+      "beat": 12
+    },
+    {
+      "episode_line": 121,
+      "github_line": 2255,
+      "beat": 12
+    },
+    {
+      "episode_line": 122,
+      "github_line": 2256,
+      "beat": 12
+    },
+    {
+      "episode_line": 123,
+      "github_line": 2257,
+      "beat": 12
+    },
+    {
+      "episode_line": 124,
+      "github_line": 2258,
+      "beat": 12
+    },
+    {
+      "episode_line": 125,
+      "github_line": 2259,
+      "beat": 12
+    },
+    {
+      "episode_line": 126,
+      "github_line": 2260,
+      "beat": 12
+    },
+    {
+      "episode_line": 127,
+      "github_line": 2261,
+      "beat": 12
+    },
+    {
+      "episode_line": 128,
+      "github_line": 2262,
+      "beat": 12
+    },
+    {
+      "episode_line": 129,
+      "github_line": 2263,
+      "beat": 12
+    },
+    {
+      "episode_line": 130,
+      "github_line": 2264,
+      "beat": 12
+    },
+    {
+      "episode_line": 131,
+      "github_line": 2265,
+      "beat": 12
+    },
+    {
+      "episode_line": 132,
+      "github_line": 2266,
+      "beat": 12
+    },
+    {
+      "episode_line": 133,
+      "github_line": 2267,
+      "beat": 12
+    },
+    {
+      "episode_line": 134,
+      "github_line": 2268,
+      "beat": 13
+    },
+    {
+      "episode_line": 135,
+      "github_line": 2269,
+      "beat": 13
+    },
+    {
+      "episode_line": 136,
+      "github_line": 2270,
+      "beat": 13
+    },
+    {
+      "episode_line": 137,
+      "github_line": 2271,
+      "beat": 13
+    },
+    {
+      "episode_line": 138,
+      "github_line": 2272,
+      "beat": 13
+    },
+    {
+      "episode_line": 139,
+      "github_line": 2273,
+      "beat": 13
+    },
+    {
+      "episode_line": 140,
+      "github_line": 2274,
+      "beat": 13
+    },
+    {
+      "episode_line": 141,
+      "github_line": 2275,
+      "beat": 13
+    },
+    {
+      "episode_line": 142,
+      "github_line": 2276,
+      "beat": 13
+    },
+    {
+      "episode_line": 143,
+      "github_line": 2277,
+      "beat": 13
+    },
+    {
+      "episode_line": 144,
+      "github_line": 2278,
+      "beat": 13
+    },
+    {
+      "episode_line": 145,
+      "github_line": 2279,
+      "beat": 13
+    },
+    {
+      "episode_line": 146,
+      "github_line": 2280,
+      "beat": 13
+    },
+    {
+      "episode_line": 147,
+      "github_line": 2281,
+      "beat": 13
+    },
+    {
+      "episode_line": 148,
+      "github_line": 2282,
+      "beat": 13
+    },
+    {
+      "episode_line": 149,
+      "github_line": 2283,
+      "beat": 13
+    },
+    {
+      "episode_line": 150,
+      "github_line": 2284,
+      "beat": 14
+    },
+    {
+      "episode_line": 151,
+      "github_line": 2285,
+      "beat": 14
+    },
+    {
+      "episode_line": 152,
+      "github_line": 2286,
+      "beat": 14
+    },
+    {
+      "episode_line": 153,
+      "github_line": 2287,
+      "beat": 14
+    },
+    {
+      "episode_line": 154,
+      "github_line": 2288,
+      "beat": 14
+    },
+    {
+      "episode_line": 155,
+      "github_line": 2289,
+      "beat": 14
+    },
+    {
+      "episode_line": 156,
+      "github_line": 2290,
+      "beat": 14
+    },
+    {
+      "episode_line": 157,
+      "github_line": 2291,
+      "beat": 14
+    },
+    {
+      "episode_line": 158,
+      "github_line": 2292,
+      "beat": 14
+    },
+    {
+      "episode_line": 159,
+      "github_line": 2293,
+      "beat": 14
+    },
+    {
+      "episode_line": 160,
+      "github_line": 2294,
+      "beat": 14
+    },
+    {
+      "episode_line": 161,
+      "github_line": 2295,
+      "beat": 14
+    },
+    {
+      "episode_line": 162,
+      "github_line": 2296,
+      "beat": 15
+    },
+    {
+      "episode_line": 163,
+      "github_line": 2297,
+      "beat": 15
+    },
+    {
+      "episode_line": 164,
+      "github_line": 2298,
+      "beat": 15
+    }
+  ],
+  "beats": [
+    {
+      "id": 1,
+      "range": [
+        1,
+        4
+      ],
+      "title": "Header",
+      "fact": "Source metadata"
+    },
+    {
+      "id": 2,
+      "range": [
+        5,
+        17
+      ],
+      "title": "Theater seating negotiation",
+      "fact": "Sharmi chooses seat beside John, Dhika wants to sit by husband, Raj is to sit beside Dhika"
+    },
+    {
+      "id": 3,
+      "range": [
+        18,
+        31
+      ],
+      "title": "Separate paired seating",
+      "fact": "Sharmi makes deliberate intimate contact with John; Raj arrives and sits by Dhika; John wonders about social arrangement"
+    },
+    {
+      "id": 4,
+      "range": [
+        32,
+        35
+      ],
+      "title": "Raj builds rapport",
+      "fact": "Raj uses humor and attentiveness, respecting space; Dhika's comfort grows"
+    },
+    {
+      "id": 5,
+      "range": [
+        36,
+        46
+      ],
+      "title": "Horror reaction",
+      "fact": "Film jump scare causes Dhika to grab Raj's hand and Sharmi to grab John's hand; both paired reactions and subsequent awareness"
+    },
+    {
+      "id": 6,
+      "range": [
+        47,
+        53
+      ],
+      "title": "Raj helps modestly",
+      "fact": "Raj notices Dhika's displaced sari and shields her while she adjusts it; her respect rises"
+    },
+    {
+      "id": 7,
+      "range": [
+        54,
+        57
+      ],
+      "title": "Following day reflection",
+      "fact": "Dhika recalls Raj's gentleness, thinks of him while showering and notes twins absent"
+    },
+    {
+      "id": 8,
+      "range": [
+        58,
+        65
+      ],
+      "title": "Chotu appointment",
+      "fact": "Dhika meets Chotu at store and arranges evening painting while John works an afternoon shift"
+    },
+    {
+      "id": 9,
+      "range": [
+        66,
+        79
+      ],
+      "title": "Chotu arrives, practical prep",
+      "fact": "Chotu arrives; Pappu goes to Aunty during paint work; Chotu changes into work clothing"
+    },
+    {
+      "id": 10,
+      "range": [
+        80,
+        95
+      ],
+      "title": "Painting again",
+      "fact": "Dhika wears short work clothes; they paint; brush spill causes paint on her arm and waist; Chotu begins helping"
+    },
+    {
+      "id": 11,
+      "range": [
+        96,
+        118
+      ],
+      "title": "Cleaning and permission to touch",
+      "fact": "They use remover to clean paint; Dhika specifically agrees to Chotu touching the skin area to assess it"
+    },
+    {
+      "id": 12,
+      "range": [
+        119,
+        133
+      ],
+      "title": "Touch extends beyond initial permission",
+      "fact": "Chotu moves his hand around her waist, then touches her buttock without clear prior permission; she calls it out, he apologizes"
+    },
+    {
+      "id": 13,
+      "range": [
+        134,
+        149
+      ],
+      "title": "Kissing initiations",
+      "fact": "Dhika initiates a kiss and asks about continuing kissing practice; both exchange additional kisses with alternating initiators"
+    },
+    {
+      "id": 14,
+      "range": [
+        150,
+        161
+      ],
+      "title": "Intensified contact and abrupt pause",
+      "fact": "An extended embrace and intimate through-clothing contact occur while kissing; Dhika reacts with an involuntary sound then freezes at episode end"
+    },
+    {
+      "id": 15,
+      "range": [
+        162,
+        164
+      ],
+      "title": "Closure",
+      "fact": "Episode separator"
+    }
+  ],
+  "frozen_prediction": {
+    "path": "data/director_e11_preread_predictions_v1.json",
+    "commit": "314d15783bc941fad8e03b2e92e5cbe9c3eedc0b"
+  },
+  "audit": [
+    {
+      "id": "H1",
+      "result": "hit",
+      "source_lines": [
+        5,
+        53
+      ],
+      "reason": "Movie occurs in E11 opening"
+    },
+    {
+      "id": "H2",
+      "result": "hit",
+      "source_lines": [
+        9,
+        53
+      ],
+      "reason": "Sharmi/John and Dhika/Raj interactions cross"
+    },
+    {
+      "id": "H3",
+      "result": "hit",
+      "source_lines": [
+        32,
+        46
+      ],
+      "reason": "Horror prompts unexpected hand-grab of Raj"
+    },
+    {
+      "id": "H4",
+      "result": "miss",
+      "source_lines": [
+        58,
+        161
+      ],
+      "reason": "Chotu returns the same chapter, not deferred"
+    },
+    {
+      "id": "H5",
+      "result": "miss",
+      "reason": "Competition remains offstage"
+    }
+  ],
+  "pair_state": {
+    "john": "Sharmi touches him during film; John notices Dhika holding Raj; no evidence that Dhika and John have separated.",
+    "raj": "Sits next to Dhika, earns trust via jokes and protecting modesty; his hand is grabbed involuntarily during horror scene.",
+    "sharmi": "Chooses John as seat partner and initiates close contact, within the observed scene.",
+    "chotu": "New paint cleanup episode, prior clothing and physical boundaries, renewed kissing and intensified through-clothing intimacy at cliffhanger.",
+    "bantu": "Absent, no direct paired interaction.",
+    "bobby": "Absent, no direct paired interaction.",
+    "uncle": "No direct appearance.",
+    "leo": "No direct appearance."
+  },
+  "narrative_mechanisms": [
+    "Interleaved parallel couples reactions within one horror scene.",
+    "Fear provides unplanned physical proximity, followed by a protective social gesture.",
+    "Paint and maintenance motif repeats as plausible contact catalyst.",
+    "Permission for one skin touch should not be extrapolated to other contact.",
+    "Chapter ends on Dhika's sudden realization and frozen reaction."
+  ],
+  "integrity": {
+    "lines_mapped": 164,
+    "gaps": [],
+    "raw_unchanged": true
+  },
+  "limitations": "Every line assigned a reviewed episode beat; per-clause atomic action map is not yet complete."
+}
