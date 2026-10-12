@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// E01–E03 exact raw-source integrity validator. Run from repo root: node scripts/validate.mjs
+// E01–E04 source and E05 prediction audit integrity validator. Run from repo root: node scripts/validate.mjs
 import fs from "node:fs";
 import path from "node:path";
 import {fileURLToPath} from "node:url";
@@ -164,4 +164,63 @@ console.log("PASS: "+seenStages.size+" source-grounded action progression stages
 
 console.log("PASS: all three episode indexes reproduce all 629 original lines.");
 
-console.log("PASS: GitHub source has 69 complete episode headings; E04–E69 are preserved.");
+// E04 pointer-pack validation: metadata stores references, never a duplicate of original lines.
+const e04=raw.slice(headers[3].index,headers[4].index).split(/\r?\n/);
+assert(e04.length===207,"E04 original source must contain 207 lines.");
+const direction=load("data/episode04_direction_index.json");
+assert(direction.episode_id==="E04"&&direction.scenes.length===17,"E04 direction index changed.");
+let previous=4;const sceneIDs=new Set();
+for(const scene of direction.scenes){
+ const [a,b]=scene.source_lines;
+ assert(a===previous+1&&b>=a&&b<=202,"Non-contiguous E04 direction window: "+scene.id);
+ previous=b;assert(!sceneIDs.has(scene.id),"Repeated E04 scene: "+scene.id);sceneIDs.add(scene.id);
+}
+assert(previous===202,"E04 direction scenes must cover L005–L202.");
+const e04actions=load("data/e04_atomic_director_ledger.json");
+assert(e04actions.episode_id==="E04"&&e04actions.events.length===77,"Expected 77 E04 atomic pointers.");
+const aIDs=new Set();
+for(const act of e04actions.events){
+ assert(act.source_line>=5&&act.source_line<=202,"E04 action line invalid "+act.id);
+ assert(/^[a-z][a-z0-9_]*$/.test(act.action_name),"Invalid E04 action name "+act.id);
+ assert(["dhika","chotu","bantu","bobby"].includes(act.actor),"Unknown E04 actor "+act.id);
+ assert(!aIDs.has(act.id),"Repeated E04 action "+act.id);aIDs.add(act.id);
+}
+const bondsForE04=new Set(load("data/bond_evolution.json").relationships.map(x=>x.id));
+const e04mind=load("data/e04_character_progression.json");
+assert(e04mind.character_state_count===25&&e04mind.character_checkpoints.length===25,"E04 mind count mismatch");
+const mindIDs=new Set();
+for(const state of e04mind.character_checkpoints){
+ assert(state.source_line_start>=5&&state.source_line_end<=202&&state.source_line_start<=state.source_line_end,"Bad E04 state range "+state.id);
+ assert(!mindIDs.has(state.id),"Repeated E04 mind "+state.id);mindIDs.add(state.id);
+}
+for(const thread of e04mind.relationship_threads){
+ assert(bondsForE04.has(thread.pair),"E04 unknown relationship "+thread.pair);
+ for(const stage of thread.stages){
+  const [a,b]=stage.range;
+  assert(a>=5&&b<=202&&a<=b,"Invalid E04 pair stage "+thread.pair);
+ }
+}
+const style=load("data/e04_author_style_guide.json");
+assert(style.features.length===12&&Object.keys(style.character_voice_profiles).length===5,"E04 author style incomplete");
+for(const feature of style.features)for(const [ep,a,b] of feature.evidence){
+ const ref=sources[ep]||(ep==="E04"?e04:null);
+ assert(ref&&a>=1&&b<=ref.length&&a<=b,"Invalid author-style anchor "+feature.id);
+}
+const forecast=load("data/e05_director_prediction.json");
+assert(forecast.prediction_id==="E05-BLIND-V1"&&forecast.target_episode_raw_read===false&&forecast.scenes.length===8,"Frozen E05 prediction metadata changed");
+const e05=raw.slice(headers[4].index,headers[5].index).split(/\r?\n/);
+const audit=load("data/e05_prediction_audit.json");
+assert(e05.length===233&&audit.marks.length===8,"E05 comparison evidence size mismatch");
+const forecastIDs=new Set(forecast.scenes.map(x=>x.id)),markIDs=new Set();
+for(const mark of audit.marks){
+ assert(forecastIDs.has(mark.predicted_scene_id)&&!markIDs.has(mark.predicted_scene_id),"Bad prediction match "+mark.predicted_scene_id);
+ markIDs.add(mark.predicted_scene_id);
+ assert(["hit","partial","miss"].includes(mark.result),"Invalid result "+mark.predicted_scene_id);
+ if(mark.actual_source_lines)assert(mark.actual_source_lines[0]>=5&&mark.actual_source_lines[1]<=233&&mark.actual_source_lines[0]<=mark.actual_source_lines[1],"Invalid E05 source pointer "+mark.predicted_scene_id);
+}
+const counts={hit:0,partial:0,miss:0};
+for(const mark of audit.marks)counts[mark.result]++;
+assert(counts.hit===audit.counts.hits&&counts.partial===audit.counts.partials&&counts.miss===audit.counts.misses,"E05 score inconsistent");
+console.log("PASS: E04 207 source lines, 17 scenes, 77 action pointers, 25 mind changes and 12 writing mechanics.");
+console.log("PASS: E05 frozen forecast and eight evidence-backed review marks; "+counts.hit+" hit, "+counts.partial+" partial, "+counts.miss+" miss.");
+console.log("PASS: GitHub source has 69 complete episode headings; E01–E04 analyzed, E05 audited.");
