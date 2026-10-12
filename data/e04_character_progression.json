@@ -1,0 +1,595 @@
+{
+  "schema_version": 1,
+  "kind": "episode_character_continuity",
+  "episode": "E04",
+  "source": "raw/Dhika.txt",
+  "source_policy": "source-line pointers; no verbatim source duplicated",
+  "character_checkpoints": [
+    {
+      "id": "E04-MIND-DHIKA-01",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 5,
+      "source_line_end": 8,
+      "change_marker": "shower_distraction",
+      "observation": "Remembering previous day dominates routine",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-DHIKA-02",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 13,
+      "source_line_end": 25,
+      "change_marker": "hesitation_then_reassurance",
+      "observation": "She names the awkward topic indirectly, then protects Chotu from further embarrassment",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-DHIKA-03",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 26,
+      "source_line_end": 29,
+      "change_marker": "private_conflict",
+      "observation": "Recall changes private mood; surprise and guilt immediately interrupt",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-DHIKA-04",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 32,
+      "source_line_end": 34,
+      "change_marker": "new_homewear_self_check",
+      "observation": "Greater comfort around tutoring remains balanced by her own clothing choice",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-DHIKA-05",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 44,
+      "source_line_end": 50,
+      "change_marker": "notice_new_student_appearance",
+      "observation": "Dhika reacts to Bantu's changed appearance and returns to teaching",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-DHIKA-06",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 58,
+      "source_line_end": 72,
+      "change_marker": "trust_and_hesitation",
+      "observation": "She responds to banter and ultimately adjusts her clothing by choice",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-DHIKA-07",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 73,
+      "source_line_end": 77,
+      "change_marker": "directly_address_attention",
+      "observation": "She asks Bobby about staring and requests moderation",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-DHIKA-08",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 80,
+      "source_line_end": 107,
+      "change_marker": "revisit_previous_outfit_by_choice",
+      "observation": "She agrees to wear a familiar outfit again; returns with an expressive gesture",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-DHIKA-09",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 120,
+      "source_line_end": 140,
+      "change_marker": "playful_self_consciousness",
+      "observation": "Comments and contact elicit changing discomfort, humor and self-description",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-DHIKA-10",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 145,
+      "source_line_end": 156,
+      "change_marker": "accessory_boundary",
+      "observation": "She objects to a pull, declines a further request, later mentions another day",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-DHIKA-11",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 157,
+      "source_line_end": 180,
+      "change_marker": "increasingly_personal_dialogue",
+      "observation": "She sometimes corrects questions while staying in conversation",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-DHIKA-12",
+      "actor": "dhika",
+      "source_episode": "E04",
+      "source_line_start": 181,
+      "source_line_end": 202,
+      "change_marker": "privacy_and_cliffhanger",
+      "observation": "She makes a verbal slip, asks discretion and tries to end class before a final question",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:dhika",
+      "paired_relationships": [
+        "dhika_chotu",
+        "dhika_bantu",
+        "dhika_bobby",
+        "dhika_john"
+      ]
+    },
+    {
+      "id": "E04-MIND-CHOTU-01",
+      "actor": "chotu",
+      "source_episode": "E04",
+      "source_line_start": 9,
+      "source_line_end": 12,
+      "change_marker": "narrator_background",
+      "observation": "His economic obligations and social inexperience contextualize his reaction",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:chotu",
+      "paired_relationships": [
+        "dhika_chotu"
+      ]
+    },
+    {
+      "id": "E04-MIND-CHOTU-02",
+      "actor": "chotu",
+      "source_episode": "E04",
+      "source_line_start": 13,
+      "source_line_end": 25,
+      "change_marker": "misunderstanding_apology_reassurance",
+      "observation": "He is confused by Dhika's question, apologizes and relaxes before leaving",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:chotu",
+      "paired_relationships": [
+        "dhika_chotu"
+      ]
+    },
+    {
+      "id": "E04-MIND-BANTU-01",
+      "actor": "bantu",
+      "source_episode": "E04",
+      "source_line_start": 35,
+      "source_line_end": 50,
+      "change_marker": "heat_as_conversation_setup",
+      "observation": "Begins from practical discomfort",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:bantu",
+      "paired_relationships": [
+        "dhika_bantu"
+      ]
+    },
+    {
+      "id": "E04-MIND-BANTU-02",
+      "actor": "bantu",
+      "source_episode": "E04",
+      "source_line_start": 51,
+      "source_line_end": 72,
+      "change_marker": "persuasive_trust_framing",
+      "observation": "Invokes shared comfort and receives a playful response",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:bantu",
+      "paired_relationships": [
+        "dhika_bantu"
+      ]
+    },
+    {
+      "id": "E04-MIND-BANTU-03",
+      "actor": "bantu",
+      "source_episode": "E04",
+      "source_line_start": 77,
+      "source_line_end": 92,
+      "change_marker": "outfit_callback_as_plan",
+      "observation": "Narrator makes his request strategy visible to reader",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:bantu",
+      "paired_relationships": [
+        "dhika_bantu"
+      ]
+    },
+    {
+      "id": "E04-MIND-BANTU-04",
+      "actor": "bantu",
+      "source_episode": "E04",
+      "source_line_start": 109,
+      "source_line_end": 140,
+      "change_marker": "repeated_personal_compliment_pattern",
+      "observation": "Tries progressively direct compliments and physical gestures amid banter",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:bantu",
+      "paired_relationships": [
+        "dhika_bantu"
+      ]
+    },
+    {
+      "id": "E04-MIND-BANTU-05",
+      "actor": "bantu",
+      "source_episode": "E04",
+      "source_line_start": 145,
+      "source_line_end": 180,
+      "change_marker": "uses_deferral_as_future_hook",
+      "observation": "Interprets postponed request as a prospective opening, continues personal questions",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:bantu",
+      "paired_relationships": [
+        "dhika_bantu"
+      ]
+    },
+    {
+      "id": "E04-MIND-BANTU-06",
+      "actor": "bantu",
+      "source_episode": "E04",
+      "source_line_start": 181,
+      "source_line_end": 202,
+      "change_marker": "last_line_hook",
+      "observation": "Uses a verbal slip for teasing and raises an unresolved question at class end",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:bantu",
+      "paired_relationships": [
+        "dhika_bantu"
+      ]
+    },
+    {
+      "id": "E04-MIND-BOBBY-01",
+      "actor": "bobby",
+      "source_episode": "E04",
+      "source_line_start": 41,
+      "source_line_end": 50,
+      "change_marker": "reserved_response",
+      "observation": "Declines a clothing-related suggestion",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:bobby",
+      "paired_relationships": [
+        "dhika_bobby"
+      ]
+    },
+    {
+      "id": "E04-MIND-BOBBY-02",
+      "actor": "bobby",
+      "source_episode": "E04",
+      "source_line_start": 73,
+      "source_line_end": 92,
+      "change_marker": "more_direct_request",
+      "observation": "After gaze discussion, speaks up about the earlier outfit",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:bobby",
+      "paired_relationships": [
+        "dhika_bobby"
+      ]
+    },
+    {
+      "id": "E04-MIND-BOBBY-03",
+      "actor": "bobby",
+      "source_episode": "E04",
+      "source_line_start": 100,
+      "source_line_end": 107,
+      "change_marker": "silent_appraisal",
+      "observation": "After outfit return, narrator signals his attention",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:bobby",
+      "paired_relationships": [
+        "dhika_bobby"
+      ]
+    },
+    {
+      "id": "E04-MIND-BOBBY-04",
+      "actor": "bobby",
+      "source_episode": "E04",
+      "source_line_start": 120,
+      "source_line_end": 147,
+      "change_marker": "comfort_and_curiosity",
+      "observation": "Offers reassurance before a specific question about a personal item",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:bobby",
+      "paired_relationships": [
+        "dhika_bobby"
+      ]
+    },
+    {
+      "id": "E04-MIND-BOBBY-05",
+      "actor": "bobby",
+      "source_episode": "E04",
+      "source_line_start": 189,
+      "source_line_end": 194,
+      "change_marker": "promises_future_confidence",
+      "observation": "Says he intends to speak more freely next time",
+      "source_status": "retrospective_evidence_based_analysis",
+      "prior_chain": "E03:bobby",
+      "paired_relationships": [
+        "dhika_bobby"
+      ]
+    }
+  ],
+  "character_state_count": 25,
+  "relationship_threads": [
+    {
+      "pair": "dhika_chotu",
+      "stages": [
+        {
+          "range": [
+            5,
+            8
+          ],
+          "name": "present_time_distracted_shower",
+          "insight": "Morning routine is prolonged by thoughts about yesterday; external action and private thought are distinguished"
+        },
+        {
+          "range": [
+            9,
+            25
+          ],
+          "name": "sunday_flashback_dialogue_resolution",
+          "insight": "Previously unspoken clothing-related observation becomes hesitant dialogue; Chotu misunderstands, explains confusion, apologizes; Dhika reassures and eating ends"
+        },
+        {
+          "range": [
+            26,
+            29
+          ],
+          "name": "shower_recall_private_aftereffect",
+          "insight": "Return to present reveals a private bodily and psychological reaction followed rapidly by guilt; no new Chotu contact"
+        }
+      ],
+      "carry_forward": [
+        "Painting project established in E03; no additional painting encounter is shown here",
+        "The immediate E03 visual cliffhanger has a verbal aftermath in the E04 flashback",
+        "The earlier lip kiss remains in prior history and should not be duplicated as a new E04 kiss"
+      ]
+    },
+    {
+      "pair": "dhika_bantu",
+      "stages": [
+        {
+          "range": [
+            33,
+            45
+          ],
+          "name": "ordinary_tuition_and_hot_weather",
+          "insight": "A legitimate tutoring setting and uncomfortable heat supply the conversational opening; Dhika notices a difference in how she regards Bantu's appearance"
+        },
+        {
+          "range": [
+            51,
+            72
+          ],
+          "name": "comfort_trust_discussion",
+          "insight": "Bantu steers conversation toward practical discomfort and clothing choices; Dhika responds with teasing, hesitation and an independent decision"
+        },
+        {
+          "range": [
+            78,
+            105
+          ],
+          "name": "revisited_clothing_memory_and_return",
+          "insight": "Prior episode garment incident is recalled; new outfit request leads to Dhika changing and returning for class"
+        },
+        {
+          "range": [
+            109,
+            140
+          ],
+          "name": "another_trust_exchange",
+          "insight": "Bantu repeats comfort framing and direct compliments; Dhika alternates embarrassment, objections and playful gestures"
+        },
+        {
+          "range": [
+            141,
+            180
+          ],
+          "name": "accessory_curiosity_and_personal_questions",
+          "insight": "More direct questions and tactile gestures test conversational familiarity; a declined request is deferred rather than fulfilled"
+        },
+        {
+          "range": [
+            181,
+            202
+          ],
+          "name": "verbal_slip_privacy_and_last_question",
+          "insight": "A verbal misstatement becomes a short joke; privacy is requested; an unresolved final personal remark stops the chapter"
+        }
+      ],
+      "carry_forward": [
+        "The last E04 question/comment has no depicted reply yet",
+        "Dhika maintains her role as teacher throughout the tutoring session",
+        "Bantu expects continuity, but no further physical action is canon until the next source"
+      ]
+    },
+    {
+      "pair": "dhika_bobby",
+      "stages": [
+        {
+          "range": [
+            35,
+            50
+          ],
+          "name": "quiet_counterpart",
+          "insight": "Bobby remains reserved when given the same clothing-related question as Bantu"
+        },
+        {
+          "range": [
+            73,
+            92
+          ],
+          "name": "quiet_observation_then_clear_request",
+          "insight": "Dhika notices Bobby's attention, speaks to him; he later makes a direct clothing-related request, contrasting with his habitual shyness"
+        },
+        {
+          "range": [
+            100,
+            107
+          ],
+          "name": "reserved_after_appearance_change",
+          "insight": "The narrator describes his reaction while he says comparatively little"
+        },
+        {
+          "range": [
+            120,
+            147
+          ],
+          "name": "reassurance_followed_by_accessory_question",
+          "insight": "He frames a clothing choice in terms of Dhika's comfort and later asks about an accessory"
+        },
+        {
+          "range": [
+            189,
+            194
+          ],
+          "name": "privacy_and_future_confidence",
+          "insight": "He reassures Dhika about confidentiality and verbally signals more confidence next time"
+        }
+      ],
+      "carry_forward": [
+        "Bobby has started to speak more directly but remains different from Bantu",
+        "His next-step confidence claim is an open conversational thread, not an accomplished action"
+      ]
+    },
+    {
+      "pair": "dhika_john",
+      "stages": [
+        {
+          "range": [
+            26,
+            29
+          ],
+          "name": "private_unshared_reaction",
+          "insight": "John is absent from the shower reflection; prior E03 information asymmetry remains"
+        },
+        {
+          "range": [
+            93,
+            100
+          ],
+          "name": "domestic_accessory_callback",
+          "insight": "A personal accessory is given a prior relationship origin rather than appearing without history"
+        }
+      ],
+      "carry_forward": [
+        "John's established relationship is preserved and cannot be reset by a new episode",
+        "No new direct Dhika–John physical contact is depicted in the indexed E04 main scenes"
+      ]
+    }
+  ],
+  "episode_boundaries": {
+    "opening": {
+      "present_start": [
+        5,
+        8
+      ],
+      "flashback_to_prior_e03": [
+        9,
+        25
+      ],
+      "return_to_present": [
+        26,
+        29
+      ],
+      "structural_pattern": "present -> prior-day flashback -> private aftermath -> next routine"
+    },
+    "closing": {
+      "source_lines": [
+        195,
+        202
+      ],
+      "last_status": "end-of-tutoring question/comment unresolved; no response provided in E04",
+      "future_threads": [
+        "Possible direct answer to last question",
+        "Changing Dhika/Bantu/Bobby classroom dynamics",
+        "Bobby promise to be more open",
+        "Painting work with Chotu remains an earlier practical project"
+      ]
+    }
+  },
+  "prediction": false
+}
