@@ -1,0 +1,2010 @@
+{
+  "kind": "E05_line_complete_director_evidence_index",
+  "schema_version": 1,
+  "source": {
+    "path": "raw/Dhika.txt",
+    "blob_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+    "episode": "E05",
+    "physical_line_count": 232,
+    "github_first_line": 835
+  },
+  "coverage_note": "Every E05 physical source line assigned exactly one reviewed event/scene beat. This is source-line indexing plus beat-level analysis, not yet a unique microcommentary for each source line. Earlier non-graphic ledger remains a separate partial historical artifact.",
+  "line_index": [
+    {
+      "line": 1,
+      "github_line": 835,
+      "beat_id": 1,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L835"
+    },
+    {
+      "line": 2,
+      "github_line": 836,
+      "beat_id": 1,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L836"
+    },
+    {
+      "line": 3,
+      "github_line": 837,
+      "beat_id": 1,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L837"
+    },
+    {
+      "line": 4,
+      "github_line": 838,
+      "beat_id": 1,
+      "kind": "blank",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L838"
+    },
+    {
+      "line": 5,
+      "github_line": 839,
+      "beat_id": 2,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L839"
+    },
+    {
+      "line": 6,
+      "github_line": 840,
+      "beat_id": 2,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L840"
+    },
+    {
+      "line": 7,
+      "github_line": 841,
+      "beat_id": 2,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L841"
+    },
+    {
+      "line": 8,
+      "github_line": 842,
+      "beat_id": 2,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L842"
+    },
+    {
+      "line": 9,
+      "github_line": 843,
+      "beat_id": 2,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L843"
+    },
+    {
+      "line": 10,
+      "github_line": 844,
+      "beat_id": 3,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L844"
+    },
+    {
+      "line": 11,
+      "github_line": 845,
+      "beat_id": 3,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L845"
+    },
+    {
+      "line": 12,
+      "github_line": 846,
+      "beat_id": 3,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L846"
+    },
+    {
+      "line": 13,
+      "github_line": 847,
+      "beat_id": 3,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L847"
+    },
+    {
+      "line": 14,
+      "github_line": 848,
+      "beat_id": 3,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L848"
+    },
+    {
+      "line": 15,
+      "github_line": 849,
+      "beat_id": 3,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L849"
+    },
+    {
+      "line": 16,
+      "github_line": 850,
+      "beat_id": 4,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L850"
+    },
+    {
+      "line": 17,
+      "github_line": 851,
+      "beat_id": 4,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L851"
+    },
+    {
+      "line": 18,
+      "github_line": 852,
+      "beat_id": 4,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L852"
+    },
+    {
+      "line": 19,
+      "github_line": 853,
+      "beat_id": 4,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L853"
+    },
+    {
+      "line": 20,
+      "github_line": 854,
+      "beat_id": 4,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L854"
+    },
+    {
+      "line": 21,
+      "github_line": 855,
+      "beat_id": 5,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L855"
+    },
+    {
+      "line": 22,
+      "github_line": 856,
+      "beat_id": 5,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L856"
+    },
+    {
+      "line": 23,
+      "github_line": 857,
+      "beat_id": 5,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L857"
+    },
+    {
+      "line": 24,
+      "github_line": 858,
+      "beat_id": 6,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L858"
+    },
+    {
+      "line": 25,
+      "github_line": 859,
+      "beat_id": 6,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L859"
+    },
+    {
+      "line": 26,
+      "github_line": 860,
+      "beat_id": 6,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L860"
+    },
+    {
+      "line": 27,
+      "github_line": 861,
+      "beat_id": 6,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L861"
+    },
+    {
+      "line": 28,
+      "github_line": 862,
+      "beat_id": 6,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L862"
+    },
+    {
+      "line": 29,
+      "github_line": 863,
+      "beat_id": 7,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L863"
+    },
+    {
+      "line": 30,
+      "github_line": 864,
+      "beat_id": 7,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L864"
+    },
+    {
+      "line": 31,
+      "github_line": 865,
+      "beat_id": 7,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L865"
+    },
+    {
+      "line": 32,
+      "github_line": 866,
+      "beat_id": 7,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L866"
+    },
+    {
+      "line": 33,
+      "github_line": 867,
+      "beat_id": 7,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L867"
+    },
+    {
+      "line": 34,
+      "github_line": 868,
+      "beat_id": 7,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L868"
+    },
+    {
+      "line": 35,
+      "github_line": 869,
+      "beat_id": 7,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L869"
+    },
+    {
+      "line": 36,
+      "github_line": 870,
+      "beat_id": 7,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L870"
+    },
+    {
+      "line": 37,
+      "github_line": 871,
+      "beat_id": 8,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L871"
+    },
+    {
+      "line": 38,
+      "github_line": 872,
+      "beat_id": 8,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L872"
+    },
+    {
+      "line": 39,
+      "github_line": 873,
+      "beat_id": 8,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L873"
+    },
+    {
+      "line": 40,
+      "github_line": 874,
+      "beat_id": 8,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L874"
+    },
+    {
+      "line": 41,
+      "github_line": 875,
+      "beat_id": 8,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L875"
+    },
+    {
+      "line": 42,
+      "github_line": 876,
+      "beat_id": 8,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L876"
+    },
+    {
+      "line": 43,
+      "github_line": 877,
+      "beat_id": 8,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L877"
+    },
+    {
+      "line": 44,
+      "github_line": 878,
+      "beat_id": 8,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L878"
+    },
+    {
+      "line": 45,
+      "github_line": 879,
+      "beat_id": 9,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L879"
+    },
+    {
+      "line": 46,
+      "github_line": 880,
+      "beat_id": 9,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L880"
+    },
+    {
+      "line": 47,
+      "github_line": 881,
+      "beat_id": 9,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L881"
+    },
+    {
+      "line": 48,
+      "github_line": 882,
+      "beat_id": 9,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L882"
+    },
+    {
+      "line": 49,
+      "github_line": 883,
+      "beat_id": 9,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L883"
+    },
+    {
+      "line": 50,
+      "github_line": 884,
+      "beat_id": 9,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L884"
+    },
+    {
+      "line": 51,
+      "github_line": 885,
+      "beat_id": 10,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L885"
+    },
+    {
+      "line": 52,
+      "github_line": 886,
+      "beat_id": 10,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L886"
+    },
+    {
+      "line": 53,
+      "github_line": 887,
+      "beat_id": 10,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L887"
+    },
+    {
+      "line": 54,
+      "github_line": 888,
+      "beat_id": 10,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L888"
+    },
+    {
+      "line": 55,
+      "github_line": 889,
+      "beat_id": 10,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L889"
+    },
+    {
+      "line": 56,
+      "github_line": 890,
+      "beat_id": 10,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L890"
+    },
+    {
+      "line": 57,
+      "github_line": 891,
+      "beat_id": 10,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L891"
+    },
+    {
+      "line": 58,
+      "github_line": 892,
+      "beat_id": 10,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L892"
+    },
+    {
+      "line": 59,
+      "github_line": 893,
+      "beat_id": 10,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L893"
+    },
+    {
+      "line": 60,
+      "github_line": 894,
+      "beat_id": 10,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L894"
+    },
+    {
+      "line": 61,
+      "github_line": 895,
+      "beat_id": 11,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L895"
+    },
+    {
+      "line": 62,
+      "github_line": 896,
+      "beat_id": 11,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L896"
+    },
+    {
+      "line": 63,
+      "github_line": 897,
+      "beat_id": 11,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L897"
+    },
+    {
+      "line": 64,
+      "github_line": 898,
+      "beat_id": 11,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L898"
+    },
+    {
+      "line": 65,
+      "github_line": 899,
+      "beat_id": 11,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L899"
+    },
+    {
+      "line": 66,
+      "github_line": 900,
+      "beat_id": 11,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L900"
+    },
+    {
+      "line": 67,
+      "github_line": 901,
+      "beat_id": 11,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L901"
+    },
+    {
+      "line": 68,
+      "github_line": 902,
+      "beat_id": 11,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L902"
+    },
+    {
+      "line": 69,
+      "github_line": 903,
+      "beat_id": 11,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L903"
+    },
+    {
+      "line": 70,
+      "github_line": 904,
+      "beat_id": 11,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L904"
+    },
+    {
+      "line": 71,
+      "github_line": 905,
+      "beat_id": 11,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L905"
+    },
+    {
+      "line": 72,
+      "github_line": 906,
+      "beat_id": 11,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L906"
+    },
+    {
+      "line": 73,
+      "github_line": 907,
+      "beat_id": 12,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L907"
+    },
+    {
+      "line": 74,
+      "github_line": 908,
+      "beat_id": 12,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L908"
+    },
+    {
+      "line": 75,
+      "github_line": 909,
+      "beat_id": 12,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L909"
+    },
+    {
+      "line": 76,
+      "github_line": 910,
+      "beat_id": 12,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L910"
+    },
+    {
+      "line": 77,
+      "github_line": 911,
+      "beat_id": 12,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L911"
+    },
+    {
+      "line": 78,
+      "github_line": 912,
+      "beat_id": 12,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L912"
+    },
+    {
+      "line": 79,
+      "github_line": 913,
+      "beat_id": 12,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L913"
+    },
+    {
+      "line": 80,
+      "github_line": 914,
+      "beat_id": 12,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L914"
+    },
+    {
+      "line": 81,
+      "github_line": 915,
+      "beat_id": 12,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L915"
+    },
+    {
+      "line": 82,
+      "github_line": 916,
+      "beat_id": 12,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L916"
+    },
+    {
+      "line": 83,
+      "github_line": 917,
+      "beat_id": 12,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L917"
+    },
+    {
+      "line": 84,
+      "github_line": 918,
+      "beat_id": 12,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L918"
+    },
+    {
+      "line": 85,
+      "github_line": 919,
+      "beat_id": 13,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L919"
+    },
+    {
+      "line": 86,
+      "github_line": 920,
+      "beat_id": 13,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L920"
+    },
+    {
+      "line": 87,
+      "github_line": 921,
+      "beat_id": 13,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L921"
+    },
+    {
+      "line": 88,
+      "github_line": 922,
+      "beat_id": 13,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L922"
+    },
+    {
+      "line": 89,
+      "github_line": 923,
+      "beat_id": 13,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L923"
+    },
+    {
+      "line": 90,
+      "github_line": 924,
+      "beat_id": 13,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L924"
+    },
+    {
+      "line": 91,
+      "github_line": 925,
+      "beat_id": 14,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L925"
+    },
+    {
+      "line": 92,
+      "github_line": 926,
+      "beat_id": 14,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L926"
+    },
+    {
+      "line": 93,
+      "github_line": 927,
+      "beat_id": 14,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L927"
+    },
+    {
+      "line": 94,
+      "github_line": 928,
+      "beat_id": 14,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L928"
+    },
+    {
+      "line": 95,
+      "github_line": 929,
+      "beat_id": 14,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L929"
+    },
+    {
+      "line": 96,
+      "github_line": 930,
+      "beat_id": 14,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L930"
+    },
+    {
+      "line": 97,
+      "github_line": 931,
+      "beat_id": 14,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L931"
+    },
+    {
+      "line": 98,
+      "github_line": 932,
+      "beat_id": 14,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L932"
+    },
+    {
+      "line": 99,
+      "github_line": 933,
+      "beat_id": 14,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L933"
+    },
+    {
+      "line": 100,
+      "github_line": 934,
+      "beat_id": 14,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L934"
+    },
+    {
+      "line": 101,
+      "github_line": 935,
+      "beat_id": 14,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L935"
+    },
+    {
+      "line": 102,
+      "github_line": 936,
+      "beat_id": 15,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L936"
+    },
+    {
+      "line": 103,
+      "github_line": 937,
+      "beat_id": 15,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L937"
+    },
+    {
+      "line": 104,
+      "github_line": 938,
+      "beat_id": 15,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L938"
+    },
+    {
+      "line": 105,
+      "github_line": 939,
+      "beat_id": 15,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L939"
+    },
+    {
+      "line": 106,
+      "github_line": 940,
+      "beat_id": 15,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L940"
+    },
+    {
+      "line": 107,
+      "github_line": 941,
+      "beat_id": 15,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L941"
+    },
+    {
+      "line": 108,
+      "github_line": 942,
+      "beat_id": 15,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L942"
+    },
+    {
+      "line": 109,
+      "github_line": 943,
+      "beat_id": 15,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L943"
+    },
+    {
+      "line": 110,
+      "github_line": 944,
+      "beat_id": 15,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L944"
+    },
+    {
+      "line": 111,
+      "github_line": 945,
+      "beat_id": 16,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L945"
+    },
+    {
+      "line": 112,
+      "github_line": 946,
+      "beat_id": 16,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L946"
+    },
+    {
+      "line": 113,
+      "github_line": 947,
+      "beat_id": 16,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L947"
+    },
+    {
+      "line": 114,
+      "github_line": 948,
+      "beat_id": 16,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L948"
+    },
+    {
+      "line": 115,
+      "github_line": 949,
+      "beat_id": 16,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L949"
+    },
+    {
+      "line": 116,
+      "github_line": 950,
+      "beat_id": 16,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L950"
+    },
+    {
+      "line": 117,
+      "github_line": 951,
+      "beat_id": 16,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L951"
+    },
+    {
+      "line": 118,
+      "github_line": 952,
+      "beat_id": 16,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L952"
+    },
+    {
+      "line": 119,
+      "github_line": 953,
+      "beat_id": 17,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L953"
+    },
+    {
+      "line": 120,
+      "github_line": 954,
+      "beat_id": 17,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L954"
+    },
+    {
+      "line": 121,
+      "github_line": 955,
+      "beat_id": 17,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L955"
+    },
+    {
+      "line": 122,
+      "github_line": 956,
+      "beat_id": 17,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L956"
+    },
+    {
+      "line": 123,
+      "github_line": 957,
+      "beat_id": 17,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L957"
+    },
+    {
+      "line": 124,
+      "github_line": 958,
+      "beat_id": 17,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L958"
+    },
+    {
+      "line": 125,
+      "github_line": 959,
+      "beat_id": 17,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L959"
+    },
+    {
+      "line": 126,
+      "github_line": 960,
+      "beat_id": 18,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L960"
+    },
+    {
+      "line": 127,
+      "github_line": 961,
+      "beat_id": 18,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L961"
+    },
+    {
+      "line": 128,
+      "github_line": 962,
+      "beat_id": 18,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L962"
+    },
+    {
+      "line": 129,
+      "github_line": 963,
+      "beat_id": 18,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L963"
+    },
+    {
+      "line": 130,
+      "github_line": 964,
+      "beat_id": 18,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L964"
+    },
+    {
+      "line": 131,
+      "github_line": 965,
+      "beat_id": 18,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L965"
+    },
+    {
+      "line": 132,
+      "github_line": 966,
+      "beat_id": 18,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L966"
+    },
+    {
+      "line": 133,
+      "github_line": 967,
+      "beat_id": 18,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L967"
+    },
+    {
+      "line": 134,
+      "github_line": 968,
+      "beat_id": 18,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L968"
+    },
+    {
+      "line": 135,
+      "github_line": 969,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L969"
+    },
+    {
+      "line": 136,
+      "github_line": 970,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L970"
+    },
+    {
+      "line": 137,
+      "github_line": 971,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L971"
+    },
+    {
+      "line": 138,
+      "github_line": 972,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L972"
+    },
+    {
+      "line": 139,
+      "github_line": 973,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L973"
+    },
+    {
+      "line": 140,
+      "github_line": 974,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L974"
+    },
+    {
+      "line": 141,
+      "github_line": 975,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L975"
+    },
+    {
+      "line": 142,
+      "github_line": 976,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L976"
+    },
+    {
+      "line": 143,
+      "github_line": 977,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L977"
+    },
+    {
+      "line": 144,
+      "github_line": 978,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L978"
+    },
+    {
+      "line": 145,
+      "github_line": 979,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L979"
+    },
+    {
+      "line": 146,
+      "github_line": 980,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L980"
+    },
+    {
+      "line": 147,
+      "github_line": 981,
+      "beat_id": 19,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L981"
+    },
+    {
+      "line": 148,
+      "github_line": 982,
+      "beat_id": 20,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L982"
+    },
+    {
+      "line": 149,
+      "github_line": 983,
+      "beat_id": 20,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L983"
+    },
+    {
+      "line": 150,
+      "github_line": 984,
+      "beat_id": 20,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L984"
+    },
+    {
+      "line": 151,
+      "github_line": 985,
+      "beat_id": 20,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L985"
+    },
+    {
+      "line": 152,
+      "github_line": 986,
+      "beat_id": 20,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L986"
+    },
+    {
+      "line": 153,
+      "github_line": 987,
+      "beat_id": 20,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L987"
+    },
+    {
+      "line": 154,
+      "github_line": 988,
+      "beat_id": 20,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L988"
+    },
+    {
+      "line": 155,
+      "github_line": 989,
+      "beat_id": 20,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L989"
+    },
+    {
+      "line": 156,
+      "github_line": 990,
+      "beat_id": 21,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L990"
+    },
+    {
+      "line": 157,
+      "github_line": 991,
+      "beat_id": 21,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L991"
+    },
+    {
+      "line": 158,
+      "github_line": 992,
+      "beat_id": 21,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L992"
+    },
+    {
+      "line": 159,
+      "github_line": 993,
+      "beat_id": 21,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L993"
+    },
+    {
+      "line": 160,
+      "github_line": 994,
+      "beat_id": 21,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L994"
+    },
+    {
+      "line": 161,
+      "github_line": 995,
+      "beat_id": 22,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L995"
+    },
+    {
+      "line": 162,
+      "github_line": 996,
+      "beat_id": 22,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L996"
+    },
+    {
+      "line": 163,
+      "github_line": 997,
+      "beat_id": 22,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L997"
+    },
+    {
+      "line": 164,
+      "github_line": 998,
+      "beat_id": 22,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L998"
+    },
+    {
+      "line": 165,
+      "github_line": 999,
+      "beat_id": 23,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L999"
+    },
+    {
+      "line": 166,
+      "github_line": 1000,
+      "beat_id": 23,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1000"
+    },
+    {
+      "line": 167,
+      "github_line": 1001,
+      "beat_id": 23,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1001"
+    },
+    {
+      "line": 168,
+      "github_line": 1002,
+      "beat_id": 23,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1002"
+    },
+    {
+      "line": 169,
+      "github_line": 1003,
+      "beat_id": 23,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1003"
+    },
+    {
+      "line": 170,
+      "github_line": 1004,
+      "beat_id": 23,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1004"
+    },
+    {
+      "line": 171,
+      "github_line": 1005,
+      "beat_id": 23,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1005"
+    },
+    {
+      "line": 172,
+      "github_line": 1006,
+      "beat_id": 23,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1006"
+    },
+    {
+      "line": 173,
+      "github_line": 1007,
+      "beat_id": 23,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1007"
+    },
+    {
+      "line": 174,
+      "github_line": 1008,
+      "beat_id": 24,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1008"
+    },
+    {
+      "line": 175,
+      "github_line": 1009,
+      "beat_id": 24,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1009"
+    },
+    {
+      "line": 176,
+      "github_line": 1010,
+      "beat_id": 24,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1010"
+    },
+    {
+      "line": 177,
+      "github_line": 1011,
+      "beat_id": 24,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1011"
+    },
+    {
+      "line": 178,
+      "github_line": 1012,
+      "beat_id": 24,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1012"
+    },
+    {
+      "line": 179,
+      "github_line": 1013,
+      "beat_id": 24,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1013"
+    },
+    {
+      "line": 180,
+      "github_line": 1014,
+      "beat_id": 24,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1014"
+    },
+    {
+      "line": 181,
+      "github_line": 1015,
+      "beat_id": 24,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1015"
+    },
+    {
+      "line": 182,
+      "github_line": 1016,
+      "beat_id": 24,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1016"
+    },
+    {
+      "line": 183,
+      "github_line": 1017,
+      "beat_id": 24,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1017"
+    },
+    {
+      "line": 184,
+      "github_line": 1018,
+      "beat_id": 24,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1018"
+    },
+    {
+      "line": 185,
+      "github_line": 1019,
+      "beat_id": 25,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1019"
+    },
+    {
+      "line": 186,
+      "github_line": 1020,
+      "beat_id": 25,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1020"
+    },
+    {
+      "line": 187,
+      "github_line": 1021,
+      "beat_id": 25,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1021"
+    },
+    {
+      "line": 188,
+      "github_line": 1022,
+      "beat_id": 25,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1022"
+    },
+    {
+      "line": 189,
+      "github_line": 1023,
+      "beat_id": 25,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1023"
+    },
+    {
+      "line": 190,
+      "github_line": 1024,
+      "beat_id": 25,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1024"
+    },
+    {
+      "line": 191,
+      "github_line": 1025,
+      "beat_id": 25,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1025"
+    },
+    {
+      "line": 192,
+      "github_line": 1026,
+      "beat_id": 25,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1026"
+    },
+    {
+      "line": 193,
+      "github_line": 1027,
+      "beat_id": 26,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1027"
+    },
+    {
+      "line": 194,
+      "github_line": 1028,
+      "beat_id": 26,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1028"
+    },
+    {
+      "line": 195,
+      "github_line": 1029,
+      "beat_id": 26,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1029"
+    },
+    {
+      "line": 196,
+      "github_line": 1030,
+      "beat_id": 26,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1030"
+    },
+    {
+      "line": 197,
+      "github_line": 1031,
+      "beat_id": 26,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1031"
+    },
+    {
+      "line": 198,
+      "github_line": 1032,
+      "beat_id": 26,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1032"
+    },
+    {
+      "line": 199,
+      "github_line": 1033,
+      "beat_id": 26,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1033"
+    },
+    {
+      "line": 200,
+      "github_line": 1034,
+      "beat_id": 26,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1034"
+    },
+    {
+      "line": 201,
+      "github_line": 1035,
+      "beat_id": 27,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1035"
+    },
+    {
+      "line": 202,
+      "github_line": 1036,
+      "beat_id": 27,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1036"
+    },
+    {
+      "line": 203,
+      "github_line": 1037,
+      "beat_id": 27,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1037"
+    },
+    {
+      "line": 204,
+      "github_line": 1038,
+      "beat_id": 27,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1038"
+    },
+    {
+      "line": 205,
+      "github_line": 1039,
+      "beat_id": 27,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1039"
+    },
+    {
+      "line": 206,
+      "github_line": 1040,
+      "beat_id": 27,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1040"
+    },
+    {
+      "line": 207,
+      "github_line": 1041,
+      "beat_id": 27,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1041"
+    },
+    {
+      "line": 208,
+      "github_line": 1042,
+      "beat_id": 27,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1042"
+    },
+    {
+      "line": 209,
+      "github_line": 1043,
+      "beat_id": 27,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1043"
+    },
+    {
+      "line": 210,
+      "github_line": 1044,
+      "beat_id": 27,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1044"
+    },
+    {
+      "line": 211,
+      "github_line": 1045,
+      "beat_id": 28,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1045"
+    },
+    {
+      "line": 212,
+      "github_line": 1046,
+      "beat_id": 28,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1046"
+    },
+    {
+      "line": 213,
+      "github_line": 1047,
+      "beat_id": 28,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1047"
+    },
+    {
+      "line": 214,
+      "github_line": 1048,
+      "beat_id": 28,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1048"
+    },
+    {
+      "line": 215,
+      "github_line": 1049,
+      "beat_id": 28,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1049"
+    },
+    {
+      "line": 216,
+      "github_line": 1050,
+      "beat_id": 28,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1050"
+    },
+    {
+      "line": 217,
+      "github_line": 1051,
+      "beat_id": 28,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1051"
+    },
+    {
+      "line": 218,
+      "github_line": 1052,
+      "beat_id": 28,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1052"
+    },
+    {
+      "line": 219,
+      "github_line": 1053,
+      "beat_id": 28,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1053"
+    },
+    {
+      "line": 220,
+      "github_line": 1054,
+      "beat_id": 29,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1054"
+    },
+    {
+      "line": 221,
+      "github_line": 1055,
+      "beat_id": 29,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1055"
+    },
+    {
+      "line": 222,
+      "github_line": 1056,
+      "beat_id": 29,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1056"
+    },
+    {
+      "line": 223,
+      "github_line": 1057,
+      "beat_id": 29,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1057"
+    },
+    {
+      "line": 224,
+      "github_line": 1058,
+      "beat_id": 29,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1058"
+    },
+    {
+      "line": 225,
+      "github_line": 1059,
+      "beat_id": 29,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1059"
+    },
+    {
+      "line": 226,
+      "github_line": 1060,
+      "beat_id": 29,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1060"
+    },
+    {
+      "line": 227,
+      "github_line": 1061,
+      "beat_id": 30,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1061"
+    },
+    {
+      "line": 228,
+      "github_line": 1062,
+      "beat_id": 30,
+      "kind": "dialogue_or_internal",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1062"
+    },
+    {
+      "line": 229,
+      "github_line": 1063,
+      "beat_id": 30,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1063"
+    },
+    {
+      "line": 230,
+      "github_line": 1064,
+      "beat_id": 31,
+      "kind": "blank",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1064"
+    },
+    {
+      "line": 231,
+      "github_line": 1065,
+      "beat_id": 31,
+      "kind": "blank",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1065"
+    },
+    {
+      "line": 232,
+      "github_line": 1066,
+      "beat_id": 31,
+      "kind": "narration_or_metadata",
+      "source": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L1066"
+    }
+  ],
+  "beats": [
+    {
+      "id": 1,
+      "range": [
+        1,
+        4
+      ],
+      "pair": "source",
+      "kind": "metadata",
+      "verified_facts": "E05 heading and source URL.",
+      "director_mechanism": "No action."
+    },
+    {
+      "id": 2,
+      "range": [
+        5,
+        9
+      ],
+      "pair": "twins",
+      "kind": "continuation and boundary",
+      "verified_facts": "Bantu repeats the previous episode's question. Dhika pulls her hands away, pinches his ears and says he is crossing lines. They laugh; she feels increasingly comfortable yet shy.",
+      "director_mechanism": "E04 cliffhanger paid off; the verbal boundary is explicit, not an invitation to every future request."
+    },
+    {
+      "id": 3,
+      "range": [
+        10,
+        15
+      ],
+      "pair": "twins",
+      "kind": "scene exit",
+      "verified_facts": "Dhika cancels remaining tuition for John’s birthday week; she asks brothers to stop staring; Bobby looks down and Bantu continues joking.",
+      "director_mechanism": "Practical timetable change sets future absence."
+    },
+    {
+      "id": 4,
+      "range": [
+        16,
+        20
+      ],
+      "pair": "twins",
+      "kind": "physical affection",
+      "verified_facts": "Dhika gives both Bantu and Bobby cheek kisses; Bobby returns alone and kisses her cheek before leaving.",
+      "director_mechanism": "Count distinct cheek kisses accurately: one initiated by Dhika with each twin, one return by Bobby."
+    },
+    {
+      "id": 5,
+      "range": [
+        21,
+        23
+      ],
+      "pair": "dhika",
+      "kind": "aftermath",
+      "verified_facts": "Alone with Pappu, Dhika privately questions her growing openness and feels guilt until John's call lifts her mood.",
+      "director_mechanism": "Momentary guilt and affection for John coexist."
+    },
+    {
+      "id": 6,
+      "range": [
+        24,
+        28
+      ],
+      "pair": "john",
+      "kind": "new visitor arrangement",
+      "verified_facts": "John phones to announce a new assistant for dinner; Dhika agrees, prepares food, and changes into a sari.",
+      "director_mechanism": "Third-party visit is husband-initiated, not Dhika's secret meeting."
+    },
+    {
+      "id": 7,
+      "range": [
+        29,
+        36
+      ],
+      "pair": "leo",
+      "kind": "introduction",
+      "verified_facts": "John introduces Leo as his new colleague; he responds warmly to Dhika. One dialogue line labels him 'Ron', while surrounding identification is Leo.",
+      "director_mechanism": "Preserve source name inconsistency; do not invent a distinct Ron without evidence."
+    },
+    {
+      "id": 8,
+      "range": [
+        37,
+        44
+      ],
+      "pair": "leo",
+      "kind": "future-neighbor possibility",
+      "verified_facts": "Leo discusses possibly renting nearby and returning for dinner. John notices glances toward Dhika but keeps his interpretation private.",
+      "director_mechanism": "Leo has only initial social access; future neighbor access remains conditional."
+    },
+    {
+      "id": 9,
+      "range": [
+        45,
+        50
+      ],
+      "pair": "john",
+      "kind": "birthday and marital closeness",
+      "verified_facts": "John hints at a birthday surprise; narration says marital physical intimacy occurs that night and he speculates about Leo's influence.",
+      "director_mechanism": "John does not know about earlier twin interactions. His causal suspicion is not source-established truth."
+    },
+    {
+      "id": 10,
+      "range": [
+        51,
+        60
+      ],
+      "pair": "bantu",
+      "kind": "solo mall meeting",
+      "verified_facts": "Dhika shops for a birthday outfit for John and runs into Bantu alone; she permits him to join.",
+      "director_mechanism": "First independent out-of-class Bantu encounter, without Bobby."
+    },
+    {
+      "id": 11,
+      "range": [
+        61,
+        72
+      ],
+      "pair": "bantu",
+      "kind": "changing-room suggestion",
+      "verified_facts": "Bantu proposes evaluating clothing while she tries it on; Dhika initially rejects outside exposure but considers a more private fitting-room arrangement.",
+      "director_mechanism": "Her stated motive is to buy for John; privacy preferences and Bantu's interpretations differ."
+    },
+    {
+      "id": 12,
+      "range": [
+        73,
+        84
+      ],
+      "pair": "bantu",
+      "kind": "outfit comparison",
+      "verified_facts": "Dhika tries shorts and then a fitted T-shirt; Bantu offers opinions and fetches alternatives.",
+      "director_mechanism": "Clothing decisions and visibility are actual; no inference of underwear removal beyond source."
+    },
+    {
+      "id": 13,
+      "range": [
+        85,
+        90
+      ],
+      "pair": "bantu",
+      "kind": "actual thigh contact",
+      "verified_facts": "Bantu briefly touches Dhika's thigh with the backs of his fingers. She calls out the action; he explains interest in skin texture.",
+      "director_mechanism": "Real contact; his motive is stated by him, not proof of Dhika's approval."
+    },
+    {
+      "id": 14,
+      "range": [
+        91,
+        101
+      ],
+      "pair": "bantu",
+      "kind": "fit assessment",
+      "verified_facts": "Bantu asks Dhika to turn so he can assess shorts from behind; she agrees, hears compliments, and playfully rebukes him.",
+      "director_mechanism": "Observation of clothed body is distinct from actual body contact."
+    },
+    {
+      "id": 15,
+      "range": [
+        102,
+        110
+      ],
+      "pair": "bantu",
+      "kind": "second shirt and visibility",
+      "verified_facts": "Bantu fetches a larger top; Dhika notes its tightness and covers herself on realizing what is visible.",
+      "director_mechanism": "Her spontaneous cover is a local boundary indicator."
+    },
+    {
+      "id": 16,
+      "range": [
+        111,
+        118
+      ],
+      "pair": "bantu",
+      "kind": "compliment and hug",
+      "verified_facts": "Bantu continues admiring; Dhika pulls his ears then thanks him and hugs him before buying clothes.",
+      "director_mechanism": "Hug initiated by Dhika; distinguish Bantu's prior touch and subsequent mutual embrace."
+    },
+    {
+      "id": 17,
+      "range": [
+        119,
+        125
+      ],
+      "pair": "home",
+      "kind": "Pappu departure",
+      "verified_facts": "Dhika plans private birthday evening with John. Pappu rushes toward Aunty's, and Dhika leaves the door open while moving to change.",
+      "director_mechanism": "Domestic hurry creates unplanned arrival."
+    },
+    {
+      "id": 18,
+      "range": [
+        126,
+        134
+      ],
+      "pair": "uncle",
+      "kind": "unexpected bedroom appearance",
+      "verified_facts": "Dhika is in shorts and bra when she notices Uncle's reflection. She covers with a towel and challenges his arrival; he says the door was open.",
+      "director_mechanism": "Unplanned observation, not a scheduled meeting; don't infer she was nude."
+    },
+    {
+      "id": 19,
+      "range": [
+        135,
+        147
+      ],
+      "pair": "uncle",
+      "kind": "disclosure and boundary",
+      "verified_facts": "Dhika invites him to sit, acknowledges she saw his earlier garment incident, hears apology, and holds his hand while asking him not to repeat it.",
+      "director_mechanism": "Her compassion and explicit 'do not do this again' boundary must coexist in account."
+    },
+    {
+      "id": 20,
+      "range": [
+        148,
+        155
+      ],
+      "pair": "uncle",
+      "kind": "departure and visual ambiguity",
+      "verified_facts": "Uncle says he is traveling to Delhi and requests help with Aunty. He compliments Dhika before leaving; she drops the towel as she retreats.",
+      "director_mechanism": "Clothing underneath remains as established (bra and shorts); source does not show partnered sexual contact."
+    },
+    {
+      "id": 21,
+      "range": [
+        156,
+        160
+      ],
+      "pair": "john",
+      "kind": "birthday and work interruption",
+      "verified_facts": "Dhika and John enjoy food and marital intimacy; birthday/audit consume Wednesday–Thursday. Uncle departs; Dhika cancels Friday tuition.",
+      "director_mechanism": "Joint calendar gates twin access; no evidence of Bantu/Bobby visit during cancellation."
+    },
+    {
+      "id": 22,
+      "range": [
+        161,
+        164
+      ],
+      "pair": "chotu",
+      "kind": "planned re-entry",
+      "verified_facts": "Dhika misses painting with Chotu and thinks of past interaction. Maami confirms availability; Dhika chooses a light outfit and calls him.",
+      "director_mechanism": "Planning a task alongside personal anticipation; not evidence of a prearranged sexual agreement."
+    },
+    {
+      "id": 23,
+      "range": [
+        165,
+        173
+      ],
+      "pair": "chotu",
+      "kind": "first hug and clothing notice",
+      "verified_facts": "Chotu arrives and initiates a hug, which surprises Dhika. She takes his hand to the painting room; he notices her outfit.",
+      "director_mechanism": "First explicitly noted hug from Chotu to Dhika."
+    },
+    {
+      "id": 24,
+      "range": [
+        174,
+        184
+      ],
+      "pair": "chotu",
+      "kind": "joint labor and growing distraction",
+      "verified_facts": "They paint top/bottom portions separately. Chotu becomes distracted; Dhika offers shirt-removal for comfort, he declines.",
+      "director_mechanism": "Chotu's refusal concerns his own clothing, not an accepted invitation to undress."
+    },
+    {
+      "id": 25,
+      "range": [
+        185,
+        192
+      ],
+      "pair": "chotu",
+      "kind": "paint accident and waist contact",
+      "verified_facts": "Chotu drops his paintbrush; paint lands on Dhika's shorts at buttocks. He presses/rubs the cloth against the affected area to clean; she giggles, questions him, asks him to stop, and he stops.",
+      "director_mechanism": "Classify splash accidental, cleaning action actual and initiator Chotu, verbal stop explicit. No evidence of planned touch."
+    },
+    {
+      "id": 26,
+      "range": [
+        193,
+        200
+      ],
+      "pair": "chotu",
+      "kind": "second spill and clothing offer",
+      "verified_facts": "Paint also soils Chotu's shorts. Dhika sees this, offers cleaning and lends John's shorts; Chotu is embarrassed.",
+      "director_mechanism": "A material accident triggers a change of setting and clothing logistics."
+    },
+    {
+      "id": 27,
+      "range": [
+        201,
+        210
+      ],
+      "pair": "chotu",
+      "kind": "changing-room misunderstanding",
+      "verified_facts": "Chotu begins changing in front of Dhika; she turns away. Oversized borrowed shorts slide down; both react with embarrassment.",
+      "director_mechanism": "Do not claim deliberate genital exposure or nudity not described; he is wearing boxers."
+    },
+    {
+      "id": 28,
+      "range": [
+        211,
+        219
+      ],
+      "pair": "chotu",
+      "kind": "accidental contact during assistance",
+      "verified_facts": "Dhika gets string and tries to raise/fasten borrowed shorts. While assisting, her hands brush against Chotu's covered genital area; she notices and apologizes.",
+      "director_mechanism": "Contact is actual and incidental to clothing assistance; her later imagined wish is a thought not another touch."
+    },
+    {
+      "id": 29,
+      "range": [
+        220,
+        226
+      ],
+      "pair": "chotu",
+      "kind": "end of assistance",
+      "verified_facts": "Chotu asks why Dhika apologized; she does not explain. She finishes tying the borrowed shorts and both stand awkwardly.",
+      "director_mechanism": "No additional sexual act is proven by the unspoken thought at L222."
+    },
+    {
+      "id": 30,
+      "range": [
+        227,
+        229
+      ],
+      "pair": "chotu",
+      "kind": "follow-up and second hug",
+      "verified_facts": "They agree to continue painting around noon the next day. Chotu initiates a second hug; their bodies make contact through clothing, and Dhika reciprocates lightly.",
+      "director_mechanism": "Second physical hug is actual and different from the first; schedule is a plan, not a guarantee."
+    },
+    {
+      "id": 31,
+      "range": [
+        230,
+        232
+      ],
+      "pair": "structure",
+      "kind": "episode closure",
+      "verified_facts": "Trailing blank lines and separator.",
+      "director_mechanism": "No further narrated action."
+    }
+  ],
+  "pair_state": {
+    "john": "Birthday dinner and married intimacy; work/audit schedule. John's speculation about Leo is speculation.",
+    "chotu": "Painting collaboration, two initiated hugs, practical contact while cleaning buttock area and fastening shorts; future noon painting proposed.",
+    "bantu": "Solo fitting-room shopping, brief thigh contact, fashion feedback, Dhika-initiated hug. Prior verbal limits still matter.",
+    "bobby": "Cheek kiss received and returned; no direct solo E05 encounter.",
+    "uncle": "Unplanned view at bedroom entrance; prior garment incident acknowledged, apology, explicit boundary and Delhi departure.",
+    "leo": "Introduced at dinner as John's colleague, considering moving nearby; no physical contact with Dhika.",
+    "sharmi": "No E05 direct scene.",
+    "raj": "No E05 direct scene."
+  },
+  "knowledge_constraints": [
+    "John does not know twins' tuition details and Chotu encounters beyond what Dhika told him.",
+    "Uncle learns Dhika had observed his E02 violation; this is a new disclosure.",
+    "Bantu mall encounter is solo; do not attribute it to Bobby.",
+    "Leo is an independent visitor; dialogue mistakenly names him Ron in one line."
+  ],
+  "next_threads": [
+    "Proposed following-day painting may be delayed by real-life logistics.",
+    "Uncle travel may suspend encounters.",
+    "Twins have canceled classes through Friday, not permanently.",
+    "Leo apartment move is undecided."
+  ],
+  "integrity": {
+    "lines": 232,
+    "beats": 31,
+    "gaps": [],
+    "overlap": [],
+    "raw_untouched": true
+  }
+}
