@@ -12,11 +12,20 @@ const URLS={
   triggers:"./data/reader_triggers.json",
   groups:"./data/group_encounters.json",
   links:"./data/relationship_links.json",
-  progression:"./data/action_progression_e03.json"
+  progression:"./data/action_progression_e03.json",
+  e04Direction:"./data/episode04_direction_index.json",
+  e04Actions:"./data/e04_atomic_director_ledger.json",
+  e04Mind:"./data/e04_character_progression.json",
+  e04Style:"./data/e04_author_style_guide.json",
+  e05Prediction:"./data/e05_director_prediction.json",
+  e05Review:"./data/e05_prediction_audit.json"
 };
 const META={
-  progression:{title:"Actual Action Progression · E01–E03",tab:"Action Progression ★",note:"Pair-wise observed sequence: original setup → precise action names → aftermath and updated boundary; no future predictions."},
-  relationship:{title:"Relationship History · All Episodes",tab:"Relationship Timeline ★",note:"Chronological E01–E03 actions, inner thoughts, bond changes, exact trigger phrases and group events; source text unchanged."},
+  directorStyle:{title:"Author Writing Mechanics · E01–E04",tab:"Author Style ★",note:"12 named narrative mechanisms with source anchors and practical writer instructions, plus five voice profiles."},
+  directorForecast:{title:"Blind E05 Director Blueprint · Frozen",tab:"E05 Prediction ◇",note:"Hypothetical eight-scene forecast, written before viewing E05; action names are NOT canonical."},
+  predictionReview:{title:"Frozen Prediction vs Actual E05",tab:"Prediction Audit ★",note:"Three hits, two partials, three misses. E05 source line references are grounded, prediction unchanged."},
+  progression:{title:"Actual Action Progression · E01–E04",tab:"Action Progression ★",note:"Pair-wise observed sequence: original setup → precise action names → aftermath and updated boundary; no future predictions."},
+  relationship:{title:"Relationship History · All Episodes",tab:"Relationship Timeline ★",note:"Chronological E01–E04 actions, inner thoughts, bond changes, exact trigger phrases and group events; source text unchanged."},
   episode:{title:"Episode original timeline",tab:"Episode",note:"Uninterrupted original text, all lines preserved, each source segment uniquely indexed."},
   inner:{title:"Character inner thoughts & changing nature",tab:"Inner Evolution ★",note:"Before → shift, source voice, exact line; no character's feelings copied onto another."},
   triggers:{title:"Exact author trigger phrases",tab:"Trigger Words ✦",note:"Exact phrase highlighted. A hook, emotional shift, visual description and payoff are not interchangeable."},
@@ -59,6 +68,7 @@ function relationshipPeople(pairId){
  return found?.participants||pairId.split("_");
 }
 function belongsToRelationship(item,view,pairId){
+ if(item.paired_relationships?.includes(pairId))return true;
  const pair=relationshipPeople(pairId);
  if(view==="inner")return(DATA.links?.inner_state_links?.[item.id]||[]).includes(pairId);
  if(view==="bonds"||view==="escalation")return item.relationship_id===pairId ||(item.participants?.length===2&&pair.every(x=>item.participants.includes(x)));
@@ -79,21 +89,87 @@ function listRelationshipRecords(pairId){
   return order||RELATIONSHIP_VIEWS.indexOf(a.related_view)-RELATIONSHIP_VIEWS.indexOf(b.related_view);
  });
 }
+
+function e04Lines(a,b){
+ return DATA.e04.events.flatMap(e=>e.raw_lines).filter(l=>l.line>=a&&l.line<=b);
+}
+function e04Pairs(item){
+ if(item.target==="self"&&item.actor==="dhika")return item.source_line<=29?["dhika_chotu"]:["dhika_bantu","dhika_bobby"];
+ return [];
+}
+function e04Actions(){
+ return DATA.e04Actions.events.map(a=>{
+   const sc=DATA.e04Direction.scenes.find(x=>a.source_line>=x.source_lines[0]&&a.source_line<=x.source_lines[1]);
+   const start=sc?.source_lines[0]||a.source_line,end=sc?.source_lines[1]||a.source_line;
+   return {...a,is_e04_action:true,episode_id:"E04",character_id:a.actor,counterpart_id:a.target,
+     line_start:start,line_end:end,raw_lines:e04Lines(start,end),
+     scene_id:sc?.id||"E04-POINTER",scene_title:sc?.title||"Source line",
+     paired_relationships:e04Pairs(a),characters:[a.actor,a.target].filter(x=>x!=="self"),
+     tags:[a.action_type,a.temporal_status,a.body_part_or_focus,a.observed_reaction]};
+ });
+}
+function e04Inner(){
+ return DATA.e04Mind.character_checkpoints.map(a=>({
+   ...a,episode_id:"E04",character_id:a.actor,is_inner:true,
+   line_start:a.source_line_start,line_end:a.source_line_end,
+   raw_lines:e04Lines(a.source_line_start,a.source_line_end),
+   change_marker:a.change_marker,prior_state_or_expectation:a.prior_chain,
+   observed_state_or_difference:a.observation,
+   paired_relationships:a.paired_relationships
+ }));
+}
+function e04Bonds(){
+ return DATA.e04Mind.relationship_threads.flatMap(pair=>pair.stages.map((a,i)=>({
+   id:pair.pair+":E04:"+(i+1),episode_id:"E04",relationship_id:pair.pair,
+   participants:pair.pair.split("_"),line_start:a.range[0],line_end:a.range[1],
+   raw_lines:e04Lines(...a.range),state_tag:a.name,evidence_kind:a.insight,
+   paired_relationships:[pair.pair]
+ })));
+}
+
 function listItems(view){
  const d=DATA[view];
- if(!d&&view!=="relationship")return[];
+ if(!d&&!["relationship","directorStyle","directorForecast","predictionReview"].includes(view))return[];
  let base=[];
  if(view==="relationship")base=listRelationshipRecords(STATE.relationship);
+ else if(view==="directorStyle")base=DATA.e04Style.features.map(f=>{
+  const anchor=f.evidence.find(v=>v[0]==="E04")||f.evidence[0];
+  const ep=anchor[0],seg={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03,E04:DATA.e04}[ep];
+  return {...f,id:f.id,is_style:true,episode_id:ep,line_start:anchor[1],line_end:anchor[2],
+   label:f.name,raw_lines:seg.events.flatMap(x=>x.raw_lines).filter(l=>l.line>=anchor[1]&&l.line<=anchor[2])};
+ });
+ else if(view==="directorForecast")base=DATA.e05Prediction.scenes.map(p=>({
+  ...p,episode_id:"E05",line_start:0,line_end:0,raw_lines:[],
+  is_forecast:true,label:p.title,tags:[p.confidence,p.category]
+ }));
+ else if(view==="predictionReview")base=DATA.e05Review.marks.map((m,i)=>({
+  ...m,id:m.predicted_scene_id,episode_id:"E05",
+  line_start:m.actual_source_lines?.[0]||0,line_end:m.actual_source_lines?.[1]||0,raw_lines:[],
+  is_prediction_result:true,label:m.predicted_scene_id+" — "+m.result,tags:[m.result]
+ }));
  else if(view==="progression"){
   const pair=d.pairs.find(x=>x.relationship_id===STATE.relationship);
   base=(pair?.stages||[]).map(stage=>{
-   const epSource={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03}[stage.episode_id];
+   const epSource={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03,E04:DATA.e04}[stage.episode_id];
    const original=epSource.events.flatMap(x=>x.raw_lines).filter(z=>z.line>=stage.line_start&&z.line<=stage.line_end);
    return {...stage,is_progression:true,characters:relationshipPeople(STATE.relationship),
     label:stage.stage_name,raw_lines:original,tags:["ACTUAL SOURCE","PAIR HISTORY",stage.observed_contact]};
   });
+  const e04pair=DATA.e04Mind.relationship_threads.find(x=>x.pair===STATE.relationship);
+  for(const [i,stage] of (e04pair?.stages||[]).entries()){
+    const matching=e04Actions().filter(x=>x.source_line>=stage.range[0]&&x.source_line<=stage.range[1]&&
+      belongsToRelationship(x,"physical",STATE.relationship));
+    base.push({id:"PROG-"+STATE.relationship+"-E04-"+String(i+1).padStart(2,"0"),
+      episode_id:"E04",relationship_id:STATE.relationship,stage_name:stage.name,is_progression:true,
+      line_start:stage.range[0],line_end:stage.range[1],raw_lines:e04Lines(...stage.range),
+      setup_analysis:stage.insight,observed_contact:"Source-grounded E04 stage (see named actions and original lines)",
+      atomic_action_ids:matching.map(x=>x.id),atomic_action_names:matching.map(x=>x.action_name),
+      source_line_reference:"E04 L"+stage.range[0]+"–L"+stage.range[1],
+      characters:relationshipPeople(STATE.relationship),tags:["ACTUAL SOURCE","E04"]
+    });
+  }
  }
- else if(view==="episode")base=[...DATA.episode.events,...DATA.e02.events,...DATA.e03.events];
+ else if(view==="episode")base=[...DATA.episode.events,...DATA.e02.events,...DATA.e03.events,...DATA.e04.events];
  else if(view==="heat"||view==="curiosity")base=d.events;
  else if(view==="physical"){
    const sceneMap=new Map(d.scenes.map(x=>[x.scene_id,x]));
@@ -107,16 +183,21 @@ function listItems(view){
        setup:sc.setup_analysis,scene_title:sc.title
      };
    });
+   base.push(...e04Actions());
  }
- else if(view==="bonds")base=d.relationships.flatMap(r=>r.states.map(e=>({...e,relationship_id:r.id,participants:r.participants})));
+ else if(view==="bonds")base=[...d.relationships.flatMap(r=>r.states.map(e=>({...e,relationship_id:r.id,participants:r.participants}))),...e04Bonds()];
  else if(view==="escalation")base=d.tracks.flatMap(t=>t.events.map(e=>({...e,relationship_id:t.relationship_id,participants:t.relationship_id.split("_")})));
- else if(view==="inner")base=Object.values(d.characters).flatMap(ch=>ch.states.map(state=>({...state,character_id:ch.character_id,is_inner:true})));
+ else if(view==="inner")base=[...Object.values(d.characters).flatMap(ch=>ch.states.map(state=>({...state,character_id:ch.character_id,is_inner:true}))),...e04Inner()];
  else if(view==="triggers")base=d.triggers.map(trigger=>({...trigger,id:trigger.id,is_trigger:true,line_start:trigger.line,line_end:trigger.line,raw_lines:[{line:trigger.line,text:trigger.source_line}]}));
  else if(view==="groups")base=d.groups.map(group=>({...group,is_group:true,raw_lines:group.shared_raw_lines}));
  return base.sort((a,b)=>a.episode_id.localeCompare(b.episode_id)||a.line_start-b.line_start||String(a.id).localeCompare(String(b.id)));
 }
 function itemHeading(item){
+ if(item.is_style)return titleCase(item.name);
+ if(item.is_forecast)return item.title;
+ if(item.is_prediction_result)return item.predicted_scene_id+" — "+item.result.toUpperCase();
  if(item.is_progression)return titleCase(item.stage_name);
+ if(item.is_e04_action)return titleCase(item.action_name);
  if(item.is_atomic)return titleCase(item.action_name);
  if(item.is_trigger)return item.phrase;
  if(item.is_inner)return titleCase(item.change_marker);
@@ -133,12 +214,12 @@ function filteredItems(){
  const q=STATE.query.toLowerCase().trim();
  return listItems(STATE.view).filter(item=>{
    const people=characterIds(item);
-   if(STATE.episode!=="ALL"&&item.episode_id!==STATE.episode)return false;
+   if(!["directorStyle","directorForecast","predictionReview"].includes(STATE.view)&&STATE.episode!=="ALL"&&item.episode_id!==STATE.episode)return false;
    if(STATE.view==="relationship"&&STATE.facet!=="ALL"&&item.related_view!==STATE.facet)return false;
    if(STATE.view!=="relationship"&&STATE.character&&!people.includes(STATE.character))return false;
    if(!q)return true;
    const searchable=[item.id,itemHeading(item),people.join(" "),itemTags(item).join(" "),
-       item.change_marker,item.prior_state_or_expectation,item.observed_state_or_difference,item.why_this_exact_phrase_matters,item.label,item.observable_action,item.action_name,item.setup,item.scene_title,item.source_action?.exact_phrase,...(item.original_author_imagery||[]).map(x=>x.exact_phrase),
+       item.change_marker,item.prior_state_or_expectation,item.observed_state_or_difference,item.why_this_exact_phrase_matters,item.label,item.observable_action,item.action_name,item.setup,item.scene_title,item.observation,item.reason,item.mechanic,item.writer_instruction,item.objective,item.directions?.join(" "),item.source_action?.exact_phrase,...(item.original_author_imagery||[]).map(x=>x.exact_phrase),
        ...(item.raw_lines||[]).map(l=>l.text)].join(" ").toLowerCase();
    return searchable.includes(q);
  });
@@ -146,7 +227,7 @@ function filteredItems(){
 function renderStats(){
  const st=$("stats");st.replaceChildren();
  const scope=STATE.episode,records=view=>listItems(view).filter(x=>scope==="ALL"||x.episode_id===scope);
- const episodes={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03};
+ const episodes={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03,E04:DATA.e04};
  const totalLines=scope==="ALL"?Object.values(episodes).reduce((n,e)=>n+e.line_count,0):episodes[scope].line_count;
  const values=STATE.view==="relationship"?[
  [totalLines+" / "+totalLines,"Raw lines indexed"],
@@ -206,6 +287,9 @@ function renderCharacterOptions(){
  }
 }
 function lineLabel(item){
+ if(item.is_e04_action)return "E04 L"+String(item.source_line).padStart(3,"0")+" · "+item.scene_id;
+ if(item.is_forecast)return "E05 FORECAST · not canon";
+ if(item.is_prediction_result)return item.actual_source_lines?"E05 L"+item.line_start+"–"+item.line_end:"No matching E05 scene";
  if(item.is_atomic)return item.episode_id+" L"+String(item.source_line).padStart(3,"0")+" · "+item.scene_id;
  if(item.is_proposed||item.is_practice)return (item.raw_lines||[]).length+" E01 evidence anchors";
  return item.episode_id+" L"+String(item.line_start).padStart(3,"0")+"–L"+String(item.line_end).padStart(3,"0");
