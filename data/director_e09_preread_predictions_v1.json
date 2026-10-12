@@ -1,0 +1,44 @@
+{
+  "kind": "E09_blind_scenario_prediction",
+  "status": "frozen_before_reading_E09_narrative",
+  "cutoff": "E08",
+  "basis": [
+    "E08 L150-214",
+    "E08 L24-65",
+    "E08 L146-149",
+    "E08 L20-22"
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "weight": "high",
+      "story": "E09 opens with the result of Dhika's visual choice at the end of the Bobby call, and Bobby's resulting reaction."
+    },
+    {
+      "id": "H2",
+      "weight": "medium",
+      "story": "Bobby's further assertiveness surprises Dhika as she compares him to Bantu."
+    },
+    {
+      "id": "H3",
+      "weight": "medium",
+      "story": "Bantu's next scene delayed because he explicitly says unavailable until Monday."
+    },
+    {
+      "id": "H4",
+      "weight": "medium",
+      "story": "Dhika's anxiety about reputation/teacher identity returns after recent webcam events."
+    },
+    {
+      "id": "H5",
+      "weight": "low",
+      "story": "Chotu returns for explanation of discomfort and an appropriate boundary conversation."
+    },
+    {
+      "id": "H6",
+      "weight": "low",
+      "story": "John or a domestic visit interrupts private online attention."
+    }
+  ],
+  "critical": "These are narrative hypotheses only. No E09 scene details known at freeze."
+}
