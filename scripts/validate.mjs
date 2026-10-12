@@ -13,9 +13,13 @@ function assert(cond,msg){if(!cond)throw new Error(msg);}
 assert(headers.length===69,"Expected exactly 69 source episode headers.");
 headers.forEach((h,i)=>assert(Number(h[1])===i+1,"Episode ordering mismatch."));
 const e01=raw.slice(headers[0].index,headers[1].index).split(/\r?\n/);
-assert(e01.length===229,"E01 source changed: expected 229 line positions.");
+assert(e01.length===229,"E01 line count changed.");
+const e02=raw.slice(headers[1].index,headers[2].index).split(/\r?\n/);
+assert(e02.length===160,"E02 line count changed.");
+const sources={E01:e01,E02:e02};
 const routes=[
  "data/episodes/e01.json",
+ "data/episodes/e02.json",
  "data/physical_actions.json",
  "data/bond_evolution.json",
  "data/internal_heat_access.json",
@@ -38,20 +42,22 @@ for(const route of routes){
  const d=load(route),records=entries(d);
  assert(records.length>0,"Empty dataset: "+route);
  for(const e of records){
-  assert(e.episode_id==="E01",`Non-E01 record ${e.id}`);
+  assert(Boolean(sources[e.episode_id]),`Unknown episode: ${e.id}`);
   assert(!ids.has(e.id),`Duplicate record ID: ${e.id}`);
   ids.add(e.id);
-  assert(e.line_start>0&&e.line_end<=229&&e.line_start<=e.line_end,`Out-of-range: ${e.id}`);
+  assert(e.line_start>0&&e.line_end<=sources[e.episode_id].length&&e.line_start<=e.line_end,`Out-of-range: ${e.id}`);
   assert(e.raw_lines.length===e.line_end-e.line_start+1,`Excerpt length mismatch: ${e.id}`);
   e.raw_lines.forEach((line,i)=>{
    assert(line.line===e.line_start+i,`Wrong line number: ${e.id}`);
-   assert(line.text===e01[line.line-1],`Wording mismatch at E01 L${line.line} in ${e.id}`);
+   assert(line.text===sources[e.episode_id][line.line-1],`Source mismatch ${e.episode_id} L${line.line} in ${e.id}`);
   });
  }
  console.log(`PASS ${route}: ${records.length} records`);
 }
 const indexed=entries(load(routes[0])).flatMap(e=>e.raw_lines.map(l=>l.line));
-assert(indexed.length===229&&indexed.every((n,i)=>n===i+1),"Episode index does not cover E01 exactly once.");
+assert(indexed.length===229&&indexed.every((n,i)=>n===i+1),"E01 source index incomplete.");
+const indexed2=entries(load(routes[1])).flatMap(e=>e.raw_lines.map(l=>l.line));
+assert(indexed2.length===160&&indexed2.every((n,i)=>n===i+1),"E02 source index incomplete.");
 // Check the AI Director forecast without confusing predictions with E01 canon.
 const director=load("data/ai_director_e01.json");
 assert(director.kind==="ai_director_analysis","Missing director schema.");
@@ -78,5 +84,35 @@ for(const drill of director.practice_session){
 assert(director.proposed_execution.ordered_scenes.length>0,"No AI Director scenes");
 assert(director.proposed_execution.projected_episode_heat.overall_narrative_heat<=5,"Director heat scale invalid");
 console.log("PASS: "+director.reader_hook_highlights.length+" exact text trigger highlights, "+director.proposed_execution.ordered_scenes.length+" proposed scenes, "+director.practice_session.length+" director drills.");
-console.log("PASS: all 229 E01 source lines mapped exactly, no missing or duplicate lines.");
+
+const inner=load("data/character_inner_evolution.json");
+let innerCount=0;
+for(const person of Object.values(inner.characters)){
+ person.states.forEach((state,i)=>{
+  assert(state.sequence_in_character===i+1,"Inner state order invalid: "+state.id);
+  assert(state.previous_state_id===(i?person.states[i-1].id:null),"Inner state link invalid: "+state.id);
+  const lines=sources[state.episode_id];
+  assert(state.raw_lines.every(x=>x.text===lines?.[x.line-1]),"Inner source mismatch: "+state.id);
+  innerCount++;
+ });
+}
+const triggers=load("data/reader_triggers.json");
+for(const t of triggers.triggers){
+ const original=sources[t.episode_id]?.[t.line-1];
+ assert(original===t.source_line,"Trigger original differs: "+t.id);
+ assert(original?.slice(t.span_start,t.span_end)===t.phrase,"Trigger span differs: "+t.id);
+}
+assert(triggers.triggers.filter(x=>x.episode_id==="E01"&&x.line===215).length>=3,"Missing E01 L215 triggers.");
+const groups=load("data/group_encounters.json");
+for(const g of groups.groups){
+ assert(g.shared_raw_lines.length===g.line_end-g.line_start+1,"Invalid group length: "+g.id);
+ for(const l of g.shared_raw_lines)assert(l.text===sources[g.episode_id]?.[l.line-1],"Group source mismatch: "+g.id);
+ for(const actor of g.participant_tracks){
+  assert(g.characters.includes(actor.character_id),"Unknown group participant: "+g.id);
+  assert(actor.evidence_line_refs.every(x=>x>=g.line_start&&x<=g.line_end),"Group reference out of bounds: "+g.id);
+ }
+}
+console.log("PASS: "+innerCount+" inner changes, "+triggers.triggers.length+" exact trigger phrases, "+groups.groups.length+" group encounters.");
+console.log("PASS: both episode indexes reproduce all 389 original lines.");
+
 console.log("PASS: GitHub source has 69 complete episode headings; E02–E69 are preserved.");
