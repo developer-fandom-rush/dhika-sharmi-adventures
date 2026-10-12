@@ -27,7 +27,7 @@ const pair="dhika_uncle",people=pairs.get(pair);
 const records={
  bonds:bonds.relationships.flatMap(r=>r.states.map(e=>({...e,relationship_id:r.id}))),
  inner:states.filter(s=>links.inner_state_links[s.id].includes(pair)),
- physical:load("data/physical_actions.json").characters.flatMap(c=>c.events).filter(e=>people.every(x=>[e.subject,e.other_character].includes(x))),
+ physical:load("data/atomic_action_registry.json").atomic_events.filter(e=>people.every(x=>[e.character_id,e.counterpart_id].includes(x))),
  heat:load("data/internal_heat_access.json").events.filter(e=>people.every(x=>[e.actor,e.target].includes(x))),
  escalation:load("data/escalation_patterns.json").tracks.filter(t=>t.relationship_id===pair).flatMap(t=>t.events),
  curiosity:load("data/arousal_reader_curiosity.json").events.filter(e=>people.every(x=>e.characters.includes(x))),
