@@ -119,8 +119,8 @@
       "raw_github_first_line": 2460,
       "raw_github_last_line": 2623,
       "physical_lines": 164,
-      "review_status": "not_yet_reviewed",
-      "index_file": null,
+      "review_status": "reviewed_beat_level_and_indexed",
+      "index_file": "data/director_reanalysis_e13_line_index_and_audit_v1.json",
       "source_view": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L2460-L2623"
     },
     {
@@ -641,13 +641,13 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ],
     "previous_partial": [
       6
     ],
     "pending": [
-      13,
       14,
       15,
       16,
@@ -711,7 +711,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ]
   },
   "tracking_notes": [
