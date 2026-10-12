@@ -1,0 +1,1325 @@
+{
+  "kind": "E08_source_line_predicted_vs_actual",
+  "source": {
+    "repo": "developer-fandom-rush/dhika-sharmi-adventures",
+    "path": "raw/Dhika.txt",
+    "sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+    "episode": 8,
+    "local_lines": 218,
+    "first_github_line": 1540
+  },
+  "freeze": {
+    "path": "data/director_e08_preread_predictions_v1.json",
+    "commit": "dd76ee50e24f925b3e4acdc8668111fc5fc5a7bd"
+  },
+  "line_index": [
+    {
+      "local_line": 1,
+      "global_line": 1540,
+      "beat": 1
+    },
+    {
+      "local_line": 2,
+      "global_line": 1541,
+      "beat": 1
+    },
+    {
+      "local_line": 3,
+      "global_line": 1542,
+      "beat": 1
+    },
+    {
+      "local_line": 4,
+      "global_line": 1543,
+      "beat": 1
+    },
+    {
+      "local_line": 5,
+      "global_line": 1544,
+      "beat": 2
+    },
+    {
+      "local_line": 6,
+      "global_line": 1545,
+      "beat": 2
+    },
+    {
+      "local_line": 7,
+      "global_line": 1546,
+      "beat": 2
+    },
+    {
+      "local_line": 8,
+      "global_line": 1547,
+      "beat": 2
+    },
+    {
+      "local_line": 9,
+      "global_line": 1548,
+      "beat": 2
+    },
+    {
+      "local_line": 10,
+      "global_line": 1549,
+      "beat": 2
+    },
+    {
+      "local_line": 11,
+      "global_line": 1550,
+      "beat": 2
+    },
+    {
+      "local_line": 12,
+      "global_line": 1551,
+      "beat": 2
+    },
+    {
+      "local_line": 13,
+      "global_line": 1552,
+      "beat": 2
+    },
+    {
+      "local_line": 14,
+      "global_line": 1553,
+      "beat": 3
+    },
+    {
+      "local_line": 15,
+      "global_line": 1554,
+      "beat": 3
+    },
+    {
+      "local_line": 16,
+      "global_line": 1555,
+      "beat": 3
+    },
+    {
+      "local_line": 17,
+      "global_line": 1556,
+      "beat": 3
+    },
+    {
+      "local_line": 18,
+      "global_line": 1557,
+      "beat": 3
+    },
+    {
+      "local_line": 19,
+      "global_line": 1558,
+      "beat": 3
+    },
+    {
+      "local_line": 20,
+      "global_line": 1559,
+      "beat": 3
+    },
+    {
+      "local_line": 21,
+      "global_line": 1560,
+      "beat": 3
+    },
+    {
+      "local_line": 22,
+      "global_line": 1561,
+      "beat": 3
+    },
+    {
+      "local_line": 23,
+      "global_line": 1562,
+      "beat": 3
+    },
+    {
+      "local_line": 24,
+      "global_line": 1563,
+      "beat": 4
+    },
+    {
+      "local_line": 25,
+      "global_line": 1564,
+      "beat": 4
+    },
+    {
+      "local_line": 26,
+      "global_line": 1565,
+      "beat": 4
+    },
+    {
+      "local_line": 27,
+      "global_line": 1566,
+      "beat": 4
+    },
+    {
+      "local_line": 28,
+      "global_line": 1567,
+      "beat": 4
+    },
+    {
+      "local_line": 29,
+      "global_line": 1568,
+      "beat": 4
+    },
+    {
+      "local_line": 30,
+      "global_line": 1569,
+      "beat": 4
+    },
+    {
+      "local_line": 31,
+      "global_line": 1570,
+      "beat": 4
+    },
+    {
+      "local_line": 32,
+      "global_line": 1571,
+      "beat": 4
+    },
+    {
+      "local_line": 33,
+      "global_line": 1572,
+      "beat": 4
+    },
+    {
+      "local_line": 34,
+      "global_line": 1573,
+      "beat": 4
+    },
+    {
+      "local_line": 35,
+      "global_line": 1574,
+      "beat": 4
+    },
+    {
+      "local_line": 36,
+      "global_line": 1575,
+      "beat": 4
+    },
+    {
+      "local_line": 37,
+      "global_line": 1576,
+      "beat": 4
+    },
+    {
+      "local_line": 38,
+      "global_line": 1577,
+      "beat": 4
+    },
+    {
+      "local_line": 39,
+      "global_line": 1578,
+      "beat": 4
+    },
+    {
+      "local_line": 40,
+      "global_line": 1579,
+      "beat": 4
+    },
+    {
+      "local_line": 41,
+      "global_line": 1580,
+      "beat": 4
+    },
+    {
+      "local_line": 42,
+      "global_line": 1581,
+      "beat": 4
+    },
+    {
+      "local_line": 43,
+      "global_line": 1582,
+      "beat": 4
+    },
+    {
+      "local_line": 44,
+      "global_line": 1583,
+      "beat": 5
+    },
+    {
+      "local_line": 45,
+      "global_line": 1584,
+      "beat": 5
+    },
+    {
+      "local_line": 46,
+      "global_line": 1585,
+      "beat": 5
+    },
+    {
+      "local_line": 47,
+      "global_line": 1586,
+      "beat": 5
+    },
+    {
+      "local_line": 48,
+      "global_line": 1587,
+      "beat": 5
+    },
+    {
+      "local_line": 49,
+      "global_line": 1588,
+      "beat": 5
+    },
+    {
+      "local_line": 50,
+      "global_line": 1589,
+      "beat": 5
+    },
+    {
+      "local_line": 51,
+      "global_line": 1590,
+      "beat": 5
+    },
+    {
+      "local_line": 52,
+      "global_line": 1591,
+      "beat": 5
+    },
+    {
+      "local_line": 53,
+      "global_line": 1592,
+      "beat": 5
+    },
+    {
+      "local_line": 54,
+      "global_line": 1593,
+      "beat": 5
+    },
+    {
+      "local_line": 55,
+      "global_line": 1594,
+      "beat": 5
+    },
+    {
+      "local_line": 56,
+      "global_line": 1595,
+      "beat": 5
+    },
+    {
+      "local_line": 57,
+      "global_line": 1596,
+      "beat": 5
+    },
+    {
+      "local_line": 58,
+      "global_line": 1597,
+      "beat": 5
+    },
+    {
+      "local_line": 59,
+      "global_line": 1598,
+      "beat": 5
+    },
+    {
+      "local_line": 60,
+      "global_line": 1599,
+      "beat": 5
+    },
+    {
+      "local_line": 61,
+      "global_line": 1600,
+      "beat": 5
+    },
+    {
+      "local_line": 62,
+      "global_line": 1601,
+      "beat": 5
+    },
+    {
+      "local_line": 63,
+      "global_line": 1602,
+      "beat": 5
+    },
+    {
+      "local_line": 64,
+      "global_line": 1603,
+      "beat": 5
+    },
+    {
+      "local_line": 65,
+      "global_line": 1604,
+      "beat": 5
+    },
+    {
+      "local_line": 66,
+      "global_line": 1605,
+      "beat": 6
+    },
+    {
+      "local_line": 67,
+      "global_line": 1606,
+      "beat": 6
+    },
+    {
+      "local_line": 68,
+      "global_line": 1607,
+      "beat": 6
+    },
+    {
+      "local_line": 69,
+      "global_line": 1608,
+      "beat": 6
+    },
+    {
+      "local_line": 70,
+      "global_line": 1609,
+      "beat": 6
+    },
+    {
+      "local_line": 71,
+      "global_line": 1610,
+      "beat": 6
+    },
+    {
+      "local_line": 72,
+      "global_line": 1611,
+      "beat": 6
+    },
+    {
+      "local_line": 73,
+      "global_line": 1612,
+      "beat": 6
+    },
+    {
+      "local_line": 74,
+      "global_line": 1613,
+      "beat": 6
+    },
+    {
+      "local_line": 75,
+      "global_line": 1614,
+      "beat": 6
+    },
+    {
+      "local_line": 76,
+      "global_line": 1615,
+      "beat": 6
+    },
+    {
+      "local_line": 77,
+      "global_line": 1616,
+      "beat": 6
+    },
+    {
+      "local_line": 78,
+      "global_line": 1617,
+      "beat": 6
+    },
+    {
+      "local_line": 79,
+      "global_line": 1618,
+      "beat": 6
+    },
+    {
+      "local_line": 80,
+      "global_line": 1619,
+      "beat": 6
+    },
+    {
+      "local_line": 81,
+      "global_line": 1620,
+      "beat": 6
+    },
+    {
+      "local_line": 82,
+      "global_line": 1621,
+      "beat": 6
+    },
+    {
+      "local_line": 83,
+      "global_line": 1622,
+      "beat": 6
+    },
+    {
+      "local_line": 84,
+      "global_line": 1623,
+      "beat": 6
+    },
+    {
+      "local_line": 85,
+      "global_line": 1624,
+      "beat": 6
+    },
+    {
+      "local_line": 86,
+      "global_line": 1625,
+      "beat": 6
+    },
+    {
+      "local_line": 87,
+      "global_line": 1626,
+      "beat": 6
+    },
+    {
+      "local_line": 88,
+      "global_line": 1627,
+      "beat": 7
+    },
+    {
+      "local_line": 89,
+      "global_line": 1628,
+      "beat": 7
+    },
+    {
+      "local_line": 90,
+      "global_line": 1629,
+      "beat": 7
+    },
+    {
+      "local_line": 91,
+      "global_line": 1630,
+      "beat": 7
+    },
+    {
+      "local_line": 92,
+      "global_line": 1631,
+      "beat": 7
+    },
+    {
+      "local_line": 93,
+      "global_line": 1632,
+      "beat": 7
+    },
+    {
+      "local_line": 94,
+      "global_line": 1633,
+      "beat": 7
+    },
+    {
+      "local_line": 95,
+      "global_line": 1634,
+      "beat": 7
+    },
+    {
+      "local_line": 96,
+      "global_line": 1635,
+      "beat": 7
+    },
+    {
+      "local_line": 97,
+      "global_line": 1636,
+      "beat": 7
+    },
+    {
+      "local_line": 98,
+      "global_line": 1637,
+      "beat": 7
+    },
+    {
+      "local_line": 99,
+      "global_line": 1638,
+      "beat": 7
+    },
+    {
+      "local_line": 100,
+      "global_line": 1639,
+      "beat": 7
+    },
+    {
+      "local_line": 101,
+      "global_line": 1640,
+      "beat": 7
+    },
+    {
+      "local_line": 102,
+      "global_line": 1641,
+      "beat": 7
+    },
+    {
+      "local_line": 103,
+      "global_line": 1642,
+      "beat": 7
+    },
+    {
+      "local_line": 104,
+      "global_line": 1643,
+      "beat": 7
+    },
+    {
+      "local_line": 105,
+      "global_line": 1644,
+      "beat": 7
+    },
+    {
+      "local_line": 106,
+      "global_line": 1645,
+      "beat": 7
+    },
+    {
+      "local_line": 107,
+      "global_line": 1646,
+      "beat": 7
+    },
+    {
+      "local_line": 108,
+      "global_line": 1647,
+      "beat": 7
+    },
+    {
+      "local_line": 109,
+      "global_line": 1648,
+      "beat": 7
+    },
+    {
+      "local_line": 110,
+      "global_line": 1649,
+      "beat": 7
+    },
+    {
+      "local_line": 111,
+      "global_line": 1650,
+      "beat": 7
+    },
+    {
+      "local_line": 112,
+      "global_line": 1651,
+      "beat": 7
+    },
+    {
+      "local_line": 113,
+      "global_line": 1652,
+      "beat": 8
+    },
+    {
+      "local_line": 114,
+      "global_line": 1653,
+      "beat": 8
+    },
+    {
+      "local_line": 115,
+      "global_line": 1654,
+      "beat": 8
+    },
+    {
+      "local_line": 116,
+      "global_line": 1655,
+      "beat": 8
+    },
+    {
+      "local_line": 117,
+      "global_line": 1656,
+      "beat": 8
+    },
+    {
+      "local_line": 118,
+      "global_line": 1657,
+      "beat": 8
+    },
+    {
+      "local_line": 119,
+      "global_line": 1658,
+      "beat": 8
+    },
+    {
+      "local_line": 120,
+      "global_line": 1659,
+      "beat": 8
+    },
+    {
+      "local_line": 121,
+      "global_line": 1660,
+      "beat": 8
+    },
+    {
+      "local_line": 122,
+      "global_line": 1661,
+      "beat": 8
+    },
+    {
+      "local_line": 123,
+      "global_line": 1662,
+      "beat": 8
+    },
+    {
+      "local_line": 124,
+      "global_line": 1663,
+      "beat": 8
+    },
+    {
+      "local_line": 125,
+      "global_line": 1664,
+      "beat": 8
+    },
+    {
+      "local_line": 126,
+      "global_line": 1665,
+      "beat": 8
+    },
+    {
+      "local_line": 127,
+      "global_line": 1666,
+      "beat": 9
+    },
+    {
+      "local_line": 128,
+      "global_line": 1667,
+      "beat": 9
+    },
+    {
+      "local_line": 129,
+      "global_line": 1668,
+      "beat": 9
+    },
+    {
+      "local_line": 130,
+      "global_line": 1669,
+      "beat": 9
+    },
+    {
+      "local_line": 131,
+      "global_line": 1670,
+      "beat": 9
+    },
+    {
+      "local_line": 132,
+      "global_line": 1671,
+      "beat": 9
+    },
+    {
+      "local_line": 133,
+      "global_line": 1672,
+      "beat": 9
+    },
+    {
+      "local_line": 134,
+      "global_line": 1673,
+      "beat": 9
+    },
+    {
+      "local_line": 135,
+      "global_line": 1674,
+      "beat": 9
+    },
+    {
+      "local_line": 136,
+      "global_line": 1675,
+      "beat": 9
+    },
+    {
+      "local_line": 137,
+      "global_line": 1676,
+      "beat": 9
+    },
+    {
+      "local_line": 138,
+      "global_line": 1677,
+      "beat": 9
+    },
+    {
+      "local_line": 139,
+      "global_line": 1678,
+      "beat": 9
+    },
+    {
+      "local_line": 140,
+      "global_line": 1679,
+      "beat": 9
+    },
+    {
+      "local_line": 141,
+      "global_line": 1680,
+      "beat": 9
+    },
+    {
+      "local_line": 142,
+      "global_line": 1681,
+      "beat": 9
+    },
+    {
+      "local_line": 143,
+      "global_line": 1682,
+      "beat": 9
+    },
+    {
+      "local_line": 144,
+      "global_line": 1683,
+      "beat": 9
+    },
+    {
+      "local_line": 145,
+      "global_line": 1684,
+      "beat": 9
+    },
+    {
+      "local_line": 146,
+      "global_line": 1685,
+      "beat": 10
+    },
+    {
+      "local_line": 147,
+      "global_line": 1686,
+      "beat": 10
+    },
+    {
+      "local_line": 148,
+      "global_line": 1687,
+      "beat": 10
+    },
+    {
+      "local_line": 149,
+      "global_line": 1688,
+      "beat": 10
+    },
+    {
+      "local_line": 150,
+      "global_line": 1689,
+      "beat": 11
+    },
+    {
+      "local_line": 151,
+      "global_line": 1690,
+      "beat": 11
+    },
+    {
+      "local_line": 152,
+      "global_line": 1691,
+      "beat": 11
+    },
+    {
+      "local_line": 153,
+      "global_line": 1692,
+      "beat": 11
+    },
+    {
+      "local_line": 154,
+      "global_line": 1693,
+      "beat": 11
+    },
+    {
+      "local_line": 155,
+      "global_line": 1694,
+      "beat": 11
+    },
+    {
+      "local_line": 156,
+      "global_line": 1695,
+      "beat": 11
+    },
+    {
+      "local_line": 157,
+      "global_line": 1696,
+      "beat": 11
+    },
+    {
+      "local_line": 158,
+      "global_line": 1697,
+      "beat": 11
+    },
+    {
+      "local_line": 159,
+      "global_line": 1698,
+      "beat": 11
+    },
+    {
+      "local_line": 160,
+      "global_line": 1699,
+      "beat": 11
+    },
+    {
+      "local_line": 161,
+      "global_line": 1700,
+      "beat": 11
+    },
+    {
+      "local_line": 162,
+      "global_line": 1701,
+      "beat": 12
+    },
+    {
+      "local_line": 163,
+      "global_line": 1702,
+      "beat": 12
+    },
+    {
+      "local_line": 164,
+      "global_line": 1703,
+      "beat": 12
+    },
+    {
+      "local_line": 165,
+      "global_line": 1704,
+      "beat": 12
+    },
+    {
+      "local_line": 166,
+      "global_line": 1705,
+      "beat": 12
+    },
+    {
+      "local_line": 167,
+      "global_line": 1706,
+      "beat": 12
+    },
+    {
+      "local_line": 168,
+      "global_line": 1707,
+      "beat": 12
+    },
+    {
+      "local_line": 169,
+      "global_line": 1708,
+      "beat": 12
+    },
+    {
+      "local_line": 170,
+      "global_line": 1709,
+      "beat": 12
+    },
+    {
+      "local_line": 171,
+      "global_line": 1710,
+      "beat": 12
+    },
+    {
+      "local_line": 172,
+      "global_line": 1711,
+      "beat": 12
+    },
+    {
+      "local_line": 173,
+      "global_line": 1712,
+      "beat": 12
+    },
+    {
+      "local_line": 174,
+      "global_line": 1713,
+      "beat": 12
+    },
+    {
+      "local_line": 175,
+      "global_line": 1714,
+      "beat": 13
+    },
+    {
+      "local_line": 176,
+      "global_line": 1715,
+      "beat": 13
+    },
+    {
+      "local_line": 177,
+      "global_line": 1716,
+      "beat": 13
+    },
+    {
+      "local_line": 178,
+      "global_line": 1717,
+      "beat": 13
+    },
+    {
+      "local_line": 179,
+      "global_line": 1718,
+      "beat": 13
+    },
+    {
+      "local_line": 180,
+      "global_line": 1719,
+      "beat": 13
+    },
+    {
+      "local_line": 181,
+      "global_line": 1720,
+      "beat": 13
+    },
+    {
+      "local_line": 182,
+      "global_line": 1721,
+      "beat": 13
+    },
+    {
+      "local_line": 183,
+      "global_line": 1722,
+      "beat": 13
+    },
+    {
+      "local_line": 184,
+      "global_line": 1723,
+      "beat": 13
+    },
+    {
+      "local_line": 185,
+      "global_line": 1724,
+      "beat": 13
+    },
+    {
+      "local_line": 186,
+      "global_line": 1725,
+      "beat": 13
+    },
+    {
+      "local_line": 187,
+      "global_line": 1726,
+      "beat": 13
+    },
+    {
+      "local_line": 188,
+      "global_line": 1727,
+      "beat": 13
+    },
+    {
+      "local_line": 189,
+      "global_line": 1728,
+      "beat": 13
+    },
+    {
+      "local_line": 190,
+      "global_line": 1729,
+      "beat": 14
+    },
+    {
+      "local_line": 191,
+      "global_line": 1730,
+      "beat": 14
+    },
+    {
+      "local_line": 192,
+      "global_line": 1731,
+      "beat": 14
+    },
+    {
+      "local_line": 193,
+      "global_line": 1732,
+      "beat": 14
+    },
+    {
+      "local_line": 194,
+      "global_line": 1733,
+      "beat": 14
+    },
+    {
+      "local_line": 195,
+      "global_line": 1734,
+      "beat": 14
+    },
+    {
+      "local_line": 196,
+      "global_line": 1735,
+      "beat": 14
+    },
+    {
+      "local_line": 197,
+      "global_line": 1736,
+      "beat": 14
+    },
+    {
+      "local_line": 198,
+      "global_line": 1737,
+      "beat": 14
+    },
+    {
+      "local_line": 199,
+      "global_line": 1738,
+      "beat": 14
+    },
+    {
+      "local_line": 200,
+      "global_line": 1739,
+      "beat": 14
+    },
+    {
+      "local_line": 201,
+      "global_line": 1740,
+      "beat": 14
+    },
+    {
+      "local_line": 202,
+      "global_line": 1741,
+      "beat": 14
+    },
+    {
+      "local_line": 203,
+      "global_line": 1742,
+      "beat": 14
+    },
+    {
+      "local_line": 204,
+      "global_line": 1743,
+      "beat": 14
+    },
+    {
+      "local_line": 205,
+      "global_line": 1744,
+      "beat": 14
+    },
+    {
+      "local_line": 206,
+      "global_line": 1745,
+      "beat": 14
+    },
+    {
+      "local_line": 207,
+      "global_line": 1746,
+      "beat": 14
+    },
+    {
+      "local_line": 208,
+      "global_line": 1747,
+      "beat": 14
+    },
+    {
+      "local_line": 209,
+      "global_line": 1748,
+      "beat": 14
+    },
+    {
+      "local_line": 210,
+      "global_line": 1749,
+      "beat": 14
+    },
+    {
+      "local_line": 211,
+      "global_line": 1750,
+      "beat": 14
+    },
+    {
+      "local_line": 212,
+      "global_line": 1751,
+      "beat": 15
+    },
+    {
+      "local_line": 213,
+      "global_line": 1752,
+      "beat": 15
+    },
+    {
+      "local_line": 214,
+      "global_line": 1753,
+      "beat": 15
+    },
+    {
+      "local_line": 215,
+      "global_line": 1754,
+      "beat": 16
+    },
+    {
+      "local_line": 216,
+      "global_line": 1755,
+      "beat": 16
+    },
+    {
+      "local_line": 217,
+      "global_line": 1756,
+      "beat": 16
+    },
+    {
+      "local_line": 218,
+      "global_line": 1757,
+      "beat": 16
+    }
+  ],
+  "beats": [
+    {
+      "beat": 1,
+      "lines": [
+        1,
+        4
+      ],
+      "title": "header",
+      "fact": "Metadata"
+    },
+    {
+      "beat": 2,
+      "lines": [
+        5,
+        13
+      ],
+      "title": "online-video misunderstanding",
+      "fact": "Dhika checks her own webcam appearance and ends call abruptly after realizing a garment creates a misleading impression"
+    },
+    {
+      "beat": 3,
+      "lines": [
+        14,
+        23
+      ],
+      "title": "twins reaction vs Dhika guilt",
+      "fact": "Twins are confused; Bantu departs to see her; Dhika reflects on boundaries and distinctions between her feelings for Chotu and students"
+    },
+    {
+      "beat": 4,
+      "lines": [
+        24,
+        43
+      ],
+      "title": "Bantu apology conversation",
+      "fact": "Bantu arrives. Dhika apologizes for sudden anger, embraces him, clarifies that the apparent exposure was a clothing illusion"
+    },
+    {
+      "beat": 5,
+      "lines": [
+        44,
+        65
+      ],
+      "title": "trust and Switzerland possibility",
+      "fact": "Bantu and Dhika debate privacy and reputation; he asks her to accompany them as mentor if they win; she is honored but apprehensive"
+    },
+    {
+      "beat": 6,
+      "lines": [
+        66,
+        87
+      ],
+      "title": "Bantu observation and verbal reframing",
+      "fact": "Bantu continues comments on appearance and draws attention to how partial concealment affects Dhika's reactions"
+    },
+    {
+      "beat": 7,
+      "lines": [
+        88,
+        112
+      ],
+      "title": "Dhika's increasing curiosity",
+      "fact": "Dhika asks Bantu about visible involuntary physical reactions; he explains them and compliments her"
+    },
+    {
+      "beat": 8,
+      "lines": [
+        113,
+        126
+      ],
+      "title": "Bantu clothing violation",
+      "fact": "Bantu lifts part of Dhika's T-shirt to look without first obtaining specific consent; Dhika admonishes him in a playful exchange"
+    },
+    {
+      "beat": 9,
+      "lines": [
+        127,
+        145
+      ],
+      "title": "slip and help",
+      "fact": "Dhika slips from sofa; Bantu helps her up and tends to sore legs, with a subsequent movement she reacts to and interrupts"
+    },
+    {
+      "beat": 10,
+      "lines": [
+        146,
+        149
+      ],
+      "title": "Bantu exit and Bobby call",
+      "fact": "Bantu says he will be unavailable; Dhika gives a goodbye cheek kiss, later calls Bobby to apologize for earlier abruptness"
+    },
+    {
+      "beat": 11,
+      "lines": [
+        150,
+        161
+      ],
+      "title": "Bobby unscheduled call",
+      "fact": "Bobby calls Dhika repeatedly while she showers; she answers hurriedly using a towel for coverage"
+    },
+    {
+      "beat": 12,
+      "lines": [
+        162,
+        174
+      ],
+      "title": "Bobby dialogue and refusal to change",
+      "fact": "Bobby asks to keep conversation going before Dhika changes; Dhika chooses to continue for a short time"
+    },
+    {
+      "beat": 13,
+      "lines": [
+        175,
+        189
+      ],
+      "title": "Bobby remote visual change",
+      "fact": "The remote call includes clothing and appearance remarks; Bobby removes his shirt, and Dhika makes an unplanned turning movement that reveals more than she anticipated"
+    },
+    {
+      "beat": 14,
+      "lines": [
+        190,
+        211
+      ],
+      "title": "Bobby independent request",
+      "fact": "Bobby admits observations and requests a better look at her mangalsutra; Dhika misunderstands initially, then proposes changing into a bra and agrees to hear his preference"
+    },
+    {
+      "beat": 15,
+      "lines": [
+        212,
+        214
+      ],
+      "title": "cliffhanger",
+      "fact": "Bobby requests to see what she chooses and narration stops before revealing her next action"
+    },
+    {
+      "beat": 16,
+      "lines": [
+        215,
+        218
+      ],
+      "title": "closure",
+      "fact": "Trailing blank lines and delimiter"
+    }
+  ],
+  "audit": [
+    {
+      "id": "H1",
+      "mark": "hit",
+      "line": 16,
+      "reason": "E07 cliffhanger explained by misleading lace-garment appearance; not actual nudity"
+    },
+    {
+      "id": "H2",
+      "mark": "miss",
+      "reason": "No Chotu scene; only Dhika reflects on difference"
+    },
+    {
+      "id": "H3",
+      "mark": "miss_or_deferred",
+      "reason": "No scheduled academic preparation; Bobby calls privately at end"
+    },
+    {
+      "id": "H4",
+      "mark": "miss",
+      "reason": "No direct John interaction"
+    },
+    {
+      "id": "H5",
+      "mark": "miss",
+      "reason": "No new Sharmi/Raj appearance"
+    },
+    {
+      "id": "H6",
+      "mark": "miss",
+      "reason": "No Leo appearance"
+    },
+    {
+      "mark": "surprise",
+      "lines": [
+        24,
+        149
+      ],
+      "reason": "Bantu personally visits immediately after remote misunderstanding, repairs conflict, and keeps scene focus"
+    },
+    {
+      "mark": "surprise",
+      "lines": [
+        150,
+        214
+      ],
+      "reason": "Bobby receives independent video-call scene; ends on unresolved request"
+    }
+  ],
+  "relationship_deltas": {
+    "bantu": "Conflict repair, repeated solo conversation, reassurances, personal boundaries and a brief parting cheek kiss. No intercourse.",
+    "bobby": "Independent video call with new direct requests and visual information; E08 ends before his requested next action resolves.",
+    "chotu": "Referenced in Dhika's reflections but does not appear in a direct scene.",
+    "john": "Mentioned, without direct new paired encounter.",
+    "uncle": "No new direct encounter.",
+    "leo": "No new direct encounter.",
+    "raj": "No new direct encounter.",
+    "sharmi": "No new direct encounter."
+  },
+  "directing_lessons": [
+    "Source avoids immediate Chotu sequel; foregrounds Bantu then Bobby.",
+    "Apparent bodily exposure was an illusion: avoid ranking it as actual nudity.",
+    "A repeated modesty/confidence discussion becomes conflict-repair rather than straight escalation.",
+    "Bobby's absence of Bantu allows new independent initiative.",
+    "Ending is action-cliffhanger, not confirmed completed action."
+  ],
+  "integrity": {
+    "lines": 218,
+    "uncovered": [],
+    "raw_untouched": true
+  },
+  "limitation": "Full 218-line source-to-beat index; individual line interpretive analysis is not yet exhaustive."
+}
