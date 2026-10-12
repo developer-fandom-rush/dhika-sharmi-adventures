@@ -1,0 +1,1850 @@
+{
+  "schema_version": 1,
+  "kind": "episode05_non_graphic_source_linked_continuity_ledger",
+  "created_from": "raw/Dhika.txt",
+  "raw_blob_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "episode_id": "E05",
+  "episode_line_count": 233,
+  "episode_sequence": {
+    "source_heading": "EPISODE 5",
+    "next_header_not_used_for_analysis": true
+  },
+  "status": "PARTIAL_NON_GRAPHIC_NOT_FULL_ATOMIC_COVERAGE",
+  "rules": {
+    "immutable": [
+      "raw/Dhika.txt",
+      "data/e05_director_prediction.json",
+      "data/e05_prediction_audit.json"
+    ],
+    "age_evidence": "E05 source uses 'teen' for students and Chotu; no exact ages inferred.",
+    "separation": "No speculative inner thoughts assigned to speakers; proposed events are not canon. No explicit youth-related intimate actions or body detail.",
+    "quotes": "Verbatim substrings, zero-based JS character offsets, source episode-local line numbering. Source spelling remains unchanged."
+  },
+  "scenes": [
+    {
+      "scene_id": "E05-S1",
+      "source_lines": [
+        1,
+        4
+      ],
+      "label": "Source header",
+      "participants": [],
+      "time_or_location": "source_header_only",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "No story action in header.",
+      "dialogue": "None.",
+      "mechanic": "source boundary",
+      "exit": "none",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S2",
+      "source_lines": [
+        5,
+        20
+      ],
+      "label": "Tuition close and scheduling",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "time_or_location": "same tuition session as E04 ending",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "Dhika tells both pupils of schedule cancellation; John is not present.",
+      "dialogue": "Bantu initiates from prior episode; Dhika responds, sets limits and announces cancellation; pupils depart.",
+      "mechanic": "direct boundary payoff -> concrete schedule gate",
+      "exit": "tuition paused for the week",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S3",
+      "source_lines": [
+        21,
+        50
+      ],
+      "label": "Evening home and new guest",
+      "participants": [
+        "dhika",
+        "john",
+        "leo",
+        "pappu"
+      ],
+      "time_or_location": "evening, family home",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "John invites Leo; John privately notices guest attention; neither inference becomes dialogue unless expressly spoken.",
+      "dialogue": "John calls; Dhika accepts; John introduces Leo; Dhika and Leo exchange housing and dinner questions; spouses discuss birthday.",
+      "mechanic": "phone-call guest seed -> introduction -> observer-only knowledge -> birthday callback",
+      "exit": "birthday shopping begins next day",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S4",
+      "source_lines": [
+        51,
+        60
+      ],
+      "label": "Shopping encounter",
+      "participants": [
+        "dhika",
+        "bantu"
+      ],
+      "time_or_location": "Tuesday noon, mall",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "Bobby is asked about but is absent; Bantu states he came alone.",
+      "dialogue": "Bantu calls out; Dhika asks why he is present and asks about Bobby; Bantu requests company; Dhika agrees.",
+      "mechanic": "chance meeting and setting relocation",
+      "exit": "joint browsing agreed",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S5",
+      "source_lines": [
+        61,
+        118
+      ],
+      "label": "Shopping discussion and purchases",
+      "participants": [
+        "dhika",
+        "bantu"
+      ],
+      "time_or_location": "Tuesday, mall retail",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "Bantu's preferences and Dhika's purchase intentions are distinct; no unspoken intention may be presumed from requests.",
+      "dialogue": "Requests, objections, practical sizing suggestions, return questions and purchase decision; no further encounter is established by this.",
+      "mechanic": "clothing task as dialogue anchor, iterative suggestion-response",
+      "exit": "new purchases taken home",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S6",
+      "source_lines": [
+        119,
+        128
+      ],
+      "label": "Home and departure to neighbor",
+      "participants": [
+        "dhika",
+        "pappu",
+        "aunty"
+      ],
+      "time_or_location": "evening, residential building",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "Pappu focuses on promised park outing; Dhika notices open-door urgency; Uncle's arrival has not yet occurred in this window.",
+      "dialogue": "Dhika tells Pappu to wait and calls to Aunty.",
+      "mechanic": "minor domestic omission becomes a later visitor's entrance condition",
+      "exit": "unclosed door enables unplanned visitor",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S7",
+      "source_lines": [
+        129,
+        155
+      ],
+      "label": "Neighbor conversation and travel commitment",
+      "participants": [
+        "dhika",
+        "uncle"
+      ],
+      "time_or_location": "home, unexpected neighbor arrival",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "Dhika knows her prior view of Uncle; Uncle explains his arrival and travel plans; John is not present.",
+      "dialogue": "Uncle explains open door; Dhika invites conversation; Uncle apologizes; Dhika states a future boundary; Uncle requests help for Aunty.",
+      "mechanic": "interruption -> agency -> apology -> stated boundary -> external practical obligation",
+      "exit": "Delhi travel and help requested",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S8",
+      "source_lines": [
+        156,
+        158
+      ],
+      "label": "Birthday and family logistics",
+      "participants": [
+        "dhika",
+        "john",
+        "aunty",
+        "uncle"
+      ],
+      "time_or_location": "Wednesday–Thursday",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "John and Dhika attend family plans; narrator compresses multiple days.",
+      "dialogue": "Not recorded in this brief time passage.",
+      "mechanic": "time compression with explicit event anchors",
+      "exit": "neighbor's absence starts",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S9",
+      "source_lines": [
+        159,
+        163
+      ],
+      "label": "Friday scheduling and task planning",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby",
+        "maami",
+        "chotu"
+      ],
+      "time_or_location": "Friday morning / telephone",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "Twins are informed tuition is canceled; Maami confirms Chotu is available; next painting session is not yet completed.",
+      "dialogue": "Notification to twins; call to Maami; participant responses partially reported.",
+      "mechanic": "dormant practical project resumes after canceled parallel thread",
+      "exit": "room project resumed",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S10",
+      "source_lines": [
+        164,
+        184
+      ],
+      "label": "Room-painting work",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "time_or_location": "Friday, Pappu's room",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "Chotu and Dhika share the painting task; private assumptions remain person-specific.",
+      "dialogue": "Dhika greets; Chotu replies; clothing/work comfort topic arises; then painting task begins.",
+      "mechanic": "ordinary work setting and small dialogue turns",
+      "exit": "painting task interrupted",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S11",
+      "source_lines": [
+        185,
+        211
+      ],
+      "label": "Paint accident and practical response",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "time_or_location": "Friday, work area / spare clothing arrangement",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "Paint spill is accidental; apology and later correction are not advance plans.",
+      "dialogue": "Chotu apologizes for spill; Dhika reassures and arranges replacement work clothing.",
+      "mechanic": "practical interruption -> apology -> non-graphic logistical repair",
+      "exit": "repair and clean-up continues",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S12",
+      "source_lines": [
+        212,
+        229
+      ],
+      "label": "End of workday and next meeting",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "time_or_location": "Friday, home",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "An agreed plan for tomorrow does not establish actual arrival tomorrow.",
+      "dialogue": "Dhika proposes continuation at noon; Chotu explicitly accepts.",
+      "mechanic": "exact-time continuity hook and reciprocal acceptance",
+      "exit": "next-day noon return agreed, not yet happened",
+      "coverage": "non_graphic_continuity_only"
+    },
+    {
+      "scene_id": "E05-S13",
+      "source_lines": [
+        230,
+        233
+      ],
+      "label": "End marker",
+      "participants": [],
+      "time_or_location": "source_marker_only",
+      "viewpoints": "Narrator plus only explicitly stated private thoughts; never assume shared knowledge.",
+      "knowledge": "No story action in marker.",
+      "dialogue": "None.",
+      "mechanic": "episode boundary",
+      "exit": "none",
+      "coverage": "non_graphic_continuity_only"
+    }
+  ],
+  "event_records": [
+    {
+      "id": "E05-NG-001",
+      "episode_id": "E05",
+      "scene_id": "E05-S2",
+      "line_start": 10,
+      "line_end": 10,
+      "action_name": "prepare_to_depart",
+      "initiator": "bantu_bobby",
+      "recipient_or_object": "teacher",
+      "category": "tuition",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 10,
+        "verbatim": "boys got ready to leave",
+        "span_start": 32,
+        "span_end": 55
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-002",
+      "episode_id": "E05",
+      "scene_id": "E05-S2",
+      "line_start": 11,
+      "line_end": 11,
+      "action_name": "announce_cancelled_classes",
+      "initiator": "dhika",
+      "recipient_or_object": "bantu_bobby",
+      "category": "tuition",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 11,
+        "verbatim": "no more classes this week",
+        "span_start": 25,
+        "span_end": 50
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-003",
+      "episode_id": "E05",
+      "scene_id": "E05-S2",
+      "line_start": 20,
+      "line_end": 20,
+      "action_name": "close_house_door",
+      "initiator": "dhika",
+      "recipient_or_object": "home",
+      "category": "tuition",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 20,
+        "verbatim": "closed the door",
+        "span_start": 35,
+        "span_end": 50
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-004",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 21,
+      "line_end": 21,
+      "action_name": "watch_television",
+      "initiator": "dhika_pappu",
+      "recipient_or_object": "home",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 21,
+        "verbatim": "watching Scooby doo",
+        "span_start": 75,
+        "span_end": 94
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-005",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 24,
+      "line_end": 24,
+      "action_name": "announce_dinner_guest_by_phone",
+      "initiator": "john",
+      "recipient_or_object": "dhika",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 24,
+        "verbatim": "bring a friend for dinner",
+        "span_start": 69,
+        "span_end": 94
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-006",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 25,
+      "line_end": 25,
+      "action_name": "ask_guest_identity",
+      "initiator": "dhika",
+      "recipient_or_object": "john",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 25,
+        "verbatim": "who is coming",
+        "span_start": 27,
+        "span_end": 40
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-007",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 27,
+      "line_end": 27,
+      "action_name": "accept_guest_arrival",
+      "initiator": "dhika",
+      "recipient_or_object": "john",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 27,
+        "verbatim": "no problem dear",
+        "span_start": 7,
+        "span_end": 22
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-008",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 28,
+      "line_end": 28,
+      "action_name": "prepare_extra_dinner_dough",
+      "initiator": "dhika",
+      "recipient_or_object": "guest_meal",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 28,
+        "verbatim": "mix additional chapati dough",
+        "span_start": 14,
+        "span_end": 42
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-009",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 32,
+      "line_end": 32,
+      "action_name": "introduce_new_colleague",
+      "initiator": "john",
+      "recipient_or_object": "dhika_leo",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 32,
+        "verbatim": "this is Leo",
+        "span_start": 12,
+        "span_end": 23
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-010",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 36,
+      "line_end": 36,
+      "action_name": "serve_family_guest_dinner",
+      "initiator": "dhika",
+      "recipient_or_object": "john_leo_pappu",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 36,
+        "verbatim": "started serving food",
+        "span_start": 56,
+        "span_end": 76
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-011",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 38,
+      "line_end": 38,
+      "action_name": "consider_nearby_housing",
+      "initiator": "leo",
+      "recipient_or_object": "housing",
+      "category": "home",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 38,
+        "verbatim": "if I like, I will move in",
+        "span_start": 54,
+        "span_end": 79
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-012",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 41,
+      "line_end": 41,
+      "action_name": "offer_future_meal_visits",
+      "initiator": "dhika",
+      "recipient_or_object": "leo",
+      "category": "home",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 41,
+        "verbatim": "any time you want",
+        "span_start": 27,
+        "span_end": 44
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-013",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 43,
+      "line_end": 43,
+      "action_name": "notice_guest_attention_privately",
+      "initiator": "john",
+      "recipient_or_object": "leo",
+      "category": "home",
+      "occurrence_status": "observed",
+      "source_excerpt": {
+        "line": 43,
+        "verbatim": "John noticed Leo",
+        "span_start": 0,
+        "span_end": 16
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-014",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 44,
+      "line_end": 44,
+      "action_name": "visit_apartment_after_dinner",
+      "initiator": "john_leo",
+      "recipient_or_object": "apartment",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 44,
+        "verbatim": "left to see the apartment",
+        "span_start": 42,
+        "span_end": 67
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-015",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 45,
+      "line_end": 45,
+      "action_name": "ask_spouse_birthday_preference",
+      "initiator": "dhika",
+      "recipient_or_object": "john",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 45,
+        "verbatim": "what do you want for your Birthday",
+        "span_start": 19,
+        "span_end": 53
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-016",
+      "episode_id": "E05",
+      "scene_id": "E05-S3",
+      "line_start": 48,
+      "line_end": 48,
+      "action_name": "request_birthday_surprise",
+      "initiator": "john",
+      "recipient_or_object": "dhika",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 48,
+        "verbatim": "surprise me",
+        "span_start": 31,
+        "span_end": 42
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-017",
+      "episode_id": "E05",
+      "scene_id": "E05-S4",
+      "line_start": 51,
+      "line_end": 51,
+      "action_name": "plan_birthday_shopping",
+      "initiator": "dhika",
+      "recipient_or_object": "mall",
+      "category": "mall",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 51,
+        "verbatim": "planned to visit the mall",
+        "span_start": 40,
+        "span_end": 65
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-018",
+      "episode_id": "E05",
+      "scene_id": "E05-S4",
+      "line_start": 53,
+      "line_end": 53,
+      "action_name": "call_out_at_mall",
+      "initiator": "bantu",
+      "recipient_or_object": "dhika",
+      "category": "mall",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 53,
+        "verbatim": "Miss....miss....",
+        "span_start": 7,
+        "span_end": 23
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-019",
+      "episode_id": "E05",
+      "scene_id": "E05-S4",
+      "line_start": 56,
+      "line_end": 56,
+      "action_name": "ask_absent_pupil_location",
+      "initiator": "dhika",
+      "recipient_or_object": "bantu",
+      "category": "mall",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 56,
+        "verbatim": "where is Bobby dear",
+        "span_start": 7,
+        "span_end": 26
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-020",
+      "episode_id": "E05",
+      "scene_id": "E05-S4",
+      "line_start": 59,
+      "line_end": 59,
+      "action_name": "request_to_join_shopping",
+      "initiator": "bantu",
+      "recipient_or_object": "dhika",
+      "category": "mall",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 59,
+        "verbatim": "can I join you miss",
+        "span_start": 16,
+        "span_end": 35
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-021",
+      "episode_id": "E05",
+      "scene_id": "E05-S4",
+      "line_start": 60,
+      "line_end": 60,
+      "action_name": "agree_to_shopping_company",
+      "initiator": "dhika",
+      "recipient_or_object": "bantu",
+      "category": "mall",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 60,
+        "verbatim": "okay, come on",
+        "span_start": 17,
+        "span_end": 30
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-022",
+      "episode_id": "E05",
+      "scene_id": "E05-S5",
+      "line_start": 103,
+      "line_end": 103,
+      "action_name": "offer_alternative_size",
+      "initiator": "bantu",
+      "recipient_or_object": "dhika",
+      "category": "mall",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 103,
+        "verbatim": "let me bring the next size",
+        "span_start": 27,
+        "span_end": 53
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-023",
+      "episode_id": "E05",
+      "scene_id": "E05-S5",
+      "line_start": 104,
+      "line_end": 104,
+      "action_name": "bring_alternative_item",
+      "initiator": "bantu",
+      "recipient_or_object": "dhika",
+      "category": "mall",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 104,
+        "verbatim": "brought a better sized one",
+        "span_start": 16,
+        "span_end": 42
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-024",
+      "episode_id": "E05",
+      "scene_id": "E05-S5",
+      "line_start": 118,
+      "line_end": 118,
+      "action_name": "complete_retail_purchase",
+      "initiator": "dhika",
+      "recipient_or_object": "shop",
+      "category": "mall",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 118,
+        "verbatim": "bought a couple of shorts",
+        "span_start": 118,
+        "span_end": 143
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-025",
+      "episode_id": "E05",
+      "scene_id": "E05-S6",
+      "line_start": 120,
+      "line_end": 120,
+      "action_name": "plan_park_outing",
+      "initiator": "aunty",
+      "recipient_or_object": "pappu",
+      "category": "home",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 120,
+        "verbatim": "take him to the park",
+        "span_start": 150,
+        "span_end": 170
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-026",
+      "episode_id": "E05",
+      "scene_id": "E05-S6",
+      "line_start": 121,
+      "line_end": 121,
+      "action_name": "ask_child_to_wait",
+      "initiator": "dhika",
+      "recipient_or_object": "pappu",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 121,
+        "verbatim": "let me come and open the door",
+        "span_start": 28,
+        "span_end": 57
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-027",
+      "episode_id": "E05",
+      "scene_id": "E05-S6",
+      "line_start": 123,
+      "line_end": 123,
+      "action_name": "open_front_door",
+      "initiator": "dhika",
+      "recipient_or_object": "pappu",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 123,
+        "verbatim": "opened the front door",
+        "span_start": 79,
+        "span_end": 100
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-028",
+      "episode_id": "E05",
+      "scene_id": "E05-S6",
+      "line_start": 125,
+      "line_end": 125,
+      "action_name": "leave_front_door_unclosed",
+      "initiator": "dhika",
+      "recipient_or_object": "home",
+      "category": "home",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 125,
+        "verbatim": "without even closing the main door",
+        "span_start": 123,
+        "span_end": 157
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-029",
+      "episode_id": "E05",
+      "scene_id": "E05-S6",
+      "line_start": 128,
+      "line_end": 128,
+      "action_name": "notice_unexpected_reflection",
+      "initiator": "dhika",
+      "recipient_or_object": "unidentified_visitor",
+      "category": "home",
+      "occurrence_status": "observed",
+      "source_excerpt": {
+        "line": 128,
+        "verbatim": "someone's reflection in the mirror",
+        "span_start": 128,
+        "span_end": 162
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-030",
+      "episode_id": "E05",
+      "scene_id": "E05-S7",
+      "line_start": 131,
+      "line_end": 131,
+      "action_name": "explain_unplanned_arrival",
+      "initiator": "uncle",
+      "recipient_or_object": "dhika",
+      "category": "neighbor",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 131,
+        "verbatim": "the door was open",
+        "span_start": 37,
+        "span_end": 54
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-031",
+      "episode_id": "E05",
+      "scene_id": "E05-S7",
+      "line_start": 135,
+      "line_end": 135,
+      "action_name": "invite_neighbor_to_conversation",
+      "initiator": "dhika",
+      "recipient_or_object": "uncle",
+      "category": "neighbor",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 135,
+        "verbatim": "uncle...come inside",
+        "span_start": 74,
+        "span_end": 93
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-032",
+      "episode_id": "E05",
+      "scene_id": "E05-S7",
+      "line_start": 147,
+      "line_end": 147,
+      "action_name": "state_future_behavior_boundary",
+      "initiator": "dhika",
+      "recipient_or_object": "uncle",
+      "category": "neighbor",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 147,
+        "verbatim": "please don't do this again",
+        "span_start": 58,
+        "span_end": 84
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-033",
+      "episode_id": "E05",
+      "scene_id": "E05-S7",
+      "line_start": 148,
+      "line_end": 148,
+      "action_name": "announce_delhi_trip",
+      "initiator": "uncle",
+      "recipient_or_object": "dhika",
+      "category": "neighbor",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 148,
+        "verbatim": "tomorrow I am leaving to Delhi",
+        "span_start": 78,
+        "span_end": 108
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-034",
+      "episode_id": "E05",
+      "scene_id": "E05-S7",
+      "line_start": 148,
+      "line_end": 148,
+      "action_name": "request_support_for_aunty",
+      "initiator": "uncle",
+      "recipient_or_object": "dhika_john",
+      "category": "neighbor",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 148,
+        "verbatim": "please take care of her",
+        "span_start": 207,
+        "span_end": 230
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-035",
+      "episode_id": "E05",
+      "scene_id": "E05-S7",
+      "line_start": 149,
+      "line_end": 149,
+      "action_name": "accept_neighbor_support_request",
+      "initiator": "dhika",
+      "recipient_or_object": "uncle",
+      "category": "neighbor",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 149,
+        "verbatim": "of course uncle",
+        "span_start": 7,
+        "span_end": 22
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-036",
+      "episode_id": "E05",
+      "scene_id": "E05-S7",
+      "line_start": 150,
+      "line_end": 150,
+      "action_name": "ask_neighbor_travel_details",
+      "initiator": "dhika",
+      "recipient_or_object": "uncle",
+      "category": "neighbor",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 150,
+        "verbatim": "how long he would be gone",
+        "span_start": 61,
+        "span_end": 86
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-037",
+      "episode_id": "E05",
+      "scene_id": "E05-S8",
+      "line_start": 157,
+      "line_end": 157,
+      "action_name": "celebrate_birthday_in_busy_week",
+      "initiator": "dhika_john",
+      "recipient_or_object": "household",
+      "category": "family",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 157,
+        "verbatim": "celebrating John's birthday",
+        "span_start": 69,
+        "span_end": 96
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-038",
+      "episode_id": "E05",
+      "scene_id": "E05-S8",
+      "line_start": 158,
+      "line_end": 158,
+      "action_name": "accompany_airport_departure",
+      "initiator": "dhika_john_aunty",
+      "recipient_or_object": "uncle",
+      "category": "family",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 158,
+        "verbatim": "took aunty to the airport",
+        "span_start": 20,
+        "span_end": 45
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-039",
+      "episode_id": "E05",
+      "scene_id": "E05-S9",
+      "line_start": 159,
+      "line_end": 159,
+      "action_name": "cancel_friday_tuition",
+      "initiator": "dhika",
+      "recipient_or_object": "bantu_bobby",
+      "category": "planning",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 159,
+        "verbatim": "decided to skip the class",
+        "span_start": 136,
+        "span_end": 161
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-040",
+      "episode_id": "E05",
+      "scene_id": "E05-S9",
+      "line_start": 160,
+      "line_end": 160,
+      "action_name": "hear_distinct_pupil_reactions",
+      "initiator": "dhika",
+      "recipient_or_object": "bantu_bobby",
+      "category": "planning",
+      "occurrence_status": "observed",
+      "source_excerpt": {
+        "line": 160,
+        "verbatim": "she even heard it from Bobby",
+        "span_start": 51,
+        "span_end": 79
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-041",
+      "episode_id": "E05",
+      "scene_id": "E05-S9",
+      "line_start": 161,
+      "line_end": 161,
+      "action_name": "return_to_pending_painting_project",
+      "initiator": "dhika",
+      "recipient_or_object": "room_painting",
+      "category": "planning",
+      "occurrence_status": "remembered",
+      "source_excerpt": {
+        "line": 161,
+        "verbatim": "painting works have been on hold",
+        "span_start": 62,
+        "span_end": 94
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-042",
+      "episode_id": "E05",
+      "scene_id": "E05-S9",
+      "line_start": 162,
+      "line_end": 162,
+      "action_name": "call_maami_for_work_availability",
+      "initiator": "dhika",
+      "recipient_or_object": "maami",
+      "category": "planning",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 162,
+        "verbatim": "called Maami",
+        "span_start": 4,
+        "span_end": 16
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-043",
+      "episode_id": "E05",
+      "scene_id": "E05-S10",
+      "line_start": 165,
+      "line_end": 165,
+      "action_name": "greet_painting_helper",
+      "initiator": "dhika",
+      "recipient_or_object": "chotu",
+      "category": "painting",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 165,
+        "verbatim": "did you forget me",
+        "span_start": 70,
+        "span_end": 87
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-044",
+      "episode_id": "E05",
+      "scene_id": "E05-S10",
+      "line_start": 170,
+      "line_end": 170,
+      "action_name": "enter_pappu_work_room",
+      "initiator": "dhika_chotu",
+      "recipient_or_object": "pappu_room",
+      "category": "painting",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 170,
+        "verbatim": "Pappu's bedroom",
+        "span_start": 87,
+        "span_end": 102
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-045",
+      "episode_id": "E05",
+      "scene_id": "E05-S10",
+      "line_start": 174,
+      "line_end": 174,
+      "action_name": "start_first_paint_coat",
+      "initiator": "dhika_chotu",
+      "recipient_or_object": "paint_project",
+      "category": "painting",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 174,
+        "verbatim": "paint with the first coat",
+        "span_start": 61,
+        "span_end": 86
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-046",
+      "episode_id": "E05",
+      "scene_id": "E05-S10",
+      "line_start": 174,
+      "line_end": 174,
+      "action_name": "divide_wall_painting_work",
+      "initiator": "dhika_chotu",
+      "recipient_or_object": "upper_lower_wall",
+      "category": "painting",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 174,
+        "verbatim": "Chotu started painting the top portion",
+        "span_start": 104,
+        "span_end": 142
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-047",
+      "episode_id": "E05",
+      "scene_id": "E05-S10",
+      "line_start": 176,
+      "line_end": 176,
+      "action_name": "complete_initial_hour_of_work",
+      "initiator": "dhika_chotu",
+      "recipient_or_object": "paint_project",
+      "category": "painting",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 176,
+        "verbatim": "working for almost an hour",
+        "span_start": 15,
+        "span_end": 41
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-048",
+      "episode_id": "E05",
+      "scene_id": "E05-S11",
+      "line_start": 185,
+      "line_end": 185,
+      "action_name": "drop_paintbrush",
+      "initiator": "chotu",
+      "recipient_or_object": "paint_tin",
+      "category": "accident",
+      "occurrence_status": "accidental",
+      "source_excerpt": {
+        "line": 185,
+        "verbatim": "slipped from his hand",
+        "span_start": 141,
+        "span_end": 162
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-049",
+      "episode_id": "E05",
+      "scene_id": "E05-S11",
+      "line_start": 185,
+      "line_end": 185,
+      "action_name": "spill_paint_in_room",
+      "initiator": "chotu",
+      "recipient_or_object": "room",
+      "category": "accident",
+      "occurrence_status": "accidental",
+      "source_excerpt": {
+        "line": 185,
+        "verbatim": "splatter across the room",
+        "span_start": 280,
+        "span_end": 304
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-050",
+      "episode_id": "E05",
+      "scene_id": "E05-S11",
+      "line_start": 190,
+      "line_end": 190,
+      "action_name": "apologize_for_paint_spill",
+      "initiator": "chotu",
+      "recipient_or_object": "dhika",
+      "category": "accident",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 190,
+        "verbatim": "I spilled paint all over the room",
+        "span_start": 29,
+        "span_end": 62
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-051",
+      "episode_id": "E05",
+      "scene_id": "E05-S11",
+      "line_start": 197,
+      "line_end": 197,
+      "action_name": "reassure_accident_was_unintentional",
+      "initiator": "dhika",
+      "recipient_or_object": "chotu",
+      "category": "accident",
+      "occurrence_status": "actual",
+      "source_excerpt": {
+        "line": 197,
+        "verbatim": "its was an accident",
+        "span_start": 32,
+        "span_end": 51
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-052",
+      "episode_id": "E05",
+      "scene_id": "E05-S11",
+      "line_start": 200,
+      "line_end": 200,
+      "action_name": "offer_clean_replacement_clothes",
+      "initiator": "dhika",
+      "recipient_or_object": "chotu",
+      "category": "accident",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 200,
+        "verbatim": "I will wash and give yours",
+        "span_start": 80,
+        "span_end": 106
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-053",
+      "episode_id": "E05",
+      "scene_id": "E05-S11",
+      "line_start": 211,
+      "line_end": 211,
+      "action_name": "seek_practical_clothing_fastener",
+      "initiator": "dhika",
+      "recipient_or_object": "string",
+      "category": "accident",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 211,
+        "verbatim": "let me get a string",
+        "span_start": 89,
+        "span_end": 108
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-054",
+      "episode_id": "E05",
+      "scene_id": "E05-S12",
+      "line_start": 227,
+      "line_end": 227,
+      "action_name": "propose_noon_painting_continuation",
+      "initiator": "dhika",
+      "recipient_or_object": "chotu",
+      "category": "tomorrow",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 227,
+        "verbatim": "tomorrow we shall continue",
+        "span_start": 28,
+        "span_end": 54
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-055",
+      "episode_id": "E05",
+      "scene_id": "E05-S12",
+      "line_start": 227,
+      "line_end": 227,
+      "action_name": "specify_future_noon_time",
+      "initiator": "dhika",
+      "recipient_or_object": "chotu",
+      "category": "tomorrow",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 227,
+        "verbatim": "around 12 PM",
+        "span_start": 72,
+        "span_end": 84
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    },
+    {
+      "id": "E05-NG-056",
+      "episode_id": "E05",
+      "scene_id": "E05-S12",
+      "line_start": 228,
+      "line_end": 228,
+      "action_name": "agree_to_future_return",
+      "initiator": "chotu",
+      "recipient_or_object": "dhika",
+      "category": "tomorrow",
+      "occurrence_status": "proposed",
+      "source_excerpt": {
+        "line": 228,
+        "verbatim": "I will come",
+        "span_start": 48,
+        "span_end": 59
+      },
+      "inference_policy": "do not infer unstated motives, awareness, or completion of a planned event",
+      "confidence": "verified_literal_anchor"
+    }
+  ],
+  "psychology_checkpoints": [
+    {
+      "id": "E05-NGP-001",
+      "scene_id": "E05-S3",
+      "character_id": "dhika",
+      "source_line": 21,
+      "short_verbatim": "absentmindedly watching TV",
+      "span_start": 130,
+      "span_end": 156,
+      "evidence_type": "narrator_observed",
+      "individual_state_or_knowledge": "private attention drift; no other participant shares thought",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-002",
+      "scene_id": "E05-S3",
+      "character_id": "dhika",
+      "source_line": 23,
+      "short_verbatim": "she became jovial",
+      "span_start": 95,
+      "span_end": 112,
+      "evidence_type": "narrator_observed",
+      "individual_state_or_knowledge": "mood changes at John's call",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-003",
+      "scene_id": "E05-S3",
+      "character_id": "leo",
+      "source_line": 34,
+      "short_verbatim": "Leo liked her instantly",
+      "span_start": 0,
+      "span_end": 23,
+      "evidence_type": "narrator_stated",
+      "individual_state_or_knowledge": "his private first impression; not automatically Dhika's knowledge",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-004",
+      "scene_id": "E05-S3",
+      "character_id": "john",
+      "source_line": 43,
+      "short_verbatim": "John noticed Leo",
+      "span_start": 0,
+      "span_end": 16,
+      "evidence_type": "narrator_stated_observation",
+      "individual_state_or_knowledge": "John privately notices Leo, no stated disclosure",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-005",
+      "scene_id": "E05-S4",
+      "character_id": "dhika",
+      "source_line": 51,
+      "short_verbatim": "decided to full fill his wish",
+      "span_start": 207,
+      "span_end": 236,
+      "evidence_type": "narrator_stated",
+      "individual_state_or_knowledge": "Dhika acts on John's earlier preference for a birthday surprise",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-006",
+      "scene_id": "E05-S4",
+      "character_id": "bantu",
+      "source_line": 55,
+      "short_verbatim": "I was bored at home",
+      "span_start": 7,
+      "span_end": 26,
+      "evidence_type": "spoken_claim",
+      "individual_state_or_knowledge": "Bantu states why he visited mall; claim is not independently verified",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-007",
+      "scene_id": "E05-S5",
+      "character_id": "bantu",
+      "source_line": 70,
+      "short_verbatim": "Bantu noticed",
+      "span_start": 0,
+      "span_end": 13,
+      "evidence_type": "narrator_stated_observation",
+      "individual_state_or_knowledge": "a private interpretation is not verified as Dhika's motive",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-008",
+      "scene_id": "E05-S6",
+      "character_id": "dhika",
+      "source_line": 119,
+      "short_verbatim": "she was hoping to leave Pappu with aunty",
+      "span_start": 100,
+      "span_end": 140,
+      "evidence_type": "narrator_stated_plan",
+      "individual_state_or_knowledge": "hoping is not same as completed arrangement",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-009",
+      "scene_id": "E05-S6",
+      "character_id": "pappu",
+      "source_line": 120,
+      "short_verbatim": "Pappu was exicited to leave",
+      "span_start": 73,
+      "span_end": 100,
+      "evidence_type": "narrator_stated",
+      "individual_state_or_knowledge": "child is interested in outing; not part of adult relationship analysis",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-010",
+      "scene_id": "E05-S6",
+      "character_id": "dhika",
+      "source_line": 127,
+      "short_verbatim": "he must be pulling my legs",
+      "span_start": 56,
+      "span_end": 82,
+      "evidence_type": "private_thought",
+      "individual_state_or_knowledge": "doubts another character's words; not proof of that person's intent",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-011",
+      "scene_id": "E05-S7",
+      "character_id": "dhika",
+      "source_line": 134,
+      "short_verbatim": "she felt bad for him",
+      "span_start": 86,
+      "span_end": 106,
+      "evidence_type": "narrator_stated",
+      "individual_state_or_knowledge": "reported empathy does not certify other person's intentions",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-012",
+      "scene_id": "E05-S7",
+      "character_id": "dhika",
+      "source_line": 135,
+      "short_verbatim": "with empathy",
+      "span_start": 40,
+      "span_end": 52,
+      "evidence_type": "narrator_stated",
+      "individual_state_or_knowledge": "reasons for inviting conversation partly declared",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-013",
+      "scene_id": "E05-S7",
+      "character_id": "uncle",
+      "source_line": 151,
+      "short_verbatim": "looked as if he was about to say something",
+      "span_start": 59,
+      "span_end": 101,
+      "evidence_type": "observed_not_fact",
+      "individual_state_or_knowledge": "narrator hedges; precise intended words unknown",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-014",
+      "scene_id": "E05-S8",
+      "character_id": "dhika",
+      "source_line": 157,
+      "short_verbatim": "very hectic days",
+      "span_start": 33,
+      "span_end": 49,
+      "evidence_type": "narrator_stated",
+      "individual_state_or_knowledge": "time compression denotes a busy schedule",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-015",
+      "scene_id": "E05-S9",
+      "character_id": "dhika",
+      "source_line": 160,
+      "short_verbatim": "she even heard it from Bobby",
+      "span_start": 51,
+      "span_end": 79,
+      "evidence_type": "narrator_stated_observation",
+      "individual_state_or_knowledge": "her surprise at Bobby's reaction is specific, not Bantu's psychology",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-016",
+      "scene_id": "E05-S10",
+      "character_id": "dhika",
+      "source_line": 165,
+      "short_verbatim": "Running excitely at the door",
+      "span_start": 7,
+      "span_end": 35,
+      "evidence_type": "narrator_observed",
+      "individual_state_or_knowledge": "eagerness to resume room activity",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-017",
+      "scene_id": "E05-S10",
+      "character_id": "chotu",
+      "source_line": 176,
+      "short_verbatim": "getting very distracted",
+      "span_start": 68,
+      "span_end": 91,
+      "evidence_type": "narrator_observed",
+      "individual_state_or_knowledge": "declining work focus; cause must not be invented",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-018",
+      "scene_id": "E05-S11",
+      "character_id": "chotu",
+      "source_line": 190,
+      "short_verbatim": "am so sorry didi",
+      "span_start": 7,
+      "span_end": 23,
+      "evidence_type": "spoken",
+      "individual_state_or_knowledge": "response explicitly apologizes for paint spill",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-019",
+      "scene_id": "E05-S11",
+      "character_id": "chotu",
+      "source_line": 196,
+      "short_verbatim": "my mom's is going to kill me",
+      "span_start": 62,
+      "span_end": 90,
+      "evidence_type": "spoken_concern",
+      "individual_state_or_knowledge": "worries about consequences of paint stain; figurative expression not literal predicted harm",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    },
+    {
+      "id": "E05-NGP-020",
+      "scene_id": "E05-S12",
+      "character_id": "chotu",
+      "source_line": 226,
+      "short_verbatim": "stood there awkwardly",
+      "span_start": 22,
+      "span_end": 43,
+      "evidence_type": "narrator_observed",
+      "individual_state_or_knowledge": "awkwardness reported, no future motive inferred",
+      "reader_vs_character": "No knowledge transfer unless explicit in dialogue",
+      "confidence": "source_supported_or_explicitly_marked_observation"
+    }
+  ],
+  "dialogue_and_style_learning": [
+    {
+      "scene_id": "E05-S2",
+      "source_lines": [
+        10,
+        11
+      ],
+      "mechanism": "scene exit through timetable",
+      "character_specific": "Dhika uses teacher authority to change session schedule",
+      "writer_direction": "Announce practical consequence before cutting scene"
+    },
+    {
+      "scene_id": "E05-S3",
+      "source_lines": [
+        24,
+        44
+      ],
+      "mechanism": "visitor introduced through a phone call",
+      "character_specific": "John initiates; Dhika hosts; Leo answers practical housing questions; John notices privately",
+      "writer_direction": "Preserve who initiated invitation and who knows what"
+    },
+    {
+      "scene_id": "E05-S4",
+      "source_lines": [
+        53,
+        60
+      ],
+      "mechanism": "unexpected public encounter",
+      "character_specific": "Bantu approaches and asks; Dhika asks about absent Bobby and then consents to company",
+      "writer_direction": "Keep absent Bobby's presence as discussion only"
+    },
+    {
+      "scene_id": "E05-S5",
+      "source_lines": [
+        103,
+        118
+      ],
+      "mechanism": "iterative practical suggestion and purchasing decision",
+      "character_specific": "Bantu offers alternatives; Dhika makes purchase decision",
+      "writer_direction": "Don't turn requests into actions until independently narrated"
+    },
+    {
+      "scene_id": "E05-S6",
+      "source_lines": [
+        120,
+        128
+      ],
+      "mechanism": "mundane omission enables encounter",
+      "character_specific": "Pappu wants park visit; Dhika leaves door open",
+      "writer_direction": "Trace cause from rushed house routine to entry without manufacturing intent"
+    },
+    {
+      "scene_id": "E05-S7",
+      "source_lines": [
+        131,
+        150
+      ],
+      "mechanism": "apology -> stated boundary -> external obligation",
+      "character_specific": "Uncle explains arrival and travel; Dhika sets future behavioral limit and accepts care request",
+      "writer_direction": "Keep statements and compliance separate"
+    },
+    {
+      "scene_id": "E05-S8",
+      "source_lines": [
+        157,
+        158
+      ],
+      "mechanism": "date compression across family commitments",
+      "character_specific": "John and Dhika undertake routine responsibilities",
+      "writer_direction": "Preserve the calendar sequence Wed/Thu before Friday"
+    },
+    {
+      "scene_id": "E05-S9",
+      "source_lines": [
+        159,
+        163
+      ],
+      "mechanism": "cancel one thread to reactivate dormant task",
+      "character_specific": "Dhika informs twins, then checks Maami about painting help",
+      "writer_direction": "Record canceled tuition, don't invent a new class"
+    },
+    {
+      "scene_id": "E05-S10",
+      "source_lines": [
+        164,
+        176
+      ],
+      "mechanism": "everyday task and work division",
+      "character_specific": "Dhika greets; Chotu returns to practical helper role",
+      "writer_direction": "Anchor timing, tools and division of work"
+    },
+    {
+      "scene_id": "E05-S11",
+      "source_lines": [
+        185,
+        200
+      ],
+      "mechanism": "accidental mishap -> apology -> solution",
+      "character_specific": "Chotu acknowledges spill; Dhika offers practical corrective assistance",
+      "writer_direction": "Preserve accident vs deliberation"
+    },
+    {
+      "scene_id": "E05-S12",
+      "source_lines": [
+        227,
+        228
+      ],
+      "mechanism": "exact-time episode hook",
+      "character_specific": "Dhika asks for a return around noon; Chotu states he will come",
+      "writer_direction": "Make E06 opening prediction conditional on whether planned visit occurs"
+    }
+  ],
+  "boundary_state": {
+    "as_of": "E05 L229",
+    "finished_actual_events": [
+      "E05 painting work started",
+      "paint accidentally spilled",
+      "practical response undertaken",
+      "future appointment verbally proposed and accepted"
+    ],
+    "unresolved_plans": [
+      {
+        "plan": "Resume room painting",
+        "due": "following day around 12 PM",
+        "evidence": [
+          "E05:227",
+          "E05:228"
+        ],
+        "actual_status": "NOT_YET_OBSERVED"
+      },
+      {
+        "plan": "Support Aunty during Uncle's Delhi trip",
+        "evidence": [
+          "E05:148",
+          "E05:149"
+        ],
+        "actual_status": "accepted, ongoing status not independently fully described"
+      },
+      {
+        "plan": "Leo might relocate nearby",
+        "evidence": [
+          "E05:38"
+        ],
+        "actual_status": "conditional, not confirmed"
+      }
+    ],
+    "do_not_assume": [
+      "next-day visit takes place",
+      "completion of painting",
+      "Leo moves to the building",
+      "tuition resumes",
+      "any new encounter or intimate progression"
+    ]
+  },
+  "coverage_gaps": [
+    {
+      "scene_id": "E05-S2",
+      "reason": "The early dialogue contains youth-related sexual content; detailed sexual actions are intentionally excluded from this non-graphic ledger.",
+      "status": "INTENTIONALLY_NOT_ANALYZED_IN_THIS_NON_GRAPHIC_ARTIFACT"
+    },
+    {
+      "scene_id": "E05-S5",
+      "reason": "Clothing-related conversation is tracked at practical and dialogue level only; erotic/anatomical detail involving teen-described characters is excluded.",
+      "status": "INTENTIONALLY_NOT_ANALYZED_IN_THIS_NON_GRAPHIC_ARTIFACT"
+    },
+    {
+      "scene_id": "E05-S7",
+      "reason": "Boundary-setting and travel planning covered; graphic observation material is not re-described.",
+      "status": "INTENTIONALLY_NOT_ANALYZED_IN_THIS_NON_GRAPHIC_ARTIFACT"
+    },
+    {
+      "scene_id": "E05-S10",
+      "reason": "Practical painting workflow covered; teen-related intimate reactions are not converted to choreography.",
+      "status": "INTENTIONALLY_NOT_ANALYZED_IN_THIS_NON_GRAPHIC_ARTIFACT"
+    },
+    {
+      "scene_id": "E05-S11",
+      "reason": "Paint spill, apology and logistics covered; intimate contact and anatomical detail excluded.",
+      "status": "INTENTIONALLY_NOT_ANALYZED_IN_THIS_NON_GRAPHIC_ARTIFACT"
+    },
+    {
+      "scene_id": "E05-S12",
+      "reason": "Future work plan covered; sexualized physical progression excluded.",
+      "status": "INTENTIONALLY_NOT_ANALYZED_IN_THIS_NON_GRAPHIC_ARTIFACT"
+    }
+  ],
+  "validation": {
+    "literal_offsets_checked": true,
+    "non_graphic_scope": true,
+    "exhaustive_scene_analysis": false
+  }
+}
