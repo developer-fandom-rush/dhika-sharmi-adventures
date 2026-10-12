@@ -177,15 +177,26 @@ for(const scene of direction.scenes){
 }
 assert(previous===202,"E04 direction scenes must cover L005–L202.");
 const e04actions=load("data/e04_atomic_director_ledger.json");
-assert(e04actions.episode_id==="E04"&&e04actions.events.length===77,"Expected 77 E04 atomic pointers.");
+assert(e04actions.episode_id==="E04"&&e04actions.events.length===90,"Expected 90 E04 atomic pointers.");
 const aIDs=new Set();
 for(const act of e04actions.events){
  assert(act.source_line>=5&&act.source_line<=202,"E04 action line invalid "+act.id);
  assert(/^[a-z][a-z0-9_]*$/.test(act.action_name),"Invalid E04 action name "+act.id);
- assert(["dhika","chotu","bantu","bobby"].includes(act.actor),"Unknown E04 actor "+act.id);
+ assert(["dhika","chotu","bantu","bobby","narrator"].includes(act.actor),"Unknown E04 actor "+act.id);
  assert(!aIDs.has(act.id),"Repeated E04 action "+act.id);aIDs.add(act.id);
 }
 const bondsForE04=new Set(load("data/bond_evolution.json").relationships.map(x=>x.id));
+// Guard against conflating a line of dialogue with what the narrator observed.
+const e04ActionNames=(line)=>e04actions.events.filter(x=>x.source_line===line).map(x=>x.action_name);
+assert(e04ActionNames(123).includes("deliberately_remove_and_drop_pallu"),"Missing actual clothing adjustment E04 L123");
+assert(e04ActionNames(124).includes("observe_substantial_partial_chest_exposure"),"Missing significant partial visual observation E04 L124");
+assert(e04ActionNames(152).includes("describe_substantial_partial_exposure"),"Missing narrated extent E04 L152");
+assert(e04ActionNames(173).includes("ask_about_prior_topless_viewing"),"Missing question E04 L173");
+assert(e04ActionNames(175).includes("claim_first_topless_view"),"Missing claim E04 L175");
+assert(e04ActionNames(176).includes("correct_topless_term_blouse_still_on"),"Missing correction E04 L176");
+assert(e04[123].includes("50%")&&e04[151].includes("50%"),"Extent anchors for partial exposure changed");
+assert(e04[172].toLowerCase().includes("topless")&&e04[175].toLowerCase().includes("blouse"),"Dialogue contrast source changed");
+for(const act of e04actions.events.filter(x=>[173,175,176].includes(x.source_line)))assert(!!act.asserted_claim_vs_actual,"Missing claim-vs-visual distinction");
 const e04mind=load("data/e04_character_progression.json");
 assert(e04mind.character_state_count===25&&e04mind.character_checkpoints.length===25,"E04 mind count mismatch");
 const mindIDs=new Set();
@@ -201,7 +212,7 @@ for(const thread of e04mind.relationship_threads){
  }
 }
 const style=load("data/e04_author_style_guide.json");
-assert(style.features.length===12&&Object.keys(style.character_voice_profiles).length===5,"E04 author style incomplete");
+assert(style.features.length===14&&Object.keys(style.character_voice_profiles).length===5,"E04 author style incomplete");
 for(const feature of style.features)for(const [ep,a,b] of feature.evidence){
  const ref=sources[ep]||(ep==="E04"?e04:null);
  assert(ref&&a>=1&&b<=ref.length&&a<=b,"Invalid author-style anchor "+feature.id);
@@ -221,7 +232,7 @@ for(const mark of audit.marks){
 const counts={hit:0,partial:0,miss:0};
 for(const mark of audit.marks)counts[mark.result]++;
 assert(counts.hit===audit.counts.hits&&counts.partial===audit.counts.partials&&counts.miss===audit.counts.misses,"E05 score inconsistent");
-console.log("PASS: E04 207 source lines, 17 scenes, 77 action pointers, 25 mind changes and 12 writing mechanics.");
+console.log("PASS: E04 207 source lines, 17 scenes, 90 action pointers, 25 mind changes and 14 writing mechanics.");
 console.log("PASS: E05 frozen forecast and eight evidence-backed review marks; "+counts.hit+" hit, "+counts.partial+" partial, "+counts.miss+" miss.");
 const mechanisms=load("data/source_verified_style_mechanisms_e01_e05.json");
 assert(mechanisms.kind==="source_verified_scene_writing_mechanisms","Missing forensic style guide");
