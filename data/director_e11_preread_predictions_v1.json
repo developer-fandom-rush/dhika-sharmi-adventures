@@ -1,0 +1,37 @@
+{
+  "kind": "E11_next_chapter_prediction_frozen",
+  "status": "source_limited_to_E01_E10",
+  "predictions": [
+    {
+      "id": "H1",
+      "weight": "high",
+      "source": "E10 L124-137",
+      "event": "Late-night horror film outing advances for Dhika, John, Sharmi and Raj."
+    },
+    {
+      "id": "H2",
+      "weight": "medium",
+      "source": "E09 L191-202 and E10 L135-137",
+      "event": "Pairs interact with crossed social attention; Sharmi flirts with John while Raj behaves protectively toward Dhika."
+    },
+    {
+      "id": "H3",
+      "weight": "medium",
+      "source": "E09 L209-215",
+      "event": "Dhika's fear of the horror film changes whom she sits beside or seeks reassurance from."
+    },
+    {
+      "id": "H4",
+      "weight": "low",
+      "source": "E10 L107-123",
+      "event": "Chotu kissing-practice thread pauses during film outing and returns after the weekend."
+    },
+    {
+      "id": "H5",
+      "weight": "low",
+      "source": "E07 L212-218",
+      "event": "Competition teaching resurfaces through Bantu/Bobby follow-up."
+    }
+  ],
+  "warning": "Scene direction, exact participants and outcomes remain unknown until E11 reading."
+}
