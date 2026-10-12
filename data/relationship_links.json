@@ -5,7 +5,8 @@
   "description": "Explicit, source-reviewed relationship pointers for character inner-state entries. Source records are not modified; this index relates them to multiple pairs when evidence warrants it.",
   "episodes": [
     "E01",
-    "E02"
+    "E02",
+    "E03"
   ],
   "inner_state_links": {
     "MIND-DHIKA-E01-001": [
@@ -202,6 +203,114 @@
     ],
     "MIND-SHARMI-E01-001": [
       "dhika_sharmi"
+    ],
+    "MIND-DHIKA-E03-001": [
+      "dhika_chotu",
+      "dhika_john"
+    ],
+    "MIND-DHIKA-E03-002": [
+      "dhika_chotu"
+    ],
+    "MIND-DHIKA-E03-003": [
+      "dhika_chotu"
+    ],
+    "MIND-DHIKA-E03-004": [
+      "dhika_chotu"
+    ],
+    "MIND-DHIKA-E03-005": [
+      "dhika_chotu"
+    ],
+    "MIND-DHIKA-E03-006": [
+      "dhika_chotu"
+    ],
+    "MIND-DHIKA-E03-007": [
+      "dhika_chotu"
+    ],
+    "MIND-DHIKA-E03-008": [
+      "dhika_chotu",
+      "dhika_john"
+    ],
+    "MIND-DHIKA-E03-009": [
+      "dhika_bantu",
+      "dhika_bobby"
+    ],
+    "MIND-DHIKA-E03-010": [
+      "dhika_bantu",
+      "dhika_bobby"
+    ],
+    "MIND-DHIKA-E03-011": [
+      "dhika_john",
+      "dhika_chotu"
+    ],
+    "MIND-DHIKA-E03-012": [
+      "dhika_bantu",
+      "dhika_bobby"
+    ],
+    "MIND-DHIKA-E03-013": [
+      "dhika_bantu",
+      "dhika_bobby"
+    ],
+    "MIND-DHIKA-E03-014": [
+      "dhika_chotu",
+      "dhika_john"
+    ],
+    "MIND-DHIKA-E03-015": [
+      "dhika_chotu",
+      "dhika_john"
+    ],
+    "MIND-DHIKA-E03-016": [
+      "dhika_chotu"
+    ],
+    "MIND-DHIKA-E03-017": [
+      "dhika_chotu"
+    ],
+    "MIND-CHOTU-E03-001": [
+      "dhika_chotu"
+    ],
+    "MIND-CHOTU-E03-002": [
+      "dhika_chotu"
+    ],
+    "MIND-CHOTU-E03-003": [
+      "dhika_chotu"
+    ],
+    "MIND-CHOTU-E03-004": [
+      "dhika_chotu"
+    ],
+    "MIND-CHOTU-E03-005": [
+      "dhika_chotu"
+    ],
+    "MIND-CHOTU-E03-006": [
+      "dhika_chotu"
+    ],
+    "MIND-CHOTU-E03-007": [
+      "dhika_chotu"
+    ],
+    "MIND-CHOTU-E03-008": [
+      "dhika_chotu"
+    ],
+    "MIND-BANTU-E03-001": [
+      "dhika_bantu",
+      "bantu_bobby"
+    ],
+    "MIND-BANTU-E03-002": [
+      "dhika_bantu"
+    ],
+    "MIND-BANTU-E03-003": [
+      "dhika_bantu",
+      "bantu_bobby"
+    ],
+    "MIND-BOBBY-E03-001": [
+      "dhika_bobby"
+    ],
+    "MIND-BOBBY-E03-002": [
+      "dhika_bobby"
+    ],
+    "MIND-BOBBY-E03-003": [
+      "dhika_bobby",
+      "bantu_bobby"
+    ],
+    "MIND-JOHN-E03-001": [
+      "dhika_john"
     ]
   }
 }
