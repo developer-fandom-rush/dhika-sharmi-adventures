@@ -1,0 +1,1200 @@
+{
+  "schema_version": 1,
+  "kind": "source_verified_scene_writing_mechanisms",
+  "episodes": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05"
+  ],
+  "source": "raw/Dhika.txt",
+  "guardrail": "Additive forensic analysis only. Short exact source phrases are labels; full passage remains at exact original episode line. Do not mistake metadata for source prose or forecast.",
+  "mechanism_count": 65,
+  "source_examples": [
+    {
+      "id": "MEC-001",
+      "episode_id": "E01",
+      "line": 35,
+      "quote": "favourite twins",
+      "span_start": 51,
+      "span_end": 66,
+      "character_pair": "dhika_bantu_bobby",
+      "mechanism": "role_exception",
+      "writer_instruction": "Narrator establishes a teacher's different level of familiarity with these two pupils before any individual classroom encounter.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-002",
+      "episode_id": "E01",
+      "line": 42,
+      "quote": "never failed to compliment",
+      "span_start": 6,
+      "span_end": 32,
+      "character_pair": "dhika_bantu",
+      "mechanism": "habitual_dialogue_pattern",
+      "writer_instruction": "Repeated compliments become a baseline; any later boldness must be contrasted with this earlier routine.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-003",
+      "episode_id": "E01",
+      "line": 52,
+      "quote": "Oi, Big Girl",
+      "span_start": 8,
+      "span_end": 20,
+      "character_pair": "dhika_sharmi",
+      "mechanism": "voice_signature",
+      "writer_instruction": "Sharmi opens in a brisk, familiar, teasing register that differs from Dhika's guarded classroom speech.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-004",
+      "episode_id": "E01",
+      "line": 54,
+      "quote": "Pinching Dhika's waist",
+      "span_start": 0,
+      "span_end": 22,
+      "character_pair": "dhika_sharmi",
+      "mechanism": "friendly_gesture_as_entry",
+      "writer_instruction": "A familiar physical gesture establishes their longstanding rapport without a lengthy exposition.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-005",
+      "episode_id": "E01",
+      "line": 61,
+      "quote": "Don't start in the morning",
+      "span_start": 21,
+      "span_end": 47,
+      "character_pair": "dhika_sharmi",
+      "mechanism": "banter_response",
+      "writer_instruction": "Dhika reacts with a playful objection that depends on their established friendship.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-006",
+      "episode_id": "E01",
+      "line": 118,
+      "quote": "Chotu's real name is Babu",
+      "span_start": 0,
+      "span_end": 25,
+      "character_pair": "dhika_chotu",
+      "mechanism": "character_background_insert",
+      "writer_instruction": "Narrator pauses to introduce a supporting worker with identity and routine before his first major perspective shift.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-007",
+      "episode_id": "E01",
+      "line": 209,
+      "quote": "am I really still beautiful",
+      "span_start": 41,
+      "span_end": 68,
+      "character_pair": "dhika_chotu",
+      "mechanism": "private_self_question",
+      "writer_instruction": "A private question exposes self-image without making another character aware of her thinking.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-008",
+      "episode_id": "E02",
+      "line": 42,
+      "quote": "he said ok",
+      "span_start": 67,
+      "span_end": 77,
+      "character_pair": "dhika_john",
+      "mechanism": "domestic_choice_response",
+      "writer_instruction": "Clothing choice gains meaning from what the husband already knows about her earlier comfort levels.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-009",
+      "episode_id": "E02",
+      "line": 65,
+      "quote": "I came to help you take the milk",
+      "span_start": 50,
+      "span_end": 82,
+      "character_pair": "dhika_uncle",
+      "mechanism": "knowledge_asymmetry",
+      "writer_instruction": "What Dhika tells Uncle differs from what the reader already knows; track deception and withheld knowledge separately.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-010",
+      "episode_id": "E02",
+      "line": 70,
+      "quote": "from tomorrow",
+      "span_start": 17,
+      "span_end": 30,
+      "character_pair": "dhika_uncle",
+      "mechanism": "decision_after_incident",
+      "writer_instruction": "Her planned routine adjustment is a carry-forward consequence, not a new physical act.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-011",
+      "episode_id": "E02",
+      "line": 87,
+      "quote": "need another ride to home Bobby",
+      "span_start": 16,
+      "span_end": 47,
+      "character_pair": "dhika_bobby",
+      "mechanism": "callback_dialogue",
+      "writer_instruction": "A previous travel interaction becomes a familiar teasing callback in the next encounter.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-012",
+      "episode_id": "E02",
+      "line": 91,
+      "quote": "Theoretical Physicist",
+      "span_start": 37,
+      "span_end": 58,
+      "character_pair": "dhika_bantu",
+      "mechanism": "role_anchoring_dialogue",
+      "writer_instruction": "Student motivation for lessons is introduced to make continuing tuition plausible.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-013",
+      "episode_id": "E02",
+      "line": 145,
+      "quote": "stop it John",
+      "span_start": 24,
+      "span_end": 36,
+      "character_pair": "dhika_john",
+      "mechanism": "marital_conversation_difference",
+      "writer_instruction": "Home dialogue uses familiarity and corrective directness unlike Dhika's classroom exchanges.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-014",
+      "episode_id": "E03",
+      "line": 7,
+      "quote": "what if Chotu sees me in this",
+      "span_start": 7,
+      "span_end": 36,
+      "character_pair": "dhika_chotu",
+      "mechanism": "anticipation_before_arrival",
+      "writer_instruction": "Narration establishes whose attention Dhika considers before Chotu is actually present.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-015",
+      "episode_id": "E03",
+      "line": 20,
+      "quote": "she liked it for some reason",
+      "span_start": 100,
+      "span_end": 128,
+      "character_pair": "dhika_chotu",
+      "mechanism": "internal_uncertainty",
+      "writer_instruction": "An explicit reaction is followed by narrator uncertainty instead of a resolved motive.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-016",
+      "episode_id": "E03",
+      "line": 28,
+      "quote": "what are you looking at",
+      "span_start": 42,
+      "span_end": 65,
+      "character_pair": "dhika_chotu",
+      "mechanism": "observed_attention_to_dialogue",
+      "writer_instruction": "Observed gaze becomes a spoken question; this changes the scene from silent observation to interactive teasing.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-017",
+      "episode_id": "E03",
+      "line": 41,
+      "quote": "I should not spoil it",
+      "span_start": 86,
+      "span_end": 107,
+      "character_pair": "dhika_chotu",
+      "mechanism": "distinct_private_reservation",
+      "writer_instruction": "Chotu's internal concern is independent of Dhika's self-questioning; their POVs must not be merged.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-018",
+      "episode_id": "E03",
+      "line": 49,
+      "quote": "sit here",
+      "span_start": 7,
+      "span_end": 15,
+      "character_pair": "dhika_chotu",
+      "mechanism": "task_to_proximity",
+      "writer_instruction": "A practical invitation changes seating and contact; separate her initiating choice from his response.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-019",
+      "episode_id": "E03",
+      "line": 61,
+      "quote": "did you kiss any of them",
+      "span_start": 26,
+      "span_end": 50,
+      "character_pair": "dhika_chotu",
+      "mechanism": "topic_seed_to_later_action",
+      "writer_instruction": "Conversation introduces a concept well before the subsequent milestone; do not open immediately with payoff.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-020",
+      "episode_id": "E03",
+      "line": 84,
+      "quote": "Suddenly both fell silent",
+      "span_start": 0,
+      "span_end": 25,
+      "character_pair": "dhika_chotu",
+      "mechanism": "rhythm_break",
+      "writer_instruction": "Dialogue stops, narration grants separate internal questions, then shifts back to mutual awareness.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-021",
+      "episode_id": "E03",
+      "line": 93,
+      "quote": "and she kissed back",
+      "span_start": 0,
+      "span_end": 19,
+      "character_pair": "dhika_chotu",
+      "mechanism": "two_participant_action",
+      "writer_instruction": "A response is a separate actor action in the same encounter; never count it as an unrelated second encounter.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-022",
+      "episode_id": "E03",
+      "line": 100,
+      "quote": "did not utter one word to John",
+      "span_start": 64,
+      "span_end": 94,
+      "character_pair": "dhika_john",
+      "mechanism": "information_gap",
+      "writer_instruction": "Private event remains unknown to John; subsequent John scenes cannot silently assume disclosure.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-023",
+      "episode_id": "E03",
+      "line": 166,
+      "quote": "wiped the tears",
+      "span_start": 35,
+      "span_end": 50,
+      "character_pair": "dhika_bobby",
+      "mechanism": "unexpected_compassion",
+      "writer_instruction": "A normally reserved pupil uses action and words to comfort a distressed teacher; not the same voice as Bantu.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-024",
+      "episode_id": "E03",
+      "line": 171,
+      "quote": "I trust you both",
+      "span_start": 46,
+      "span_end": 62,
+      "character_pair": "dhika_bantu_bobby",
+      "mechanism": "group_trust_reset",
+      "writer_instruction": "Dhika responds to the group, though the students' preceding contributions differ.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-025",
+      "episode_id": "E03",
+      "line": 207,
+      "quote": "thought how to apologize",
+      "span_start": 23,
+      "span_end": 47,
+      "character_pair": "dhika_chotu",
+      "mechanism": "post_event_unspoken_tension",
+      "writer_instruction": "A prior incident continues through a private apology intention, not necessarily spoken dialogue.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-026",
+      "episode_id": "E03",
+      "line": 219,
+      "quote": "she decided to tease him",
+      "span_start": 95,
+      "span_end": 119,
+      "character_pair": "dhika_chotu",
+      "mechanism": "deliberate_vs_accidental_display",
+      "writer_instruction": "Source explicitly labels a decision; later scene observations must link back to intention without expanding it.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-027",
+      "episode_id": "E03",
+      "line": 227,
+      "quote": "she wanted Chotu to look at her",
+      "span_start": 99,
+      "span_end": 130,
+      "character_pair": "dhika_chotu",
+      "mechanism": "intention_observation_chain",
+      "writer_instruction": "The narrator explicitly connects her request to a desired observer reaction; preserve separately what he actually notices.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-028",
+      "episode_id": "E04",
+      "line": 8,
+      "quote": "About 16 hours ago",
+      "span_start": 0,
+      "span_end": 18,
+      "character_pair": "dhika_chotu",
+      "mechanism": "cold_open_flashback",
+      "writer_instruction": "An abrupt timestamp switch delays explaining the opening's internal distraction.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-029",
+      "episode_id": "E04",
+      "line": 23,
+      "quote": "I am sorry if I hurt you",
+      "span_start": 46,
+      "span_end": 70,
+      "character_pair": "dhika_chotu",
+      "mechanism": "embarrassed_misunderstanding",
+      "writer_instruction": "Chotu's worry requires its own brief dialogue turn before Dhika's reassurance.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-030",
+      "episode_id": "E04",
+      "line": 24,
+      "quote": "no, I am not hurt",
+      "span_start": 16,
+      "span_end": 33,
+      "character_pair": "dhika_chotu",
+      "mechanism": "reassurance_as_payoff",
+      "writer_instruction": "The interaction closes externally while the return-to-shower scene preserves inner consequences.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-031",
+      "episode_id": "E04",
+      "line": 26,
+      "quote": "Present time: Back at the shower",
+      "span_start": 0,
+      "span_end": 32,
+      "character_pair": "dhika_chotu",
+      "mechanism": "retrospective_return",
+      "writer_instruction": "Explicit time switch returns the reader to an altered psychological state.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-032",
+      "episode_id": "E04",
+      "line": 52,
+      "quote": "share your troubles with me",
+      "span_start": 84,
+      "span_end": 111,
+      "character_pair": "dhika_bantu",
+      "mechanism": "teacher_voice",
+      "writer_instruction": "Affectionate teacher reassurance is a recognizable voice signature before the conversation turns personal.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-033",
+      "episode_id": "E04",
+      "line": 71,
+      "quote": "For being comfortable in front of us",
+      "span_start": 7,
+      "span_end": 43,
+      "character_pair": "dhika_bantu_bobby",
+      "mechanism": "trust_as_dialogue_motif",
+      "writer_instruction": "A request is reframed as evidence of trust; do not treat the pupils' separate motives as identical.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-034",
+      "episode_id": "E04",
+      "line": 74,
+      "quote": "Bobbyyyyy",
+      "span_start": 20,
+      "span_end": 29,
+      "character_pair": "dhika_bobby",
+      "mechanism": "direct_personal_address",
+      "writer_instruction": "Extended vocative and direct question turn a silent observation into Bobby's required reply.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-035",
+      "episode_id": "E04",
+      "line": 76,
+      "quote": "I didn't mean to scare you Bobby",
+      "span_start": 17,
+      "span_end": 49,
+      "character_pair": "dhika_bobby",
+      "mechanism": "repair_after_awkwardness",
+      "writer_instruction": "Dhika softens an earlier correction rather than continuing the same admonishing tone.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-036",
+      "episode_id": "E04",
+      "line": 87,
+      "quote": "Bantu's plan",
+      "span_start": 65,
+      "span_end": 77,
+      "character_pair": "dhika_bantu_bobby",
+      "mechanism": "reader_knows_hidden_plan",
+      "writer_instruction": "Narration makes Bantu's strategy available to reader while Dhika is not given that information.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-037",
+      "episode_id": "E04",
+      "line": 101,
+      "quote": "how do I look my dears",
+      "span_start": 7,
+      "span_end": 29,
+      "character_pair": "dhika_bantu_bobby",
+      "mechanism": "reentry_as_dialogue_prompt",
+      "writer_instruction": "An outfit change is followed by a spoken invitation to respond, revealing different personalities.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-038",
+      "episode_id": "E04",
+      "line": 122,
+      "quote": "do what ever you feels comfortable",
+      "span_start": 17,
+      "span_end": 51,
+      "character_pair": "dhika_bobby",
+      "mechanism": "care_first_speech",
+      "writer_instruction": "Bobby frames his response around Dhika's comfort, contrasting Bantu's request-driven tactics.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-039",
+      "episode_id": "E04",
+      "line": 145,
+      "quote": "what is this",
+      "span_start": 15,
+      "span_end": 27,
+      "character_pair": "dhika_bobby",
+      "mechanism": "object_curiosity_starts_exchange",
+      "writer_instruction": "A personal accessory becomes a conversation prop followed by immediate reaction and clarification.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-040",
+      "episode_id": "E04",
+      "line": 155,
+      "quote": "some other day",
+      "span_start": 30,
+      "span_end": 44,
+      "character_pair": "dhika_bantu_bobby",
+      "mechanism": "open_future_debt",
+      "writer_instruction": "Deferred discussion creates a future callback; it does not prove a later event will occur.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-041",
+      "episode_id": "E04",
+      "line": 190,
+      "quote": "please don't tell anything to anyone",
+      "span_start": 33,
+      "span_end": 69,
+      "character_pair": "dhika_bantu_bobby",
+      "mechanism": "information_secrecy",
+      "writer_instruction": "Group conversation explicitly creates a privacy expectation that later scenes must remember.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-042",
+      "episode_id": "E04",
+      "line": 195,
+      "quote": "its getting late boys",
+      "span_start": 7,
+      "span_end": 28,
+      "character_pair": "dhika_bantu_bobby",
+      "mechanism": "apparent_scene_exit",
+      "writer_instruction": "The teacher moves to end class before a final request reopens conversation.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-043",
+      "episode_id": "E05",
+      "line": 6,
+      "quote": "eyes widening but still blushing",
+      "span_start": 7,
+      "span_end": 39,
+      "character_pair": "dhika_bantu_bobby",
+      "mechanism": "immediate_question_payoff",
+      "writer_instruction": "E04's unresolved last remark receives an immediate nonverbal reaction before departure.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-044",
+      "episode_id": "E05",
+      "line": 11,
+      "quote": "no more classes this week",
+      "span_start": 25,
+      "span_end": 50,
+      "character_pair": "dhika_bantu_bobby",
+      "mechanism": "schedule_change_as_plot_gate",
+      "writer_instruction": "A specific calendar disruption prevents the expected next tuition class and redirects other plotlines.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-045",
+      "episode_id": "E05",
+      "line": 16,
+      "quote": "she has never even thought",
+      "span_start": 31,
+      "span_end": 57,
+      "character_pair": "dhika_bantu_bobby",
+      "mechanism": "narrator_marks_novel_gesture",
+      "writer_instruction": "The narrator labels an action surprising relative to her established habits; record novelty separately.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-046",
+      "episode_id": "E05",
+      "line": 24,
+      "quote": "bring a friend for dinner",
+      "span_start": 69,
+      "span_end": 94,
+      "character_pair": "dhika_john",
+      "mechanism": "new_character_seed",
+      "writer_instruction": "One practical spouse phone call opens a social-guest storyline rather than repeating the tuition thread.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-047",
+      "episode_id": "E05",
+      "line": 32,
+      "quote": "this is Leo",
+      "span_start": 12,
+      "span_end": 23,
+      "character_pair": "john_leo",
+      "mechanism": "new_supporting_character_introduction",
+      "writer_instruction": "John brings a colleague into the home; track his relationship to both John and Dhika.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-048",
+      "episode_id": "E05",
+      "line": 43,
+      "quote": "John noticed Leo",
+      "span_start": 0,
+      "span_end": 16,
+      "character_pair": "dhika_john_leo",
+      "mechanism": "third_party_observation",
+      "writer_instruction": "John notices a guest's attention without explicitly addressing it, creating differentiated knowledge.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-049",
+      "episode_id": "E05",
+      "line": 59,
+      "quote": "can I join you miss",
+      "span_start": 16,
+      "span_end": 35,
+      "character_pair": "dhika_bantu",
+      "mechanism": "unexpected_location_shift",
+      "writer_instruction": "A chance shopping encounter moves a school-based pair into an ordinary public setting.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-050",
+      "episode_id": "E05",
+      "line": 67,
+      "quote": "only for my husband",
+      "span_start": 39,
+      "span_end": 58,
+      "character_pair": "dhika_bantu",
+      "mechanism": "stated_intent",
+      "writer_instruction": "Character articulates the purpose of shopping; later choices must not overwrite this speech silently.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-051",
+      "episode_id": "E05",
+      "line": 72,
+      "quote": "I think that may work",
+      "span_start": 16,
+      "span_end": 37,
+      "character_pair": "dhika_bantu",
+      "mechanism": "negotiated_practical_solution",
+      "writer_instruction": "Practical problem leads to a proposed workaround; she explicitly weighs it before proceeding.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-052",
+      "episode_id": "E05",
+      "line": 87,
+      "quote": "I really wanted to see",
+      "span_start": 21,
+      "span_end": 43,
+      "character_pair": "dhika_bantu",
+      "mechanism": "after_contact_explanation",
+      "writer_instruction": "A surprising contact is followed by an explanation; preserve sequence, not just the physical event.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-053",
+      "episode_id": "E05",
+      "line": 91,
+      "quote": "Can you please turn around",
+      "span_start": 7,
+      "span_end": 33,
+      "character_pair": "dhika_bantu",
+      "mechanism": "direct_request_and_response",
+      "writer_instruction": "Specific request creates an independent response beat; don't label the entire conversation merely 'teasing'.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-054",
+      "episode_id": "E05",
+      "line": 127,
+      "quote": "he must be pulling my legs",
+      "span_start": 56,
+      "span_end": 82,
+      "character_pair": "dhika_bantu",
+      "mechanism": "self_doubt_callback",
+      "writer_instruction": "After the shopping scene, Dhika privately questions the sincerity of what she heard.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-055",
+      "episode_id": "E05",
+      "line": 135,
+      "quote": "uncle...come inside",
+      "span_start": 74,
+      "span_end": 93,
+      "character_pair": "dhika_uncle",
+      "mechanism": "agency_changes_encounter",
+      "writer_instruction": "A surprise arrival triggers a conversation she chooses to continue, changing the earlier avoidance routine.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-056",
+      "episode_id": "E05",
+      "line": 147,
+      "quote": "please don't do this again",
+      "span_start": 58,
+      "span_end": 84,
+      "character_pair": "dhika_uncle",
+      "mechanism": "explicit_future_boundary",
+      "writer_instruction": "A character asks for changed behavior; distinguish the spoken request from compliance.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-057",
+      "episode_id": "E05",
+      "line": 151,
+      "quote": "about to say something",
+      "span_start": 79,
+      "span_end": 101,
+      "character_pair": "dhika_uncle",
+      "mechanism": "hesitation_before_exit",
+      "writer_instruction": "An exit is slowed by an unspoken wish, inviting a final exchange.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-058",
+      "episode_id": "E05",
+      "line": 156,
+      "quote": "wonderful time with John",
+      "span_start": 22,
+      "span_end": 46,
+      "character_pair": "dhika_john",
+      "mechanism": "private_marriage_continuity",
+      "writer_instruction": "Spousal relationship receives its own separate family/intimacy checkpoint instead of being erased by other plots.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-059",
+      "episode_id": "E05",
+      "line": 161,
+      "quote": "painting works have been on hold",
+      "span_start": 62,
+      "span_end": 94,
+      "character_pair": "dhika_chotu",
+      "mechanism": "dormant_plot_return",
+      "writer_instruction": "Past practical work resurfaces after other pair scenes; prediction should consider dormant threads.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-060",
+      "episode_id": "E05",
+      "line": 167,
+      "quote": "Chotu has never hugged her before",
+      "span_start": 43,
+      "span_end": 76,
+      "character_pair": "dhika_chotu",
+      "mechanism": "novelty_explicitly_signaled",
+      "writer_instruction": "The narrator marks a first-time greeting as character progression against earlier habitual cheek taps.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-061",
+      "episode_id": "E05",
+      "line": 174,
+      "quote": "paint with the first coat",
+      "span_start": 61,
+      "span_end": 86,
+      "character_pair": "dhika_chotu",
+      "mechanism": "task_progresses_concretely",
+      "writer_instruction": "Room work advances from preparation to a new practical stage; physical mishap grows from the task.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-062",
+      "episode_id": "E05",
+      "line": 185,
+      "quote": "At one point",
+      "span_start": 0,
+      "span_end": 12,
+      "character_pair": "dhika_chotu",
+      "mechanism": "routine_accident_setup",
+      "writer_instruction": "A moment of divided attention initiates a practical accident and subsequent exchange.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-063",
+      "episode_id": "E05",
+      "line": 191,
+      "quote": "its okay",
+      "span_start": 21,
+      "span_end": 29,
+      "character_pair": "dhika_chotu",
+      "mechanism": "interruption_and_reassurance",
+      "writer_instruction": "An awkward practical correction prompts a verbal request to stop followed by an attempt to normalize.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-064",
+      "episode_id": "E05",
+      "line": 227,
+      "quote": "tomorrow we shall continue",
+      "span_start": 28,
+      "span_end": 54,
+      "character_pair": "dhika_chotu",
+      "mechanism": "precise_next_day_hook",
+      "writer_instruction": "Final line sets an actual next-day work plan, which must be carried as an obligation but not as a completed event.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    },
+    {
+      "id": "MEC-065",
+      "episode_id": "E05",
+      "line": 228,
+      "quote": "I will come",
+      "span_start": 48,
+      "span_end": 59,
+      "character_pair": "dhika_chotu",
+      "mechanism": "agreement_on_next_meeting",
+      "writer_instruction": "The counterpart confirms that next-day return is planned; E06 still must be read before treating the meeting as happened.",
+      "source_kind": "exact_verbatim_short_phrase_with_full_line_in_readonly_source",
+      "evidence_status": "literal_substring_verified",
+      "control": "source_extraction_not_prediction"
+    }
+  ],
+  "character_profiles": {
+    "dhika": {
+      "status": "evidenced_E01_E05",
+      "voice": "expressive internal questions, familiar affectionate address, playful objection followed by self-conscious reconsideration",
+      "evidence": [
+        [
+          "E01",
+          209
+        ],
+        [
+          "E03",
+          7
+        ],
+        [
+          "E04",
+          76
+        ],
+        [
+          "E05",
+          127
+        ]
+      ],
+      "do_not_infer": "Her thoughts are not automatically known to anyone else."
+    },
+    "chotu": {
+      "status": "evidenced_E01_E05",
+      "voice": "brief respectful address, uncertainty, practical helpfulness, delayed apology, modest spontaneous greetings",
+      "evidence": [
+        [
+          "E03",
+          41
+        ],
+        [
+          "E04",
+          23
+        ],
+        [
+          "E05",
+          167
+        ],
+        [
+          "E05",
+          228
+        ]
+      ],
+      "do_not_infer": "Do not treat fear or confusion as a calculated strategy."
+    },
+    "bantu": {
+      "status": "evidenced_E01_E05",
+      "voice": "frequent requests, playful follow-up, outward confidence, sometimes narratively disclosed strategy",
+      "evidence": [
+        [
+          "E01",
+          42
+        ],
+        [
+          "E04",
+          87
+        ],
+        [
+          "E05",
+          59
+        ]
+      ],
+      "do_not_infer": "A request is not an action granted or performed."
+    },
+    "bobby": {
+      "status": "evidenced_E01_E05",
+      "voice": "comparatively sparse dialogue, observable hesitation, occasional direct emotional reassurance or unexpected request",
+      "evidence": [
+        [
+          "E03",
+          166
+        ],
+        [
+          "E04",
+          74
+        ],
+        [
+          "E04",
+          122
+        ]
+      ],
+      "do_not_infer": "Do not assign Bantu's plans or dialogue to Bobby."
+    },
+    "john": {
+      "status": "evidenced_E01_E05",
+      "voice": "domestic familiarity, practical spouse scheduling, humorous and lightly teasing couple exchanges",
+      "evidence": [
+        [
+          "E02",
+          145
+        ],
+        [
+          "E05",
+          24
+        ]
+      ],
+      "do_not_infer": "Unknown Dhika private events remain unknown unless disclosure occurs."
+    },
+    "uncle": {
+      "status": "evidenced_E01_E05",
+      "voice": "formal elder/neighbor terms, halting remarks in awkward scenes, privacy and family history",
+      "evidence": [
+        [
+          "E02",
+          65
+        ],
+        [
+          "E05",
+          147
+        ]
+      ],
+      "do_not_infer": "Do not assign his private narrator thoughts to Dhika or John."
+    },
+    "sharmi": {
+      "status": "limited_E01_evidence",
+      "voice": "bubbly college friend, brisk and teasing address, familiarity with Dhika",
+      "evidence": [
+        [
+          "E01",
+          52
+        ],
+        [
+          "E01",
+          54
+        ],
+        [
+          "E01",
+          61
+        ]
+      ],
+      "do_not_infer": "Do not extrapolate her entire later character voice from one early interaction."
+    },
+    "raj": {
+      "status": "not_established_by_E01_E05",
+      "voice": null,
+      "evidence": [],
+      "do_not_infer": "No Raj-specific voice or interactions should be invented from unseen episodes."
+    },
+    "leo": {
+      "status": "initial_E05_evidence_only",
+      "voice": "collegial newcomer with friendly, polite dialogue, introduced through John",
+      "evidence": [
+        [
+          "E05",
+          32
+        ]
+      ],
+      "do_not_infer": "One introduction does not establish a full voice profile."
+    }
+  },
+  "relationship_specific_voice_rules": {
+    "dhika_chotu": {
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "pattern": "practical assistance and familiar addresses -> private interpretation gap -> hesitation or a direct question -> unexpected decision/gesture -> awkward aftermath -> repeated future opportunity",
+      "requires": [
+        "prior practical task",
+        "initiator",
+        "recipient's distinct observation",
+        "private thoughts of each",
+        "known vs unknown knowledge",
+        "exit consequence"
+      ]
+    },
+    "dhika_bantu": {
+      "actors": [
+        "dhika",
+        "bantu"
+      ],
+      "pattern": "student uses a question, joke or practical workaround -> Dhika objects or considers -> response is separately narrated -> future invitation remains contingent",
+      "requires": [
+        "wording of request",
+        "actual response",
+        "teacher role context",
+        "observer intent vs narrator evidence",
+        "what was declined"
+      ]
+    },
+    "dhika_bobby": {
+      "actors": [
+        "dhika",
+        "bobby"
+      ],
+      "pattern": "quiet attention or concise request -> Dhika directly addresses him -> Bobby either apologizes or offers reassurance -> confidence shifts modestly",
+      "requires": [
+        "his actual spoken line count",
+        "nonverbal cue",
+        "contrasting Bantu role",
+        "new vs habitual gesture"
+      ]
+    },
+    "dhika_uncle": {
+      "actors": [
+        "dhika",
+        "uncle"
+      ],
+      "pattern": "guardian/family baseline -> narrator information asymmetry -> awkward encounter -> explanation or request -> practical change in access",
+      "requires": [
+        "what each person knows",
+        "what is concealed",
+        "whether request was obeyed",
+        "family context"
+      ]
+    },
+    "dhika_john": {
+      "actors": [
+        "dhika",
+        "john"
+      ],
+      "pattern": "everyday family/couple routine -> playful or practical request -> independent personal context -> return to spouse/family baseline",
+      "requires": [
+        "who was told what",
+        "marital dialogue voice",
+        "John and Pappu's practical place in scene"
+      ]
+    },
+    "dhika_sharmi": {
+      "actors": [
+        "dhika",
+        "sharmi"
+      ],
+      "pattern": "direct friendly address -> familiar teasing gesture -> brisk two-way repartee -> transition back into ordinary college life",
+      "requires": [
+        "Sharmi's bold register",
+        "Dhika's reciprocal retort",
+        "shared friendship history"
+      ]
+    },
+    "dhika_bantu_bobby": {
+      "actors": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "pattern": "shared tuition context -> Bantu opens/strategizes -> Bobby's limited or surprising response -> Dhika reacts separately -> scene closes with decision or new question",
+      "requires": [
+        "separate Bantu/Bobby intentions",
+        "teacher reaction to each",
+        "group knowledge",
+        "safety of chronological event order"
+      ]
+    },
+    "dhika_john_leo": {
+      "actors": [
+        "dhika",
+        "john",
+        "leo"
+      ],
+      "pattern": "John introduces colleague through practical home routine -> guest offers friendly exchange -> John privately notices guest's attention -> social event exits",
+      "requires": [
+        "guest identification",
+        "John's observation",
+        "what Dhika heard",
+        "Leo vs John viewpoints"
+      ]
+    }
+  },
+  "unverified_profiles": [
+    "raj"
+  ],
+  "update_protocol": [
+    "Read each new original episode once after freezing prior episode forecast",
+    "Create source-line-index and exact short snippet proof",
+    "Append, never overwrite, existing verified episodes",
+    "Keep individual and group viewpoint changes separate",
+    "Never mark imagined, planned or inferred actions as actual",
+    "Track episode opening and cliffhanger debts",
+    "Mark provisional writing patterns explicitly until evidence exists",
+    "Do not equate an abstract scene prediction with exact physical-action hit"
+  ]
+}
