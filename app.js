@@ -181,7 +181,7 @@ function appendDirectorDetails(node,item){
 function renderRecords(){
  const area=$("records"), items=filteredItems();area.replaceChildren();
  $("datasetTitle").textContent=META[STATE.view].title;
- $("datasetNote").textContent=META[STATE.view].note;
+ $("datasetNote").textContent=META[STATE.view].note+(STATE.view==="director"?" Projected episode narrative heat: "+DATA.director.proposed_execution.projected_episode_heat.overall_narrative_heat+"/5; reader curiosity: "+DATA.director.proposed_execution.projected_episode_heat.reader_curiosity+"/5.":"");
  $("resultCount").textContent=countLabel(items.length);
  if(!items.length){
   area.append(text("div","No matching source records. Try clearing the search or character filter.","empty"));
