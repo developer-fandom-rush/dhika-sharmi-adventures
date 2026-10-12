@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "kind": "e05_prediction_audit",
+  "prediction_id": "E05-BLIND-V1",
+  "frozen_prediction_path": "data/e05_director_prediction.json",
+  "source": "raw/Dhika.txt",
+  "comparison_performed_after_frozen_commit": "57d72008138456e58e9d2984916150315b2777fa",
+  "episode_id": "E05",
+  "source_episode_lines": 233,
+  "status": "retrospective_evidence_based_evaluation",
+  "marks": [
+    {
+      "predicted_scene_id": "P05-S01",
+      "result": "hit",
+      "actual_source_lines": [
+        5,
+        20
+      ],
+      "reason": "Opening directly resolves the prior final remark; teacher responds, exchange closes, students depart. Dialogue specifics were not predicted."
+    },
+    {
+      "predicted_scene_id": "P05-S02",
+      "result": "partial",
+      "actual_source_lines": [
+        21,
+        23
+      ],
+      "reason": "Dhika reflects privately soon after departure, but the forecast overemphasized explicit comparison of the two students."
+    },
+    {
+      "predicted_scene_id": "P05-S03",
+      "result": "miss",
+      "actual_source_lines": null,
+      "reason": "No separate Bantu-Bobby post-class debrief is narrated."
+    },
+    {
+      "predicted_scene_id": "P05-S04",
+      "result": "hit",
+      "actual_source_lines": [
+        21,
+        50
+      ],
+      "reason": "Family routine and John conversation occur; actual plot adds his colleague Leo at dinner, a major unpredicted new thread."
+    },
+    {
+      "predicted_scene_id": "P05-S05",
+      "result": "hit",
+      "actual_source_lines": [
+        159,
+        229
+      ],
+      "reason": "The room-painting project resumes with Chotu, but much later after other major encounters; its detailed sequence was not predicted."
+    },
+    {
+      "predicted_scene_id": "P05-S06",
+      "result": "miss",
+      "actual_source_lines": null,
+      "reason": "A fresh home-tuition lesson does not take place; classes are canceled and a shopping encounter changes the setting."
+    },
+    {
+      "predicted_scene_id": "P05-S07",
+      "result": "partial",
+      "actual_source_lines": [
+        119,
+        128
+      ],
+      "reason": "Dhika privately reviews recent experiences and makes clothing-related choices, but the hypothesized generic emotional-comparison scene was not a discrete sequence."
+    },
+    {
+      "predicted_scene_id": "P05-S08",
+      "result": "miss",
+      "actual_source_lines": [
+        227,
+        229
+      ],
+      "reason": "Ending does leave a next-day return open, but it is a Chotu painting-day transition, not the forecast's Dhika-Bantu-Bobby question cliffhanger."
+    }
+  ],
+  "counts": {
+    "hits": 3,
+    "partials": 2,
+    "misses": 3
+  },
+  "major_unpredicted_episodes": [
+    {
+      "lines": [
+        24,
+        50
+      ],
+      "description": "John's colleague joins dinner; new character Leo introduced and John's birthday context developed"
+    },
+    {
+      "lines": [
+        51,
+        118
+      ],
+      "description": "Dhika and Bantu meet at a shopping mall; a new setting sustains a long interpersonal thread"
+    },
+    {
+      "lines": [
+        119,
+        158
+      ],
+      "description": "Unexpected Uncle meeting brings old private history into a new conversation"
+    },
+    {
+      "lines": [
+        159,
+        229
+      ],
+      "description": "Chotu returns for painting; a practical accident introduces unfamiliar awkwardness, followed by an explicit future visit arrangement"
+    }
+  ],
+  "important_source_boundary": {
+    "start": [
+      5,
+      20
+    ],
+    "time": "painting work has an explicit next-day plan",
+    "end": [
+      227,
+      229
+    ],
+    "remaining_question": "next meeting and changing interpersonal response; do not pre-count any new physical event"
+  },
+  "evaluation_note": "Broad setting/story-thread hits are not detailed action hits; the forecast missed major plot strands and did not predict the next episode's exact actions. New content did not rewrite any frozen prediction.",
+  "next_director_lesson": [
+    "Predict multiple parallel character threads, including dormant pairs",
+    "Give less confidence to a single favored pair or setting",
+    "Use cross-episode boundary states to forecast immediate opening separately from rest",
+    "Do not count generic family or emotional beats as exact action prediction",
+    "Distinguish actual physical actions from clothing/style choices and internal conclusions"
+  ]
+}
