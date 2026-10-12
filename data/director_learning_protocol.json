@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "kind": "director_learning_protocol",
+  "source_cutoff": "E05",
+  "rules": [
+    "Preserve all previously verified episode records; corrections are versioned additions.",
+    "Track each character's dialogue cadence separately for each counterpart.",
+    "For every scene capture ordinary setup, initiator, observable action, observer, separate internal states, consequence, and exit condition.",
+    "Keep direct textual observation separate from character inference or narrator inference.",
+    "Carry open questions and practical commitments to the next scene.",
+    "Freeze a forecast before reading the next original episode.",
+    "Evaluate exact action, scene order, characters, locations and ending separately, with source line evidence.",
+    "Do not assert unseen events as canon. When an unexpected event occurs, add a mechanism rather than rewriting the forecast."
+  ],
+  "prediction_quality_gate": {
+    "required_scene_fields": [
+      "setting",
+      "time",
+      "speaker_order",
+      "ordinary_task",
+      "action_labels",
+      "knowledge_state",
+      "individual_reactions",
+      "open_thread"
+    ],
+    "scoring": [
+      "scene_order",
+      "location",
+      "pair_coverage",
+      "dialogue_mechanism",
+      "physical_action",
+      "emotional_consequence",
+      "ending"
+    ],
+    "policy": "Unknown future episodes cannot be predicted exactly; produce explicitly uncertain options and preserve evaluated misses."
+  },
+  "missing_evidence": "Sharmi and Raj require later original scenes before character-specific stylistic claims are made."
+}
