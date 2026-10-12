@@ -2,7 +2,8 @@
   "schema_version": 1,
   "kind": "character_physical_actions",
   "episode_scope": [
-    "E01"
+    "E01",
+    "E02"
   ],
   "source": {
     "id": "Dhika.txt",
@@ -13,7 +14,7 @@
     "episode_line_count": 229,
     "episode_characters": 27914
   },
-  "scope_note": "Physical acts and visible movements only. Internal thoughts live in separate datasets; child routine omitted from adult physical-action tracker.",
+  "scope_note": "Adult character physical actions only, E01 records preserved. Accidental viewing, privacy breaches, domestic contact and deliberate contact have distinct statuses; seeing is not touching.",
   "characters": [
     {
       "id": "sharmi",
@@ -76,6 +77,24 @@
               "text": "Dropping Dhika's bra on her bathroom floor, and grabbing the milk bottle from the fridge, Uncle ran back to his own house, heals hitting his head."
             }
           ]
+        },
+        {
+          "id": "PHY-E02-006",
+          "subject": "uncle",
+          "other_character": "dhika",
+          "action": "unpermitted_garment_handling",
+          "action_domain": "privacy_intrusion_object",
+          "contact_evidence": "without_permission",
+          "consent_status": "not_given",
+          "episode_id": "E02",
+          "line_start": 54,
+          "line_end": 54,
+          "raw_lines": [
+            {
+              "line": 54,
+              "text": "Uncle rushed to her house, forgetting even to close the front door and went straight to the bathroom. He saw her white bra lying in the sink. He took it and started sniffing. The smell was intoxicating and he even licked it a little. Uncle had his eyes closed and imagining Dhika just in this bra, imagined what these bra cups would have touched.. He was so turned on that his crotch hosted a tent in his shorts."
+            }
+          ]
         }
       ]
     },
@@ -98,6 +117,70 @@
             {
               "line": 90,
               "text": "She took her bag and went to the parking lot. Both the boys followed a little behind her. Bantu saw her beautiful apple like ass jiggling lightly when she walked. He also saw innocent Bobby looking at her ass. He hit Bobby lightly in his shoulders and winked at him. Bobby blushed and returned a smile."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-009",
+          "subject": "bantu",
+          "other_character": "dhika",
+          "action": "moves_near_to_speak_quietly",
+          "action_domain": "proximity",
+          "contact_evidence": "no_touch",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 83,
+          "line_end": 83,
+          "raw_lines": [
+            {
+              "line": 83,
+              "text": "Bantu: hehe.... looking very very beautiful miss... he hissed near her."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-014",
+          "subject": "bantu",
+          "other_character": "dhika",
+          "action": "averts_gaze_and_departure",
+          "action_domain": "observed_reaction",
+          "contact_evidence": "not_touch",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 126,
+          "line_end": 133,
+          "raw_lines": [
+            {
+              "line": 126,
+              "text": "She felt very very horrified and looked at her students.... Bobby was wide eyed, open mouthed and still looking towards her chest. Bantu on the other hand, felt awkward and averted looking at eyes. She couldn't say anything to them but excused and ran into the bedroom and close the door."
+            },
+            {
+              "line": 127,
+              "text": "They boys stood there not knowing what to do."
+            },
+            {
+              "line": 128,
+              "text": "Dhika: Ayyoooooooo.... why didn't I go for the pallu first... they saw my boobs.... she was at the verge of crying."
+            },
+            {
+              "line": 129,
+              "text": "She heard the boys from outside..... Making sure everything is in proper place, she opened the door and went outside."
+            },
+            {
+              "line": 130,
+              "text": "Bantu: Miss.... it is getting late... we will leave and from Wednesday we will come miss... he said without taking a breath."
+            },
+            {
+              "line": 131,
+              "text": "Dhika: She saw that Bobby was not there...... where is Bobby ?"
+            },
+            {
+              "line": 132,
+              "text": "Bantu: scratching his head.... he went to get the bike ready miss.... he couldn't tell her that bobby ran out of the house."
+            },
+            {
+              "line": 133,
+              "text": "Dhika did not believe him, but did not say anything too. Bantu said bye fast and left the house too. She closed the door."
             }
           ]
         }
@@ -170,6 +253,74 @@
             {
               "line": 101,
               "text": "She felt a chill go through her body. No one expect her husband has touch her even in the hips. She was feeling very shy but couldn't do anything. Lucky for her, they reached their place already and they got down."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-010",
+          "subject": "bobby",
+          "other_character": "dhika",
+          "action": "retrieves_key_from_handbag",
+          "action_domain": "object_interaction",
+          "contact_evidence": "requested_assistance",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 119,
+          "line_end": 121,
+          "raw_lines": [
+            {
+              "line": 119,
+              "text": "Bobby stood close to her at the side and looked for the key into the bag."
+            },
+            {
+              "line": 120,
+              "text": "Bobby: gosh..... she smells like baby powder."
+            },
+            {
+              "line": 121,
+              "text": "He didn't say anything but took the key and opened the door. She let Bantu and Bobby enter first. They went inside and stood watching her patiently."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-013",
+          "subject": "bobby",
+          "other_character": "dhika",
+          "action": "looks_then_leaves_apartment",
+          "action_domain": "observed_reaction",
+          "contact_evidence": "not_touch",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 126,
+          "line_end": 132,
+          "raw_lines": [
+            {
+              "line": 126,
+              "text": "She felt very very horrified and looked at her students.... Bobby was wide eyed, open mouthed and still looking towards her chest. Bantu on the other hand, felt awkward and averted looking at eyes. She couldn't say anything to them but excused and ran into the bedroom and close the door."
+            },
+            {
+              "line": 127,
+              "text": "They boys stood there not knowing what to do."
+            },
+            {
+              "line": 128,
+              "text": "Dhika: Ayyoooooooo.... why didn't I go for the pallu first... they saw my boobs.... she was at the verge of crying."
+            },
+            {
+              "line": 129,
+              "text": "She heard the boys from outside..... Making sure everything is in proper place, she opened the door and went outside."
+            },
+            {
+              "line": 130,
+              "text": "Bantu: Miss.... it is getting late... we will leave and from Wednesday we will come miss... he said without taking a breath."
+            },
+            {
+              "line": 131,
+              "text": "Dhika: She saw that Bobby was not there...... where is Bobby ?"
+            },
+            {
+              "line": 132,
+              "text": "Bantu: scratching his head.... he went to get the bike ready miss.... he couldn't tell her that bobby ran out of the house."
             }
           ]
         }
@@ -412,6 +563,224 @@
               "text": "She covered her face with all excitement and blushing and shyness and this time she felt a tingle ...... not down her spine but .... down there in-between her legs"
             }
           ]
+        },
+        {
+          "id": "PHY-E02-001",
+          "subject": "dhika",
+          "other_character": "john",
+          "action": "pushes_john_to_bathroom",
+          "action_domain": "physical_contact",
+          "contact_evidence": "domestic_context",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 8,
+          "line_end": 8,
+          "raw_lines": [
+            {
+              "line": 8,
+              "text": "Dhika: She felt guilt take over but she didn't want to show it out..... Her shy innocent self took over....... John.... you are stinking..... go straight to the bathroom..... she pushed him."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-003",
+          "subject": "dhika",
+          "other_character": "john",
+          "action": "pulls_john_to_wake_him",
+          "action_domain": "physical_contact",
+          "contact_evidence": "domestic_context",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 24,
+          "line_end": 24,
+          "raw_lines": [
+            {
+              "line": 24,
+              "text": "Dhika: John.... go bath.... she pulled him."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-005",
+          "subject": "dhika",
+          "other_character": "john",
+          "action": "chooses_skirt_and_top_and_walks_next_door",
+          "action_domain": "self_dressing_movement",
+          "contact_evidence": "self_directed",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 41,
+          "line_end": 45,
+          "raw_lines": [
+            {
+              "line": 41,
+              "text": "Dhika: how is this full skirt ?"
+            },
+            {
+              "line": 42,
+              "text": "John: Surprised that at least she agreed on a skirt first time.... he said ok. To more surprise... she wore the sleeveless top. John wondered what brought on this courage to wear sleeveless top to go outside."
+            },
+            {
+              "line": 43,
+              "text": "Dhika thought sleeveless is okay since it is only aunty and uncle and also, because Chotu commented she looked beautiful in it. She smiled thinking about him and then remembered her flaunting her cleavage to him... felt a little excited, little shy and wondered why she is feeling like this. She thought it is all because of John. He is always asking me to wear revealing dresses so that his friends can get jealousy of him having her."
+            },
+            {
+              "line": 44,
+              "text": "*********She didn't feel guilty now remembering John like to show her off. But did not think if John would like it in his absence. She wasn't that bright in these matters."
+            },
+            {
+              "line": 45,
+              "text": "They got ready and went to aunty's house."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-007",
+          "subject": "dhika",
+          "other_character": "uncle",
+          "action": "follows_and_sees_undisclosed_privacy_intrusion",
+          "action_domain": "movement_and_observation",
+          "contact_evidence": "no_person_contact",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 55,
+          "line_end": 60,
+          "raw_lines": [
+            {
+              "line": 55,
+              "text": "What uncle did not know is that, Dhika followed him seconds later he left, leaving aunty and John continue their lunch. He left without waiting for her answer, but Dhika did not sit back. Out of respect, she followed to stop him and get the milk herself."
+            },
+            {
+              "line": 56,
+              "text": "When she entered the house through the open door, she didn't find uncle in the kitchen. To her surprise, she heard a very slight moan coming from their bathroom. She slowly peeked out of curiosity and was stunned."
+            },
+            {
+              "line": 57,
+              "text": "Uncle was standing there with this eyes closed and bra close to his nose. He was smelling it and she was even more shocked when he licked the insides of the bra cups. She turned so pink and averted her eyes to look away. Just as she was bring her eyes to see away, she moved her eyes down and she saw something in uncle for the first time, that she didn't mean too."
+            },
+            {
+              "line": 58,
+              "text": "He was sporting a huge tent in front of his shorts and the tent was twitching like something alive."
+            },
+            {
+              "line": 59,
+              "text": "{She turned from pink to red....blushing; wide eyed and open mouthed..}"
+            },
+            {
+              "line": 60,
+              "text": "Quickly and silently she went outside the house and stood to catch her heavy breath."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-008",
+          "subject": "dhika",
+          "other_character": "john",
+          "action": "initiates_marital_intimacy",
+          "action_domain": "consensual_spousal_contact",
+          "contact_evidence": "source_reports_voluntary_initiative",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 74,
+          "line_end": 76,
+          "raw_lines": [
+            {
+              "line": 74,
+              "text": "Later that night.... during sex, without even John making her, Dhika moved op top of him and started humping him. Not that John did not loved it, but it intrigued his mind that she is doing something that she has never taken initiative to, before,......."
+            },
+            {
+              "line": 75,
+              "text": "and also, he noticed that her facial expressions where not that shy as usual"
+            },
+            {
+              "line": 76,
+              "text": "....and she came hard on his cock."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-011",
+          "subject": "dhika",
+          "other_character": "bantu",
+          "action": "bag_slips_and_clothing_is_displaced",
+          "action_domain": "unplanned_clothing_accident",
+          "contact_evidence": "not_intentional_exposure",
+          "consent_status": "not_applicable",
+          "episode_id": "E02",
+          "line_start": 122,
+          "line_end": 125,
+          "raw_lines": [
+            {
+              "line": 122,
+              "text": "Going to the kitchen.... she kept the grocery bag down and turned to look at them.... File bag was still in her hands and handbag on her shoulders.... The moment she turned to face them..... the bag slipped and fell down..."
+            },
+            {
+              "line": 123,
+              "text": "Not only the bag fell..... but also it pulled down the pallu of her saree along with it. Bag fell down and pallu fell hanging down,"
+            },
+            {
+              "line": 124,
+              "text": "There she was in bright colored blouse with milky boobs (  1/3rd of it anyway) spilling out of her blouse as she bent down to pick ***"
+            },
+            {
+              "line": 125,
+              "text": "Feeling horrified and not knowing what do to.... Her free hand went for the bag first instead of the pallu, in nervousness. She bent down fully.... exposing her spilling boobs more...to two teenage students and then seconds later she took the pallu and fixed it............"
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-012",
+          "subject": "dhika",
+          "other_character": "bobby",
+          "action": "withdraws_into_bedroom",
+          "action_domain": "movement",
+          "contact_evidence": "distress_response",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 126,
+          "line_end": 126,
+          "raw_lines": [
+            {
+              "line": 126,
+              "text": "She felt very very horrified and looked at her students.... Bobby was wide eyed, open mouthed and still looking towards her chest. Bantu on the other hand, felt awkward and averted looking at eyes. She couldn't say anything to them but excused and ran into the bedroom and close the door."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-015",
+          "subject": "dhika",
+          "other_character": "john",
+          "action": "hits_john_during_argument",
+          "action_domain": "physical_contact",
+          "contact_evidence": "argument",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 145,
+          "line_end": 145,
+          "raw_lines": [
+            {
+              "line": 145,
+              "text": "Dhika: angry at him.... stop it John....what will i do now.... stop laughing.. she started hitting him."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-016",
+          "subject": "dhika",
+          "other_character": "chotu",
+          "action": "selects_clothing_to_wear",
+          "action_domain": "self_dressing_intention",
+          "contact_evidence": "selection_not_completed",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 155,
+          "line_end": 155,
+          "raw_lines": [
+            {
+              "line": 155,
+              "text": "She bathed and came out.... she dried her body and put on her bra and panty.......her hair was still wet.... She took a kurti to wear when suddenly another dress, which recently she saw.... caught her eye........."
+            }
+          ]
         }
       ]
     },
@@ -452,6 +821,48 @@
             {
               "line": 222,
               "text": "In a second Chotu stood up and took the money she gave earlier and left with a bye which sounded from very far."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "john",
+      "name": "John",
+      "events": [
+        {
+          "id": "PHY-E02-002",
+          "subject": "john",
+          "other_character": "dhika",
+          "action": "dozes_on_dhika_shoulder",
+          "action_domain": "physical_contact",
+          "contact_evidence": "domestic_context",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 13,
+          "line_end": 13,
+          "raw_lines": [
+            {
+              "line": 13,
+              "text": "John and Dhika went to hall along with Pappu..... Pappu was playing near their foot while John and Dhika saw tv for a while..... John dosed off on Dhika shoulders...."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E02-004",
+          "subject": "john",
+          "other_character": "dhika",
+          "action": "offers_skirt_and_sleeveless_top",
+          "action_domain": "object_exchange",
+          "contact_evidence": "voluntary_clothing_choice",
+          "consent_status": "not_assumed",
+          "episode_id": "E02",
+          "line_start": 36,
+          "line_end": 36,
+          "raw_lines": [
+            {
+              "line": 36,
+              "text": "John: here... wear this skirt and sleeveless top... he took a dress for her."
             }
           ]
         }
