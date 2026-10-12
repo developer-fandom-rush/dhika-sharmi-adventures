@@ -180,24 +180,6 @@
       "name": "Dhika",
       "events": [
         {
-          "id": "PHY-E01-005",
-          "subject": "dhika",
-          "other_character": "bobby",
-          "action": "instructs_safe_hold",
-          "action_domain": "instruction",
-          "contact_evidence": "contact_not_yet",
-          "consent_status": "not_inferred",
-          "episode_id": "E01",
-          "line_start": 94,
-          "line_end": 94,
-          "raw_lines": [
-            {
-              "line": 94,
-              "text": "Dhika: Bobby, you can hold me so that you don't miss balance. Bantu, hold and sit Bobby."
-            }
-          ]
-        },
-        {
           "id": "PHY-E01-008",
           "subject": "dhika",
           "other_character": "chotu",
