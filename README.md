@@ -1,52 +1,48 @@
-# Dhika & Sharmi Adventures — Source-Locked Director Dashboard
+# Dhika & Sharmi Adventures — source-locked analysis dashboard
 
-This repository houses a preserved copy of the author's raw story and a source-indexed analysis of Episode 01.
+The **current active scope is Episodes 01 and 02**. The original raw text is preserved at `raw/Dhika.txt` (all 69 episode headings). E03 onward has not been analyzed.
 
-## Review
-Open `index.html` on a static web server or enable GitHub Pages for the repository root of `main`.
+**Dashboard:** https://developer-fandom-rush.github.io/dhika-sharmi-adventures/
 
-## Six interconnected JSON datasets
-- `data/episodes/e01.json`: all 229 raw E01 lines, grouped into ordered scene beats.
-- `data/physical_actions.json`: character-wise physical actions from E01, with exact source excerpts.
-- `data/bond_evolution.json`: append-only character/relationship baselines and changes.
-- `data/internal_heat_access.json`: exact evidence of private reactions, observed attention, access, and boundaries.
-- `data/escalation_patterns.json`: ordered narrative/escalation pattern ledger, strictly source-based.
-- `data/arousal_reader_curiosity.json`: how the original narrative conveys arousal and withholds information.
+## How to use
 
-`raw/Dhika.txt` contains the complete original, including E01–E69, unmodified from the Drive source. Other episodes are preserved but **not analyzed** in this iteration.
+1. Choose **Episode 01** or **Episode 02** at the top; E02 is the default.
+2. Open **Inner Evolution ★** to see *prior state → newly evidenced reaction/change*, one source-linked observation per checkpoint.
+3. Select **Dhika**, **John**, **Uncle**, **Bantu**, **Bobby**, **Chotu**, or **Sharmi** in the character dropdown; source records remain episode-local.
+4. Open **Trigger Words ✦** for exact highlighted author phrases and their specific importance. A sensual description is distinguished from a motive change, explicit thought, breach, callback or payoff.
+5. Use **Group Events** to review a shared source passage once, with separate action/knowledge states for each actor. Individual history is not flattened into the group.
+6. Other tabs retain source-indexed physical actions, bond evolution, internal access, escalation and reader curiosity.
+7. Compare any statement to the verbatim source panel. The checkbox is **only your local review mark**; it does not send feedback to GitHub or modify source.
 
-## Integrity principles
-1. `raw_lines[*].text` is an exact unedited line from the author’s source. Explanatory labels and interpretations are separate fields.
-2. Every `line_start`/`line_end` is local to Episode 01, where `EPISODE 1` is line 1. Blank lines count.
-3. All 229 lines are included once in the episode index; evidence pointers link back to it.
-4. Relationships and character records are append-only in later episode additions; previous episode events are not rewritten into summaries.
-5. `observed`, `narrated_private`, `inferred`, and `unknown` remain distinct.
-6. Nonconsensual behavior is recorded as a boundary issue, not automatically treated as consensual intimacy.
-7. Pappu is a child and remains in family context, never sexualized.
-8. The raw source remains the primary evidence. Verify a cited line in the dashboard before relying on a conclusion.
+## Original and structured files
 
-## Privacy
-**This GitHub repository is public.** Anyone who can access the repository can read `raw/Dhika.txt`.
+- `raw/Dhika.txt` — unchanged canonical raw source.
+- `data/episodes/e01.json` — 229/229 lines in 44 indexed windows.
+- `data/episodes/e02.json` — 160/160 lines in 28 indexed windows.
+- `data/character_inner_evolution.json` — append-only person-specific psychological transitions across E01/E02.
+- `data/reader_triggers.json` — author-exact highlighted phrases with precise offsets, source line and distinct significance.
+- `data/group_encounters.json` — shared scenes plus participant-specific action/knowledge.
+- `data/physical_actions.json`
+- `data/bond_evolution.json`
+- `data/internal_heat_access.json`
+- `data/escalation_patterns.json`
+- `data/arousal_reader_curiosity.json`
 
-## Local use
-Serve this folder with any local HTTP server, e.g. `python -m http.server 8000`, then open `http://localhost:8000`. GitHub Pages may be enabled in **Settings → Pages → Deploy from branch → main → /(root)**.
+**Director predictions are paused.** The old E01-only forecast remains at `data/ai_director_e01.json` as an explicitly hypothetical historical artifact. It is not loaded into the current dashboard, and is not a claim about actual E02.
 
-No API keys or external JavaScript libraries required.
+## Source rules
 
-## Verifying source integrity
+- Source text is never paraphrased inside `raw_lines[*].text`, `source_line`, or `shared_raw_lines`. Preserve spelling and punctuation, even typos.
+- `line_start` and `line_end` use **episode-local** line numbers, counting blank lines; the viewer links to master file line numbers correctly.
+- Metadata, character-change tags and significance explanations are **analysis**, not quotations.
+- Interactions distinguish what characters know, what the reader knows, choice versus accident, contact versus looking and violation versus permission.
+- E01 data stays intact when E02 records are appended. Do not silently compact prior states.
+- Child characters are family-context only, never included in adult intimacy/action metrics.
 
-Run `node scripts/validate.mjs` from the repository root. It checks the source heading order, all 229 E01 lines, every quoted evidence field across the six JSON files, each record's episode/line coordinates, and duplicate IDs. The JSON records were also cross-checked against the source during the initial upload.
+## Integrity & development
 
-## Dashboard review workflow
+Run `node scripts/validate.mjs` and `node --check app.js`. GitHub Actions runs these checks on changes. They verify all source excerpts, complete timeline line coverage, the indexed psychological changes, group source passages, and each highlighted exact phrase.
 
-Select a dataset tab, optionally filter by character, then choose a record. The right pane shows the author's exact cited source lines and a link into `raw/Dhika.txt`. Related source records across the other five datasets appear beneath the inspector controls. Tick the checkbox only after you verify a record. Marks are held in browser local storage and do not modify the repository.
+To run locally, serve the repository root via `python -m http.server 8000` and open `http://localhost:8000`. Opening `index.html` directly via `file://` will not load JSON in many browsers.
 
-GitHub Pages has not been confirmed active. To publish a static dashboard URL, go to repository **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save. GitHub will provide the published address when deployment completes.
-
-## AI Director learning from E01 (hypothetical, NOT the actual E02)
-- `data/ai_director_e01.json`: 23 exact phrase triggers, one group-encounter participant matrix (Dhika/Bantu/Bobby), nine candidate next-episode execution scenes, and four practice drills.
-- Browser tabs: **AI Director**, **Trigger Words**, **Practice**. The source viewer highlights verified trigger wording using exact character spans from `raw/Dhika.txt`.
-- Every proposed scene has ordered position, character list, setting, conversation topic, **physical action name only**, heat level (0–5), reader curiosity level, E01 source evidence, an unresolved hook, and a canon/consent checkpoint.
-- E01 is the only analyzed canon episode; hypothetical scenes are forecasts, not things that happened in the real E02. This distinction must never be erased.
-- The projected peak candidate `Brief consensual handholding` is conditional on the involved adults freely choosing it on-page; if there is no mutual choice, `No touch` is the fallback.
-- Group events: use an encounter ID with **separate motive, knowledge and action states per participant** rather than duplicating the same source passage as independent character progression.
+**Privacy warning:** this repository and `raw/Dhika.txt` are **public**.
