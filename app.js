@@ -18,9 +18,12 @@ const URLS={
   e04Mind:"./data/e04_character_progression.json",
   e04Style:"./data/e04_author_style_guide.json",
   e05Prediction:"./data/e05_director_prediction.json",
-  e05Review:"./data/e05_prediction_audit.json"
+  e05Review:"./data/e05_prediction_audit.json",
+  e05Scenes:"./data/e05_scene_index.json",
+  mechanisms:"./data/source_verified_style_mechanisms_e01_e05.json"
 };
 const META={
+  mechanisms:{title:"Exact Author Examples & Character-Specific Writing ★",tab:"Exact Style Examples ★",note:"65 source-verified short quotations with scene function and writer direction; 9 character profiles and 8 unique relationship patterns. Open the original source line on the right."},
   directorStyle:{title:"Author Writing Mechanics · E01–E04",tab:"Author Style ★",note:"12 named narrative mechanisms with source anchors and practical writer instructions, plus five voice profiles."},
   directorForecast:{title:"Blind E05 Director Blueprint · Frozen",tab:"E05 Prediction ◇",note:"Hypothetical eight-scene forecast, written before viewing E05; action names are NOT canonical."},
   predictionReview:{title:"Frozen Prediction vs Actual E05",tab:"Prediction Audit ★",note:"Three hits, two partials, three misses. E05 source line references are grounded, prediction unchanged."},
@@ -90,6 +93,7 @@ function listRelationshipRecords(pairId){
  });
 }
 
+function sourceDataFor(id){return {E01:DATA.episode,E02:DATA.e02,E03:DATA.e03,E04:DATA.e04,E05:DATA.e05}[id];}
 function e04Lines(a,b){
  return DATA.e04.events.flatMap(e=>e.raw_lines).filter(l=>l.line>=a&&l.line<=b);
 }
@@ -132,6 +136,12 @@ function listItems(view){
  if(!d&&!["relationship","directorStyle","directorForecast","predictionReview"].includes(view))return[];
  let base=[];
  if(view==="relationship")base=listRelationshipRecords(STATE.relationship);
+ else if(view==="mechanisms")base=d.source_examples.map(x=>({
+  ...x,id:x.id,is_mechanism:true,line_start:x.line,line_end:x.line,
+  characters:x.character_pair.split("_").filter(y=>!["self","group"].includes(y)),
+  label:x.mechanism,raw_lines:[{line:x.line,text:sourceDataFor(x.episode_id).events.flatMap(y=>y.raw_lines).find(z=>z.line===x.line)?.text||""}],
+  tags:[x.character_pair,x.mechanism,"VERBATIM PHRASE"]
+ }));
  else if(view==="directorStyle")base=DATA.e04Style.features.map(f=>{
   const anchor=f.evidence.find(v=>v[0]==="E04")||f.evidence[0];
   const ep=anchor[0],seg={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03,E04:DATA.e04}[ep];
@@ -169,7 +179,7 @@ function listItems(view){
     });
   }
  }
- else if(view==="episode")base=[...DATA.episode.events,...DATA.e02.events,...DATA.e03.events,...DATA.e04.events];
+ else if(view==="episode")base=[...DATA.episode.events,...DATA.e02.events,...DATA.e03.events,...DATA.e04.events,...DATA.e05.events];
  else if(view==="heat"||view==="curiosity")base=d.events;
  else if(view==="physical"){
    const sceneMap=new Map(d.scenes.map(x=>[x.scene_id,x]));
@@ -193,6 +203,7 @@ function listItems(view){
  return base.sort((a,b)=>a.episode_id.localeCompare(b.episode_id)||a.line_start-b.line_start||String(a.id).localeCompare(String(b.id)));
 }
 function itemHeading(item){
+ if(item.is_mechanism)return titleCase(item.mechanism)+" · "+titleCase(item.character_pair);
  if(item.is_style)return titleCase(item.name);
  if(item.is_forecast)return item.title;
  if(item.is_prediction_result)return item.predicted_scene_id+" — "+item.result.toUpperCase();
@@ -218,7 +229,7 @@ function filteredItems(){
    if(STATE.view==="relationship"&&STATE.facet!=="ALL"&&item.related_view!==STATE.facet)return false;
    if(STATE.view!=="relationship"&&STATE.character&&!people.includes(STATE.character))return false;
    if(!q)return true;
-   const searchable=[item.id,itemHeading(item),people.join(" "),itemTags(item).join(" "),
+   const searchable=[item.id,itemHeading(item),item.character_pair,item.writer_instruction,item.quote,people.join(" "),itemTags(item).join(" "),
        item.change_marker,item.prior_state_or_expectation,item.observed_state_or_difference,item.why_this_exact_phrase_matters,item.label,item.observable_action,item.action_name,item.setup,item.scene_title,item.observation,item.reason,item.mechanic,item.writer_instruction,item.objective,item.directions?.join(" "),item.source_action?.exact_phrase,...(item.original_author_imagery||[]).map(x=>x.exact_phrase),
        ...(item.raw_lines||[]).map(l=>l.text)].join(" ").toLowerCase();
    return searchable.includes(q);
@@ -227,7 +238,7 @@ function filteredItems(){
 function renderStats(){
  const st=$("stats");st.replaceChildren();
  const scope=STATE.episode,records=view=>listItems(view).filter(x=>scope==="ALL"||x.episode_id===scope);
- const episodes={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03,E04:DATA.e04};
+ const episodes={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03,E04:DATA.e04,E05:DATA.e05};
  const totalLines=scope==="ALL"?Object.values(episodes).reduce((n,e)=>n+e.line_count,0):episodes[scope].line_count;
  const values=STATE.view==="relationship"?[
  [totalLines+" / "+totalLines,"Raw lines indexed"],
@@ -287,6 +298,7 @@ function renderCharacterOptions(){
  }
 }
 function lineLabel(item){
+ if(item.is_mechanism)return item.episode_id+" L"+String(item.line).padStart(3,"0")+" · exact source phrase";
  if(item.is_e04_action)return "E04 L"+String(item.source_line).padStart(3,"0")+" · "+item.scene_id;
  if(item.is_forecast)return "E05 FORECAST · not canon";
  if(item.is_prediction_result)return item.actual_source_lines?"E05 L"+item.line_start+"–"+item.line_end:"No matching E05 scene";
@@ -315,7 +327,22 @@ function appendField(container,label,value){
 }
 function appendSourceAnalysis(node,item){
  const block=text("div","","director-details");
- if(item.is_e04_action){
+ if(item.is_mechanism){
+  const dictionary=DATA.mechanisms;
+  const voice=dictionary.relationship_specific_voice_rules[item.character_pair];
+  appendField(block,"CHARACTER / PAIR",item.character_pair.replaceAll("_"," ↔ "));
+  appendField(block,"EXACT SOURCE WORDING",item.quote);
+  appendField(block,"WRITING MECHANISM",item.mechanism);
+  appendField(block,"HOW TO DIRECT THIS BEAT",item.writer_instruction);
+  appendField(block,"PAIR VOICE / INTERACTION RHYTHM",voice?.pattern);
+  appendField(block,"PAIR CHECKLIST",voice?.requires?.join(" · "));
+  for(const character of item.characters){
+   const person=dictionary.character_profiles[character];
+   if(person){appendField(block,character.toUpperCase()+" — VOICE",person.voice||"Not yet evidenced; no assumptions");
+     appendField(block,character.toUpperCase()+" — EVIDENCE STATUS",person.status);}
+  }
+  appendField(block,"EXACT VERBATIM LINE",item.episode_id+" L"+String(item.line).padStart(3,"0"));
+ }else if(item.is_e04_action){
   appendField(block,"ACTION NAME",item.action_name);
   appendField(block,"ACTOR",CHARACTER_NAMES[item.actor]||item.actor);
   appendField(block,"OBSERVED / ADDRESSED",CHARACTER_NAMES[item.target]||item.target);
@@ -414,7 +441,7 @@ function renderRecords(){
   const characters=characterIds(item).map(id=>CHARACTER_NAMES[id]||id);
   if(characters.length)node.append(text("div",characters.join(" · "),"record-chars"));
   node.append(createTags(itemTags(item)));
-  if(item.is_inner||item.is_trigger||item.is_group||item.is_atomic||item.is_progression||item.is_e04_action||item.is_style||item.is_forecast||item.is_prediction_result)appendSourceAnalysis(node,item);
+  if(item.is_inner||item.is_trigger||item.is_group||item.is_atomic||item.is_progression||item.is_e04_action||item.is_style||item.is_mechanism||item.is_forecast||item.is_prediction_result)appendSourceAnalysis(node,item);
   if(STATE.showRaw&&!item.is_atomic&&!item.is_progression&&!item.is_e04_action)node.append(rawSnippet(item));
   if(item.is_atomic||item.is_e04_action||item.is_progression)node.append(text("div","Click to read original scene →","record-chars"));
   const box=text("label","","verify-row");
@@ -480,6 +507,10 @@ function renderSourceHighlight(node,source,lineNumber,episodeId,query){
  const q=query.trim(),found=[];
  if(STATE.selected){
   const selected=filteredItems().find(x=>x.id===STATE.selected);
+  if(selected?.is_mechanism&&selected.episode_id===episodeId&&selected.line===lineNumber){
+   const a=selected.span_start,b=selected.span_end;
+   if(source.slice(a,b)===selected.quote)found.push({start:a,end:b,priority:4});
+  }
   if(selected?.is_atomic&&selected.episode_id===episodeId){
    const spans=[selected.source_action,...(selected.original_author_imagery||[])];
    for(const span of spans)if(span.line===lineNumber&&source.slice(span.span_start,span.span_end)===(span.exact_phrase||span.phrase)){
@@ -527,7 +558,7 @@ function renderSource(item){
  renderCrossReferences(item);
  $("sourceHeading").textContent=(item.is_atomic?itemHeading(item)+" · "+item.scene_title:itemHeading(item));
  $("sourceMeta").textContent=item.id+" · "+lineLabel(item)+" · "+(item.raw_lines||[]).length+" original scene lines";
- const epData={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03,E04:DATA.e04}[item.episode_id];
+ const epData={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03,E04:DATA.e04,E05:DATA.e05}[item.episode_id];
  const offset=(epData?.source?.master_first_line||3)-1;
  if(item.is_forecast){
   $("viewGithubLine").href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/e05_director_prediction.json";
@@ -554,7 +585,7 @@ function downloadActive(){
    kind:"relationship_timeline_export",
    relationship_id:STATE.relationship,
    participant_ids:relationshipPeople(STATE.relationship),
-   episode_scope:STATE.episode==="ALL"?["E01","E02","E03","E04"]:[STATE.episode],
+   episode_scope:STATE.episode==="ALL"?["E01","E02","E03","E04","E05"]:[STATE.episode],
    source:"raw/Dhika.txt",
    note:"Chronological references from the source-locked datasets. Overlapping quoted lines may recur across distinct analysis categories. Raw source remains unchanged.",
    records:filteredItems().map(e=>({
@@ -573,8 +604,8 @@ function downloadActive(){
   };
   filename=STATE.relationship+"_timeline_"+STATE.episode.toLowerCase()+".json";
  }else{
-  payload=STATE.view==="episode"?(STATE.episode==="ALL"?{kind:"combined_episode_index",episodes:[DATA.episode,DATA.e02,DATA.e03,DATA.e04]}:
-  STATE.episode==="E04"?DATA.e04:STATE.episode==="E03"?DATA.e03:STATE.episode==="E02"?DATA.e02:DATA.episode):
+  payload=STATE.view==="episode"?(STATE.episode==="ALL"?{kind:"combined_episode_index",episodes:[DATA.episode,DATA.e02,DATA.e03,DATA.e04,DATA.e05]}:
+  STATE.episode==="E05"?DATA.e05:STATE.episode==="E04"?DATA.e04:STATE.episode==="E03"?DATA.e03:STATE.episode==="E02"?DATA.e02:DATA.episode):
   STATE.view==="directorStyle"?DATA.e04Style:STATE.view==="directorForecast"?DATA.e05Prediction:STATE.view==="predictionReview"?DATA.e05Review:DATA[STATE.view];
   filename=STATE.view==="episode"?"source_index_"+STATE.episode.toLowerCase()+".json":
   URLS[STATE.view==="directorStyle"?"e04Style":STATE.view==="directorForecast"?"e05Prediction":STATE.view==="predictionReview"?"e05Review":STATE.view].split("/").at(-1);
@@ -601,6 +632,23 @@ function fallbackCopy(txt){
 }
 function render(){renderTabs();renderStats();renderRecords();}
 
+function makeE05FromCanonical(raw){
+ const headers=[...raw.matchAll(/^EPISODE\s+(\d+)\s*$/gm)];
+ if(headers.length!==69)throw Error("Expected original source headings");
+ const lines=raw.slice(headers[4].index,headers[5].index).split(/\r?\n/);
+ if(lines.length!==233)throw Error("E05 expected 233 exact source lines");
+ let prev=0;
+ const events=DATA.e05Scenes.scenes.map((scene,i)=>{
+   const [a,b]=scene.source_lines;
+   if(a!==prev+1||b>233)throw Error("E05 source range mismatch: "+scene.id);
+   prev=b;
+   return{id:scene.id,episode_id:"E05",label:scene.title,line_start:a,line_end:b,
+     raw_lines:lines.slice(a-1,b).map((text,j)=>({line:a+j,text}))};
+ });
+ if(prev!==233)throw Error("E05 unindexed source lines");
+ return{kind:"episode",episode_id:"E05",line_count:233,
+   source:{master_first_line:raw.slice(0,headers[4].index).split(/\r?\n/).length},events};
+}
 function makeE04FromCanonical(raw){
  const heads=[...raw.matchAll(/^EPISODE\s+(\d+)\s*$/gm)];
  if(heads.length!==69||heads[3][1]!=="4")throw Error("Unexpected raw source headings");
@@ -632,9 +680,10 @@ async function main(){
   if(!rawResponse.ok)throw Error("Canonical source → HTTP "+rawResponse.status);
   const completeRaw=await rawResponse.text();
   DATA.e04=makeE04FromCanonical(completeRaw);
+  DATA.e05=makeE05FromCanonical(completeRaw);
   const headers=[...completeRaw.matchAll(/^EPISODE\s+(\d+)\s*$/gm)];
   DATA.e05RawOffset=completeRaw.slice(0,headers[4].index).split(/\r?\n/).length-1;
-  for(const key of ["episode","e02","e03","e04"]){
+  for(const key of ["episode","e02","e03","e04","e05"]){
    const ep=DATA[key],nums=ep.events.flatMap(e=>e.raw_lines.map(z=>z.line));
    if(nums.length!==ep.line_count||new Set(nums).size!==ep.line_count||!nums.every((n,i)=>n===i+1))throw Error("Source integrity failed for "+ep.episode_id);
   }
@@ -642,9 +691,9 @@ async function main(){
   const url=new URL(window.location.href),pair=url.searchParams.get("pair"),ep=url.searchParams.get("episode"),view=url.searchParams.get("view");
   if(view&&Object.prototype.hasOwnProperty.call(META,view))STATE.view=view;
   if(pair&&DATA.bonds.relationships.some(r=>r.id===pair))STATE.relationship=pair;
-  if(["ALL","E01","E02","E03","E04"].includes(ep))STATE.episode=ep;
+  if(["ALL","E01","E02","E03","E04","E05"].includes(ep))STATE.episode=ep;
   updateToolbar();
-  $("loadStatus").textContent="E01 229/229 · E02 160/160 · E03 240/240 · E04 207/207 · prediction reviewed";
+  $("loadStatus").textContent="E01–E05 original indexed · E05 prediction audited · 65 exact style examples";
   $("searchInput").addEventListener("input",e=>{STATE.query=e.target.value;renderRecords();});
   $("characterFilter").addEventListener("change",e=>{STATE.character=e.target.value;STATE.selected=null;renderRecords();});
   $("episodeFilter").addEventListener("change",e=>{STATE.episode=e.target.value;STATE.selected=null;render();});
