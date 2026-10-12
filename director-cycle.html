@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DHIKA — E05/E06 Controlled Director Cycle</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:dark;background:#101720;color:#e6eef3}
+*{box-sizing:border-box}body{margin:0;line-height:1.55;background:radial-gradient(ellipse at 60% -20%,#253a45 0%,#101720 54%)}a{color:#9ed1c9}
+header{padding:18px max(20px,calc((100vw - 1200px)/2));border-bottom:1px solid #344454;background:#121a23;display:flex;gap:18px;justify-content:space-between;align-items:center;flex-wrap:wrap}
+header strong{font-family:Georgia,serif;font-size:20px}header a{text-decoration:none;font-size:13px}
+main{max-width:1200px;margin:auto;padding:30px 20px 70px}.eyebrow{letter-spacing:.15em;color:#d6ac75;text-transform:uppercase;font-size:11px;font-weight:800}
+h1{font:normal clamp(30px,4vw,55px)/1.15 Georgia,serif;margin:15px 0}h2{font:normal 26px Georgia,serif}.muted{color:#a9bac7}.lead{max-width:820px}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:24px 0}
+.stat,.pane,.item{border:1px solid #324553;border-radius:12px;background:#18232e}
+.stat{padding:17px}.number{font:normal 34px Georgia,serif;color:#f4f0e5}.small{font-size:12px;color:#b7c6cf}
+.guard{border-left:3px solid #d6ac75;padding:12px 16px;background:#1b2a35;font-size:13px;color:#d2dce1;border-radius:4px}
+nav{display:flex;gap:8px;overflow-x:auto;margin:26px 0 15px;padding-bottom:7px}
+button,input,select{font:inherit}button{cursor:pointer;color:#dce6ec;background:#1d2b36;border:1px solid #405563;border-radius:9px;padding:11px 14px;white-space:nowrap}
+button[aria-selected=true]{background:#2e4651;border-color:#a4cfc7;color:#fff}
+.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:space-between;margin-bottom:15px}
+input{width:min(100%,460px);background:#101922;border:1px solid #4a5b66;color:white;padding:11px 13px;border-radius:8px}
+.items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.item{padding:17px;min-width:0}
+.item header{background:none;border:0;padding:0;display:flex;align-items:baseline;gap:10px}
+.item h3{font-size:16px;font-weight:650;margin:6px 0 12px;overflow-wrap:anywhere}
+.meta{color:#d6ac75;font-size:11px;font-weight:800;letter-spacing:.07em}
+.item p{margin:6px 0;font-size:13px;overflow-wrap:anywhere}.item small{color:#aab9c6}
+.quote{display:block;padding:9px 11px;margin:10px 0;border-left:2px solid #6ab7b0;background:#101a23;border-radius:3px;color:#e4ebe9;font:12px/1.6 ui-monospace,monospace}
+footer{margin-top:32px;border-top:1px solid #334450;padding-top:17px;font-size:12px;color:#b5c4cd}
+@media(max-width:730px){.stats{grid-template-columns:repeat(2,1fr)}.items{grid-template-columns:1fr}header{padding:14px 20px}}
+</style>
+</head>
+<body>
+<header><strong>DHIKA · Director Evidence Room</strong><div><a href="./index.html">← Main dashboard</a> · <a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures">Repository ↗</a></div></header>
+<main>
+<div class="eyebrow">Controlled prediction experiment · source-locked</div>
+<h1>E05 → E06 Director Cycle</h1>
+<p class="lead muted">Explore non-graphic source-linked E05 continuity, the E06 hypothesis frozen <em>before</em> E06 was read, its independent retrospective scoring, and new character-specific writing mechanics. All original episodes and previous prediction files remain untouched.</p>
+<div class="stats">
+ <div class="stat"><div class="number" id="e05Count">—</div><div class="small">E05 safe action anchors</div></div>
+ <div class="stat"><div class="number" id="e06Count">—</div><div class="small">E06 safe action anchors</div></div>
+ <div class="stat"><div class="number" id="results">—</div><div class="small">E06 hits / partials / misses</div></div>
+ <div class="stat"><div class="number" id="styleCount">—</div><div class="small">Verified style examples cumulative</div></div>
+</div>
+<p class="guard">Scope: precise everyday actions, separate character thoughts, dialogue objectives, scheduling and narrative callbacks. Intimate detail involving source-described teenagers is excluded from this derivative analysis. Exact ages are not established. An unobserved or planned event is never treated as accomplished.</p>
+<nav id="tabs" aria-label="Director cycle views"></nav>
+<div class="toolbar"><strong id="sectionTitle">Loading…</strong><input id="search" type="search" placeholder="Filter by character, source line, action or mechanism" aria-label="Filter records"><span id="count" class="small"></span></div>
+<section id="items" class="items" aria-live="polite"></section>
+<footer>Immutable prediction: <a href="./data/e06_director_prediction_frozen_v1.json">E06 blind blueprint</a> · <a href="./data/e06_prediction_audit_non_graphic.json">Retrospective audit</a> · <a href="./data/source_verified_style_mechanisms_append_e06.json">Style additions</a> · <a href="./scripts/validate_director_cycle.mjs">Integrity validator</a>.<br>Source pointers use <strong>episode-local</strong> line numbers. These are not GitHub master-file line numbers.</footer>
+</main>
+<script>
+"use strict";
+const $=id=>document.getElementById(id), node=(t,v,cls)=>{const n=document.createElement(t);if(cls)n.className=cls;n.textContent=v??"";return n;};
+let data={},current="review",query="";
+const sets=[
+ ["review","E06 scorecard"],["forecast","Frozen hypotheses"],["e05Scenes","E05 scene windows"],
+ ["e05Action","E05 named actions"],["e05Mind","E05 psychology"],
+ ["e06Scenes","E06 scene windows"],["e06Action","E06 named actions"],
+ ["e06Mind","E06 psychology"],["style","E06 style mechanics"],["profiles","Character & pair updates"]
+];
+function item(id,title,detail,quote,subtitle){
+ const x=node("article","","item");const h=node("div",id,"meta");x.append(h,node("h3",title));
+ if(subtitle)x.append(node("p",subtitle,"small"));
+ if(detail)x.append(node("p",detail));
+ if(quote)x.append(node("span",quote,"quote"));
+ return x;
+}
+function records(key){
+ const e5=data.e5,e6=data.e6,p=data.p,layer=data.layer;
+ const range=w=>"L"+w[0]+"–"+w[1];
+ const rows={
+ review:e6.marks.map(m=>({id:m.result.toUpperCase()+" · "+m.predicted_scene,title:m.explanation,detail:"Observed: "+m.actual_source_windows.map(range).join(", ")||"No match",quote:"Prediction ID: "+m.predicted_scene})),
+ forecast:p.scenes.map(x=>({id:x.id+" · "+x.confidence,title:x.title,detail:x.scene_goal,quote:x.setup?.join(" · "),subtitle:"Hypothetical actions: "+x.action_names.join(", ")})),
+ e05Scenes:e5.scenes.map(x=>({id:x.scene_id+" · "+range(x.source_lines),title:x.label,detail:x.mechanic,subtitle:"Participants: "+x.participants.join(", "),quote:"Dialogue: "+x.dialogue})),
+ e05Action:e5.event_records.map(x=>({id:x.scene_id+" · L"+x.source_excerpt.line,title:x.action_name,detail:x.initiator+" → "+x.recipient_or_object+" · "+x.occurrence_status,quote:x.source_excerpt.verbatim})),
+ e05Mind:e5.psychology_checkpoints.map(x=>({id:x.scene_id+" · L"+x.source_line,title:x.character_id,detail:x.individual_state_or_knowledge,quote:x.short_verbatim})),
+ e06Scenes:e6.scenes.map(x=>({id:x.id+" · "+range(x.source_lines),title:x.title,detail:"Scene participants: "+x.participants.join(", "),quote:"Coverage: "+x.coverage})),
+ e06Action:e6.safe_action_records.map(x=>({id:x.scene_id+" · L"+x.source.line,title:x.action_name,detail:x.actor+" → "+x.recipient_or_object+" · "+x.occurrence_status,quote:x.source.verbatim})),
+ e06Mind:e6.individual_psychology_checkpoints.map(x=>({id:"E06 · L"+x.source.line,title:x.character_id,detail:x.meaning,quote:x.source.verbatim})),
+ style:layer.new_mechanisms.map(x=>({id:x.id+" · L"+x.source.line,title:x.mechanism,detail:x.writer_direction,quote:x.source.verbatim,subtitle:x.character_specific_context})),
+ profiles:[...Object.entries(layer.character_profile_updates).map(([k,v])=>({id:"CHARACTER",title:k,detail:v.added||v.status,subtitle:v.unverified||"",quote:v.evidence.join(", ")})),
+ ...Object.entries(layer.relationship_updates).map(([k,v])=>({id:"RELATIONSHIP",title:k,detail:v.execution,quote:v.sources.join(", ")}))]
+ };
+ return rows[key]||[];
+}
+function render(){
+ $("tabs").replaceChildren(...sets.map(([id,label])=>{const b=node("button",label);b.type="button";b.setAttribute("aria-selected",id===current);b.onclick=()=>{current=id;render()};return b;}));
+ $("sectionTitle").textContent=sets.find(([id])=>id===current)?.[1]||"";
+ const all=records(current),q=query.trim().toLowerCase();
+ const found=all.filter(x=>!q||JSON.stringify(x).toLowerCase().includes(q));
+ $("count").textContent=found.length+" / "+all.length+" records";
+ $("items").replaceChildren(...(found.length?found.map(x=>item(x.id,x.title,x.detail,x.quote,x.subtitle)):[node("div","No matching source records.","small")]));
+}
+$("search").addEventListener("input",e=>{query=e.target.value;render()});
+(async()=>{
+ try{
+ const paths={e5:"./data/e05_non_graphic_continuity_ledger.json",e6:"./data/e06_prediction_audit_non_graphic.json",p:"./data/e06_director_prediction_frozen_v1.json",layer:"./data/source_verified_style_mechanisms_append_e06.json"};
+ const values=await Promise.all(Object.values(paths).map(async url=>{const r=await fetch(url,{cache:"no-cache"});if(!r.ok)throw Error(url+": "+r.status);return r.json()}));
+ Object.keys(paths).forEach((k,i)=>{data[k]=values[i]});
+ $("e05Count").textContent=data.e5.event_records.length;
+ $("e06Count").textContent=data.e6.safe_action_records.length;
+ $("results").textContent=[data.e6.counts.hits,data.e6.counts.partials,data.e6.counts.misses].join("/");
+ $("styleCount").textContent=data.layer.total_after_overlay;
+ render();
+ }catch(e){$("sectionTitle").textContent="Could not load evidence datasets";$("items").replaceChildren(node("p",String(e),"small"));}
+})();
+</script>
+</body></html>
