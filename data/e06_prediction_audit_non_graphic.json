@@ -1,0 +1,1281 @@
+{
+  "schema_version": 1,
+  "kind": "e06_prediction_audit_non_graphic",
+  "source": "raw/Dhika.txt",
+  "source_blob_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "episode_id": "E06",
+  "episode_source_lines": 232,
+  "source_cutoff_for_prediction": "E05",
+  "prediction_path": "data/e06_director_prediction_frozen_v1.json",
+  "prediction_blob_sha": "4a15aabf53c3740dd42653202d0cce963d217818",
+  "freeze_commit": "3db87426f2a36af408b7569f4028bf3c0ef184ab",
+  "prediction_unchanged": true,
+  "status": "PARTIAL_NON_GRAPHIC_SOURCE_VERIFIED",
+  "age_handling": "Source describes pupils and Chotu as teenagers but does not establish exact ages. No intimate youth-related anatomy, contact detail, or choreography is reconstructed.",
+  "scenes": [
+    {
+      "id": "E06-S01",
+      "source_lines": [
+        1,
+        4
+      ],
+      "title": "Header",
+      "participants": [],
+      "coverage": "non_graphic_only"
+    },
+    {
+      "id": "E06-S02",
+      "source_lines": [
+        5,
+        12
+      ],
+      "title": "Saturday family plans; helper postponed",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu",
+        "aunty",
+        "maami",
+        "chotu"
+      ],
+      "coverage": "non_graphic_only"
+    },
+    {
+      "id": "E06-S03",
+      "source_lines": [
+        13,
+        44
+      ],
+      "title": "Bobby arrives alone; Physics request",
+      "participants": [
+        "dhika",
+        "bobby"
+      ],
+      "coverage": "non_graphic_only"
+    },
+    {
+      "id": "E06-S04",
+      "source_lines": [
+        45,
+        71
+      ],
+      "title": "One-to-one academic interaction",
+      "participants": [
+        "dhika",
+        "bobby"
+      ],
+      "coverage": "non_graphic_only"
+    },
+    {
+      "id": "E06-S05",
+      "source_lines": [
+        72,
+        86
+      ],
+      "title": "Chotu arrives; Bobby asks to stay",
+      "participants": [
+        "dhika",
+        "bobby",
+        "chotu"
+      ],
+      "coverage": "non_graphic_only"
+    },
+    {
+      "id": "E06-S06",
+      "source_lines": [
+        87,
+        105
+      ],
+      "title": "Three-person painting",
+      "participants": [
+        "dhika",
+        "bobby",
+        "chotu"
+      ],
+      "coverage": "non_graphic_only"
+    },
+    {
+      "id": "E06-S07",
+      "source_lines": [
+        106,
+        123
+      ],
+      "title": "Second spill, accidental fall, practical help",
+      "participants": [
+        "dhika",
+        "bobby",
+        "chotu"
+      ],
+      "coverage": "non_graphic_only"
+    },
+    {
+      "id": "E06-S08",
+      "source_lines": [
+        124,
+        133
+      ],
+      "title": "Bobby's departure",
+      "participants": [
+        "dhika",
+        "bobby",
+        "chotu"
+      ],
+      "coverage": "non_graphic_only"
+    },
+    {
+      "id": "E06-S09",
+      "source_lines": [
+        134,
+        219
+      ],
+      "title": "Later private exchange, sensitive details excluded",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "coverage": "non_graphic_only"
+    },
+    {
+      "id": "E06-S10",
+      "source_lines": [
+        220,
+        228
+      ],
+      "title": "Private emotional aftermath",
+      "participants": [
+        "dhika"
+      ],
+      "coverage": "non_graphic_only"
+    },
+    {
+      "id": "E06-S11",
+      "source_lines": [
+        229,
+        232
+      ],
+      "title": "End marker",
+      "participants": [],
+      "coverage": "non_graphic_only"
+    }
+  ],
+  "marks": [
+    {
+      "predicted_scene": "P06-S01",
+      "result": "partial",
+      "actual_source_windows": [
+        [
+          5,
+          12
+        ],
+        [
+          73,
+          75
+        ]
+      ],
+      "explanation": "Next-day painting expectation recurs, but Maami delays arrival to 3 PM and Bobby intervenes; no noon start.",
+      "match_scope": "non_graphic_exact_scene_comparison"
+    },
+    {
+      "predicted_scene": "P06-S02",
+      "result": "partial",
+      "actual_source_windows": [
+        [
+          87,
+          90
+        ],
+        [
+          106,
+          123
+        ]
+      ],
+      "explanation": "Painting resumes, but Bobby joins and a second spill causes an unpredicted fall and first-aid.",
+      "match_scope": "non_graphic_exact_scene_comparison"
+    },
+    {
+      "predicted_scene": "P06-S03",
+      "result": "partial",
+      "actual_source_windows": [
+        [
+          5,
+          9
+        ]
+      ],
+      "explanation": "Aunty's family obligation appears as a temple trip, not the predicted standalone neighbor-care scene.",
+      "match_scope": "non_graphic_exact_scene_comparison"
+    },
+    {
+      "predicted_scene": "P06-S04",
+      "result": "miss",
+      "actual_source_windows": [],
+      "explanation": "Leo's housing question is not revisited or resolved in E06.",
+      "match_scope": "non_graphic_exact_scene_comparison"
+    },
+    {
+      "predicted_scene": "P06-S05",
+      "result": "miss",
+      "actual_source_windows": [
+        [
+          16,
+          46
+        ],
+        [
+          83,
+          87
+        ]
+      ],
+      "explanation": "Bobby's solo Physics request and impromptu tutoring replace predicted Bantu-Bobby group schedule exchange.",
+      "match_scope": "non_graphic_exact_scene_comparison"
+    },
+    {
+      "predicted_scene": "P06-S06",
+      "result": "partial",
+      "actual_source_windows": [
+        [
+          5,
+          9
+        ]
+      ],
+      "explanation": "Family routine appears through John/Pappu/Aunty departure; no predicted full household conversation.",
+      "match_scope": "non_graphic_exact_scene_comparison"
+    },
+    {
+      "predicted_scene": "P06-S07",
+      "result": "miss",
+      "actual_source_windows": [
+        [
+          219,
+          224
+        ]
+      ],
+      "explanation": "Closing turns to private aftermath, not an unfinished practical question.",
+      "match_scope": "non_graphic_exact_scene_comparison"
+    }
+  ],
+  "counts": {
+    "hits": 0,
+    "partials": 4,
+    "misses": 3
+  },
+  "safe_action_records": [
+    {
+      "id": "E06-NGA-001",
+      "scene_id": "E06-S02",
+      "action_name": "set_temple_trip_schedule",
+      "actor": "john",
+      "recipient_or_object": "aunty_pappu",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 5,
+        "verbatim": "nearby village for a temple function",
+        "span_start": 133,
+        "span_end": 169
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-002",
+      "scene_id": "E06-S02",
+      "action_name": "intend_to_resume_painting",
+      "actor": "dhika",
+      "recipient_or_object": "painting",
+      "occurrence_status": "proposed",
+      "source": {
+        "line": 7,
+        "verbatim": "finish some painting",
+        "span_start": 34,
+        "span_end": 54
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-003",
+      "scene_id": "E06-S02",
+      "action_name": "depart_for_family_trip",
+      "actor": "john_pappu_aunty",
+      "recipient_or_object": "home",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 9,
+        "verbatim": "bid bye to Dhika and left with aunty",
+        "span_start": 29,
+        "span_end": 65
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-004",
+      "scene_id": "E06-S02",
+      "action_name": "complete_household_chore",
+      "actor": "dhika",
+      "recipient_or_object": "home",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 9,
+        "verbatim": "scrubbed the bathroom",
+        "span_start": 98,
+        "span_end": 119
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-005",
+      "scene_id": "E06-S02",
+      "action_name": "notify_helper_delay",
+      "actor": "maami",
+      "recipient_or_object": "dhika",
+      "occurrence_status": "reported_plan",
+      "source": {
+        "line": 11,
+        "verbatim": "Chotu would be coming only around 3 PM",
+        "span_start": 189,
+        "span_end": 227
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-006",
+      "scene_id": "E06-S03",
+      "action_name": "hear_one_pm_visitor",
+      "actor": "dhika",
+      "recipient_or_object": "door",
+      "occurrence_status": "observed",
+      "source": {
+        "line": 13,
+        "verbatim": "Around 1 PM she heard the bell ring",
+        "span_start": 0,
+        "span_end": 35
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-007",
+      "scene_id": "E06-S03",
+      "action_name": "identify_bobby_as_visitor",
+      "actor": "narrator",
+      "recipient_or_object": "bobby",
+      "occurrence_status": "observed",
+      "source": {
+        "line": 16,
+        "verbatim": "It was Bobby",
+        "span_start": 0,
+        "span_end": 12
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-008",
+      "scene_id": "E06-S03",
+      "action_name": "request_tutor_discussion",
+      "actor": "bobby",
+      "recipient_or_object": "dhika",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 19,
+        "verbatim": "come and talk about something to you",
+        "span_start": 50,
+        "span_end": 86
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-009",
+      "scene_id": "E06-S03",
+      "action_name": "state_bantu_absence",
+      "actor": "bobby",
+      "recipient_or_object": "dhika",
+      "occurrence_status": "spoken_claim",
+      "source": {
+        "line": 23,
+        "verbatim": "outstation with our father",
+        "span_start": 24,
+        "span_end": 50
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-010",
+      "scene_id": "E06-S03",
+      "action_name": "announce_physics_competition",
+      "actor": "bobby",
+      "recipient_or_object": "dhika",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 26,
+        "verbatim": "national level Physics competition",
+        "span_start": 32,
+        "span_end": 66
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-011",
+      "scene_id": "E06-S03",
+      "action_name": "request_competition_help",
+      "actor": "bobby",
+      "recipient_or_object": "dhika",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 28,
+        "verbatim": "we need your help in preparing for the competition",
+        "span_start": 21,
+        "span_end": 71
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-012",
+      "scene_id": "E06-S03",
+      "action_name": "accept_competition_help",
+      "actor": "dhika",
+      "recipient_or_object": "bobby_bantu",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 29,
+        "verbatim": "I will help you both in all ways I can",
+        "span_start": 26,
+        "span_end": 64
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-013",
+      "scene_id": "E06-S03",
+      "action_name": "encourage_bobby_to_speak",
+      "actor": "dhika",
+      "recipient_or_object": "bobby",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 32,
+        "verbatim": "you have to speak up more",
+        "span_start": 52,
+        "span_end": 77
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-014",
+      "scene_id": "E06-S03",
+      "action_name": "offer_optional_study_time",
+      "actor": "dhika",
+      "recipient_or_object": "bobby",
+      "occurrence_status": "proposed",
+      "source": {
+        "line": 40,
+        "verbatim": "do you want to study some time",
+        "span_start": 42,
+        "span_end": 72
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-015",
+      "scene_id": "E06-S03",
+      "action_name": "observe_bobby_speaking_more",
+      "actor": "dhika",
+      "recipient_or_object": "bobby",
+      "occurrence_status": "observed",
+      "source": {
+        "line": 44,
+        "verbatim": "Bobby was more active than when Bantu is around",
+        "span_start": 51,
+        "span_end": 98
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-016",
+      "scene_id": "E06-S04",
+      "action_name": "acknowledge_conversational_change",
+      "actor": "dhika",
+      "recipient_or_object": "bobby",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 45,
+        "verbatim": "I didn't know you talked this much",
+        "span_start": 7,
+        "span_end": 41
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-017",
+      "scene_id": "E06-S04",
+      "action_name": "continue_study_example",
+      "actor": "dhika",
+      "recipient_or_object": "bobby",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 65,
+        "verbatim": "look at this approach",
+        "span_start": 31,
+        "span_end": 52
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-018",
+      "scene_id": "E06-S05",
+      "action_name": "interrupt_study_with_doorbell",
+      "actor": "visitor",
+      "recipient_or_object": "study",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 72,
+        "verbatim": "Ding Dong",
+        "span_start": 0,
+        "span_end": 9
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-019",
+      "scene_id": "E06-S05",
+      "action_name": "call_for_dhika_outside",
+      "actor": "chotu",
+      "recipient_or_object": "dhika",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 73,
+        "verbatim": "didi..... didi.... didi.....",
+        "span_start": 7,
+        "span_end": 35
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-020",
+      "scene_id": "E06-S05",
+      "action_name": "introduce_bobby",
+      "actor": "dhika",
+      "recipient_or_object": "chotu",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 77,
+        "verbatim": "this is Bobby",
+        "span_start": 22,
+        "span_end": 35
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-021",
+      "scene_id": "E06-S05",
+      "action_name": "explain_chotu_helper_role",
+      "actor": "dhika",
+      "recipient_or_object": "bobby",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 79,
+        "verbatim": "he is helping me to Paint Pappu's room",
+        "span_start": 45,
+        "span_end": 83
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-022",
+      "scene_id": "E06-S05",
+      "action_name": "ask_to_join_painting",
+      "actor": "bobby",
+      "recipient_or_object": "dhika_chotu",
+      "occurrence_status": "proposed",
+      "source": {
+        "line": 83,
+        "verbatim": "Can I stay and help you paint",
+        "span_start": 76,
+        "span_end": 105
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-023",
+      "scene_id": "E06-S05",
+      "action_name": "accept_bobby_as_helper",
+      "actor": "dhika",
+      "recipient_or_object": "bobby",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 86,
+        "verbatim": "okay come on",
+        "span_start": 20,
+        "span_end": 32
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-024",
+      "scene_id": "E06-S06",
+      "action_name": "move_group_to_workroom",
+      "actor": "dhika_chotu_bobby",
+      "recipient_or_object": "pappu_room",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 87,
+        "verbatim": "all three went to Pappu's bedroom",
+        "span_start": 23,
+        "span_end": 56
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-025",
+      "scene_id": "E06-S06",
+      "action_name": "assign_high_wall",
+      "actor": "chotu",
+      "recipient_or_object": "painting",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 87,
+        "verbatim": "Chotu took higher wall",
+        "span_start": 82,
+        "span_end": 104
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-026",
+      "scene_id": "E06-S06",
+      "action_name": "work_for_half_hour",
+      "actor": "dhika_chotu_bobby",
+      "recipient_or_object": "painting",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 89,
+        "verbatim": "painted in silence for next 30 minutes",
+        "span_start": 9,
+        "span_end": 47
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-027",
+      "scene_id": "E06-S06",
+      "action_name": "pause_for_rest",
+      "actor": "dhika",
+      "recipient_or_object": "chair",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 90,
+        "verbatim": "sat in the chair for a minute to rest",
+        "span_start": 36,
+        "span_end": 73
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-028",
+      "scene_id": "E06-S07",
+      "action_name": "drop_brush_second_time",
+      "actor": "chotu",
+      "recipient_or_object": "paint_tin",
+      "occurrence_status": "accidental",
+      "source": {
+        "line": 106,
+        "verbatim": "paint brush fell into the paint tin",
+        "span_start": 201,
+        "span_end": 236
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-029",
+      "scene_id": "E06-S07",
+      "action_name": "slip_on_wet_floor",
+      "actor": "dhika",
+      "recipient_or_object": "floor",
+      "occurrence_status": "accidental",
+      "source": {
+        "line": 113,
+        "verbatim": "skid on something wet down in the floor",
+        "span_start": 77,
+        "span_end": 116
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-030",
+      "scene_id": "E06-S07",
+      "action_name": "express_injury_pain",
+      "actor": "dhika",
+      "recipient_or_object": "helpers",
+      "occurrence_status": "observed",
+      "source": {
+        "line": 115,
+        "verbatim": "crying in pain",
+        "span_start": 7,
+        "span_end": 21
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-031",
+      "scene_id": "E06-S07",
+      "action_name": "help_to_chair",
+      "actor": "bobby",
+      "recipient_or_object": "dhika",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 118,
+        "verbatim": "helping her to sit on the chair",
+        "span_start": 67,
+        "span_end": 98
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-032",
+      "scene_id": "E06-S07",
+      "action_name": "hedge_apology_for_accident",
+      "actor": "chotu",
+      "recipient_or_object": "dhika",
+      "occurrence_status": "spoken_claim",
+      "source": {
+        "line": 120,
+        "verbatim": "that may have been my mistake",
+        "span_start": 35,
+        "span_end": 64
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-033",
+      "scene_id": "E06-S07",
+      "action_name": "fetch_pain_reliever",
+      "actor": "bobby",
+      "recipient_or_object": "dhika",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 123,
+        "verbatim": "Bobby ran and brought the pain reliever",
+        "span_start": 0,
+        "span_end": 39
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-034",
+      "scene_id": "E06-S07",
+      "action_name": "prepare_hot_water",
+      "actor": "chotu",
+      "recipient_or_object": "dhika",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 123,
+        "verbatim": "Chotu ran and put some hot water",
+        "span_start": 75,
+        "span_end": 107
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-035",
+      "scene_id": "E06-S08",
+      "action_name": "decide_to_depart",
+      "actor": "bobby",
+      "recipient_or_object": "home",
+      "occurrence_status": "proposed",
+      "source": {
+        "line": 128,
+        "verbatim": "decided it was time to leave",
+        "span_start": 41,
+        "span_end": 69
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-036",
+      "scene_id": "E06-S08",
+      "action_name": "send_bobby_off",
+      "actor": "dhika",
+      "recipient_or_object": "bobby",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 133,
+        "verbatim": "sent off Bobby, closed the door",
+        "span_start": 6,
+        "span_end": 37
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-037",
+      "scene_id": "E06-S09",
+      "action_name": "depart_home",
+      "actor": "chotu",
+      "recipient_or_object": "dhika",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 219,
+        "verbatim": "bye didiiii",
+        "span_start": 73,
+        "span_end": 84
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-038",
+      "scene_id": "E06-S10",
+      "action_name": "experience_private_guilt",
+      "actor": "dhika",
+      "recipient_or_object": "self",
+      "occurrence_status": "narrator_stated",
+      "source": {
+        "line": 222,
+        "verbatim": "a gush of guilty emotion took over her",
+        "span_start": 107,
+        "span_end": 145
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-039",
+      "scene_id": "E06-S10",
+      "action_name": "wash_hands",
+      "actor": "dhika",
+      "recipient_or_object": "bathroom",
+      "occurrence_status": "actual",
+      "source": {
+        "line": 223,
+        "verbatim": "washed her hands",
+        "span_start": 30,
+        "span_end": 46
+      },
+      "evidence_status": "verified_source_substring"
+    },
+    {
+      "id": "E06-NGA-040",
+      "scene_id": "E06-S10",
+      "action_name": "consider_shower",
+      "actor": "dhika",
+      "recipient_or_object": "bathroom",
+      "occurrence_status": "proposed",
+      "source": {
+        "line": 224,
+        "verbatim": "I should take a shower to cool down",
+        "span_start": 24,
+        "span_end": 59
+      },
+      "evidence_status": "verified_source_substring"
+    }
+  ],
+  "individual_psychology_checkpoints": [
+    {
+      "id": "E06-NGP-001",
+      "character_id": "dhika",
+      "source": {
+        "line": 11,
+        "verbatim": "Dhika was feeling sad",
+        "span_start": 307,
+        "span_end": 328
+      },
+      "meaning": "Response to practical schedule postponement.",
+      "scope": "narrator_or_character_only_not_shared_knowledge"
+    },
+    {
+      "id": "E06-NGP-002",
+      "character_id": "bobby",
+      "source": {
+        "line": 31,
+        "verbatim": "he didn't know what else to talk",
+        "span_start": 317,
+        "span_end": 349
+      },
+      "meaning": "Initiates the visit but runs out of casual conversation after request.",
+      "scope": "narrator_or_character_only_not_shared_knowledge"
+    },
+    {
+      "id": "E06-NGP-003",
+      "character_id": "dhika",
+      "source": {
+        "line": 39,
+        "verbatim": "Bobby's introvert nature",
+        "span_start": 99,
+        "span_end": 123
+      },
+      "meaning": "Teacher's characterization, not proof of permanent inner state.",
+      "scope": "narrator_or_character_only_not_shared_knowledge"
+    },
+    {
+      "id": "E06-NGP-004",
+      "character_id": "dhika",
+      "source": {
+        "line": 41,
+        "verbatim": "he will talk more",
+        "span_start": 53,
+        "span_end": 70
+      },
+      "meaning": "An anticipated effect of study, not actual result yet.",
+      "scope": "narrator_or_character_only_not_shared_knowledge"
+    },
+    {
+      "id": "E06-NGP-005",
+      "character_id": "bobby",
+      "source": {
+        "line": 44,
+        "verbatim": "Bobby was more active",
+        "span_start": 51,
+        "span_end": 72
+      },
+      "meaning": "Observed conditional contrast when Bantu is absent.",
+      "scope": "narrator_or_character_only_not_shared_knowledge"
+    },
+    {
+      "id": "E06-NGP-006",
+      "character_id": "dhika",
+      "source": {
+        "line": 90,
+        "verbatim": "felt tired",
+        "span_start": 21,
+        "span_end": 31
+      },
+      "meaning": "Reported physical fatigue prompts a break.",
+      "scope": "narrator_or_character_only_not_shared_knowledge"
+    },
+    {
+      "id": "E06-NGP-007",
+      "character_id": "chotu",
+      "source": {
+        "line": 120,
+        "verbatim": "that may have been my mistake",
+        "span_start": 35,
+        "span_end": 64
+      },
+      "meaning": "Responsibility is hedged in spoken words.",
+      "scope": "narrator_or_character_only_not_shared_knowledge"
+    },
+    {
+      "id": "E06-NGP-008",
+      "character_id": "dhika",
+      "source": {
+        "line": 222,
+        "verbatim": "guilty emotion took over her",
+        "span_start": 117,
+        "span_end": 145
+      },
+      "meaning": "Narrator attributes private response after visitor has left.",
+      "scope": "narrator_or_character_only_not_shared_knowledge"
+    }
+  ],
+  "new_style_mechanisms": [
+    {
+      "id": "E06-NGM-001",
+      "episode_id": "E06",
+      "source": {
+        "line": 5,
+        "verbatim": "Saturday morning was not as lazy as ever",
+        "span_start": 0,
+        "span_end": 40
+      },
+      "mechanism": "time_jump_with_family_schedule",
+      "character_specific_context": "Dhika/John",
+      "writer_direction": "Open with practical family situation before visitor thread.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-002",
+      "episode_id": "E06",
+      "source": {
+        "line": 11,
+        "verbatim": "only around 3 PM",
+        "span_start": 211,
+        "span_end": 227
+      },
+      "mechanism": "schedule_delay_causality",
+      "character_specific_context": "Dhika/Chotu/Maami",
+      "writer_direction": "An appointment may be delayed, not canceled.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-003",
+      "episode_id": "E06",
+      "source": {
+        "line": 16,
+        "verbatim": "It was Bobby",
+        "span_start": 0,
+        "span_end": 12
+      },
+      "mechanism": "unexpected_solo_entrance",
+      "character_specific_context": "Bobby",
+      "writer_direction": "Have a previously quiet character initiate an independent event.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-004",
+      "episode_id": "E06",
+      "source": {
+        "line": 26,
+        "verbatim": "national level Physics competition",
+        "span_start": 32,
+        "span_end": 66
+      },
+      "mechanism": "academic_motive_as_scene_driver",
+      "character_specific_context": "Bobby/Dhika",
+      "writer_direction": "Anchor new discussion in concrete subject and objective.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-005",
+      "episode_id": "E06",
+      "source": {
+        "line": 31,
+        "verbatim": "he didn't know what else to talk",
+        "span_start": 317,
+        "span_end": 349
+      },
+      "mechanism": "initiator_can_be_reticent",
+      "character_specific_context": "Bobby",
+      "writer_direction": "Separate courage to visit from ability to maintain conversation.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-006",
+      "episode_id": "E06",
+      "source": {
+        "line": 32,
+        "verbatim": "you have to speak up more",
+        "span_start": 52,
+        "span_end": 77
+      },
+      "mechanism": "pedagogical_objective",
+      "character_specific_context": "Dhika/Bobby",
+      "writer_direction": "Teach through targeted prompting; observe actual change.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-007",
+      "episode_id": "E06",
+      "source": {
+        "line": 44,
+        "verbatim": "Bobby was more active than when Bantu is around",
+        "span_start": 51,
+        "span_end": 98
+      },
+      "mechanism": "context_conditioned_character_voice",
+      "character_specific_context": "Bobby/Bantu",
+      "writer_direction": "Do not import twin's normal conversational hierarchy into solo scenes.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-008",
+      "episode_id": "E06",
+      "source": {
+        "line": 72,
+        "verbatim": "Ding Dong",
+        "span_start": 0,
+        "span_end": 9
+      },
+      "mechanism": "interrupting_doorbell_as_scene_transition",
+      "character_specific_context": "group",
+      "writer_direction": "Stop an active beat and introduce another character.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-009",
+      "episode_id": "E06",
+      "source": {
+        "line": 83,
+        "verbatim": "Can I stay and help you paint",
+        "span_start": 76,
+        "span_end": 105
+      },
+      "mechanism": "new_member_self_initiates_group",
+      "character_specific_context": "Bobby",
+      "writer_direction": "Attribute offer to Bobby, not to narrator or teacher.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-010",
+      "episode_id": "E06",
+      "source": {
+        "line": 87,
+        "verbatim": "all three went to Pappu's bedroom",
+        "span_start": 23,
+        "span_end": 56
+      },
+      "mechanism": "pair_to_group_merge",
+      "character_specific_context": "Dhika/Bobby/Chotu",
+      "writer_direction": "Document the transition to a newly configured group.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-011",
+      "episode_id": "E06",
+      "source": {
+        "line": 106,
+        "verbatim": "paint brush fell into the paint tin",
+        "span_start": 201,
+        "span_end": 236
+      },
+      "mechanism": "recurring_prop_new_consequence",
+      "character_specific_context": "Chotu",
+      "writer_direction": "Keep second accident and its consequence separate from E05's prior spill.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-012",
+      "episode_id": "E06",
+      "source": {
+        "line": 113,
+        "verbatim": "skid on something wet down in the floor",
+        "span_start": 77,
+        "span_end": 116
+      },
+      "mechanism": "physical_accident_from_prop",
+      "character_specific_context": "Dhika",
+      "writer_direction": "Mark slip accidental and the medical response as separate event.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-013",
+      "episode_id": "E06",
+      "source": {
+        "line": 123,
+        "verbatim": "Bobby ran and brought the pain reliever",
+        "span_start": 0,
+        "span_end": 39
+      },
+      "mechanism": "individual_helper_task",
+      "character_specific_context": "Bobby",
+      "writer_direction": "Assign first-aid initiative to the observed person.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-014",
+      "episode_id": "E06",
+      "source": {
+        "line": 123,
+        "verbatim": "Chotu ran and put some hot water",
+        "span_start": 75,
+        "span_end": 107
+      },
+      "mechanism": "complementary_helper_task",
+      "character_specific_context": "Chotu",
+      "writer_direction": "Preserve Chotu's separate help and timing.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-015",
+      "episode_id": "E06",
+      "source": {
+        "line": 219,
+        "verbatim": "bye didiiii",
+        "span_start": 73,
+        "span_end": 84
+      },
+      "mechanism": "quick_exit_before_aftermath",
+      "character_specific_context": "Chotu",
+      "writer_direction": "Do not invent spoken reasons for exit.",
+      "confidence": "verified_phrase_non_graphic"
+    },
+    {
+      "id": "E06-NGM-016",
+      "episode_id": "E06",
+      "source": {
+        "line": 222,
+        "verbatim": "a gush of guilty emotion took over her",
+        "span_start": 107,
+        "span_end": 145
+      },
+      "mechanism": "private_emotional_reversal",
+      "character_specific_context": "Dhika",
+      "writer_direction": "Keep psychological aftermath independent of household disclosures.",
+      "confidence": "verified_phrase_non_graphic"
+    }
+  ],
+  "unexpected_canon": [
+    {
+      "lines": [
+        9,
+        12
+      ],
+      "fact": "Chotu's planned noon arrival is delayed by Maami to around 3 PM."
+    },
+    {
+      "lines": [
+        16,
+        30
+      ],
+      "fact": "Bobby visits alone to request Physics competition coaching; Bantu is outstation."
+    },
+    {
+      "lines": [
+        31,
+        47
+      ],
+      "fact": "Bobby is noticeably more communicative in a one-to-one academic setting."
+    },
+    {
+      "lines": [
+        72,
+        89
+      ],
+      "fact": "Chotu arrives; Bobby asks to join room painting, creating a three-person work group."
+    },
+    {
+      "lines": [
+        106,
+        123
+      ],
+      "fact": "Second brush drop, accidental slip and separate first-aid responses."
+    },
+    {
+      "lines": [
+        219,
+        224
+      ],
+      "fact": "Chotu exits and Dhika has a private guilty response; this is not a practical cliffhanger."
+    }
+  ],
+  "unresolved": [
+    {
+      "topic": "Physics competition preparation",
+      "actual_status": "Help promised, further preparation schedule unverified",
+      "source": [
+        "E06:26",
+        "E06:29"
+      ]
+    },
+    {
+      "topic": "Room painting completion",
+      "actual_status": "Work resumed but completion not shown",
+      "source": [
+        "E06:87",
+        "E06:89"
+      ]
+    },
+    {
+      "topic": "Bantu return",
+      "actual_status": "Away with father, return not shown",
+      "source": [
+        "E06:23"
+      ]
+    },
+    {
+      "topic": "John learns private events",
+      "actual_status": "UNVERIFIED",
+      "source": [
+        "E06:222"
+      ]
+    },
+    {
+      "topic": "Leo housing decision",
+      "actual_status": "UNVERIFIED as of E06",
+      "source": [
+        "E05:38"
+      ]
+    }
+  ],
+  "next_director_lessons": [
+    "Treat arrivals and postponements as distinct real events",
+    "Give Bobby independent scene agency instead of assuming Bantu presence",
+    "Count a shared practical setting as partial unless actual action and speaker order match",
+    "Track repeated prop accidents as independent records",
+    "Keep private narrator knowledge separate",
+    "Freeze any E07 prediction before touching E07 raw"
+  ],
+  "verification": {
+    "all_included_quote_offsets_matched_source": true,
+    "full_intimate_action_coverage": false,
+    "non_graphic_scope_only": true
+  }
+}
