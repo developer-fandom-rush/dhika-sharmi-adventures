@@ -35,7 +35,7 @@ const $=id=>document.getElementById(id);
 const repoPath="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt";
 const titleCase=s=>String(s||"").replace(/[_-]/g," ").replace(/\b\w/g,x=>x.toUpperCase());
 const countLabel=n=>n===1?"1 record":n+" records";
-function reviewKey(id){return "dhika-source-reviewed:"+id;}
+function reviewKey(id){return "dhika-e01-reviewed:"+id;}
 function isReviewed(id){try{return localStorage.getItem(reviewKey(id))==="yes";}catch{return false;}}
 function markReviewed(id,checked){try{if(checked)localStorage.setItem(reviewKey(id),"yes");else localStorage.removeItem(reviewKey(id));}catch{}}
 function text(tag,content,cls){
