@@ -42,3 +42,11 @@ Run `node scripts/validate.mjs` from the repository root. It checks the source h
 Select a dataset tab, optionally filter by character, then choose a record. The right pane shows the author's exact cited source lines and a link into `raw/Dhika.txt`. Related source records across the other five datasets appear beneath the inspector controls. Tick the checkbox only after you verify a record. Marks are held in browser local storage and do not modify the repository.
 
 GitHub Pages has not been confirmed active. To publish a static dashboard URL, go to repository **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save. GitHub will provide the published address when deployment completes.
+
+## AI Director learning from E01 (hypothetical, NOT the actual E02)
+- `data/ai_director_e01.json`: 23 exact phrase triggers, one group-encounter participant matrix (Dhika/Bantu/Bobby), nine candidate next-episode execution scenes, and four practice drills.
+- Browser tabs: **AI Director**, **Trigger Words**, **Practice**. The source viewer highlights verified trigger wording using exact character spans from `raw/Dhika.txt`.
+- Every proposed scene has ordered position, character list, setting, conversation topic, **physical action name only**, heat level (0–5), reader curiosity level, E01 source evidence, an unresolved hook, and a canon/consent checkpoint.
+- E01 is the only analyzed canon episode; hypothetical scenes are forecasts, not things that happened in the real E02. This distinction must never be erased.
+- The projected peak candidate `Brief consensual handholding` is conditional on the involved adults freely choosing it on-page; if there is no mutual choice, `No touch` is the fallback.
+- Group events: use an encounter ID with **separate motive, knowledge and action states per participant** rather than duplicating the same source passage as independent character progression.
