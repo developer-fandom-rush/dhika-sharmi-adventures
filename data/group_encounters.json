@@ -3,7 +3,8 @@
   "kind": "group_encounters",
   "episode_scope": [
     "E01",
-    "E02"
+    "E02",
+    "E03"
   ],
   "source": "raw/Dhika.txt",
   "notes": "Each scene's raw source passage appears once; participant tracks reference relevant line numbers and distinguish knowledge, action and unseen facts.",
@@ -746,6 +747,446 @@
         }
       ],
       "note": "One shared raw scene; separate actor accounts. Observed attention is not automatically a chosen or consenting act."
+    },
+    {
+      "id": "E03-G01",
+      "episode_id": "E03",
+      "line_start": 101,
+      "line_end": 136,
+      "label": "Wednesday extra-tuition session",
+      "characters": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "shared_raw_lines": [
+        {
+          "line": 101,
+          "text": "She went to college today and was lost in work.... when it was time to leave..... she realized its Wednesday and the twins will be coming home today for tuitions.... all the horror of the previous day with them came to her mind."
+        },
+        {
+          "line": 102,
+          "text": "Time: 3 PM."
+        },
+        {
+          "line": 103,
+          "text": "Pappu was sleeping and she was lying next to him in bed and surfing mobile when she heard the bell..... she guessed who it was. Feeling nervous... she went and opened the door."
+        },
+        {
+          "line": 104,
+          "text": "Twins: Good afternoon miss....."
+        },
+        {
+          "line": 105,
+          "text": "Dhika: Come in Bantu and Bobby....."
+        },
+        {
+          "line": 106,
+          "text": "For a few minutes.... none of them spoke. She offered water to them which they took and gulped without a word.... They took a seat in the floor and took their notes out.... She sat with them in a circle with Bantu on one side and Bobby on one side.... and they started explaining her what they have prepared so far...."
+        },
+        {
+          "line": 107,
+          "text": "All three of the behaved as if nothing had happened the day before yesterday and it was a great releif for Dhika. Within minutes..... sweet happy and jovial Dhika came out and charming Bantu surfaced and as usual Bobby stared at them creepyly. (  The boys were seeing her first time in Kurti. She was fully covered but it was body hugging tight and her boobs were looking full majestic as her duppatta was around the neck)"
+        },
+        {
+          "line": 108,
+          "text": "Bantu: Miss.... you look very pretty in this dress... I have never seen you in kurti before."
+        },
+        {
+          "line": 109,
+          "text": "Dhika: hehe... thank you dear.... because college allows only saree and we have never met anywhere outside before."
+        },
+        {
+          "line": 110,
+          "text": "Dhika: you don't like my dress bobby ? she asked teasingly.."
+        },
+        {
+          "line": 111,
+          "text": "Bobby: blushing and silent... he smiled and nodded a litte."
+        },
+        {
+          "line": 112,
+          "text": "Dhika: hehe.... we have know each other for almost many years now... you should talk freely with me...."
+        },
+        {
+          "line": 113,
+          "text": "Sitting down and working with them led her into sitting on her dupatta and it dragged her neck back quite often....Looking down, she noticed she is only using it for neck and didn't really needed it."
+        },
+        {
+          "line": 114,
+          "text": "She know Bantu and Bobby very well and didn't mind.... so removed her dupatta and threw it on the sofa.... both Bantu and Bobby noticed this.."
+        },
+        {
+          "line": 115,
+          "text": "Bantu: Miss..... I like your dress very much.... is this what you were in home always ?"
+        },
+        {
+          "line": 116,
+          "text": "Dhika: not really Bantu..... I wear more casual dress at home...."
+        },
+        {
+          "line": 117,
+          "text": "Bantu: so why are you not wearing them now miss......."
+        },
+        {
+          "line": 118,
+          "text": "Dhika: hehe.... I can't wear them infront of outsiders Bantu..... I feel shy."
+        },
+        {
+          "line": 119,
+          "text": "Bantu: miss..... just now you said to Bobby that we have known each other for years and should feel free..... if you itself don't be free, how will he be...."
+        },
+        {
+          "line": 120,
+          "text": "Bantu had a point..... well, actually he knew how to move coins.... but Dhika only saw from his point of view. Looking at her thinking about it, Bantu thought he has succeeded and perhaps could see her in more casual dress soon. But what came next was a surprise."
+        },
+        {
+          "line": 121,
+          "text": "Dhika: hehe....(  teasingly)... Bobby.... look at me...tell something to me that you always wanted to tell but never said and I will change into a comfortable home wear."
+        },
+        {
+          "line": 122,
+          "text": "She did not expect Bobby to tell anything because sudden questions always startle him.. but to both Bantu and Dhika's surprise..."
+        },
+        {
+          "line": 123,
+          "text": "Bobby: I too always think you look very beautiful miss... I like your smile very much and it makes your cute face more cuter.."
+        },
+        {
+          "line": 124,
+          "text": "Dhika"
+        },
+        {
+          "line": 125,
+          "text": "h my my...... feeling blushed a little.... thank you bobby."
+        },
+        {
+          "line": 126,
+          "text": "Without waiting one second.... she went to her room and closed the door..Bantu looked puzzled and Bobby thought he said something wrong and she got angry."
+        },
+        {
+          "line": 127,
+          "text": "Innocent Dhika went to the room to honor her deal then and there.... she thought what to wear... she took a knee length skirt and sleeveless top but till neck and wore and came out...."
+        },
+        {
+          "line": 128,
+          "text": "As she came out.... the twins looked at her, which she noticed....and to her own surprise, she gave a swril and when she did...the free skirt rose a tiny bit and her long slender legs looked alluring."
+        },
+        {
+          "line": 129,
+          "text": "Bantu: miss.... you are looking hot"
+        },
+        {
+          "line": 130,
+          "text": "Dhika: Bantuuuuuuuuuuuuu...(  her eyes became like balls)..blusing......hehe.... you cannot say that to me..... I am your teacher.."
+        },
+        {
+          "line": 131,
+          "text": "Bantu: miss.... you only thought us that we should always express ourselves as long as we don't hurt others feeling.... were your feelings hurt miss....he put up a puppy face (  he did know how to put someone in corner)"
+        },
+        {
+          "line": 132,
+          "text": "Dhika: hehee... no.... she smiled shyly....."
+        },
+        {
+          "line": 133,
+          "text": "Bantu: well.... then I can say.... you look very hot miss..."
+        },
+        {
+          "line": 134,
+          "text": "Dhika: blushing and giggling.... she looked at bobby."
+        },
+        {
+          "line": 135,
+          "text": "Bobby's eyes were scanning her and he was blushing just as her.. she went to him and pinched his cheeks like a child's... Bobby felt even more shy."
+        },
+        {
+          "line": 136,
+          "text": "Dhika sat with them and continued her class till they left..."
+        }
+      ],
+      "participant_tracks": [
+        {
+          "character_id": "dhika",
+          "evidence_line_refs": [
+            101,
+            103,
+            105,
+            106,
+            107,
+            109,
+            110,
+            113,
+            114,
+            119,
+            121,
+            125,
+            126,
+            127,
+            128,
+            130,
+            132,
+            134,
+            135,
+            136
+          ],
+          "observable_action": "Responds to reassurance after previous incident, removes dupatta, changes clothes and performs a twirl",
+          "known_to_character": "Teaching role and own comfort preferences",
+          "not_known_or_not_shown": "Private interpretation of students' comments"
+        },
+        {
+          "character_id": "bantu",
+          "evidence_line_refs": [
+            106,
+            108,
+            115,
+            117,
+            119,
+            120,
+            129,
+            131,
+            133,
+            134,
+            136
+          ],
+          "observable_action": "Uses discussion to encourage different clothing, compliments appearance",
+          "known_to_character": "His deliberate conversational tactic",
+          "not_known_or_not_shown": "Bobby's full private motivations"
+        },
+        {
+          "character_id": "bobby",
+          "evidence_line_refs": [
+            106,
+            110,
+            111,
+            112,
+            121,
+            122,
+            123,
+            125,
+            126,
+            128,
+            134,
+            135,
+            136
+          ],
+          "observable_action": "Quiet student breaks habitual reticence and gives personal compliment",
+          "known_to_character": "He voiced compliment and was teased",
+          "not_known_or_not_shown": "Dhika and Bantu's full inner states"
+        }
+      ],
+      "note": "Shared source setup once; distinct actor action and knowledge streams."
+    },
+    {
+      "id": "E03-G02",
+      "episode_id": "E03",
+      "line_start": 153,
+      "line_end": 183,
+      "label": "Friday unexpected clothing incident and reassurance",
+      "characters": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "shared_raw_lines": [
+        {
+          "line": 153,
+          "text": "On Friday afternoon, she came late from college and the twins came almost along with her. Since they all reached at the same time.... she started her tuitions immediately when they reached and so sat with them in saree itself. Bantu felt sad that he could not see her sexy legs today. They focussed on the studies and Dhika was teaching by having a note in between them. The note was on the floor and she was leaning very much to write comfortably and the boys were sitting opposite to her, Turning heads and looking at the note. It was a hot day and the fan was in full speed."
+        },
+        {
+          "line": 154,
+          "text": "With the effects of the high speed fan combined with her leaning posture..... slowly but steadyly.....her pallu slid down and a lot of her milky cleavage came into view. She was so busy in writing that she did not notice but continued writing and teaching them. Bobby kept stealing glances and looked to see if Bantu was looknig too. Bantu winked at Bobby and smiled."
+        },
+        {
+          "line": 155,
+          "text": "In just couple of seconds later, her entire pallu dropped and fell on her left hand...... and again for the second time before the twins.... she felt horrified."
+        },
+        {
+          "line": 156,
+          "text": "it was just mear 3 seconds before she fixed herself, but both Bobby and Bantu took everything into them like a eidetic memory."
+        },
+        {
+          "line": 157,
+          "text": "She was wearing a pink color saree..... with matching blouse..... and wore red lipstick.... she was looking absolutely gorgeous. What was the highlight is her milky boobs. It looked like two jugs because they were filled with milk.. Her flawless skin made it look like melons served in a platter...."
+        },
+        {
+          "line": 158,
+          "text": "Dhika on the other hand couldn't believe this is happening to her for the second time in front of the twins... Eventhough it was just 3 seconds it took for her to fix it.... she saw that both Bobby and Bantu saw..... She noticed Bantu looked. kepping his face as if he tired to warn her..... Bobby on the other side got wide eyed just like last time and kept fixated."
+        },
+        {
+          "line": 159,
+          "text": "Dhika: ayooooooo...... why does this keeps happening to me..... she was at the verge of crying.."
+        },
+        {
+          "line": 160,
+          "text": "Both Bobby and Bantu looked at each other and then look at her with a pity face.. neither of the boys said a word."
+        },
+        {
+          "line": 161,
+          "text": "Dhika: I am so sorry that you both had to see me like this..... tears started rolling down her eyes."
+        },
+        {
+          "line": 162,
+          "text": "Bantu: Miss.... please don't cry..."
+        },
+        {
+          "line": 163,
+          "text": "Bobby: he spoke quitely.... miss... its okay.. it was just an accident."
+        },
+        {
+          "line": 164,
+          "text": "Dhika: with tears in eyes... I saw you boys saw my breast.... she sobbed...... what if someone comes to know.."
+        },
+        {
+          "line": 165,
+          "text": "Bantu: Miss.... we won't tell anyone.. trust us."
+        },
+        {
+          "line": 166,
+          "text": "Bobby: miss.... he reached out and wiped the tears in her cheek.... we will not tell anyone... and no one will come to know.... we like you so much because you have been always very kind and caring towards us.... we both promise to keep our mouth shut and no one will hear about this..... please don't cry... I cannot bear to see tears in your eyes..."
+        },
+        {
+          "line": 167,
+          "text": "Both Dhika and Bantu were flabbergasted. This is the most long Bobby has ever spoken to her or in fact to any one at the college apart from Bantu."
+        },
+        {
+          "line": 168,
+          "text": "Dhika shivered when bobby touched her cheeks.... but when he spoke she stunned because the quite shy and introvert had so much care towards her.... his words felt so good to her."
+        },
+        {
+          "line": 169,
+          "text": "Bantu: giggling.....miss.... if bobby promises to keep his mouth shut.... I guess even god won't come to know about this... hehe... he made a funny comment.."
+        },
+        {
+          "line": 170,
+          "text": "Dhika understood what he meant and snorted a smile + laugh."
+        },
+        {
+          "line": 171,
+          "text": "Dhika: smiling a little... thank you bobby... I trust you both... she patted his head.."
+        },
+        {
+          "line": 172,
+          "text": "Dhika: I am sorry this happened twice in front of you.... sorry you had to see this old body. (  because of the milk, her boobs felt big and heavy and she felt she is getting old and tad shaggy)"
+        },
+        {
+          "line": 173,
+          "text": "Bantu: miss..... you kidding..... you are not old.."
+        },
+        {
+          "line": 174,
+          "text": "Dhika: giggling a little....stop playing Bantu...."
+        },
+        {
+          "line": 175,
+          "text": "Bantu: Miss.. you are one of the most beautiful person I have ever seen. you have a very hot body and silky skin."
+        },
+        {
+          "line": 176,
+          "text": "Dhika fell for his charming complements and blushed a little .. she returned to her sweet jovial state a little.."
+        },
+        {
+          "line": 177,
+          "text": "Bantu: miss..... even if this happens again... we would be lucky .... hehe"
+        },
+        {
+          "line": 178,
+          "text": "Dhika: she took a second to understand what he meant..... feeling so shy..... Bantuuuuuu....."
+        },
+        {
+          "line": 179,
+          "text": "Bantu: you are not old miss..... your skin looks so soft and so does your......"
+        },
+        {
+          "line": 180,
+          "text": "Dhika: eyes widened...... shyness at her peek..... what !!"
+        },
+        {
+          "line": 181,
+          "text": "Bantu: bit his tongue and looked at her and bobby.... bobby smiled and put his head down."
+        },
+        {
+          "line": 182,
+          "text": "Dhika: you are becoming naughty bantu..... she blushed and pinched his cheeks...."
+        },
+        {
+          "line": 183,
+          "text": "He made her forget her sorrow and made her smile...... bobby on the other hand made her comfortable.... she thanked both of them while they were leaving. Later that evening.... when John came... she did not say today's incident to him and about Bantu's comments. She felt shy and also little fear on what if John thinks bad about her.."
+        }
+      ],
+      "participant_tracks": [
+        {
+          "character_id": "dhika",
+          "evidence_line_refs": [
+            153,
+            154,
+            155,
+            156,
+            158,
+            159,
+            161,
+            164,
+            168,
+            170,
+            171,
+            172,
+            174,
+            176,
+            178,
+            180,
+            182,
+            183
+          ],
+          "observable_action": "Accidental clothing slip during tutoring causes distress; she later accepts reassurance and gestures to students",
+          "known_to_character": "Both students observed the accident",
+          "not_known_or_not_shown": "Not told all intentions behind responses"
+        },
+        {
+          "character_id": "bantu",
+          "evidence_line_refs": [
+            153,
+            154,
+            156,
+            160,
+            162,
+            165,
+            167,
+            169,
+            173,
+            175,
+            177,
+            179,
+            181,
+            182,
+            183
+          ],
+          "observable_action": "Reassures verbally, then uses humor and compliments to restore normal conversation",
+          "known_to_character": "He can see Dhika's distress and hear Bobby's words",
+          "not_known_or_not_shown": "Bobby's private thoughts beyond what he says"
+        },
+        {
+          "character_id": "bobby",
+          "evidence_line_refs": [
+            153,
+            154,
+            156,
+            160,
+            163,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            181,
+            183
+          ],
+          "observable_action": "Physically wipes tears and gives unexpectedly extended verbal reassurance",
+          "known_to_character": "Witnesses distress and responds with comfort",
+          "not_known_or_not_shown": "Dhika's subsequent internal interpretation beyond narrated reaction"
+        }
+      ],
+      "note": "Shared source setup once; distinct actor action and knowledge streams."
     }
   ]
 }
