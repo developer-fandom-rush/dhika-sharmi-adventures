@@ -1,0 +1,45 @@
+{
+  "kind": "E08_pre_read_prediction",
+  "evidence_cutoff": "E07",
+  "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "status": "frozen_before_reading_E08_narrative",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "confidence": "high",
+      "source": "E07 L229-238",
+      "claim": "E08 opens with twins' reaction to E07 remote-video appearance and explains what caught their attention."
+    },
+    {
+      "id": "H2",
+      "confidence": "medium",
+      "source": "E07 L205",
+      "claim": "Chotu remains distant or a later meeting addresses awkward E06 aftermath."
+    },
+    {
+      "id": "H3",
+      "confidence": "medium",
+      "source": "E07 L212-218",
+      "claim": "Online competition coaching continues or establishes the travel/mentor timeline."
+    },
+    {
+      "id": "H4",
+      "confidence": "medium",
+      "source": "E07 L5-32",
+      "claim": "John and Dhika have further domestic dialogue influenced by her changing mood."
+    },
+    {
+      "id": "H5",
+      "confidence": "low",
+      "source": "E07 L37-72",
+      "claim": "Sharmi/Raj relationship becomes a separate social thread."
+    },
+    {
+      "id": "H6",
+      "confidence": "low",
+      "source": "E05 L37-44",
+      "claim": "Leo's housing situation changes."
+    }
+  ],
+  "caution": "No future episode content consulted; guesses are not source facts. Do not treat physical arousal as willingness."
+}
