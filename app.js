@@ -9,9 +9,11 @@ const URLS={
   e02:"./data/episodes/e02.json",
   inner:"./data/character_inner_evolution.json",
   triggers:"./data/reader_triggers.json",
-  groups:"./data/group_encounters.json"
+  groups:"./data/group_encounters.json",
+  links:"./data/relationship_links.json"
 };
 const META={
+  relationship:{title:"Relationship History · All Episodes",tab:"Relationship Timeline ★",note:"Chronological, source-locked actions, inner thoughts, bond changes, exact trigger phrases and group encounters. This joins existing JSON records; the raw text is never rewritten."},
   episode:{title:"Episode original timeline",tab:"Episode",note:"Uninterrupted original text, all lines preserved, each source segment uniquely indexed."},
   inner:{title:"Character inner thoughts & changing nature",tab:"Inner Evolution ★",note:"Before → shift, source voice, exact line; no character's feelings copied onto another."},
   triggers:{title:"Exact author trigger phrases",tab:"Trigger Words ✦",note:"Exact phrase highlighted. A hook, emotional shift, visual description and payoff are not interchangeable."},
@@ -28,12 +30,12 @@ const CHARACTER_NAMES={
   chotu:"Chotu / Babu",maami:"Bindu Maami",pappu:"Pappu (family only)"
 };
 const DATA={};
-const STATE={view:"inner",episode:"E02",query:"",character:"",selected:null,showRaw:true};
+const STATE={view:"relationship",episode:"ALL",relationship:"dhika_uncle",facet:"ALL",query:"",character:"",selected:null,showRaw:false};
 const $=id=>document.getElementById(id);
 const repoPath="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt";
 const titleCase=s=>String(s||"").replace(/[_-]/g," ").replace(/\b\w/g,x=>x.toUpperCase());
 const countLabel=n=>n===1?"1 record":n+" records";
-function reviewKey(id){return "dhika-e01-reviewed:"+id;}
+function reviewKey(id){return "dhika-source-reviewed:"+id;}
 function isReviewed(id){try{return localStorage.getItem(reviewKey(id))==="yes";}catch{return false;}}
 function markReviewed(id,checked){try{if(checked)localStorage.setItem(reviewKey(id),"yes");else localStorage.removeItem(reviewKey(id));}catch{}}
 function text(tag,content,cls){
@@ -47,11 +49,39 @@ function characterIds(item){
  ["actor","target","subject","other_character","character_id","other_character_id"].forEach(k=>{if(item[k])ids.push(item[k]);});
  return [...new Set(ids)];
 }
+const RELATIONSHIP_VIEWS=["bonds","inner","physical","heat","escalation","curiosity","triggers","groups"];
+const RELATIONSHIP_LABELS={bonds:"Bond evolution",inner:"Inner thoughts",physical:"Physical action",heat:"Inner reaction / access",escalation:"Pacing / escalation",curiosity:"Reader curiosity",triggers:"Exact trigger",groups:"Group encounter"};
+function relationshipPeople(pairId){
+ const found=DATA.bonds?.relationships?.find(r=>r.id===pairId);
+ return found?.participants||pairId.split("_");
+}
+function belongsToRelationship(item,view,pairId){
+ const pair=relationshipPeople(pairId);
+ if(view==="inner")return(DATA.links?.inner_state_links?.[item.id]||[]).includes(pairId);
+ if(view==="bonds"||view==="escalation")return item.relationship_id===pairId ||(item.participants?.length===2&&pair.every(x=>item.participants.includes(x)));
+ if(view==="physical")return pair.every(x=>[item.subject,item.other_character].includes(x));
+ if(view==="heat")return pair.every(x=>[item.actor,item.target].includes(x));
+ if(view==="triggers")return pair.every(x=>[item.character_id,item.other_character_id].includes(x));
+ if(view==="groups"||view==="curiosity")return pair.every(x=>item.characters?.includes(x));
+ return false;
+}
+function listRelationshipRecords(pairId){
+ const output=[];
+ for(const view of RELATIONSHIP_VIEWS)for(const item of listItems(view)){
+  if(!belongsToRelationship(item,view,pairId))continue;
+  output.push({...item,related_view:view,facet_label:RELATIONSHIP_LABELS[view],relationship_id:pairId,is_relationship_record:true});
+ }
+ return output.sort((a,b)=>{
+  const order=a.episode_id.localeCompare(b.episode_id)||a.line_start-b.line_start;
+  return order||RELATIONSHIP_VIEWS.indexOf(a.related_view)-RELATIONSHIP_VIEWS.indexOf(b.related_view);
+ });
+}
 function listItems(view){
  const d=DATA[view];
  if(!d)return[];
  let base=[];
- if(view==="episode")base=[...DATA.episode.events,...DATA.e02.events];
+ if(view==="relationship")base=listRelationshipRecords(STATE.relationship);
+ else if(view==="episode")base=[...DATA.episode.events,...DATA.e02.events];
  else if(view==="heat"||view==="curiosity")base=d.events;
  else if(view==="physical")base=d.characters.flatMap(c=>c.events.map(e=>({...e,character_label:c.name})));
  else if(view==="bonds")base=d.relationships.flatMap(r=>r.states.map(e=>({...e,relationship_id:r.id,participants:r.participants})));
@@ -77,8 +107,9 @@ function filteredItems(){
  const q=STATE.query.toLowerCase().trim();
  return listItems(STATE.view).filter(item=>{
    const people=characterIds(item);
-   if(item.episode_id!==STATE.episode)return false;
-   if(STATE.character&&!people.includes(STATE.character))return false;
+   if(STATE.episode!=="ALL"&&item.episode_id!==STATE.episode)return false;
+   if(STATE.view==="relationship"&&STATE.facet!=="ALL"&&item.related_view!==STATE.facet)return false;
+   if(STATE.view!=="relationship"&&STATE.character&&!people.includes(STATE.character))return false;
    if(!q)return true;
    const searchable=[item.id,itemHeading(item),people.join(" "),itemTags(item).join(" "),
        item.change_marker,item.prior_state_or_expectation,item.observed_state_or_difference,item.why_this_exact_phrase_matters,item.label,item.observable_action,
@@ -88,10 +119,17 @@ function filteredItems(){
 }
 function renderStats(){
  const st=$("stats");st.replaceChildren();
- const scope=STATE.episode,records=view=>listItems(view).filter(x=>x.episode_id===scope);
- const ep=scope==="E01"?DATA.episode:DATA.e02;
- const values=[
- [ep.line_count+" / "+ep.line_count,"Source lines indexed"],
+ const scope=STATE.episode,records=view=>listItems(view).filter(x=>scope==="ALL"||x.episode_id===scope);
+ const totalLines=scope==="ALL"?DATA.episode.line_count+DATA.e02.line_count:(scope==="E01"?DATA.episode.line_count:DATA.e02.line_count);
+ const values=STATE.view==="relationship"?[
+ [totalLines+" / "+totalLines,"Raw lines indexed"],
+ [filteredItems().length,"Matching evidence records"],
+ [records("inner").filter(x=>belongsToRelationship(x,"inner",STATE.relationship)).length,"Inner state changes"],
+ [records("physical").filter(x=>belongsToRelationship(x,"physical",STATE.relationship)).length,"Physical actions"],
+ [records("bonds").filter(x=>belongsToRelationship(x,"bonds",STATE.relationship)).length,"Bond checkpoints"],
+ [records("triggers").filter(x=>belongsToRelationship(x,"triggers",STATE.relationship)).length,"Exact trigger phrases"]
+ ]:[
+ [totalLines+" / "+totalLines,"Source lines indexed"],
  [records("episode").length,"Timeline windows"],
  [records("inner").length,"Inner nature checkpoints"],
  [records("triggers").length,"Exact triggers"],
@@ -107,8 +145,31 @@ function renderTabs(){
  for(const [view,meta] of Object.entries(META)){
    const b=text("button",meta.tab,"tab"+(STATE.view===view?" active":""));
    b.type="button";b.setAttribute("aria-pressed",STATE.view===view?"true":"false");
-   b.onclick=()=>{STATE.view=view;STATE.selected=null;render();};
+   b.onclick=()=>{STATE.view=view;STATE.selected=null;updateToolbar();render();};
    wrap.append(b);
+ }
+}
+function renderRelationshipOptions(){
+ const select=$("relationshipFilter");
+ select.replaceChildren();
+ for(const pair of DATA.bonds.relationships){
+  const option=document.createElement("option");
+  option.value=pair.id;
+  option.textContent=pair.participants.map(id=>CHARACTER_NAMES[id]||titleCase(id)).join(" ↔ ");
+  select.append(option);
+ }
+ if(!DATA.bonds.relationships.some(x=>x.id===STATE.relationship))STATE.relationship=DATA.bonds.relationships[0]?.id||"dhika_uncle";
+ select.value=STATE.relationship;
+}
+function updateToolbar(){
+ const rel=STATE.view==="relationship";
+ $("relationshipWrap").hidden=!rel;
+ $("facetWrap").hidden=!rel;
+ $("characterWrap").hidden=rel;
+ $("episodeFilter").value=STATE.episode;
+ if(rel){
+  $("relationshipFilter").value=STATE.relationship;
+  $("facetFilter").value=STATE.facet;
  }
 }
 function renderCharacterOptions(){
@@ -168,20 +229,27 @@ function appendSourceAnalysis(node,item){
 }
 function renderRecords(){
  const area=$("records"), items=filteredItems();area.replaceChildren();
- $("datasetTitle").textContent=META[STATE.view].title;
- $("datasetNote").textContent=META[STATE.view].note;
+ $("datasetTitle").textContent=STATE.view==="relationship"
+  ?relationshipPeople(STATE.relationship).map(x=>CHARACTER_NAMES[x]||titleCase(x)).join(" ↔ ")+" · Relationship History"
+  :META[STATE.view].title;
+ $("datasetNote").textContent=META[STATE.view].note+(STATE.view==="relationship"?" E01 → E02; independently tagged records may point to the same original line.":"");
  $("resultCount").textContent=countLabel(items.length);
  if(!items.length){
   area.append(text("div","No matching source records. Try clearing the search or character filter.","empty"));
   STATE.selected=null;renderSource(null);return;
  }
  if(!items.some(x=>x.id===STATE.selected))STATE.selected=items[0].id;
+ let lastEpisode="";
  for(const item of items){
+  if(STATE.view==="relationship"&&item.episode_id!==lastEpisode){
+   lastEpisode=item.episode_id;
+   area.append(text("div",item.episode_id==="E01"?"EPISODE 01 · EARLIER STATE":"EPISODE 02 · NEW DEVELOPMENTS","timeline-episode-label"));
+  }
   const node=text("article","","record"+(STATE.selected===item.id?" selected":""));
   node.setAttribute("role","button");node.setAttribute("tabindex","0");
   node.setAttribute("aria-label",itemHeading(item)+", "+lineLabel(item));
   node.append(text("div","","record-top"));
-  node.lastChild.append(text("span",item.id,"record-id"),text("span",lineLabel(item),"record-range"));
+  node.lastChild.append(text("span",(item.facet_label?item.facet_label+" · ":"")+item.id,"record-id"),text("span",lineLabel(item),"record-range"));
   node.append(text("div",itemHeading(item),"record-label"));
   const characters=characterIds(item).map(id=>CHARACTER_NAMES[id]||id);
   if(characters.length)node.append(text("div",characters.join(" · "),"record-chars"));
@@ -325,7 +393,7 @@ function fallbackCopy(txt){
  $("copySource").textContent="Copied original wording ✓";
  setTimeout(()=>$("copySource").textContent="Copy cited lines",1200);
 }
-function render(){renderTabs();renderRecords();}
+function render(){renderTabs();renderStats();renderRecords();}
 async function main(){
  try{
   const pairs=await Promise.all(Object.entries(URLS).map(async ([key,url])=>{
@@ -338,11 +406,21 @@ async function main(){
    const ep=DATA[key],nums=ep.events.flatMap(e=>e.raw_lines.map(z=>z.line));
    if(nums.length!==ep.line_count||new Set(nums).size!==ep.line_count||!nums.every((n,i)=>n===i+1))throw Error("Source integrity failed for "+ep.episode_id);
   }
-  renderCharacterOptions();renderStats();
-  $("loadStatus").textContent="E01: 229/229 · E02: 160/160 · character changes + exact triggers loaded";
+  renderCharacterOptions();renderRelationshipOptions();
+  const url=new URL(window.location.href),pair=url.searchParams.get("pair"),ep=url.searchParams.get("episode");
+  if(pair&&DATA.bonds.relationships.some(r=>r.id===pair))STATE.relationship=pair;
+  if(["ALL","E01","E02"].includes(ep))STATE.episode=ep;
+  updateToolbar();
+  $("loadStatus").textContent="E01: 229/229 · E02: 160/160 · relationship histories linked";
   $("searchInput").addEventListener("input",e=>{STATE.query=e.target.value;renderRecords();});
   $("characterFilter").addEventListener("change",e=>{STATE.character=e.target.value;STATE.selected=null;renderRecords();});
-  $("episodeFilter").addEventListener("change",e=>{STATE.episode=e.target.value;STATE.selected=null;renderStats();renderRecords();});
+  $("episodeFilter").addEventListener("change",e=>{STATE.episode=e.target.value;STATE.selected=null;render();});
+  $("relationshipFilter").addEventListener("change",e=>{
+   STATE.relationship=e.target.value;STATE.selected=null;render();
+   const url=new URL(window.location.href);url.searchParams.set("pair",STATE.relationship);
+   window.history.replaceState(null,"",url);
+  });
+  $("facetFilter").addEventListener("change",e=>{STATE.facet=e.target.value;STATE.selected=null;render();});
   $("showRaw").addEventListener("change",e=>{STATE.showRaw=e.target.checked;renderRecords();});
   $("downloadJson").onclick=downloadActive;
   $("copySource").onclick=copySelected;
