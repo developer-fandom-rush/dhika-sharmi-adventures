@@ -101,8 +101,8 @@
       "raw_github_first_line": 2135,
       "raw_github_last_line": 2298,
       "physical_lines": 164,
-      "review_status": "not_yet_reviewed",
-      "index_file": null,
+      "review_status": "reviewed_beat_level_and_indexed",
+      "index_file": "data/director_reanalysis_e11_line_index_and_audit_v1.json",
       "source_view": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L2135-L2298"
     },
     {
@@ -639,13 +639,13 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "previous_partial": [
       6
     ],
     "pending": [
-      11,
       12,
       13,
       14,
@@ -709,7 +709,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ]
   },
   "tracking_notes": [
@@ -717,6 +718,8 @@
     "E01-E05 and E07-E10 files have source-linked line mapping and reviewed story beats, not uniquely annotated every line.",
     "E07-E10 predictions were frozen before the next episode narrative was read.",
     "Source fiction has all-sexually-involved-characters-adults disclaimer at E01 line 14.",
-    "Do not change canon or retroactively modify frozen predictions."
-  ]
+    "Do not change canon or retroactively modify frozen predictions.",
+    "All 69 episode lines are additionally mechanically indexed by lexical cues; the feature index does NOT establish scene events."
+  ],
+  "machine_line_index": "data/director_all69_machine_line_cues_v1.json"
 }
