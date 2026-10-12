@@ -1,0 +1,50 @@
+{
+  "kind": "E12_blind_story_scenario_prediction",
+  "basis": "E01-E11 canonical scenes only",
+  "status": "frozen_without_E12_narrative",
+  "scenarios": [
+    {
+      "id": "P1",
+      "confidence": "high",
+      "pair": "Dhika/Chotu",
+      "source": "E11 L150-161",
+      "event": "E12 opens with Dhika’s reaction to a sudden interrupted kiss and the two discuss/adjust comfort and timing."
+    },
+    {
+      "id": "P2",
+      "confidence": "medium",
+      "pair": "Dhika/John",
+      "source": "E11 L32-53",
+      "event": "Consequences of movie outing show in Dhika's thoughts or husband’s observations, possibly delayed."
+    },
+    {
+      "id": "P3",
+      "confidence": "medium",
+      "pair": "Dhika/Raj",
+      "source": "E11 L32-56",
+      "event": "Raj’s respectful response and Dhika's higher regard influence a later meeting or private reflection."
+    },
+    {
+      "id": "P4",
+      "confidence": "low",
+      "pair": "Sharmi/John",
+      "source": "E11 L18-46",
+      "event": "Social contact from movie becomes a recurring flirtation boundary or group conversation."
+    },
+    {
+      "id": "P5",
+      "confidence": "low",
+      "pair": "Twins",
+      "source": "E11 L57",
+      "event": "Brothers return to city and reschedule Physics sessions soon."
+    },
+    {
+      "id": "P6",
+      "confidence": "medium",
+      "pair": "Dhika/Chotu",
+      "source": "E10 L53-56, E11 L86",
+      "event": "Painting remains unfinished and future cinema promise provides longer-term continuation."
+    }
+  ],
+  "limits": "These are event-level hypotheses, not verified future events or instructions for nonconsensual contact."
+}
