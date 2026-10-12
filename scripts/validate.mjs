@@ -113,6 +113,34 @@ for(const g of groups.groups){
  }
 }
 console.log("PASS: "+innerCount+" inner changes, "+triggers.triggers.length+" exact trigger phrases, "+groups.groups.length+" group encounters.");
+
+const atomic=load("data/atomic_action_registry.json");
+const sceneMap=new Map(atomic.scenes.map(s=>[s.scene_id,s]));
+assert(atomic.scenes.length===21,"Expected 21 shared scene setups.");
+assert(atomic.atomic_events.length===73,"Expected 73 indexed atomic actions.");
+for(const scene of atomic.scenes){
+ const expected=sources[scene.episode_id];
+ assert(Boolean(expected),"Unknown scene episode: "+scene.scene_id);
+ assert(scene.raw_lines.length===scene.line_end-scene.line_start+1,"Wrong scene length: "+scene.scene_id);
+ for(const ln of scene.raw_lines)assert(expected[ln.line-1]===ln.text,"Verbatim scene mismatch: "+scene.scene_id+" L"+ln.line);
+}
+const checked=new Set();
+for(const action of atomic.atomic_events){
+ assert(!checked.has(action.id),"Duplicate action ID: "+action.id);checked.add(action.id);
+ const scene=sceneMap.get(action.scene_id),original=sources[action.episode_id]?.[action.source_action.line-1];
+ assert(Boolean(scene)&&scene.episode_id===action.episode_id,"Action has no source scene: "+action.id);
+ assert(action.source_action.line>=scene.line_start&&action.source_action.line<=scene.line_end,"Action line outside scene: "+action.id);
+ assert(original?.slice(action.source_action.span_start,action.source_action.span_end)===action.source_action.exact_phrase,"Exact action phrase mismatch: "+action.id);
+ assert(/^[a-z][a-z0-9_]*$/.test(action.action_name),"Action name is not a compact machine-readable name: "+action.id);
+ for(const m of action.original_author_imagery||[]){
+  assert(sources[action.episode_id]?.[m.line-1]?.slice(m.span_start,m.span_end)===m.exact_phrase,"Original metaphor span changed: "+action.id);
+ }
+}
+assert(atomic.atomic_events.some(a=>a.action_name==="kiss_on_forehead"&&a.temporal_status==="historical_backstory"),"Missing history-versus-present distinction.");
+assert(atomic.atomic_events.some(a=>a.action_name==="imagine_breasts"&&a.temporal_status==="imagined_not_performed"&&a.original_author_imagery.length>0),"Missing imaginary-metaphor record.");
+assert(!atomic.atomic_events.some(a=>a.action_name==="kiss_on_lips"&&["dhika","chotu"].includes(a.character_id)&&["dhika","chotu"].includes(a.counterpart_id)),"An unsupported Dhika/Chotu kiss was inferred.");
+console.log("PASS: "+atomic.scenes.length+" shared scene setups and "+atomic.atomic_events.length+" exact, discrete actions/imaginations.");
+
 console.log("PASS: both episode indexes reproduce all 389 original lines.");
 
 console.log("PASS: GitHub source has 69 complete episode headings; E02–E69 are preserved.");
