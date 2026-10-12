@@ -1182,6 +1182,19 @@
         "what Dhika heard",
         "Leo vs John viewpoints"
       ]
+    },
+    "john_leo": {
+      "actors": [
+        "john",
+        "leo"
+      ],
+      "pattern": "senior colleague introduces a recently relocated junior employee -> practical work/household conversation -> indirect friendship and new neighbor potential",
+      "requires": [
+        "John is the introducing party",
+        "Leo's connection to workplace and housing",
+        "do not treat a first meeting as an established close bond",
+        "distinguish whose words are actually spoken"
+      ]
     }
   },
   "unverified_profiles": [
