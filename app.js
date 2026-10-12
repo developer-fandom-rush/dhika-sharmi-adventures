@@ -7,13 +7,14 @@ const URLS={
   escalation:"./data/escalation_patterns.json",
   curiosity:"./data/arousal_reader_curiosity.json",
   e02:"./data/episodes/e02.json",
+  e03:"./data/episodes/e03.json",
   inner:"./data/character_inner_evolution.json",
   triggers:"./data/reader_triggers.json",
   groups:"./data/group_encounters.json",
   links:"./data/relationship_links.json"
 };
 const META={
-  relationship:{title:"Relationship History · All Episodes",tab:"Relationship Timeline ★",note:"Chronological, source-locked actions, inner thoughts, bond changes, exact trigger phrases and group encounters. This joins existing JSON records; the raw text is never rewritten."},
+  relationship:{title:"Relationship History · All Episodes",tab:"Relationship Timeline ★",note:"Chronological E01–E03 actions, inner thoughts, bond changes, exact trigger phrases and group events; source text unchanged."},
   episode:{title:"Episode original timeline",tab:"Episode",note:"Uninterrupted original text, all lines preserved, each source segment uniquely indexed."},
   inner:{title:"Character inner thoughts & changing nature",tab:"Inner Evolution ★",note:"Before → shift, source voice, exact line; no character's feelings copied onto another."},
   triggers:{title:"Exact author trigger phrases",tab:"Trigger Words ✦",note:"Exact phrase highlighted. A hook, emotional shift, visual description and payoff are not interchangeable."},
@@ -81,7 +82,7 @@ function listItems(view){
  if(!d&&view!=="relationship")return[];
  let base=[];
  if(view==="relationship")base=listRelationshipRecords(STATE.relationship);
- else if(view==="episode")base=[...DATA.episode.events,...DATA.e02.events];
+ else if(view==="episode")base=[...DATA.episode.events,...DATA.e02.events,...DATA.e03.events];
  else if(view==="heat"||view==="curiosity")base=d.events;
  else if(view==="physical"){
    const sceneMap=new Map(d.scenes.map(x=>[x.scene_id,x]));
@@ -133,7 +134,8 @@ function filteredItems(){
 function renderStats(){
  const st=$("stats");st.replaceChildren();
  const scope=STATE.episode,records=view=>listItems(view).filter(x=>scope==="ALL"||x.episode_id===scope);
- const totalLines=scope==="ALL"?DATA.episode.line_count+DATA.e02.line_count:(scope==="E01"?DATA.episode.line_count:DATA.e02.line_count);
+ const episodes={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03};
+ const totalLines=scope==="ALL"?Object.values(episodes).reduce((n,e)=>n+e.line_count,0):episodes[scope].line_count;
  const values=STATE.view==="relationship"?[
  [totalLines+" / "+totalLines,"Raw lines indexed"],
  [filteredItems().length,"Matching evidence records"],
@@ -256,7 +258,7 @@ function renderRecords(){
  $("datasetTitle").textContent=STATE.view==="relationship"
   ?relationshipPeople(STATE.relationship).map(x=>CHARACTER_NAMES[x]||titleCase(x)).join(" ↔ ")+" · Relationship History"
   :META[STATE.view].title;
- $("datasetNote").textContent=META[STATE.view].note+(STATE.view==="relationship"?" E01 → E02; independently tagged records may point to the same original line.":"");
+ $("datasetNote").textContent=META[STATE.view].note+(STATE.view==="relationship"?" E01 → E02 → E03; different analytical records can cite the same original line.":"");
  $("resultCount").textContent=countLabel(items.length);
  if(!items.length){
   area.append(text("div","No matching source records. Try clearing the search or character filter.","empty"));
@@ -267,7 +269,7 @@ function renderRecords(){
  for(const item of items){
   if(STATE.view==="relationship"&&item.episode_id!==lastEpisode){
    lastEpisode=item.episode_id;
-   area.append(text("div",item.episode_id==="E01"?"EPISODE 01 · EARLIER STATE":"EPISODE 02 · NEW DEVELOPMENTS","timeline-episode-label"));
+   area.append(text("div","EPISODE "+item.episode_id.slice(-2)+" · SOURCE-ORDERED HISTORY","timeline-episode-label"));
   }
   const node=text("article","","record"+(STATE.selected===item.id?" selected":""));
   node.setAttribute("role","button");node.setAttribute("tabindex","0");
@@ -391,7 +393,7 @@ function renderSource(item){
  renderCrossReferences(item);
  $("sourceHeading").textContent=(item.is_atomic?itemHeading(item)+" · "+item.scene_title:itemHeading(item));
  $("sourceMeta").textContent=item.id+" · "+lineLabel(item)+" · "+(item.raw_lines||[]).length+" original scene lines";
- const epData=item.episode_id==="E01"?DATA.episode:DATA.e02;
+ const epData={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03}[item.episode_id];
  const offset=(epData.source.master_first_line||3)-1;
  $("viewGithubLine").href=repoPath+"#L"+(item.line_start+offset)+"-L"+(item.line_end+offset);
  for(const line of item.raw_lines||[]){
@@ -412,7 +414,7 @@ function downloadActive(){
    kind:"relationship_timeline_export",
    relationship_id:STATE.relationship,
    participant_ids:relationshipPeople(STATE.relationship),
-   episode_scope:STATE.episode==="ALL"?["E01","E02"]:[STATE.episode],
+   episode_scope:STATE.episode==="ALL"?["E01","E02","E03"]:[STATE.episode],
    source:"raw/Dhika.txt",
    note:"Chronological references from the source-locked datasets. Overlapping quoted lines may recur across distinct analysis categories. Raw source remains unchanged.",
    records:filteredItems().map(e=>({
@@ -431,8 +433,8 @@ function downloadActive(){
   };
   filename=STATE.relationship+"_timeline_"+STATE.episode.toLowerCase()+".json";
  }else{
-  payload=(STATE.view==="episode"&&STATE.episode==="E02")?DATA.e02:DATA[STATE.view];
-  filename=URLS[(STATE.view==="episode"&&STATE.episode==="E02")?"e02":STATE.view].split("/").at(-1);
+  payload=STATE.view==="episode"?(STATE.episode==="E03"?DATA.e03:STATE.episode==="E02"?DATA.e02:DATA.episode):DATA[STATE.view];
+  filename=URLS[STATE.view==="episode"&&STATE.episode==="E03"?"e03":STATE.view==="episode"&&STATE.episode==="E02"?"e02":STATE.view].split("/").at(-1);
  }
  const data=JSON.stringify(payload,null,2)+"\n";
  const blob=new Blob([data],{type:"application/json;charset=utf-8"});
@@ -463,16 +465,16 @@ async function main(){
    return [key,await res.json()];
   }));
   for(const [key,data] of pairs)DATA[key]=data;
-  for(const key of ["episode","e02"]){
+  for(const key of ["episode","e02","e03"]){
    const ep=DATA[key],nums=ep.events.flatMap(e=>e.raw_lines.map(z=>z.line));
    if(nums.length!==ep.line_count||new Set(nums).size!==ep.line_count||!nums.every((n,i)=>n===i+1))throw Error("Source integrity failed for "+ep.episode_id);
   }
   renderCharacterOptions();renderRelationshipOptions();
   const url=new URL(window.location.href),pair=url.searchParams.get("pair"),ep=url.searchParams.get("episode");
   if(pair&&DATA.bonds.relationships.some(r=>r.id===pair))STATE.relationship=pair;
-  if(["ALL","E01","E02"].includes(ep))STATE.episode=ep;
+  if(["ALL","E01","E02","E03"].includes(ep))STATE.episode=ep;
   updateToolbar();
-  $("loadStatus").textContent="E01: 229/229 · E02: 160/160 · relationship histories linked";
+  $("loadStatus").textContent="E01: 229/229 · E02: 160/160 · E03: 240/240 · relationship histories linked";
   $("searchInput").addEventListener("input",e=>{STATE.query=e.target.value;renderRecords();});
   $("characterFilter").addEventListener("change",e=>{STATE.character=e.target.value;STATE.selected=null;renderRecords();});
   $("episodeFilter").addEventListener("change",e=>{STATE.episode=e.target.value;STATE.selected=null;render();});
