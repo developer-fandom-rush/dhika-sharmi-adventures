@@ -1,0 +1,1614 @@
+{
+  "schema_version": 1,
+  "kind": "e05_semantic_trace_pilot",
+  "status": "pilot_evidence_review_not_episode_completion",
+  "source": "raw/Dhika.txt",
+  "episode_id": "E05",
+  "analyzed_range": [
+    5,
+    50
+  ],
+  "source_lines_in_range": 46,
+  "atomic_records": 66,
+  "lines_with_tag": 46,
+  "fully_reviewed_whole_episode": false,
+  "known_unreviewed_line_ranges": [
+    [
+      51,
+      233
+    ]
+  ],
+  "line_disposition": [
+    {
+      "line": 5,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L005-01"
+      ]
+    },
+    {
+      "line": 6,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L006-01",
+        "E05-PILOT-L006-02",
+        "E05-PILOT-L006-03"
+      ]
+    },
+    {
+      "line": 7,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L007-01"
+      ]
+    },
+    {
+      "line": 8,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L008-01"
+      ]
+    },
+    {
+      "line": 9,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L009-01",
+        "E05-PILOT-L009-02",
+        "E05-PILOT-L009-03",
+        "E05-PILOT-L009-04",
+        "E05-PILOT-L009-05"
+      ]
+    },
+    {
+      "line": 10,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L010-01",
+        "E05-PILOT-L010-02"
+      ]
+    },
+    {
+      "line": 11,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L011-01",
+        "E05-PILOT-L011-02"
+      ]
+    },
+    {
+      "line": 12,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L012-01"
+      ]
+    },
+    {
+      "line": 13,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L013-01"
+      ]
+    },
+    {
+      "line": 14,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L014-01"
+      ]
+    },
+    {
+      "line": 15,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L015-01"
+      ]
+    },
+    {
+      "line": 16,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L016-01",
+        "E05-PILOT-L016-02"
+      ]
+    },
+    {
+      "line": 17,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L017-01"
+      ]
+    },
+    {
+      "line": 18,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L018-01"
+      ]
+    },
+    {
+      "line": 19,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L019-01",
+        "E05-PILOT-L019-02",
+        "E05-PILOT-L019-03"
+      ]
+    },
+    {
+      "line": 20,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L020-01",
+        "E05-PILOT-L020-02"
+      ]
+    },
+    {
+      "line": 21,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L021-01",
+        "E05-PILOT-L021-02"
+      ]
+    },
+    {
+      "line": 22,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L022-01",
+        "E05-PILOT-L022-02"
+      ]
+    },
+    {
+      "line": 23,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L023-01",
+        "E05-PILOT-L023-02"
+      ]
+    },
+    {
+      "line": 24,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L024-01"
+      ]
+    },
+    {
+      "line": 25,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L025-01"
+      ]
+    },
+    {
+      "line": 26,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L026-01"
+      ]
+    },
+    {
+      "line": 27,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L027-01"
+      ]
+    },
+    {
+      "line": 28,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L028-01",
+        "E05-PILOT-L028-02"
+      ]
+    },
+    {
+      "line": 29,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L029-01"
+      ]
+    },
+    {
+      "line": 30,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L030-01"
+      ]
+    },
+    {
+      "line": 31,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L031-01"
+      ]
+    },
+    {
+      "line": 32,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L032-01"
+      ]
+    },
+    {
+      "line": 33,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L033-01"
+      ]
+    },
+    {
+      "line": 34,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L034-01"
+      ]
+    },
+    {
+      "line": 35,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L035-01"
+      ]
+    },
+    {
+      "line": 36,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L036-01",
+        "E05-PILOT-L036-02"
+      ]
+    },
+    {
+      "line": 37,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L037-01"
+      ]
+    },
+    {
+      "line": 38,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L038-01"
+      ]
+    },
+    {
+      "line": 39,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L039-01"
+      ]
+    },
+    {
+      "line": 40,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L040-01"
+      ]
+    },
+    {
+      "line": 41,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L041-01"
+      ]
+    },
+    {
+      "line": 42,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L042-01"
+      ]
+    },
+    {
+      "line": 43,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L043-01",
+        "E05-PILOT-L043-02"
+      ]
+    },
+    {
+      "line": 44,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L044-01",
+        "E05-PILOT-L044-02"
+      ]
+    },
+    {
+      "line": 45,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L045-01"
+      ]
+    },
+    {
+      "line": 46,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L046-01"
+      ]
+    },
+    {
+      "line": 47,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L047-01"
+      ]
+    },
+    {
+      "line": 48,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L048-01"
+      ]
+    },
+    {
+      "line": 49,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L049-01"
+      ]
+    },
+    {
+      "line": 50,
+      "status": "provisionally_annotated",
+      "record_ids": [
+        "E05-PILOT-L050-01",
+        "E05-PILOT-L050-02"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "E05-PILOT-L005-01",
+      "episode_id": "E05",
+      "line": 5,
+      "actor": "bantu",
+      "target": "dhika",
+      "action_name": "ask_personal_clothing_question",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 5,
+        "span_start": 7,
+        "span_end": 28,
+        "verbatim_short_span": "I just wanted to know"
+      }
+    },
+    {
+      "id": "E05-PILOT-L006-01",
+      "episode_id": "E05",
+      "line": 6,
+      "actor": "dhika",
+      "target": "bantu",
+      "action_name": "withdraw_hands_from_hold",
+      "event_kind": "physical_contact",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 6,
+        "span_start": 82,
+        "span_end": 114,
+        "verbatim_short_span": "jerked her hands out of his hold"
+      }
+    },
+    {
+      "id": "E05-PILOT-L006-02",
+      "episode_id": "E05",
+      "line": 6,
+      "actor": "dhika",
+      "target": "bantu",
+      "action_name": "pinch_and_pull_ears",
+      "event_kind": "physical_contact",
+      "focus": "ears",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 6,
+        "span_start": 119,
+        "span_end": 144,
+        "verbatim_short_span": "pinched and pull his ears"
+      }
+    },
+    {
+      "id": "E05-PILOT-L006-03",
+      "episode_id": "E05",
+      "line": 6,
+      "actor": "dhika",
+      "target": "bantu",
+      "action_name": "call_out_crossing_lines",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 6,
+        "span_start": 185,
+        "span_end": 203,
+        "verbatim_short_span": "crossing lines now"
+      }
+    },
+    {
+      "id": "E05-PILOT-L007-01",
+      "episode_id": "E05",
+      "line": 7,
+      "actor": "bantu",
+      "target": "dhika",
+      "action_name": "apologize_while_reacting",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 7,
+        "span_start": 58,
+        "span_end": 68,
+        "verbatim_short_span": "sorry miss"
+      }
+    },
+    {
+      "id": "E05-PILOT-L008-01",
+      "episode_id": "E05",
+      "line": 8,
+      "actor": "dhika",
+      "target": "bantu",
+      "action_name": "answer_with_playful_correction",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 8,
+        "span_start": 40,
+        "span_end": 54,
+        "verbatim_short_span": "for teasing me"
+      }
+    },
+    {
+      "id": "E05-PILOT-L009-01",
+      "episode_id": "E05",
+      "line": 9,
+      "actor": "group",
+      "target": "group",
+      "action_name": "laugh_together",
+      "event_kind": "group_response",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 9,
+        "span_start": 0,
+        "span_end": 25,
+        "verbatim_short_span": "They all started laughing"
+      }
+    },
+    {
+      "id": "E05-PILOT-L009-02",
+      "episode_id": "E05",
+      "line": 9,
+      "actor": "bantu",
+      "target": "dhika",
+      "action_name": "look_at_chest",
+      "event_kind": "visual_observation",
+      "focus": "breasts",
+      "reaction": "dhika_narrator_notices",
+      "certainty": "explicit",
+      "source": {
+        "line": 9,
+        "span_start": 119,
+        "span_end": 142,
+        "verbatim_short_span": "getting their eyes full"
+      }
+    },
+    {
+      "id": "E05-PILOT-L009-03",
+      "episode_id": "E05",
+      "line": 9,
+      "actor": "bobby",
+      "target": "dhika",
+      "action_name": "look_at_chest",
+      "event_kind": "visual_observation",
+      "focus": "breasts",
+      "reaction": "dhika_narrator_notices",
+      "certainty": "explicit",
+      "source": {
+        "line": 9,
+        "span_start": 119,
+        "span_end": 142,
+        "verbatim_short_span": "getting their eyes full"
+      }
+    },
+    {
+      "id": "E05-PILOT-L009-04",
+      "episode_id": "E05",
+      "line": 9,
+      "actor": "dhika",
+      "target": "self",
+      "action_name": "cross_arms_partial_cover",
+      "event_kind": "self_presentation",
+      "focus": "chest",
+      "reaction": "shy_but_comfortable",
+      "certainty": "explicit",
+      "source": {
+        "line": 9,
+        "span_start": 185,
+        "span_end": 202,
+        "verbatim_short_span": "crossed her hands"
+      }
+    },
+    {
+      "id": "E05-PILOT-L009-05",
+      "episode_id": "E05",
+      "line": 9,
+      "actor": "dhika",
+      "target": "self",
+      "action_name": "privately_register_increased_comfort",
+      "event_kind": "inner_state",
+      "focus": "own_comfort",
+      "reaction": "positive_reaction",
+      "certainty": "explicit",
+      "source": {
+        "line": 9,
+        "span_start": 276,
+        "span_end": 288,
+        "verbatim_short_span": "she was glad"
+      }
+    },
+    {
+      "id": "E05-PILOT-L010-01",
+      "episode_id": "E05",
+      "line": 10,
+      "actor": "bantu",
+      "target": "self",
+      "action_name": "prepare_departure",
+      "event_kind": "scene_logistics",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 10,
+        "span_start": 85,
+        "span_end": 102,
+        "verbatim_short_span": "stood up to leave"
+      }
+    },
+    {
+      "id": "E05-PILOT-L010-02",
+      "episode_id": "E05",
+      "line": 10,
+      "actor": "bobby",
+      "target": "self",
+      "action_name": "prepare_departure",
+      "event_kind": "scene_logistics",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 10,
+        "span_start": 85,
+        "span_end": 102,
+        "verbatim_short_span": "stood up to leave"
+      }
+    },
+    {
+      "id": "E05-PILOT-L011-01",
+      "episode_id": "E05",
+      "line": 11,
+      "actor": "dhika",
+      "target": "bantu_bobby",
+      "action_name": "announce_tuition_break",
+      "event_kind": "dialogue",
+      "focus": "schedule",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 11,
+        "span_start": 25,
+        "span_end": 50,
+        "verbatim_short_span": "no more classes this week"
+      }
+    },
+    {
+      "id": "E05-PILOT-L011-02",
+      "episode_id": "E05",
+      "line": 11,
+      "actor": "dhika",
+      "target": "john",
+      "action_name": "mention_husband_birthday",
+      "event_kind": "dialogue",
+      "focus": "family_schedule",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 11,
+        "span_start": 70,
+        "span_end": 86,
+        "verbatim_short_span": "Hubby's birthday"
+      }
+    },
+    {
+      "id": "E05-PILOT-L012-01",
+      "episode_id": "E05",
+      "line": 12,
+      "actor": "dhika",
+      "target": "self",
+      "action_name": "stand_and_clothing_shifts",
+      "event_kind": "body_posture",
+      "focus": "clothing",
+      "reaction": "narrator_notes_change",
+      "certainty": "explicit",
+      "source": {
+        "line": 12,
+        "span_start": 12,
+        "span_end": 24,
+        "verbatim_short_span": "she stood up"
+      }
+    },
+    {
+      "id": "E05-PILOT-L013-01",
+      "episode_id": "E05",
+      "line": 13,
+      "actor": "dhika",
+      "target": "bantu_bobby",
+      "action_name": "request_stop_staring",
+      "event_kind": "dialogue",
+      "focus": "breasts",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 13,
+        "span_start": 31,
+        "span_end": 55,
+        "verbatim_short_span": "stop looking at my boobs"
+      }
+    },
+    {
+      "id": "E05-PILOT-L014-01",
+      "episode_id": "E05",
+      "line": 14,
+      "actor": "bobby",
+      "target": "dhika",
+      "action_name": "avert_gaze_after_remark",
+      "event_kind": "observable_reaction",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 14,
+        "span_start": 16,
+        "span_end": 33,
+        "verbatim_short_span": "put his head down"
+      }
+    },
+    {
+      "id": "E05-PILOT-L015-01",
+      "episode_id": "E05",
+      "line": 15,
+      "actor": "bantu",
+      "target": "dhika",
+      "action_name": "move_out_of_reach",
+      "event_kind": "physical_action",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 15,
+        "span_start": 59,
+        "span_end": 81,
+        "verbatim_short_span": "moved out of her reach"
+      }
+    },
+    {
+      "id": "E05-PILOT-L016-01",
+      "episode_id": "E05",
+      "line": 16,
+      "actor": "dhika",
+      "target": "bantu",
+      "action_name": "kiss_on_cheek",
+      "event_kind": "physical_contact",
+      "focus": "cheek",
+      "reaction": "appreciation",
+      "certainty": "explicit",
+      "source": {
+        "line": 16,
+        "span_start": 111,
+        "span_end": 148,
+        "verbatim_short_span": "gave each them a kiss on their cheeks"
+      }
+    },
+    {
+      "id": "E05-PILOT-L016-02",
+      "episode_id": "E05",
+      "line": 16,
+      "actor": "dhika",
+      "target": "bobby",
+      "action_name": "kiss_on_cheek",
+      "event_kind": "physical_contact",
+      "focus": "cheek",
+      "reaction": "appreciation",
+      "certainty": "explicit",
+      "source": {
+        "line": 16,
+        "span_start": 111,
+        "span_end": 148,
+        "verbatim_short_span": "gave each them a kiss on their cheeks"
+      }
+    },
+    {
+      "id": "E05-PILOT-L017-01",
+      "episode_id": "E05",
+      "line": 17,
+      "actor": "bantu",
+      "target": "dhika",
+      "action_name": "ask_reason_for_gesture",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 17,
+        "span_start": 21,
+        "span_end": 38,
+        "verbatim_short_span": "what was that for"
+      }
+    },
+    {
+      "id": "E05-PILOT-L018-01",
+      "episode_id": "E05",
+      "line": 18,
+      "actor": "dhika",
+      "target": "bantu_bobby",
+      "action_name": "explain_appreciation",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 18,
+        "span_start": 16,
+        "span_end": 33,
+        "verbatim_short_span": "for caring for me"
+      }
+    },
+    {
+      "id": "E05-PILOT-L019-01",
+      "episode_id": "E05",
+      "line": 19,
+      "actor": "bantu",
+      "target": "self",
+      "action_name": "exit_home",
+      "event_kind": "scene_logistics",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 19,
+        "span_start": 56,
+        "span_end": 73,
+        "verbatim_short_span": "Bantu stepped out"
+      }
+    },
+    {
+      "id": "E05-PILOT-L019-02",
+      "episode_id": "E05",
+      "line": 19,
+      "actor": "bobby",
+      "target": "dhika",
+      "action_name": "return_for_cheek_peck",
+      "event_kind": "physical_contact",
+      "focus": "cheek",
+      "reaction": "spontaneous",
+      "certainty": "explicit",
+      "source": {
+        "line": 19,
+        "span_start": 156,
+        "span_end": 199,
+        "verbatim_short_span": "gave her a sweet innocent peck on her cheek"
+      }
+    },
+    {
+      "id": "E05-PILOT-L019-03",
+      "episode_id": "E05",
+      "line": 19,
+      "actor": "bobby",
+      "target": "self",
+      "action_name": "run_out_after_gesture",
+      "event_kind": "scene_logistics",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 19,
+        "span_start": 204,
+        "span_end": 211,
+        "verbatim_short_span": "ran out"
+      }
+    },
+    {
+      "id": "E05-PILOT-L020-01",
+      "episode_id": "E05",
+      "line": 20,
+      "actor": "dhika",
+      "target": "bantu_bobby",
+      "action_name": "wave_farewell",
+      "event_kind": "gesture",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 20,
+        "span_start": 17,
+        "span_end": 30,
+        "verbatim_short_span": "waved at them"
+      }
+    },
+    {
+      "id": "E05-PILOT-L020-02",
+      "episode_id": "E05",
+      "line": 20,
+      "actor": "dhika",
+      "target": "self",
+      "action_name": "close_door_after_students",
+      "event_kind": "physical_action",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 20,
+        "span_start": 35,
+        "span_end": 50,
+        "verbatim_short_span": "closed the door"
+      }
+    },
+    {
+      "id": "E05-PILOT-L021-01",
+      "episode_id": "E05",
+      "line": 21,
+      "actor": "dhika",
+      "target": "pappu",
+      "action_name": "watch_television",
+      "event_kind": "domestic_setup",
+      "focus": "family_routine",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 21,
+        "span_start": 75,
+        "span_end": 94,
+        "verbatim_short_span": "watching Scooby doo"
+      }
+    },
+    {
+      "id": "E05-PILOT-L021-02",
+      "episode_id": "E05",
+      "line": 21,
+      "actor": "dhika",
+      "target": "self",
+      "action_name": "wait_for_john",
+      "event_kind": "inner_state",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 21,
+        "span_start": 109,
+        "span_end": 125,
+        "verbatim_short_span": "waiting for John"
+      }
+    },
+    {
+      "id": "E05-PILOT-L022-01",
+      "episode_id": "E05",
+      "line": 22,
+      "actor": "dhika",
+      "target": "self",
+      "action_name": "question_recent_behavior",
+      "event_kind": "private_thought",
+      "focus": "self_image",
+      "reaction": "embarrassment_and_guilt",
+      "certainty": "explicit",
+      "source": {
+        "line": 22,
+        "span_start": 7,
+        "span_end": 30,
+        "verbatim_short_span": "what is happening to me"
+      }
+    },
+    {
+      "id": "E05-PILOT-L022-02",
+      "episode_id": "E05",
+      "line": 22,
+      "actor": "dhika",
+      "target": "self",
+      "action_name": "recall_recent_outfit_choice",
+      "event_kind": "private_recall",
+      "focus": "clothing",
+      "reaction": "conflict",
+      "certainty": "explicit",
+      "source": {
+        "line": 22,
+        "span_start": 160,
+        "span_end": 178,
+        "verbatim_short_span": "I removed by pallu"
+      }
+    },
+    {
+      "id": "E05-PILOT-L023-01",
+      "episode_id": "E05",
+      "line": 23,
+      "actor": "dhika",
+      "target": "self",
+      "action_name": "experience_interrupted_guilt",
+      "event_kind": "inner_transition",
+      "focus": "mood",
+      "reaction": "interrupted_by_phone",
+      "certainty": "explicit",
+      "source": {
+        "line": 23,
+        "span_start": 25,
+        "span_end": 46,
+        "verbatim_short_span": "guilt but it vanished"
+      }
+    },
+    {
+      "id": "E05-PILOT-L023-02",
+      "episode_id": "E05",
+      "line": 23,
+      "actor": "john",
+      "target": "dhika",
+      "action_name": "call_and_announce_return",
+      "event_kind": "communication",
+      "focus": "phone",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 23,
+        "span_start": 79,
+        "span_end": 90,
+        "verbatim_short_span": "it was John"
+      }
+    },
+    {
+      "id": "E05-PILOT-L024-01",
+      "episode_id": "E05",
+      "line": 24,
+      "actor": "john",
+      "target": "dhika",
+      "action_name": "announce_guest_and_arrival_time",
+      "event_kind": "dialogue",
+      "focus": "household_plan",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 24,
+        "span_start": 69,
+        "span_end": 94,
+        "verbatim_short_span": "bring a friend for dinner"
+      }
+    },
+    {
+      "id": "E05-PILOT-L025-01",
+      "episode_id": "E05",
+      "line": 25,
+      "actor": "dhika",
+      "target": "john",
+      "action_name": "ask_guest_identity",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 25,
+        "span_start": 27,
+        "span_end": 40,
+        "verbatim_short_span": "who is coming"
+      }
+    },
+    {
+      "id": "E05-PILOT-L026-01",
+      "episode_id": "E05",
+      "line": 26,
+      "actor": "john",
+      "target": "dhika",
+      "action_name": "explain_guest_assistant_house_search",
+      "event_kind": "dialogue",
+      "focus": "guest_context",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 26,
+        "span_start": 15,
+        "span_end": 28,
+        "verbatim_short_span": "new assistant"
+      }
+    },
+    {
+      "id": "E05-PILOT-L027-01",
+      "episode_id": "E05",
+      "line": 27,
+      "actor": "dhika",
+      "target": "john",
+      "action_name": "agree_to_host_guest",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 27,
+        "span_start": 7,
+        "span_end": 22,
+        "verbatim_short_span": "no problem dear"
+      }
+    },
+    {
+      "id": "E05-PILOT-L028-01",
+      "episode_id": "E05",
+      "line": 28,
+      "actor": "dhika",
+      "target": "self",
+      "action_name": "prepare_extra_dinner",
+      "event_kind": "domestic_action",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 28,
+        "span_start": 14,
+        "span_end": 42,
+        "verbatim_short_span": "mix additional chapati dough"
+      }
+    },
+    {
+      "id": "E05-PILOT-L028-02",
+      "episode_id": "E05",
+      "line": 28,
+      "actor": "dhika",
+      "target": "self",
+      "action_name": "change_outfit_for_guest",
+      "event_kind": "self_presentation",
+      "focus": "outfit",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 28,
+        "span_start": 150,
+        "span_end": 185,
+        "verbatim_short_span": "changed into a simple looking saree"
+      }
+    },
+    {
+      "id": "E05-PILOT-L029-01",
+      "episode_id": "E05",
+      "line": 29,
+      "actor": "doorbell",
+      "target": "group",
+      "action_name": "announce_guest_arrival",
+      "event_kind": "sound_cue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 29,
+        "span_start": 0,
+        "span_end": 9,
+        "verbatim_short_span": "Ding Dong"
+      }
+    },
+    {
+      "id": "E05-PILOT-L030-01",
+      "episode_id": "E05",
+      "line": 30,
+      "actor": "dhika",
+      "target": "guest",
+      "action_name": "greet_at_door",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 30,
+        "span_start": 29,
+        "span_end": 36,
+        "verbatim_short_span": "welcome"
+      }
+    },
+    {
+      "id": "E05-PILOT-L031-01",
+      "episode_id": "E05",
+      "line": 31,
+      "actor": "narrator",
+      "target": "guest",
+      "action_name": "describe_visitor_age_impression",
+      "event_kind": "narrator_description",
+      "focus": "appearance",
+      "reaction": "no_age_assumption_beyond_approximation",
+      "certainty": "explicit",
+      "source": {
+        "line": 31,
+        "span_start": 15,
+        "span_end": 43,
+        "verbatim_short_span": "25 something old looking guy"
+      }
+    },
+    {
+      "id": "E05-PILOT-L032-01",
+      "episode_id": "E05",
+      "line": 32,
+      "actor": "john",
+      "target": "dhika",
+      "action_name": "introduce_guest_as_leo",
+      "event_kind": "dialogue",
+      "focus": "identity",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 32,
+        "span_start": 12,
+        "span_end": 23,
+        "verbatim_short_span": "this is Leo"
+      }
+    },
+    {
+      "id": "E05-PILOT-L033-01",
+      "episode_id": "E05",
+      "line": 33,
+      "actor": "dhika",
+      "target": "leo",
+      "action_name": "tease_john_in_front_of_guest",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 33,
+        "span_start": 7,
+        "span_end": 21,
+        "verbatim_short_span": "unlucky fellow"
+      }
+    },
+    {
+      "id": "E05-PILOT-L034-01",
+      "episode_id": "E05",
+      "line": 34,
+      "actor": "narrator",
+      "target": "leo",
+      "action_name": "report_positive_initial_response",
+      "event_kind": "narrator_pov",
+      "focus": "first_impression",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 34,
+        "span_start": 0,
+        "span_end": 23,
+        "verbatim_short_span": "Leo liked her instantly"
+      }
+    },
+    {
+      "id": "E05-PILOT-L035-01",
+      "episode_id": "E05",
+      "line": 35,
+      "actor": "ron_text",
+      "target": "dhika",
+      "action_name": "unresolved_guest_speaker_label",
+      "event_kind": "identity_conflict",
+      "focus": "identity",
+      "reaction": "needs_identity_resolution",
+      "certainty": "ambiguous",
+      "source": {
+        "line": 35,
+        "span_start": 0,
+        "span_end": 4,
+        "verbatim_short_span": "Ron:"
+      }
+    },
+    {
+      "id": "E05-PILOT-L036-01",
+      "episode_id": "E05",
+      "line": 36,
+      "actor": "dhika",
+      "target": "john_leo_pappu",
+      "action_name": "serve_dinner_to_group",
+      "event_kind": "domestic_action",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 36,
+        "span_start": 56,
+        "span_end": 76,
+        "verbatim_short_span": "started serving food"
+      }
+    },
+    {
+      "id": "E05-PILOT-L036-02",
+      "episode_id": "E05",
+      "line": 36,
+      "actor": "pappu",
+      "target": "family",
+      "action_name": "request_own_chair",
+      "event_kind": "family_context",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 36,
+        "span_start": 111,
+        "span_end": 131,
+        "verbatim_short_span": "wanted his own chair"
+      }
+    },
+    {
+      "id": "E05-PILOT-L037-01",
+      "episode_id": "E05",
+      "line": 37,
+      "actor": "dhika",
+      "target": "leo",
+      "action_name": "ask_about_house_search",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 37,
+        "span_start": 45,
+        "span_end": 65,
+        "verbatim_short_span": "finding a house here"
+      }
+    },
+    {
+      "id": "E05-PILOT-L038-01",
+      "episode_id": "E05",
+      "line": 38,
+      "actor": "leo",
+      "target": "dhika",
+      "action_name": "express_conditional_move_plan",
+      "event_kind": "dialogue",
+      "focus": "future_plan",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 38,
+        "span_start": 54,
+        "span_end": 76,
+        "verbatim_short_span": "if I like, I will move"
+      }
+    },
+    {
+      "id": "E05-PILOT-L039-01",
+      "episode_id": "E05",
+      "line": 39,
+      "actor": "dhika",
+      "target": "leo",
+      "action_name": "joke_about_colleague_presence",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 39,
+        "span_start": 110,
+        "span_end": 144,
+        "verbatim_short_span": "spending time with him evening too"
+      }
+    },
+    {
+      "id": "E05-PILOT-L040-01",
+      "episode_id": "E05",
+      "line": 40,
+      "actor": "leo",
+      "target": "dhika",
+      "action_name": "compliment_food_and_suggest_frequent_dinners",
+      "event_kind": "dialogue",
+      "focus": "future_visit",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 40,
+        "span_start": 104,
+        "span_end": 118,
+        "verbatim_short_span": "delicious food"
+      }
+    },
+    {
+      "id": "E05-PILOT-L041-01",
+      "episode_id": "E05",
+      "line": 41,
+      "actor": "dhika",
+      "target": "leo",
+      "action_name": "welcome_repeat_dinner",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 41,
+        "span_start": 27,
+        "span_end": 44,
+        "verbatim_short_span": "any time you want"
+      }
+    },
+    {
+      "id": "E05-PILOT-L042-01",
+      "episode_id": "E05",
+      "line": 42,
+      "actor": "john",
+      "target": "leo",
+      "action_name": "endorse_dinner_invitation",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 42,
+        "span_start": 17,
+        "span_end": 41,
+        "verbatim_short_span": "welcome to eat daily too"
+      }
+    },
+    {
+      "id": "E05-PILOT-L043-01",
+      "episode_id": "E05",
+      "line": 43,
+      "actor": "john",
+      "target": "leo",
+      "action_name": "notice_guest_glances",
+      "event_kind": "visual_observation",
+      "focus": "attention",
+      "reaction": "observed_not_confronted",
+      "certainty": "explicit",
+      "source": {
+        "line": 43,
+        "span_start": 13,
+        "span_end": 37,
+        "verbatim_short_span": "Leo was stealing glances"
+      }
+    },
+    {
+      "id": "E05-PILOT-L043-02",
+      "episode_id": "E05",
+      "line": 43,
+      "actor": "john",
+      "target": "self",
+      "action_name": "withhold_reaction_outwardly",
+      "event_kind": "observable_internal_difference",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 43,
+        "span_start": 113,
+        "span_end": 138,
+        "verbatim_short_span": "kept the smile to himself"
+      }
+    },
+    {
+      "id": "E05-PILOT-L044-01",
+      "episode_id": "E05",
+      "line": 44,
+      "actor": "john",
+      "target": "leo",
+      "action_name": "inspect_possible_apartment",
+      "event_kind": "scene_transition",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 44,
+        "span_start": 42,
+        "span_end": 67,
+        "verbatim_short_span": "left to see the apartment"
+      }
+    },
+    {
+      "id": "E05-PILOT-L044-02",
+      "episode_id": "E05",
+      "line": 44,
+      "actor": "john",
+      "target": "dhika_pappu",
+      "action_name": "return_to_family_tv",
+      "event_kind": "domestic_reset",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 44,
+        "span_start": 130,
+        "span_end": 141,
+        "verbatim_short_span": "watching TV"
+      }
+    },
+    {
+      "id": "E05-PILOT-L045-01",
+      "episode_id": "E05",
+      "line": 45,
+      "actor": "dhika",
+      "target": "john",
+      "action_name": "ask_birthday_wish",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 45,
+        "span_start": 19,
+        "span_end": 53,
+        "verbatim_short_span": "what do you want for your Birthday"
+      }
+    },
+    {
+      "id": "E05-PILOT-L046-01",
+      "episode_id": "E05",
+      "line": 46,
+      "actor": "john",
+      "target": "dhika",
+      "action_name": "initially_decline_gift",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 46,
+        "span_start": 59,
+        "span_end": 82,
+        "verbatim_short_span": "not a kid to take gifts"
+      }
+    },
+    {
+      "id": "E05-PILOT-L047-01",
+      "episode_id": "E05",
+      "line": 47,
+      "actor": "dhika",
+      "target": "john",
+      "action_name": "insist_on_gift_idea",
+      "event_kind": "dialogue",
+      "focus": "none",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 47,
+        "span_start": 15,
+        "span_end": 46,
+        "verbatim_short_span": "tell me something that you want"
+      }
+    },
+    {
+      "id": "E05-PILOT-L048-01",
+      "episode_id": "E05",
+      "line": 48,
+      "actor": "john",
+      "target": "dhika",
+      "action_name": "request_surprise",
+      "event_kind": "dialogue",
+      "focus": "open_request",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 48,
+        "span_start": 31,
+        "span_end": 42,
+        "verbatim_short_span": "surprise me"
+      }
+    },
+    {
+      "id": "E05-PILOT-L049-01",
+      "episode_id": "E05",
+      "line": 49,
+      "actor": "narrator",
+      "target": "john",
+      "action_name": "interpret_surprise_as_clothing_request",
+      "event_kind": "narrator_interpretation",
+      "focus": "clothing",
+      "reaction": "not_specified",
+      "certainty": "explicit",
+      "source": {
+        "line": 49,
+        "span_start": 9,
+        "span_end": 29,
+        "verbatim_short_span": "John's way of asking"
+      }
+    },
+    {
+      "id": "E05-PILOT-L050-01",
+      "episode_id": "E05",
+      "line": 50,
+      "actor": "narrator",
+      "target": "dhika_john",
+      "action_name": "report_offscreen_spousal_intimacy",
+      "event_kind": "retrospective_report",
+      "focus": "relationship",
+      "reaction": "narrated_not_scene_choreography",
+      "certainty": "explicit",
+      "source": {
+        "line": 50,
+        "span_start": 0,
+        "span_end": 10,
+        "verbatim_short_span": "That night"
+      }
+    },
+    {
+      "id": "E05-PILOT-L050-02",
+      "episode_id": "E05",
+      "line": 50,
+      "actor": "john",
+      "target": "leo",
+      "action_name": "speculate_about_dhika_mood",
+      "event_kind": "private_inference",
+      "focus": "information_asymmetry",
+      "reaction": "not_factual_cause",
+      "certainty": "explicit",
+      "source": {
+        "line": 50,
+        "span_start": 56,
+        "span_end": 70,
+        "verbatim_short_span": "John suspected"
+      }
+    }
+  ],
+  "scene_mechanisms": [
+    {
+      "id": "E05-P-S2",
+      "lines": [
+        5,
+        20
+      ],
+      "setup": "Immediate E04 closing dialogue",
+      "flow": [
+        "personal_question",
+        "playful_ear_gesture",
+        "group_observation_and_reaction",
+        "tuition_cancel_announcement",
+        "two_separate_appreciation_kisses",
+        "bobby_independent_parting_gesture",
+        "departure"
+      ],
+      "participant_modes": {
+        "dhika": "teacher_banter_and_self_reflection",
+        "bantu": "direct_question_then_humorous_retreat",
+        "bobby": "less_verbal_but_independent_exit_gesture"
+      },
+      "boundary": "E04 final verbal cliffhanger paid off"
+    },
+    {
+      "id": "E05-P-S3",
+      "lines": [
+        21,
+        50
+      ],
+      "setup": "Evening domestic TV routine and upcoming birthday",
+      "flow": [
+        "brief_self_question",
+        "incoming_phone_call_interrupts_guilt",
+        "dinner_guest_introduction",
+        "unresolved_name_conflict_Ron_versus_Leo",
+        "house_search_small_talk",
+        "john_notices_guest_glances",
+        "birthday_surprise_seeding",
+        "narrated_spousal_aftermath"
+      ],
+      "participant_modes": {
+        "dhika": "playful_host_and_private_self_question",
+        "john": "family_schedule_and_private_observation",
+        "leo": "new_colleague_housing_context",
+        "ron_text": "unresolved_source_speaker_name_at_L35"
+      },
+      "boundary": "Tuesday shopping motive follows birthday request"
+    }
+  ],
+  "review_rules": [
+    "Source exact phrase spans validated against raw",
+    "Each line in pilot must have >=1 record but semantic coverage requires editorial review",
+    "Person-specific observation never silently merges into group-only event",
+    "Dialogue question never silently becomes an accomplished physical event",
+    "Disputed Leo/Ron identity stays unresolved",
+    "No E05 blind forecast rewritten"
+  ],
+  "source_blob_sha": "lookup_in_current_repo_if_required"
+}
