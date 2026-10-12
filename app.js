@@ -24,7 +24,7 @@ const URLS={
 };
 const META={
   mechanisms:{title:"Exact Author Examples & Character-Specific Writing ★",tab:"Exact Style Examples ★",note:"65 source-verified short quotations with scene function and writer direction; 9 character profiles and 9 pair/group interaction patterns. Open the original source line on the right."},
-  directorStyle:{title:"Author Writing Mechanics · E01–E04",tab:"Author Style ★",note:"12 named narrative mechanisms with source anchors and practical writer instructions, plus five voice profiles."},
+  directorStyle:{title:"Author Writing Mechanics · E01–E04",tab:"Author Style ★",note:"14 named narrative mechanisms with source anchors and practical writer instructions, plus five voice profiles."},
   directorForecast:{title:"Blind E05 Director Blueprint · Frozen",tab:"E05 Prediction ◇",note:"Hypothetical eight-scene forecast, written before viewing E05; action names are NOT canonical."},
   predictionReview:{title:"Frozen Prediction vs Actual E05",tab:"Prediction Audit ★",note:"Three hits, two partials, three misses. E05 source line references are grounded, prediction unchanged."},
   progression:{title:"Actual Action Progression · E01–E04",tab:"Action Progression ★",note:"Pair-wise observed sequence: original setup → precise action names → aftermath and updated boundary; no future predictions."},
@@ -349,6 +349,8 @@ function appendSourceAnalysis(node,item){
   appendField(block,"FOCUS",item.body_part_or_focus);
   appendField(block,"EVENT TYPE",item.action_type+" · "+item.temporal_status);
   appendField(block,"IMMEDIATE REACTION",item.observed_reaction);
+  appendField(block,"SOURCE STATUS",item.evidence_mode);
+  appendField(block,"CLAIM VS CANONICAL VISUAL EVENT",item.asserted_claim_vs_actual);
   appendField(block,"SCENE",item.scene_title);
   appendField(block,"SOURCE","E04 L"+String(item.source_line).padStart(3,"0")+" (pointer; inspect unchanged original)");
  }else if(item.is_style){
