@@ -148,6 +148,20 @@ assert(atomic.atomic_events.some(a=>a.episode_id==="E03"&&a.character_id==="dhik
 assert(!atomic.atomic_events.some(a=>a.episode_id!=="E03"&&a.action_name==="kiss_on_lips"&&a.character_id==="chotu"),"E03 kiss should not be backdated to E01/E02.");
 console.log("PASS: "+atomic.scenes.length+" shared scene setups and "+atomic.atomic_events.length+" exact, discrete actions/imaginations.");
 
+const progression=load("data/action_progression_e03.json");
+assert(progression.is_prediction===false,"Progression must contain canon observations, not future predictions.");
+const validActionIds=new Set(atomic.atomic_events.map(a=>a.id));
+const seenStages=new Set;
+for(const pair of progression.pairs){
+ for(const step of pair.stages){
+  assert(!seenStages.has(step.id),"Duplicate progression stage: "+step.id);seenStages.add(step.id);
+  const lines=sources[step.episode_id];
+  assert(lines?.[step.line_start-1]!==undefined&&lines?.[step.line_end-1]!==undefined,"Bad progression line range: "+step.id);
+  for(const id of step.atomic_action_ids)assert(validActionIds.has(id),"Progression missing action ID: "+id);
+ }
+}
+console.log("PASS: "+seenStages.size+" source-grounded action progression stages.");
+
 console.log("PASS: all three episode indexes reproduce all 629 original lines.");
 
 console.log("PASS: GitHub source has 69 complete episode headings; E04–E69 are preserved.");
