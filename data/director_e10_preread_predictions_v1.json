@@ -1,0 +1,44 @@
+{
+  "kind": "e10_frozen_prediction_from_e01_e09",
+  "status": "before_e10_content_read",
+  "cutoff": 9,
+  "hypotheses": [
+    {
+      "id": "H1",
+      "confidence": "high",
+      "evidence": "E09 L209-215",
+      "predict": "The planned 10PM horror movie outing becomes a scene involving all four adults."
+    },
+    {
+      "id": "H2",
+      "confidence": "medium",
+      "evidence": "E09 L200-218",
+      "predict": "Raj and Dhika show increased comfort via gentlemanly assistance, conversation, or physical proximity in a public setting."
+    },
+    {
+      "id": "H3",
+      "confidence": "medium",
+      "evidence": "E09 L171-202",
+      "predict": "Sharmi continues intentionally playful interactions with John, possibly driving different seating/attention."
+    },
+    {
+      "id": "H4",
+      "confidence": "medium",
+      "evidence": "E09 L58-131",
+      "predict": "Chotu’s new kiss remains a private memory and the painting task continues to function as a repeat-contact motive later."
+    },
+    {
+      "id": "H5",
+      "confidence": "low",
+      "evidence": "E09 L5-30",
+      "predict": "Bobby’s next solo academic or remote event occurs after movie interlude."
+    },
+    {
+      "id": "H6",
+      "confidence": "medium",
+      "evidence": "E09 L221-232",
+      "predict": "John and Dhika process the couples’ social closeness through teasing, trust or jealous feelings."
+    }
+  ],
+  "note": "Predictions are narrative outcomes, with no future E10 scenes consulted."
+}
