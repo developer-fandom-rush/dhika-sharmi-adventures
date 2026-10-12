@@ -23,7 +23,8 @@ The **current active scope is Episodes 01 and 02**. The original raw text is pre
 - `data/reader_triggers.json` — author-exact highlighted phrases with precise offsets, source line and distinct significance.
 - `data/group_encounters.json` — shared scenes plus participant-specific action/knowledge.
 - `data/relationship_links.json` — explicit relationship pointers for 58 inner-state records; the original E01/E02 mind records were not rewritten.
-- `data/physical_actions.json`
+- `data/atomic_action_registry.json` — **active Physical Actions registry**: 21 complete verbatim shared scene windows, 73 atomic named actions, direct quote offsets, preserved author metaphors, and actual vs imagined vs historical distinction.
+- `data/physical_actions.json` — legacy broad-label index preserved as history; **not loaded** by the active Physical Actions tab.
 - `data/bond_evolution.json`
 - `data/internal_heat_access.json`
 - `data/escalation_patterns.json`
@@ -55,3 +56,9 @@ The **Relationship Timeline** tab joins the existing episode-indexed JSON eviden
 Quick link: https://developer-fandom-rush.github.io/dhika-sharmi-adventures/?pair=dhika_uncle
 
 **Download JSON ↓** on the Relationship Timeline exports the selected pair, episode scope, and currently filtered chronological source records as a combined JSON file. It includes raw source citations and separate analysis metadata. It does not change the committed JSON datasets. The old "I checked this against the source" checkmarks are retained by browser storage key.
+
+## Atomic action standard (E01–E02 correction)
+
+In **Physical Actions ★**, records have one precise name (such as `pinch_waist`, `hold_hips_and_stomach`, `kiss_on_forehead`, or `imagine_breasts`). They are not generic scene summaries. Click an action: the left card shows the exact words and attached original metaphor, while the right inspector renders the **complete, unmodified original source scene**. Source wording appears once in a shared `scenes` entry; action records refer to it by `scene_id` and exact phrase position. `kiss_on_forehead` appears only as historical marital backstory in E02. No Dhika–Chotu kiss is documented in E01–E02. The reader-focused analysis treats this work as adult erotica with complex character psychology; all evidence remains verbatim.
+
+The canonical action registry is checked by `node scripts/validate.mjs` alongside the original E01 and E02 source text. Director forecasts remain paused until requested again.
