@@ -1,0 +1,136 @@
+{
+  "kind": "E14_character_director_scorecard_and_forward_scenarios",
+  "status": "reasoned_prediction_not_canon",
+  "evidence_cutoff": "E14",
+  "source": {
+    "path": "raw/Dhika.txt",
+    "sha": "590b4dce02db105b1ff150a118d309fcef7778f2"
+  },
+  "definitions": "Last actual evidence is separate from desires, narratives, promises and prospective scheduling. No character's physical responses are treated as consent.",
+  "pairs": [
+    {
+      "pair": "Dhika–John",
+      "latest_actual": "E14 L15-27: John notices Dhika's distress, offers presence and time together; E14 L39-88 group pool outing",
+      "established": "Marriage, sex life and family from E01-02",
+      "immediate_next": [
+        "E15-17 domestic reconciliation or ordinary family situation",
+        "Continuation of Sharmi/Raj friendship with John present"
+      ],
+      "narrative_delay": "0-3 episodes for routine presence; confession timing unknown",
+      "confidence": "medium"
+    },
+    {
+      "pair": "Dhika–Chotu",
+      "latest_actual": "E13 L27-35 kiss, E13 L58-161 joint work and increased physical closeness; E14 L8-14 is aftermath without new visit",
+      "established": "Multiple kisses, tactile intimacy and repeated practical help; no intercourse verified by E14",
+      "immediate_next": [
+        "E15-18 reflective follow-up or painting work",
+        "A later outing only if painting and earlier movie promise are fulfilled"
+      ],
+      "narrative_delay": "1-5 episodes for a revisit is plausible, not mandatory",
+      "confidence": "medium"
+    },
+    {
+      "pair": "Dhika–Bantu",
+      "latest_actual": "E13 L5-17 closes twins' prior encounter; E12 L24-157 has the latest substantive shared session",
+      "established": "Directness, competitive initiative and disputed boundaries",
+      "immediate_next": [
+        "Competition and mentor logistics, given E12 Saturday schedule",
+        "Following the competition, separate personal conversation can resume"
+      ],
+      "narrative_delay": "0-3 episodes for competition, personal progression may be deferred",
+      "confidence": "medium"
+    },
+    {
+      "pair": "Dhika–Bobby",
+      "latest_actual": "E13 L5-17 resolution of disappointed reaction; E12 L24-157 previous long teaching scene",
+      "established": "Bobby increasingly acts independently during Physics and private video session",
+      "immediate_next": [
+        "Competition preparation or results",
+        "Independent conversation without Bantu if setting allows"
+      ],
+      "narrative_delay": "0-3 episodes for competition; personal development unknown",
+      "confidence": "medium"
+    },
+    {
+      "pair": "Dhika–Raj",
+      "latest_actual": "E14 L61-143: pool rescue, bangle recovery, swimming guidance, future teaching offer",
+      "established": "E09 first good rapport and farewell hug; E11 theater aid",
+      "immediate_next": [
+        "Public or couple-group swimming visit",
+        "Private reflection or planned instruction, with no assumed romantic agreement"
+      ],
+      "narrative_delay": "1-5 episodes; unfinished pool is now completed",
+      "confidence": "medium_high"
+    },
+    {
+      "pair": "Sharmi–John",
+      "latest_actual": "E14 L72-88 and L116-127: playful pool incident and social attention",
+      "established": "Flirting in group visits and movie, not a confirmed affair",
+      "immediate_next": [
+        "Shared social occasion, teasing and relationship boundaries"
+      ],
+      "narrative_delay": "1-5 episodes depending on group visits",
+      "confidence": "medium"
+    },
+    {
+      "pair": "Dhika–Sharmi",
+      "latest_actual": "E14 L43-47: Sharmi greets John and jokingly sidelines Dhika",
+      "established": "Longstanding close friendship from E01",
+      "immediate_next": [
+        "Friendship banter, support or tension as group familiarity grows"
+      ],
+      "narrative_delay": "not anchored",
+      "confidence": "low"
+    },
+    {
+      "pair": "Dhika–Uncle",
+      "latest_actual": "E05 L135-155: disclosure, apology and travel plan",
+      "established": "Longstanding family-like neighbor relationship with boundary incident",
+      "immediate_next": [
+        "Indirect news through Aunty or delayed return from Delhi"
+      ],
+      "narrative_delay": "indeterminate",
+      "confidence": "low"
+    },
+    {
+      "pair": "Dhika–Leo",
+      "latest_actual": "E05 L29-44: first dinner visit and housing interest",
+      "established": "John's colleague, not a close relationship",
+      "immediate_next": [
+        "Return as guest or neighbor if housing plan becomes real"
+      ],
+      "narrative_delay": "indeterminate",
+      "confidence": "low"
+    }
+  ],
+  "director_decision_at_E14": {
+    "most_recent_major_shift": "Dhika–Raj trust and physical proximity during pool accident and help",
+    "most_frequently_revisited_private_thread": "Dhika–Chotu through painting",
+    "near_deadline": "Physics competition Saturday, E12 L30-41; E14 is Thursday in scene timeline",
+    "two_plausible_next_scene_tracks": [
+      {
+        "track": "A",
+        "label": "Competition-first",
+        "episode": "E15 or E16",
+        "description": "Resolve exam preparation and mentor stakes before another private relationship turn",
+        "logic": "Preexisting fixed deadline and long-running twins plot"
+      },
+      {
+        "track": "B",
+        "label": "Raj social development",
+        "episode": "E15-E18",
+        "description": "Let pool rescue leave a reflective effect, leading to grounded group swimming outing",
+        "logic": "Completed pool, teacher offer and growing trust"
+      },
+      {
+        "track": "C",
+        "label": "Chotu emotional follow-up",
+        "episode": "E15-E19",
+        "description": "Return to unfinished painting and unresolved boundaries without assuming further intimacy",
+        "logic": "Repeated task and E14 reflection"
+      }
+    ]
+  },
+  "coverage_warning": "E15-E69 not read in reviewed sequence. These scenarios cannot be presented as author-intended canon."
+}
