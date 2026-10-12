@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "kind": "blind_non_graphic_episode_director_blueprint",
+  "prediction_id": "E06-NON_GRAPHIC-BLIND-V1",
+  "target_episode": "E06",
+  "prediction_status": "FROZEN_HYPOTHESIS_NOT_CANON",
+  "source_cutoff": "E05",
+  "source_evidence_only": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05"
+  ],
+  "source_files": [
+    "data/source_verified_style_mechanisms_e01_e05.json",
+    "data/e05_scene_index.json",
+    "data/e05_prediction_audit.json",
+    "data/e05_non_graphic_continuity_ledger.json"
+  ],
+  "e05_source_blob_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "e05_ledger_commit_prior_to_freeze": "37fe8dbcfb4b278bc6df3f739904d4597b0f49be",
+  "e06_original_was_accessed_for_this_blueprint": false,
+  "constraints": {
+    "predicted_is_not_actual": true,
+    "character_specific": true,
+    "exact_ages": "UNVERIFIED; source says teen for several characters, do not assign an age",
+    "scope": "non-graphic practical interactions, dialogue, character knowledge, safe emotional consequences; no sexualized youth-related acts",
+    "quote_rule": "only short verified source excerpts with E05 local line references",
+    "no_retroactive_edit": true
+  },
+  "known_e05_evidence": [
+    {
+      "thread": "painting_visit",
+      "source": [
+        "E05:174",
+        "E05:185",
+        "E05:190",
+        "E05:227",
+        "E05:228"
+      ],
+      "confirmed": "Painting started; accidental spill; cleanup dialogue; return around following day noon planned and accepted",
+      "unconfirmed": "Return actually happens"
+    },
+    {
+      "thread": "neighbor_travel",
+      "source": [
+        "E05:148",
+        "E05:149",
+        "E05:158"
+      ],
+      "confirmed": "Delhi trip announced, help requested, airport/family logistics narrated",
+      "unconfirmed": "Departure and neighbor support determine a full subplot in E06"
+    },
+    {
+      "thread": "leo_housing",
+      "source": [
+        "E05:32",
+        "E05:38",
+        "E05:44"
+      ],
+      "confirmed": "John introduced Leo, who was evaluating nearby accommodation",
+      "unconfirmed": "Leo chooses unit or appears again"
+    },
+    {
+      "thread": "tuition_paused",
+      "source": [
+        "E05:11",
+        "E05:159",
+        "E05:160"
+      ],
+      "confirmed": "Planned sessions were canceled, distinct pupils heard the news",
+      "unconfirmed": "Next class begins in E06"
+    },
+    {
+      "thread": "birthday_family",
+      "source": [
+        "E05:45",
+        "E05:48",
+        "E05:157"
+      ],
+      "confirmed": "Birthday surprise requested and birthday week noted",
+      "unconfirmed": "New birthday celebration scene occurs"
+    },
+    {
+      "thread": "sharmi_raj",
+      "source": [],
+      "confirmed": "Insufficient E01-E05 evidence for Sharmi continuation or any Raj-specific voice",
+      "unconfirmed": "Any appearance; no prediction of behavior"
+    }
+  ],
+  "ranked_opening_hypotheses": [
+    {
+      "rank": 1,
+      "condition": "Author directly pays off last E05 scheduling exchange",
+      "prediction": "The next-day painting visit or practical preparation is shown",
+      "confidence": "medium",
+      "basis": [
+        "E05:227",
+        "E05:228"
+      ],
+      "uncertainty": "An actual visit was not shown before episode boundary"
+    },
+    {
+      "rank": 2,
+      "condition": "Author returns via temporal displacement or retrospective opener",
+      "prediction": "An ordinary home scene precedes any eventual painting return",
+      "confidence": "medium_low",
+      "basis": [
+        "E04:5-29",
+        "E05:21-24"
+      ],
+      "uncertainty": "Timeline could move nonlinearly"
+    },
+    {
+      "rank": 3,
+      "condition": "Author switches dormant threads",
+      "prediction": "Home/neighborhood/colleague problem displaces painting",
+      "confidence": "low",
+      "basis": [
+        "E05:24-44",
+        "E05:148-158"
+      ],
+      "uncertainty": "No evidence a specific distraction will occur"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "P06-S01",
+      "sequence": 1,
+      "primary": true,
+      "title": "Clarify prior-day promise",
+      "setting": "Family home, morning after E05 or shortly before agreed time",
+      "time": "Following day; around noon is only a scheduled target",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "pair": "dhika_chotu",
+      "setup": [
+        "E05:227",
+        "E05:228"
+      ],
+      "scene_goal": "Clearly resolve whether planned work proceeds without treating agreement as arrival",
+      "action_names": [
+        "check_work_schedule",
+        "prepare_painting_supplies",
+        "confirm_arrival_or_change"
+      ],
+      "dialogue_objectives": {
+        "dhika": "Ask whether help is still possible and clarify task status",
+        "chotu": "Confirm work availability or state an ordinary reason for delay"
+      },
+      "speaker_order_hypothesis": [
+        "dhika_question",
+        "chotu_response"
+      ],
+      "knowledge_states": {
+        "dhika": "Knows prior invitation was accepted",
+        "chotu": "Knows he agreed to come; no actual attendance before E05 boundary",
+        "reader": "Knows no E06 event yet"
+      },
+      "emotional_change": "Task-related anticipation either resolves into work or is delayed; no new intimacy assumed",
+      "writing_mechanisms": [
+        "schedule_payoff",
+        "ordinary_task_anchor",
+        "character_specific_brief_replies"
+      ],
+      "exits": [
+        "Work begins",
+        "Arrival postponed",
+        "Narrative shifts to a separate household concern"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "P06-S02",
+      "sequence": 2,
+      "primary": true,
+      "title": "Painting problem-solving",
+      "setting": "Pappu's room, conditional on agreed arrival",
+      "time": "Following day, if visit takes place",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "pair": "dhika_chotu",
+      "setup": [
+        "E05:174",
+        "E05:185",
+        "E05:190"
+      ],
+      "scene_goal": "Resolve practical consequence of spilled paint and continue room work",
+      "action_names": [
+        "assess_paint_spill",
+        "arrange_brushes",
+        "resume_wall_painting",
+        "discuss_cleanup"
+      ],
+      "dialogue_objectives": {
+        "dhika": "Assign clear tasks and give practical reassurance",
+        "chotu": "Account for work already done and ask about cleanup"
+      },
+      "speaker_order_hypothesis": [
+        "dhika_task_instruction",
+        "chotu_brief_reply",
+        "followup_about_work"
+      ],
+      "knowledge_states": {
+        "dhika": "Was present for E05 accident and offered reassurance",
+        "chotu": "Apologized for accident; concerns need separate evidence",
+        "reader": "Has prior exact paint-accident sequence"
+      },
+      "emotional_change": "Potential move from embarrassment about the mishap to practical cooperation",
+      "writing_mechanisms": [
+        "accidental_cause_effect",
+        "brief_reassurance",
+        "task_progress_marker"
+      ],
+      "exits": [
+        "First coat continues",
+        "New mundane interruption",
+        "Task pauses for supplies"
+      ],
+      "confidence": "medium_low",
+      "conditional": true
+    },
+    {
+      "id": "P06-S03",
+      "sequence": 3,
+      "primary": false,
+      "title": "Household and neighbor obligations",
+      "setting": "Dhika/John home or neighbor residence",
+      "time": "Following day or later, not specified",
+      "participants": [
+        "dhika",
+        "john",
+        "aunty"
+      ],
+      "pair": "dhika_john_family",
+      "setup": [
+        "E05:148",
+        "E05:149",
+        "E05:158"
+      ],
+      "scene_goal": "Pay off accepted plan to assist Aunty in Uncle's absence",
+      "action_names": [
+        "check_on_neighbor",
+        "discuss_household_schedule",
+        "offer_practical_help"
+      ],
+      "dialogue_objectives": {
+        "dhika": "Initiate check-in or mention availability",
+        "john": "Coordinate household duties",
+        "aunty": "State a concrete need only if source later establishes one"
+      },
+      "speaker_order_hypothesis": [
+        "dhika_checkin",
+        "aunty_response",
+        "john_practical_reply"
+      ],
+      "knowledge_states": {
+        "dhika": "Knows Uncle's request and Delhi trip",
+        "john": "Family logistics are narrated; do not assert he heard private E05 conversation",
+        "reader": "Knows acceptance and departure context"
+      },
+      "emotional_change": "Ordinary responsibility versus limited free time",
+      "writing_mechanisms": [
+        "dormant_thread_return",
+        "task_as_social_access",
+        "knowledge_asymmetry"
+      ],
+      "exits": [
+        "Need resolved",
+        "Return to painting",
+        "New household activity"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "P06-S04",
+      "sequence": 4,
+      "primary": false,
+      "title": "Colleague housing may return",
+      "setting": "Apartment complex or family dinner, conditional",
+      "time": "Any later day",
+      "participants": [
+        "john",
+        "leo",
+        "dhika"
+      ],
+      "pair": "john_leo_dhika",
+      "setup": [
+        "E05:32",
+        "E05:38",
+        "E05:44"
+      ],
+      "scene_goal": "Test whether Leo's conditional housing search produces a new social encounter",
+      "action_names": [
+        "ask_housing_update",
+        "reply_about_apartment",
+        "offer_or_decline_social_visit"
+      ],
+      "dialogue_objectives": {
+        "john": "Ask about practical search",
+        "leo": "State actual result without inventing prior decision",
+        "dhika": "Greet or participate only if present"
+      },
+      "speaker_order_hypothesis": [
+        "john_question",
+        "leo_response",
+        "dhika_optional"
+      ],
+      "knowledge_states": {
+        "leo": "Had not yet confirmed move in E05",
+        "john": "Introduced Leo as assistant",
+        "dhika": "Met him at dinner; private John observations not transferred"
+      },
+      "emotional_change": "Newcomer familiarity stays at initial stage unless canon develops",
+      "writing_mechanisms": [
+        "new_character_callback",
+        "conditional_plan_validation"
+      ],
+      "exits": [
+        "Housing thread closes",
+        "Visit arranged",
+        "No appearance"
+      ],
+      "confidence": "low",
+      "conditional": true
+    },
+    {
+      "id": "P06-S05",
+      "sequence": 5,
+      "primary": false,
+      "title": "Separate pupils' postponed class responses",
+      "setting": "Tuition scheduling call or next authorized lesson",
+      "time": "Unscheduled; not assumed next day",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "pair": "dhika_bantu_bobby",
+      "setup": [
+        "E05:11",
+        "E05:159",
+        "E05:160"
+      ],
+      "scene_goal": "Treat canceled tuition as an open timetable without inventing an actual session",
+      "action_names": [
+        "confirm_next_class_date",
+        "bantu_ask_followup",
+        "bobby_state_short_response"
+      ],
+      "dialogue_objectives": {
+        "dhika": "Set teaching schedule",
+        "bantu": "Ask a follow-up in a distinct voice",
+        "bobby": "Give brief personal response without copying Bantu"
+      },
+      "speaker_order_hypothesis": [
+        "dhika_schedule",
+        "bantu_question",
+        "bobby_brief_response"
+      ],
+      "knowledge_states": {
+        "bantu": "Knows cancellation and mall outing occurred",
+        "bobby": "Knows cancellation; not at the mall according to E05 encounter",
+        "dhika": "Has observed separately narrated reactions"
+      },
+      "emotional_change": "Different reactions to interruption, without sexualized direction",
+      "writing_mechanisms": [
+        "character_role_contrast",
+        "schedule_as_plot_gate"
+      ],
+      "exits": [
+        "Date agreed",
+        "No session resumed",
+        "Another parallel thread interrupts"
+      ],
+      "confidence": "low",
+      "conditional": true
+    },
+    {
+      "id": "P06-S06",
+      "sequence": 6,
+      "primary": false,
+      "title": "Independent family grounding",
+      "setting": "John and Dhika home",
+      "time": "Between errands",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "pair": "dhika_john",
+      "setup": [
+        "E05:21",
+        "E05:24",
+        "E05:45",
+        "E05:157"
+      ],
+      "scene_goal": "Preserve ordinary family rhythm separate from others' knowledge",
+      "action_names": [
+        "share_day_schedule",
+        "supervise_child_activity",
+        "discuss_home_tasks"
+      ],
+      "dialogue_objectives": {
+        "dhika": "Mention practical commitments",
+        "john": "Respond with short familiar humor or logistics",
+        "pappu": "Remain child/family-context only"
+      },
+      "speaker_order_hypothesis": [
+        "dhika_update",
+        "john_reply"
+      ],
+      "knowledge_states": {
+        "john": "Not stated to know Dhika's private E05 conversations",
+        "dhika": "Knows family routines and private encounters",
+        "reader": "Knows more than John on selected topics"
+      },
+      "emotional_change": "Return to household equilibrium, without presuming confession",
+      "writing_mechanisms": [
+        "domestic_reset",
+        "narrator_reader_information_gap"
+      ],
+      "exits": [
+        "Another planned chore",
+        "Painting return",
+        "Family conversation ends"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "P06-S07",
+      "sequence": 7,
+      "primary": false,
+      "title": "Optional closing hook",
+      "setting": "One previously established location; not specified",
+      "time": "Final lines, if narrative chooses same structure",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "pair": "dhika_chotu",
+      "setup": [
+        "E05:227",
+        "E05:228",
+        "E04:195-202"
+      ],
+      "scene_goal": "Leave one new ordinary problem or unanswered scheduling question, rather than invent a physical encounter",
+      "action_names": [
+        "ask_open_work_question",
+        "identify_unfinished_task",
+        "pause_before_answer"
+      ],
+      "dialogue_objectives": {
+        "dhika": "Raise a specific practical question",
+        "chotu": "Respond or withhold response based on actual scene"
+      },
+      "speaker_order_hypothesis": [
+        "question",
+        "reaction_or_cut"
+      ],
+      "knowledge_states": {
+        "reader": "Previous day work plan is known; new issue unknown"
+      },
+      "emotional_change": "Uncertainty about project completion rather than predetermined relationship change",
+      "writing_mechanisms": [
+        "end_question",
+        "continuity_debt"
+      ],
+      "exits": [
+        "Open practical problem",
+        "Immediate resolution",
+        "Different character cliffhanger"
+      ],
+      "confidence": "very_low",
+      "conditional": true
+    }
+  ],
+  "character_voice_invariants": {
+    "dhika": "Expressive questions, sudden reassessment; teacher/spouse/neighbor roles must be context-specific, not merged",
+    "chotu": "Short 'didi' replies and practical helper context; no calculating strategy without narrated proof",
+    "bantu": "Initiates more requests and follow-ups; his claims are not Bobby's knowledge",
+    "bobby": "Sparse but independent contribution; do not copy Bantu's motives",
+    "john": "Familiar domestic and office contexts; retain private knowledge gaps",
+    "uncle": "Travel request and elder-family form of address; no invented return date",
+    "aunty": "Practical care context only; insufficient dialogue to define her unique full voice",
+    "leo": "Polite new colleague/possible neighbor; only one introduction known",
+    "sharmi": "Limited early evidence; do not insert a confident E06 plot",
+    "raj": "Voice and E06 involvement UNVERIFIED; do not invent"
+  },
+  "rating_template": {
+    "dimensions": [
+      "opening_sequence",
+      "locations",
+      "pair_presence",
+      "dialogue_turn_order",
+      "precise_non_graphic_actions",
+      "psychological_change",
+      "time_continuity",
+      "closing_hook"
+    ],
+    "allowed_results": [
+      "hit",
+      "partial",
+      "miss",
+      "unverifiable"
+    ],
+    "scoring_rule": "Check every scene and specific action separately; do not count vague domestic match as precise action hit."
+  },
+  "freeze_policy": "Never update, replace, or rewrite this file after any reading of E06. All later analysis must be a new versioned file. Preserve misses as misses."
+}
