@@ -23,7 +23,7 @@ const URLS={
   mechanisms:"./data/source_verified_style_mechanisms_e01_e05.json"
 };
 const META={
-  mechanisms:{title:"Exact Author Examples & Character-Specific Writing ★",tab:"Exact Style Examples ★",note:"65 source-verified short quotations with scene function and writer direction; 9 character profiles and 8 unique relationship patterns. Open the original source line on the right."},
+  mechanisms:{title:"Exact Author Examples & Character-Specific Writing ★",tab:"Exact Style Examples ★",note:"65 source-verified short quotations with scene function and writer direction; 9 character profiles and 9 pair/group interaction patterns. Open the original source line on the right."},
   directorStyle:{title:"Author Writing Mechanics · E01–E04",tab:"Author Style ★",note:"12 named narrative mechanisms with source anchors and practical writer instructions, plus five voice profiles."},
   directorForecast:{title:"Blind E05 Director Blueprint · Frozen",tab:"E05 Prediction ◇",note:"Hypothetical eight-scene forecast, written before viewing E05; action names are NOT canonical."},
   predictionReview:{title:"Frozen Prediction vs Actual E05",tab:"Prediction Audit ★",note:"Three hits, two partials, three misses. E05 source line references are grounded, prediction unchanged."},
@@ -41,7 +41,7 @@ const META={
 };
 const CHARACTER_NAMES={
   dhika:"Dhika",john:"John",uncle:"Uncle",aunty:"Aunty",
-  sharmi:"Sharmi",raj:"Raj",bantu:"Bantu",bobby:"Bobby",
+  sharmi:"Sharmi",raj:"Raj",leo:"Leo",bantu:"Bantu",bobby:"Bobby",
   chotu:"Chotu / Babu",maami:"Bindu Maami",pappu:"Pappu (family only)"
 };
 const DATA={};
