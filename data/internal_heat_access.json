@@ -2,7 +2,8 @@
   "schema_version": 1,
   "kind": "internal_heat_access",
   "episode_scope": [
-    "E01"
+    "E01",
+    "E02"
   ],
   "source": {
     "id": "Dhika.txt",
@@ -13,7 +14,7 @@
     "episode_line_count": 229,
     "episode_characters": 27914
   },
-  "scale_rule": "No invented numerical heat, privilege, or body-access scores; each item records only concrete source evidence.",
+  "scale_rule": "No objective numerical heat/access level inferred. Record observed, narrated, consent/agency, and comparison separately. E02 may show opposite responses across people.",
   "events": [
     {
       "id": "HEAT-E01-001",
@@ -530,6 +531,572 @@
         {
           "line": 224,
           "text": "She covered her face with all excitement and blushing and shyness and this time she felt a tingle ...... not down her spine but .... down there in-between her legs"
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-001",
+      "actor": "dhika",
+      "target": "john",
+      "state_tag": "guilt_hidden_on_john_return",
+      "channel": "inner_thought",
+      "access_evidenced": "no_new_access",
+      "knowledge_visibility": "narrator_private",
+      "episode_id": "E02",
+      "line_start": 6,
+      "line_end": 8,
+      "raw_lines": [
+        {
+          "line": 6,
+          "text": "With the same cloud9 she stood up and went to the peep hole but in an instant, she came to reality and felt a pinch of guilt. It was John."
+        },
+        {
+          "line": 7,
+          "text": "John: ushhhhh..... I am so tired... I just want to lie down and sleep here itself...."
+        },
+        {
+          "line": 8,
+          "text": "Dhika: She felt guilt take over but she didn't want to show it out..... Her shy innocent self took over....... John.... you are stinking..... go straight to the bathroom..... she pushed him."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-002",
+      "actor": "dhika",
+      "target": "john",
+      "state_tag": "orthodox_upbringing_and_slow_change_baseline",
+      "channel": "backstory",
+      "access_evidenced": "spousal_consensual_history",
+      "knowledge_visibility": "narrator_background",
+      "episode_id": "E02",
+      "line_start": 14,
+      "line_end": 20,
+      "raw_lines": [
+        {
+          "line": 14,
+          "text": "Dhika was born as a single child in a very orthodox family and she was brought up believing that sex is to be only with husband and even masturbation is wrong. No one said or told her anything but due to her family and similar surroundings.. she came into this perception. In fact, John was her first suitor and she liked him due to his caring nature and ended up marrying him... Dhika even lost her virginity only to John, but unlike typical..... John did not take her virginity on her first night."
+        },
+        {
+          "line": 15,
+          "text": "John is 31 years old now and still a very handsome guy.... an average build with muscles in hand and chest. He is half a foot taller than Dhika, which she loved about. John is very workaholic... but maintains a great work life balance. Unlike Dhika..... he is neither shy nor innocent.....he is a charming fellow who never got angry over anything..... very caring towards her and Pappu.... and he had a huge sex drive. But at the same time....he never forced Dhika into anything..... rather he coaxed her into it with comfort."
+        },
+        {
+          "line": 16,
+          "text": "During the first night.... Dhika was very nervous and looked like she would break if he touched her. John is very passionate for sex and hence he did not just want to flip her up and fuck. He spoke politely to her as usual and understood her innocent nature. He just kissed her on the forehead and made her sleep on his lap as she was tired from 2 days of continuous rituals."
+        },
+        {
+          "line": 17,
+          "text": "It took about a week for Dhika to become physically comfortable with John. Perhaps because he was the first guy she had close relation with in her life and she felt him as close friend than as a life partner. Only after a week of gentle approaching... John was able to fully penetrate her. John made sure to let Dhika take her own time because he wanted Dhika to want him more than just let him have her."
+        },
+        {
+          "line": 18,
+          "text": "It has been few years now and they have a good sex life but still shy one. John wanted to try many things with Dhika.... but for Dhika....due to her shyness... the plain old missionary style is ultimate sex. Very slowly and patiently John used his charming traits to change her... but she changed very slowly. They had day sex almost 6 months later..... first shower together almost 7 months later.... John made her wear modern cloths, which she would only at home, but after 10 months. She budged into cow girl sex position......but whenever she did it... she was very shy even during sex."
+        },
+        {
+          "line": 19,
+          "text": "John, on the other hand... wanted Dhika to be more open like him..... wear modern dress outside to parties and gatherings. His friends are all jealousy over him getting a very pretty wife and John felt happy knowing that. He knew most of his friends liked her and would kill to see some skin on her body, which did not impact John badly but turned him on. If there is something we own that others longed for.... we naturally want to boast about it and show off"
+        },
+        {
+          "line": 20,
+          "text": "John wanted her to become more open minded like kissing in public, try more sexual positions, exhibit a little skin here and there but never forced her into it. He liked when Dhika changed into something on her own. Her wanting it made him more turned on."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-003",
+      "actor": "john",
+      "target": "uncle",
+      "state_tag": "knows_uncle_attraction",
+      "channel": "private_observation",
+      "access_evidenced": "no_mutual_touch",
+      "knowledge_visibility": "john_private",
+      "episode_id": "E02",
+      "line_start": 29,
+      "line_end": 29,
+      "raw_lines": [
+        {
+          "line": 29,
+          "text": "Unlike Dhika, John knew very well on who had crush on Dhika. Many a times, John has seen uncle gazing at Dhika, which Dhika has never noticed. But John never felt angry towards uncle because John secretly liked to exhibit Dhika. He even asked her many times to wear sleeveless Salwar or skirt and top when they went to see aunty and uncle... but she never agreed."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-004",
+      "actor": "dhika",
+      "target": "chotu",
+      "state_tag": "praise_affects_dress_choice",
+      "channel": "internal_recall",
+      "access_evidenced": "no_chotu_present",
+      "knowledge_visibility": "dhika_private",
+      "episode_id": "E02",
+      "line_start": 42,
+      "line_end": 44,
+      "raw_lines": [
+        {
+          "line": 42,
+          "text": "John: Surprised that at least she agreed on a skirt first time.... he said ok. To more surprise... she wore the sleeveless top. John wondered what brought on this courage to wear sleeveless top to go outside."
+        },
+        {
+          "line": 43,
+          "text": "Dhika thought sleeveless is okay since it is only aunty and uncle and also, because Chotu commented she looked beautiful in it. She smiled thinking about him and then remembered her flaunting her cleavage to him... felt a little excited, little shy and wondered why she is feeling like this. She thought it is all because of John. He is always asking me to wear revealing dresses so that his friends can get jealousy of him having her."
+        },
+        {
+          "line": 44,
+          "text": "*********She didn't feel guilty now remembering John like to show her off. But did not think if John would like it in his absence. She wasn't that bright in these matters."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-005",
+      "actor": "uncle",
+      "target": "dhika",
+      "state_tag": "repeated_private_gaze_and_garment_intrusion",
+      "channel": "secret_observation_and_object_violation",
+      "access_evidenced": "no_consent",
+      "knowledge_visibility": "uncle_private",
+      "episode_id": "E02",
+      "line_start": 46,
+      "line_end": 54,
+      "raw_lines": [
+        {
+          "line": 46,
+          "text": "When they entered, uncle was mesmerized looking at her. He has never seen her in a skirt and tight top. John knowingly choose a tight top. As per Dhika, a dress to just to cover her, she is so innocent that she didn't understand if the dress hugged her body and showed her structure. Even though it didn't show any cleavage, her round boobs were treat for eyes."
+        },
+        {
+          "line": 47,
+          "text": "She had almost a flat stomach just with a hint of chubbiness to it."
+        },
+        {
+          "line": 48,
+          "text": "Uncle: Beti..... you look.... very pretty... uncle blurted out. Aunty gave a stern look at him and welcomed them."
+        },
+        {
+          "line": 49,
+          "text": "Dhika: hehe..... thank you uncle. John, you should learn from uncle how to complement."
+        },
+        {
+          "line": 50,
+          "text": "Not that John never complemented her. In early days itself John understood Dhika loved complements. But the more he complemented... more she started wearing same dresses, but then he understood what to do. He started complementing only when she wore something she never wore before and much to it, only when she wore something revealing (  still she did it only inside house). He was caring, but a little cunning too"
+        },
+        {
+          "line": 51,
+          "text": "John had an inner grin on what uncle meant, but kept it to himself."
+        },
+        {
+          "line": 52,
+          "text": "They had lunch together while Pappu sat and watched TV. He wouldn't eat and Dhika said she will feed him after their lunch. Uncle was sitting opposite to John and they were talking about his work. All through out the lunch uncle kept stealing quick glances at her boobs from the corner of his eyes, which John noticed, but poor Dhika had no idea, yet."
+        },
+        {
+          "line": 53,
+          "text": "Half way through their lunch, Pappu started asking for food. Dhika had stored milk for him in their fridge and she was about to stand up when uncle stood saying he will get it. Uncle did not wait for her to answer and proceeded to her house."
+        },
+        {
+          "line": 54,
+          "text": "Uncle rushed to her house, forgetting even to close the front door and went straight to the bathroom. He saw her white bra lying in the sink. He took it and started sniffing. The smell was intoxicating and he even licked it a little. Uncle had his eyes closed and imagining Dhika just in this bra, imagined what these bra cups would have touched.. He was so turned on that his crotch hosted a tent in his shorts."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-006",
+      "actor": "dhika",
+      "target": "uncle",
+      "state_tag": "witnesses_intrusion_and_feels_mixed_reaction",
+      "channel": "observation_and_internal",
+      "access_evidenced": "no_permission_to_violation",
+      "knowledge_visibility": "dhika_knows_now",
+      "episode_id": "E02",
+      "line_start": 55,
+      "line_end": 63,
+      "raw_lines": [
+        {
+          "line": 55,
+          "text": "What uncle did not know is that, Dhika followed him seconds later he left, leaving aunty and John continue their lunch. He left without waiting for her answer, but Dhika did not sit back. Out of respect, she followed to stop him and get the milk herself."
+        },
+        {
+          "line": 56,
+          "text": "When she entered the house through the open door, she didn't find uncle in the kitchen. To her surprise, she heard a very slight moan coming from their bathroom. She slowly peeked out of curiosity and was stunned."
+        },
+        {
+          "line": 57,
+          "text": "Uncle was standing there with this eyes closed and bra close to his nose. He was smelling it and she was even more shocked when he licked the insides of the bra cups. She turned so pink and averted her eyes to look away. Just as she was bring her eyes to see away, she moved her eyes down and she saw something in uncle for the first time, that she didn't mean too."
+        },
+        {
+          "line": 58,
+          "text": "He was sporting a huge tent in front of his shorts and the tent was twitching like something alive."
+        },
+        {
+          "line": 59,
+          "text": "{She turned from pink to red....blushing; wide eyed and open mouthed..}"
+        },
+        {
+          "line": 60,
+          "text": "Quickly and silently she went outside the house and stood to catch her heavy breath."
+        },
+        {
+          "line": 61,
+          "text": "Dhika: omg omg omg...... I saw uncle's short and something big... a subtle smile..... ayoooo.... I should not have, she hit her head"
+        },
+        {
+          "line": 62,
+          "text": "More than uncle sniffing her bra, she felt bad about she looking at uncle. Then she realized it was uncle who was doing a wrong here."
+        },
+        {
+          "line": 63,
+          "text": "But strange to herself, she did not feel any anger. She was lost in thoughts reimagining what she saw uncle doing and felt a little excited just like she had with Chotu...."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-007",
+      "actor": "dhika",
+      "target": "uncle",
+      "state_tag": "rationalizes_misconduct_and_plans_boundary_change",
+      "channel": "internal",
+      "access_evidenced": "restricts_future_access",
+      "knowledge_visibility": "conceals_from_john",
+      "episode_id": "E02",
+      "line_start": 67,
+      "line_end": 72,
+      "raw_lines": [
+        {
+          "line": 67,
+          "text": "*****She did not feel an ounce of anger."
+        },
+        {
+          "line": 68,
+          "text": "Dhika: Uncle must have went to bathroom to use it..... and by mistake and out of curiosity may have taken the bra. Men will be men right !!!!! also..... he might be missing something in his life to take another women's bra..."
+        },
+        {
+          "line": 69,
+          "text": "she consoled herself that what uncle did may not have been wrong because he never behaved inappropriately towards her."
+        },
+        {
+          "line": 70,
+          "text": "Dhika: But still from tomorrow I should better leave milk bottles with aunty along itself, with Pappu in the morning so that I don't mistakenly lead uncle into such situations. She felt responsible for what uncle did."
+        },
+        {
+          "line": 71,
+          "text": "Dhika wanted to put Pappu to sleep.....so she and John said good byes and went back to their house."
+        },
+        {
+          "line": 72,
+          "text": "She did not tell about uncle to John..... she didn't want to spoil his image...."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-008",
+      "actor": "dhika",
+      "target": "john",
+      "state_tag": "new_initiative_in_spousal_contact",
+      "channel": "marital_contact",
+      "access_evidenced": "established_partner_and_voluntary_action",
+      "knowledge_visibility": "john_observes_difference",
+      "episode_id": "E02",
+      "line_start": 74,
+      "line_end": 75,
+      "raw_lines": [
+        {
+          "line": 74,
+          "text": "Later that night.... during sex, without even John making her, Dhika moved op top of him and started humping him. Not that John did not loved it, but it intrigued his mind that she is doing something that she has never taken initiative to, before,......."
+        },
+        {
+          "line": 75,
+          "text": "and also, he noticed that her facial expressions where not that shy as usual"
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-009",
+      "actor": "bantu",
+      "target": "dhika",
+      "state_tag": "private_goal_for_tuition",
+      "channel": "narrator_private",
+      "access_evidenced": "professional_meetings_planned",
+      "knowledge_visibility": "dhika_does_not_know_full_goal",
+      "episode_id": "E02",
+      "line_start": 93,
+      "line_end": 98,
+      "raw_lines": [
+        {
+          "line": 93,
+          "text": "****Bantu had already laid out a plan to spend more time with Dhika and needed Bobby's help too. Even though she liked both of them, he knew that Dhika had a special soft spot for Bobby because of his introvert nature..... she always liked teasing him..... to try and bring him out of his uncomfortable zone."
+        },
+        {
+          "line": 94,
+          "text": "Bobby: errr.. can you teach us miss."
+        },
+        {
+          "line": 95,
+          "text": "Dhika: looked more puzzled. wasn't I already teaching them here.... she thought."
+        },
+        {
+          "line": 96,
+          "text": "Bantu: giving a you are stupid look at bobby.... miss... what he meant is.... could you please give us extra tuitions after college."
+        },
+        {
+          "line": 97,
+          "text": "Dhika: hehe... she looked at bobby who was scratching his head."
+        },
+        {
+          "line": 98,
+          "text": "****Dhika always thought high of Bantu and Bobby as they were very polite and very studious. She was amazed when they told her about their future plans, she felt really happy and thought she would help in any way she can."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-010",
+      "actor": "dhika",
+      "target": "chotu",
+      "state_tag": "interprets_absence_as_maybe_fear",
+      "channel": "inner_thought",
+      "access_evidenced": "chotu_not_physically_present",
+      "knowledge_visibility": "unknown_reason",
+      "episode_id": "E02",
+      "line_start": 110,
+      "line_end": 115,
+      "raw_lines": [
+        {
+          "line": 110,
+          "text": "Dhika drove her bike and the twins followed behind her. Near her apartments, she stopped in front of the store to get couple of items .... also to check on Chotu."
+        },
+        {
+          "line": 111,
+          "text": "Dhika: Please wait here a few minutes Bantu..... I will get some groceries.. she informed the twins and went inside."
+        },
+        {
+          "line": 112,
+          "text": "she orders a few items and paid the bill."
+        },
+        {
+          "line": 113,
+          "text": "Dhika: Maami... can you please have Chotu deliver these."
+        },
+        {
+          "line": 114,
+          "text": "Maami: Chotu is on leave Dhika...... he took sudden leaves."
+        },
+        {
+          "line": 115,
+          "text": "Dhika: Did he get afraid of what he saw !!!!! and took leaves.... she thought. Then let me take these ... thanks Maami. she said and exited the shop."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-011",
+      "actor": "bobby",
+      "target": "dhika",
+      "state_tag": "observes_unplanned_clothing_accident",
+      "channel": "accidental_visual",
+      "access_evidenced": "no_touch",
+      "knowledge_visibility": "dhika_distressed",
+      "episode_id": "E02",
+      "line_start": 122,
+      "line_end": 126,
+      "raw_lines": [
+        {
+          "line": 122,
+          "text": "Going to the kitchen.... she kept the grocery bag down and turned to look at them.... File bag was still in her hands and handbag on her shoulders.... The moment she turned to face them..... the bag slipped and fell down..."
+        },
+        {
+          "line": 123,
+          "text": "Not only the bag fell..... but also it pulled down the pallu of her saree along with it. Bag fell down and pallu fell hanging down,"
+        },
+        {
+          "line": 124,
+          "text": "There she was in bright colored blouse with milky boobs (  1/3rd of it anyway) spilling out of her blouse as she bent down to pick ***"
+        },
+        {
+          "line": 125,
+          "text": "Feeling horrified and not knowing what do to.... Her free hand went for the bag first instead of the pallu, in nervousness. She bent down fully.... exposing her spilling boobs more...to two teenage students and then seconds later she took the pallu and fixed it............"
+        },
+        {
+          "line": 126,
+          "text": "She felt very very horrified and looked at her students.... Bobby was wide eyed, open mouthed and still looking towards her chest. Bantu on the other hand, felt awkward and averted looking at eyes. She couldn't say anything to them but excused and ran into the bedroom and close the door."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-012",
+      "actor": "bantu",
+      "target": "dhika",
+      "state_tag": "averts_gaze_in_same_group_event",
+      "channel": "accidental_visual",
+      "access_evidenced": "no_touch",
+      "knowledge_visibility": "dhika_distressed",
+      "episode_id": "E02",
+      "line_start": 122,
+      "line_end": 126,
+      "raw_lines": [
+        {
+          "line": 122,
+          "text": "Going to the kitchen.... she kept the grocery bag down and turned to look at them.... File bag was still in her hands and handbag on her shoulders.... The moment she turned to face them..... the bag slipped and fell down..."
+        },
+        {
+          "line": 123,
+          "text": "Not only the bag fell..... but also it pulled down the pallu of her saree along with it. Bag fell down and pallu fell hanging down,"
+        },
+        {
+          "line": 124,
+          "text": "There she was in bright colored blouse with milky boobs (  1/3rd of it anyway) spilling out of her blouse as she bent down to pick ***"
+        },
+        {
+          "line": 125,
+          "text": "Feeling horrified and not knowing what do to.... Her free hand went for the bag first instead of the pallu, in nervousness. She bent down fully.... exposing her spilling boobs more...to two teenage students and then seconds later she took the pallu and fixed it............"
+        },
+        {
+          "line": 126,
+          "text": "She felt very very horrified and looked at her students.... Bobby was wide eyed, open mouthed and still looking towards her chest. Bantu on the other hand, felt awkward and averted looking at eyes. She couldn't say anything to them but excused and ran into the bedroom and close the door."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-013",
+      "actor": "dhika",
+      "target": "bantu",
+      "state_tag": "embarrassment_fear_and_gossip_worry",
+      "channel": "inner_thought",
+      "access_evidenced": "not_consensual_attention",
+      "knowledge_visibility": "narrator_private",
+      "episode_id": "E02",
+      "line_start": 128,
+      "line_end": 135,
+      "raw_lines": [
+        {
+          "line": 128,
+          "text": "Dhika: Ayyoooooooo.... why didn't I go for the pallu first... they saw my boobs.... she was at the verge of crying."
+        },
+        {
+          "line": 129,
+          "text": "She heard the boys from outside..... Making sure everything is in proper place, she opened the door and went outside."
+        },
+        {
+          "line": 130,
+          "text": "Bantu: Miss.... it is getting late... we will leave and from Wednesday we will come miss... he said without taking a breath."
+        },
+        {
+          "line": 131,
+          "text": "Dhika: She saw that Bobby was not there...... where is Bobby ?"
+        },
+        {
+          "line": 132,
+          "text": "Bantu: scratching his head.... he went to get the bike ready miss.... he couldn't tell her that bobby ran out of the house."
+        },
+        {
+          "line": 133,
+          "text": "Dhika did not believe him, but did not say anything too. Bantu said bye fast and left the house too. She closed the door."
+        },
+        {
+          "line": 134,
+          "text": "Dhika: ooooh god..... they saw my boobs... what if they tell someone...... no no... they are sweet boys. They will not tell it to anyone. Bobby probably felt afraid and ran. Bantu is a sweet fellow, he won't get me into trouble."
+        },
+        {
+          "line": 135,
+          "text": "The whole evening she thought what to say next time she sees them. She couldn't wait to tell John. she felt so embarrassed and afraid what John might say."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-014",
+      "actor": "dhika",
+      "target": "john",
+      "state_tag": "disclosure_fear_vs_husband_reaction",
+      "channel": "spoken_and_private",
+      "access_evidenced": "spousal_trust",
+      "knowledge_visibility": "john_knows_twins_incident_only",
+      "episode_id": "E02",
+      "line_start": 137,
+      "line_end": 149,
+      "raw_lines": [
+        {
+          "line": 137,
+          "text": "Dhika: John, I have to tell you something..... she sounded nervous."
+        },
+        {
+          "line": 138,
+          "text": "John: looking at her.... what happened baby ?.... tell me."
+        },
+        {
+          "line": 139,
+          "text": "Dhika: Today something happened very embarrassing...... she dragged."
+        },
+        {
+          "line": 140,
+          "text": "John: feeling worried.... what happened.... did you fall down or something ? in front of others..."
+        },
+        {
+          "line": 141,
+          "text": "Dhika: oh I wish..... she said the whole incident until boys running away,.."
+        },
+        {
+          "line": 142,
+          "text": "Dhika: They saw my breasts..... I am feeling very embarrassed.. how will I face them hereafter."
+        },
+        {
+          "line": 143,
+          "text": "John looked at her for a moment... she thought he will scold her but he bursted into laughter."
+        },
+        {
+          "line": 144,
+          "text": "John: hehehehehe..... you frightened two boys with your boobs.... hehehe... he continued laughing."
+        },
+        {
+          "line": 145,
+          "text": "Dhika: angry at him.... stop it John....what will i do now.... stop laughing.. she started hitting him."
+        },
+        {
+          "line": 146,
+          "text": "John: ok ok.. hehe... stop stop...there is nothing to do..its not your fault..... the boys had a nice show and left.... hehe"
+        },
+        {
+          "line": 147,
+          "text": "Dhika: chiiiii..... how could you say that..... what nice show."
+        },
+        {
+          "line": 148,
+          "text": "John: relax baby... it was just an accident. I am sure the boys will forget it."
+        },
+        {
+          "line": 149,
+          "text": "John felt a little turned on to be honest. For ages he has been trying to make her look sexy in front of his friends but now two teenage boys got to see what John thought would never happen. He was so turned on thinking the situation, but Dhika was so worried and blabbering whole night on how she will face them."
+        }
+      ]
+    },
+    {
+      "id": "HEAT-E02-015",
+      "actor": "dhika",
+      "target": "chotu",
+      "state_tag": "chooses_new_visit_and_compares_opposite_reactions",
+      "channel": "inner_thought",
+      "access_evidenced": "chotu_absent_until_end",
+      "knowledge_visibility": "dhika_private",
+      "episode_id": "E02",
+      "line_start": 150,
+      "line_end": 155,
+      "raw_lines": [
+        {
+          "line": 150,
+          "text": "She woke up thinking about it and still feeling embarrassed. She didn't want to go college today and face them. She applied for a leave and then wanted to do something to change her mind. She could think of only one thing...... Chotu."
+        },
+        {
+          "line": 151,
+          "text": "Anyway, she moved on with her works for now...... she breast fed Pappu and then bathed and made him ready because today aunty and uncle were talking him to some temple. They do this often. About 10 am aunty came and took Pappu and left. They will be returning evening only."
+        },
+        {
+          "line": 152,
+          "text": "Once Pappu left, she decided to take a bath but suddenly she thought of Chotu. She thought to invite him and ask him about his sudden leaves. She called Maami and ordered a few items to be delivered, before confirming if anyone is available to deliver it. Maami's response gave her a smile."
+        },
+        {
+          "line": 153,
+          "text": "Dhika: okay Maami... along with those items please add two Chocobars and one small cup of vanilla ice cream to it Maami. She ordered and kept the call."
+        },
+        {
+          "line": 154,
+          "text": "She know that Chotu would take at least 20 minutes to come and decided to take a bath before that. While bathing, she remember what she did to Chotu last time....she was a little afraid if she offended or frightened Chotu but at the same time, she felt a little excited. Suddenly.......she also thought what makes her excited only in front of Chotu, where as in front of Bantu and Bobby, she got horrified....... perhaps because she is very comfortable with him just as he is..... as he always confides his worries to her and consults her for advice."
+        },
+        {
+          "line": 155,
+          "text": "She bathed and came out.... she dried her body and put on her bra and panty.......her hair was still wet.... She took a kurti to wear when suddenly another dress, which recently she saw.... caught her eye........."
         }
       ]
     }
