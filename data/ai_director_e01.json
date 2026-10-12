@@ -1,0 +1,1857 @@
+{
+  "schema_version": 1,
+  "kind": "ai_director_analysis",
+  "title": "Episode 01 — Director learning and hypothetical next-episode execution",
+  "training_scope": {
+    "canon_source": "raw/Dhika.txt",
+    "source_episode": "E01",
+    "learned_from_source_episodes": [
+      "E01"
+    ],
+    "hypothetical_next_episode": "E02_PROPOSED",
+    "read_existing_E02": false,
+    "actual_E02_canon": "not_consulted",
+    "canon_policy": "Nothing under proposed_execution is an observed event. Original E01 source remains immutable."
+  },
+  "separation_rules": {
+    "exact_source": "source_evidence[*].text and verified_highlight_spans[*].source_line are verbatim E01 text",
+    "labels": "Metadata/classification written by the AI, not author prose",
+    "predicted_action": "One named action or 'No touch', never staged description",
+    "consent": "Shared physical boundaries are never inferred from silent looks or previous nonconsensual behavior",
+    "minor": "Pappu is child/family-context only; no adult-intimacy metrics."
+  },
+  "reader_hook_highlights": [
+    {
+      "id": "UNCLE_CONCEALED_MOTIVE",
+      "episode_id": "E01",
+      "line": 19,
+      "phrase": "and as to Uncle, Dhika was a little more than that",
+      "span_start": 190,
+      "span_end": 240,
+      "relationship_id": "dhika_uncle",
+      "category": "reader-knowledge-gap",
+      "director_significance": "Author introduces trusted caretaker identity plus a private, conflicting motive.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Aunty and Uncle, both in their early 60s lived next door, were almost like second guardians for Dhika and John. Having no heir to themselves, Aunty treated Dhika and John like her own kids, and as to Uncle, Dhika was a little more than that. With his marital life stale, and Dhika being the gorgeous next door girl,... he never missed a chance to ogle at her."
+    },
+    {
+      "id": "UNCLE_SECRECY",
+      "episode_id": "E01",
+      "line": 20,
+      "phrase": "he never let Dhika or John know anything about it",
+      "span_start": 5,
+      "span_end": 54,
+      "relationship_id": "dhika_uncle",
+      "category": "secrecy",
+      "director_significance": "Only narrator/reader knows; his outward character does not disclose interest.",
+      "quote_status": "verified_exact_span",
+      "source_line": "But, he never let Dhika or John know anything about it, and especially his wife."
+    },
+    {
+      "id": "BANTU_EXPECTATION",
+      "episode_id": "E01",
+      "line": 42,
+      "phrase": "Dhika secretly expects it",
+      "span_start": 205,
+      "span_end": 230,
+      "relationship_id": "dhika_bantu",
+      "category": "internal-reveal",
+      "director_significance": "A habitual compliment has shifted from tolerated to anticipated, but Bantu has not heard that confession.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Bantu never failed to compliment his teacher every single day. Initially, she felt uncomfortable when he said pretty, but over time Bantu being her favourite and all, she started to liked it and nowadays, Dhika secretly expects it."
+    },
+    {
+      "id": "BOBBY_SHY_NOT_TIMID",
+      "episode_id": "E01",
+      "line": 40,
+      "phrase": "very shy but not anywhere near timid",
+      "span_start": 127,
+      "span_end": 163,
+      "relationship_id": "dhika_bobby",
+      "category": "contrast-seed",
+      "director_significance": "One phrase gives a reason to expect quietness and unexpected initiative can coexist.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Bantu was the charming, always talking one, and he does know how to put a smile on someone's face. Bobby on the other hand was very shy but not anywhere near timid. He does talk freely, but only with Bantu and that always intrigued Dhika."
+    },
+    {
+      "id": "SHARMI_COMPARISON",
+      "episode_id": "E01",
+      "line": 59,
+      "phrase": "a bit envious of Dhika",
+      "span_start": 64,
+      "span_end": 86,
+      "relationship_id": "dhika_sharmi",
+      "category": "social-contrast",
+      "director_significance": "Friendship stays real despite playful social comparison; no present betrayal is established.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Even though Sharmi was quite attractive herself, she was always a bit envious of Dhika who despite covering her whole body from head to toe, looked more attractive and had many fan followers. Even Sharmi's husband Raj had complemented the beauty of Dhika, and Sharmi knew how hard was it to impress him."
+    },
+    {
+      "id": "UNCLE_PRIVATE_INTRUSION",
+      "episode_id": "E01",
+      "line": 65,
+      "phrase": "fingers fiddling with her bra",
+      "span_start": 16,
+      "span_end": 45,
+      "relationship_id": "dhika_uncle",
+      "category": "boundary-breach",
+      "director_significance": "Private violation undercuts the trusted-neighbor baseline; not mutual contact.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Eyes closed,... fingers fiddling with her bra,... Uncle imagined two milky breasts filled in those little cups,... struggling to spill out of the enclosure,....... and a tiny set of fingers caressing the top of those bulging breasts......"
+    },
+    {
+      "id": "BANTU_FALSE_REASON",
+      "episode_id": "E01",
+      "line": 88,
+      "phrase": "There was nothing wrong with the bike.",
+      "span_start": 0,
+      "span_end": 38,
+      "relationship_id": "dhika_bantu",
+      "category": "reader-reveal",
+      "director_significance": "Reader learns transport excuse was manufactured before Dhika does.",
+      "quote_status": "verified_exact_span",
+      "source_line": "There was nothing wrong with the bike. Bantu wanted to ride with Dhika"
+    },
+    {
+      "id": "BANTU_VISUAL_GAZE",
+      "episode_id": "E01",
+      "line": 90,
+      "phrase": "apple like ass jiggling lightly",
+      "span_start": 114,
+      "span_end": 145,
+      "relationship_id": "dhika_bantu",
+      "category": "attention-cue",
+      "director_significance": "Specific physical description shifts into character-filtered noticing during a three-person scene.",
+      "quote_status": "verified_exact_span",
+      "source_line": "She took her bag and went to the parking lot. Both the boys followed a little behind her. Bantu saw her beautiful apple like ass jiggling lightly when she walked. He also saw innocent Bobby looking at her ass. He hit Bobby lightly in his shoulders and winked at him. Bobby blushed and returned a smile."
+    },
+    {
+      "id": "TWIN_COMPETITION",
+      "episode_id": "E01",
+      "line": 93,
+      "phrase": "Bantu wanted to sit close to Dhika.",
+      "span_start": 0,
+      "span_end": 35,
+      "relationship_id": "bantu_bobby",
+      "category": "rivalry",
+      "director_significance": "Bantu's desired positioning and Bobby's initiative are separated.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Bantu wanted to sit close to Dhika. He was about to tell something when he saw Bobby run and climb the bike before him. Scolding inside... he too got in the bike and they started to leave."
+    },
+    {
+      "id": "DHIKA_BOUNDARY_INSTRUCTION",
+      "episode_id": "E01",
+      "line": 94,
+      "phrase": "Bobby, you can hold me so that you don't miss balance.",
+      "span_start": 7,
+      "span_end": 61,
+      "relationship_id": "dhika_bobby",
+      "category": "boundary-specified",
+      "director_significance": "The spoken instruction establishes the contact context before behavior differs.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Dhika: Bobby, you can hold me so that you don't miss balance. Bantu, hold and sit Bobby."
+    },
+    {
+      "id": "BOBBY_DISREGARDS_INSTRUCTION",
+      "episode_id": "E01",
+      "line": 97,
+      "phrase": "instead of holding her shoulders",
+      "span_start": 52,
+      "span_end": 84,
+      "relationship_id": "dhika_bobby",
+      "category": "boundary-discrepancy",
+      "director_significance": "Actual contact is inconsistent with the instruction; no permission can be assumed.",
+      "quote_status": "verified_exact_span",
+      "source_line": "He did something which Dhika did not expect. Bobby, instead of holding her shoulders, put both his hands around her hip and held her stomach tightly."
+    },
+    {
+      "id": "BOBBY_SECRET",
+      "episode_id": "E01",
+      "line": 106,
+      "phrase": "Only Bobby know what all he did",
+      "span_start": 95,
+      "span_end": 126,
+      "relationship_id": "bantu_bobby",
+      "category": "secret-within-group",
+      "director_significance": "Group members carry distinct knowledge after sharing the same ride.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Dhika said her byes and left. Bantu started cursing Bobby for running and sitting next to her. Only Bobby know what all he did but didn't want to tell Bantu and make him more sad."
+    },
+    {
+      "id": "UNCLE_CLUE_MISREAD",
+      "episode_id": "E01",
+      "line": 114,
+      "phrase": "thought may be it slipped and fell down slowly",
+      "span_start": 228,
+      "span_end": 274,
+      "relationship_id": "dhika_uncle",
+      "category": "dramatic-irony",
+      "director_significance": "Dhika has the object clue but not an accurate explanation.",
+      "quote_status": "verified_exact_span",
+      "source_line": "She noticed one bra was drying in the sink and one bra was lying on the floor. She left it at the side of the tap on the sink. No one else comes to her house expect aunty or uncle to take milk from fridge. she took it light and thought may be it slipped and fell down slowly. She is very innocent and did not suspect anything else."
+    },
+    {
+      "id": "CHOTU_SIBLING_FRAME",
+      "episode_id": "E01",
+      "line": 119,
+      "phrase": "she thought Chotu like her brother",
+      "span_start": 287,
+      "span_end": 321,
+      "relationship_id": "dhika_chotu",
+      "category": "baseline",
+      "director_significance": "Source starts with a family-like label; later attraction must not be backdated into all earlier care.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Initially Chotu used to stand outside and deliver and leave. Later when she got acquainted with him, she invited him inside to give him tea. Chotu was happy to be in the presence of her and he would drink tea and play with Pappu 2 mins and leave. Over the months, the two got closer and she thought Chotu like her brother. He told her all the problems in his family and she used to give him advice to make more money in his free time."
+    },
+    {
+      "id": "CHOTU_FIRST_UNCERTAINTY",
+      "episode_id": "E01",
+      "line": 151,
+      "phrase": "She didn't understand what to feel.",
+      "span_start": 249,
+      "span_end": 284,
+      "relationship_id": "dhika_chotu",
+      "category": "mixed-reaction",
+      "director_significance": "Unresolved internal interpretation is explicitly left open.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Dhika couldn't be sure if he saw her cleavage or her bra or what if something more was visible. She felt a little frightened but at the same time she felt a little excited. Nothing like this has happened to her and this was a new experience to her. She didn't understand what to feel."
+    },
+    {
+      "id": "CHOTU_ALTERNATE_EXPLANATION",
+      "episode_id": "E01",
+      "line": 157,
+      "phrase": "thinking about his poor family situation",
+      "span_start": 110,
+      "span_end": 150,
+      "relationship_id": "dhika_chotu",
+      "category": "character-misreading",
+      "director_significance": "Her practical explanation differs from the uncertain previous exchange.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Upon hearing Maami saying about Chotu, she felt bad for him and thought that he was in a dream state probably thinking about his poor family situation. She left her thoughts there and went back to work."
+    },
+    {
+      "id": "DHIKA_REVISITS_EVENT",
+      "episode_id": "E01",
+      "line": 168,
+      "phrase": "not out of fear but out of excitement",
+      "span_start": 40,
+      "span_end": 77,
+      "relationship_id": "dhika_chotu",
+      "category": "private-turn",
+      "director_significance": "Inner state is revisited after the external encounter ends.",
+      "quote_status": "verified_exact_span",
+      "source_line": "A strange thought entered her mind..... not out of fear but out of excitement. She felt a tingle down the spine. Did he see parts of my breast ........ she felt an unconscious smile appearing on her lips. She came back to reality, pushed the thoughts out of her mind and went to sleep."
+    },
+    {
+      "id": "BANTU_PRAISE_CALLBACK",
+      "episode_id": "E01",
+      "line": 199,
+      "phrase": "She remembered Bantu calling her pretty everyday",
+      "span_start": 0,
+      "span_end": 48,
+      "relationship_id": "dhika_chotu",
+      "category": "cross-track-callback",
+      "director_significance": "Author ties a second encounter to a remembered earlier compliment without a shared meeting.",
+      "quote_status": "verified_exact_span",
+      "source_line": "She remembered Bantu calling her pretty everyday and she liked when someone complimented her."
+    },
+    {
+      "id": "CHOTU_PRIVATE_SHIFT",
+      "episode_id": "E01",
+      "line": 205,
+      "phrase": "He felt a little crush on her.",
+      "span_start": 144,
+      "span_end": 174,
+      "relationship_id": "dhika_chotu",
+      "category": "narrator-reveal",
+      "director_significance": "Reader receives Chotu's change in perception that Dhika has not heard from him.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Chotu did not understand but did not ask anything too. He just realized that Dhika looked very beautiful and her skin looked so white and soft. He felt a little crush on her. He has always liked her because of her kindness but this is the first time he saw her as a beautiful woman."
+    },
+    {
+      "id": "DHIKA_CONSCIOUS_QUESTION",
+      "episode_id": "E01",
+      "line": 212,
+      "phrase": "a great urge to find if he would see",
+      "span_start": 106,
+      "span_end": 142,
+      "relationship_id": "dhika_chotu",
+      "category": "choice-point",
+      "director_significance": "Internal question motivates a deliberate test, unlike the previous unexpected incident.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Suddenly a thought came to her mind. She wasn't sure if Chotu saw inside her dress yesterday and she felt a great urge to find if he would see. This was not her.... she has never done anything like this and she didn't know what to do."
+    },
+    {
+      "id": "CHOTU_LINE_OF_SIGHT",
+      "episode_id": "E01",
+      "line": 217,
+      "phrase": "He could see only like 1/3rd",
+      "span_start": 87,
+      "span_end": 115,
+      "relationship_id": "dhika_chotu",
+      "category": "observation-extent",
+      "director_significance": "Narrator explicitly limits what was seen; preserve exact extent as source, never invent more.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Chotu was shocked and wide eyed looking at the so cream colored boobs in front of him. He could see only like 1/3rd of her boobs but still he has never seen anything like this apart from movies. He was so stunned and lost in the sight."
+    },
+    {
+      "id": "EYES_MEET",
+      "episode_id": "E01",
+      "line": 220,
+      "phrase": "Their eyes met.",
+      "span_start": 0,
+      "span_end": 15,
+      "relationship_id": "dhika_chotu",
+      "category": "payoff",
+      "director_significance": "Eye contact pays off the attention question, not a relationship declaration.",
+      "quote_status": "verified_exact_span",
+      "source_line": "Their eyes met."
+    },
+    {
+      "id": "CHOTU_DEPARTURE",
+      "episode_id": "E01",
+      "line": 222,
+      "phrase": "took the money she gave earlier and left",
+      "span_start": 31,
+      "span_end": 71,
+      "relationship_id": "dhika_chotu",
+      "category": "unresolved-exit",
+      "director_significance": "Money is already collected here; do not reuse unpaid bill as an E02 plot reason.",
+      "quote_status": "verified_exact_span",
+      "source_line": "In a second Chotu stood up and took the money she gave earlier and left with a bye which sounded from very far."
+    }
+  ],
+  "group_encounters": [
+    {
+      "id": "E01-G01",
+      "source_episode": "E01",
+      "source_line_ranges": [
+        {
+          "start": 70,
+          "end": 80
+        },
+        {
+          "start": 81,
+          "end": 89
+        },
+        {
+          "start": 90,
+          "end": 106
+        }
+      ],
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "purpose": "Three-person ride with participant-specific motives and unequal information. A group event is not three duplicated copies of one scene.",
+      "shared_scene_refs": [
+        "E01-B012",
+        "E01-B013",
+        "E01-B014",
+        "E01-B015",
+        "E01-B016",
+        "E01-B017",
+        "E01-B018",
+        "E01-B019"
+      ],
+      "participant_tracks": [
+        {
+          "id": "dhika",
+          "public_goal": "Agree to transport help and keep both passengers safe",
+          "known_to_character": [
+            "Bantu requested a lift",
+            "Bobby seated in middle",
+            "Her safety instruction differed from his conduct"
+          ],
+          "unknown_to_character": [
+            "The fuel excuse was false",
+            "Full reasons for twins' rivalry"
+          ],
+          "source_lines": [
+            81,
+            89,
+            91,
+            94,
+            97,
+            98,
+            99,
+            100,
+            101,
+            106
+          ],
+          "boundary_state": "Contact instruction stated; unrequested contact later occurs, her silence is not consent."
+        },
+        {
+          "id": "bantu",
+          "public_goal": "Get a lift",
+          "private_goal": "Sit close to Dhika",
+          "known_to_character": [
+            "The fuel excuse is untrue",
+            "Bobby took middle seat"
+          ],
+          "unknown_to_character": [
+            "Bobby's withheld ride details"
+          ],
+          "source_lines": [
+            81,
+            88,
+            90,
+            91,
+            93,
+            95,
+            103,
+            105,
+            106
+          ],
+          "boundary_state": "No intimate contact with Dhika evidenced during ride."
+        },
+        {
+          "id": "bobby",
+          "public_goal": "Accept offered lift",
+          "private_goal": "Use seat opportunity he selects",
+          "known_to_character": [
+            "He disregarded Dhika's hand-placement instruction",
+            "He concealed further ride details from Bantu"
+          ],
+          "unknown_to_character": [
+            "Dhika's full interior feelings and interpretations"
+          ],
+          "source_lines": [
+            79,
+            80,
+            90,
+            91,
+            92,
+            93,
+            94,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            106
+          ],
+          "boundary_state": "Unrequested contact, not mutual escalation."
+        }
+      ],
+      "director_checkpoint": "Write three independent intention/knowledge/action states; avoid pasting the same full group passage under both Bantu and Bobby."
+    }
+  ],
+  "author_mechanics_learned": [
+    {
+      "id": "LEARN01",
+      "rule": "Seed character contradiction early",
+      "proof": [
+        "BOBBY_SHY_NOT_TIMID",
+        "TWIN_COMPETITION"
+      ],
+      "director_usage": "Preserve quiet public persona while allowing individually evidenced agency; do not assume passive shyness."
+    },
+    {
+      "id": "LEARN02",
+      "rule": "Raise questions via audience advantage",
+      "proof": [
+        "UNCLE_SECRECY",
+        "UNCLE_CLUE_MISREAD",
+        "BANTU_FALSE_REASON"
+      ],
+      "director_usage": "Readers may know more than Dhika; later dialogue cannot contain facts the character never learned."
+    },
+    {
+      "id": "LEARN03",
+      "rule": "Use a repeat event but change character choice",
+      "proof": [
+        "CHOTU_FIRST_UNCERTAINTY",
+        "DHIKA_CONSCIOUS_QUESTION"
+      ],
+      "director_usage": "Track what changed between first unplanned notice and later deliberate action."
+    },
+    {
+      "id": "LEARN04",
+      "rule": "Physical specificity is authored through an observer",
+      "proof": [
+        "BANTU_VISUAL_GAZE",
+        "CHOTU_LINE_OF_SIGHT"
+      ],
+      "director_usage": "The source states what someone notices, including an extent; separate viewed detail from action and permission."
+    },
+    {
+      "id": "LEARN05",
+      "rule": "Retain routine props as causal engines",
+      "proof": [
+        "BANTU_FALSE_REASON",
+        "CHOTU_DEPARTURE"
+      ],
+      "director_usage": "Create believable new logistics; don't re-use paid bill or assume an undeclared ride motive."
+    },
+    {
+      "id": "LEARN06",
+      "rule": "Leave a reaction unresolved to sustain curiosity",
+      "proof": [
+        "BOBBY_SECRET",
+        "CHOTU_FIRST_UNCERTAINTY",
+        "EYES_MEET",
+        "CHOTU_DEPARTURE"
+      ],
+      "director_usage": "A gaze or departure is not a relationship agreement; next scene can address the missing dialogue."
+    }
+  ],
+  "proposed_execution": {
+    "scenario_type": "Director exercise only; possible next episode after E01, not actual E02 canon",
+    "episode_pace": "Saturday aftermath -> explicit jump to Monday college -> Monday evening return; never accidentally treat Sunday as school day",
+    "ordered_scenes": [
+      {
+        "scene_id": "DIRECTOR-E02-S01",
+        "order": 1,
+        "when": "Saturday, immediately after E01 final exit",
+        "setting": "Dhika's living room, after Chotu leaves",
+        "characters": [
+          "dhika"
+        ],
+        "setup": "Her prior deliberate choice has concluded; nobody verbally defined the moment.",
+        "conversation_about": "Private internal question: why did she initiate a test, what was actually confirmed, what remains uncertain? Not a confession to Chotu.",
+        "physical_action_name": "Adjusting shawl",
+        "physical_boundary_forecast": "self-directed clothing gesture; no shared physical contact",
+        "narrative_heat": 3,
+        "reader_curiosity": 4,
+        "conversation_mode": "inner_monologue_only",
+        "e01_evidence": [
+          168,
+          209,
+          210,
+          212,
+          220,
+          222,
+          223,
+          224
+        ],
+        "canon_boundary": "E01 states he collected the money before leaving; no unpaid balance remains.",
+        "character_changes_if_written": {
+          "dhika": "self-awareness moves from surprise to deliberate reflection"
+        },
+        "hook": "Does she reconsider her choice, or deliberately avoid the subject?",
+        "source_evidence": [
+          {
+            "episode_id": "E01",
+            "line": 168,
+            "text": "A strange thought entered her mind..... not out of fear but out of excitement. She felt a tingle down the spine. Did he see parts of my breast ........ she felt an unconscious smile appearing on her lips. She came back to reality, pushed the thoughts out of her mind and went to sleep."
+          },
+          {
+            "episode_id": "E01",
+            "line": 209,
+            "text": "Dhika: Chotu too thinks me as beautiful. am I really still beautiful after having one kid...."
+          },
+          {
+            "episode_id": "E01",
+            "line": 210,
+            "text": "Suddenly she remembered her yesterday's bending down and her thoughts at night. Unknown to her, something took over her and she felt very very excited. Not knowing what happened next, she removed her dupatta slowly and looked at herself in mirror."
+          },
+          {
+            "episode_id": "E01",
+            "line": 212,
+            "text": "Suddenly a thought came to her mind. She wasn't sure if Chotu saw inside her dress yesterday and she felt a great urge to find if he would see. This was not her.... she has never done anything like this and she didn't know what to do."
+          },
+          {
+            "episode_id": "E01",
+            "line": 220,
+            "text": "Their eyes met."
+          },
+          {
+            "episode_id": "E01",
+            "line": 222,
+            "text": "In a second Chotu stood up and took the money she gave earlier and left with a bye which sounded from very far."
+          },
+          {
+            "episode_id": "E01",
+            "line": 223,
+            "text": "Dhika could not believe what she just did and still feeling very excited, she dropped the cloth on the floor and from the position of all fours, she just flipped and dropped on her back, laying down....then and there on the floor."
+          },
+          {
+            "episode_id": "E01",
+            "line": 224,
+            "text": "She covered her face with all excitement and blushing and shyness and this time she felt a tingle ...... not down her spine but .... down there in-between her legs"
+          }
+        ]
+      },
+      {
+        "scene_id": "DIRECTOR-E02-S02",
+        "order": 2,
+        "when": "Saturday, following the exit",
+        "setting": "Bindu Maami's department store",
+        "characters": [
+          "chotu",
+          "maami"
+        ],
+        "setup": "Chotu returns to normal work after his abrupt departure.",
+        "conversation_about": "Delivery routine, whether any further deliveries are pending, and family responsibilities. No forced confession.",
+        "physical_action_name": "Stocking shelves",
+        "physical_boundary_forecast": "none_between_characters",
+        "narrative_heat": 2,
+        "reader_curiosity": 4,
+        "conversation_mode": "ordinary_dialogue_with_hidden_thought",
+        "e01_evidence": [
+          118,
+          119,
+          150,
+          155,
+          176,
+          180,
+          205,
+          222
+        ],
+        "canon_boundary": "Do not use the already paid E01 bill as a plot device.",
+        "character_changes_if_written": {
+          "chotu": "his private reaction is contrasted against the 'didi' work identity"
+        },
+        "hook": "Will his behavior remain distant if work brings them together again?",
+        "source_evidence": [
+          {
+            "episode_id": "E01",
+            "line": 118,
+            "text": "Chotu's real name is Babu, a 19 year old boy, who works at the departmental store. He is the one who always delivers products in and around her apartments. She has know Chotu for almost a year now and she felt bad for him as he left his studies and came to work to support his family. She was always kind to him by giving him extra tips for delivery and tea or coffee when he comes to deliver. Chotu is also very good and always polite with her. He always brought a chocolate to Pappu whenever he came."
+          },
+          {
+            "episode_id": "E01",
+            "line": 119,
+            "text": "Initially Chotu used to stand outside and deliver and leave. Later when she got acquainted with him, she invited him inside to give him tea. Chotu was happy to be in the presence of her and he would drink tea and play with Pappu 2 mins and leave. Over the months, the two got closer and she thought Chotu like her brother. He told her all the problems in his family and she used to give him advice to make more money in his free time."
+          },
+          {
+            "episode_id": "E01",
+            "line": 150,
+            "text": "Chotu: Errrr...... nothing didi. Just .... he gulped the juice and said it is getting late and left without even getting the money from her."
+          },
+          {
+            "episode_id": "E01",
+            "line": 155,
+            "text": "Maami: He said he wanted to leave soon and I let him go..... poor kid has to go home and help his mother too. He works very hard."
+          },
+          {
+            "episode_id": "E01",
+            "line": 176,
+            "text": "Chotu: Scratching his head...... haaaannn didi... I suddenly remembered a work mom gave and had to run..he lied."
+          },
+          {
+            "episode_id": "E01",
+            "line": 180,
+            "text": "Chotu: its my lunch time didi..... I only have an hour to go home eat and come back.. soon didi...give me the money."
+          },
+          {
+            "episode_id": "E01",
+            "line": 205,
+            "text": "Chotu did not understand but did not ask anything too. He just realized that Dhika looked very beautiful and her skin looked so white and soft. He felt a little crush on her. He has always liked her because of her kindness but this is the first time he saw her as a beautiful woman."
+          },
+          {
+            "episode_id": "E01",
+            "line": 222,
+            "text": "In a second Chotu stood up and took the money she gave earlier and left with a bye which sounded from very far."
+          }
+        ]
+      },
+      {
+        "scene_id": "DIRECTOR-E02-S03",
+        "order": 3,
+        "when": "Saturday evening (subject to John's stated return time)",
+        "setting": "Dhika and John's home",
+        "characters": [
+          "dhika",
+          "john"
+        ],
+        "setup": "John said his production incident might keep him until evening; any return needs to be shown, not assumed.",
+        "conversation_about": "Production outage, exhaustion, household plans, weekend time, Dhika's day without forcing disclosure.",
+        "physical_action_name": "Consensual embrace",
+        "physical_boundary_forecast": "ordinary spousal affection; not a new relationship threshold",
+        "narrative_heat": 2,
+        "reader_curiosity": 3,
+        "conversation_mode": "intimate_domestic_dialogue",
+        "e01_evidence": [
+          11,
+          12,
+          158,
+          159,
+          161,
+          162,
+          163,
+          171,
+          172
+        ],
+        "canon_boundary": "No source basis for calling John uncaring, suspicious or unfaithful.",
+        "character_changes_if_written": {
+          "john": "relationship remains caring while his job pressure stays credible",
+          "dhika": "contrasts familiar safety with an unresolved private question"
+        },
+        "hook": "What does Dhika choose to share, if anything?",
+        "source_evidence": [
+          {
+            "episode_id": "E01",
+            "line": 11,
+            "text": "Husband    : John"
+          },
+          {
+            "episode_id": "E01",
+            "line": 12,
+            "text": "Dhika is a high college teacher, teaching Physics to senior students. Her kind hearted nature makes her the most favorite of her students and she does take special care in helping any student who is in need. She was married a few years ago and has a 2 year old son.She lives with her family in a nice apartment in the outskirts of a city."
+          },
+          {
+            "episode_id": "E01",
+            "line": 158,
+            "text": "It was 8 PM and still John did not come. Usually he tries to come a little early on Friday nights and try to have some good time with her... but he was very late today. She thought something must be urgent in office and kept waiting. After few minutes, she got a call from John."
+          },
+          {
+            "episode_id": "E01",
+            "line": 159,
+            "text": "John: Baby, I will not be coming home today. There is a huge production issue and everyone is staying back to fix it...... so sorry my dear."
+          },
+          {
+            "episode_id": "E01",
+            "line": 161,
+            "text": "Dhika: ohhh..... but its Friday night banana . No one has to work on Friday late evening. She understood the situation but still tired to play with him like usual. (  Childish play, not naughty play)"
+          },
+          {
+            "episode_id": "E01",
+            "line": 162,
+            "text": "John: I have to go baby, I will come tomorrow morning. He said kisses and kept the call."
+          },
+          {
+            "episode_id": "E01",
+            "line": 163,
+            "text": "Dhika understood the situation, John was always a good worker and he loved his job just as much as he lover her. She knew that from the initial days of her marriage itself and it is one of the things she admires about him."
+          },
+          {
+            "episode_id": "E01",
+            "line": 171,
+            "text": "It was around 10 PM when John called her, while she was feeding Pappu. He asked about them and then informed that issue is still going on he would come by evening. He said that he had refreshed in office itself and that he will come evening and take bath. She teased him playfully that he would be stinking when he comes home."
+          },
+          {
+            "episode_id": "E01",
+            "line": 172,
+            "text": "She finished feeding Pappu and took him to bath. She bathed him, put him in front of TV and she also bathed. She didn't have anywhere to go, so she wore a casual sleeveless low cut salwar. John had brought it for her and she wears it only at home. Later she played sometime with Pappu and they watched TV for a while and then afternoon only after she put Pappu to sleep, she remembered something. She has not paid money to Maami yet. She didn't want to change her dress and go out. So she called Maami and asked to send Chotu if he was free."
+          }
+        ]
+      },
+      {
+        "scene_id": "DIRECTOR-E02-S04",
+        "order": 4,
+        "when": "Monday morning; requires an explicit weekend time jump",
+        "setting": "College, before classes",
+        "characters": [
+          "bantu",
+          "bobby"
+        ],
+        "setup": "Twins reconvene after the previous ride; no school scene is placed on Sunday by accident.",
+        "conversation_about": "Bantu's frustration over the middle seat, Bobby's evasiveness, and whether they acknowledge the fabricated excuse.",
+        "physical_action_name": "Shoulder tap",
+        "physical_boundary_forecast": "twin-to-twin friendly contact only",
+        "narrative_heat": 2,
+        "reader_curiosity": 4,
+        "conversation_mode": "teasing_argument_subtext",
+        "e01_evidence": [
+          39,
+          40,
+          41,
+          88,
+          90,
+          91,
+          92,
+          93,
+          95,
+          106
+        ],
+        "canon_boundary": "Bantu does not automatically know Bobby's private actions.",
+        "character_changes_if_written": {
+          "bantu": "more alert to twin's unexpected initiative",
+          "bobby": "quiet exterior persists alongside selective withholding"
+        },
+        "hook": "Will rivalry turn into candid disagreement or continue privately?",
+        "source_evidence": [
+          {
+            "episode_id": "E01",
+            "line": 39,
+            "text": "Bantu and Bobby are twins, and her most favourite students. Very studious and always behind her. Well, Bantu was always behind her and Bobby just followed him around."
+          },
+          {
+            "episode_id": "E01",
+            "line": 40,
+            "text": "Bantu was the charming, always talking one, and he does know how to put a smile on someone's face. Bobby on the other hand was very shy but not anywhere near timid. He does talk freely, but only with Bantu and that always intrigued Dhika."
+          },
+          {
+            "episode_id": "E01",
+            "line": 41,
+            "text": "Out of her two favourites, Dhika liked Bobby a bit more because one, he looked a little chubby and two,... he was always a little more shier around her."
+          },
+          {
+            "episode_id": "E01",
+            "line": 88,
+            "text": "There was nothing wrong with the bike. Bantu wanted to ride with Dhika"
+          },
+          {
+            "episode_id": "E01",
+            "line": 90,
+            "text": "She took her bag and went to the parking lot. Both the boys followed a little behind her. Bantu saw her beautiful apple like ass jiggling lightly when she walked. He also saw innocent Bobby looking at her ass. He hit Bobby lightly in his shoulders and winked at him. Bobby blushed and returned a smile."
+          },
+          {
+            "episode_id": "E01",
+            "line": 91,
+            "text": "Dhika: okay dears....lets go.. Bobby, give your bag to Bantu and climb in the middle. Bantu can sit behind you."
+          },
+          {
+            "episode_id": "E01",
+            "line": 92,
+            "text": "Bobby: okay miss.... He was secretly smiling. He wanted to sit close to her but didn't have courage to tell that to Bantu."
+          },
+          {
+            "episode_id": "E01",
+            "line": 93,
+            "text": "Bantu wanted to sit close to Dhika. He was about to tell something when he saw Bobby run and climb the bike before him. Scolding inside... he too got in the bike and they started to leave."
+          },
+          {
+            "episode_id": "E01",
+            "line": 95,
+            "text": "Bantu: hrrrrrr...... okay miss. he said sadly."
+          },
+          {
+            "episode_id": "E01",
+            "line": 106,
+            "text": "Dhika said her byes and left. Bantu started cursing Bobby for running and sitting next to her. Only Bobby know what all he did but didn't want to tell Bantu and make him more sad."
+          }
+        ]
+      },
+      {
+        "scene_id": "DIRECTOR-E02-S05",
+        "order": 5,
+        "when": "Monday morning, at college",
+        "setting": "College staff corridor / staff room",
+        "characters": [
+          "dhika",
+          "sharmi"
+        ],
+        "setup": "Sharmi's familiarity is positioned against Dhika's inward distraction.",
+        "conversation_about": "Weekend, work, Bantu's compliments if Dhika volunteers the topic, and playful differences in self-presentation.",
+        "physical_action_name": "Friendly shoulder touch",
+        "physical_boundary_forecast": "friendship-coded; no sexual progression",
+        "narrative_heat": 1,
+        "reader_curiosity": 3,
+        "conversation_mode": "quick_banter_then_optional_confidence",
+        "e01_evidence": [
+          42,
+          52,
+          54,
+          55,
+          56,
+          57,
+          59,
+          60,
+          61,
+          62,
+          63,
+          199
+        ],
+        "canon_boundary": "Sharmi has not been told about Chotu, Uncle's conduct or bike contact in E01.",
+        "character_changes_if_written": {
+          "sharmi": "remains a warm foil with mild envy, not an invented antagonist",
+          "dhika": "chooses privacy or disclosure on-page"
+        },
+        "hook": "Could Sharmi become a confidante, and what would she actually be told?",
+        "source_evidence": [
+          {
+            "episode_id": "E01",
+            "line": 42,
+            "text": "Bantu never failed to compliment his teacher every single day. Initially, she felt uncomfortable when he said pretty, but over time Bantu being her favourite and all, she started to liked it and nowadays, Dhika secretly expects it."
+          },
+          {
+            "episode_id": "E01",
+            "line": 52,
+            "text": "Sharmi: Oi, Big Girl...."
+          },
+          {
+            "episode_id": "E01",
+            "line": 54,
+            "text": "Pinching Dhika's waist,... a bubbly character pulled beside her....."
+          },
+          {
+            "episode_id": "E01",
+            "line": 55,
+            "text": "Sharmi, the bubbly character was Dhika's childhood friend,... college mate, college mate, and best friend,.... and just as good hearted as Dhika, but only not as shy as her. With eyes bigger than Dhika's, Sharmi had even fuller lips, and both those big eyes and full lips never settled down, always twinkling naughtiness."
+          },
+          {
+            "episode_id": "E01",
+            "line": 56,
+            "text": "Though being from a rich background, Sharmi never showed it to Dhika,... and wanting to be with her friend, Sharmi had taken a job at the same college where Dhika taught."
+          },
+          {
+            "episode_id": "E01",
+            "line": 57,
+            "text": "Unlike Dhika, Sharmi was quite the opposite of conservative."
+          },
+          {
+            "episode_id": "E01",
+            "line": 59,
+            "text": "Even though Sharmi was quite attractive herself, she was always a bit envious of Dhika who despite covering her whole body from head to toe, looked more attractive and had many fan followers. Even Sharmi's husband Raj had complemented the beauty of Dhika, and Sharmi knew how hard was it to impress him."
+          },
+          {
+            "episode_id": "E01",
+            "line": 60,
+            "text": "Sharmi constantly teased Dhika that she was particularly jealous(  on a playful side) of something that Dhika had it much bigger than of her own."
+          },
+          {
+            "episode_id": "E01",
+            "line": 61,
+            "text": "Dhika: Hehe, dutt... Don't start in the morning itself."
+          },
+          {
+            "episode_id": "E01",
+            "line": 62,
+            "text": "Dhika: And like you have something bigger than most... she put her tongue out."
+          },
+          {
+            "episode_id": "E01",
+            "line": 63,
+            "text": "Giggling and laughing, both entered the college....."
+          },
+          {
+            "episode_id": "E01",
+            "line": 199,
+            "text": "She remembered Bantu calling her pretty everyday and she liked when someone complimented her."
+          }
+        ]
+      },
+      {
+        "scene_id": "DIRECTOR-E02-S06",
+        "order": 6,
+        "when": "Monday after the twins' private conversation",
+        "setting": "College corridor / academic discussion area",
+        "characters": [
+          "dhika",
+          "bantu",
+          "bobby"
+        ],
+        "setup": "All three meet in a legitimate student–teacher context. The prior ride is remembered differently by each.",
+        "conversation_about": "Classwork and transport logistics; Bantu may awkwardly raise the lift, Bobby may deflect, Dhika can restate comfort/boundary expectations.",
+        "physical_action_name": "Handing over notebook",
+        "physical_boundary_forecast": "professional object exchange; no new intimate contact predicted",
+        "narrative_heat": 3,
+        "reader_curiosity": 4,
+        "conversation_mode": "three_person_dialogue_with_silent_subtext",
+        "e01_evidence": [
+          39,
+          40,
+          42,
+          70,
+          77,
+          79,
+          80,
+          81,
+          88,
+          90,
+          91,
+          93,
+          94,
+          97,
+          98,
+          99,
+          100,
+          101,
+          106
+        ],
+        "canon_boundary": "Bobby's prior contact was not invited; future actions must respect Dhika's choice and teacher–student context.",
+        "group_encounter_id": "E01-G01",
+        "participant_execution": [
+          {
+            "character": "bantu",
+            "spoken_surface": "Course and transport excuse",
+            "hidden_state": "Wanted proximity and resents seat outcome",
+            "next_decision": "Does he pursue truth or maintain his earlier deception?",
+            "action_name": "Handing notebook"
+          },
+          {
+            "character": "bobby",
+            "spoken_surface": "Short replies about coursework",
+            "hidden_state": "Knows his earlier contact differed from instruction",
+            "next_decision": "Does he correct course or remain silent?",
+            "action_name": "Receiving notebook"
+          },
+          {
+            "character": "dhika",
+            "spoken_surface": "Coursework and boundary expectations",
+            "hidden_state": "Remembers the discomfort without having confronted him",
+            "next_decision": "Does she address the previous ride directly?",
+            "action_name": "Accepting notebook"
+          }
+        ],
+        "character_changes_if_written": {
+          "dhika": "can exercise explicit agency without relying on silent embarrassment",
+          "bantu": "sees a difference between he and Bobby",
+          "bobby": "encounters clearer boundaries"
+        },
+        "hook": "Will the gap between public dialogue and private knowledge narrow?",
+        "source_evidence": [
+          {
+            "episode_id": "E01",
+            "line": 39,
+            "text": "Bantu and Bobby are twins, and her most favourite students. Very studious and always behind her. Well, Bantu was always behind her and Bobby just followed him around."
+          },
+          {
+            "episode_id": "E01",
+            "line": 40,
+            "text": "Bantu was the charming, always talking one, and he does know how to put a smile on someone's face. Bobby on the other hand was very shy but not anywhere near timid. He does talk freely, but only with Bantu and that always intrigued Dhika."
+          },
+          {
+            "episode_id": "E01",
+            "line": 42,
+            "text": "Bantu never failed to compliment his teacher every single day. Initially, she felt uncomfortable when he said pretty, but over time Bantu being her favourite and all, she started to liked it and nowadays, Dhika secretly expects it."
+          },
+          {
+            "episode_id": "E01",
+            "line": 70,
+            "text": "It was 4 PM and Dhika was alone in the staff room. She was winding up for the day when she saw Bantu and Bobby coming towards her."
+          },
+          {
+            "episode_id": "E01",
+            "line": 77,
+            "text": "*****She was blushing inside that a 18 year old thinks her as beautiful."
+          },
+          {
+            "episode_id": "E01",
+            "line": 79,
+            "text": "****Bobby was quite and smiling and suddenly he saw something he has never seen before. He saw Dhika saree at the hip was a little below and a small white hip was visible. He was a shy guy but liked his teacher just like Bantu."
+          },
+          {
+            "episode_id": "E01",
+            "line": 80,
+            "text": "Dhika turned to Bobby to say something when she noticed saw Bobby looking down at something from his corner eye. She look down to see what it is and found that her hip was showing some skin. She felt embarrassed but didn't cover it as she didn't want to embarrass Bobby. She turned a little pink with Bobby peeking at her hip."
+          },
+          {
+            "episode_id": "E01",
+            "line": 81,
+            "text": "Bantu: Miss... you know we live near your house. can you please take us with you today."
+          },
+          {
+            "episode_id": "E01",
+            "line": 88,
+            "text": "There was nothing wrong with the bike. Bantu wanted to ride with Dhika"
+          },
+          {
+            "episode_id": "E01",
+            "line": 90,
+            "text": "She took her bag and went to the parking lot. Both the boys followed a little behind her. Bantu saw her beautiful apple like ass jiggling lightly when she walked. He also saw innocent Bobby looking at her ass. He hit Bobby lightly in his shoulders and winked at him. Bobby blushed and returned a smile."
+          },
+          {
+            "episode_id": "E01",
+            "line": 91,
+            "text": "Dhika: okay dears....lets go.. Bobby, give your bag to Bantu and climb in the middle. Bantu can sit behind you."
+          },
+          {
+            "episode_id": "E01",
+            "line": 93,
+            "text": "Bantu wanted to sit close to Dhika. He was about to tell something when he saw Bobby run and climb the bike before him. Scolding inside... he too got in the bike and they started to leave."
+          },
+          {
+            "episode_id": "E01",
+            "line": 94,
+            "text": "Dhika: Bobby, you can hold me so that you don't miss balance. Bantu, hold and sit Bobby."
+          },
+          {
+            "episode_id": "E01",
+            "line": 97,
+            "text": "He did something which Dhika did not expect. Bobby, instead of holding her shoulders, put both his hands around her hip and held her stomach tightly."
+          },
+          {
+            "episode_id": "E01",
+            "line": 98,
+            "text": "Dhika: isss..... what is he doing. I meant him to hold my shoulders."
+          },
+          {
+            "episode_id": "E01",
+            "line": 99,
+            "text": "Dhika thought he is like innocent to hold her around the stomach like a child. So she didn't want to embarrass him and kept quite and started driving in silence."
+          },
+          {
+            "episode_id": "E01",
+            "line": 100,
+            "text": "A little later she felt a light tapping in her stomach. She looked down and say Bobby's one finger was tapping her stomach over the saree. She also felt due to this, his hands at the side of the hips were moving slowly and rubbing against her bare hip."
+          },
+          {
+            "episode_id": "E01",
+            "line": 101,
+            "text": "She felt a chill go through her body. No one expect her husband has touch her even in the hips. She was feeling very shy but couldn't do anything. Lucky for her, they reached their place already and they got down."
+          },
+          {
+            "episode_id": "E01",
+            "line": 106,
+            "text": "Dhika said her byes and left. Bantu started cursing Bobby for running and sitting next to her. Only Bobby know what all he did but didn't want to tell Bantu and make him more sad."
+          }
+        ]
+      },
+      {
+        "scene_id": "DIRECTOR-E02-S07",
+        "order": 7,
+        "when": "Monday after college; could instead be set on a later return home",
+        "setting": "Apartment corridor outside Dhika's home",
+        "characters": [
+          "dhika",
+          "uncle",
+          "aunty"
+        ],
+        "setup": "Trusted neighbor routine resumes while reader remembers the undiscovered garment incident.",
+        "conversation_about": "Ordinary neighbor logistics and expectations around entering the apartment. A direct question about the garment is possible only if Dhika chooses to raise it.",
+        "physical_action_name": "Stepping back at doorway",
+        "physical_boundary_forecast": "no contact; privacy boundary reinforced",
+        "narrative_heat": 1,
+        "reader_curiosity": 4,
+        "conversation_mode": "normal_dialogue_over_an_unseen_secret",
+        "e01_evidence": [
+          19,
+          20,
+          21,
+          23,
+          25,
+          27,
+          28,
+          29,
+          65,
+          66,
+          67,
+          68,
+          69,
+          113,
+          114
+        ],
+        "canon_boundary": "Uncle's previous action was a privacy violation; never code it as mutual privilege or reader-approved escalation.",
+        "character_changes_if_written": {
+          "uncle": "his concealed breach remains unresolved",
+          "dhika": "ordinary confidence in a trusted neighbor may continue or become a question"
+        },
+        "hook": "How, if ever, could Dhika learn the true explanation without authorial omniscience?",
+        "source_evidence": [
+          {
+            "episode_id": "E01",
+            "line": 19,
+            "text": "Aunty and Uncle, both in their early 60s lived next door, were almost like second guardians for Dhika and John. Having no heir to themselves, Aunty treated Dhika and John like her own kids, and as to Uncle, Dhika was a little more than that. With his marital life stale, and Dhika being the gorgeous next door girl,... he never missed a chance to ogle at her."
+          },
+          {
+            "episode_id": "E01",
+            "line": 20,
+            "text": "But, he never let Dhika or John know anything about it, and especially his wife."
+          },
+          {
+            "episode_id": "E01",
+            "line": 21,
+            "text": "Uncle: Dhika, come come. Is Pappu still sleeping ?"
+          },
+          {
+            "episode_id": "E01",
+            "line": 23,
+            "text": "Uncle: She just went down.... Give him to me."
+          },
+          {
+            "episode_id": "E01",
+            "line": 25,
+            "text": "Dhika: I have milk stored for Pappu in the fridge."
+          },
+          {
+            "episode_id": "E01",
+            "line": 27,
+            "text": "Uncle: I got it Dhika, don't worry."
+          },
+          {
+            "episode_id": "E01",
+            "line": 28,
+            "text": "Dhika: Thanks again Uncle,... I am running late,.. Please inform aunty....."
+          },
+          {
+            "episode_id": "E01",
+            "line": 29,
+            "text": "And before her voice trailed off,... Dhika vanished down the stairs."
+          },
+          {
+            "episode_id": "E01",
+            "line": 65,
+            "text": "Eyes closed,... fingers fiddling with her bra,... Uncle imagined two milky breasts filled in those little cups,... struggling to spill out of the enclosure,....... and a tiny set of fingers caressing the top of those bulging breasts......"
+          },
+          {
+            "episode_id": "E01",
+            "line": 66,
+            "text": "Head swinging, he groaned as he sniffed into the inside of her used bra......"
+          },
+          {
+            "episode_id": "E01",
+            "line": 67,
+            "text": "Aunty: Wherree are youuu ?"
+          },
+          {
+            "episode_id": "E01",
+            "line": 68,
+            "text": "Uncle: uhn,.... I'm Coming........."
+          },
+          {
+            "episode_id": "E01",
+            "line": 69,
+            "text": "Dropping Dhika's bra on her bathroom floor, and grabbing the milk bottle from the fridge, Uncle ran back to his own house, heals hitting his head."
+          },
+          {
+            "episode_id": "E01",
+            "line": 113,
+            "text": "Dhika: (  taking her Kurti... she went to bathroom. ) what is this... why is my bra lying on the floor."
+          },
+          {
+            "episode_id": "E01",
+            "line": 114,
+            "text": "She noticed one bra was drying in the sink and one bra was lying on the floor. She left it at the side of the tap on the sink. No one else comes to her house expect aunty or uncle to take milk from fridge. she took it light and thought may be it slipped and fell down slowly. She is very innocent and did not suspect anything else."
+          }
+        ]
+      },
+      {
+        "scene_id": "DIRECTOR-E02-S08",
+        "order": 8,
+        "when": "Monday evening or later, after an explicitly NEW reason to meet",
+        "setting": "Dhika's doorway during a newly placed grocery delivery",
+        "characters": [
+          "dhika",
+          "chotu"
+        ],
+        "setup": "A new grocery order must be established; the old bill was collected. The two adults meet with unresolved awareness and established 'didi' language.",
+        "conversation_about": "Why Chotu twice left quickly, whether either felt awkward, and whether ordinary boundaries are changing. Dialogue must make each person's understanding explicit instead of assuming a gaze equals agreement.",
+        "physical_action_name": "Brief consensual handholding",
+        "alternative_physical_action_name": "No touch",
+        "physical_boundary_forecast": "candidate only if both adult characters clearly choose it; otherwise remain at conversation and eye contact",
+        "narrative_heat": 4,
+        "reader_curiosity": 5,
+        "conversation_mode": "hesitant_dialogue_with_two_distinct_private_motives",
+        "e01_evidence": [
+          118,
+          119,
+          123,
+          126,
+          127,
+          141,
+          142,
+          143,
+          144,
+          145,
+          149,
+          150,
+          151,
+          157,
+          165,
+          168,
+          173,
+          175,
+          176,
+          194,
+          197,
+          198,
+          199,
+          201,
+          202,
+          203,
+          204,
+          205,
+          209,
+          210,
+          212,
+          214,
+          215,
+          220,
+          221,
+          222,
+          223,
+          224
+        ],
+        "canon_boundary": "Final E01 has only observation and private response; no established romantic commitment or consent to touch.",
+        "character_changes_if_written": {
+          "dhika": "decides whether her private curiosity can become communicated choice",
+          "chotu": "decides whether to speak honestly rather than flee"
+        },
+        "hook": "Will their meanings finally align, or will one leave again?",
+        "source_evidence": [
+          {
+            "episode_id": "E01",
+            "line": 118,
+            "text": "Chotu's real name is Babu, a 19 year old boy, who works at the departmental store. He is the one who always delivers products in and around her apartments. She has know Chotu for almost a year now and she felt bad for him as he left his studies and came to work to support his family. She was always kind to him by giving him extra tips for delivery and tea or coffee when he comes to deliver. Chotu is also very good and always polite with her. He always brought a chocolate to Pappu whenever he came."
+          },
+          {
+            "episode_id": "E01",
+            "line": 119,
+            "text": "Initially Chotu used to stand outside and deliver and leave. Later when she got acquainted with him, she invited him inside to give him tea. Chotu was happy to be in the presence of her and he would drink tea and play with Pappu 2 mins and leave. Over the months, the two got closer and she thought Chotu like her brother. He told her all the problems in his family and she used to give him advice to make more money in his free time."
+          },
+          {
+            "episode_id": "E01",
+            "line": 123,
+            "text": "Chotu: (  unpacking) didi...... everyone either calls me chotu or babu. Why do you say chotu babu ?"
+          },
+          {
+            "episode_id": "E01",
+            "line": 126,
+            "text": "Dhika: Looking at the bill.......Chotu, you missed noodles packet. I was planning to make it for dinner tonight...."
+          },
+          {
+            "episode_id": "E01",
+            "line": 127,
+            "text": "Chotu: sorry didi..... give me 10 mins. He said and ran outside before she could stop him."
+          },
+          {
+            "episode_id": "E01",
+            "line": 141,
+            "text": "Dhika: Here my Chotu Babu.... she said with a giggle and as Chotu was on floor, she bent down to give it to him."
+          },
+          {
+            "episode_id": "E01",
+            "line": 142,
+            "text": "She saw Chotu's laugh vanishing and he taking the glass from her with a deep thought in his eyes. She didn't realize what was happening. She gave it to him and stood up. As soon as she stood up, she realized what happened....."
+          },
+          {
+            "episode_id": "E01",
+            "line": 143,
+            "text": "Dhika: ooohhhmmmmyyyy ayyoooo....... I bent down without wearing dupatta. what if he saw inside my dress."
+          },
+          {
+            "episode_id": "E01",
+            "line": 144,
+            "text": "She looked at Chotu who was still in dream state. She realized something was wrong, but couldn't be sure."
+          },
+          {
+            "episode_id": "E01",
+            "line": 145,
+            "text": "Dhika: Chotu..... what happened !! why do you look stunned??"
+          },
+          {
+            "episode_id": "E01",
+            "line": 149,
+            "text": "Dhika: hmmm... what happened !! why do you look stunned??"
+          },
+          {
+            "episode_id": "E01",
+            "line": 150,
+            "text": "Chotu: Errrr...... nothing didi. Just .... he gulped the juice and said it is getting late and left without even getting the money from her."
+          },
+          {
+            "episode_id": "E01",
+            "line": 151,
+            "text": "Dhika couldn't be sure if he saw her cleavage or her bra or what if something more was visible. She felt a little frightened but at the same time she felt a little excited. Nothing like this has happened to her and this was a new experience to her. She didn't understand what to feel."
+          },
+          {
+            "episode_id": "E01",
+            "line": 157,
+            "text": "Upon hearing Maami saying about Chotu, she felt bad for him and thought that he was in a dream state probably thinking about his poor family situation. She left her thoughts there and went back to work."
+          },
+          {
+            "episode_id": "E01",
+            "line": 165,
+            "text": "With John missing in bed and not knowing what to do, she was lost in random thoughts. She remembered about what she did today.... bending without dupatta........ and she hit her head"
+          },
+          {
+            "episode_id": "E01",
+            "line": 168,
+            "text": "A strange thought entered her mind..... not out of fear but out of excitement. She felt a tingle down the spine. Did he see parts of my breast ........ she felt an unconscious smile appearing on her lips. She came back to reality, pushed the thoughts out of her mind and went to sleep."
+          },
+          {
+            "episode_id": "E01",
+            "line": 173,
+            "text": "She decided to wear a good dupatta when Chotu arrives. She was alone from yesterday expect for Pappu and feeling bored. So, she decided to talk a while with Chotu and give him something to eat."
+          },
+          {
+            "episode_id": "E01",
+            "line": 175,
+            "text": "Dhika: opening the door.....my Chotu Babu...... looking happy today. Yesterday you ran without getting money even."
+          },
+          {
+            "episode_id": "E01",
+            "line": 176,
+            "text": "Chotu: Scratching his head...... haaaannn didi... I suddenly remembered a work mom gave and had to run..he lied."
+          },
+          {
+            "episode_id": "E01",
+            "line": 194,
+            "text": "While standing behind her in the kitchen, he noticed now that she is wearing a dress with no sleeves."
+          },
+          {
+            "episode_id": "E01",
+            "line": 197,
+            "text": "Chotu: thinking..... why didi..... it is a nice dress and you look beautiful in it. Why you won't wear it outside ?"
+          },
+          {
+            "episode_id": "E01",
+            "line": 198,
+            "text": "Dhika: Felt that it is the first time Chotu has said her beautiful."
+          },
+          {
+            "episode_id": "E01",
+            "line": 199,
+            "text": "She remembered Bantu calling her pretty everyday and she liked when someone complimented her."
+          },
+          {
+            "episode_id": "E01",
+            "line": 201,
+            "text": "Chotu: hehehe.... its just hands didi.. besides I can see it now."
+          },
+          {
+            "episode_id": "E01",
+            "line": 202,
+            "text": "Dhika: feeling little blushed..... I know you very well and trust you.... and you proved now that I can trust you."
+          },
+          {
+            "episode_id": "E01",
+            "line": 203,
+            "text": "Chotu: what ??//... I proved ???"
+          },
+          {
+            "episode_id": "E01",
+            "line": 204,
+            "text": "Dhika: You said its just hands. you are my innocent chotu babu....she giggled."
+          },
+          {
+            "episode_id": "E01",
+            "line": 205,
+            "text": "Chotu did not understand but did not ask anything too. He just realized that Dhika looked very beautiful and her skin looked so white and soft. He felt a little crush on her. He has always liked her because of her kindness but this is the first time he saw her as a beautiful woman."
+          },
+          {
+            "episode_id": "E01",
+            "line": 209,
+            "text": "Dhika: Chotu too thinks me as beautiful. am I really still beautiful after having one kid...."
+          },
+          {
+            "episode_id": "E01",
+            "line": 210,
+            "text": "Suddenly she remembered her yesterday's bending down and her thoughts at night. Unknown to her, something took over her and she felt very very excited. Not knowing what happened next, she removed her dupatta slowly and looked at herself in mirror."
+          },
+          {
+            "episode_id": "E01",
+            "line": 212,
+            "text": "Suddenly a thought came to her mind. She wasn't sure if Chotu saw inside her dress yesterday and she felt a great urge to find if he would see. This was not her.... she has never done anything like this and she didn't know what to do."
+          },
+          {
+            "episode_id": "E01",
+            "line": 214,
+            "text": "As soon as she entered the hall, Chotu saw that she did not wear dupatta but he simply thought she missed and kept it in bedroom or bathroom. He was sitting exactly opposite to her."
+          },
+          {
+            "episode_id": "E01",
+            "line": 215,
+            "text": "Dhika felt very nervous and excited at the same time...... she was going to be openly showing her cleavage first time in her life(  outside her husband) and she couldn't understand what is driving her. Her thoughts were so clouded due to excitement."
+          },
+          {
+            "episode_id": "E01",
+            "line": 220,
+            "text": "Their eyes met."
+          },
+          {
+            "episode_id": "E01",
+            "line": 221,
+            "text": "Chotu wide eyed and Dhika with excitement and nervousness in eyes. She was biting her lips very subtly."
+          },
+          {
+            "episode_id": "E01",
+            "line": 222,
+            "text": "In a second Chotu stood up and took the money she gave earlier and left with a bye which sounded from very far."
+          },
+          {
+            "episode_id": "E01",
+            "line": 223,
+            "text": "Dhika could not believe what she just did and still feeling very excited, she dropped the cloth on the floor and from the position of all fours, she just flipped and dropped on her back, laying down....then and there on the floor."
+          },
+          {
+            "episode_id": "E01",
+            "line": 224,
+            "text": "She covered her face with all excitement and blushing and shyness and this time she felt a tingle ...... not down her spine but .... down there in-between her legs"
+          }
+        ]
+      },
+      {
+        "scene_id": "DIRECTOR-E02-S09",
+        "order": 9,
+        "when": "After the final adult conversation",
+        "setting": "Dhika's living room alone",
+        "characters": [
+          "dhika"
+        ],
+        "setup": "End on a consequence of a documented decision, not a leap to a new unseen act.",
+        "conversation_about": "Private reflection on what actually changed, what did not, and whether Sharmi or John should be told.",
+        "physical_action_name": "Picking up phone",
+        "physical_boundary_forecast": "self-directed movement, no new shared contact",
+        "narrative_heat": 3,
+        "reader_curiosity": 5,
+        "conversation_mode": "internal_question_and_open_choice",
+        "e01_evidence": [
+          151,
+          157,
+          163,
+          165,
+          168,
+          199,
+          209,
+          212,
+          220,
+          222,
+          223,
+          224
+        ],
+        "canon_boundary": "Proposed conversations and future disclosures are hypotheses, not facts from original story.",
+        "character_changes_if_written": {
+          "dhika": "must own a specific choice rather than generic 'heat increased'"
+        },
+        "hook": "A call may begin, but whom and what she reveals remain a subsequent on-page decision.",
+        "source_evidence": [
+          {
+            "episode_id": "E01",
+            "line": 151,
+            "text": "Dhika couldn't be sure if he saw her cleavage or her bra or what if something more was visible. She felt a little frightened but at the same time she felt a little excited. Nothing like this has happened to her and this was a new experience to her. She didn't understand what to feel."
+          },
+          {
+            "episode_id": "E01",
+            "line": 157,
+            "text": "Upon hearing Maami saying about Chotu, she felt bad for him and thought that he was in a dream state probably thinking about his poor family situation. She left her thoughts there and went back to work."
+          },
+          {
+            "episode_id": "E01",
+            "line": 163,
+            "text": "Dhika understood the situation, John was always a good worker and he loved his job just as much as he lover her. She knew that from the initial days of her marriage itself and it is one of the things she admires about him."
+          },
+          {
+            "episode_id": "E01",
+            "line": 165,
+            "text": "With John missing in bed and not knowing what to do, she was lost in random thoughts. She remembered about what she did today.... bending without dupatta........ and she hit her head"
+          },
+          {
+            "episode_id": "E01",
+            "line": 168,
+            "text": "A strange thought entered her mind..... not out of fear but out of excitement. She felt a tingle down the spine. Did he see parts of my breast ........ she felt an unconscious smile appearing on her lips. She came back to reality, pushed the thoughts out of her mind and went to sleep."
+          },
+          {
+            "episode_id": "E01",
+            "line": 199,
+            "text": "She remembered Bantu calling her pretty everyday and she liked when someone complimented her."
+          },
+          {
+            "episode_id": "E01",
+            "line": 209,
+            "text": "Dhika: Chotu too thinks me as beautiful. am I really still beautiful after having one kid...."
+          },
+          {
+            "episode_id": "E01",
+            "line": 212,
+            "text": "Suddenly a thought came to her mind. She wasn't sure if Chotu saw inside her dress yesterday and she felt a great urge to find if he would see. This was not her.... she has never done anything like this and she didn't know what to do."
+          },
+          {
+            "episode_id": "E01",
+            "line": 220,
+            "text": "Their eyes met."
+          },
+          {
+            "episode_id": "E01",
+            "line": 222,
+            "text": "In a second Chotu stood up and took the money she gave earlier and left with a bye which sounded from very far."
+          },
+          {
+            "episode_id": "E01",
+            "line": 223,
+            "text": "Dhika could not believe what she just did and still feeling very excited, she dropped the cloth on the floor and from the position of all fours, she just flipped and dropped on her back, laying down....then and there on the floor."
+          },
+          {
+            "episode_id": "E01",
+            "line": 224,
+            "text": "She covered her face with all excitement and blushing and shyness and this time she felt a tingle ...... not down her spine but .... down there in-between her legs"
+          }
+        ]
+      }
+    ],
+    "projected_episode_heat": {
+      "scale": "0–5, subjective director forecasting, not source text and not a sexual act count",
+      "overall_narrative_heat": 4,
+      "reader_curiosity": 5,
+      "physical_boundary_ceiling": "Brief consensual handholding (Dhika–Chotu), contingent on clear mutual choice",
+      "fallback_ceiling": "Eye contact / no touch if consent or motivations remain ambiguous",
+      "other_threads": "No intimate physical escalation forecast for Uncle, Bobby or Bantu",
+      "why": "E01 ends with private unresolved perception, information gaps, repeated exits and no declared adult romantic agreement."
+    },
+    "continuity_gates": [
+      {
+        "gate": "Saturday_to_Monday",
+        "rule": "E01 Friday night to Saturday; college sequence must be deliberately on a later working day."
+      },
+      {
+        "gate": "payment",
+        "rule": "L222 confirms Chotu took the money. No outstanding E01 grocery bill."
+      },
+      {
+        "gate": "relationship_label",
+        "rule": "Chotu uses didi and Dhika trusts him; a changed bond requires scene-level dialogue/decision."
+      },
+      {
+        "gate": "twin_knowledge",
+        "rule": "Bantu does not possess Bobby's undisclosed ride details."
+      },
+      {
+        "gate": "uncle_privacy",
+        "rule": "Uncle's violation is not mutual intimacy and is unknown to Dhika."
+      },
+      {
+        "gate": "teacher_student",
+        "rule": "Do not turn an uninvited act into an endorsed future physical boundary."
+      },
+      {
+        "gate": "sharmi_rajs",
+        "rule": "Sharmi has not been shown learning E01 private encounters; Raj is only a mention."
+      },
+      {
+        "gate": "john_work",
+        "rule": "No invented marital neglect or John's awareness of private scenes."
+      }
+    ]
+  },
+  "practice_session": [
+    {
+      "id": "DRILL-E01-01",
+      "topic": "Group-scene asymmetry",
+      "exercise": "Read original E01 L081–L106 as ONE encounter. For each of the three characters, independently mark what is spoken, what is privately intended, what is actually done and what remains unknown.",
+      "must_detect": [
+        "Bantu knows the bike excuse is false",
+        "Bobby wins middle seat and violates placement instruction",
+        "Dhika sets placement expectation and does not know all motives",
+        "Bantu lacks Bobby's secret"
+      ],
+      "e01_lines": [
+        81,
+        88,
+        91,
+        94,
+        97,
+        101,
+        106
+      ],
+      "exact_source_evidence": [
+        {
+          "episode_id": "E01",
+          "line": 81,
+          "text": "Bantu: Miss... you know we live near your house. can you please take us with you today."
+        },
+        {
+          "episode_id": "E01",
+          "line": 88,
+          "text": "There was nothing wrong with the bike. Bantu wanted to ride with Dhika"
+        },
+        {
+          "episode_id": "E01",
+          "line": 91,
+          "text": "Dhika: okay dears....lets go.. Bobby, give your bag to Bantu and climb in the middle. Bantu can sit behind you."
+        },
+        {
+          "episode_id": "E01",
+          "line": 94,
+          "text": "Dhika: Bobby, you can hold me so that you don't miss balance. Bantu, hold and sit Bobby."
+        },
+        {
+          "episode_id": "E01",
+          "line": 97,
+          "text": "He did something which Dhika did not expect. Bobby, instead of holding her shoulders, put both his hands around her hip and held her stomach tightly."
+        },
+        {
+          "episode_id": "E01",
+          "line": 101,
+          "text": "She felt a chill go through her body. No one expect her husband has touch her even in the hips. She was feeling very shy but couldn't do anything. Lucky for her, they reached their place already and they got down."
+        },
+        {
+          "episode_id": "E01",
+          "line": 106,
+          "text": "Dhika said her byes and left. Bantu started cursing Bobby for running and sitting next to her. Only Bobby know what all he did but didn't want to tell Bantu and make him more sad."
+        }
+      ]
+    },
+    {
+      "id": "DRILL-E01-02",
+      "topic": "Two distinct Chotu incidents",
+      "exercise": "Compare E01 L141–L151 to L206–L224. Find where the source changes from unintended event to deliberate character choice.",
+      "must_detect": [
+        "The first encounter is unplanned",
+        "The second follows private rumination and a new decision",
+        "Chotu's thought is told to reader, not explicitly to Dhika",
+        "His E01 exit closes payment, not interpersonal ambiguity"
+      ],
+      "e01_lines": [
+        141,
+        142,
+        143,
+        151,
+        165,
+        168,
+        205,
+        209,
+        210,
+        212,
+        220,
+        222
+      ],
+      "exact_source_evidence": [
+        {
+          "episode_id": "E01",
+          "line": 141,
+          "text": "Dhika: Here my Chotu Babu.... she said with a giggle and as Chotu was on floor, she bent down to give it to him."
+        },
+        {
+          "episode_id": "E01",
+          "line": 142,
+          "text": "She saw Chotu's laugh vanishing and he taking the glass from her with a deep thought in his eyes. She didn't realize what was happening. She gave it to him and stood up. As soon as she stood up, she realized what happened....."
+        },
+        {
+          "episode_id": "E01",
+          "line": 143,
+          "text": "Dhika: ooohhhmmmmyyyy ayyoooo....... I bent down without wearing dupatta. what if he saw inside my dress."
+        },
+        {
+          "episode_id": "E01",
+          "line": 151,
+          "text": "Dhika couldn't be sure if he saw her cleavage or her bra or what if something more was visible. She felt a little frightened but at the same time she felt a little excited. Nothing like this has happened to her and this was a new experience to her. She didn't understand what to feel."
+        },
+        {
+          "episode_id": "E01",
+          "line": 165,
+          "text": "With John missing in bed and not knowing what to do, she was lost in random thoughts. She remembered about what she did today.... bending without dupatta........ and she hit her head"
+        },
+        {
+          "episode_id": "E01",
+          "line": 168,
+          "text": "A strange thought entered her mind..... not out of fear but out of excitement. She felt a tingle down the spine. Did he see parts of my breast ........ she felt an unconscious smile appearing on her lips. She came back to reality, pushed the thoughts out of her mind and went to sleep."
+        },
+        {
+          "episode_id": "E01",
+          "line": 205,
+          "text": "Chotu did not understand but did not ask anything too. He just realized that Dhika looked very beautiful and her skin looked so white and soft. He felt a little crush on her. He has always liked her because of her kindness but this is the first time he saw her as a beautiful woman."
+        },
+        {
+          "episode_id": "E01",
+          "line": 209,
+          "text": "Dhika: Chotu too thinks me as beautiful. am I really still beautiful after having one kid...."
+        },
+        {
+          "episode_id": "E01",
+          "line": 210,
+          "text": "Suddenly she remembered her yesterday's bending down and her thoughts at night. Unknown to her, something took over her and she felt very very excited. Not knowing what happened next, she removed her dupatta slowly and looked at herself in mirror."
+        },
+        {
+          "episode_id": "E01",
+          "line": 212,
+          "text": "Suddenly a thought came to her mind. She wasn't sure if Chotu saw inside her dress yesterday and she felt a great urge to find if he would see. This was not her.... she has never done anything like this and she didn't know what to do."
+        },
+        {
+          "episode_id": "E01",
+          "line": 220,
+          "text": "Their eyes met."
+        },
+        {
+          "episode_id": "E01",
+          "line": 222,
+          "text": "In a second Chotu stood up and took the money she gave earlier and left with a bye which sounded from very far."
+        }
+      ]
+    },
+    {
+      "id": "DRILL-E01-03",
+      "topic": "Reader hook, not guesswork",
+      "exercise": "Trace the hidden neighbor motive, private breach and later clue. Identify precisely which character remains unaware.",
+      "must_detect": [
+        "Reader knows Uncle privately violated trust",
+        "Dhika only encounters object displacement",
+        "No consensual physical relationship exists between them in E01"
+      ],
+      "e01_lines": [
+        19,
+        20,
+        65,
+        66,
+        69,
+        113,
+        114
+      ],
+      "exact_source_evidence": [
+        {
+          "episode_id": "E01",
+          "line": 19,
+          "text": "Aunty and Uncle, both in their early 60s lived next door, were almost like second guardians for Dhika and John. Having no heir to themselves, Aunty treated Dhika and John like her own kids, and as to Uncle, Dhika was a little more than that. With his marital life stale, and Dhika being the gorgeous next door girl,... he never missed a chance to ogle at her."
+        },
+        {
+          "episode_id": "E01",
+          "line": 20,
+          "text": "But, he never let Dhika or John know anything about it, and especially his wife."
+        },
+        {
+          "episode_id": "E01",
+          "line": 65,
+          "text": "Eyes closed,... fingers fiddling with her bra,... Uncle imagined two milky breasts filled in those little cups,... struggling to spill out of the enclosure,....... and a tiny set of fingers caressing the top of those bulging breasts......"
+        },
+        {
+          "episode_id": "E01",
+          "line": 66,
+          "text": "Head swinging, he groaned as he sniffed into the inside of her used bra......"
+        },
+        {
+          "episode_id": "E01",
+          "line": 69,
+          "text": "Dropping Dhika's bra on her bathroom floor, and grabbing the milk bottle from the fridge, Uncle ran back to his own house, heals hitting his head."
+        },
+        {
+          "episode_id": "E01",
+          "line": 113,
+          "text": "Dhika: (  taking her Kurti... she went to bathroom. ) what is this... why is my bra lying on the floor."
+        },
+        {
+          "episode_id": "E01",
+          "line": 114,
+          "text": "She noticed one bra was drying in the sink and one bra was lying on the floor. She left it at the side of the tap on the sink. No one else comes to her house expect aunty or uncle to take milk from fridge. she took it light and thought may be it slipped and fell down slowly. She is very innocent and did not suspect anything else."
+        }
+      ]
+    },
+    {
+      "id": "DRILL-E01-04",
+      "topic": "Author's line craft",
+      "exercise": "Check which exact phrases foreshadow initiative versus shyness and how the writer revisits earlier compliments during Chotu's scene.",
+      "must_detect": [
+        "'very shy but not anywhere near timid' seeds Bobby contrast",
+        "'secretly expects it' makes compliments a habit with private payoff",
+        "L199 calls back Bantu inside the Chotu thread",
+        "'Their eyes met' is a payoff but not a mutual pledge"
+      ],
+      "e01_lines": [
+        40,
+        42,
+        90,
+        199,
+        220
+      ],
+      "exact_source_evidence": [
+        {
+          "episode_id": "E01",
+          "line": 40,
+          "text": "Bantu was the charming, always talking one, and he does know how to put a smile on someone's face. Bobby on the other hand was very shy but not anywhere near timid. He does talk freely, but only with Bantu and that always intrigued Dhika."
+        },
+        {
+          "episode_id": "E01",
+          "line": 42,
+          "text": "Bantu never failed to compliment his teacher every single day. Initially, she felt uncomfortable when he said pretty, but over time Bantu being her favourite and all, she started to liked it and nowadays, Dhika secretly expects it."
+        },
+        {
+          "episode_id": "E01",
+          "line": 90,
+          "text": "She took her bag and went to the parking lot. Both the boys followed a little behind her. Bantu saw her beautiful apple like ass jiggling lightly when she walked. He also saw innocent Bobby looking at her ass. He hit Bobby lightly in his shoulders and winked at him. Bobby blushed and returned a smile."
+        },
+        {
+          "episode_id": "E01",
+          "line": 199,
+          "text": "She remembered Bantu calling her pretty everyday and she liked when someone complimented her."
+        },
+        {
+          "episode_id": "E01",
+          "line": 220,
+          "text": "Their eyes met."
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "line_highlights_verified": 23,
+    "predicted_scenes": 9,
+    "practice_drills": 4,
+    "contains_actual_e02_source": false,
+    "physical_prediction_format": "name_only",
+    "narrative_suggestions_are_not_canon": true
+  }
+}
