@@ -1,0 +1,44 @@
+{
+  "kind": "E14_frozen_prediction_from_E01_E13",
+  "cutoff": 13,
+  "status": "frozen_before_E14_narrative",
+  "hypotheses": [
+    {
+      "id": "P1",
+      "confidence": "high",
+      "evidence": "E13 L147-161",
+      "event": "E14 opens with aftermath of E13 close contact, likely character reaction and awkward conversation."
+    },
+    {
+      "id": "P2",
+      "confidence": "medium",
+      "evidence": "E12 L30-41",
+      "event": "The twins' national Physics competition reaches its Saturday milestone or travel logistics."
+    },
+    {
+      "id": "P3",
+      "confidence": "medium",
+      "evidence": "E13 L18-53",
+      "event": "Dhika privately reflects on contradictory feelings and boundaries across relationships."
+    },
+    {
+      "id": "P4",
+      "confidence": "low",
+      "evidence": "E11 L32-56",
+      "event": "Raj's gentlemanly behavior is remembered or a new social occasion arises."
+    },
+    {
+      "id": "P5",
+      "confidence": "medium",
+      "evidence": "E10 L55-61,E13 L52-66",
+      "event": "Pappu's room painting progresses toward completion, but may require multiple visits."
+    },
+    {
+      "id": "P6",
+      "confidence": "low",
+      "evidence": "E07 L5-32",
+      "event": "John notes changes in Dhika's mood but no disclosure is required by evidence."
+    }
+  ],
+  "scope": "Only plausible scene and relationship outcomes; predictions not confirmations."
+}
