@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// E01 source-lock validator. Run from repo root: node scripts/validate.mjs
+// E01–E03 exact raw-source integrity validator. Run from repo root: node scripts/validate.mjs
 import fs from "node:fs";
 import path from "node:path";
 import {fileURLToPath} from "node:url";
@@ -16,10 +16,13 @@ const e01=raw.slice(headers[0].index,headers[1].index).split(/\r?\n/);
 assert(e01.length===229,"E01 line count changed.");
 const e02=raw.slice(headers[1].index,headers[2].index).split(/\r?\n/);
 assert(e02.length===160,"E02 line count changed.");
-const sources={E01:e01,E02:e02};
+const e03=raw.slice(headers[2].index,headers[3].index).split(/\r?\n/);
+assert(e03.length===240,"E03 original source line count changed.");
+const sources={E01:e01,E02:e02,E03:e03};
 const routes=[
  "data/episodes/e01.json",
  "data/episodes/e02.json",
+ "data/episodes/e03.json",
  "data/physical_actions.json",
  "data/bond_evolution.json",
  "data/internal_heat_access.json",
@@ -58,6 +61,8 @@ const indexed=entries(load(routes[0])).flatMap(e=>e.raw_lines.map(l=>l.line));
 assert(indexed.length===229&&indexed.every((n,i)=>n===i+1),"E01 source index incomplete.");
 const indexed2=entries(load(routes[1])).flatMap(e=>e.raw_lines.map(l=>l.line));
 assert(indexed2.length===160&&indexed2.every((n,i)=>n===i+1),"E02 source index incomplete.");
+const indexed3=entries(load(routes[2])).flatMap(e=>e.raw_lines.map(l=>l.line));
+assert(indexed3.length===240&&indexed3.every((n,i)=>n===i+1),"E03 source index incomplete.");
 // Check the AI Director forecast without confusing predictions with E01 canon.
 const director=load("data/ai_director_e01.json");
 assert(director.kind==="ai_director_analysis","Missing director schema.");
@@ -116,8 +121,8 @@ console.log("PASS: "+innerCount+" inner changes, "+triggers.triggers.length+" ex
 
 const atomic=load("data/atomic_action_registry.json");
 const sceneMap=new Map(atomic.scenes.map(s=>[s.scene_id,s]));
-assert(atomic.scenes.length===21,"Expected 21 shared scene setups.");
-assert(atomic.atomic_events.length===73,"Expected 73 indexed atomic actions.");
+assert(atomic.scenes.length===35,"Expected 35 shared scene setups.");
+assert(atomic.atomic_events.length===134,"Expected 134 indexed atomic actions.");
 for(const scene of atomic.scenes){
  const expected=sources[scene.episode_id];
  assert(Boolean(expected),"Unknown scene episode: "+scene.scene_id);
@@ -138,9 +143,11 @@ for(const action of atomic.atomic_events){
 }
 assert(atomic.atomic_events.some(a=>a.action_name==="kiss_on_forehead"&&a.temporal_status==="historical_backstory"),"Missing history-versus-present distinction.");
 assert(atomic.atomic_events.some(a=>a.action_name==="imagine_breasts"&&a.temporal_status==="imagined_not_performed"&&a.original_author_imagery.length>0),"Missing imaginary-metaphor record.");
-assert(!atomic.atomic_events.some(a=>a.action_name==="kiss_on_lips"&&["dhika","chotu"].includes(a.character_id)&&["dhika","chotu"].includes(a.counterpart_id)),"An unsupported Dhika/Chotu kiss was inferred.");
+assert(atomic.atomic_events.some(a=>a.episode_id==="E03"&&a.character_id==="chotu"&&a.counterpart_id==="dhika"&&a.action_name==="kiss_on_lips"&&a.source_action.line===92),"Actual E03 L092 first kiss missing.");
+assert(atomic.atomic_events.some(a=>a.episode_id==="E03"&&a.character_id==="dhika"&&a.counterpart_id==="chotu"&&a.action_name==="kiss_back_on_lips"&&a.source_action.line===93),"Actual E03 L093 reciprocal kiss missing.");
+assert(!atomic.atomic_events.some(a=>a.episode_id!=="E03"&&a.action_name==="kiss_on_lips"&&a.character_id==="chotu"),"E03 kiss should not be backdated to E01/E02.");
 console.log("PASS: "+atomic.scenes.length+" shared scene setups and "+atomic.atomic_events.length+" exact, discrete actions/imaginations.");
 
-console.log("PASS: both episode indexes reproduce all 389 original lines.");
+console.log("PASS: all three episode indexes reproduce all 629 original lines.");
 
-console.log("PASS: GitHub source has 69 complete episode headings; E02–E69 are preserved.");
+console.log("PASS: GitHub source has 69 complete episode headings; E04–E69 are preserved.");
