@@ -15,7 +15,10 @@
     "uncertain_perception": "Do not invent sight or physical touch from a character's guess",
     "adult_only_romantic_analysis": true,
     "consent": "Character age and a visual scene do not, by themselves, establish permission for physical contact.",
-    "no_kiss_between_dhika_chotu_in_e01_e02": true
+    "no_kiss_between_dhika_chotu_in_e01_e02": true,
+    "action_label_definition": "Named atomic physical, visual or imagined act. Source narration and setup stay in shared scenes. A hypothetical contact is never labelled as an actual event.",
+    "temporal_distinction": "Current episode action vs explicitly narrated history vs imagination.",
+    "user_requested_rendering": "Exact source phrase and metaphor displayed alongside short action label; clicking the action shows complete unchanged scene source."
   },
   "scenes": [
     {
@@ -1468,14 +1471,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "unaware",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "person",
       "source_action": {
         "line": 19,
         "exact_phrase": "he never missed a chance to ogle at her",
         "span_start": 319,
         "span_end": 358
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S01",
+        "line_start": 19,
+        "line_end": 20
+      }
     },
     {
       "id": "ATOM-E01-002",
@@ -1487,14 +1496,20 @@
       "action_type": "verbal_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "spoken",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "appearance",
       "source_action": {
         "line": 31,
         "exact_phrase": "Looking very pretty miss",
         "span_start": 7,
         "span_end": 31
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S02",
+        "line_start": 31,
+        "line_end": 54
+      }
     },
     {
       "id": "ATOM-E01-003",
@@ -1506,14 +1521,20 @@
       "action_type": "actual_body_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "physical",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "waist",
       "source_action": {
         "line": 54,
         "exact_phrase": "Pinching Dhika's waist",
         "span_start": 0,
         "span_end": 22
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S02",
+        "line_start": 31,
+        "line_end": 54
+      }
     },
     {
       "id": "ATOM-E01-004",
@@ -1525,7 +1546,7 @@
       "action_type": "imagined_action",
       "temporal_status": "imagined_not_performed",
       "agency_and_permission": "only_in_imagination",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "breasts (imagined)",
       "source_action": {
         "line": 65,
         "exact_phrase": "Uncle imagined two milky breasts filled in those little cups",
@@ -1538,8 +1559,20 @@
           "exact_phrase": "two milky breasts filled in those little cups",
           "span_start": 65,
           "span_end": 110
+        },
+        {
+          "line": 65,
+          "exact_phrase": "struggling to spill out of the enclosure",
+          "span_start": 115,
+          "span_end": 155
         }
-      ]
+      ],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S03",
+        "line_start": 64,
+        "line_end": 69
+      }
     },
     {
       "id": "ATOM-E01-005",
@@ -1551,7 +1584,7 @@
       "action_type": "imagined_action",
       "temporal_status": "imagined_not_performed",
       "agency_and_permission": "only_in_imagination",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "caress (imagined)",
       "source_action": {
         "line": 65,
         "exact_phrase": "a tiny set of fingers caressing the top of those bulging breasts",
@@ -1565,7 +1598,13 @@
           "span_start": 115,
           "span_end": 155
         }
-      ]
+      ],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S03",
+        "line_start": 64,
+        "line_end": 69
+      }
     },
     {
       "id": "ATOM-E01-006",
@@ -1577,14 +1616,20 @@
       "action_type": "actual_object_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "unpermitted",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "bra",
       "source_action": {
         "line": 65,
         "exact_phrase": "fingers fiddling with her bra",
         "span_start": 16,
         "span_end": 45
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S03",
+        "line_start": 64,
+        "line_end": 69
+      }
     },
     {
       "id": "ATOM-E01-007",
@@ -1596,14 +1641,20 @@
       "action_type": "actual_object_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "unpermitted",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "bra",
       "source_action": {
         "line": 66,
         "exact_phrase": "he sniffed into the inside of her used bra",
         "span_start": 29,
         "span_end": 71
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S03",
+        "line_start": 64,
+        "line_end": 69
+      }
     },
     {
       "id": "ATOM-E01-008",
@@ -1615,14 +1666,20 @@
       "action_type": "actual_object_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "aftermath",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "bra",
       "source_action": {
         "line": 69,
         "exact_phrase": "Dropping Dhika's bra on her bathroom floor",
         "span_start": 0,
         "span_end": 42
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S03",
+        "line_start": 64,
+        "line_end": 69
+      }
     },
     {
       "id": "ATOM-E01-009",
@@ -1634,14 +1691,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "no_touch",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "hip",
       "source_action": {
         "line": 79,
         "exact_phrase": "small white hip was visible",
         "span_start": 143,
         "span_end": 170
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S04",
+        "line_start": 70,
+        "line_end": 80
+      }
     },
     {
       "id": "ATOM-E01-010",
@@ -1653,14 +1716,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "noticed",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "gaze",
       "source_action": {
         "line": 80,
         "exact_phrase": "Bobby looking down at something from his corner eye",
         "span_start": 60,
         "span_end": 111
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S04",
+        "line_start": 70,
+        "line_end": 80
+      }
     },
     {
       "id": "ATOM-E01-011",
@@ -1672,7 +1741,7 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "no_touch",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "backside",
       "source_action": {
         "line": 90,
         "exact_phrase": "apple like ass jiggling lightly",
@@ -1686,7 +1755,13 @@
           "span_start": 114,
           "span_end": 145
         }
-      ]
+      ],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S05",
+        "line_start": 81,
+        "line_end": 106
+      }
     },
     {
       "id": "ATOM-E01-012",
@@ -1698,14 +1773,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "no_touch",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "backside",
       "source_action": {
         "line": 90,
         "exact_phrase": "innocent Bobby looking at her ass",
         "span_start": 175,
         "span_end": 208
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S05",
+        "line_start": 81,
+        "line_end": 106
+      }
     },
     {
       "id": "ATOM-E01-013",
@@ -1717,14 +1798,20 @@
       "action_type": "actual_body_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "contact",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "shoulder",
       "source_action": {
         "line": 90,
         "exact_phrase": "He hit Bobby lightly in his shoulders",
         "span_start": 210,
         "span_end": 247
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S05",
+        "line_start": 81,
+        "line_end": 106
+      }
     },
     {
       "id": "ATOM-E01-014",
@@ -1736,14 +1823,20 @@
       "action_type": "positioning",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "proximity_only",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "seat",
       "source_action": {
         "line": 93,
         "exact_phrase": "climb the bike before him",
         "span_start": 93,
         "span_end": 118
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S05",
+        "line_start": 81,
+        "line_end": 106
+      }
     },
     {
       "id": "ATOM-E01-015",
@@ -1755,14 +1848,20 @@
       "action_type": "verbal_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "limited_instruction",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "hold",
       "source_action": {
         "line": 94,
         "exact_phrase": "you can hold me so that you don't miss balance",
         "span_start": 14,
         "span_end": 60
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S05",
+        "line_start": 81,
+        "line_end": 106
+      }
     },
     {
       "id": "ATOM-E01-016",
@@ -1774,14 +1873,20 @@
       "action_type": "actual_body_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "outside_instructed_contact",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "hips and stomach",
       "source_action": {
         "line": 97,
         "exact_phrase": "put both his hands around her hip and held her stomach tightly",
         "span_start": 86,
         "span_end": 148
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S05",
+        "line_start": 81,
+        "line_end": 106
+      }
     },
     {
       "id": "ATOM-E01-017",
@@ -1793,14 +1898,20 @@
       "action_type": "actual_body_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "not_separately_invited",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "stomach",
       "source_action": {
         "line": 100,
         "exact_phrase": "one finger was tapping her stomach over the saree",
         "span_start": 88,
         "span_end": 137
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S05",
+        "line_start": 81,
+        "line_end": 106
+      }
     },
     {
       "id": "ATOM-E01-018",
@@ -1812,14 +1923,20 @@
       "action_type": "actual_body_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "not_separately_invited",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "bare hip",
       "source_action": {
         "line": 100,
         "exact_phrase": "rubbing against her bare hip",
         "span_start": 223,
         "span_end": 251
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S05",
+        "line_start": 81,
+        "line_end": 106
+      }
     },
     {
       "id": "ATOM-E01-019",
@@ -1831,14 +1948,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "for_comfort",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "dupatta",
       "source_action": {
         "line": 128,
         "exact_phrase": "grabbed the dupatta and threw it on the sofa",
         "span_start": 176,
         "span_end": 220
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S07",
+        "line_start": 118,
+        "line_end": 135
+      }
     },
     {
       "id": "ATOM-E01-020",
@@ -1850,14 +1973,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "not_initiated_as_test",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "dupatta",
       "source_action": {
         "line": 130,
         "exact_phrase": "she went to open the door",
         "span_start": 135,
         "span_end": 160
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S07",
+        "line_start": 118,
+        "line_end": 135
+      }
     },
     {
       "id": "ATOM-E01-021",
@@ -1869,14 +1998,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "unplanned_visual_setup",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "juice",
       "source_action": {
         "line": 141,
         "exact_phrase": "she bent down to give it to him",
         "span_start": 80,
         "span_end": 111
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S08",
+        "line_start": 136,
+        "line_end": 151
+      }
     },
     {
       "id": "ATOM-E01-022",
@@ -1888,14 +2023,20 @@
       "action_type": "observed_reaction",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "visual_extent_uncertain",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "view",
       "source_action": {
         "line": 142,
         "exact_phrase": "with a deep thought in his eyes",
         "span_start": 65,
         "span_end": 96
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S08",
+        "line_start": 136,
+        "line_end": 151
+      }
     },
     {
       "id": "ATOM-E01-023",
@@ -1907,14 +2048,20 @@
       "action_type": "uncertain_perception",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "unconfirmed_observation",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "cleavage (uncertain)",
       "source_action": {
         "line": 151,
         "exact_phrase": "Dhika couldn't be sure if he saw her cleavage or her bra",
         "span_start": 0,
         "span_end": 56
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S08",
+        "line_start": 136,
+        "line_end": 151
+      }
     },
     {
       "id": "ATOM-E01-024",
@@ -1926,14 +2073,20 @@
       "action_type": "positioning",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "hospitality",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "together",
       "source_action": {
         "line": 185,
         "exact_phrase": "she decided to sit with him on the floor",
         "span_start": 174,
         "span_end": 214
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S09",
+        "line_start": 172,
+        "line_end": 205
+      }
     },
     {
       "id": "ATOM-E01-025",
@@ -1945,14 +2098,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "no_touch",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "dress",
       "source_action": {
         "line": 194,
         "exact_phrase": "dress with no sleeves",
         "span_start": 79,
         "span_end": 100
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S09",
+        "line_start": 172,
+        "line_end": 205
+      }
     },
     {
       "id": "ATOM-E01-026",
@@ -1964,14 +2123,20 @@
       "action_type": "verbal_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "verbal_only",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "beauty",
       "source_action": {
         "line": 197,
         "exact_phrase": "you look beautiful in it",
         "span_start": 58,
         "span_end": 82
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S09",
+        "line_start": 172,
+        "line_end": 205
+      }
     },
     {
       "id": "ATOM-E01-027",
@@ -1983,14 +2148,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "self_observation",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "mirror",
       "source_action": {
         "line": 208,
         "exact_phrase": "she looked herself in the mirror",
         "span_start": 28,
         "span_end": 60
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S10",
+        "line_start": 206,
+        "line_end": 224
+      }
     },
     {
       "id": "ATOM-E01-028",
@@ -2002,14 +2173,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "deliberate",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "dupatta",
       "source_action": {
         "line": 210,
         "exact_phrase": "she removed her dupatta slowly",
         "span_start": 184,
         "span_end": 214
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S10",
+        "line_start": 206,
+        "line_end": 224
+      }
     },
     {
       "id": "ATOM-E01-029",
@@ -2021,14 +2198,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "self_observation",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "own cleavage",
       "source_action": {
         "line": 211,
         "exact_phrase": "she could see her own cleavage",
         "span_start": 56,
         "span_end": 86
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S10",
+        "line_start": 206,
+        "line_end": 224
+      }
     },
     {
       "id": "ATOM-E01-030",
@@ -2040,14 +2223,20 @@
       "action_type": "internal_intent",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "deliberate_choice",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "test",
       "source_action": {
         "line": 212,
         "exact_phrase": "a great urge to find if he would see",
         "span_start": 106,
         "span_end": 142
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S10",
+        "line_start": 206,
+        "line_end": 224
+      }
     },
     {
       "id": "ATOM-E01-031",
@@ -2059,14 +2248,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "intentionally_while_uncovered",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "floor",
       "source_action": {
         "line": 216,
         "exact_phrase": "got on all fours and began wiping the floor",
         "span_start": 41,
         "span_end": 84
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S10",
+        "line_start": 206,
+        "line_end": 224
+      }
     },
     {
       "id": "ATOM-E01-032",
@@ -2078,14 +2273,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "one_third_visible",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "partial breasts",
       "source_action": {
         "line": 217,
         "exact_phrase": "He could see only like 1/3rd of her boobs",
         "span_start": 87,
         "span_end": 128
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S10",
+        "line_start": 206,
+        "line_end": 224
+      }
     },
     {
       "id": "ATOM-E01-033",
@@ -2097,14 +2298,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "deliberate",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "chotu",
       "source_action": {
         "line": 219,
         "exact_phrase": "she looked in the direction of Chotu",
         "span_start": 62,
         "span_end": 98
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S10",
+        "line_start": 206,
+        "line_end": 224
+      }
     },
     {
       "id": "ATOM-E01-034",
@@ -2116,14 +2323,20 @@
       "action_type": "mutual_visual",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "no_touch",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "eyes",
       "source_action": {
         "line": 220,
         "exact_phrase": "Their eyes met",
         "span_start": 0,
         "span_end": 14
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S10",
+        "line_start": 206,
+        "line_end": 224
+      }
     },
     {
       "id": "ATOM-E01-035",
@@ -2135,14 +2348,20 @@
       "action_type": "physical_departure",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "unresolved_reaction",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "encounter",
       "source_action": {
         "line": 222,
         "exact_phrase": "stood up and took the money she gave earlier and left",
         "span_start": 18,
         "span_end": 71
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S10",
+        "line_start": 206,
+        "line_end": 224
+      }
     },
     {
       "id": "ATOM-E01-036",
@@ -2154,14 +2373,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "after_effect",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "floor",
       "source_action": {
         "line": 223,
         "exact_phrase": "she just flipped and dropped on her back",
         "span_start": 145,
         "span_end": 185
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E01",
+        "scene_id": "E01-S10",
+        "line_start": 206,
+        "line_end": 224
+      }
     },
     {
       "id": "ATOM-E02-001",
@@ -2173,14 +2398,20 @@
       "action_type": "actual_body_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "domestic_contact",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "bathroom",
       "source_action": {
         "line": 8,
         "exact_phrase": "she pushed him",
         "span_start": 175,
         "span_end": 189
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S01",
+        "line_start": 5,
+        "line_end": 13
+      }
     },
     {
       "id": "ATOM-E02-002",
@@ -2192,14 +2423,20 @@
       "action_type": "actual_body_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "domestic_contact",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "shoulder",
       "source_action": {
         "line": 13,
         "exact_phrase": "John dosed off on Dhika shoulders",
         "span_start": 129,
         "span_end": 162
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S01",
+        "line_start": 5,
+        "line_end": 13
+      }
     },
     {
       "id": "ATOM-E02-003",
@@ -2211,14 +2448,20 @@
       "action_type": "historical_actual",
       "temporal_status": "historical_backstory",
       "agency_and_permission": "historical_marital_affection",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "forehead",
       "source_action": {
         "line": 16,
         "exact_phrase": "He just kissed her on the forehead",
         "span_start": 259,
         "span_end": 293
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S02",
+        "line_start": 14,
+        "line_end": 20
+      }
     },
     {
       "id": "ATOM-E02-004",
@@ -2230,14 +2473,20 @@
       "action_type": "historical_actual",
       "temporal_status": "historical_backstory",
       "agency_and_permission": "historical_marital_affection",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "lap",
       "source_action": {
         "line": 16,
         "exact_phrase": "made her sleep on his lap",
         "span_start": 298,
         "span_end": 323
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S02",
+        "line_start": 14,
+        "line_end": 20
+      }
     },
     {
       "id": "ATOM-E02-005",
@@ -2249,14 +2498,20 @@
       "action_type": "historical_actual",
       "temporal_status": "historical_backstory",
       "agency_and_permission": "historical_marital",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "intercourse",
       "source_action": {
         "line": 17,
         "exact_phrase": "John was able to fully penetrate her",
         "span_start": 252,
         "span_end": 288
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S02",
+        "line_start": 14,
+        "line_end": 20
+      }
     },
     {
       "id": "ATOM-E02-006",
@@ -2268,14 +2523,20 @@
       "action_type": "historical_actual",
       "temporal_status": "historical_backstory",
       "agency_and_permission": "historical_marital",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "position",
       "source_action": {
         "line": 18,
         "exact_phrase": "She budged into cow girl sex position",
         "span_start": 487,
         "span_end": 524
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S02",
+        "line_start": 14,
+        "line_end": 20
+      }
     },
     {
       "id": "ATOM-E02-007",
@@ -2287,14 +2548,20 @@
       "action_type": "actual_body_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "domestic_contact",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "up",
       "source_action": {
         "line": 24,
         "exact_phrase": "she pulled him",
         "span_start": 28,
         "span_end": 42
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S03",
+        "line_start": 21,
+        "line_end": 44
+      }
     },
     {
       "id": "ATOM-E02-008",
@@ -2306,14 +2573,20 @@
       "action_type": "object_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "offered_not_imposed",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "top",
       "source_action": {
         "line": 36,
         "exact_phrase": "he took a dress for her",
         "span_start": 52,
         "span_end": 75
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S03",
+        "line_start": 21,
+        "line_end": 44
+      }
     },
     {
       "id": "ATOM-E02-009",
@@ -2325,14 +2598,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "voluntary",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "skirt",
       "source_action": {
         "line": 42,
         "exact_phrase": "she agreed on a skirt first time",
         "span_start": 30,
         "span_end": 62
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S03",
+        "line_start": 21,
+        "line_end": 44
+      }
     },
     {
       "id": "ATOM-E02-010",
@@ -2344,14 +2623,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "voluntary",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "top",
       "source_action": {
         "line": 42,
         "exact_phrase": "she wore the sleeveless top",
         "span_start": 99,
         "span_end": 126
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S03",
+        "line_start": 21,
+        "line_end": 44
+      }
     },
     {
       "id": "ATOM-E02-011",
@@ -2363,14 +2648,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "no_touch",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "dress",
       "source_action": {
         "line": 46,
         "exact_phrase": "uncle was mesmerized looking at her",
         "span_start": 19,
         "span_end": 54
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S04",
+        "line_start": 45,
+        "line_end": 53
+      }
     },
     {
       "id": "ATOM-E02-012",
@@ -2382,14 +2673,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "without_target_awareness",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "chest",
       "source_action": {
         "line": 52,
         "exact_phrase": "stealing quick glances at her boobs",
         "span_start": 234,
         "span_end": 269
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S04",
+        "line_start": 45,
+        "line_end": 53
+      }
     },
     {
       "id": "ATOM-E02-013",
@@ -2401,14 +2698,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "knowledge_asymmetry",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "gaze",
       "source_action": {
         "line": 52,
         "exact_phrase": "which John noticed",
         "span_start": 299,
         "span_end": 317
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S04",
+        "line_start": 45,
+        "line_end": 53
+      }
     },
     {
       "id": "ATOM-E02-014",
@@ -2420,14 +2723,20 @@
       "action_type": "actual_object_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "unpermitted",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "garment",
       "source_action": {
         "line": 54,
         "exact_phrase": "He took it",
         "span_start": 142,
         "span_end": 152
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S05",
+        "line_start": 54,
+        "line_end": 72
+      }
     },
     {
       "id": "ATOM-E02-015",
@@ -2439,14 +2748,20 @@
       "action_type": "actual_object_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "unpermitted",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "bra",
       "source_action": {
         "line": 54,
         "exact_phrase": "started sniffing",
         "span_start": 157,
         "span_end": 173
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S05",
+        "line_start": 54,
+        "line_end": 72
+      }
     },
     {
       "id": "ATOM-E02-016",
@@ -2458,14 +2773,20 @@
       "action_type": "actual_object_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "unpermitted",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "garment",
       "source_action": {
         "line": 54,
         "exact_phrase": "he even licked it a little",
         "span_start": 206,
         "span_end": 232
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S05",
+        "line_start": 54,
+        "line_end": 72
+      }
     },
     {
       "id": "ATOM-E02-017",
@@ -2477,14 +2798,20 @@
       "action_type": "imagined_action",
       "temporal_status": "imagined_not_performed",
       "agency_and_permission": "only_in_imagination",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "garment",
       "source_action": {
         "line": 54,
         "exact_phrase": "imagining Dhika just in this bra",
         "span_start": 264,
         "span_end": 296
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S05",
+        "line_start": 54,
+        "line_end": 72
+      }
     },
     {
       "id": "ATOM-E02-018",
@@ -2496,14 +2823,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "observed_breach",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "violation",
       "source_action": {
         "line": 57,
         "exact_phrase": "shocked when he licked the insides of the bra cups",
         "span_start": 115,
         "span_end": 165
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S05",
+        "line_start": 54,
+        "line_end": 72
+      }
     },
     {
       "id": "ATOM-E02-019",
@@ -2515,7 +2848,7 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "unexpected_visual",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "sign",
       "source_action": {
         "line": 58,
         "exact_phrase": "a huge tent in front of his shorts",
@@ -2529,7 +2862,13 @@
           "span_start": 55,
           "span_end": 98
         }
-      ]
+      ],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S05",
+        "line_start": 54,
+        "line_end": 72
+      }
     },
     {
       "id": "ATOM-E02-020",
@@ -2541,14 +2880,20 @@
       "action_type": "physical_departure",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "deliberate",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "confrontation",
       "source_action": {
         "line": 60,
         "exact_phrase": "Quickly and silently she went outside the house",
         "span_start": 0,
         "span_end": 47
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S05",
+        "line_start": 54,
+        "line_end": 72
+      }
     },
     {
       "id": "ATOM-E02-021",
@@ -2560,14 +2905,20 @@
       "action_type": "actual_body_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "self_initiated_marital",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "intercourse",
       "source_action": {
         "line": 74,
         "exact_phrase": "Dhika moved op top of him and started humping him",
         "span_start": 63,
         "span_end": 112
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S06",
+        "line_start": 73,
+        "line_end": 76
+      }
     },
     {
       "id": "ATOM-E02-022",
@@ -2579,14 +2930,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "spousal_observation",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "expression",
       "source_action": {
         "line": 75,
         "exact_phrase": "her facial expressions where not that shy as usual",
         "span_start": 26,
         "span_end": 76
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S06",
+        "line_start": 73,
+        "line_end": 76
+      }
     },
     {
       "id": "ATOM-E02-023",
@@ -2598,14 +2955,20 @@
       "action_type": "positioning",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "no_touch",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "teacher",
       "source_action": {
         "line": 83,
         "exact_phrase": "he hissed near her",
         "span_start": 52,
         "span_end": 70
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S07",
+        "line_start": 79,
+        "line_end": 109
+      }
     },
     {
       "id": "ATOM-E02-024",
@@ -2617,14 +2980,20 @@
       "action_type": "visual_intent_unconfirmed",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "success_not_confirmed",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "hips",
       "source_action": {
         "line": 88,
         "exact_phrase": "trying to catch a glimpse of her hips",
         "span_start": 97,
         "span_end": 134
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S07",
+        "line_start": 79,
+        "line_end": 109
+      }
     },
     {
       "id": "ATOM-E02-025",
@@ -2636,14 +3005,20 @@
       "action_type": "object_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "requested_assistance",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "handbag",
       "source_action": {
         "line": 119,
         "exact_phrase": "looked for the key into the bag",
         "span_start": 41,
         "span_end": 72
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S08",
+        "line_start": 110,
+        "line_end": 121
+      }
     },
     {
       "id": "ATOM-E02-026",
@@ -2655,14 +3030,20 @@
       "action_type": "sensory_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "no_touch",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "scent",
       "source_action": {
         "line": 120,
         "exact_phrase": "she smells like baby powder",
         "span_start": 17,
         "span_end": 44
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S08",
+        "line_start": 110,
+        "line_end": 121
+      }
     },
     {
       "id": "ATOM-E02-027",
@@ -2674,14 +3055,20 @@
       "action_type": "object_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "requested_assistance",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "door",
       "source_action": {
         "line": 121,
         "exact_phrase": "took the key and opened the door",
         "span_start": 27,
         "span_end": 59
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S08",
+        "line_start": 110,
+        "line_end": 121
+      }
     },
     {
       "id": "ATOM-E02-028",
@@ -2693,14 +3080,20 @@
       "action_type": "accidental_physical_event",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "accidental",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "accidentally",
       "source_action": {
         "line": 122,
         "exact_phrase": "the bag slipped and fell down",
         "span_start": 191,
         "span_end": 220
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S09",
+        "line_start": 122,
+        "line_end": 135
+      }
     },
     {
       "id": "ATOM-E02-029",
@@ -2712,14 +3105,20 @@
       "action_type": "accidental_physical_event",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "accidental",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "accidentally",
       "source_action": {
         "line": 123,
         "exact_phrase": "pulled down the pallu of her saree along with it",
         "span_start": 39,
         "span_end": 87
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S09",
+        "line_start": 122,
+        "line_end": 135
+      }
     },
     {
       "id": "ATOM-E02-030",
@@ -2731,14 +3130,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "response_to_accident",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "bag",
       "source_action": {
         "line": 125,
         "exact_phrase": "She bent down fully",
         "span_start": 124,
         "span_end": 143
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S09",
+        "line_start": 122,
+        "line_end": 135
+      }
     },
     {
       "id": "ATOM-E02-031",
@@ -2750,14 +3155,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "self_choice",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "pallu",
       "source_action": {
         "line": 125,
         "exact_phrase": "she took the pallu and fixed it",
         "span_start": 230,
         "span_end": 261
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S09",
+        "line_start": 122,
+        "line_end": 135
+      }
     },
     {
       "id": "ATOM-E02-032",
@@ -2769,14 +3180,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "accidental_exposure",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "chest",
       "source_action": {
         "line": 126,
         "exact_phrase": "Bobby was wide eyed, open mouthed and still looking towards her chest",
         "span_start": 60,
         "span_end": 129
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S09",
+        "line_start": 122,
+        "line_end": 135
+      }
     },
     {
       "id": "ATOM-E02-033",
@@ -2788,14 +3205,20 @@
       "action_type": "visual_observation",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "different_group_reaction",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "gaze",
       "source_action": {
         "line": 126,
         "exact_phrase": "Bantu on the other hand, felt awkward and averted looking at eyes",
         "span_start": 131,
         "span_end": 196
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S09",
+        "line_start": 122,
+        "line_end": 135
+      }
     },
     {
       "id": "ATOM-E02-034",
@@ -2807,14 +3230,20 @@
       "action_type": "physical_departure",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "distress_response",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "bedroom",
       "source_action": {
         "line": 126,
         "exact_phrase": "ran into the bedroom and close the door",
         "span_start": 248,
         "span_end": 287
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S09",
+        "line_start": 122,
+        "line_end": 135
+      }
     },
     {
       "id": "ATOM-E02-035",
@@ -2826,14 +3255,20 @@
       "action_type": "physical_departure",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "avoidance",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "accident",
       "source_action": {
         "line": 132,
         "exact_phrase": "bobby ran out of the house",
         "span_start": 96,
         "span_end": 122
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S09",
+        "line_start": 122,
+        "line_end": 135
+      }
     },
     {
       "id": "ATOM-E02-036",
@@ -2845,14 +3280,20 @@
       "action_type": "actual_body_contact",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "argument_context",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "argument",
       "source_action": {
         "line": 145,
         "exact_phrase": "she started hitting him",
         "span_start": 79,
         "span_end": 102
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S10",
+        "line_start": 136,
+        "line_end": 150
+      }
     },
     {
       "id": "ATOM-E02-037",
@@ -2864,14 +3305,20 @@
       "action_type": "self_action",
       "temporal_status": "current_episode_narrated",
       "agency_and_permission": "not_yet_worn",
-      "body_object_or_viewed_detail": null,
+      "body_object_or_viewed_detail": "dress",
       "source_action": {
         "line": 155,
         "exact_phrase": "another dress, which recently she saw.... caught her eye",
         "span_start": 148,
         "span_end": 204
       },
-      "original_author_imagery": []
+      "original_author_imagery": [],
+      "scene_source_ref": {
+        "episode_id": "E02",
+        "scene_id": "E02-S11",
+        "line_start": 151,
+        "line_end": 155
+      }
     }
   ],
   "counts": {
