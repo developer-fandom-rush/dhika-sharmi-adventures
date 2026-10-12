@@ -1,0 +1,114 @@
+{
+  "kind": "episode05_scene_index",
+  "episode": "E05",
+  "raw_source": "raw/Dhika.txt",
+  "source_lines": 233,
+  "source_is_immutable": true,
+  "scenes": [
+    {
+      "id": "E05-S1",
+      "source_lines": [
+        1,
+        4
+      ],
+      "title": "Header"
+    },
+    {
+      "id": "E05-S2",
+      "source_lines": [
+        5,
+        20
+      ],
+      "title": "Closing conversation from E04"
+    },
+    {
+      "id": "E05-S3",
+      "source_lines": [
+        21,
+        50
+      ],
+      "title": "Evening at home and houseguest"
+    },
+    {
+      "id": "E05-S4",
+      "source_lines": [
+        51,
+        60
+      ],
+      "title": "Shopping begins"
+    },
+    {
+      "id": "E05-S5",
+      "source_lines": [
+        61,
+        118
+      ],
+      "title": "Unexpected mall meeting and outfit choices"
+    },
+    {
+      "id": "E05-S6",
+      "source_lines": [
+        119,
+        128
+      ],
+      "title": "Back home"
+    },
+    {
+      "id": "E05-S7",
+      "source_lines": [
+        129,
+        155
+      ],
+      "title": "Conversation with neighbor"
+    },
+    {
+      "id": "E05-S8",
+      "source_lines": [
+        156,
+        158
+      ],
+      "title": "Birthday and family schedule"
+    },
+    {
+      "id": "E05-S9",
+      "source_lines": [
+        159,
+        163
+      ],
+      "title": "Painting planned"
+    },
+    {
+      "id": "E05-S10",
+      "source_lines": [
+        164,
+        184
+      ],
+      "title": "Painting resumes"
+    },
+    {
+      "id": "E05-S11",
+      "source_lines": [
+        185,
+        211
+      ],
+      "title": "Painting mishap and practical correction"
+    },
+    {
+      "id": "E05-S12",
+      "source_lines": [
+        212,
+        229
+      ],
+      "title": "Workday concludes and next visit planned"
+    },
+    {
+      "id": "E05-S13",
+      "source_lines": [
+        230,
+        233
+      ],
+      "title": "End marker"
+    }
+  ],
+  "note": "Actual E05 index created after frozen E05 prediction. Indices are episode-local."
+}
