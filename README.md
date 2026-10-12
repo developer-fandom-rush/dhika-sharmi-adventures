@@ -6,7 +6,7 @@ The **current active scope is Episodes 01 and 02**. The original raw text is pre
 
 ## How to use
 
-1. Choose **Episode 01** or **Episode 02** at the top; E02 is the default.
+1. Open **Relationship Timeline ★** (the default view). Choose a pair such as **Dhika ↔ Uncle**; choose **All Episodes (E01 + E02)** to see continuous chronological evidence, or select one episode. Use **Evidence** to isolate inner thoughts, bond changes, physical actions or exact triggers.
 2. Open **Inner Evolution ★** to see *prior state → newly evidenced reaction/change*, one source-linked observation per checkpoint.
 3. Select **Dhika**, **John**, **Uncle**, **Bantu**, **Bobby**, **Chotu**, or **Sharmi** in the character dropdown; source records remain episode-local.
 4. Open **Trigger Words ✦** for exact highlighted author phrases and their specific importance. A sensual description is distinguished from a motive change, explicit thought, breach, callback or payoff.
@@ -22,6 +22,7 @@ The **current active scope is Episodes 01 and 02**. The original raw text is pre
 - `data/character_inner_evolution.json` — append-only person-specific psychological transitions across E01/E02.
 - `data/reader_triggers.json` — author-exact highlighted phrases with precise offsets, source line and distinct significance.
 - `data/group_encounters.json` — shared scenes plus participant-specific action/knowledge.
+- `data/relationship_links.json` — explicit relationship pointers for 58 inner-state records; the original E01/E02 mind records were not rewritten.
 - `data/physical_actions.json`
 - `data/bond_evolution.json`
 - `data/internal_heat_access.json`
@@ -46,3 +47,11 @@ Run `node scripts/validate.mjs` and `node --check app.js`. GitHub Actions runs t
 To run locally, serve the repository root via `python -m http.server 8000` and open `http://localhost:8000`. Opening `index.html` directly via `file://` will not load JSON in many browsers.
 
 **Privacy warning:** this repository and `raw/Dhika.txt` are **public**.
+
+## All-episodes pair timelines
+
+The **Relationship Timeline** tab joins the existing episode-indexed JSON evidence rather than physically merging or overwriting it. E01 and E02 headers separate the chronological records. Select **Dhika ↔ Uncle** or another available bond pair, and use the **Evidence** dropdown to include all facets or narrow to one kind of source. A single story event may legitimately appear in several evidence facets; these are *different annotations of the same source*, not multiple encounters.
+
+Quick link: https://developer-fandom-rush.github.io/dhika-sharmi-adventures/?pair=dhika_uncle
+
+**Download JSON ↓** on the Relationship Timeline exports the selected pair, episode scope, and currently filtered chronological source records as a combined JSON file. It includes raw source citations and separate analysis metadata. It does not change the committed JSON datasets. The old "I checked this against the source" checkmarks are retained by browser storage key.
