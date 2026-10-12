@@ -19,3 +19,5 @@ jobs:
         run: node scripts/validate.mjs
       - name: Verify relationship pair indexes
         run: node scripts/validate_relationships.mjs
+      - name: Verify E05–E06 director freeze, line coverage and evidence offsets
+        run: node scripts/validate_director_cycle.mjs
