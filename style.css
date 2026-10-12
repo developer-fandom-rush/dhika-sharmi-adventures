@@ -11,3 +11,16 @@
 .record:has(.director-details){border-left:3px solid #ac9a72}
 .source-line mark{background:#b27b36;color:#111a20;border-radius:3px;box-shadow:0 0 0 1px rgba(255,198,95,.15);padding:1px}
 @media(max-width:680px){.detail-row{grid-template-columns:1fr;gap:2px}.director-details{gap:10px}}
+
+/* Combined relationship explorer */
+[hidden]{display:none!important}
+.toolbar{flex-wrap:wrap}
+.toolbar-main{min-width:230px}
+.select-wrap{max-width:100%}
+#relationshipWrap select{min-width:185px}
+#facetWrap select{min-width:150px}
+.timeline-episode-label{display:flex;align-items:center;gap:12px;padding:14px 8px 7px;color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;position:sticky;top:0;background:var(--panel);z-index:1}
+.timeline-episode-label::after{content:"";height:1px;flex:1;background:var(--line)}
+.record:has(.record-id){scroll-margin-top:30px}
+@media(max-width:820px){.toolbar-main{flex-basis:100%}.select-wrap{flex:1;min-width:160px}.select-wrap select{width:100%;min-width:0!important}}
+@media(max-width:500px){.select-wrap{flex-basis:100%}.toolbar-main{min-width:0}}
