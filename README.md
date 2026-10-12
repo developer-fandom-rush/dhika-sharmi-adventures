@@ -1,6 +1,6 @@
 # Dhika & Sharmi Adventures — source-locked analysis dashboard
 
-The **fully integrated interactive source-evidence dashboard covers E01–E03**. E04 has a separate new director-analysis pack and E05 has a blind, hypothetical forecast. The unmodified original remains at `raw/Dhika.txt` (69 episode headings).
+The **Evidence Room covers E01–E04 analytical action/relationship records and E01–E05 original source/style browsing**. E05 also has a frozen blind prediction and a separate after-reading audit. E05's detailed atomic/psychology ledger is not yet complete. The canonical `raw/Dhika.txt` (69 episode headings) remains unmodified.
 
 **Dashboard:** https://developer-fandom-rush.github.io/dhika-sharmi-adventures/
 
@@ -75,7 +75,7 @@ Important E03 grounded distinctions: Dhika–Chotu's `flying_kiss` is noncontact
 
 ## New E04 Director Pack · E05 blind forecast
 
-The main interactive Evidence Room remains E01–E03 until E04's pointer-based records are integrated. New analysis lives in GitHub JSON files, referencing exact E04-local line numbers in `raw/Dhika.txt` without duplicating its original prose:
+The interactive Evidence Room now includes E04 source-pointer action and character records, plus E05 indexed original scenes. E05 is not yet fully indexed with individual action/psychology checkpoints. New analysis lives in GitHub JSON files, referencing exact E04-local line numbers in `raw/Dhika.txt` without duplicating its original prose:
 
 - [E04 direction index](./data/episode04_direction_index.json): 17 source-indexed scene directions
 - [E04 atomic ledger](./data/e04_atomic_director_ledger.json): 77 named actions, observations and reactions (pointer-based, not verbatim quote extracts)
@@ -83,4 +83,14 @@ The main interactive Evidence Room remains E01–E03 until E04's pointer-based r
 - [E04 author style guide](./data/e04_author_style_guide.json): 12 writing mechanisms, 5 voice profiles, director execution contract
 - [E05 blind director prediction](./data/e05_director_prediction.json): 8 noncanonical proposed scenes and rubric, frozen before E05 source is read
 
-**Verification distinction:** E01–E03 GitHub Actions tests do **not yet validate the new E04 pointer-based records or the forecast**. Do not treat the E04 pack as fully QA-passed or as included in the main interactive dashboard yet. The E05 forecast is hypothetical, never evidence of an E05 event.
+**Verification distinction:** GitHub Actions validates the E04 pointer references, E05 indexed scene ranges, all 65 exact short style quotes, and the frozen E05 forecast/audit shapes. These structural/source checks do not prove the scene-level interpretations are exhaustive. The forecast is hypothetical, not E05 canon.
+
+## Source-exact Author Style Mechanisms (E01–E05)
+
+The new **Exact Style Examples ★** dashboard tab (`?view=mechanisms`) connects **65 exact short source spans** with their original episode/line, character-pair mechanism, writer direction, and the separate narrator/character voice rules. Open a record to inspect its original line in the source panel. Source quotations are substring-verified in CI; the raw text is never rewritten.
+
+- [Scene- and character-specific style evidence](./data/source_verified_style_mechanisms_e01_e05.json): 65 verified phrase spans, 9 character evidence-status profiles, 9 pair/group writing signatures.
+- [Episode 05 scene index](./data/e05_scene_index.json): 13 windows spanning all 233 E05 original lines; the full atomic E05 ledger remains a **known gap**.
+- [E05 prediction audit](./data/e05_prediction_audit.json): 3 broad scene hits, 2 partials, 3 misses; no retroactive forecast editing.
+
+Raj is marked **unestablished in E01–E05**; Sharmi is marked **limited E01 evidence**, not a mature invented voice profile. To continue in a new chat, start with the repository paths above, verify latest GitHub Actions and source, then extend individual E05 actions; freeze an E06 prediction before reading actual E06. Do not claim this sampled style index gives exhaustive per-scene coverage.
