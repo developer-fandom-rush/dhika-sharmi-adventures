@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "kind": "E07_pre_read_director_prediction",
+  "source_limit": "E01 through E06 actual story content; E07 source header metadata was seen but no E07 narrative scenes consulted before freezing",
+  "source_blob_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "status": "HYPOTHESIS_NOT_CANON",
+  "probabilities_are_subjective": true,
+  "predictions": [
+    {
+      "id": "P1",
+      "weight": "high",
+      "pair": "Dhika / Chotu",
+      "next_scene": "Private embarrassment, silence, hurried separation or later revisit after E06 unexpected physical incident",
+      "earliest": "E07",
+      "later": "E08-E10",
+      "source": [
+        "E06 L195-219",
+        "E05 L227-229"
+      ],
+      "critical": "Chotu's requests to stop are explicit; do not assume comfort or future participation."
+    },
+    {
+      "id": "P2",
+      "weight": "medium",
+      "pair": "Dhika / John",
+      "next_scene": "Domestic contact or private reflection involving secrecy, comfort or guilt",
+      "earliest": "E07",
+      "later": "E08-E09",
+      "source": [
+        "E06 L220-224",
+        "E05 L156-158"
+      ]
+    },
+    {
+      "id": "P3",
+      "weight": "medium",
+      "pair": "Dhika / Bobby",
+      "next_scene": "Competition preparation follow-up, or Bobby reporting the previous scene to Bantu",
+      "earliest": "E07",
+      "later": "E08-E11",
+      "source": [
+        "E06 L26-29",
+        "E06 L128-133"
+      ],
+      "critical": "E06 states Bobby wishes to boast, not that he has already done so."
+    },
+    {
+      "id": "P4",
+      "weight": "medium",
+      "pair": "Dhika / Bantu",
+      "next_scene": "Return to tuition or contact informed by Bobby; Bantu may push conversationally but cannot be assumed to know Bobby's solo encounter",
+      "earliest": "E08",
+      "later": "E09-E12",
+      "source": [
+        "E06 L23",
+        "E06 L132",
+        "E05 L51-118"
+      ]
+    },
+    {
+      "id": "P5",
+      "weight": "low",
+      "pair": "Dhika / Uncle",
+      "next_scene": "Indirect travel news, absence or Aunty caretaking rather than immediate private interaction",
+      "earliest": "E07",
+      "later": "E11+",
+      "source": [
+        "E05 L148-158"
+      ]
+    },
+    {
+      "id": "P6",
+      "weight": "low",
+      "pair": "Dhika / Leo",
+      "next_scene": "New apartment decision or repeat dinner occasion with John present",
+      "earliest": "E08",
+      "later": "E12+",
+      "source": [
+        "E05 L37-44"
+      ]
+    },
+    {
+      "id": "P7",
+      "weight": "low",
+      "pair": "Dhika / Sharmi / Raj",
+      "next_scene": "Ordinary workplace or friendship check-in; no evidence of imminent private transformation",
+      "earliest": "E07",
+      "later": "unknown",
+      "source": [
+        "E01 L52-63"
+      ]
+    }
+  ],
+  "ranking": "Next immediate narrative attention predicted: Chotu aftermath, John guilt, Bobby competition, Bantu reconnection; other threads likely deferred.",
+  "grounding_limits": "No specific future act or timing is factually guaranteed. Forecast covers narrative relationship events, not instructions for sexual activity."
+}
