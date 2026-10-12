@@ -315,7 +315,37 @@ function appendField(container,label,value){
 }
 function appendSourceAnalysis(node,item){
  const block=text("div","","director-details");
- if(item.is_progression){
+ if(item.is_e04_action){
+  appendField(block,"ACTION NAME",item.action_name);
+  appendField(block,"ACTOR",CHARACTER_NAMES[item.actor]||item.actor);
+  appendField(block,"OBSERVED / ADDRESSED",CHARACTER_NAMES[item.target]||item.target);
+  appendField(block,"FOCUS",item.body_part_or_focus);
+  appendField(block,"EVENT TYPE",item.action_type+" · "+item.temporal_status);
+  appendField(block,"IMMEDIATE REACTION",item.observed_reaction);
+  appendField(block,"SCENE",item.scene_title);
+  appendField(block,"SOURCE","E04 L"+String(item.source_line).padStart(3,"0")+" (pointer; inspect unchanged original)");
+ }else if(item.is_style){
+  appendField(block,"MECHANISM",item.name);
+  appendField(block,"HOW THE AUTHOR STRUCTURES IT",item.mechanic);
+  appendField(block,"WRITER EXECUTION",item.writer_instruction);
+  appendField(block,"ALL SOURCE ANCHORS",item.evidence.map(a=>a[0]+" L"+a[1]+"–"+a[2]).join(" | "));
+ }else if(item.is_forecast){
+  appendField(block,"PREDICTION, NOT CANON",item.title);
+  appendField(block,"CONFIDENCE",item.confidence);
+  appendField(block,"OBJECTIVE",item.objective);
+  appendField(block,"PARTICIPANTS",item.participants.join(", "));
+  appendField(block,"SETTING",item.setting);
+  appendField(block,"DIRECTIONS",item.directions.map((x,i)=>(i+1)+". "+x).join("  |  "));
+  appendField(block,"PROPOSED ACTION NAMES",item.action_names.join(" → "));
+  appendField(block,"TENSION",item.inner_tension);
+  appendField(block,"SCENE EXIT",item.exit);
+  appendField(block,"ONLY KNOWN PRIOR REFERENCES",item.setup_from.join(" | "));
+ }else if(item.is_prediction_result){
+  appendField(block,"AUDIT RESULT",item.result.toUpperCase());
+  appendField(block,"E05 SOURCE",item.actual_source_lines?"E05 L"+item.actual_source_lines.join("–"):"No matching E05 passage");
+  appendField(block,"GROUNDED REASON",item.reason);
+  appendField(block,"REVIEW NOTE","This result assesses a previously frozen forecast; not a new scene prediction.");
+ }else if(item.is_progression){
   appendField(block,"PAIR",relationshipPeople(item.relationship_id).map(x=>CHARACTER_NAMES[x]||x).join(" ↔ "));
   appendField(block,"PROGRESSION STAGE",item.stage_name);
   appendField(block,"SOURCE SETUP",item.setup_analysis);
@@ -362,7 +392,7 @@ function renderRecords(){
  $("datasetTitle").textContent=STATE.view==="relationship"
   ?relationshipPeople(STATE.relationship).map(x=>CHARACTER_NAMES[x]||titleCase(x)).join(" ↔ ")+" · Relationship History"
   :STATE.view==="progression"?relationshipPeople(STATE.relationship).map(x=>CHARACTER_NAMES[x]||titleCase(x)).join(" ↔ ")+" · Action Progression":META[STATE.view].title;
- $("datasetNote").textContent=META[STATE.view].note+(STATE.view==="relationship"?" E01 → E02 → E03; different analytical records can cite the same original line.":"");
+ $("datasetNote").textContent=META[STATE.view].note+(STATE.view==="relationship"?" E01 → E02 → E03 → E04; different analytical records can cite the same original line.":"");
  $("resultCount").textContent=countLabel(items.length);
  if(!items.length){
   area.append(text("div","No matching source records. Try clearing the search or character filter.","empty"));
@@ -384,9 +414,9 @@ function renderRecords(){
   const characters=characterIds(item).map(id=>CHARACTER_NAMES[id]||id);
   if(characters.length)node.append(text("div",characters.join(" · "),"record-chars"));
   node.append(createTags(itemTags(item)));
-  if(item.is_inner||item.is_trigger||item.is_group||item.is_atomic||item.is_progression)appendSourceAnalysis(node,item);
-  if(STATE.showRaw&&!item.is_atomic&&!item.is_progression)node.append(rawSnippet(item));
-  if(item.is_atomic||item.is_progression)node.append(text("div","Click to read full verbatim scene →","record-chars"));
+  if(item.is_inner||item.is_trigger||item.is_group||item.is_atomic||item.is_progression||item.is_e04_action||item.is_style||item.is_forecast||item.is_prediction_result)appendSourceAnalysis(node,item);
+  if(STATE.showRaw&&!item.is_atomic&&!item.is_progression&&!item.is_e04_action)node.append(rawSnippet(item));
+  if(item.is_atomic||item.is_e04_action||item.is_progression)node.append(text("div","Click to read original scene →","record-chars"));
   const box=text("label","","verify-row");
   const check=document.createElement("input");check.type="checkbox";check.checked=isReviewed(item.id);
   check.setAttribute("aria-label","Verified "+item.id);
@@ -497,9 +527,15 @@ function renderSource(item){
  renderCrossReferences(item);
  $("sourceHeading").textContent=(item.is_atomic?itemHeading(item)+" · "+item.scene_title:itemHeading(item));
  $("sourceMeta").textContent=item.id+" · "+lineLabel(item)+" · "+(item.raw_lines||[]).length+" original scene lines";
- const epData={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03}[item.episode_id];
- const offset=(epData.source.master_first_line||3)-1;
- $("viewGithubLine").href=repoPath+"#L"+(item.line_start+offset)+"-L"+(item.line_end+offset);
+ const epData={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03,E04:DATA.e04}[item.episode_id];
+ const offset=(epData?.source?.master_first_line||3)-1;
+ if(item.is_forecast){
+  $("viewGithubLine").href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/e05_director_prediction.json";
+  pane.append(text("div","Frozen forecast only — no E05 source excerpt is asserted here.","placeholder"));
+ }else if(item.is_prediction_result){
+  $("viewGithubLine").href=repoPath+"#L"+(DATA.e05RawOffset+item.line_start)+"-L"+(DATA.e05RawOffset+item.line_end);
+  pane.append(text("div","E05 comparison uses line references; open the source link for exact wording.","placeholder"));
+ }else $("viewGithubLine").href=repoPath+"#L"+(item.line_start+offset)+"-L"+(item.line_end+offset);
  for(const line of item.raw_lines||[]){
   const row=text("div","","source-line");
   row.append(text("span","L"+String(line.line).padStart(3,"0"),"line-no"));
@@ -518,7 +554,7 @@ function downloadActive(){
    kind:"relationship_timeline_export",
    relationship_id:STATE.relationship,
    participant_ids:relationshipPeople(STATE.relationship),
-   episode_scope:STATE.episode==="ALL"?["E01","E02","E03"]:[STATE.episode],
+   episode_scope:STATE.episode==="ALL"?["E01","E02","E03","E04"]:[STATE.episode],
    source:"raw/Dhika.txt",
    note:"Chronological references from the source-locked datasets. Overlapping quoted lines may recur across distinct analysis categories. Raw source remains unchanged.",
    records:filteredItems().map(e=>({
@@ -537,8 +573,11 @@ function downloadActive(){
   };
   filename=STATE.relationship+"_timeline_"+STATE.episode.toLowerCase()+".json";
  }else{
-  payload=STATE.view==="episode"?(STATE.episode==="E03"?DATA.e03:STATE.episode==="E02"?DATA.e02:DATA.episode):DATA[STATE.view];
-  filename=URLS[STATE.view==="episode"&&STATE.episode==="E03"?"e03":STATE.view==="episode"&&STATE.episode==="E02"?"e02":STATE.view].split("/").at(-1);
+  payload=STATE.view==="episode"?(STATE.episode==="ALL"?{kind:"combined_episode_index",episodes:[DATA.episode,DATA.e02,DATA.e03,DATA.e04]}:
+  STATE.episode==="E04"?DATA.e04:STATE.episode==="E03"?DATA.e03:STATE.episode==="E02"?DATA.e02:DATA.episode):
+  STATE.view==="directorStyle"?DATA.e04Style:STATE.view==="directorForecast"?DATA.e05Prediction:STATE.view==="predictionReview"?DATA.e05Review:DATA[STATE.view];
+  filename=STATE.view==="episode"?"source_index_"+STATE.episode.toLowerCase()+".json":
+  URLS[STATE.view==="directorStyle"?"e04Style":STATE.view==="directorForecast"?"e05Prediction":STATE.view==="predictionReview"?"e05Review":STATE.view].split("/").at(-1);
  }
  const data=JSON.stringify(payload,null,2)+"\n";
  const blob=new Blob([data],{type:"application/json;charset=utf-8"});
@@ -561,6 +600,26 @@ function fallbackCopy(txt){
  setTimeout(()=>$("copySource").textContent="Copy cited lines",1200);
 }
 function render(){renderTabs();renderStats();renderRecords();}
+
+function makeE04FromCanonical(raw){
+ const heads=[...raw.matchAll(/^EPISODE\s+(\d+)\s*$/gm)];
+ if(heads.length!==69||heads[3][1]!=="4")throw Error("Unexpected raw source headings");
+ const lines=raw.slice(heads[3].index,heads[4].index).split(/\r?\n/);
+ if(lines.length!==207)throw Error("E04 source has "+lines.length+" lines instead of 207");
+ const windows=[[1,4,"episode_header"],...DATA.e04Direction.scenes.map(s=>[...s.source_lines,s.title]),[203,207,"closing"]];
+ let prev=0;
+ const events=windows.map(([a,b,label],i)=>{
+  if(a!==prev+1||b>207||a>b)throw Error("Noncontiguous E04 scene index near "+label);
+  prev=b;
+  return{id:"E04-B"+String(i+1).padStart(3,"0"),episode_id:"E04",label,
+   line_start:a,line_end:b,raw_lines:lines.slice(a-1,b).map((str,j)=>({line:a+j,text:str}))};
+ });
+ if(prev!==207)throw Error("E04 index incomplete");
+ return{kind:"episode",episode_id:"E04",line_count:207,
+  source:{master_first_line:raw.slice(0,heads[3].index).split(/\r?\n/).length},
+  events};
+}
+
 async function main(){
  try{
   const pairs=await Promise.all(Object.entries(URLS).map(async ([key,url])=>{
@@ -569,7 +628,13 @@ async function main(){
    return [key,await res.json()];
   }));
   for(const [key,data] of pairs)DATA[key]=data;
-  for(const key of ["episode","e02","e03"]){
+  const rawResponse=await fetch("./raw/Dhika.txt",{cache:"no-store"});
+  if(!rawResponse.ok)throw Error("Canonical source → HTTP "+rawResponse.status);
+  const completeRaw=await rawResponse.text();
+  DATA.e04=makeE04FromCanonical(completeRaw);
+  const headers=[...completeRaw.matchAll(/^EPISODE\s+(\d+)\s*$/gm)];
+  DATA.e05RawOffset=completeRaw.slice(0,headers[4].index).split(/\r?\n/).length-1;
+  for(const key of ["episode","e02","e03","e04"]){
    const ep=DATA[key],nums=ep.events.flatMap(e=>e.raw_lines.map(z=>z.line));
    if(nums.length!==ep.line_count||new Set(nums).size!==ep.line_count||!nums.every((n,i)=>n===i+1))throw Error("Source integrity failed for "+ep.episode_id);
   }
@@ -577,9 +642,9 @@ async function main(){
   const url=new URL(window.location.href),pair=url.searchParams.get("pair"),ep=url.searchParams.get("episode"),view=url.searchParams.get("view");
   if(view&&Object.prototype.hasOwnProperty.call(META,view))STATE.view=view;
   if(pair&&DATA.bonds.relationships.some(r=>r.id===pair))STATE.relationship=pair;
-  if(["ALL","E01","E02","E03"].includes(ep))STATE.episode=ep;
+  if(["ALL","E01","E02","E03","E04"].includes(ep))STATE.episode=ep;
   updateToolbar();
-  $("loadStatus").textContent="E01: 229/229 · E02: 160/160 · E03: 240/240 · relationship histories linked";
+  $("loadStatus").textContent="E01 229/229 · E02 160/160 · E03 240/240 · E04 207/207 · prediction reviewed";
   $("searchInput").addEventListener("input",e=>{STATE.query=e.target.value;renderRecords();});
   $("characterFilter").addEventListener("change",e=>{STATE.character=e.target.value;STATE.selected=null;renderRecords();});
   $("episodeFilter").addEventListener("change",e=>{STATE.episode=e.target.value;STATE.selected=null;render();});
