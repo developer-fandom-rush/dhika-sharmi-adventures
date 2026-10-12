@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "kind": "director_qa_contract",
+  "version": "2026-10-12",
+  "status": "mandatory_before_claiming_episode_complete",
+  "purpose": "Prevent analytical compression: narrative fact, visual extent, question, interpretation, source quote and character-specific behavior must never collapse into one vague event.",
+  "non_negotiable_rules": [
+    {
+      "rule": "protect_canon",
+      "detail": "raw/Dhika.txt read-only. All analysis sources are pointers to exact episode-local original lines."
+    },
+    {
+      "rule": "no_unseen_canon",
+      "detail": "Do not invent historical actions or change event timing. Hypotheses remain explicitly noncanonical until compared with the original."
+    },
+    {
+      "rule": "no_summarize_away_actions",
+      "detail": "A scene may contain dozens of discrete choices, gazes, touch gestures, reactions, description beats and dialogue turns. Count separately where materially distinct."
+    },
+    {
+      "rule": "who_knows_what",
+      "detail": "Keep actor intention, narrator assertions, each character's observation, stated belief, questions, and incorrect dialogue labels separate."
+    },
+    {
+      "rule": "question_not_event",
+      "detail": "Questions about prior experience, descriptions of imagined acts, and overstatements by a speaker are not proof the questioned/described event happened."
+    },
+    {
+      "rule": "exposure_degree",
+      "detail": "If source establishes partial visibility, record observed part and substantial degree, preserving garment and narrator's full context; do not silently reduce the event to outfit change or expand it to complete disrobing."
+    },
+    {
+      "rule": "each_character_style",
+      "detail": "Track per-character and per-relationship dialogue, repeated phrases, narrator access, pacing, gestures, reaction timing, knowledge gaps. Avoid universal/generic style claims."
+    },
+    {
+      "rule": "group_scene_attribution",
+      "detail": "Shared source window once; store Bantu, Bobby and Dhika reactions and spoken claims individually with line IDs."
+    },
+    {
+      "rule": "episode_boundary",
+      "detail": "Record last real action/question, where everyone is, whether scene actually ended, and whether next episode immediately resumes or uses flashback."
+    },
+    {
+      "rule": "predictions_are_frozen",
+      "detail": "Freeze target episode prediction before reading its raw source; never edit its content after evaluating it; exact-action misses reported explicitly."
+    },
+    {
+      "rule": "no_false_done",
+      "detail": "Separate machine-verification from editorial completeness. Passing tests is necessary but not sufficient."
+    }
+  ],
+  "required_event_fields": [
+    "id",
+    "episode_id",
+    "line_or_span",
+    "actor_or_narrator",
+    "event_kind",
+    "action_name",
+    "target",
+    "body_part_or_object_when_evidenced",
+    "visibility_or_clothing_context_when_evidenced",
+    "actual_question_claim_or_imagined",
+    "initiator_intention_if_reported",
+    "observer",
+    "observer_interpretation",
+    "emotional_or_physical_response",
+    "prior_event_ids",
+    "changed_relationship_state",
+    "source_evidence_status"
+  ],
+  "required_scene_checks": [
+    "all_sentences_read",
+    "material_actions_atomic",
+    "narrator_fact_vs_character_speech_checked",
+    "observer_targets_precise",
+    "deliberate_vs_accidental_checked",
+    "emotions_actor_specific",
+    "prior_and_future_chain_linked",
+    "narrator_style_and_dialogue_specific",
+    "no_source_gaps",
+    "last_line_boundary_recorded"
+  ],
+  "case_study_e04": {
+    "episode": "E04",
+    "source_lines": [
+      95,
+      123,
+      124,
+      125,
+      132,
+      142,
+      152,
+      173,
+      174,
+      175,
+      176,
+      177
+    ],
+    "failure": "Substantial partial visibility and conflicting topless terminology compressed away into clothing and generic dialogue labels",
+    "corrected_file": "data/e04_atomic_director_ledger.json",
+    "canonical_interpretation": "Substantial partial upper-body visibility is supported. A speaker's topless question/claim and Dhika's blouse-still-on correction are distinct source facts.",
+    "require_distinct_event_names": [
+      "deliberately_remove_and_drop_pallu",
+      "observe_substantial_partial_chest_exposure",
+      "describe_substantial_partial_exposure",
+      "ask_about_prior_topless_viewing",
+      "claim_first_topless_view",
+      "correct_topless_term_blouse_still_on"
+    ]
+  },
+  "release_gates": {
+    "machine": "All pointers valid and consistent with raw; no duplicate IDs, impossible references or forecast/canon contamination",
+    "editorial": "Evidence-completeness audit per scene, especially unnamed actions, body description, intentions, multiple character viewpoints and narrator/character contrasts",
+    "status_reporting": "Claim fully reviewed only after both gates; never equate schema validation with accuracy or coverage."
+  }
+}
