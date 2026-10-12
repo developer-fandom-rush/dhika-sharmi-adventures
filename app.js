@@ -78,7 +78,7 @@ function listRelationshipRecords(pairId){
 }
 function listItems(view){
  const d=DATA[view];
- if(!d)return[];
+ if(!d&&view!=="relationship")return[];
  let base=[];
  if(view==="relationship")base=listRelationshipRecords(STATE.relationship);
  else if(view==="episode")base=[...DATA.episode.events,...DATA.e02.events];
