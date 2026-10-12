@@ -223,4 +223,36 @@ for(const mark of audit.marks)counts[mark.result]++;
 assert(counts.hit===audit.counts.hits&&counts.partial===audit.counts.partials&&counts.miss===audit.counts.misses,"E05 score inconsistent");
 console.log("PASS: E04 207 source lines, 17 scenes, 77 action pointers, 25 mind changes and 12 writing mechanics.");
 console.log("PASS: E05 frozen forecast and eight evidence-backed review marks; "+counts.hit+" hit, "+counts.partial+" partial, "+counts.miss+" miss.");
+const mechanisms=load("data/source_verified_style_mechanisms_e01_e05.json");
+assert(mechanisms.kind==="source_verified_scene_writing_mechanisms","Missing forensic style guide");
+assert(mechanisms.source_examples.length===65&&mechanisms.mechanism_count===65,"Expected 65 exact-style examples");
+const sourceForStyle={E01:e01,E02:e02,E03:e03,E04:e04,E05:e05};
+const styleIds=new Set();
+for(const example of mechanisms.source_examples){
+ assert(!styleIds.has(example.id),"Duplicate forensic style evidence: "+example.id);
+ styleIds.add(example.id);
+ const line=sourceForStyle[example.episode_id]?.[example.line-1];
+ assert(typeof line==="string","Unknown forensic style line: "+example.id);
+ assert(line.slice(example.span_start,example.span_end)===example.quote,"Verbatim style phrase mismatch: "+example.id);
+ assert(example.writer_instruction.length>=35,"Style instruction too generic: "+example.id);
+ assert(Boolean(mechanisms.relationship_specific_voice_rules[example.character_pair]),"Missing pair style profile: "+example.id);
+}
+for(const e of ["E01","E02","E03","E04","E05"])assert(mechanisms.source_examples.some(x=>x.episode_id===e),"Missing style mechanism episode: "+e);
+const styleActors=Object.keys(mechanisms.character_profiles);
+assert(styleActors.length===9&&mechanisms.character_profiles.raj.status==="not_established_by_E01_E05","Evidence-limited voice definitions lost");
+for(const [actor,profile] of Object.entries(mechanisms.character_profiles)){
+ for(const [ep,line] of profile.evidence){
+  assert(Boolean(sourceForStyle[ep]?.[line-1]),"Invalid voice evidence for "+actor);
+ }
+}
+const indexE05=load("data/e05_scene_index.json");
+let nextE05=1;
+for(const scene of indexE05.scenes){
+ const [a,b]=scene.source_lines;
+ assert(a===nextE05&&b>=a&&b<=233,"E05 scene index gap at "+scene.id);
+ nextE05=b+1;
+}
+assert(nextE05===234,"E05 scene index missing last lines");
+console.log("PASS: 65 short author quotes exactly matched E01–E05 source; 9 voice profiles; 8 interaction signatures; full E05 indexed.");
+
 console.log("PASS: GitHub source has 69 complete episode headings; E01–E04 analyzed, E05 audited.");
