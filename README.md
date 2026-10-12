@@ -32,3 +32,13 @@ Open `index.html` on a static web server or enable GitHub Pages for the reposito
 Serve this folder with any local HTTP server, e.g. `python -m http.server 8000`, then open `http://localhost:8000`. GitHub Pages may be enabled in **Settings → Pages → Deploy from branch → main → /(root)**.
 
 No API keys or external JavaScript libraries required.
+
+## Verifying source integrity
+
+Run `node scripts/validate.mjs` from the repository root. It checks the source heading order, all 229 E01 lines, every quoted evidence field across the six JSON files, each record's episode/line coordinates, and duplicate IDs. The JSON records were also cross-checked against the source during the initial upload.
+
+## Dashboard review workflow
+
+Select a dataset tab, optionally filter by character, then choose a record. The right pane shows the author's exact cited source lines and a link into `raw/Dhika.txt`. Related source records across the other five datasets appear beneath the inspector controls. Tick the checkbox only after you verify a record. Marks are held in browser local storage and do not modify the repository.
+
+GitHub Pages has not been confirmed active. To publish a static dashboard URL, go to repository **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save. GitHub will provide the published address when deployment completes.
