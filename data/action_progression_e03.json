@@ -1,0 +1,732 @@
+{
+  "schema_version": 1,
+  "kind": "observed_physical_action_progression",
+  "episode_scope": [
+    "E01",
+    "E02",
+    "E03"
+  ],
+  "source": "raw/Dhika.txt",
+  "is_prediction": false,
+  "notes": "Director training uses observed sequence, participant, actual vs imagined labels, psychological cause, opportunity/context and original wording. No future action has been invented.",
+  "decision_method": [
+    {
+      "step": 1,
+      "name": "established_pair",
+      "question": "Which pair has an active sequence with recurring meetings, shared context and source-reported thoughts?"
+    },
+    {
+      "step": 2,
+      "name": "last_observed_action",
+      "question": "Name the last real physical contact precisely, distinguish actual from remembered, imagined and visual-only"
+    },
+    {
+      "step": 3,
+      "name": "change_and_consequence",
+      "question": "What happened immediately after that action in each participant's own thoughts and communication?"
+    },
+    {
+      "step": 4,
+      "name": "practical_next_setup",
+      "question": "Does the story supply a plausible next meeting setting and who initiates it?"
+    },
+    {
+      "step": 5,
+      "name": "action_name_only",
+      "question": "A future proposal must have only a short action label, source-evidence rationale and uncertainty; do not substitute it for real canon"
+    },
+    {
+      "step": 6,
+      "name": "compare_with_next_real_episode",
+      "question": "When new raw episode arrives, contrast suggested action names versus actual canonical event IDs and update the learning ledger"
+    }
+  ],
+  "pairs": [
+    {
+      "relationship_id": "dhika_chotu",
+      "label": "Dhika ↔ Chotu",
+      "stages": [
+        {
+          "id": "PROG-dhika_chotu-01",
+          "episode_id": "E01",
+          "line_start": 141,
+          "line_end": 151,
+          "stage_name": "accidental_first_visual_trigger",
+          "setup_analysis": "unplanned drink-service bending; reaction left uncertain",
+          "observed_contact": "first unexpected visual moment",
+          "atomic_action_ids": [
+            "ATOM-E01-021",
+            "ATOM-E01-022",
+            "ATOM-E01-023"
+          ],
+          "atomic_action_names": [
+            "bend_to_offer_juice",
+            "react_to_unexpected_view",
+            "wonder_if_cleavage_seen"
+          ],
+          "source_line_reference": "E01 L141–L151",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_chotu-02",
+          "episode_id": "E01",
+          "line_start": 208,
+          "line_end": 224,
+          "stage_name": "deliberate_self_presentation_and_observation",
+          "setup_analysis": "mirror self-question leads to test of being noticed and shared gaze",
+          "observed_contact": "deliberate visual but no kiss",
+          "atomic_action_ids": [
+            "ATOM-E01-027",
+            "ATOM-E01-028",
+            "ATOM-E01-029",
+            "ATOM-E01-030",
+            "ATOM-E01-031",
+            "ATOM-E01-032",
+            "ATOM-E01-033",
+            "ATOM-E01-034",
+            "ATOM-E01-035",
+            "ATOM-E01-036"
+          ],
+          "atomic_action_names": [
+            "look_in_mirror",
+            "remove_dupatta",
+            "look_at_own_cleavage",
+            "choose_attention_test",
+            "bend_to_clean_floor",
+            "see_partial_breast",
+            "look_toward_chotu",
+            "make_eye_contact",
+            "leave_after_encounter",
+            "lie_back_on_floor"
+          ],
+          "source_line_reference": "E01 L208–L224",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_chotu-03",
+          "episode_id": "E02",
+          "line_start": 110,
+          "line_end": 115,
+          "stage_name": "absence_interpreted_personally",
+          "setup_analysis": "not present when expected; Dhika speculates about his reasons",
+          "observed_contact": "no contact",
+          "atomic_action_ids": [],
+          "atomic_action_names": [],
+          "source_line_reference": "E02 L110–L115",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_chotu-04",
+          "episode_id": "E02",
+          "line_start": 150,
+          "line_end": 155,
+          "stage_name": "person_specific_emotional_comparison",
+          "setup_analysis": "she contrasts her reaction with Chotu against her distress around twins",
+          "observed_contact": "no contact",
+          "atomic_action_ids": [
+            "ATOM-E02-037"
+          ],
+          "atomic_action_names": [
+            "notice_other_dress"
+          ],
+          "source_line_reference": "E02 L150–L155",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_chotu-05",
+          "episode_id": "E03",
+          "line_start": 5,
+          "line_end": 35,
+          "stage_name": "prepared_appearance_and_teasing",
+          "setup_analysis": "clothing decision, gaze noticed and teasing explicitly initiated",
+          "observed_contact": "visual + brief cheek tap",
+          "atomic_action_ids": [
+            "ATOM-E03-001",
+            "ATOM-E03-002",
+            "ATOM-E03-003",
+            "ATOM-E03-004",
+            "ATOM-E03-005",
+            "ATOM-E03-006",
+            "ATOM-E03-007",
+            "ATOM-E03-008",
+            "ATOM-E03-009"
+          ],
+          "atomic_action_names": [
+            "tap_cheek",
+            "notice_new_outfit",
+            "scan_appearance",
+            "glance_at_legs",
+            "shake_wet_hair",
+            "reach_up_to_shelf",
+            "look_at_navel",
+            "tease_about_looking",
+            "recognize_attraction_cue"
+          ],
+          "source_line_reference": "E03 L5–L35",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_chotu-06",
+          "episode_id": "E03",
+          "line_start": 44,
+          "line_end": 69,
+          "stage_name": "small_contacts_build_familiarity",
+          "setup_analysis": "sofa invitation, hand hold, knee contact, food-related palm/stomach gestures",
+          "observed_contact": "hand/knee/stomach contact",
+          "atomic_action_ids": [
+            "ATOM-E03-010",
+            "ATOM-E03-011",
+            "ATOM-E03-012",
+            "ATOM-E03-013",
+            "ATOM-E03-014",
+            "ATOM-E03-015",
+            "ATOM-E03-016",
+            "ATOM-E03-017",
+            "ATOM-E03-018",
+            "ATOM-E03-019",
+            "ATOM-E03-020",
+            "ATOM-E03-021",
+            "ATOM-E03-022"
+          ],
+          "atomic_action_names": [
+            "hold_hands",
+            "pull_onto_sofa",
+            "catch_ice_cream_drop",
+            "lick_ice_cream_finger",
+            "tap_knee",
+            "wipe_ice_cream_from_palm",
+            "lick_ice_cream_finger",
+            "ask_about_kissing",
+            "knees_touch",
+            "ask_about_first_kiss",
+            "ice_cream_falls_on_stomach",
+            "wipe_ice_cream_from_stomach",
+            "lick_ice_cream_finger"
+          ],
+          "source_line_reference": "E03 L44–L69",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_chotu-07",
+          "episode_id": "E03",
+          "line_start": 70,
+          "line_end": 91,
+          "stage_name": "spoken_kiss_topic_and_lip_focus",
+          "setup_analysis": "kissing discussed, noncontact flying kiss, mutually directed lip attention",
+          "observed_contact": "flying kiss only, no lip contact yet",
+          "atomic_action_ids": [
+            "ATOM-E03-023",
+            "ATOM-E03-024",
+            "ATOM-E03-025",
+            "ATOM-E03-026",
+            "ATOM-E03-027",
+            "ATOM-E03-028"
+          ],
+          "atomic_action_names": [
+            "laugh_after_unexpected_touch",
+            "flying_kiss",
+            "lick_upper_lip",
+            "look_at_lips",
+            "mutual_lip_gaze",
+            "recline_on_sofa"
+          ],
+          "source_line_reference": "E03 L70–L91",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_chotu-08",
+          "episode_id": "E03",
+          "line_start": 92,
+          "line_end": 98,
+          "stage_name": "first_direct_kiss_and_reciprocation",
+          "setup_analysis": "Chotu initiates lip kiss, Dhika returns it; one encounter, two distinct actor actions",
+          "observed_contact": "first lip kiss followed by retreat",
+          "atomic_action_ids": [
+            "ATOM-E03-029",
+            "ATOM-E03-030",
+            "ATOM-E03-031",
+            "ATOM-E03-032",
+            "ATOM-E03-033"
+          ],
+          "atomic_action_names": [
+            "kiss_on_lips",
+            "kiss_back_on_lips",
+            "stand_up_suddenly",
+            "retreat_to_bedroom",
+            "leave_after_kiss"
+          ],
+          "source_line_reference": "E03 L92–L98",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_chotu-09",
+          "episode_id": "E03",
+          "line_start": 99,
+          "line_end": 100,
+          "stage_name": "private_aftershock_and_secrecy",
+          "setup_analysis": "following-day ambivalence and absence of disclosure to John",
+          "observed_contact": "no new contact",
+          "atomic_action_ids": [
+            "ATOM-E03-034"
+          ],
+          "atomic_action_names": [
+            "revisit_kiss_in_thought"
+          ],
+          "source_line_reference": "E03 L99–L100",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_chotu-10",
+          "episode_id": "E03",
+          "line_start": 201,
+          "line_end": 210,
+          "stage_name": "awkward_reunion_without_explicit_discussion",
+          "setup_analysis": "painting task enables encounter after kiss, both privately affected",
+          "observed_contact": "no new kiss reported",
+          "atomic_action_ids": [
+            "ATOM-E03-046"
+          ],
+          "atomic_action_names": [
+            "open_door"
+          ],
+          "source_line_reference": "E03 L201–L210",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_chotu-11",
+          "episode_id": "E03",
+          "line_start": 219,
+          "line_end": 235,
+          "stage_name": "renewed_self_styling_and_gaze",
+          "setup_analysis": "Dhika initiates garment styling, Chotu's looking and narrator metaphors create visual payoff",
+          "observed_contact": "visual only, no new mutual touch",
+          "atomic_action_ids": [
+            "ATOM-E03-049",
+            "ATOM-E03-050",
+            "ATOM-E03-051",
+            "ATOM-E03-052",
+            "ATOM-E03-053",
+            "ATOM-E03-054",
+            "ATOM-E03-055",
+            "ATOM-E03-056",
+            "ATOM-E03-057",
+            "ATOM-E03-058",
+            "ATOM-E03-059",
+            "ATOM-E03-060",
+            "ATOM-E03-061"
+          ],
+          "atomic_action_names": [
+            "decide_to_tease",
+            "knot_tshirt",
+            "look_at_cleavage",
+            "request_attention_to_shelf",
+            "raise_arms_to_shelf",
+            "scan_appearance",
+            "follow_sweat_trail_with_eyes",
+            "imagine_kissing_navel",
+            "look_at_lower_body",
+            "jump_back",
+            "adjust_clothing",
+            "notice_clothed_reaction",
+            "compare_reaction_to_heartbeat"
+          ],
+          "source_line_reference": "E03 L219–L235",
+          "status": "observed_original_not_predicted"
+        }
+      ]
+    },
+    {
+      "relationship_id": "dhika_bobby",
+      "label": "Dhika ↔ Bobby",
+      "stages": [
+        {
+          "id": "PROG-dhika_bobby-01",
+          "episode_id": "E01",
+          "line_start": 90,
+          "line_end": 101,
+          "stage_name": "first_contact_beyond_initial_instruction",
+          "setup_analysis": "bike-seat choice, held hips/stomach and distinct fingertip actions",
+          "observed_contact": "physical contact on bike",
+          "atomic_action_ids": [
+            "ATOM-E01-012",
+            "ATOM-E01-014",
+            "ATOM-E01-015",
+            "ATOM-E01-016",
+            "ATOM-E01-017",
+            "ATOM-E01-018"
+          ],
+          "atomic_action_names": [
+            "look_at_backside",
+            "take_middle_bike_seat",
+            "instruct_balance_hold",
+            "hold_hips_and_stomach",
+            "tap_stomach",
+            "rub_bare_hip"
+          ],
+          "source_line_reference": "E01 L90–L101",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_bobby-02",
+          "episode_id": "E02",
+          "line_start": 118,
+          "line_end": 132,
+          "stage_name": "unexpected_accident_and_departure",
+          "setup_analysis": "home access, accidental clothing incident, Bobby leaves abruptly",
+          "observed_contact": "visual event, no contact",
+          "atomic_action_ids": [
+            "ATOM-E02-025",
+            "ATOM-E02-026",
+            "ATOM-E02-027",
+            "ATOM-E02-028",
+            "ATOM-E02-029",
+            "ATOM-E02-030",
+            "ATOM-E02-031",
+            "ATOM-E02-032",
+            "ATOM-E02-034",
+            "ATOM-E02-035"
+          ],
+          "atomic_action_names": [
+            "reach_into_handbag",
+            "notice_scent",
+            "unlock_door",
+            "drop_bag_accidentally",
+            "displace_pallu_accidentally",
+            "bend_to_pick_bag",
+            "restore_pallu",
+            "look_at_exposed_chest",
+            "retreat_to_bedroom",
+            "leave_after_accident"
+          ],
+          "source_line_reference": "E02 L118–L132",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_bobby-03",
+          "episode_id": "E03",
+          "line_start": 101,
+          "line_end": 135,
+          "stage_name": "spoken_compliment_and_cheek_touch",
+          "setup_analysis": "tuition routine, Bobby breaks usual quietness and Dhika responds with cheek pinch",
+          "observed_contact": "brief cheek contact",
+          "atomic_action_ids": [
+            "ATOM-E03-035",
+            "ATOM-E03-036",
+            "ATOM-E03-037",
+            "ATOM-E03-038",
+            "ATOM-E03-039"
+          ],
+          "atomic_action_names": [
+            "remove_dupatta",
+            "compliment_smile",
+            "change_to_skirt_and_top",
+            "twirl_in_skirt",
+            "pinch_cheek"
+          ],
+          "source_line_reference": "E03 L101–L135",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_bobby-04",
+          "episode_id": "E03",
+          "line_start": 153,
+          "line_end": 171,
+          "stage_name": "comfort_during_second_accident",
+          "setup_analysis": "Bobby wipes tears, expresses reassurance; teacher later pats head",
+          "observed_contact": "cheek touch for comfort and head pat",
+          "atomic_action_ids": [
+            "ATOM-E03-040",
+            "ATOM-E03-041",
+            "ATOM-E03-042",
+            "ATOM-E03-043",
+            "ATOM-E03-044"
+          ],
+          "atomic_action_names": [
+            "pallu_slips_with_fan",
+            "pallu_falls",
+            "fix_pallu",
+            "wipe_tears_from_cheek",
+            "pat_head"
+          ],
+          "source_line_reference": "E03 L153–L171",
+          "status": "observed_original_not_predicted"
+        }
+      ]
+    },
+    {
+      "relationship_id": "dhika_bantu",
+      "label": "Dhika ↔ Bantu",
+      "stages": [
+        {
+          "id": "PROG-dhika_bantu-01",
+          "episode_id": "E01",
+          "line_start": 39,
+          "line_end": 42,
+          "stage_name": "repeated_compliments",
+          "setup_analysis": "praise becomes expected by Dhika privately",
+          "observed_contact": "verbal only",
+          "atomic_action_ids": [],
+          "atomic_action_names": [],
+          "source_line_reference": "E01 L39–L42",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_bantu-02",
+          "episode_id": "E01",
+          "line_start": 81,
+          "line_end": 106,
+          "stage_name": "constructed_meeting_opportunity",
+          "setup_analysis": "bike lift pretext and frustration about who sat nearby",
+          "observed_contact": "no direct contact shown with Dhika",
+          "atomic_action_ids": [
+            "ATOM-E01-011"
+          ],
+          "atomic_action_names": [
+            "look_at_backside"
+          ],
+          "source_line_reference": "E01 L81–L106",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_bantu-03",
+          "episode_id": "E02",
+          "line_start": 89,
+          "line_end": 108,
+          "stage_name": "new_access_routine",
+          "setup_analysis": "tutoring negotiated, motive partly private to Bantu",
+          "observed_contact": "verbal arrangement",
+          "atomic_action_ids": [],
+          "atomic_action_names": [],
+          "source_line_reference": "E02 L89–L108",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_bantu-04",
+          "episode_id": "E02",
+          "line_start": 122,
+          "line_end": 133,
+          "stage_name": "accidental_view_and_avoidance",
+          "setup_analysis": "Bantu averts attention where Bobby reacts differently",
+          "observed_contact": "visual moment",
+          "atomic_action_ids": [
+            "ATOM-E02-028",
+            "ATOM-E02-029",
+            "ATOM-E02-030",
+            "ATOM-E02-031",
+            "ATOM-E02-033",
+            "ATOM-E02-034"
+          ],
+          "atomic_action_names": [
+            "drop_bag_accidentally",
+            "displace_pallu_accidentally",
+            "bend_to_pick_bag",
+            "restore_pallu",
+            "avert_gaze",
+            "retreat_to_bedroom"
+          ],
+          "source_line_reference": "E02 L122–L133",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_bantu-05",
+          "episode_id": "E03",
+          "line_start": 106,
+          "line_end": 136,
+          "stage_name": "teasing_compliments_and_clothing_change",
+          "setup_analysis": "Bantu invokes self-expression and Dhika chooses new outfit",
+          "observed_contact": "verbal interaction",
+          "atomic_action_ids": [
+            "ATOM-E03-035",
+            "ATOM-E03-037",
+            "ATOM-E03-038"
+          ],
+          "atomic_action_names": [
+            "remove_dupatta",
+            "change_to_skirt_and_top",
+            "twirl_in_skirt"
+          ],
+          "source_line_reference": "E03 L106–L136",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_bantu-06",
+          "episode_id": "E03",
+          "line_start": 153,
+          "line_end": 183,
+          "stage_name": "reassurance_then_playful_recovery",
+          "setup_analysis": "Bantu's humor and compliments differ from Bobby's direct reassurance",
+          "observed_contact": "cheek pinch from Dhika",
+          "atomic_action_ids": [
+            "ATOM-E03-040",
+            "ATOM-E03-041",
+            "ATOM-E03-042",
+            "ATOM-E03-045"
+          ],
+          "atomic_action_names": [
+            "pallu_slips_with_fan",
+            "pallu_falls",
+            "fix_pallu",
+            "pinch_cheek"
+          ],
+          "source_line_reference": "E03 L153–L183",
+          "status": "observed_original_not_predicted"
+        }
+      ]
+    },
+    {
+      "relationship_id": "dhika_uncle",
+      "label": "Dhika ↔ Uncle",
+      "stages": [
+        {
+          "id": "PROG-dhika_uncle-01",
+          "episode_id": "E01",
+          "line_start": 19,
+          "line_end": 20,
+          "stage_name": "private_narrator_motive",
+          "setup_analysis": "neighbor appears as guardian while narrator reveals hidden motive",
+          "observed_contact": "no physical contact with Dhika",
+          "atomic_action_ids": [
+            "ATOM-E01-001"
+          ],
+          "atomic_action_names": [
+            "gaze_at_neighbor"
+          ],
+          "source_line_reference": "E01 L19–L20",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_uncle-02",
+          "episode_id": "E01",
+          "line_start": 65,
+          "line_end": 69,
+          "stage_name": "imagination_vs_garment_action",
+          "setup_analysis": "source explicitly separates imagined touch from real handling of garment",
+          "observed_contact": "imagined body touch; actual garment handling",
+          "atomic_action_ids": [
+            "ATOM-E01-004",
+            "ATOM-E01-005",
+            "ATOM-E01-006",
+            "ATOM-E01-007",
+            "ATOM-E01-008"
+          ],
+          "atomic_action_names": [
+            "imagine_breasts",
+            "imagine_finger_caress",
+            "touch_private_garment",
+            "sniff_private_garment",
+            "drop_private_garment"
+          ],
+          "source_line_reference": "E01 L65–L69",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_uncle-03",
+          "episode_id": "E02",
+          "line_start": 54,
+          "line_end": 72,
+          "stage_name": "discovery_and_contradictory_inner_processing",
+          "setup_analysis": "Dhika sees private breach and processes conflicting reaction",
+          "observed_contact": "observation only, no real contact between them",
+          "atomic_action_ids": [
+            "ATOM-E02-014",
+            "ATOM-E02-015",
+            "ATOM-E02-016",
+            "ATOM-E02-017",
+            "ATOM-E02-018",
+            "ATOM-E02-019",
+            "ATOM-E02-020"
+          ],
+          "atomic_action_names": [
+            "take_private_garment",
+            "sniff_private_garment",
+            "lick_private_garment",
+            "imagine_wearing_garment",
+            "see_private_garment_violation",
+            "notice_clothed_physical_sign",
+            "leave_to_avoid_confrontation"
+          ],
+          "source_line_reference": "E02 L54–L72",
+          "status": "observed_original_not_predicted"
+        }
+      ]
+    },
+    {
+      "relationship_id": "dhika_john",
+      "label": "Dhika ↔ John",
+      "stages": [
+        {
+          "id": "PROG-dhika_john-01",
+          "episode_id": "E02",
+          "line_start": 14,
+          "line_end": 20,
+          "stage_name": "retrospective_physical_pacing",
+          "setup_analysis": "narrator reveals past intimacy and learned change over years",
+          "observed_contact": "historical marital intimacy",
+          "atomic_action_ids": [
+            "ATOM-E02-003",
+            "ATOM-E02-004",
+            "ATOM-E02-005",
+            "ATOM-E02-006"
+          ],
+          "atomic_action_names": [
+            "kiss_on_forehead",
+            "sleep_on_lap",
+            "begin_spousal_intercourse",
+            "change_spousal_position"
+          ],
+          "source_line_reference": "E02 L14–L20",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_john-02",
+          "episode_id": "E02",
+          "line_start": 73,
+          "line_end": 76,
+          "stage_name": "new_initiative_after_inner_conflict",
+          "setup_analysis": "John notices Dhika acts more confidently than her usual style",
+          "observed_contact": "actual spousal intimacy",
+          "atomic_action_ids": [
+            "ATOM-E02-021",
+            "ATOM-E02-022"
+          ],
+          "atomic_action_names": [
+            "initiate_spousal_intercourse",
+            "notice_changed_expression"
+          ],
+          "source_line_reference": "E02 L73–L76",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_john-03",
+          "episode_id": "E03",
+          "line_start": 99,
+          "line_end": 100,
+          "stage_name": "unspoken_kiss_information_gap",
+          "setup_analysis": "Dhika retains secret about first Chotu kiss",
+          "observed_contact": "no new contact",
+          "atomic_action_ids": [
+            "ATOM-E03-034"
+          ],
+          "atomic_action_names": [
+            "revisit_kiss_in_thought"
+          ],
+          "source_line_reference": "E03 L99–L100",
+          "status": "observed_original_not_predicted"
+        },
+        {
+          "id": "PROG-dhika_john-04",
+          "episode_id": "E03",
+          "line_start": 137,
+          "line_end": 151,
+          "stage_name": "clothing_discussion_and_home_project",
+          "setup_analysis": "John learns about tuition-related outfit choices and plans family room project",
+          "observed_contact": "dialogue only",
+          "atomic_action_ids": [],
+          "atomic_action_names": [],
+          "source_line_reference": "E03 L137–L151",
+          "status": "observed_original_not_predicted"
+        }
+      ]
+    }
+  ]
+}
