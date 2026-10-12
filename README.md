@@ -104,3 +104,13 @@ Following a source re-audit, the E04 scene around local lines 123–177 is no lo
 - [Required QA contract / no-assumptions checklist](./data/director_qa_contract.json)
 
 The CI checks source references, pointer consistency, and explicit regression anchors. **Passing CI is NOT a claim that every source detail was exhaustively tagged**: a separate scene-by-scene editorial completeness pass is required before promoting an episode to 'fully reviewed.' Continue future episodes only with that rule, and never replace prior verified data with vague new summaries. A new E05–E06 experimental dataset and its frozen forecast exist separately; its validator must pass independently.
+
+## Semantic-completeness pilot and release rules (2026-10-12)
+
+- [E05 line-to-event pilot](./data/e05_semantic_trace_pilot.json) — **only E05 local lines 005–050**, 46 line dispositions with 66 individually keyed, exact-short-span-anchored observations/actions. This includes separate actor/target mappings and a source speaker name discrepancy at E05 L035 (Ron vs Leo). It does **not** claim full E05 analysis.
+- [Project QA contract](./data/director_qa_contract.json) — contains known requirements and release gates.
+- [Main source validator](./scripts/validate.mjs) — now validates this limited pilot's every line-to-event pointer and selected semantic regression anchors; **it cannot establish full semantic completeness of E05 L051–233 or any later episode.**
+
+**Release gate (two independent checks):** (1) all source line indices, short phrase offsets, distinct actor events and cross-references must pass machine validation; (2) an editorial pass must show every meaningful event/observation/inner thought/dialogue turn has a source-linked record, and explain intentionally untagged material. A source line appearing in a broad scene window never counts as proof that its separate events were extracted. Use `unreviewed` / `uncertain` instead of treating a generic summary as complete. Keep original raw and frozen predictions unchanged.
+
+**Expected working sequence:** choose one original source scene → annotate line by line → split multiple events per line and multiple actors per shared encounter → link character-wise psychology and pair/group voice → record precise setup/payoff and scene boundary → run source/semantic tests → perform separate editorial completeness check → append to the cumulative ledgers; repeat for the next scene. Do not promote an episode as complete before all its scenes pass both gates. Subsequent blind predictions are allowed only after their cutoff state is explicit and the target source has not already been read.
