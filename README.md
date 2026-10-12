@@ -1,6 +1,6 @@
 # Dhika & Sharmi Adventures — source-locked analysis dashboard
 
-The **current active scope is Episodes 01, 02 and 03**. The original raw text is preserved at `raw/Dhika.txt` (all 69 episode headings). E04 onward has not been analyzed.
+The **fully integrated interactive source-evidence dashboard covers E01–E03**. E04 has a separate new director-analysis pack and E05 has a blind, hypothetical forecast. The unmodified original remains at `raw/Dhika.txt` (69 episode headings).
 
 **Dashboard:** https://developer-fandom-rush.github.io/dhika-sharmi-adventures/
 
@@ -31,7 +31,7 @@ The **current active scope is Episodes 01, 02 and 03**. The original raw text is
 - `data/escalation_patterns.json`
 - `data/arousal_reader_curiosity.json`
 
-**Director predictions are paused.** The old E01-only forecast remains at `data/ai_director_e01.json` as an explicitly hypothetical historical artifact. It is not loaded into the current dashboard, and is not a claim about actual E02.
+**Prediction status:** `data/e05_director_prediction.json` contains a frozen eight-scene forecast written using E01–E04 only, with no access to the actual E05. The older E01 director experiment remains historical and is not canon.
 
 ## Source rules
 
@@ -72,3 +72,15 @@ Important E03 grounded distinctions: Dhika–Chotu's `flying_kiss` is noncontact
 
 - `data/action_progression_e03.json` — 28 source-referenced observed stages across Dhika–Chotu, Dhika–Bobby, Dhika–Bantu, Dhika–Uncle and Dhika–John; no hypothetical continuation.
 - Director selection methodology records past contact, private reaction, changed relationship stage and repeat-meeting setup; prediction-and-canon comparison will be enabled only when the user resumes it.
+
+## New E04 Director Pack · E05 blind forecast
+
+The main interactive Evidence Room remains E01–E03 until E04's pointer-based records are integrated. New analysis lives in GitHub JSON files, referencing exact E04-local line numbers in `raw/Dhika.txt` without duplicating its original prose:
+
+- [E04 direction index](./data/episode04_direction_index.json): 17 source-indexed scene directions
+- [E04 atomic ledger](./data/e04_atomic_director_ledger.json): 77 named actions, observations and reactions (pointer-based, not verbatim quote extracts)
+- [E04 character progression](./data/e04_character_progression.json): 25 character psychology checkpoints and 4 relationship continuities
+- [E04 author style guide](./data/e04_author_style_guide.json): 12 writing mechanisms, 5 voice profiles, director execution contract
+- [E05 blind director prediction](./data/e05_director_prediction.json): 8 noncanonical proposed scenes and rubric, frozen before E05 source is read
+
+**Verification distinction:** E01–E03 GitHub Actions tests do **not yet validate the new E04 pointer-based records or the forecast**. Do not treat the E04 pack as fully QA-passed or as included in the main interactive dashboard yet. The E05 forecast is hypothetical, never evidence of an E05 event.
