@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "kind": "author_style_mechanics_guide",
+  "studied_episodes": [
+    "E01",
+    "E02",
+    "E03",
+    "E04"
+  ],
+  "evidence_scope": "analysis until E04; original E05 neither accessed nor used",
+  "source": "raw/Dhika.txt",
+  "style_goal": "Source-grounded mechanics for future scene directions; avoid copying distinctive passages; focus on pacing, viewpoint, conversation and emotional continuity",
+  "features": [
+    {
+      "id": "STYLE-01",
+      "name": "present_to_flashback_to_present",
+      "evidence": [
+        [
+          "E03",
+          233,
+          235
+        ],
+        [
+          "E04",
+          5,
+          29
+        ]
+      ],
+      "mechanic": "Begin with a changed mental state; move backward to explain the trigger; return to present where memory has altered character behavior",
+      "writer_instruction": "Signal both temporal boundaries; resolve an earlier external question without automatically resolving the inner conflict"
+    },
+    {
+      "id": "STYLE-02",
+      "name": "ordinary_domestic_setup",
+      "evidence": [
+        [
+          "E01",
+          118,
+          151
+        ],
+        [
+          "E03",
+          201,
+          235
+        ],
+        [
+          "E04",
+          32,
+          50
+        ]
+      ],
+      "mechanic": "Everyday delivery, painting, tutoring, heat or chores supplies a practical reason for a meeting",
+      "writer_instruction": "Establish what task all participants are performing before their relationship changes through dialogue"
+    },
+    {
+      "id": "STYLE-03",
+      "name": "alternating_private_points_of_view",
+      "evidence": [
+        [
+          "E03",
+          39,
+          43
+        ],
+        [
+          "E03",
+          84,
+          89
+        ],
+        [
+          "E04",
+          9,
+          12
+        ],
+        [
+          "E04",
+          77,
+          92
+        ]
+      ],
+      "mechanic": "Narrator alternates access to different private thoughts so readers understand misunderstandings characters cannot",
+      "writer_instruction": "Each POV move must identify whose knowledge is available; do not transfer a private thought into another character's knowledge"
+    },
+    {
+      "id": "STYLE-04",
+      "name": "rapid_dialogue_turns",
+      "evidence": [
+        [
+          "E04",
+          14,
+          25
+        ],
+        [
+          "E04",
+          35,
+          50
+        ],
+        [
+          "E04",
+          181,
+          194
+        ]
+      ],
+      "mechanic": "Short direct speaker turns, unfinished sentences, teasing corrections and repeated address create a conversational cadence",
+      "writer_instruction": "Write clear speaker tags, interleave visible reactions after a meaningful turn; do not replace interaction with a narratorial conclusion"
+    },
+    {
+      "id": "STYLE-05",
+      "name": "pronounced_punctuation_and_interjections",
+      "evidence": [
+        [
+          "E03",
+          28,
+          35
+        ],
+        [
+          "E04",
+          14,
+          24
+        ],
+        [
+          "E04",
+          109,
+          120
+        ]
+      ],
+      "mechanic": "Frequent ellipses, elongated vocatives and colloquial expressions reflect informal, breathy dialogue pacing",
+      "writer_instruction": "Borrow functional rhythm rather than identical wording; differentiate how each participant hesitates or reacts"
+    },
+    {
+      "id": "STYLE-06",
+      "name": "author_explains_emotional_contrast",
+      "evidence": [
+        [
+          "E03",
+          34,
+          43
+        ],
+        [
+          "E03",
+          99,
+          100
+        ],
+        [
+          "E04",
+          26,
+          34
+        ]
+      ],
+      "mechanic": "Narration explicitly compares current behavior with earlier self-image, uncertainty and self-correction",
+      "writer_instruction": "Attach one before/after thought to each major new decision, citing the prior episode state in the director metadata"
+    },
+    {
+      "id": "STYLE-07",
+      "name": "character_role_contrast",
+      "evidence": [
+        [
+          "E03",
+          153,
+          183
+        ],
+        [
+          "E04",
+          41,
+          50
+        ],
+        [
+          "E04",
+          73,
+          92
+        ]
+      ],
+      "mechanic": "Bantu's extroverted framing contrasts with Bobby's sparse but increasingly direct requests; Dhika responds differently to each",
+      "writer_instruction": "Do not merge the two pupils' motivations; give each distinct line count, conversational tactic and response"
+    },
+    {
+      "id": "STYLE-08",
+      "name": "setups_and_callbacks",
+      "evidence": [
+        [
+          "E03",
+          219,
+          235
+        ],
+        [
+          "E04",
+          9,
+          29
+        ],
+        [
+          "E04",
+          80,
+          105
+        ]
+      ],
+      "mechanic": "Later scenes refer to earlier objects, clothing, discussions or accidents and thereby make incremental changes legible",
+      "writer_instruction": "Every callback must point to its prior source event; record whether it creates action, inner realization or unresolved topic"
+    },
+    {
+      "id": "STYLE-09",
+      "name": "descriptive_lens_not_automatic_action",
+      "evidence": [
+        [
+          "E03",
+          229,
+          235
+        ],
+        [
+          "E04",
+          45,
+          56
+        ]
+      ],
+      "mechanic": "Narratorial visual descriptions and comparisons channel an observer viewpoint, but don't independently imply body contact",
+      "writer_instruction": "Keep observer, object of attention, figurative detail and actual behavior in separate fields"
+    },
+    {
+      "id": "STYLE-10",
+      "name": "embarrassment_comedy_reassurance_cycle",
+      "evidence": [
+        [
+          "E03",
+          67,
+          75
+        ],
+        [
+          "E04",
+          13,
+          25
+        ],
+        [
+          "E04",
+          58,
+          72
+        ]
+      ],
+      "mechanic": "Awkwardness rises, a misunderstanding or joke permits a response, then ordinary task resumes, while private doubts linger",
+      "writer_instruction": "Give each character a separate before/after reaction; do not overstate closure"
+    },
+    {
+      "id": "STYLE-11",
+      "name": "intra_episode_time_jumps",
+      "evidence": [
+        [
+          "E03",
+          99,
+          104
+        ],
+        [
+          "E03",
+          152,
+          185
+        ],
+        [
+          "E04",
+          5,
+          32
+        ]
+      ],
+      "mechanic": "Time labels and abrupt next-day transitions compress routine hours while preserving one important unresolved emotional thread",
+      "writer_instruction": "Log where participants are and which unfinished conversation or practical task carries to the next day"
+    },
+    {
+      "id": "STYLE-12",
+      "name": "end_on_question_or_unpaid_reaction",
+      "evidence": [
+        [
+          "E03",
+          233,
+          235
+        ],
+        [
+          "E04",
+          195,
+          202
+        ]
+      ],
+      "mechanic": "A scene stops at a physical observation or verbal question before the other character responds; next episode may use immediate scene continuation or a retrospective opener",
+      "writer_instruction": "Store explicit cliffhanger condition: last act, who must respond, setting, what information is withheld, and permitted next-transition alternatives"
+    }
+  ],
+  "character_voice_profiles": {
+    "dhika": {
+      "narration": "Expressive inner monologue with questions, sudden self-consciousness, playful speech, and rapid emotional reversal",
+      "dialogue": "Uses familiar affectionate addresses and interjections; may turn from teasing to embarrassment or reassurance",
+      "continuity": "Keep independent decisions and reactions distinct; a prior playful act does not settle every future choice"
+    },
+    "chotu": {
+      "narration": "Concrete practical concerns, incomplete experience, protective sense of responsibility",
+      "dialogue": "Brief polite replies, misunderstandings and apologies, more hesitant after surprising exchanges",
+      "continuity": "Never silently transfer Dhika's private thoughts to him"
+    },
+    "bantu": {
+      "narration": "Often strategic about conversational opportunities",
+      "dialogue": "Outgoing, humorous, request-driven, asks follow-up questions",
+      "continuity": "Differentiate initiated conversation from actual granted request"
+    },
+    "bobby": {
+      "narration": "Reserved outward appearance and gradually growing ability to speak up",
+      "dialogue": "Fewer words, direct requests emerging at conspicuous moments",
+      "continuity": "His quieter responses and reassurance must not be copied from Bantu"
+    },
+    "john": {
+      "narration": "Domestic/family baseline and prior relationship history",
+      "dialogue": "Practical joking, married-life context",
+      "continuity": "Preserve what he has and has not actually been told"
+    }
+  },
+  "writer_contract": {
+    "scene_required_fields": [
+      "id",
+      "time_and_location",
+      "participants",
+      "ordinary_task",
+      "source_prior_callbacks",
+      "who_acts",
+      "action_name",
+      "body_or_object_focus_when_supported",
+      "who_observes",
+      "actual_vs_imagined",
+      "private_thought_each_character",
+      "spoken_exchange_turns",
+      "emotional_before_after",
+      "what_the_reader_knows",
+      "what_the_others_dont_know",
+      "scene_exit",
+      "cliffhanger_debt"
+    ],
+    "execution_principles": [
+      "An action label is never a substitute for a scene beat",
+      "Do not invent historical contact as previously established",
+      "Distinguish deliberately chosen clothing, inadvertent change and other participants' interpretation",
+      "Dialogue must include misunderstanding or consequence as needed, not only 'teasing'",
+      "For an unresolved ending, carry forward the exact actor/question and opportunity for immediate reply",
+      "Keep all interpretations linked to source anchors, separate from raw text"
+    ],
+    "evaluation_dimensions": [
+      "source_fidelity",
+      "action_specificity",
+      "psychology_separation",
+      "character_voice_consistency",
+      "temporal_continuity",
+      "dialogue_turn_causality",
+      "style_rhythm",
+      "end_hook_integrity"
+    ]
+  }
+}
