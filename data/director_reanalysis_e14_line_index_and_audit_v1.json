@@ -1,0 +1,922 @@
+{
+  "kind": "E14_source_line_mapping_and_blind_prediction_review",
+  "source": {
+    "path": "raw/Dhika.txt",
+    "sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+    "episode": 14,
+    "lines": 147,
+    "first_github_line": 2624
+  },
+  "line_index": [
+    {
+      "local_line": 1,
+      "github_line": 2624,
+      "beat": 1
+    },
+    {
+      "local_line": 2,
+      "github_line": 2625,
+      "beat": 1
+    },
+    {
+      "local_line": 3,
+      "github_line": 2626,
+      "beat": 1
+    },
+    {
+      "local_line": 4,
+      "github_line": 2627,
+      "beat": 1
+    },
+    {
+      "local_line": 5,
+      "github_line": 2628,
+      "beat": 1
+    },
+    {
+      "local_line": 6,
+      "github_line": 2629,
+      "beat": 1
+    },
+    {
+      "local_line": 7,
+      "github_line": 2630,
+      "beat": 1
+    },
+    {
+      "local_line": 8,
+      "github_line": 2631,
+      "beat": 2
+    },
+    {
+      "local_line": 9,
+      "github_line": 2632,
+      "beat": 2
+    },
+    {
+      "local_line": 10,
+      "github_line": 2633,
+      "beat": 2
+    },
+    {
+      "local_line": 11,
+      "github_line": 2634,
+      "beat": 2
+    },
+    {
+      "local_line": 12,
+      "github_line": 2635,
+      "beat": 2
+    },
+    {
+      "local_line": 13,
+      "github_line": 2636,
+      "beat": 2
+    },
+    {
+      "local_line": 14,
+      "github_line": 2637,
+      "beat": 2
+    },
+    {
+      "local_line": 15,
+      "github_line": 2638,
+      "beat": 2
+    },
+    {
+      "local_line": 16,
+      "github_line": 2639,
+      "beat": 2
+    },
+    {
+      "local_line": 17,
+      "github_line": 2640,
+      "beat": 2
+    },
+    {
+      "local_line": 18,
+      "github_line": 2641,
+      "beat": 2
+    },
+    {
+      "local_line": 19,
+      "github_line": 2642,
+      "beat": 2
+    },
+    {
+      "local_line": 20,
+      "github_line": 2643,
+      "beat": 2
+    },
+    {
+      "local_line": 21,
+      "github_line": 2644,
+      "beat": 2
+    },
+    {
+      "local_line": 22,
+      "github_line": 2645,
+      "beat": 3
+    },
+    {
+      "local_line": 23,
+      "github_line": 2646,
+      "beat": 3
+    },
+    {
+      "local_line": 24,
+      "github_line": 2647,
+      "beat": 3
+    },
+    {
+      "local_line": 25,
+      "github_line": 2648,
+      "beat": 3
+    },
+    {
+      "local_line": 26,
+      "github_line": 2649,
+      "beat": 3
+    },
+    {
+      "local_line": 27,
+      "github_line": 2650,
+      "beat": 3
+    },
+    {
+      "local_line": 28,
+      "github_line": 2651,
+      "beat": 3
+    },
+    {
+      "local_line": 29,
+      "github_line": 2652,
+      "beat": 3
+    },
+    {
+      "local_line": 30,
+      "github_line": 2653,
+      "beat": 3
+    },
+    {
+      "local_line": 31,
+      "github_line": 2654,
+      "beat": 3
+    },
+    {
+      "local_line": 32,
+      "github_line": 2655,
+      "beat": 3
+    },
+    {
+      "local_line": 33,
+      "github_line": 2656,
+      "beat": 3
+    },
+    {
+      "local_line": 34,
+      "github_line": 2657,
+      "beat": 3
+    },
+    {
+      "local_line": 35,
+      "github_line": 2658,
+      "beat": 3
+    },
+    {
+      "local_line": 36,
+      "github_line": 2659,
+      "beat": 3
+    },
+    {
+      "local_line": 37,
+      "github_line": 2660,
+      "beat": 3
+    },
+    {
+      "local_line": 38,
+      "github_line": 2661,
+      "beat": 3
+    },
+    {
+      "local_line": 39,
+      "github_line": 2662,
+      "beat": 3
+    },
+    {
+      "local_line": 40,
+      "github_line": 2663,
+      "beat": 4
+    },
+    {
+      "local_line": 41,
+      "github_line": 2664,
+      "beat": 4
+    },
+    {
+      "local_line": 42,
+      "github_line": 2665,
+      "beat": 4
+    },
+    {
+      "local_line": 43,
+      "github_line": 2666,
+      "beat": 4
+    },
+    {
+      "local_line": 44,
+      "github_line": 2667,
+      "beat": 4
+    },
+    {
+      "local_line": 45,
+      "github_line": 2668,
+      "beat": 4
+    },
+    {
+      "local_line": 46,
+      "github_line": 2669,
+      "beat": 4
+    },
+    {
+      "local_line": 47,
+      "github_line": 2670,
+      "beat": 4
+    },
+    {
+      "local_line": 48,
+      "github_line": 2671,
+      "beat": 4
+    },
+    {
+      "local_line": 49,
+      "github_line": 2672,
+      "beat": 4
+    },
+    {
+      "local_line": 50,
+      "github_line": 2673,
+      "beat": 4
+    },
+    {
+      "local_line": 51,
+      "github_line": 2674,
+      "beat": 4
+    },
+    {
+      "local_line": 52,
+      "github_line": 2675,
+      "beat": 4
+    },
+    {
+      "local_line": 53,
+      "github_line": 2676,
+      "beat": 4
+    },
+    {
+      "local_line": 54,
+      "github_line": 2677,
+      "beat": 4
+    },
+    {
+      "local_line": 55,
+      "github_line": 2678,
+      "beat": 4
+    },
+    {
+      "local_line": 56,
+      "github_line": 2679,
+      "beat": 4
+    },
+    {
+      "local_line": 57,
+      "github_line": 2680,
+      "beat": 4
+    },
+    {
+      "local_line": 58,
+      "github_line": 2681,
+      "beat": 4
+    },
+    {
+      "local_line": 59,
+      "github_line": 2682,
+      "beat": 4
+    },
+    {
+      "local_line": 60,
+      "github_line": 2683,
+      "beat": 4
+    },
+    {
+      "local_line": 61,
+      "github_line": 2684,
+      "beat": 5
+    },
+    {
+      "local_line": 62,
+      "github_line": 2685,
+      "beat": 5
+    },
+    {
+      "local_line": 63,
+      "github_line": 2686,
+      "beat": 5
+    },
+    {
+      "local_line": 64,
+      "github_line": 2687,
+      "beat": 5
+    },
+    {
+      "local_line": 65,
+      "github_line": 2688,
+      "beat": 5
+    },
+    {
+      "local_line": 66,
+      "github_line": 2689,
+      "beat": 5
+    },
+    {
+      "local_line": 67,
+      "github_line": 2690,
+      "beat": 5
+    },
+    {
+      "local_line": 68,
+      "github_line": 2691,
+      "beat": 5
+    },
+    {
+      "local_line": 69,
+      "github_line": 2692,
+      "beat": 5
+    },
+    {
+      "local_line": 70,
+      "github_line": 2693,
+      "beat": 5
+    },
+    {
+      "local_line": 71,
+      "github_line": 2694,
+      "beat": 5
+    },
+    {
+      "local_line": 72,
+      "github_line": 2695,
+      "beat": 6
+    },
+    {
+      "local_line": 73,
+      "github_line": 2696,
+      "beat": 6
+    },
+    {
+      "local_line": 74,
+      "github_line": 2697,
+      "beat": 6
+    },
+    {
+      "local_line": 75,
+      "github_line": 2698,
+      "beat": 6
+    },
+    {
+      "local_line": 76,
+      "github_line": 2699,
+      "beat": 6
+    },
+    {
+      "local_line": 77,
+      "github_line": 2700,
+      "beat": 6
+    },
+    {
+      "local_line": 78,
+      "github_line": 2701,
+      "beat": 6
+    },
+    {
+      "local_line": 79,
+      "github_line": 2702,
+      "beat": 6
+    },
+    {
+      "local_line": 80,
+      "github_line": 2703,
+      "beat": 6
+    },
+    {
+      "local_line": 81,
+      "github_line": 2704,
+      "beat": 6
+    },
+    {
+      "local_line": 82,
+      "github_line": 2705,
+      "beat": 6
+    },
+    {
+      "local_line": 83,
+      "github_line": 2706,
+      "beat": 6
+    },
+    {
+      "local_line": 84,
+      "github_line": 2707,
+      "beat": 6
+    },
+    {
+      "local_line": 85,
+      "github_line": 2708,
+      "beat": 6
+    },
+    {
+      "local_line": 86,
+      "github_line": 2709,
+      "beat": 6
+    },
+    {
+      "local_line": 87,
+      "github_line": 2710,
+      "beat": 6
+    },
+    {
+      "local_line": 88,
+      "github_line": 2711,
+      "beat": 6
+    },
+    {
+      "local_line": 89,
+      "github_line": 2712,
+      "beat": 7
+    },
+    {
+      "local_line": 90,
+      "github_line": 2713,
+      "beat": 7
+    },
+    {
+      "local_line": 91,
+      "github_line": 2714,
+      "beat": 7
+    },
+    {
+      "local_line": 92,
+      "github_line": 2715,
+      "beat": 7
+    },
+    {
+      "local_line": 93,
+      "github_line": 2716,
+      "beat": 7
+    },
+    {
+      "local_line": 94,
+      "github_line": 2717,
+      "beat": 7
+    },
+    {
+      "local_line": 95,
+      "github_line": 2718,
+      "beat": 7
+    },
+    {
+      "local_line": 96,
+      "github_line": 2719,
+      "beat": 7
+    },
+    {
+      "local_line": 97,
+      "github_line": 2720,
+      "beat": 7
+    },
+    {
+      "local_line": 98,
+      "github_line": 2721,
+      "beat": 7
+    },
+    {
+      "local_line": 99,
+      "github_line": 2722,
+      "beat": 7
+    },
+    {
+      "local_line": 100,
+      "github_line": 2723,
+      "beat": 7
+    },
+    {
+      "local_line": 101,
+      "github_line": 2724,
+      "beat": 7
+    },
+    {
+      "local_line": 102,
+      "github_line": 2725,
+      "beat": 7
+    },
+    {
+      "local_line": 103,
+      "github_line": 2726,
+      "beat": 7
+    },
+    {
+      "local_line": 104,
+      "github_line": 2727,
+      "beat": 7
+    },
+    {
+      "local_line": 105,
+      "github_line": 2728,
+      "beat": 7
+    },
+    {
+      "local_line": 106,
+      "github_line": 2729,
+      "beat": 7
+    },
+    {
+      "local_line": 107,
+      "github_line": 2730,
+      "beat": 7
+    },
+    {
+      "local_line": 108,
+      "github_line": 2731,
+      "beat": 7
+    },
+    {
+      "local_line": 109,
+      "github_line": 2732,
+      "beat": 7
+    },
+    {
+      "local_line": 110,
+      "github_line": 2733,
+      "beat": 8
+    },
+    {
+      "local_line": 111,
+      "github_line": 2734,
+      "beat": 8
+    },
+    {
+      "local_line": 112,
+      "github_line": 2735,
+      "beat": 8
+    },
+    {
+      "local_line": 113,
+      "github_line": 2736,
+      "beat": 8
+    },
+    {
+      "local_line": 114,
+      "github_line": 2737,
+      "beat": 8
+    },
+    {
+      "local_line": 115,
+      "github_line": 2738,
+      "beat": 8
+    },
+    {
+      "local_line": 116,
+      "github_line": 2739,
+      "beat": 9
+    },
+    {
+      "local_line": 117,
+      "github_line": 2740,
+      "beat": 9
+    },
+    {
+      "local_line": 118,
+      "github_line": 2741,
+      "beat": 9
+    },
+    {
+      "local_line": 119,
+      "github_line": 2742,
+      "beat": 9
+    },
+    {
+      "local_line": 120,
+      "github_line": 2743,
+      "beat": 9
+    },
+    {
+      "local_line": 121,
+      "github_line": 2744,
+      "beat": 9
+    },
+    {
+      "local_line": 122,
+      "github_line": 2745,
+      "beat": 9
+    },
+    {
+      "local_line": 123,
+      "github_line": 2746,
+      "beat": 9
+    },
+    {
+      "local_line": 124,
+      "github_line": 2747,
+      "beat": 9
+    },
+    {
+      "local_line": 125,
+      "github_line": 2748,
+      "beat": 9
+    },
+    {
+      "local_line": 126,
+      "github_line": 2749,
+      "beat": 9
+    },
+    {
+      "local_line": 127,
+      "github_line": 2750,
+      "beat": 9
+    },
+    {
+      "local_line": 128,
+      "github_line": 2751,
+      "beat": 10
+    },
+    {
+      "local_line": 129,
+      "github_line": 2752,
+      "beat": 10
+    },
+    {
+      "local_line": 130,
+      "github_line": 2753,
+      "beat": 10
+    },
+    {
+      "local_line": 131,
+      "github_line": 2754,
+      "beat": 10
+    },
+    {
+      "local_line": 132,
+      "github_line": 2755,
+      "beat": 10
+    },
+    {
+      "local_line": 133,
+      "github_line": 2756,
+      "beat": 10
+    },
+    {
+      "local_line": 134,
+      "github_line": 2757,
+      "beat": 10
+    },
+    {
+      "local_line": 135,
+      "github_line": 2758,
+      "beat": 10
+    },
+    {
+      "local_line": 136,
+      "github_line": 2759,
+      "beat": 10
+    },
+    {
+      "local_line": 137,
+      "github_line": 2760,
+      "beat": 10
+    },
+    {
+      "local_line": 138,
+      "github_line": 2761,
+      "beat": 10
+    },
+    {
+      "local_line": 139,
+      "github_line": 2762,
+      "beat": 10
+    },
+    {
+      "local_line": 140,
+      "github_line": 2763,
+      "beat": 10
+    },
+    {
+      "local_line": 141,
+      "github_line": 2764,
+      "beat": 10
+    },
+    {
+      "local_line": 142,
+      "github_line": 2765,
+      "beat": 10
+    },
+    {
+      "local_line": 143,
+      "github_line": 2766,
+      "beat": 10
+    },
+    {
+      "local_line": 144,
+      "github_line": 2767,
+      "beat": 11
+    },
+    {
+      "local_line": 145,
+      "github_line": 2768,
+      "beat": 11
+    },
+    {
+      "local_line": 146,
+      "github_line": 2769,
+      "beat": 11
+    },
+    {
+      "local_line": 147,
+      "github_line": 2770,
+      "beat": 11
+    }
+  ],
+  "beats": [
+    {
+      "id": 1,
+      "range": [
+        1,
+        7
+      ],
+      "name": "Replay of prior endpoint",
+      "actual": "Reprises late E13 culmination and marks Tuesday evening"
+    },
+    {
+      "id": 2,
+      "range": [
+        8,
+        21
+      ],
+      "name": "Dhika-John aftermath",
+      "actual": "Wednesday Dhika privately feels guilty and withdrawn. John notices, leaves room for her to talk, and embraces her at bedtime"
+    },
+    {
+      "id": 3,
+      "range": [
+        22,
+        39
+      ],
+      "name": "John day off and outing plan",
+      "actual": "Thursday John takes leave with Dhika, they spend family day together, then prepare to visit Raj/Sharmi; Dhika chooses a saree"
+    },
+    {
+      "id": 4,
+      "range": [
+        40,
+        60
+      ],
+      "name": "Raj pool reveal",
+      "actual": "At Raj's house, Sharmi greets John and Raj escorts Dhika; Raj reveals finished swimming pool"
+    },
+    {
+      "id": 5,
+      "range": [
+        61,
+        71
+      ],
+      "name": "Accidental fall and rescue",
+      "actual": "Dhika slips into deep pool; Raj dives to rescue her and supports her to shallow water; unintended physical contact occurs during rescue"
+    },
+    {
+      "id": 6,
+      "range": [
+        72,
+        88
+      ],
+      "name": "John-Sharmi fall and split scene",
+      "actual": "Sharmi playfully tries to push John into pool, both fall; wet clothing leads to awkward visibility, teasing and the couples moving to separate ends"
+    },
+    {
+      "id": 7,
+      "range": [
+        89,
+        109
+      ],
+      "name": "Raj helps Dhika in water",
+      "actual": "Raj retrieves her lost bangle and gives breathing/swimming practice; Dhika notices he averts eyes from wet translucent sari, increasing trust"
+    },
+    {
+      "id": 8,
+      "range": [
+        110,
+        115
+      ],
+      "name": "Practice and accidental hand contact",
+      "actual": "Dhika tries independent breath practice and grabs Raj's bare chest to steady herself; both acknowledge it was accidental"
+    },
+    {
+      "id": 9,
+      "range": [
+        116,
+        127
+      ],
+      "name": "Parallel John-Sharmi interaction",
+      "actual": "John and Sharmi play and converse, then depart pool area; Sharmi offers dry clothing for John"
+    },
+    {
+      "id": 10,
+      "range": [
+        128,
+        143
+      ],
+      "name": "Raj swimming offer and mole misunderstanding",
+      "actual": "Raj offers future lessons, briefly mistakes chin mole for an insect, and the pair joke about earlier rescue contact"
+    },
+    {
+      "id": 11,
+      "range": [
+        144,
+        147
+      ],
+      "name": "Closing",
+      "actual": "No further scene"
+    }
+  ],
+  "prediction": {
+    "path": "data/director_e14_preread_predictions_v1.json",
+    "commit": "890319873929647fdba75edbdbae149c4e13075e"
+  },
+  "audit": [
+    {
+      "id": "P1",
+      "outcome": "partial",
+      "lines": [
+        5,
+        21
+      ],
+      "why": "E13 action replayed and aftermath shown in Dhika's solo/marital reflection, not a direct Chotu conversation"
+    },
+    {
+      "id": "P2",
+      "outcome": "miss",
+      "why": "No twins competition event"
+    },
+    {
+      "id": "P3",
+      "outcome": "hit",
+      "lines": [
+        8,
+        21
+      ],
+      "why": "Dhika guilt and emotional uncertainty appear prominently"
+    },
+    {
+      "id": "P4",
+      "outcome": "major_hit_low_confidence",
+      "lines": [
+        22,
+        143
+      ],
+      "why": "Raj and Sharmi social event dominates most of episode; new swimming pool accident and rescue unpredicted"
+    },
+    {
+      "id": "P5",
+      "outcome": "miss",
+      "why": "Painting not developed"
+    },
+    {
+      "id": "P6",
+      "outcome": "hit",
+      "lines": [
+        15,
+        27
+      ],
+      "why": "John notices state and reassures without pressing for disclosure"
+    }
+  ],
+  "pair_delta": {
+    "raj": "Large E14 relational shift via rescue from pool, protective handling, bangle retrieval, swimming help and gentlemanly reactions; most substantial Raj scene so far.",
+    "john": "Supportive emotional response and later parallel interaction with Sharmi, without demonstrated marriage breakdown.",
+    "sharmi": "Direct playful interaction with John at the pool; helps him get changed after getting soaked.",
+    "chotu": "Mentioned via replay of prior encounter but no new Chotu present encounter.",
+    "bantu": "No direct scene.",
+    "bobby": "No direct scene.",
+    "uncle": "No direct scene.",
+    "leo": "No direct scene."
+  },
+  "craft_learning": [
+    "Raj's escalation is grounded in practical rescue and kindness rather than overt proposition.",
+    "Physical contact during drowning rescue is accidental, not a romantic act by itself.",
+    "Parallel couples staging permits reader to compare John/Sharmi and Dhika/Raj without conflating motivations.",
+    "A sudden pool reveal pays off earlier house-construction setup from E09."
+  ],
+  "integrity": {
+    "mapped": 147,
+    "gaps": [],
+    "source_unchanged": true
+  },
+  "limit": "Every source line maps to reviewed beat, not full per-clause atomic analysis."
+}
