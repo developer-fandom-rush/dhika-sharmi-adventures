@@ -1,0 +1,38 @@
+{
+  "kind": "e13_frozen_prediction",
+  "cutoff": 12,
+  "status": "before_E13_narrative_read",
+  "hypotheses": [
+    {
+      "id": "P1",
+      "confidence": "high",
+      "source": "E12 L141-157",
+      "claim": "Episode opens with Dhika resolving Bobby's disappointment over Bantu's boundary-crossing, likely with words or a new practical limit."
+    },
+    {
+      "id": "P2",
+      "confidence": "high",
+      "source": "E12 L30-41",
+      "claim": "National Physics competition preparation and Saturday deadline remain central practical context."
+    },
+    {
+      "id": "P3",
+      "confidence": "medium",
+      "source": "E12 L19-23",
+      "claim": "Dhika's internal comparison across Chotu and twins produces a period of guilt or renewed boundaries."
+    },
+    {
+      "id": "P4",
+      "confidence": "low",
+      "source": "E11 L54-56",
+      "claim": "Raj may surface again indirectly through Dhika's memories."
+    },
+    {
+      "id": "P5",
+      "confidence": "low",
+      "source": "E10 L55-61",
+      "claim": "Room painting timeline advances or becomes a practical interruption later."
+    }
+  ],
+  "limit": "Forecast is unverified and should be audited against canon after reading E13."
+}
