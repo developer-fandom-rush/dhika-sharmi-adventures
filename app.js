@@ -11,9 +11,11 @@ const URLS={
   inner:"./data/character_inner_evolution.json",
   triggers:"./data/reader_triggers.json",
   groups:"./data/group_encounters.json",
-  links:"./data/relationship_links.json"
+  links:"./data/relationship_links.json",
+  progression:"./data/action_progression_e03.json"
 };
 const META={
+  progression:{title:"Actual Action Progression · E01–E03",tab:"Action Progression ★",note:"Pair-wise observed sequence: original setup → precise action names → aftermath and updated boundary; no future predictions."},
   relationship:{title:"Relationship History · All Episodes",tab:"Relationship Timeline ★",note:"Chronological E01–E03 actions, inner thoughts, bond changes, exact trigger phrases and group events; source text unchanged."},
   episode:{title:"Episode original timeline",tab:"Episode",note:"Uninterrupted original text, all lines preserved, each source segment uniquely indexed."},
   inner:{title:"Character inner thoughts & changing nature",tab:"Inner Evolution ★",note:"Before → shift, source voice, exact line; no character's feelings copied onto another."},
@@ -82,6 +84,15 @@ function listItems(view){
  if(!d&&view!=="relationship")return[];
  let base=[];
  if(view==="relationship")base=listRelationshipRecords(STATE.relationship);
+ else if(view==="progression"){
+  const pair=d.pairs.find(x=>x.relationship_id===STATE.relationship);
+  base=(pair?.stages||[]).map(stage=>{
+   const epSource={E01:DATA.episode,E02:DATA.e02,E03:DATA.e03}[stage.episode_id];
+   const original=epSource.events.flatMap(x=>x.raw_lines).filter(z=>z.line>=stage.line_start&&z.line<=stage.line_end);
+   return {...stage,is_progression:true,characters:relationshipPeople(STATE.relationship),
+    label:stage.stage_name,raw_lines:original,tags:["ACTUAL SOURCE","PAIR HISTORY",stage.observed_contact]};
+  });
+ }
  else if(view==="episode")base=[...DATA.episode.events,...DATA.e02.events,...DATA.e03.events];
  else if(view==="heat"||view==="curiosity")base=d.events;
  else if(view==="physical"){
@@ -105,6 +116,7 @@ function listItems(view){
  return base.sort((a,b)=>a.episode_id.localeCompare(b.episode_id)||a.line_start-b.line_start||String(a.id).localeCompare(String(b.id)));
 }
 function itemHeading(item){
+ if(item.is_progression)return titleCase(item.stage_name);
  if(item.is_atomic)return titleCase(item.action_name);
  if(item.is_trigger)return item.phrase;
  if(item.is_inner)return titleCase(item.change_marker);
@@ -177,9 +189,9 @@ function renderRelationshipOptions(){
  select.value=STATE.relationship;
 }
 function updateToolbar(){
- const rel=STATE.view==="relationship";
+ const rel=STATE.view==="relationship"||STATE.view==="progression";
  $("relationshipWrap").hidden=!rel;
- $("facetWrap").hidden=!rel;
+ $("facetWrap").hidden=STATE.view!=="relationship";
  $("characterWrap").hidden=rel;
  $("episodeFilter").value=STATE.episode;
  if(rel){
@@ -219,7 +231,15 @@ function appendField(container,label,value){
 }
 function appendSourceAnalysis(node,item){
  const block=text("div","","director-details");
- if(item.is_atomic){
+ if(item.is_progression){
+  appendField(block,"PAIR",relationshipPeople(item.relationship_id).map(x=>CHARACTER_NAMES[x]||x).join(" ↔ "));
+  appendField(block,"PROGRESSION STAGE",item.stage_name);
+  appendField(block,"SOURCE SETUP",item.setup_analysis);
+  appendField(block,"PHYSICAL PROGRESSION",item.observed_contact);
+  appendField(block,"EXACT ACTION NAMES",(item.atomic_action_names||[]).join(" → ")||"No discrete action recorded for this stage");
+  appendField(block,"ACTION RECORD IDS",(item.atomic_action_ids||[]).join(", ")||"No matching action IDs");
+  appendField(block,"SOURCE",item.source_line_reference);
+ }else if(item.is_atomic){
   appendField(block,"ACTION NAME",item.action_name);
   appendField(block,"ACTOR",CHARACTER_NAMES[item.character_id]||item.character_id);
   appendField(block,"TARGET / SUBJECT",CHARACTER_NAMES[item.counterpart_id]||titleCase(item.counterpart_id));
@@ -257,7 +277,7 @@ function renderRecords(){
  const area=$("records"), items=filteredItems();area.replaceChildren();
  $("datasetTitle").textContent=STATE.view==="relationship"
   ?relationshipPeople(STATE.relationship).map(x=>CHARACTER_NAMES[x]||titleCase(x)).join(" ↔ ")+" · Relationship History"
-  :META[STATE.view].title;
+  :STATE.view==="progression"?relationshipPeople(STATE.relationship).map(x=>CHARACTER_NAMES[x]||titleCase(x)).join(" ↔ ")+" · Action Progression":META[STATE.view].title;
  $("datasetNote").textContent=META[STATE.view].note+(STATE.view==="relationship"?" E01 → E02 → E03; different analytical records can cite the same original line.":"");
  $("resultCount").textContent=countLabel(items.length);
  if(!items.length){
@@ -267,7 +287,7 @@ function renderRecords(){
  if(!items.some(x=>x.id===STATE.selected))STATE.selected=items[0].id;
  let lastEpisode="";
  for(const item of items){
-  if(STATE.view==="relationship"&&item.episode_id!==lastEpisode){
+  if((STATE.view==="relationship"||STATE.view==="progression")&&item.episode_id!==lastEpisode){
    lastEpisode=item.episode_id;
    area.append(text("div","EPISODE "+item.episode_id.slice(-2)+" · SOURCE-ORDERED HISTORY","timeline-episode-label"));
   }
@@ -280,9 +300,9 @@ function renderRecords(){
   const characters=characterIds(item).map(id=>CHARACTER_NAMES[id]||id);
   if(characters.length)node.append(text("div",characters.join(" · "),"record-chars"));
   node.append(createTags(itemTags(item)));
-  if(item.is_inner||item.is_trigger||item.is_group||item.is_atomic)appendSourceAnalysis(node,item);
-  if(STATE.showRaw&&!item.is_atomic)node.append(rawSnippet(item));
-  if(item.is_atomic)node.append(text("div","Click to read full verbatim scene →","record-chars"));
+  if(item.is_inner||item.is_trigger||item.is_group||item.is_atomic||item.is_progression)appendSourceAnalysis(node,item);
+  if(STATE.showRaw&&!item.is_atomic&&!item.is_progression)node.append(rawSnippet(item));
+  if(item.is_atomic||item.is_progression)node.append(text("div","Click to read full verbatim scene →","record-chars"));
   const box=text("label","","verify-row");
   const check=document.createElement("input");check.type="checkbox";check.checked=isReviewed(item.id);
   check.setAttribute("aria-label","Verified "+item.id);
