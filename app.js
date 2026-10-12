@@ -1,7 +1,7 @@
 "use strict";
 const URLS={
   episode:"./data/episodes/e01.json",
-  physical:"./data/physical_actions.json",
+  physical:"./data/atomic_action_registry.json",
   bonds:"./data/bond_evolution.json",
   heat:"./data/internal_heat_access.json",
   escalation:"./data/escalation_patterns.json",
@@ -18,7 +18,7 @@ const META={
   inner:{title:"Character inner thoughts & changing nature",tab:"Inner Evolution ★",note:"Before → shift, source voice, exact line; no character's feelings copied onto another."},
   triggers:{title:"Exact author trigger phrases",tab:"Trigger Words ✦",note:"Exact phrase highlighted. A hook, emotional shift, visual description and payoff are not interchangeable."},
   groups:{title:"Group encounters · separate character states",tab:"Group Events",note:"Shared original passage stored once; each character has independent actions, knowledge and reactions."},
-  physical:{title:"Character physical actions",tab:"Physical actions",note:"What actually happened, who did it, and whether contact was intentional, accidental or uninvited."},
+  physical:{title:"Exact action registry · source scene preserved",tab:"Physical Actions ★",note:"Short named actions (actual / imagined / observed / historic); click any action to read its FULL verbatim scene setup, exact quote and original author imagery."},
   bonds:{title:"Relationship / bond evolution",tab:"Bond evolution",note:"Append-only relationship evidence; E01 is never overwritten or compressed."},
   heat:{title:"Internal reactions & access",tab:"Heat / access",note:"Track actual access, discomfort, private thought and knowledge without invented numeric intensity."},
   escalation:{title:"Escalation and pacing",tab:"Escalation",note:"Ordered changes, actual physical boundaries, pace and mechanism with source evidence."},
@@ -46,7 +46,7 @@ function text(tag,content,cls){
 }
 function characterIds(item){
  const ids=[...(item.characters||[]),...(item.participants||[])];
- ["actor","target","subject","other_character","character_id","other_character_id"].forEach(k=>{if(item[k])ids.push(item[k]);});
+ ["actor","target","subject","other_character","character_id","other_character_id","counterpart_id"].forEach(k=>{if(item[k])ids.push(item[k]);});
  return [...new Set(ids)];
 }
 const RELATIONSHIP_VIEWS=["bonds","inner","physical","heat","escalation","curiosity","triggers","groups"];
@@ -59,7 +59,7 @@ function belongsToRelationship(item,view,pairId){
  const pair=relationshipPeople(pairId);
  if(view==="inner")return(DATA.links?.inner_state_links?.[item.id]||[]).includes(pairId);
  if(view==="bonds"||view==="escalation")return item.relationship_id===pairId ||(item.participants?.length===2&&pair.every(x=>item.participants.includes(x)));
- if(view==="physical")return pair.every(x=>[item.subject,item.other_character].includes(x));
+ if(view==="physical")return pair.every(x=>[item.character_id,item.counterpart_id].includes(x));
  if(view==="heat")return pair.every(x=>[item.actor,item.target].includes(x));
  if(view==="triggers")return pair.every(x=>[item.character_id,item.other_character_id].includes(x));
  if(view==="groups"||view==="curiosity")return pair.every(x=>item.characters?.includes(x));
@@ -83,7 +83,19 @@ function listItems(view){
  if(view==="relationship")base=listRelationshipRecords(STATE.relationship);
  else if(view==="episode")base=[...DATA.episode.events,...DATA.e02.events];
  else if(view==="heat"||view==="curiosity")base=d.events;
- else if(view==="physical")base=d.characters.flatMap(c=>c.events.map(e=>({...e,character_label:c.name})));
+ else if(view==="physical"){
+   const sceneMap=new Map(d.scenes.map(x=>[x.scene_id,x]));
+   base=d.atomic_events.map(act=>{
+     const sc=sceneMap.get(act.scene_id);
+     return {...act,id:act.id,is_atomic:true,characters:[act.character_id,act.counterpart_id].filter(x=>x!=="self"),
+       line_start:sc.line_start,line_end:sc.line_end,
+       label:act.action_name,raw_lines:sc.raw_lines,
+       tags:[act.action_type,act.temporal_status,act.agency_and_permission],
+       source_line:act.source_action.line,
+       setup:sc.setup_analysis,scene_title:sc.title
+     };
+   });
+ }
  else if(view==="bonds")base=d.relationships.flatMap(r=>r.states.map(e=>({...e,relationship_id:r.id,participants:r.participants})));
  else if(view==="escalation")base=d.tracks.flatMap(t=>t.events.map(e=>({...e,relationship_id:t.relationship_id,participants:t.relationship_id.split("_")})));
  else if(view==="inner")base=Object.values(d.characters).flatMap(ch=>ch.states.map(state=>({...state,character_id:ch.character_id,is_inner:true})));
@@ -92,6 +104,7 @@ function listItems(view){
  return base.sort((a,b)=>a.episode_id.localeCompare(b.episode_id)||a.line_start-b.line_start||String(a.id).localeCompare(String(b.id)));
 }
 function itemHeading(item){
+ if(item.is_atomic)return titleCase(item.action_name);
  if(item.is_trigger)return item.phrase;
  if(item.is_inner)return titleCase(item.change_marker);
  return titleCase(item.label||item.action||item.state_tag||item.stage||item.narrative_device||item.id);
@@ -112,7 +125,7 @@ function filteredItems(){
    if(STATE.view!=="relationship"&&STATE.character&&!people.includes(STATE.character))return false;
    if(!q)return true;
    const searchable=[item.id,itemHeading(item),people.join(" "),itemTags(item).join(" "),
-       item.change_marker,item.prior_state_or_expectation,item.observed_state_or_difference,item.why_this_exact_phrase_matters,item.label,item.observable_action,
+       item.change_marker,item.prior_state_or_expectation,item.observed_state_or_difference,item.why_this_exact_phrase_matters,item.label,item.observable_action,item.action_name,item.setup,item.scene_title,item.source_action?.exact_phrase,...(item.original_author_imagery||[]).map(x=>x.exact_phrase),
        ...(item.raw_lines||[]).map(l=>l.text)].join(" ").toLowerCase();
    return searchable.includes(q);
  });
@@ -179,6 +192,7 @@ function renderCharacterOptions(){
  }
 }
 function lineLabel(item){
+ if(item.is_atomic)return item.episode_id+" L"+String(item.source_line).padStart(3,"0")+" · "+item.scene_id;
  if(item.is_proposed||item.is_practice)return (item.raw_lines||[]).length+" E01 evidence anchors";
  return item.episode_id+" L"+String(item.line_start).padStart(3,"0")+"–L"+String(item.line_end).padStart(3,"0");
 }
@@ -203,7 +217,17 @@ function appendField(container,label,value){
 }
 function appendSourceAnalysis(node,item){
  const block=text("div","","director-details");
- if(item.is_inner){
+ if(item.is_atomic){
+  appendField(block,"ACTION NAME",item.action_name);
+  appendField(block,"ACTOR",CHARACTER_NAMES[item.character_id]||item.character_id);
+  appendField(block,"TARGET / SUBJECT",CHARACTER_NAMES[item.counterpart_id]||titleCase(item.counterpart_id));
+  appendField(block,"RECORDED AS",item.action_type+" · "+item.temporal_status);
+  appendField(block,"SCENE SETUP",item.scene_title+" — "+item.setup);
+  appendField(block,"AUTHOR'S EXACT ACTION WORDS",item.source_action.exact_phrase);
+  appendField(block,"ORIGINAL METAPHORS",(item.original_author_imagery||[]).map(z=>z.exact_phrase).join(" | "));
+  appendField(block,"ORIGINAL LINE",item.episode_id+" L"+String(item.source_action.line).padStart(3,"0"));
+  appendField(block,"SOURCE WINDOW",item.episode_id+" L"+String(item.line_start).padStart(3,"0")+"–L"+String(item.line_end).padStart(3,"0"));
+ }else if(item.is_inner){
   appendField(block,"CHARACTER",CHARACTER_NAMES[item.character_id]||item.character_id);
   appendField(block,"BEFORE / PRIOR STATE",item.prior_state_or_expectation);
   appendField(block,"WHAT CHANGED / NEW EVIDENCE",item.observed_state_or_difference);
@@ -254,8 +278,9 @@ function renderRecords(){
   const characters=characterIds(item).map(id=>CHARACTER_NAMES[id]||id);
   if(characters.length)node.append(text("div",characters.join(" · "),"record-chars"));
   node.append(createTags(itemTags(item)));
-  if(item.is_inner||item.is_trigger||item.is_group)appendSourceAnalysis(node,item);
-  if(STATE.showRaw)node.append(rawSnippet(item));
+  if(item.is_inner||item.is_trigger||item.is_group||item.is_atomic)appendSourceAnalysis(node,item);
+  if(STATE.showRaw&&!item.is_atomic)node.append(rawSnippet(item));
+  if(item.is_atomic)node.append(text("div","Click to read full verbatim scene →","record-chars"));
   const box=text("label","","verify-row");
   const check=document.createElement("input");check.type="checkbox";check.checked=isReviewed(item.id);
   check.setAttribute("aria-label","Verified "+item.id);
@@ -317,6 +342,15 @@ function renderCrossReferences(item){
 }
 function renderSourceHighlight(node,source,lineNumber,episodeId,query){
  const q=query.trim(),found=[];
+ if(STATE.selected){
+  const selected=filteredItems().find(x=>x.id===STATE.selected);
+  if(selected?.is_atomic&&selected.episode_id===episodeId){
+   const spans=[selected.source_action,...(selected.original_author_imagery||[])];
+   for(const span of spans)if(span.line===lineNumber&&source.slice(span.span_start,span.span_end)===(span.exact_phrase||span.phrase)){
+     found.push({start:span.span_start,end:span.span_end,priority:3});
+   }
+  }
+ }
  if(DATA.triggers){
   for(const h of DATA.triggers.triggers||[]){
    if(h.episode_id===episodeId&&h.line===lineNumber&&source.slice(h.span_start,h.span_end)===h.phrase){
@@ -355,8 +389,8 @@ function renderSource(item){
   return;
  }
  renderCrossReferences(item);
- $("sourceHeading").textContent=itemHeading(item);
- $("sourceMeta").textContent=item.id+" · "+lineLabel(item)+" · "+(item.raw_lines||[]).length+" lines";
+ $("sourceHeading").textContent=(item.is_atomic?itemHeading(item)+" · "+item.scene_title:itemHeading(item));
+ $("sourceMeta").textContent=item.id+" · "+lineLabel(item)+" · "+(item.raw_lines||[]).length+" original scene lines";
  const epData=item.episode_id==="E01"?DATA.episode:DATA.e02;
  const offset=(epData.source.master_first_line||3)-1;
  $("viewGithubLine").href=repoPath+"#L"+(item.line_start+offset)+"-L"+(item.line_end+offset);
