@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "kind": "character_physical_actions",
+  "episode_scope": [
+    "E01"
+  ],
+  "source": {
+    "id": "Dhika.txt",
+    "path": "raw/Dhika.txt",
+    "episode_id": "E01",
+    "line_numbering": "E01-local inclusive; EPISODE 1 is L001; includes empty lines",
+    "master_line_count": 14046,
+    "episode_line_count": 229,
+    "episode_characters": 27914
+  },
+  "scope_note": "Physical acts and visible movements only. Internal thoughts live in separate datasets; child routine omitted from adult physical-action tracker.",
+  "characters": [
+    {
+      "id": "sharmi",
+      "name": "Sharmi",
+      "events": [
+        {
+          "id": "PHY-E01-001",
+          "subject": "sharmi",
+          "other_character": "dhika",
+          "action": "friendly_waist_pinch",
+          "action_domain": "adult_to_adult",
+          "contact_evidence": "contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 54,
+          "line_end": 54,
+          "raw_lines": [
+            {
+              "line": 54,
+              "text": "Pinching Dhika's waist,... a bubbly character pulled beside her....."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uncle",
+      "name": "Uncle",
+      "events": [
+        {
+          "id": "PHY-E01-002",
+          "subject": "uncle",
+          "other_character": "dhika",
+          "action": "private_garment_handling",
+          "action_domain": "object_not_person",
+          "contact_evidence": "privacy_breach",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 65,
+          "line_end": 69,
+          "raw_lines": [
+            {
+              "line": 65,
+              "text": "Eyes closed,... fingers fiddling with her bra,... Uncle imagined two milky breasts filled in those little cups,... struggling to spill out of the enclosure,....... and a tiny set of fingers caressing the top of those bulging breasts......"
+            },
+            {
+              "line": 66,
+              "text": "Head swinging, he groaned as he sniffed into the inside of her used bra......"
+            },
+            {
+              "line": 67,
+              "text": "Aunty: Wherree are youuu ?"
+            },
+            {
+              "line": 68,
+              "text": "Uncle: uhn,.... I'm Coming........."
+            },
+            {
+              "line": 69,
+              "text": "Dropping Dhika's bra on her bathroom floor, and grabbing the milk bottle from the fridge, Uncle ran back to his own house, heals hitting his head."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bantu",
+      "name": "Bantu",
+      "events": [
+        {
+          "id": "PHY-E01-003",
+          "subject": "bantu",
+          "other_character": "bobby",
+          "action": "shoulder_tap",
+          "action_domain": "adult_to_adult",
+          "contact_evidence": "contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 90,
+          "line_end": 90,
+          "raw_lines": [
+            {
+              "line": 90,
+              "text": "She took her bag and went to the parking lot. Both the boys followed a little behind her. Bantu saw her beautiful apple like ass jiggling lightly when she walked. He also saw innocent Bobby looking at her ass. He hit Bobby lightly in his shoulders and winked at him. Bobby blushed and returned a smile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bobby",
+      "name": "Bobby",
+      "events": [
+        {
+          "id": "PHY-E01-004",
+          "subject": "bobby",
+          "other_character": "dhika",
+          "action": "takes_middle_bike_seat",
+          "action_domain": "proximity",
+          "contact_evidence": "no_contact_in_this_step",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 91,
+          "line_end": 93,
+          "raw_lines": [
+            {
+              "line": 91,
+              "text": "Dhika: okay dears....lets go.. Bobby, give your bag to Bantu and climb in the middle. Bantu can sit behind you."
+            },
+            {
+              "line": 92,
+              "text": "Bobby: okay miss.... He was secretly smiling. He wanted to sit close to her but didn't have courage to tell that to Bantu."
+            },
+            {
+              "line": 93,
+              "text": "Bantu wanted to sit close to Dhika. He was about to tell something when he saw Bobby run and climb the bike before him. Scolding inside... he too got in the bike and they started to leave."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-006",
+          "subject": "bobby",
+          "other_character": "dhika",
+          "action": "holds_waist_instead_of_shoulders",
+          "action_domain": "unrequested_contact",
+          "contact_evidence": "contact",
+          "consent_status": "not_established",
+          "episode_id": "E01",
+          "line_start": 97,
+          "line_end": 97,
+          "raw_lines": [
+            {
+              "line": 97,
+              "text": "He did something which Dhika did not expect. Bobby, instead of holding her shoulders, put both his hands around her hip and held her stomach tightly."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-007",
+          "subject": "bobby",
+          "other_character": "dhika",
+          "action": "hand_movement_during_ride",
+          "action_domain": "unrequested_contact",
+          "contact_evidence": "contact",
+          "consent_status": "not_established",
+          "episode_id": "E01",
+          "line_start": 100,
+          "line_end": 101,
+          "raw_lines": [
+            {
+              "line": 100,
+              "text": "A little later she felt a light tapping in her stomach. She looked down and say Bobby's one finger was tapping her stomach over the saree. She also felt due to this, his hands at the side of the hips were moving slowly and rubbing against her bare hip."
+            },
+            {
+              "line": 101,
+              "text": "She felt a chill go through her body. No one expect her husband has touch her even in the hips. She was feeling very shy but couldn't do anything. Lucky for her, they reached their place already and they got down."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dhika",
+      "name": "Dhika",
+      "events": [
+        {
+          "id": "PHY-E01-005",
+          "subject": "dhika",
+          "other_character": "bobby",
+          "action": "instructs_safe_hold",
+          "action_domain": "instruction",
+          "contact_evidence": "contact_not_yet",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 94,
+          "line_end": 94,
+          "raw_lines": [
+            {
+              "line": 94,
+              "text": "Dhika: Bobby, you can hold me so that you don't miss balance. Bantu, hold and sit Bobby."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-008",
+          "subject": "dhika",
+          "other_character": "chotu",
+          "action": "puts_on_shawl_before_door",
+          "action_domain": "self_clothing_action",
+          "contact_evidence": "no_person_contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 120,
+          "line_end": 120,
+          "raw_lines": [
+            {
+              "line": 120,
+              "text": "She took her shawl and covered her modestly and opened the door."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-009",
+          "subject": "dhika",
+          "other_character": "chotu",
+          "action": "removes_shawl_and_answers_door",
+          "action_domain": "self_clothing_action",
+          "contact_evidence": "no_person_contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 128,
+          "line_end": 130,
+          "raw_lines": [
+            {
+              "line": 128,
+              "text": "She smiled and closed the door and went to arrange the store items in her fridge. She felt the dupatta coming in between many a times. At one point, she got childish angry and grabbed the dupatta and threw it on the sofa where Pappu was sitting. When the dupatta fell on Pappu, he rolled the cloth around him like a ghost and laughed at his mom about his new appearance. Dhika too laughed with him like another child and proceeded with her work."
+            },
+            {
+              "line": 129,
+              "text": "10 mins later, she again heard the bell. She went to the peep hole and saw Chotu. She immediately went to the sofa to fetch her dupatta but Pappu wouldn't give it. She tried pulling, but if she try harder, she may pull Pappu down the floor. Pappu wouldn't leave it."
+            },
+            {
+              "line": 130,
+              "text": "Meanwhile Chotu kept ringing the bell.. Thinking that it is only her innocent Chotu and he would get the money and leave from outside, she went to open the door..........."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-010",
+          "subject": "dhika",
+          "other_character": "chotu",
+          "action": "hands_drink_while_bending",
+          "action_domain": "physical_gesture",
+          "contact_evidence": "object_exchange",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 141,
+          "line_end": 142,
+          "raw_lines": [
+            {
+              "line": 141,
+              "text": "Dhika: Here my Chotu Babu.... she said with a giggle and as Chotu was on floor, she bent down to give it to him."
+            },
+            {
+              "line": 142,
+              "text": "She saw Chotu's laugh vanishing and he taking the glass from her with a deep thought in his eyes. She didn't realize what was happening. She gave it to him and stood up. As soon as she stood up, she realized what happened....."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-012",
+          "subject": "dhika",
+          "other_character": "chotu",
+          "action": "sits_to_share_meal",
+          "action_domain": "proximity",
+          "contact_evidence": "no_person_contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 185,
+          "line_end": 189,
+          "raw_lines": [
+            {
+              "line": 185,
+              "text": "After few minutes of asking, Chotu decided to eat. He helped her to take plates and food. He refused to sit in the dining table and she was tired in making him sit there. So she decided to sit with him on the floor."
+            },
+            {
+              "line": 186,
+              "text": "Chotu: didi... you sit in the table and eat."
+            },
+            {
+              "line": 187,
+              "text": "Dhika: why chotu.... you won't sit with me on table but I want to sit and eat with you. that's polite."
+            },
+            {
+              "line": 188,
+              "text": "Chotu: he felt moved.."
+            },
+            {
+              "line": 189,
+              "text": "both began eating."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-013",
+          "subject": "dhika",
+          "other_character": "chotu",
+          "action": "directs_wait_then_fetches_cloth",
+          "action_domain": "movement",
+          "contact_evidence": "no_person_contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 206,
+          "line_end": 207,
+          "raw_lines": [
+            {
+              "line": 206,
+              "text": "It was only 30 minutes and Chotu still had 30 more minutes left. She asked him to wash his hands and wait in hall. He followed her instructions, went to hall and leaned on sofa and sat down."
+            },
+            {
+              "line": 207,
+              "text": "Dhika saw some food spilled in the place they ate and decided to clean it. She went inside her bedroom to fetch cloth from bathroom."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-014",
+          "subject": "dhika",
+          "other_character": "chotu",
+          "action": "mirror_and_clothing_decision",
+          "action_domain": "self_presentation",
+          "contact_evidence": "no_person_contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 208,
+          "line_end": 213,
+          "raw_lines": [
+            {
+              "line": 208,
+              "text": "As she was in the bathroom, she looked herself in the mirror."
+            },
+            {
+              "line": 209,
+              "text": "Dhika: Chotu too thinks me as beautiful. am I really still beautiful after having one kid...."
+            },
+            {
+              "line": 210,
+              "text": "Suddenly she remembered her yesterday's bending down and her thoughts at night. Unknown to her, something took over her and she felt very very excited. Not knowing what happened next, she removed her dupatta slowly and looked at herself in mirror."
+            },
+            {
+              "line": 211,
+              "text": "She looked at her own body. It was a deep cut dress and she could see her own cleavage. She felt unknown excitement and bit her lip and smiler herself blushingly. Her white skin was shining against black sleeveless dress."
+            },
+            {
+              "line": 212,
+              "text": "Suddenly a thought came to her mind. She wasn't sure if Chotu saw inside her dress yesterday and she felt a great urge to find if he would see. This was not her.... she has never done anything like this and she didn't know what to do."
+            },
+            {
+              "line": 213,
+              "text": "Without an answer for her thoughts, she just took a waste cloth and went to hall without Dupatta......."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-015",
+          "subject": "dhika",
+          "other_character": "chotu",
+          "action": "returns_and_cleans_floor",
+          "action_domain": "physical_gesture",
+          "contact_evidence": "no_person_contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 214,
+          "line_end": 216,
+          "raw_lines": [
+            {
+              "line": 214,
+              "text": "As soon as she entered the hall, Chotu saw that she did not wear dupatta but he simply thought she missed and kept it in bedroom or bathroom. He was sitting exactly opposite to her."
+            },
+            {
+              "line": 215,
+              "text": "Dhika felt very nervous and excited at the same time...... she was going to be openly showing her cleavage first time in her life(  outside her husband) and she couldn't understand what is driving her. Her thoughts were so clouded due to excitement."
+            },
+            {
+              "line": 216,
+              "text": "Without thinking much she bent down..... got on all fours and began wiping the floor."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-016",
+          "subject": "dhika",
+          "other_character": "chotu",
+          "action": "looks_toward_chotu_and_eye_contact",
+          "action_domain": "visual_interaction",
+          "contact_evidence": "no_person_contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 219,
+          "line_end": 221,
+          "raw_lines": [
+            {
+              "line": 219,
+              "text": "After a minutes, Dhika mustered all the courage she could and she looked in the direction of Chotu."
+            },
+            {
+              "line": 220,
+              "text": "Their eyes met."
+            },
+            {
+              "line": 221,
+              "text": "Chotu wide eyed and Dhika with excitement and nervousness in eyes. She was biting her lips very subtly."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-018",
+          "subject": "dhika",
+          "other_character": "chotu",
+          "action": "post_visit_body_posture",
+          "action_domain": "self_gesture",
+          "contact_evidence": "no_person_contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 223,
+          "line_end": 224,
+          "raw_lines": [
+            {
+              "line": 223,
+              "text": "Dhika could not believe what she just did and still feeling very excited, she dropped the cloth on the floor and from the position of all fours, she just flipped and dropped on her back, laying down....then and there on the floor."
+            },
+            {
+              "line": 224,
+              "text": "She covered her face with all excitement and blushing and shyness and this time she felt a tingle ...... not down her spine but .... down there in-between her legs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chotu",
+      "name": "Chotu / Babu",
+      "events": [
+        {
+          "id": "PHY-E01-011",
+          "subject": "chotu",
+          "other_character": "dhika",
+          "action": "leaves_first_visit",
+          "action_domain": "departing",
+          "contact_evidence": "no_person_contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 150,
+          "line_end": 150,
+          "raw_lines": [
+            {
+              "line": 150,
+              "text": "Chotu: Errrr...... nothing didi. Just .... he gulped the juice and said it is getting late and left without even getting the money from her."
+            }
+          ]
+        },
+        {
+          "id": "PHY-E01-017",
+          "subject": "chotu",
+          "other_character": "dhika",
+          "action": "stands_takes_money_and_leaves",
+          "action_domain": "departing",
+          "contact_evidence": "no_person_contact",
+          "consent_status": "not_inferred",
+          "episode_id": "E01",
+          "line_start": 222,
+          "line_end": 222,
+          "raw_lines": [
+            {
+              "line": 222,
+              "text": "In a second Chotu stood up and took the money she gave earlier and left with a bye which sounded from very far."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
