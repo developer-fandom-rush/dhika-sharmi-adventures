@@ -1,0 +1,751 @@
+{
+  "schema_version": 1,
+  "kind": "group_encounters",
+  "episode_scope": [
+    "E01",
+    "E02"
+  ],
+  "source": "raw/Dhika.txt",
+  "notes": "Each scene's raw source passage appears once; participant tracks reference relevant line numbers and distinguish knowledge, action and unseen facts.",
+  "groups": [
+    {
+      "id": "E01-G01",
+      "episode_id": "E01",
+      "line_start": 81,
+      "line_end": 106,
+      "label": "ride_request_seating_and_contact",
+      "characters": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "shared_raw_lines": [
+        {
+          "line": 81,
+          "text": "Bantu: Miss... you know we live near your house. can you please take us with you today."
+        },
+        {
+          "line": 82,
+          "text": "Dhika: why bantu... where is your scooty."
+        },
+        {
+          "line": 83,
+          "text": "Bantu: Miss... petrol over and we didn't bring money today"
+        },
+        {
+          "line": 84,
+          "text": "Dhika: ohh Bantu... dont worry. I will give money for petrol."
+        },
+        {
+          "line": 85,
+          "text": "Bantu: No miss... please. Dad will scold if he knows I took money from others."
+        },
+        {
+          "line": 86,
+          "text": "Dhika: Its okay Bantu.... take it and you can return it to me tomorrow,"
+        },
+        {
+          "line": 87,
+          "text": "Bantu: No miss..... please give us lift and I will bring petrol and take bike tomorrow."
+        },
+        {
+          "line": 88,
+          "text": "There was nothing wrong with the bike. Bantu wanted to ride with Dhika"
+        },
+        {
+          "line": 89,
+          "text": "Dhika: abbaa... okay dear. I will take you both. Come lets leave."
+        },
+        {
+          "line": 90,
+          "text": "She took her bag and went to the parking lot. Both the boys followed a little behind her. Bantu saw her beautiful apple like ass jiggling lightly when she walked. He also saw innocent Bobby looking at her ass. He hit Bobby lightly in his shoulders and winked at him. Bobby blushed and returned a smile."
+        },
+        {
+          "line": 91,
+          "text": "Dhika: okay dears....lets go.. Bobby, give your bag to Bantu and climb in the middle. Bantu can sit behind you."
+        },
+        {
+          "line": 92,
+          "text": "Bobby: okay miss.... He was secretly smiling. He wanted to sit close to her but didn't have courage to tell that to Bantu."
+        },
+        {
+          "line": 93,
+          "text": "Bantu wanted to sit close to Dhika. He was about to tell something when he saw Bobby run and climb the bike before him. Scolding inside... he too got in the bike and they started to leave."
+        },
+        {
+          "line": 94,
+          "text": "Dhika: Bobby, you can hold me so that you don't miss balance. Bantu, hold and sit Bobby."
+        },
+        {
+          "line": 95,
+          "text": "Bantu: hrrrrrr...... okay miss. he said sadly."
+        },
+        {
+          "line": 96,
+          "text": "Bobby: giggling silently..... okay miss.."
+        },
+        {
+          "line": 97,
+          "text": "He did something which Dhika did not expect. Bobby, instead of holding her shoulders, put both his hands around her hip and held her stomach tightly."
+        },
+        {
+          "line": 98,
+          "text": "Dhika: isss..... what is he doing. I meant him to hold my shoulders."
+        },
+        {
+          "line": 99,
+          "text": "Dhika thought he is like innocent to hold her around the stomach like a child. So she didn't want to embarrass him and kept quite and started driving in silence."
+        },
+        {
+          "line": 100,
+          "text": "A little later she felt a light tapping in her stomach. She looked down and say Bobby's one finger was tapping her stomach over the saree. She also felt due to this, his hands at the side of the hips were moving slowly and rubbing against her bare hip."
+        },
+        {
+          "line": 101,
+          "text": "She felt a chill go through her body. No one expect her husband has touch her even in the hips. She was feeling very shy but couldn't do anything. Lucky for her, they reached their place already and they got down."
+        },
+        {
+          "line": 102,
+          "text": "Bobby: Thank you miss.... he said with a shy smile....."
+        },
+        {
+          "line": 103,
+          "text": "Bantu: Thank you miss.... he said sadly...."
+        },
+        {
+          "line": 104,
+          "text": "Dhika: don't worry dears..... why are you sad Bantu ?"
+        },
+        {
+          "line": 105,
+          "text": "Bantu: uhn.... nothing miss... he didnt want to tell her the reason."
+        },
+        {
+          "line": 106,
+          "text": "Dhika said her byes and left. Bantu started cursing Bobby for running and sitting next to her. Only Bobby know what all he did but didn't want to tell Bantu and make him more sad."
+        }
+      ],
+      "participant_tracks": [
+        {
+          "character_id": "dhika",
+          "evidence_line_refs": [
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            89,
+            91,
+            94,
+            97,
+            98,
+            99,
+            100,
+            101
+          ],
+          "observable_action": "grants lift and states balance-support instruction",
+          "known_to_character": "not told excuse is false",
+          "not_known_or_not_shown": "unrequested contact noticed; chooses not to confront"
+        },
+        {
+          "character_id": "bantu",
+          "evidence_line_refs": [
+            81,
+            88,
+            90,
+            91,
+            92,
+            93,
+            95,
+            102,
+            103,
+            105,
+            106
+          ],
+          "observable_action": "asks for ride by fabricated pretext; hopes to sit close",
+          "known_to_character": "knows fake excuse and Bobby's position",
+          "not_known_or_not_shown": "does not know full specifics Bobby withheld"
+        },
+        {
+          "character_id": "bobby",
+          "evidence_line_refs": [
+            90,
+            91,
+            92,
+            93,
+            94,
+            97,
+            98,
+            99,
+            100,
+            101,
+            106
+          ],
+          "observable_action": "takes middle seat; acts outside stated contact instruction",
+          "known_to_character": "knows his own conduct",
+          "not_known_or_not_shown": "withholds details from Bantu"
+        }
+      ],
+      "note": "One shared raw scene; separate actor accounts. Observed attention is not automatically a chosen or consenting act."
+    },
+    {
+      "id": "E02-G01",
+      "episode_id": "E02",
+      "line_start": 79,
+      "line_end": 109,
+      "label": "tutoring_request_and_motives",
+      "characters": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "shared_raw_lines": [
+        {
+          "line": 79,
+          "text": "She did not think much about it the next day at college, it was about 12 in the noon and she was in the staff room, working attentively when she heard a voice."
+        },
+        {
+          "line": 80,
+          "text": "Bantu: Hi miss...... you are looking very beautiful. She was wearing a cream green color saree with bright colored blouse."
+        },
+        {
+          "line": 81,
+          "text": "****Without even looking up she knew who it was."
+        },
+        {
+          "line": 82,
+          "text": "Dhika: giggling.... Bantu....shhuu.... not aloud. At least don't embarrass me by shouting it in front of others."
+        },
+        {
+          "line": 83,
+          "text": "Bantu: hehe.... looking very very beautiful miss... he hissed near her."
+        },
+        {
+          "line": 84,
+          "text": "Dhika: hehehe...... enough stop it."
+        },
+        {
+          "line": 85,
+          "text": "Bantu: Miss, we want to ask you a favor."
+        },
+        {
+          "line": 86,
+          "text": "She remembered last time when they asked for help and how Bobby hugged and knowningly or unknowingly playing with her stomach."
+        },
+        {
+          "line": 87,
+          "text": "Dhika: hehe.... need another ride to home Bobby ?.. she asked teasingly."
+        },
+        {
+          "line": 88,
+          "text": "Bobby: ha.... uh.... no miss.... he was startled. He wasn't expecting her to talk to him. He was trying to catch a glimpse of her hips. ."
+        },
+        {
+          "line": 89,
+          "text": "Bantu: Miss..... you now how much we both like Physics..... but we want to study more than what they are teaching here."
+        },
+        {
+          "line": 90,
+          "text": "Dhika: Puzzled..... why Bantu ?"
+        },
+        {
+          "line": 91,
+          "text": "Bantu: Miss.... our aim is to become Theoretical Physicist and we have been working towards it."
+        },
+        {
+          "line": 92,
+          "text": "Dhika: Amazed.... wow bantu and bobby ... thinking about future already.... how can I help you."
+        },
+        {
+          "line": 93,
+          "text": "****Bantu had already laid out a plan to spend more time with Dhika and needed Bobby's help too. Even though she liked both of them, he knew that Dhika had a special soft spot for Bobby because of his introvert nature..... she always liked teasing him..... to try and bring him out of his uncomfortable zone."
+        },
+        {
+          "line": 94,
+          "text": "Bobby: errr.. can you teach us miss."
+        },
+        {
+          "line": 95,
+          "text": "Dhika: looked more puzzled. wasn't I already teaching them here.... she thought."
+        },
+        {
+          "line": 96,
+          "text": "Bantu: giving a you are stupid look at bobby.... miss... what he meant is.... could you please give us extra tuitions after college."
+        },
+        {
+          "line": 97,
+          "text": "Dhika: hehe... she looked at bobby who was scratching his head."
+        },
+        {
+          "line": 98,
+          "text": "****Dhika always thought high of Bantu and Bobby as they were very polite and very studious. She was amazed when they told her about their future plans, she felt really happy and thought she would help in any way she can."
+        },
+        {
+          "line": 99,
+          "text": "Dhika: I would be very happy to help my two favorite students."
+        },
+        {
+          "line": 100,
+          "text": "Bobby: giggling like a child..... when miss. he asked bluntly."
+        },
+        {
+          "line": 101,
+          "text": "Dhika: (  not thinking about when)..... you guys say ? she didn't want to work on weekends, but did not tell them that."
+        },
+        {
+          "line": 102,
+          "text": "Bantu: Miss..... we asked our dad already and he said we could spend an hour 3 days a week on this. Rest of the time, he wants us to focus on current subjects."
+        },
+        {
+          "line": 103,
+          "text": "Dhika: 3 days a week !!!!!!..... she thought to herself and then thought..... if I don't help my students who will... anyway she was free afternoon after college time. Pappu also sleep at that time."
+        },
+        {
+          "line": 104,
+          "text": "Bantu: miss....."
+        },
+        {
+          "line": 105,
+          "text": "Dhika: haan Bantu.... okay sure. I can do alternate weekdays after we leave college. shall we start from Wednesday, afternoon 3 to 4 PM?"
+        },
+        {
+          "line": 106,
+          "text": "Bantu: yes miss.... thank you... can we come today with you miss... we don't know where you live.."
+        },
+        {
+          "line": 107,
+          "text": "Dhika: she thought about it and said okay sure.... I will show you my house and then you can come from Wednesday."
+        },
+        {
+          "line": 108,
+          "text": "Bantu: okay miss.... thank you. We will come see you when college ends. They said their thank yous and byes and left to class."
+        },
+        {
+          "line": 109,
+          "text": "That's when Dhika thought she did not ask about this to John. When she called john... he said whatever she likes and its her wish, that he doesn't have any problem. He already knew about the twins and he too was surprised to hear about their ambition . He spoke a couple of minutes and then kept the call."
+        }
+      ],
+      "participant_tracks": [
+        {
+          "character_id": "dhika",
+          "evidence_line_refs": [
+            79,
+            81,
+            82,
+            85,
+            86,
+            87,
+            90,
+            92,
+            95,
+            98,
+            99,
+            101,
+            103,
+            105,
+            107,
+            109
+          ],
+          "observable_action": "agrees to tutor after weighing her role and schedule",
+          "known_to_character": "recalls Bobby bike incident",
+          "not_known_or_not_shown": "doesn't know Bantu's hidden time-with-her agenda"
+        },
+        {
+          "character_id": "bantu",
+          "evidence_line_refs": [
+            80,
+            83,
+            85,
+            89,
+            91,
+            93,
+            96,
+            102,
+            104,
+            106,
+            108
+          ],
+          "observable_action": "proposes physics enrichment with secondary private motive",
+          "known_to_character": "knows why he wants more time with her",
+          "not_known_or_not_shown": "receives agreement and timetable"
+        },
+        {
+          "character_id": "bobby",
+          "evidence_line_refs": [
+            86,
+            87,
+            88,
+            93,
+            94,
+            97,
+            100
+          ],
+          "observable_action": "is startled by bike joke; participates in tutoring request",
+          "known_to_character": "retains private ride perspective",
+          "not_known_or_not_shown": "source doesn't establish shared romantic understanding"
+        }
+      ],
+      "note": "One shared raw scene; separate actor accounts. Observed attention is not automatically a chosen or consenting act."
+    },
+    {
+      "id": "E02-G02",
+      "episode_id": "E02",
+      "line_start": 116,
+      "line_end": 135,
+      "label": "unplanned_clothing_accident_and_distinct_reactions",
+      "characters": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "shared_raw_lines": [
+        {
+          "line": 116,
+          "text": "She took the items and put in front of the scooty and went to her apartments. The twins followed. When they all got down from the bike, the twins offered to take the groceries from her but she wouldn't let them. It is okay enough that Chotu who works as a delivery boy does the job... she didn't want to trouble her students too."
+        },
+        {
+          "line": 117,
+          "text": "She carried all by herself. Her handbag on one shoulders, grocery bag on one hand and a file bag on other hand. They are reached the apartment door. She didn't see aunty or Pappu... which only meant both are sleeping."
+        },
+        {
+          "line": 118,
+          "text": "Dhika: Bobby... can you please open the door... the key is in my handbag."
+        },
+        {
+          "line": 119,
+          "text": "Bobby stood close to her at the side and looked for the key into the bag."
+        },
+        {
+          "line": 120,
+          "text": "Bobby: gosh..... she smells like baby powder."
+        },
+        {
+          "line": 121,
+          "text": "He didn't say anything but took the key and opened the door. She let Bantu and Bobby enter first. They went inside and stood watching her patiently."
+        },
+        {
+          "line": 122,
+          "text": "Going to the kitchen.... she kept the grocery bag down and turned to look at them.... File bag was still in her hands and handbag on her shoulders.... The moment she turned to face them..... the bag slipped and fell down..."
+        },
+        {
+          "line": 123,
+          "text": "Not only the bag fell..... but also it pulled down the pallu of her saree along with it. Bag fell down and pallu fell hanging down,"
+        },
+        {
+          "line": 124,
+          "text": "There she was in bright colored blouse with milky boobs (  1/3rd of it anyway) spilling out of her blouse as she bent down to pick ***"
+        },
+        {
+          "line": 125,
+          "text": "Feeling horrified and not knowing what do to.... Her free hand went for the bag first instead of the pallu, in nervousness. She bent down fully.... exposing her spilling boobs more...to two teenage students and then seconds later she took the pallu and fixed it............"
+        },
+        {
+          "line": 126,
+          "text": "She felt very very horrified and looked at her students.... Bobby was wide eyed, open mouthed and still looking towards her chest. Bantu on the other hand, felt awkward and averted looking at eyes. She couldn't say anything to them but excused and ran into the bedroom and close the door."
+        },
+        {
+          "line": 127,
+          "text": "They boys stood there not knowing what to do."
+        },
+        {
+          "line": 128,
+          "text": "Dhika: Ayyoooooooo.... why didn't I go for the pallu first... they saw my boobs.... she was at the verge of crying."
+        },
+        {
+          "line": 129,
+          "text": "She heard the boys from outside..... Making sure everything is in proper place, she opened the door and went outside."
+        },
+        {
+          "line": 130,
+          "text": "Bantu: Miss.... it is getting late... we will leave and from Wednesday we will come miss... he said without taking a breath."
+        },
+        {
+          "line": 131,
+          "text": "Dhika: She saw that Bobby was not there...... where is Bobby ?"
+        },
+        {
+          "line": 132,
+          "text": "Bantu: scratching his head.... he went to get the bike ready miss.... he couldn't tell her that bobby ran out of the house."
+        },
+        {
+          "line": 133,
+          "text": "Dhika did not believe him, but did not say anything too. Bantu said bye fast and left the house too. She closed the door."
+        },
+        {
+          "line": 134,
+          "text": "Dhika: ooooh god..... they saw my boobs... what if they tell someone...... no no... they are sweet boys. They will not tell it to anyone. Bobby probably felt afraid and ran. Bantu is a sweet fellow, he won't get me into trouble."
+        },
+        {
+          "line": 135,
+          "text": "The whole evening she thought what to say next time she sees them. She couldn't wait to tell John. she felt so embarrassed and afraid what John might say."
+        }
+      ],
+      "participant_tracks": [
+        {
+          "character_id": "dhika",
+          "evidence_line_refs": [
+            116,
+            117,
+            118,
+            122,
+            123,
+            124,
+            125,
+            126,
+            128,
+            129,
+            131,
+            133,
+            134,
+            135
+          ],
+          "observable_action": "accidental wardrobe displacement; retracts to bedroom; worries about gossip",
+          "known_to_character": "believes both noticed incident",
+          "not_known_or_not_shown": "does not know whether Bobby's exit explanation is true"
+        },
+        {
+          "character_id": "bantu",
+          "evidence_line_refs": [
+            116,
+            121,
+            122,
+            123,
+            125,
+            126,
+            127,
+            130,
+            132,
+            133
+          ],
+          "observable_action": "averts gaze then leaves quickly",
+          "known_to_character": "knows Bobby ran out",
+          "not_known_or_not_shown": "conceals Bobby departure explanation in dialogue"
+        },
+        {
+          "character_id": "bobby",
+          "evidence_line_refs": [
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            131,
+            132
+          ],
+          "observable_action": "retrieves key; witnesses accident; runs out",
+          "known_to_character": "visibly startled",
+          "not_known_or_not_shown": "no verbal romantic progression or physical touch evidenced"
+        }
+      ],
+      "note": "One shared raw scene; separate actor accounts. Observed attention is not automatically a chosen or consenting act."
+    },
+    {
+      "id": "E02-G03",
+      "episode_id": "E02",
+      "line_start": 46,
+      "line_end": 72,
+      "label": "shared_lunch_hidden_privacy_breach_and_discovery",
+      "characters": [
+        "dhika",
+        "john",
+        "uncle",
+        "aunty"
+      ],
+      "shared_raw_lines": [
+        {
+          "line": 46,
+          "text": "When they entered, uncle was mesmerized looking at her. He has never seen her in a skirt and tight top. John knowingly choose a tight top. As per Dhika, a dress to just to cover her, she is so innocent that she didn't understand if the dress hugged her body and showed her structure. Even though it didn't show any cleavage, her round boobs were treat for eyes."
+        },
+        {
+          "line": 47,
+          "text": "She had almost a flat stomach just with a hint of chubbiness to it."
+        },
+        {
+          "line": 48,
+          "text": "Uncle: Beti..... you look.... very pretty... uncle blurted out. Aunty gave a stern look at him and welcomed them."
+        },
+        {
+          "line": 49,
+          "text": "Dhika: hehe..... thank you uncle. John, you should learn from uncle how to complement."
+        },
+        {
+          "line": 50,
+          "text": "Not that John never complemented her. In early days itself John understood Dhika loved complements. But the more he complemented... more she started wearing same dresses, but then he understood what to do. He started complementing only when she wore something she never wore before and much to it, only when she wore something revealing (  still she did it only inside house). He was caring, but a little cunning too"
+        },
+        {
+          "line": 51,
+          "text": "John had an inner grin on what uncle meant, but kept it to himself."
+        },
+        {
+          "line": 52,
+          "text": "They had lunch together while Pappu sat and watched TV. He wouldn't eat and Dhika said she will feed him after their lunch. Uncle was sitting opposite to John and they were talking about his work. All through out the lunch uncle kept stealing quick glances at her boobs from the corner of his eyes, which John noticed, but poor Dhika had no idea, yet."
+        },
+        {
+          "line": 53,
+          "text": "Half way through their lunch, Pappu started asking for food. Dhika had stored milk for him in their fridge and she was about to stand up when uncle stood saying he will get it. Uncle did not wait for her to answer and proceeded to her house."
+        },
+        {
+          "line": 54,
+          "text": "Uncle rushed to her house, forgetting even to close the front door and went straight to the bathroom. He saw her white bra lying in the sink. He took it and started sniffing. The smell was intoxicating and he even licked it a little. Uncle had his eyes closed and imagining Dhika just in this bra, imagined what these bra cups would have touched.. He was so turned on that his crotch hosted a tent in his shorts."
+        },
+        {
+          "line": 55,
+          "text": "What uncle did not know is that, Dhika followed him seconds later he left, leaving aunty and John continue their lunch. He left without waiting for her answer, but Dhika did not sit back. Out of respect, she followed to stop him and get the milk herself."
+        },
+        {
+          "line": 56,
+          "text": "When she entered the house through the open door, she didn't find uncle in the kitchen. To her surprise, she heard a very slight moan coming from their bathroom. She slowly peeked out of curiosity and was stunned."
+        },
+        {
+          "line": 57,
+          "text": "Uncle was standing there with this eyes closed and bra close to his nose. He was smelling it and she was even more shocked when he licked the insides of the bra cups. She turned so pink and averted her eyes to look away. Just as she was bring her eyes to see away, she moved her eyes down and she saw something in uncle for the first time, that she didn't mean too."
+        },
+        {
+          "line": 58,
+          "text": "He was sporting a huge tent in front of his shorts and the tent was twitching like something alive."
+        },
+        {
+          "line": 59,
+          "text": "{She turned from pink to red....blushing; wide eyed and open mouthed..}"
+        },
+        {
+          "line": 60,
+          "text": "Quickly and silently she went outside the house and stood to catch her heavy breath."
+        },
+        {
+          "line": 61,
+          "text": "Dhika: omg omg omg...... I saw uncle's short and something big... a subtle smile..... ayoooo.... I should not have, she hit her head"
+        },
+        {
+          "line": 62,
+          "text": "More than uncle sniffing her bra, she felt bad about she looking at uncle. Then she realized it was uncle who was doing a wrong here."
+        },
+        {
+          "line": 63,
+          "text": "But strange to herself, she did not feel any anger. She was lost in thoughts reimagining what she saw uncle doing and felt a little excited just like she had with Chotu...."
+        },
+        {
+          "line": 64,
+          "text": "Uncle: Dhika...... what are you doing outside the house."
+        },
+        {
+          "line": 65,
+          "text": "Dhika: startled and she came to reality.... uncle I came to help you take the milk. (  she let him believe that she hasn't entered her house yet)"
+        },
+        {
+          "line": 66,
+          "text": "Both went back to uncle's house and she went straight to the sofa to feed Pappu. Uncle went back to dining table to join John. They finished the lunch, spoke for sometime and by that time, Pappu was falling asleep. All these while, Dhika was sitting in sofa and reimagining what happened."
+        },
+        {
+          "line": 67,
+          "text": "*****She did not feel an ounce of anger."
+        },
+        {
+          "line": 68,
+          "text": "Dhika: Uncle must have went to bathroom to use it..... and by mistake and out of curiosity may have taken the bra. Men will be men right !!!!! also..... he might be missing something in his life to take another women's bra..."
+        },
+        {
+          "line": 69,
+          "text": "she consoled herself that what uncle did may not have been wrong because he never behaved inappropriately towards her."
+        },
+        {
+          "line": 70,
+          "text": "Dhika: But still from tomorrow I should better leave milk bottles with aunty along itself, with Pappu in the morning so that I don't mistakenly lead uncle into such situations. She felt responsible for what uncle did."
+        },
+        {
+          "line": 71,
+          "text": "Dhika wanted to put Pappu to sleep.....so she and John said good byes and went back to their house."
+        },
+        {
+          "line": 72,
+          "text": "She did not tell about uncle to John..... she didn't want to spoil his image...."
+        }
+      ],
+      "participant_tracks": [
+        {
+          "character_id": "dhika",
+          "evidence_line_refs": [
+            46,
+            48,
+            49,
+            52,
+            53,
+            55,
+            56,
+            57,
+            60,
+            61,
+            62,
+            63,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ],
+          "observable_action": "follows errand and discovers private violation; conceals discovery, considers access changes",
+          "known_to_character": "recognizes misconduct",
+          "not_known_or_not_shown": "Uncle doesn't know she saw"
+        },
+        {
+          "character_id": "john",
+          "evidence_line_refs": [
+            46,
+            50,
+            51,
+            52,
+            53,
+            66
+          ],
+          "observable_action": "notices attention and continues socially",
+          "known_to_character": "already suspected Uncle's gaze",
+          "not_known_or_not_shown": "not told she saw privacy intrusion"
+        },
+        {
+          "character_id": "uncle",
+          "evidence_line_refs": [
+            46,
+            48,
+            51,
+            52,
+            53,
+            54,
+            56,
+            57,
+            58,
+            64,
+            65,
+            66
+          ],
+          "observable_action": "uses milk errand for unauthorized private garment handling",
+          "known_to_character": "assumes act is hidden",
+          "not_known_or_not_shown": "unaware Dhika witnessed"
+        },
+        {
+          "character_id": "aunty",
+          "evidence_line_refs": [
+            48,
+            52,
+            53,
+            55,
+            66
+          ],
+          "observable_action": "participates in ordinary lunch and gives stern look on compliment",
+          "known_to_character": "knows lunch context",
+          "not_known_or_not_shown": "not reported to know later private breach"
+        }
+      ],
+      "note": "One shared raw scene; separate actor accounts. Observed attention is not automatically a chosen or consenting act."
+    }
+  ]
+}
