@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dhika E66-E68 Timeline</title>
+<style>
+body{margin:0;background:#0c1627;color:#e8f0fa;font:15px/1.55 system-ui,sans-serif}main{max-width:1020px;margin:auto;padding:36px 20px 80px}h1{font-size:clamp(28px,5vw,44px);margin-bottom:10px}a{color:#86ddc5}.note{color:#b9cada}.card{padding:18px;margin:12px 0;border:1px solid #34445e;border-radius:14px;background:#17243a}.n{font-size:12px;font-weight:800;color:#86ddc5;text-transform:uppercase;letter-spacing:1px}button,select{background:#263a55;color:white;border:1px solid #526078;border-radius:8px;padding:10px;font:inherit;cursor:pointer}.tools{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:650px){.grid{grid-template-columns:1fr}}p{margin:9px 0}
+</style></head>
+<body><main>
+<div class="n">Independent source-pointer page</div>
+<h1>Episode 66 → 67 → 68</h1>
+<p class="note">Chronological story units, original global line links, and the pre-existing pair-action review page. Source evidence is not rewritten. This index does not claim full atomic-action completeness.</p>
+<p><a href="./e67-e68-continuity.html#pair-actions">Open E67-E68 Pair Action Steps</a> · <a href="./index.html">Existing homepage</a></p>
+<div class="card"><strong>Key continuity correction</strong><p>Episode 66 narrates a birthday-party night, then backtracks to earlier that day. The earlier-day sequence continues into E67 before returning to the party aftermath. E67's massage setup continues into E68; E68 later returns via flashback to conclude it.</p></div>
+<div class="tools"><label for="filter">Filter episode</label><select id="filter"><option value="all">All (story-world order)</option><option value="66">Episode 66</option><option value="67">Episode 67</option><option value="68">Episode 68</option></select><button id="dl">Export timeline JSON</button></div>
+<h2>Source-indexed scene progression</h2>
+<div id="items">Loading source-pointer index…</div>
+<div class="card"><h2>What remains pending?</h2><p>The scene boundaries are indexed. A completed line-by-line action/observation/response audit of all three chapters still requires an independent editorial pass. The E67-E68 page provides a provisional finer-grained action list.</p><p class="note">Exact original text is linked by global line number in each scene. Only referenced source facts count as established; suggested future events remain separate.</p></div>
+</main><script>
+const out=document.getElementById("items"),sel=document.getElementById("filter");let rows=[];
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function render(){let f=sel.value;out.innerHTML=rows.filter(x=>f==="all"||String(x.episode)===f).map((x,i)=>'<div class="card"><div class="n">E'+x.episode+' · Story scene '+(i+1)+'</div><h3>'+esc(x.title)+'</h3><a target="_blank" rel="noopener" href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L'+x.range[0]+'">Global source lines '+x.range[0]+'–'+x.range[1]+' ↗</a></div>').join("")||"<p>No matching scene</p>"}
+sel.onchange=render;
+document.getElementById("dl").onclick=()=>{let b=new Blob([JSON.stringify(rows,null,2)],{type:"application/json"}),u=URL.createObjectURL(b),a=document.createElement("a");a.href=u;a.download="e66-e68-scene-source-index.json";a.click();setTimeout(()=>URL.revokeObjectURL(u),1500)};
+fetch("./data/e66_e68_chronology_v1.json").then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(j=>{rows=j.scenes;render()}).catch(e=>out.textContent="Could not load scene index: "+e.message);
+</script></body></html>
