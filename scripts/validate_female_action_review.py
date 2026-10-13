@@ -72,4 +72,21 @@ assert next(e for e in checked if e['action']=='question_possible_viewing')['act
 assert next(e for e in checked if e['action']=='make_eye_contact')['initiated_by'] is None
 assert manifest['character_registry']['chotu']['age']==19
 assert '19 year old' in source[manifest['character_registry']['chotu']['evidence_global_lines'][0]-1]
+pair_path=root/'data/action_pair_index.json'
+if pair_path.exists():
+    pair_index=json.loads(pair_path.read_text())
+    assert pair_index['source_sha256']==manifest['source']['sha256']
+    assert pair_index['scope']['semantic_review_complete'] is False
+    assert pair_index['scope']['complete_episodes']==[]
+    originals={e['event_id']:e for e in checked}
+    for e in pair_index['events']:
+        original=originals[e['event_id']]
+        assert e['actor_ids']==original['actor_ids'] and e['recipient_ids']==original['recipient_ids']
+        expected=sorted({'__'.join(sorted((a,b))) for a in e['actor_ids'] for b in e['recipient_ids'] if a!=b})
+        assert e['pair_keys']==expected and expected
+        assert all(r['text']==source[r['global_line']-1] for r in e['evidence_lines'])
+        assert e['interaction_category'] in ['contact','observation','thought','object','dialogue']
+    assert pair_index['scope']['pair_event_records']==len(pair_index['events'])
+    assert not any('sharmi__uncle' in e['pair_keys'] for e in pair_index['events'])
+    print(f"PASS: {len(pair_index['events'])} checked pair interactions; mention-only and self-only matches excluded.")
 print(f'PASS: 69 episodes; {len(source)} unique segments; original bytes exact; {len(candidates)} unverified candidates; {len(checked)} checked E01 spans. Semantic review incomplete.')

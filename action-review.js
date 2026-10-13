@@ -1,17 +1,61 @@
 'use strict';
 const $=id=>document.getElementById(id);
-const state={manifest:null,packs:new Map(),pack:null,items:[],page:0,pageSize:35,selected:null,notes:{},loadSequence:0};
+const state={manifest:null,pairs:null,pairItems:[],mode:'pairs',packs:new Map(),pack:null,items:[],page:0,pageSize:35,selected:null,notes:{},loadSequence:0};
 const STORAGE='dhika-female-action-review-v1';
 function node(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;}
 function badge(text,cls=''){return node('span',text,'badge '+cls);}
 function pretty(value){return JSON.stringify(value,null,2);}
 function display(value){return value===null||value===undefined?'Unresolved':Array.isArray(value)?(value.length?value.map(x=>typeof x==='object'?JSON.stringify(x):x).join(', '):'Unresolved'):typeof value==='object'?pretty(value):String(value);}
 async function json(url){const response=await fetch(url);if(!response.ok)throw new Error('Could not load '+url+' ('+response.status+')');return response.json();}
+function nameOf(id){return state.pairs.characters.find(c=>c.id===id)?.name||id||'Not established';}
+function names(ids){return ids?.length?ids.map(nameOf).join(' + '):'Not established';}
+const actionLabels={gaze_at_dhika:'Looked at Dhika',pinch_waist:'Pinched the waist',handle_dhika_bra:'Handled Dhika’s bra',imagine_dhika_body:'Imagined Dhika’s body',sniff_dhika_bra:'Sniffed Dhika’s bra',drop_dhika_bra:'Dropped Dhika’s bra',see_exposed_hip:'Saw the exposed hip',see_dhika_walking:'Watched Dhika walking',look_at_dhika:'Looked at Dhika',want_to_sit_close:'Wanted to sit close',permit_holding_for_balance:'Allowed holding for balance',put_hands_around_hip:'Put hands around the hip',hold_stomach:'Held the stomach',intend_shoulder_support:'Intended shoulder support',tap_stomach:'Tapped the stomach',rub_bare_hip:'Rubbed the bare hip',bend_to_hand_glass:'Bent down to hand over a glass',question_possible_viewing:'Wondered what the other person saw',say_kisses_on_phone:'Said “kisses” over the phone',want_to_test_viewing:'Wanted to find out whether he would look',notice_absent_dupatta:'Noticed the missing dupatta',see_partial_breast_area:'Saw a partially exposed breast area',look_toward_chotu:'Looked toward Chotu',make_eye_contact:'Made eye contact'};
+const categoryLabels={contact:'Physical action',observation:'Looking / observing',thought:'Thought / intention',object:'Garment / object',dialogue:'Spoken / instructed'};
+const realityLabels={actual:'Actually happened',imagined:'Imagined · not performed',intended:'Intended · not performed here',hypothetical:'Hypothetical · not confirmed',uncertain_perception:'Uncertain viewing · not confirmed',remembered:'Remembered · not a new event',instruction:'Instruction · not proof of contact',historical_habit:'Habitual description · not one new encounter'};
+function formatBody(parts){return parts.length?parts.map(p=>nameOf(p.owner_id)+' · '+p.part).join('; '):'Not specified';}
+function formatClothing(states){const entries=Object.entries(states);return entries.length?entries.map(([id,s])=>nameOf(id)+': '+s.description).join('; '):'Not specified for this action';}
+function pairKey(a,b){return [a,b].sort().join('__');}
+function renderPairs(){
+  if(!state.pairs)return;
+  const a=$('characterA').value,b=$('characterB').value,ep=$('pairEpisode').value,cat=$('pairCategory').value,q=$('pairSearch').value.toLowerCase().trim();
+  $('pairTitle').textContent=nameOf(a)+' ↔ '+nameOf(b);
+  if(a===b){state.pairItems=[];$('pairScope').textContent='Choose two different characters.';$('pairResults').replaceChildren(node('div','Pick a different second character to see interactions between them.','empty'));$('downloadPair').disabled=true;return;}
+  let events=state.pairs.events.filter(e=>e.pair_keys.includes(pairKey(a,b)));
+  if(ep!=='ALL')events=events.filter(e=>e.episode_id===ep);
+  if(cat!=='ALL')events=events.filter(e=>e.interaction_category===cat);
+  if(q)events=events.filter(e=>([actionLabels[e.action]||e.action,e.source.quote,formatBody(e.body_parts_involved),e.reality_status,...e.event_state].join(' ')).toLowerCase().includes(q));
+  events.sort((x,y)=>x.source.global_line-y.source.global_line||x.source.start-y.source.start);
+  state.pairItems=events;$('downloadPair').disabled=!events.length;
+  $('pairScope').textContent=events.length+' checked interaction'+(events.length===1?'':'s')+' · '+(ep==='ALL'?'All episodes selected':ep)+' · full story verification pending';
+  const frag=document.createDocumentFragment();let lastEpisode;
+  if(!events.length){const empty=node('div',undefined,'pair-empty');empty.append(node('h3','No checked actions available for this selection yet'),node('p','This is not evidence that '+nameOf(a)+' and '+nameOf(b)+' never interact. The current checked pair records cover E01 spans; the rest of the story is still awaiting verification.'));if(q||cat!=='ALL'||ep!=='ALL')empty.append(node('p','The episode, category, or search filter may also exclude available checked actions.'));frag.append(empty);}
+  for(const e of events){
+    if(lastEpisode!==e.episode_id){frag.append(node('h3','Episode '+Number(e.episode_id.slice(1)),'episode-divider'));lastEpisode=e.episode_id;}
+    const card=node('article',undefined,'action-card');
+    const top=node('div',undefined,'action-card-top');top.append(badge(realityLabels[e.reality_status]||e.reality_status,e.action_type===1?'pending':'checked'),badge(categoryLabels[e.interaction_category]));if(e.group_event_id)top.append(badge('Part of a group scene'));card.append(top);
+    card.append(node('h3',actionLabels[e.action]||e.action.replaceAll('_',' '),'action-title'));
+    card.append(node('p',names(e.actor_ids)+' → '+names(e.recipient_ids),'action-direction'));
+    const dl=node('dl');field(dl,'Initiated by',names(e.initiated_by));field(dl,'Body part',formatBody(e.body_parts_involved));field(dl,'Clothing',formatClothing(e.clothing_state_by_character));field(dl,'Contact',({through_clothing:'Through clothing',direct_skin:'Direct skin contact',no_contact:'No physical contact',garment_object:'Garment / object only',unknown:'Not specified'})[e.contact_layer]||e.contact_layer);field(dl,'Response / state',e.event_state.length?e.event_state.join(', '):'Not specified');card.append(dl);
+    if(e.interaction_category==='object')card.append(node('p','The action involves the character’s garment. It does not establish that both characters were physically together.','note-text'));
+    if(e.ambiguity_notes.length)card.append(node('p',e.ambiguity_notes.join(' '),'note-text'));
+    const evidence=node('details',undefined,'evidence-disclosure');evidence.append(node('summary','Evidence · '+e.episode_id+' · source line '+e.source.global_line));
+    for(const r of e.evidence_lines){const row=node('div',undefined,'source-line'+(r.global_line===e.source.global_line?' focus':''));row.append(node('span','L'+r.global_line,'number'),node('div',r.text,'raw'));evidence.append(row);}
+    const link=node('a','Open original source ↗');link.href='https://github.com/'+state.pairs.repository+'/blob/'+state.pairs.source_commit_sha+'/'+state.pairs.source_path+'#L'+e.source.global_line;link.target='_blank';link.rel='noopener';evidence.append(link);
+    const raw=node('details');raw.append(node('summary','Technical JSON'),node('pre',pretty(e)));evidence.append(raw);card.append(evidence);frag.append(card);
+  }
+  $('pairResults').replaceChildren(frag);
+}
+async function setMode(mode){
+  state.mode=mode;const pairs=mode==='pairs';$('pairReview').hidden=!pairs;$('sourceReview').hidden=pairs;$('scopeHelp').hidden=pairs;
+  for(const [id,active]of [['pairMode',pairs],['sourceMode',!pairs]]){$(id).classList.toggle('active',active);$(id).setAttribute('aria-pressed',String(active));}
+  $('scope').textContent=pairs?'Checked interactions currently come from E01 spans. The 69-episode source is preserved, but the full action list is not yet verified.':state.manifest.status_note;
+  if(pairs){renderPairs();notify('Choose two characters to browse their checked actions.');}else if(!state.pack)await loadEpisode($('episode').value);
+}
 function saveFile(name,value){const blob=new Blob([pretty(value)+'\n'],{type:'application/json'}),url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 function notify(message){$('status').textContent=message;}
 function noteFor(key){return state.notes[key]||{};}
 function markStatus(item){return noteFor(item.event_id||item.line_id).status||item.review_status;}
-async function loadEpisode(id){const seq=++state.loadSequence;notify('Loading '+id+'…');const entry=state.manifest.episodes.find(e=>e.episode_id===id);let pack=state.packs.get(id);if(!pack){pack=await json('./'+entry.file);state.packs.set(id,pack);}if(seq!==state.loadSequence)return;state.pack=pack;state.selected=null;state.page=0;filter();notify(id+' · '+pack.source_line_count.toLocaleString()+' preserved source segments · semantic review pending');$('detailTitle').textContent='Select a source line or event';$('detail').replaceChildren(node('div','Every source line remains available, including lines with no keyword matches.','empty'));}
+async function loadEpisode(id){const seq=++state.loadSequence;notify('Loading '+id+'…');$('downloadEpisode').disabled=true;const entry=state.manifest.episodes.find(e=>e.episode_id===id);let pack=state.packs.get(id);if(!pack){pack=await json('./'+entry.file);state.packs.set(id,pack);}if(seq!==state.loadSequence)return;state.pack=pack;$('downloadEpisode').disabled=false;state.selected=null;state.page=0;filter();notify(id+' · '+pack.source_line_count.toLocaleString()+' preserved source segments · semantic review pending');$('detailTitle').textContent='Select a source line or event';$('detail').replaceChildren(node('div','Every source line remains available, including lines with no keyword matches.','empty'));}
 function filter(){
   if(!state.pack)return;
   const view=$('view').value,female=$('female').value,q=$('search').value.toLowerCase().trim();
@@ -81,10 +125,16 @@ async function jump(){const n=Number($('jump').value);if(!Number.isInteger(n)||n
 async function init(){
   try{
     try{state.notes=JSON.parse(localStorage.getItem(STORAGE)||'{}');}catch{state.notes={};}
-    state.manifest=await json('./data/female_action_review/manifest.json');const m=state.manifest;
-    $('scope').textContent=m.status_note;
+    [state.manifest,state.pairs]=await Promise.all([json('./data/female_action_review/manifest.json'),json('./data/action_pair_index.json')]);const m=state.manifest;
+    if(state.pairs.source_sha256!==m.source.sha256)throw Error('Pair index does not match the current source.');
+    for(const person of state.pairs.characters){for(const id of ['characterA','characterB']){const o=node('option',person.name);o.value=person.id;$(id).append(o);}}
+    $('characterA').value='dhika';$('characterB').value='uncle';
+    for(const e of m.episodes){const o=node('option','Episode '+Number(e.episode_id.slice(1)));o.value=e.episode_id;$('pairEpisode').append(o);}
+    for(const id of ['characterA','characterB','pairEpisode','pairCategory'])$(id).addEventListener('change',renderPairs);$('pairSearch').addEventListener('input',renderPairs);
+    $('pairMode').addEventListener('click',()=>setMode('pairs').catch(e=>notify(e.message)));$('sourceMode').addEventListener('click',()=>setMode('source').catch(e=>notify(e.message)));
+    $('downloadPair').addEventListener('click',()=>saveFile('actions-'+$('characterA').value+'-'+$('characterB').value+'.json',{source_sha256:state.pairs.source_sha256,selected_characters:[$('characterA').value,$('characterB').value],episode_filter:$('pairEpisode').value,category_filter:$('pairCategory').value,scope:state.pairs.scope,events:state.pairItems}));
     for(const e of m.episodes){const o=node('option',e.episode_id+' · '+e.source_line_count+' segments');o.value=e.episode_id;$('episode').append(o);}
-    for(const [value,label]of [[m.source.episode_count,'Episodes preserved'],[m.source.lf_delimited_segments.toLocaleString(),'Source segments · 0 missing'],[m.coverage.checked_events,'Checked event spans · E01'],[m.coverage.lexical_candidates.toLocaleString(),'Unverified keyword candidates']]){const card=node('div',undefined,'stat');card.append(node('strong',value),node('span',label));$('stats').append(card);}
+    for(const [value,label]of [[m.source.episode_count,'Episodes preserved'],[m.source.lf_delimited_segments.toLocaleString(),'Source segments · 0 missing'],[m.coverage.checked_events,'Checked event spans · E01'],[state.pairs.events.length,'Checked pair interactions']]){const card=node('div',undefined,'stat');card.append(node('strong',value),node('span',label));$('stats').append(card);}
     $('integrity').textContent='Source SHA-256: '+m.source.sha256;
     $('episode').addEventListener('change',()=>loadEpisode($('episode').value).catch(e=>notify(e.message)));
     for(const id of ['view','female'])$(id).addEventListener('change',filter);$('search').addEventListener('input',filter);
@@ -93,8 +143,9 @@ async function init(){
     $('downloadEpisode').addEventListener('click',()=>saveFile(state.pack.episode_id.toLowerCase()+'-female-action-review.json',state.pack));$('downloadAll').addEventListener('click',downloadAll);
     $('exportReview').addEventListener('click',()=>saveFile('dhika-review-notes.json',{schema_version:'female-action-review-notes-1.0',source_sha256:m.source.sha256,notes:state.notes}));
     $('importReview').addEventListener('change',async e=>{try{const f=e.target.files[0];if(!f)return;const d=JSON.parse(await f.text());if(d.source_sha256!==m.source.sha256||d.schema_version!=='female-action-review-notes-1.0'||!d.notes||typeof d.notes!=='object'||Array.isArray(d.notes))throw Error('Review notes do not match this source or schema.');for(const [key,n]of Object.entries(d.notes)){if(!/^E\d{2}-(?:L\d{4}(?:-C\d+)?|CHK-\d+)$/.test(key)||!n||typeof n!=='object'||typeof n.notes!=='string')throw Error('Invalid review note record.');}state.notes={...state.notes,...d.notes};localStorage.setItem(STORAGE,JSON.stringify(state.notes));renderList();notify('Imported review notes. Canonical source and dataset unchanged.');}catch(err){notify(err.message);}});
-    const requested=new URLSearchParams(location.search).get('episode');if(m.episodes.some(e=>e.episode_id===requested))$('episode').value=requested;
-    await loadEpisode($('episode').value);
+    const params=new URLSearchParams(location.search),requested=params.get('episode');if(m.episodes.some(e=>e.episode_id===requested)){$('episode').value=requested;$('pairEpisode').value=requested;}
+    for(const [param,id]of [['a','characterA'],['b','characterB']])if(state.pairs.characters.some(c=>c.id===params.get(param)))$(id).value=params.get(param);
+    await setMode(params.get('mode')==='source'?'source':'pairs');
   }catch(e){notify('Review could not load: '+e.message);$('detail').replaceChildren(node('p','Reload or open the repository to inspect the source.','warning'));}
 }
 init();

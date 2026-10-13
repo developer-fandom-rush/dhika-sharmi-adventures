@@ -8,6 +8,19 @@ The **Evidence Room covers E01–E04 analytical action/relationship records and 
 
 **Review page:** https://developer-fandom-rush.github.io/dhika-sharmi-adventures/action-review.html
 
+The default **Characters & actions** view is for readers: select the first and
+second character, then see their checked interactions in episode/source order.
+Cards show the action, initiator, body part, clothing/contact evidence, and
+actual-versus-imagined status. **Evidence** expands exact supporting text; JSON
+is nested inside that optional disclosure. Episode/category/search filters and
+pair-specific JSON downloads are available. **Source review** retains the
+line-by-line audit interface. An empty pair result explicitly means no checked
+record in the current dataset, not absence of an interaction in the story.
+
+`data/action_pair_index.json` is generated from checked actor-to-recipient roles
+by `python3 scripts/build_action_pair_index.py`. Co-occurring names alone never
+create pair actions, and imagined/object interactions are labelled separately.
+
 This separate page preserves every source segment across all 69 episodes. It
 does **not** claim that semantic event extraction is complete. The current
 dataset contains 59 directly checked E01 event spans and unverified lexical

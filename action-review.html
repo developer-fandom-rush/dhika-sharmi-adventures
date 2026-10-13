@@ -2,16 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="dark"><title>Dhika & Sharmi · Line-by-line review</title>
+  <meta name="color-scheme" content="dark"><title>Dhika & Sharmi · Character actions</title>
   <link rel="stylesheet" href="./action-review.css"><script src="./action-review.js" defer></script>
 </head>
 <body>
 <header><a class="brand" href="./index.html">D<span>·</span>S <small>DHIKA & SHARMI</small></a><nav><a href="./index.html">Evidence Room</a><a href="./raw/Dhika.txt">Original source ↗</a></nav></header>
 <main>
-  <section class="intro"><div class="eyebrow">EPISODES 01–69 · SOURCE FIRST</div><h1>Every line.<br><em>Every claim traceable.</em></h1><p>Review female-centred actions beside their original evidence. Source preservation, checked event spans, and pending interpretation are counted separately.</p></section>
+  <section class="intro"><div class="eyebrow">DHIKA & SHARMI · CHARACTER ACTIONS</div><h1>Choose characters.<br><em>See their actions.</em></h1><p>Select two characters to see their checked interactions in story order. Each action shows who initiated it, the body part involved, and whether it happened or was only imagined.</p></section>
   <div id="status" role="status">Loading source manifest…</div>
   <section id="stats" class="stats" aria-label="Coverage statistics"></section>
-  <aside class="notice"><strong>Interpretation is still in progress.</strong><p id="scope">Loading review scope…</p><p>No-match lines remain pending. A keyword match is a candidate, and named characters are mentions until their action roles are checked. Blank fields mean unresolved.</p></aside>
+  <aside class="notice"><strong>Full story review is still in progress.</strong><p id="scope">Loading review scope…</p><p id="scopeHelp" hidden>No-match lines remain pending. A keyword match is a candidate, and named characters are mentions until their action roles are checked. Blank fields mean unresolved.</p></aside>
+  <nav class="mode-tabs" aria-label="Review mode"><button id="pairMode" class="active" aria-pressed="true">Characters & actions</button><button id="sourceMode" aria-pressed="false">Source review</button></nav>
+  <section id="pairReview" aria-label="Character interaction browser">
+    <section class="toolbar pair-toolbar" aria-label="Choose characters">
+      <label for="characterA">First character<select id="characterA"></select></label><span class="pair-arrow" aria-hidden="true">↔</span>
+      <label for="characterB">Second character<select id="characterB"></select></label>
+      <label for="pairEpisode">Episode<select id="pairEpisode"><option value="ALL">All episodes · 01–69</option></select></label>
+      <label for="pairCategory">Action category<select id="pairCategory"><option value="ALL">All interaction types</option><option value="contact">Physical contact</option><option value="observation">Looking / observing</option><option value="thought">Imagined / thought / intended</option><option value="object">Garment / object actions</option><option value="dialogue">Spoken / instructed</option></select></label>
+      <label for="pairSearch" class="search">Find an action<input id="pairSearch" type="search" placeholder="e.g. hip, kiss, imagined…"></label>
+    </section>
+    <div class="pair-heading"><div><h2 id="pairTitle">Character actions</h2><p id="pairScope"></p></div><button id="downloadPair">Download these actions ↓</button></div>
+    <div id="pairResults" class="pair-results" aria-live="polite"></div>
+  </section>
+  <section id="sourceReview" hidden>
   <section class="toolbar" aria-label="Review filters">
     <label>Episode<select id="episode"></select></label>
     <label>View<select id="view"><option value="lines">Every source line</option><option value="checked">Checked event spans</option><option value="candidates">Unverified candidates</option><option value="all">All event records</option></select></label>
@@ -23,6 +36,7 @@
   <section class="workspace">
     <div class="list-pane"><div class="pane-title"><h2 id="listTitle">Source lines</h2><span id="count"></span></div><div id="list" class="list" aria-label="Source or event records"></div><div class="pagination"><button id="previousPage">← Previous</button><span id="pageInfo"></span><button id="nextPage">Next →</button></div></div>
     <aside class="inspector"><div class="pane-title"><h2 id="detailTitle">Select a line</h2><a id="githubSource" target="_blank" rel="noopener">Source ↗</a></div><div id="detail"></div></aside>
+  </section>
   </section>
   <footer><span id="integrity"></span><span>Original raw file is read-only. Local edits do not update GitHub.</span></footer>
 </main>
