@@ -4,6 +4,43 @@ The **Evidence Room covers E01–E04 analytical action/relationship records and 
 
 **Dashboard:** https://developer-fandom-rush.github.io/dhika-sharmi-adventures/
 
+## Female-centred line and action review (E01–E69)
+
+**Review page:** https://developer-fandom-rush.github.io/dhika-sharmi-adventures/action-review.html
+
+This separate page preserves every source segment across all 69 episodes. It
+does **not** claim that semantic event extraction is complete. The current
+dataset contains 59 directly checked E01 event spans and unverified lexical
+candidates across E01–E69. Lines without matches remain pending semantic review.
+Named mentions in candidates do not establish actors, recipients, body-part
+owners, scene presence, consent, or a female centre.
+
+- **Every source line** shows all episode lines, including blanks and metadata.
+- **Checked event spans** displays source-supported roles and distinctions for
+  the checked E01 actions; this is not an episode-completeness certification.
+- **Unverified candidates** displays exact keyword offsets and cues for further
+  semantic work. Candidates can be false positives and can miss actions.
+- **Female centre** filters checked assignments, rather than assigning a woman
+  from pronouns or nearby names. Group records retain each action's roles.
+- **Go to source line** uses master-file line numbers. Enter a number and press
+  Enter. Episode-local numbers are also displayed beside the source.
+- Downloads include one episode or all 69 episode ledgers plus the manifest.
+- Review notes are browser-local. Export/import notes to retain or share them;
+  they do not change canonical JSON or GitHub. Local notes cannot certify a
+  machine candidate as a checked event.
+
+`data/female_action_review/manifest.json` records the source hash and exact scope.
+Each `eNN.json` holds lossless source lines and separately typed candidate/checked
+records. `data/female_action_review_e01_checked.json` holds the checked annotations.
+The source uses 14,046 LF-delimited segments, including the final empty segment;
+the 14,045 LF-terminated physical lines and the two leading preamble segments are
+preserved. Episode boundaries are not duplicated. Concatenating every segment
+with LF reproduces the original 1,339,181 bytes exactly.
+
+Run `python3 scripts/validate_female_action_review.py` for exact byte
+reconstruction, line/ID/reference checks, evidence offsets, and checked
+female-centred chronology. Original `raw/Dhika.txt` remains unchanged.
+
 ## How to use
 
 1. Open **Relationship Timeline ★** (the default view). Choose a pair such as **Dhika ↔ Uncle**; choose **All Episodes (E01 + E02 + E03)** to see continuous chronological evidence, or select one episode. Use **Evidence** to isolate inner thoughts, bond changes, physical actions or exact triggers.

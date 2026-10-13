@@ -13,6 +13,10 @@ jobs:
           node-version: "22"
       - name: Check browser JavaScript syntax
         run: node --check app.js
+      - name: Check all-episode review JavaScript syntax
+        run: node --check action-review.js
+      - name: Verify all 69 episode source ledgers and checked action spans
+        run: python3 scripts/validate_female_action_review.py
       - name: Check source validator syntax
         run: node --check scripts/validate.mjs
       - name: Verify complete E01-E02 source integrity

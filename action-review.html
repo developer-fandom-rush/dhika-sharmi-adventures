@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark"><title>Dhika & Sharmi · Line-by-line review</title>
+  <link rel="stylesheet" href="./action-review.css"><script src="./action-review.js" defer></script>
+</head>
+<body>
+<header><a class="brand" href="./index.html">D<span>·</span>S <small>DHIKA & SHARMI</small></a><nav><a href="./index.html">Evidence Room</a><a href="./raw/Dhika.txt">Original source ↗</a></nav></header>
+<main>
+  <section class="intro"><div class="eyebrow">EPISODES 01–69 · SOURCE FIRST</div><h1>Every line.<br><em>Every claim traceable.</em></h1><p>Review female-centred actions beside their original evidence. Source preservation, checked event spans, and pending interpretation are counted separately.</p></section>
+  <div id="status" role="status">Loading source manifest…</div>
+  <section id="stats" class="stats" aria-label="Coverage statistics"></section>
+  <aside class="notice"><strong>Interpretation is still in progress.</strong><p id="scope">Loading review scope…</p><p>No-match lines remain pending. A keyword match is a candidate, and named characters are mentions until their action roles are checked. Blank fields mean unresolved.</p></aside>
+  <section class="toolbar" aria-label="Review filters">
+    <label>Episode<select id="episode"></select></label>
+    <label>View<select id="view"><option value="lines">Every source line</option><option value="checked">Checked event spans</option><option value="candidates">Unverified candidates</option><option value="all">All event records</option></select></label>
+    <label>Female centre<select id="female"><option value="">All / unresolved</option><option value="dhika">Dhika</option><option value="sharmi">Sharmi</option><option value="aunty">Aunty</option><option value="bindu_maami">Bindu Maami</option></select></label>
+    <label class="search">Search source / action / ID<input id="search" type="search" placeholder="Exact words, character, event ID…"></label>
+    <label>Go to source line<input id="jump" type="number" min="1" placeholder="Master line #"></label>
+  </section>
+  <div class="exports"><button id="downloadEpisode">Download episode JSON ↓</button><button id="downloadAll">Download all 69 JSON ↓</button><button id="exportReview">Export my review notes ↓</button><label class="import-label">Import review notes<input id="importReview" type="file" accept="application/json,.json"></label><span>Review notes stay in this browser until exported.</span></div>
+  <section class="workspace">
+    <div class="list-pane"><div class="pane-title"><h2 id="listTitle">Source lines</h2><span id="count"></span></div><div id="list" class="list" aria-label="Source or event records"></div><div class="pagination"><button id="previousPage">← Previous</button><span id="pageInfo"></span><button id="nextPage">Next →</button></div></div>
+    <aside class="inspector"><div class="pane-title"><h2 id="detailTitle">Select a line</h2><a id="githubSource" target="_blank" rel="noopener">Source ↗</a></div><div id="detail"></div></aside>
+  </section>
+  <footer><span id="integrity"></span><span>Original raw file is read-only. Local edits do not update GitHub.</span></footer>
+</main>
+</body></html>
