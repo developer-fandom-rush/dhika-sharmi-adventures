@@ -26,7 +26,7 @@ function renderPairs(){
   let events=state.pairs.events.filter(e=>b==='ALL'?e.character_ids_for_filter.includes(a):e.pair_keys.includes(pairKey(a,b)));
   if(ep!=='ALL')events=events.filter(e=>e.episode_id===ep);
   if(cat!=='ALL')events=events.filter(e=>e.interaction_category===cat);
-  if(q)events=events.filter(e=>([actionLabels[e.action]||e.action,e.source.quote,formatBody(e.body_parts_involved),e.reality_status,...e.event_state].join(' ')).toLowerCase().includes(q));
+  if(q)events=events.filter(e=>([humanAction(e),e.action,e.source.quote,formatBody(e.body_parts_involved),e.reality_status,...e.event_state].join(' ')).toLowerCase().includes(q));
   events.sort((x,y)=>x.source.global_line-y.source.global_line||x.source.start-y.source.start);
   state.pairItems=events;$('downloadPair').disabled=!events.length;
   $('pairScope').textContent=events.length+' reviewed event record'+(events.length===1?'':'s')+' · '+(ep==='ALL'?'All episodes selected':ep)+' · E01 scene review completed; E02–E69 pending';
