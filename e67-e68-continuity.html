@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DHIKA — E67–E68 Continuity Audit</title>
+<style>
+:root{--bg:#0a1325;--panel:#111f36;--line:#2b3b55;--text:#edf4fb;--muted:#a6b9d0;--accent:#83e0c2}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top right,#213f4c,transparent 35%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,sans-serif;line-height:1.5}
+main{max-width:1180px;margin:auto;padding:32px 20px 90px}h1{font-size:clamp(30px,5vw,48px);letter-spacing:-.05em;line-height:1.1;margin:7px 0}h2{margin:0 0 18px;font-size:24px}h3{margin:0 0 8px}.muted{color:var(--muted)}.eyebrow{font-size:12px;letter-spacing:.17em;text-transform:uppercase;color:var(--accent);font-weight:800}
+.pill{display:inline-block;border:1px solid var(--line);padding:3px 9px;border-radius:99px;font-size:12px;color:var(--muted)}.intro{max-width:900px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:18px;margin-bottom:14px}.banner{background:linear-gradient(110deg,#193344,#16213a);border:1px solid #35635e;padding:22px;border-radius:16px;margin:25px 0}
+.banner p{margin:7px 0}.nav{display:flex;gap:8px;flex-wrap:wrap;margin:25px 0;position:sticky;top:0;padding:12px 0;background:rgba(10,19,37,.96);z-index:3}
+button,select,input{font:inherit}.nav button,.btn{background:#1a2b44;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:10px 13px;cursor:pointer}
+.nav button.active,.btn.primary{background:var(--accent);color:#0b2624;font-weight:800}.view{display:none}.view.active{display:block}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:15px}.controls label{font-size:12px;display:flex;flex-direction:column;gap:5px;min-width:180px;color:var(--muted)}.controls select,.controls input{background:#0c192b;color:white;border:1px solid var(--line);border-radius:8px;padding:9px}
+.controls .query{flex:1}.controls .query input{width:100%}.event{padding:17px;margin:10px 0;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+.tag{font-size:11px;display:inline-block;padding:3px 7px;background:#2a4259;border-radius:6px;margin-right:5px;color:#dceaf9}.event strong{font-size:17px}.event p{margin:8px 0;color:var(--muted)}
+.line{border-top:1px solid var(--line);padding-top:9px;margin-top:12px;display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
+.note{border-left:3px solid #e1b976;background:#d5ac6413;padding:11px 14px;border-radius:5px;margin:12px 0;color:#f3ddb1}
+a{color:var(--accent)}.pairs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.kicker{font-size:11px;color:var(--accent);letter-spacing:.12em;text-transform:uppercase}
+.timeline{border-left:2px solid #507c7b;margin-left:7px}.timeline>.event{margin-left:17px;position:relative}.timeline>.event:before{position:absolute;content:"";left:-25px;top:22px;background:var(--accent);width:12px;height:12px;border-radius:50%}
+small{color:var(--muted)}@media(max-width:700px){.grid,.pairs{grid-template-columns:1fr}.nav{position:static}.controls label{width:100%}}@media(prefers-reduced-motion:no-preference){button:hover{filter:brightness(1.1)}}
+</style>
+</head>
+<body><main>
+<div class="eyebrow">New independent audit room · source-locked</div>
+<h1>DHIKA · Episode 67 <span style="color:var(--accent)">→</span> 68</h1>
+<p class="muted intro">A single linked narrative unit: chronological scenes, character-pair context, clothing continuity, spoken requests, limits, knowledge changes and original line pointers. E67 starts in the middle of a previous scene; the E68 flashback is the ending of the same earlier encounter.</p>
+<p><a href="./index.html">← Existing homepage</a> · <a href="./action-review.html">Existing action review</a></p>
+<div class="banner"><div class="eyebrow">Proof boundary</div><p><strong>Canonical lines:</strong> E67 = 13395–13702 · E68 = 13703–13909.</p><p><strong>Status:</strong> Verified scene-level outline, NOT a certified exhaustive atomic movement audit. Source pointers refer to original <a href="./raw/Dhika.txt">Dhika.txt</a>. Direct scene, dialogue report, historical mention, and narrative flashback must remain distinct. This page does not claim highest-ever progression across E01–E66.</p></div>
+<div class="nav" role="tablist" aria-label="Views"><button class="active" data-tab="unit">Unit map</button><button data-tab="records">Event ledger</button><button data-tab="clothes">Clothing states</button><button data-tab="people">Character states</button><button data-tab="qa">Verification & export</button></div>
+<section class="view active" id="unit">
+<h2>One chronological unit</h2><div class="timeline" id="timeline"></div>
+<div class="note">Do not treat "episode begins", "cut back to present", or "flashback begins" as proof of a new in-world encounter. Preserve E66 → E67 opening as an unresolved incoming boundary, and E67 → E68 massage as an established continuation.</div>
+</section>
+<section class="view" id="records">
+<h2>Filterable scene evidence</h2>
+<div class="controls"><label>Episode<select id="episode"><option value="all">Both episodes</option><option value="67">E67 only</option><option value="68">E68 only</option></select></label><label>Character track<select id="pair"><option value="all">All</option><option>Dhika–John</option><option>Dhika–Chotu</option><option>Dhika–Bantu</option><option>Dhika–Bobby</option><option>Dhika–Twins</option><option>Group / context</option></select></label><label>Event type<select id="type"><option value="all">All</option><option>Clothing</option><option>Request</option><option>Interaction</option><option>Story</option><option>Knowledge</option></select></label><label class="query">Text search<input id="search" placeholder="Search clothes, characters, dialogue or line numbers"></label></div>
+<div id="counter" class="muted"></div><div id="cards"></div></section>
+<section class="view" id="clothes"><h2>Clothing-state evidence</h2><p class="muted">A garment being worn, shown, requested or removed are four different facts. Clothing never implies consent or a completed request.</p><div class="grid" id="wardrobe"></div></section>
+<section class="view" id="people"><h2>End-of-unit character states</h2><p class="muted">Ages below are user-confirmed, not inferred from E67–E68. Source-supported mental states are distinguished from unavailable knowledge.</p><div class="pairs" id="characters"></div></section>
+<section class="view" id="qa"><h2>Evidence & limitations</h2><div class="grid">
+<div class="panel"><h3>Continuity checks</h3><p>✓ E67 opens mid-action, earlier context belongs outside this selected unit.</p><p>✓ Party-preparation recollection returns to an after-party present.</p><p>✓ One late-night Dhika–Chotu event crosses E67/E68.</p><p>✓ E68 narrates part of that event retrospectively.</p><p>✓ Bobby's later call and John's return are distinct follow-on scenes.</p></div>
+<div class="panel"><h3>Not yet certified</h3><p>△ Every motion and dialogue line has not been independently annotated.</p><p>△ E01–E66 historical records and E66 starting bridge are outside present scope.</p><p>△ Character-reported events cannot be promoted to fully observed detail.</p><p>△ Unfinished remarks cannot be promoted to new consent, new action or future canon.</p></div>
+</div><div class="panel"><h3>Your verification tracker</h3><p class="muted">Check source records below and export. Checkmarks are local to this browser, not saved to GitHub.</p><button class="btn primary" id="exportJSON">Download audit JSON</button> <button class="btn" id="exportCSV">Download audit CSV</button> <button class="btn" id="clear">Clear marks</button><p class="muted" id="progress"></p><p><a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt" target="_blank" rel="noopener">Original raw source / numbered lines ↗</a></p></div></section>
+<p class="muted" style="font-size:12px;margin-top:35px">Independent standalone page. Existing pages, scripts and source files have not been edited.</p>
+<script>
+const root="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L";
+const entries=[
+[67,"Dhika–Bantu","Ongoing prior interaction interrupted","13399–13408","Interaction","John arrives; Dhika adjusts sweater-blouse. Beginning lies before E67.","Direct, earlier context pending"],
+[67,"Group / context","Birthday preparation","13409–13421","Story","John and others decorate; Bantu and Chotu do balloons, Bobby helps with preparation; Dhika goes to bathe.","Direct"],
+[67,"Group / context","Dress and undergarment decisions","13422–13429","Clothing","After bathing: red dress considered, normal underwear tried, then a golden gift outfit tried.","Direct"],
+[67,"Dhika–Bantu","Private changing-room request","13429–13467","Request","Bantu enters; asks whether his gift is being worn and asks to see it. Dhika sets a no-touch limit and eventually directs him out.","Direct / limit"],
+[67,"Group / context","Narrative return to present","13468–13477","Story","Narration returns to after-party bedroom and sleeping arrangements; the intervening celebration is not fully recorded here.","Frame change"],
+[67,"Dhika–John","Sleeping arrangements and bedtime request","13474–13511","Request","John proposes room allocations and asks Dhika to check on the twins, including a goodnight-kiss suggestion. Requests are not automatically completed acts.","Direct"],
+[67,"Dhika–Chotu","John's clothing conversation with Chotu present","13512–13545","Clothing","John and Chotu observe and discuss the earlier red dress. Dhika changes from robe into short rose-colored sweater while retaining lace underwear.","Direct, mostly observation"],
+[67,"Dhika–Twins","Twin-room interaction starts","13549–13556","Interaction","Bobby and Bantu see the changed outfit. Physical contact starts; the narration then skips forward nearly an hour.","Direct then time skip"],
+[67,"Dhika–John","After-visit conversation and disclosure","13556–13618","Knowledge","Dhika returns and talks with John about the visit. The twins' intervening actions are provided mainly through Dhika's later account, not all on-page.","Direct dialogue + reported third-party acts"],
+[67,"Dhika–John","Spousal contact and explicit stopping point","13573–13624","Interaction","Direct spousal interaction follows the disclosure. Later Dhika declines further contact because departure preparations are due.","Direct / refusal"],
+[67,"Group / context","Packing, departure and family logistics","13619–13642","Story","Around midnight the luggage is packed; John and Pappu depart, Bantu/Bobby handle driving and Chotu assists. Family context is kept outside adult encounters.","Direct"],
+[67,"Dhika–John","John's delegated help","13630–13638","Knowledge","John says Chotu has been asked to help Dhika but leaves the exact assignment unspecified to her.","Direct"],
+[67,"Dhika–Chotu","Private massage setup","13643–13686","Interaction","Chotu returns, arranges bedding and prepares massage; Dhika asks several questions. Clothing and body-position changes occur.","Direct"],
+[67,"Dhika–Chotu","End-of-episode clothing transition","13687–13698","Clothing","Dhika recognizes the massage; her final undergarment is removed during setup. Scene continues immediately into E68.","Direct / continuity bridge"],
+[68,"Dhika–Chotu","Massage begins and changes regions","13707–13730","Interaction","Massage begins at neck/shoulders/back and continues to legs and hips.","Direct / same encounter"],
+[68,"Dhika–Chotu","Contact check and continuation","13731–13754","Request","After unexpected sensitive contact, Chotu pauses and asks whether to stop; Dhika answers. The contact sequence continues and changes.","Direct / explicit check"],
+[68,"Dhika–Chotu","Further massage and repositioning","13755–13784","Interaction","Dhika makes additional requests and both change positioning and clothing state. Chotu pauses when called.","Direct / request / pause"],
+[68,"Dhika–Chotu","Encounter reaches limit","13785–13797, 13878–13901","Interaction","Physical intimacy continues; a flashback shows the same event's conclusion. Dhika stops a further boundary crossing. It is one event, not two.","Direct + same-scene flashback"],
+[68,"Group / context","Shower and early morning aftermath","13798–13799","Story","Dhika showers and is awake/restless around 4 AM. Her immediate later actions are not a new Chotu scene.","Direct"],
+[68,"Dhika–Bobby","Video call from the car","13800–13842","Interaction","Bobby communicates remotely; Dhika controls camera framing. John is sleeping in the car and Bantu is driving. No in-person encounter.","Direct / remote"],
+[68,"Group / context","John returns alone","13843–13850","Story","John arrives at about 4:30 AM. Bantu/Bobby have gone for tea and plan to return for airport pickup.","Direct"],
+[68,"Dhika–John","Bedroom reunion and declined request","13851–13867","Request","John proposes immediate intimacy; Dhika declines and prioritizes getting ready.","Direct / refusal"],
+[68,"Dhika–John","Massage arrangement clarified","13868–13877","Knowledge","John confirms asking Chotu to provide massage but says he did not direct the clothing removal.","Direct / knowledge change"],
+[68,"Dhika–John","After-flashback boundary conversation","13902–13909","Knowledge","John's excitement and worry both appear. Dhika affirms a boundary and makes an unfinished remark, then returns to dressing.","Direct / unresolved hook"]
+];
+const wardrobe=[
+["E67 opening","Sweater-blouse adjusted after interruption","13400–13408"],
+["Before party","Bath → regular underwear trial with red dress","13417–13426"],
+["Before party","Golden matching gift set tried, shown to Bantu","13426–13454"],
+["Party outfit, retrospectively referenced","Red dress worn during party according to John's later statement","13510–13515"],
+["After party","Full-length robe over white lace underwear","13503–13539"],
+["After clothing request","Rose sweater + lace underwear","13543–13555"],
+["After twins' visit / midnight","Rose sweater + lace underwear","13580–13581, 13619–13627"],
+["Chotu setup","Sweater removed; underwear remains initially","13657–13686"],
+["E67 endpoint / E68 start","Remaining underwear removed during setup","13687–13698"],
+["E68","Massage clothing state changes later in same encounter","13707–13784"],
+["E68, after shower","Unclothed during later remote call and when John returns","13824–13847"],
+["E68 departure prep","Dressing begins; final outfit not specified in these lines","13866–13869, 13909"]
+];
+const characters=[
+["Dhika · 29","Repeatedly makes clothing decisions and responds to others' requests. Explicit refusals and limits are shown.","Future decisions and the missing E66 lead-in are unknown.","13450, 13465–13467, 13621, 13883–13888, 13906–13909"],
+["Chotu · 19","After-party presence and later massage preparation; pauses when Dhika calls or asks for a stop.","Post-event thoughts and his subsequent encounter availability are not established.","13512–13545, 13643–13698, 13731–13736, 13884–13888"],
+["John · 31 · husband","Organizes accommodation and travel, delegates massage and asks about the outcome; E68 shows excitement and worry together.","Full knowledge of Chotu's actions is not established by arranging the massage.","13474–13529, 13630–13638, 13871–13877, 13903–13907"],
+["Bantu · 20","Present during preparations, a private exchange and the later twins' room visit. Drives the car.","Which parts of the elided twin-room hour belong individually to Bantu must follow the actual retrospective account.","13429–13467, 13549–13555, 13812–13813"],
+["Bobby · 20","Helps preparations, participates in the twin-room visit and calls Dhika remotely afterward.","He notices her mood but its cause is not established as known to him.","13406–13416, 13549–13555, 13800–13842"]
+];
+const seq=[
+["E66 → E67","Interrupted ongoing interaction","13399–13408"],
+["E67 earlier","Party preparation, bathing, private wardrobe decision","13409–13467"],
+["E67 present","After-party rooms, requests, twin-room visit and disclosure","13468–13618"],
+["~midnight / 12:30","Packing, departures and Chotu setup","13619–13702"],
+["E68 pre-dawn","Massage continuation and later-narrated conclusion","13707–13797, 13878–13901"],
+["~4:00 AM","Shower aftermath and Bobby video call","13798–13842"],
+["~4:30 AM","John returns, follow-up conversation and getting ready","13843–13877, 13902–13909"]
+];
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const lineHref=s=>root+(String(s).match(/\d+/)||["1"])[0];
+const lineLink=s=>'<a href="'+lineHref(s)+'" target="_blank" rel="noopener">Source L'+esc(s)+' ↗</a>';
+document.querySelectorAll(".nav button").forEach(b=>b.onclick=()=>{document.querySelectorAll(".nav button").forEach(x=>x.classList.toggle("active",x===b));document.querySelectorAll(".view").forEach(x=>x.classList.toggle("active",x.id===b.dataset.tab))});
+document.getElementById("timeline").innerHTML=seq.map(x=>'<div class="event"><div class="kicker">'+esc(x[0])+'</div><h3>'+esc(x[1])+'</h3>'+lineLink(x[2])+'</div>').join("");
+document.getElementById("wardrobe").innerHTML=wardrobe.map(x=>'<div class="panel"><div class="kicker">'+esc(x[0])+'</div><h3>'+esc(x[1])+'</h3>'+lineLink(x[2])+'</div>').join("");
+document.getElementById("characters").innerHTML=characters.map(x=>'<div class="panel"><h3>'+esc(x[0])+'</h3><p>'+esc(x[1])+'</p><p class="muted"><strong>Unknown:</strong> '+esc(x[2])+'</p><small>Source: L'+esc(x[3])+'</small></div>').join("");
+function marks(){try{return JSON.parse(localStorage.getItem("dhika-e67e68-neutral-audit")||"{}")}catch(_){return {}}}
+function selected(){let ep=document.getElementById("episode").value,pair=document.getElementById("pair").value,type=document.getElementById("type").value,q=document.getElementById("search").value.toLowerCase().trim();return entries.map((x,i)=>({id:"E"+x[0]+"-"+String(i+1).padStart(2,"0"),episode:x[0],pair:x[1],name:x[2],lines:x[3],type:x[4],note:x[5],evidence:x[6]})).filter(x=>(ep==="all"||String(x.episode)===ep)&&(pair==="all"||x.pair===pair)&&(type==="all"||x.type===type)&&(!q||JSON.stringify(x).toLowerCase().includes(q)))}
+function progress(){document.getElementById("progress").textContent=Object.keys(marks()).length+" / "+entries.length+" locally checked."}
+function render(){let d=selected(),m=marks();document.getElementById("counter").textContent=d.length+" records (scene level; not one record per original line)";document.getElementById("cards").innerHTML=d.map(x=>'<div class="event"><div><span class="tag">E'+x.episode+'</span><span class="tag">'+esc(x.pair)+'</span><span class="tag">'+esc(x.type)+'</span><span class="tag">'+esc(x.evidence)+'</span></div><h3 style="margin-top:10px">'+esc(x.name)+'</h3><p>'+esc(x.note)+'</p><div class="line">'+lineLink(x.lines)+'<label><input type="checkbox" data-id="'+esc(x.id)+'" '+(m[x.id]?"checked":"")+'> Manually checked</label></div></div>').join("");document.querySelectorAll("[data-id]").forEach(x=>x.onchange=()=>{let m=marks();if(x.checked)m[x.dataset.id]=true;else delete m[x.dataset.id];try{localStorage.setItem("dhika-e67e68-neutral-audit",JSON.stringify(m))}catch(_){}progress()});progress()}
+["episode","pair","type","search"].forEach(id=>document.getElementById(id).addEventListener("input",render));
+function download(name,content,type){let b=new Blob([content],{type}),url=URL.createObjectURL(b),a=document.createElement("a");a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),700)}
+document.getElementById("exportJSON").onclick=()=>download("e67-e68-audit.json",JSON.stringify({scope:"scene-level non-exhaustive",records:selected().map(x=>({...x,checked:!!marks()[x.id]})),wardrobe,characters},null,2),"application/json");
+document.getElementById("exportCSV").onclick=()=>{let rows=selected().map(x=>({...x,checked:!!marks()[x.id]})),keys=["id","episode","pair","name","lines","type","note","evidence","checked"];download("e67-e68-audit.csv",[keys.join(",")].concat(rows.map(x=>keys.map(k=>'"'+String(x[k]).replace(/"/g,'""')+'"').join(","))).join("\r\n"),"text/csv")};
+document.getElementById("clear").onclick=()=>{if(confirm("Clear browser-local checkmarks only?")){localStorage.removeItem("dhika-e67e68-neutral-audit");render()}};
+render();
+</script></main></body></html>
