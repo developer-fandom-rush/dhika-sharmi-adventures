@@ -16,9 +16,9 @@
   <section id="pairReview" aria-label="Character interaction browser">
     <section class="toolbar pair-toolbar" aria-label="Choose characters">
       <label for="characterA">First character<select id="characterA"></select></label><span class="pair-arrow" aria-hidden="true">↔</span>
-      <label for="characterB">Second character<select id="characterB"></select></label>
+      <label for="characterB">Related character<select id="characterB"><option value="ALL">All · include self and thoughts</option></select></label>
       <label for="pairEpisode">Episode<select id="pairEpisode"><option value="ALL">All episodes · 01–69</option></select></label>
-      <label for="pairCategory">Action category<select id="pairCategory"><option value="ALL">All interaction types</option><option value="contact">Physical actions</option><option value="observation">Looking / observing</option><option value="thought">Imagined / thought / intended</option><option value="object">Garment / object actions</option><option value="dialogue">Spoken / instructed</option></select></label>
+      <label for="pairCategory">Action category<select id="pairCategory"><option value="ALL">All event types</option><option value="contact">Physical actions</option><option value="observation">Looking / observing</option><option value="thought">Imagined / thought / recalled</option><option value="response">Responses / feelings</option><option value="object">Garment / object actions</option><option value="dialogue">Spoken / instructed</option><option value="family">Family / domestic context</option></select></label>
       <label for="pairSearch" class="search">Find an action<input id="pairSearch" type="search" placeholder="e.g. hip, kiss, imagined…"></label>
     </section>
     <div class="pair-heading"><div><h2 id="pairTitle">Character actions</h2><p id="pairScope"></p></div><button id="downloadPair">Download these actions ↓</button></div>

@@ -1,5 +1,32 @@
 # Dhika & Sharmi Adventures — source-locked analysis dashboard
 
+## Current E01 scene repair (13 October 2026)
+
+The **Characters & actions** page now uses the scene-level E01 review in
+`data/e01_scene_review.json`: 228 reviewed source segments, 23 scene/context
+sections, and 326 annotated event records. These are records, not 326 separate
+encounters. The scope includes physical/visual actions, inner thoughts,
+reactions, relevant interaction dialogue, historical/remembered events, and
+separate family/domestic context. Ambiguous source claims remain marked.
+
+Clothing and current position use earlier/later scene evidence. Night memories
+show current bed/sleepwear separately from the earlier hall/kurti scene. Thoughts
+about absent people do not make them physical recipients or present participants.
+Response links are source-context associations, not inferred sole causes. Shared
+handover perspectives and action continuations retain their joint/continuation IDs.
+
+Choose **Related character → All** for one person's actions, self actions,
+thoughts and responses; select a named counterpart to narrow to a pair. Source
+evidence remains optional. John is the canonical character for user-confirmed
+typos **Ron** and **Roh**. Babu is an explicitly sourced alias of Chotu. The
+original source spelling is untouched.
+
+E01 review completion is within the stated scope, with the conflicting speaker
+label at master line 45, literal 10 PM at 173, and unnamed imagined fingers at 67
+retained as ambiguities. **E02–E69 semantic review remains pending.** Older E01
+datasets and earlier scope descriptions below are historical, not this active
+review's completeness status.
+
 The **Evidence Room covers E01–E04 analytical action/relationship records and E01–E05 original source/style browsing**. E05 also has a frozen blind prediction and a separate after-reading audit. E05's detailed atomic/psychology ledger is not yet complete. The canonical `raw/Dhika.txt` (69 episode headings) remains unmodified.
 
 **Dashboard:** https://developer-fandom-rush.github.io/dhika-sharmi-adventures/

@@ -17,13 +17,13 @@ SOURCE = ROOT / 'raw' / 'Dhika.txt'
 REPO = 'developer-fandom-rush/dhika-sharmi-adventures'
 
 CHARACTERS = {
-    'dhika': ['Dhika'], 'sharmi': ['Sharmi'], 'john': ['John'],
+    'dhika': ['Dhika'], 'sharmi': ['Sharmi'], 'john': ['John','Ron','Roh'],
     'raj': ['Raj'], 'bantu': ['Bantu'], 'bobby': ['Bobby'],
-    'chotu': ['Chotu'], 'uncle': ['Uncle'], 'aunty': ['Aunty'],
+    'chotu': ['Chotu','Babu'], 'uncle': ['Uncle'], 'aunty': ['Aunty'],
     'bindu_maami': ['Bindu Maami', 'Maami'], 'pappu': ['Pappu'],
     'iroh': ['Iroh'], 'zuko': ['Zuko'], 'scott': ['Scott'],
     'leo': ['Leo'], 'stacy': ['Stacy'], 'kate': ['Kate'],
-    'jared': ['Jared'], 'ron': ['Ron'], 'stranger': ['Stranger'],
+    'jared': ['Jared'], 'stranger': ['Stranger'],
 }
 # These genders are grounded in the E01 descriptions; additional named people
 # remain uncategorized until their own source evidence has been checked.
@@ -92,7 +92,10 @@ def build():
     # Explicit manually reviewed E01 additions live separately and are merged
     # only after their exact source quotes and line references validate.
     manual_path=ROOT/'data/female_action_review_e01_checked.json'
-    manual=json.loads(manual_path.read_text()) if manual_path.exists() else []
+    scene_review_path=ROOT/'data/e01_scene_review.json'
+    scene_review=json.loads(scene_review_path.read_text()) if scene_review_path.exists() else None
+    manual=scene_review['events'] if scene_review else (json.loads(manual_path.read_text()) if manual_path.exists() else [])
+    reviewed_lines={r['global_line']:r for r in scene_review['lines']} if scene_review else {}
     for e in manual:
         assert lines[e['source']['global_line']-1][e['source']['start']:e['source']['end']]==e['source']['quote'],e['event_id']
     for pos,(start,number) in enumerate(headers):
@@ -112,7 +115,7 @@ def build():
                     'review_status':'not_applicable' if meta else 'pending_semantic_review',
                     'character_mentions':ms,'female_mentions':females,'event_ids':[],
                     'is_terminal_empty_segment':ix==len(lines)-1 and raw==''}
-            if not meta:
+            if not meta and not (scene_review and number==1):
                 body=spans(BODY,raw); clothes=spans(CLOTHES,raw); modal=spans(MODAL,raw)
                 hits=sorted([(m.start(),m.end(),k,m.group()) for k,rx in COMPILED.items() for m in rx.finditer(raw)])
                 for seq,(a,b,kind,token) in enumerate(hits,1):
@@ -137,6 +140,12 @@ def build():
                         ev['ambiguity_notes'].append('Child is mentioned in this line. Separate domestic/family context from adult events; do not assign an adult action to the child.')
                     candidates.append(ev);record['event_ids'].append(ev_id)
             records.append(record)
+            if ix+1 in reviewed_lines:
+                review=reviewed_lines[ix+1]
+                record['review_status']='reviewed'
+                record['review_disposition']=review['disposition']
+                record['review_note']=review['review_note']
+                record['scene_id']=review['scene_id']
         checked=sorted([e for e in manual if e['episode_id']==eid],key=lambda e:(e['source']['global_line'],e['source']['start']))
         for ev in checked:
             row=records[ev['source']['global_line']-1-start]
@@ -153,13 +162,15 @@ def build():
               'previous_episode_id':f'E{number-1:02d}' if number>1 else None,
               'next_episode_id':f'E{number+1:02d}' if number<69 else None,
               'source_sha256':sha,'global_line_start':start+1,'global_line_end':stop,
-              'source_line_count':stop-start,'semantic_review_complete':False,
+              'source_line_count':stop-start,'semantic_review_complete':bool(scene_review and number==1),
               'lines':records,'events':events}
+        if scene_review and number==1:
+            pack['scenes']=scene_review['scenes'];pack['source_ambiguities']=scene_review['source_ambiguities'];pack['review_scope']=scene_review['review_scope']
         dump(OUT/file,pack)
         catalog.append({'episode_id':eid,'file':f'data/female_action_review/{file}',
                         'global_line_start':start+1,'global_line_end':stop,
                         'source_line_count':len(records),'lexical_candidates':len(candidates),
-                        'checked_events':len(checked),'semantic_review_complete':False})
+                        'checked_events':len(checked),'semantic_review_complete':bool(scene_review and number==1)})
     assert len(all_event_ids)==len(set(all_event_ids))
     preamble=[{'global_line':i+1,'text':t,'review_status':'not_applicable'} for i,t in enumerate(lines[:headers[0][0]])]
     manifest={'schema_version':'female-action-review-1.0','title':'Female-centred source and action review',
@@ -170,8 +181,8 @@ def build():
         'coverage':{'source_preservation_complete':True,'semantic_review_complete':False,
                     'missing_source_lines':0,'duplicate_source_lines':0,
                     'lexical_candidates':sum(e['lexical_candidates'] for e in catalog),
-                    'checked_events':len(manual),'reviewed_episodes':0},
-        'status_note':'All source lines preserved. Automated lexical candidates across E01–E69 are NOT a complete or verified event extraction. E01 checked spans are explicit separate records. No-match lines still require semantic review.',
+                    'checked_events':len(manual),'reviewed_episodes':1 if scene_review else 0},
+        'status_note':'E01 has been reviewed at scene level across all 228 source segments, including context, physical and mental events, reactions and separate family/domestic actions. Source ambiguities remain explicit. E02–E69 still contain unverified lexical candidates; full-story semantic review is incomplete.' if scene_review else 'All source lines preserved. Lexical candidates are unverified; semantic review remains pending.',
         'rules':['Female mentions are not participants. A female centre is assigned only in checked records.',
                  'Empty role/body/clothing fields mean unresolved, not absence.',
                  'Thought, memory, dream, intention, reported event and current occurrence must be separated.',
@@ -186,7 +197,9 @@ def build():
                               'bindu_maami':{'gender':'female','age':53,'evidence_global_lines':[118]},
                               'chotu':{'age':19,'evidence_global_lines':[120]},
                               'pappu':{'age':'2 / 2.3','family_context_only':True,'evidence_global_lines':[14,111]}},
-        'adult_disclaimer':{'global_line':16,'quote':'All sexually involved characters are 18 years and above.'}}
+        'adult_disclaimer':{'global_line':16,'quote':'All sexually involved characters are 18 years and above.'},
+        'character_aliases':{'Ron':'john','Roh':'john','Babu':'chotu'},
+        'alias_basis':{'Ron':'User-confirmed typo for John','Roh':'User-confirmed typo for John','Babu':'Explicit real name of Chotu at E01 master line 120'}}
     dump(OUT/'manifest.json',manifest)
     rebuilt='\n'.join([r['text'] for r in preamble]+[r['text'] for e in catalog for r in json.loads((ROOT/e['file']).read_text())['lines']])
     assert rebuilt.encode('utf-8')==original,'Source reconstruction differs'
