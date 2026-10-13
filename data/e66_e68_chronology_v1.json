@@ -1,0 +1,127 @@
+{
+  "schema": "e66-68-continuity-pointers-v1",
+  "canonical": "raw/Dhika.txt",
+  "episode66": [
+    13105,
+    13394
+  ],
+  "episode67": [
+    13395,
+    13702
+  ],
+  "episode68": [
+    13703,
+    13912
+  ],
+  "scenes": [
+    {
+      "id": "preparty-morning",
+      "episode": 66,
+      "range": [
+        13174,
+        13208
+      ],
+      "title": "Earlier day: party outfit planning"
+    },
+    {
+      "id": "preparty-visitor",
+      "episode": 66,
+      "range": [
+        13209,
+        13258
+      ],
+      "title": "Chotu delivers package and sees clothing change"
+    },
+    {
+      "id": "preparty-bantu",
+      "episode": 66,
+      "range": [
+        13259,
+        13391
+      ],
+      "title": "Bantu private interaction"
+    },
+    {
+      "id": "interruption",
+      "episode": 67,
+      "range": [
+        13399,
+        13411
+      ],
+      "title": "John arrives and previous scene ends"
+    },
+    {
+      "id": "party-prep",
+      "episode": 67,
+      "range": [
+        13412,
+        13467
+      ],
+      "title": "Decoration and outfit preparations"
+    },
+    {
+      "id": "party-night",
+      "episode": 66,
+      "range": [
+        13109,
+        13173
+      ],
+      "title": "Birthday party evening"
+    },
+    {
+      "id": "afterparty",
+      "episode": 67,
+      "range": [
+        13468,
+        13642
+      ],
+      "title": "After-party and travel planning"
+    },
+    {
+      "id": "massage-setup",
+      "episode": 67,
+      "range": [
+        13643,
+        13698
+      ],
+      "title": "Private massage setup"
+    },
+    {
+      "id": "massage",
+      "episode": 68,
+      "range": [
+        13707,
+        13797
+      ],
+      "title": "Massage continues"
+    },
+    {
+      "id": "massage-end",
+      "episode": 68,
+      "range": [
+        13878,
+        13901
+      ],
+      "title": "Earlier encounter conclusion"
+    },
+    {
+      "id": "video",
+      "episode": 68,
+      "range": [
+        13800,
+        13842
+      ],
+      "title": "Bobby video call"
+    },
+    {
+      "id": "return",
+      "episode": 68,
+      "range": [
+        13843,
+        13909
+      ],
+      "title": "John returns"
+    }
+  ],
+  "notes": "Scene ranges are not atomic-action certification. Source is referenced but not duplicated."
+}
