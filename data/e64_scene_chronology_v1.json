@@ -1,0 +1,165 @@
+{
+  "schema": "dhika-e64-scene-and-time-v1",
+  "episode": 64,
+  "canonical_source": "raw/Dhika.txt",
+  "global_range": [
+    12696,
+    12913
+  ],
+  "review_status": "source-scene-boundaries-checked; not an assertion all individual semantic acts reviewed",
+  "scenes": [
+    {
+      "id": "E64-S01",
+      "range": [
+        12700,
+        12717
+      ],
+      "time": "previous night; shower present",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "role": "intimate-encounter continuity",
+      "notes": "Starts after previous chapter's shared-room event; retains distinction between imagined and actual contact"
+    },
+    {
+      "id": "E64-S02",
+      "range": [
+        12718,
+        12745
+      ],
+      "time": "minutes before S01",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby (mentioned)"
+      ],
+      "role": "retrospective setup",
+      "notes": "Narrated time reversal and Bantu's request; Bobby is mentioned in dinner logistics"
+    },
+    {
+      "id": "E64-S03",
+      "range": [
+        12746,
+        12763
+      ],
+      "time": "return to previous-night shower present",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "role": "continuation and boundary",
+      "notes": "Actual contact and request to wait elsewhere, not an automatic future commitment"
+    },
+    {
+      "id": "E64-S04",
+      "range": [
+        12764,
+        12786
+      ],
+      "time": "next morning approx 11am",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "role": "reflection, clothing and ride home",
+      "notes": "Regret/conflict, journey, refusal to invite upstairs"
+    },
+    {
+      "id": "E64-S05",
+      "range": [
+        12787,
+        12823
+      ],
+      "time": "next morning at home",
+      "participants": [
+        "Dhika",
+        "Iroh",
+        "Jared"
+      ],
+      "role": "renovation and first meeting",
+      "notes": "Contractor work, new encounter possibilities are unknown rather than established"
+    },
+    {
+      "id": "E64-S06",
+      "range": [
+        12824,
+        12862
+      ],
+      "time": "same visit",
+      "participants": [
+        "Dhika",
+        "Iroh"
+      ],
+      "role": "tea, advice and inner-state pivot",
+      "notes": "Important later callback to dialogue with John in E65"
+    },
+    {
+      "id": "E64-S07",
+      "range": [
+        12863,
+        12895
+      ],
+      "time": "same visit",
+      "participants": [
+        "Dhika",
+        "Iroh",
+        "Zuko"
+      ],
+      "role": "gift, visual observation, curiosity and farewell",
+      "notes": "Do not infer Zuko's internal motivation from an observed gaze"
+    },
+    {
+      "id": "E64-S08",
+      "range": [
+        12896,
+        12904
+      ],
+      "time": "shortly after departure",
+      "participants": [
+        "Dhika",
+        "Zuko"
+      ],
+      "role": "door does not latch; clothing transition; unexpected return",
+      "notes": "Accidental encounter requires knowledge and observer separation"
+    },
+    {
+      "id": "E64-S09",
+      "range": [
+        12905,
+        12910
+      ],
+      "time": "7pm later day",
+      "participants": [
+        "Dhika",
+        "John (identified in E65)"
+      ],
+      "role": "phone video/reaction bridge",
+      "notes": "Video creator/poster resolved using E65 opening; the video itself is not a second in-person encounter"
+    }
+  ],
+  "bridges": [
+    {
+      "id": "bridge-63-64",
+      "from": "E63 L12690-12691",
+      "to": "E64 L12700-12718",
+      "type": "immediate narrative continuation",
+      "certainty": "scene/time connected, whether same encounter is editorially unresolved"
+    },
+    {
+      "id": "bridge-64-65",
+      "from": "E64 L12905-12910",
+      "to": "E65 L12918-12924",
+      "type": "same media message episode cut",
+      "certainty": "confirmed"
+    },
+    {
+      "id": "bridge-64-65-prior",
+      "from": "E64 L12759-12763",
+      "to": "E65 L12945-13004",
+      "type": "prior-night event referenced and continued by flashback",
+      "certainty": "confirmed close continuity; exact scene-identity requires further editorial analysis"
+    }
+  ]
+}
