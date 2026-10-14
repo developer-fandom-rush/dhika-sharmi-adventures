@@ -1,0 +1,17 @@
+{
+  "episode": 65,
+  "canonical": "raw/Dhika.txt",
+  "global_start": 12914,
+  "global_end": 13104,
+  "frame_boundaries": [
+    12918,
+    12945,
+    13005,
+    13009,
+    13018,
+    13027,
+    13056,
+    13101
+  ],
+  "status": "source review in progress"
+}
