@@ -1,0 +1,200 @@
+{
+  "schema": "unified_pair_audit_v2",
+  "updated": "2026-10-14",
+  "source": "raw/Dhika.txt",
+  "source_policy": "Original source is authoritative. Keep excerpts and metadata intact; name matches are discovery candidates, not encounters. No inference of consent, knowledge, direct contact, completed action, or continuous story time from co-mention.",
+  "coverage_policy": {
+    "CURATED_FIRST_PASS": "At least one source-indexed action record exists for the selected pair; second-pass action/recipient/source QA remains pending.",
+    "SCENE_ANCHOR_ONLY": "A source-linked scene is indexed, but action-by-action review is not certified.",
+    "DISCOVERY_ONLY": "Only lexical mentions were discovered; direct participation is not established.",
+    "NOT_REVIEWED": "No qualifying source-reviewed records in this track; never infer absence from this state."
+  },
+  "gaps": [
+    {
+      "id": "G01",
+      "priority": "P0",
+      "title": "E06–E68 completeness",
+      "closure": "Review each relevant narrative scene, including pronoun-only continuations; source evidence required.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G02",
+      "priority": "P0",
+      "title": "Mention vs encounter",
+      "closure": "Classify mention, memory, direct meeting, reported event, observed event and remote contact separately.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G03",
+      "priority": "P0",
+      "title": "Participant graph",
+      "closure": "Preserve actor, recipient, observer, bystander, present, absent and source of knowledge per independent action.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G04",
+      "priority": "P0",
+      "title": "Multi-action source lines",
+      "closure": "Split actions on a line into distinct IDs without changing or duplicating the canonical source line.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G05",
+      "priority": "P0",
+      "title": "Request–response–stop",
+      "closure": "Link initiative, request, response, refusal/objection, completion and interruption with separate evidence.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G06",
+      "priority": "P0",
+      "title": "Visual state transitions",
+      "closure": "Record garment/visibility before-after, who observed it, and whether direct contact actually occurred.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G07",
+      "priority": "P0",
+      "title": "Emotional change evidence",
+      "closure": "Previous stated mindset, trigger, explicit reaction, next supported state; unknown where evidence absent.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G08",
+      "priority": "P0",
+      "title": "Story-time chronology",
+      "closure": "Track unique encounters across continued scenes, recalls and flashbacks; prevent double counting.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G09",
+      "priority": "P0",
+      "title": "Specialized history views",
+      "closure": "Present physical/body or visual-state and writing-mechanism histories with exact source references and reviewed/pending distinction.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G10",
+      "priority": "P0",
+      "title": "Lossless evidence rendering",
+      "closure": "Render raw record details including offsets, checksum, status, review, notes, observer/recipient without flattening them.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G11",
+      "priority": "P1",
+      "title": "Cross-track overlap",
+      "closure": "One shared-scene ID; derived track memberships do not imply direct pair contact.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G12",
+      "priority": "P1",
+      "title": "Character knowledge",
+      "closure": "Know/observe/hear/recall/reported ledgers must be individual and chronological.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G13",
+      "priority": "P1",
+      "title": "Everyday-to-relationship chain",
+      "closure": "Task → request → dialogue → reaction → interruption → aftermath, only where source supports it.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G14",
+      "priority": "P1",
+      "title": "First vs repeated milestones",
+      "closure": "First, last, repeated milestones only after encounter order and action classification are verified.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G15",
+      "priority": "P1",
+      "title": "Writing style evidence",
+      "closure": "Preserve source-backed POV, dialogue rhythm, ordinary-scene pacing and callbacks; do not generalize unreviewed episodes.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G16",
+      "priority": "P1",
+      "title": "Prediction/canon separation",
+      "closure": "Store hypothetical scenarios in separate ledger; never inject them into recorded history.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G17",
+      "priority": "P1",
+      "title": "Episode QA coverage",
+      "closure": "Episode-by-track coverage states must distinguish first pass, anchor only, discovery and not reviewed.",
+      "status": "OPEN"
+    },
+    {
+      "id": "G18",
+      "priority": "P2",
+      "title": "Exports and signoff",
+      "closure": "Filtered JSON export, episode progress and explicit reviewer certification after QA.",
+      "status": "OPEN"
+    }
+  ],
+  "writing_observations": [
+    {
+      "id": "W-E06-01",
+      "episode": 6,
+      "start": 1143,
+      "end": 1153,
+      "track": "DBC",
+      "anchor_id": "T09",
+      "scope": "Verified scene introduction and transition",
+      "observation": "Introduction → permission request → acceptance → shared painting task. Dialogue moves the ordinary activity forward.",
+      "status": "SOURCE_LINKED_OBSERVATION_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E67-01",
+      "episode": 67,
+      "start": 13474,
+      "end": 13483,
+      "track": "TRIO",
+      "anchor_id": "T10",
+      "scope": "Shared-room conversation and emotional aftermath",
+      "observation": "Sleeping arrangements are discussed; departures and Dhika's reaction follow. The participants' perceptions must remain distinct.",
+      "status": "SOURCE_LINKED_OBSERVATION_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E68-01",
+      "episode": 68,
+      "start": 13800,
+      "end": 13812,
+      "track": "DY",
+      "anchor_id": "T12",
+      "scope": "Remote conversation rhythm",
+      "observation": "The interaction alternates a video-call attempt and text messages; do not reclassify it as in-person co-presence.",
+      "status": "SOURCE_LINKED_OBSERVATION_NOT_STYLE_CERTIFIED"
+    }
+  ],
+  "episode_scope": {
+    "start": 1,
+    "end": 68,
+    "previous_first_pass_range": [
+      1,
+      5
+    ],
+    "later_anchors": [
+      6,
+      67,
+      68
+    ],
+    "complete_episodes": [],
+    "certified_atomic_review": false
+  },
+  "review_checklist": [
+    "Episode text inspected in full",
+    "Encounter times disambiguated",
+    "Mention vs direct/remote/memory classified",
+    "Actor and recipient linked",
+    "Multiple actions on one source line separated",
+    "Before/after states grounded",
+    "Source checksum and offsets validated",
+    "QA reviewer explicitly signed off"
+  ]
+}
