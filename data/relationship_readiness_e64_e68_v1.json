@@ -1,0 +1,240 @@
+{
+  "schema": "dhika-relationship-and-prediction-readiness-v1",
+  "canonical": "raw/Dhika.txt",
+  "scope": "E64-E68 current evidence; earlier E01-E63 not systematically evaluated here",
+  "principles": [
+    "Relationship status requires explicit dialogue/canon or an appropriately limited descriptive label, not a physical-action count.",
+    "Direct contact, visual event, internal thought, reported occurrence, and future hypothesis have independent provenance.",
+    "Daily-life setups can be considered as hypothetical narrative possibilities; they are not instructions or predictions of specific sexual acts.",
+    "Confidence is scope-limited, not a numerical probability of future acts.",
+    "Existing E64/E65/E66-E68 action files are preserved without condensation."
+  ],
+  "pairs": [
+    {
+      "pair": "Dhika–John",
+      "established_relation": "married spouses (user confirmed and text supported)",
+      "established": [
+        {
+          "lines": "E64 12905-12910; E65 12918-12944",
+          "state": "shared media event and subsequent conversation"
+        },
+        {
+          "lines": "E65 13056-13101",
+          "state": "disclosure and party scheduling"
+        },
+        {
+          "lines": "E68 13843-13877,13902-13909",
+          "state": "return, emotional reaction and unresolved dialogue"
+        }
+      ],
+      "knowledge": "John's interpretation of the delegated massage is not full first-hand knowledge of what happened",
+      "unresolved": [
+        "unfinished final remark",
+        "airport/flight preparations"
+      ],
+      "non_graphic_candidate_title": "Travel aftermath and an unfinished conversation",
+      "everyday_setup": [
+        "flight and airport arrangements",
+        "later conversation in private"
+      ],
+      "readiness": "partially_supported",
+      "evidence_gaps": [
+        "G03",
+        "G04",
+        "G07",
+        "G10"
+      ]
+    },
+    {
+      "pair": "Dhika–Bantu",
+      "established_relation": "teacher–student connection in source; recurring personal interaction, no exclusive or committed romantic status established",
+      "established": [
+        {
+          "lines": "E64 12718-12763",
+          "state": "private meeting, requests, physical boundaries"
+        },
+        {
+          "lines": "E65 12945-13017,13027-13055",
+          "state": "private encounter retrospectively told, following-morning contact and stop"
+        },
+        {
+          "lines": "E66 13259-13391; E67 13399-13408",
+          "state": "later private meeting and interruption"
+        }
+      ],
+      "knowledge": "Bantu's thoughts where presented are not automatically known to Dhika; Dhika's interpretation of Bantu is not his inner monologue",
+      "unresolved": [
+        "stop and consent response consistency",
+        "future visit not established"
+      ],
+      "non_graphic_candidate_title": "An ordinary meeting and a clarification of boundaries",
+      "everyday_setup": [
+        "work/teaching conversation if a meeting is sourced",
+        "checking on an earlier disagreement"
+      ],
+      "readiness": "low_without_full_history",
+      "evidence_gaps": [
+        "G03",
+        "G04",
+        "G05",
+        "G09",
+        "G13"
+      ]
+    },
+    {
+      "pair": "Dhika–Chotu",
+      "established_relation": "familiar adult acquaintance with repeated interactions; not spouses; exclusive romance not established",
+      "established": [
+        {
+          "lines": "E66 13219-13232",
+          "state": "earlier clothing-change observation"
+        },
+        {
+          "lines": "E67 13643-13698; E68 13707-13797,13878-13901",
+          "state": "one private massage encounter, later narrated conclusion and boundaries"
+        }
+      ],
+      "knowledge": "Dhika's and John's assumptions about Chotu's instructions differ; Chotu's direct interior perspective limited",
+      "unresolved": [
+        "where and when a further meeting occurs",
+        "post-event conversation"
+      ],
+      "non_graphic_candidate_title": "After the massage: questions left open",
+      "everyday_setup": [
+        "possible follow-up conversation only if a new meeting is established",
+        "ordinary help arrangements if a source confirms a request"
+      ],
+      "readiness": "low_without_opportunity",
+      "evidence_gaps": [
+        "G03",
+        "G04",
+        "G07",
+        "G10"
+      ]
+    },
+    {
+      "pair": "Dhika–Bobby",
+      "established_relation": "teacher–student connection; group and separate remote interaction, romantic commitment not established",
+      "established": [
+        {
+          "lines": "E65 13014,13035-13036",
+          "state": "separate sleeping decision and morning breakfast context"
+        },
+        {
+          "lines": "E67 13549-13616",
+          "state": "shared twins-room event followed by reported account"
+        },
+        {
+          "lines": "E68 13800-13842",
+          "state": "remote video call and visual reveal; no in-person contact during call"
+        }
+      ],
+      "knowledge": "Bobby's knowledge of Dhika–Chotu event is not established by noticing her mood",
+      "unresolved": [
+        "follow-up to remote conversation",
+        "next face-to-face opportunity unspecified"
+      ],
+      "non_graphic_candidate_title": "The next conversation after the late-night call",
+      "everyday_setup": [
+        "transport logistics with Bantu and John",
+        "message or in-person conversation if supported"
+      ],
+      "readiness": "partial_and_scope_limited",
+      "evidence_gaps": [
+        "G03",
+        "G04",
+        "G08",
+        "G09"
+      ]
+    },
+    {
+      "pair": "Dhika–Iroh",
+      "established_relation": "professional home-repair service provider and supportive conversational acquaintance; no romance established",
+      "established": [
+        {
+          "lines": "E64 12787-12808",
+          "state": "home repair plan and bathtub delay"
+        },
+        {
+          "lines": "E64 12824-12862",
+          "state": "tea and significant personal advice"
+        }
+      ],
+      "knowledge": "Dhika feels understood, but Iroh's knowledge of her private past is not established",
+      "unresolved": [
+        "future renovation completion"
+      ],
+      "non_graphic_candidate_title": "Renovation follow-up and remembered advice",
+      "everyday_setup": [
+        "replacement bathtub availability",
+        "service check-in"
+      ],
+      "readiness": "professional_only",
+      "evidence_gaps": [
+        "G03",
+        "G04",
+        "G09"
+      ]
+    },
+    {
+      "pair": "Dhika–Zuko",
+      "established_relation": "service-visit acquaintance, exact relationship beyond visit unestablished",
+      "established": [
+        {
+          "lines": "E64 12863-12891",
+          "state": "brief plant delivery and guarded behavior"
+        },
+        {
+          "lines": "E64 12896-12904",
+          "state": "unexpected return during clothing change, immediate exit"
+        }
+      ],
+      "knowledge": "Internal motives and reactions beyond what narrator explicitly states must not be inferred",
+      "unresolved": [
+        "reason for discomfort not disclosed",
+        "no confirmed next meeting"
+      ],
+      "non_graphic_candidate_title": "An awkward encounter revisited, if they meet again",
+      "everyday_setup": [
+        "work follow-up only if sourced"
+      ],
+      "readiness": "insufficient_to_predict_intimacy",
+      "evidence_gaps": [
+        "G03",
+        "G04",
+        "G08"
+      ]
+    },
+    {
+      "pair": "Dhika–Jared",
+      "established_relation": "renovation worker met briefly, no further personal relationship established",
+      "established": [
+        {
+          "lines": "E64 12805-12823",
+          "state": "first meeting and work report; Dhika's visual curiosity"
+        }
+      ],
+      "knowledge": "No corresponding attraction or intention by Jared established",
+      "unresolved": [
+        "whether renovation requires his return"
+      ],
+      "non_graphic_candidate_title": "A future worksite update",
+      "everyday_setup": [
+        "bathroom repair or bathtub installation scheduling"
+      ],
+      "readiness": "insufficient_to_predict_intimacy",
+      "evidence_gaps": [
+        "G03",
+        "G04",
+        "G09"
+      ]
+    }
+  ],
+  "quality": {
+    "can_explain_verified_past_within_scope": "partially; E64/E65 source indexed but require editorial second pass, E66-E68 remain incomplete",
+    "can_classify_actual_mutual_relationships": "only explicitly established types; dynamic states remain incomplete",
+    "can_predict_new_scene_names": "yes as noncanonical possibilities with stated assumptions",
+    "can_predict_next_physical_act_as_fact": "no",
+    "can_estimate_future_probabilities": "no calibrated data"
+  }
+}
