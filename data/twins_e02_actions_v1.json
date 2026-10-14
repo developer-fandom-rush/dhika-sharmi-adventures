@@ -1,0 +1,1687 @@
+{
+  "schema": "dhika-twins-atomic-track-v2",
+  "episode": 2,
+  "source_range": [
+    231,
+    389
+  ],
+  "raw_source": "raw/Dhika.txt",
+  "related_prior": "data/twins_e01_source_actions_v1.json",
+  "scenes": [
+    {
+      "id": "E02-T01",
+      "source_range": [
+        309,
+        318
+      ],
+      "label": "College greeting / E01 recall"
+    },
+    {
+      "id": "E02-T02",
+      "source_range": [
+        319,
+        339
+      ],
+      "label": "Tuition proposal and schedule"
+    },
+    {
+      "id": "E02-T03",
+      "source_range": [
+        340,
+        351
+      ],
+      "label": "Travel, arrival and trust"
+    },
+    {
+      "id": "E02-T04",
+      "source_range": [
+        352,
+        363
+      ],
+      "label": "Clothing accident and contrasting twin reactions"
+    },
+    {
+      "id": "E02-T05",
+      "source_range": [
+        364,
+        380
+      ],
+      "label": "Dhika fear, John disclosure and next day avoidance"
+    }
+  ],
+  "records": [
+    {
+      "id": "E02-A001",
+      "episode": 2,
+      "source_line": 273,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "recalls_chotu_and_compliment_context",
+      "type": "memory",
+      "status": "reported",
+      "source_ref": "raw/Dhika.txt#L273",
+      "source_checksum": "52373cfd",
+      "highlight_matches": [
+        {
+          "start": 6,
+          "end": 13,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 104,
+          "end": 110,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 245,
+          "end": 248,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 273,
+          "end": 280,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 296,
+          "end": 303,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 344,
+          "end": 350,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A002",
+      "episode": 2,
+      "source_line": 274,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "self_reassurance_without_john_full_knowledge",
+      "type": "mindset",
+      "status": "internal",
+      "source_ref": "raw/Dhika.txt#L274",
+      "source_checksum": "e18613c3",
+      "highlight_matches": [
+        {
+          "start": 20,
+          "end": 24,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A003",
+      "episode": 2,
+      "source_line": 309,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "action": "college_staff_room_setup",
+      "type": "scene_setup",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L309",
+      "source_checksum": "7d430c28",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A004",
+      "episode": 2,
+      "source_line": 310,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "compliment_and_saree_baseline",
+      "type": "dialogue",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L310",
+      "source_checksum": "21cdaaa2",
+      "highlight_matches": [
+        {
+          "start": 29,
+          "end": 36,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 89,
+          "end": 94,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 115,
+          "end": 121,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A005",
+      "episode": 2,
+      "source_line": 311,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "recognizes_bantu_voice_without_looking",
+      "type": "recognition",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L311",
+      "source_checksum": "4114443e",
+      "highlight_matches": [
+        {
+          "start": 17,
+          "end": 24,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 32,
+          "end": 36,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A006",
+      "episode": 2,
+      "source_line": 312,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "asks_to_lower_voice_in_public",
+      "type": "privacy_boundary",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L312",
+      "source_checksum": "41f55302",
+      "highlight_matches": [
+        {
+          "start": 65,
+          "end": 74,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A007",
+      "episode": 2,
+      "source_line": 313,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "repeats_quieter_compliment",
+      "type": "dialogue",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L313",
+      "source_checksum": "4f67f457",
+      "highlight_matches": [
+        {
+          "start": 16,
+          "end": 23,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A008",
+      "episode": 2,
+      "source_line": 314,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "playful_stop_to_compliments",
+      "type": "request",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L314",
+      "source_checksum": "bb8e96c0",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A009",
+      "episode": 2,
+      "source_line": 315,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "requests_favor",
+      "type": "request",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L315",
+      "source_checksum": "26f51a01",
+      "highlight_matches": [
+        {
+          "start": 16,
+          "end": 20,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 24,
+          "end": 27,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A010",
+      "episode": 2,
+      "source_line": 316,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "recalls_E01_bike_contact",
+      "type": "memory",
+      "status": "historical",
+      "source_ref": "raw/Dhika.txt#L316",
+      "source_checksum": "7a467194",
+      "highlight_matches": [
+        {
+          "start": 35,
+          "end": 40,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 118,
+          "end": 125,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A011",
+      "episode": 2,
+      "source_line": 317,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "teases_bobby_about_ride",
+      "type": "dialogue",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L317",
+      "source_checksum": "0bc549b0",
+      "highlight_matches": [
+        {
+          "start": 56,
+          "end": 61,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A012",
+      "episode": 2,
+      "source_line": 318,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "surprised_and_attempts_visual_glimpse",
+      "type": "gaze",
+      "status": "observed",
+      "source_ref": "raw/Dhika.txt#L318",
+      "source_checksum": "348416fd",
+      "highlight_matches": [
+        {
+          "start": 130,
+          "end": 134,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A013",
+      "episode": 2,
+      "source_line": 319,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "presents_physics_ambition",
+      "type": "education",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L319",
+      "source_checksum": "9205b758",
+      "highlight_matches": [
+        {
+          "start": 67,
+          "end": 71,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A014",
+      "episode": 2,
+      "source_line": 320,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "asks_why",
+      "type": "dialogue",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L320",
+      "source_checksum": "6b002b15",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A015",
+      "episode": 2,
+      "source_line": 321,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "theoretical_physicist_goal",
+      "type": "education",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L321",
+      "source_checksum": "9eabeb1d",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A016",
+      "episode": 2,
+      "source_line": 322,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "replies_with_interest",
+      "type": "response",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L322",
+      "source_checksum": "6645f283",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A017",
+      "episode": 2,
+      "source_line": 323,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "private_plan_for_more_time",
+      "type": "inner_motive",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L323",
+      "source_checksum": "c7525b72",
+      "highlight_matches": [
+        {
+          "start": 136,
+          "end": 140,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A018",
+      "episode": 2,
+      "source_line": 323,
+      "pair": "TRIO",
+      "actor": "Bantu",
+      "action": "uses_bobby_soft_spot_in_plan",
+      "type": "strategy",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L323",
+      "source_checksum": "c7525b72",
+      "highlight_matches": [
+        {
+          "start": 136,
+          "end": 140,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A019",
+      "episode": 2,
+      "source_line": 324,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "asks_for_extra_teaching",
+      "type": "request",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L324",
+      "source_checksum": "9a62703e",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A020",
+      "episode": 2,
+      "source_line": 325,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "momentary_puzzlement",
+      "type": "inner_state",
+      "status": "internal",
+      "source_ref": "raw/Dhika.txt#L325",
+      "source_checksum": "f4ba5cac",
+      "highlight_matches": [
+        {
+          "start": 7,
+          "end": 13,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 72,
+          "end": 79,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A021",
+      "episode": 2,
+      "source_line": 326,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "clarifies_private_tuition",
+      "type": "request",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L326",
+      "source_checksum": "9b012585",
+      "highlight_matches": [
+        {
+          "start": 31,
+          "end": 35,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A022",
+      "episode": 2,
+      "source_line": 327,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "looks_at_bobby_and_smiles",
+      "type": "gaze",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L327",
+      "source_checksum": "9554fb04",
+      "highlight_matches": [
+        {
+          "start": 19,
+          "end": 25,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A023",
+      "episode": 2,
+      "source_line": 328,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "academic_trust_and_respect",
+      "type": "relationship",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L328",
+      "source_checksum": "a58239a0",
+      "highlight_matches": [
+        {
+          "start": 17,
+          "end": 24,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 179,
+          "end": 186,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A024",
+      "episode": 2,
+      "source_line": 329,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "accepts_tuition_in_principle",
+      "type": "decision",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L329",
+      "source_checksum": "4f5a713f",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A025",
+      "episode": 2,
+      "source_line": 330,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "asks_when",
+      "type": "request",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L330",
+      "source_checksum": "b7ce4a2e",
+      "highlight_matches": [
+        {
+          "start": 48,
+          "end": 53,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A026",
+      "episode": 2,
+      "source_line": 331,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "conceals_weekend_preference",
+      "type": "knowledge_gap",
+      "status": "internal",
+      "source_ref": "raw/Dhika.txt#L331",
+      "source_checksum": "deb29ad4",
+      "highlight_matches": [
+        {
+          "start": 66,
+          "end": 70,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 104,
+          "end": 108,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A027",
+      "episode": 2,
+      "source_line": 332,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "proposes_three_weekdays_one_hour",
+      "type": "schedule",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L332",
+      "source_checksum": "c37c0980",
+      "highlight_matches": [
+        {
+          "start": 20,
+          "end": 25,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 49,
+          "end": 53,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 121,
+          "end": 126,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A028",
+      "episode": 2,
+      "source_line": 333,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "weighs_time_and_family_schedule",
+      "type": "mindset",
+      "status": "internal",
+      "source_ref": "raw/Dhika.txt#L333",
+      "source_checksum": "a4cc24cf",
+      "highlight_matches": [
+        {
+          "start": 37,
+          "end": 44,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 65,
+          "end": 72,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A029",
+      "episode": 2,
+      "source_line": 335,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "sets_alternate_weekdays_3_to_4",
+      "type": "schedule",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L335",
+      "source_checksum": "ccbbb2f8",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A030",
+      "episode": 2,
+      "source_line": 336,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_to_follow_her_home_today",
+      "type": "request",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L336",
+      "source_checksum": "fe017974",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A031",
+      "episode": 2,
+      "source_line": 337,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "agrees_to_show_home",
+      "type": "decision",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L337",
+      "source_checksum": "e48975f4",
+      "highlight_matches": [
+        {
+          "start": 11,
+          "end": 18,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 32,
+          "end": 36,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A032",
+      "episode": 2,
+      "source_line": 338,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "confirms_future_visit",
+      "type": "schedule",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L338",
+      "source_checksum": "f84e9b4b",
+      "highlight_matches": [
+        {
+          "start": 77,
+          "end": 81,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A033",
+      "episode": 2,
+      "source_line": 339,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "obtains_john_approval_for_classes",
+      "type": "third_party_knowledge",
+      "status": "reported",
+      "source_ref": "raw/Dhika.txt#L339",
+      "source_checksum": "87a4ce8f",
+      "highlight_matches": [
+        {
+          "start": 18,
+          "end": 25,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 38,
+          "end": 41,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 89,
+          "end": 93,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 176,
+          "end": 180,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A034",
+      "episode": 2,
+      "source_line": 340,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "action": "twins_follow_to_store",
+      "type": "travel",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L340",
+      "source_checksum": "e17f27f6",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A035",
+      "episode": 2,
+      "source_line": 341,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "asks_twins_wait",
+      "type": "request",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L341",
+      "source_checksum": "1fdf2b02",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A036",
+      "episode": 2,
+      "source_line": 345,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "recalls_other_previous_observation",
+      "type": "memory",
+      "status": "internal",
+      "source_ref": "raw/Dhika.txt#L345",
+      "source_checksum": "b7fe57d4",
+      "highlight_matches": [
+        {
+          "start": 18,
+          "end": 24,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 36,
+          "end": 39,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 70,
+          "end": 77,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 124,
+          "end": 128,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A037",
+      "episode": 2,
+      "source_line": 346,
+      "pair": "TRIO",
+      "actor": "Twins",
+      "action": "offer_to_carry_groceries",
+      "type": "offer",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L346",
+      "source_checksum": "8b878727",
+      "highlight_matches": [
+        {
+          "start": 296,
+          "end": 300,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A038",
+      "episode": 2,
+      "source_line": 346,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "declines_to_trouble_students",
+      "type": "boundary",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L346",
+      "source_checksum": "8b878727",
+      "highlight_matches": [
+        {
+          "start": 296,
+          "end": 300,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A039",
+      "episode": 2,
+      "source_line": 347,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "carries_bags_to_apartment",
+      "type": "setup",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L347",
+      "source_checksum": "046a7cb5",
+      "highlight_matches": [
+        {
+          "start": 32,
+          "end": 39,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 77,
+          "end": 81,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 106,
+          "end": 110,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A040",
+      "episode": 2,
+      "source_line": 348,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "asks_bobby_to_take_key",
+      "type": "request",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L348",
+      "source_checksum": "92e20244",
+      "highlight_matches": [
+        {
+          "start": 65,
+          "end": 72,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A041",
+      "episode": 2,
+      "source_line": 349,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "stands_close_and_searches_handbag",
+      "type": "positioning",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L349",
+      "source_checksum": "d08ad57a",
+      "highlight_matches": [
+        {
+          "start": 41,
+          "end": 47,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A042",
+      "episode": 2,
+      "source_line": 350,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "notices_dhika_scent",
+      "type": "sensory_observation",
+      "status": "internal",
+      "source_ref": "raw/Dhika.txt#L350",
+      "source_checksum": "11f7e7f6",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A043",
+      "episode": 2,
+      "source_line": 351,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "opens_door_without_comment",
+      "type": "completed_action",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L351",
+      "source_checksum": "27a48f12",
+      "highlight_matches": [
+        {
+          "start": 125,
+          "end": 133,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A044",
+      "episode": 2,
+      "source_line": 351,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "invites_twins_into_home",
+      "type": "invitation",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L351",
+      "source_checksum": "27a48f12",
+      "highlight_matches": [
+        {
+          "start": 125,
+          "end": 133,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A045",
+      "episode": 2,
+      "source_line": 352,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "bag_slips_after_turning",
+      "type": "object_event",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L352",
+      "source_checksum": "5e0f5d04",
+      "highlight_matches": [
+        {
+          "start": 69,
+          "end": 73,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 112,
+          "end": 117,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 122,
+          "end": 129,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A046",
+      "episode": 2,
+      "source_line": 353,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "action": "saree_pallu_slips_with_bag",
+      "type": "clothing_shift",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L353",
+      "source_checksum": "ece913bb",
+      "highlight_matches": [
+        {
+          "start": 55,
+          "end": 60,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 68,
+          "end": 73,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 107,
+          "end": 112,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A047",
+      "episode": 2,
+      "source_line": 354,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "action": "outfit_exposure_from_blouse",
+      "type": "visual_context",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L354",
+      "source_checksum": "50395ed2",
+      "highlight_matches": [
+        {
+          "start": 32,
+          "end": 38,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 99,
+          "end": 105,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A048",
+      "episode": 2,
+      "source_line": 355,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "grabs_bag_before_pallu",
+      "type": "action",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L355",
+      "source_checksum": "b2879066",
+      "highlight_matches": [
+        {
+          "start": 0,
+          "end": 7,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 8,
+          "end": 17,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 101,
+          "end": 106,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 243,
+          "end": 248,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A049",
+      "episode": 2,
+      "source_line": 355,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "fixes_pallu_after_bending",
+      "type": "clothing_adjustment",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L355",
+      "source_checksum": "b2879066",
+      "highlight_matches": [
+        {
+          "start": 0,
+          "end": 7,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 8,
+          "end": 17,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 101,
+          "end": 106,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 243,
+          "end": 248,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A050",
+      "episode": 2,
+      "source_line": 356,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "continues_observing_exposed_area",
+      "type": "gaze",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L356",
+      "source_checksum": "90360a94",
+      "highlight_matches": [
+        {
+          "start": 19,
+          "end": 28,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 33,
+          "end": 39,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 104,
+          "end": 111,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 150,
+          "end": 154,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 181,
+          "end": 188,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 192,
+          "end": 196,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A051",
+      "episode": 2,
+      "source_line": 356,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "looks_away_in_awkwardness",
+      "type": "gaze_aversion",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L356",
+      "source_checksum": "90360a94",
+      "highlight_matches": [
+        {
+          "start": 19,
+          "end": 28,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 33,
+          "end": 39,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 104,
+          "end": 111,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 150,
+          "end": 154,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 181,
+          "end": 188,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 192,
+          "end": 196,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A052",
+      "episode": 2,
+      "source_line": 356,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "withdraws_to_bedroom_in_distress",
+      "type": "withdrawal",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L356",
+      "source_checksum": "90360a94",
+      "highlight_matches": [
+        {
+          "start": 19,
+          "end": 28,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 33,
+          "end": 39,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 104,
+          "end": 111,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 150,
+          "end": 154,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 181,
+          "end": 188,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 192,
+          "end": 196,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A053",
+      "episode": 2,
+      "source_line": 358,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "fears_that_both_saw",
+      "type": "inner_state",
+      "status": "internal",
+      "source_ref": "raw/Dhika.txt#L358",
+      "source_checksum": "9ff07903",
+      "highlight_matches": [
+        {
+          "start": 47,
+          "end": 52,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 67,
+          "end": 70,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A054",
+      "episode": 2,
+      "source_line": 359,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "returns_after_adjusting_clothes",
+      "type": "clothing_and_return",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L359",
+      "source_checksum": "61e5d469",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A055",
+      "episode": 2,
+      "source_line": 360,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "announces_exit_and_next_class",
+      "type": "schedule",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L360",
+      "source_checksum": "c2031bf5",
+      "highlight_matches": [
+        {
+          "start": 95,
+          "end": 99,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A056",
+      "episode": 2,
+      "source_line": 361,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "notices_bobby_has_left",
+      "type": "absence",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L361",
+      "source_checksum": "f7381e8c",
+      "highlight_matches": [
+        {
+          "start": 11,
+          "end": 14,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A057",
+      "episode": 2,
+      "source_line": 362,
+      "pair": "DY",
+      "actor": "Bantu",
+      "action": "conceals_bobby_departure_details",
+      "type": "knowledge_gap",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L362",
+      "source_checksum": "6479fe9f",
+      "highlight_matches": [
+        {
+          "start": 82,
+          "end": 86,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A058",
+      "episode": 2,
+      "source_line": 363,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "doubts_explanation_without_confrontation",
+      "type": "mindset",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L363",
+      "source_checksum": "b3c2b837",
+      "highlight_matches": [
+        {
+          "start": 63,
+          "end": 67,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A059",
+      "episode": 2,
+      "source_line": 364,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "fears_public_disclosure",
+      "type": "fear",
+      "status": "internal",
+      "source_ref": "raw/Dhika.txt#L364",
+      "source_checksum": "33264ef3",
+      "highlight_matches": [
+        {
+          "start": 27,
+          "end": 30,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 56,
+          "end": 60,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 119,
+          "end": 123,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 158,
+          "end": 164,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A060",
+      "episode": 2,
+      "source_line": 364,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "trusts_twins_not_to_tell",
+      "type": "trust",
+      "status": "internal",
+      "source_ref": "raw/Dhika.txt#L364",
+      "source_checksum": "33264ef3",
+      "highlight_matches": [
+        {
+          "start": 27,
+          "end": 30,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 56,
+          "end": 60,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 119,
+          "end": 123,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 158,
+          "end": 164,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A061",
+      "episode": 2,
+      "source_line": 365,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "worries_about_next_meeting_and_john",
+      "type": "aftermath",
+      "status": "internal",
+      "source_ref": "raw/Dhika.txt#L365",
+      "source_checksum": "187cb2c9",
+      "highlight_matches": [
+        {
+          "start": 22,
+          "end": 29,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 88,
+          "end": 92,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 111,
+          "end": 122,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 127,
+          "end": 133,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A062",
+      "episode": 2,
+      "source_line": 367,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "initiates_disclosure_to_john",
+      "type": "reported_event",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L367",
+      "source_checksum": "fe4eb319",
+      "highlight_matches": [
+        {
+          "start": 23,
+          "end": 27,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A063",
+      "episode": 2,
+      "source_line": 371,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "reports_whole_accident_to_john",
+      "type": "reported_event",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L371",
+      "source_checksum": "f0eba418",
+      "highlight_matches": [
+        {
+          "start": 26,
+          "end": 30,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A064",
+      "episode": 2,
+      "source_line": 372,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "states_her_embarrassment",
+      "type": "reported_emotion",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L372",
+      "source_checksum": "848b94a9",
+      "highlight_matches": [
+        {
+          "start": 12,
+          "end": 15,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 19,
+          "end": 26,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 37,
+          "end": 44,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 50,
+          "end": 61,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A065",
+      "episode": 2,
+      "source_line": 373,
+      "pair": "TRIO",
+      "actor": "John",
+      "action": "laughs_instead_of_scolding",
+      "type": "response",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L373",
+      "source_checksum": "a2077edf",
+      "highlight_matches": [
+        {
+          "start": 5,
+          "end": 11,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 39,
+          "end": 46,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A066",
+      "episode": 2,
+      "source_line": 378,
+      "pair": "TRIO",
+      "actor": "John",
+      "action": "frames_event_as_accident",
+      "type": "reassurance",
+      "status": "spoken",
+      "source_ref": "raw/Dhika.txt#L378",
+      "source_checksum": "21b6cc04",
+      "highlight_matches": [],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A067",
+      "episode": 2,
+      "source_line": 379,
+      "pair": "TRIO",
+      "actor": "John",
+      "action": "private_interest_not_shared_with_dhika",
+      "type": "knowledge_gap",
+      "status": "narrated",
+      "source_ref": "raw/Dhika.txt#L379",
+      "source_checksum": "0deeae7c",
+      "highlight_matches": [
+        {
+          "start": 83,
+          "end": 87,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 163,
+          "end": 170,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    },
+    {
+      "id": "E02-A068",
+      "episode": 2,
+      "source_line": 380,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "takes_leave_to_avoid_twins",
+      "type": "avoidance",
+      "status": "direct",
+      "source_ref": "raw/Dhika.txt#L380",
+      "source_checksum": "b9e4011d",
+      "highlight_matches": [
+        {
+          "start": 40,
+          "end": 47,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 48,
+          "end": 59,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 72,
+          "end": 76,
+          "category": "candidate_highlight"
+        },
+        {
+          "start": 145,
+          "end": 151,
+          "category": "candidate_highlight"
+        }
+      ],
+      "review": "curated_action_tag_source_line_checked"
+    }
+  ],
+  "remaining_scope": "Other E02 events are excluded except where they causally inform twin encounter history; E02 has no verified completed new intimate touch of Dhika by Bantu or Bobby in selected scenes",
+  "verification": "Manual scene-level semantic tagging with source-derived lexical offsets. Second editorial per-line completeness audit remains pending."
+}
