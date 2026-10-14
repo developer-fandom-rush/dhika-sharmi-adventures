@@ -1,0 +1,124 @@
+{
+  "schema": "twins-e01-e05-states-v1",
+  "source": "raw/Dhika.txt",
+  "status": "source-scoped pair relations, no predictions",
+  "states": [
+    [
+      1,
+      "DB",
+      "Regular compliments; Dhika earlier discomfort becomes familiarity",
+      [
+        33,
+        44
+      ]
+    ],
+    [
+      1,
+      "DY",
+      "Bobby shy; shared bike ride and distinct knowledge between twins",
+      [
+        81,
+        108
+      ]
+    ],
+    [
+      2,
+      "TRIO",
+      "Tuition agreed; first home visit leaves Dhika concerned",
+      [
+        315,
+        365
+      ]
+    ],
+    [
+      2,
+      "DY",
+      "Bobby leaves early; Bantu gives an incomplete explanation",
+      [
+        356,
+        363
+      ]
+    ],
+    [
+      3,
+      "TRIO",
+      "Wednesday tuition initially awkward then eases",
+      [
+        490,
+        525
+      ]
+    ],
+    [
+      3,
+      "TRIO",
+      "Friday accident, reassurance and privacy promises",
+      [
+        542,
+        572
+      ]
+    ],
+    [
+      4,
+      "TRIO",
+      "Tuition conversation includes trust, gaze limits, and refusals",
+      [
+        660,
+        830
+      ]
+    ],
+    [
+      4,
+      "DB",
+      "Bantu asks questions; Dhika communicates boundaries",
+      [
+        686,
+        807
+      ]
+    ],
+    [
+      4,
+      "DY",
+      "Bobby offers reassurance and asks a clothing question",
+      [
+        701,
+        821
+      ]
+    ],
+    [
+      5,
+      "TRIO",
+      "Shared farewell and distinct cheek-kiss events",
+      [
+        839,
+        854
+      ]
+    ],
+    [
+      5,
+      "DB",
+      "Separate shopping conversation and outfit selection",
+      [
+        885,
+        952
+      ]
+    ],
+    [
+      5,
+      "DY",
+      "Bobby absent from separate shopping meeting",
+      [
+        890,
+        944
+      ]
+    ],
+    [
+      5,
+      "TRIO",
+      "Next tuition canceled; both react",
+      [
+        993,
+        994
+      ]
+    ]
+  ]
+}
