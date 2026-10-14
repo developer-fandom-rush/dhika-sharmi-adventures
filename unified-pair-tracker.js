@@ -320,7 +320,22 @@ function readerPhysical(){
  $("results").innerHTML='<p class="reader-notice">Distinguish incidental visual events, practical contact, requests, refusals and completed actions. A grouped scene is not proof that both twins did the same thing. Read the original source for exact action and observer attribution.</p>'+
  bs.map((b,i)=>readerBeatCard(b,i+1)).join("")||
  '<article class="card">No individually interpreted physical/visual beat mapped for this selection yet. This does not mean no action appears in source.</article>';
- $("info").textContent=bs.length+" interpreted physical / visual scene phases (first pass)";$("more").hidden=true;
+ const pair=$("pair").value;
+ const kinds=/contact|observ|garment|clothing|posture|accident|care|help|boundary|request|refusal|reaction|movement|visual|nonverbal|motion/i;
+ const relevantTags=curated.filter(r=>r.episode>=6&&r.episode<=7&&isInScope(r.episode)&&kinds.test(r.kind)&&searched(r,q)&&
+ (r.pair===pair||(pair==="DY"&&r.pair==="DBC"&&["Bobby","Dhika"].includes(r.actor))||
+ ((pair==="DB"||pair==="DY")&&r.pair==="TRIO")));
+ if(relevantTags.length){
+  const tags=relevantTags.sort((a,b)=>a.episode-b.episode||a.line-b.line);
+  const detail=tags.map(r=>{
+   const context=r.pair!==pair;
+   return '<div class="reader-body-row"><div class="row"><strong>E'+r.episode+' · '+enc(r.action.replaceAll("_"," "))+'</strong>'+link(r.line)+'</div>'+
+   '<p class="hint">Actor: '+enc(r.actor)+' · Source tag: '+enc(r.kind)+' · '+(context?'Shared scene context; individual recipient must be checked':'Pair source tag')+'</p>'+
+   '<details><summary>Exact source line</summary><div class="evidence">'+cue(canon[r.line-1]||"",q)+'</div></details></div>';
+  });
+  $("results").innerHTML+='<article class="card"><h3>E06–E07 detailed action and observation ledger</h3><p class="hint">Actions, observations, requests and responses listed in original line order. These are first-pass tags and not all represent completed contact.</p>'+detail.join("")+'</article>';
+ }
+ $("info").textContent=bs.length+" narrative phases + "+relevantTags.length+" source-linked E06–E07 action tags";$("more").hidden=true;
 }
 function readerBody(){
  const q=$("search").value.trim().toLowerCase();
