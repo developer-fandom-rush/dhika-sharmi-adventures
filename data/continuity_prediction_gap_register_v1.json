@@ -1,0 +1,151 @@
+{
+  "schema": "dhika_continuity_gap_register_v1",
+  "status": "OPEN: independent tracking only; existing action analysis untouched",
+  "reviewed_scope": "E65-E68 current source-annotation work plus missing historical backfill",
+  "rules": {
+    "canonical_source": "raw/Dhika.txt",
+    "do_not_modify": [
+      "raw/Dhika.txt",
+      "E65 existing action files",
+      "existing dashboard pages"
+    ],
+    "completeness": "No claim that an episode or pair is exhaustive until every source line and each multi-action line passes editorial audit.",
+    "evidence_labels": [
+      "DIRECT",
+      "DIALOGUE",
+      "REPORTED",
+      "RECOLLECTION",
+      "IMAGINED",
+      "OBSERVED_GAZE",
+      "REQUESTED",
+      "ATTEMPTED",
+      "STOPPED",
+      "UNKNOWN"
+    ],
+    "relationship_vs_action": "Physical event is not proof of relationship status or future intent.",
+    "future": "Keep all hypothetical scenes separate from verified canon. Narrative/setup predictions should remain non-graphic."
+  },
+  "gaps": [
+    {
+      "id": "G01",
+      "scope": "E66-E68",
+      "priority": "P0",
+      "name": "Atomic semantic completion",
+      "why": "Large scene ranges and generic checkpoints hide multiple actions and reactions",
+      "missing": "Every meaningful individual actor-to-recipient act and its source span",
+      "closure": "Full line dispositions, multi-event splitting and reviewer QA",
+      "status": "OPEN"
+    },
+    {
+      "id": "G02",
+      "scope": "E65-E68",
+      "priority": "P0",
+      "name": "Verbatim evidence positions",
+      "why": "Global line references alone cannot distinguish several statements and actions inside a line",
+      "missing": "Exact phrase offsets plus original wording check",
+      "closure": "Store source line number, exact character offsets, quote checksum and validated actor ownership",
+      "status": "OPEN"
+    },
+    {
+      "id": "G03",
+      "scope": "E01-E68",
+      "priority": "P0",
+      "name": "Relationship status history",
+      "why": "Closeness and contact do not prove current emotional commitments or mutual future goals",
+      "missing": "Relationship labels, certainty, change point, explicit dialogue, contradictions",
+      "closure": "State as-of-each-scene, and distinguish user-supplied canon from narrator evidence",
+      "status": "OPEN"
+    },
+    {
+      "id": "G04",
+      "scope": "E65-E68",
+      "priority": "P0",
+      "name": "Knowledge and POV",
+      "why": "Some scenes include imagined events, private interpretations and later reports",
+      "missing": "Speaker/narrator, thinker, observer, first-hand vs inferred knowledge",
+      "closure": "Per-action perspective and knowledge transitions with evidence",
+      "status": "OPEN"
+    },
+    {
+      "id": "G05",
+      "scope": "E65-E68",
+      "priority": "P0",
+      "name": "Stop and boundary transitions",
+      "why": "Suggested or attempted event must never appear as completed action",
+      "missing": "Initiation, verbal response, stop, immediate compliance, final outcome",
+      "closure": "Separate source-anchored records linked in causal order",
+      "status": "OPEN"
+    },
+    {
+      "id": "G06",
+      "scope": "E65-E68",
+      "priority": "P1",
+      "name": "Clothing and visual context",
+      "why": "Garment state, visual possibility and actual observation get merged",
+      "missing": "Per-character garment before/after, line of sight, gaze actor, seen vs assumed",
+      "closure": "Scene snapshots and individual gaze records",
+      "status": "OPEN"
+    },
+    {
+      "id": "G07",
+      "scope": "E01-E68",
+      "priority": "P0",
+      "name": "Encounter identity and story time",
+      "why": "Chapter boundaries and flashback cuts can double-count one continuous encounter",
+      "missing": "Unique encounter IDs across chapters, chronological reordering and time gaps",
+      "closure": "Narration time, in-world time, scene continuity links, unknown time marker",
+      "status": "OPEN"
+    },
+    {
+      "id": "G08",
+      "scope": "E01-E68",
+      "priority": "P1",
+      "name": "Pair vs group roles",
+      "why": "Being present in a shared room is not identical to participating in an action",
+      "missing": "Participant/recipient/observer/absent/mentioned roles per event",
+      "closure": "Only sourced per-participant edges, shared encounter id where actual",
+      "status": "OPEN"
+    },
+    {
+      "id": "G09",
+      "scope": "E01-E68",
+      "priority": "P1",
+      "name": "Author pacing and scene mechanism",
+      "why": "Contact-category scores do not show how everyday scenes set up the author's chapter pacing",
+      "missing": "Ordinary activity, opportunity, interruption, dialogue, reaction, aftermath and number of scenes between",
+      "closure": "Beat segmentation and measured distances in scenes/lines/episodes",
+      "status": "OPEN"
+    },
+    {
+      "id": "G10",
+      "scope": "E01-E68",
+      "priority": "P1",
+      "name": "Milestone first occurrence and repetition",
+      "why": "Highest in latest unit may not be new across whole story",
+      "missing": "First verified, previous peak, repeat, skipped episode, current pair state",
+      "closure": "Chronological full-history index with scope-limited no-hit reporting",
+      "status": "OPEN"
+    },
+    {
+      "id": "G11",
+      "scope": "Future",
+      "priority": "P1",
+      "name": "Prediction candidates and validation",
+      "why": "Potential future event cannot be presented as an inevitable escalation",
+      "missing": "Grounded non-graphic candidate scene title, everyday setup, barriers, alternative paths and uncertainty",
+      "closure": "Separate frozen hypotheses and later source outcome comparison",
+      "status": "OPEN"
+    },
+    {
+      "id": "G12",
+      "scope": "E65",
+      "priority": "P0",
+      "name": "Second-pass editorial QA",
+      "why": "237 labels on 191 lines guarantee per-line coverage, not exhaustive semantic multi-action capture",
+      "missing": "Independent review of segmentation and within-line action ownership",
+      "closure": "Two-pass review sign-off with reviewed offsets and adjudicated ambiguities",
+      "status": "OPEN"
+    }
+  ],
+  "last_editorial_note": "No category in this register claims full completion. Add evidence, never weaken old detailed records to summaries."
+}
