@@ -347,16 +347,52 @@
       "before_after": "Dhika hears a transport request; the reader knows Bantu's motivation was different."
     },
     {
+      "id": "R-E01-04B",
+      "episode": 1,
+      "meeting_id": "E01-M02",
+      "order": 4.5,
+      "source": [
+        92,
+        92
+      ],
+      "title": "Walking toward the scooter: who observes whom",
+      "reading": "As Dhika walks toward the parking area, both twins notice her appearance. Bantu also catches Bobby looking and lightly taps Bobby's shoulder; Bobby blushes. This is the context missing from the old label 'gaze during walk'—observation during a particular transition, not a standalone encounter or touch involving Dhika.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "observation",
+        "separate_knowledge"
+      ],
+      "body_refs": [
+        {
+          "owner": "Dhika",
+          "area": "General appearance during walking",
+          "mode": "Observed by both twins; no contact with Dhika",
+          "line": 92,
+          "reading": "At the walk to the scooter, Bantu notices Bobby's attention and taps Bobby's shoulder. The original reference is to visual attention, not contact with Dhika."
+        }
+      ]
+    },
+    {
       "id": "R-E01-05",
       "episode": 1,
       "meeting_id": "E01-M02",
       "order": 5,
       "source": [
-        92,
+        93,
         98
       ],
       "title": "Scooter seating: Bobby is in the middle",
-      "reading": "Dhika instructs Bobby to take the middle seat and Bantu to sit behind. Both follow the arrangement, although the story gives them different private reactions.",
+      "reading": "At the scooter, Dhika instructs Bobby to sit in the middle and Bantu behind. Bobby sits first; both students have different private responses to the seating arrangement.",
       "tracks": [
         "DB",
         "DY",
@@ -637,7 +673,16 @@
         "emotional_reaction",
         "boundaries"
       ],
-      "before_after": "Bobby and Bantu do not react identically; the encounter ends abruptly."
+      "before_after": "Bobby and Bantu do not react identically; the encounter ends abruptly.",
+      "body_refs": [
+        {
+          "owner": "Dhika",
+          "area": "Accidental clothing visibility and onlooker reaction",
+          "mode": "Two observers; different reactions",
+          "line": 356,
+          "reading": "Both students were present for the accidental sari-drape incident. The source separates Bobby's continued attention from Bantu averting his gaze; Dhika then leaves the room briefly."
+        }
+      ]
     },
     {
       "id": "R-E02-07",
