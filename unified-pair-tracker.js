@@ -14,6 +14,7 @@ loc+"twins_e05_callbacks.json",loc+"twins_e01_e05_state_index_v1.json",
 loc+"unified_pair_audit_v2.json",
 loc+"unified_pair_partial_scene_events_v2.json",
 loc+"twins_e06_line_ledger_v1.json",loc+"twins_e07_line_ledger_v1.json",
+loc+"twins_e01_e05_gap_repairs_v1.json",
 "./raw/Dhika.txt"];
 const trackNames={DB:"Dhika × Bantu",DY:"Dhika × Bobby",TRIO:"Dhika × Bantu × Bobby",DBC:"Dhika × Bobby × Chotu"};
 let canon=[],episodes=[],curated=[],scenes=[],windows=[],states=[],gaps=[],audit={},writingNotes=[],lineAudits=[],filtered=[],shown=0,tab="history";
@@ -192,7 +193,7 @@ function stateView(){
  $("info").textContent=rows.length+" source-scoped prior state notes; no future probabilities.";$("more").hidden=true
 }
 function bodyView(){
- const all=curated.filter(r=>relevant(r,$("pair").value)&&isInScope(r.episode)&&/clothing|visibility|gaze|observation|visual|contact|touch|physical|hand|body|boundary|embrace|hug|kiss/i.test(r.kind+" "+r.action));
+ const all=curated.filter(r=>relevant(r,$("pair").value)&&isInScope(r.episode)&&/clothing|garment|posture|visible|visibility|gaze|observ|visual|contact|touch|withdraw|physical|hand|body|boundary|embrace|hug|kiss/i.test(r.kind+" "+r.action));
  const query=$("search").value.trim().toLowerCase();
  filtered=all.filter(r=>searched(r,query)).sort((a,b)=>a.episode-b.episode||a.line-b.line);shown=0;$("results").innerHTML=
  '<p class="hint">Source-tagged visual, clothing, boundary or contact-related references. This lexical filter includes thoughts and reported events; it is NOT a verified body-part or completed-contact chronology. Multi-action QA is pending.</p>';renderChunk();
@@ -251,8 +252,8 @@ function qaView(){
  '</article><article class="card"><h2>Scope & evidence integrity</h2><p>In this selection: '+firstPass+' episode slots with first-pass or partial action tags, '+anchor+' with scene anchors, '+discovery+' with name-match windows. Counts overlap.</p>'+
  '<p><strong>Not inferred:</strong> direct contact from co-presence; completed acts from requests; consent from silence; equal knowledge across twins; continuous time from flashback; absence from zero lexical mentions.</p>'+
  '<p><strong>Source checks:</strong> Record-level checksum status shown in action metadata. Original records, with source highlights, remain available via expandable JSON.</p>'+
- '<p><a href="./data/unified_pair_audit_v2.json">G01–G18 audit JSON ↗</a> · <a href="./data/unified_pair_scene_anchors.json">Original scene anchors ↗</a></p></article>';
- $("info").textContent="All 18 audit issues OPEN. E01–E05 first pass; E06/E67/E68 have selected partial event fragments only. No full-episode atomic certification.";$("more").hidden=true
+ '<p><a href="./data/twins_e07_line_ledger_v1.json">E07 source audit ↗</a> · <a href="./data/twins_e06_line_ledger_v1.json">E06 source audit ↗</a> · <a href="./data/unified_pair_audit_v2.json">G01–G18 audit JSON ↗</a> · <a href="./data/unified_pair_scene_anchors.json">Original scene anchors ↗</a></p></article>';
+ $("info").textContent="All 18 audit issues OPEN. E01–E05 first pass with gap repairs; E06–E07 source-line dispositions; E67–E68 partial fragments. Exhaustive semantic QA is not signed off.";$("more").hidden=true
 }
 
 function render(){
@@ -293,6 +294,7 @@ function downloadSelection(){
   curated=data.slice(1,11).flatMap((d,i)=>normalize(d,epIndex[i],i)).map(r=>({...r,recordType:"action"}));
   curated.push(...data[13].records.filter(a=>a.episode!==6).map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.pair,actor:a.actor,recipient:a.recipient,action:a.action,kind:a.type,source_kind:a.source_kind,recordType:"action",file:loadPaths[13],raw:a,review:a.review,status:"fragment_only"})));
   lineAudits=[data[14],data[15]];
+  curated.push(...data[16].records.map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.track,actor:a.actor,recipient:"",action:a.action,kind:a.kind,source_kind:"source_linked_first_pass",recordType:"action",file:loadPaths[16],raw:a,review:a.review,status:a.outcome})));
   for(let i=14;i<=15;i++){
     curated.push(...data[i].events.filter(a=>a.track!=="NON_TWIN_CONTEXT").map(a=>({
       id:a.id,episode:a.episode,line:a.line,pair:a.track,actor:a.actor,recipient:a.recipient||"",
