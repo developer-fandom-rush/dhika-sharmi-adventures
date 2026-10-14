@@ -1,0 +1,162 @@
+{
+  "schema": "unified_pair_e01_e07_source_qa_v1",
+  "review_date": "2026-10-14",
+  "canonical_source": "raw/Dhika.txt",
+  "scope": "Bantu–Bobby–Dhika: E01 through E07 only",
+  "total_source_lines": 1537,
+  "completion_claim": "PARTIAL_SOURCE_COVERAGE_VERIFIED; EXHAUSTIVE_ATOMIC_AND_CONTINUITY_QA_NOT_SIGNED_OFF",
+  "episode_status": [
+    {
+      "episode": 1,
+      "source": [
+        3,
+        230
+      ],
+      "source_lines": 228,
+      "earlier_first_pass_tags": 82,
+      "literal_twin_mentions": 42,
+      "unindexed_literal_mentions_after_repair": 0,
+      "complete_semantic_second_pass": false
+    },
+    {
+      "episode": 2,
+      "source": [
+        231,
+        389
+      ],
+      "source_lines": 159,
+      "earlier_first_pass_tags": 81,
+      "new_gap_repair_tags": 2,
+      "literal_twin_mentions": 37,
+      "unindexed_literal_mentions_after_repair": 0,
+      "complete_semantic_second_pass": false
+    },
+    {
+      "episode": 3,
+      "source": [
+        390,
+        628
+      ],
+      "source_lines": 239,
+      "earlier_first_pass_tags": 103,
+      "literal_twin_mentions": 52,
+      "unindexed_literal_mentions_after_repair": 0,
+      "complete_semantic_second_pass": false
+    },
+    {
+      "episode": 4,
+      "source": [
+        629,
+        834
+      ],
+      "source_lines": 206,
+      "earlier_first_pass_tags": 190,
+      "literal_twin_mentions": 118,
+      "unindexed_literal_mentions_after_repair": 0,
+      "complete_semantic_second_pass": false
+    },
+    {
+      "episode": 5,
+      "source": [
+        835,
+        1066
+      ],
+      "source_lines": 232,
+      "earlier_first_pass_tags": 108,
+      "new_gap_repair_tags": 5,
+      "literal_twin_mentions": 55,
+      "unindexed_literal_mentions_after_repair": 0,
+      "complete_semantic_second_pass": false
+    },
+    {
+      "episode": 6,
+      "source": [
+        1067,
+        1297
+      ],
+      "source_lines": 231,
+      "line_disposition_count": 231,
+      "first_pass_event_tags": 122,
+      "current_pair_scope_tags": 118,
+      "complete_semantic_second_pass": false
+    },
+    {
+      "episode": 7,
+      "source": [
+        1298,
+        1539
+      ],
+      "source_lines": 242,
+      "line_disposition_count": 242,
+      "first_pass_event_tags": 147,
+      "complete_semantic_second_pass": false
+    }
+  ],
+  "material_repairs": [
+    {
+      "episode": 2,
+      "source_lines": [
+        384
+      ],
+      "classification": "contrasting internal thoughts; NOT an encounter"
+    },
+    {
+      "episode": 5,
+      "source_lines": [
+        961,
+        962
+      ],
+      "classification": "private recollection of Bantu"
+    },
+    {
+      "episode": 5,
+      "source_lines": [
+        993,
+        994
+      ],
+      "classification": "twins class cancellation and response; contact channel unspecified"
+    },
+    {
+      "episode": 6,
+      "source_lines": [
+        1082,
+        1138
+      ],
+      "classification": "Bobby–Dhika solo portion indexed separately from three-person group"
+    },
+    {
+      "episode": 7,
+      "source_lines": [
+        1370,
+        1501
+      ],
+      "classification": "one continuous Bantu–Dhika solo encounter, with distinct narrative phases"
+    },
+    {
+      "episode": 7,
+      "source_lines": [
+        1509,
+        1535
+      ],
+      "classification": "twins remote session, unfinished at end of E07, resumes E08 L1544"
+    }
+  ],
+  "no_miss_claim_limitations": [
+    "Every explicit Bantu/Bobby/twins name reference in E01–E05 has a source tag; this does not establish complete pronoun-resolution coverage.",
+    "E06 and E07 have every source line disposed, including unrelated context; this does not certify every multiple-action paragraph is exhaustively split.",
+    "Complete character-level actor/recipient/observer and emotional-state proof chains remain open until second-pass reviewer checks.",
+    "An E07 episode cutoff is not a completed remote encounter; E08 continuation is required for the eventual outcome."
+  ],
+  "sources": [
+    "data/twins_e01_source_actions_v1.json",
+    "data/twins_e02_actions_v1.json",
+    "data/twins_e03_actions_v1.json",
+    "data/twins_e04_actions_v1.json",
+    "data/twins_e05_actions_p1.json",
+    "data/twins_e05_actions_p2.json",
+    "data/twins_e05_actions_p3.json",
+    "data/twins_e01_e05_gap_repairs_v1.json",
+    "data/twins_e06_line_ledger_v1.json",
+    "data/twins_e07_line_ledger_v1.json"
+  ]
+}
