@@ -316,7 +316,7 @@ function readerPhysical(){
 }
 function readerBody(){
  const q=$("search").value.trim().toLowerCase();
- const entries=readerBeats.filter(b=>readerSelect(b)).flatMap(b=>(b.body_refs||[]).map(ref=>({...ref,beat:b}))).filter(x=>!q||[x.owner,x.area,x.mode,x.reading].join(" ").toLowerCase().includes(q)||(canon[x.line-1]||"").toLowerCase().includes(q));
+ const entries=readerBeats.filter(b=>isInScope(b.episode)).flatMap(b=>(b.body_refs||[]).filter(ref=>(ref.tracks||[]).includes($("pair").value)).map(ref=>({...ref,beat:b}))).filter(x=>!q||[x.owner,x.area,x.mode,x.reading].join(" ").toLowerCase().includes(q)||(canon[x.line-1]||"").toLowerCase().includes(q));
  const grouped=new Map();
  for(const x of entries){const key=x.area+"|"+x.owner;if(!grouped.has(key))grouped.set(key,[]);grouped.get(key).push(x)}
  $("results").innerHTML='<p class="reader-notice">This view is a structured reference to clothing, visible state, and actual or attempted contact. “Observed” is not “touched”; “requested” is not “completed.” Source-owner and observer must be checked before extending the chronology. Further episodes are not yet independently complete.</p>'+
