@@ -51,7 +51,7 @@ function showBaseline(){
  '<div class="panel"><h3>Dhika × Bantu</h3><p>'+esc(v.dhika_bantu)+'</p><a href="'+git(44)+'" target="_blank" rel="noopener">L44 baseline ↗</a></div>'+
  '<div class="panel"><h3>Dhika × Bobby</h3><p>'+esc(v.dhika_bobby)+'</p><a href="'+git(99)+'" target="_blank" rel="noopener">L99–103 physical action ↗</a></div>'+
  '<div class="panel"><h3>Shared twins dynamic</h3><p>'+esc(v.trio)+'</p><a href="'+git(108)+'" target="_blank" rel="noopener">L108 knowledge gap ↗</a></div>'+
- '<div class="panel"><h3>Open questions for E02+</h3><p>Does either twin discuss the ride? Does Dhika's interpretation change after new evidence? Are later interactions independent, observed or jointly participated in?</p><p class="small">Questions are not source claims or predictions.</p></div></div>'
+ '<div class="panel"><h3>Open questions for E02+</h3><p>Does either twin discuss the ride? Does Dhika&#39;s interpretation change after new evidence? Are later interactions independent, observed or jointly participated in?</p><p class="small">Questions are not source claims or predictions.</p></div></div>'
 }
 function showWarnings(){
  $("warnings").innerHTML=data.source_warnings.map(w=>'<div class="panel"><a href="'+git(w.line)+'" target="_blank" rel="noopener">L'+w.line+' ↗</a> — '+esc(w.issue)+'</div>').join("")
