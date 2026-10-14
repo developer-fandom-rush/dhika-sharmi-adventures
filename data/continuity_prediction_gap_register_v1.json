@@ -145,6 +145,32 @@
       "missing": "Independent review of segmentation and within-line action ownership",
       "closure": "Two-pass review sign-off with reviewed offsets and adjudicated ambiguities",
       "status": "OPEN"
+    },
+    {
+      "id": "G13",
+      "scope": "E64 / Bantu",
+      "priority": "P0",
+      "name": "Conflicting age evidence",
+      "why": "Original E64 L12766 gives age 18 in Dhika's inner dialogue; user separately states Bantu is 20",
+      "missing": "Resolve whether source describes in-world age at scene-time, character misstatement, or editorial inconsistency",
+      "closure": "Preserve both sources and classify provenance. Do not silently replace source or infer timeline change.",
+      "status": "OPEN",
+      "source": "raw/Dhika.txt#L12766",
+      "evidence_types": [
+        "canonical_character_thought",
+        "user_confirmed_metadata"
+      ]
+    },
+    {
+      "id": "G14",
+      "scope": "E64-E65",
+      "priority": "P1",
+      "name": "Bridge identity and knowledge timing",
+      "why": "E64 phone video is explained in E65; earlier E64 shower interaction is later recounted across a flashback",
+      "missing": "Timestamp of recorded media vs message posting, observer knowledge, and scene identities across retrospective handoff",
+      "closure": "Merge shared-event IDs without double-counting; assign evidence at the first source line that establishes the fact",
+      "status": "OPEN",
+      "source": "raw/Dhika.txt#L12905-L12924"
     }
   ],
   "last_editorial_note": "No category in this register claims full completion. Add evidence, never weaken old detailed records to summaries."
