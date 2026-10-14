@@ -727,7 +727,12 @@
         {
           "owner": "Dhika",
           "part": "waist",
-          "mode": "pinched"
+          "mode": "pinched",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B001.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Saree; contact layer not separately specified",
@@ -779,7 +784,12 @@
         {
           "owner": "Dhika",
           "part": "shoulder",
-          "mode": "head resting"
+          "mode": "head resting",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B003.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -808,7 +818,12 @@
         {
           "owner": "Dhika",
           "part": "forehead",
-          "mode": "kissed in historical narration"
+          "mode": "kissed in historical narration",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B004.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -975,12 +990,22 @@
         {
           "owner": "Dhika",
           "part": "forehead",
-          "mode": "kissed"
+          "mode": "kissed",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B011.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "body",
-          "mode": "embraced"
+          "mode": "embraced",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B011.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -1015,7 +1040,12 @@
         {
           "owner": "Raj",
           "part": "hand",
-          "mode": "handshake"
+          "mode": "handshake",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B012.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -1047,7 +1077,12 @@
         {
           "owner": "Sharmi",
           "part": "cleavage",
-          "mode": "viewed by John"
+          "mode": "viewed by John",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B013.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Sleeveless blue mini dress, open back",
@@ -1102,7 +1137,12 @@
         {
           "owner": "Dhika",
           "part": "hip",
-          "mode": "pinched"
+          "mode": "pinched",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B015.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Over salwar",
@@ -1137,17 +1177,42 @@
         {
           "owner": "Sharmi",
           "part": "body",
-          "mode": "Dhika hugs; Sharmi returns it"
+          "mode": "hug with Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B016.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "John",
           "part": "body",
-          "mode": "Raj hugs with pat, then Sharmi hugs"
+          "mode": "hug with Raj and a pat",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B016.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
+        },
+        {
+          "owner": "John",
+          "part": "body",
+          "mode": "modest hug by Sharmi",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B016.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Raj",
           "part": "hand",
-          "mode": "Dhika shakes his hand"
+          "mode": "handshake with Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B016.T4",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -1176,7 +1241,12 @@
         {
           "owner": "John",
           "part": "lips",
-          "mode": "finger placed"
+          "mode": "finger placed",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B017.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -1319,17 +1389,42 @@
         {
           "owner": "Raj",
           "part": "body",
-          "mode": "light hug by Dhika; separate John–Raj hug"
+          "mode": "light hug by Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B021.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
+        },
+        {
+          "owner": "Raj",
+          "part": "body",
+          "mode": "hug with John and a pat",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B021.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "John",
           "part": "body",
-          "mode": "Sharmi’s tight embrace"
+          "mode": "Sharmi’s tight embrace",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B021.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "John",
           "part": "lips",
-          "mode": "Dhika kisses later in car"
+          "mode": "Dhika kisses later in car",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B021.T4",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -1361,7 +1456,12 @@
         {
           "owner": "John",
           "part": "lap/crotch",
-          "mode": "hand laid across"
+          "mode": "hand laid across",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B022.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Clothed cinema context",
@@ -1420,17 +1520,32 @@
         {
           "owner": "Sharmi",
           "part": "side breast",
-          "mode": "John’s elbow contact"
+          "mode": "John’s elbow contact",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B024.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Sharmi",
           "part": "breasts",
-          "mode": "John’s hand held against"
+          "mode": "John’s hand held against",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B024.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Raj",
           "part": "hand",
-          "mode": "gripped by Dhika"
+          "mode": "gripped by Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B024.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Clothed",
@@ -1463,7 +1578,12 @@
         {
           "owner": "Dhika",
           "part": "navel",
-          "mode": "viewed"
+          "mode": "viewed",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B025.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Saree shifted; exposed midriff",
@@ -1517,7 +1637,12 @@
         {
           "owner": "Dhika",
           "part": "body",
-          "mode": "embraced"
+          "mode": "embraced",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B027.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -1548,7 +1673,12 @@
         {
           "owner": "Dhika",
           "part": "body",
-          "mode": "hug from behind"
+          "mode": "hug from behind",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B028.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -1609,17 +1739,32 @@
         {
           "owner": "Dhika",
           "part": "side breast",
-          "mode": "accidental rescue grip"
+          "mode": "accidental rescue grip",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B030.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "bare hip",
-          "mode": "rescue grip"
+          "mode": "rescue grip",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B030.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Raj",
           "part": "shoulder",
-          "mode": "held by Dhika"
+          "mode": "held by Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B030.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Saree/blouse; hip explicitly bare",
@@ -1652,17 +1797,32 @@
         {
           "owner": "Sharmi",
           "part": "arm",
-          "mode": "pinched"
+          "mode": "pinched",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B031.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Sharmi",
           "part": "breasts",
-          "mode": "pressed against John"
+          "mode": "pressed against John",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B031.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Sharmi",
           "part": "bra",
-          "mode": "visible through wet top"
+          "mode": "visible through wet top",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B031.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Wet white top and shorts; bra remains",
@@ -1691,12 +1851,22 @@
         {
           "owner": "Dhika",
           "part": "hands",
-          "mode": "held during practice"
+          "mode": "held during practice",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B032.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Raj",
           "part": "chest hair",
-          "mode": "gripped by Dhika"
+          "mode": "gripped by Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B032.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Wet saree; bare chest on Raj",
@@ -1752,7 +1922,12 @@
         {
           "owner": "Dhika",
           "part": "below chin",
-          "mode": "touched"
+          "mode": "touched",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B034.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -1783,12 +1958,22 @@
         {
           "owner": "Dhika",
           "part": "hand",
-          "mode": "help climbing out"
+          "mode": "help climbing out",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B035.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "upper body",
-          "mode": "towel wrapped"
+          "mode": "towel wrapped",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B035.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -1818,12 +2003,22 @@
         {
           "owner": "Sharmi",
           "part": "bra and panties",
-          "mode": "viewed"
+          "mode": "viewed",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B036.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "John",
           "part": "hand",
-          "mode": "held"
+          "mode": "held",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B036.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Bra and panties, then pullover",
@@ -1858,7 +2053,12 @@
         {
           "owner": "Raj",
           "part": "body",
-          "mode": "hugged"
+          "mode": "hugged",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B037.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Dhika braless under oversized T-shirt, jeans shorts",
@@ -1889,7 +2089,12 @@
         {
           "owner": "John",
           "part": "penis",
-          "mode": "gripped over shorts"
+          "mode": "gripped over shorts",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B038.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Over shorts",
@@ -1991,12 +2196,22 @@
         {
           "owner": "John",
           "part": "lips",
-          "mode": "reported peck by Sharmi"
+          "mode": "reported peck by Sharmi",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B077.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "John",
           "part": "body",
-          "mode": "reported hug by Raj"
+          "mode": "reported hug by Raj",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B077.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -2158,7 +2373,12 @@
         {
           "owner": "Dhika",
           "part": "navel",
-          "mode": "deliberately exposed then viewed"
+          "mode": "deliberately exposed then viewed",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B044.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Saree lowered",
@@ -2193,12 +2413,22 @@
         {
           "owner": "Raj",
           "part": "cheek",
-          "mode": "kissed"
+          "mode": "kissed",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B045.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Raj",
           "part": "left arm / shoulder",
-          "mode": "Dhika’s breasts press"
+          "mode": "Dhika’s breasts press",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B045.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Birthday saree",
@@ -2229,12 +2459,22 @@
         {
           "owner": "Sharmi",
           "part": "breasts / nipples",
-          "mode": "viewed by Dhika"
+          "mode": "viewed by Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B046.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "lips",
-          "mode": "kissed"
+          "mode": "kissed",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B046.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Sharmi topless in panties; Dhika in robe",
@@ -2294,17 +2534,32 @@
         {
           "owner": "Dhika",
           "part": "breasts / nipples",
-          "mode": "mouth contact"
+          "mode": "mouth contact",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B048.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "clitoris",
-          "mode": "penis-head contact"
+          "mode": "penis-head contact",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B048.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "vagina",
-          "mode": "penetration"
+          "mode": "penetration",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B048.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Clothing removed in sequence",
@@ -2335,7 +2590,12 @@
         {
           "owner": "Dhika",
           "part": "vagina",
-          "mode": "John ejaculates inside"
+          "mode": "John ejaculates inside",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B049.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -2365,12 +2625,22 @@
         {
           "owner": "Sharmi",
           "part": "midriff",
-          "mode": "viewed through wet saree"
+          "mode": "viewed through wet saree",
+          "counterparts": [
+            "Chotu"
+          ],
+          "id": "B050.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Sharmi",
           "part": "breasts",
-          "mode": "outlined by wet saree"
+          "mode": "outlined by wet saree",
+          "counterparts": [
+            "Chotu"
+          ],
+          "id": "B050.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Wet orange saree; Chotu topless",
@@ -2447,7 +2717,12 @@
         {
           "owner": "John",
           "part": "penis",
-          "mode": "hand stimulation and ejaculation"
+          "mode": "hand stimulation and ejaculation",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B053.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Dhika naked in aftermath",
@@ -2476,7 +2751,12 @@
         {
           "owner": "Dhika",
           "part": "body",
-          "mode": "held"
+          "mode": "held",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B054.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -2562,17 +2842,32 @@
         {
           "owner": "Dhika",
           "part": "hands",
-          "mode": "held"
+          "mode": "held",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B057.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "lips",
-          "mode": "kissed"
+          "mode": "kissed",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B057.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "John",
           "part": "lips",
-          "mode": "subsequent peck"
+          "mode": "subsequent peck",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B057.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -2636,17 +2931,32 @@
         {
           "owner": "John",
           "part": "lips / tongue",
-          "mode": "kissed"
+          "mode": "kissed",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B059.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "lips",
-          "mode": "kiss with Raj"
+          "mode": "kiss with Raj",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B059.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "bare hips",
-          "mode": "held by Raj"
+          "mode": "held by Raj",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B059.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Sharmi bikini; Dhika initially saree, later bra/panties",
@@ -2709,17 +3019,30 @@
         {
           "owner": "Raj",
           "part": "lips",
-          "mode": "kissed"
+          "mode": "kissed",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B061.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Raj",
           "part": "thigh",
-          "mode": "gripped"
+          "mode": "gripped",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B061.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "areola",
-          "mode": "visible through wet bra"
+          "mode": "visible through wet bra",
+          "counterparts": [],
+          "id": "B061.T3",
+          "counterpart_note": "Appearance through wet bra; she hopes Raj does not notice. A viewer is not confirmed."
         }
       ],
       "contact_layer": "Wet lace bra and panties; Raj in shorts",
@@ -2754,7 +3077,12 @@
         {
           "owner": "Dhika",
           "part": "thighs",
-          "mode": "cupped underwater"
+          "mode": "cupped underwater",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B062.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Underwear and water",
@@ -2789,17 +3117,32 @@
         {
           "owner": "Dhika",
           "part": "thighs",
-          "mode": "lifted"
+          "mode": "lifted",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B063.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "waist",
-          "mode": "held"
+          "mode": "held",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B063.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Sharmi",
           "part": "breasts",
-          "mode": "cupped by John through top"
+          "mode": "cupped by John through top",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B063.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Dhika lace bra/panties; Sharmi bikini",
@@ -2859,22 +3202,42 @@
         {
           "owner": "Sharmi",
           "part": "bare breasts",
-          "mode": "cupped/squeezed"
+          "mode": "cupped/squeezed",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B065.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Sharmi",
           "part": "neck",
-          "mode": "mouth contact"
+          "mode": "mouth contact",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B065.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "hips / bare back",
-          "mode": "held/caressed by Raj"
+          "mode": "held/caressed by Raj",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B065.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "thigh",
-          "mode": "Raj’s clothed erection presses"
+          "mode": "Raj’s clothed erection presses",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B065.T4",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Sharmi top removed; Dhika bra remains",
@@ -2906,12 +3269,22 @@
         {
           "owner": "Sharmi",
           "part": "vagina",
-          "mode": "penetration by Raj"
+          "mode": "penetration by Raj",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B066.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "left breast",
-          "mode": "self squeeze over bra at Sharmi’s direction"
+          "mode": "self squeeze over bra at Sharmi’s direction",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B066.T2",
+          "counterpart_note": "Self squeeze by Dhika, prompted by Sharmi. This is not Sharmi touching her breast."
         }
       ],
       "contact_layer": "Raj/Sharmi naked; Dhika lace bra and panties",
@@ -2943,27 +3316,50 @@
         {
           "owner": "Raj",
           "part": "penis",
-          "mode": "held by Dhika"
+          "mode": "held by Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B067.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Sharmi",
           "part": "vagina",
-          "mode": "Dhika’s fingers slip in"
+          "mode": "Dhika’s fingers slip in",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B067.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "lips / tongue",
-          "mode": "kiss with Raj"
+          "mode": "kiss with Raj",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B067.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Sharmi",
           "part": "vagina",
-          "mode": "Raj ejaculates inside"
+          "mode": "Raj ejaculates inside",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B067.T4",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "panty / vulva",
-          "mode": "self touch"
+          "mode": "self touch",
+          "counterparts": [],
+          "id": "B067.T5",
+          "counterpart_note": "Self action during the trio scene; no unique pair counterpart assigned."
         }
       ],
       "contact_layer": "Raj/Sharmi naked; Dhika panty remains",
@@ -2994,12 +3390,22 @@
         {
           "owner": "Dhika",
           "part": "left breast",
-          "mode": "John’s hand directed there, then squeezed"
+          "mode": "John’s hand directed there, then squeezed",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B081.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "vagina",
-          "mode": "intercourse with John"
+          "mode": "intercourse with John",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B081.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -3032,12 +3438,22 @@
         {
           "owner": "Dhika",
           "part": "forehead",
-          "mode": "kissed"
+          "mode": "kissed",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B082.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "lips",
-          "mode": "goodbye peck"
+          "mode": "goodbye peck",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B082.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -3069,12 +3485,22 @@
         {
           "owner": "Dhika",
           "part": "lips",
-          "mode": "kissed"
+          "mode": "kissed",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B068.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "breasts",
-          "mode": "body collision"
+          "mode": "body collision",
+          "counterparts": [
+            "Sharmi"
+          ],
+          "id": "B068.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Dhika sweatshirt; Sharmi robe",
@@ -3103,7 +3529,12 @@
         {
           "owner": "Sharmi",
           "part": "vulva",
-          "mode": "viewed by Dhika"
+          "mode": "viewed by Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B069.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Panty removed beneath robe",
@@ -3236,7 +3667,12 @@
         {
           "owner": "Dhika",
           "part": "nipples",
-          "mode": "private physiological reaction"
+          "mode": "private physiological reaction",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B072.T1",
+          "counterpart_note": "Private physiological response to Raj’s message; not physical contact."
         }
       ],
       "contact_layer": null,
@@ -3271,12 +3707,23 @@
         {
           "owner": "Dhika",
           "part": "nipples",
-          "mode": "reaction observed by John"
+          "mode": "Reaction to Raj’s response, observed by John",
+          "counterparts": [
+            "John",
+            "Raj"
+          ],
+          "id": "B085.T1",
+          "counterpart_note": "Raj is the message counterpart; John is the observer. This is not contact by either."
         },
         {
           "owner": "John",
           "part": "lips",
-          "mode": "kissed by Dhika"
+          "mode": "kissed by Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B085.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Dhika topless; Sharmi naked in a photograph",
@@ -3328,17 +3775,32 @@
         {
           "owner": "Dhika",
           "part": "vagina",
-          "mode": "intercourse"
+          "mode": "intercourse",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B087.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "John",
           "part": "penis",
-          "mode": "Dhika strokes"
+          "mode": "Dhika strokes",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B087.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "buttocks",
-          "mode": "John grips"
+          "mode": "John grips",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B087.T3",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Naked during intercourse; later John shorts, Dhika naked",
@@ -3367,12 +3829,22 @@
         {
           "owner": "Dhika",
           "part": "thigh",
-          "mode": "pinched"
+          "mode": "pinched",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B088.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "John",
           "part": "thigh",
-          "mode": "hit by Dhika"
+          "mode": "hit by Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B088.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Red dress, no bra; later white full-length robe",
@@ -3447,12 +3919,22 @@
         {
           "owner": "Dhika",
           "part": "lips",
-          "mode": "kissed"
+          "mode": "kissed",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B091.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "hands / arms",
-          "mode": "John’s ejaculation lands"
+          "mode": "John’s ejaculation lands",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B091.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -3527,7 +4009,12 @@
         {
           "owner": "Dhika",
           "part": "breasts / nipples",
-          "mode": "viewed by John"
+          "mode": "viewed by John",
+          "counterparts": [
+            "John"
+          ],
+          "id": "B094.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Dhika naked; dressing begins",
@@ -3604,12 +4091,22 @@
         {
           "owner": "Raj",
           "part": "lap",
-          "mode": "Dhika sits"
+          "mode": "Dhika sits",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B073.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         },
         {
           "owner": "Dhika",
           "part": "left arm",
-          "mode": "held protectively by Raj"
+          "mode": "held protectively by Raj",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B073.T2",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Wet translucent saree",
@@ -3639,7 +4136,12 @@
         {
           "owner": "Raj",
           "part": "arm",
-          "mode": "held by Dhika"
+          "mode": "held by Dhika",
+          "counterparts": [
+            "Dhika"
+          ],
+          "id": "B074.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": null,
@@ -3696,7 +4198,12 @@
         {
           "owner": "Dhika",
           "part": "bare waist / stomach",
-          "mode": "hands hold protectively"
+          "mode": "hands hold protectively",
+          "counterparts": [
+            "Raj"
+          ],
+          "id": "B076.T1",
+          "counterpart_note": "Other participant in the stated contact/view; not automatically the initiator."
         }
       ],
       "contact_layer": "Wet saree; stomach explicitly bare",

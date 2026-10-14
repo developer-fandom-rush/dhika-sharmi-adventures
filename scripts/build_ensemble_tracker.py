@@ -147,6 +147,28 @@ beat('M33',13868,13877,'Massage instruction is confirmed; undressing was not spe
 beat('M33',13878,13909,'Private limit in the flashback and her answer to John','The massage flashback states she stops at the thought of penetration and refers to her agreement with John. Back in the present he asks if Chotu penetrated; he shows excitement and worry. She says no, that right is his, then adds “Unlessss” without finishing. The unresolved word is not a completed exception or a prediction.','DJ','marriage_change',knowledge='John asks about penetration; the narration and her answer deny it. The final unfinished qualification remains unresolved.')
 
 beat('M10',1937,1947,'John and Raj share enthusiasm for the house','John praises the barbecue and desired rooms; Raj replies playfully to Sharmi. This is a directly narrated John–Raj bond interaction inside the four-person visit.','JR ALL RS','bond')
+# Separately source-checked body roles. Narrative relevance is not contact attribution.
+body_counterparts=json.loads(r'''{"54":["Sharmi"],"235":["John"],"244":["John"],"1316":["John","John"],"1335":["John"],"1349":["John"],"1358":["John"],"1890":["Dhika"],"2142":["Sharmi"],"2168":["John","John","Dhika"],"2181":["Raj"],"2631":["John"],"2645":["John"],"2689":["Raj","Raj","Dhika"],"2695":["John","John","John"],"2712":["Raj","Dhika"],"2751":["Raj"],"2777":["Raj","Raj"],"2783":["John","Sharmi"],"2792":["Dhika"],"2816":["Dhika"],"4294":["Sharmi","Raj"],"5910":["Raj"],"5940":["Dhika","Dhika"],"5955":["Dhika","Sharmi"],"6031":["John","John","John"],"6055":["John"],"6917":["Chotu","Chotu"],"8170":["Dhika"],"8190":["John"],"9015":["Sharmi","Sharmi","Sharmi"],"10473":["Sharmi","Raj","Raj"],"10532":["Dhika","Dhika",null],"10565":["Raj"],"10625":["Raj","Raj","John"],"10676":["John","John","Raj","Raj"],"10721":["Raj","Sharmi"],"10775":["Dhika","Dhika","Raj","Raj",null],"10809":["John","John"],"10817":["John","John"],"11073":["Sharmi","Sharmi"],"11095":["Dhika"],"12334":["Raj"],"12918":[["John","Raj"],"Dhika"],"13065":["John","Dhika","John"],"13110":["John","Dhika"],"13600":["John","John"],"13843":["John"],"13924":["Dhika","Raj"],"13952":["Dhika"],"14024":["Raj"]}''')
+for b in B:
+ if b['start']==1788:
+  b['body_parts']=json.loads(r'''[{"owner":"Sharmi","part":"body","mode":"hug with Dhika","counterparts":["Dhika"]},{"owner":"John","part":"body","mode":"hug with Raj and a pat","counterparts":["Raj"]},{"owner":"John","part":"body","mode":"modest hug by Sharmi","counterparts":["Sharmi"]},{"owner":"Raj","part":"hand","mode":"handshake with Dhika","counterparts":["Dhika"]}]''')
+ elif b['start']==1974:
+  b['body_parts']=json.loads(r'''[{"owner":"Raj","part":"body","mode":"light hug by Dhika","counterparts":["Dhika"]},{"owner":"Raj","part":"body","mode":"hug with John and a pat","counterparts":["John"]},{"owner":"John","part":"body","mode":"Sharmi’s tight embrace","counterparts":["Sharmi"]},{"owner":"John","part":"lips","mode":"Dhika kisses later in car","counterparts":["Dhika"]}]''')
+ elif b['body_parts']:
+  counterparts=body_counterparts[str(b['start'])]
+  assert len(counterparts)==len(b['body_parts']),b['id']
+  for target,other in zip(b['body_parts'],counterparts):target['counterparts']=other if isinstance(other,list) else [other] if other else []
+ for i,target in enumerate(b['body_parts'],1):
+  target['id']=f"{b['id']}.T{i}"
+  target['counterpart_note']='Other participant in the stated contact/view; not automatically the initiator.'
+  if b['start']==10721 and target['owner']=='Dhika':target['counterpart_note']='Self squeeze by Dhika, prompted by Sharmi. This is not Sharmi touching her breast.'
+  if b['start']==10775 and target['part']=='panty / vulva':target['counterpart_note']='Self action during the trio scene; no unique pair counterpart assigned.'
+  if b['start']==10532 and target['part']=='areola':target['counterpart_note']='Appearance through wet bra; she hopes Raj does not notice. A viewer is not confirmed.'
+  if b['start']==12334:target['counterpart_note']='Private physiological response to Raj’s message; not physical contact.'
+  if b['start']==12918 and target['part']=='nipples':
+   target['mode']='Reaction to Raj’s response, observed by John'
+   target['counterpart_note']='Raj is the message counterpart; John is the observer. This is not contact by either.'
+
 S.sort(key=lambda s:s['start']);B.sort(key=lambda b:b['start'])
 patterns={n:re.compile(r'\b'+n+r'\b',re.I) for n in ['Dhika','John','Raj','Sharmi','Chotu']}
 index=[]
