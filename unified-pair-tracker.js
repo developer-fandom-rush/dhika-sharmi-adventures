@@ -207,7 +207,14 @@ function styleView(){
    (!query||JSON.stringify(w).toLowerCase().includes(query)||searched({id:w.id,action:w.observation,actor:"",kind:"writing",episode:w.episode,start:w.start,end:w.end},query)));
  $("results").innerHTML=notes.map(w=>'<article class="card"><span class="badge source">E'+String(w.episode).padStart(2,"0")+'</span><h3>'+enc(w.scope)+'</h3><p>'+enc(w.observation)+'</p><p class="hint">'+enc(w.status.replaceAll("_"," "))+' · Source '+w.start+'–'+w.end+'</p><details><summary>View original scene evidence</summary>'+getLines(w.start,w.end,$("search").value.trim(),0)+'</details></article>').join("")||
  '<article class="card">No separately source-linked writing mechanism note for this track / episode. Do not extrapolate style from incomplete action data.</article>';
- $("info").textContent=notes.length+" writing observations; not a complete literary style map.";$("more").hidden=true;
+ const detailed=(readerRefinements.writing_map||[]).filter(w=>isInScope(w.episode)&&w.tracks.includes(p)&&(!query||JSON.stringify(w).toLowerCase().includes(query)));
+ const notesHtml=detailed.map(w=>'<article class="card"><div class="row"><h3>E'+w.episode+' · '+enc(w.title)+'</h3>'+link(w.source[0])+'</div>'+
+ '<p><b>Scene:</b> '+enc(w.scene_frame)+'</p><p><b>Narration:</b> '+enc(w.narration)+'</p>'+
+ '<p><b>Dialogue:</b> '+enc(w.speech)+'</p><p><b>Private thoughts:</b> '+enc(w.private_thought)+'</p>'+
+ '<p><b>Knowledge boundary:</b> '+enc(w.who_knows)+'</p><p><b>Sequence:</b> '+enc(w.sequence)+'</p>'+
+ '<details><summary>Source for this writing sequence</summary>'+getLines(w.source[0],w.source[1],query,0)+'</details></article>').join("");
+ if(detailed.length)$("results").innerHTML='<p class="reader-notice">Detailed narration, dialogue, private thought and knowledge boundaries (source-linked first pass).</p>'+notesHtml+'<details class="reader-meeting"><summary>Earlier writing observations</summary>'+$("results").innerHTML+'</details>';
+ $("info").textContent=detailed.length+" detailed writing maps + "+notes.length+" earlier notes";$("more").hidden=true;
 }
 function coverageMetrics(ep,p){
  const ac=curated.filter(x=>x.episode===ep&&relevant(x,p)).length;
