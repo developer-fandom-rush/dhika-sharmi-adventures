@@ -1,12 +1,12 @@
 {
   "schema": "twins_refinements_attribution_states_style_v1",
   "source": "raw/Dhika.txt",
-  "scope": "E01-E08 evidence-based first pass; E09 onwards incomplete",
+  "scope": "E01–E09 first-pass source-linked; later episodes incomplete",
   "policy": {
     "pair_specific": "A direct pair record must have a named actor/observer related to that pair.",
     "group_context": "Group situations are flagged and do not prove individual touch or knowledge.",
     "status": "Requests, thoughts, reports, visual observations, accidental visibility and contact remain separate.",
-    "ep8_68": "E08 source indexed and narrative first pass. E09–E68 not complete; E08 Skype continues to E09."
+    "ep8_68": "E08 and E09 are indexed as one Bobby video encounter across episode boundary; E09 unrelated scenes are not pair events. E10–E68 unreviewed or fragmentary."
   },
   "state_milestones": [
     {
@@ -240,6 +240,27 @@
         "A remote video exchange is in-person physical contact",
         "The final action of the Skype exchange is known by E08 alone",
         "Bobby's unspoken motivations are all known to Dhika"
+      ]
+    },
+    {
+      "track": "DY",
+      "episode": 9,
+      "title": "E08 Bobby Skype encounter resolves; communication is more open",
+      "source": [
+        1762,
+        1787
+      ],
+      "established": [
+        "E09 continues the Skype video session already started in E08; it is not a new video meeting (L1762–1763).",
+        "Bobby expresses an opinion and Dhika asks him to clarify it; the source distinguishes unspoken thoughts from what is shared aloud (L1771–1777).",
+        "Dhika makes a request during the video call; Bobby responds, followed by an announced errand and a plan to see each other on Monday (L1782–1786).",
+        "The call ends before the story changes to a separate shopping and social sequence (L1787–1788)."
+      ],
+      "not_established": [
+        "Any in-person contact between Bobby and Dhika in E09.",
+        "That the Monday meeting mentioned at the end occurred already.",
+        "That Bobby's unspoken thoughts were communicated verbatim.",
+        "Any Bantu-specific E09 encounter or participation in this one-to-one Skype exchange."
       ]
     }
   ],
@@ -512,6 +533,23 @@
       "private_thought": "The text identifies Bobby's hesitation and Dhika's separate reactions, but does not make those private thoughts common knowledge.",
       "who_knows": "The final reaction at the E08 boundary is not enough to establish the action that E09 describes next.",
       "sequence": "Apology phone call → new Skype ringing → connection → back-and-forth dialogue → condition → cliffhanger → E09 continuation."
+    },
+    {
+      "episode": 9,
+      "tracks": [
+        "DY"
+      ],
+      "source": [
+        1762,
+        1787
+      ],
+      "title": "Remote cliffhanger resolution and speech versus private interpretation",
+      "scene_frame": "Bobby–Dhika Skype conversation continued from E08",
+      "narration": "The next episode reveals the action behind E08's unresolved reaction. The writer alternates narration about on-screen changes, Bobby's visible embarrassment and a shift toward more direct questions.",
+      "speech": "Bobby offers hesitant answers and a preference; Dhika asks follow-up questions, invites a brief response and closes the session to leave for an errand.",
+      "private_thought": "One explanation is described as Bobby's private thought, not spoken aloud; Dhika infers its sense from his actual words and behavior.",
+      "who_knows": "The reader sees a difference between the narrator's access to Bobby's internal explanation and Dhika's inferred understanding. No one-on-one physical touch is established by the video exchange.",
+      "sequence": "E08 cliffhanger → revealed on-screen action → hesitant opinion → clarification → short request and response → conclusion → switch to other-character scenes."
     }
   ]
 }
