@@ -1,0 +1,47 @@
+{
+  "schema": "dhika-twins-e05-callbacks-v1",
+  "episode": 5,
+  "source": "raw/Dhika.txt",
+  "rows": [
+    [
+      855,
+      "after_visit_family_context"
+    ],
+    [
+      856,
+      "private_reflection"
+    ],
+    [
+      857,
+      "mood_change_on_phone_call"
+    ],
+    [
+      879,
+      "birthday_planning"
+    ],
+    [
+      884,
+      "knowledge_gap_for_john"
+    ],
+    [
+      885,
+      "shopping_reason"
+    ],
+    [
+      961,
+      "earlier_bantu_compliments_recalled"
+    ],
+    [
+      991,
+      "work_and_birthday_schedule"
+    ],
+    [
+      993,
+      "next_tuition_canceled"
+    ],
+    [
+      994,
+      "both_twins_disappointed"
+    ]
+  ]
+}
