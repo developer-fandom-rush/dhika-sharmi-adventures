@@ -127,7 +127,7 @@
       "start": 54,
       "end": 63,
       "episode_ids": [
-        "E01"
+        1
       ],
       "present": [
         "Dhika",
@@ -144,7 +144,7 @@
       "start": 161,
       "end": 174,
       "episode_ids": [
-        "E01"
+        1
       ],
       "present": [
         "Dhika",
@@ -161,7 +161,7 @@
       "start": 235,
       "end": 250,
       "episode_ids": [
-        "E02"
+        2
       ],
       "present": [
         "Dhika",
@@ -178,7 +178,7 @@
       "start": 251,
       "end": 282,
       "episode_ids": [
-        "E02"
+        2
       ],
       "present": [
         "Dhika",
@@ -195,7 +195,7 @@
       "start": 365,
       "end": 380,
       "episode_ids": [
-        "E02"
+        2
       ],
       "present": [
         "Dhika",
@@ -212,7 +212,7 @@
       "start": 879,
       "end": 885,
       "episode_ids": [
-        "E05"
+        5
       ],
       "present": [
         "Dhika",
@@ -229,7 +229,7 @@
       "start": 1302,
       "end": 1329,
       "episode_ids": [
-        "E07"
+        7
       ],
       "present": [
         "Dhika",
@@ -246,7 +246,7 @@
       "start": 1331,
       "end": 1369,
       "episode_ids": [
-        "E07"
+        7
       ],
       "present": [
         "Dhika",
@@ -265,7 +265,7 @@
       "start": 1788,
       "end": 1814,
       "episode_ids": [
-        "E09"
+        9
       ],
       "present": [
         "Dhika",
@@ -284,7 +284,7 @@
       "start": 1890,
       "end": 1989,
       "episode_ids": [
-        "E09"
+        9
       ],
       "present": [
         "Dhika",
@@ -303,7 +303,7 @@
       "start": 2139,
       "end": 2187,
       "episode_ids": [
-        "E11"
+        11
       ],
       "present": [
         "Dhika",
@@ -322,7 +322,7 @@
       "start": 2188,
       "end": 2190,
       "episode_ids": [
-        "E11"
+        11
       ],
       "present": [
         "Dhika"
@@ -338,7 +338,7 @@
       "start": 2631,
       "end": 2661,
       "episode_ids": [
-        "E14"
+        14
       ],
       "present": [
         "Dhika",
@@ -355,8 +355,8 @@
       "start": 2662,
       "end": 2840,
       "episode_ids": [
-        "E14",
-        "E15"
+        14,
+        15
       ],
       "present": [
         "Dhika",
@@ -375,7 +375,7 @@
       "start": 3342,
       "end": 3407,
       "episode_ids": [
-        "E18"
+        18
       ],
       "present": [
         "Dhika",
@@ -392,7 +392,7 @@
       "start": 4294,
       "end": 4350,
       "episode_ids": [
-        "E24"
+        24
       ],
       "present": [
         "Dhika",
@@ -409,7 +409,7 @@
       "start": 5840,
       "end": 5975,
       "episode_ids": [
-        "E32"
+        32
       ],
       "present": [
         "Dhika",
@@ -428,7 +428,7 @@
       "start": 5999,
       "end": 6085,
       "episode_ids": [
-        "E33"
+        33
       ],
       "present": [
         "Dhika",
@@ -445,7 +445,7 @@
       "start": 6897,
       "end": 6955,
       "episode_ids": [
-        "E37"
+        37
       ],
       "present": [
         "Dhika",
@@ -463,7 +463,7 @@
       "start": 8170,
       "end": 8248,
       "episode_ids": [
-        "E43"
+        43
       ],
       "present": [
         "Dhika",
@@ -480,7 +480,7 @@
       "start": 8994,
       "end": 9055,
       "episode_ids": [
-        "E47"
+        47
       ],
       "present": [
         "Dhika",
@@ -499,8 +499,8 @@
       "start": 10473,
       "end": 10797,
       "episode_ids": [
-        "E54",
-        "E55"
+        54,
+        55
       ],
       "present": [
         "Dhika",
@@ -519,7 +519,7 @@
       "start": 10809,
       "end": 10836,
       "episode_ids": [
-        "E56"
+        56
       ],
       "present": [
         "Dhika",
@@ -536,7 +536,7 @@
       "start": 11073,
       "end": 11109,
       "episode_ids": [
-        "E57"
+        57
       ],
       "present": [
         "Dhika",
@@ -554,7 +554,7 @@
       "start": 11299,
       "end": 11503,
       "episode_ids": [
-        "E58"
+        58
       ],
       "present": [
         "Dhika",
@@ -571,7 +571,7 @@
       "start": 11330,
       "end": 11375,
       "episode_ids": [
-        "E58"
+        58
       ],
       "present": [
         "Dhika",
@@ -588,7 +588,7 @@
       "start": 12334,
       "end": 12360,
       "episode_ids": [
-        "E62"
+        62
       ],
       "present": [
         "Dhika",
@@ -607,7 +607,7 @@
       "start": 12918,
       "end": 13101,
       "episode_ids": [
-        "E65"
+        65
       ],
       "present": [
         "Dhika",
@@ -624,7 +624,7 @@
       "start": 13110,
       "end": 13256,
       "episode_ids": [
-        "E66"
+        66
       ],
       "present": [
         "Dhika",
@@ -641,7 +641,7 @@
       "start": 13399,
       "end": 13421,
       "episode_ids": [
-        "E67"
+        67
       ],
       "present": [
         "Dhika",
@@ -658,7 +658,7 @@
       "start": 13600,
       "end": 13642,
       "episode_ids": [
-        "E67"
+        67
       ],
       "present": [
         "Dhika",
@@ -675,7 +675,7 @@
       "start": 13843,
       "end": 13909,
       "episode_ids": [
-        "E68"
+        68
       ],
       "present": [
         "Dhika",
@@ -692,7 +692,7 @@
       "start": 13924,
       "end": 14043,
       "episode_ids": [
-        "E69"
+        69
       ],
       "present": [
         "Dhika",
@@ -711,7 +711,7 @@
       "start": 54,
       "end": 63,
       "episode_ids": [
-        "E01"
+        1
       ],
       "title": "Sharmi pinches Dhika’s waist; their friendship baseline",
       "reading": "Narration identifies a childhood friendship and Sharmi’s choice to work at the same college. Raj’s compliment is reported history, not an E01 meeting.",
@@ -742,7 +742,7 @@
       "start": 161,
       "end": 174,
       "episode_ids": [
-        "E01"
+        1
       ],
       "title": "John stays at work; Dhika admires his commitment",
       "reading": "He explains the production issue and promises to return. She is disappointed but understands; later she calls and playfully teases him. The literal 10 PM wording at L173 is retained as a source inconsistency.",
@@ -765,7 +765,7 @@
       "start": 235,
       "end": 243,
       "episode_ids": [
-        "E02"
+        2
       ],
       "title": "Return, bath reminder and resting on her shoulder",
       "reading": "She conceals guilt after Chotu’s visit, sends tired John to bathe, offers food and sits with him. He falls asleep on her shoulder.",
@@ -794,7 +794,7 @@
       "start": 244,
       "end": 248,
       "episode_ids": [
-        "E02"
+        2
       ],
       "title": "Marriage baseline: gradual comfort rather than immediate intimacy",
       "reading": "John is described as 31 and caring. Narration recalls a forehead kiss on the wedding night, about a week before consummation, and later changes in daytime intimacy, showering, dress and positions. These are approximate author timings, not dates reconstructed by the tracker.",
@@ -823,7 +823,7 @@
       "start": 249,
       "end": 250,
       "episode_ids": [
-        "E02"
+        2
       ],
       "title": "John’s private wish and Dhika’s existing reluctance",
       "reading": "He wants her to be more open in dress and affection, and privately enjoys others admiring her. The narrator says he prefers changes she chooses herself. This does not establish that Dhika knows every private motive.",
@@ -846,7 +846,7 @@
       "start": 251,
       "end": 274,
       "episode_ids": [
-        "E02"
+        2
       ],
       "title": "Short skirt declined; full skirt and sleeveless top chosen",
       "reading": "John suggests a skirt/top. Dhika objects to visible knees and disrespect toward Uncle, chooses the full skirt and wears the sleeveless top. Her private Chotu recall contributes to the choice.",
@@ -869,7 +869,7 @@
       "start": 275,
       "end": 282,
       "episode_ids": [
-        "E02"
+        2
       ],
       "title": "John notices Uncle’s gaze and uses selective compliments",
       "reading": "Narration says John had learned to compliment new or revealing choices selectively; Dhika does not notice Uncle’s repeated breast gaze during lunch.",
@@ -892,7 +892,7 @@
       "start": 365,
       "end": 380,
       "episode_ids": [
-        "E02"
+        2
       ],
       "title": "Dhika tells John; he laughs, reassures her and privately reacts",
       "reading": "She recounts the accident and worries about facing the twins. John calls it an accident and reassures her. His private excitement is narrated separately from what he says.",
@@ -915,7 +915,7 @@
       "start": 879,
       "end": 885,
       "episode_ids": [
-        "E05"
+        5
       ],
       "title": "“Surprise me” and John’s uncertain explanation",
       "reading": "The narrator explains the birthday request as a new outfit. John suspects her increased activity may be because of Leo, but does not know the afternoon events. His suspicion is not a confirmed cause.",
@@ -938,7 +938,7 @@
       "start": 1302,
       "end": 1315,
       "episode_ids": [
-        "E07"
+        7
       ],
       "title": "John notices sadness without demanding disclosure",
       "reading": "She lies on his lap and privately recalls Chotu. Narration describes their early exchange of premarital history and John’s habit of letting her speak in her own time.",
@@ -961,7 +961,7 @@
       "start": 1316,
       "end": 1329,
       "episode_ids": [
-        "E07"
+        7
       ],
       "title": "Her fidelity question becomes teasing and an embrace",
       "reading": "She asks about other women after marriage. John jokes, says no woman is currently interested except her, then holds her during the cushion play and kisses her forehead. His joke about telling her before sleeping with someone is not an actual affair.",
@@ -995,7 +995,7 @@
       "start": 1335,
       "end": 1348,
       "episode_ids": [
-        "E07"
+        7
       ],
       "title": "Introductions, handshake and a shared table",
       "reading": "John and Raj shake hands; John suggests joining tables. Raj initially declines politely, then agrees after the others invite him. Sharmi chooses the seat opposite John.",
@@ -1030,7 +1030,7 @@
       "start": 1349,
       "end": 1355,
       "episode_ids": [
-        "E07"
+        7
       ],
       "title": "Gaze and overt flirting at dinner",
       "reading": "John sees Sharmi’s cleavage as she leans. She makes a teasing dessert remark about him. Raj smiles without speaking; silence is not a blanket agreement about future actions.",
@@ -1062,7 +1062,7 @@
       "start": 1356,
       "end": 1356,
       "episode_ids": [
-        "E07"
+        7
       ],
       "title": "John and Raj both offer to pay",
       "reading": "The two compete to pay; John pays. This is an ordinary bond interaction, not physical escalation.",
@@ -1086,7 +1086,7 @@
       "start": 1358,
       "end": 1369,
       "episode_ids": [
-        "E07"
+        7
       ],
       "title": "Dhika and John discuss the mutual looking",
       "reading": "She criticizes his scanning; he says Raj also admired her and pinches her hip over the dress. She says she did not notice Raj looking.",
@@ -1117,7 +1117,7 @@
       "start": 1788,
       "end": 1814,
       "episode_ids": [
-        "E09"
+        9
       ],
       "title": "Different greetings establish different comfort levels",
       "reading": "Dhika and Sharmi hug; Raj and John hug with a pat; Sharmi gives John a modest hug. Under teasing pressure Dhika initially shakes Raj’s hand. Raj offers dinner the next day.",
@@ -1162,7 +1162,7 @@
       "start": 1890,
       "end": 1904,
       "episode_ids": [
-        "E09"
+        9
       ],
       "title": "John’s saree joke precedes her change of dress",
       "reading": "She returns in a new modern outfit after his teasing and puts a finger on his lips. The white sleeveless shift dress is described later at L1920.",
@@ -1193,7 +1193,7 @@
       "start": 1905,
       "end": 1936,
       "episode_ids": [
-        "E09"
+        9
       ],
       "title": "Welcome and cross-couple seating",
       "reading": "Sharmi greets them and takes John’s arm; Raj compliments Dhika. Dhika initially takes the single sofa, not the seat beside Raj.",
@@ -1220,7 +1220,7 @@
       "start": 1937,
       "end": 1947,
       "episode_ids": [
-        "E09"
+        9
       ],
       "title": "John and Raj share enthusiasm for the house",
       "reading": "John praises the barbecue and desired rooms; Raj replies playfully to Sharmi. This is a directly narrated John–Raj bond interaction inside the four-person visit.",
@@ -1245,7 +1245,7 @@
       "start": 1945,
       "end": 1960,
       "episode_ids": [
-        "E09"
+        9
       ],
       "title": "Tea and humour build Dhika’s closeness to Raj",
       "reading": "Raj declines wine to accompany her and makes tea while keeping her laughing. Sharmi remains with John and flirts. Dhika later sits beside Raj. This is ordinary companionship alongside flirting.",
@@ -1272,7 +1272,7 @@
       "start": 1960,
       "end": 1973,
       "episode_ids": [
-        "E09"
+        9
       ],
       "title": "Dinner conversation and a horror-film plan",
       "reading": "They discuss the house, work and movies. Raj offers to protect Dhika from the ghosts; they settle a cinema outing.",
@@ -1301,7 +1301,7 @@
       "start": 1974,
       "end": 1989,
       "episode_ids": [
-        "E09"
+        9
       ],
       "title": "Goodbye hugs and the drive home",
       "reading": "John and Raj hug; Sharmi embraces John tightly; Dhika initiates a light hug with Raj. In the car Dhika and John tease about the other pair and she kisses him after his reassurance.",
@@ -1344,7 +1344,7 @@
       "start": 2142,
       "end": 2159,
       "episode_ids": [
-        "E11"
+        11
       ],
       "title": "Sharmi takes the seat and prevents a change",
       "reading": "She sits beside John and lays a hand across his lap/crotch when he starts to move. Dhika notices; John reassures Dhika about sitting beside Raj. Raj is still absent.",
@@ -1376,7 +1376,7 @@
       "start": 2160,
       "end": 2167,
       "episode_ids": [
-        "E11"
+        11
       ],
       "title": "Raj joins; Sharmi describes their “understanding”",
       "reading": "Raj smiles at the seating. Sharmi tells John she and Raj are close and have an understanding; John does not fully understand the statement. Dhika enjoys Raj’s attention and jokes.",
@@ -1402,7 +1402,7 @@
       "start": 2168,
       "end": 2180,
       "episode_ids": [
-        "E11"
+        11
       ],
       "title": "Two different reactions to the same scare",
       "reading": "Sharmi holds John’s hand against her chest after repeated elbow contact with her side breast; he initially tries to withdraw. Dhika grips Raj’s hand, apologizes and later sees the other pair. Do not merge their actions.",
@@ -1445,7 +1445,7 @@
       "start": 2181,
       "end": 2187,
       "episode_ids": [
-        "E11"
+        11
       ],
       "title": "Raj offers cover while she corrects the saree",
       "reading": "All three notice Raj looking toward her exposed navel; he says the saree has moved and stands in front so she can correct it. Her respect for him increases.",
@@ -1478,7 +1478,7 @@
       "start": 2188,
       "end": 2190,
       "episode_ids": [
-        "E11"
+        11
       ],
       "title": "She recalls Raj’s hand and considerate help",
       "reading": "The memory links her hand contact, his seeing her navel and helping her fix the saree. It is evidence of continuing attention, not a second cinema encounter.",
@@ -1503,7 +1503,7 @@
       "start": 2631,
       "end": 2644,
       "episode_ids": [
-        "E14"
+        14
       ],
       "title": "Private guilt and an undemanding embrace",
       "reading": "She hides the cause of her sadness; John notices, leaves disclosure to her and holds her in bed.",
@@ -1532,7 +1532,7 @@
       "start": 2645,
       "end": 2661,
       "episode_ids": [
-        "E14"
+        14
       ],
       "title": "Shared leave, family time and the next visit",
       "reading": "He hugs her from behind, proposes a day off together and later announces Raj’s invitation. Her saree choice privately recalls Raj’s preference and John’s looking at Sharmi.",
@@ -1563,7 +1563,7 @@
       "start": 2663,
       "end": 2688,
       "episode_ids": [
-        "E14"
+        14
       ],
       "title": "Greetings and an actual accident at the pool",
       "reading": "The hosts greet them; Sharmi hugs John. Dhika slips into the pool while excited about it, and Raj dives to rescue her.",
@@ -1592,7 +1592,7 @@
       "start": 2689,
       "end": 2694,
       "episode_ids": [
-        "E14"
+        14
       ],
       "title": "Rescue grip changes from side breast to bare hip",
       "reading": "Raj’s first accidental rescue grip catches her side breast; he releases and grabs her bare hip to carry her to shallower water. She holds his shoulder for balance.",
@@ -1634,7 +1634,7 @@
       "start": 2695,
       "end": 2711,
       "episode_ids": [
-        "E14"
+        14
       ],
       "title": "John and Sharmi fall in; she stays in the wet top",
       "reading": "John pinches Sharmi’s arm during joking. She tries to push him; he catches her and both fall. Her breasts press him; her wet white top shows her bra. She declines changing and says Raj likes showing her off.",
@@ -1677,7 +1677,7 @@
       "start": 2712,
       "end": 2738,
       "episode_ids": [
-        "E14"
+        14
       ],
       "title": "Bangle retrieval, breath practice and chest-hair contact",
       "reading": "Raj retrieves the bangle and holds her hands during practice. She notices him averting his eyes from the transparent saree; after resurfacing she grips his chest hair for balance and apologizes.",
@@ -1711,7 +1711,7 @@
       "start": 2739,
       "end": 2750,
       "episode_ids": [
-        "E14"
+        14
       ],
       "title": "Sharmi flaunts the wet shirt and offers John a towel",
       "reading": "They talk about Dhika getting acquainted with Raj. Sharmi takes John inside to dry; Raj asks her to lend him shorts and a T-shirt.",
@@ -1738,7 +1738,7 @@
       "start": 2751,
       "end": 2766,
       "episode_ids": [
-        "E14"
+        14
       ],
       "title": "Swimming offer and a mistaken insect",
       "reading": "Raj offers swimming help and touches below her chin, believing the mole is an insect. They then discuss the earlier rescue grip. The rescue is recalled, not repeated.",
@@ -1769,7 +1769,7 @@
       "start": 2777,
       "end": 2782,
       "episode_ids": [
-        "E15"
+        15
       ],
       "title": "Raj helps her out and wraps the towel",
       "reading": "He offers a hand and wraps a towel around her upper body before drying himself; she again thinks of him as considerate.",
@@ -1803,7 +1803,7 @@
       "start": 2783,
       "end": 2791,
       "episode_ids": [
-        "E15"
+        15
       ],
       "title": "John alone sees Sharmi in underwear before she changes",
       "reading": "She calls him into the room, appears in bra and panties, then puts on a thigh-length pullover and leads him out by the hand.",
@@ -1838,7 +1838,7 @@
       "start": 2792,
       "end": 2815,
       "episode_ids": [
-        "E15"
+        15
       ],
       "title": "Borrowed clothes, public teasing and a longer goodbye hug",
       "reading": "Sharmi supplies Dhika with Raj’s oversized T-shirt and jeans shorts; she says Dhika is braless because her own bras do not fit. Dhika later initiates a hug with Raj and lingers after remembering that she is braless.",
@@ -1873,7 +1873,7 @@
       "start": 2816,
       "end": 2840,
       "episode_ids": [
-        "E15"
+        15
       ],
       "title": "Affectionate reassurance and a new clothed touch in the car",
       "reading": "They tease about the other couple. John says he loves her playfulness and new naughtiness; he withholds the underwear incident at this point. Dhika then grips his semi-hard penis over his shorts.",
@@ -1904,7 +1904,7 @@
       "start": 3342,
       "end": 3347,
       "episode_ids": [
-        "E18"
+        18
       ],
       "title": "John supports her independence and offers childcare",
       "reading": "He supports the Swiss trip and offers to care for Pappu or ask their parents. Narration explicitly says his knowledge of her casual dress in front of the twins is incomplete.",
@@ -1927,7 +1927,7 @@
       "start": 3351,
       "end": 3371,
       "episode_ids": [
-        "E18"
+        18
       ],
       "title": "He sees her excitement on the call; she limits what she discloses",
       "reading": "He congratulates the twins, then teases her about the nightdress. She says they have seen more but explains only the earlier pallu accident. John’s imagined undressed view remains a thought.",
@@ -1950,7 +1950,7 @@
       "start": 3387,
       "end": 3407,
       "episode_ids": [
-        "E18"
+        18
       ],
       "title": "He encourages wearing the gifted dress to dinner",
       "reading": "She distinguishes their friends’ house from a restaurant with strangers. John invokes the twins’ disappointment and encourages the dress; she eventually goes hesitantly.",
@@ -1973,7 +1973,7 @@
       "start": 4294,
       "end": 4313,
       "episode_ids": [
-        "E24"
+        24
       ],
       "title": "John reports dinner, a lip peck and Raj’s hug",
       "reading": "After a network outage Dhika emails him using Anna’s satellite connection. John reports Sharmi cooking, flaunting the dress and kissing his lips before leaving; Raj hugs him. His belief that Raj liked the display is an interpretation. Dhika values his openness.",
@@ -2011,7 +2011,7 @@
       "start": 4314,
       "end": 4328,
       "episode_ids": [
-        "E24"
+        24
       ],
       "title": "Partial disclosure meets information John already had",
       "reading": "She reports the towel incident with Bobby and Chotu’s first kiss but hesitates to mention more. John replies that Chotu had already apologized to him about the kiss and later about ejaculation in her hands. These visits are reported history, not newly enacted now.",
@@ -2034,7 +2034,7 @@
       "start": 4329,
       "end": 4338,
       "episode_ids": [
-        "E24"
+        24
       ],
       "title": "John states both encouragement and an intercourse distinction",
       "reading": "He says he waits for voluntary disclosure, admits being turned on, discloses Sharmi’s bra/panty episode and says he believes Dhika would not have sex with someone else. Encouragement is not an instruction to invent future acts.",
@@ -2061,7 +2061,7 @@
       "start": 4339,
       "end": 4350,
       "episode_ids": [
-        "E24"
+        24
       ],
       "title": "Her reply promises gradual disclosure in emails",
       "reading": "She expresses love, asks about showing her bra to Raj hypothetically, reports twins’ shower kisses and clothed contact, and promises to tell more over time. The hypothetical Raj view is not a completed event.",
@@ -2086,7 +2086,7 @@
       "start": 5840,
       "end": 5863,
       "episode_ids": [
-        "E32"
+        32
       ],
       "title": "Dress for Raj; John feels both jealousy and pride",
       "reading": "Dhika remembers Raj’s saree preference. Narration states John feels some jealousy, pride and excitement. No single “trust score” replaces these simultaneous feelings.",
@@ -2110,7 +2110,7 @@
       "start": 5869,
       "end": 5909,
       "episode_ids": [
-        "E32"
+        32
       ],
       "title": "Guessed ages are corrected by Raj’s own answer",
       "reading": "John guesses 35; Dhika estimates Sharmi around 32. Raj says he turns 50, and Sharmi confirms. Dhika switches to “Bhaiya”; Raj prefers his name. Preserve each estimate and correction.",
@@ -2138,7 +2138,7 @@
       "start": 5910,
       "end": 5939,
       "episode_ids": [
-        "E32"
+        32
       ],
       "title": "Cross seating, wine and the saree comparison",
       "reading": "Dhika drinks wine to accompany Raj. John’s comparison prompts her to lower the saree; the mirror “one inch” and Raj’s later “almost three inches” descriptions are both retained, rather than silently harmonized. Raj compliments her after exchanging a look with Sharmi.",
@@ -2173,7 +2173,7 @@
       "start": 5940,
       "end": 5954,
       "episode_ids": [
-        "E32"
+        32
       ],
       "title": "Hosts prevent driving; Dhika hugs and kisses Raj’s cheek",
       "reading": "Raj says the drinkers should stay; Sharmi takes the keys. Dhika hugs him tightly and kisses his cheek; her breasts press his left arm/shoulder. Her suspicion that Sharmi kissed John at L5949 is not a witnessed kiss.",
@@ -2213,7 +2213,7 @@
       "start": 5955,
       "end": 5975,
       "episode_ids": [
-        "E32"
+        32
       ],
       "title": "Topless Sharmi kisses Dhika in the kitchen",
       "reading": "Dhika sees Sharmi’s bare breasts and hard nipples. Sharmi whispers that she wished John had come out, kisses Dhika’s lips and says it is for John. John is absent; he is the addressed subject, not the physical recipient.",
@@ -2249,7 +2249,7 @@
       "start": 5999,
       "end": 6030,
       "episode_ids": [
-        "E33"
+        33
       ],
       "title": "The kiss troubles her; she tells John most of the incident",
       "reading": "She has no remorse about her first kiss with a girl but cannot sleep. She tells John about the topless view and kiss, omitting “to John, from me”. She compares Raj’s chest with John’s and recalls pool contact.",
@@ -2278,7 +2278,7 @@
       "start": 6031,
       "end": 6054,
       "episode_ids": [
-        "E33"
+        33
       ],
       "title": "John later discloses the underwear incident during intimacy",
       "reading": "John removes her robe and bra coverage; she removes his boxers. He tells her what Sharmi showed him after the pool visit. The narrated breast/nipple contact, genital contact and penetration are between the spouses; Raj and Sharmi are discussed, not physically involved.",
@@ -2321,7 +2321,7 @@
       "start": 6055,
       "end": 6085,
       "episode_ids": [
-        "E33"
+        33
       ],
       "title": "His Chotu questions, her answer and the later private reaction",
       "reading": "She denies a naked view, learns he saw Chotu looking into the robe and admits Chotu ejaculated on her again. John ejaculates inside her; narration says she has not orgasmed at that point. He asks her to tease Chotu before him; it is a request, not a performed group event.",
@@ -2350,7 +2350,7 @@
       "start": 6917,
       "end": 6935,
       "episode_ids": [
-        "E37"
+        37
       ],
       "title": "Introduction, wet saree and a startled greeting",
       "reading": "Sharmi knows of Chotu through Dhika’s ordinary stories but has not met him before. She waves, he looks wide-eyed at her wet orange saree, then greets her. They sit at the kitchen counter with Dhika.",
@@ -2385,7 +2385,7 @@
       "start": 6936,
       "end": 6940,
       "episode_ids": [
-        "E37"
+        37
       ],
       "title": "Sharmi notices the gaze is mostly directed at Dhika",
       "reading": "She observes Chotu’s frequent looking and Dhika’s comfort with it. Dhika worries whether Sharmi has noticed. This is three-person context, not a new Chotu–Sharmi physical action.",
@@ -2409,7 +2409,7 @@
       "start": 6941,
       "end": 6955,
       "episode_ids": [
-        "E37"
+        37
       ],
       "title": "Chotu carries her bags; Sharmi whispers to Dhika",
       "reading": "He dresses and offers to carry Sharmi’s bags to her bike. At the door Sharmi pulls Dhika by the top and whispers about his looking; Dhika later worries but recalls her friend would not hurt her. No Chotu–Sharmi body touch is narrated here.",
@@ -2433,7 +2433,7 @@
       "start": 8170,
       "end": 8181,
       "episode_ids": [
-        "E43"
+        43
       ],
       "title": "Dhika initiates hand stimulation after his return",
       "reading": "Narration says she pulls him into the bedroom and gives him a handjob three times. It calls this the first time, while the E57 flashback later also uses first-time wording; retain that continuity issue. Uncle’s recalled ejaculation is not an action by John.",
@@ -2462,7 +2462,7 @@
       "start": 8190,
       "end": 8210,
       "episode_ids": [
-        "E43"
+        43
       ],
       "title": "Her fear of Stranger’s gift; his initial dismissal and comfort",
       "reading": "He already read the note. She questions how Stranger knows her; he initially minimizes the risk, then promises to find out and holds her. His identity is not established as Stranger.",
@@ -2491,7 +2491,7 @@
       "start": 8211,
       "end": 8248,
       "episode_ids": [
-        "E43"
+        43
       ],
       "title": "A stated agreement separates outside play from intercourse",
       "reading": "John says he is not angry and treats familiar, trusted contacts as fun, while saying she would not have sex with anyone else. She agrees and asks the same of him. His Sharmi joke follows; it does not revoke their stated agreement.",
@@ -2515,7 +2515,7 @@
       "start": 8994,
       "end": 9013,
       "episode_ids": [
-        "E47"
+        47
       ],
       "title": "Raj shows photographs he took of Sharmi",
       "reading": "He says the pictures are in-house, including a topless portrait. John and Dhika admire them. A photograph view is separate from seeing Sharmi physically topless that morning.",
@@ -2542,7 +2542,7 @@
       "start": 9015,
       "end": 9039,
       "episode_ids": [
-        "E47"
+        47
       ],
       "title": "Unexpected Dhika–Sharmi kiss; John gets a peck",
       "reading": "Sharmi approaches Dhika despite her expressed no, holds her hands, pushes her along the sofa and kisses her. Dhika pushes her off. Sharmi then gives John a peck and sits on Raj’s lap. Raj says she behaves similarly with him in intimacy.",
@@ -2587,7 +2587,7 @@
       "start": 9042,
       "end": 9055,
       "episode_ids": [
-        "E47"
+        47
       ],
       "title": "Sharmi selects the back seat with John",
       "reading": "Dhika initially sits in front to explore the car; Sharmi brings John into the back and persuades her to stay. Dhika also wants to drive but has not asked yet.",
@@ -2616,7 +2616,7 @@
       "start": 10473,
       "end": 10510,
       "episode_ids": [
-        "E54"
+        54
       ],
       "title": "Cross greetings and a clothing choice",
       "reading": "Sharmi kisses John with tongue and moves his hand toward her bikini top; Dhika separates them. Dhika then kisses Raj’s lips and he holds her bare hips. She later changes from saree to lace bra and panties.",
@@ -2661,7 +2661,7 @@
       "start": 10511,
       "end": 10531,
       "episode_ids": [
-        "E54"
+        54
       ],
       "title": "Private fantasy differs from the game’s actual seating",
       "reading": "The naked-apron party is explicitly a dream, not a group event. At the tub Sharmi takes the spot beside John and Dhika willingly sits close to Raj; he brings sweet wine.",
@@ -2688,7 +2688,7 @@
       "start": 10532,
       "end": 10564,
       "episode_ids": [
-        "E54"
+        54
       ],
       "title": "A previous witnessed act becomes a game question",
       "reading": "They discuss what Dhika saw Raj and Sharmi do. Her fuller description at L10552 is kept to herself. She kisses Raj, tightens a thigh grip after his tongue touches her lips, then withdraws. Water exchanged between the women makes her areola visible through the bra.",
@@ -2734,7 +2734,7 @@
       "start": 10565,
       "end": 10616,
       "episode_ids": [
-        "E54"
+        54
       ],
       "title": "Photo history, another kiss and limited disclosure",
       "reading": "Sharmi whispers a question to Raj and kisses John. John explains an accidental intimate picture sent to an unknown number; Dhika says it was blocked. Raj describes Sharmi’s resort photos. Dhika kisses Raj again; he cups her thighs underwater and she withdraws from the kiss without removing his hand.",
@@ -2769,7 +2769,7 @@
       "start": 10625,
       "end": 10660,
       "episode_ids": [
-        "E55"
+        55
       ],
       "title": "Bra-loan question, concealment and lap contact",
       "reading": "John’s question surprises her. He later gives a laundry explanation to their friends rather than the full Uncle account. During kisses Raj lifts her by the thighs; she settles on his lap. John cups Sharmi’s bikini-covered breasts.",
@@ -2814,7 +2814,7 @@
       "start": 10661,
       "end": 10675,
       "episode_ids": [
-        "E55"
+        55
       ],
       "title": "Raj explains his marriage outlook; Sharmi reciprocates",
       "reading": "Raj reports the bartender gift and says emotional commitment matters to him. He says even sleeping with someone would not change his love, while explicitly saying she has not done that. Sharmi sends him a flying kiss. This is different from Dhika and John’s E43 stated intercourse limit.",
@@ -2839,7 +2839,7 @@
       "start": 10676,
       "end": 10720,
       "episode_ids": [
-        "E55"
+        55
       ],
       "title": "Contact develops; a private thought turns out audible",
       "reading": "Sharmi continues with John; he later touches her bare breasts and neck after her top is off. Raj holds Dhika’s hips and caresses her back; she wishes he would undo the bra, but that wish is not the action. She whispers about touching him, he answers, and she realizes he heard her and leaves.",
@@ -2889,7 +2889,7 @@
       "start": 10721,
       "end": 10774,
       "episode_ids": [
-        "E55"
+        55
       ],
       "title": "Dhika witnesses the spouses; Sharmi asks her to stay",
       "reading": "John is asleep in her room. Dhika finds Raj and Sharmi having intercourse, apologizes and starts to leave; Sharmi tells her to sit and later tells her to squeeze her breast. She squeezes her left bra cup with her right hand.",
@@ -2926,7 +2926,7 @@
       "start": 10775,
       "end": 10797,
       "episode_ids": [
-        "E55"
+        55
       ],
       "title": "Raj invites a touch; the distinct three-person actions",
       "reading": "At Raj’s invitation Dhika touches and partly holds his penis during intercourse with Sharmi. Narration says her pinky, then ring-finger tip, slips into Sharmi’s vagina. Raj kisses Dhika with tongue and ejaculates inside Sharmi. Dhika’s separate self-touch stays separate.",
@@ -2978,15 +2978,14 @@
       "start": 10809,
       "end": 10816,
       "episode_ids": [
-        "E56"
+        56
       ],
       "title": "Present: Dhika directs John’s hand to her left breast",
       "reading": "She orgasms during intercourse, John warns Sharmi and Chotu may hear and she says she does not care. She brings his right hand to her left breast and he squeezes it. Potential listeners are not proven witnesses.",
       "track_keys": [
         "DJ",
         "DS",
-        "JS",
-        "SC"
+        "JS"
       ],
       "kind": "physical",
       "actor": "Dhika",
@@ -3015,7 +3014,7 @@
       "start": 10817,
       "end": 10836,
       "episode_ids": [
-        "E56"
+        56
       ],
       "title": "Earlier morning: Raj has told John about the stumble",
       "reading": "Dhika recalls the three-person bedroom event. John says Raj told him she stumbled on them; he kisses her forehead, urges her to rest and says Sharmi will bring her home. His statement does not establish he knows each detail of the three-person contact.",
@@ -3055,7 +3054,7 @@
       "start": 11073,
       "end": 11094,
       "episode_ids": [
-        "E57"
+        57
       ],
       "title": "A kiss with Chotu as witness; Sharmi orders him to run",
       "reading": "Sharmi falls onto Dhika and kisses her; Dhika tries to speak and later pushes/rolls her off. Sharmi calls to startled Chotu and tells him to run; he leaves. His witness status is not a Chotu–Sharmi sexual action.",
@@ -3090,13 +3089,12 @@
       "start": 11095,
       "end": 11109,
       "episode_ids": [
-        "E57"
+        57
       ],
       "title": "Sharmi’s request is declined; exposure before her shower",
       "reading": "Sharmi seeks another kiss; Dhika jumps away. Sharmi removes her panties and goes toward the bathroom mentioning a shower handle. The stated plan is not a narrated performed masturbation act.",
       "track_keys": [
-        "DS",
-        "SC"
+        "DS"
       ],
       "kind": "proposal",
       "actor": "Sharmi",
@@ -3120,7 +3118,7 @@
       "start": 11299,
       "end": 11330,
       "episode_ids": [
-        "E58"
+        58
       ],
       "title": "Departures, uncertainty about a witness and the bra disclosure",
       "reading": "John reports Chotu and Sharmi leaving. Whether Sharmi saw the sofa act is his uncertainty, not a confirmed witness. Dhika then starts telling him the Uncle/bra history.",
@@ -3145,7 +3143,7 @@
       "start": 11330,
       "end": 11359,
       "episode_ids": [
-        "E58"
+        58
       ],
       "title": "She leaves part of Uncle’s story undisclosed",
       "reading": "She recounts through the returned bra, omits the marital backstory and surprising later act, asks if she is bad and then teases that another story remains. John again reassures her; his visible erection does not answer every relationship concern.",
@@ -3168,7 +3166,7 @@
       "start": 11360,
       "end": 11375,
       "episode_ids": [
-        "E58"
+        58
       ],
       "title": "John offers breakfast while she is showering",
       "reading": "She privately imagines other combinations, but interrupts those thoughts when John calls. He offers to take Pappu for waffles and bring her food. Ordinary care is included alongside the disclosures.",
@@ -3191,7 +3189,7 @@
       "start": 11475,
       "end": 11503,
       "episode_ids": [
-        "E58"
+        58
       ],
       "title": "Sharmi’s picture brings pleasure and jealousy together",
       "reading": "John admires the picture sent for him through the group. Dhika recognizes his reaction but feels some jealousy and states she could not accept Sharmi seducing him into bed; he privately remains unsure about seeing Dhika with another man. Both playful speech and private unease are present.",
@@ -3218,7 +3216,7 @@
       "start": 12334,
       "end": 12360,
       "episode_ids": [
-        "E62"
+        62
       ],
       "title": "Compliments, a lookalike video and an unaccepted invitation",
       "reading": "Raj’s comparison makes Dhika blush and her nipples react; these reactions are private. Sharmi sends a video of another adult and mentions an exclusive-club invitation. Raj says they have not gone; Sharmi says they are considering it. No club attendance or group sex is established.",
@@ -3253,7 +3251,7 @@
       "start": 12918,
       "end": 12944,
       "episode_ids": [
-        "E65"
+        65
       ],
       "title": "A group photograph exchange precedes Dhika’s kiss",
       "reading": "She objects playfully to John posting the picture; Raj sends a naked Sharmi photo and refers to the earlier fingers incident. John sees Dhika’s nipple reaction, she jumps onto him and kisses him, then chooses to disclose. The photo is not Sharmi physically visiting.",
@@ -3293,7 +3291,7 @@
       "start": 13005,
       "end": 13026,
       "episode_ids": [
-        "E65"
+        65
       ],
       "title": "He interrupts the flashback with questions; she asks to finish",
       "reading": "John asks if she slept naked between the twins; she says no. Her flashback says she requested sleeping alone because she feared being unable to stop an advance. His excitement coexists with her wish to finish explaining.",
@@ -3316,7 +3314,7 @@
       "start": 13065,
       "end": 13101,
       "episode_ids": [
-        "E65"
+        65
       ],
       "title": "Reassurance, intercourse and planning Pappu’s birthday",
       "reading": "He says she did nothing wrong, they have intercourse and later spoon. They plan help from Chotu and the twins for Pappu’s party; John asks for no bra. She takes his penis out and strokes it while he grips her buttocks. The party request is a proposal at this point.",
@@ -3355,7 +3353,7 @@
       "start": 13110,
       "end": 13170,
       "episode_ids": [
-        "E66"
+        66
       ],
       "title": "Party dress, third/fourth wine and proposed sleeping arrangements",
       "reading": "John pinches her thigh and she hits his; she distinguishes Chotu’s viewing history from the twins’. The narrator says she ultimately chose no bra. John asks the twins to drive and later proposes Chotu sleep in their room; this proposal is not a sexual group event.",
@@ -3389,7 +3387,7 @@
       "start": 13240,
       "end": 13256,
       "episode_ids": [
-        "E66"
+        66
       ],
       "title": "Dhika asks for the gift-sending to stop",
       "reading": "She worries Stranger timed the parcel with the party. John calls it coincidence and promises to address it after travel, then proposes she try the bow tie. She refuses that suggestion and changes the subject to errands.",
@@ -3412,7 +3410,7 @@
       "start": 13399,
       "end": 13421,
       "episode_ids": [
-        "E67"
+        67
       ],
       "title": "Teasing suspicion and ordinary group work",
       "reading": "John guesses something happened between her and Bantu and jokes; he has not witnessed that prior scene. They prepare balloons, decorations and snacks together. Dhika later asks him not to wake sleeping Pappu.",
@@ -3435,7 +3433,7 @@
       "start": 13600,
       "end": 13618,
       "episode_ids": [
-        "E67"
+        67
       ],
       "title": "She tells the twin events while stimulating John",
       "reading": "Her account says she stopped Bantu reaching inside and placed his hand between her thighs. John kisses her and ejaculates on her hands/arms. Reported twin acts remain separate from the present spouse act.",
@@ -3469,7 +3467,7 @@
       "start": 13619,
       "end": 13624,
       "episode_ids": [
-        "E67"
+        67
       ],
       "title": "Her refusal and the marital history of finger contact",
       "reading": "John tries to reach into her panties; she refuses, citing the late hour. Narration says she rarely permitted more than brief finger contact historically and usually preferred intercourse. That is a historical baseline, not “never any finger contact”.",
@@ -3492,7 +3490,7 @@
       "start": 13625,
       "end": 13642,
       "episode_ids": [
-        "E67"
+        67
       ],
       "title": "Safe travel and a deliberately unexplained task",
       "reading": "She tells John to travel safely and not drive. John says he has told Chotu to help and asks her not to ask questions. The nature and clothing terms of the help are not specified here.",
@@ -3515,7 +3513,7 @@
       "start": 13843,
       "end": 13867,
       "episode_ids": [
-        "E68"
+        68
       ],
       "title": "John finds her naked; she declines a quick encounter",
       "reading": "John asks what if the twins had come in; she says they would have seen her. He asks for a quickie; she declines and says they must get ready. No new intercourse is narrated here.",
@@ -3544,7 +3542,7 @@
       "start": 13868,
       "end": 13877,
       "episode_ids": [
-        "E68"
+        68
       ],
       "title": "Massage instruction is confirmed; undressing was not specified",
       "reading": "John confirms he asked Chotu to massage her. He explicitly denies telling him to remove her panties and reacts with surprise. This corrects any inference that John ordered all the later undressing.",
@@ -3569,7 +3567,7 @@
       "start": 13878,
       "end": 13909,
       "episode_ids": [
-        "E68"
+        68
       ],
       "title": "Private limit in the flashback and her answer to John",
       "reading": "The massage flashback states she stops at the thought of penetration and refers to her agreement with John. Back in the present he asks if Chotu penetrated; he shows excitement and worry. She says no, that right is his, then adds “Unlessss” without finishing. The unresolved word is not a completed exception or a prediction.",
@@ -3592,7 +3590,7 @@
       "start": 13924,
       "end": 13950,
       "episode_ids": [
-        "E69"
+        69
       ],
       "title": "Dhika chooses Raj’s lap after Scott gets in",
       "reading": "Raj asks her to stay in the broken-down car. After Scott offers a lift, she moves to Raj’s lap when Scott joins the back seat; Raj protects her by gripping her left upper arm. Her discomfort with Scott is explicit.",
@@ -3626,7 +3624,7 @@
       "start": 13952,
       "end": 14003,
       "episode_ids": [
-        "E69"
+        69
       ],
       "title": "Earlier art discussion and Raj’s interruption",
       "reading": "Scott interprets the painting; Dhika privately relates to it and is unsure whether she feels fear or realization. Raj proposes leaving; she takes his arm. The painting’s acts are not actions performed by these characters.",
@@ -3656,7 +3654,7 @@
       "start": 14004,
       "end": 14023,
       "episode_ids": [
-        "E69"
+        69
       ],
       "title": "Return to present: doubts about herself and her marriage",
       "reading": "She remembers poolside banter with Sharmi and the bartender; private angel/devil voices question whether John’s encouragement has limits. These are current thoughts and prior memories, not a newly performed quartet event.",
@@ -3683,7 +3681,7 @@
       "start": 14024,
       "end": 14043,
       "episode_ids": [
-        "E69"
+        69
       ],
       "title": "Brake, protective stomach hold and a new self-description",
       "reading": "Raj’s hand slips from her arm to her bare stomach during braking; his other hand joins and pulls her closer. He reassures her about Scott’s gaze and says to ignore him. She privately blushes at thinking of herself as Raj’s woman.",
@@ -3710,7 +3708,7 @@
   ],
   "episode_index": [
     {
-      "episode_id": "E01",
+      "episode_id": 1,
       "start": 3,
       "end": 230,
       "name_mentions": {
@@ -3923,7 +3921,7 @@
       ]
     },
     {
-      "episode_id": "E02",
+      "episode_id": 2,
       "start": 231,
       "end": 389,
       "name_mentions": {
@@ -4083,7 +4081,7 @@
       ]
     },
     {
-      "episode_id": "E03",
+      "episode_id": 3,
       "start": 390,
       "end": 628,
       "name_mentions": {
@@ -4316,7 +4314,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E04",
+      "episode_id": 4,
       "start": 629,
       "end": 834,
       "name_mentions": {
@@ -4443,7 +4441,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E05",
+      "episode_id": 5,
       "start": 835,
       "end": 1066,
       "name_mentions": {
@@ -4651,7 +4649,7 @@
       ]
     },
     {
-      "episode_id": "E06",
+      "episode_id": 6,
       "start": 1067,
       "end": 1297,
       "name_mentions": {
@@ -4869,7 +4867,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E07",
+      "episode_id": 7,
       "start": 1298,
       "end": 1539,
       "name_mentions": {
@@ -5090,7 +5088,7 @@
       ]
     },
     {
-      "episode_id": "E08",
+      "episode_id": 8,
       "start": 1540,
       "end": 1757,
       "name_mentions": {
@@ -5198,7 +5196,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E09",
+      "episode_id": 9,
       "start": 1758,
       "end": 1993,
       "name_mentions": {
@@ -5549,7 +5547,7 @@
       ]
     },
     {
-      "episode_id": "E10",
+      "episode_id": 10,
       "start": 1994,
       "end": 2134,
       "name_mentions": {
@@ -5710,7 +5708,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E11",
+      "episode_id": 11,
       "start": 2135,
       "end": 2298,
       "name_mentions": {
@@ -5921,7 +5919,7 @@
       ]
     },
     {
-      "episode_id": "E12",
+      "episode_id": 12,
       "start": 2299,
       "end": 2459,
       "name_mentions": {
@@ -6006,7 +6004,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E13",
+      "episode_id": 13,
       "start": 2460,
       "end": 2623,
       "name_mentions": {
@@ -6150,7 +6148,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E14",
+      "episode_id": 14,
       "start": 2624,
       "end": 2770,
       "name_mentions": {
@@ -6378,7 +6376,7 @@
       ]
     },
     {
-      "episode_id": "E15",
+      "episode_id": 15,
       "start": 2771,
       "end": 2962,
       "name_mentions": {
@@ -6614,7 +6612,7 @@
       ]
     },
     {
-      "episode_id": "E16",
+      "episode_id": 16,
       "start": 2963,
       "end": 3097,
       "name_mentions": {
@@ -6751,7 +6749,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E17",
+      "episode_id": 17,
       "start": 3098,
       "end": 3262,
       "name_mentions": {
@@ -6850,7 +6848,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E18",
+      "episode_id": 18,
       "start": 3263,
       "end": 3413,
       "name_mentions": {
@@ -6963,7 +6961,7 @@
       ]
     },
     {
-      "episode_id": "E19",
+      "episode_id": 19,
       "start": 3414,
       "end": 3596,
       "name_mentions": {
@@ -7083,7 +7081,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E20",
+      "episode_id": 20,
       "start": 3597,
       "end": 3739,
       "name_mentions": {
@@ -7164,7 +7162,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E21",
+      "episode_id": 21,
       "start": 3740,
       "end": 3891,
       "name_mentions": {
@@ -7243,7 +7241,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E22",
+      "episode_id": 22,
       "start": 3892,
       "end": 4054,
       "name_mentions": {
@@ -7345,7 +7343,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E23",
+      "episode_id": 23,
       "start": 4055,
       "end": 4246,
       "name_mentions": {
@@ -7449,7 +7447,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E24",
+      "episode_id": 24,
       "start": 4247,
       "end": 4412,
       "name_mentions": {
@@ -7575,7 +7573,7 @@
       ]
     },
     {
-      "episode_id": "E25",
+      "episode_id": 25,
       "start": 4413,
       "end": 4678,
       "name_mentions": {
@@ -7730,7 +7728,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E26",
+      "episode_id": 26,
       "start": 4679,
       "end": 4886,
       "name_mentions": {
@@ -7847,7 +7845,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E27",
+      "episode_id": 27,
       "start": 4887,
       "end": 5110,
       "name_mentions": {
@@ -7988,7 +7986,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E28",
+      "episode_id": 28,
       "start": 5111,
       "end": 5268,
       "name_mentions": {
@@ -8143,7 +8141,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E29",
+      "episode_id": 29,
       "start": 5269,
       "end": 5436,
       "name_mentions": {
@@ -8356,7 +8354,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E30",
+      "episode_id": 30,
       "start": 5437,
       "end": 5637,
       "name_mentions": {
@@ -8590,7 +8588,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E31",
+      "episode_id": 31,
       "start": 5638,
       "end": 5807,
       "name_mentions": {
@@ -8774,7 +8772,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E32",
+      "episode_id": 32,
       "start": 5808,
       "end": 5978,
       "name_mentions": {
@@ -9039,7 +9037,7 @@
       ]
     },
     {
-      "episode_id": "E33",
+      "episode_id": 33,
       "start": 5979,
       "end": 6157,
       "name_mentions": {
@@ -9251,7 +9249,7 @@
       ]
     },
     {
-      "episode_id": "E34",
+      "episode_id": 34,
       "start": 6158,
       "end": 6357,
       "name_mentions": {
@@ -9460,7 +9458,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E35",
+      "episode_id": 35,
       "start": 6358,
       "end": 6579,
       "name_mentions": {
@@ -9645,7 +9643,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E36",
+      "episode_id": 36,
       "start": 6580,
       "end": 6816,
       "name_mentions": {
@@ -9783,7 +9781,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E37",
+      "episode_id": 37,
       "start": 6817,
       "end": 7021,
       "name_mentions": {
@@ -9983,7 +9981,7 @@
       ]
     },
     {
-      "episode_id": "E38",
+      "episode_id": 38,
       "start": 7022,
       "end": 7274,
       "name_mentions": {
@@ -10131,7 +10129,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E39",
+      "episode_id": 39,
       "start": 7275,
       "end": 7444,
       "name_mentions": {
@@ -10244,7 +10242,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E40",
+      "episode_id": 40,
       "start": 7445,
       "end": 7657,
       "name_mentions": {
@@ -10387,7 +10385,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E41",
+      "episode_id": 41,
       "start": 7658,
       "end": 7953,
       "name_mentions": {
@@ -10575,7 +10573,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E42",
+      "episode_id": 42,
       "start": 7954,
       "end": 8165,
       "name_mentions": {
@@ -10751,7 +10749,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E43",
+      "episode_id": 43,
       "start": 8166,
       "end": 8327,
       "name_mentions": {
@@ -10980,7 +10978,7 @@
       ]
     },
     {
-      "episode_id": "E44",
+      "episode_id": 44,
       "start": 8328,
       "end": 8529,
       "name_mentions": {
@@ -11253,7 +11251,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E45",
+      "episode_id": 45,
       "start": 8530,
       "end": 8835,
       "name_mentions": {
@@ -11607,7 +11605,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E46",
+      "episode_id": 46,
       "start": 8836,
       "end": 8989,
       "name_mentions": {
@@ -11701,7 +11699,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E47",
+      "episode_id": 47,
       "start": 8990,
       "end": 9229,
       "name_mentions": {
@@ -12053,7 +12051,7 @@
       ]
     },
     {
-      "episode_id": "E48",
+      "episode_id": 48,
       "start": 9230,
       "end": 9524,
       "name_mentions": {
@@ -12433,7 +12431,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E49",
+      "episode_id": 49,
       "start": 9525,
       "end": 9685,
       "name_mentions": {
@@ -12612,7 +12610,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E50",
+      "episode_id": 50,
       "start": 9686,
       "end": 9879,
       "name_mentions": {
@@ -12806,7 +12804,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E51",
+      "episode_id": 51,
       "start": 9880,
       "end": 10085,
       "name_mentions": {
@@ -12954,7 +12952,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E52",
+      "episode_id": 52,
       "start": 10086,
       "end": 10264,
       "name_mentions": {
@@ -13134,7 +13132,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E53",
+      "episode_id": 53,
       "start": 10265,
       "end": 10468,
       "name_mentions": {
@@ -13328,7 +13326,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E54",
+      "episode_id": 54,
       "start": 10469,
       "end": 10620,
       "name_mentions": {
@@ -13576,7 +13574,7 @@
       ]
     },
     {
-      "episode_id": "E55",
+      "episode_id": 55,
       "start": 10621,
       "end": 10800,
       "name_mentions": {
@@ -13841,7 +13839,7 @@
       ]
     },
     {
-      "episode_id": "E56",
+      "episode_id": 56,
       "start": 10801,
       "end": 11022,
       "name_mentions": {
@@ -14124,7 +14122,7 @@
       ]
     },
     {
-      "episode_id": "E57",
+      "episode_id": 57,
       "start": 11023,
       "end": 11294,
       "name_mentions": {
@@ -14523,7 +14521,7 @@
       ]
     },
     {
-      "episode_id": "E58",
+      "episode_id": 58,
       "start": 11295,
       "end": 11575,
       "name_mentions": {
@@ -14810,7 +14808,7 @@
       ]
     },
     {
-      "episode_id": "E59",
+      "episode_id": 59,
       "start": 11576,
       "end": 11806,
       "name_mentions": {
@@ -14974,7 +14972,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E60",
+      "episode_id": 60,
       "start": 11807,
       "end": 12048,
       "name_mentions": {
@@ -15140,7 +15138,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E61",
+      "episode_id": 61,
       "start": 12049,
       "end": 12283,
       "name_mentions": {
@@ -15287,7 +15285,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E62",
+      "episode_id": 62,
       "start": 12284,
       "end": 12566,
       "name_mentions": {
@@ -15508,7 +15506,7 @@
       ]
     },
     {
-      "episode_id": "E63",
+      "episode_id": 63,
       "start": 12567,
       "end": 12695,
       "name_mentions": {
@@ -15598,7 +15596,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E64",
+      "episode_id": 64,
       "start": 12696,
       "end": 12913,
       "name_mentions": {
@@ -15757,7 +15755,7 @@
       "checked_beats": []
     },
     {
-      "episode_id": "E65",
+      "episode_id": 65,
       "start": 12914,
       "end": 13104,
       "name_mentions": {
@@ -15929,7 +15927,7 @@
       ]
     },
     {
-      "episode_id": "E66",
+      "episode_id": 66,
       "start": 13105,
       "end": 13394,
       "name_mentions": {
@@ -16219,7 +16217,7 @@
       ]
     },
     {
-      "episode_id": "E67",
+      "episode_id": 67,
       "start": 13395,
       "end": 13702,
       "name_mentions": {
@@ -16582,7 +16580,7 @@
       ]
     },
     {
-      "episode_id": "E68",
+      "episode_id": 68,
       "start": 13703,
       "end": 13912,
       "name_mentions": {
@@ -16795,7 +16793,7 @@
       ]
     },
     {
-      "episode_id": "E69",
+      "episode_id": 69,
       "start": 13913,
       "end": 14046,
       "name_mentions": {
