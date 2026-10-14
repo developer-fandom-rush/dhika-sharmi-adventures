@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dhika · Bantu · Bobby | Unified Source Tracker</title>
+<link rel="stylesheet" href="./unified-pair-tracker.css">
+<script src="./unified-pair-tracker.js" defer></script></head>
+<body>
+<header><a href="./index.html">← Story dashboard</a><a href="./chotu-tracker.html">Existing Chotu tracker</a><a href="./raw/Dhika.txt">Original source</a></header>
+<main>
+<p class="eyebrow">Independent source-linked history · E01–E68</p>
+<h1>Dhika, Bantu & Bobby</h1>
+<p class="lead">Separate pair encounters, the shared twins history, and Dhika–Bobby–Chotu group scenes. Exact original source is authoritative; unreviewed mentions are not completed events.</p>
+<p id="status" role="status">Loading canonical text and linked records…</p>
+<section class="summary" id="stats"></section>
+<div class="controls">
+<label>Relationship track <select id="pair">
+<option value="DB">Dhika × Bantu</option>
+<option value="DY">Dhika × Bobby</option>
+<option value="TRIO">Dhika × Bantu × Bobby</option>
+<option value="DBC">Dhika × Bobby × Chotu (Babu)</option>
+</select></label>
+<label>Episode <select id="episode"><option value="all">All E01–E68</option></select></label>
+<label>Evidence <select id="kind"><option value="all">All source references</option><option value="verified">Curated and source-linked</option><option value="candidate">Name matches / needs review</option></select></label>
+<label>Search <input id="search" placeholder="Original words, line, action"></label>
+</div>
+<nav class="tabs">
+<button data-tab="history" aria-pressed="true">Source-linked history</button>
+<button data-tab="scenes" aria-pressed="false">Scene & time order</button>
+<button data-tab="states" aria-pressed="false">Relationship states</button>
+<button data-tab="qa" aria-pressed="false">Audit & missing evidence</button>
+</nav>
+<p id="info" class="hint"></p>
+<div id="results"></div>
+<button id="more" hidden>Show more source records</button>
+<footer>This is a separate page. Existing twins and Chotu trackers are read-only and unchanged. Search results identify original evidence; presence and consent must be established scene by scene.</footer>
+</main></body></html>
