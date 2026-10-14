@@ -1,0 +1,99 @@
+{
+  "schema": "twins_e01_e05_gap_repairs_v1",
+  "source": "raw/Dhika.txt",
+  "scope": "Repair lexical twin references missed in E02 and E05 prior first pass",
+  "status": "LINE_SOURCE_VERIFIED_NOT_EXHAUSTIVE_SEMANTIC_CERTIFICATION",
+  "records": [
+    {
+      "id": "E02-GAP-001",
+      "episode": 2,
+      "line": 384,
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "compares_comfort_with_chotu_vs_bantu",
+      "kind": "internal_comparison",
+      "outcome": "narrated_not_new_encounter",
+      "source_line_checksum_fnv1a": "28947db6",
+      "source_ref": "raw/Dhika.txt#L384",
+      "review": "source_line_checked_gap_repair_first_pass"
+    },
+    {
+      "id": "E02-GAP-002",
+      "episode": 2,
+      "line": 384,
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "compares_comfort_with_chotu_vs_bobby",
+      "kind": "internal_comparison",
+      "outcome": "narrated_not_new_encounter",
+      "source_line_checksum_fnv1a": "28947db6",
+      "source_ref": "raw/Dhika.txt#L384",
+      "review": "source_line_checked_gap_repair_first_pass"
+    },
+    {
+      "id": "E05-GAP-003",
+      "episode": 5,
+      "line": 961,
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "questions_bantu_previous_compliment_in_private",
+      "kind": "memory_internal",
+      "outcome": "not_new_encounter",
+      "source_line_checksum_fnv1a": "25e6f1b1",
+      "source_ref": "raw/Dhika.txt#L961",
+      "review": "source_line_checked_gap_repair_first_pass"
+    },
+    {
+      "id": "E05-GAP-004",
+      "episode": 5,
+      "line": 962,
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "reports_dhika_still_reflecting_on_prior_bantu_conversation",
+      "kind": "memory_narration",
+      "outcome": "not_new_encounter",
+      "source_line_checksum_fnv1a": "8c58708d",
+      "source_ref": "raw/Dhika.txt#L962",
+      "review": "source_line_checked_gap_repair_first_pass"
+    },
+    {
+      "id": "E05-GAP-005",
+      "episode": 5,
+      "line": 993,
+      "track": "TRIO",
+      "actor": "Dhika",
+      "action": "notifies_twins_about_cancelled_friday_tuition",
+      "kind": "off_scene_communication",
+      "outcome": "channel_unspecified",
+      "source_line_checksum_fnv1a": "bf652fdd",
+      "source_ref": "raw/Dhika.txt#L993",
+      "review": "source_line_checked_gap_repair_first_pass"
+    },
+    {
+      "id": "E05-GAP-006",
+      "episode": 5,
+      "line": 994,
+      "track": "TRIO",
+      "actor": "Twins",
+      "action": "react_sadly_to_cancellation",
+      "kind": "reported_response",
+      "outcome": "not_in_person_encounter",
+      "source_line_checksum_fnv1a": "c3ac7e85",
+      "source_ref": "raw/Dhika.txt#L994",
+      "review": "source_line_checked_gap_repair_first_pass"
+    },
+    {
+      "id": "E05-GAP-007",
+      "episode": 5,
+      "line": 994,
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "recognizes_bobby_voice_among_reactions",
+      "kind": "heard_response",
+      "outcome": "modality_not_certified",
+      "source_line_checksum_fnv1a": "c3ac7e85",
+      "source_ref": "raw/Dhika.txt#L994",
+      "review": "source_line_checked_gap_repair_first_pass"
+    }
+  ]
+}
