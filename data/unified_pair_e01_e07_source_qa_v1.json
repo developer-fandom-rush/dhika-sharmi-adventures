@@ -76,9 +76,10 @@
       ],
       "source_lines": 231,
       "line_disposition_count": 231,
-      "first_pass_event_tags": 122,
-      "current_pair_scope_tags": 118,
-      "complete_semantic_second_pass": false
+      "first_pass_event_tags": 134,
+      "current_pair_scope_tags": 130,
+      "complete_semantic_second_pass": false,
+      "direct_scene_lines_without_event": 0
     },
     {
       "episode": 7,
@@ -88,8 +89,9 @@
       ],
       "source_lines": 242,
       "line_disposition_count": 242,
-      "first_pass_event_tags": 147,
-      "complete_semantic_second_pass": false
+      "first_pass_event_tags": 179,
+      "complete_semantic_second_pass": false,
+      "direct_scene_lines_without_event": 0
     }
   ],
   "material_repairs": [
@@ -158,5 +160,6 @@
     "data/twins_e01_e05_gap_repairs_v1.json",
     "data/twins_e06_line_ledger_v1.json",
     "data/twins_e07_line_ledger_v1.json"
-  ]
+  ],
+  "reviewer_note": "All explicit twin lexical references in E01-E05 now indexed; E06/E07 direct-scene lines each have at least one source-checked first-pass event. Neither result implies exhaustive semantic accuracy."
 }
