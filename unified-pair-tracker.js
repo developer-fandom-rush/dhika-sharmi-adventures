@@ -40,10 +40,10 @@ function normalize(d,ep,i){
  return entries.map((a,j)=>{
   const arr=Array.isArray(a);
   const line=+(arr?a[0]:(a.line??a.source_line??a.source?.global_line??0));
-  const pair=arr?(a[1]||"TRIO"):(a.pair||"TRIO");
-  const actor=arr?(a[2]||"Unspecified"):(a.actor||"Unspecified");
-  const action=arr?(a[3]||"unspecified"):(a.action||"unspecified");
-  const kind=arr?(a[4]||"source_action"):(a.type||a.kind||"source_action");
+  const pair=arr?(a.length>=5?(a[1]||"TRIO"):"CONTEXT"):(a.pair||"TRIO");
+  const actor=arr?(a.length>=5?(a[2]||"Unspecified"):"Narrator"):(a.actor||"Unspecified");
+  const action=arr?(a.length>=5?(a[3]||"unspecified"):(a[1]||"context")):(a.action||"unspecified");
+  const kind=arr?(a.length>=5?(a[4]||"source_action"):"context"):(a.type||a.kind||"source_action");
   return {id:arr?"E"+ep+"-P"+i+"-"+j:(a.id||"E"+ep+"-R"+i+"-"+j),
    episode:ep,line,pair,actor,action,kind,source_kind:"curated_first_pass",
    recordType:"action",file:loadPaths[i+1],raw:a,
@@ -291,7 +291,7 @@ function downloadSelection(){
   audit=data[12];gaps=audit.gaps;writingNotes=audit.writing_observations||[];states=data[11].states;
   const epIndex=[1,2,2,3,3,4,5,5,5,5];
   curated=data.slice(1,11).flatMap((d,i)=>normalize(d,epIndex[i],i)).map(r=>({...r,recordType:"action"}));
-  curated.push(...data[13].records.map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.pair,actor:a.actor,recipient:a.recipient,action:a.action,kind:a.type,source_kind:a.source_kind,recordType:"action",file:loadPaths[13],raw:a,review:a.review,status:"fragment_only"})));
+  curated.push(...data[13].records.filter(a=>a.episode!==6).map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.pair,actor:a.actor,recipient:a.recipient,action:a.action,kind:a.type,source_kind:a.source_kind,recordType:"action",file:loadPaths[13],raw:a,review:a.review,status:"fragment_only"})));
   lineAudits=[data[14],data[15]];
   for(let i=14;i<=15;i++){
     curated.push(...data[i].events.filter(a=>a.track!=="NON_TWIN_CONTEXT").map(a=>({
@@ -310,7 +310,7 @@ function downloadSelection(){
   $("stats").innerHTML=[
    [68,"Episode slots scanned"],[curated.length,"Indexed action tags"],[scenes.length,"Verified scene anchors"],[windows.length,"Unreviewed discovery windows"]
   ].map(a=>'<div><strong>'+a[0]+'</strong><small>'+a[1]+'</small></div>').join("");
-  $("status").textContent="Ready · E01–E05 earlier first pass; E06–E07 line-disposition indexes; E67–E68 partial fragments; exhaustive atomic QA not yet certified. No encounter inferred from name hits.";
+  $("status").textContent="Ready · E01–E05 earlier first pass; E06–E07 line-disposition indexes; E67–E68 partial fragments. No episode has a final exhaustive semantic QA sign-off. No encounter inferred from name hits.";
   for(const id of ["pair","episode","scope","kind","search"])$(id).addEventListener(id==="search"?"input":"change",render);
   for(const b of document.querySelectorAll("[data-tab]"))b.onclick=()=>{tab=b.dataset.tab;render()};
   $("more").onclick=renderChunk;$("download").onclick=downloadSelection;render();
