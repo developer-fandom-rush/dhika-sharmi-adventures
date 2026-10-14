@@ -16,9 +16,10 @@ loc+"unified_pair_partial_scene_events_v2.json",
 loc+"twins_e06_line_ledger_v1.json",loc+"twins_e07_line_ledger_v1.json",
 loc+"twins_e01_e05_gap_repairs_v1.json",
 loc+"twins_reader_e01_e07_v1.json",
+loc+"twins_refinements_attribution_states_style_v1.json",
 "./raw/Dhika.txt"];
 const trackNames={DB:"Dhika × Bantu",DY:"Dhika × Bobby",TRIO:"Dhika × Bantu × Bobby",DBC:"Dhika × Bobby × Chotu"};
-let canon=[],episodes=[],curated=[],scenes=[],windows=[],states=[],gaps=[],audit={},writingNotes=[],lineAudits=[],readerBeats=[],readerEncounters=[],filtered=[],shown=0,tab="meetings";
+let canon=[],episodes=[],curated=[],scenes=[],windows=[],states=[],gaps=[],audit={},writingNotes=[],lineAudits=[],readerBeats=[],readerEncounters=[],readerRefinements={},filtered=[],shown=0,tab="meetings";
 function link(n){return '<a href="'+srcUrl(n)+'" target="_blank" rel="noopener">Raw L'+n+' ↗</a>'}
 function has(s,k){return k==="Bantu"?/\bbantu\b/i.test(s):k==="Bobby"?/\bbobby\b/i.test(s):k==="Chotu"?/\b(chotu|babu)\b/i.test(s):/\btwins?\b/i.test(s)}
 function epFor(n){return episodes.find(e=>n>=e.start&&n<=e.end)?.id||0}
@@ -392,7 +393,7 @@ function downloadSelection(){
   curated=data.slice(1,11).flatMap((d,i)=>normalize(d,epIndex[i],i)).map(r=>({...r,recordType:"action"}));
   curated.push(...data[13].records.filter(a=>a.episode!==6).map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.pair,actor:a.actor,recipient:a.recipient,action:a.action,kind:a.type,source_kind:a.source_kind,recordType:"action",file:loadPaths[13],raw:a,review:a.review,status:"fragment_only"})));
   lineAudits=[data[14],data[15]];
-  readerBeats=data[17].beats;readerEncounters=data[17].encounters;
+  readerBeats=data[17].beats;readerEncounters=data[17].encounters;readerRefinements=data[18];
   curated.push(...data[16].records.map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.track,actor:a.actor,recipient:"",action:a.action,kind:a.kind,source_kind:"source_linked_first_pass",recordType:"action",file:loadPaths[16],raw:a,review:a.review,status:a.outcome})));
   for(let i=14;i<=15;i++){
     curated.push(...data[i].events.filter(a=>a.track!=="NON_TWIN_CONTEXT").map(a=>({
