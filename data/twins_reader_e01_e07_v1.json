@@ -315,7 +315,23 @@
           "area": "Clothing / side of sari",
           "mode": "Unplanned visibility and observation",
           "line": 82,
-          "reading": "A minor clothing-position detail becomes visible; Dhika notices Bobby's attention and chooses not to embarrass him."
+          "reading": "The sari is low at Dhika's hip and a small area of hip skin is exposed. Bobby looks at it; Dhika notices Bobby's gaze. Bantu is present in the meeting but is not identified as the observer in this line.",
+          "original_group_track": [
+            "DB",
+            "DY",
+            "TRIO"
+          ],
+          "owner_type": "subject_not_performer",
+          "actor": "Bobby",
+          "observer": "Bobby",
+          "subject": "Dhika",
+          "tracks": [
+            "DY"
+          ],
+          "context_group": [
+            "TRIO"
+          ],
+          "evidence_class": "OBSERVED_CLOTHING_STATE"
         }
       ]
     },
@@ -378,7 +394,23 @@
           "area": "General appearance during walking",
           "mode": "Observed by both twins; no contact with Dhika",
           "line": 92,
-          "reading": "At the walk to the scooter, Bantu notices Bobby's attention and taps Bobby's shoulder. The original reference is to visual attention, not contact with Dhika."
+          "reading": "During the walk toward the scooter, Bantu looks toward Dhika. The same source line separately shows Bantu noticing Bobby's attention and tapping Bobby's shoulder; this tap is not contact with Dhika.",
+          "original_group_track": [
+            "DB",
+            "DY",
+            "TRIO"
+          ],
+          "owner_type": "subject_not_performer",
+          "actor": "Bantu",
+          "observer": "Bantu",
+          "subject": "Dhika",
+          "tracks": [
+            "DB"
+          ],
+          "context_group": [
+            "TRIO"
+          ],
+          "evidence_class": "VISUAL_OBSERVATION"
         }
       ]
     },
@@ -440,14 +472,44 @@
           "area": "Waist / side",
           "mode": "Contact during ride",
           "line": 99,
-          "reading": "Bobby's actual grip differs from Dhika's earlier balance instruction."
+          "reading": "On the scooter, Bobby holds Dhika around her hip/waist and stomach rather than the shoulders she expected; the narration distinguishes his completed grip from her instruction.",
+          "original_group_track": [
+            "DY",
+            "TRIO"
+          ],
+          "owner_type": "subject_not_performer",
+          "actor": "Bobby",
+          "observer": "Dhika",
+          "subject": "Dhika",
+          "tracks": [
+            "DY"
+          ],
+          "context_group": [
+            "TRIO"
+          ],
+          "evidence_class": "COMPLETED_CONTACT"
         },
         {
           "owner": "Dhika",
           "area": "Waist / side",
           "mode": "Reported movement during ride",
           "line": 102,
-          "reading": "The narration records continued movement and Dhika's internal response; it is Bobby's action, not Bantu's."
+          "reading": "During the ride, Dhika notices finger movement and contact near her hip. The narration attributes the movement to Bobby, not Bantu.",
+          "original_group_track": [
+            "DY",
+            "TRIO"
+          ],
+          "owner_type": "subject_not_performer",
+          "actor": "Bobby",
+          "observer": "Dhika",
+          "subject": "Dhika",
+          "tracks": [
+            "DY"
+          ],
+          "context_group": [
+            "TRIO"
+          ],
+          "evidence_class": "COMPLETED_CONTACT"
         }
       ],
       "before_after": "Dhika knows what she felt; Bantu is not shown as knowing the details."
@@ -640,7 +702,42 @@
           "area": "Sari drape / upper chest",
           "mode": "Accidental clothing exposure",
           "line": 354,
-          "reading": "Major E02 milestone: an unintended drape slip and temporary partial visibility. Not initiated as a request or planned action."
+          "reading": "Dhika's bag catches the sari pallu; as it slips, part of her upper chest becomes visible (the narrator describes approximately one-third). She restores the drape. Neither twin causes the slip.",
+          "original_group_track": [
+            "DB",
+            "DY",
+            "TRIO"
+          ],
+          "owner_type": "subject_not_performer",
+          "actor": "Accident, not initiated by either twin",
+          "observer": "Bantu and Bobby (both present)",
+          "subject": "Dhika",
+          "tracks": [
+            "TRIO"
+          ],
+          "context_group": [
+            "DB",
+            "DY"
+          ],
+          "evidence_class": "ACCIDENTAL_VISIBILITY"
+        },
+        {
+          "owner": "Dhika",
+          "area": "Sari drape / immediate repair",
+          "mode": "Dhika restores clothing",
+          "line": 355,
+          "reading": "Dhika initially reaches for the fallen bag, then fixes her sari drape. This is her own action and a shared scene; not a touch by either student.",
+          "actor": "Dhika",
+          "observer": "Bantu and Bobby (scene co-presence)",
+          "subject": "Dhika",
+          "tracks": [
+            "TRIO"
+          ],
+          "context_group": [
+            "DB",
+            "DY"
+          ],
+          "evidence_class": "CLOTHING_RESTORED"
         }
       ],
       "before_after": "The unexpected incident changes the group's comfort and the immediate conversation."
@@ -680,7 +777,40 @@
           "area": "Accidental clothing visibility and onlooker reaction",
           "mode": "Two observers; different reactions",
           "line": 356,
-          "reading": "Both students were present for the accidental sari-drape incident. The source separates Bobby's continued attention from Bantu averting his gaze; Dhika then leaves the room briefly."
+          "reading": "After the accidental pallu slip, Bobby continues looking at the exposed area; Bantu, by contrast, averts his gaze. Both see the incident, but their responses are distinct.",
+          "original_group_track": [
+            "DB",
+            "DY",
+            "TRIO"
+          ],
+          "owner_type": "subject_not_performer",
+          "actor": "Bobby",
+          "observer": "Bobby",
+          "subject": "Dhika",
+          "tracks": [
+            "DY"
+          ],
+          "context_group": [
+            "TRIO"
+          ],
+          "evidence_class": "VISUAL_REACTION"
+        },
+        {
+          "owner": "Dhika",
+          "area": "Accidental visibility / reaction",
+          "mode": "Bantu averts gaze",
+          "line": 356,
+          "reading": "Bantu looks away after the accidental drape incident. This is the Bantu-specific visual response; Bobby's continued observation belongs to the Bobby track.",
+          "actor": "Bantu",
+          "observer": "Bantu",
+          "subject": "Dhika",
+          "tracks": [
+            "DB"
+          ],
+          "context_group": [
+            "TRIO"
+          ],
+          "evidence_class": "VISUAL_AVERSION"
         }
       ]
     },
@@ -1388,5 +1518,12 @@
       ],
       "before_after": "E07 ending is an open boundary, not a completed call."
     }
-  ]
+  ],
+  "body_ref_rules": {
+    "scope": "tracks means pair directly attributed; context_group is shared scene only",
+    "group_separation": "A shared incident may involve multiple witnesses; do not infer identical reactions or contact",
+    "status": "Only evidence_class COMPLETED_CONTACT marks completed physical contact; observation or attempted action never does",
+    "visibility": "Clothing visibility is tracked non-graphically, with actor, observer and source reference",
+    "safety": "Source is authoritative; interpretation is preliminary, not future prediction"
+  }
 }
