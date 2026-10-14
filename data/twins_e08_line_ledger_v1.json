@@ -1,0 +1,5061 @@
+{
+  "schema": "twins_e08_line_ledger_v1",
+  "episode": 8,
+  "source": "raw/Dhika.txt",
+  "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "source_range": [
+    1540,
+    1757
+  ],
+  "status": "COMPLETE_SOURCE_LINE_DISPOSITION; PARTIALLY_SEMANTICALLY_SPLIT_FIRST_PASS_NOT_SIGNED_OFF",
+  "policy": [
+    "E07 remote call ends in E08; not a newly started call",
+    "Bantu solo visit after call is separate; Bobby absent despite missed calls",
+    "Apology telephone call is different from later Bobby Skype call",
+    "E08 Skype scene has unresolved E09 continuation; do not infer outcome",
+    "Every story line has a disposition, not every paragraph independently atomized",
+    "One person's private knowledge is not imputed to the other",
+    "Requests and refusals not treated as completed actions"
+  ],
+  "scenes": [
+    {
+      "id": "E08-S01",
+      "episode": 8,
+      "start": 1544,
+      "end": 1553,
+      "title": "Continuation of E07 group video call",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "track": "TRIO",
+      "continuity": "E07-M03",
+      "qa": "first_pass_scene_boundaries"
+    },
+    {
+      "id": "E08-S02",
+      "episode": 8,
+      "start": 1554,
+      "end": 1565,
+      "title": "Dhika private reflection and missed Bobby calls",
+      "participants": [
+        "Dhika"
+      ],
+      "track": "CONTEXT",
+      "continuity": null,
+      "qa": "first_pass_scene_boundaries"
+    },
+    {
+      "id": "E08-S03",
+      "episode": 8,
+      "start": 1566,
+      "end": 1600,
+      "title": "Bantu arrives, repair, trust and travel discussion",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "track": "DB",
+      "continuity": null,
+      "qa": "first_pass_scene_boundaries"
+    },
+    {
+      "id": "E08-S04",
+      "episode": 8,
+      "start": 1601,
+      "end": 1665,
+      "title": "Bantu visit continues: conversation, boundaries and reactions",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "track": "DB",
+      "continuity": null,
+      "qa": "first_pass_scene_boundaries"
+    },
+    {
+      "id": "E08-S05",
+      "episode": 8,
+      "start": 1666,
+      "end": 1687,
+      "title": "Slip, practical assistance and Bantu departure",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "track": "DB",
+      "continuity": null,
+      "qa": "first_pass_scene_boundaries"
+    },
+    {
+      "id": "E08-S06",
+      "episode": 8,
+      "start": 1688,
+      "end": 1688,
+      "title": "Dhika contacts Bobby after Bantu leaves",
+      "participants": [
+        "Dhika",
+        "Bobby (phone)"
+      ],
+      "track": "DY",
+      "continuity": null,
+      "qa": "first_pass_scene_boundaries"
+    },
+    {
+      "id": "E08-S07",
+      "episode": 8,
+      "start": 1689,
+      "end": 1753,
+      "title": "New Bobby Skype contact; continues to E09",
+      "participants": [
+        "Dhika",
+        "Bobby (remote)"
+      ],
+      "track": "DY",
+      "continuity": "E09",
+      "qa": "first_pass_scene_boundaries"
+    }
+  ],
+  "events": [
+    {
+      "id": "E08-AT-001",
+      "episode": 8,
+      "line": 1544,
+      "scene_id": "E08-S01",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "action": "self_video_inspection",
+      "kind": "video_action",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1544",
+      "source_line_checksum_fnv1a": "6df0885a",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-002",
+      "episode": 8,
+      "line": 1545,
+      "scene_id": "E08-S01",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1545",
+      "source_line_checksum_fnv1a": "26822efc",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-003",
+      "episode": 8,
+      "line": 1546,
+      "scene_id": "E08-S01",
+      "track": "TRIO",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1546",
+      "source_line_checksum_fnv1a": "a07c9532",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-004",
+      "episode": 8,
+      "line": 1547,
+      "scene_id": "E08-S01",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "action": "returns_attention_to_twins_screen_and_bantu",
+      "kind": "remote_reaction",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1547",
+      "source_line_checksum_fnv1a": "4aaaa54c",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-005",
+      "episode": 8,
+      "line": 1548,
+      "scene_id": "E08-S01",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "action": "asks_bantu_about_earlier_suggestion",
+      "kind": "remote_question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1548",
+      "source_line_checksum_fnv1a": "39da86a9",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-006",
+      "episode": 8,
+      "line": 1549,
+      "scene_id": "E08-S01",
+      "track": "TRIO",
+      "actor": "Bantu",
+      "action": "responds_with_previous_explanation",
+      "kind": "remote_dialogue",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1549",
+      "source_line_checksum_fnv1a": "fe954e1d",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-007",
+      "episode": 8,
+      "line": 1550,
+      "scene_id": "E08-S01",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1550",
+      "source_line_checksum_fnv1a": "13bf3fe2",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-008",
+      "episode": 8,
+      "line": 1551,
+      "scene_id": "E08-S01",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "action": "announces_early_end_and_friday_class",
+      "kind": "remote_schedule",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1551",
+      "source_line_checksum_fnv1a": "5e4a5cb0",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-009",
+      "episode": 8,
+      "line": 1552,
+      "scene_id": "E08-S01",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "action": "disconnects_video_call",
+      "kind": "remote_call_end",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1552",
+      "source_line_checksum_fnv1a": "e7c8b597",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-010",
+      "episode": 8,
+      "line": 1553,
+      "scene_id": "E08-S01",
+      "track": "TRIO",
+      "actor": "Bantu",
+      "action": "leaves_to_follow_up_in_person",
+      "kind": "movement",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1553",
+      "source_line_checksum_fnv1a": "c6a1a387",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-011",
+      "episode": 8,
+      "line": 1553,
+      "scene_id": "E08-S01",
+      "track": "TRIO",
+      "actor": "Bobby",
+      "action": "witnesses_bantu_hurried_departure",
+      "kind": "observer_not_participant",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1553",
+      "source_line_checksum_fnv1a": "c6a1a387",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-012",
+      "episode": 8,
+      "line": 1554,
+      "scene_id": "E08-S02",
+      "track": "CONTEXT",
+      "actor": "Dhika",
+      "action": "checks_appearance_after_call",
+      "kind": "private_observation",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1554",
+      "source_line_checksum_fnv1a": "132adca1",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-013",
+      "episode": 8,
+      "line": 1555,
+      "scene_id": "E08-S02",
+      "track": "CONTEXT",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1555",
+      "source_line_checksum_fnv1a": "ff401e2e",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-014",
+      "episode": 8,
+      "line": 1556,
+      "scene_id": "E08-S02",
+      "track": "CONTEXT",
+      "actor": "Dhika",
+      "action": "interprets_confusing_video_appearance",
+      "kind": "internal_inference",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1556",
+      "source_line_checksum_fnv1a": "53144673",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-015",
+      "episode": 8,
+      "line": 1557,
+      "scene_id": "E08-S02",
+      "track": "CONTEXT",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1557",
+      "source_line_checksum_fnv1a": "22258b9d",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-016",
+      "episode": 8,
+      "line": 1558,
+      "scene_id": "E08-S02",
+      "track": "CONTEXT",
+      "actor": "Dhika",
+      "action": "reflects_on_prior_boundary_challenges",
+      "kind": "private_reflection",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1558",
+      "source_line_checksum_fnv1a": "a5791266",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-017",
+      "episode": 8,
+      "line": 1559,
+      "scene_id": "E08-S02",
+      "track": "CONTEXT",
+      "actor": "Dhika",
+      "action": "differentiates_teacher_role_from_other_relationships",
+      "kind": "private_reflection",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1559",
+      "source_line_checksum_fnv1a": "ae9930e7",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-018",
+      "episode": 8,
+      "line": 1560,
+      "scene_id": "E08-S02",
+      "track": "CONTEXT",
+      "actor": "Dhika",
+      "action": "reconsiders_angry_reaction_toward_bantu",
+      "kind": "private_reflection",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1560",
+      "source_line_checksum_fnv1a": "95f2fae3",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-019",
+      "episode": 8,
+      "line": 1561,
+      "scene_id": "E08-S02",
+      "track": "CONTEXT",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1561",
+      "source_line_checksum_fnv1a": "24fbdf01",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-020",
+      "episode": 8,
+      "line": 1562,
+      "scene_id": "E08-S02",
+      "track": "CONTEXT",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1562",
+      "source_line_checksum_fnv1a": "e367c00f",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-021",
+      "episode": 8,
+      "line": 1563,
+      "scene_id": "E08-S02",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "attempts_contact_via_missed_calls",
+      "kind": "reported_missed_calls",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1563",
+      "source_line_checksum_fnv1a": "dfce20c4",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-022",
+      "episode": 8,
+      "line": 1564,
+      "scene_id": "E08-S02",
+      "track": "CONTEXT",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1564",
+      "source_line_checksum_fnv1a": "e18116e9",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-023",
+      "episode": 8,
+      "line": 1565,
+      "scene_id": "E08-S02",
+      "track": "CONTEXT",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1565",
+      "source_line_checksum_fnv1a": "32406b39",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-024",
+      "episode": 8,
+      "line": 1566,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "arrives_to_check_on_dhika",
+      "kind": "in_person_arrival",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1566",
+      "source_line_checksum_fnv1a": "95cc0846",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-025",
+      "episode": 8,
+      "line": 1567,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1567",
+      "source_line_checksum_fnv1a": "2e223ad3",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-026",
+      "episode": 8,
+      "line": 1568,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1568",
+      "source_line_checksum_fnv1a": "a2389e52",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-027",
+      "episode": 8,
+      "line": 1569,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "asks_permission_to_enter",
+      "kind": "request",
+      "outcome": "request_not_completion",
+      "source_ref": "raw/Dhika.txt#L1569",
+      "source_line_checksum_fnv1a": "7fadffb6",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-028",
+      "episode": 8,
+      "line": 1570,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "welcomes_bantu_with_embrace",
+      "kind": "greeting_contact",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1570",
+      "source_line_checksum_fnv1a": "0898a808",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-029",
+      "episode": 8,
+      "line": 1571,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "returns_reassuring_gesture",
+      "kind": "greeting_response",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1571",
+      "source_line_checksum_fnv1a": "686b9653",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-030",
+      "episode": 8,
+      "line": 1572,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "asks_about_tears",
+      "kind": "question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1572",
+      "source_line_checksum_fnv1a": "4fe28686",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-031",
+      "episode": 8,
+      "line": 1573,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "apologizes_for_previous_anger",
+      "kind": "apology",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1573",
+      "source_line_checksum_fnv1a": "31bc9693",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-032",
+      "episode": 8,
+      "line": 1574,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "asks_what_happened",
+      "kind": "question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1574",
+      "source_line_checksum_fnv1a": "26659335",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-033",
+      "episode": 8,
+      "line": 1575,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "explains_quick_emotional_reaction",
+      "kind": "dialogue",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1575",
+      "source_line_checksum_fnv1a": "9814d0f4",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-034",
+      "episode": 8,
+      "line": 1576,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "makes_private_inference_about_anger",
+      "kind": "internal_inference",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1576",
+      "source_line_checksum_fnv1a": "d370ce66",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-035",
+      "episode": 8,
+      "line": 1577,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "apologizes_based_on_own_interpretation",
+      "kind": "apology",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1577",
+      "source_line_checksum_fnv1a": "b0252132",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-036",
+      "episode": 8,
+      "line": 1578,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "corrects_his_interpretation",
+      "kind": "clarification",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1578",
+      "source_line_checksum_fnv1a": "db3c4fbe",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-037",
+      "episode": 8,
+      "line": 1579,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "demonstrates_clothing_concern_was_misread",
+      "kind": "clarification",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1579",
+      "source_line_checksum_fnv1a": "be013898",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-038",
+      "episode": 8,
+      "line": 1580,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1580",
+      "source_line_checksum_fnv1a": "0c650713",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-039",
+      "episode": 8,
+      "line": 1581,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1581",
+      "source_line_checksum_fnv1a": "f32da24b",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-040",
+      "episode": 8,
+      "line": 1582,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1582",
+      "source_line_checksum_fnv1a": "0a8dd82b",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-041",
+      "episode": 8,
+      "line": 1583,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "asks_followup_about_reason_for_anger",
+      "kind": "question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1583",
+      "source_line_checksum_fnv1a": "359011db",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-042",
+      "episode": 8,
+      "line": 1584,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1584",
+      "source_line_checksum_fnv1a": "8051a247",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-043",
+      "episode": 8,
+      "line": 1585,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "states_teacher_role_boundary",
+      "kind": "boundary_statement",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1585",
+      "source_line_checksum_fnv1a": "340e22fe",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-044",
+      "episode": 8,
+      "line": 1586,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "distinguishes_friendship_and_accident",
+      "kind": "interpretation",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1586",
+      "source_line_checksum_fnv1a": "39bc2a29",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-045",
+      "episode": 8,
+      "line": 1587,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1587",
+      "source_line_checksum_fnv1a": "ba6f8ad6",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-046",
+      "episode": 8,
+      "line": 1588,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1588",
+      "source_line_checksum_fnv1a": "18d6163d",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-047",
+      "episode": 8,
+      "line": 1589,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "explains_fear_of_reputation_damage",
+      "kind": "reason_for_concern",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1589",
+      "source_line_checksum_fnv1a": "16b412c2",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-048",
+      "episode": 8,
+      "line": 1590,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1590",
+      "source_line_checksum_fnv1a": "b63e8510",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-049",
+      "episode": 8,
+      "line": 1591,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1591",
+      "source_line_checksum_fnv1a": "6ba48bc2",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-050",
+      "episode": 8,
+      "line": 1592,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "asks_if_she_trusts_them",
+      "kind": "trust_question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1592",
+      "source_line_checksum_fnv1a": "dd32f439",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-051",
+      "episode": 8,
+      "line": 1593,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "states_trust_with_residual_concern",
+      "kind": "qualified_agreement",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1593",
+      "source_line_checksum_fnv1a": "389361f5",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-052",
+      "episode": 8,
+      "line": 1594,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "promises_discretion",
+      "kind": "reassurance",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1594",
+      "source_line_checksum_fnv1a": "b97a5f81",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-053",
+      "episode": 8,
+      "line": 1595,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1595",
+      "source_line_checksum_fnv1a": "d65a26ea",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-054",
+      "episode": 8,
+      "line": 1596,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "reports_twins_preference_for_her_as_companion",
+      "kind": "third_party_report",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1596",
+      "source_line_checksum_fnv1a": "54938b81",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-055",
+      "episode": 8,
+      "line": 1597,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "expresses_appreciation_in_embrace",
+      "kind": "greeting_contact",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1597",
+      "source_line_checksum_fnv1a": "0811c5f9",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-056",
+      "episode": 8,
+      "line": 1598,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "doubts_solo_trip_responsibility",
+      "kind": "internal_uncertainty",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1598",
+      "source_line_checksum_fnv1a": "1f93b402",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-057",
+      "episode": 8,
+      "line": 1599,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1599",
+      "source_line_checksum_fnv1a": "5fe0f3c6",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-058",
+      "episode": 8,
+      "line": 1600,
+      "scene_id": "E08-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "apologizes_and_states_future_intent",
+      "kind": "promise",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1600",
+      "source_line_checksum_fnv1a": "69df8898",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-059",
+      "episode": 8,
+      "line": 1601,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1601",
+      "source_line_checksum_fnv1a": "a8fad6af",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-060",
+      "episode": 8,
+      "line": 1602,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1602",
+      "source_line_checksum_fnv1a": "7a390d2d",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-061",
+      "episode": 8,
+      "line": 1603,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1603",
+      "source_line_checksum_fnv1a": "94c3b576",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-062",
+      "episode": 8,
+      "line": 1604,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "playful_impact_then_bantu_sits",
+      "kind": "playful_contact",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1604",
+      "source_line_checksum_fnv1a": "ebe7aa58",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-063",
+      "episode": 8,
+      "line": 1605,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "bends_for_object",
+      "kind": "movement",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1605",
+      "source_line_checksum_fnv1a": "17750b38",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-064",
+      "episode": 8,
+      "line": 1606,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1606",
+      "source_line_checksum_fnv1a": "6bac6498",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-065",
+      "episode": 8,
+      "line": 1607,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1607",
+      "source_line_checksum_fnv1a": "567bf4e6",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-066",
+      "episode": 8,
+      "line": 1608,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "questions_observing",
+      "kind": "boundary_dialogue",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1608",
+      "source_line_checksum_fnv1a": "48e429ff",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-067",
+      "episode": 8,
+      "line": 1609,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1609",
+      "source_line_checksum_fnv1a": "28081325",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-068",
+      "episode": 8,
+      "line": 1610,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1610",
+      "source_line_checksum_fnv1a": "b472b987",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-069",
+      "episode": 8,
+      "line": 1611,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1611",
+      "source_line_checksum_fnv1a": "02bbf0f5",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-070",
+      "episode": 8,
+      "line": 1612,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1612",
+      "source_line_checksum_fnv1a": "c09f32f4",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-071",
+      "episode": 8,
+      "line": 1613,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1613",
+      "source_line_checksum_fnv1a": "450320fd",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-072",
+      "episode": 8,
+      "line": 1614,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "proposes_repeat_condition",
+      "kind": "request",
+      "outcome": "request_not_completion",
+      "source_ref": "raw/Dhika.txt#L1614",
+      "source_line_checksum_fnv1a": "a64c3faf",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-073",
+      "episode": 8,
+      "line": 1615,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "initially_declines",
+      "kind": "refusal",
+      "outcome": "refusal_or_limit",
+      "source_ref": "raw/Dhika.txt#L1615",
+      "source_line_checksum_fnv1a": "656d8ba7",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-074",
+      "episode": 8,
+      "line": 1616,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "reflects_privately_on_curiosity",
+      "kind": "internal_thought",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1616",
+      "source_line_checksum_fnv1a": "50bce963",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-075",
+      "episode": 8,
+      "line": 1617,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "changes_position_after_hesitation",
+      "kind": "movement",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1617",
+      "source_line_checksum_fnv1a": "17b0cad5",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-076",
+      "episode": 8,
+      "line": 1618,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1618",
+      "source_line_checksum_fnv1a": "e0baaf47",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-077",
+      "episode": 8,
+      "line": 1619,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1619",
+      "source_line_checksum_fnv1a": "9c5303f5",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-078",
+      "episode": 8,
+      "line": 1620,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "reacts_and_sits",
+      "kind": "movement_reaction",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1620",
+      "source_line_checksum_fnv1a": "702aad64",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-079",
+      "episode": 8,
+      "line": 1621,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1621",
+      "source_line_checksum_fnv1a": "399ed8b4",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-080",
+      "episode": 8,
+      "line": 1622,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1622",
+      "source_line_checksum_fnv1a": "24dc3be7",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-081",
+      "episode": 8,
+      "line": 1623,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "explains_general_social_observation",
+      "kind": "dialogue",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1623",
+      "source_line_checksum_fnv1a": "0acd07de",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-082",
+      "episode": 8,
+      "line": 1624,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1624",
+      "source_line_checksum_fnv1a": "7ab7b359",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-083",
+      "episode": 8,
+      "line": 1625,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "responds_playfully_with_pillow",
+      "kind": "playful_contact",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1625",
+      "source_line_checksum_fnv1a": "40437172",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-084",
+      "episode": 8,
+      "line": 1626,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "reassesses_bantu_personality",
+      "kind": "internal_inference",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1626",
+      "source_line_checksum_fnv1a": "435a2311",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-085",
+      "episode": 8,
+      "line": 1627,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1627",
+      "source_line_checksum_fnv1a": "94c6c6fa",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-086",
+      "episode": 8,
+      "line": 1628,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1628",
+      "source_line_checksum_fnv1a": "29b422d0",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-087",
+      "episode": 8,
+      "line": 1629,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "hesitates_to_ask_further",
+      "kind": "hesitation",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1629",
+      "source_line_checksum_fnv1a": "18540830",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-088",
+      "episode": 8,
+      "line": 1630,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1630",
+      "source_line_checksum_fnv1a": "6ab24c55",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-089",
+      "episode": 8,
+      "line": 1631,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1631",
+      "source_line_checksum_fnv1a": "7266b88f",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-090",
+      "episode": 8,
+      "line": 1632,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1632",
+      "source_line_checksum_fnv1a": "d8d8c694",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-091",
+      "episode": 8,
+      "line": 1633,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "changes_sitting_position",
+      "kind": "position_change",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1633",
+      "source_line_checksum_fnv1a": "6353e6c8",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-092",
+      "episode": 8,
+      "line": 1634,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1634",
+      "source_line_checksum_fnv1a": "0117f06b",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-093",
+      "episode": 8,
+      "line": 1635,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "responds_to_approach",
+      "kind": "playful_contact",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1635",
+      "source_line_checksum_fnv1a": "280f13d1",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-094",
+      "episode": 8,
+      "line": 1636,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "questions_bantu_action",
+      "kind": "boundary_question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1636",
+      "source_line_checksum_fnv1a": "6b7a5015",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-095",
+      "episode": 8,
+      "line": 1637,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1637",
+      "source_line_checksum_fnv1a": "bbd4ce8b",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-096",
+      "episode": 8,
+      "line": 1638,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1638",
+      "source_line_checksum_fnv1a": "d3f2b989",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-097",
+      "episode": 8,
+      "line": 1639,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1639",
+      "source_line_checksum_fnv1a": "de5c371f",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-098",
+      "episode": 8,
+      "line": 1640,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "asks_private_curiosity_question",
+      "kind": "question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1640",
+      "source_line_checksum_fnv1a": "cce626cf",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-099",
+      "episode": 8,
+      "line": 1641,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1641",
+      "source_line_checksum_fnv1a": "d79ce929",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-100",
+      "episode": 8,
+      "line": 1642,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1642",
+      "source_line_checksum_fnv1a": "0fb26d99",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-101",
+      "episode": 8,
+      "line": 1643,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "explains_involuntary_reaction_as_claim",
+      "kind": "dialogue",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1643",
+      "source_line_checksum_fnv1a": "d504ce23",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-102",
+      "episode": 8,
+      "line": 1644,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "asks_if_compliment_refers_to_her",
+      "kind": "question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1644",
+      "source_line_checksum_fnv1a": "208120f4",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-103",
+      "episode": 8,
+      "line": 1645,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "contrasts_general_comment_and_dhika_inference",
+      "kind": "private_narrator_context",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1645",
+      "source_line_checksum_fnv1a": "76b60db3",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-104",
+      "episode": 8,
+      "line": 1646,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1646",
+      "source_line_checksum_fnv1a": "7aefd3cb",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-105",
+      "episode": 8,
+      "line": 1647,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1647",
+      "source_line_checksum_fnv1a": "d23ed526",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-106",
+      "episode": 8,
+      "line": 1648,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1648",
+      "source_line_checksum_fnv1a": "b635e8d6",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-107",
+      "episode": 8,
+      "line": 1649,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1649",
+      "source_line_checksum_fnv1a": "ec0e2624",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-108",
+      "episode": 8,
+      "line": 1650,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "suggests_demonstration",
+      "kind": "request",
+      "outcome": "request_not_completion",
+      "source_ref": "raw/Dhika.txt#L1650",
+      "source_line_checksum_fnv1a": "42c9e9c8",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-109",
+      "episode": 8,
+      "line": 1651,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1651",
+      "source_line_checksum_fnv1a": "6a033f49",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-110",
+      "episode": 8,
+      "line": 1652,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "asks_dhika_to_watch",
+      "kind": "request",
+      "outcome": "request_not_completion",
+      "source_ref": "raw/Dhika.txt#L1652",
+      "source_line_checksum_fnv1a": "48f5e93c",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-111",
+      "episode": 8,
+      "line": 1653,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "expresses_reluctance",
+      "kind": "refusal",
+      "outcome": "refusal_or_limit",
+      "source_ref": "raw/Dhika.txt#L1653",
+      "source_line_checksum_fnv1a": "55d4d9e5",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-112",
+      "episode": 8,
+      "line": 1654,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1654",
+      "source_line_checksum_fnv1a": "467ea1f0",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-113",
+      "episode": 8,
+      "line": 1655,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1655",
+      "source_line_checksum_fnv1a": "d699250d",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-114",
+      "episode": 8,
+      "line": 1656,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "repeats_request",
+      "kind": "request",
+      "outcome": "request_not_completion",
+      "source_ref": "raw/Dhika.txt#L1656",
+      "source_line_checksum_fnv1a": "7ad93d34",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-115",
+      "episode": 8,
+      "line": 1657,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1657",
+      "source_line_checksum_fnv1a": "443bbc99",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-116",
+      "episode": 8,
+      "line": 1658,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1658",
+      "source_line_checksum_fnv1a": "94f807b6",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-117",
+      "episode": 8,
+      "line": 1659,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "pulls_at_dhika_shirt_front",
+      "kind": "clothing_boundary_action",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1659",
+      "source_line_checksum_fnv1a": "84a751a7",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-118",
+      "episode": 8,
+      "line": 1660,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1660",
+      "source_line_checksum_fnv1a": "c4b11019",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-119",
+      "episode": 8,
+      "line": 1661,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1661",
+      "source_line_checksum_fnv1a": "7a24477d",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-120",
+      "episode": 8,
+      "line": 1662,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1662",
+      "source_line_checksum_fnv1a": "5fe69297",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-121",
+      "episode": 8,
+      "line": 1663,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "playfully_strikes_with_pillow",
+      "kind": "playful_contact",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1663",
+      "source_line_checksum_fnv1a": "574151d0",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-122",
+      "episode": 8,
+      "line": 1664,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "states_objection_to_shirt_pull",
+      "kind": "objection",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1664",
+      "source_line_checksum_fnv1a": "bc396b7a",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-123",
+      "episode": 8,
+      "line": 1665,
+      "scene_id": "E08-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "tries_to_block_pillow_hits",
+      "kind": "response",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1665",
+      "source_line_checksum_fnv1a": "037c979c",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-124",
+      "episode": 8,
+      "line": 1666,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "slips_from_sofa_while_laughing",
+      "kind": "accident",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1666",
+      "source_line_checksum_fnv1a": "663c0f6e",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-125",
+      "episode": 8,
+      "line": 1667,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "offers_immediate_help",
+      "kind": "help_offer",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1667",
+      "source_line_checksum_fnv1a": "f1d5a4be",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-126",
+      "episode": 8,
+      "line": 1668,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "supports_dhika_to_return_to_sofa",
+      "kind": "practical_contact",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1668",
+      "source_line_checksum_fnv1a": "c8560944",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-127",
+      "episode": 8,
+      "line": 1669,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "asks_if_hurt",
+      "kind": "care_question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1669",
+      "source_line_checksum_fnv1a": "f85e0bb4",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-128",
+      "episode": 8,
+      "line": 1670,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1670",
+      "source_line_checksum_fnv1a": "d000c002",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-129",
+      "episode": 8,
+      "line": 1671,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "says_she_is_all_right",
+      "kind": "reply",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1671",
+      "source_line_checksum_fnv1a": "df7075e7",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-130",
+      "episode": 8,
+      "line": 1672,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "checks_knee_and_offers_relief",
+      "kind": "practical_care",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1672",
+      "source_line_checksum_fnv1a": "cb667d09",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-131",
+      "episode": 8,
+      "line": 1673,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1673",
+      "source_line_checksum_fnv1a": "1016b4e1",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-132",
+      "episode": 8,
+      "line": 1674,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "continues_relief_attempt",
+      "kind": "practical_care",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1674",
+      "source_line_checksum_fnv1a": "a58bb40d",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-133",
+      "episode": 8,
+      "line": 1675,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "reports_some_relief_of_pain",
+      "kind": "outcome",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1675",
+      "source_line_checksum_fnv1a": "e157b4ad",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-134",
+      "episode": 8,
+      "line": 1676,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1676",
+      "source_line_checksum_fnv1a": "f04436d3",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-135",
+      "episode": 8,
+      "line": 1677,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1677",
+      "source_line_checksum_fnv1a": "52a501af",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-136",
+      "episode": 8,
+      "line": 1678,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1678",
+      "source_line_checksum_fnv1a": "bf9157cc",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-137",
+      "episode": 8,
+      "line": 1679,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "records_unexpected_incidental_movement",
+      "kind": "accidental_contact",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1679",
+      "source_line_checksum_fnv1a": "bf25ee9f",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-138",
+      "episode": 8,
+      "line": 1680,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "recognizes_initial_movement_unintended",
+      "kind": "narrated_intent",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1680",
+      "source_line_checksum_fnv1a": "667ee834",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-139",
+      "episode": 8,
+      "line": 1681,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "interprets_initial_movement_as_accidental",
+      "kind": "narrated_reaction",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1681",
+      "source_line_checksum_fnv1a": "861606be",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-140",
+      "episode": 8,
+      "line": 1682,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "takes_separate_followon_action",
+      "kind": "action_requires_boundary_review",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1682",
+      "source_line_checksum_fnv1a": "0ec50fd6",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-141",
+      "episode": 8,
+      "line": 1683,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "moves_away_and_thanks_bantu",
+      "kind": "boundary_movement",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1683",
+      "source_line_checksum_fnv1a": "c8f24a4a",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-142",
+      "episode": 8,
+      "line": 1684,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "ends_visit_to_collect_pappu",
+      "kind": "departure_reason",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1684",
+      "source_line_checksum_fnv1a": "e3f447dc",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-143",
+      "episode": 8,
+      "line": 1685,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "reports_friday_absence_and_bobby_availability",
+      "kind": "schedule_report",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1685",
+      "source_line_checksum_fnv1a": "9140d2ab",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-144",
+      "episode": 8,
+      "line": 1686,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "action": "says_goodbye_and_leaves",
+      "kind": "departure",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1686",
+      "source_line_checksum_fnv1a": "411d293c",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-145",
+      "episode": 8,
+      "line": 1686,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "action": "thanks_and_gives_cheek_farewell",
+      "kind": "farewell_contact",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1686",
+      "source_line_checksum_fnv1a": "411d293c",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-146",
+      "episode": 8,
+      "line": 1687,
+      "scene_id": "E08-S05",
+      "track": "DB",
+      "actor": "Narrator",
+      "action": "after_visit_family_context",
+      "kind": "non_pair_context",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1687",
+      "source_line_checksum_fnv1a": "210f5557",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-147",
+      "episode": 8,
+      "line": 1688,
+      "scene_id": "E08-S06",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "phones_bobby_to_apologize",
+      "kind": "phone_contact",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1688",
+      "source_line_checksum_fnv1a": "02d805f3",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-148",
+      "episode": 8,
+      "line": 1689,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "later_skype_rings_during_private_routine",
+      "kind": "incoming_call",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1689",
+      "source_line_checksum_fnv1a": "27bdf299",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-149",
+      "episode": 8,
+      "line": 1690,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1690",
+      "source_line_checksum_fnv1a": "5d6a283b",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-150",
+      "episode": 8,
+      "line": 1691,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1691",
+      "source_line_checksum_fnv1a": "05f2be5e",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-151",
+      "episode": 8,
+      "line": 1692,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1692",
+      "source_line_checksum_fnv1a": "cade16c7",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-152",
+      "episode": 8,
+      "line": 1693,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1693",
+      "source_line_checksum_fnv1a": "0dc272ba",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-153",
+      "episode": 8,
+      "line": 1694,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1694",
+      "source_line_checksum_fnv1a": "969a88a8",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-154",
+      "episode": 8,
+      "line": 1695,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1695",
+      "source_line_checksum_fnv1a": "784e729b",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-155",
+      "episode": 8,
+      "line": 1696,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "repeat_unanswered_skype_call",
+      "kind": "incoming_call",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1696",
+      "source_line_checksum_fnv1a": "a504f684",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-156",
+      "episode": 8,
+      "line": 1697,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1697",
+      "source_line_checksum_fnv1a": "3a400796",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-157",
+      "episode": 8,
+      "line": 1698,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1698",
+      "source_line_checksum_fnv1a": "5ceb10dd",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-158",
+      "episode": 8,
+      "line": 1699,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "identifies_bobby_as_caller",
+      "kind": "caller_identity",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1699",
+      "source_line_checksum_fnv1a": "144a8ed7",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-159",
+      "episode": 8,
+      "line": 1700,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "answers_remote_call",
+      "kind": "call_connected",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1700",
+      "source_line_checksum_fnv1a": "3fb6a779",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-160",
+      "episode": 8,
+      "line": 1701,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "greets_bobby",
+      "kind": "remote_dialogue",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1701",
+      "source_line_checksum_fnv1a": "5916dce6",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-161",
+      "episode": 8,
+      "line": 1702,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "notices_unexpected_presentation",
+      "kind": "remote_observation",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1702",
+      "source_line_checksum_fnv1a": "1a989216",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-162",
+      "episode": 8,
+      "line": 1703,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "asks_about_appearance",
+      "kind": "question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1703",
+      "source_line_checksum_fnv1a": "096c52c0",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-163",
+      "episode": 8,
+      "line": 1704,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "explains_picking_up_during_private_routine",
+      "kind": "explanation",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1704",
+      "source_line_checksum_fnv1a": "a78ef476",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-164",
+      "episode": 8,
+      "line": 1705,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "reacts_with_shyness",
+      "kind": "remote_dialogue",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1705",
+      "source_line_checksum_fnv1a": "1bd851d2",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-165",
+      "episode": 8,
+      "line": 1706,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "explains_she_trusted_caller_identity",
+      "kind": "explanation",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1706",
+      "source_line_checksum_fnv1a": "33f5ae8a",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-166",
+      "episode": 8,
+      "line": 1707,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "plans_to_get_dressed",
+      "kind": "private_intent",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1707",
+      "source_line_checksum_fnv1a": "728662f3",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-167",
+      "episode": 8,
+      "line": 1708,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "asks_bobby_to_wait",
+      "kind": "boundary_request",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1708",
+      "source_line_checksum_fnv1a": "0531220f",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-168",
+      "episode": 8,
+      "line": 1709,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "requests_continuation_without_pause",
+      "kind": "request",
+      "outcome": "request_not_completion",
+      "source_ref": "raw/Dhika.txt#L1709",
+      "source_line_checksum_fnv1a": "45af4c4e",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-169",
+      "episode": 8,
+      "line": 1710,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "reacts_to_more_outspoken_request",
+      "kind": "reaction",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1710",
+      "source_line_checksum_fnv1a": "3855584e",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-170",
+      "episode": 8,
+      "line": 1711,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "clarifies_previous_remark",
+      "kind": "clarification",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1711",
+      "source_line_checksum_fnv1a": "a626ca5f",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-171",
+      "episode": 8,
+      "line": 1712,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "chooses_to_talk_for_few_more_minutes",
+      "kind": "decision",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1712",
+      "source_line_checksum_fnv1a": "c35e28e8",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-172",
+      "episode": 8,
+      "line": 1713,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "teases_with_rhetorical_question",
+      "kind": "dialogue",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1713",
+      "source_line_checksum_fnv1a": "7feceb96",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-173",
+      "episode": 8,
+      "line": 1714,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "changes_own_shirt_state",
+      "kind": "garment_action",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1714",
+      "source_line_checksum_fnv1a": "47c8cb49",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-174",
+      "episode": 8,
+      "line": 1715,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "reacts_to_unexpected_reply",
+      "kind": "reaction",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1715",
+      "source_line_checksum_fnv1a": "22886368",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-175",
+      "episode": 8,
+      "line": 1716,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "adds_conditional_playful_remark",
+      "kind": "dialogue",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1716",
+      "source_line_checksum_fnv1a": "95e21a22",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-176",
+      "episode": 8,
+      "line": 1717,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1717",
+      "source_line_checksum_fnv1a": "976e71b3",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-177",
+      "episode": 8,
+      "line": 1718,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "hesitates_to_change_further",
+      "kind": "hesitation",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1718",
+      "source_line_checksum_fnv1a": "b021b171",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-178",
+      "episode": 8,
+      "line": 1719,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "clarifies_she_is_teasing",
+      "kind": "reassurance",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1719",
+      "source_line_checksum_fnv1a": "379b93a1",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-179",
+      "episode": 8,
+      "line": 1720,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1720",
+      "source_line_checksum_fnv1a": "96145f37",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-180",
+      "episode": 8,
+      "line": 1721,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "asks_for_impression",
+      "kind": "question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1721",
+      "source_line_checksum_fnv1a": "3c93c8ba",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-181",
+      "episode": 8,
+      "line": 1722,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "briefly_changes_position_during_call",
+      "kind": "movement",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1722",
+      "source_line_checksum_fnv1a": "23c91c1c",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-182",
+      "episode": 8,
+      "line": 1723,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "quickly_returns_to_seat",
+      "kind": "movement",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1723",
+      "source_line_checksum_fnv1a": "e8dd9710",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-183",
+      "episode": 8,
+      "line": 1724,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "reacts_to_remote_movement",
+      "kind": "remote_observation",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1724",
+      "source_line_checksum_fnv1a": "df123a5d",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-184",
+      "episode": 8,
+      "line": 1725,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1725",
+      "source_line_checksum_fnv1a": "1907fef3",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-185",
+      "episode": 8,
+      "line": 1726,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1726",
+      "source_line_checksum_fnv1a": "40043add",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-186",
+      "episode": 8,
+      "line": 1727,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1727",
+      "source_line_checksum_fnv1a": "705354f5",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-187",
+      "episode": 8,
+      "line": 1728,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "reconsiders_what_was_visible",
+      "kind": "private_reflection",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1728",
+      "source_line_checksum_fnv1a": "e97c3d52",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-188",
+      "episode": 8,
+      "line": 1729,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "asks_bobby_what_he_saw",
+      "kind": "question",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1729",
+      "source_line_checksum_fnv1a": "91364ae8",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-189",
+      "episode": 8,
+      "line": 1730,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1730",
+      "source_line_checksum_fnv1a": "79386404",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-190",
+      "episode": 8,
+      "line": 1731,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "answers_dhika_question",
+      "kind": "remote_answer",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1731",
+      "source_line_checksum_fnv1a": "f5500baa",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-191",
+      "episode": 8,
+      "line": 1732,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1732",
+      "source_line_checksum_fnv1a": "1f989ae3",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-192",
+      "episode": 8,
+      "line": 1733,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "adds_unexpected_detail",
+      "kind": "remote_answer",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1733",
+      "source_line_checksum_fnv1a": "80302d42",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-193",
+      "episode": 8,
+      "line": 1734,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "expresses_surprise_at_bobby_openness",
+      "kind": "reaction",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1734",
+      "source_line_checksum_fnv1a": "2e86bec5",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-194",
+      "episode": 8,
+      "line": 1735,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "appreciates_increased_communication",
+      "kind": "emotional_state",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1735",
+      "source_line_checksum_fnv1a": "983fb3be",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-195",
+      "episode": 8,
+      "line": 1736,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1736",
+      "source_line_checksum_fnv1a": "ecabe177",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-196",
+      "episode": 8,
+      "line": 1737,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "returns_to_quieter_style",
+      "kind": "emotional_state",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1737",
+      "source_line_checksum_fnv1a": "cd30a21e",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-197",
+      "episode": 8,
+      "line": 1738,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "source_paragraph_pending_atomic_semantic_split",
+      "kind": "unsplit_first_pass_line",
+      "outcome": "unsplit_tag",
+      "source_ref": "raw/Dhika.txt#L1738",
+      "source_line_checksum_fnv1a": "bd9ceb39",
+      "review": "source_line_indexed_semantic_split_pending"
+    },
+    {
+      "id": "E08-AT-198",
+      "episode": 8,
+      "line": 1739,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "invites_bobby_to_speak_openly",
+      "kind": "communication_request",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1739",
+      "source_line_checksum_fnv1a": "6139ad41",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-199",
+      "episode": 8,
+      "line": 1740,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "hesitates_under_pressure",
+      "kind": "narrated_emotion",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1740",
+      "source_line_checksum_fnv1a": "7675883a",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-200",
+      "episode": 8,
+      "line": 1741,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "makes_unexpected_request",
+      "kind": "request",
+      "outcome": "request_not_completion",
+      "source_ref": "raw/Dhika.txt#L1741",
+      "source_line_checksum_fnv1a": "e62bca83",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-201",
+      "episode": 8,
+      "line": 1742,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "refuses_on_first_interpretation",
+      "kind": "refusal",
+      "outcome": "refusal_or_limit",
+      "source_ref": "raw/Dhika.txt#L1742",
+      "source_line_checksum_fnv1a": "8b1e01d5",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-202",
+      "episode": 8,
+      "line": 1743,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "clarifies_meaning_of_request",
+      "kind": "clarification",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1743",
+      "source_line_checksum_fnv1a": "c2d57664",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-203",
+      "episode": 8,
+      "line": 1744,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "feels_relieved_about_clarification",
+      "kind": "reaction",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1744",
+      "source_line_checksum_fnv1a": "195132a2",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-204",
+      "episode": 8,
+      "line": 1745,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "acknowledges_misunderstanding",
+      "kind": "knowledge_response",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1745",
+      "source_line_checksum_fnv1a": "9d8684a4",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-205",
+      "episode": 8,
+      "line": 1746,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "references_prior_observation",
+      "kind": "memory_dialogue",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1746",
+      "source_line_checksum_fnv1a": "35232754",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-206",
+      "episode": 8,
+      "line": 1747,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "clarifies_specific_interest",
+      "kind": "dialogue",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1747",
+      "source_line_checksum_fnv1a": "09d10dba",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-207",
+      "episode": 8,
+      "line": 1748,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "proposes_condition_before_request",
+      "kind": "boundary_negotiation",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1748",
+      "source_line_checksum_fnv1a": "1b5f302b",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-208",
+      "episode": 8,
+      "line": 1749,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "asks_about_deciding_condition",
+      "kind": "request",
+      "outcome": "request_not_completion",
+      "source_ref": "raw/Dhika.txt#L1749",
+      "source_line_checksum_fnv1a": "cc815c9c",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-209",
+      "episode": 8,
+      "line": 1750,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "nods_qualified_permission",
+      "kind": "nonverbal_assent",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1750",
+      "source_line_checksum_fnv1a": "a98a6698",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-210",
+      "episode": 8,
+      "line": 1751,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "repeats_request",
+      "kind": "request",
+      "outcome": "request_not_completion",
+      "source_ref": "raw/Dhika.txt#L1751",
+      "source_line_checksum_fnv1a": "d0d3a1f4",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-211",
+      "episode": 8,
+      "line": 1752,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "reports_difference_between_bobby_expectation_and_dhika_plan",
+      "kind": "private_motivation",
+      "outcome": "first_pass_from_source",
+      "source_ref": "raw/Dhika.txt#L1752",
+      "source_line_checksum_fnv1a": "098d8ae1",
+      "review": "source_line_checked_first_pass"
+    },
+    {
+      "id": "E08-AT-212",
+      "episode": 8,
+      "line": 1753,
+      "scene_id": "E08-S07",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "reacts_before_source_reveals_next_action",
+      "kind": "open_cliffhanger",
+      "outcome": "unresolved_E09",
+      "source_ref": "raw/Dhika.txt#L1753",
+      "source_line_checksum_fnv1a": "9c86af6a",
+      "review": "source_line_checked_first_pass"
+    }
+  ],
+  "line_index": [
+    {
+      "line": 1540,
+      "scene_id": null,
+      "disposition": "header",
+      "source_checksum_fnv1a": "8d9edfea",
+      "event_ids": []
+    },
+    {
+      "line": 1541,
+      "scene_id": null,
+      "disposition": "header",
+      "source_checksum_fnv1a": "dab4362c",
+      "event_ids": []
+    },
+    {
+      "line": 1542,
+      "scene_id": null,
+      "disposition": "separator",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": []
+    },
+    {
+      "line": 1543,
+      "scene_id": null,
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 1544,
+      "scene_id": "E08-S01",
+      "disposition": "E07_remote_continuation_end",
+      "source_checksum_fnv1a": "6df0885a",
+      "event_ids": [
+        "E08-AT-001"
+      ]
+    },
+    {
+      "line": 1545,
+      "scene_id": "E08-S01",
+      "disposition": "E07_remote_continuation_end",
+      "source_checksum_fnv1a": "26822efc",
+      "event_ids": [
+        "E08-AT-002"
+      ]
+    },
+    {
+      "line": 1546,
+      "scene_id": "E08-S01",
+      "disposition": "E07_remote_continuation_end",
+      "source_checksum_fnv1a": "a07c9532",
+      "event_ids": [
+        "E08-AT-003"
+      ]
+    },
+    {
+      "line": 1547,
+      "scene_id": "E08-S01",
+      "disposition": "E07_remote_continuation_end",
+      "source_checksum_fnv1a": "4aaaa54c",
+      "event_ids": [
+        "E08-AT-004"
+      ]
+    },
+    {
+      "line": 1548,
+      "scene_id": "E08-S01",
+      "disposition": "E07_remote_continuation_end",
+      "source_checksum_fnv1a": "39da86a9",
+      "event_ids": [
+        "E08-AT-005"
+      ]
+    },
+    {
+      "line": 1549,
+      "scene_id": "E08-S01",
+      "disposition": "E07_remote_continuation_end",
+      "source_checksum_fnv1a": "fe954e1d",
+      "event_ids": [
+        "E08-AT-006"
+      ]
+    },
+    {
+      "line": 1550,
+      "scene_id": "E08-S01",
+      "disposition": "E07_remote_continuation_end",
+      "source_checksum_fnv1a": "13bf3fe2",
+      "event_ids": [
+        "E08-AT-007"
+      ]
+    },
+    {
+      "line": 1551,
+      "scene_id": "E08-S01",
+      "disposition": "E07_remote_continuation_end",
+      "source_checksum_fnv1a": "5e4a5cb0",
+      "event_ids": [
+        "E08-AT-008"
+      ]
+    },
+    {
+      "line": 1552,
+      "scene_id": "E08-S01",
+      "disposition": "E07_remote_continuation_end",
+      "source_checksum_fnv1a": "e7c8b597",
+      "event_ids": [
+        "E08-AT-009"
+      ]
+    },
+    {
+      "line": 1553,
+      "scene_id": "E08-S01",
+      "disposition": "E07_remote_continuation_end",
+      "source_checksum_fnv1a": "c6a1a387",
+      "event_ids": [
+        "E08-AT-010",
+        "E08-AT-011"
+      ]
+    },
+    {
+      "line": 1554,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "132adca1",
+      "event_ids": [
+        "E08-AT-012"
+      ]
+    },
+    {
+      "line": 1555,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "ff401e2e",
+      "event_ids": [
+        "E08-AT-013"
+      ]
+    },
+    {
+      "line": 1556,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "53144673",
+      "event_ids": [
+        "E08-AT-014"
+      ]
+    },
+    {
+      "line": 1557,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "22258b9d",
+      "event_ids": [
+        "E08-AT-015"
+      ]
+    },
+    {
+      "line": 1558,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "a5791266",
+      "event_ids": [
+        "E08-AT-016"
+      ]
+    },
+    {
+      "line": 1559,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "ae9930e7",
+      "event_ids": [
+        "E08-AT-017"
+      ]
+    },
+    {
+      "line": 1560,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "95f2fae3",
+      "event_ids": [
+        "E08-AT-018"
+      ]
+    },
+    {
+      "line": 1561,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "24fbdf01",
+      "event_ids": [
+        "E08-AT-019"
+      ]
+    },
+    {
+      "line": 1562,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "e367c00f",
+      "event_ids": [
+        "E08-AT-020"
+      ]
+    },
+    {
+      "line": 1563,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "dfce20c4",
+      "event_ids": [
+        "E08-AT-021"
+      ]
+    },
+    {
+      "line": 1564,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "e18116e9",
+      "event_ids": [
+        "E08-AT-022"
+      ]
+    },
+    {
+      "line": 1565,
+      "scene_id": "E08-S02",
+      "disposition": "private_reflection_or_missed_call",
+      "source_checksum_fnv1a": "32406b39",
+      "event_ids": [
+        "E08-AT-023"
+      ]
+    },
+    {
+      "line": 1566,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "95cc0846",
+      "event_ids": [
+        "E08-AT-024"
+      ]
+    },
+    {
+      "line": 1567,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "2e223ad3",
+      "event_ids": [
+        "E08-AT-025"
+      ]
+    },
+    {
+      "line": 1568,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "a2389e52",
+      "event_ids": [
+        "E08-AT-026"
+      ]
+    },
+    {
+      "line": 1569,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "7fadffb6",
+      "event_ids": [
+        "E08-AT-027"
+      ]
+    },
+    {
+      "line": 1570,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "0898a808",
+      "event_ids": [
+        "E08-AT-028"
+      ]
+    },
+    {
+      "line": 1571,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "686b9653",
+      "event_ids": [
+        "E08-AT-029"
+      ]
+    },
+    {
+      "line": 1572,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "4fe28686",
+      "event_ids": [
+        "E08-AT-030"
+      ]
+    },
+    {
+      "line": 1573,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "31bc9693",
+      "event_ids": [
+        "E08-AT-031"
+      ]
+    },
+    {
+      "line": 1574,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "26659335",
+      "event_ids": [
+        "E08-AT-032"
+      ]
+    },
+    {
+      "line": 1575,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "9814d0f4",
+      "event_ids": [
+        "E08-AT-033"
+      ]
+    },
+    {
+      "line": 1576,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "d370ce66",
+      "event_ids": [
+        "E08-AT-034"
+      ]
+    },
+    {
+      "line": 1577,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "b0252132",
+      "event_ids": [
+        "E08-AT-035"
+      ]
+    },
+    {
+      "line": 1578,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "db3c4fbe",
+      "event_ids": [
+        "E08-AT-036"
+      ]
+    },
+    {
+      "line": 1579,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "be013898",
+      "event_ids": [
+        "E08-AT-037"
+      ]
+    },
+    {
+      "line": 1580,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "0c650713",
+      "event_ids": [
+        "E08-AT-038"
+      ]
+    },
+    {
+      "line": 1581,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "f32da24b",
+      "event_ids": [
+        "E08-AT-039"
+      ]
+    },
+    {
+      "line": 1582,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "0a8dd82b",
+      "event_ids": [
+        "E08-AT-040"
+      ]
+    },
+    {
+      "line": 1583,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "359011db",
+      "event_ids": [
+        "E08-AT-041"
+      ]
+    },
+    {
+      "line": 1584,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "8051a247",
+      "event_ids": [
+        "E08-AT-042"
+      ]
+    },
+    {
+      "line": 1585,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "340e22fe",
+      "event_ids": [
+        "E08-AT-043"
+      ]
+    },
+    {
+      "line": 1586,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "39bc2a29",
+      "event_ids": [
+        "E08-AT-044"
+      ]
+    },
+    {
+      "line": 1587,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "ba6f8ad6",
+      "event_ids": [
+        "E08-AT-045"
+      ]
+    },
+    {
+      "line": 1588,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "18d6163d",
+      "event_ids": [
+        "E08-AT-046"
+      ]
+    },
+    {
+      "line": 1589,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "16b412c2",
+      "event_ids": [
+        "E08-AT-047"
+      ]
+    },
+    {
+      "line": 1590,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "b63e8510",
+      "event_ids": [
+        "E08-AT-048"
+      ]
+    },
+    {
+      "line": 1591,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "6ba48bc2",
+      "event_ids": [
+        "E08-AT-049"
+      ]
+    },
+    {
+      "line": 1592,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "dd32f439",
+      "event_ids": [
+        "E08-AT-050"
+      ]
+    },
+    {
+      "line": 1593,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "389361f5",
+      "event_ids": [
+        "E08-AT-051"
+      ]
+    },
+    {
+      "line": 1594,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "b97a5f81",
+      "event_ids": [
+        "E08-AT-052"
+      ]
+    },
+    {
+      "line": 1595,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "d65a26ea",
+      "event_ids": [
+        "E08-AT-053"
+      ]
+    },
+    {
+      "line": 1596,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "54938b81",
+      "event_ids": [
+        "E08-AT-054"
+      ]
+    },
+    {
+      "line": 1597,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "0811c5f9",
+      "event_ids": [
+        "E08-AT-055"
+      ]
+    },
+    {
+      "line": 1598,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "1f93b402",
+      "event_ids": [
+        "E08-AT-056"
+      ]
+    },
+    {
+      "line": 1599,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "5fe0f3c6",
+      "event_ids": [
+        "E08-AT-057"
+      ]
+    },
+    {
+      "line": 1600,
+      "scene_id": "E08-S03",
+      "disposition": "new_bantu_solo_repair_visit",
+      "source_checksum_fnv1a": "69df8898",
+      "event_ids": [
+        "E08-AT-058"
+      ]
+    },
+    {
+      "line": 1601,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "a8fad6af",
+      "event_ids": [
+        "E08-AT-059"
+      ]
+    },
+    {
+      "line": 1602,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "7a390d2d",
+      "event_ids": [
+        "E08-AT-060"
+      ]
+    },
+    {
+      "line": 1603,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "94c3b576",
+      "event_ids": [
+        "E08-AT-061"
+      ]
+    },
+    {
+      "line": 1604,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "ebe7aa58",
+      "event_ids": [
+        "E08-AT-062"
+      ]
+    },
+    {
+      "line": 1605,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "17750b38",
+      "event_ids": [
+        "E08-AT-063"
+      ]
+    },
+    {
+      "line": 1606,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "6bac6498",
+      "event_ids": [
+        "E08-AT-064"
+      ]
+    },
+    {
+      "line": 1607,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "567bf4e6",
+      "event_ids": [
+        "E08-AT-065"
+      ]
+    },
+    {
+      "line": 1608,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "48e429ff",
+      "event_ids": [
+        "E08-AT-066"
+      ]
+    },
+    {
+      "line": 1609,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "28081325",
+      "event_ids": [
+        "E08-AT-067"
+      ]
+    },
+    {
+      "line": 1610,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "b472b987",
+      "event_ids": [
+        "E08-AT-068"
+      ]
+    },
+    {
+      "line": 1611,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "02bbf0f5",
+      "event_ids": [
+        "E08-AT-069"
+      ]
+    },
+    {
+      "line": 1612,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "c09f32f4",
+      "event_ids": [
+        "E08-AT-070"
+      ]
+    },
+    {
+      "line": 1613,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "450320fd",
+      "event_ids": [
+        "E08-AT-071"
+      ]
+    },
+    {
+      "line": 1614,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "a64c3faf",
+      "event_ids": [
+        "E08-AT-072"
+      ]
+    },
+    {
+      "line": 1615,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "656d8ba7",
+      "event_ids": [
+        "E08-AT-073"
+      ]
+    },
+    {
+      "line": 1616,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "50bce963",
+      "event_ids": [
+        "E08-AT-074"
+      ]
+    },
+    {
+      "line": 1617,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "17b0cad5",
+      "event_ids": [
+        "E08-AT-075"
+      ]
+    },
+    {
+      "line": 1618,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "e0baaf47",
+      "event_ids": [
+        "E08-AT-076"
+      ]
+    },
+    {
+      "line": 1619,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "9c5303f5",
+      "event_ids": [
+        "E08-AT-077"
+      ]
+    },
+    {
+      "line": 1620,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "702aad64",
+      "event_ids": [
+        "E08-AT-078"
+      ]
+    },
+    {
+      "line": 1621,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "399ed8b4",
+      "event_ids": [
+        "E08-AT-079"
+      ]
+    },
+    {
+      "line": 1622,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "24dc3be7",
+      "event_ids": [
+        "E08-AT-080"
+      ]
+    },
+    {
+      "line": 1623,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "0acd07de",
+      "event_ids": [
+        "E08-AT-081"
+      ]
+    },
+    {
+      "line": 1624,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "7ab7b359",
+      "event_ids": [
+        "E08-AT-082"
+      ]
+    },
+    {
+      "line": 1625,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "40437172",
+      "event_ids": [
+        "E08-AT-083"
+      ]
+    },
+    {
+      "line": 1626,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "435a2311",
+      "event_ids": [
+        "E08-AT-084"
+      ]
+    },
+    {
+      "line": 1627,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "94c6c6fa",
+      "event_ids": [
+        "E08-AT-085"
+      ]
+    },
+    {
+      "line": 1628,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "29b422d0",
+      "event_ids": [
+        "E08-AT-086"
+      ]
+    },
+    {
+      "line": 1629,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "18540830",
+      "event_ids": [
+        "E08-AT-087"
+      ]
+    },
+    {
+      "line": 1630,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "6ab24c55",
+      "event_ids": [
+        "E08-AT-088"
+      ]
+    },
+    {
+      "line": 1631,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "7266b88f",
+      "event_ids": [
+        "E08-AT-089"
+      ]
+    },
+    {
+      "line": 1632,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "d8d8c694",
+      "event_ids": [
+        "E08-AT-090"
+      ]
+    },
+    {
+      "line": 1633,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "6353e6c8",
+      "event_ids": [
+        "E08-AT-091"
+      ]
+    },
+    {
+      "line": 1634,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "0117f06b",
+      "event_ids": [
+        "E08-AT-092"
+      ]
+    },
+    {
+      "line": 1635,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "280f13d1",
+      "event_ids": [
+        "E08-AT-093"
+      ]
+    },
+    {
+      "line": 1636,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "6b7a5015",
+      "event_ids": [
+        "E08-AT-094"
+      ]
+    },
+    {
+      "line": 1637,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "bbd4ce8b",
+      "event_ids": [
+        "E08-AT-095"
+      ]
+    },
+    {
+      "line": 1638,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "d3f2b989",
+      "event_ids": [
+        "E08-AT-096"
+      ]
+    },
+    {
+      "line": 1639,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "de5c371f",
+      "event_ids": [
+        "E08-AT-097"
+      ]
+    },
+    {
+      "line": 1640,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "cce626cf",
+      "event_ids": [
+        "E08-AT-098"
+      ]
+    },
+    {
+      "line": 1641,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "d79ce929",
+      "event_ids": [
+        "E08-AT-099"
+      ]
+    },
+    {
+      "line": 1642,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "0fb26d99",
+      "event_ids": [
+        "E08-AT-100"
+      ]
+    },
+    {
+      "line": 1643,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "d504ce23",
+      "event_ids": [
+        "E08-AT-101"
+      ]
+    },
+    {
+      "line": 1644,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "208120f4",
+      "event_ids": [
+        "E08-AT-102"
+      ]
+    },
+    {
+      "line": 1645,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "76b60db3",
+      "event_ids": [
+        "E08-AT-103"
+      ]
+    },
+    {
+      "line": 1646,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "7aefd3cb",
+      "event_ids": [
+        "E08-AT-104"
+      ]
+    },
+    {
+      "line": 1647,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "d23ed526",
+      "event_ids": [
+        "E08-AT-105"
+      ]
+    },
+    {
+      "line": 1648,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "b635e8d6",
+      "event_ids": [
+        "E08-AT-106"
+      ]
+    },
+    {
+      "line": 1649,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "ec0e2624",
+      "event_ids": [
+        "E08-AT-107"
+      ]
+    },
+    {
+      "line": 1650,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "42c9e9c8",
+      "event_ids": [
+        "E08-AT-108"
+      ]
+    },
+    {
+      "line": 1651,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "6a033f49",
+      "event_ids": [
+        "E08-AT-109"
+      ]
+    },
+    {
+      "line": 1652,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "48f5e93c",
+      "event_ids": [
+        "E08-AT-110"
+      ]
+    },
+    {
+      "line": 1653,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "55d4d9e5",
+      "event_ids": [
+        "E08-AT-111"
+      ]
+    },
+    {
+      "line": 1654,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "467ea1f0",
+      "event_ids": [
+        "E08-AT-112"
+      ]
+    },
+    {
+      "line": 1655,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "d699250d",
+      "event_ids": [
+        "E08-AT-113"
+      ]
+    },
+    {
+      "line": 1656,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "7ad93d34",
+      "event_ids": [
+        "E08-AT-114"
+      ]
+    },
+    {
+      "line": 1657,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "443bbc99",
+      "event_ids": [
+        "E08-AT-115"
+      ]
+    },
+    {
+      "line": 1658,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "94f807b6",
+      "event_ids": [
+        "E08-AT-116"
+      ]
+    },
+    {
+      "line": 1659,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "84a751a7",
+      "event_ids": [
+        "E08-AT-117"
+      ]
+    },
+    {
+      "line": 1660,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "c4b11019",
+      "event_ids": [
+        "E08-AT-118"
+      ]
+    },
+    {
+      "line": 1661,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "7a24477d",
+      "event_ids": [
+        "E08-AT-119"
+      ]
+    },
+    {
+      "line": 1662,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "5fe69297",
+      "event_ids": [
+        "E08-AT-120"
+      ]
+    },
+    {
+      "line": 1663,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "574151d0",
+      "event_ids": [
+        "E08-AT-121"
+      ]
+    },
+    {
+      "line": 1664,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "bc396b7a",
+      "event_ids": [
+        "E08-AT-122"
+      ]
+    },
+    {
+      "line": 1665,
+      "scene_id": "E08-S04",
+      "disposition": "bantu_solo_conversation_boundaries",
+      "source_checksum_fnv1a": "037c979c",
+      "event_ids": [
+        "E08-AT-123"
+      ]
+    },
+    {
+      "line": 1666,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "663c0f6e",
+      "event_ids": [
+        "E08-AT-124"
+      ]
+    },
+    {
+      "line": 1667,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "f1d5a4be",
+      "event_ids": [
+        "E08-AT-125"
+      ]
+    },
+    {
+      "line": 1668,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "c8560944",
+      "event_ids": [
+        "E08-AT-126"
+      ]
+    },
+    {
+      "line": 1669,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "f85e0bb4",
+      "event_ids": [
+        "E08-AT-127"
+      ]
+    },
+    {
+      "line": 1670,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "d000c002",
+      "event_ids": [
+        "E08-AT-128"
+      ]
+    },
+    {
+      "line": 1671,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "df7075e7",
+      "event_ids": [
+        "E08-AT-129"
+      ]
+    },
+    {
+      "line": 1672,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "cb667d09",
+      "event_ids": [
+        "E08-AT-130"
+      ]
+    },
+    {
+      "line": 1673,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "1016b4e1",
+      "event_ids": [
+        "E08-AT-131"
+      ]
+    },
+    {
+      "line": 1674,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "a58bb40d",
+      "event_ids": [
+        "E08-AT-132"
+      ]
+    },
+    {
+      "line": 1675,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "e157b4ad",
+      "event_ids": [
+        "E08-AT-133"
+      ]
+    },
+    {
+      "line": 1676,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "f04436d3",
+      "event_ids": [
+        "E08-AT-134"
+      ]
+    },
+    {
+      "line": 1677,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "52a501af",
+      "event_ids": [
+        "E08-AT-135"
+      ]
+    },
+    {
+      "line": 1678,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "bf9157cc",
+      "event_ids": [
+        "E08-AT-136"
+      ]
+    },
+    {
+      "line": 1679,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "bf25ee9f",
+      "event_ids": [
+        "E08-AT-137"
+      ]
+    },
+    {
+      "line": 1680,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "667ee834",
+      "event_ids": [
+        "E08-AT-138"
+      ]
+    },
+    {
+      "line": 1681,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "861606be",
+      "event_ids": [
+        "E08-AT-139"
+      ]
+    },
+    {
+      "line": 1682,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "0ec50fd6",
+      "event_ids": [
+        "E08-AT-140"
+      ]
+    },
+    {
+      "line": 1683,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "c8f24a4a",
+      "event_ids": [
+        "E08-AT-141"
+      ]
+    },
+    {
+      "line": 1684,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "e3f447dc",
+      "event_ids": [
+        "E08-AT-142"
+      ]
+    },
+    {
+      "line": 1685,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "9140d2ab",
+      "event_ids": [
+        "E08-AT-143"
+      ]
+    },
+    {
+      "line": 1686,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "411d293c",
+      "event_ids": [
+        "E08-AT-144",
+        "E08-AT-145"
+      ]
+    },
+    {
+      "line": 1687,
+      "scene_id": "E08-S05",
+      "disposition": "bantu_assistance_and_departure",
+      "source_checksum_fnv1a": "210f5557",
+      "event_ids": [
+        "E08-AT-146"
+      ]
+    },
+    {
+      "line": 1688,
+      "scene_id": "E08-S06",
+      "disposition": "bobby_phone_contact",
+      "source_checksum_fnv1a": "02d805f3",
+      "event_ids": [
+        "E08-AT-147"
+      ]
+    },
+    {
+      "line": 1689,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "27bdf299",
+      "event_ids": [
+        "E08-AT-148"
+      ]
+    },
+    {
+      "line": 1690,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "5d6a283b",
+      "event_ids": [
+        "E08-AT-149"
+      ]
+    },
+    {
+      "line": 1691,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "05f2be5e",
+      "event_ids": [
+        "E08-AT-150"
+      ]
+    },
+    {
+      "line": 1692,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "cade16c7",
+      "event_ids": [
+        "E08-AT-151"
+      ]
+    },
+    {
+      "line": 1693,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "0dc272ba",
+      "event_ids": [
+        "E08-AT-152"
+      ]
+    },
+    {
+      "line": 1694,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "969a88a8",
+      "event_ids": [
+        "E08-AT-153"
+      ]
+    },
+    {
+      "line": 1695,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "784e729b",
+      "event_ids": [
+        "E08-AT-154"
+      ]
+    },
+    {
+      "line": 1696,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "a504f684",
+      "event_ids": [
+        "E08-AT-155"
+      ]
+    },
+    {
+      "line": 1697,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "3a400796",
+      "event_ids": [
+        "E08-AT-156"
+      ]
+    },
+    {
+      "line": 1698,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "5ceb10dd",
+      "event_ids": [
+        "E08-AT-157"
+      ]
+    },
+    {
+      "line": 1699,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "144a8ed7",
+      "event_ids": [
+        "E08-AT-158"
+      ]
+    },
+    {
+      "line": 1700,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "3fb6a779",
+      "event_ids": [
+        "E08-AT-159"
+      ]
+    },
+    {
+      "line": 1701,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "5916dce6",
+      "event_ids": [
+        "E08-AT-160"
+      ]
+    },
+    {
+      "line": 1702,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "1a989216",
+      "event_ids": [
+        "E08-AT-161"
+      ]
+    },
+    {
+      "line": 1703,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "096c52c0",
+      "event_ids": [
+        "E08-AT-162"
+      ]
+    },
+    {
+      "line": 1704,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "a78ef476",
+      "event_ids": [
+        "E08-AT-163"
+      ]
+    },
+    {
+      "line": 1705,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "1bd851d2",
+      "event_ids": [
+        "E08-AT-164"
+      ]
+    },
+    {
+      "line": 1706,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "33f5ae8a",
+      "event_ids": [
+        "E08-AT-165"
+      ]
+    },
+    {
+      "line": 1707,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "728662f3",
+      "event_ids": [
+        "E08-AT-166"
+      ]
+    },
+    {
+      "line": 1708,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "0531220f",
+      "event_ids": [
+        "E08-AT-167"
+      ]
+    },
+    {
+      "line": 1709,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "45af4c4e",
+      "event_ids": [
+        "E08-AT-168"
+      ]
+    },
+    {
+      "line": 1710,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "3855584e",
+      "event_ids": [
+        "E08-AT-169"
+      ]
+    },
+    {
+      "line": 1711,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "a626ca5f",
+      "event_ids": [
+        "E08-AT-170"
+      ]
+    },
+    {
+      "line": 1712,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "c35e28e8",
+      "event_ids": [
+        "E08-AT-171"
+      ]
+    },
+    {
+      "line": 1713,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "7feceb96",
+      "event_ids": [
+        "E08-AT-172"
+      ]
+    },
+    {
+      "line": 1714,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "47c8cb49",
+      "event_ids": [
+        "E08-AT-173"
+      ]
+    },
+    {
+      "line": 1715,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "22886368",
+      "event_ids": [
+        "E08-AT-174"
+      ]
+    },
+    {
+      "line": 1716,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "95e21a22",
+      "event_ids": [
+        "E08-AT-175"
+      ]
+    },
+    {
+      "line": 1717,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "976e71b3",
+      "event_ids": [
+        "E08-AT-176"
+      ]
+    },
+    {
+      "line": 1718,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "b021b171",
+      "event_ids": [
+        "E08-AT-177"
+      ]
+    },
+    {
+      "line": 1719,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "379b93a1",
+      "event_ids": [
+        "E08-AT-178"
+      ]
+    },
+    {
+      "line": 1720,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "96145f37",
+      "event_ids": [
+        "E08-AT-179"
+      ]
+    },
+    {
+      "line": 1721,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "3c93c8ba",
+      "event_ids": [
+        "E08-AT-180"
+      ]
+    },
+    {
+      "line": 1722,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "23c91c1c",
+      "event_ids": [
+        "E08-AT-181"
+      ]
+    },
+    {
+      "line": 1723,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "e8dd9710",
+      "event_ids": [
+        "E08-AT-182"
+      ]
+    },
+    {
+      "line": 1724,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "df123a5d",
+      "event_ids": [
+        "E08-AT-183"
+      ]
+    },
+    {
+      "line": 1725,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "1907fef3",
+      "event_ids": [
+        "E08-AT-184"
+      ]
+    },
+    {
+      "line": 1726,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "40043add",
+      "event_ids": [
+        "E08-AT-185"
+      ]
+    },
+    {
+      "line": 1727,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "705354f5",
+      "event_ids": [
+        "E08-AT-186"
+      ]
+    },
+    {
+      "line": 1728,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "e97c3d52",
+      "event_ids": [
+        "E08-AT-187"
+      ]
+    },
+    {
+      "line": 1729,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "91364ae8",
+      "event_ids": [
+        "E08-AT-188"
+      ]
+    },
+    {
+      "line": 1730,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "79386404",
+      "event_ids": [
+        "E08-AT-189"
+      ]
+    },
+    {
+      "line": 1731,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "f5500baa",
+      "event_ids": [
+        "E08-AT-190"
+      ]
+    },
+    {
+      "line": 1732,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "1f989ae3",
+      "event_ids": [
+        "E08-AT-191"
+      ]
+    },
+    {
+      "line": 1733,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "80302d42",
+      "event_ids": [
+        "E08-AT-192"
+      ]
+    },
+    {
+      "line": 1734,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "2e86bec5",
+      "event_ids": [
+        "E08-AT-193"
+      ]
+    },
+    {
+      "line": 1735,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "983fb3be",
+      "event_ids": [
+        "E08-AT-194"
+      ]
+    },
+    {
+      "line": 1736,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "ecabe177",
+      "event_ids": [
+        "E08-AT-195"
+      ]
+    },
+    {
+      "line": 1737,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "cd30a21e",
+      "event_ids": [
+        "E08-AT-196"
+      ]
+    },
+    {
+      "line": 1738,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "bd9ceb39",
+      "event_ids": [
+        "E08-AT-197"
+      ]
+    },
+    {
+      "line": 1739,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "6139ad41",
+      "event_ids": [
+        "E08-AT-198"
+      ]
+    },
+    {
+      "line": 1740,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "7675883a",
+      "event_ids": [
+        "E08-AT-199"
+      ]
+    },
+    {
+      "line": 1741,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "e62bca83",
+      "event_ids": [
+        "E08-AT-200"
+      ]
+    },
+    {
+      "line": 1742,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "8b1e01d5",
+      "event_ids": [
+        "E08-AT-201"
+      ]
+    },
+    {
+      "line": 1743,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "c2d57664",
+      "event_ids": [
+        "E08-AT-202"
+      ]
+    },
+    {
+      "line": 1744,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "195132a2",
+      "event_ids": [
+        "E08-AT-203"
+      ]
+    },
+    {
+      "line": 1745,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "9d8684a4",
+      "event_ids": [
+        "E08-AT-204"
+      ]
+    },
+    {
+      "line": 1746,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "35232754",
+      "event_ids": [
+        "E08-AT-205"
+      ]
+    },
+    {
+      "line": 1747,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "09d10dba",
+      "event_ids": [
+        "E08-AT-206"
+      ]
+    },
+    {
+      "line": 1748,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "1b5f302b",
+      "event_ids": [
+        "E08-AT-207"
+      ]
+    },
+    {
+      "line": 1749,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "cc815c9c",
+      "event_ids": [
+        "E08-AT-208"
+      ]
+    },
+    {
+      "line": 1750,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "a98a6698",
+      "event_ids": [
+        "E08-AT-209"
+      ]
+    },
+    {
+      "line": 1751,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "d0d3a1f4",
+      "event_ids": [
+        "E08-AT-210"
+      ]
+    },
+    {
+      "line": 1752,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "098d8ae1",
+      "event_ids": [
+        "E08-AT-211"
+      ]
+    },
+    {
+      "line": 1753,
+      "scene_id": "E08-S07",
+      "disposition": "new_bobby_skype_call_open_to_E09",
+      "source_checksum_fnv1a": "9c86af6a",
+      "event_ids": [
+        "E08-AT-212"
+      ]
+    },
+    {
+      "line": 1754,
+      "scene_id": null,
+      "disposition": "separator",
+      "source_checksum_fnv1a": "0e3ecb4a",
+      "event_ids": []
+    },
+    {
+      "line": 1755,
+      "scene_id": null,
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 1756,
+      "scene_id": null,
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 1757,
+      "scene_id": null,
+      "disposition": "separator",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": []
+    }
+  ],
+  "qa": {
+    "total_lines": 218,
+    "source_line_disposition_count": 218,
+    "first_pass_event_tags": 212,
+    "hand_summarized_semantic_tags": 131,
+    "unsplit_source_line_tags": 81,
+    "verified_original_hashes": true,
+    "fully_atomic_second_pass_certified": false
+  },
+  "continuity": {
+    "incoming": {
+      "from": "E07-M03",
+      "first_e08_line": 1544,
+      "call_ended_line": 1552
+    },
+    "outgoing": {
+      "to": "E09",
+      "first_e09_narrative_line": 1762,
+      "call_open_at_line": 1753
+    }
+  }
+}
