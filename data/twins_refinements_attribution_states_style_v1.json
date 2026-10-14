@@ -1,12 +1,12 @@
 {
   "schema": "twins_refinements_attribution_states_style_v1",
   "source": "raw/Dhika.txt",
-  "scope": "E01-E07; first-pass source interpretation, not exhaustive QA",
+  "scope": "E01-E08 evidence-based first pass; E09 onwards incomplete",
   "policy": {
     "pair_specific": "A direct pair record must have a named actor/observer related to that pair.",
     "group_context": "Group situations are flagged and do not prove individual touch or knowledge.",
     "status": "Requests, thoughts, reports, visual observations, accidental visibility and contact remain separate.",
-    "ep8_68": "No completed meeting-by-meeting reading maps; current fragmentary work must not be represented as full completion."
+    "ep8_68": "E08 source indexed and narrative first pass. E09–E68 not complete; E08 Skype continues to E09."
   },
   "state_milestones": [
     {
@@ -195,6 +195,51 @@
         "Bobby's reported private relationships can be certified from Bantu's claims alone",
         "The online interaction is an in-person encounter",
         "The session ends when E07 ends"
+      ]
+    },
+    {
+      "track": "DB",
+      "episode": 8,
+      "title": "Remote call repair, trust and practical help",
+      "source": [
+        1544,
+        1687
+      ],
+      "established": [
+        "E07 shared video lesson is closed during E08 (L1544–1552), not duplicated as another video lesson",
+        "After it ends, Bantu arrives alone to check on Dhika and receives an apology (L1566–1575)",
+        "Dhika explains concerns about professional reputation; Bantu promises discretion, then reports a shared wish for the science competition trip (L1585–1597)",
+        "During a slip, Bantu assists Dhika back to the sofa and attempts to ease her knee discomfort (L1666–1675)",
+        "One movement during the assistance is described as accidental, and a later separate action is recorded and must not be merged with it (L1679–1683)",
+        "Bantu departs and says Bobby can participate in Friday's remote session (L1684–1686)"
+      ],
+      "not_established": [
+        "Dhika commits to accompanying the twins to Switzerland",
+        "Bobby is present during Bantu's new in-person visit",
+        "An initially accepted help gesture constitutes broad permission for unrelated later actions",
+        "Bantu knows every aspect of Dhika's unspoken guilt or reasoning"
+      ]
+    },
+    {
+      "track": "DY",
+      "episode": 8,
+      "title": "Call closure, apology and new one-to-one Skype conversation",
+      "source": [
+        1544,
+        1753
+      ],
+      "established": [
+        "The E07 group call finishes in E08; Bobby witnesses the abrupt end, but Dhika's private reasons are not fully shared (L1544–1562)",
+        "Bobby attempts calls that Dhika misses, then receives an apology phone call after Bantu leaves (L1563, L1688)",
+        "A distinct Bobby–Dhika Skype connection begins later (L1689–1701)",
+        "Bobby asks questions and speaks more openly than in some previous interactions, but Dhika also expresses limits (L1708–1750)",
+        "The Skype video scene does not conclude in E08; it continues immediately in E09 (L1753, E09 L1762)"
+      ],
+      "not_established": [
+        "Bobby joined the Bantu in-person meeting",
+        "A remote video exchange is in-person physical contact",
+        "The final action of the Skype exchange is known by E08 alone",
+        "Bobby's unspoken motivations are all known to Dhika"
       ]
     }
   ],
@@ -397,6 +442,76 @@
       "private_thought": "Dhika's intention at L1525 is narrated; it is not necessarily the twins' understanding.",
       "who_knows": "Each twin's spoken words belong to that speaker. The online meeting remains active at the E07/E08 transition.",
       "sequence": "Greetings → Bobby academic explanation → study → shared conversation → group reaction → screen check; same encounter continues E08."
+    },
+    {
+      "episode": 8,
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "source": [
+        1544,
+        1562
+      ],
+      "title": "Cross-episode cut: E07 call closes before new visit",
+      "scene_frame": "E07 video continuation → private thought",
+      "narration": "The writer resumes a scene at the exact action interrupted by the chapter boundary, then uses a sudden change of tone, call termination and a private reflection.",
+      "speech": "Dhika addresses Bantu and announces a schedule change before disconnecting; both twins hear that part.",
+      "private_thought": "Her concern and later reassessment are narrated while she is alone, not spoken during the call.",
+      "who_knows": "Bobby and Bantu observe a sudden reaction; they cannot automatically know Dhika's subsequent internal reasoning.",
+      "sequence": "Video reaction → question → group call ends → private interpretation → time passes."
+    },
+    {
+      "episode": 8,
+      "tracks": [
+        "DB"
+      ],
+      "source": [
+        1563,
+        1600
+      ],
+      "title": "Repair structure: uncertain arrival to explicit reassurance",
+      "scene_frame": "Bantu visits alone, same day",
+      "narration": "The new meeting begins after a time jump. Apology, corrected assumption, fear of reputation damage, reassurance and a potential future-trip report each add a separate change of tone.",
+      "speech": "Bantu asks what happened, Dhika apologizes and explains, Bantu voices trust, then mentions an anticipated travel role.",
+      "private_thought": "Dhika's uncertainty about accompanying the students is internal, not a commitment.",
+      "who_knows": "Bantu only knows what Dhika explains. His report about Bobby is not a direct Bobby speech act.",
+      "sequence": "New arrival → greeting → apology → corrected assumption → trust dialogue → reported plan."
+    },
+    {
+      "episode": 8,
+      "tracks": [
+        "DB"
+      ],
+      "source": [
+        1601,
+        1687
+      ],
+      "title": "Conversation then accident: distinct intentions and assistance",
+      "scene_frame": "Later in Bantu solo visit",
+      "narration": "The narrative shifts from light conversation to an unexpected fall. It distinguishes an accident, practical help, and a subsequent action rather than calling them all one incident.",
+      "speech": "Dhika gives stopping cues and later ends the visit to collect Pappu. Bantu answers with his Friday availability plan.",
+      "private_thought": "The participants' private interpretations are shown at different moments; one should not replace the other's.",
+      "who_knows": "The source establishes both the assistance and a separate later movement; inference of blanket permission would be unsupported.",
+      "sequence": "Dialogue → objection and response → slip → help → further boundary → departure."
+    },
+    {
+      "episode": 8,
+      "tracks": [
+        "DY"
+      ],
+      "source": [
+        1688,
+        1753
+      ],
+      "title": "Phone apology to Skype: two modalities, one cliffhanger",
+      "scene_frame": "Dhika phones Bobby; later Bobby starts a Skype call",
+      "narration": "A single sentence records the phone apology, then a fresh time/location setting establishes a later video call. The author alternates Bobby's shyness with a new willingness to speak.",
+      "speech": "The video conversation includes requests, clarification and conditions, without settling its last unresolved moment.",
+      "private_thought": "The text identifies Bobby's hesitation and Dhika's separate reactions, but does not make those private thoughts common knowledge.",
+      "who_knows": "The final reaction at the E08 boundary is not enough to establish the action that E09 describes next.",
+      "sequence": "Apology phone call → new Skype ringing → connection → back-and-forth dialogue → condition → cliffhanger → E09 continuation."
     }
   ]
 }
