@@ -1,0 +1,1958 @@
+{
+  "schema": "twins_e12_source_ledger_v1",
+  "episode": 12,
+  "source": "raw/Dhika.txt",
+  "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "source_range": [
+    2299,
+    2459
+  ],
+  "status": "E12_SHARED_VISIT_STARTS_AND_CONTINUES_E13",
+  "source_sections": [
+    {
+      "start": 2299,
+      "end": 2316,
+      "kind": "OTHER_PREVIOUS_SCENE"
+    },
+    {
+      "start": 2317,
+      "end": 2322,
+      "kind": "PRIVATE_PREPARATION"
+    },
+    {
+      "start": 2323,
+      "end": 2343,
+      "kind": "TWIN_GROUP_STUDY"
+    },
+    {
+      "start": 2344,
+      "end": 2354,
+      "kind": "STUDY_OUTCOME_AND_HELP_OFFER"
+    },
+    {
+      "start": 2355,
+      "end": 2406,
+      "kind": "GROUP_ASSISTANCE_AND_BOUNDARIES"
+    },
+    {
+      "start": 2407,
+      "end": 2437,
+      "kind": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE"
+    },
+    {
+      "start": 2438,
+      "end": 2455,
+      "kind": "GROUP_OPEN_END"
+    },
+    {
+      "start": 2456,
+      "end": 2459,
+      "kind": "ENDING"
+    }
+  ],
+  "events": [
+    {
+      "id": "E12-AT-001",
+      "episode": 12,
+      "line": 2320,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "prepares_for_twins_tuition",
+      "kind": "preparation",
+      "source_ref": "raw/Dhika.txt#L2320",
+      "source_line_checksum_fnv1a": "1adc3afc",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-002",
+      "episode": 12,
+      "line": 2323,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "welcomes_bantu_and_bobby",
+      "kind": "arrival",
+      "source_ref": "raw/Dhika.txt#L2323",
+      "source_line_checksum_fnv1a": "cde1e0df",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-003",
+      "episode": 12,
+      "line": 2324,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "recalls_last_encounter",
+      "kind": "recollection",
+      "source_ref": "raw/Dhika.txt#L2324",
+      "source_line_checksum_fnv1a": "dbefceea",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-004",
+      "episode": 12,
+      "line": 2326,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "privately_recalls_prior_call",
+      "kind": "memory",
+      "source_ref": "raw/Dhika.txt#L2326",
+      "source_line_checksum_fnv1a": "d81e7783",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-005",
+      "episode": 12,
+      "line": 2327,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "greets_dhika",
+      "kind": "greeting",
+      "source_ref": "raw/Dhika.txt#L2327",
+      "source_line_checksum_fnv1a": "72fade95",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-006",
+      "episode": 12,
+      "line": 2327,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "greets_dhika",
+      "kind": "greeting",
+      "source_ref": "raw/Dhika.txt#L2327",
+      "source_line_checksum_fnv1a": "72fade95",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-007",
+      "episode": 12,
+      "line": 2328,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "reports_competition_deadline",
+      "kind": "academic_dialogue",
+      "source_ref": "raw/Dhika.txt#L2328",
+      "source_line_checksum_fnv1a": "5938c54f",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-008",
+      "episode": 12,
+      "line": 2330,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "clarifies_departure_saturday",
+      "kind": "schedule",
+      "source_ref": "raw/Dhika.txt#L2330",
+      "source_line_checksum_fnv1a": "a79f35f0",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-009",
+      "episode": 12,
+      "line": 2332,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "reports_remaining_topics",
+      "kind": "study_progress",
+      "source_ref": "raw/Dhika.txt#L2332",
+      "source_line_checksum_fnv1a": "f13b773f",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-010",
+      "episode": 12,
+      "line": 2334,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "requests_two_extra_class_days",
+      "kind": "request",
+      "source_ref": "raw/Dhika.txt#L2334",
+      "source_line_checksum_fnv1a": "fb36d013",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-011",
+      "episode": 12,
+      "line": 2335,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "declines_due_to_work",
+      "kind": "schedule_boundary",
+      "source_ref": "raw/Dhika.txt#L2335",
+      "source_line_checksum_fnv1a": "1f314803",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-012",
+      "episode": 12,
+      "line": 2336,
+      "actor": "Narrator",
+      "track": "TRIO",
+      "action": "notes_private_motivation_differs_from_study_reason",
+      "kind": "unspoken_motive",
+      "source_ref": "raw/Dhika.txt#L2336",
+      "source_line_checksum_fnv1a": "91d25c44",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-013",
+      "episode": 12,
+      "line": 2337,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "offers_extended_class_and_friday_test",
+      "kind": "schedule",
+      "source_ref": "raw/Dhika.txt#L2337",
+      "source_line_checksum_fnv1a": "6ea90c13",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-014",
+      "episode": 12,
+      "line": 2338,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "suggests_friday_rest",
+      "kind": "request",
+      "source_ref": "raw/Dhika.txt#L2338",
+      "source_line_checksum_fnv1a": "d3a8471b",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-015",
+      "episode": 12,
+      "line": 2339,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "keeps_friday_test",
+      "kind": "teacher_boundary",
+      "source_ref": "raw/Dhika.txt#L2339",
+      "source_line_checksum_fnv1a": "d0217a7e",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-016",
+      "episode": 12,
+      "line": 2340,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "laughs",
+      "kind": "reaction",
+      "source_ref": "raw/Dhika.txt#L2340",
+      "source_line_checksum_fnv1a": "ea21c1c7",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-017",
+      "episode": 12,
+      "line": 2340,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "appears_disappointed",
+      "kind": "reaction",
+      "source_ref": "raw/Dhika.txt#L2340",
+      "source_line_checksum_fnv1a": "ea21c1c7",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-018",
+      "episode": 12,
+      "line": 2342,
+      "actor": "Group",
+      "track": "TRIO",
+      "action": "completes_two_hour_study_session",
+      "kind": "shared_study",
+      "source_ref": "raw/Dhika.txt#L2342",
+      "source_line_checksum_fnv1a": "fa0151af",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-019",
+      "episode": 12,
+      "line": 2344,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "announces_study_completion",
+      "kind": "study_outcome",
+      "source_ref": "raw/Dhika.txt#L2344",
+      "source_line_checksum_fnv1a": "12cb1f0b",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-020",
+      "episode": 12,
+      "line": 2345,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "thanks_dhika",
+      "kind": "gratitude",
+      "source_ref": "raw/Dhika.txt#L2345",
+      "source_line_checksum_fnv1a": "cfa9e040",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-021",
+      "episode": 12,
+      "line": 2348,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "mentions_tired_legs",
+      "kind": "fatigue",
+      "source_ref": "raw/Dhika.txt#L2348",
+      "source_line_checksum_fnv1a": "40c81da2",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-022",
+      "episode": 12,
+      "line": 2349,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "sits_near_sofa",
+      "kind": "position",
+      "source_ref": "raw/Dhika.txt#L2349",
+      "source_line_checksum_fnv1a": "10a5706f",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-023",
+      "episode": 12,
+      "line": 2349,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "joins_bantu",
+      "kind": "position",
+      "source_ref": "raw/Dhika.txt#L2349",
+      "source_line_checksum_fnv1a": "10a5706f",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-024",
+      "episode": 12,
+      "line": 2351,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "offers_practical_leg_help",
+      "kind": "offer",
+      "source_ref": "raw/Dhika.txt#L2351",
+      "source_line_checksum_fnv1a": "665f2c5c",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-025",
+      "episode": 12,
+      "line": 2352,
+      "actor": "Dhika",
+      "track": "DB",
+      "action": "remembers_prior_bantu_help",
+      "kind": "memory",
+      "source_ref": "raw/Dhika.txt#L2352",
+      "source_line_checksum_fnv1a": "bf4f9bd1",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-026",
+      "episode": 12,
+      "line": 2353,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "initially_declines_assistance",
+      "kind": "refusal",
+      "source_ref": "raw/Dhika.txt#L2353",
+      "source_line_checksum_fnv1a": "4b914a0f",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-027",
+      "episode": 12,
+      "line": 2354,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "repeats_offer",
+      "kind": "request",
+      "source_ref": "raw/Dhika.txt#L2354",
+      "source_line_checksum_fnv1a": "ab70231c",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-028",
+      "episode": 12,
+      "line": 2355,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "begins_help_without_waiting_for_agreement",
+      "kind": "boundary_sensitive_contact",
+      "source_ref": "raw/Dhika.txt#L2355",
+      "source_line_checksum_fnv1a": "2071b7b4",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-029",
+      "episode": 12,
+      "line": 2357,
+      "actor": "Dhika",
+      "track": "DB",
+      "action": "verbally_asks_to_stop",
+      "kind": "boundary_statement",
+      "source_ref": "raw/Dhika.txt#L2357",
+      "source_line_checksum_fnv1a": "7bebc5fc",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-030",
+      "episode": 12,
+      "line": 2358,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "starts_help_on_other_leg",
+      "kind": "practical_contact",
+      "source_ref": "raw/Dhika.txt#L2358",
+      "source_line_checksum_fnv1a": "548a90d2",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-031",
+      "episode": 12,
+      "line": 2359,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "expresses_relief_and_reservation",
+      "kind": "mixed_response",
+      "source_ref": "raw/Dhika.txt#L2359",
+      "source_line_checksum_fnv1a": "6b1a2fc2",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-032",
+      "episode": 12,
+      "line": 2362,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "changes_area_of_assistance",
+      "kind": "boundary_change",
+      "source_ref": "raw/Dhika.txt#L2362",
+      "source_line_checksum_fnv1a": "8e47599b",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-033",
+      "episode": 12,
+      "line": 2363,
+      "actor": "Dhika",
+      "track": "DY",
+      "action": "privately_interprets_bobby_intent",
+      "kind": "narrator_private",
+      "source_ref": "raw/Dhika.txt#L2363",
+      "source_line_checksum_fnv1a": "2c41c3bf",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-034",
+      "episode": 12,
+      "line": 2364,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "follows_with_assistance",
+      "kind": "practical_contact",
+      "source_ref": "raw/Dhika.txt#L2364",
+      "source_line_checksum_fnv1a": "0974937e",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-035",
+      "episode": 12,
+      "line": 2366,
+      "actor": "Bantu",
+      "track": "TRIO",
+      "action": "directs_bobby_attention",
+      "kind": "shared_observation",
+      "source_ref": "raw/Dhika.txt#L2366",
+      "source_line_checksum_fnv1a": "d417d1c2",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-036",
+      "episode": 12,
+      "line": 2368,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "internally_recalls_previous_misstep",
+      "kind": "private_memory",
+      "source_ref": "raw/Dhika.txt#L2368",
+      "source_line_checksum_fnv1a": "fc9f8277",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-037",
+      "episode": 12,
+      "line": 2374,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "unintentional_position_shift",
+      "kind": "accidental_movement",
+      "source_ref": "raw/Dhika.txt#L2374",
+      "source_line_checksum_fnv1a": "9212ce80",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-038",
+      "episode": 12,
+      "line": 2379,
+      "actor": "Narrator",
+      "track": "DB",
+      "action": "bantu_unaware_of_specific_change",
+      "kind": "knowledge_gap",
+      "source_ref": "raw/Dhika.txt#L2379",
+      "source_line_checksum_fnv1a": "87f3ab10",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-039",
+      "episode": 12,
+      "line": 2383,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "notices_change",
+      "kind": "observation",
+      "source_ref": "raw/Dhika.txt#L2383",
+      "source_line_checksum_fnv1a": "32a08897",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-040",
+      "episode": 12,
+      "line": 2388,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "continues_contact_beyond_original_help_area",
+      "kind": "boundary_change",
+      "source_ref": "raw/Dhika.txt#L2388",
+      "source_line_checksum_fnv1a": "ad5c9e42",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-041",
+      "episode": 12,
+      "line": 2389,
+      "actor": "Dhika",
+      "track": "DY",
+      "action": "does_not_immediately_intervene",
+      "kind": "response_not_blanket_permission",
+      "source_ref": "raw/Dhika.txt#L2389",
+      "source_line_checksum_fnv1a": "3d9103dd",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-042",
+      "episode": 12,
+      "line": 2390,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "acts_deliberately_after_observing",
+      "kind": "intentional_action",
+      "source_ref": "raw/Dhika.txt#L2390",
+      "source_line_checksum_fnv1a": "4810cf78",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-043",
+      "episode": 12,
+      "line": 2393,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "continues_assistance_near_boundary",
+      "kind": "boundary_sensitive_contact",
+      "source_ref": "raw/Dhika.txt#L2393",
+      "source_line_checksum_fnv1a": "dbacf927",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-044",
+      "episode": 12,
+      "line": 2394,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "repeats_similar_assistance",
+      "kind": "boundary_sensitive_contact",
+      "source_ref": "raw/Dhika.txt#L2394",
+      "source_line_checksum_fnv1a": "8e2443cf",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-045",
+      "episode": 12,
+      "line": 2407,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "requests_clothing_change",
+      "kind": "request",
+      "source_ref": "raw/Dhika.txt#L2407",
+      "source_line_checksum_fnv1a": "9a553792",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-046",
+      "episode": 12,
+      "line": 2408,
+      "actor": "Dhika",
+      "track": "DB",
+      "action": "declines_request",
+      "kind": "refusal",
+      "source_ref": "raw/Dhika.txt#L2408",
+      "source_line_checksum_fnv1a": "2126890e",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-047",
+      "episode": 12,
+      "line": 2409,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "repeats_request",
+      "kind": "pressure",
+      "source_ref": "raw/Dhika.txt#L2409",
+      "source_line_checksum_fnv1a": "2633fb42",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-048",
+      "episode": 12,
+      "line": 2410,
+      "actor": "Dhika",
+      "track": "DB",
+      "action": "declines_again",
+      "kind": "refusal",
+      "source_ref": "raw/Dhika.txt#L2410",
+      "source_line_checksum_fnv1a": "b3a55981",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-049",
+      "episode": 12,
+      "line": 2411,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "cites_prior_encounters",
+      "kind": "persuasion",
+      "source_ref": "raw/Dhika.txt#L2411",
+      "source_line_checksum_fnv1a": "5bb1783d",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-050",
+      "episode": 12,
+      "line": 2413,
+      "actor": "Dhika",
+      "track": "DB",
+      "action": "reacts_to_persistence",
+      "kind": "frustration",
+      "source_ref": "raw/Dhika.txt#L2413",
+      "source_line_checksum_fnv1a": "c22c234d",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-051",
+      "episode": 12,
+      "line": 2415,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "chooses_clothing_adjustment",
+      "kind": "own_action",
+      "source_ref": "raw/Dhika.txt#L2415",
+      "source_line_checksum_fnv1a": "7c894815",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-052",
+      "episode": 12,
+      "line": 2426,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "initiates_uninvited_boundary_crossing",
+      "kind": "boundary_crossing",
+      "source_ref": "raw/Dhika.txt#L2426",
+      "source_line_checksum_fnv1a": "d8893ae7",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-053",
+      "episode": 12,
+      "line": 2428,
+      "actor": "Dhika",
+      "track": "DB",
+      "action": "interrupts_and_questions_him",
+      "kind": "objection",
+      "source_ref": "raw/Dhika.txt#L2428",
+      "source_line_checksum_fnv1a": "9e5e0d43",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-054",
+      "episode": 12,
+      "line": 2434,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "apologizes",
+      "kind": "apology",
+      "source_ref": "raw/Dhika.txt#L2434",
+      "source_line_checksum_fnv1a": "aa7ae9bc",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-055",
+      "episode": 12,
+      "line": 2435,
+      "actor": "Dhika",
+      "track": "DB",
+      "action": "states_trust_boundary",
+      "kind": "boundary_statement",
+      "source_ref": "raw/Dhika.txt#L2435",
+      "source_line_checksum_fnv1a": "a473e4c5",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-056",
+      "episode": 12,
+      "line": 2436,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "apologizes_again",
+      "kind": "apology",
+      "source_ref": "raw/Dhika.txt#L2436",
+      "source_line_checksum_fnv1a": "c465f003",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-057",
+      "episode": 12,
+      "line": 2438,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "watches_quietly",
+      "kind": "observation",
+      "source_ref": "raw/Dhika.txt#L2438",
+      "source_line_checksum_fnv1a": "2a1d69f1",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-058",
+      "episode": 12,
+      "line": 2439,
+      "actor": "Dhika",
+      "track": "DY",
+      "action": "invites_bobby_to_respond",
+      "kind": "request",
+      "source_ref": "raw/Dhika.txt#L2439",
+      "source_line_checksum_fnv1a": "fc105966",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-059",
+      "episode": 12,
+      "line": 2442,
+      "actor": "Bobby",
+      "track": "DY",
+      "action": "makes_new_request",
+      "kind": "request",
+      "source_ref": "raw/Dhika.txt#L2442",
+      "source_line_checksum_fnv1a": "78bca771",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-060",
+      "episode": 12,
+      "line": 2446,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "states_limit_to_both_twins",
+      "kind": "refusal",
+      "source_ref": "raw/Dhika.txt#L2446",
+      "source_line_checksum_fnv1a": "58cb7d46",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-061",
+      "episode": 12,
+      "line": 2447,
+      "actor": "Bantu",
+      "track": "DB",
+      "action": "repeats_request",
+      "kind": "request",
+      "source_ref": "raw/Dhika.txt#L2447",
+      "source_line_checksum_fnv1a": "0d835049",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-062",
+      "episode": 12,
+      "line": 2448,
+      "actor": "Dhika",
+      "track": "DB",
+      "action": "rejects_repeat_request",
+      "kind": "refusal",
+      "source_ref": "raw/Dhika.txt#L2448",
+      "source_line_checksum_fnv1a": "7f5096e5",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-063",
+      "episode": 12,
+      "line": 2450,
+      "actor": "Dhika",
+      "track": "DY",
+      "action": "checks_bobby_disappointment",
+      "kind": "emotion_check",
+      "source_ref": "raw/Dhika.txt#L2450",
+      "source_line_checksum_fnv1a": "858807df",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-064",
+      "episode": 12,
+      "line": 2451,
+      "actor": "Dhika",
+      "track": "DY",
+      "action": "offers_verbal_reassurance",
+      "kind": "reassurance",
+      "source_ref": "raw/Dhika.txt#L2451",
+      "source_line_checksum_fnv1a": "f9851a0a",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-065",
+      "episode": 12,
+      "line": 2453,
+      "actor": "Dhika",
+      "track": "DY",
+      "action": "privately_considers_boundary",
+      "kind": "internal_state",
+      "source_ref": "raw/Dhika.txt#L2453",
+      "source_line_checksum_fnv1a": "6e8d014e",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E12-AT-066",
+      "episode": 12,
+      "line": 2455,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "reflects_on_own_responsibility",
+      "kind": "reflection",
+      "source_ref": "raw/Dhika.txt#L2455",
+      "source_line_checksum_fnv1a": "9645300e",
+      "review": "first_pass_non_graphic_source_linked"
+    }
+  ],
+  "line_index": [
+    {
+      "line": 2299,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "c3090e75",
+      "event_ids": []
+    },
+    {
+      "line": 2300,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "79dd4cbd",
+      "event_ids": []
+    },
+    {
+      "line": 2301,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": []
+    },
+    {
+      "line": 2302,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 2303,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "ad5d1d8f",
+      "event_ids": []
+    },
+    {
+      "line": 2304,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "8d05210c",
+      "event_ids": []
+    },
+    {
+      "line": 2305,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "5814399b",
+      "event_ids": []
+    },
+    {
+      "line": 2306,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "e1340320",
+      "event_ids": []
+    },
+    {
+      "line": 2307,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "f9532fb4",
+      "event_ids": []
+    },
+    {
+      "line": 2308,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "5909e640",
+      "event_ids": []
+    },
+    {
+      "line": 2309,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "897c887d",
+      "event_ids": []
+    },
+    {
+      "line": 2310,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "03fb4c9c",
+      "event_ids": []
+    },
+    {
+      "line": 2311,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "4cf13b2b",
+      "event_ids": []
+    },
+    {
+      "line": 2312,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "f7f6cae8",
+      "event_ids": []
+    },
+    {
+      "line": 2313,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "56c09ba2",
+      "event_ids": []
+    },
+    {
+      "line": 2314,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "f2c505ef",
+      "event_ids": []
+    },
+    {
+      "line": 2315,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "368c968c",
+      "event_ids": []
+    },
+    {
+      "line": 2316,
+      "disposition": "OTHER_PREVIOUS_SCENE",
+      "source_checksum_fnv1a": "b6919692",
+      "event_ids": []
+    },
+    {
+      "line": 2317,
+      "disposition": "PRIVATE_PREPARATION",
+      "source_checksum_fnv1a": "21c9cbe5",
+      "event_ids": []
+    },
+    {
+      "line": 2318,
+      "disposition": "PRIVATE_PREPARATION",
+      "source_checksum_fnv1a": "bfb4f720",
+      "event_ids": []
+    },
+    {
+      "line": 2319,
+      "disposition": "PRIVATE_PREPARATION",
+      "source_checksum_fnv1a": "2e5f766e",
+      "event_ids": []
+    },
+    {
+      "line": 2320,
+      "disposition": "PRIVATE_PREPARATION",
+      "source_checksum_fnv1a": "1adc3afc",
+      "event_ids": [
+        "E12-AT-001"
+      ]
+    },
+    {
+      "line": 2321,
+      "disposition": "PRIVATE_PREPARATION",
+      "source_checksum_fnv1a": "845511a3",
+      "event_ids": []
+    },
+    {
+      "line": 2322,
+      "disposition": "PRIVATE_PREPARATION",
+      "source_checksum_fnv1a": "063ac33d",
+      "event_ids": []
+    },
+    {
+      "line": 2323,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "cde1e0df",
+      "event_ids": [
+        "E12-AT-002"
+      ]
+    },
+    {
+      "line": 2324,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "dbefceea",
+      "event_ids": [
+        "E12-AT-003"
+      ]
+    },
+    {
+      "line": 2325,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "ad0e5d71",
+      "event_ids": []
+    },
+    {
+      "line": 2326,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "d81e7783",
+      "event_ids": [
+        "E12-AT-004"
+      ]
+    },
+    {
+      "line": 2327,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "72fade95",
+      "event_ids": [
+        "E12-AT-005",
+        "E12-AT-006"
+      ]
+    },
+    {
+      "line": 2328,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "5938c54f",
+      "event_ids": [
+        "E12-AT-007"
+      ]
+    },
+    {
+      "line": 2329,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "2d4066b0",
+      "event_ids": []
+    },
+    {
+      "line": 2330,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "a79f35f0",
+      "event_ids": [
+        "E12-AT-008"
+      ]
+    },
+    {
+      "line": 2331,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "65de1a50",
+      "event_ids": []
+    },
+    {
+      "line": 2332,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "f13b773f",
+      "event_ids": [
+        "E12-AT-009"
+      ]
+    },
+    {
+      "line": 2333,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "67b45a25",
+      "event_ids": []
+    },
+    {
+      "line": 2334,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "fb36d013",
+      "event_ids": [
+        "E12-AT-010"
+      ]
+    },
+    {
+      "line": 2335,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "1f314803",
+      "event_ids": [
+        "E12-AT-011"
+      ]
+    },
+    {
+      "line": 2336,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "91d25c44",
+      "event_ids": [
+        "E12-AT-012"
+      ]
+    },
+    {
+      "line": 2337,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "6ea90c13",
+      "event_ids": [
+        "E12-AT-013"
+      ]
+    },
+    {
+      "line": 2338,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "d3a8471b",
+      "event_ids": [
+        "E12-AT-014"
+      ]
+    },
+    {
+      "line": 2339,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "d0217a7e",
+      "event_ids": [
+        "E12-AT-015"
+      ]
+    },
+    {
+      "line": 2340,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "ea21c1c7",
+      "event_ids": [
+        "E12-AT-016",
+        "E12-AT-017"
+      ]
+    },
+    {
+      "line": 2341,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "492936ea",
+      "event_ids": []
+    },
+    {
+      "line": 2342,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "fa0151af",
+      "event_ids": [
+        "E12-AT-018"
+      ]
+    },
+    {
+      "line": 2343,
+      "disposition": "TWIN_GROUP_STUDY",
+      "source_checksum_fnv1a": "3d34d255",
+      "event_ids": []
+    },
+    {
+      "line": 2344,
+      "disposition": "STUDY_OUTCOME_AND_HELP_OFFER",
+      "source_checksum_fnv1a": "12cb1f0b",
+      "event_ids": [
+        "E12-AT-019"
+      ]
+    },
+    {
+      "line": 2345,
+      "disposition": "STUDY_OUTCOME_AND_HELP_OFFER",
+      "source_checksum_fnv1a": "cfa9e040",
+      "event_ids": [
+        "E12-AT-020"
+      ]
+    },
+    {
+      "line": 2346,
+      "disposition": "STUDY_OUTCOME_AND_HELP_OFFER",
+      "source_checksum_fnv1a": "6168778e",
+      "event_ids": []
+    },
+    {
+      "line": 2347,
+      "disposition": "STUDY_OUTCOME_AND_HELP_OFFER",
+      "source_checksum_fnv1a": "3834f451",
+      "event_ids": []
+    },
+    {
+      "line": 2348,
+      "disposition": "STUDY_OUTCOME_AND_HELP_OFFER",
+      "source_checksum_fnv1a": "40c81da2",
+      "event_ids": [
+        "E12-AT-021"
+      ]
+    },
+    {
+      "line": 2349,
+      "disposition": "STUDY_OUTCOME_AND_HELP_OFFER",
+      "source_checksum_fnv1a": "10a5706f",
+      "event_ids": [
+        "E12-AT-022",
+        "E12-AT-023"
+      ]
+    },
+    {
+      "line": 2350,
+      "disposition": "STUDY_OUTCOME_AND_HELP_OFFER",
+      "source_checksum_fnv1a": "7a30984f",
+      "event_ids": []
+    },
+    {
+      "line": 2351,
+      "disposition": "STUDY_OUTCOME_AND_HELP_OFFER",
+      "source_checksum_fnv1a": "665f2c5c",
+      "event_ids": [
+        "E12-AT-024"
+      ]
+    },
+    {
+      "line": 2352,
+      "disposition": "STUDY_OUTCOME_AND_HELP_OFFER",
+      "source_checksum_fnv1a": "bf4f9bd1",
+      "event_ids": [
+        "E12-AT-025"
+      ]
+    },
+    {
+      "line": 2353,
+      "disposition": "STUDY_OUTCOME_AND_HELP_OFFER",
+      "source_checksum_fnv1a": "4b914a0f",
+      "event_ids": [
+        "E12-AT-026"
+      ]
+    },
+    {
+      "line": 2354,
+      "disposition": "STUDY_OUTCOME_AND_HELP_OFFER",
+      "source_checksum_fnv1a": "ab70231c",
+      "event_ids": [
+        "E12-AT-027"
+      ]
+    },
+    {
+      "line": 2355,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "2071b7b4",
+      "event_ids": [
+        "E12-AT-028"
+      ]
+    },
+    {
+      "line": 2356,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "ba29b658",
+      "event_ids": []
+    },
+    {
+      "line": 2357,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "7bebc5fc",
+      "event_ids": [
+        "E12-AT-029"
+      ]
+    },
+    {
+      "line": 2358,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "548a90d2",
+      "event_ids": [
+        "E12-AT-030"
+      ]
+    },
+    {
+      "line": 2359,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "6b1a2fc2",
+      "event_ids": [
+        "E12-AT-031"
+      ]
+    },
+    {
+      "line": 2360,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "6c57f70a",
+      "event_ids": []
+    },
+    {
+      "line": 2361,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "342b2070",
+      "event_ids": []
+    },
+    {
+      "line": 2362,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "8e47599b",
+      "event_ids": [
+        "E12-AT-032"
+      ]
+    },
+    {
+      "line": 2363,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "2c41c3bf",
+      "event_ids": [
+        "E12-AT-033"
+      ]
+    },
+    {
+      "line": 2364,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "0974937e",
+      "event_ids": [
+        "E12-AT-034"
+      ]
+    },
+    {
+      "line": 2365,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "28daa977",
+      "event_ids": []
+    },
+    {
+      "line": 2366,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "d417d1c2",
+      "event_ids": [
+        "E12-AT-035"
+      ]
+    },
+    {
+      "line": 2367,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "cf4a8e8b",
+      "event_ids": []
+    },
+    {
+      "line": 2368,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "fc9f8277",
+      "event_ids": [
+        "E12-AT-036"
+      ]
+    },
+    {
+      "line": 2369,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "2bc80d40",
+      "event_ids": []
+    },
+    {
+      "line": 2370,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "639f6d0b",
+      "event_ids": []
+    },
+    {
+      "line": 2371,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "e1a060d5",
+      "event_ids": []
+    },
+    {
+      "line": 2372,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "b9eaaaae",
+      "event_ids": []
+    },
+    {
+      "line": 2373,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "872f01c0",
+      "event_ids": []
+    },
+    {
+      "line": 2374,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "9212ce80",
+      "event_ids": [
+        "E12-AT-037"
+      ]
+    },
+    {
+      "line": 2375,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "5fee4fd0",
+      "event_ids": []
+    },
+    {
+      "line": 2376,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "d949b118",
+      "event_ids": []
+    },
+    {
+      "line": 2377,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "dfad9896",
+      "event_ids": []
+    },
+    {
+      "line": 2378,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "d3c0b48b",
+      "event_ids": []
+    },
+    {
+      "line": 2379,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "87f3ab10",
+      "event_ids": [
+        "E12-AT-038"
+      ]
+    },
+    {
+      "line": 2380,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "b5f41012",
+      "event_ids": []
+    },
+    {
+      "line": 2381,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "a4709d33",
+      "event_ids": []
+    },
+    {
+      "line": 2382,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "716d4966",
+      "event_ids": []
+    },
+    {
+      "line": 2383,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "32a08897",
+      "event_ids": [
+        "E12-AT-039"
+      ]
+    },
+    {
+      "line": 2384,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "b73ee3eb",
+      "event_ids": []
+    },
+    {
+      "line": 2385,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "db3ee6cf",
+      "event_ids": []
+    },
+    {
+      "line": 2386,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "6ce6af40",
+      "event_ids": []
+    },
+    {
+      "line": 2387,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "2e7d9596",
+      "event_ids": []
+    },
+    {
+      "line": 2388,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "ad5c9e42",
+      "event_ids": [
+        "E12-AT-040"
+      ]
+    },
+    {
+      "line": 2389,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "3d9103dd",
+      "event_ids": [
+        "E12-AT-041"
+      ]
+    },
+    {
+      "line": 2390,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "4810cf78",
+      "event_ids": [
+        "E12-AT-042"
+      ]
+    },
+    {
+      "line": 2391,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "b602ed6d",
+      "event_ids": []
+    },
+    {
+      "line": 2392,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "79a21634",
+      "event_ids": []
+    },
+    {
+      "line": 2393,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "dbacf927",
+      "event_ids": [
+        "E12-AT-043"
+      ]
+    },
+    {
+      "line": 2394,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "8e2443cf",
+      "event_ids": [
+        "E12-AT-044"
+      ]
+    },
+    {
+      "line": 2395,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "e26c7fa1",
+      "event_ids": []
+    },
+    {
+      "line": 2396,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "430f9775",
+      "event_ids": []
+    },
+    {
+      "line": 2397,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "84a51c71",
+      "event_ids": []
+    },
+    {
+      "line": 2398,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "aa4b73e5",
+      "event_ids": []
+    },
+    {
+      "line": 2399,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "c5dcab0b",
+      "event_ids": []
+    },
+    {
+      "line": 2400,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "a9c4225b",
+      "event_ids": []
+    },
+    {
+      "line": 2401,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "20f75a68",
+      "event_ids": []
+    },
+    {
+      "line": 2402,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "207fe530",
+      "event_ids": []
+    },
+    {
+      "line": 2403,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "fb290767",
+      "event_ids": []
+    },
+    {
+      "line": 2404,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "cd367610",
+      "event_ids": []
+    },
+    {
+      "line": 2405,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "58c20b41",
+      "event_ids": []
+    },
+    {
+      "line": 2406,
+      "disposition": "GROUP_ASSISTANCE_AND_BOUNDARIES",
+      "source_checksum_fnv1a": "7994ea33",
+      "event_ids": []
+    },
+    {
+      "line": 2407,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "9a553792",
+      "event_ids": [
+        "E12-AT-045"
+      ]
+    },
+    {
+      "line": 2408,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "2126890e",
+      "event_ids": [
+        "E12-AT-046"
+      ]
+    },
+    {
+      "line": 2409,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "2633fb42",
+      "event_ids": [
+        "E12-AT-047"
+      ]
+    },
+    {
+      "line": 2410,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "b3a55981",
+      "event_ids": [
+        "E12-AT-048"
+      ]
+    },
+    {
+      "line": 2411,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "5bb1783d",
+      "event_ids": [
+        "E12-AT-049"
+      ]
+    },
+    {
+      "line": 2412,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "9a85cc5d",
+      "event_ids": []
+    },
+    {
+      "line": 2413,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "c22c234d",
+      "event_ids": [
+        "E12-AT-050"
+      ]
+    },
+    {
+      "line": 2414,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "0ee43bc7",
+      "event_ids": []
+    },
+    {
+      "line": 2415,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "7c894815",
+      "event_ids": [
+        "E12-AT-051"
+      ]
+    },
+    {
+      "line": 2416,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "4c7abb5b",
+      "event_ids": []
+    },
+    {
+      "line": 2417,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "545058ee",
+      "event_ids": []
+    },
+    {
+      "line": 2418,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "2f8ea4c0",
+      "event_ids": []
+    },
+    {
+      "line": 2419,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "17ae82c6",
+      "event_ids": []
+    },
+    {
+      "line": 2420,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "1831ab81",
+      "event_ids": []
+    },
+    {
+      "line": 2421,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "504516f8",
+      "event_ids": []
+    },
+    {
+      "line": 2422,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "008bbaee",
+      "event_ids": []
+    },
+    {
+      "line": 2423,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "39cf084f",
+      "event_ids": []
+    },
+    {
+      "line": 2424,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "225cafab",
+      "event_ids": []
+    },
+    {
+      "line": 2425,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "751121e8",
+      "event_ids": []
+    },
+    {
+      "line": 2426,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "d8893ae7",
+      "event_ids": [
+        "E12-AT-052"
+      ]
+    },
+    {
+      "line": 2427,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "21beb6a4",
+      "event_ids": []
+    },
+    {
+      "line": 2428,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "9e5e0d43",
+      "event_ids": [
+        "E12-AT-053"
+      ]
+    },
+    {
+      "line": 2429,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "cb8f9946",
+      "event_ids": []
+    },
+    {
+      "line": 2430,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "4d8a0913",
+      "event_ids": []
+    },
+    {
+      "line": 2431,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "9e8eca93",
+      "event_ids": []
+    },
+    {
+      "line": 2432,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "2a733777",
+      "event_ids": []
+    },
+    {
+      "line": 2433,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "ef4fb6ad",
+      "event_ids": []
+    },
+    {
+      "line": 2434,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "aa7ae9bc",
+      "event_ids": [
+        "E12-AT-054"
+      ]
+    },
+    {
+      "line": 2435,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "a473e4c5",
+      "event_ids": [
+        "E12-AT-055"
+      ]
+    },
+    {
+      "line": 2436,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "c465f003",
+      "event_ids": [
+        "E12-AT-056"
+      ]
+    },
+    {
+      "line": 2437,
+      "disposition": "GROUP_REQUESTS_AND_BOUNDARY_RESPONSE",
+      "source_checksum_fnv1a": "034323ef",
+      "event_ids": []
+    },
+    {
+      "line": 2438,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "2a1d69f1",
+      "event_ids": [
+        "E12-AT-057"
+      ]
+    },
+    {
+      "line": 2439,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "fc105966",
+      "event_ids": [
+        "E12-AT-058"
+      ]
+    },
+    {
+      "line": 2440,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "f84183ce",
+      "event_ids": []
+    },
+    {
+      "line": 2441,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "861e9712",
+      "event_ids": []
+    },
+    {
+      "line": 2442,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "78bca771",
+      "event_ids": [
+        "E12-AT-059"
+      ]
+    },
+    {
+      "line": 2443,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "eed79ec5",
+      "event_ids": []
+    },
+    {
+      "line": 2444,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "df6ff99c",
+      "event_ids": []
+    },
+    {
+      "line": 2445,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "33ead059",
+      "event_ids": []
+    },
+    {
+      "line": 2446,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "58cb7d46",
+      "event_ids": [
+        "E12-AT-060"
+      ]
+    },
+    {
+      "line": 2447,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "0d835049",
+      "event_ids": [
+        "E12-AT-061"
+      ]
+    },
+    {
+      "line": 2448,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "7f5096e5",
+      "event_ids": [
+        "E12-AT-062"
+      ]
+    },
+    {
+      "line": 2449,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "7b7f8dd5",
+      "event_ids": []
+    },
+    {
+      "line": 2450,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "858807df",
+      "event_ids": [
+        "E12-AT-063"
+      ]
+    },
+    {
+      "line": 2451,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "f9851a0a",
+      "event_ids": [
+        "E12-AT-064"
+      ]
+    },
+    {
+      "line": 2452,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "06252fdb",
+      "event_ids": []
+    },
+    {
+      "line": 2453,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "6e8d014e",
+      "event_ids": [
+        "E12-AT-065"
+      ]
+    },
+    {
+      "line": 2454,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "c8902921",
+      "event_ids": []
+    },
+    {
+      "line": 2455,
+      "disposition": "GROUP_OPEN_END",
+      "source_checksum_fnv1a": "9645300e",
+      "event_ids": [
+        "E12-AT-066"
+      ]
+    },
+    {
+      "line": 2456,
+      "disposition": "ENDING",
+      "source_checksum_fnv1a": "0e3ecb4a",
+      "event_ids": []
+    },
+    {
+      "line": 2457,
+      "disposition": "ENDING",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 2458,
+      "disposition": "ENDING",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 2459,
+      "disposition": "ENDING",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": []
+    }
+  ],
+  "qa": {
+    "indexed_original_lines": 161,
+    "source_linked_tags": 66,
+    "unclassified_lines": 0,
+    "checksums_match": true,
+    "exhaustive_atomic_review": false
+  },
+  "interpretation_boundaries": [
+    "A name mention, memory or call does not establish in-person attendance.",
+    "Do not assign one twin's action or private knowledge to the other.",
+    "Stop requests, refusals and voluntary decisions are separate events.",
+    "E12 tuition encounter remains open into E13, then ends at L2476.",
+    "E13 after L2476 concerns another-character scene; references to twins are memories, not new meetings."
+  ]
+}
