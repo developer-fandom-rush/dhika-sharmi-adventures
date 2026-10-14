@@ -1,0 +1,207 @@
+{
+  "schema": "dhika_twins_e01_state_transition_v1",
+  "source": "raw/Dhika.txt",
+  "episode": 1,
+  "rules": [
+    "Only on-page evidence",
+    "Do not copy E68 emotional state back into E01",
+    "Distinguish observable action from a character's interpretation",
+    "No source evidence = unknown, not never",
+    "Do not collapse different actions or actors into one milestone"
+  ],
+  "tracks": [
+    {
+      "pair": "Dhika–Bantu",
+      "as_of_e01_relation": "Teacher and student, recurring friendly compliments, described as one of her favourite twins",
+      "evidence": [
+        [
+          37,
+          44
+        ],
+        [
+          73,
+          80
+        ]
+      ],
+      "state_changes": [
+        {
+          "from": "Previously uncomfortable when addressed as pretty",
+          "to": "Secretly anticipates Bantu's recurring compliments",
+          "at": 44,
+          "provenance": "narration reporting earlier-to-current change"
+        },
+        {
+          "from": "Neutral group travel request",
+          "to": "Wants to be seated near Dhika but is seated behind Bobby",
+          "at": 95,
+          "provenance": "narrated Bantu motivation"
+        },
+        {
+          "from": "Bantu observes Bobby's gaze and shares wink",
+          "to": "Bantu resents Bobby taking the middle position; does not know exact ride contact",
+          "at": 108,
+          "provenance": "narrator knowledge asymmetry"
+        }
+      ],
+      "verified_in_e01": {
+        "observed_visual": [
+          [
+            92,
+            92
+          ]
+        ],
+        "contact_with_Dhika": [],
+        "contact_with_Bobby": [
+          [
+            92,
+            92
+          ]
+        ],
+        "spoken_compliments": [
+          [
+            33,
+            34
+          ],
+          [
+            74,
+            80
+          ]
+        ],
+        "kisses_with_Dhika": []
+      },
+      "not_established": [
+        "Exclusive romance",
+        "Bantu's knowledge of Bobby's exact body contact"
+      ]
+    },
+    {
+      "pair": "Dhika–Bobby",
+      "as_of_e01_relation": "Teacher and student, Dhika slightly prefers the shyer twin",
+      "evidence": [
+        [
+          41,
+          43
+        ],
+        [
+          81,
+          103
+        ]
+      ],
+      "state_changes": [
+        {
+          "from": "Quiet observer in staff room",
+          "to": "Notices Dhika's exposed hip; she notices and feels embarrassed",
+          "at": 82,
+          "provenance": "source narration"
+        },
+        {
+          "from": "Wants proximity but does not tell Bantu",
+          "to": "Boards bike middle and physically holds Dhika beyond what she expected",
+          "at": 99,
+          "provenance": "narrated motive and direct action"
+        },
+        {
+          "from": "Dhika expects shoulder hold for balance",
+          "to": "She feels surprised, then interprets the body position as innocent rather than confronting him",
+          "at": 101,
+          "provenance": "Dhika's narrated thoughts"
+        },
+        {
+          "from": "Bobby holds Dhika by hips and stomach",
+          "to": "Bobby's finger taps stomach over saree and hand motion contacts exposed hip",
+          "at": 102,
+          "provenance": "direct action"
+        },
+        {
+          "from": "Contact ongoing",
+          "to": "Ride ends; Dhika experiences chill and shyness",
+          "at": 103,
+          "provenance": "narrated response"
+        }
+      ],
+      "verified_in_e01": {
+        "observed_visual": [
+          [
+            81,
+            82
+          ],
+          [
+            92,
+            92
+          ]
+        ],
+        "contact_with_Dhika": [
+          [
+            99,
+            99
+          ],
+          [
+            102,
+            102
+          ]
+        ],
+        "kisses_with_Dhika": []
+      },
+      "not_established": [
+        "How Bobby later interprets her silence",
+        "Future physical access",
+        "Whether she explicitly approves each contact"
+      ]
+    },
+    {
+      "pair": "Dhika–Bantu–Bobby",
+      "as_of_e01_relation": "Teacher travelling with two twins (students) in one shared vehicle, roles are not identical",
+      "evidence": [
+        [
+          83,
+          108
+        ]
+      ],
+      "state_changes": [
+        {
+          "from": "Bantu requests ride using narrator-confirmed pretext",
+          "to": "Dhika agrees to carry both twins",
+          "at": 91,
+          "provenance": "dialogue plus narration"
+        },
+        {
+          "from": "Dhika assigns Bobby middle and Bantu rear",
+          "to": "Bobby holds Dhika and Bantu remains behind Bobby",
+          "at": 99,
+          "provenance": "positioning and direct action"
+        },
+        {
+          "from": "All are present during the ride",
+          "to": "Each has different knowledge of Bobby's contact",
+          "at": 108,
+          "provenance": "narrated asymmetry"
+        }
+      ],
+      "not_established": [
+        "Three-person shared physical contact with Dhika",
+        "Knowledge that Bantu witnessed Bobby's individual hand placement"
+      ]
+    }
+  ],
+  "open_source_questions": [
+    {
+      "id": "E01-Q1",
+      "source": 45,
+      "issue": "An apparent speaker-label inconsistency; the line is attributed to Dhika despite compliment wording.",
+      "status": "OPEN"
+    },
+    {
+      "id": "E01-Q2",
+      "source": 79,
+      "issue": "The episode refers to Bantu as 18; user stated age 20 separately. Chronology and provenance require reconciliation.",
+      "status": "OPEN"
+    },
+    {
+      "id": "E01-Q3",
+      "source": 103,
+      "issue": "Dhika's retrospective boundary is her perceived prior experience, not a certificate for unread earlier events.",
+      "status": "SOURCE_SCOPE_LIMITATION"
+    }
+  ],
+  "not_future_prediction": true
+}
