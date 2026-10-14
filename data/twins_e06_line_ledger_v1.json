@@ -15,7 +15,8 @@
     "Bobby stayed after line 1199",
     "Bobby has knowledge of Chotu-only follow-on",
     "No direct new twin action is inferred from Chotu-only aftermath",
-    "One source line with separate actions may need later independent QA"
+    "One source line with separate actions may need later independent QA",
+    "Records after L1199 are NON_TWIN_CONTEXT, not Dhika–Bobby–Chotu group activity."
   ],
   "scenes": [
     {
@@ -1780,56 +1781,60 @@
       "episode": 6,
       "line": 1200,
       "scene_id": "E06-S07",
-      "track": "DBC",
+      "track": "NON_TWIN_CONTEXT",
       "actor": "Narrator",
       "action": "bobby_already_absent_chotu_only_continues",
       "kind": "absence_marker",
       "outcome": "narrated",
       "source_ref": "raw/Dhika.txt#L1200",
       "source_line_checksum_fnv1a": "796bc03e",
-      "review": "source_line_checked_semantic_first_pass"
+      "review": "source_line_checked_semantic_first_pass",
+      "scope": "Context only: no Bantu/Bobby presence or current action"
     },
     {
       "id": "E06-AT-120",
       "episode": 6,
       "line": 1285,
       "scene_id": "E06-S07",
-      "track": "DBC",
+      "track": "NON_TWIN_CONTEXT",
       "actor": "Narrator",
       "action": "chotu_departs_after_private_continuation",
       "kind": "absence_marker",
       "outcome": "narrated",
       "source_ref": "raw/Dhika.txt#L1285",
       "source_line_checksum_fnv1a": "198f2686",
-      "review": "source_line_checked_semantic_first_pass"
+      "review": "source_line_checked_semantic_first_pass",
+      "scope": "Context only: no Bantu/Bobby presence or current action"
     },
     {
       "id": "E06-AT-121",
       "episode": 6,
       "line": 1288,
       "scene_id": "E06-S07",
-      "track": "DBC",
+      "track": "NON_TWIN_CONTEXT",
       "actor": "Dhika",
       "action": "has_guilt_reflection_that_carries_to_e07",
       "kind": "aftermath",
       "outcome": "narrated",
       "source_ref": "raw/Dhika.txt#L1288",
       "source_line_checksum_fnv1a": "74f55444",
-      "review": "source_line_checked_semantic_first_pass"
+      "review": "source_line_checked_semantic_first_pass",
+      "scope": "Context only: no Bantu/Bobby presence or current action"
     },
     {
       "id": "E06-AT-122",
       "episode": 6,
       "line": 1293,
       "scene_id": "E06-S07",
-      "track": "DBC",
+      "track": "NON_TWIN_CONTEXT",
       "actor": "Narrator",
       "action": "end_e06_private_aftermath",
       "kind": "scene_end",
       "outcome": "narrated",
       "source_ref": "raw/Dhika.txt#L1293",
       "source_line_checksum_fnv1a": "eb970989",
-      "review": "source_line_checked_semantic_first_pass"
+      "review": "source_line_checked_semantic_first_pass",
+      "scope": "Context only: no Bantu/Bobby presence or current action"
     }
   ],
   "line_index": [
