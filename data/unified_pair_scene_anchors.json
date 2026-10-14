@@ -1,0 +1,295 @@
+{
+  "schema": "unified_twin_groups_source_anchor_v1",
+  "source": "raw/Dhika.txt",
+  "status": "Source-backed scene anchors; not a substitute for line-by-line atomic certification",
+  "source_policy": "Each scene has an explicit participant scope. Mention, absence, observer, and direct participation must not be conflated.",
+  "aliases": {
+    "Bantu": [
+      "Bantu"
+    ],
+    "Bobby": [
+      "Bobby"
+    ],
+    "Chotu": [
+      "Chotu",
+      "Babu"
+    ],
+    "Dhika": [
+      "Dhika"
+    ]
+  },
+  "tracks": [
+    "DB",
+    "DY",
+    "TRIO",
+    "DBC"
+  ],
+  "scenes": [
+    {
+      "id": "T01",
+      "episode": 1,
+      "start": 32,
+      "end": 44,
+      "track": "TRIO",
+      "kind": "campus_introduction",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "roles": "Bobby appears as nearby observer; Bantu initiates conversation",
+      "status": "VERIFIED_SOURCE_SCENE"
+    },
+    {
+      "id": "T02",
+      "episode": 1,
+      "start": 72,
+      "end": 108,
+      "track": "TRIO",
+      "kind": "shared_ride",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "roles": "Different seating positions and knowledge after the ride",
+      "status": "VERIFIED_SOURCE_SCENE"
+    },
+    {
+      "id": "T03",
+      "episode": 2,
+      "start": 309,
+      "end": 380,
+      "track": "TRIO",
+      "kind": "tuition_request_home_visit_and_aftermath",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "roles": "Aftermath includes a later conversation with John when twins are absent",
+      "status": "VERIFIED_SOURCE_SCENE"
+    },
+    {
+      "id": "T04",
+      "episode": 3,
+      "start": 490,
+      "end": 525,
+      "track": "TRIO",
+      "kind": "first_tuition_and_conversation",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "roles": "Both participate in study, but individual comments and actions differ",
+      "status": "VERIFIED_SOURCE_SCENE"
+    },
+    {
+      "id": "T05",
+      "episode": 3,
+      "start": 542,
+      "end": 572,
+      "track": "TRIO",
+      "kind": "next_class_and_reassurance",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "roles": "Different responses to an unexpected incident",
+      "status": "VERIFIED_SOURCE_SCENE"
+    },
+    {
+      "id": "T06",
+      "episode": 4,
+      "start": 660,
+      "end": 830,
+      "track": "TRIO",
+      "kind": "class_conversation_clothing_and_boundaries",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "roles": "Group scene; individual requests and responses retained separately",
+      "status": "VERIFIED_SOURCE_SCENE"
+    },
+    {
+      "id": "T07",
+      "episode": 5,
+      "start": 839,
+      "end": 854,
+      "track": "TRIO",
+      "kind": "farewell_and_reciprocal_greetings",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "roles": "Scene continues from E04; distinct directions of affectionate gestures",
+      "status": "VERIFIED_SOURCE_SCENE"
+    },
+    {
+      "id": "T08",
+      "episode": 5,
+      "start": 885,
+      "end": 952,
+      "track": "DB",
+      "kind": "separate_shopping_encounter",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "absent": [
+        "Bobby"
+      ],
+      "roles": "Bobby is explicitly not present at this encounter",
+      "status": "VERIFIED_SOURCE_SCENE"
+    },
+    {
+      "id": "T09",
+      "episode": 6,
+      "start": 1143,
+      "end": 1199,
+      "track": "DBC",
+      "kind": "shared_painting_and_practical_help",
+      "participants": [
+        "Dhika",
+        "Bobby",
+        "Chotu"
+      ],
+      "absent": [
+        "Bantu"
+      ],
+      "roles": "Bobby requests to stay; all three paint; practical assistance and departure have separate parts",
+      "status": "VERIFIED_SOURCE_SCENE"
+    },
+    {
+      "id": "T10",
+      "episode": 67,
+      "start": 13474,
+      "end": 13483,
+      "track": "DBC",
+      "kind": "shared_room_sleeping_arrangement",
+      "participants": [
+        "Dhika",
+        "Bobby",
+        "Chotu",
+        "Bantu",
+        "John"
+      ],
+      "roles": "Co-present for part of the conversation; subsequent departures separated",
+      "status": "VERIFIED_SOURCE_SCENE"
+    },
+    {
+      "id": "T11",
+      "episode": 67,
+      "start": 13549,
+      "end": 13558,
+      "track": "TRIO",
+      "kind": "twins_room_visit",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "absent": [
+        "Chotu"
+      ],
+      "roles": "Chotu located in a separate room afterward; no group contact with Chotu inferred",
+      "status": "VERIFIED_SOURCE_SCENE"
+    },
+    {
+      "id": "T12",
+      "episode": 68,
+      "start": 13800,
+      "end": 13842,
+      "track": "DY",
+      "kind": "remote_video_call",
+      "participants": [
+        "Dhika",
+        "Bobby"
+      ],
+      "absent": [
+        "Chotu"
+      ],
+      "roles": "Remote call; physical proximity not established",
+      "status": "VERIFIED_SOURCE_SCENE"
+    }
+  ],
+  "qa_gaps": [
+    {
+      "id": "G01",
+      "priority": "P0",
+      "title": "Actor → action → recipient",
+      "closure": "Mandatory initiator, target, observer and bystander IDs per event"
+    },
+    {
+      "id": "G02",
+      "priority": "P0",
+      "title": "Multi-action splitting",
+      "closure": "Independent motion, speech, response and stoppage rows for each source line"
+    },
+    {
+      "id": "G03",
+      "priority": "P0",
+      "title": "Emotional transition",
+      "closure": "Source-supported prior state, trigger, later state and contradictions"
+    },
+    {
+      "id": "G04",
+      "priority": "P0",
+      "title": "Request and boundary",
+      "closure": "Link requests, response, outcome and explicit stop separately"
+    },
+    {
+      "id": "G05",
+      "priority": "P0",
+      "title": "Narrative/story chronology",
+      "closure": "Connect continued visits, memory and flashback to unique encounter IDs"
+    },
+    {
+      "id": "G06",
+      "priority": "P0",
+      "title": "Clothing and visibility",
+      "closure": "Before/after garment state, observer, affected region and uncertainty"
+    },
+    {
+      "id": "G07",
+      "priority": "P1",
+      "title": "Knowledge graph",
+      "closure": "Who knows what and when, including narrator-only facts"
+    },
+    {
+      "id": "G08",
+      "priority": "P1",
+      "title": "Daily-life mechanism",
+      "closure": "Task, opportunity, dialogue, interruption, outcome, aftermath"
+    },
+    {
+      "id": "G09",
+      "priority": "P1",
+      "title": "Writing style depth",
+      "closure": "Preserve viewpoint, dialogue rhythm and scene-level transitions"
+    },
+    {
+      "id": "G10",
+      "priority": "P1",
+      "title": "Prediction validation",
+      "closure": "Keep separate hypotheses and compare them against later actual scenes"
+    },
+    {
+      "id": "G11",
+      "priority": "P1",
+      "title": "Cross-pair IDs",
+      "closure": "One shared scene ID with independent participants and knowledge states"
+    },
+    {
+      "id": "G12",
+      "priority": "P2",
+      "title": "Coverage and vocabulary",
+      "closure": "Label candidate vs curated and normalize synonyms without reducing raw detail"
+    }
+  ]
+}
