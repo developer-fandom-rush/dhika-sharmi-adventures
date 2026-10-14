@@ -1,6 +1,6 @@
 "use strict";
 const ROOT="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L";
-const partFiles=[1,2,3,4,5,6].map(n=>"./data/e65_actions_p"+n+".json");
+const partFiles=[1,2,3,4,5,6,7,8].map(n=>"./data/e65_actions_p"+n+".json");
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pairNames={DB:"Dhika–Bantu",DJ:"Dhika–John",DC:"Dhika–Chotu",DT:"Dhika–Bobby",DS:"Dhika–Sharmi",DR:"Dhika–Raj",D:"Dhika",B:"Bantu",TW:"Dhika–Twins"};
