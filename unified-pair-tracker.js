@@ -252,8 +252,8 @@ function qaView(){
  '</article><article class="card"><h2>Scope & evidence integrity</h2><p>In this selection: '+firstPass+' episode slots with first-pass or partial action tags, '+anchor+' with scene anchors, '+discovery+' with name-match windows. Counts overlap.</p>'+
  '<p><strong>Not inferred:</strong> direct contact from co-presence; completed acts from requests; consent from silence; equal knowledge across twins; continuous time from flashback; absence from zero lexical mentions.</p>'+
  '<p><strong>Source checks:</strong> Record-level checksum status shown in action metadata. Original records, with source highlights, remain available via expandable JSON.</p>'+
- '<p><a href="./data/twins_e07_line_ledger_v1.json">E07 source audit ↗</a> · <a href="./data/twins_e06_line_ledger_v1.json">E06 source audit ↗</a> · <a href="./data/unified_pair_audit_v2.json">G01–G18 audit JSON ↗</a> · <a href="./data/unified_pair_scene_anchors.json">Original scene anchors ↗</a></p></article>';
- $("info").textContent="All 18 audit issues OPEN. E01–E05 first pass with gap repairs; E06–E07 source-line dispositions; E67–E68 partial fragments. Exhaustive semantic QA is not signed off.";$("more").hidden=true
+ '<p><a href="./data/unified_pair_e01_e07_source_qa_v1.json">E01–E07 coverage report ↗</a> · <a href="./data/twins_e07_line_ledger_v1.json">E07 source audit ↗</a> · <a href="./data/twins_e06_line_ledger_v1.json">E06 source audit ↗</a> · <a href="./data/unified_pair_audit_v2.json">G01–G18 audit JSON ↗</a> · <a href="./data/unified_pair_scene_anchors.json">Original scene anchors ↗</a></p></article>';
+ $("info").textContent="All 18 audit issues OPEN. E01–E05 first-pass source index plus five repaired references; E06/E07 complete line disposition (not semantic sign-off); E67–E68 fragmentary. G01–G18 remain open overall.";$("more").hidden=true
 }
 
 function render(){
