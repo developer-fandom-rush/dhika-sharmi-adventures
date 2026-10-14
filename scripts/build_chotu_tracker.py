@@ -34,11 +34,12 @@ MEETINGS=[
  ('C18','Sunday movie and escalating touch',[(33,5988,5998),(34,6186,6353),(35,6369,6373)],'Sunday; Chotu arrives around 3 PM at 6194. E35 is aftermath fifteen minutes after he leaves.'),
  ('C19','Rain-soaked delivery and meeting Sharmi',[(37,6895,6949)],'Rainy afternoon/evening; exact weekday not stated in this passage.'),
  ('C20','Overnight rain shelter, movie and next-morning shower',[(45,8574,8687),(45,8710,8811)],'10.45 PM at 8579, then next morning at 8689; one overnight stay with two distinct interaction phases.'),
- ('C21','Bathroom-painting arrival and interrupted bedroom contact',[(56,10917,10965),(57,11027,11091)],'Afternoon encounter; Sharmi and Uncle are in the house.'),
+ ('C21','Bathroom-painting arrival and interrupted bedroom contact',[(56,10917,10965),(57,11027,11091)],'Earlier visit than C22; exact hour not stated. Sharmi and Uncle are in the house.'),
  ('C22','Return with John, shared movie and contact under blanket',[(57,11127,11195),(57,11228,11289)],'Later that evening; 11233–11289 report the same movie contact, not a new Chotu visit.'),
  ('C23','Morning gift delivery during birthday preparation',[(66,13209,13237)],'Earlier that birthday morning, explicitly signalled at 13174.'),
  ('C24','Birthday preparation, party and overnight stay',[(67,13412,13421),(66,13125,13169),(67,13474,13558),(67,13643,13698),(68,13707,13798),(68,13878,13901)],'Birthday day into after 12.30 AM at 13625; E67 first revisits the preparation before the E66 party, then the final private massage continues across E67–E68.'),
 ]
+TIME_ANCHORS={'C01':[160,163],'C02':[131],'C03':[172,173,174],'C04':[490],'C05':[587,636],'C06':[993,1061],'C07':[1077],'C08':[1502],'C09':[1817],'C10':[1998],'C11':[2191,2192],'C12':[2195,2317],'C13':[2628,2631],'C14':[2844,2846],'C15':[3102,3103],'C16':[5217,5442],'C17':[5792],'C18':[5988,6194,6370],'C19':[6895,6941],'C20':[8579,8689],'C21':[10917],'C22':[11127],'C23':[13174],'C24':[13140,13619,13625]}
 
 # A beat is a connected source span, not a keyword-generated emotion tag.
 BEATS=[]
@@ -215,7 +216,7 @@ def build():
             chunks=[dict(start=a,end=b) for eno,a,b in sections if eno==n]
             if not chunks:continue
             chosen.update(i for c in chunks for i in range(c['start'],c['end']+1))
-            ms.append(dict(meeting_id=mid,title=title,sections=chunks,time_anchor=time))
+            ms.append(dict(meeting_id=mid,title=title,sections=chunks,time_anchor=time,time_anchor_evidence=[ref(i) for i in TIME_ANCHORS[mid]]))
         ps=[]
         for ix,p in enumerate(PHYSICAL):
             evidence=[x for x in p['evidence'] if x['episode']==ep['episode_id']]
@@ -225,6 +226,7 @@ def build():
                 chosen.add(x['global_line'])
             temporal='current_narration'
             if p['action'].startswith('Earlier routine:'):temporal='historical_habit'
+            elif n in (4,15,16) or n==66 and evidence[0]['global_line']>=13209 or n==68 and evidence[0]['global_line']>=13878:temporal='actual_flashback'
             if 'later account' in p['action'] or 'later continuation' in p['action'] or 'same encounter recalled' in p['action']:temporal='reported_or_recalled_actual'
             ps.append(dict(action_id=f'CP-{ix+1:03}',action=p['action'],evidence=evidence,temporal_frame=temporal))
         # Selected original paragraphs appear once and stay complete.

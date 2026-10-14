@@ -15,6 +15,8 @@ for ep in d['episodes']:
   if pattern.search(lines[n-1]):assert n in source,(ep['episode_id'],n)
  for b in ep['bond_beats']:
   assert all(n in source for n in b['evidence_global_lines'])
+ for m in ep['meetings']:
+  for s in m['time_anchor_evidence']:assert s['text']==lines[s['global_line']-1]
  for a in ep['physical_actions']:
   for s in a['evidence']:
    assert s['quote'] in lines[s['global_line']-1]
