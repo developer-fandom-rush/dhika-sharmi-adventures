@@ -1,0 +1,174 @@
+{
+  "schema": "dhika-pair-evidence-ranges-v1",
+  "source": "raw/Dhika.txt",
+  "source_integrity": "referenced_only",
+  "ep66": [
+    13105,
+    13394
+  ],
+  "ep67": [
+    13395,
+    13702
+  ],
+  "ep68": [
+    13703,
+    13912
+  ],
+  "important": "Every match in the browser is a lexical cue, not proof of a completed interaction. The source remains canonical and unchanged.",
+  "segments": [
+    [
+      "Dika–John",
+      66,
+      13109,
+      13140,
+      "party conversation and outfit"
+    ],
+    [
+      "Dika–Chotu",
+      66,
+      13141,
+      13167,
+      "party group; child-care arrangement"
+    ],
+    [
+      "Dika–John",
+      66,
+      13174,
+      13208,
+      "earlier outfit discussion"
+    ],
+    [
+      "Dika–Chotu",
+      66,
+      13209,
+      13237,
+      "bedroom gift delivery"
+    ],
+    [
+      "Dika–John",
+      66,
+      13238,
+      13258,
+      "gift discussion"
+    ],
+    [
+      "Dika–Bantu",
+      66,
+      13259,
+      13394,
+      "earlier private kitchen interaction"
+    ],
+    [
+      "Dika–Bantu",
+      67,
+      13395,
+      13411,
+      "ongoing interaction interrupted"
+    ],
+    [
+      "Group",
+      67,
+      13412,
+      13429,
+      "birthday decoration and preparation"
+    ],
+    [
+      "Dika–Bantu",
+      67,
+      13430,
+      13467,
+      "private clothing request"
+    ],
+    [
+      "Dika–John",
+      67,
+      13468,
+      13511,
+      "after-party arrangements"
+    ],
+    [
+      "Dika–Chotu",
+      67,
+      13512,
+      13545,
+      "shared clothing conversation"
+    ],
+    [
+      "Dika–Bobby / Bantu",
+      67,
+      13546,
+      13575,
+      "twins room; time skip"
+    ],
+    [
+      "Dika–John",
+      67,
+      13556,
+      13624,
+      "disclosure and response"
+    ],
+    [
+      "Group",
+      67,
+      13619,
+      13642,
+      "packing and departure"
+    ],
+    [
+      "Dika–Chotu",
+      67,
+      13643,
+      13698,
+      "massage preparation"
+    ],
+    [
+      "Dika–Chotu",
+      68,
+      13707,
+      13736,
+      "massage early phase"
+    ],
+    [
+      "Dika–Chotu",
+      68,
+      13737,
+      13774,
+      "massage middle phase"
+    ],
+    [
+      "Dika–Chotu",
+      68,
+      13775,
+      13797,
+      "massage later phase"
+    ],
+    [
+      "Dika–Chotu",
+      68,
+      13878,
+      13901,
+      "retrospective ending"
+    ],
+    [
+      "Dika–Bobby",
+      68,
+      13800,
+      13842,
+      "remote video interaction"
+    ],
+    [
+      "Dika–John",
+      68,
+      13843,
+      13877,
+      "return and disclosure"
+    ],
+    [
+      "Dika–John",
+      68,
+      13902,
+      13909,
+      "after-flashback follow-up"
+    ]
+  ]
+}
