@@ -1,0 +1,2316 @@
+{
+  "schema": "dhika-twins-atomic-track-v2",
+  "episode": 3,
+  "source_range": [
+    390,
+    628
+  ],
+  "raw_source": "raw/Dhika.txt",
+  "previous": "data/twins_e02_actions_v1.json",
+  "scenes": [
+    {
+      "id": "E03-T01",
+      "source_range": [
+        490,
+        503
+      ],
+      "label": "First tuition: awkwardness resolves"
+    },
+    {
+      "id": "E03-T02",
+      "source_range": [
+        504,
+        525
+      ],
+      "label": "Compliment conversation and outfit change"
+    },
+    {
+      "id": "E03-T03",
+      "source_range": [
+        527,
+        534
+      ],
+      "label": "Later conversation with John"
+    },
+    {
+      "id": "E03-T04",
+      "source_range": [
+        542,
+        550
+      ],
+      "label": "Friday class and second clothing incident"
+    },
+    {
+      "id": "E03-T05",
+      "source_range": [
+        551,
+        572
+      ],
+      "label": "Responses, privacy promises, comfort recovery"
+    }
+  ],
+  "records": [
+    {
+      "id": "E03-A001",
+      "episode": 3,
+      "source_line": 490,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "recalls_prior_home_accident",
+      "type": "memory",
+      "evidence": "internal",
+      "source_ref": "raw/Dhika.txt#L490",
+      "line_checksum": "a9e69d3b",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A002",
+      "episode": 3,
+      "source_line": 491,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "action": "time_3pm",
+      "type": "timeline",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L491",
+      "line_checksum": "0d9bbeb8",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A003",
+      "episode": 3,
+      "source_line": 492,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "anxious_at_doorbell",
+      "type": "mindset",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L492",
+      "line_checksum": "5b9352b4",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A004",
+      "episode": 3,
+      "source_line": 493,
+      "pair": "TRIO",
+      "actor": "Twins",
+      "action": "greet_teacher",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L493",
+      "line_checksum": "2fc1d819",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A005",
+      "episode": 3,
+      "source_line": 494,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "invites_both_inside",
+      "type": "invitation",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L494",
+      "line_checksum": "ea461342",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A006",
+      "episode": 3,
+      "source_line": 495,
+      "pair": "TRIO",
+      "actor": "Group",
+      "action": "quiet_start_and_water",
+      "type": "setup",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L495",
+      "line_checksum": "57fe9bd2",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A007",
+      "episode": 3,
+      "source_line": 495,
+      "pair": "TRIO",
+      "actor": "Group",
+      "action": "sits_in_circle_for_tuition",
+      "type": "positioning",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L495",
+      "line_checksum": "57fe9bd2",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A008",
+      "episode": 3,
+      "source_line": 496,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "relief_because_incident_not_mentioned",
+      "type": "mindset_shift",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L496",
+      "line_checksum": "42b15575",
+      "highlights": [
+        {
+          "start": 140,
+          "end": 145,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 364,
+          "end": 371,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A009",
+      "episode": 3,
+      "source_line": 496,
+      "pair": "TRIO",
+      "actor": "Twins",
+      "action": "first_kurti_observation",
+      "type": "clothing_gaze",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L496",
+      "line_checksum": "42b15575",
+      "highlights": [
+        {
+          "start": 140,
+          "end": 145,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 364,
+          "end": 371,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A010",
+      "episode": 3,
+      "source_line": 496,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "silent_observation_in_class",
+      "type": "gaze",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L496",
+      "line_checksum": "42b15575",
+      "highlights": [
+        {
+          "start": 140,
+          "end": 145,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 364,
+          "end": 371,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A011",
+      "episode": 3,
+      "source_line": 497,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "compliments_kurti",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L497",
+      "line_checksum": "32110153",
+      "highlights": [
+        {
+          "start": 20,
+          "end": 24,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 45,
+          "end": 50,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A012",
+      "episode": 3,
+      "source_line": 498,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "thanks_and_explains_dress",
+      "type": "response",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L498",
+      "line_checksum": "3d7185a8",
+      "highlights": [
+        {
+          "start": 62,
+          "end": 67,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A013",
+      "episode": 3,
+      "source_line": 499,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "invites_bobby_opinion",
+      "type": "question",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L499",
+      "line_checksum": "dd050e18",
+      "highlights": [
+        {
+          "start": 25,
+          "end": 30,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A014",
+      "episode": 3,
+      "source_line": 500,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "blushes_nods_silently",
+      "type": "response",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L500",
+      "line_checksum": "d56af8ae",
+      "highlights": [
+        {
+          "start": 7,
+          "end": 15,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A015",
+      "episode": 3,
+      "source_line": 501,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "encourages_free_speech",
+      "type": "relationship_work",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L501",
+      "line_checksum": "bd01390b",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A016",
+      "episode": 3,
+      "source_line": 502,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "dupatta_entangles_during_study",
+      "type": "clothing_context",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L502",
+      "line_checksum": "f2768cb1",
+      "highlights": [
+        {
+          "start": 63,
+          "end": 70,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 115,
+          "end": 122,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A017",
+      "episode": 3,
+      "source_line": 503,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "removes_dupatta_voluntarily",
+      "type": "clothing_change",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L503",
+      "line_checksum": "0621fe0f",
+      "highlights": [
+        {
+          "start": 70,
+          "end": 77,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A018",
+      "episode": 3,
+      "source_line": 503,
+      "pair": "TRIO",
+      "actor": "Twins",
+      "action": "observe_dupatta_removal",
+      "type": "gaze",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L503",
+      "line_checksum": "0621fe0f",
+      "highlights": [
+        {
+          "start": 70,
+          "end": 77,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A019",
+      "episode": 3,
+      "source_line": 504,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_about_homewear",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L504",
+      "line_checksum": "8c24c004",
+      "highlights": [
+        {
+          "start": 29,
+          "end": 34,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A020",
+      "episode": 3,
+      "source_line": 505,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "mentions_casual_homewear",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L505",
+      "line_checksum": "70fbbcc9",
+      "highlights": [
+        {
+          "start": 48,
+          "end": 53,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A021",
+      "episode": 3,
+      "source_line": 506,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_why_not_wearing_now",
+      "type": "question",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L506",
+      "line_checksum": "5abb55aa",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A022",
+      "episode": 3,
+      "source_line": 507,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "states_shyness_with_outsiders",
+      "type": "boundary_mindset",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L507",
+      "line_checksum": "152fdf6d",
+      "highlights": [
+        {
+          "start": 73,
+          "end": 76,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A023",
+      "episode": 3,
+      "source_line": 508,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "challenges_outsider_label",
+      "type": "persuasion",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L508",
+      "line_checksum": "b3daf698",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A024",
+      "episode": 3,
+      "source_line": 509,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "expects_more_casual_clothing",
+      "type": "inner_motive",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L509",
+      "line_checksum": "c420c9c0",
+      "highlights": [
+        {
+          "start": 83,
+          "end": 86,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 111,
+          "end": 118,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 126,
+          "end": 134,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 194,
+          "end": 197,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 217,
+          "end": 222,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A025",
+      "episode": 3,
+      "source_line": 509,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "accepts_bantu_argument_in_good_faith",
+      "type": "interpretation",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L509",
+      "line_checksum": "c420c9c0",
+      "highlights": [
+        {
+          "start": 83,
+          "end": 86,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 111,
+          "end": 118,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 126,
+          "end": 134,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 194,
+          "end": 197,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 217,
+          "end": 222,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A026",
+      "episode": 3,
+      "source_line": 510,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "proposes_confession_trade_for_outfit",
+      "type": "request",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L510",
+      "line_checksum": "8572eeba",
+      "highlights": [
+        {
+          "start": 42,
+          "end": 46,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 92,
+          "end": 98,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A027",
+      "episode": 3,
+      "source_line": 511,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "underestimates_bobby_response",
+      "type": "expectation",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L511",
+      "line_checksum": "83a87a96",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A028",
+      "episode": 3,
+      "source_line": 512,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "gives_long_positive_compliment",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L512",
+      "line_checksum": "65434d38",
+      "highlights": [
+        {
+          "start": 20,
+          "end": 25,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 30,
+          "end": 34,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 40,
+          "end": 49,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A029",
+      "episode": 3,
+      "source_line": 513,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "surprised_response_marker",
+      "type": "source_typo",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L513",
+      "line_checksum": "d564ca78",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A030",
+      "episode": 3,
+      "source_line": 514,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "blushes_and_thanks",
+      "type": "response",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L514",
+      "line_checksum": "65998b56",
+      "highlights": [
+        {
+          "start": 22,
+          "end": 29,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A031",
+      "episode": 3,
+      "source_line": 515,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "goes_to_change_immediately",
+      "type": "movement",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L515",
+      "line_checksum": "3b24a9fc",
+      "highlights": [
+        {
+          "start": 79,
+          "end": 85,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A032",
+      "episode": 3,
+      "source_line": 515,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "fears_he_said_something_wrong",
+      "type": "inner_motive",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L515",
+      "line_checksum": "3b24a9fc",
+      "highlights": [
+        {
+          "start": 79,
+          "end": 85,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A033",
+      "episode": 3,
+      "source_line": 516,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "chooses_knee_skirt_sleeveless_top",
+      "type": "clothing_change",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L516",
+      "line_checksum": "14590c2f",
+      "highlights": [
+        {
+          "start": 120,
+          "end": 125,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 141,
+          "end": 144,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A034",
+      "episode": 3,
+      "source_line": 517,
+      "pair": "TRIO",
+      "actor": "Twins",
+      "action": "see_new_outfit",
+      "type": "visual",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L517",
+      "line_checksum": "2e49a914",
+      "highlights": [
+        {
+          "start": 30,
+          "end": 36,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 136,
+          "end": 141,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 184,
+          "end": 190,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A035",
+      "episode": 3,
+      "source_line": 517,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "twirls_and_skirt_shifts",
+      "type": "movement_clothing",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L517",
+      "line_checksum": "2e49a914",
+      "highlights": [
+        {
+          "start": 30,
+          "end": 36,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 136,
+          "end": 141,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 184,
+          "end": 190,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A036",
+      "episode": 3,
+      "source_line": 518,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "new_appearance_compliment",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L518",
+      "line_checksum": "7bf7c094",
+      "highlights": [
+        {
+          "start": 24,
+          "end": 31,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 32,
+          "end": 35,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A037",
+      "episode": 3,
+      "source_line": 519,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "teacher_role_boundary_about_words",
+      "type": "boundary",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L519",
+      "line_checksum": "9751e225",
+      "highlights": [
+        {
+          "start": 34,
+          "end": 38,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A038",
+      "episode": 3,
+      "source_line": 520,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "invokes_no_hurt_rule",
+      "type": "persuasion",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L520",
+      "line_checksum": "601a0e35",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A039",
+      "episode": 3,
+      "source_line": 521,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "states_not_hurt",
+      "type": "response",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L521",
+      "line_checksum": "1b8336b7",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A040",
+      "episode": 3,
+      "source_line": 522,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "repeats_compliment",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L522",
+      "line_checksum": "ae3a3447",
+      "highlights": [
+        {
+          "start": 39,
+          "end": 43,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 49,
+          "end": 52,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A041",
+      "episode": 3,
+      "source_line": 523,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "smiles_and_checks_bobby",
+      "type": "gaze",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L523",
+      "line_checksum": "b9d0585c",
+      "highlights": [
+        {
+          "start": 7,
+          "end": 15,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 37,
+          "end": 43,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A042",
+      "episode": 3,
+      "source_line": 524,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "scans_outfit_and_blushes",
+      "type": "visual_gaze",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L524",
+      "line_checksum": "10c80aee",
+      "highlights": [
+        {
+          "start": 8,
+          "end": 12,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 42,
+          "end": 50,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 85,
+          "end": 92,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 97,
+          "end": 103,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 128,
+          "end": 132,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 143,
+          "end": 146,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A043",
+      "episode": 3,
+      "source_line": 524,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "pinches_bobby_cheek_playfully",
+      "type": "contact",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L524",
+      "line_checksum": "10c80aee",
+      "highlights": [
+        {
+          "start": 8,
+          "end": 12,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 42,
+          "end": 50,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 85,
+          "end": 92,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 97,
+          "end": 103,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 128,
+          "end": 132,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 143,
+          "end": 146,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A044",
+      "episode": 3,
+      "source_line": 524,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "shyness_increases",
+      "type": "mindset",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L524",
+      "line_checksum": "10c80aee",
+      "highlights": [
+        {
+          "start": 8,
+          "end": 12,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 42,
+          "end": 50,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 85,
+          "end": 92,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 97,
+          "end": 103,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 128,
+          "end": 132,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 143,
+          "end": 146,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A045",
+      "episode": 3,
+      "source_line": 525,
+      "pair": "TRIO",
+      "actor": "Group",
+      "action": "resumes_class",
+      "type": "study",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L525",
+      "line_checksum": "30f33261",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A046",
+      "episode": 3,
+      "source_line": 527,
+      "pair": "DJ",
+      "actor": "Dhika",
+      "action": "later_tells_john_about_outfit",
+      "type": "reported_event",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L527",
+      "line_checksum": "4be0023d",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A047",
+      "episode": 3,
+      "source_line": 528,
+      "pair": "TRIO",
+      "actor": "John",
+      "action": "observes_twins_influence",
+      "type": "third_party_view",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L528",
+      "line_checksum": "2a5cc1ea",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A048",
+      "episode": 3,
+      "source_line": 530,
+      "pair": "TRIO",
+      "actor": "John",
+      "action": "compares_twins_influence_with_his_requests",
+      "type": "third_party_comparison",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L530",
+      "line_checksum": "d981ab09",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A049",
+      "episode": 3,
+      "source_line": 531,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "distinguishes_john_friends_from_twins",
+      "type": "interpretation",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L531",
+      "line_checksum": "4d58432a",
+      "highlights": [
+        {
+          "start": 28,
+          "end": 32,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A050",
+      "episode": 3,
+      "source_line": 532,
+      "pair": "DB",
+      "actor": "John",
+      "action": "comments_on_bantu_wording",
+      "type": "third_party_report",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L532",
+      "line_checksum": "1769acab",
+      "highlights": [
+        {
+          "start": 32,
+          "end": 35,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A051",
+      "episode": 3,
+      "source_line": 533,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "defends_bantu_as_sweet_student",
+      "type": "trust_assessment",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L533",
+      "line_checksum": "1d5d0200",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A052",
+      "episode": 3,
+      "source_line": 534,
+      "pair": "TRIO",
+      "actor": "John",
+      "action": "recognizes_her_innocence_assumption",
+      "type": "third_party_view",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L534",
+      "line_checksum": "c00cc2f1",
+      "highlights": [
+        {
+          "start": 23,
+          "end": 29,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A053",
+      "episode": 3,
+      "source_line": 542,
+      "pair": "TRIO",
+      "actor": "Group",
+      "action": "friday_tuition_in_saree",
+      "type": "clothing_context",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L542",
+      "line_checksum": "9bdb8925",
+      "highlights": [
+        {
+          "start": 213,
+          "end": 218,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 233,
+          "end": 237,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 260,
+          "end": 263,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 509,
+          "end": 516,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 539,
+          "end": 542,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A054",
+      "episode": 3,
+      "source_line": 542,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "disappointed_no_casual_outfit",
+      "type": "inner_motive",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L542",
+      "line_checksum": "9bdb8925",
+      "highlights": [
+        {
+          "start": 213,
+          "end": 218,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 233,
+          "end": 237,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 260,
+          "end": 263,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 509,
+          "end": 516,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 539,
+          "end": 542,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A055",
+      "episode": 3,
+      "source_line": 543,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "pallu_slips_due_to_fan_and_posture",
+      "type": "clothing_event",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L543",
+      "line_checksum": "7c908673",
+      "highlights": [
+        {
+          "start": 106,
+          "end": 111,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 294,
+          "end": 300,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 304,
+          "end": 307,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 321,
+          "end": 328,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A056",
+      "episode": 3,
+      "source_line": 543,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "steals_glances",
+      "type": "gaze",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L543",
+      "line_checksum": "7c908673",
+      "highlights": [
+        {
+          "start": 106,
+          "end": 111,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 294,
+          "end": 300,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 304,
+          "end": 307,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 321,
+          "end": 328,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A057",
+      "episode": 3,
+      "source_line": 543,
+      "pair": "TRIO",
+      "actor": "Bantu",
+      "action": "winks_at_bobby",
+      "type": "nonverbal_knowledge",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L543",
+      "line_checksum": "7c908673",
+      "highlights": [
+        {
+          "start": 106,
+          "end": 111,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 294,
+          "end": 300,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 304,
+          "end": 307,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 321,
+          "end": 328,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A058",
+      "episode": 3,
+      "source_line": 544,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "pallu_falls_completely",
+      "type": "clothing_event",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L544",
+      "line_checksum": "985c94bc",
+      "highlights": [
+        {
+          "start": 44,
+          "end": 49,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 145,
+          "end": 149,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A059",
+      "episode": 3,
+      "source_line": 544,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "horrified_again",
+      "type": "fear",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L544",
+      "line_checksum": "985c94bc",
+      "highlights": [
+        {
+          "start": 44,
+          "end": 49,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 145,
+          "end": 149,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A060",
+      "episode": 3,
+      "source_line": 545,
+      "pair": "TRIO",
+      "actor": "Twins",
+      "action": "observe_brief_exposure",
+      "type": "gaze",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L545",
+      "line_checksum": "d391cb5d",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A061",
+      "episode": 3,
+      "source_line": 547,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "stares_openly",
+      "type": "gaze",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L547",
+      "line_checksum": "0b28f664",
+      "highlights": [
+        {
+          "start": 19,
+          "end": 23,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 178,
+          "end": 181,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 208,
+          "end": 211,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 235,
+          "end": 241,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A062",
+      "episode": 3,
+      "source_line": 547,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "notices_and_appears_to_warn",
+      "type": "gaze",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L547",
+      "line_checksum": "0b28f664",
+      "highlights": [
+        {
+          "start": 19,
+          "end": 23,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 178,
+          "end": 181,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 208,
+          "end": 211,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 235,
+          "end": 241,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A063",
+      "episode": 3,
+      "source_line": 547,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "sees_both_reactions",
+      "type": "knowledge",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L547",
+      "line_checksum": "0b28f664",
+      "highlights": [
+        {
+          "start": 19,
+          "end": 23,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 178,
+          "end": 181,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 208,
+          "end": 211,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 235,
+          "end": 241,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A064",
+      "episode": 3,
+      "source_line": 548,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "near_tears",
+      "type": "fear",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L548",
+      "line_checksum": "636fff5a",
+      "highlights": [
+        {
+          "start": 88,
+          "end": 94,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A065",
+      "episode": 3,
+      "source_line": 549,
+      "pair": "TRIO",
+      "actor": "Twins",
+      "action": "exchange_look_silently",
+      "type": "nonverbal",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L549",
+      "line_checksum": "2d141412",
+      "highlights": [
+        {
+          "start": 21,
+          "end": 27,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 51,
+          "end": 55,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A066",
+      "episode": 3,
+      "source_line": 550,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "apologizes_while_crying",
+      "type": "speech_emotion",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L550",
+      "line_checksum": "cdc8204b",
+      "highlights": [
+        {
+          "start": 15,
+          "end": 20,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 42,
+          "end": 45,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 95,
+          "end": 99,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A067",
+      "episode": 3,
+      "source_line": 551,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "requests_no_crying",
+      "type": "reassurance",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L551",
+      "line_checksum": "f92d23b9",
+      "highlights": [
+        {
+          "start": 29,
+          "end": 32,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A068",
+      "episode": 3,
+      "source_line": 552,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "calls_incident_accidental",
+      "type": "reassurance",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L552",
+      "line_checksum": "ee3ab659",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A069",
+      "episode": 3,
+      "source_line": 553,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "fears_others_learning",
+      "type": "fear",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L553",
+      "line_checksum": "11f16e49",
+      "highlights": [
+        {
+          "start": 21,
+          "end": 25,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 31,
+          "end": 34,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 44,
+          "end": 47,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 51,
+          "end": 57,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A070",
+      "episode": 3,
+      "source_line": 554,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "promises_not_to_tell",
+      "type": "privacy_promise",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L554",
+      "line_checksum": "dec36781",
+      "highlights": [
+        {
+          "start": 39,
+          "end": 44,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A071",
+      "episode": 3,
+      "source_line": 555,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "wipes_dhika_cheek_tears",
+      "type": "physical_contact",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L555",
+      "line_checksum": "f1cd4087",
+      "highlights": [
+        {
+          "start": 58,
+          "end": 63,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 221,
+          "end": 228,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 302,
+          "end": 305,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 326,
+          "end": 329,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 344,
+          "end": 348,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A072",
+      "episode": 3,
+      "source_line": 555,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "promises_privacy_and_explains_care",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L555",
+      "line_checksum": "f1cd4087",
+      "highlights": [
+        {
+          "start": 58,
+          "end": 63,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 221,
+          "end": 228,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 302,
+          "end": 305,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 326,
+          "end": 329,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 344,
+          "end": 348,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A073",
+      "episode": 3,
+      "source_line": 556,
+      "pair": "TRIO",
+      "actor": "Group",
+      "action": "surprised_at_bobby_speaking_at_length",
+      "type": "response",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L556",
+      "line_checksum": "d0f6ec23",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A074",
+      "episode": 3,
+      "source_line": 557,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "shivers_at_cheek_contact",
+      "type": "body_response",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L557",
+      "line_checksum": "0f4b8c2b",
+      "highlights": [
+        {
+          "start": 26,
+          "end": 33,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 38,
+          "end": 44,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 97,
+          "end": 100,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 158,
+          "end": 162,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A075",
+      "episode": 3,
+      "source_line": 557,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "feels_reassured_by_bobby_words",
+      "type": "trust_change",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L557",
+      "line_checksum": "0f4b8c2b",
+      "highlights": [
+        {
+          "start": 26,
+          "end": 33,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 38,
+          "end": 44,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 97,
+          "end": 100,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 158,
+          "end": 162,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A076",
+      "episode": 3,
+      "source_line": 558,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "uses_humor_to_lighten_scene",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L558",
+      "line_checksum": "43c7accf",
+      "highlights": [
+        {
+          "start": 38,
+          "end": 46,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A077",
+      "episode": 3,
+      "source_line": 559,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "starts_laughing",
+      "type": "mindset_shift",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L559",
+      "line_checksum": "396ca052",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A078",
+      "episode": 3,
+      "source_line": 560,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "thanks_bobby_and_trusts_both",
+      "type": "trust",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L560",
+      "line_checksum": "3e14169e",
+      "highlights": [
+        {
+          "start": 48,
+          "end": 53,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 81,
+          "end": 85,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A079",
+      "episode": 3,
+      "source_line": 560,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "pats_bobby_head",
+      "type": "physical_contact",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L560",
+      "line_checksum": "3e14169e",
+      "highlights": [
+        {
+          "start": 48,
+          "end": 53,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 81,
+          "end": 85,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A080",
+      "episode": 3,
+      "source_line": 561,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "self_conscious_about_body",
+      "type": "mindset",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L561",
+      "line_checksum": "899a7e92",
+      "highlights": [
+        {
+          "start": 12,
+          "end": 17,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 58,
+          "end": 63,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 75,
+          "end": 78,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 128,
+          "end": 132,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 155,
+          "end": 159,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A081",
+      "episode": 3,
+      "source_line": 562,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "contradicts_self_criticism",
+      "type": "reassurance",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L562",
+      "line_checksum": "46c394ff",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A082",
+      "episode": 3,
+      "source_line": 563,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "laughs_and_tells_him_stop",
+      "type": "response",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L563",
+      "line_checksum": "de836d31",
+      "highlights": [
+        {
+          "start": 28,
+          "end": 32,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A083",
+      "episode": 3,
+      "source_line": 564,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "strong_compliment",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L564",
+      "line_checksum": "0c451bec",
+      "highlights": [
+        {
+          "start": 38,
+          "end": 47,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 89,
+          "end": 92,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A084",
+      "episode": 3,
+      "source_line": 565,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "blushes_and_recovers_mood",
+      "type": "mindset",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L565",
+      "line_checksum": "84913d2d",
+      "highlights": [
+        {
+          "start": 44,
+          "end": 51,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A085",
+      "episode": 3,
+      "source_line": 566,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "speculates_about_future_viewing",
+      "type": "hypothetical",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L566",
+      "line_checksum": "7a33bfcb",
+      "highlights": [],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A086",
+      "episode": 3,
+      "source_line": 567,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "reacts_with_shyness",
+      "type": "response",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L567",
+      "line_checksum": "26dfb584",
+      "highlights": [
+        {
+          "start": 69,
+          "end": 72,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A087",
+      "episode": 3,
+      "source_line": 568,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "starts_another_bodily_compliment",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L568",
+      "line_checksum": "70cbf47d",
+      "highlights": [
+        {
+          "start": 43,
+          "end": 48,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A088",
+      "episode": 3,
+      "source_line": 569,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "surprised_and_shy",
+      "type": "response",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L569",
+      "line_checksum": "4ba1f8d0",
+      "highlights": [
+        {
+          "start": 7,
+          "end": 11,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A089",
+      "episode": 3,
+      "source_line": 570,
+      "pair": "TRIO",
+      "actor": "Bantu",
+      "action": "catches_himself_in_bobbys_presence",
+      "type": "interruption",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L570",
+      "line_checksum": "c3da3722",
+      "highlights": [
+        {
+          "start": 26,
+          "end": 32,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 79,
+          "end": 83,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A090",
+      "episode": 3,
+      "source_line": 571,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "pinches_bantu_cheek",
+      "type": "physical_contact",
+      "evidence": "direct",
+      "source_ref": "raw/Dhika.txt#L571",
+      "line_checksum": "3ccb98eb",
+      "highlights": [
+        {
+          "start": 47,
+          "end": 54,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 59,
+          "end": 66,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 71,
+          "end": 77,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A091",
+      "episode": 3,
+      "source_line": 571,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "comments_on_bantu_becoming_naughty",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "source_ref": "raw/Dhika.txt#L571",
+      "line_checksum": "3ccb98eb",
+      "highlights": [
+        {
+          "start": 47,
+          "end": 54,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 59,
+          "end": 66,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 71,
+          "end": 77,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A092",
+      "episode": 3,
+      "source_line": 572,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "differentiates_reassurance_by_twins",
+      "type": "relationship_shift",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L572",
+      "line_checksum": "30e1ff98",
+      "highlights": [
+        {
+          "start": 74,
+          "end": 78,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 267,
+          "end": 271,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 272,
+          "end": 275,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 292,
+          "end": 296,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 313,
+          "end": 319,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    },
+    {
+      "id": "E03-A093",
+      "episode": 3,
+      "source_line": 572,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "does_not_tell_john_about_friday_incident",
+      "type": "knowledge_gap",
+      "evidence": "narrated",
+      "source_ref": "raw/Dhika.txt#L572",
+      "line_checksum": "30e1ff98",
+      "highlights": [
+        {
+          "start": 74,
+          "end": 78,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 267,
+          "end": 271,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 272,
+          "end": 275,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 292,
+          "end": 296,
+          "status": "lexical_cue"
+        },
+        {
+          "start": 313,
+          "end": 319,
+          "status": "lexical_cue"
+        }
+      ],
+      "review": "source_located_semantic_candidate"
+    }
+  ],
+  "notes": [
+    "Some lines in E03 follow Dhika and Chotu; no pair events involving twins were asserted there.",
+    "Friday class after the earlier Wednesday class: not a same-day uninterrupted encounter.",
+    "Line 513 contains irregular source formatting; do not silently supply missing author words.",
+    "Line 566 is hypothetical wording, not a later completed event."
+  ],
+  "review_status": "Selected twin interactions source-indexed; second-pass exhaustive action QA pending."
+}
