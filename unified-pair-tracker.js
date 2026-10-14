@@ -12,6 +12,7 @@ loc+"twins_e04_actions_v1.json",
 loc+"twins_e05_actions_p1.json",loc+"twins_e05_actions_p2.json",loc+"twins_e05_actions_p3.json",
 loc+"twins_e05_callbacks.json",loc+"twins_e01_e05_state_index_v1.json",
 loc+"unified_pair_audit_v2.json",
+loc+"unified_pair_partial_scene_events_v2.json",
 "./raw/Dhika.txt"];
 const trackNames={DB:"Dhika × Bantu",DY:"Dhika × Bobby",TRIO:"Dhika × Bantu × Bobby",DBC:"Dhika × Bobby × Chotu"};
 let canon=[],episodes=[],curated=[],scenes=[],windows=[],states=[],gaps=[],audit={},writingNotes=[],filtered=[],shown=0,tab="history";
@@ -123,7 +124,7 @@ function searched(r,q){
  return false
 }
 function statusChip(status){
- return '<span class="badge '+(status==="UNREVIEWED_MENTION_WINDOW"?"pending":"")+'">'+enc(status==="UNREVIEWED_MENTION_WINDOW"?"Unreviewed reference":status==="VERIFIED_SOURCE_SCENE"?"Verified scene anchor":"Curated first pass")+'</span>'
+ return '<span class="badge '+(status==="UNREVIEWED_MENTION_WINDOW"?"pending":"")+'">'+enc(status==="UNREVIEWED_MENTION_WINDOW"?"Unreviewed reference":status==="VERIFIED_SOURCE_SCENE"?"Verified scene anchor":status==="source_linked_partial"?"Partial scene event":"Curated first pass")+'</span>'
 }
 function actionCard(r){
  const a=r.raw,integrity=evidenceIntegrity(r);
@@ -163,7 +164,7 @@ function getFilter(){
  let all=curated.concat(scenes,windows).filter(r=>relevant(r,p));
  if(k==="verified")all=all.filter(r=>r.source_kind!=="UNREVIEWED_MENTION_WINDOW");
  if(k==="candidate")all=all.filter(r=>r.source_kind==="UNREVIEWED_MENTION_WINDOW");
- if(e!=="all")all=all.filter(r=>r.episode===+e);
+ // Episode scope is applied by render() using isInScope(), including cumulative selections.
  if(q)all=all.filter(r=>searched(r,q));
  return all.sort((a,b)=>a.episode-b.episode||(a.line||a.start)-(b.line||b.start)||String(a.id).localeCompare(String(b.id)))
 }
@@ -208,12 +209,14 @@ function coverageMetrics(ep,p){
  const ac=curated.filter(x=>x.episode===ep&&relevant(x,p)).length;
  const sc=scenes.filter(x=>x.episode===ep&&relevant(x,p)).length;
  const wc=windows.filter(x=>x.episode===ep&&relevant(x,p)).length;
- return {episode:ep,actions:ac,scenes:sc,windows:wc,status:ac?"CURATED_FIRST_PASS":sc?"SCENE_ANCHOR_ONLY":wc?"DISCOVERY_ONLY":"NOT_REVIEWED"};
+ const first=curated.some(x=>x.episode===ep&&relevant(x,p)&&x.source_kind==="curated_first_pass");
+ const partial=curated.some(x=>x.episode===ep&&relevant(x,p)&&x.source_kind==="source_linked_partial");
+ return {episode:ep,actions:ac,scenes:sc,windows:wc,status:first?"CURATED_FIRST_PASS":partial?"PARTIAL_SCENE_EVENTS":sc?"SCENE_ANCHOR_ONLY":wc?"DISCOVERY_ONLY":"NOT_REVIEWED"};
 }
 function coverageView(){
  const p=$("pair").value;
  const rows=episodes.filter(e=>isInScope(e.id)).map(e=>coverageMetrics(e.id,p));
- $("results").innerHTML='<article class="card"><h2>Episode-by-episode QA, not story completion</h2><p class="hint">No episode has been signed off as exhaustively action-verified. A source-linked scene anchor is distinct from an audited encounter. Zero names does not prove that no relevant continuation occurs.</p><div class="table-wrap"><table><thead><tr><th>Episode</th><th>First-pass tags</th><th>Scene anchors</th><th>Discovery windows</th><th>QA classification</th></tr></thead><tbody>'+
+ $("results").innerHTML='<article class="card"><h2>Episode-by-episode QA, not story completion</h2><p class="hint">No episode has been signed off as exhaustively action-verified. A source-linked scene anchor is distinct from an audited encounter. Zero names does not prove that no relevant continuation occurs.</p><div class="table-wrap"><table><thead><tr><th>Episode</th><th>Indexed action tags</th><th>Scene anchors</th><th>Discovery windows</th><th>QA classification</th></tr></thead><tbody>'+
  rows.map(m=>'<tr><td><button type="button" class="jump-episode" data-episode="'+m.episode+'">E'+String(m.episode).padStart(2,"0")+'</button></td><td>'+m.actions+'</td><td>'+m.scenes+'</td><td>'+m.windows+'</td><td>'+enc(m.status.replaceAll("_"," "))+'</td></tr>').join("")+
  '</tbody></table></div></article>';
  for(const b of $("results").querySelectorAll("[data-episode]"))b.onclick=()=>{$("episode").value=b.dataset.episode;$("scope").value="single";tab="history";render()};
@@ -231,11 +234,11 @@ function qaView(){
  const firstPass=counts.filter(x=>x.actions>0).length,anchor=counts.filter(x=>x.scenes>0).length,discovery=counts.filter(x=>x.windows>0).length;
  $("results").innerHTML='<article class="card"><h2>Pinned Audit · G01–G18</h2><p>No P0/P1 episode-wide closure is claimed. Read every requirement before interpreting the timeline or using it as continuity evidence.</p>'+
  gaps.map(g=>'<div class="mini"><span class="badge pending">'+enc(g.id)+' · '+enc(g.priority)+' · '+enc(g.status||"OPEN")+'</span><strong>'+enc(g.title)+'</strong><p class="muted">'+enc(g.closure)+'</p></div>').join("")+
- '</article><article class="card"><h2>Scope & evidence integrity</h2><p>In this selection: '+firstPass+' episode slots with first-pass action tags, '+anchor+' with scene anchors, '+discovery+' with name-match windows. Counts overlap.</p>'+
+ '</article><article class="card"><h2>Scope & evidence integrity</h2><p>In this selection: '+firstPass+' episode slots with first-pass or partial action tags, '+anchor+' with scene anchors, '+discovery+' with name-match windows. Counts overlap.</p>'+
  '<p><strong>Not inferred:</strong> direct contact from co-presence; completed acts from requests; consent from silence; equal knowledge across twins; continuous time from flashback; absence from zero lexical mentions.</p>'+
  '<p><strong>Source checks:</strong> Record-level checksum status shown in action metadata. Original records, with source highlights, remain available via expandable JSON.</p>'+
  '<p><a href="./data/unified_pair_audit_v2.json">G01–G18 audit JSON ↗</a> · <a href="./data/unified_pair_scene_anchors.json">Original scene anchors ↗</a></p></article>';
- $("info").textContent="All 18 audit issues OPEN. E01–E05 are first pass only; E06–E68 lack full atomic certification.";$("more").hidden=true
+ $("info").textContent="All 18 audit issues OPEN. E01–E05 first pass; E06/E67/E68 have selected partial event fragments only. No full-episode atomic certification.";$("more").hidden=true
 }
 
 function render(){
@@ -256,7 +259,7 @@ function render(){
 function downloadSelection(){
  const p=$("pair").value,e=$("episode").value,scope=$("scope").value;
  const matched=curated.concat(scenes,windows).filter(r=>relevant(r,p)&&isInScope(r.episode));
- const records=matched.map(r=>r.recordType==="action"?{record_type:"first_pass_action",id:r.id,episode:r.episode,source_line:r.line,source_file:r.file,source_integrity:evidenceIntegrity(r).label,source_record:r.raw}:r.recordType==="scene"?{record_type:"verified_scene_anchor",...r}:{record_type:"unreviewed_lexical_window",...r});
+ const records=matched.map(r=>r.recordType==="action"?{record_type:r.source_kind==="source_linked_partial"?"partial_scene_event":"first_pass_action",id:r.id,episode:r.episode,source_line:r.line,source_file:r.file,source_integrity:evidenceIntegrity(r).label,source_record:r.raw}:r.recordType==="scene"?{record_type:"verified_scene_anchor",...r}:{record_type:"unreviewed_lexical_window",...r});
  const payload={schema:"unified_pair_filtered_export_v2",track:p,episode:e,scope,source:"raw/Dhika.txt",
   warning:"This is partial source indexing, not a verified relationship timeline. Canonical source prose is not duplicated in export.",audit_gaps:gaps.map(x=>({id:x.id,status:x.status||"OPEN"})),records};
  const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});
@@ -273,12 +276,13 @@ function downloadSelection(){
   audit=data[12];gaps=audit.gaps;writingNotes=audit.writing_observations||[];states=data[11].states;
   const epIndex=[1,2,2,3,3,4,5,5,5,5];
   curated=data.slice(1,11).flatMap((d,i)=>normalize(d,epIndex[i],i)).map(r=>({...r,recordType:"action"}));
+  curated.push(...data[13].records.map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.pair,actor:a.actor,recipient:a.recipient,action:a.action,kind:a.type,source_kind:a.source_kind,recordType:"action",file:loadPaths[13],raw:a,review:a.review,status:"fragment_only"})));
   windows=makeWindows();
   for(let i=1;i<=68;i++){$("episode").insertAdjacentHTML("beforeend",'<option value="'+i+'">Episode '+String(i).padStart(2,"0")+'</option>')}
   $("stats").innerHTML=[
-   [68,"Episode slots scanned"],[curated.length,"Curated first-pass tags"],[scenes.length,"Verified scene anchors"],[windows.length,"Unreviewed discovery windows"]
+   [68,"Episode slots scanned"],[curated.length,"Indexed action tags"],[scenes.length,"Verified scene anchors"],[windows.length,"Unreviewed discovery windows"]
   ].map(a=>'<div><strong>'+a[0]+'</strong><small>'+a[1]+'</small></div>').join("");
-  $("status").textContent="Ready · original source plus prior curated records loaded. E01–E05 first pass plus later anchors; E06–E68 need line-by-line certification. No encounter inferred from name hits.";
+  $("status").textContent="Ready · original source plus prior curated records loaded. E01–E05 first pass; E06/E67/E68 selected partial event fragments; E06–E68 still need full line-by-line certification. No encounter inferred from name hits.";
   for(const id of ["pair","episode","scope","kind","search"])$(id).addEventListener(id==="search"?"input":"change",render);
   for(const b of document.querySelectorAll("[data-tab]"))b.onclick=()=>{tab=b.dataset.tab;render()};
   $("more").onclick=renderChunk;$("download").onclick=downloadSelection;render();
