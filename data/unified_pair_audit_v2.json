@@ -140,37 +140,64 @@
   ],
   "writing_observations": [
     {
-      "id": "W-E06-01",
-      "episode": 6,
-      "start": 1143,
-      "end": 1153,
-      "track": "DBC",
-      "anchor_id": "T09",
-      "scope": "Verified scene introduction and transition",
-      "observation": "Introduction → permission request → acceptance → shared painting task. Dialogue moves the ordinary activity forward.",
-      "status": "SOURCE_LINKED_OBSERVATION_NOT_STYLE_CERTIFIED"
-    },
-    {
-      "id": "W-E67-01",
-      "episode": 67,
-      "start": 13474,
-      "end": 13483,
+      "id": "W-E01-01",
+      "episode": 1,
+      "start": 32,
+      "end": 44,
       "track": "TRIO",
-      "anchor_id": "T10",
-      "scope": "Shared-room conversation and emotional aftermath",
-      "observation": "Sleeping arrangements are discussed; departures and Dhika's reaction follow. The participants' perceptions must remain distinct.",
-      "status": "SOURCE_LINKED_OBSERVATION_NOT_STYLE_CERTIFIED"
+      "scope": "Two voices, one school relationship",
+      "observation": "The narrator contrasts Bantu's fluent greetings with Bobby's quieter communication and Dhika's different impressions. Dialogue and narrator commentary establish the initial bond before new action.",
+      "status": "SOURCE_LINKED_WRITING_MECHANISM_FIRST_PASS"
     },
     {
-      "id": "W-E68-01",
-      "episode": 68,
-      "start": 13800,
-      "end": 13812,
-      "track": "DY",
-      "anchor_id": "T12",
-      "scope": "Remote conversation rhythm",
-      "observation": "The interaction alternates a video-call attempt and text messages; do not reclassify it as in-person co-presence.",
-      "status": "SOURCE_LINKED_OBSERVATION_NOT_STYLE_CERTIFIED"
+      "id": "W-E01-02",
+      "episode": 1,
+      "start": 72,
+      "end": 82,
+      "track": "TRIO",
+      "scope": "Speech, attention, private reactions",
+      "observation": "The staff-room encounter alternates Bantu speaking, Bobby observing, and Dhika's internal response. A visible detail and a character's reaction are separately attributed.",
+      "status": "SOURCE_LINKED_WRITING_MECHANISM_FIRST_PASS"
+    },
+    {
+      "id": "W-E01-03",
+      "episode": 1,
+      "start": 83,
+      "end": 108,
+      "track": "TRIO",
+      "scope": "Information gap revealed after action",
+      "observation": "A practical ride request leads to the seating arrangement; the narrator then supplies differing motivations and what one twin keeps private from the other. The meeting is one continuity with multiple narrative phases.",
+      "status": "SOURCE_LINKED_WRITING_MECHANISM_FIRST_PASS"
+    },
+    {
+      "id": "W-E02-01",
+      "episode": 2,
+      "start": 309,
+      "end": 339,
+      "track": "TRIO",
+      "scope": "Academic request becomes future access",
+      "observation": "The dialogue proceeds through request, clarification, permission, schedule and practical visit arrangement. The old ride is recalled without counting it again.",
+      "status": "SOURCE_LINKED_WRITING_MECHANISM_FIRST_PASS"
+    },
+    {
+      "id": "W-E02-02",
+      "episode": 2,
+      "start": 352,
+      "end": 363,
+      "track": "TRIO",
+      "scope": "Sudden interruption and diverging responses",
+      "observation": "A dropped bag creates an accidental clothing incident. The narrator follows with the immediate responses of Dhika, Bobby and Bantu separately, then a hurried exit.",
+      "status": "SOURCE_LINKED_WRITING_MECHANISM_FIRST_PASS"
+    },
+    {
+      "id": "W-E02-03",
+      "episode": 2,
+      "start": 364,
+      "end": 384,
+      "track": "TRIO",
+      "scope": "Aftermath preserved across a time jump",
+      "observation": "The narrative moves from Dhika's private worry to a later conversation with John and next-day recollection. Later thought and retelling are not new twin encounters.",
+      "status": "SOURCE_LINKED_WRITING_MECHANISM_FIRST_PASS"
     },
     {
       "id": "W-E06-02",
@@ -193,6 +220,17 @@
       "scope": "Study conversation and interruption",
       "observation": "Tuition dialogue shifts through quiet reactions into a doorbell interruption. The arrival triggers immediate changes in dialogue and physical arrangement.",
       "status": "SOURCE_LINKED_FIRST_PASS_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E06-01",
+      "episode": 6,
+      "start": 1143,
+      "end": 1153,
+      "track": "DBC",
+      "anchor_id": "T09",
+      "scope": "Verified scene introduction and transition",
+      "observation": "Introduction → permission request → acceptance → shared painting task. Dialogue moves the ordinary activity forward.",
+      "status": "SOURCE_LINKED_OBSERVATION_NOT_STYLE_CERTIFIED"
     },
     {
       "id": "W-E07-01",
@@ -248,6 +286,28 @@
       "scope": "Online teaching and unresolved session boundary",
       "observation": "Academic explanation → study task → teasing dialogue → group reaction. The scene pauses at self-video inspection and continues in E08.",
       "status": "SOURCE_LINKED_FIRST_PASS_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E67-01",
+      "episode": 67,
+      "start": 13474,
+      "end": 13483,
+      "track": "TRIO",
+      "anchor_id": "T10",
+      "scope": "Shared-room conversation and emotional aftermath",
+      "observation": "Sleeping arrangements are discussed; departures and Dhika's reaction follow. The participants' perceptions must remain distinct.",
+      "status": "SOURCE_LINKED_OBSERVATION_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E68-01",
+      "episode": 68,
+      "start": 13800,
+      "end": 13812,
+      "track": "DY",
+      "anchor_id": "T12",
+      "scope": "Remote conversation rhythm",
+      "observation": "The interaction alternates a video-call attempt and text messages; do not reclassify it as in-person co-presence.",
+      "status": "SOURCE_LINKED_OBSERVATION_NOT_STYLE_CERTIFIED"
     }
   ],
   "episode_scope": {
