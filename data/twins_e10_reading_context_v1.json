@@ -1,0 +1,97 @@
+{
+  "schema": "twins_e10_reader_context_v1",
+  "episode": 10,
+  "status": "NO_TWIN_MEETINGS_IN_SOURCE",
+  "review": "Every E10 source line reviewed for Bantu/Bobby participation",
+  "encounters": [
+    {
+      "episode": 10,
+      "id": "E10-NO-TWINS",
+      "title": "No Bantu or Bobby encounter in E10",
+      "start": 1998,
+      "end": 2130,
+      "place": "Dhika's home; later cinema plans",
+      "note": "Source follows a different home visitor and later a group of family friends. There are no appearances or calls by Bantu or Bobby.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "non_encounter": true,
+      "no_pair_encounter": true
+    }
+  ],
+  "beats": [
+    {
+      "episode": 10,
+      "id": "E10-CTX-01",
+      "meeting_id": "E10-NO-TWINS",
+      "order": 1,
+      "source": [
+        1998,
+        2054
+      ],
+      "title": "Sunday daytime: unrelated home activity",
+      "reading": "Dhika works at home and receives Chotu, a separate character. No meeting or call involving either twin is established.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings"
+      ],
+      "review": "source_checked_other_character_context",
+      "time_frame": "non_pair_context"
+    },
+    {
+      "episode": 10,
+      "id": "E10-CTX-02",
+      "meeting_id": "E10-NO-TWINS",
+      "order": 2,
+      "source": [
+        2055,
+        2116
+      ],
+      "title": "Chotu's visit continues, then ends",
+      "reading": "The home visit belongs to Chotu's own relationship timeline. No action or knowledge is transferred to Bantu or Bobby in this episode.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings"
+      ],
+      "review": "source_checked_other_character_context",
+      "time_frame": "non_pair_context"
+    },
+    {
+      "episode": 10,
+      "id": "E10-CTX-03",
+      "meeting_id": "E10-NO-TWINS",
+      "order": 3,
+      "source": [
+        2117,
+        2130
+      ],
+      "title": "Evening social outing with other characters",
+      "reading": "The final section follows John, Sharmi and Raj. The previously concluded Bobby video call is not resumed.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings"
+      ],
+      "review": "source_checked_other_character_context",
+      "time_frame": "non_pair_context"
+    }
+  ],
+  "continuity": {
+    "previous": "E09 ends the earlier Bobby video call",
+    "present": "E10 contains no twins encounters",
+    "next": "No event in E11 inferred"
+  }
+}
