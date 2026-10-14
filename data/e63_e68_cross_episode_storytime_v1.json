@@ -1,0 +1,288 @@
+{
+  "schema": "dhika-episode-63-to-68-storytime-stitch-v1",
+  "purpose": "Historical order independent of how the author interleaves chapter headings and flashbacks. No original prose duplicated.",
+  "raw": "raw/Dhika.txt",
+  "status": "source-backed ordering where explicit; scene gaps and identity uncertainties flagged",
+  "steps": [
+    {
+      "id": "st01",
+      "kind": "group_scene",
+      "source": [
+        {
+          "episode": 63,
+          "range": [
+            12663,
+            12691
+          ]
+        }
+      ],
+      "why": "Episode 63 shared evening interaction precedes shower; distinct group participants maintained"
+    },
+    {
+      "id": "st02",
+      "kind": "retrospective_shower_setup",
+      "source": [
+        {
+          "episode": 64,
+          "range": [
+            12718,
+            12745
+          ]
+        }
+      ],
+      "why": "Author jumps back a few minutes"
+    },
+    {
+      "id": "st03",
+      "kind": "shower_scene",
+      "source": [
+        {
+          "episode": 64,
+          "range": [
+            12700,
+            12717
+          ]
+        },
+        {
+          "episode": 64,
+          "range": [
+            12746,
+            12763
+          ]
+        }
+      ],
+      "why": "E64 split by in-chapter recollection"
+    },
+    {
+      "id": "st04",
+      "kind": "after_shower_night",
+      "source": [
+        {
+          "episode": 65,
+          "range": [
+            12945,
+            13004
+          ]
+        },
+        {
+          "episode": 65,
+          "range": [
+            13009,
+            13017
+          ]
+        }
+      ],
+      "why": "E65 later recounts events after Bantu left previous bathroom scene"
+    },
+    {
+      "id": "st05",
+      "kind": "next_morning",
+      "source": [
+        {
+          "episode": 65,
+          "range": [
+            13027,
+            13055
+          ]
+        }
+      ],
+      "why": "Following-morning flashback"
+    },
+    {
+      "id": "st06",
+      "kind": "drive_home_11am",
+      "source": [
+        {
+          "episode": 64,
+          "range": [
+            12764,
+            12786
+          ]
+        }
+      ],
+      "why": "Return-home trip appears in earlier chapter but follows E65 flashback"
+    },
+    {
+      "id": "st07",
+      "kind": "home_repair_visit",
+      "source": [
+        {
+          "episode": 64,
+          "range": [
+            12787,
+            12904
+          ]
+        }
+      ],
+      "why": "Iroh/Jared and Zuko interactions; important knowledge/character contexts"
+    },
+    {
+      "id": "st08",
+      "kind": "evening_video",
+      "source": [
+        {
+          "episode": 64,
+          "range": [
+            12905,
+            12910
+          ]
+        }
+      ],
+      "why": "Source scene crosses into E65 reactions"
+    },
+    {
+      "id": "st09",
+      "kind": "john_home_conversation",
+      "source": [
+        {
+          "episode": 65,
+          "range": [
+            12918,
+            12944
+          ]
+        },
+        {
+          "episode": 65,
+          "range": [
+            13005,
+            13008
+          ]
+        },
+        {
+          "episode": 65,
+          "range": [
+            13018,
+            13026
+          ]
+        },
+        {
+          "episode": 65,
+          "range": [
+            13056,
+            13101
+          ]
+        }
+      ],
+      "why": "One present-day conversation containing earlier-day narrative insets; birthday plan established"
+    },
+    {
+      "id": "st10",
+      "kind": "birthday_morning_and_preparation",
+      "source": [
+        {
+          "episode": 66,
+          "range": [
+            13174,
+            13391
+          ]
+        },
+        {
+          "episode": 67,
+          "range": [
+            13399,
+            13467
+          ]
+        }
+      ],
+      "why": "E66's earlier-that-day episode segment continues into E67 before returning to present"
+    },
+    {
+      "id": "st11",
+      "kind": "birthday_party",
+      "source": [
+        {
+          "episode": 66,
+          "range": [
+            13109,
+            13173
+          ]
+        }
+      ],
+      "why": "E66 actually opens at party night and later backtracks"
+    },
+    {
+      "id": "st12",
+      "kind": "after_party_conversation_and_departure",
+      "source": [
+        {
+          "episode": 67,
+          "range": [
+            13468,
+            13642
+          ]
+        }
+      ],
+      "why": "Later return to present; accommodations and transport logistics"
+    },
+    {
+      "id": "st13",
+      "kind": "chotu_private_massage",
+      "source": [
+        {
+          "episode": 67,
+          "range": [
+            13643,
+            13698
+          ]
+        },
+        {
+          "episode": 68,
+          "range": [
+            13707,
+            13797
+          ]
+        },
+        {
+          "episode": 68,
+          "range": [
+            13878,
+            13901
+          ]
+        }
+      ],
+      "why": "One continuous event with conclusion recounted later"
+    },
+    {
+      "id": "st14",
+      "kind": "remote_call",
+      "source": [
+        {
+          "episode": 68,
+          "range": [
+            13798,
+            13842
+          ]
+        }
+      ],
+      "why": "Later separate video call; remote visual exposure not physical-contact event"
+    },
+    {
+      "id": "st15",
+      "kind": "john_returns",
+      "source": [
+        {
+          "episode": 68,
+          "range": [
+            13843,
+            13877
+          ]
+        },
+        {
+          "episode": 68,
+          "range": [
+            13902,
+            13909
+          ]
+        }
+      ],
+      "why": "Present conversation splits around earlier flashback"
+    }
+  ],
+  "rules": [
+    "Earlier source lines in chapter numbering are not automatically earlier in story time.",
+    "Only source-established presence implies who was there.",
+    "One event can have several non-contiguous narration spans.",
+    "Never infer that planned contact occurred.",
+    "Conflicting age evidence is tracked in the gap register."
+  ]
+}
