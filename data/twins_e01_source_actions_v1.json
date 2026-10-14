@@ -414,6 +414,26 @@
       "review": "source_fragment_located"
     },
     {
+      "id": "E01-AT-075",
+      "episode": 1,
+      "line": 47,
+      "pair": "DB",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "narrator_validates_compliment",
+      "type": "narration",
+      "status": "direct_source",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 47,
+        "highlight_start": 6,
+        "highlight_end": 22,
+        "line_checksum_fnv1a": "dc648797"
+      },
+      "note": "Narrator stance, not extra dialogue",
+      "review": "source_fragment_located"
+    },
+    {
       "id": "E01-AT-016",
       "episode": 1,
       "line": 48,
@@ -431,6 +451,86 @@
         "line_checksum_fnv1a": "9dadc300"
       },
       "note": "College clothing baseline",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-076",
+      "episode": 1,
+      "line": 50,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "positive_social_baseline",
+      "type": "profile",
+      "status": "direct_source",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 50,
+        "highlight_start": 10,
+        "highlight_end": 48,
+        "line_checksum_fnv1a": "073f945f"
+      },
+      "note": "General personality, impacts interactions but not a separate romance",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-077",
+      "episode": 1,
+      "line": 51,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "shy_and_innocent_profile",
+      "type": "profile",
+      "status": "direct_source",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 51,
+        "highlight_start": 22,
+        "highlight_end": 35,
+        "line_checksum_fnv1a": "da510489"
+      },
+      "note": "Do not relabel every later action as fear",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-078",
+      "episode": 1,
+      "line": 52,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "conscious_of_attire_and_attention",
+      "type": "clothing_norm",
+      "status": "direct_source",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 52,
+        "highlight_start": 178,
+        "highlight_end": 223,
+        "line_checksum_fnv1a": "c13661dc"
+      },
+      "note": "Baseline before visual observations",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-079",
+      "episode": 1,
+      "line": 53,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "public_clothing_norm",
+      "type": "clothing_norm",
+      "status": "direct_source",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 53,
+        "highlight_start": 45,
+        "highlight_end": 77,
+        "line_checksum_fnv1a": "4d2a89cc"
+      },
+      "note": "Long-term outfit baseline, not claimed as the exact afternoon attire",
       "review": "source_fragment_located"
     },
     {
@@ -834,6 +934,26 @@
       "review": "source_fragment_located"
     },
     {
+      "id": "E01-AT-080",
+      "episode": 1,
+      "line": 88,
+      "pair": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "offers_loan_again",
+      "type": "offer",
+      "status": "direct_source",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 88,
+        "highlight_start": 46,
+        "highlight_end": 70,
+        "line_checksum_fnv1a": "f6d50b81"
+      },
+      "note": "Second route to solve Bantu's claimed bike problem",
+      "review": "source_fragment_located"
+    },
+    {
       "id": "E01-AT-037",
       "episode": 1,
       "line": 89,
@@ -1031,6 +1151,26 @@
         "line_checksum_fnv1a": "1b5641d0"
       },
       "note": "Bobby middle, Bantu rear",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-081",
+      "episode": 1,
+      "line": 93,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "instructs_rear_seat",
+      "type": "positioning",
+      "status": "direct_source",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 93,
+        "highlight_start": 86,
+        "highlight_end": 110,
+        "line_checksum_fnv1a": "1b5641d0"
+      },
+      "note": "Physical geography: Bobby middle, Bantu rear",
       "review": "source_fragment_located"
     },
     {
@@ -1271,6 +1411,26 @@
         "line_checksum_fnv1a": "bba1cf55"
       },
       "note": "Mismatch between offered balance and actual contact",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-082",
+      "episode": 1,
+      "line": 100,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "immediate_surprise",
+      "type": "inner_response",
+      "status": "direct_source",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 100,
+        "highlight_start": 17,
+        "highlight_end": 33,
+        "line_checksum_fnv1a": "bba1cf55"
+      },
+      "note": "Dhika surprised by where Bobby placed hands",
       "review": "source_fragment_located"
     },
     {
