@@ -2,7 +2,7 @@
   "schema": "twins_reader_e01_e07_v1",
   "source": "raw/Dhika.txt",
   "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
-  "status": "E01_E08_SOURCE_LINKED_FIRST_PASS; NOT_ATOMICALLY_COMPLETE",
+  "status": "E01_E09_SOURCE_LINKED_FIRST_PASS; NOT_INDEPENDENT_ATOMIC_QA",
   "reading_rule": "Meetings are contiguous visits. Beats are ordered source-linked narrative phases. Memory and off-scene conversations are not meetings; remote call not on-site contact. Do not count group events as pair-specific contact without individual source line.",
   "episodes": [
     1,
@@ -12,7 +12,8 @@
     5,
     6,
     7,
-    8
+    8,
+    9
   ],
   "encounters": [
     {
@@ -297,6 +298,36 @@
       ],
       "remote": true,
       "continues_into": "E09"
+    },
+    {
+      "episode": 9,
+      "id": "E09-M01",
+      "title": "Bobby–Dhika Skype call concludes (continued from E08)",
+      "start": 1762,
+      "end": 1787,
+      "place": "Skype video call · remote",
+      "note": "The SAME Skype session began E08 L1689–1701. E09 picks up the unfinished conversation and closes before the unrelated scenes.",
+      "tracks": [
+        "DY"
+      ],
+      "continuation_of": "E08-M03",
+      "ended_at": 1787,
+      "remote": true
+    },
+    {
+      "episode": 9,
+      "id": "E09-CONTEXT",
+      "title": "Other-character scenes after Bobby call",
+      "start": 1788,
+      "end": 1993,
+      "place": "Shopping; home; social visit",
+      "note": "The rest of E09 follows John, Sharmi, Raj and Chotu-related events. This is not a Bantu/Bobby encounter.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "non_encounter": true
     }
   ],
   "beats": [
@@ -1974,6 +2005,138 @@
         "uncertainty"
       ],
       "before_after": "Do not infer the final response from E08's cliffhanger: E09 continues the same Skype encounter."
+    },
+    {
+      "id": "R-E09-057",
+      "episode": 9,
+      "meeting_id": "E09-M01",
+      "order": 1,
+      "source": [
+        1762,
+        1768
+      ],
+      "title": "Open cliffhanger resolved: visual demonstration over Skype",
+      "reading": "The previous episode ended at Bobby's unresolved reaction. E09 first reveals what Dhika did during that same call; it is a remote visual exchange, not physical contact or a new meeting.",
+      "tracks": [
+        "DY"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS; original source must resolve specific visual claims",
+      "state_fields": [
+        "continuity",
+        "visual_observation",
+        "separate_knowledge"
+      ],
+      "before_after": "E08's last reaction now has a documented cause. The call remains the same ongoing Skype conversation."
+    },
+    {
+      "id": "R-E09-058",
+      "episode": 9,
+      "meeting_id": "E09-M01",
+      "order": 2,
+      "source": [
+        1769,
+        1778
+      ],
+      "title": "Bobby explains his preference; Dhika interprets his implication",
+      "reading": "Dhika notices Bobby's reaction and asks follow-up questions. Bobby replies shyly; the narrator distinguishes part of what he thinks from what he says aloud, while Dhika draws an interpretation.",
+      "tracks": [
+        "DY"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS; original source must resolve specific visual claims",
+      "state_fields": [
+        "communication",
+        "openness",
+        "separate_knowledge"
+      ],
+      "before_after": "Bobby becomes more willing to answer, but his private wording is not automatically spoken knowledge."
+    },
+    {
+      "id": "R-E09-059",
+      "episode": 9,
+      "meeting_id": "E09-M01",
+      "order": 3,
+      "source": [
+        1779,
+        1785
+      ],
+      "title": "Dhika asks a question and Bobby complies",
+      "reading": "Dhika asks Bobby to stand briefly during the remote call. He agrees and responds; she then asks him to sit. This remains video-mediated observation and dialogue, not in-person contact.",
+      "tracks": [
+        "DY"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS; original source must resolve specific visual claims",
+      "state_fields": [
+        "communication",
+        "boundary_response",
+        "observation"
+      ],
+      "before_after": "The request and Bobby's actual response are distinct; no direct physical contact occurs between the two."
+    },
+    {
+      "id": "R-E09-060",
+      "episode": 9,
+      "meeting_id": "E09-M01",
+      "order": 4,
+      "source": [
+        1786,
+        1787
+      ],
+      "title": "Skype conversation closes before the planned errand",
+      "reading": "Dhika says she needs to get ready for an errand and will see Bobby on Monday. The source moves directly into an unrelated plan; it does not describe an additional encounter with Bobby in this episode.",
+      "tracks": [
+        "DY"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS; original source must resolve specific visual claims",
+      "state_fields": [
+        "continuity",
+        "schedule"
+      ],
+      "before_after": "The E08→E09 Skype encounter ends; Monday is a future intention, not an encounter already completed."
+    },
+    {
+      "id": "R-E09-061",
+      "episode": 9,
+      "meeting_id": "E09-CONTEXT",
+      "order": 5,
+      "source": [
+        1788,
+        1993
+      ],
+      "title": "After the Skype scene: no further twin encounter",
+      "reading": "The narrative switches to a shopping trip, a Chotu-related home visit, and an evening social gathering with John, Sharmi and Raj. None of these is a new Bantu–Dhika or Bobby–Dhika meeting.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS; original source must resolve specific visual claims",
+      "time_frame": "other_character_context",
+      "state_fields": [
+        "separation",
+        "context"
+      ],
+      "before_after": "No new direct Bantu or Bobby meeting is established in the rest of E09."
     }
   ],
   "body_ref_rules": {
@@ -1995,6 +2158,18 @@
       "status": "SAME_CALL_CONTINUES",
       "from_line": 1753,
       "to_line": 1762
+    },
+    {
+      "edge": "E08-M03 -> E09-M01",
+      "status": "SAME_BOBBY_DHIKA_SKYPE_CALL; NOT_NEW_MEETING",
+      "from_line": 1753,
+      "to_line": 1762
+    },
+    {
+      "edge": "E09-M01 -> E09-CONTEXT",
+      "status": "BOBBY_CALL_CLOSED; STORY_SWITCHES_TO_OTHER_CHARACTERS",
+      "from_line": 1787,
+      "to_line": 1788
     }
   ]
 }
