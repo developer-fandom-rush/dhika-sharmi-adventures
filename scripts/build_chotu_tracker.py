@@ -1,6 +1,7 @@
 """Source-grounded Chotu–Dhika episode tracker. Never rewrites raw/Dhika.txt."""
 import hashlib, json, re
 from pathlib import Path
+from chotu_body_annotations import BODY, MENTAL_AND_DIALOGUE, STYLE_OBSERVATIONS
 
 ROOT=Path(__file__).resolve().parents[1]
 RAW=(ROOT/'raw/Dhika.txt').read_bytes()
@@ -228,7 +229,23 @@ def build():
             if p['action'].startswith('Earlier routine:'):temporal='historical_habit'
             elif n in (4,15,16) or n==66 and evidence[0]['global_line']>=13209 or n==68 and evidence[0]['global_line']>=13878:temporal='actual_flashback'
             if 'later account' in p['action'] or 'later continuation' in p['action'] or 'same encounter recalled' in p['action']:temporal='reported_or_recalled_actual'
-            ps.append(dict(action_id=f'CP-{ix+1:03}',action=p['action'],evidence=evidence,temporal_frame=temporal))
+            targets=[]
+            for t in BODY.get(min(x['global_line'] for x in p['evidence']),[]):
+                # Composite action records can contain several performers.
+                # Initiative is retained in the original action/source rather
+                # than assigned anew to each participating anatomical surface.
+                t={k:v for k,v in t.items() if k!='actor'}
+                targets.append(dict(**t,evidence_global_lines=[x['global_line'] for x in evidence]))
+                chosen.update(i for i in t['context_evidence_global_lines'] if lo<=i<=hi)
+            ps.append(dict(action_id=f'CP-{ix+1:03}',action=p['action'],evidence=evidence,temporal_frame=temporal,body_targets=targets,body_annotation_status='curated_anatomical_targets; action and initiative at source-record level' if targets else 'no_separate_anatomical_target_assigned; original action retained'))
+        verbal=[]
+        for v in MENTAL_AND_DIALOGUE:
+            if v['episode']!=ep['episode_id']:continue
+            evidence_lines=sorted(set([v['line']]+v['context']))
+            chosen.update(evidence_lines)
+            verbal.append(dict(**v,evidence=[ref(i) for i in evidence_lines],counts_as_completed_contact=False))
+        for style in STYLE_OBSERVATIONS:
+            chosen.update(i for i in style['lines'] if lo<=i<=hi)
         # Selected original paragraphs appear once and stay complete.
         source=[ref(i) for i in sorted(chosen)];assigned.update(x['global_line'] for x in source)
         for ix,b in enumerate(bs):
@@ -240,7 +257,18 @@ def build():
                 matching=[(j,a) for j,(eno,a,z) in enumerate(sections) if eno==n and a<=b['end'] and z>=b['start']]
                 b['story_sequence_order']=min((j*10000+b['start']-a for j,a in matching),default=b['start'])
             else:b['story_sequence_order']=None
-        result.append(dict(episode_id=ep['episode_id'],source_range=[lo,hi],meetings=ms,bond_beats=bs,physical_actions=ps,source_lines=source,explicit_reference_lines=sorted(mentions),status='direct_meeting_and_reference_review' if ms else 'memory_context_or_report_review' if chosen else 'no_explicit_pair_reference_found',absence_note=None if chosen else 'No explicit Chotu/Babu reference was found in this episode; no pair action has been assigned.'))
+        # Literal form/cue indices preserve the entire source paragraph. These
+        # are not guessed anatomical locations or mind-reading annotations.
+        style_index=[]
+        for s in source:
+            text=s['text']; tags=[]
+            if re.match(r'^\s*(?:Dhika|Ch+o+t+u+|Babu)\s*:',text,re.I):tags.append('character_labelled_line; speaking_vs_inner_voice_requires_context')
+            else:tags.append('narration_or_context')
+            if re.search(r'\b(thought\w*|think\w*|wonder\w*|remember\w*|recall\w*|mind|wanted|longed|urge)\b',text,re.I):tags.append('literal_cognition_or_recall_wording')
+            if re.search(r'\b(heat|hot|warm\w*|tingl\w*|wet\w*|moist\w*|arous\w*|hardon|erection|twitch\w*|blush\w*|shy\w*|excit\w*|breath\w*|sweat\w*)\b',text,re.I):tags.append('literal_body_response_or_material_wording')
+            if re.search(r'\b(look\w*|saw|see\w*|eyes|gaze|stare\w*|glanc\w*|notice\w*)\b',text,re.I):tags.append('literal_observation_wording')
+            style_index.append(dict(**s,source_form_tags=tags,interpretation_rule='Exact paragraph is authoritative. Wet fabric, rain and sweat are not automatically genital wetness. A character label alone does not prove spoken dialogue.'))
+        result.append(dict(episode_id=ep['episode_id'],source_range=[lo,hi],meetings=ms,bond_beats=bs,physical_actions=ps,body_discussion_and_desire=verbal,writing_style_source_index=style_index,source_lines=source,explicit_reference_lines=sorted(mentions),status='direct_meeting_and_reference_review' if ms else 'memory_context_or_report_review' if chosen else 'no_explicit_pair_reference_found',absence_note=None if chosen else 'No explicit Chotu/Babu reference was found in this episode; no pair action has been assigned.'))
     assert source_mentions<=assigned
     # Complete 68-episode ordering, exact paragraphs, legal source bounds.
     assert [x['episode_id'] for x in result]==[f'E{i:02}' for i in range(1,69)]
@@ -249,6 +277,16 @@ def build():
     def mk_link(a,b,what):return dict(from_global_line=a,to_global_line=b,relationship=what)
     links=[mk_link(137,137,'Chotu notices a difference; Dhika interprets his response as not noticing/minding. Two perspectives in one paragraph.'),mk_link(145,170,'Earlier uncertain exposure becomes private excited recall.'),mk_link(345,411,'Dhika’s fear guess about his leave is followed by his explicit grandmother-death explanation.'),mk_link(153,428,'E01 uncertain viewing is later explicitly recalled by Chotu as seeing her breasts during cleaning.'),mk_link(1273,1835,'Ejaculation on her hands is the subject of his later distress and reassurance.'),mk_link(1502,1835,'Observed distance precedes his explanation of distress.'),mk_link(481,4324,'John later reports Chotu’s apology for the first kiss.'),mk_link(1273,4325,'John later reports Chotu’s apology for ejaculation on her hands.'),mk_link(4324,5231,'What John reveals becomes Dhika’s question to Chotu about disclosure behind her back.'),mk_link(2619,2630,'Repeated ending at episode boundary; one orgasm, not two.'),mk_link(11276,11289,'Not-exactly genital contact at the earlier stage is followed by explicit vulva contact at climax.'),mk_link(13697,13707,'E68 continues the E67 panty-removal/massage setup.'),mk_link(13794,13888,'Fingering precedes Dhika’s explicit stop and removal of the fingers.'),mk_link(13888,13906,'Stopping after contemplating penile entry is followed by explicit no-intercourse answer to John.')]
     output=dict(schema_version='chotu-dhika-tracker-1.0',scope=dict(pair=['dhika','chotu'],episodes='E01–E68',character=dict(canonical_name='Chotu',real_name='Babu',age=19,evidence_global_line=120),source_sha256=EXPECTED_SHA,source_path='raw/Dhika.txt',line_numbering='Global source line numbers; episode-local numbers also retained.',method='Read source passages and curate connected conversation, thought, response and physical sequences. Preserve full original paragraphs. An episode without an explicit reference is not assigned invented pair events.',scope_complete='All 68 episode slots indexed; pair-reference and encounter readings provided. This does not complete the all-character story tracker.'),counts=dict(episode_slots=68,meeting_groups=len(MEETINGS),bond_beats=len(BEATS),physical_reference_records=sum(len(e['physical_actions']) for e in result),explicit_reference_lines=len(source_mentions),preserved_context_lines=sum(len(e['source_lines']) for e in result)),meeting_groups=[dict(meeting_id=m,title=t,episode_sections=[dict(episode=f'E{n:02}',start=a,end=b) for n,a,b in sections],time_anchor=time,count_definition='Continuous direct meeting / visit; store errand interruption stays within C04. C20 and C24 include multiple interaction phases in one extended stay. C08/C11/C15 are brief store interactions.') for m,t,sections,time in MEETINGS],episodes=result,evidence_links=links,source_uncertainties=[dict(lines=[173],issue='Literal 10 PM conflicts with next-morning narrative; retained, not corrected.'),dict(lines=[483,484],issue='Repeated kiss-response sentence; one response, not another kiss.'),dict(lines=[2619,2630],issue='Repeated E13 ending at start of E14; not another ejaculation.'),dict(lines=[2628,2631,2632],issue='E14 switches from a Tuesday replay to Wednesday late evening departure from bed; no automatic Tuesday-encounter assignment.'),dict(lines=[13220],issue='Possible genital glimpse is explicitly qualified as pretty sure, not confirmed detail.'),dict(lines=[13757],issue='She wonders if she had a mini orgasm; no definite orgasm count assigned.'),dict(lines=[13748],issue='Dhina spelling in this continuing Dhika scene is preserved verbatim.'),dict(lines=[9731,13886],issue='Source says past few months; no exact two-month elapsed duration calculated.'),dict(lines=[204],issue='Explicit trust statement concerns her knowing him and his response about arms; physical permission is encounter/action-specific.'),dict(lines=[1264,1266,1269],issue='His requests not to continue are preserved; not converted to willing because ejaculation occurs.')],future_planning=dict(status='user_authored_only',fields=['proposed_event_name','linked_prior_meeting_id','scene_setting','initiator','ordered_steps','other_character_response_per_step','stopping_point','relationship_consequence','source_fact_vs_user_proposal']))
+    output['schema_version']='chotu-dhika-tracker-1.1'
+    output['body_tracking_policy']={
+        'anatomy':'Curated targets accompany original action records; garment-only or unspecified locations remain explicit.',
+        'source':'Full original wording is authoritative; anatomy labels are an index, not replacement narration.',
+        'initiative':'Keep initiative at the source action level; reciprocal contact does not establish who initiated it.',
+        'knowledge':'Narration available to the reader does not establish disclosure to another character. Use explicit dialogue and responses as evidence; otherwise knowledge is not established.',
+        'coverage':'All 68 episode slots have source-style indices. Separate body targets annotate physical reference records; the literal source index also retains bodily sensations, thoughts, memories and conversations without forcing them into completed actions.'}
+    output['style_observations']=[dict(**s,evidence=[ref(i) for i in s['lines']]) for s in STYLE_OBSERVATIONS]
+    output['counts']['anatomical_target_entries']=sum(len(a['body_targets']) for e in result for a in e['physical_actions'])
+    output['counts']['physical_records_with_body_targets']=sum(bool(a['body_targets']) for e in result for a in e['physical_actions'])
     dest=ROOT/'data/chotu_dhika_tracker.json';dest.write_text(json.dumps(output,ensure_ascii=False,separators=(',',':'))+'\n')
     print(json.dumps(output['counts']))
     print('PASS: all selected paragraphs and action quotes match unchanged raw source; all 68 episode slots retained.')

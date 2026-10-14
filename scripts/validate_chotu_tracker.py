@@ -39,3 +39,21 @@ assert any(13906 in b['evidence_global_lines'] for b in d['episodes'][67]['bond_
 assert all(a['evidence'][0]['global_line']!=2630 for a in d['episodes'][13]['physical_actions'])
 assert 'two-month' in str(d['source_uncertainties'])
 print('PASS: 68 slots; all explicit name references retained; every quote and paragraph exact; trust, memory, refusal, chronology and continuation regressions pass.')
+
+for ep in d['episodes']:
+ assert len(ep['writing_style_source_index'])==len(ep['source_lines'])
+ for s in ep['writing_style_source_index']:assert s['text']==lines[s['global_line']-1]
+ for a in ep['physical_actions']:
+  for t in a['body_targets']:
+   assert t['owner'] in ('dhika','chotu'),t
+   assert 'actor' not in t
+   assert all(1<=n<=len(lines) for n in t['context_evidence_global_lines'])
+ for v in ep['body_discussion_and_desire']:
+  assert v['counts_as_completed_contact'] is False
+  for s in v['evidence']:assert s['text']==lines[s['global_line']-1]
+for o in d['style_observations']:
+ for s in o['evidence']:assert s['text']==lines[s['global_line']-1]
+assert next(v for v in d['episodes'][4]['body_discussion_and_desire'] if v['line']==1056)['mode']=='explicit_desire_not_enacted'
+assert any(t['contact_layer']=='through_boxers' for a in d['episodes'][4]['physical_actions'] for t in a['body_targets'] if 1050 in t['evidence_global_lines'])
+assert any(t['mode']=='lick_own_fingers' for a in d['episodes'][2]['physical_actions'] for t in a['body_targets'] if 458 in t['evidence_global_lines'])
+print('PASS: body annotation ownership, non-enacted discussion, source-style text, clothed graze and own-finger licking checks.')
