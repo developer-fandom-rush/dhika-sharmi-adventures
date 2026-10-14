@@ -171,6 +171,83 @@
       "scope": "Remote conversation rhythm",
       "observation": "The interaction alternates a video-call attempt and text messages; do not reclassify it as in-person co-presence.",
       "status": "SOURCE_LINKED_OBSERVATION_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E06-02",
+      "episode": 6,
+      "start": 1082,
+      "end": 1105,
+      "track": "DY",
+      "anchor_id": "E06-SOLO",
+      "scope": "Bobby solo arrival",
+      "observation": "Everyday visit → academic competition request → permission → shy small talk. The narrator distinguishes Bobby's reported motivation from Dhika's knowledge.",
+      "status": "SOURCE_LINKED_FIRST_PASS_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E06-03",
+      "episode": 6,
+      "start": 1106,
+      "end": 1142,
+      "track": "DY",
+      "anchor_id": "E06-SOLO",
+      "scope": "Study conversation and interruption",
+      "observation": "Tuition dialogue shifts through quiet reactions into a doorbell interruption. The arrival triggers immediate changes in dialogue and physical arrangement.",
+      "status": "SOURCE_LINKED_FIRST_PASS_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E07-01",
+      "episode": 7,
+      "start": 1370,
+      "end": 1384,
+      "track": "DB",
+      "anchor_id": "E07-SOLO",
+      "scope": "Travel notice turns into remote teaching plan",
+      "observation": "An ordinary trip notice develops into a request, acceptance and explicit arrangement for online lessons; Bantu's motive is reported separately from Dhika's words.",
+      "status": "SOURCE_LINKED_FIRST_PASS_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E07-02",
+      "episode": 7,
+      "start": 1401,
+      "end": 1425,
+      "track": "DB",
+      "anchor_id": "E07-SOLO",
+      "scope": "Request, refusal and response pacing",
+      "observation": "Multiple requests, refusals and later choices are distinct beats. An attempted motion is stopped before a later completed action.",
+      "status": "SOURCE_LINKED_FIRST_PASS_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E07-03",
+      "episode": 7,
+      "start": 1444,
+      "end": 1466,
+      "track": "DB",
+      "anchor_id": "E07-SOLO",
+      "scope": "Gift acceptance sequence",
+      "observation": "Offer → teacher-role objection → explanation → repeated refusal → pressure → reluctant acceptance → follow-on suggestion. Approval of one step does not imply agreement to a later step.",
+      "status": "SOURCE_LINKED_FIRST_PASS_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E07-04",
+      "episode": 7,
+      "start": 1495,
+      "end": 1508,
+      "track": "DB",
+      "anchor_id": "E07-SOLO",
+      "scope": "Departure and Wednesday callback",
+      "observation": "A garment suggestion near departure is recalled on Wednesday during private preparation; this is a callback, not another Bantu visit.",
+      "status": "SOURCE_LINKED_FIRST_PASS_NOT_STYLE_CERTIFIED"
+    },
+    {
+      "id": "W-E07-05",
+      "episode": 7,
+      "start": 1509,
+      "end": 1535,
+      "track": "TRIO",
+      "anchor_id": "E07-REMOTE",
+      "scope": "Online teaching and unresolved session boundary",
+      "observation": "Academic explanation → study task → teasing dialogue → group reaction. The scene pauses at self-video inspection and continues in E08.",
+      "status": "SOURCE_LINKED_FIRST_PASS_NOT_STYLE_CERTIFIED"
     }
   ],
   "episode_scope": {
@@ -209,7 +286,23 @@
           13812
         ]
       }
-    ]
+    ],
+    "line_indexed_episodes": [
+      6,
+      7
+    ],
+    "source_reference_gap_repairs": {
+      "episode2": [
+        384
+      ],
+      "episode5": [
+        961,
+        962,
+        993,
+        994
+      ]
+    },
+    "final_semantic_signoff": []
   },
   "review_checklist": [
     "Episode text inspected in full",
