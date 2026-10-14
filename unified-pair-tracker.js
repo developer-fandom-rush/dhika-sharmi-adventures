@@ -15,9 +15,10 @@ loc+"unified_pair_audit_v2.json",
 loc+"unified_pair_partial_scene_events_v2.json",
 loc+"twins_e06_line_ledger_v1.json",loc+"twins_e07_line_ledger_v1.json",
 loc+"twins_e01_e05_gap_repairs_v1.json",
+loc+"twins_reader_e01_e07_v1.json",
 "./raw/Dhika.txt"];
 const trackNames={DB:"Dhika × Bantu",DY:"Dhika × Bobby",TRIO:"Dhika × Bantu × Bobby",DBC:"Dhika × Bobby × Chotu"};
-let canon=[],episodes=[],curated=[],scenes=[],windows=[],states=[],gaps=[],audit={},writingNotes=[],lineAudits=[],filtered=[],shown=0,tab="history";
+let canon=[],episodes=[],curated=[],scenes=[],windows=[],states=[],gaps=[],audit={},writingNotes=[],lineAudits=[],readerBeats=[],readerEncounters=[],filtered=[],shown=0,tab="meetings";
 function link(n){return '<a href="'+srcUrl(n)+'" target="_blank" rel="noopener">Raw L'+n+' ↗</a>'}
 function has(s,k){return k==="Bantu"?/\bbantu\b/i.test(s):k==="Bobby"?/\bbobby\b/i.test(s):k==="Chotu"?/\b(chotu|babu)\b/i.test(s):/\btwins?\b/i.test(s)}
 function epFor(n){return episodes.find(e=>n>=e.start&&n<=e.end)?.id||0}
@@ -256,19 +257,116 @@ function qaView(){
  $("info").textContent="All 18 audit issues OPEN. E01–E05 first-pass source index plus five repaired references; E06/E07 complete line disposition (not semantic sign-off); E67–E68 fragmentary. G01–G18 remain open overall.";$("more").hidden=true
 }
 
+
+function readerSelect(a){return (a.tracks||[]).includes($("pair").value)&&isInScope(a.episode)}
+function readerSearch(a,q){return !q||[a.title,a.reading,a.note,a.place,a.meeting_id,a.episode].join(" ").toLowerCase().includes(q)||
+ (a.source&&getPlainSourceMatches(a.source[0],a.source[1],q))}
+function getPlainSourceMatches(start,end,q){
+ for(let n=start;n<=end;n++){if((canon[n-1]||"").toLowerCase().includes(q))return true;}
+ return false;
+}
+function readerEvidence(b){
+ return '<details class="reader-proof"><summary>Read original paragraphs · L'+b.source[0]+'–'+b.source[1]+' ↗</summary>'+
+ getLines(b.source[0],b.source[1],$("search").value.trim(),0)+'</details>';
+}
+function readerBeatCard(b,number){
+ return '<section class="reader-beat" id="'+enc(b.id)+'"><div class="reader-order"><span class="reader-step">'+number+'</span>'+
+ '<div><p class="reader-overline">E'+String(b.episode).padStart(2,"0")+' · '+(b.time_frame?enc(b.time_frame.replaceAll("_"," ")):"story sequence")+' · '+link(b.source[0])+'</p>'+
+ '<h3>'+enc(b.title)+'</h3></div></div><p class="reader-reading">'+enc(b.reading)+'</p>'+
+ (b.milestone?'<p class="reader-milestone">Key story milestone · source-established</p>':"")+
+ (b.before_after?'<p class="reader-effect"><strong>What changes:</strong> '+enc(b.before_after)+'</p>':"")+
+ readerEvidence(b)+'</section>'
+}
+function readerMeetings(){
+ const p=$("pair").value,q=$("search").value.trim().toLowerCase(),groups=readerEncounters.filter(a=>readerSelect(a));
+ if(!groups.length){$("results").innerHTML='<article class="card">No completed meeting-by-meeting reading map for this selected episode yet. The older source index is available under Source index. This does not establish absence of encounters.</article>';$("info").textContent="No signed reading map for this selection";$("more").hidden=true;return;}
+ let count=0,visible=0,markup='<p class="reader-notice">Read top to bottom. Every meeting contains ordered phases; a memory is labelled separately. Open “Original paragraphs” only when you need the source. A group meeting is not automatically a pair-specific physical action.</p>';
+ for(const g of groups){
+   const bs=readerBeats.filter(b=>b.meeting_id===g.id&&readerSelect(b)&&readerSearch(b,q)).sort((a,b)=>a.order-b.order);
+   if(!bs.length)continue;
+   const noVisit=/memory|aftermath|follow-up/i.test(g.title)||/off-scene/i.test(g.note);
+   const title=noVisit?"Memory / aftermath":"Meeting";
+   count++;visible+=bs.length;
+   markup+='<details class="reader-meeting" '+(groups.length===1||$("episode").value!=="all"?'open':"")+'><summary><span class="reader-meetno">E'+String(g.episode).padStart(2,"0")+' · '+title+' '+count+'</span><strong>'+enc(g.title)+'</strong><small>'+enc(g.place)+' · L'+g.start+'–'+g.end+'</small></summary>'+
+   '<p class="reader-context">'+enc(g.note)+'</p>'+
+   bs.map((b,i)=>readerBeatCard(b,i+1)).join("")+
+   '<details class="reader-proof"><summary>Complete encounter source · L'+g.start+'–'+g.end+'</summary>'+getLines(g.start,g.end,$("search").value.trim(),0)+'</details></details>';
+ }
+ $("results").innerHTML=markup;
+ $("info").textContent=count+" encounter/context groups · "+visible+" narrative phases · read in source order";$("more").hidden=true;
+}
+function readerBond(){
+ const q=$("search").value.trim().toLowerCase();
+ const bs=readerBeats.filter(b=>readerSelect(b)&&b.channels.includes("bond")&&readerSearch(b,q)).sort((a,b)=>a.episode-b.episode||a.source[0]-b.source[0]);
+ $("results").innerHTML='<p class="reader-notice">A bond entry describes what this scene establishes and who knows it. A private thought, memory, or third-party report is not a new encounter.</p>'+
+ bs.map(b=>'<article class="card reader-bond"><div class="reader-order"><span class="badge source">E'+String(b.episode).padStart(2,"0")+'</span><h3>'+enc(b.title)+'</h3></div><p>'+enc(b.reading)+'</p>'+
+ (b.before_after?'<p class="reader-effect"><strong>State / memory:</strong> '+enc(b.before_after)+'</p>':"")+
+ (b.time_frame?'<p class="hint">Frame: '+enc(b.time_frame.replaceAll("_"," "))+' · No new meeting inferred</p>':"")+
+ readerEvidence(b)+'</article>').join("")||
+ '<article class="card">No additional source-reviewed bond beats in this selection. Consult Exact source for the unchanged text.</article>';
+ $("info").textContent=bs.length+" bond, reaction and memory beats";$("more").hidden=true;
+}
+function readerPhysical(){
+ const q=$("search").value.trim().toLowerCase();
+ const bs=readerBeats.filter(b=>readerSelect(b)&&b.channels.includes("physical")&&readerSearch(b,q)).sort((a,b)=>a.episode-b.episode||a.source[0]-b.source[0]);
+ $("results").innerHTML='<p class="reader-notice">Distinguish incidental visual events, practical contact, requests, refusals and completed actions. A grouped scene is not proof that both twins did the same thing. Read the original source for exact action and observer attribution.</p>'+
+ bs.map((b,i)=>readerBeatCard(b,i+1)).join("")||
+ '<article class="card">No individually interpreted physical/visual beat mapped for this selection yet. This does not mean no action appears in source.</article>';
+ $("info").textContent=bs.length+" interpreted physical / visual scene phases (first pass)";$("more").hidden=true;
+}
+function readerBody(){
+ const q=$("search").value.trim().toLowerCase();
+ const entries=readerBeats.filter(b=>readerSelect(b)).flatMap(b=>(b.body_refs||[]).map(ref=>({...ref,beat:b}))).filter(x=>!q||[x.owner,x.area,x.mode,x.reading].join(" ").toLowerCase().includes(q)||(canon[x.line-1]||"").toLowerCase().includes(q));
+ const grouped=new Map();
+ for(const x of entries){const key=x.area+"|"+x.owner;if(!grouped.has(key))grouped.set(key,[]);grouped.get(key).push(x)}
+ $("results").innerHTML='<p class="reader-notice">This view is a structured reference to clothing, visible state, and actual or attempted contact. “Observed” is not “touched”; “requested” is not “completed.” Source-owner and observer must be checked before extending the chronology. Further episodes are not yet independently complete.</p>'+
+ [...grouped.entries()].map(([key,arr])=>'<article class="card"><h3>'+enc(arr[0].owner)+' · '+enc(arr[0].area)+'</h3>'+
+ arr.map(x=>'<div class="reader-body-row"><div class="row"><strong>E'+String(x.beat.episode).padStart(2,"0")+' · '+enc(x.mode)+'</strong>'+link(x.line)+'</div>'+
+ '<p>'+enc(x.reading)+'</p>'+readerEvidence({...x.beat,source:[x.line,x.line]})+'</div>').join("")+'</article>').join("")||
+ '<article class="card">No individually classified visual/body-reference record for this selection yet. See Exact source and Source index; no absence is inferred.</article>';
+ $("info").textContent=entries.length+" first-pass body/clothing/visual history entries";$("more").hidden=true;
+}
+function readerCumulative(){
+ const p=$("pair").value,last=$("episode").value==="all"?7:Math.min(7,+$("episode").value);
+ const names={familiarity:"Familiarity & everyday access",communication:"Communication and openness",emotional_reaction:"Reactions and hesitations",trust:"Trust and practical permissions",access:"Access / visit arrangements",separate_knowledge:"What each person knows",character_knowledge:"Source versus character knowledge",visual_milestone:"Accidental visual milestones",boundaries:"Requests and boundaries",boundary_response:"Boundary responses",physical_history:"Documented contact / physical history",memory:"Recalls and references",uncertainty:"Uncertainty and unshared information",role:"Teacher/student role",solo_access:"Solo visits",continuity:"Continuity across encounters",repair:"Reassurance / repair",openness:"Willingness to talk",care:"Practical care",study:"Study activity",co_presence:"Group scene presence"};
+ const bs=readerBeats.filter(b=>b.episode<=last&&(b.tracks||[]).includes(p)).sort((a,b)=>a.episode-b.episode||a.source[0]-b.source[0]);
+ const keys=[...new Set(bs.flatMap(b=>b.state_fields||[]))],rows=keys.map(key=>{
+  const found=bs.filter(b=>(b.state_fields||[]).includes(key)),latest=found.at(-1);
+  return '<tr><td>'+enc(names[key]||key.replaceAll("_"," "))+'</td><td><strong>E'+String(latest.episode).padStart(2,"0")+' · '+enc(latest.title)+'</strong><p>'+enc(latest.before_after||latest.reading)+'</p>'+link(latest.source[0])+'</td>'+
+  '<td><details><summary>'+found.length+' source-linked stages</summary>'+found.map(b=>'<p><strong>E'+b.episode+'</strong> · '+enc(b.title)+' · '+link(b.source[0])+'</p>').join("")+'</details></td></tr>';
+ });
+ $("results").innerHTML='<article class="card"><h2>Cumulative relationship state through E'+String(last).padStart(2,"0")+'</h2><p class="hint">Source-linked latest state for each dimension, not a numeric relationship score. This deliberately includes earlier E01–E'+last+' even when you select a single episode.</p><div class="table-wrap"><table class="reader-state-table"><thead><tr><th>Area</th><th>Latest source-backed reading</th><th>Earlier stages</th></tr></thead><tbody>'+rows.join("")+'</tbody></table></div></article>';
+ $("info").textContent=keys.length+" cumulative relationship categories through Episode "+last;$("more").hidden=true;
+}
+function readerExact(){
+ const value=$("episode").value;
+ if(value==="all"||+value>7){sourceView();return;}
+ const ep=episodes.find(e=>e.id===+value);
+ if(!ep)return;
+ const q=$("search").value.trim().toLowerCase();
+ const matching=[];
+ for(let n=ep.start;n<=ep.end;n++)if(!q||(canon[n-1]||"").toLowerCase().includes(q))matching.push(n);
+ $("results").innerHTML='<article class="card"><h2>E'+String(ep.id).padStart(2,"0")+' · exact original source</h2><p class="reader-notice">Unchanged lines in story order, including passages not counted as twin encounters. Global line references match the source file. Use Search to filter, or clear Search to see the entire episode.</p>'+
+ matching.map(n=>'<div class="mini reader-source-row"><div class="row">'+link(n)+'<span class="muted">Episode line '+(n-ep.start+1)+'</span></div><div class="evidence">'+cue(canon[n-1]||"",q)+'</div></div>').join("")+'</article>';
+ $("info").textContent=matching.length+" of "+(ep.end-ep.start+1)+" exact episode lines";$("more").hidden=true;
+}
+
 function render(){
  for(const btn of document.querySelectorAll("[data-tab]"))btn.setAttribute("aria-pressed",String(btn.dataset.tab===tab));
- if(tab==="history"){
+ if(tab==="meetings"){readerMeetings()}
+ else if(tab==="bond"){readerBond()}
+ else if(tab==="physical"){readerPhysical()}
+ else if(tab==="history"){
   filtered=getFilter().filter(r=>isInScope(r.episode));shown=0;$("results").innerHTML="";renderChunk();
  }else if(tab==="scenes"){
   const list=scenes.filter(s=>relevant(s,$("pair").value)&&isInScope(s.episode)&&searched(s,$("search").value.trim().toLowerCase()));
   $("results").innerHTML=list.map(rangeCard).join("")||'<article class="card">No verified scene anchor in this selection. This is not evidence of no encounter.</article>';
   $("info").textContent=list.length+" source-established scene anchors, not exhaustive chapter review";$("more").hidden=true;
- }else if(tab==="states")stateView();
- else if(tab==="body")bodyView();
+ }else if(tab==="states")readerCumulative();
+ else if(tab==="body")readerBody();
  else if(tab==="style")styleView();
  else if(tab==="coverage")coverageView();
- else if(tab==="source")sourceView();
+ else if(tab==="source")readerExact();
  else if(tab==="lineqa")lineqaView();
  else if(tab==="qa")qaView();
 }
@@ -294,6 +392,7 @@ function downloadSelection(){
   curated=data.slice(1,11).flatMap((d,i)=>normalize(d,epIndex[i],i)).map(r=>({...r,recordType:"action"}));
   curated.push(...data[13].records.filter(a=>a.episode!==6).map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.pair,actor:a.actor,recipient:a.recipient,action:a.action,kind:a.type,source_kind:a.source_kind,recordType:"action",file:loadPaths[13],raw:a,review:a.review,status:"fragment_only"})));
   lineAudits=[data[14],data[15]];
+  readerBeats=data[17].beats;readerEncounters=data[17].encounters;
   curated.push(...data[16].records.map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.track,actor:a.actor,recipient:"",action:a.action,kind:a.kind,source_kind:"source_linked_first_pass",recordType:"action",file:loadPaths[16],raw:a,review:a.review,status:a.outcome})));
   for(let i=14;i<=15;i++){
     curated.push(...data[i].events.filter(a=>a.track!=="NON_TWIN_CONTEXT").map(a=>({
@@ -309,10 +408,11 @@ function downloadSelection(){
   );
   windows=makeWindows();
   for(let i=1;i<=68;i++){$("episode").insertAdjacentHTML("beforeend",'<option value="'+i+'">Episode '+String(i).padStart(2,"0")+'</option>')}
+  $("episode").value="1";
   $("stats").innerHTML=[
    [68,"Episode slots scanned"],[curated.length,"Indexed action tags"],[scenes.length,"Verified scene anchors"],[windows.length,"Unreviewed discovery windows"]
   ].map(a=>'<div><strong>'+a[0]+'</strong><small>'+a[1]+'</small></div>').join("");
-  $("status").textContent="Ready · E01–E05 earlier first pass; E06–E07 line-disposition indexes; E67–E68 partial fragments. No episode has a final exhaustive semantic QA sign-off. No encounter inferred from name hits.";
+  $("status").textContent="Reading view for E01–E07: 42 source-linked narrative phases across 16 scenes and memory groups. Original lines remain available. This is a first-pass reading map, not a claim of exhaustive certification.";
   for(const id of ["pair","episode","scope","kind","search"])$(id).addEventListener(id==="search"?"input":"change",render);
   for(const b of document.querySelectorAll("[data-tab]"))b.onclick=()=>{tab=b.dataset.tab;render()};
   $("more").onclick=renderChunk;$("download").onclick=downloadSelection;render();
