@@ -412,7 +412,7 @@ function downloadSelection(){
   $("stats").innerHTML=[
    [68,"Episodes in source · not certified"],[curated.length,"Source tags · first pass"],[scenes.length,"Scene anchors · incomplete"],[windows.length,"Unreviewed name windows"]
   ].map(a=>'<div><strong>'+a[0]+'</strong><small>'+a[1]+'</small></div>').join("");
-  $("status").textContent="Reading view for E01–E07: 42 source-linked narrative phases across 16 scenes and memory groups. Original lines remain available. This is a first-pass reading map, not a claim of exhaustive certification.";
+  $("status").textContent="Reading view for E01–E07: 43 source-linked narrative phases across 16 scenes and memory groups. Original lines remain available. This is a first-pass reading map, not a claim of exhaustive certification.";
   for(const id of ["pair","episode","scope","kind","search"])$(id).addEventListener(id==="search"?"input":"change",render);
   for(const b of document.querySelectorAll("[data-tab]"))b.onclick=()=>{tab=b.dataset.tab;render()};
   $("previous").onclick=()=>{const n=$("episode").value==="all"?1:+$("episode").value;$("episode").value=Math.max(1,n-1);render();};
