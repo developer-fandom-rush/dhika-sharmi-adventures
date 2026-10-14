@@ -1,0 +1,84 @@
+{
+  "schema": "twins_e03_scene_line_completion_v1",
+  "episode": 3,
+  "source": "raw/Dhika.txt",
+  "fields": [
+    "line",
+    "pair",
+    "actor",
+    "action",
+    "kind"
+  ],
+  "rows": [
+    [
+      526,
+      "TRIO",
+      "Dhika",
+      "between_classes_home_routine",
+      "ordinary_activity"
+    ],
+    [
+      529,
+      "TRIO",
+      "Dhika",
+      "responds_to_john_comment",
+      "dialogue"
+    ],
+    [
+      535,
+      "TRIO",
+      "Dhika",
+      "new_room_painting_project",
+      "ordinary_setup"
+    ],
+    [
+      536,
+      "TRIO",
+      "John",
+      "references_extra_tuition",
+      "callback"
+    ],
+    [
+      537,
+      "TRIO",
+      "Dhika",
+      "distinguishes_tuition_from_house_project",
+      "dialogue"
+    ],
+    [
+      538,
+      "TRIO",
+      "John",
+      "offers_contractor_help",
+      "offer"
+    ],
+    [
+      539,
+      "TRIO",
+      "Dhika",
+      "plans_home_project_in_own_time",
+      "ordinary_activity"
+    ],
+    [
+      540,
+      "TRIO",
+      "John",
+      "notices_private_reaction",
+      "third_party_observation"
+    ],
+    [
+      541,
+      "TRIO",
+      "Dhika",
+      "collects_paint_supplies_before_next_class",
+      "time_transition"
+    ],
+    [
+      546,
+      "TRIO",
+      "Narrator",
+      "outfit_description_during_accident",
+      "visual_context"
+    ]
+  ]
+}
