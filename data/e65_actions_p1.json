@@ -1,0 +1,116 @@
+{
+  "schema": "e65_actions_v1",
+  "source": "raw/Dhika.txt",
+  "range": [
+    12918,
+    12944
+  ],
+  "pair_codes": {
+    "DJ": "Dhika–John",
+    "DR": "Dhika–Raj",
+    "DS": "Dhika–Sharmi"
+  },
+  "records": [
+    [
+      12918,
+      "DJ",
+      "dialogue"
+    ],
+    [
+      12919,
+      "DJ",
+      "question"
+    ],
+    [
+      12920,
+      "DJ",
+      "response"
+    ],
+    [
+      12921,
+      "DJ",
+      "media_context"
+    ],
+    [
+      12923,
+      "DJ",
+      "movement"
+    ],
+    [
+      12924,
+      "DR",
+      "message"
+    ],
+    [
+      12926,
+      "DR",
+      "message"
+    ],
+    [
+      12927,
+      "DS",
+      "visual"
+    ],
+    [
+      12928,
+      "DS",
+      "image_subject"
+    ],
+    [
+      12930,
+      "DR",
+      "historical_mention"
+    ],
+    [
+      12931,
+      "DJ",
+      "reaction"
+    ],
+    [
+      12932,
+      "DJ",
+      "observation"
+    ],
+    [
+      12933,
+      "DJ",
+      "reaction"
+    ],
+    [
+      12935,
+      "DJ",
+      "dialogue"
+    ],
+    [
+      12937,
+      "DJ",
+      "movement"
+    ],
+    [
+      12938,
+      "DJ",
+      "kiss"
+    ],
+    [
+      12939,
+      "DJ",
+      "question"
+    ],
+    [
+      12941,
+      "DJ",
+      "response"
+    ],
+    [
+      12943,
+      "DJ",
+      "disclosure"
+    ],
+    [
+      12944,
+      "DJ",
+      "flashback_begin"
+    ]
+  ],
+  "status": "selected source-line action anchors, not complete per-line QA"
+}
