@@ -2,7 +2,7 @@
   "schema": "twins_reader_e01_e07_v1",
   "source": "raw/Dhika.txt",
   "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
-  "status": "NATURAL_LANGUAGE_SOURCE_LINKED_FIRST_PASS_NOT_EXHAUSTIVE_SEMANTIC_CERTIFICATION",
+  "status": "E01_E08_SOURCE_LINKED_FIRST_PASS; NOT_ATOMICALLY_COMPLETE",
   "reading_rule": "Meetings are contiguous visits. Beats are ordered source-linked narrative phases. Memory and off-scene conversations are not meetings; remote call not on-site contact. Do not count group events as pair-specific contact without individual source line.",
   "episodes": [
     1,
@@ -11,7 +11,8 @@
     4,
     5,
     6,
-    7
+    7,
+    8
   ],
   "encounters": [
     {
@@ -227,6 +228,75 @@
         "DY",
         "TRIO"
       ]
+    },
+    {
+      "episode": 8,
+      "id": "E08-M00",
+      "title": "E07 online lesson: immediate conclusion",
+      "start": 1544,
+      "end": 1553,
+      "place": "Video call; then remote participants disconnect",
+      "note": "Direct continuation of E07-M03; not a second video lesson",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "continuation_of": "E07-M03",
+      "ended_at": 1552
+    },
+    {
+      "episode": 8,
+      "id": "E08-CONTEXT",
+      "title": "Private reflection and interrupted break",
+      "start": 1554,
+      "end": 1562,
+      "place": "Dhika's home, alone",
+      "note": "Dhika's interpretation and concern; neither twin present",
+      "tracks": [
+        "DB",
+        "DY"
+      ],
+      "non_encounter": true
+    },
+    {
+      "episode": 8,
+      "id": "E08-M01",
+      "title": "Bantu visits Dhika after the call",
+      "start": 1563,
+      "end": 1687,
+      "place": "Dhika's home",
+      "note": "Fresh in-person meeting. Missed Bobby calls noted separately, not attendance.",
+      "tracks": [
+        "DB"
+      ]
+    },
+    {
+      "episode": 8,
+      "id": "E08-M02",
+      "title": "Dhika calls Bobby to apologize",
+      "start": 1688,
+      "end": 1688,
+      "place": "Phone communication",
+      "note": "Remote conversation; no in-person encounter",
+      "tracks": [
+        "DY"
+      ],
+      "remote": true
+    },
+    {
+      "episode": 8,
+      "id": "E08-M03",
+      "title": "Bobby calls Dhika on Skype",
+      "start": 1689,
+      "end": 1753,
+      "place": "Skype video call",
+      "note": "Distinct remote Bobby–Dhika conversation, continuing into E09 L1762",
+      "tracks": [
+        "DY"
+      ],
+      "remote": true,
+      "continues_into": "E09"
     }
   ],
   "beats": [
@@ -1517,6 +1587,393 @@
         "continuity"
       ],
       "before_after": "E07 ending is an open boundary, not a completed call."
+    },
+    {
+      "id": "R-E08-044",
+      "episode": 8,
+      "meeting_id": "E08-M00",
+      "order": 1,
+      "source": [
+        1544,
+        1553
+      ],
+      "title": "The previous episode's video call ends",
+      "reading": "Dhika examines her video display, reacts abruptly to a concern about how clothing appeared, asks Bantu about his earlier suggestion, and ends the lesson. Both twins are confused; Bantu decides to go see her.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "communication",
+        "continuity",
+        "emotional_reaction"
+      ],
+      "before_after": "This call began E07 and closes in E08. No second meeting was held here."
+    },
+    {
+      "id": "R-E08-045",
+      "episode": 8,
+      "meeting_id": "E08-CONTEXT",
+      "order": 2,
+      "source": [
+        1554,
+        1562
+      ],
+      "title": "Alone afterward: role concerns and guilt",
+      "reading": "After disconnecting, Dhika checks the clothing detail that troubled her. She reflects privately on feeling responsible, differentiates her role as a teacher from other relationships, and questions whether anger at Bantu was fair.",
+      "tracks": [
+        "DB",
+        "DY"
+      ],
+      "channels": [
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "teacher_role",
+        "uncertainty",
+        "memory"
+      ],
+      "time_frame": "private_reflection",
+      "before_after": "Her internal interpretation changes before the next encounter. The twins have not heard this reasoning."
+    },
+    {
+      "id": "R-E08-046",
+      "episode": 8,
+      "meeting_id": "E08-M01",
+      "order": 3,
+      "source": [
+        1563,
+        1569
+      ],
+      "title": "Later the same day: Bobby's missed calls and Bantu arrives",
+      "reading": "Dhika wakes to missed calls from Bobby. Bantu then arrives in person and asks to enter. The missed calls do not make Bobby a participant in Bantu's visit.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "solo_access",
+        "care",
+        "knowledge_gap"
+      ]
+    },
+    {
+      "id": "R-E08-047",
+      "episode": 8,
+      "meeting_id": "E08-M01",
+      "order": 4,
+      "source": [
+        1570,
+        1581
+      ],
+      "title": "Greeting, apology and clarification",
+      "reading": "Dhika welcomes Bantu with an embrace and apologizes for her earlier reaction. The two discuss a mistaken interpretation of a clothing detail; Bantu learns why she was concerned.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "repair",
+        "trust",
+        "physical_history"
+      ],
+      "body_refs": [
+        {
+          "owner": "Dhika",
+          "area": "Arms / upper body",
+          "mode": "Greeting embrace",
+          "line": 1570,
+          "actor": "Dhika",
+          "observer": "Bantu",
+          "subject": "Dhika and Bantu",
+          "tracks": [
+            "DB"
+          ],
+          "context_group": [],
+          "evidence_class": "COMPLETED_GREETING_CONTACT",
+          "reading": "Dhika initiates an embrace when Bantu arrives, followed by his reassuring response. This is a new in-person visit, not continuation of the call."
+        }
+      ]
+    },
+    {
+      "id": "R-E08-048",
+      "episode": 8,
+      "meeting_id": "E08-M01",
+      "order": 5,
+      "source": [
+        1582,
+        1600
+      ],
+      "title": "Teacher role, reputation, trust and a possible trip",
+      "reading": "Dhika explains why she worried about others learning of the call. Bantu reassures her and reports that he and Bobby hope she will be their companion if they win the science competition. She appreciates the reassurance but privately doubts her readiness for that travel responsibility.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "trust",
+        "role",
+        "uncertainty",
+        "communication"
+      ],
+      "before_after": "The source establishes what Bantu says about their intentions; Bobby is absent, and no trip commitment is established."
+    },
+    {
+      "id": "R-E08-049",
+      "episode": 8,
+      "meeting_id": "E08-M01",
+      "order": 6,
+      "source": [
+        1601,
+        1630
+      ],
+      "title": "Questions, teasing and visible reactions",
+      "reading": "After the serious discussion, the conversation shifts into banter and repeated questions about appearance and reactions. The source distinguishes the two participants' actual speech from Dhika's unspoken curiosity.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "openness",
+        "emotional_reaction",
+        "boundaries"
+      ]
+    },
+    {
+      "id": "R-E08-050",
+      "episode": 8,
+      "meeting_id": "E08-M01",
+      "order": 7,
+      "source": [
+        1631,
+        1665
+      ],
+      "title": "Personal observations, a request and stopping cues",
+      "reading": "Bantu moves closer and makes further comments, prompting Dhika to respond and sometimes object. A clothing-boundary request is followed by her verbal protest and playful response; one permitted exchange must not be treated as permission for every later request.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "boundary_response",
+        "observations",
+        "knowledge_gap"
+      ]
+    },
+    {
+      "id": "R-E08-051",
+      "episode": 8,
+      "meeting_id": "E08-M01",
+      "order": 8,
+      "source": [
+        1666,
+        1683
+      ],
+      "title": "Slip and assistance: separate accident from deliberate support",
+      "reading": "Dhika slips near the sofa. Bantu helps her up, asks whether she is hurt, and offers assistance for her knee. The narrative then distinguishes an accidental movement from a separate subsequent action; the two must not be merged into one generic 'help' label.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "care",
+        "physical_history",
+        "boundaries"
+      ],
+      "body_refs": [
+        {
+          "owner": "Dhika",
+          "area": "Hips / balance",
+          "mode": "Help after slip",
+          "line": 1668,
+          "actor": "Bantu",
+          "observer": "Dhika",
+          "subject": "Dhika",
+          "tracks": [
+            "DB"
+          ],
+          "context_group": [],
+          "evidence_class": "COMPLETED_PRACTICAL_ASSISTANCE",
+          "reading": "After she slips, Bantu supports Dhika by her hips to help her back onto the sofa. The source explains the immediate practical purpose."
+        },
+        {
+          "owner": "Dhika",
+          "area": "Knee / leg",
+          "mode": "Assistance after fall",
+          "line": 1672,
+          "actor": "Bantu",
+          "observer": "Dhika",
+          "subject": "Dhika",
+          "tracks": [
+            "DB"
+          ],
+          "context_group": [],
+          "evidence_class": "COMPLETED_PRACTICAL_ASSISTANCE",
+          "reading": "Bantu checks her knee after the fall and tries to ease discomfort. Later movements are separately described in the source."
+        }
+      ]
+    },
+    {
+      "id": "R-E08-052",
+      "episode": 8,
+      "meeting_id": "E08-M01",
+      "order": 9,
+      "source": [
+        1684,
+        1687
+      ],
+      "title": "Departure and plan for Bobby to attend the next session",
+      "reading": "Dhika needs to collect Pappu. Bantu says he will be away until Monday, but Bobby can attend Friday's online lesson. Dhika thanks him before he leaves.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "continuity",
+        "communication",
+        "solo_access"
+      ],
+      "before_after": "Bantu exits. The new Friday plan concerns Bobby, but is not itself a Bobby encounter."
+    },
+    {
+      "id": "R-E08-053",
+      "episode": 8,
+      "meeting_id": "E08-M02",
+      "order": 10,
+      "source": [
+        1688,
+        1688
+      ],
+      "title": "Separate Bobby contact: apology by phone",
+      "reading": "After Bantu leaves, Dhika calls Bobby to apologize for the earlier video-call reaction. This is a distinct off-scene phone interaction, not Bobby joining the Bantu meeting.",
+      "tracks": [
+        "DY"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "repair",
+        "communication"
+      ],
+      "time_frame": "remote_phone_call"
+    },
+    {
+      "id": "R-E08-054",
+      "episode": 8,
+      "meeting_id": "E08-M03",
+      "order": 11,
+      "source": [
+        1689,
+        1707
+      ],
+      "title": "A new Bobby Skype call begins",
+      "reading": "During an unrelated part of her day, Dhika receives repeated Skype calls and discovers Bobby is calling. She joins the call; the narrative records an unexpected appearance and Bobby's immediate response. She considers getting dressed before returning.",
+      "tracks": [
+        "DY"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "solo_access",
+        "communication",
+        "observation"
+      ]
+    },
+    {
+      "id": "R-E08-055",
+      "episode": 8,
+      "meeting_id": "E08-M03",
+      "order": 12,
+      "source": [
+        1708,
+        1738
+      ],
+      "title": "Conversation: surprise, teasing and changing comfort",
+      "reading": "Bobby asks her to remain on the call. Their dialogue moves through teasing, visual reactions, and surprise that he is speaking more openly than usual. This is remote interaction—no physical contact between them is recorded.",
+      "tracks": [
+        "DY"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "openness",
+        "boundary_response",
+        "separate_knowledge"
+      ]
+    },
+    {
+      "id": "R-E08-056",
+      "episode": 8,
+      "meeting_id": "E08-M03",
+      "order": 13,
+      "source": [
+        1739,
+        1753
+      ],
+      "title": "Bobby voices a request; scene breaks before the response is revealed",
+      "reading": "A request leads to confusion and clarification. Dhika sets conditions before considering it; the original chapter ends just as Bobby reacts to something not yet described. Its next scene belongs to the same video call in E09.",
+      "tracks": [
+        "DY"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS_NOT_FULLY_CERTIFIED",
+      "state_fields": [
+        "boundary_response",
+        "continuity",
+        "uncertainty"
+      ],
+      "before_after": "Do not infer the final response from E08's cliffhanger: E09 continues the same Skype encounter."
     }
   ],
   "body_ref_rules": {
@@ -1525,5 +1982,19 @@
     "status": "Only evidence_class COMPLETED_CONTACT marks completed physical contact; observation or attempted action never does",
     "visibility": "Clothing visibility is tracked non-graphically, with actor, observer and source reference",
     "safety": "Source is authoritative; interpretation is preliminary, not future prediction"
-  }
+  },
+  "continuity": [
+    {
+      "edge": "E07-M03 -> E08-M00",
+      "status": "CONTINUATION_CALL_ENDS_IN_E08",
+      "from_line": 1535,
+      "to_line": 1552
+    },
+    {
+      "edge": "E08-M03 -> E09",
+      "status": "SAME_CALL_CONTINUES",
+      "from_line": 1753,
+      "to_line": 1762
+    }
+  ]
 }
