@@ -1,0 +1,1003 @@
+{
+  "schema": "e05-canonical-evidence-offsets-v1",
+  "source": "raw/Dhika.txt",
+  "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "note": "Exact offsets of original cue words are lexical search pointers, not independently verified actor assignments.",
+  "source_lines": [
+    {
+      "line": 839,
+      "checksum": "890a532c",
+      "cues": [
+        [
+          24,
+          28
+        ],
+        [
+          42,
+          46
+        ]
+      ]
+    },
+    {
+      "line": 840,
+      "checksum": "eaa0bfab",
+      "cues": [
+        [
+          7,
+          11
+        ],
+        [
+          31,
+          39
+        ],
+        [
+          93,
+          98
+        ],
+        [
+          131,
+          135
+        ]
+      ]
+    },
+    {
+      "line": 841,
+      "checksum": "30e67675",
+      "cues": [
+        [
+          58,
+          63
+        ]
+      ]
+    },
+    {
+      "line": 842,
+      "checksum": "5e063740",
+      "cues": []
+    },
+    {
+      "line": 843,
+      "checksum": "53474e9e",
+      "cues": [
+        [
+          17,
+          25
+        ],
+        [
+          75,
+          80
+        ],
+        [
+          89,
+          92
+        ],
+        [
+          133,
+          137
+        ],
+        [
+          177,
+          180
+        ],
+        [
+          197,
+          202
+        ],
+        [
+          302,
+          309
+        ]
+      ]
+    },
+    {
+      "line": 844,
+      "checksum": "87cbf5e5",
+      "cues": [
+        [
+          65,
+          69
+        ]
+      ]
+    },
+    {
+      "line": 845,
+      "checksum": "c5e0e3d1",
+      "cues": [
+        [
+          138,
+          142
+        ]
+      ]
+    },
+    {
+      "line": 846,
+      "checksum": "d310efa6",
+      "cues": []
+    },
+    {
+      "line": 847,
+      "checksum": "90b6092f",
+      "cues": [
+        [
+          31,
+          35
+        ],
+        [
+          36,
+          43
+        ],
+        [
+          60,
+          65
+        ]
+      ]
+    },
+    {
+      "line": 848,
+      "checksum": "0c5e6cb2",
+      "cues": []
+    },
+    {
+      "line": 849,
+      "checksum": "84d98b06",
+      "cues": [
+        [
+          10,
+          15
+        ]
+      ]
+    },
+    {
+      "line": 850,
+      "checksum": "10c20b1d",
+      "cues": [
+        [
+          128,
+          132
+        ]
+      ]
+    },
+    {
+      "line": 851,
+      "checksum": "810590b1",
+      "cues": []
+    },
+    {
+      "line": 852,
+      "checksum": "19591238",
+      "cues": []
+    },
+    {
+      "line": 853,
+      "checksum": "ae5ecf61",
+      "cues": []
+    },
+    {
+      "line": 854,
+      "checksum": "7bd52157",
+      "cues": []
+    },
+    {
+      "line": 855,
+      "checksum": "eb470a69",
+      "cues": [
+        [
+          75,
+          83
+        ],
+        [
+          145,
+          153
+        ],
+        [
+          162,
+          170
+        ]
+      ]
+    },
+    {
+      "line": 856,
+      "checksum": "e60b806e",
+      "cues": [
+        [
+          39,
+          46
+        ],
+        [
+          92,
+          97
+        ]
+      ]
+    },
+    {
+      "line": 857,
+      "checksum": "f12a8d09",
+      "cues": [
+        [
+          20,
+          24
+        ],
+        [
+          113,
+          121
+        ],
+        [
+          178,
+          181
+        ]
+      ]
+    },
+    {
+      "line": 879,
+      "checksum": "8a2266fc",
+      "cues": []
+    },
+    {
+      "line": 884,
+      "checksum": "5d31d049",
+      "cues": [
+        [
+          96,
+          104
+        ],
+        [
+          105,
+          112
+        ]
+      ]
+    },
+    {
+      "line": 885,
+      "checksum": "a1b71b70",
+      "cues": [
+        [
+          86,
+          91
+        ],
+        [
+          120,
+          126
+        ],
+        [
+          141,
+          147
+        ]
+      ]
+    },
+    {
+      "line": 886,
+      "checksum": "becb4bd2",
+      "cues": [
+        [
+          91,
+          98
+        ],
+        [
+          125,
+          131
+        ]
+      ]
+    },
+    {
+      "line": 887,
+      "checksum": "c0aadebb",
+      "cues": []
+    },
+    {
+      "line": 888,
+      "checksum": "2dfb7e92",
+      "cues": []
+    },
+    {
+      "line": 889,
+      "checksum": "ecc183d0",
+      "cues": []
+    },
+    {
+      "line": 890,
+      "checksum": "a216d1ea",
+      "cues": []
+    },
+    {
+      "line": 891,
+      "checksum": "f627f93f",
+      "cues": []
+    },
+    {
+      "line": 892,
+      "checksum": "d57e08e3",
+      "cues": [
+        [
+          36,
+          41
+        ]
+      ]
+    },
+    {
+      "line": 893,
+      "checksum": "a9b4da21",
+      "cues": [
+        [
+          45,
+          52
+        ]
+      ]
+    },
+    {
+      "line": 894,
+      "checksum": "0b814738",
+      "cues": []
+    },
+    {
+      "line": 895,
+      "checksum": "3cb5b120",
+      "cues": []
+    },
+    {
+      "line": 896,
+      "checksum": "f5a098e1",
+      "cues": [
+        [
+          46,
+          52
+        ]
+      ]
+    },
+    {
+      "line": 897,
+      "checksum": "173aee46",
+      "cues": [
+        [
+          12,
+          20
+        ]
+      ]
+    },
+    {
+      "line": 898,
+      "checksum": "d98452a0",
+      "cues": [
+        [
+          42,
+          49
+        ],
+        [
+          62,
+          68
+        ]
+      ]
+    },
+    {
+      "line": 899,
+      "checksum": "b388cf21",
+      "cues": [
+        [
+          16,
+          20
+        ]
+      ]
+    },
+    {
+      "line": 900,
+      "checksum": "d0df3279",
+      "cues": [
+        [
+          27,
+          31
+        ]
+      ]
+    },
+    {
+      "line": 901,
+      "checksum": "9492286a",
+      "cues": []
+    },
+    {
+      "line": 902,
+      "checksum": "159dc51b",
+      "cues": [
+        [
+          33,
+          37
+        ]
+      ]
+    },
+    {
+      "line": 903,
+      "checksum": "936b6d22",
+      "cues": [
+        [
+          77,
+          80
+        ]
+      ]
+    },
+    {
+      "line": 904,
+      "checksum": "3cd9c854",
+      "cues": [
+        [
+          88,
+          95
+        ]
+      ]
+    },
+    {
+      "line": 905,
+      "checksum": "422a5c71",
+      "cues": []
+    },
+    {
+      "line": 906,
+      "checksum": "55b10be5",
+      "cues": [
+        [
+          18,
+          23
+        ]
+      ]
+    },
+    {
+      "line": 907,
+      "checksum": "0990bba9",
+      "cues": [
+        [
+          34,
+          39
+        ],
+        [
+          78,
+          84
+        ],
+        [
+          89,
+          95
+        ],
+        [
+          119,
+          125
+        ],
+        [
+          145,
+          151
+        ],
+        [
+          206,
+          212
+        ],
+        [
+          236,
+          242
+        ]
+      ]
+    },
+    {
+      "line": 908,
+      "checksum": "9da9f996",
+      "cues": []
+    },
+    {
+      "line": 909,
+      "checksum": "8d3dccd9",
+      "cues": [
+        [
+          27,
+          35
+        ]
+      ]
+    },
+    {
+      "line": 910,
+      "checksum": "4cb4a475",
+      "cues": [
+        [
+          15,
+          22
+        ],
+        [
+          45,
+          51
+        ],
+        [
+          61,
+          67
+        ]
+      ]
+    },
+    {
+      "line": 911,
+      "checksum": "c8ddafbb",
+      "cues": [
+        [
+          19,
+          22
+        ],
+        [
+          34,
+          41
+        ]
+      ]
+    },
+    {
+      "line": 912,
+      "checksum": "9e096710",
+      "cues": [
+        [
+          27,
+          33
+        ],
+        [
+          41,
+          46
+        ]
+      ]
+    },
+    {
+      "line": 913,
+      "checksum": "63ab74d5",
+      "cues": [
+        [
+          88,
+          94
+        ]
+      ]
+    },
+    {
+      "line": 914,
+      "checksum": "635bdc68",
+      "cues": [
+        [
+          72,
+          78
+        ],
+        [
+          106,
+          111
+        ]
+      ]
+    },
+    {
+      "line": 915,
+      "checksum": "0abe7a49",
+      "cues": [
+        [
+          48,
+          53
+        ]
+      ]
+    },
+    {
+      "line": 916,
+      "checksum": "9424dab6",
+      "cues": [
+        [
+          16,
+          22
+        ],
+        [
+          52,
+          59
+        ]
+      ]
+    },
+    {
+      "line": 917,
+      "checksum": "355d8cfc",
+      "cues": [
+        [
+          4,
+          10
+        ],
+        [
+          27,
+          33
+        ],
+        [
+          62,
+          68
+        ],
+        [
+          114,
+          119
+        ]
+      ]
+    },
+    {
+      "line": 918,
+      "checksum": "61f642a9",
+      "cues": [
+        [
+          66,
+          73
+        ]
+      ]
+    },
+    {
+      "line": 919,
+      "checksum": "6c1b77ff",
+      "cues": [
+        [
+          74,
+          79
+        ]
+      ]
+    },
+    {
+      "line": 920,
+      "checksum": "9262b72f",
+      "cues": [
+        [
+          7,
+          14
+        ]
+      ]
+    },
+    {
+      "line": 921,
+      "checksum": "275ef9ed",
+      "cues": [
+        [
+          7,
+          12
+        ],
+        [
+          40,
+          43
+        ]
+      ]
+    },
+    {
+      "line": 922,
+      "checksum": "58012d71",
+      "cues": [
+        [
+          33,
+          38
+        ],
+        [
+          49,
+          55
+        ]
+      ]
+    },
+    {
+      "line": 923,
+      "checksum": "b90d41ad",
+      "cues": [
+        [
+          35,
+          38
+        ]
+      ]
+    },
+    {
+      "line": 924,
+      "checksum": "a812cf85",
+      "cues": [
+        [
+          48,
+          52
+        ]
+      ]
+    },
+    {
+      "line": 925,
+      "checksum": "c9ec7e51",
+      "cues": [
+        [
+          15,
+          21
+        ]
+      ]
+    },
+    {
+      "line": 926,
+      "checksum": "1f6d0d67",
+      "cues": [
+        [
+          7,
+          14
+        ],
+        [
+          33,
+          38
+        ]
+      ]
+    },
+    {
+      "line": 927,
+      "checksum": "30086c0a",
+      "cues": [
+        [
+          22,
+          25
+        ],
+        [
+          33,
+          39
+        ]
+      ]
+    },
+    {
+      "line": 928,
+      "checksum": "bfa63960",
+      "cues": [
+        [
+          7,
+          15
+        ]
+      ]
+    },
+    {
+      "line": 929,
+      "checksum": "82c0a6ea",
+      "cues": [
+        [
+          19,
+          24
+        ],
+        [
+          34,
+          40
+        ]
+      ]
+    },
+    {
+      "line": 930,
+      "checksum": "f64e1948",
+      "cues": []
+    },
+    {
+      "line": 931,
+      "checksum": "3194038f",
+      "cues": []
+    },
+    {
+      "line": 932,
+      "checksum": "65794299",
+      "cues": []
+    },
+    {
+      "line": 933,
+      "checksum": "eb9e110b",
+      "cues": []
+    },
+    {
+      "line": 934,
+      "checksum": "b32bdb05",
+      "cues": []
+    },
+    {
+      "line": 935,
+      "checksum": "4f58f5aa",
+      "cues": []
+    },
+    {
+      "line": 936,
+      "checksum": "0ffcae5e",
+      "cues": []
+    },
+    {
+      "line": 937,
+      "checksum": "388506f3",
+      "cues": []
+    },
+    {
+      "line": 938,
+      "checksum": "3d8a38cd",
+      "cues": [
+        [
+          58,
+          65
+        ]
+      ]
+    },
+    {
+      "line": 939,
+      "checksum": "8b32cbd8",
+      "cues": []
+    },
+    {
+      "line": 940,
+      "checksum": "5e591071",
+      "cues": [
+        [
+          127,
+          134
+        ]
+      ]
+    },
+    {
+      "line": 941,
+      "checksum": "e37a7ec3",
+      "cues": [
+        [
+          7,
+          15
+        ]
+      ]
+    },
+    {
+      "line": 942,
+      "checksum": "cafd8cc8",
+      "cues": [
+        [
+          46,
+          53
+        ]
+      ]
+    },
+    {
+      "line": 943,
+      "checksum": "257837f4",
+      "cues": [
+        [
+          52,
+          57
+        ],
+        [
+          67,
+          70
+        ]
+      ]
+    },
+    {
+      "line": 944,
+      "checksum": "4094fc8c",
+      "cues": [
+        [
+          24,
+          31
+        ],
+        [
+          56,
+          61
+        ]
+      ]
+    },
+    {
+      "line": 945,
+      "checksum": "5f3caadb",
+      "cues": []
+    },
+    {
+      "line": 946,
+      "checksum": "e7a8eda5",
+      "cues": [
+        [
+          43,
+          50
+        ]
+      ]
+    },
+    {
+      "line": 947,
+      "checksum": "fc735989",
+      "cues": [
+        [
+          46,
+          50
+        ],
+        [
+          51,
+          58
+        ]
+      ]
+    },
+    {
+      "line": 948,
+      "checksum": "f2fee5e2",
+      "cues": []
+    },
+    {
+      "line": 949,
+      "checksum": "aacbb4ee",
+      "cues": [
+        [
+          7,
+          15
+        ],
+        [
+          41,
+          46
+        ]
+      ]
+    },
+    {
+      "line": 950,
+      "checksum": "f3e533b2",
+      "cues": [
+        [
+          104,
+          111
+        ]
+      ]
+    },
+    {
+      "line": 951,
+      "checksum": "70c6a109",
+      "cues": []
+    },
+    {
+      "line": 952,
+      "checksum": "c57cd286",
+      "cues": [
+        [
+          63,
+          67
+        ],
+        [
+          87,
+          90
+        ],
+        [
+          137,
+          143
+        ],
+        [
+          166,
+          171
+        ],
+        [
+          195,
+          200
+        ],
+        [
+          244,
+          251
+        ],
+        [
+          265,
+          271
+        ]
+      ]
+    },
+    {
+      "line": 961,
+      "checksum": "25e6f1b1",
+      "cues": [
+        [
+          19,
+          23
+        ],
+        [
+          36,
+          40
+        ],
+        [
+          67,
+          74
+        ],
+        [
+          78,
+          82
+        ]
+      ]
+    },
+    {
+      "line": 991,
+      "checksum": "8f4575b7",
+      "cues": []
+    },
+    {
+      "line": 993,
+      "checksum": "bf652fdd",
+      "cues": [
+        [
+          110,
+          114
+        ]
+      ]
+    },
+    {
+      "line": 994,
+      "checksum": "c3ac7e85",
+      "cues": [
+        [
+          38,
+          45
+        ]
+      ]
+    }
+  ]
+}
