@@ -1,0 +1,4653 @@
+{
+  "schema": "dhika_twins_e07_line_ledger_v1",
+  "source": "raw/Dhika.txt",
+  "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "episode": 7,
+  "source_range": [
+    1298,
+    1539
+  ],
+  "line_count": 242,
+  "status": "FULL_LINE_DISPOSITION_WITH_SOURCE_LINKED_FIRST_PASS_EVENTS; NOT_SECOND_PASS_ATOMIC_CERTIFIED",
+  "method": "Every global source line mapped to one disposition, including non-twin context, metadata, remote and solo scenes. Events are source-linked semantic annotations, not replacement for raw lines.",
+  "not_assumed": [
+    "A third-party claim about Bobby is not Bobby's direct experience",
+    "Memory does not create a new meeting",
+    "Requested action != completed action",
+    "Offer, refusal, insistence, reluctant acceptance are separately indexed",
+    "Private attraction or speculation is not proven action or recipient knowledge",
+    "E07 call continues immediately in E08 at raw L1544",
+    "No event in unrelated John/Sharmi/Raj scenes is counted as Bantu/Bobby encounter"
+  ],
+  "scenes": [
+    {
+      "id": "E07-S01",
+      "episode": 7,
+      "start": 1302,
+      "end": 1329,
+      "title": "Saturday evening: prior-event aftermath; John conversation",
+      "participants": [
+        "Dhika",
+        "John",
+        "Pappu"
+      ],
+      "scene_kind": "context_no_twins",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S02",
+      "episode": 7,
+      "start": 1330,
+      "end": 1369,
+      "title": "Sunday: restaurant dinner with John, Sharmi, Raj",
+      "participants": [
+        "Dhika",
+        "John",
+        "Sharmi",
+        "Raj"
+      ],
+      "scene_kind": "context_no_twins",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S03",
+      "episode": 7,
+      "start": 1370,
+      "end": 1384,
+      "title": "Monday: Bantu solo arrival and online tuition arrangement",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "scene_kind": "db_direct_bobby_absent",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S04",
+      "episode": 7,
+      "start": 1385,
+      "end": 1400,
+      "title": "Monday: dialogue and comparison to past twin interactions",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "scene_kind": "db_direct_bobby_mentioned",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S05",
+      "episode": 7,
+      "start": 1401,
+      "end": 1431,
+      "title": "Monday: visible-state and requested-contact exchange",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "scene_kind": "db_direct",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S06",
+      "episode": 7,
+      "start": 1432,
+      "end": 1443,
+      "title": "Monday: talk about prior relationships and Bobby",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "scene_kind": "db_direct_bobby_reported",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S07",
+      "episode": 7,
+      "start": 1444,
+      "end": 1466,
+      "title": "Monday: chain offered, refusal, explanation, eventual acceptance and clothing request",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "scene_kind": "db_direct",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S08",
+      "episode": 7,
+      "start": 1467,
+      "end": 1494,
+      "title": "Monday: return from kitchen, reaction, physical boundaries and departure request",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "scene_kind": "db_direct",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S09",
+      "episode": 7,
+      "start": 1495,
+      "end": 1501,
+      "title": "Monday: farewell, garment suggestion, future intention",
+      "participants": [
+        "Dhika",
+        "Bantu"
+      ],
+      "scene_kind": "db_direct",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S10",
+      "episode": 7,
+      "start": 1502,
+      "end": 1508,
+      "title": "Wednesday: home arrival, Chotu brief distance, Bantu suggestion recalled",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "scene_kind": "context_and_bantu_memory",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S11",
+      "episode": 7,
+      "start": 1509,
+      "end": 1515,
+      "title": "Wednesday remote tuition session opens with both twins",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "scene_kind": "trio_remote",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S12",
+      "episode": 7,
+      "start": 1516,
+      "end": 1524,
+      "title": "Wednesday remote: gift recollection and Bobby clarification",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "scene_kind": "trio_remote",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    },
+    {
+      "id": "E07-S13",
+      "episode": 7,
+      "start": 1525,
+      "end": 1535,
+      "title": "Wednesday remote: video-call response and unresolved end-of-episode",
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "scene_kind": "trio_remote_open_to_e08",
+      "verified_from_source": true,
+      "atomic_QA_certified": false
+    }
+  ],
+  "events": [
+    {
+      "id": "E07-AT-001",
+      "episode": 7,
+      "line": 1370,
+      "scene_id": "E07-S03",
+      "track": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Group or specified participant",
+      "action": "twins_not_seen_at_college",
+      "kind": "absence",
+      "outcome": "reported",
+      "source_line_checksum_fnv1a": "b9168942",
+      "source_ref": "raw/Dhika.txt#L1370",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-002",
+      "episode": 7,
+      "line": 1370,
+      "scene_id": "E07-S03",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "expects_tuition_visit",
+      "kind": "thought",
+      "outcome": "internal",
+      "source_line_checksum_fnv1a": "b9168942",
+      "source_ref": "raw/Dhika.txt#L1370",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-003",
+      "episode": 7,
+      "line": 1373,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "observes_only_bantu_outside",
+      "kind": "visual_observation",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "b99a5426",
+      "source_ref": "raw/Dhika.txt#L1373",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-004",
+      "episode": 7,
+      "line": 1374,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "greets_and_enters_home",
+      "kind": "speech_motion",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "f37bdeca",
+      "source_ref": "raw/Dhika.txt#L1374",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-005",
+      "episode": 7,
+      "line": 1375,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_about_bobby",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "b053ffd0",
+      "source_ref": "raw/Dhika.txt#L1375",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-006",
+      "episode": 7,
+      "line": 1376,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "reports_bobby_packing_for_travel",
+      "kind": "third_party_report",
+      "outcome": "reported",
+      "source_line_checksum_fnv1a": "849018a0",
+      "source_ref": "raw/Dhika.txt#L1376",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-007",
+      "episode": 7,
+      "line": 1376,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "says_visit_is_information_not_class",
+      "kind": "statement",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "849018a0",
+      "source_ref": "raw/Dhika.txt#L1376",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-008",
+      "episode": 7,
+      "line": 1377,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "confirms_class_pause",
+      "kind": "question",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "8b8a36d0",
+      "source_ref": "raw/Dhika.txt#L1377",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-009",
+      "episode": 7,
+      "line": 1380,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "requests_remote_tuition_until_return",
+      "kind": "request",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "55b5b254",
+      "source_ref": "raw/Dhika.txt#L1380",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-010",
+      "episode": 7,
+      "line": 1380,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "references_upcoming_competition",
+      "kind": "explanation",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "55b5b254",
+      "source_ref": "raw/Dhika.txt#L1380",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-011",
+      "episode": 7,
+      "line": 1381,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "accepts_online_lessons_and_offers_webcam",
+      "kind": "permission",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "4c795e32",
+      "source_ref": "raw/Dhika.txt#L1381",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-012",
+      "episode": 7,
+      "line": 1382,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "reports_bantu_internal_motivation_for_webcam",
+      "kind": "inner_thought",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "69603722",
+      "source_ref": "raw/Dhika.txt#L1382",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-013",
+      "episode": 7,
+      "line": 1382,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "notes_screen_share_would_be_sufficient",
+      "kind": "narrated_context",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "69603722",
+      "source_ref": "raw/Dhika.txt#L1382",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-014",
+      "episode": 7,
+      "line": 1383,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "thanks_and_sets_wednesday_start",
+      "kind": "agreement",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "ee6981b4",
+      "source_ref": "raw/Dhika.txt#L1383",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-015",
+      "episode": 7,
+      "line": 1384,
+      "scene_id": "E07-S03",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_why_bantu_did_not_call",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "0b28b0be",
+      "source_ref": "raw/Dhika.txt#L1384",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-016",
+      "episode": 7,
+      "line": 1385,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "admits_wanting_to_see_her",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "f85fab58",
+      "source_ref": "raw/Dhika.txt#L1385",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-017",
+      "episode": 7,
+      "line": 1387,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "remarks_on_clothing",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "b37fcfa2",
+      "source_ref": "raw/Dhika.txt#L1387",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-018",
+      "episode": 7,
+      "line": 1388,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "questions_whether_current_dress_is_pretty",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "aa2d3baf",
+      "source_ref": "raw/Dhika.txt#L1388",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-019",
+      "episode": 7,
+      "line": 1389,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "clarifies_clothing_preference",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "18306f99",
+      "source_ref": "raw/Dhika.txt#L1389",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-020",
+      "episode": 7,
+      "line": 1390,
+      "scene_id": "E07-S04",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "recalls_earlier_twin_visit_and_comparison",
+      "kind": "memory",
+      "outcome": "recalled_not_new_action",
+      "source_line_checksum_fnv1a": "a039a8ef",
+      "source_ref": "raw/Dhika.txt#L1390",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-021",
+      "episode": 7,
+      "line": 1392,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "decides_to_tease_bantu",
+      "kind": "intent",
+      "outcome": "internal",
+      "source_line_checksum_fnv1a": "3783d4a2",
+      "source_ref": "raw/Dhika.txt#L1392",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-022",
+      "episode": 7,
+      "line": 1393,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "teases_bantu_about_shirt",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "bfc53ba1",
+      "source_ref": "raw/Dhika.txt#L1393",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-023",
+      "episode": 7,
+      "line": 1394,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "continues_playful_response",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "775f5958",
+      "source_ref": "raw/Dhika.txt#L1394",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-024",
+      "episode": 7,
+      "line": 1395,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "references_prior_visibility",
+      "kind": "recalled_dialogue",
+      "outcome": "prior_event_not_new",
+      "source_line_checksum_fnv1a": "e302d9a5",
+      "source_ref": "raw/Dhika.txt#L1395",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-025",
+      "episode": 7,
+      "line": 1396,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "responds_to_prior_event_reference",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "707897f7",
+      "source_ref": "raw/Dhika.txt#L1396",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-026",
+      "episode": 7,
+      "line": 1397,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_about_interest_in_seeing_her",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "41e62c2d",
+      "source_ref": "raw/Dhika.txt#L1397",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-027",
+      "episode": 7,
+      "line": 1399,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "makes_retort_about_bantu",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "541ded3e",
+      "source_ref": "raw/Dhika.txt#L1399",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-028",
+      "episode": 7,
+      "line": 1400,
+      "scene_id": "E07-S04",
+      "track": "DB",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "differentiates_bantu_from_bobby_and_chotu",
+      "kind": "narrative_character_comparison",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "129eccca",
+      "source_ref": "raw/Dhika.txt#L1400",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-029",
+      "episode": 7,
+      "line": 1401,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "removes_own_shirt",
+      "kind": "garment_change",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "166048e6",
+      "source_ref": "raw/Dhika.txt#L1401",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-030",
+      "episode": 7,
+      "line": 1402,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "reacts_to_bantu_appearance",
+      "kind": "observation_reaction",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "793f58ec",
+      "source_ref": "raw/Dhika.txt#L1402",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-031",
+      "episode": 7,
+      "line": 1403,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "initiates_reach_then_withdraws_before_contact",
+      "kind": "attempted_contact",
+      "outcome": "not_completed",
+      "source_line_checksum_fnv1a": "00976b03",
+      "source_ref": "raw/Dhika.txt#L1403",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-032",
+      "episode": 7,
+      "line": 1404,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "asks_for_reaction",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "9b7ab2bb",
+      "source_ref": "raw/Dhika.txt#L1404",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-033",
+      "episode": 7,
+      "line": 1405,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "briefly_touches_chest_and_withdraws",
+      "kind": "contact",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "3e307552",
+      "source_ref": "raw/Dhika.txt#L1405",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-034",
+      "episode": 7,
+      "line": 1405,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "shows_embarrassment_after_contact",
+      "kind": "emotion",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "3e307552",
+      "source_ref": "raw/Dhika.txt#L1405",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-035",
+      "episode": 7,
+      "line": 1408,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "mentions_girlfriends_and_self_touch",
+      "kind": "self_action_report",
+      "outcome": "reported",
+      "source_line_checksum_fnv1a": "1e7a91f8",
+      "source_ref": "raw/Dhika.txt#L1408",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-036",
+      "episode": 7,
+      "line": 1410,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "explains_earlier_hugs_with_girlfriends",
+      "kind": "third_party_report",
+      "outcome": "reported",
+      "source_line_checksum_fnv1a": "f82b43ac",
+      "source_ref": "raw/Dhika.txt#L1410",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-037",
+      "episode": 7,
+      "line": 1411,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "imagines_feeling_of_hug",
+      "kind": "imagined",
+      "outcome": "not_action",
+      "source_line_checksum_fnv1a": "dc71b346",
+      "source_ref": "raw/Dhika.txt#L1411",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-038",
+      "episode": 7,
+      "line": 1412,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "asks_for_hug",
+      "kind": "request",
+      "outcome": "not_yet_completed",
+      "source_line_checksum_fnv1a": "4941ee26",
+      "source_ref": "raw/Dhika.txt#L1412",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-039",
+      "episode": 7,
+      "line": 1413,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "reacts_by_hitting_hand_and_challenging_request",
+      "kind": "objection_contact",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "02459ed6",
+      "source_ref": "raw/Dhika.txt#L1413",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-040",
+      "episode": 7,
+      "line": 1414,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "explains_request_as_simple_hug",
+      "kind": "explanation",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "41cd5858",
+      "source_ref": "raw/Dhika.txt#L1414",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-041",
+      "episode": 7,
+      "line": 1415,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "declines_hug_request",
+      "kind": "refusal",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "f7e78c87",
+      "source_ref": "raw/Dhika.txt#L1415",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-042",
+      "episode": 7,
+      "line": 1416,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "asks_for_limited_skin_contact",
+      "kind": "request",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "d492b411",
+      "source_ref": "raw/Dhika.txt#L1416",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-043",
+      "episode": 7,
+      "line": 1417,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "verbally_refuses",
+      "kind": "refusal",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "604e208b",
+      "source_ref": "raw/Dhika.txt#L1417",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-044",
+      "episode": 7,
+      "line": 1418,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "repeats_plea",
+      "kind": "request",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "aa9bf320",
+      "source_ref": "raw/Dhika.txt#L1418",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-045",
+      "episode": 7,
+      "line": 1419,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "private_curiosity_and_hesitation_about_hug",
+      "kind": "internal_state",
+      "outcome": "not_action",
+      "source_line_checksum_fnv1a": "d28ac1fd",
+      "source_ref": "raw/Dhika.txt#L1419",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-046",
+      "episode": 7,
+      "line": 1420,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "moves_close_and_places_cheek_against_chest",
+      "kind": "contact",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "8ec77fbe",
+      "source_ref": "raw/Dhika.txt#L1420",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-047",
+      "episode": 7,
+      "line": 1421,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "asks_about_experience",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "2450afa4",
+      "source_ref": "raw/Dhika.txt#L1421",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-048",
+      "episode": 7,
+      "line": 1422,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "responds_while_remaining_close",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "c413e7cb",
+      "source_ref": "raw/Dhika.txt#L1422",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-049",
+      "episode": 7,
+      "line": 1422,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "touches_biceps",
+      "kind": "contact",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "c413e7cb",
+      "source_ref": "raw/Dhika.txt#L1422",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-050",
+      "episode": 7,
+      "line": 1423,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "makes_comparative_teasing_remark",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "83b5ccc2",
+      "source_ref": "raw/Dhika.txt#L1423",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-051",
+      "episode": 7,
+      "line": 1424,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "withdraws_and_sits_upright",
+      "kind": "contact_end",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "1b7e581e",
+      "source_ref": "raw/Dhika.txt#L1424",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-052",
+      "episode": 7,
+      "line": 1425,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "pillow_hit_in_playful_reaction",
+      "kind": "contact",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "02bf0136",
+      "source_ref": "raw/Dhika.txt#L1425",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-053",
+      "episode": 7,
+      "line": 1427,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_how_he_knows_her_body_state",
+      "kind": "question",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "46c42e52",
+      "source_ref": "raw/Dhika.txt#L1427",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-054",
+      "episode": 7,
+      "line": 1428,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "explains_it_is_guess_from_prior_observation",
+      "kind": "inference_disclosed",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "2af16959",
+      "source_ref": "raw/Dhika.txt#L1428",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-055",
+      "episode": 7,
+      "line": 1429,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "objects_to_degree_of_observation",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "9f332e3a",
+      "source_ref": "raw/Dhika.txt#L1429",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-056",
+      "episode": 7,
+      "line": 1430,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "frames_compliment_as_kindness",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "f9efb2b5",
+      "source_ref": "raw/Dhika.txt#L1430",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-057",
+      "episode": 7,
+      "line": 1431,
+      "scene_id": "E07-S05",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "continues_playful_pillow_contact",
+      "kind": "contact",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "3b7598c4",
+      "source_ref": "raw/Dhika.txt#L1431",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-058",
+      "episode": 7,
+      "line": 1432,
+      "scene_id": "E07-S06",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_about_girlfriends",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "568d5c97",
+      "source_ref": "raw/Dhika.txt#L1432",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-059",
+      "episode": 7,
+      "line": 1434,
+      "scene_id": "E07-S06",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_about_bobby_girlfriends",
+      "kind": "third_party_question",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "300e7d31",
+      "source_ref": "raw/Dhika.txt#L1434",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-060",
+      "episode": 7,
+      "line": 1435,
+      "scene_id": "E07-S06",
+      "track": "DY",
+      "actor": "Bantu",
+      "recipient": "Context-specific",
+      "action": "claims_bobby_has_no_relationship_experience",
+      "kind": "third_party_claim",
+      "outcome": "unverified_third_party_report",
+      "source_line_checksum_fnv1a": "5e73d857",
+      "source_ref": "raw/Dhika.txt#L1435",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-061",
+      "episode": 7,
+      "line": 1436,
+      "scene_id": "E07-S06",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_bantu_about_own_past",
+      "kind": "question",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "5a232cdf",
+      "source_ref": "raw/Dhika.txt#L1436",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-062",
+      "episode": 7,
+      "line": 1437,
+      "scene_id": "E07-S06",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "answers_question_about_prior_experience",
+      "kind": "self_report",
+      "outcome": "reported",
+      "source_line_checksum_fnv1a": "47167e42",
+      "source_ref": "raw/Dhika.txt#L1437",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-063",
+      "episode": 7,
+      "line": 1439,
+      "scene_id": "E07-S06",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "asks_dhika_about_prior_experience",
+      "kind": "question",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "8d8fa627",
+      "source_ref": "raw/Dhika.txt#L1439",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-064",
+      "episode": 7,
+      "line": 1440,
+      "scene_id": "E07-S06",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "objects_and_pinches_thigh",
+      "kind": "objection_contact",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "b2b062b5",
+      "source_ref": "raw/Dhika.txt#L1440",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-065",
+      "episode": 7,
+      "line": 1442,
+      "scene_id": "E07-S06",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "nods_answer_while_embarrassed",
+      "kind": "nonverbal_answer",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "57a2b0d8",
+      "source_ref": "raw/Dhika.txt#L1442",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-066",
+      "episode": 7,
+      "line": 1443,
+      "scene_id": "E07-S06",
+      "track": "DB",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "bantu_stops_self_from_further_comment",
+      "kind": "restraint",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "eaf26720",
+      "source_ref": "raw/Dhika.txt#L1443",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-067",
+      "episode": 7,
+      "line": 1444,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "introduces_gift",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "0bb91149",
+      "source_ref": "raw/Dhika.txt#L1444",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-068",
+      "episode": 7,
+      "line": 1445,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "retrieves_object",
+      "kind": "object_action",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "d11550e8",
+      "source_ref": "raw/Dhika.txt#L1445",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-069",
+      "episode": 7,
+      "line": 1446,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "offers_waist_chain_gift",
+      "kind": "gift_offer",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "a7cb490f",
+      "source_ref": "raw/Dhika.txt#L1446",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-070",
+      "episode": 7,
+      "line": 1448,
+      "scene_id": "E07-S07",
+      "track": "DY",
+      "actor": "Bantu",
+      "recipient": "Context-specific",
+      "action": "references_prior_bobby_interaction_about_chain",
+      "kind": "memory_report",
+      "outcome": "reported_not_current",
+      "source_line_checksum_fnv1a": "a30c053d",
+      "source_ref": "raw/Dhika.txt#L1448",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-071",
+      "episode": 7,
+      "line": 1449,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "objects_to_teacher_receiving_gift",
+      "kind": "objection",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "6ad54d3b",
+      "source_ref": "raw/Dhika.txt#L1449",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-072",
+      "episode": 7,
+      "line": 1450,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "appeals_to_friendship",
+      "kind": "persuasion",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "d487f038",
+      "source_ref": "raw/Dhika.txt#L1450",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-073",
+      "episode": 7,
+      "line": 1451,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "says_cannot_accept",
+      "kind": "refusal",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "c3f60aa6",
+      "source_ref": "raw/Dhika.txt#L1451",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-074",
+      "episode": 7,
+      "line": 1452,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "explains_mother_made_gift_as_thanks",
+      "kind": "third_party_report",
+      "outcome": "reported",
+      "source_line_checksum_fnv1a": "1c78522c",
+      "source_ref": "raw/Dhika.txt#L1452",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-075",
+      "episode": 7,
+      "line": 1453,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "again_declines_gift",
+      "kind": "refusal",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "7d87cea4",
+      "source_ref": "raw/Dhika.txt#L1453",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-076",
+      "episode": 7,
+      "line": 1454,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "insists_and_threatens_stopping_tuition",
+      "kind": "pressure",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "d32cc38d",
+      "source_ref": "raw/Dhika.txt#L1454",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-077",
+      "episode": 7,
+      "line": 1455,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "reluctantly_accepts_gift",
+      "kind": "acceptance_after_pressure",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "1a3c4e99",
+      "source_ref": "raw/Dhika.txt#L1455",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-078",
+      "episode": 7,
+      "line": 1456,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "requests_dhika_try_on_chain",
+      "kind": "request",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "a3418b79",
+      "source_ref": "raw/Dhika.txt#L1456",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-079",
+      "episode": 7,
+      "line": 1457,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "replaces_old_chain_with_new_one_off_room",
+      "kind": "garment_object_change",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "c9b258c7",
+      "source_ref": "raw/Dhika.txt#L1457",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-080",
+      "episode": 7,
+      "line": 1457,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "returns_and_displays_chain",
+      "kind": "visual_state",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "c9b258c7",
+      "source_ref": "raw/Dhika.txt#L1457",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-081",
+      "episode": 7,
+      "line": 1458,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "compliments_chain",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "e012a434",
+      "source_ref": "raw/Dhika.txt#L1458",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-082",
+      "episode": 7,
+      "line": 1460,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "requests_additional_clothing_removal",
+      "kind": "request",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "a7da6146",
+      "source_ref": "raw/Dhika.txt#L1460",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-083",
+      "episode": 7,
+      "line": 1461,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "challenges_request",
+      "kind": "objection",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "864e7e70",
+      "source_ref": "raw/Dhika.txt#L1461",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-084",
+      "episode": 7,
+      "line": 1463,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "leaves_to_kitchen",
+      "kind": "scene_transition",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "f5ab1f5f",
+      "source_ref": "raw/Dhika.txt#L1463",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-085",
+      "episode": 7,
+      "line": 1464,
+      "scene_id": "E07-S07",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Context-specific",
+      "action": "speculates_bobby_told_bantu_prior_details",
+      "kind": "internal_inference",
+      "outcome": "not_verified",
+      "source_line_checksum_fnv1a": "235b9526",
+      "source_ref": "raw/Dhika.txt#L1464",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-086",
+      "episode": 7,
+      "line": 1464,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "compares_bantu_and_bobby_prior_exposure",
+      "kind": "internal_comparison",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "235b9526",
+      "source_ref": "raw/Dhika.txt#L1464",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-087",
+      "episode": 7,
+      "line": 1465,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "announces_water_break",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "21b12eab",
+      "source_ref": "raw/Dhika.txt#L1465",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-088",
+      "episode": 7,
+      "line": 1466,
+      "scene_id": "E07-S07",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "returns_with_water",
+      "kind": "task_action",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "e1e2d77a",
+      "source_ref": "raw/Dhika.txt#L1466",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-089",
+      "episode": 7,
+      "line": 1468,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "takes_water_without_looking",
+      "kind": "object_action",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "ebd726bc",
+      "source_ref": "raw/Dhika.txt#L1468",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-090",
+      "episode": 7,
+      "line": 1472,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "returns_with_changed_outfit",
+      "kind": "garment_change",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "007ed5db",
+      "source_ref": "raw/Dhika.txt#L1472",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-091",
+      "episode": 7,
+      "line": 1472,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "stands_and_reacts_to_dhika",
+      "kind": "reaction",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "007ed5db",
+      "source_ref": "raw/Dhika.txt#L1472",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-092",
+      "episode": 7,
+      "line": 1474,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_for_feedback",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "be8ca665",
+      "source_ref": "raw/Dhika.txt#L1474",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-093",
+      "episode": 7,
+      "line": 1477,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "comments_on_appearance",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "3fe0c07d",
+      "source_ref": "raw/Dhika.txt#L1477",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-094",
+      "episode": 7,
+      "line": 1478,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "suggests_reversing_change",
+      "kind": "hypothetical",
+      "outcome": "not_completed",
+      "source_line_checksum_fnv1a": "89bc5d4a",
+      "source_ref": "raw/Dhika.txt#L1478",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-095",
+      "episode": 7,
+      "line": 1479,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "catches_hands_and_asks_her_not_to_change",
+      "kind": "request_contact",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "d35f9d2a",
+      "source_ref": "raw/Dhika.txt#L1479",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-096",
+      "episode": 7,
+      "line": 1480,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "moves_behind_to_view_outfit",
+      "kind": "observation",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "79f67950",
+      "source_ref": "raw/Dhika.txt#L1480",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-097",
+      "episode": 7,
+      "line": 1482,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "touches_chain_area_near_hip",
+      "kind": "contact",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "90f318f2",
+      "source_ref": "raw/Dhika.txt#L1482",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-098",
+      "episode": 7,
+      "line": 1483,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_what_he_is_doing",
+      "kind": "question",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "9f6968b6",
+      "source_ref": "raw/Dhika.txt#L1483",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-099",
+      "episode": 7,
+      "line": 1484,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "explains_chain_inspection",
+      "kind": "explanation",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "ec47ed96",
+      "source_ref": "raw/Dhika.txt#L1484",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-100",
+      "episode": 7,
+      "line": 1485,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "tells_him_to_stop_and_sit",
+      "kind": "boundary_instruction",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "69b88a49",
+      "source_ref": "raw/Dhika.txt#L1485",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-101",
+      "episode": 7,
+      "line": 1486,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "returns_to_seat",
+      "kind": "response_action",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "282993d6",
+      "source_ref": "raw/Dhika.txt#L1486",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-102",
+      "episode": 7,
+      "line": 1487,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "looks_away_and_back",
+      "kind": "observation",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "fc2fdb6c",
+      "source_ref": "raw/Dhika.txt#L1487",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-103",
+      "episode": 7,
+      "line": 1488,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "private_questions_about_physical_response",
+      "kind": "internal_thought",
+      "outcome": "not_action",
+      "source_line_checksum_fnv1a": "ec68f18d",
+      "source_ref": "raw/Dhika.txt#L1488",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-104",
+      "episode": 7,
+      "line": 1489,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "shakes_head_reacts_to_bantu_giggling",
+      "kind": "emotional_response",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "a1613476",
+      "source_ref": "raw/Dhika.txt#L1489",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-105",
+      "episode": 7,
+      "line": 1490,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "teases_about_girlfriends_appearance",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "60e0be53",
+      "source_ref": "raw/Dhika.txt#L1490",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-106",
+      "episode": 7,
+      "line": 1491,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "responds_with_condition",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "56e2b3ae",
+      "source_ref": "raw/Dhika.txt#L1491",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-107",
+      "episode": 7,
+      "line": 1492,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "clarifies_question",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "1843fdae",
+      "source_ref": "raw/Dhika.txt#L1492",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-108",
+      "episode": 7,
+      "line": 1493,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "first_hit_then_repeated_touch_on_chest",
+      "kind": "multi_action_contact",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "908f344e",
+      "source_ref": "raw/Dhika.txt#L1493",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-109",
+      "episode": 7,
+      "line": 1493,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "withdraws_hand_after_longer_touch",
+      "kind": "contact_end",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "908f344e",
+      "source_ref": "raw/Dhika.txt#L1493",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-110",
+      "episode": 7,
+      "line": 1494,
+      "scene_id": "E07-S08",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_bantu_to_leave",
+      "kind": "boundary_instruction",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "902af2dc",
+      "source_ref": "raw/Dhika.txt#L1494",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-111",
+      "episode": 7,
+      "line": 1495,
+      "scene_id": "E07-S09",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "puts_shirt_on_and_moves_to_door",
+      "kind": "garment_motion",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "afc46a83",
+      "source_ref": "raw/Dhika.txt#L1495",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-112",
+      "episode": 7,
+      "line": 1496,
+      "scene_id": "E07-S09",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "suggests_lace_bra",
+      "kind": "suggestion",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "e4ab7a97",
+      "source_ref": "raw/Dhika.txt#L1496",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-113",
+      "episode": 7,
+      "line": 1498,
+      "scene_id": "E07-S09",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "recalls_unworn_items_in_wardrobe",
+      "kind": "memory",
+      "outcome": "internal",
+      "source_line_checksum_fnv1a": "5a64ef7c",
+      "source_ref": "raw/Dhika.txt#L1498",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-114",
+      "episode": 7,
+      "line": 1499,
+      "scene_id": "E07-S09",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "explains_reported_source_of_suggestion",
+      "kind": "third_party_report",
+      "outcome": "reported",
+      "source_line_checksum_fnv1a": "3742d8da",
+      "source_ref": "raw/Dhika.txt#L1499",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-115",
+      "episode": 7,
+      "line": 1500,
+      "scene_id": "E07-S09",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "says_may_try_one_day",
+      "kind": "qualified_future_intent",
+      "outcome": "not_completion",
+      "source_line_checksum_fnv1a": "b54a4474",
+      "source_ref": "raw/Dhika.txt#L1500",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-116",
+      "episode": 7,
+      "line": 1501,
+      "scene_id": "E07-S09",
+      "track": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "leaves_visit",
+      "kind": "encounter_end",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "df5f1ec0",
+      "source_ref": "raw/Dhika.txt#L1501",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-117",
+      "episode": 7,
+      "line": 1502,
+      "scene_id": "E07-S10",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "bantu_absent_chotu_distant",
+      "kind": "non_encounter_context",
+      "outcome": "observed",
+      "source_line_checksum_fnv1a": "80b834c5",
+      "source_ref": "raw/Dhika.txt#L1502",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-118",
+      "episode": 7,
+      "line": 1505,
+      "scene_id": "E07-S10",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "sees_unworn_garment_boxes",
+      "kind": "object_observation",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "38d9a970",
+      "source_ref": "raw/Dhika.txt#L1505",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-119",
+      "episode": 7,
+      "line": 1506,
+      "scene_id": "E07-S10",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "recalls_bantu_suggestion",
+      "kind": "memory",
+      "outcome": "recalled",
+      "source_line_checksum_fnv1a": "4d5ede02",
+      "source_ref": "raw/Dhika.txt#L1506",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-120",
+      "episode": 7,
+      "line": 1508,
+      "scene_id": "E07-S10",
+      "track": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "tries_suggested_item_in_private",
+      "kind": "garment_state",
+      "outcome": "completed_offline",
+      "source_line_checksum_fnv1a": "a62fa46c",
+      "source_ref": "raw/Dhika.txt#L1508",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-121",
+      "episode": 7,
+      "line": 1509,
+      "scene_id": "E07-S11",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "greets_twins_in_remote_call",
+      "kind": "remote_dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "0c090651",
+      "source_ref": "raw/Dhika.txt#L1509",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-122",
+      "episode": 7,
+      "line": 1510,
+      "scene_id": "E07-S11",
+      "track": "TRIO",
+      "actor": "Bantu",
+      "recipient": "Group or specified participant",
+      "action": "answers_hometown_question",
+      "kind": "remote_dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "0f8e287b",
+      "source_ref": "raw/Dhika.txt#L1510",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-123",
+      "episode": 7,
+      "line": 1512,
+      "scene_id": "E07-S11",
+      "track": "TRIO",
+      "actor": "Bobby",
+      "recipient": "Group or specified participant",
+      "action": "greets_dhika_remotely",
+      "kind": "remote_dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "5dd23fc8",
+      "source_ref": "raw/Dhika.txt#L1512",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-124",
+      "episode": 7,
+      "line": 1513,
+      "scene_id": "E07-S11",
+      "track": "TRIO",
+      "actor": "Bobby",
+      "recipient": "Group or specified participant",
+      "action": "describes_swiss_science_competition",
+      "kind": "academic_explanation",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "955a124c",
+      "source_ref": "raw/Dhika.txt#L1513",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-125",
+      "episode": 7,
+      "line": 1513,
+      "scene_id": "E07-S11",
+      "track": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Group or specified participant",
+      "action": "describes_competition_structure",
+      "kind": "narrated_context",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "955a124c",
+      "source_ref": "raw/Dhika.txt#L1513",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-126",
+      "episode": 7,
+      "line": 1514,
+      "scene_id": "E07-S11",
+      "track": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Group or specified participant",
+      "action": "session_discusses_more_competition_details",
+      "kind": "academic_context",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "37b15db2",
+      "source_ref": "raw/Dhika.txt#L1514",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-127",
+      "episode": 7,
+      "line": 1515,
+      "scene_id": "E07-S11",
+      "track": "TRIO",
+      "actor": "Group",
+      "recipient": "Group or specified participant",
+      "action": "starts_remote_study_discussion",
+      "kind": "shared_remote_task",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "eac45207",
+      "source_ref": "raw/Dhika.txt#L1515",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-128",
+      "episode": 7,
+      "line": 1516,
+      "scene_id": "E07-S12",
+      "track": "TRIO",
+      "actor": "Bantu",
+      "recipient": "Group or specified participant",
+      "action": "asks_about_gifted_chain",
+      "kind": "remote_dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "fc7ee4ac",
+      "source_ref": "raw/Dhika.txt#L1516",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-129",
+      "episode": 7,
+      "line": 1517,
+      "scene_id": "E07-S12",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "confirms_wearing_gift",
+      "kind": "remote_dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "b25f0b04",
+      "source_ref": "raw/Dhika.txt#L1517",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-130",
+      "episode": 7,
+      "line": 1518,
+      "scene_id": "E07-S12",
+      "track": "TRIO",
+      "actor": "Bantu",
+      "recipient": "Group or specified participant",
+      "action": "attributes_desire_to_see_chain_to_bobby",
+      "kind": "third_party_attribution",
+      "outcome": "reported",
+      "source_line_checksum_fnv1a": "61720335",
+      "source_ref": "raw/Dhika.txt#L1518",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-131",
+      "episode": 7,
+      "line": 1519,
+      "scene_id": "E07-S12",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "proposes_bantu_leave_call_as_tease",
+      "kind": "hypothetical_request",
+      "outcome": "not_completed",
+      "source_line_checksum_fnv1a": "a728d257",
+      "source_ref": "raw/Dhika.txt#L1519",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-132",
+      "episode": 7,
+      "line": 1520,
+      "scene_id": "E07-S12",
+      "track": "TRIO",
+      "actor": "Bantu",
+      "recipient": "Group or specified participant",
+      "action": "objects_to_leaving",
+      "kind": "refusal",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "e4193aad",
+      "source_ref": "raw/Dhika.txt#L1520",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-133",
+      "episode": 7,
+      "line": 1521,
+      "scene_id": "E07-S12",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "asks_bobby_to_verify_attribution",
+      "kind": "verification_question",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "6ec1ccd6",
+      "source_ref": "raw/Dhika.txt#L1521",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-134",
+      "episode": 7,
+      "line": 1522,
+      "scene_id": "E07-S12",
+      "track": "TRIO",
+      "actor": "Bobby",
+      "recipient": "Group or specified participant",
+      "action": "confirms_interested_in_how_chain_looks",
+      "kind": "confirmation",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "cb87fa80",
+      "source_ref": "raw/Dhika.txt#L1522",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-135",
+      "episode": 7,
+      "line": 1523,
+      "scene_id": "E07-S12",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "compares_twins_playfully",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "1ec4206e",
+      "source_ref": "raw/Dhika.txt#L1523",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-136",
+      "episode": 7,
+      "line": 1524,
+      "scene_id": "E07-S12",
+      "track": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Group or specified participant",
+      "action": "both_twins_laugh_and_expect_small_reveal",
+      "kind": "group_reaction_expectation",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "4c2c98a9",
+      "source_ref": "raw/Dhika.txt#L1524",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-137",
+      "episode": 7,
+      "line": 1525,
+      "scene_id": "E07-S13",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "privately_anticipates_bantu_response",
+      "kind": "internal_motivation",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "6e18682f",
+      "source_ref": "raw/Dhika.txt#L1525",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-138",
+      "episode": 7,
+      "line": 1526,
+      "scene_id": "E07-S13",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "removes_top_during_video_call",
+      "kind": "visual_state_change",
+      "outcome": "completed",
+      "source_line_checksum_fnv1a": "28d1088b",
+      "source_ref": "raw/Dhika.txt#L1526",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-139",
+      "episode": 7,
+      "line": 1527,
+      "scene_id": "E07-S13",
+      "track": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Group or specified participant",
+      "action": "describes_video_visible_outfit",
+      "kind": "visual_observation",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "1b422f21",
+      "source_ref": "raw/Dhika.txt#L1527",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-140",
+      "episode": 7,
+      "line": 1528,
+      "scene_id": "E07-S13",
+      "track": "TRIO",
+      "actor": "Bantu",
+      "recipient": "Group or specified participant",
+      "action": "reacts_with_bobby_to_video_appearance",
+      "kind": "group_reaction",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "0ec95963",
+      "source_ref": "raw/Dhika.txt#L1528",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-141",
+      "episode": 7,
+      "line": 1528,
+      "scene_id": "E07-S13",
+      "track": "TRIO",
+      "actor": "Bobby",
+      "recipient": "Group or specified participant",
+      "action": "reacts_with_bantu_to_video_appearance",
+      "kind": "group_reaction",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "0ec95963",
+      "source_ref": "raw/Dhika.txt#L1528",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-142",
+      "episode": 7,
+      "line": 1529,
+      "scene_id": "E07-S13",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "asks_about_chain_and_notices_attention_elsewhere",
+      "kind": "remote_dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "9e175e16",
+      "source_ref": "raw/Dhika.txt#L1529",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-143",
+      "episode": 7,
+      "line": 1531,
+      "scene_id": "E07-S13",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "asks_twins_not_to_stare",
+      "kind": "boundary_instruction",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "2ee0630c",
+      "source_ref": "raw/Dhika.txt#L1531",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-144",
+      "episode": 7,
+      "line": 1531,
+      "scene_id": "E07-S13",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "describes_shy_but_comfortable_state",
+      "kind": "emotional_state",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "2ee0630c",
+      "source_ref": "raw/Dhika.txt#L1531",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-145",
+      "episode": 7,
+      "line": 1533,
+      "scene_id": "E07-S13",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "comments_on_twin_silence",
+      "kind": "remote_dialogue",
+      "outcome": "direct",
+      "source_line_checksum_fnv1a": "7b61db54",
+      "source_ref": "raw/Dhika.txt#L1533",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-146",
+      "episode": 7,
+      "line": 1534,
+      "scene_id": "E07-S13",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "wonders_what_they_are_looking_at",
+      "kind": "internal_question",
+      "outcome": "narrated",
+      "source_line_checksum_fnv1a": "449e7be0",
+      "source_ref": "raw/Dhika.txt#L1534",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E07-AT-147",
+      "episode": 7,
+      "line": 1535,
+      "scene_id": "E07-S13",
+      "track": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Group or specified participant",
+      "action": "maximizes_self_video_for_inspection",
+      "kind": "object_action",
+      "outcome": "completed_boundary_to_e08",
+      "source_line_checksum_fnv1a": "bb3ae25e",
+      "source_ref": "raw/Dhika.txt#L1535",
+      "review": "source_line_checked_semantic_first_pass"
+    }
+  ],
+  "line_index": [
+    {
+      "line": 1298,
+      "scene_id": null,
+      "disposition": "header",
+      "source_checksum_fnv1a": "809ecb73",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1299,
+      "scene_id": null,
+      "disposition": "header",
+      "source_checksum_fnv1a": "9ab0e787",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1300,
+      "scene_id": null,
+      "disposition": "separator",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1301,
+      "scene_id": null,
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1302,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "20d9d49d",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1303,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "e848366e",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1304,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "18ed8a1d",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1305,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "05bb86c7",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1306,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "ea94f113",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1307,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "e1cd3b34",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1308,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "def2c005",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1309,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "7bdaf0a9",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1310,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "e714a3b4",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1311,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "e1e8b8bf",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1312,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "056ccb9b",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1313,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "1faab80f",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1314,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "3cfc1b00",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1315,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "3952e6ba",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1316,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "cbd69d0f",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1317,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "7ab8d7a1",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1318,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "bacf1332",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1319,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "331cb61f",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1320,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "b0b59899",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1321,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "0028b631",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1322,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "d93366d5",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1323,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "3b229481",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1324,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "56cc05ba",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1325,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "8c891bef",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1326,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "e0654c9d",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1327,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "b24be039",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1328,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "73459811",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1329,
+      "scene_id": "E07-S01",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "c30b5271",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1330,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "8fb768c7",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1331,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "51c853a1",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1332,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "ca4f3927",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1333,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "d5ca8e34",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1334,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "ab62f5b3",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1335,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "87cc7f1d",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1336,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "0defa671",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1337,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "b94e9ce3",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1338,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "b0818f08",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1339,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "ca965306",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1340,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "34a604e5",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1341,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "52962daa",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1342,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "8c7530c2",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1343,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "a536ffd6",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1344,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "0d52b0e1",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1345,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "658ecd2a",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1346,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "d11f932e",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1347,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "f9d7fdc1",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1348,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "54e2e35e",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1349,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "02234f2c",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1350,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "9b4bbf53",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1351,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "f4cb878c",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1352,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "1f467fee",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1353,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "9057a33b",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1354,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "72e3f600",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1355,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "2d09225f",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1356,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "57c23a7e",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1357,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "6efaf0d5",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1358,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "c6730df3",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1359,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "63b58a55",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1360,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "eebecc59",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1361,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "e8b5b110",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1362,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "0a977b6a",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1363,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "0a3045e8",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1364,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "38b9bce2",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1365,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "9c3f9b8f",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1366,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "43019022",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1367,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "f86364d8",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1368,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "a84fbc36",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1369,
+      "scene_id": "E07-S02",
+      "disposition": "indirect_prior_episode_aftermath_or_non_twin_scene",
+      "source_checksum_fnv1a": "9907a99e",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1370,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "b9168942",
+      "event_ids": [
+        "E07-AT-001",
+        "E07-AT-002"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1371,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "12722efd",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1372,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "e18116e9",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1373,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "b99a5426",
+      "event_ids": [
+        "E07-AT-003"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1374,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "f37bdeca",
+      "event_ids": [
+        "E07-AT-004"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1375,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "b053ffd0",
+      "event_ids": [
+        "E07-AT-005"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1376,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "849018a0",
+      "event_ids": [
+        "E07-AT-006",
+        "E07-AT-007"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1377,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "8b8a36d0",
+      "event_ids": [
+        "E07-AT-008"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1378,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "f2fc0766",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1379,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "5133f4ba",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1380,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "55b5b254",
+      "event_ids": [
+        "E07-AT-009",
+        "E07-AT-010"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1381,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "4c795e32",
+      "event_ids": [
+        "E07-AT-011"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1382,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "69603722",
+      "event_ids": [
+        "E07-AT-012",
+        "E07-AT-013"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1383,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "ee6981b4",
+      "event_ids": [
+        "E07-AT-014"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1384,
+      "scene_id": "E07-S03",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "0b28b0be",
+      "event_ids": [
+        "E07-AT-015"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1385,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "f85fab58",
+      "event_ids": [
+        "E07-AT-016"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1386,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "777b433b",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1387,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "b37fcfa2",
+      "event_ids": [
+        "E07-AT-017"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1388,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "aa2d3baf",
+      "event_ids": [
+        "E07-AT-018"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1389,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "18306f99",
+      "event_ids": [
+        "E07-AT-019"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1390,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "a039a8ef",
+      "event_ids": [
+        "E07-AT-020"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1391,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "00b8d8b4",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1392,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "3783d4a2",
+      "event_ids": [
+        "E07-AT-021"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1393,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "bfc53ba1",
+      "event_ids": [
+        "E07-AT-022"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1394,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "775f5958",
+      "event_ids": [
+        "E07-AT-023"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1395,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "e302d9a5",
+      "event_ids": [
+        "E07-AT-024"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1396,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "707897f7",
+      "event_ids": [
+        "E07-AT-025"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1397,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "41e62c2d",
+      "event_ids": [
+        "E07-AT-026"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1398,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "93b33c12",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1399,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "541ded3e",
+      "event_ids": [
+        "E07-AT-027"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1400,
+      "scene_id": "E07-S04",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "129eccca",
+      "event_ids": [
+        "E07-AT-028"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1401,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "166048e6",
+      "event_ids": [
+        "E07-AT-029"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1402,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "793f58ec",
+      "event_ids": [
+        "E07-AT-030"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1403,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "00976b03",
+      "event_ids": [
+        "E07-AT-031"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1404,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "9b7ab2bb",
+      "event_ids": [
+        "E07-AT-032"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1405,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "3e307552",
+      "event_ids": [
+        "E07-AT-033",
+        "E07-AT-034"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1406,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "7c5e921f",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1407,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "f1b2358b",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1408,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "1e7a91f8",
+      "event_ids": [
+        "E07-AT-035"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1409,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "3f2c5e6d",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1410,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "f82b43ac",
+      "event_ids": [
+        "E07-AT-036"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1411,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "dc71b346",
+      "event_ids": [
+        "E07-AT-037"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1412,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "4941ee26",
+      "event_ids": [
+        "E07-AT-038"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1413,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "02459ed6",
+      "event_ids": [
+        "E07-AT-039"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1414,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "41cd5858",
+      "event_ids": [
+        "E07-AT-040"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1415,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "f7e78c87",
+      "event_ids": [
+        "E07-AT-041"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1416,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "d492b411",
+      "event_ids": [
+        "E07-AT-042"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1417,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "604e208b",
+      "event_ids": [
+        "E07-AT-043"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1418,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "aa9bf320",
+      "event_ids": [
+        "E07-AT-044"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1419,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "d28ac1fd",
+      "event_ids": [
+        "E07-AT-045"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1420,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "8ec77fbe",
+      "event_ids": [
+        "E07-AT-046"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1421,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "2450afa4",
+      "event_ids": [
+        "E07-AT-047"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1422,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "c413e7cb",
+      "event_ids": [
+        "E07-AT-048",
+        "E07-AT-049"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1423,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "83b5ccc2",
+      "event_ids": [
+        "E07-AT-050"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1424,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "1b7e581e",
+      "event_ids": [
+        "E07-AT-051"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1425,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "02bf0136",
+      "event_ids": [
+        "E07-AT-052"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1426,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "4e854e95",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1427,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "46c42e52",
+      "event_ids": [
+        "E07-AT-053"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1428,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "2af16959",
+      "event_ids": [
+        "E07-AT-054"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1429,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "9f332e3a",
+      "event_ids": [
+        "E07-AT-055"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1430,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "f9efb2b5",
+      "event_ids": [
+        "E07-AT-056"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1431,
+      "scene_id": "E07-S05",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "3b7598c4",
+      "event_ids": [
+        "E07-AT-057"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1432,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "568d5c97",
+      "event_ids": [
+        "E07-AT-058"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1433,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "4b4182cc",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1434,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "300e7d31",
+      "event_ids": [
+        "E07-AT-059"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1435,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "5e73d857",
+      "event_ids": [
+        "E07-AT-060"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1436,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "5a232cdf",
+      "event_ids": [
+        "E07-AT-061"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1437,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "47167e42",
+      "event_ids": [
+        "E07-AT-062"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1438,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "89e0f73f",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1439,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "8d8fa627",
+      "event_ids": [
+        "E07-AT-063"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1440,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "b2b062b5",
+      "event_ids": [
+        "E07-AT-064"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1441,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "ec2c7725",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1442,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "57a2b0d8",
+      "event_ids": [
+        "E07-AT-065"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1443,
+      "scene_id": "E07-S06",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "eaf26720",
+      "event_ids": [
+        "E07-AT-066"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1444,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "0bb91149",
+      "event_ids": [
+        "E07-AT-067"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1445,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "d11550e8",
+      "event_ids": [
+        "E07-AT-068"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1446,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "a7cb490f",
+      "event_ids": [
+        "E07-AT-069"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1447,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "c0124eb1",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1448,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "a30c053d",
+      "event_ids": [
+        "E07-AT-070"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1449,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "6ad54d3b",
+      "event_ids": [
+        "E07-AT-071"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1450,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "d487f038",
+      "event_ids": [
+        "E07-AT-072"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1451,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "c3f60aa6",
+      "event_ids": [
+        "E07-AT-073"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1452,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "1c78522c",
+      "event_ids": [
+        "E07-AT-074"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1453,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "7d87cea4",
+      "event_ids": [
+        "E07-AT-075"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1454,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "d32cc38d",
+      "event_ids": [
+        "E07-AT-076"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1455,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "1a3c4e99",
+      "event_ids": [
+        "E07-AT-077"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1456,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "a3418b79",
+      "event_ids": [
+        "E07-AT-078"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1457,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "c9b258c7",
+      "event_ids": [
+        "E07-AT-079",
+        "E07-AT-080"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1458,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "e012a434",
+      "event_ids": [
+        "E07-AT-081"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1459,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "97354374",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1460,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "a7da6146",
+      "event_ids": [
+        "E07-AT-082"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1461,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "864e7e70",
+      "event_ids": [
+        "E07-AT-083"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1462,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "b1eda055",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1463,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "f5ab1f5f",
+      "event_ids": [
+        "E07-AT-084"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1464,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "235b9526",
+      "event_ids": [
+        "E07-AT-085",
+        "E07-AT-086"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1465,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "21b12eab",
+      "event_ids": [
+        "E07-AT-087"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1466,
+      "scene_id": "E07-S07",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "e1e2d77a",
+      "event_ids": [
+        "E07-AT-088"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1467,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "ab293e54",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1468,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "ebd726bc",
+      "event_ids": [
+        "E07-AT-089"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1469,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "4a067982",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1470,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "c7401747",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1471,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "fbb2e842",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1472,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "007ed5db",
+      "event_ids": [
+        "E07-AT-090",
+        "E07-AT-091"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1473,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "4965128a",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1474,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "be8ca665",
+      "event_ids": [
+        "E07-AT-092"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1475,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "bf29c307",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1476,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "80b25547",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1477,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "3fe0c07d",
+      "event_ids": [
+        "E07-AT-093"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1478,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "89bc5d4a",
+      "event_ids": [
+        "E07-AT-094"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1479,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "d35f9d2a",
+      "event_ids": [
+        "E07-AT-095"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1480,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "79f67950",
+      "event_ids": [
+        "E07-AT-096"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1481,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "8e75de71",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1482,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "90f318f2",
+      "event_ids": [
+        "E07-AT-097"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1483,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "9f6968b6",
+      "event_ids": [
+        "E07-AT-098"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1484,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "ec47ed96",
+      "event_ids": [
+        "E07-AT-099"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1485,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "69b88a49",
+      "event_ids": [
+        "E07-AT-100"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1486,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "282993d6",
+      "event_ids": [
+        "E07-AT-101"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1487,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "fc2fdb6c",
+      "event_ids": [
+        "E07-AT-102"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1488,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "ec68f18d",
+      "event_ids": [
+        "E07-AT-103"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1489,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "a1613476",
+      "event_ids": [
+        "E07-AT-104"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1490,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "60e0be53",
+      "event_ids": [
+        "E07-AT-105"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1491,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "56e2b3ae",
+      "event_ids": [
+        "E07-AT-106"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1492,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "1843fdae",
+      "event_ids": [
+        "E07-AT-107"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1493,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "908f344e",
+      "event_ids": [
+        "E07-AT-108",
+        "E07-AT-109"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1494,
+      "scene_id": "E07-S08",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "902af2dc",
+      "event_ids": [
+        "E07-AT-110"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1495,
+      "scene_id": "E07-S09",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "afc46a83",
+      "event_ids": [
+        "E07-AT-111"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1496,
+      "scene_id": "E07-S09",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "e4ab7a97",
+      "event_ids": [
+        "E07-AT-112"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1497,
+      "scene_id": "E07-S09",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "bd6c1482",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1498,
+      "scene_id": "E07-S09",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "5a64ef7c",
+      "event_ids": [
+        "E07-AT-113"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1499,
+      "scene_id": "E07-S09",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "3742d8da",
+      "event_ids": [
+        "E07-AT-114"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1500,
+      "scene_id": "E07-S09",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "b54a4474",
+      "event_ids": [
+        "E07-AT-115"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1501,
+      "scene_id": "E07-S09",
+      "disposition": "direct_bantu_solo_interaction",
+      "source_checksum_fnv1a": "df5f1ec0",
+      "event_ids": [
+        "E07-AT-116"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1502,
+      "scene_id": "E07-S10",
+      "disposition": "context_or_recollection_no_twin_present",
+      "source_checksum_fnv1a": "80b834c5",
+      "event_ids": [
+        "E07-AT-117"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1503,
+      "scene_id": "E07-S10",
+      "disposition": "context_or_recollection_no_twin_present",
+      "source_checksum_fnv1a": "5b11988e",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1504,
+      "scene_id": "E07-S10",
+      "disposition": "context_or_recollection_no_twin_present",
+      "source_checksum_fnv1a": "e70bfeda",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1505,
+      "scene_id": "E07-S10",
+      "disposition": "context_or_recollection_no_twin_present",
+      "source_checksum_fnv1a": "38d9a970",
+      "event_ids": [
+        "E07-AT-118"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1506,
+      "scene_id": "E07-S10",
+      "disposition": "context_or_recollection_no_twin_present",
+      "source_checksum_fnv1a": "4d5ede02",
+      "event_ids": [
+        "E07-AT-119"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1507,
+      "scene_id": "E07-S10",
+      "disposition": "context_or_recollection_no_twin_present",
+      "source_checksum_fnv1a": "b5577bc1",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1508,
+      "scene_id": "E07-S10",
+      "disposition": "context_or_recollection_no_twin_present",
+      "source_checksum_fnv1a": "a62fa46c",
+      "event_ids": [
+        "E07-AT-120"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1509,
+      "scene_id": "E07-S11",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "0c090651",
+      "event_ids": [
+        "E07-AT-121"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1510,
+      "scene_id": "E07-S11",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "0f8e287b",
+      "event_ids": [
+        "E07-AT-122"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1511,
+      "scene_id": "E07-S11",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "614af6a6",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1512,
+      "scene_id": "E07-S11",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "5dd23fc8",
+      "event_ids": [
+        "E07-AT-123"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1513,
+      "scene_id": "E07-S11",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "955a124c",
+      "event_ids": [
+        "E07-AT-124",
+        "E07-AT-125"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1514,
+      "scene_id": "E07-S11",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "37b15db2",
+      "event_ids": [
+        "E07-AT-126"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1515,
+      "scene_id": "E07-S11",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "eac45207",
+      "event_ids": [
+        "E07-AT-127"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1516,
+      "scene_id": "E07-S12",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "fc7ee4ac",
+      "event_ids": [
+        "E07-AT-128"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1517,
+      "scene_id": "E07-S12",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "b25f0b04",
+      "event_ids": [
+        "E07-AT-129"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1518,
+      "scene_id": "E07-S12",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "61720335",
+      "event_ids": [
+        "E07-AT-130"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1519,
+      "scene_id": "E07-S12",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "a728d257",
+      "event_ids": [
+        "E07-AT-131"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1520,
+      "scene_id": "E07-S12",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "e4193aad",
+      "event_ids": [
+        "E07-AT-132"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1521,
+      "scene_id": "E07-S12",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "6ec1ccd6",
+      "event_ids": [
+        "E07-AT-133"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1522,
+      "scene_id": "E07-S12",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "cb87fa80",
+      "event_ids": [
+        "E07-AT-134"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1523,
+      "scene_id": "E07-S12",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "1ec4206e",
+      "event_ids": [
+        "E07-AT-135"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1524,
+      "scene_id": "E07-S12",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "4c2c98a9",
+      "event_ids": [
+        "E07-AT-136"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1525,
+      "scene_id": "E07-S13",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "6e18682f",
+      "event_ids": [
+        "E07-AT-137"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1526,
+      "scene_id": "E07-S13",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "28d1088b",
+      "event_ids": [
+        "E07-AT-138"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1527,
+      "scene_id": "E07-S13",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "1b422f21",
+      "event_ids": [
+        "E07-AT-139"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1528,
+      "scene_id": "E07-S13",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "0ec95963",
+      "event_ids": [
+        "E07-AT-140",
+        "E07-AT-141"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1529,
+      "scene_id": "E07-S13",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "9e175e16",
+      "event_ids": [
+        "E07-AT-142"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1530,
+      "scene_id": "E07-S13",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "6632348c",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1531,
+      "scene_id": "E07-S13",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "2ee0630c",
+      "event_ids": [
+        "E07-AT-143",
+        "E07-AT-144"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1532,
+      "scene_id": "E07-S13",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "9615eb6a",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1533,
+      "scene_id": "E07-S13",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "7b61db54",
+      "event_ids": [
+        "E07-AT-145"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1534,
+      "scene_id": "E07-S13",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "449e7be0",
+      "event_ids": [
+        "E07-AT-146"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1535,
+      "scene_id": "E07-S13",
+      "disposition": "direct_remote_twin_interaction",
+      "source_checksum_fnv1a": "bb3ae25e",
+      "event_ids": [
+        "E07-AT-147"
+      ],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1536,
+      "scene_id": null,
+      "disposition": "separator",
+      "source_checksum_fnv1a": "0e3ecb4a",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1537,
+      "scene_id": null,
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1538,
+      "scene_id": null,
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    },
+    {
+      "line": 1539,
+      "scene_id": null,
+      "disposition": "separator",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": [],
+      "text_available_from_canonical_source": true
+    }
+  ],
+  "open_boundary": {
+    "continuation_episode": 8,
+    "last_line_e07": 1535,
+    "first_narrative_line_e08": 1544,
+    "classification": "SAME_REMOTE_CALL_CONTINUES",
+    "closure": "Do not mark remote call ended at E07."
+  },
+  "qa": {
+    "line_index_count": 242,
+    "unique_indexed_lines": 242,
+    "first_pass_events": 147,
+    "events_without_scene": 0,
+    "unassigned_context_lines": 0,
+    "complete_repeated_action_certification": false
+  }
+}
