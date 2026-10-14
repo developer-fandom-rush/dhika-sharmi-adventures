@@ -1,0 +1,1347 @@
+{
+  "schema": "twins_reader_e01_e07_v1",
+  "source": "raw/Dhika.txt",
+  "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "status": "NATURAL_LANGUAGE_SOURCE_LINKED_FIRST_PASS_NOT_EXHAUSTIVE_SEMANTIC_CERTIFICATION",
+  "reading_rule": "Meetings are contiguous visits. Beats are ordered source-linked narrative phases. Memory and off-scene conversations are not meetings; remote call not on-site contact. Do not count group events as pair-specific contact without individual source line.",
+  "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "encounters": [
+    {
+      "episode": 1,
+      "id": "E01-M01",
+      "title": "Morning college encounter",
+      "start": 32,
+      "end": 48,
+      "place": "college",
+      "note": "Both twins appear; Bantu mainly leads the conversation",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ]
+    },
+    {
+      "episode": 1,
+      "id": "E01-M02",
+      "title": "Afternoon staff-room conversation and shared scooter ride",
+      "start": 72,
+      "end": 108,
+      "place": "staff room → road",
+      "note": "One continuous visit with multiple phases, not one action",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "E02-M01",
+      "title": "College request for extra physics tuition",
+      "start": 309,
+      "end": 339,
+      "place": "staff room",
+      "note": "Agreement on additional study and a home address visit",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "E02-M02",
+      "title": "Follow-up journey and first visit to Dhika's home",
+      "start": 340,
+      "end": 363,
+      "place": "road → apartment",
+      "note": "Includes the pivotal accidental clothing incident and two different reactions",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ]
+    },
+    {
+      "episode": 2,
+      "id": "E02-M03",
+      "title": "Private and third-party aftermath (not twins present)",
+      "start": 364,
+      "end": 384,
+      "place": "home / later",
+      "note": "Memory and John disclosure only; no new twin meeting",
+      "tracks": [
+        "DB",
+        "DY"
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "E03-M01",
+      "title": "First extra tuition",
+      "start": 490,
+      "end": 525,
+      "place": "Dhika's home",
+      "note": "Source-backed first-pass grouping",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ]
+    },
+    {
+      "episode": 3,
+      "id": "E03-M02",
+      "title": "Following class and reassurance",
+      "start": 542,
+      "end": 572,
+      "place": "Dhika's home",
+      "note": "Source-backed first-pass grouping",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ]
+    },
+    {
+      "episode": 4,
+      "id": "E04-M01",
+      "title": "Extended tuition sequence",
+      "start": 660,
+      "end": 830,
+      "place": "Dhika's home",
+      "note": "Long continuous scene: multiple internal phases",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ]
+    },
+    {
+      "episode": 5,
+      "id": "E05-M01",
+      "title": "Previous visit's farewell (continued across episode)",
+      "start": 839,
+      "end": 854,
+      "place": "Dhika's home",
+      "note": "Episode transition is not a new encounter",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ]
+    },
+    {
+      "episode": 5,
+      "id": "E05-M02",
+      "title": "Bantu's separate shopping encounter",
+      "start": 885,
+      "end": 952,
+      "place": "shopping area",
+      "note": "Bobby absent",
+      "tracks": [
+        "DB"
+      ]
+    },
+    {
+      "episode": 5,
+      "id": "E05-M03",
+      "title": "Private memory and class-cancellation follow-up",
+      "start": 961,
+      "end": 994,
+      "place": "home / off-scene",
+      "note": "No new in-person meeting",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ]
+    },
+    {
+      "episode": 6,
+      "id": "E06-M01",
+      "title": "Bobby's solo home visit and study",
+      "start": 1082,
+      "end": 1138,
+      "place": "Dhika's home",
+      "note": "Bantu absent",
+      "tracks": [
+        "DY"
+      ]
+    },
+    {
+      "episode": 6,
+      "id": "E06-M02",
+      "title": "Bobby, Chotu and Dhika painting together",
+      "start": 1139,
+      "end": 1199,
+      "place": "Dhika's home",
+      "note": "Chotu's arrival changes the participants; Bantu absent",
+      "tracks": [
+        "DY",
+        "DBC"
+      ]
+    },
+    {
+      "episode": 7,
+      "id": "E07-M01",
+      "title": "Bantu's Monday solo visit",
+      "start": 1370,
+      "end": 1501,
+      "place": "Dhika's home",
+      "note": "Bobby absent",
+      "tracks": [
+        "DB"
+      ]
+    },
+    {
+      "episode": 7,
+      "id": "E07-M02",
+      "title": "Private Wednesday memory",
+      "start": 1502,
+      "end": 1508,
+      "place": "Dhika's home",
+      "note": "Bantu absent; callback only",
+      "tracks": [
+        "DB"
+      ]
+    },
+    {
+      "episode": 7,
+      "id": "E07-M03",
+      "title": "Twins' Wednesday remote lesson",
+      "start": 1509,
+      "end": 1535,
+      "place": "video call",
+      "note": "Continues into E08; not in-person",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "R-E01-01",
+      "episode": 1,
+      "meeting_id": "E01-M01",
+      "order": 1,
+      "source": [
+        32,
+        44
+      ],
+      "title": "Morning at college: greeting and twin dynamics",
+      "reading": "Bantu approaches Dhika with his routine compliment; Bobby is nearby and mostly quiet. The narration establishes how differently each twin communicates with her.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "familiarity",
+        "communication"
+      ],
+      "before_after": "Teacher-student familiarity already exists; this scene makes their different interaction styles explicit."
+    },
+    {
+      "id": "R-E01-02",
+      "episode": 1,
+      "meeting_id": "E01-M01",
+      "order": 2,
+      "source": [
+        35,
+        44
+      ],
+      "title": "Her reaction to Bantu's routine compliments",
+      "reading": "Dhika asks him to lower his voice. The narrator distinguishes her earlier discomfort from her more familiar response now; Bobby is not the speaker.",
+      "tracks": [
+        "DB",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "emotional_reaction",
+        "communication"
+      ],
+      "before_after": "What once embarrassed her is becoming a familiar routine; this is not blanket permission."
+    },
+    {
+      "id": "R-E01-03",
+      "episode": 1,
+      "meeting_id": "E01-M02",
+      "order": 3,
+      "source": [
+        72,
+        82
+      ],
+      "title": "4 PM: staff-room conversation and different observations",
+      "reading": "Both twins arrive before leaving college. Bantu initiates the exchange, while Bobby remains quieter; Dhika notices Bobby looking away and reacts with embarrassment.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "observation",
+        "boundaries"
+      ],
+      "body_refs": [
+        {
+          "owner": "Dhika",
+          "area": "Clothing / side of sari",
+          "mode": "Unplanned visibility and observation",
+          "line": 82,
+          "reading": "A minor clothing-position detail becomes visible; Dhika notices Bobby's attention and chooses not to embarrass him."
+        }
+      ]
+    },
+    {
+      "id": "R-E01-04",
+      "episode": 1,
+      "meeting_id": "E01-M02",
+      "order": 4,
+      "source": [
+        83,
+        91
+      ],
+      "title": "Ride request: transport explanation versus narrator information",
+      "reading": "Bantu asks for a lift and supplies a practical explanation. The narrator separately says his transport problem was a pretext; Dhika agrees to take both students.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "trust",
+        "character_knowledge"
+      ],
+      "before_after": "Dhika hears a transport request; the reader knows Bantu's motivation was different."
+    },
+    {
+      "id": "R-E01-05",
+      "episode": 1,
+      "meeting_id": "E01-M02",
+      "order": 5,
+      "source": [
+        92,
+        98
+      ],
+      "title": "Scooter seating: Bobby is in the middle",
+      "reading": "Dhika instructs Bobby to take the middle seat and Bantu to sit behind. Both follow the arrangement, although the story gives them different private reactions.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "separate_knowledge",
+        "communication"
+      ]
+    },
+    {
+      "id": "R-E01-06",
+      "episode": 1,
+      "meeting_id": "E01-M02",
+      "order": 6,
+      "source": [
+        99,
+        103
+      ],
+      "title": "Ride: support instruction and unexpected contact",
+      "reading": "Dhika expects Bobby to hold her shoulders for balance, but he holds a different part of her clothing-covered side. She notices additional movement, feels awkward and continues the short ride without confronting him.",
+      "tracks": [
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "physical",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "physical_history",
+        "boundaries",
+        "separate_knowledge"
+      ],
+      "body_refs": [
+        {
+          "owner": "Dhika",
+          "area": "Waist / side",
+          "mode": "Contact during ride",
+          "line": 99,
+          "reading": "Bobby's actual grip differs from Dhika's earlier balance instruction."
+        },
+        {
+          "owner": "Dhika",
+          "area": "Waist / side",
+          "mode": "Reported movement during ride",
+          "line": 102,
+          "reading": "The narration records continued movement and Dhika's internal response; it is Bobby's action, not Bantu's."
+        }
+      ],
+      "before_after": "Dhika knows what she felt; Bantu is not shown as knowing the details."
+    },
+    {
+      "id": "R-E01-07",
+      "episode": 1,
+      "meeting_id": "E01-M02",
+      "order": 7,
+      "source": [
+        104,
+        108
+      ],
+      "title": "Arrival: different goodbyes and unequal knowledge",
+      "reading": "Both twins thank Dhika. Bantu is frustrated about the seat arrangement; Bobby privately keeps the details of his ride interaction to himself.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "separate_knowledge",
+        "emotional_reaction"
+      ],
+      "before_after": "The group ride ends, but their knowledge and emotional responses are not identical."
+    },
+    {
+      "id": "R-E01-08",
+      "episode": 1,
+      "meeting_id": "E01-M03",
+      "order": 8,
+      "source": [
+        201,
+        201
+      ],
+      "title": "Later recollection: Bantu's earlier compliments",
+      "reading": "A later thought refers back to the existing pattern of Bantu's compliments. This is memory, not a third meeting.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "memory"
+      ],
+      "time_frame": "later_recollection"
+    },
+    {
+      "id": "R-E02-01",
+      "episode": 2,
+      "meeting_id": "E02-M01",
+      "order": 1,
+      "source": [
+        309,
+        318
+      ],
+      "title": "Noon staff room: Bantu speaks, Bobby initially quiet",
+      "reading": "The students approach Dhika at college. Bantu begins the conversation and Dhika refers back to the previous ride while talking to Bobby.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "familiarity",
+        "memory"
+      ],
+      "before_after": "The E01 ride is explicitly remembered here, not repeated."
+    },
+    {
+      "id": "R-E02-02",
+      "episode": 2,
+      "meeting_id": "E02-M01",
+      "order": 2,
+      "source": [
+        319,
+        339
+      ],
+      "title": "Extra tuition: request, purpose, agreement, schedule",
+      "reading": "The twins explain their physics ambitions; Bobby asks for help, Bantu clarifies the request, and Dhika agrees to extra lessons. The first schedule and a trip to show them her home are arranged.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "trust",
+        "communication",
+        "access"
+      ],
+      "before_after": "They move from only college interactions to planned extra tuition at her home."
+    },
+    {
+      "id": "R-E02-03",
+      "episode": 2,
+      "meeting_id": "E02-M02",
+      "order": 3,
+      "source": [
+        340,
+        348
+      ],
+      "title": "After college: trip to Dhika's home",
+      "reading": "Dhika rides ahead with the twins following separately. After a stop for groceries, they reach her apartment and she asks Bobby to retrieve a key.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "access"
+      ]
+    },
+    {
+      "id": "R-E02-04",
+      "episode": 2,
+      "meeting_id": "E02-M02",
+      "order": 4,
+      "source": [
+        349,
+        351
+      ],
+      "title": "At the door: Bobby finds the key, both enter",
+      "reading": "Bobby handles the key and opens the apartment door. Dhika lets both students enter; nothing in these lines is a separate solo meeting.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "access",
+        "trust"
+      ]
+    },
+    {
+      "id": "R-E02-05",
+      "episode": 2,
+      "meeting_id": "E02-M02",
+      "order": 5,
+      "source": [
+        352,
+        355
+      ],
+      "title": "Major turning point: accidental sari-drape slip",
+      "reading": "While carrying bags, Dhika accidentally loses part of her sari drape. The source describes partial upper-chest visibility (approximately one-third). She initially reacts to the falling bag, then restores her clothing. It is presented as an accident, not a planned reveal.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "physical",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "milestone": true,
+      "state_fields": [
+        "visual_milestone",
+        "boundaries",
+        "emotional_reaction"
+      ],
+      "body_refs": [
+        {
+          "owner": "Dhika",
+          "area": "Sari drape / upper chest",
+          "mode": "Accidental clothing exposure",
+          "line": 354,
+          "reading": "Major E02 milestone: an unintended drape slip and temporary partial visibility. Not initiated as a request or planned action."
+        }
+      ],
+      "before_after": "The unexpected incident changes the group's comfort and the immediate conversation."
+    },
+    {
+      "id": "R-E02-06",
+      "episode": 2,
+      "meeting_id": "E02-M02",
+      "order": 6,
+      "source": [
+        356,
+        363
+      ],
+      "title": "Different twin reactions and rushed departure",
+      "reading": "Bobby initially keeps looking; Bantu averts his gaze. Dhika withdraws briefly to another room. On her return, Bobby has already gone outside and Bantu ends the visit quickly.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "milestone": true,
+      "state_fields": [
+        "separate_knowledge",
+        "emotional_reaction",
+        "boundaries"
+      ],
+      "before_after": "Bobby and Bantu do not react identically; the encounter ends abruptly."
+    },
+    {
+      "id": "R-E02-07",
+      "episode": 2,
+      "meeting_id": "E02-M03",
+      "order": 7,
+      "source": [
+        364,
+        365
+      ],
+      "title": "Immediately afterward: fear and uncertainty",
+      "reading": "Dhika worries about what the students might say and how she will face them next time. These are her interpretations; neither twin is present for this reflection.",
+      "tracks": [
+        "DB",
+        "DY"
+      ],
+      "channels": [
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "time_frame": "private_aftermath",
+      "state_fields": [
+        "uncertainty",
+        "emotional_reaction"
+      ]
+    },
+    {
+      "id": "R-E02-08",
+      "episode": 2,
+      "meeting_id": "E02-M03",
+      "order": 8,
+      "source": [
+        366,
+        379
+      ],
+      "title": "Later that night: conversation with John",
+      "reading": "Dhika recounts the incident to John. His response is more dismissive than she expects; her embarrassment and worry remain. The twins are absent, so this is not a new twin encounter.",
+      "tracks": [
+        "DB",
+        "DY"
+      ],
+      "channels": [
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "time_frame": "reported_to_third_party",
+      "state_fields": [
+        "emotional_reaction",
+        "relationship_with_john"
+      ]
+    },
+    {
+      "id": "R-E02-09",
+      "episode": 2,
+      "meeting_id": "E02-M03",
+      "order": 9,
+      "source": [
+        380,
+        384
+      ],
+      "title": "Next day: avoidance and comparison to Chotu",
+      "reading": "Dhika considers avoiding college, and later privately compares her comfort in different relationships. This is a memory/interpretation beat rather than a direct encounter.",
+      "tracks": [
+        "DB",
+        "DY"
+      ],
+      "channels": [
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "time_frame": "next_day_reflection",
+      "state_fields": [
+        "hesitation",
+        "memory"
+      ]
+    },
+    {
+      "id": "R-E03-01",
+      "episode": 3,
+      "meeting_id": "E03-M01",
+      "order": 1,
+      "source": [
+        490,
+        502
+      ],
+      "title": "First extra lesson: meeting again after E02",
+      "reading": "An arranged tuition visit brings Dhika and both twins together. The earlier home incident is explicitly recalled while the new lesson begins.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "repair",
+        "access"
+      ]
+    },
+    {
+      "id": "R-E03-02",
+      "episode": 3,
+      "meeting_id": "E03-M01",
+      "order": 2,
+      "source": [
+        503,
+        525
+      ],
+      "title": "Conversation, clothing choices and lesson resumes",
+      "reading": "The dialogue tests comfort and boundaries; Dhika makes choices about her attire and responds separately to each twin. The lesson continues.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "boundary_response",
+        "openness"
+      ]
+    },
+    {
+      "id": "R-E03-03",
+      "episode": 3,
+      "meeting_id": "E03-M02",
+      "order": 3,
+      "source": [
+        542,
+        553
+      ],
+      "title": "Following class: previous incident resurfaces",
+      "reading": "A later tuition class includes another conversation about what happened previously, differing reactions and concerns about others knowing.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "memory",
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "R-E03-04",
+      "episode": 3,
+      "meeting_id": "E03-M02",
+      "order": 4,
+      "source": [
+        554,
+        572
+      ],
+      "title": "Reassurance and disagreement within the group",
+      "reading": "Bobby speaks more openly, while Bantu also contributes. The participants respond with reassurance and hesitation; the narrator distinguishes some information not shared with John.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "communication",
+        "separate_knowledge"
+      ]
+    },
+    {
+      "id": "R-E04-01",
+      "episode": 4,
+      "meeting_id": "E04-M01",
+      "order": 1,
+      "source": [
+        660,
+        695
+      ],
+      "title": "Home tuition: heat, clothing and discomfort",
+      "reading": "The shared class moves through everyday talk, temperature and personal comfort; Bantu and Bobby do not always give the same answers.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "communication",
+        "boundaries"
+      ]
+    },
+    {
+      "id": "R-E04-02",
+      "episode": 4,
+      "meeting_id": "E04-M01",
+      "order": 2,
+      "source": [
+        696,
+        754
+      ],
+      "title": "Requests, explanations and negotiated choices",
+      "reading": "A sequence of requests, objections and decisions occurs. The reader must not treat a request or a narrated feeling as a completed action.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "boundary_response",
+        "character_knowledge"
+      ]
+    },
+    {
+      "id": "R-E04-03",
+      "episode": 4,
+      "meeting_id": "E04-M01",
+      "order": 3,
+      "source": [
+        755,
+        790
+      ],
+      "title": "Shared conversation: visual attention and stopping cues",
+      "reading": "Dialogue and reactions continue while Dhika gives specific limits and the twins respond differently. Individual actions must be attributed to the correct person.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "boundaries",
+        "observation"
+      ]
+    },
+    {
+      "id": "R-E04-04",
+      "episode": 4,
+      "meeting_id": "E04-M01",
+      "order": 4,
+      "source": [
+        791,
+        830
+      ],
+      "title": "Later discussion and immediate scene outcome",
+      "reading": "The class scene continues with further conversation and private reactions. Review the linked source before assigning knowledge or a new relationship state.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "R-E05-01",
+      "episode": 5,
+      "meeting_id": "E05-M01",
+      "order": 1,
+      "source": [
+        839,
+        854
+      ],
+      "title": "Previous visit continues: goodbye",
+      "reading": "E05 begins before the ongoing group encounter has fully ended. The twins and Dhika exchange different farewell responses; no new separate meeting should be counted merely because the episode number changed.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "physical_history",
+        "continuity"
+      ]
+    },
+    {
+      "id": "R-E05-02",
+      "episode": 5,
+      "meeting_id": "E05-M02",
+      "order": 2,
+      "source": [
+        885,
+        914
+      ],
+      "title": "Separate encounter: Dhika meets Bantu while shopping",
+      "reading": "Bantu meets Dhika separately during her shopping errand. Bobby is absent. Conversation develops around the errand and an outfit choice.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "solo_access",
+        "communication"
+      ]
+    },
+    {
+      "id": "R-E05-03",
+      "episode": 5,
+      "meeting_id": "E05-M02",
+      "order": 3,
+      "source": [
+        915,
+        952
+      ],
+      "title": "Shopping visit continues: reactions and departure",
+      "reading": "Their exchange continues with questions, suggestions, boundaries and Dhika's responses. This remains the same Bantu-only encounter.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "boundary_response"
+      ]
+    },
+    {
+      "id": "R-E05-04",
+      "episode": 5,
+      "meeting_id": "E05-M03",
+      "order": 4,
+      "source": [
+        961,
+        962
+      ],
+      "title": "Private thought recalling Bantu",
+      "reading": "Dhika reflects on an earlier comment from Bantu. This is not an in-person repeat.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "time_frame": "private_memory",
+      "state_fields": [
+        "memory"
+      ]
+    },
+    {
+      "id": "R-E05-05",
+      "episode": 5,
+      "meeting_id": "E05-M03",
+      "order": 5,
+      "source": [
+        993,
+        994
+      ],
+      "title": "Twins respond to cancelled tuition",
+      "reading": "Dhika informs the twins that the class will not take place; she hears both react. The narration does not certify an in-person meeting here.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "time_frame": "reported_off_scene_contact",
+      "state_fields": [
+        "communication"
+      ]
+    },
+    {
+      "id": "R-E06-01",
+      "episode": 6,
+      "meeting_id": "E06-M01",
+      "order": 1,
+      "source": [
+        1082,
+        1105
+      ],
+      "title": "Bobby visits alone: competition request",
+      "reading": "Bobby arrives without Bantu and asks for help preparing for a physics competition. His private purpose and what Dhika hears are recorded separately.",
+      "tracks": [
+        "DY"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "solo_access",
+        "communication"
+      ]
+    },
+    {
+      "id": "R-E06-02",
+      "episode": 6,
+      "meeting_id": "E06-M01",
+      "order": 2,
+      "source": [
+        1106,
+        1138
+      ],
+      "title": "Solo tuition: increased dialogue, then interruption",
+      "reading": "Dhika encourages Bobby to speak more and they begin studying. Shyness, reassurance and visual observations alternate; a doorbell interrupts the solo meeting.",
+      "tracks": [
+        "DY"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "openness",
+        "boundaries"
+      ]
+    },
+    {
+      "id": "R-E06-03",
+      "episode": 6,
+      "meeting_id": "E06-M02",
+      "order": 3,
+      "source": [
+        1139,
+        1153
+      ],
+      "title": "Chotu arrives: Bobby asks to stay",
+      "reading": "Dhika introduces Bobby and Chotu. Bobby first offers to leave, then asks whether he may stay and help. Dhika accepts the request.",
+      "tracks": [
+        "DY",
+        "DBC"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "access",
+        "communication"
+      ]
+    },
+    {
+      "id": "R-E06-04",
+      "episode": 6,
+      "meeting_id": "E06-M02",
+      "order": 4,
+      "source": [
+        1154,
+        1188
+      ],
+      "title": "Shared painting and an accident",
+      "reading": "The three work together. When Dhika slips, Bobby and Chotu respond; each person's action is tracked separately rather than combined into a single generic group reaction.",
+      "tracks": [
+        "DY",
+        "DBC"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "care",
+        "co_presence"
+      ]
+    },
+    {
+      "id": "R-E06-05",
+      "episode": 6,
+      "meeting_id": "E06-M02",
+      "order": 5,
+      "source": [
+        1189,
+        1199
+      ],
+      "title": "Practical help, Bobby's goodbye and exit",
+      "reading": "Bobby and Chotu provide practical assistance after the fall. Bobby then says goodbye and leaves. Later Chotu-only events must not be attributed to Bobby.",
+      "tracks": [
+        "DY",
+        "DBC"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "care",
+        "boundary_response",
+        "continuity"
+      ]
+    },
+    {
+      "id": "R-E07-01",
+      "episode": 7,
+      "meeting_id": "E07-M01",
+      "order": 1,
+      "source": [
+        1370,
+        1384
+      ],
+      "title": "Monday: Bantu arrives alone to change lesson arrangements",
+      "reading": "Bantu comes to Dhika's apartment without Bobby and explains an upcoming trip. Dhika agrees to remote tuition while they are away.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "solo_access",
+        "communication"
+      ]
+    },
+    {
+      "id": "R-E07-02",
+      "episode": 7,
+      "meeting_id": "E07-M01",
+      "order": 2,
+      "source": [
+        1385,
+        1443
+      ],
+      "title": "Solo visit: teasing, requests and limits",
+      "reading": "The conversation shifts from everyday talk to appearance, relationships and comfort. Requests, refusals, internal hesitation and actual actions should be distinguished.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond",
+        "physical"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "openness",
+        "boundaries"
+      ]
+    },
+    {
+      "id": "R-E07-03",
+      "episode": 7,
+      "meeting_id": "E07-M01",
+      "order": 3,
+      "source": [
+        1444,
+        1466
+      ],
+      "title": "Gift discussion: objections, explanation and acceptance",
+      "reading": "Bantu offers a gift. Dhika initially refuses on teacher-role grounds; after further explanation and pressure, she reluctantly accepts. Her acceptance of the gift does not establish agreement to later requests.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "role",
+        "boundary_response"
+      ]
+    },
+    {
+      "id": "R-E07-04",
+      "episode": 7,
+      "meeting_id": "E07-M01",
+      "order": 4,
+      "source": [
+        1467,
+        1501
+      ],
+      "title": "Visit continues: reaction, boundaries, departure",
+      "reading": "Bantu and Dhika continue their discussion. The visit includes further requests and responses before Bantu leaves; Bobby is not present.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "boundary_response",
+        "continuity"
+      ]
+    },
+    {
+      "id": "R-E07-05",
+      "episode": 7,
+      "meeting_id": "E07-M02",
+      "order": 5,
+      "source": [
+        1502,
+        1508
+      ],
+      "title": "Wednesday: recalling an earlier suggestion",
+      "reading": "Dhika remembers Bantu's earlier suggestion while preparing alone. This callback belongs in memory, not as an additional Bantu meeting.",
+      "tracks": [
+        "DB"
+      ],
+      "channels": [
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "time_frame": "private_memory",
+      "state_fields": [
+        "memory"
+      ]
+    },
+    {
+      "id": "R-E07-06",
+      "episode": 7,
+      "meeting_id": "E07-M03",
+      "order": 6,
+      "source": [
+        1509,
+        1515
+      ],
+      "title": "Wednesday: shared online tuition opens",
+      "reading": "Dhika joins a video call with both twins. Bobby explains the physics competition and the lesson begins; this is remote rather than in-person contact.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "communication",
+        "study"
+      ]
+    },
+    {
+      "id": "R-E07-07",
+      "episode": 7,
+      "meeting_id": "E07-M03",
+      "order": 7,
+      "source": [
+        1516,
+        1535
+      ],
+      "title": "Online lesson: conversation and unresolved ending",
+      "reading": "The group exchanges comments and reacts during the video call. The chapter ends while Dhika checks the video; the same encounter continues at the start of E08.",
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "channels": [
+        "meetings",
+        "bond"
+      ],
+      "review": "SOURCE_LINKED_READING_FIRST_PASS",
+      "state_fields": [
+        "boundary_response",
+        "continuity"
+      ],
+      "before_after": "E07 ending is an open boundary, not a completed call."
+    }
+  ]
+}
