@@ -7,7 +7,8 @@
     "CURATED_FIRST_PASS": "At least one source-indexed action record exists for the selected pair; second-pass action/recipient/source QA remains pending.",
     "SCENE_ANCHOR_ONLY": "A source-linked scene is indexed, but action-by-action review is not certified.",
     "DISCOVERY_ONLY": "Only lexical mentions were discovered; direct participation is not established.",
-    "NOT_REVIEWED": "No qualifying source-reviewed records in this track; never infer absence from this state."
+    "NOT_REVIEWED": "No qualifying source-reviewed records in this track; never infer absence from this state.",
+    "PARTIAL_SCENE_EVENTS": "Only selected actions within one or more source-linked scene fragments are tagged; no claim of complete scene or episode review."
   },
   "gaps": [
     {
@@ -185,7 +186,30 @@
       68
     ],
     "complete_episodes": [],
-    "certified_atomic_review": false
+    "certified_atomic_review": false,
+    "partial_fragment_ranges": [
+      {
+        "episode": 6,
+        "lines": [
+          1143,
+          1153
+        ]
+      },
+      {
+        "episode": 67,
+        "lines": [
+          13474,
+          13483
+        ]
+      },
+      {
+        "episode": 68,
+        "lines": [
+          13800,
+          13812
+        ]
+      }
+    ]
   },
   "review_checklist": [
     "Episode text inspected in full",
