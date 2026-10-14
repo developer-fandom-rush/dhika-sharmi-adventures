@@ -1,0 +1,4132 @@
+{
+  "schema": "dhika-twins-atomic-track-v2",
+  "episode": 4,
+  "source_range": [
+    629,
+    834
+  ],
+  "raw_source": "raw/Dhika.txt",
+  "focus_range": [
+    660,
+    830
+  ],
+  "scenes": [
+    {
+      "id": "E04-T01",
+      "source_range": [
+        660,
+        678
+      ],
+      "title": "Tuition starts; heat and shirt request"
+    },
+    {
+      "id": "E04-T02",
+      "source_range": [
+        679,
+        705
+      ],
+      "title": "Dupatta choice, trust and Bobby gaze"
+    },
+    {
+      "id": "E04-T03",
+      "source_range": [
+        706,
+        735
+      ],
+      "title": "Prior saree recalled; current requested outfit change"
+    },
+    {
+      "id": "E04-T04",
+      "source_range": [
+        736,
+        768
+      ],
+      "title": "Pallu negotiation, physical play and communication"
+    },
+    {
+      "id": "E04-T05",
+      "source_range": [
+        769,
+        807
+      ],
+      "title": "Bobby waist-chain question; privacy and refusal"
+    },
+    {
+      "id": "E04-T06",
+      "source_range": [
+        808,
+        830
+      ],
+      "title": "Ambiguous verbal moment and session conclusion"
+    }
+  ],
+  "records": [
+    {
+      "id": "E04-A001",
+      "episode": 4,
+      "line": 660,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "increased_affection_after_previous_encounter",
+      "type": "relationship_state",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L660",
+      "checksum": "19d774a5",
+      "word_cues": [
+        {
+          "start": 158,
+          "end": 162,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 228,
+          "end": 235,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A002",
+      "episode": 4,
+      "line": 661,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "selects_rose_pajama_and_tank_top",
+      "type": "clothing_state",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L661",
+      "checksum": "98546a13",
+      "word_cues": [
+        {
+          "start": 210,
+          "end": 214,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A003",
+      "episode": 4,
+      "line": 662,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "adds_dupatta_after_checking_exposure",
+      "type": "clothing_boundary",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L662",
+      "checksum": "6098b158",
+      "word_cues": [
+        {
+          "start": 94,
+          "end": 101,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A004",
+      "episode": 4,
+      "line": 662,
+      "pair": "TRIO",
+      "actor": "Twins",
+      "action": "arrive_for_tuition",
+      "type": "arrival",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L662",
+      "checksum": "6098b158",
+      "word_cues": [
+        {
+          "start": 94,
+          "end": 101,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A005",
+      "episode": 4,
+      "line": 663,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "opening_compliment",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L663",
+      "checksum": "3858e498",
+      "word_cues": [
+        {
+          "start": 17,
+          "end": 24,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A006",
+      "episode": 4,
+      "line": 664,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "thanks_and_invites_to_sit",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L664",
+      "checksum": "dfbb7a0f",
+      "word_cues": [
+        {
+          "start": 16,
+          "end": 21,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A007",
+      "episode": 4,
+      "line": 665,
+      "pair": "TRIO",
+      "actor": "Group",
+      "action": "begins_academic_topic",
+      "type": "ordinary_activity",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L665",
+      "checksum": "528b123b",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A008",
+      "episode": 4,
+      "line": 666,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "action": "hot_humid_conditions",
+      "type": "environment",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L666",
+      "checksum": "029cdda3",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A009",
+      "episode": 4,
+      "line": 667,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "complains_of_heat",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L667",
+      "checksum": "4795efa8",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A010",
+      "episode": 4,
+      "line": 668,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "agrees_sweating",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L668",
+      "checksum": "f2660bf0",
+      "word_cues": [
+        {
+          "start": 28,
+          "end": 36,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A011",
+      "episode": 4,
+      "line": 669,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_permission_to_remove_shirt",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L669",
+      "checksum": "7625e388",
+      "word_cues": [
+        {
+          "start": 43,
+          "end": 48,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A012",
+      "episode": 4,
+      "line": 670,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "questions_request",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L670",
+      "checksum": "14742ac4",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A013",
+      "episode": 4,
+      "line": 671,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "explains_heat_and_distraction",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L671",
+      "checksum": "6cd9ce79",
+      "word_cues": [
+        {
+          "start": 22,
+          "end": 30,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A014",
+      "episode": 4,
+      "line": 672,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "allows_shirt_removal_given_vest",
+      "type": "permission",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L672",
+      "checksum": "b51a21a0",
+      "word_cues": [
+        {
+          "start": 12,
+          "end": 17,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 49,
+          "end": 52,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A015",
+      "episode": 4,
+      "line": 673,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "removes_shirt",
+      "type": "clothing_change",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L673",
+      "checksum": "3151e213",
+      "word_cues": [
+        {
+          "start": 140,
+          "end": 145,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 171,
+          "end": 175,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 207,
+          "end": 211,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 212,
+          "end": 215,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A016",
+      "episode": 4,
+      "line": 673,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "observes_bantu_physique",
+      "type": "gaze",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L673",
+      "checksum": "3151e213",
+      "word_cues": [
+        {
+          "start": 140,
+          "end": 145,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 171,
+          "end": 175,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 207,
+          "end": 211,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 212,
+          "end": 215,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A017",
+      "episode": 4,
+      "line": 673,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "shyly_redirects_attention",
+      "type": "mindset",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L673",
+      "checksum": "3151e213",
+      "word_cues": [
+        {
+          "start": 140,
+          "end": 145,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 171,
+          "end": 175,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 207,
+          "end": 211,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 212,
+          "end": 215,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A018",
+      "episode": 4,
+      "line": 674,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "asks_about_bobby_heat",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L674",
+      "checksum": "f1b9d1e7",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A019",
+      "episode": 4,
+      "line": 675,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "agrees_hot",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L675",
+      "checksum": "d7aeab38",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A020",
+      "episode": 4,
+      "line": 676,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "offers_bobby_shirt_removal",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L676",
+      "checksum": "14f99f5a",
+      "word_cues": [
+        {
+          "start": 37,
+          "end": 42,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A021",
+      "episode": 4,
+      "line": 677,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "declines_shirt_removal",
+      "type": "refusal",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L677",
+      "checksum": "634eddca",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A022",
+      "episode": 4,
+      "line": 678,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "resumes_class_and_sweats",
+      "type": "ordinary_activity",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L678",
+      "checksum": "8406b891",
+      "word_cues": [
+        {
+          "start": 80,
+          "end": 88,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 106,
+          "end": 113,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A023",
+      "episode": 4,
+      "line": 678,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "dupatta_clings_to_clothing",
+      "type": "clothing_state",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L678",
+      "checksum": "8406b891",
+      "word_cues": [
+        {
+          "start": 80,
+          "end": 88,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 106,
+          "end": 113,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A024",
+      "episode": 4,
+      "line": 679,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_to_speak_freely",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L679",
+      "checksum": "58a1745a",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A025",
+      "episode": 4,
+      "line": 680,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "reaffirms_openness_and_care",
+      "type": "relationship",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L680",
+      "checksum": "687c459e",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A026",
+      "episode": 4,
+      "line": 681,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "notices_dhika_discomfort",
+      "type": "observation",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L681",
+      "checksum": "bdd135fa",
+      "word_cues": [
+        {
+          "start": 55,
+          "end": 58,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A027",
+      "episode": 4,
+      "line": 682,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "asks_clarification",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L682",
+      "checksum": "4117a1a3",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A028",
+      "episode": 4,
+      "line": 683,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "comments_on_sweat",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L683",
+      "checksum": "9c8423b9",
+      "word_cues": [
+        {
+          "start": 27,
+          "end": 35,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A029",
+      "episode": 4,
+      "line": 684,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "notices_wet_dupatta",
+      "type": "clothing_observation",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L684",
+      "checksum": "84ad28e2",
+      "word_cues": [
+        {
+          "start": 6,
+          "end": 9,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 23,
+          "end": 30,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A030",
+      "episode": 4,
+      "line": 685,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "addresses_bobby_about_heat",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L685",
+      "checksum": "5b6fd785",
+      "word_cues": [
+        {
+          "start": 45,
+          "end": 49,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A031",
+      "episode": 4,
+      "line": 686,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "suggests_shirt_removal",
+      "type": "suggestion",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L686",
+      "checksum": "2b8a47e2",
+      "word_cues": [
+        {
+          "start": 50,
+          "end": 55,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A032",
+      "episode": 4,
+      "line": 687,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "pinches_bantu_thigh",
+      "type": "physical_contact",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L687",
+      "checksum": "0a895267",
+      "word_cues": [
+        {
+          "start": 35,
+          "end": 42,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 47,
+          "end": 53,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A033",
+      "episode": 4,
+      "line": 688,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "says_was_joking_and_requests_stop",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L688",
+      "checksum": "e13f4a61",
+      "word_cues": [
+        {
+          "start": 67,
+          "end": 73,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A034",
+      "episode": 4,
+      "line": 689,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "playful_rebuke",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L689",
+      "checksum": "5009b967",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A035",
+      "episode": 4,
+      "line": 690,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "suggests_dupatta_removal",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L690",
+      "checksum": "84fb7c92",
+      "word_cues": [
+        {
+          "start": 44,
+          "end": 47,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 75,
+          "end": 82,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A036",
+      "episode": 4,
+      "line": 691,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "refuses_due_to_shyness",
+      "type": "refusal",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L691",
+      "checksum": "7b41ab15",
+      "word_cues": [
+        {
+          "start": 28,
+          "end": 32,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 33,
+          "end": 36,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A037",
+      "episode": 4,
+      "line": 692,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_why",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L692",
+      "checksum": "c8e6496a",
+      "word_cues": [
+        {
+          "start": 28,
+          "end": 35,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A038",
+      "episode": 4,
+      "line": 693,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "states_tank_top_context",
+      "type": "clothing_state",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L693",
+      "checksum": "cc1989d1",
+      "word_cues": [
+        {
+          "start": 40,
+          "end": 44,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A039",
+      "episode": 4,
+      "line": 694,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "frames_removal_as_trust",
+      "type": "persuasion",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L694",
+      "checksum": "102aba2e",
+      "word_cues": [
+        {
+          "start": 43,
+          "end": 47,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 77,
+          "end": 81,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A040",
+      "episode": 4,
+      "line": 695,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "remembers_prior_exposures_and_trust",
+      "type": "memory",
+      "evidence": "internal",
+      "canonical_ref": "raw/Dhika.txt#L695",
+      "checksum": "4f0c40ac",
+      "word_cues": [
+        {
+          "start": 6,
+          "end": 11,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 86,
+          "end": 90,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A041",
+      "episode": 4,
+      "line": 696,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "removes_dupatta",
+      "type": "clothing_change",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L696",
+      "checksum": "cd348f49",
+      "word_cues": [
+        {
+          "start": 40,
+          "end": 47,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A042",
+      "episode": 4,
+      "line": 697,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "thanks",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L697",
+      "checksum": "739bce42",
+      "word_cues": [
+        {
+          "start": 7,
+          "end": 12,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A043",
+      "episode": 4,
+      "line": 698,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "asks_why_thanks",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L698",
+      "checksum": "b1e90c42",
+      "word_cues": [
+        {
+          "start": 15,
+          "end": 21,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A044",
+      "episode": 4,
+      "line": 699,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "thanks_for_comfort",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L699",
+      "checksum": "92c15f98",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A045",
+      "episode": 4,
+      "line": 700,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "smiles_shyly",
+      "type": "mindset",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L700",
+      "checksum": "2fb86b25",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A046",
+      "episode": 4,
+      "line": 701,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "looks_below_dhika_eye_line",
+      "type": "gaze",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L701",
+      "checksum": "534290fc",
+      "word_cues": [
+        {
+          "start": 69,
+          "end": 72,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 85,
+          "end": 92,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 103,
+          "end": 107,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 121,
+          "end": 127,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A047",
+      "episode": 4,
+      "line": 701,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "recognizes_bobby_gaze",
+      "type": "observation",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L701",
+      "checksum": "534290fc",
+      "word_cues": [
+        {
+          "start": 69,
+          "end": 72,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 85,
+          "end": 92,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 103,
+          "end": 107,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 121,
+          "end": 127,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A048",
+      "episode": 4,
+      "line": 702,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "asks_what_he_watches",
+      "type": "question",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L702",
+      "checksum": "a3fe26ba",
+      "word_cues": [
+        {
+          "start": 48,
+          "end": 55,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A049",
+      "episode": 4,
+      "line": 703,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "apologizes_and_fears_offense",
+      "type": "response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L703",
+      "checksum": "c7ff5ff8",
+      "word_cues": [
+        {
+          "start": 22,
+          "end": 27,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A050",
+      "episode": 4,
+      "line": 704,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "says_not_to_peek_so_much",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L704",
+      "checksum": "ffd05c3b",
+      "word_cues": [
+        {
+          "start": 94,
+          "end": 97,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A051",
+      "episode": 4,
+      "line": 704,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "clarifies_she_is_shy_not_angry",
+      "type": "mindset",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L704",
+      "checksum": "ffd05c3b",
+      "word_cues": [
+        {
+          "start": 94,
+          "end": 97,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A052",
+      "episode": 4,
+      "line": 705,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "notices_qualified_limit",
+      "type": "interpretation",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L705",
+      "checksum": "e5166cbb",
+      "word_cues": [
+        {
+          "start": 81,
+          "end": 85,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 86,
+          "end": 93,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A053",
+      "episode": 4,
+      "line": 705,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "forms_next_request_plan",
+      "type": "strategy",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L705",
+      "checksum": "e5166cbb",
+      "word_cues": [
+        {
+          "start": 81,
+          "end": 85,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 86,
+          "end": 93,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A054",
+      "episode": 4,
+      "line": 706,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "prepares_question",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L706",
+      "checksum": "7887ea51",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A055",
+      "episode": 4,
+      "line": 707,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "invites_question",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L707",
+      "checksum": "3e7bd3a1",
+      "word_cues": [
+        {
+          "start": 7,
+          "end": 13,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A056",
+      "episode": 4,
+      "line": 708,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "references_previous_saree_incident",
+      "type": "memory",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L708",
+      "checksum": "7cdda70b",
+      "word_cues": [
+        {
+          "start": 69,
+          "end": 74,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A057",
+      "episode": 4,
+      "line": 709,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "mixed_shyness_and_discomfort",
+      "type": "mindset",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L709",
+      "checksum": "ecfc868c",
+      "word_cues": [
+        {
+          "start": 15,
+          "end": 18,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A058",
+      "episode": 4,
+      "line": 710,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "praises_previous_outfit",
+      "type": "compliment",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L710",
+      "checksum": "cbde615a",
+      "word_cues": [
+        {
+          "start": 43,
+          "end": 50,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 71,
+          "end": 76,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A059",
+      "episode": 4,
+      "line": 711,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "relieved_response",
+      "type": "mindset",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L711",
+      "checksum": "2651e2b8",
+      "word_cues": [
+        {
+          "start": 61,
+          "end": 66,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A060",
+      "episode": 4,
+      "line": 712,
+      "pair": "TRIO",
+      "actor": "Bantu",
+      "action": "reports_bobby_compliment_after_prior_visit",
+      "type": "reported",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L712",
+      "checksum": "7bc68a6d",
+      "word_cues": [
+        {
+          "start": 58,
+          "end": 63,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 98,
+          "end": 104,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 126,
+          "end": 131,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A061",
+      "episode": 4,
+      "line": 713,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "seeks_bobby_confirmation",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L713",
+      "checksum": "8d2888f6",
+      "word_cues": [
+        {
+          "start": 65,
+          "end": 72,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 102,
+          "end": 106,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A062",
+      "episode": 4,
+      "line": 713,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "pinches_bobby_cheek",
+      "type": "physical_contact",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L713",
+      "checksum": "8d2888f6",
+      "word_cues": [
+        {
+          "start": 65,
+          "end": 72,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 102,
+          "end": 106,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A063",
+      "episode": 4,
+      "line": 713,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "gives_flying_kiss",
+      "type": "gesture_not_touch",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L713",
+      "checksum": "8d2888f6",
+      "word_cues": [
+        {
+          "start": 65,
+          "end": 72,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 102,
+          "end": 106,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A064",
+      "episode": 4,
+      "line": 714,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "requests_to_see_saree_again",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L714",
+      "checksum": "08e14f27",
+      "word_cues": [
+        {
+          "start": 26,
+          "end": 29,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 53,
+          "end": 58,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A065",
+      "episode": 4,
+      "line": 715,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "surprised_bobby_echoes_plan",
+      "type": "inner_state",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L715",
+      "checksum": "829aa9b3",
+      "word_cues": [
+        {
+          "start": 106,
+          "end": 111,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A066",
+      "episode": 4,
+      "line": 716,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "offers_next_week_saree",
+      "type": "future_schedule",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L716",
+      "checksum": "ce77f94a",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A067",
+      "episode": 4,
+      "line": 717,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "asks_for_immediate_outfit_change",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L717",
+      "checksum": "78a2f47d",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A068",
+      "episode": 4,
+      "line": 718,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "says_saree_in_laundry",
+      "type": "practical_barrier",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L718",
+      "checksum": "80f3f836",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A069",
+      "episode": 4,
+      "line": 719,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "interprets_barrier_as_not_refusal",
+      "type": "interpretation",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L719",
+      "checksum": "a64b5d19",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A070",
+      "episode": 4,
+      "line": 720,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "repeats_request_to_change_now",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L720",
+      "checksum": "816ce212",
+      "word_cues": [
+        {
+          "start": 85,
+          "end": 91,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 104,
+          "end": 110,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 114,
+          "end": 123,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A071",
+      "episode": 4,
+      "line": 721,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "agrees_to_change_clothes",
+      "type": "decision",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L721",
+      "checksum": "9f988161",
+      "word_cues": [
+        {
+          "start": 115,
+          "end": 120,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 125,
+          "end": 129,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 155,
+          "end": 158,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 163,
+          "end": 168,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 175,
+          "end": 181,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 195,
+          "end": 200,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 223,
+          "end": 229,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A072",
+      "episode": 4,
+      "line": 721,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "changes_into_saree_and_blouse",
+      "type": "clothing_change",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L721",
+      "checksum": "9f988161",
+      "word_cues": [
+        {
+          "start": 115,
+          "end": 120,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 125,
+          "end": 129,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 155,
+          "end": 158,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 163,
+          "end": 168,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 175,
+          "end": 181,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 195,
+          "end": 200,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 223,
+          "end": 229,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A073",
+      "episode": 4,
+      "line": 722,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "decides_against_petticoat",
+      "type": "clothing_decision",
+      "evidence": "internal",
+      "canonical_ref": "raw/Dhika.txt#L722",
+      "checksum": "ea84f1ca",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A074",
+      "episode": 4,
+      "line": 723,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "uses_waist_chain_to_secure_saree",
+      "type": "clothing_mechanics",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L723",
+      "checksum": "45b8622f",
+      "word_cues": [
+        {
+          "start": 24,
+          "end": 29,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 88,
+          "end": 91,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 211,
+          "end": 216,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 229,
+          "end": 234,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 257,
+          "end": 262,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 323,
+          "end": 329,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 347,
+          "end": 350,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 381,
+          "end": 387,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 397,
+          "end": 401,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A075",
+      "episode": 4,
+      "line": 724,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "says_blouse_damaged",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L724",
+      "checksum": "1970b5c4",
+      "word_cues": [
+        {
+          "start": 36,
+          "end": 42,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A076",
+      "episode": 4,
+      "line": 725,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_about_problem",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L725",
+      "checksum": "6e4b427e",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A077",
+      "episode": 4,
+      "line": 726,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "specifies_blouse_hooks_missing",
+      "type": "clothing_state",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L726",
+      "checksum": "8bbb8b57",
+      "word_cues": [
+        {
+          "start": 19,
+          "end": 25,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A078",
+      "episode": 4,
+      "line": 727,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "disappointed_response",
+      "type": "mindset",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L727",
+      "checksum": "efd47c7e",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A079",
+      "episode": 4,
+      "line": 728,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "returns_in_outfit_and_lipstick",
+      "type": "clothing_state",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L728",
+      "checksum": "5de77e69",
+      "word_cues": [
+        {
+          "start": 84,
+          "end": 89,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 94,
+          "end": 100,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A080",
+      "episode": 4,
+      "line": 729,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "twirls_and_asks_for_feedback",
+      "type": "gesture",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L729",
+      "checksum": "04c55a29",
+      "word_cues": [
+        {
+          "start": 16,
+          "end": 20,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A081",
+      "episode": 4,
+      "line": 730,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "compliments_and_asks_blouse_question",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L730",
+      "checksum": "2d6ab82e",
+      "word_cues": [
+        {
+          "start": 7,
+          "end": 14,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 57,
+          "end": 63,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A082",
+      "episode": 4,
+      "line": 731,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "declines_to_explain_fix",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L731",
+      "checksum": "2937f9a4",
+      "word_cues": [
+        {
+          "start": 42,
+          "end": 45,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 54,
+          "end": 59,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A083",
+      "episode": 4,
+      "line": 732,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "elaborate_compliment",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L732",
+      "checksum": "93e17d83",
+      "word_cues": [
+        {
+          "start": 15,
+          "end": 20,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A084",
+      "episode": 4,
+      "line": 733,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "flattered_response",
+      "type": "mindset",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L733",
+      "checksum": "5581a12e",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A085",
+      "episode": 4,
+      "line": 734,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "redirects_to_bobby",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L734",
+      "checksum": "74f83fc8",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A086",
+      "episode": 4,
+      "line": 735,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "observes_changed_outfit",
+      "type": "gaze",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L735",
+      "checksum": "0f2f4a46",
+      "word_cues": [
+        {
+          "start": 19,
+          "end": 23,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 77,
+          "end": 84,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 178,
+          "end": 186,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A087",
+      "episode": 4,
+      "line": 735,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "blushes_at_bobby_attention",
+      "type": "mindset",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L735",
+      "checksum": "0f2f4a46",
+      "word_cues": [
+        {
+          "start": 19,
+          "end": 23,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 77,
+          "end": 84,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 178,
+          "end": 186,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A088",
+      "episode": 4,
+      "line": 735,
+      "pair": "TRIO",
+      "actor": "Group",
+      "action": "resumes_studies",
+      "type": "ordinary_activity",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L735",
+      "checksum": "0f2f4a46",
+      "word_cues": [
+        {
+          "start": 19,
+          "end": 23,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 77,
+          "end": 84,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 178,
+          "end": 186,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A089",
+      "episode": 4,
+      "line": 736,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "notes_sweat_returns",
+      "type": "observation",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L736",
+      "checksum": "8833ac4a",
+      "word_cues": [
+        {
+          "start": 24,
+          "end": 32,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A090",
+      "episode": 4,
+      "line": 737,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "cannot_remove_top",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L737",
+      "checksum": "66f7b3bc",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A091",
+      "episode": 4,
+      "line": 738,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_why",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L738",
+      "checksum": "fa3ed965",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A092",
+      "episode": 4,
+      "line": 739,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "questions_sitting_without_pallu",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L739",
+      "checksum": "3fa9ea0c",
+      "word_cues": [
+        {
+          "start": 50,
+          "end": 55,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A093",
+      "episode": 4,
+      "line": 740,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "invokes_two_prior_exposures",
+      "type": "historical",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L740",
+      "checksum": "b923936f",
+      "word_cues": [
+        {
+          "start": 57,
+          "end": 62,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A094",
+      "episode": 4,
+      "line": 741,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "pinches_bantu_thigh",
+      "type": "physical_contact",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L741",
+      "checksum": "54a88992",
+      "word_cues": [
+        {
+          "start": 27,
+          "end": 34,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 39,
+          "end": 45,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A095",
+      "episode": 4,
+      "line": 742,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "pain_response",
+      "type": "response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L742",
+      "checksum": "79b33661",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A096",
+      "episode": 4,
+      "line": 743,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "questions_proposed_exposure",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L743",
+      "checksum": "f770bbb9",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A097",
+      "episode": 4,
+      "line": 744,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "notes_new_term_by_dhika",
+      "type": "observation",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L744",
+      "checksum": "76d1286e",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A098",
+      "episode": 4,
+      "line": 745,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "says_motivated_by_her_comfort",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L745",
+      "checksum": "41051057",
+      "word_cues": [
+        {
+          "start": 28,
+          "end": 32,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 76,
+          "end": 84,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 137,
+          "end": 142,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A099",
+      "episode": 4,
+      "line": 746,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "points_out_missing_blouse_hooks",
+      "type": "clothing_issue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L746",
+      "checksum": "7707efd0",
+      "word_cues": [
+        {
+          "start": 56,
+          "end": 62,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A100",
+      "episode": 4,
+      "line": 747,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "hopes_for_another_change",
+      "type": "inner_motive",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L747",
+      "checksum": "ef311217",
+      "word_cues": [
+        {
+          "start": 32,
+          "end": 35,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 44,
+          "end": 49,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A101",
+      "episode": 4,
+      "line": 748,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "frames_request_as_trust_comparison",
+      "type": "persuasion",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L748",
+      "checksum": "803c6938",
+      "word_cues": [
+        {
+          "start": 42,
+          "end": 47,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 58,
+          "end": 63,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 81,
+          "end": 86,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A102",
+      "episode": 4,
+      "line": 749,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "states_trust_and_checks_bobby",
+      "type": "trust",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L749",
+      "checksum": "0db4c423",
+      "word_cues": [
+        {
+          "start": 22,
+          "end": 28,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A103",
+      "episode": 4,
+      "line": 750,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "says_choose_what_feels_comfortable",
+      "type": "supportive_dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L750",
+      "checksum": "397f2aae",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A104",
+      "episode": 4,
+      "line": 751,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "pauses_then_removes_pallu",
+      "type": "clothing_change",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L751",
+      "checksum": "f3066e63",
+      "word_cues": [
+        {
+          "start": 140,
+          "end": 145,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 157,
+          "end": 162,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A105",
+      "episode": 4,
+      "line": 751,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "action": "twins_cannot_read_her_thoughts",
+      "type": "knowledge_gap",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L751",
+      "checksum": "f3066e63",
+      "word_cues": [
+        {
+          "start": 140,
+          "end": 145,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 157,
+          "end": 162,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A106",
+      "episode": 4,
+      "line": 752,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "reacts_to_new_visual_state",
+      "type": "gaze_and_response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L752",
+      "checksum": "8644e7aa",
+      "word_cues": [
+        {
+          "start": 29,
+          "end": 33,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 43,
+          "end": 47,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 64,
+          "end": 67,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 95,
+          "end": 99,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A107",
+      "episode": 4,
+      "line": 753,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "remarks_on_appearance",
+      "type": "compliment",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L753",
+      "checksum": "6f39dc72",
+      "word_cues": [
+        {
+          "start": 34,
+          "end": 38,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A108",
+      "episode": 4,
+      "line": 754,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "requests_twins_stop_staring",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L754",
+      "checksum": "22fa1ae3",
+      "word_cues": [
+        {
+          "start": 20,
+          "end": 23,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 39,
+          "end": 45,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 52,
+          "end": 56,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 95,
+          "end": 100,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 133,
+          "end": 138,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A109",
+      "episode": 4,
+      "line": 754,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "states_trust_motive_for_removal",
+      "type": "mindset",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L754",
+      "checksum": "22fa1ae3",
+      "word_cues": [
+        {
+          "start": 20,
+          "end": 23,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 39,
+          "end": 45,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 52,
+          "end": 56,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 95,
+          "end": 100,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 133,
+          "end": 138,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A110",
+      "episode": 4,
+      "line": 755,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "reaffirms_trust",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L755",
+      "checksum": "c2e5a8e5",
+      "word_cues": [
+        {
+          "start": 23,
+          "end": 28,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A111",
+      "episode": 4,
+      "line": 756,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "covers_chest_with_arms",
+      "type": "self_protective_action",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L756",
+      "checksum": "5d770c62",
+      "word_cues": [
+        {
+          "start": 27,
+          "end": 34,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 63,
+          "end": 68,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A112",
+      "episode": 4,
+      "line": 756,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "repeats_gaze_discomfort",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L756",
+      "checksum": "5d770c62",
+      "word_cues": [
+        {
+          "start": 27,
+          "end": 34,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 63,
+          "end": 68,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A113",
+      "episode": 4,
+      "line": 757,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "responds_playfully",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L757",
+      "checksum": "1c45b257",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A114",
+      "episode": 4,
+      "line": 758,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "pinches_bantu_hip",
+      "type": "physical_contact",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L758",
+      "checksum": "f9fac18c",
+      "word_cues": [
+        {
+          "start": 37,
+          "end": 41,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 46,
+          "end": 53,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A115",
+      "episode": 4,
+      "line": 759,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "stops_pinching_by_holding_hands",
+      "type": "physical_contact",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L759",
+      "checksum": "54499505",
+      "word_cues": [
+        {
+          "start": 95,
+          "end": 100,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 111,
+          "end": 119,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 171,
+          "end": 174,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 192,
+          "end": 197,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A116",
+      "episode": 4,
+      "line": 759,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "moves_her_hands_to_his_knee",
+      "type": "positioning",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L759",
+      "checksum": "54499505",
+      "word_cues": [
+        {
+          "start": 95,
+          "end": 100,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 111,
+          "end": 119,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 171,
+          "end": 174,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 192,
+          "end": 197,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A117",
+      "episode": 4,
+      "line": 760,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "states_intent_to_restore_pallu",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L760",
+      "checksum": "e00feffe",
+      "word_cues": [
+        {
+          "start": 24,
+          "end": 31,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 93,
+          "end": 98,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A118",
+      "episode": 4,
+      "line": 761,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "continues_holding_dhika_hands",
+      "type": "physical_contact",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L761",
+      "checksum": "d10ff3ae",
+      "word_cues": [
+        {
+          "start": 25,
+          "end": 30,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 51,
+          "end": 58,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 78,
+          "end": 82,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 83,
+          "end": 92,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 124,
+          "end": 131,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 140,
+          "end": 149,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A119",
+      "episode": 4,
+      "line": 761,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "rationalizes_observation",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L761",
+      "checksum": "d10ff3ae",
+      "word_cues": [
+        {
+          "start": 25,
+          "end": 30,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 51,
+          "end": 58,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 78,
+          "end": 82,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 83,
+          "end": 92,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 124,
+          "end": 131,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 140,
+          "end": 149,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A120",
+      "episode": 4,
+      "line": 762,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "disagrees_with_comparison",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L762",
+      "checksum": "d9578cb4",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A121",
+      "episode": 4,
+      "line": 763,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "compliments_body",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L763",
+      "checksum": "0fd3f016",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A122",
+      "episode": 4,
+      "line": 764,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "shy_and_excited_response",
+      "type": "mindset",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L764",
+      "checksum": "053fac2c",
+      "word_cues": [
+        {
+          "start": 6,
+          "end": 10,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 11,
+          "end": 14,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A123",
+      "episode": 4,
+      "line": 765,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "strokes_hand_while_complimenting",
+      "type": "physical_contact",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L765",
+      "checksum": "dca4f28e",
+      "word_cues": [
+        {
+          "start": 55,
+          "end": 60,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 70,
+          "end": 77,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 123,
+          "end": 128,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A124",
+      "episode": 4,
+      "line": 766,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "asks_him_not_to_speak_that_way",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L766",
+      "checksum": "e52c6beb",
+      "word_cues": [
+        {
+          "start": 22,
+          "end": 28,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 72,
+          "end": 75,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 103,
+          "end": 108,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A125",
+      "episode": 4,
+      "line": 766,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "likes_hand_contact_but_is_shy",
+      "type": "mixed_mindset",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L766",
+      "checksum": "e52c6beb",
+      "word_cues": [
+        {
+          "start": 22,
+          "end": 28,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 72,
+          "end": 75,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 103,
+          "end": 108,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A126",
+      "episode": 4,
+      "line": 767,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "suggests_talking_to_reduce_shyness",
+      "type": "persuasion",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L767",
+      "checksum": "51aca09b",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A127",
+      "episode": 4,
+      "line": 768,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "noncommittal_response",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L768",
+      "checksum": "894b3e7a",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A128",
+      "episode": 4,
+      "line": 769,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "interjects",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L769",
+      "checksum": "11bc8caf",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A129",
+      "episode": 4,
+      "line": 770,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "notices_bobby_still_staring",
+      "type": "gaze_awareness",
+      "evidence": "internal",
+      "canonical_ref": "raw/Dhika.txt#L770",
+      "checksum": "2e208180",
+      "word_cues": [
+        {
+          "start": 35,
+          "end": 39,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A130",
+      "episode": 4,
+      "line": 771,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "compliments_appearance",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L771",
+      "checksum": "666e77ce",
+      "word_cues": [
+        {
+          "start": 23,
+          "end": 30,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 41,
+          "end": 50,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A131",
+      "episode": 4,
+      "line": 772,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "thanks_while_shy",
+      "type": "response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L772",
+      "checksum": "679b330b",
+      "word_cues": [
+        {
+          "start": 15,
+          "end": 18,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 22,
+          "end": 27,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A132",
+      "episode": 4,
+      "line": 773,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "pulls_hanging_waist_chain",
+      "type": "object_contact",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L773",
+      "checksum": "8fa3efc3",
+      "word_cues": [
+        {
+          "start": 61,
+          "end": 66,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A133",
+      "episode": 4,
+      "line": 774,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "jerks_and_tells_not_to_pull",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L774",
+      "checksum": "99ed464a",
+      "word_cues": [
+        {
+          "start": 53,
+          "end": 58,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A134",
+      "episode": 4,
+      "line": 775,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "requests_to_see_chain",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L775",
+      "checksum": "eb5ad0ff",
+      "word_cues": [
+        {
+          "start": 20,
+          "end": 23,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 26,
+          "end": 31,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 35,
+          "end": 40,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 51,
+          "end": 54,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A135",
+      "episode": 4,
+      "line": 776,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "refuses_due_to_shyness",
+      "type": "refusal",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L776",
+      "checksum": "1fcb26e4",
+      "word_cues": [
+        {
+          "start": 20,
+          "end": 23,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A136",
+      "episode": 4,
+      "line": 777,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_why_chain_not_shown",
+      "type": "persuasion",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L777",
+      "checksum": "169b73de",
+      "word_cues": [
+        {
+          "start": 31,
+          "end": 36,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A137",
+      "episode": 4,
+      "line": 778,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "explains_saree_is_secured_by_chain",
+      "type": "clothing_context",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L778",
+      "checksum": "3b9cee95",
+      "word_cues": [
+        {
+          "start": 32,
+          "end": 37,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 47,
+          "end": 52,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A138",
+      "episode": 4,
+      "line": 779,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_to_remove_saree",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L779",
+      "checksum": "be6ee568",
+      "word_cues": [
+        {
+          "start": 29,
+          "end": 34,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 55,
+          "end": 61,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 62,
+          "end": 68,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 93,
+          "end": 98,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 99,
+          "end": 104,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A139",
+      "episode": 4,
+      "line": 780,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "motivation_related_to_exposure",
+      "type": "narrated_motive",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L780",
+      "checksum": "5f17c0eb",
+      "word_cues": [
+        {
+          "start": 88,
+          "end": 92,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 104,
+          "end": 109,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 138,
+          "end": 143,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A140",
+      "episode": 4,
+      "line": 781,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "declines_due_to_missing_petticoat",
+      "type": "refusal",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L781",
+      "checksum": "b1cc7066",
+      "word_cues": [
+        {
+          "start": 15,
+          "end": 18,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A141",
+      "episode": 4,
+      "line": 782,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "brief_response",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L782",
+      "checksum": "ff508c86",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A142",
+      "episode": 4,
+      "line": 783,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "offers_another_day_for_chain",
+      "type": "future_proposal",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L783",
+      "checksum": "02b68b97",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A143",
+      "episode": 4,
+      "line": 784,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "interprets_as_future_opportunity",
+      "type": "interpretation",
+      "evidence": "narrated",
+      "canonical_ref": "raw/Dhika.txt#L784",
+      "checksum": "df5c68c0",
+      "word_cues": [
+        {
+          "start": 6,
+          "end": 10,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A144",
+      "episode": 4,
+      "line": 785,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_permission_to_compliment",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L785",
+      "checksum": "a99de522",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A145",
+      "episode": 4,
+      "line": 786,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "agrees_without_full_context",
+      "type": "response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L786",
+      "checksum": "80f79497",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A146",
+      "episode": 4,
+      "line": 787,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "gives_intimate_compliment",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L787",
+      "checksum": "16dc1e90",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A147",
+      "episode": 4,
+      "line": 788,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "moves_to_pinch_him",
+      "type": "attempted_contact",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L788",
+      "checksum": "85af0672",
+      "word_cues": [
+        {
+          "start": 27,
+          "end": 32,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 52,
+          "end": 56,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A148",
+      "episode": 4,
+      "line": 789,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "tests_hurt_feelings_response",
+      "type": "persuasion",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L789",
+      "checksum": "a970c399",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A149",
+      "episode": 4,
+      "line": 790,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "says_not_hurt",
+      "type": "response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L790",
+      "checksum": "99df176c",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A150",
+      "episode": 4,
+      "line": 791,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "repeats_intimate_compliment",
+      "type": "speech",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L791",
+      "checksum": "c143a698",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A151",
+      "episode": 4,
+      "line": 792,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "blushes_and_thanks",
+      "type": "mindset",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L792",
+      "checksum": "78772411",
+      "word_cues": [
+        {
+          "start": 20,
+          "end": 25,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A152",
+      "episode": 4,
+      "line": 793,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "asks_private_anatomy_question",
+      "type": "question",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L793",
+      "checksum": "11ef501c",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A153",
+      "episode": 4,
+      "line": 794,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "questions_motive",
+      "type": "response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L794",
+      "checksum": "ecc9a55a",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A154",
+      "episode": 4,
+      "line": 795,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "says_curiosity_and_looks_down",
+      "type": "mindset",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L795",
+      "checksum": "251521b0",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A155",
+      "episode": 4,
+      "line": 796,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "tells_bobby_question_not_allowed",
+      "type": "boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L796",
+      "checksum": "dbb24f4f",
+      "word_cues": [
+        {
+          "start": 52,
+          "end": 55,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 58,
+          "end": 64,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A156",
+      "episode": 4,
+      "line": 797,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_private_historical_question",
+      "type": "question",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L797",
+      "checksum": "c555d280",
+      "word_cues": [
+        {
+          "start": 52,
+          "end": 56,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A157",
+      "episode": 4,
+      "line": 798,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "reports_spouse_only",
+      "type": "reported_history",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L798",
+      "checksum": "02d78bec",
+      "word_cues": [
+        {
+          "start": 20,
+          "end": 23,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A158",
+      "episode": 4,
+      "line": 799,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_follow_up",
+      "type": "question",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L799",
+      "checksum": "489ea6bb",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A159",
+      "episode": 4,
+      "line": 800,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "confirms_negative",
+      "type": "response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L800",
+      "checksum": "1aff01b3",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A160",
+      "episode": 4,
+      "line": 801,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_if_husband_only_witness",
+      "type": "question",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L801",
+      "checksum": "0c66913b",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A161",
+      "episode": 4,
+      "line": 802,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "replies_no_others",
+      "type": "response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L802",
+      "checksum": "9badd8d0",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A162",
+      "episode": 4,
+      "line": 803,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "claims_twins_first_visual",
+      "type": "incorrect_character_claim",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L803",
+      "checksum": "71ceac2c",
+      "word_cues": [
+        {
+          "start": 40,
+          "end": 43,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A163",
+      "episode": 4,
+      "line": 804,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "corrects_that_blouse_remains",
+      "type": "correction",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L804",
+      "checksum": "54c09742",
+      "word_cues": [
+        {
+          "start": 31,
+          "end": 37,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A164",
+      "episode": 4,
+      "line": 805,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "backtracks",
+      "type": "correction",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L805",
+      "checksum": "635f926c",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A165",
+      "episode": 4,
+      "line": 806,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "rebukes_naughty_questioning",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L806",
+      "checksum": "522c579c",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A166",
+      "episode": 4,
+      "line": 807,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "says_only_with_dhika",
+      "type": "self_report",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L807",
+      "checksum": "641dafe4",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A167",
+      "episode": 4,
+      "line": 808,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "playful_attempt_to_pinch",
+      "type": "attempted_contact",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L808",
+      "checksum": "7573facb",
+      "word_cues": [
+        {
+          "start": 34,
+          "end": 39,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 51,
+          "end": 57,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A168",
+      "episode": 4,
+      "line": 809,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_private_feeding_question",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L809",
+      "checksum": "fcc44738",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A169",
+      "episode": 4,
+      "line": 810,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "answers_matter_of_factly",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L810",
+      "checksum": "ffb3da1f",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A170",
+      "episode": 4,
+      "line": 811,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "refers_to_child",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L811",
+      "checksum": "94dd55ab",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A171",
+      "episode": 4,
+      "line": 812,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "asks_for_explanation",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L812",
+      "checksum": "91cf3a70",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A172",
+      "episode": 4,
+      "line": 813,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "makes_comparison",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L813",
+      "checksum": "53a4acb4",
+      "word_cues": [
+        {
+          "start": 14,
+          "end": 17,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A173",
+      "episode": 4,
+      "line": 814,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "misspeaks_about_kiss",
+      "type": "speech_error",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L814",
+      "checksum": "b29ecc5d",
+      "word_cues": [
+        {
+          "start": 44,
+          "end": 48,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A174",
+      "episode": 4,
+      "line": 815,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "requests_cheek_kiss",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L815",
+      "checksum": "9ddda0d4",
+      "word_cues": [
+        {
+          "start": 7,
+          "end": 11,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 37,
+          "end": 43,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A175",
+      "episode": 4,
+      "line": 816,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "corrects_intended_word_and_rejects",
+      "type": "correction",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L816",
+      "checksum": "087a5e18",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A176",
+      "episode": 4,
+      "line": 816,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "pushes_bantu_cheek_away",
+      "type": "physical_contact",
+      "evidence": "direct",
+      "canonical_ref": "raw/Dhika.txt#L816",
+      "checksum": "087a5e18",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A177",
+      "episode": 4,
+      "line": 817,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "thanks_for_trust",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L817",
+      "checksum": "5343e95d",
+      "word_cues": [
+        {
+          "start": 16,
+          "end": 21,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A178",
+      "episode": 4,
+      "line": 818,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "trust_with_secrecy_request",
+      "type": "privacy_boundary",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L818",
+      "checksum": "66bb2966",
+      "word_cues": [
+        {
+          "start": 9,
+          "end": 14,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 33,
+          "end": 39,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A179",
+      "episode": 4,
+      "line": 819,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "promises_discretion",
+      "type": "reassurance",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L819",
+      "checksum": "9f9b753e",
+      "word_cues": [
+        {
+          "start": 15,
+          "end": 21,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A180",
+      "episode": 4,
+      "line": 820,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "teases_bobby_shyness",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L820",
+      "checksum": "4a044bd6",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A181",
+      "episode": 4,
+      "line": 821,
+      "pair": "DY",
+      "actor": "Bobby",
+      "action": "promises_more_comfort_next_time",
+      "type": "future_statement",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L821",
+      "checksum": "e7efc0a5",
+      "word_cues": [
+        {
+          "start": 25,
+          "end": 32,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 71,
+          "end": 74,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A182",
+      "episode": 4,
+      "line": 822,
+      "pair": "DY",
+      "actor": "Dhika",
+      "action": "noncommittal_response",
+      "type": "response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L822",
+      "checksum": "0f56e6f7",
+      "word_cues": [
+        {
+          "start": 20,
+          "end": 23,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A183",
+      "episode": 4,
+      "line": 823,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "action": "ends_session_due_to_time",
+      "type": "session_end",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L823",
+      "checksum": "57b10ffc",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A184",
+      "episode": 4,
+      "line": 824,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_final_request",
+      "type": "request",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L824",
+      "checksum": "6dad7f3f",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A185",
+      "episode": 4,
+      "line": 825,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "invites_request",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L825",
+      "checksum": "7b916eab",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A186",
+      "episode": 4,
+      "line": 826,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_undergarment_presence",
+      "type": "privacy_question",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L826",
+      "checksum": "c6cb4afc",
+      "word_cues": [
+        {
+          "start": 39,
+          "end": 42,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A187",
+      "episode": 4,
+      "line": 827,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "answers_presence_with_reservation",
+      "type": "response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L827",
+      "checksum": "6590a870",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A188",
+      "episode": 4,
+      "line": 828,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "asks_color",
+      "type": "privacy_question",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L828",
+      "checksum": "c02c3279",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A189",
+      "episode": 4,
+      "line": 829,
+      "pair": "DB",
+      "actor": "Dhika",
+      "action": "answers_color",
+      "type": "response",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L829",
+      "checksum": "8145127a",
+      "word_cues": [],
+      "review_status": "source_line_checked_semantic_anchor"
+    },
+    {
+      "id": "E04-A190",
+      "episode": 4,
+      "line": 830,
+      "pair": "DB",
+      "actor": "Bantu",
+      "action": "expresses_reason_for_question",
+      "type": "dialogue",
+      "evidence": "spoken",
+      "canonical_ref": "raw/Dhika.txt#L830",
+      "checksum": "890a532c",
+      "word_cues": [
+        {
+          "start": 42,
+          "end": 46,
+          "status": "lexical_highlight_only"
+        },
+        {
+          "start": 50,
+          "end": 53,
+          "status": "lexical_highlight_only"
+        }
+      ],
+      "review_status": "source_line_checked_semantic_anchor"
+    }
+  ],
+  "untagged_focus_lines": [],
+  "review_status": "Granular source-anchored tagging with exact literal source accessible via canonical file; untagged dialogue/source lines reported explicitly. Future pass to verify semantic multi-action completeness.",
+  "warnings": [
+    "A spoken hypothetical about kissing is not an actual completed kiss.",
+    "Source statement that visual observation is first/topless is contradicted within dialogue by still wearing blouse.",
+    "Proposed removal is not completed when Dhika declines.",
+    "Trust and separate contact remain independent evidence."
+  ]
+}
