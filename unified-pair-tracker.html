@@ -2,14 +2,14 @@
 <html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dhika · Bantu · Bobby | Unified Source Tracker</title>
-<link rel="stylesheet" href="./unified-pair-tracker.css?v=2">
-<script src="./unified-pair-tracker.js?v=3" defer></script></head>
+<link rel="stylesheet" href="./unified-pair-tracker.css?v=4">
+<script src="./unified-pair-tracker.js?v=4" defer></script></head>
 <body>
 <header><a href="./index.html">← Story dashboard</a><a href="./chotu-tracker.html">Existing Chotu tracker</a><a href="./raw/Dhika.txt">Original source</a></header>
 <main>
 <p class="eyebrow">Independent source-linked history · E01–E68</p>
 <h1>Dhika, Bantu & Bobby</h1>
-<p class="lead">Separate pair encounters, the shared twins history, and Dhika–Bobby–Chotu group scenes. Exact original source is authoritative; unreviewed mentions are not completed events.</p>
+<p class="lead">Read each encounter as a story sequence: who met, what happened, the response, the next memory, and the source evidence. Same seven study matrices as the Chotu–Dhika tracker; source status stays explicit.</p>
 <p id="status" role="status">Loading canonical text and linked records…</p>
 <section class="summary" id="stats"></section>
 <div class="controls">
@@ -25,14 +25,16 @@
 <label>Search <input id="search" placeholder="Original words, line, action"></label>
 </div>
 <nav class="tabs">
-<button data-tab="history" aria-pressed="true">Source-linked history</button>
-<button data-tab="scenes" aria-pressed="false">Scene & time order</button>
-<button data-tab="states" aria-pressed="false">Relationship states</button>
-<button data-tab="body" aria-pressed="false">Body-part & visual history</button>
+<button data-tab="meetings" aria-pressed="true">Meetings & sequence</button>
+<button data-tab="bond" aria-pressed="false">Bond & memories</button>
+<button data-tab="physical" aria-pressed="false">Physical actions</button>
+<button data-tab="body" aria-pressed="false">Body-part history</button>
 <button data-tab="style" aria-pressed="false">Writing style & source</button>
-<button data-tab="coverage" aria-pressed="false">Episode QA coverage</button>
-<button data-tab="source" aria-pressed="false">Exact source lines</button>
-<button data-tab="lineqa" aria-pressed="false">E06–E07 source line QA</button>
+<button data-tab="states" aria-pressed="false">Cumulative state</button>
+<button data-tab="source" aria-pressed="false">Exact source</button>
+<button data-tab="history" aria-pressed="false">Source index</button>
+<button data-tab="coverage" aria-pressed="false">QA coverage</button>
+<button data-tab="lineqa" aria-pressed="false">E06–E07 source-line QA</button>
 <button data-tab="qa" aria-pressed="false">Audit G01–G18</button>
 </nav>
 <div class="row"><p id="info" class="hint"></p><button id="download" type="button">Export source index (JSON)</button></div>
