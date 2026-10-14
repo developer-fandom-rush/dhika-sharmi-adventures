@@ -1,0 +1,1107 @@
+{
+  "schema": "twins_e11_source_ledger_v1",
+  "episode": 11,
+  "source": "raw/Dhika.txt",
+  "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "source_range": [
+    2135,
+    2298
+  ],
+  "status": "NO_IN_PERSON_TWINS; PHONE_SCHEDULE_CONTACT",
+  "source_sections": [
+    {
+      "start": 2135,
+      "end": 2190,
+      "kind": "OTHER"
+    },
+    {
+      "start": 2191,
+      "end": 2191,
+      "kind": "TWIN_PHONE_AND_ABSENCE"
+    },
+    {
+      "start": 2192,
+      "end": 2197,
+      "kind": "OTHER"
+    },
+    {
+      "start": 2198,
+      "end": 2198,
+      "kind": "TWIN_ABSENCE_REFERENCE"
+    },
+    {
+      "start": 2199,
+      "end": 2298,
+      "kind": "OTHER"
+    }
+  ],
+  "events": [
+    {
+      "id": "E11-AT-001",
+      "episode": 11,
+      "line": 2191,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "notices_twins_absent_from_college",
+      "kind": "absence",
+      "source_ref": "raw/Dhika.txt#L2191",
+      "source_line_checksum_fnv1a": "c273b297",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E11-AT-002",
+      "episode": 11,
+      "line": 2191,
+      "actor": "Dhika",
+      "track": "TRIO",
+      "action": "calls_twins_for_schedule",
+      "kind": "remote_communication",
+      "source_ref": "raw/Dhika.txt#L2191",
+      "source_line_checksum_fnv1a": "c273b297",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E11-AT-003",
+      "episode": 11,
+      "line": 2191,
+      "actor": "Twins",
+      "track": "TRIO",
+      "action": "report_later_return_to_city",
+      "kind": "reported_speech",
+      "source_ref": "raw/Dhika.txt#L2191",
+      "source_line_checksum_fnv1a": "c273b297",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E11-AT-004",
+      "episode": 11,
+      "line": 2191,
+      "actor": "Twins",
+      "track": "TRIO",
+      "action": "ask_about_tomorrow_tuition",
+      "kind": "request",
+      "source_ref": "raw/Dhika.txt#L2191",
+      "source_line_checksum_fnv1a": "c273b297",
+      "review": "first_pass_non_graphic_source_linked"
+    },
+    {
+      "id": "E11-AT-005",
+      "episode": 11,
+      "line": 2198,
+      "actor": "Narrator",
+      "track": "TRIO",
+      "action": "reminds_that_twins_are_not_visiting",
+      "kind": "absence_reference",
+      "source_ref": "raw/Dhika.txt#L2198",
+      "source_line_checksum_fnv1a": "4d10d50c",
+      "review": "first_pass_non_graphic_source_linked"
+    }
+  ],
+  "line_index": [
+    {
+      "line": 2135,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "c00909bc",
+      "event_ids": []
+    },
+    {
+      "line": 2136,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "055cbebd",
+      "event_ids": []
+    },
+    {
+      "line": 2137,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": []
+    },
+    {
+      "line": 2138,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 2139,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "efcd20d2",
+      "event_ids": []
+    },
+    {
+      "line": 2140,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "c3e20813",
+      "event_ids": []
+    },
+    {
+      "line": 2141,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "90079dbe",
+      "event_ids": []
+    },
+    {
+      "line": 2142,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a3910eaa",
+      "event_ids": []
+    },
+    {
+      "line": 2143,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a136d883",
+      "event_ids": []
+    },
+    {
+      "line": 2144,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "36953f15",
+      "event_ids": []
+    },
+    {
+      "line": 2145,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "6e8e69e0",
+      "event_ids": []
+    },
+    {
+      "line": 2146,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "dc62d81d",
+      "event_ids": []
+    },
+    {
+      "line": 2147,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "170f8a1b",
+      "event_ids": []
+    },
+    {
+      "line": 2148,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "f763fc78",
+      "event_ids": []
+    },
+    {
+      "line": 2149,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "7190c139",
+      "event_ids": []
+    },
+    {
+      "line": 2150,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "2176a819",
+      "event_ids": []
+    },
+    {
+      "line": 2151,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "8b0e0b2c",
+      "event_ids": []
+    },
+    {
+      "line": 2152,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "c29c0de6",
+      "event_ids": []
+    },
+    {
+      "line": 2153,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "27114fc1",
+      "event_ids": []
+    },
+    {
+      "line": 2154,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "ab3329a8",
+      "event_ids": []
+    },
+    {
+      "line": 2155,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "3e3f503f",
+      "event_ids": []
+    },
+    {
+      "line": 2156,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "b174bd44",
+      "event_ids": []
+    },
+    {
+      "line": 2157,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "8b0f4b53",
+      "event_ids": []
+    },
+    {
+      "line": 2158,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "0c495810",
+      "event_ids": []
+    },
+    {
+      "line": 2159,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "c525330a",
+      "event_ids": []
+    },
+    {
+      "line": 2160,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "95819c42",
+      "event_ids": []
+    },
+    {
+      "line": 2161,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "d835d01d",
+      "event_ids": []
+    },
+    {
+      "line": 2162,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "c22d21ac",
+      "event_ids": []
+    },
+    {
+      "line": 2163,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "764d930f",
+      "event_ids": []
+    },
+    {
+      "line": 2164,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "14a4547e",
+      "event_ids": []
+    },
+    {
+      "line": 2165,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "4b1f430e",
+      "event_ids": []
+    },
+    {
+      "line": 2166,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a533c831",
+      "event_ids": []
+    },
+    {
+      "line": 2167,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "112780f6",
+      "event_ids": []
+    },
+    {
+      "line": 2168,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "d41c568d",
+      "event_ids": []
+    },
+    {
+      "line": 2169,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "b179f3f4",
+      "event_ids": []
+    },
+    {
+      "line": 2170,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "2b157631",
+      "event_ids": []
+    },
+    {
+      "line": 2171,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "f4270c5a",
+      "event_ids": []
+    },
+    {
+      "line": 2172,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "448dd5dc",
+      "event_ids": []
+    },
+    {
+      "line": 2173,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "970b7d8a",
+      "event_ids": []
+    },
+    {
+      "line": 2174,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "ea249d27",
+      "event_ids": []
+    },
+    {
+      "line": 2175,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "43f5b198",
+      "event_ids": []
+    },
+    {
+      "line": 2176,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "549f3111",
+      "event_ids": []
+    },
+    {
+      "line": 2177,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "fbe7fff9",
+      "event_ids": []
+    },
+    {
+      "line": 2178,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "9ecea018",
+      "event_ids": []
+    },
+    {
+      "line": 2179,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "c29ebb4c",
+      "event_ids": []
+    },
+    {
+      "line": 2180,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "e3d5499a",
+      "event_ids": []
+    },
+    {
+      "line": 2181,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a03a0744",
+      "event_ids": []
+    },
+    {
+      "line": 2182,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "b6d220b0",
+      "event_ids": []
+    },
+    {
+      "line": 2183,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "cb6d89a8",
+      "event_ids": []
+    },
+    {
+      "line": 2184,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "83153745",
+      "event_ids": []
+    },
+    {
+      "line": 2185,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "94019417",
+      "event_ids": []
+    },
+    {
+      "line": 2186,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "56bd71ea",
+      "event_ids": []
+    },
+    {
+      "line": 2187,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "14fdda84",
+      "event_ids": []
+    },
+    {
+      "line": 2188,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "7d4577de",
+      "event_ids": []
+    },
+    {
+      "line": 2189,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "6deb74a4",
+      "event_ids": []
+    },
+    {
+      "line": 2190,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "df51e329",
+      "event_ids": []
+    },
+    {
+      "line": 2191,
+      "disposition": "TWIN_PHONE_AND_ABSENCE",
+      "source_checksum_fnv1a": "c273b297",
+      "event_ids": [
+        "E11-AT-001",
+        "E11-AT-002",
+        "E11-AT-003",
+        "E11-AT-004"
+      ]
+    },
+    {
+      "line": 2192,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "4e253997",
+      "event_ids": []
+    },
+    {
+      "line": 2193,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "277419c0",
+      "event_ids": []
+    },
+    {
+      "line": 2194,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "f0d88213",
+      "event_ids": []
+    },
+    {
+      "line": 2195,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a53131d1",
+      "event_ids": []
+    },
+    {
+      "line": 2196,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "0f44dff6",
+      "event_ids": []
+    },
+    {
+      "line": 2197,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "5c338726",
+      "event_ids": []
+    },
+    {
+      "line": 2198,
+      "disposition": "TWIN_ABSENCE_REFERENCE",
+      "source_checksum_fnv1a": "4d10d50c",
+      "event_ids": [
+        "E11-AT-005"
+      ]
+    },
+    {
+      "line": 2199,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "3dfb815b",
+      "event_ids": []
+    },
+    {
+      "line": 2200,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a6d5a8ae",
+      "event_ids": []
+    },
+    {
+      "line": 2201,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "c536db45",
+      "event_ids": []
+    },
+    {
+      "line": 2202,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "e6dc5fcf",
+      "event_ids": []
+    },
+    {
+      "line": 2203,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "711ac70e",
+      "event_ids": []
+    },
+    {
+      "line": 2204,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "f261e28c",
+      "event_ids": []
+    },
+    {
+      "line": 2205,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "c5ad8598",
+      "event_ids": []
+    },
+    {
+      "line": 2206,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "f99dd9ad",
+      "event_ids": []
+    },
+    {
+      "line": 2207,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "5014829c",
+      "event_ids": []
+    },
+    {
+      "line": 2208,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "8be34b13",
+      "event_ids": []
+    },
+    {
+      "line": 2209,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "296fd2e3",
+      "event_ids": []
+    },
+    {
+      "line": 2210,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "e4aeac00",
+      "event_ids": []
+    },
+    {
+      "line": 2211,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "368471aa",
+      "event_ids": []
+    },
+    {
+      "line": 2212,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "c8aecf6f",
+      "event_ids": []
+    },
+    {
+      "line": 2213,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "48bb0a26",
+      "event_ids": []
+    },
+    {
+      "line": 2214,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "c58e474a",
+      "event_ids": []
+    },
+    {
+      "line": 2215,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a49db747",
+      "event_ids": []
+    },
+    {
+      "line": 2216,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "aefdb967",
+      "event_ids": []
+    },
+    {
+      "line": 2217,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "e933fd19",
+      "event_ids": []
+    },
+    {
+      "line": 2218,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "d371d1ed",
+      "event_ids": []
+    },
+    {
+      "line": 2219,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "342cafdb",
+      "event_ids": []
+    },
+    {
+      "line": 2220,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "3ee55d42",
+      "event_ids": []
+    },
+    {
+      "line": 2221,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "4341653f",
+      "event_ids": []
+    },
+    {
+      "line": 2222,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "595c8732",
+      "event_ids": []
+    },
+    {
+      "line": 2223,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "fa33f73b",
+      "event_ids": []
+    },
+    {
+      "line": 2224,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "48c1986b",
+      "event_ids": []
+    },
+    {
+      "line": 2225,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "ccfe8596",
+      "event_ids": []
+    },
+    {
+      "line": 2226,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "78998810",
+      "event_ids": []
+    },
+    {
+      "line": 2227,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "04e19188",
+      "event_ids": []
+    },
+    {
+      "line": 2228,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a74f03f7",
+      "event_ids": []
+    },
+    {
+      "line": 2229,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "f6210306",
+      "event_ids": []
+    },
+    {
+      "line": 2230,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "0c4eec33",
+      "event_ids": []
+    },
+    {
+      "line": 2231,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "cfda00f3",
+      "event_ids": []
+    },
+    {
+      "line": 2232,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a502453f",
+      "event_ids": []
+    },
+    {
+      "line": 2233,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "9a8c6cdc",
+      "event_ids": []
+    },
+    {
+      "line": 2234,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "e23853b7",
+      "event_ids": []
+    },
+    {
+      "line": 2235,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "76a44f8a",
+      "event_ids": []
+    },
+    {
+      "line": 2236,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "abd17c05",
+      "event_ids": []
+    },
+    {
+      "line": 2237,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "66c81b1d",
+      "event_ids": []
+    },
+    {
+      "line": 2238,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "ccd6c76d",
+      "event_ids": []
+    },
+    {
+      "line": 2239,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "60d38562",
+      "event_ids": []
+    },
+    {
+      "line": 2240,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a7203ca2",
+      "event_ids": []
+    },
+    {
+      "line": 2241,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "bbf9d57d",
+      "event_ids": []
+    },
+    {
+      "line": 2242,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "35863ff0",
+      "event_ids": []
+    },
+    {
+      "line": 2243,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "143e7ba4",
+      "event_ids": []
+    },
+    {
+      "line": 2244,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "cbc5cae9",
+      "event_ids": []
+    },
+    {
+      "line": 2245,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "4fc4c8c1",
+      "event_ids": []
+    },
+    {
+      "line": 2246,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "de021c4f",
+      "event_ids": []
+    },
+    {
+      "line": 2247,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a2df123d",
+      "event_ids": []
+    },
+    {
+      "line": 2248,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a105558e",
+      "event_ids": []
+    },
+    {
+      "line": 2249,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "1722312f",
+      "event_ids": []
+    },
+    {
+      "line": 2250,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "331507bc",
+      "event_ids": []
+    },
+    {
+      "line": 2251,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "9ed01c60",
+      "event_ids": []
+    },
+    {
+      "line": 2252,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "8502f823",
+      "event_ids": []
+    },
+    {
+      "line": 2253,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "3b4c81bf",
+      "event_ids": []
+    },
+    {
+      "line": 2254,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "9cdf3cd7",
+      "event_ids": []
+    },
+    {
+      "line": 2255,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "0425685f",
+      "event_ids": []
+    },
+    {
+      "line": 2256,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "b2bbd7e9",
+      "event_ids": []
+    },
+    {
+      "line": 2257,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "97174ba1",
+      "event_ids": []
+    },
+    {
+      "line": 2258,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "2b2ed103",
+      "event_ids": []
+    },
+    {
+      "line": 2259,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "06cd8d84",
+      "event_ids": []
+    },
+    {
+      "line": 2260,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "15c60c81",
+      "event_ids": []
+    },
+    {
+      "line": 2261,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "2891fb36",
+      "event_ids": []
+    },
+    {
+      "line": 2262,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "11e6f825",
+      "event_ids": []
+    },
+    {
+      "line": 2263,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "f6e6bae2",
+      "event_ids": []
+    },
+    {
+      "line": 2264,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "3537f03b",
+      "event_ids": []
+    },
+    {
+      "line": 2265,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "e26d9750",
+      "event_ids": []
+    },
+    {
+      "line": 2266,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "ed8d5c36",
+      "event_ids": []
+    },
+    {
+      "line": 2267,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a1f717e4",
+      "event_ids": []
+    },
+    {
+      "line": 2268,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "84ff6aa1",
+      "event_ids": []
+    },
+    {
+      "line": 2269,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "2077ce6a",
+      "event_ids": []
+    },
+    {
+      "line": 2270,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a1c87b72",
+      "event_ids": []
+    },
+    {
+      "line": 2271,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "4820a989",
+      "event_ids": []
+    },
+    {
+      "line": 2272,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "5d537941",
+      "event_ids": []
+    },
+    {
+      "line": 2273,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "ab51cbe4",
+      "event_ids": []
+    },
+    {
+      "line": 2274,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "fa05a040",
+      "event_ids": []
+    },
+    {
+      "line": 2275,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "75257db3",
+      "event_ids": []
+    },
+    {
+      "line": 2276,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "e581610c",
+      "event_ids": []
+    },
+    {
+      "line": 2277,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "9577ee86",
+      "event_ids": []
+    },
+    {
+      "line": 2278,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a1eb7783",
+      "event_ids": []
+    },
+    {
+      "line": 2279,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "c48dff52",
+      "event_ids": []
+    },
+    {
+      "line": 2280,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "2b39c64a",
+      "event_ids": []
+    },
+    {
+      "line": 2281,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "123aa85c",
+      "event_ids": []
+    },
+    {
+      "line": 2282,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "11d09a28",
+      "event_ids": []
+    },
+    {
+      "line": 2283,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "5527ec9e",
+      "event_ids": []
+    },
+    {
+      "line": 2284,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "734f464d",
+      "event_ids": []
+    },
+    {
+      "line": 2285,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "ee767148",
+      "event_ids": []
+    },
+    {
+      "line": 2286,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "dca37cb5",
+      "event_ids": []
+    },
+    {
+      "line": 2287,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "e8466e10",
+      "event_ids": []
+    },
+    {
+      "line": 2288,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "7e4c0309",
+      "event_ids": []
+    },
+    {
+      "line": 2289,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "824f8528",
+      "event_ids": []
+    },
+    {
+      "line": 2290,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "5499f8db",
+      "event_ids": []
+    },
+    {
+      "line": 2291,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "9cd3bfc0",
+      "event_ids": []
+    },
+    {
+      "line": 2292,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "93d28bf7",
+      "event_ids": []
+    },
+    {
+      "line": 2293,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "a1db5549",
+      "event_ids": []
+    },
+    {
+      "line": 2294,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "9609a236",
+      "event_ids": []
+    },
+    {
+      "line": 2295,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "fd6b4ba6",
+      "event_ids": []
+    },
+    {
+      "line": 2296,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 2297,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 2298,
+      "disposition": "OTHER",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": []
+    }
+  ],
+  "qa": {
+    "indexed_original_lines": 164,
+    "source_linked_tags": 5,
+    "unclassified_lines": 0,
+    "checksums_match": true,
+    "exhaustive_atomic_review": false
+  },
+  "interpretation_boundaries": [
+    "A name mention, memory or call does not establish in-person attendance.",
+    "Do not assign one twin's action or private knowledge to the other.",
+    "Stop requests, refusals and voluntary decisions are separate events.",
+    "E12 tuition encounter remains open into E13, then ends at L2476.",
+    "E13 after L2476 concerns another-character scene; references to twins are memories, not new meetings."
+  ]
+}
