@@ -1,0 +1,402 @@
+{
+  "schema": "twins_refinements_attribution_states_style_v1",
+  "source": "raw/Dhika.txt",
+  "scope": "E01-E07; first-pass source interpretation, not exhaustive QA",
+  "policy": {
+    "pair_specific": "A direct pair record must have a named actor/observer related to that pair.",
+    "group_context": "Group situations are flagged and do not prove individual touch or knowledge.",
+    "status": "Requests, thoughts, reports, visual observations, accidental visibility and contact remain separate.",
+    "ep8_68": "No completed meeting-by-meeting reading maps; current fragmentary work must not be represented as full completion."
+  },
+  "state_milestones": [
+    {
+      "track": "DB",
+      "episode": 1,
+      "title": "Initial pair state after shared ride",
+      "source": [
+        32,
+        108
+      ],
+      "established": [
+        "Bantu initiates frequent compliments and requests a ride",
+        "Dhika agrees to transport both twins",
+        "Bantu sits behind Bobby, with a disappointed reaction",
+        "Bantu sees Bobby looking during the walk but is not told the later details of Bobby's ride contact"
+      ],
+      "not_established": [
+        "Bantu did not perform Bobby's ride contact",
+        "Bobby's unshared details are not Bantu's knowledge"
+      ]
+    },
+    {
+      "track": "DY",
+      "episode": 1,
+      "title": "Bobby and Dhika after first ride",
+      "source": [
+        72,
+        108
+      ],
+      "established": [
+        "Bobby initially observes exposed skin at Dhika's hip while in the staff room (L81–82)",
+        "During the ride, Bobby holds Dhika around her waist/stomach rather than her expected shoulder support (L96–100)",
+        "Dhika notices continuing hand movement at the side of her hip and feels uncomfortable (L102–103)",
+        "Bobby keeps the specific ride details from Bantu (L108)"
+      ],
+      "not_established": [
+        "The practical balance invitation is not general permission for other physical actions",
+        "Bantu is not a direct participant in the Bobby-specific contact"
+      ]
+    },
+    {
+      "track": "DB",
+      "episode": 2,
+      "title": "Reaction after accidental home incident",
+      "source": [
+        309,
+        384
+      ],
+      "established": [
+        "The twins arrange extra physics tuition with Dhika",
+        "Both twins are present during an accidental clothing-drape slip (L352–355)",
+        "Bantu averts his gaze during the incident (L356)",
+        "Dhika withdraws, then returns, and Bantu concludes the visit rapidly (L356–363)",
+        "Dhika worries privately and speaks to John later; Bantu is absent for that talk"
+      ],
+      "not_established": [
+        "Bantu caused the clothing incident",
+        "The later conversation with John is a second encounter with Bantu"
+      ]
+    },
+    {
+      "track": "DY",
+      "episode": 2,
+      "title": "Reaction after accidental home incident",
+      "source": [
+        309,
+        384
+      ],
+      "established": [
+        "Bobby contributes to the tuition request and helps open the apartment door",
+        "The sari-drape slip is accidental and temporarily reveals part of Dhika's upper chest (L352–355)",
+        "Bobby is reported as continuing to look during the incident (L356)",
+        "When Dhika returns from the other room, Bobby has already left; his later thoughts are not established"
+      ],
+      "not_established": [
+        "Bobby is responsible for the clothing slip",
+        "Bobby heard Dhika's private worry or later talk with John"
+      ]
+    },
+    {
+      "track": "DB",
+      "episode": 5,
+      "title": "Bantu solo encounter added",
+      "source": [
+        885,
+        994
+      ],
+      "established": [
+        "Bantu and Dhika meet separately while she is shopping (L885–952)",
+        "The twins are later notified that a class will be skipped (L993–994)"
+      ],
+      "not_established": [
+        "Bobby was present during Bantu's separate shopping visit"
+      ]
+    },
+    {
+      "track": "DY",
+      "episode": 5,
+      "title": "Group farewell and later schedule note",
+      "source": [
+        839,
+        994
+      ],
+      "established": [
+        "The previous group visit's farewell continues into E05 (L839–854)",
+        "Bobby is later one of the twins responding to a cancelled class (L993–994)"
+      ],
+      "not_established": [
+        "Bobby attended Bantu's solo shopping encounter"
+      ]
+    },
+    {
+      "track": "DY",
+      "episode": 6,
+      "title": "Bobby solo study, shared painting and exit",
+      "source": [
+        1082,
+        1199
+      ],
+      "established": [
+        "Bobby arrives alone and requests physics preparation help (L1082–1097)",
+        "Dhika encourages him to talk and begins an informal study session (L1106–1138)",
+        "Chotu's arrival changes the scene to a three-person shared activity (L1139–1153)",
+        "During a fall, Bobby helps Dhika reach a chair and brings practical relief (L1179–1189)",
+        "Bobby receives a brief farewell hug and leaves (L1194–1199)"
+      ],
+      "not_established": [
+        "Bobby remains present in the subsequent Chotu-only scene",
+        "Actions Chotu performs are Bobby's actions",
+        "Private reflections elsewhere are known to Bobby"
+      ]
+    },
+    {
+      "track": "DB",
+      "episode": 6,
+      "title": "Bantu absent during Bobby visit",
+      "source": [
+        1082,
+        1199
+      ],
+      "established": [
+        "The narrative reports Bantu is away during Bobby's visit (L1088–1089)",
+        "Bobby thinks of later telling Bantu what happened; this is intention, not confirmation (L1198)"
+      ],
+      "not_established": [
+        "Bantu personally attends the Bobby/Chotu shared painting",
+        "Bantu already knows the details Bobby intends to tell him"
+      ]
+    },
+    {
+      "track": "DB",
+      "episode": 7,
+      "title": "Bantu solo visit ends; video call opens",
+      "source": [
+        1370,
+        1535
+      ],
+      "established": [
+        "Bantu visits alone to arrange lessons during travel (L1370–1384)",
+        "A series of requests, refusals and individual reactions occurs during the visit; later acceptance of a gift comes after multiple objections (L1412–1455)",
+        "Bantu leaves at the end of the Monday visit (L1494–1501)",
+        "Dhika remembers an earlier suggestion on Wednesday while alone (L1502–1508)",
+        "Both twins join the remote academic call; the session is unresolved at E07 end (L1509–1535)"
+      ],
+      "not_established": [
+        "Bobby was present at Monday's Bantu-only visit",
+        "A requested or imagined action automatically happened",
+        "The remote call ended during E07"
+      ]
+    },
+    {
+      "track": "DY",
+      "episode": 7,
+      "title": "Bobby attends remote lesson, not solo visit",
+      "source": [
+        1370,
+        1535
+      ],
+      "established": [
+        "Bobby is spoken about during Monday's Bantu-only visit; his presence is not established (L1375–1376, L1434–1435)",
+        "Bobby actively participates in the Wednesday video lesson, including an explanation of the science competition (L1512–1515)",
+        "Bobby confirms a question about the gifted chain during the remote call (L1521–1522)",
+        "The group call continues into E08 (L1535 and E08 L1544)"
+      ],
+      "not_established": [
+        "Bobby's reported private relationships can be certified from Bantu's claims alone",
+        "The online interaction is an in-person encounter",
+        "The session ends when E07 ends"
+      ]
+    }
+  ],
+  "writing_map": [
+    {
+      "episode": 1,
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "source": [
+        32,
+        44
+      ],
+      "title": "Opening: dialogue against narrator-established personalities",
+      "scene_frame": "Campus morning",
+      "narration": "Bantu's recurring greeting and Dhika's embarrassment are set against the narrator's explanation that the twins interact differently.",
+      "speech": "Bantu leads, Dhika replies, Bobby is present but not the initiator.",
+      "private_thought": "Dhika's earlier discomfort versus more recent expectation is narrated; it is not spoken to Bantu.",
+      "who_knows": "Reader knows her shift in attitude; Bantu's knowledge of that private change is not demonstrated.",
+      "sequence": "Arrival → compliment → response → twin-character baseline."
+    },
+    {
+      "episode": 1,
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "source": [
+        72,
+        108
+      ],
+      "title": "Ride: practical request versus undisclosed motive",
+      "scene_frame": "Staff room to shared ride",
+      "narration": "The outward request is separated from the narrator's account of what Bantu intended, then from Bobby's actions.",
+      "speech": "Ride request, seat arrangement and thanks are shared dialogue.",
+      "private_thought": "Bobby's private preferences and Bantu's disappointment are given separately.",
+      "who_knows": "A detail Bobby withholds from Bantu must not be inserted into Bantu's timeline as personal knowledge.",
+      "sequence": "Request → assent → seating → distinct observations/actions → goodbye and withheld information."
+    },
+    {
+      "episode": 2,
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "source": [
+        309,
+        339
+      ],
+      "title": "Academic conversation builds a new visit routine",
+      "scene_frame": "College staff room",
+      "narration": "Prior ride recollection precedes a new request; academic motivation and narrator-reported pretexts are differentiated.",
+      "speech": "Bantu introduces goal, Bobby contributes, Dhika agrees and specifies days and time.",
+      "private_thought": "Dhika considers her time commitments and trust in the students.",
+      "who_knows": "Her private schedule concerns are not automatically known to the twins.",
+      "sequence": "Greeting → E01 memory → request → clarification → permission → schedule."
+    },
+    {
+      "episode": 2,
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "source": [
+        340,
+        380
+      ],
+      "title": "Unexpected incident, diverging reactions and time-jump aftermath",
+      "scene_frame": "Home visit and later evening",
+      "narration": "A falling bag causes the sari drape to slip unexpectedly; the narrative tracks separate visible reactions and later worry.",
+      "speech": "The twins end the visit quickly, followed by a later conversation with John.",
+      "private_thought": "Dhika's worry about reputation and future meetings is her state, not a confirmed shared fear.",
+      "who_knows": "John learns from Dhika's later report; he is not present at the original home incident. Bobby and Bantu react differently.",
+      "sequence": "Travel → entry → accident → clothing restored → separate reactions → departure → private worry → third-party retelling."
+    },
+    {
+      "episode": 6,
+      "tracks": [
+        "DY",
+        "DBC"
+      ],
+      "source": [
+        1082,
+        1142
+      ],
+      "title": "One-on-one dialogue with a timed interruption",
+      "scene_frame": "Bobby visits without Bantu",
+      "narration": "The author juxtaposes Bobby's timid manner with his increased willingness to speak during a subject he enjoys.",
+      "speech": "Competition request, encouragement and study conversation move the scene.",
+      "private_thought": "Bobby's private reason for visiting and Dhika's intention to help him converse are separately narrated.",
+      "who_knows": "Neither party is explicitly told the other's complete private reasoning.",
+      "sequence": "Arrival → offer and request → study → uncomfortable pauses → Chotu's doorbell."
+    },
+    {
+      "episode": 6,
+      "tracks": [
+        "DY",
+        "DBC"
+      ],
+      "source": [
+        1143,
+        1199
+      ],
+      "title": "Group arrival requires attribution reset",
+      "scene_frame": "Bobby, Chotu and Dhika painting",
+      "narration": "The speaker and participant count change when Chotu arrives; practical help after an accident is allocated to the people who actually act.",
+      "speech": "Introductions, Bobby's request to stay and Dhika's consent precede painting.",
+      "private_thought": "Some reactions are narrated, not communicated to everyone in the room.",
+      "who_knows": "Bobby's actions must not inherit Chotu's later private events after he leaves.",
+      "sequence": "Introductions → permission → painting → accidental fall → separate assistance → Bobby exits."
+    },
+    {
+      "episode": 7,
+      "tracks": [
+        "DB"
+      ],
+      "source": [
+        1370,
+        1384
+      ],
+      "title": "Arrival and logistics: speech versus concealed motivation",
+      "scene_frame": "Monday home visit; Bobby absent",
+      "narration": "A routine travel notice turns into an online-tuition arrangement. A narrated motive about choosing video is not communicated as dialogue.",
+      "speech": "Bantu asks for remote lessons and Dhika offers a video option.",
+      "private_thought": "The narrator supplies Bantu's expectation about a webcam at L1382; Dhika cannot be assumed to know that thought.",
+      "who_knows": "Bobby is described as packing elsewhere, not participating in Monday's exchange.",
+      "sequence": "Unexpected solo arrival → trip explanation → lesson request → webcam suggestion → Wednesday agreement."
+    },
+    {
+      "episode": 7,
+      "tracks": [
+        "DB"
+      ],
+      "source": [
+        1385,
+        1443
+      ],
+      "title": "Back-and-forth pacing of questions and limits",
+      "scene_frame": "Monday home visit",
+      "narration": "Quick dialogue, hesitations, private reactions, and several responses are interleaved.",
+      "speech": "Requests and refusals are repeated; an initial hesitation is not the same as later completed action.",
+      "private_thought": "The reader gets Dhika's uncertainty and Bantu's reactions; their private states should not be merged.",
+      "who_knows": "Reported accounts of third parties in dialogue remain speaker claims, not independently established facts.",
+      "sequence": "Teasing → reactions → questions → requests and refusals → boundaries."
+    },
+    {
+      "episode": 7,
+      "tracks": [
+        "DB"
+      ],
+      "source": [
+        1444,
+        1466
+      ],
+      "title": "Gift negotiation: consent to object, not every later request",
+      "scene_frame": "Monday home visit",
+      "narration": "The scene turns from conversational teasing into an object-based interaction; the narration records reluctant acceptance.",
+      "speech": "Gift offer, teacher-role objection, reported explanation, renewed refusal, insistence, and eventual acceptance are individually observable beats.",
+      "private_thought": "Dhika's later speculation about Bobby at L1464 is a private hypothesis.",
+      "who_knows": "Bantu's account of his mother's role is his statement; it need not be treated as independently witnessed.",
+      "sequence": "Offer → objection → explanation → refusal → pressure → reluctant acceptance → further request."
+    },
+    {
+      "episode": 7,
+      "tracks": [
+        "DB"
+      ],
+      "source": [
+        1467,
+        1508
+      ],
+      "title": "End of solo visit followed by private callback",
+      "scene_frame": "Monday departure then Wednesday home preparation",
+      "narration": "The scene closes as Bantu leaves; Wednesday shifts to Dhika alone, recalling earlier advice.",
+      "speech": "Closing dialogue includes suggestions, responses, and a goodbye.",
+      "private_thought": "A previous remark reappears in Dhika's memory while she prepares; it is not a second meeting.",
+      "who_knows": "Bantu is not present when the private recollection occurs.",
+      "sequence": "Final exchange → departure → time jump → solitary recall → remote call begins."
+    },
+    {
+      "episode": 7,
+      "tracks": [
+        "DB",
+        "DY",
+        "TRIO"
+      ],
+      "source": [
+        1509,
+        1535
+      ],
+      "title": "Remote group scene: academic task → group response → open boundary",
+      "scene_frame": "Wednesday video call, both twins present remotely",
+      "narration": "Technical competition information and study discussion give way to short exchanges, group reactions, and a sudden unanswered question.",
+      "speech": "Bobby explains the competition, Bantu brings up the gift, Bobby confirms one comment, and Dhika addresses both.",
+      "private_thought": "Dhika's intention at L1525 is narrated; it is not necessarily the twins' understanding.",
+      "who_knows": "Each twin's spoken words belong to that speaker. The online meeting remains active at the E07/E08 transition.",
+      "sequence": "Greetings → Bobby academic explanation → study → shared conversation → group reaction → screen check; same encounter continues E08."
+    }
+  ]
+}
