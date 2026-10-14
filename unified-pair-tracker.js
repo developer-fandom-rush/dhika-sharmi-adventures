@@ -18,6 +18,7 @@ loc+"twins_e01_e05_gap_repairs_v1.json",
 loc+"twins_reader_e01_e07_v1.json",
 loc+"twins_refinements_attribution_states_style_v1.json",
 loc+"twins_e08_line_ledger_v1.json",
+loc+"twins_e09_line_ledger_v1.json",
 "./raw/Dhika.txt"];
 const trackNames={DB:"Dhika × Bantu",DY:"Dhika × Bobby",TRIO:"Dhika × Bantu × Bobby",DBC:"Dhika × Bobby × Chotu"};
 let canon=[],episodes=[],curated=[],scenes=[],windows=[],states=[],gaps=[],audit={},writingNotes=[],lineAudits=[],readerBeats=[],readerEncounters=[],readerRefinements={},filtered=[],shown=0,tab="meetings";
@@ -238,13 +239,13 @@ function coverageView(){
 function lineqaView(){
  const q=$("search").value.trim().toLowerCase();
  const data=lineAudits.filter(x=>isInScope(x.episode));
- if(!data.length){$("results").innerHTML='<article class="card">E01–E05: prior curated records exist; no line-complete second-pass QA certification yet.</article>';$("info").textContent="E06–E08 line audit only";$("more").hidden=true;return;}
+ if(!data.length){$("results").innerHTML='<article class="card">E01–E05: prior curated records exist; no line-complete second-pass QA certification yet.</article>';$("info").textContent="E06–E09 line audit only";$("more").hidden=true;return;}
  const out=[];for(const d of data)for(const x of d.line_index){
   const s=canon[x.line-1]||"";
   if(q&&!(s.toLowerCase().includes(q)||x.disposition.toLowerCase().includes(q)||String(x.line).includes(q)))continue;
   out.push('<div class="mini"><div class="row">'+link(x.line)+'<span class="muted">E'+d.episode+' · '+enc(x.disposition.replaceAll("_"," "))+'</span></div><div class="evidence">'+cue(s,$("search").value.trim())+'</div><p class="muted">First-pass event IDs: '+enc((x.event_ids||[]).join(", ")||"No pair event assigned")+'</p></div>');
  }
- $("results").innerHTML='<article class="card"><h2>E06–E08 source line audit</h2><p class="hint">All lines indexed, including context, blank and metadata lines. Semantic multi-action completeness not independently certified.</p>'+out.join("")+'</article>';
+ $("results").innerHTML='<article class="card"><h2>E06–E09 source line audit</h2><p class="hint">All lines indexed, including context, blank and metadata lines. Semantic multi-action completeness not independently certified.</p>'+out.join("")+'</article>';
  $("info").textContent=out.length+" original source line records";$("more").hidden=true;
 }
 function sourceView(){
@@ -323,7 +324,7 @@ function readerPhysical(){
  '<article class="card">No individually interpreted physical/visual beat mapped for this selection yet. This does not mean no action appears in source.</article>';
  const pair=$("pair").value;
  const kinds=/contact|observ|garment|clothing|posture|accident|care|help|boundary|request|refusal|reaction|movement|visual|nonverbal|motion/i;
- const relevantTags=curated.filter(r=>r.episode>=6&&r.episode<=8&&isInScope(r.episode)&&kinds.test(r.kind)&&searched(r,q)&&
+ const relevantTags=curated.filter(r=>r.episode>=6&&r.episode<=9&&isInScope(r.episode)&&kinds.test(r.kind)&&searched(r,q)&&
  (r.pair===pair||(pair==="DY"&&r.pair==="DBC"&&["Bobby","Dhika"].includes(r.actor))||
  ((pair==="DB"||pair==="DY")&&r.pair==="TRIO")));
  if(relevantTags.length){
@@ -334,9 +335,9 @@ function readerPhysical(){
    '<p class="hint">Actor: '+enc(r.actor)+' · Source tag: '+enc(r.kind)+' · '+(context?'Shared scene context; individual recipient must be checked':'Pair source tag')+'</p>'+
    '<details><summary>Exact source line</summary><div class="evidence">'+cue(canon[r.line-1]||"",q)+'</div></details></div>';
   });
-  $("results").innerHTML+='<article class="card"><h3>E06–E08 detailed action and observation ledger</h3><p class="hint">Actions, observations, requests and responses listed in original line order. These are first-pass tags and not all represent completed contact.</p>'+detail.join("")+'</article>';
+  $("results").innerHTML+='<article class="card"><h3>E06–E09 detailed action and observation ledger</h3><p class="hint">Actions, observations, requests and responses listed in original line order. These are first-pass tags and not all represent completed contact.</p>'+detail.join("")+'</article>';
  }
- $("info").textContent=bs.length+" narrative phases + "+relevantTags.length+" source-linked E06–E08 action tags";$("more").hidden=true;
+ $("info").textContent=bs.length+" narrative phases + "+relevantTags.length+" source-linked E06–E09 action tags";$("more").hidden=true;
 }
 function readerBody(){
  const q=$("search").value.trim().toLowerCase();
@@ -351,11 +352,11 @@ function readerBody(){
  $("info").textContent=entries.length+" first-pass body/clothing/visual history entries";$("more").hidden=true;
 }
 function readerCumulative(){
- const p=$("pair").value,last=$("episode").value==="all"?8:Math.min(8,+$("episode").value);
+ const p=$("pair").value,last=$("episode").value==="all"?9:Math.min(9,+$("episode").value);
  const m=(readerRefinements.state_milestones||[]).filter(x=>x.track===p&&x.episode<=last);
  const checkpoint=m.map(x=>'<section class="reader-state-stage"><h3>E'+x.episode+' · '+enc(x.title)+'</h3><p>'+link(x.source[0])+'</p><p><b>Established by this point</b></p><ul>'+x.established.map(s=>'<li>'+enc(s)+'</li>').join("")+'</ul><details><summary>Not established</summary><ul>'+x.not_established.map(s=>'<li>'+enc(s)+'</li>').join("")+'</ul></details></section>').join("");
  const prefix='<article class="card"><h2>Resulting state — evidence checkpoints</h2><p class="hint">Cumulative history, not just the latest isolated event. Each checkpoint distinguishes established observations from unproved assumptions.</p>'+checkpoint+'</article>';
- const later=$("episode").value==="all"||+$("episode").value>8?'<p class="reader-notice">E09–E68 are not fully mapped. This view stops at the latest indexed E08 state and does not claim a current E68 outcome.</p>':"";
+ const later=$("episode").value==="all"||+$("episode").value>9?'<p class="reader-notice">E10–E68 are not fully mapped. This view stops at the latest indexed E09 state and does not claim a current E68 outcome.</p>':"";
  const names={familiarity:"Familiarity & everyday access",communication:"Communication and openness",emotional_reaction:"Reactions and hesitations",trust:"Trust and practical permissions",access:"Access / visit arrangements",separate_knowledge:"What each person knows",character_knowledge:"Source versus character knowledge",visual_milestone:"Accidental visual milestones",boundaries:"Requests and boundaries",boundary_response:"Boundary responses",physical_history:"Documented contact / physical history",memory:"Recalls and references",uncertainty:"Uncertainty and unshared information",role:"Teacher/student role",solo_access:"Solo visits",continuity:"Continuity across encounters",repair:"Reassurance / repair",openness:"Willingness to talk",care:"Practical care",study:"Study activity",co_presence:"Group scene presence"};
  const bs=readerBeats.filter(b=>b.episode<=last&&(b.tracks||[]).includes(p)).sort((a,b)=>a.episode-b.episode||a.source[0]-b.source[0]);
  const keys=[...new Set(bs.flatMap(b=>b.state_fields||[]))],rows=keys.map(key=>{
@@ -369,7 +370,7 @@ function readerCumulative(){
 }
 function readerExact(){
  const value=$("episode").value;
- if(value==="all"||+value>8){sourceView();return;}
+ if(value==="all"||+value>9){sourceView();return;}
  const ep=episodes.find(e=>e.id===+value);
  if(!ep)return;
  const q=$("search").value.trim().toLowerCase();
@@ -420,7 +421,7 @@ function downloadSelection(){
   const epIndex=[1,2,2,3,3,4,5,5,5,5];
   curated=data.slice(1,11).flatMap((d,i)=>normalize(d,epIndex[i],i)).map(r=>({...r,recordType:"action"}));
   curated.push(...data[13].records.filter(a=>a.episode!==6).map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.pair,actor:a.actor,recipient:a.recipient,action:a.action,kind:a.type,source_kind:a.source_kind,recordType:"action",file:loadPaths[13],raw:a,review:a.review,status:"fragment_only"})));
-  lineAudits=[data[14],data[15],data[19]];
+  lineAudits=[data[14],data[15],data[19],data[20]];
   readerBeats=data[17].beats;readerEncounters=data[17].encounters;readerRefinements=data[18];
   curated.push(...data[16].records.map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.track,actor:a.actor,recipient:"",action:a.action,kind:a.kind,source_kind:"source_linked_first_pass",recordType:"action",file:loadPaths[16],raw:a,review:a.review,status:a.outcome})));
   for(let i=14;i<=15;i++){
@@ -435,6 +436,14 @@ function downloadSelection(){
     recipient:"",action:a.action,kind:a.kind,source_kind:"source_linked_first_pass",
     recordType:"action",file:loadPaths[19],raw:a,review:a.review,status:a.outcome
   })));
+  curated.push(...data[20].events.filter(a=>a.track==="DY").map(a=>({
+    id:a.id,episode:a.episode,line:a.line,pair:a.track,actor:a.actor,recipient:a.recipient,
+    action:a.action,kind:a.kind,source_kind:"source_linked_first_pass",recordType:"action",
+    file:loadPaths[20],raw:a,review:a.review,status:a.outcome
+  })));
+  scenes.push(
+    {id:"E09-BOBBY-SKYPE-END",episode:9,start:1762,end:1787,track:"DY",participants:["Dhika","Bobby"],absent:["Bantu"],roles:"Continuation of E08 Bobby Skype; same remote call ends here. No new meeting starts in E09.",kind:"bobby_remote_skype_e08_continuation_closes",recordType:"scene",source_kind:"SOURCE_LINKED_FIRST_PASS_SCENE"}
+  );
   scenes.push(
     {id:"E08-REMOTE-END",episode:8,start:1544,end:1553,track:"TRIO",participants:["Dhika","Bantu","Bobby"],roles:"Closure of E07 group video call; not an additional meeting",kind:"continuation_group_call_closes",recordType:"scene",source_kind:"SOURCE_LINKED_FIRST_PASS_SCENE"},
     {id:"E08-BANTU-VISIT",episode:8,start:1566,end:1686,track:"DB",participants:["Dhika","Bantu"],absent:["Bobby"],roles:"New same-day solo visit following closed E07 group call",kind:"new_bantu_repair_visit_and_assistance",recordType:"scene",source_kind:"SOURCE_LINKED_FIRST_PASS_SCENE"},
@@ -452,7 +461,7 @@ function downloadSelection(){
   $("stats").innerHTML=[
    [68,"Episodes in source · not certified"],[curated.length,"Source tags · first pass"],[scenes.length,"Scene anchors · incomplete"],[windows.length,"Unreviewed name windows"]
   ].map(a=>'<div><strong>'+a[0]+'</strong><small>'+a[1]+'</small></div>').join("");
-  $("status").textContent="Reading view for E01–E08: 56 source-linked narrative phases across 21 scenes and context groups. Original lines remain available. This is a first-pass reading map, not a claim of exhaustive certification.";
+  $("status").textContent="Reading view for E01–E09: 61 source-linked narrative phases across 23 encounter/context groups. Original lines remain available. This is a first-pass reading map, not a claim of exhaustive certification.";
   for(const id of ["pair","episode","scope","kind","search"])$(id).addEventListener(id==="search"?"input":"change",render);
   for(const b of document.querySelectorAll("[data-tab]"))b.onclick=()=>{tab=b.dataset.tab;render()};
   $("previous").onclick=()=>{const n=$("episode").value==="all"?1:+$("episode").value;$("episode").value=Math.max(1,n-1);render();};
