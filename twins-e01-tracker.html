@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DHIKA Twins · Episode 1 Evidence Tracker</title>
+<style>
+:root{--bg:#0d1627;--panel:#18273e;--border:#344760;--text:#edf5fc;--muted:#b5c7d7;--accent:#8ce0c7}
+*{box-sizing:border-box}body{font:15px/1.55 system-ui,-apple-system,sans-serif;background:radial-gradient(circle at 100% 0%,#26435c,transparent 38%),var(--bg);color:var(--text);margin:0}
+main{max-width:1190px;margin:auto;padding:30px 20px 90px}a{color:var(--accent)}h1{font-size:clamp(31px,4.5vw,49px);margin:8px 0 10px;letter-spacing:-.04em;line-height:1.13}h2{font-size:23px;margin:18px 0 10px}
+.small{font-size:12px;color:var(--muted)}.muted{color:var(--muted)}.eyebrow{font-size:12px;color:var(--accent);font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.panel,.record{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:15px;margin:11px 0}
+.nav,.tools{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin:14px 0}.nav button.active{background:var(--accent);color:#102b28;font-weight:800}
+button,input,select{font:inherit;padding:9px 12px;color:var(--text);background:#20354f;border:1px solid #4c6077;border-radius:9px}button{cursor:pointer}button:hover{border-color:var(--accent)}
+label{display:flex;gap:5px;flex-direction:column;font-size:12px;color:var(--muted)}.tag{display:inline-block;background:#2d465c;color:#e1f3f6;padding:3px 7px;margin-right:5px;border-radius:6px;font-size:11px}
+.content{display:none}.content.active{display:block}.record h3{margin:8px 0 5px;font-size:17px}.record .proof{font:13px/1.72 ui-monospace,Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;background:#0e1d30;border-left:3px solid var(--accent);padding:12px;border-radius:4px}
+mark{background:#b18a356e;color:#fff;border-radius:2px;padding:0 1px}mark.anchor{background:#24aa8583;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.rule{border-left:3px solid #c4b06c;background:#534c2438;padding:13px}
+footer{margin-top:35px;color:var(--muted);font-size:12px}
+@media(max-width:720px){.grid{grid-template-columns:1fr}label{width:100%}main{padding:20px 13px 65px}}
+</style></head><body><main>
+<div class="eyebrow">Original source / Character specific / Episode 1</div>
+<h1>Dhika · Bantu · Bobby</h1>
+<p class="muted">An auditable starting point for twins' relationship history: morning campus encounter → afternoon conversation → transport request → seating and physical contact → after-effects. No inferred future action is mixed into this episode.</p>
+<p><a href="./raw/Dhika.txt" target="_blank" rel="noopener">Original full story ↗</a> · <a href="./data/twins_e01_source_actions_v1.json">Raw reference JSON ↗</a> · <a href="./e65-source-review.html">Later E65 evidence</a></p>
+<div class="panel"><div class="eyebrow">What is and isn't claimed</div><p>This page stores <strong>separate action and reaction records</strong>, including multiple records per source line. The exact author text is retrieved from the unchanged <code>raw/Dhika.txt</code> and highlighted using recorded character offsets. A gaze is not touch, a wish is not a completed action, and Dhika's interpretation is not Bobby's stated intent.</p><div id="metrics" class="small">Loading source evidence…</div></div>
+<div class="nav"><button data-tab="events" class="active">Atomic action history</button><button data-tab="scenes">Encounter sequence</button><button data-tab="states">Relationship baseline & unresolved</button><button data-tab="evidence">Source & export</button></div>
+<section class="content active" id="events"><h2>Every indexed twin-related action</h2>
+<div class="tools">
+<label>Pair<select id="pair"><option value="all">All twin tracks</option><option value="DB">Dhika–Bantu</option><option value="DY">Dhika–Bobby</option><option value="TRIO">All three / twin-to-twin</option><option value="UNKNOWN">Evidence attribution issue</option></select></label>
+<label>Type<select id="kind"><option value="all">All types</option></select></label>
+<label>Source scene<select id="scene"><option value="all">All source scenes</option></select></label>
+<label>Find source words, action, or line<input id="search" placeholder="hip, compliments, shyness, 102"></label>
+</div><div class="tools"><button id="reset">Reset filters</button><button id="export" class="primary">Export filtered JSON</button><span class="small" id="counter"></span></div><div id="records"></div><button id="more">Show next 20 records</button></section>
+<section class="content" id="scenes"><h2>Encounter sequence</h2><p class="muted">Headings are navigation only. Click any scene to inspect its underlying individual records and original lines.</p><div id="sceneCards"></div></section>
+<section class="content" id="states"><h2>As-of-E01 relationship baseline</h2><div id="baseline"></div><div class="rule">Future progress must be compared against the full source history. Changes in embarrassment or hesitation are not forbidden; later moods need their own on-page causes. Nothing here assumes E68 emotions already existed in E01.</div></section>
+<section class="content" id="evidence"><h2>Exact wording and source integrity</h2><div class="panel"><p>The JSON stores canonical <strong>line + zero-based UTF-16 start/end</strong> for every selected phrase. It does not duplicate full novel prose. This viewer fetches the original line, highlights the exact wording, and cross-checks an individual line checksum.</p><p><strong>Original chapter:</strong> <a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L3">E01 starts at global L3</a>; E02 starts at L231.</p><div id="warnings"></div><button id="exportall">Export all E01 source-pointer records</button></div></section>
+<footer>This is an E01-specific, non-overwriting tracker. It does not alter the master raw text, E64/E65 pages, or earlier continuity analysis.</footer>
+<script src="./twins-e01-tracker.js"></script>
+</main></body></html>
