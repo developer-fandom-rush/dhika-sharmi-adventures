@@ -329,6 +329,10 @@ function readerBody(){
 }
 function readerCumulative(){
  const p=$("pair").value,last=$("episode").value==="all"?7:Math.min(7,+$("episode").value);
+ const m=(readerRefinements.state_milestones||[]).filter(x=>x.track===p&&x.episode<=last);
+ const checkpoint=m.map(x=>'<section class="reader-state-stage"><h3>E'+x.episode+' · '+enc(x.title)+'</h3><p>'+link(x.source[0])+'</p><p><b>Established by this point</b></p><ul>'+x.established.map(s=>'<li>'+enc(s)+'</li>').join("")+'</ul><details><summary>Not established</summary><ul>'+x.not_established.map(s=>'<li>'+enc(s)+'</li>').join("")+'</ul></details></section>').join("");
+ const prefix='<article class="card"><h2>Resulting state — evidence checkpoints</h2><p class="hint">Cumulative history, not just the latest isolated event. Each checkpoint distinguishes established observations from unproved assumptions.</p>'+checkpoint+'</article>';
+ const later=$("episode").value==="all"||+$("episode").value>7?'<p class="reader-notice">E08–E68 are not fully mapped. This view stops at the latest indexed E07 state and does not claim a current E68 outcome.</p>':"";
  const names={familiarity:"Familiarity & everyday access",communication:"Communication and openness",emotional_reaction:"Reactions and hesitations",trust:"Trust and practical permissions",access:"Access / visit arrangements",separate_knowledge:"What each person knows",character_knowledge:"Source versus character knowledge",visual_milestone:"Accidental visual milestones",boundaries:"Requests and boundaries",boundary_response:"Boundary responses",physical_history:"Documented contact / physical history",memory:"Recalls and references",uncertainty:"Uncertainty and unshared information",role:"Teacher/student role",solo_access:"Solo visits",continuity:"Continuity across encounters",repair:"Reassurance / repair",openness:"Willingness to talk",care:"Practical care",study:"Study activity",co_presence:"Group scene presence"};
  const bs=readerBeats.filter(b=>b.episode<=last&&(b.tracks||[]).includes(p)).sort((a,b)=>a.episode-b.episode||a.source[0]-b.source[0]);
  const keys=[...new Set(bs.flatMap(b=>b.state_fields||[]))],rows=keys.map(key=>{
@@ -337,6 +341,7 @@ function readerCumulative(){
   '<td><details><summary>'+found.length+' source-linked stages</summary>'+found.map(b=>'<p><strong>E'+b.episode+'</strong> · '+enc(b.title)+' · '+link(b.source[0])+'</p>').join("")+'</details></td></tr>';
  });
  $("results").innerHTML='<article class="card"><h2>Cumulative relationship state through E'+String(last).padStart(2,"0")+'</h2><p class="hint">Source-linked latest state for each dimension, not a numeric relationship score. This deliberately includes earlier E01–E'+last+' even when you select a single episode.</p><div class="table-wrap"><table class="reader-state-table"><thead><tr><th>Area</th><th>Latest source-backed reading</th><th>Earlier stages</th></tr></thead><tbody>'+rows.join("")+'</tbody></table></div></article>';
+ $("results").innerHTML=prefix+later+$("results").innerHTML;
  $("info").textContent=keys.length+" cumulative relationship categories through Episode "+last;$("more").hidden=true;
 }
 function readerExact(){
