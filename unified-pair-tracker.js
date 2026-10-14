@@ -202,7 +202,7 @@ function bodyView(){
 function styleView(){
  const p=$("pair").value,query=$("search").value.trim().toLowerCase();
  const notes=writingNotes.filter(w=>isInScope(w.episode)&&
-   (w.track===p||scenes.some(s=>s.id===w.anchor_id&&relevant(s,p)))&&
+   (w.track===p||(w.track==="TRIO"&&(p==="DB"||p==="DY"))||scenes.some(s=>s.id===w.anchor_id&&relevant(s,p)))&&
    (!query||JSON.stringify(w).toLowerCase().includes(query)||searched({id:w.id,action:w.observation,actor:"",kind:"writing",episode:w.episode,start:w.start,end:w.end},query)));
  $("results").innerHTML=notes.map(w=>'<article class="card"><span class="badge source">E'+String(w.episode).padStart(2,"0")+'</span><h3>'+enc(w.scope)+'</h3><p>'+enc(w.observation)+'</p><p class="hint">'+enc(w.status.replaceAll("_"," "))+' · Source '+w.start+'–'+w.end+'</p><details><summary>View original scene evidence</summary>'+getLines(w.start,w.end,$("search").value.trim(),0)+'</details></article>').join("")||
  '<article class="card">No separately source-linked writing mechanism note for this track / episode. Do not extrapolate style from incomplete action data.</article>';
@@ -410,11 +410,13 @@ function downloadSelection(){
   for(let i=1;i<=68;i++){$("episode").insertAdjacentHTML("beforeend",'<option value="'+i+'">Episode '+String(i).padStart(2,"0")+'</option>')}
   $("episode").value="1";
   $("stats").innerHTML=[
-   [68,"Episode slots scanned"],[curated.length,"Indexed action tags"],[scenes.length,"Verified scene anchors"],[windows.length,"Unreviewed discovery windows"]
+   [68,"Episodes in source · not certified"],[curated.length,"Source tags · first pass"],[scenes.length,"Scene anchors · incomplete"],[windows.length,"Unreviewed name windows"]
   ].map(a=>'<div><strong>'+a[0]+'</strong><small>'+a[1]+'</small></div>').join("");
   $("status").textContent="Reading view for E01–E07: 42 source-linked narrative phases across 16 scenes and memory groups. Original lines remain available. This is a first-pass reading map, not a claim of exhaustive certification.";
   for(const id of ["pair","episode","scope","kind","search"])$(id).addEventListener(id==="search"?"input":"change",render);
   for(const b of document.querySelectorAll("[data-tab]"))b.onclick=()=>{tab=b.dataset.tab;render()};
+  $("previous").onclick=()=>{const n=$("episode").value==="all"?1:+$("episode").value;$("episode").value=Math.max(1,n-1);render();};
+  $("next").onclick=()=>{const n=$("episode").value==="all"?0:+$("episode").value;$("episode").value=Math.min(68,n+1);render();};
   $("more").onclick=renderChunk;$("download").onclick=downloadSelection;render();
  }catch(e){$("status").textContent="Could not finish loading source tracker: "+String(e)}
 })();
