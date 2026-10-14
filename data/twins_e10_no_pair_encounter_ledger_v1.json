@@ -1,0 +1,1203 @@
+{
+  "schema": "twins_e10_no_pair_encounter_ledger_v1",
+  "episode": 10,
+  "source": "raw/Dhika.txt",
+  "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "source_range": [
+    1994,
+    2134
+  ],
+  "status": "ALL_LINES_REVIEWED_FOR_BANTU_BOBBY_PARTICIPATION; NO_TWIN_ENCOUNTER_ESTABLISHED",
+  "pair_status": {
+    "DB": "NO_NEW_ENCOUNTER",
+    "DY": "NO_NEW_ENCOUNTER",
+    "TRIO": "NO_NEW_ENCOUNTER",
+    "DBC": "NO_NEW_ENCOUNTER"
+  },
+  "continuity": {
+    "from": "E09 Bobby–Dhika video call ended L1786–1787",
+    "episode": "E10 turns to Dhika's household, Chotu's separate painting visit, and a later movie outing",
+    "result": "No source-supported new meeting, call, touch, private knowledge exchange or direct relationship-state transition involving Bantu/Bobby",
+    "to": "No proposed E11 event inferred"
+  },
+  "source_sections": [
+    {
+      "id": "E10-META",
+      "start": 1994,
+      "end": 1997,
+      "kind": "metadata"
+    },
+    {
+      "id": "E10-CHOTU-PAINT",
+      "start": 1998,
+      "end": 2054,
+      "kind": "other_character_visit_painting"
+    },
+    {
+      "id": "E10-CHOTU-LUNCH",
+      "start": 2055,
+      "end": 2089,
+      "kind": "other_character_kitchen_incident_and_followup"
+    },
+    {
+      "id": "E10-CHOTU-FINISH",
+      "start": 2090,
+      "end": 2116,
+      "kind": "other_character_dialogue_then_visit_closes"
+    },
+    {
+      "id": "E10-MOVIE",
+      "start": 2117,
+      "end": 2130,
+      "kind": "other_character_evening_movie_plan"
+    },
+    {
+      "id": "E10-FOOT",
+      "start": 2131,
+      "end": 2134,
+      "kind": "blank_or_ending_separator"
+    }
+  ],
+  "events": [],
+  "line_index": [
+    {
+      "line": 1994,
+      "scene_id": "E10-META",
+      "disposition": "metadata",
+      "source_checksum_fnv1a": "c1090b4f",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 1995,
+      "scene_id": "E10-META",
+      "disposition": "metadata",
+      "source_checksum_fnv1a": "1a1211cf",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 1996,
+      "scene_id": "E10-META",
+      "disposition": "metadata",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 1997,
+      "scene_id": "E10-META",
+      "disposition": "metadata",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 1998,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "ade4fb20",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 1999,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "0ae08590",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2000,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "e463b06a",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2001,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "c46fa48d",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2002,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "063ac33d",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2003,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "4486ee03",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2004,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "7bf087ee",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2005,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "fb9c69c1",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2006,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "1a500e35",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2007,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "51681511",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2008,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "bd3fde5d",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2009,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "759428a4",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2010,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "f47818d8",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2011,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "ee57ba85",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2012,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "fbcaada4",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2013,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "9a2c6d26",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2014,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "ae187694",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2015,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "c93efa17",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2016,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "891d7086",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2017,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "7b7d7d7e",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2018,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "0099af40",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2019,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "585469eb",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2020,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "7de25dc9",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2021,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "a89e4df6",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2022,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "a361bea5",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2023,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "38f448d3",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2024,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "261a2641",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2025,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "6fc8bd27",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2026,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "6ee3e0a7",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2027,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "1c32e68c",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2028,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "48cc1f58",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2029,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "e479d0cf",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2030,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "0d5863fa",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2031,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "e04840f0",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2032,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "251c196a",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2033,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "cf700fcf",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2034,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "5372befc",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2035,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "4b28bc4a",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2036,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "eed6cc87",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2037,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "a1bf98ca",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2038,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "a759b631",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2039,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "33c25942",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2040,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "04650b2f",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2041,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "703b8c42",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2042,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "8b1cc26f",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2043,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "4e7359b6",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2044,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "7f02c7cb",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2045,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "71602d01",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2046,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "41aadead",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2047,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "b94a872a",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2048,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "20e7100a",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2049,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "7c753d46",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2050,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "574e108b",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2051,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "9f77efad",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2052,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "1d97fc0d",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2053,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "bd8c8e6f",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2054,
+      "scene_id": "E10-CHOTU-PAINT",
+      "disposition": "other_character_visit_painting",
+      "source_checksum_fnv1a": "0c1a2be4",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2055,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "67ba459c",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2056,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "de87ea74",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2057,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "eed30232",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2058,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "fe8a4756",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2059,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "b2d2e4a5",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2060,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "d3ae46fb",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2061,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "46c07598",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2062,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "b90a32fa",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2063,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "e4aee7ba",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2064,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "0ea2ae2b",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2065,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "fc929b11",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2066,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "8969d104",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2067,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "c8af5d82",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2068,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "9b0ba569",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2069,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "583d184c",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2070,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "866eb92d",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2071,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "e0d72542",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2072,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "d25ace24",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2073,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "092ab9af",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2074,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "39a18f2a",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2075,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "5dae3dbf",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2076,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "0e25ab36",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2077,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "83127a23",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2078,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "83e70edf",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2079,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "0db214c9",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2080,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "c9629353",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2081,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "30713347",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2082,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "ee87efba",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2083,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "5d2d2729",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2084,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "74579572",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2085,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "e22e642d",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2086,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "cc4e0f30",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2087,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "b2e33821",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2088,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "f8985347",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2089,
+      "scene_id": "E10-CHOTU-LUNCH",
+      "disposition": "other_character_kitchen_incident_and_followup",
+      "source_checksum_fnv1a": "1b620076",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2090,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "5f9a53df",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2091,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "d21f92d7",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2092,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "446f65be",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2093,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "220918df",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2094,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "0cf400f3",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2095,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "2f953fae",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2096,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "0ac7a559",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2097,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "2dc30679",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2098,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "ab5e34e5",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2099,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "3047fb0a",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2100,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "3cbd171b",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2101,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "0919b026",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2102,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "f6e62a07",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2103,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "24b3a004",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2104,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "4a249905",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2105,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "be661411",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2106,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "a392dec1",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2107,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "ecf7a251",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2108,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "773b6358",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2109,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "5989aae0",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2110,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "44bb30fa",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2111,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "a9596fd3",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2112,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "f82d355c",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2113,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "c62d1485",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2114,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "c2995be7",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2115,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "d38e1ef9",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2116,
+      "scene_id": "E10-CHOTU-FINISH",
+      "disposition": "other_character_dialogue_then_visit_closes",
+      "source_checksum_fnv1a": "9ae7cb84",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2117,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "5625a401",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2118,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "17aae2da",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2119,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "af21d357",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2120,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "ae471fb7",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2121,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "8969eb59",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2122,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "4a4254d4",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2123,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "741ea2d7",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2124,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "eede23ff",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2125,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "d4e593ab",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2126,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "2cc9fc54",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2127,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "f86a7601",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2128,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "d42358f7",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2129,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "e815122d",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2130,
+      "scene_id": "E10-MOVIE",
+      "disposition": "other_character_evening_movie_plan",
+      "source_checksum_fnv1a": "cd9d3d27",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2131,
+      "scene_id": "E10-FOOT",
+      "disposition": "blank_or_ending_separator",
+      "source_checksum_fnv1a": "0e3ecb4a",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2132,
+      "scene_id": "E10-FOOT",
+      "disposition": "blank_or_ending_separator",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2133,
+      "scene_id": "E10-FOOT",
+      "disposition": "blank_or_ending_separator",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": [],
+      "pair_participants": []
+    },
+    {
+      "line": 2134,
+      "scene_id": "E10-FOOT",
+      "disposition": "blank_or_ending_separator",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": [],
+      "pair_participants": []
+    }
+  ],
+  "qa": {
+    "total_original_lines": 141,
+    "lines_disposition_checked": 141,
+    "named_bantu_bobby_twin_lexical_hits": [],
+    "pair_specific_direct_events": 0,
+    "pair_specific_reported_events": 0,
+    "source_hashes_present_and_valid": true,
+    "atomic_other_character_events_not_extracted": true,
+    "twin_participation_reviewed": true,
+    "note": "Episode 10 outside Bantu/Bobby track; absence finding is for this episode only, not any later episode."
+  }
+}
