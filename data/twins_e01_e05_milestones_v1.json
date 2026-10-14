@@ -1,0 +1,514 @@
+{
+  "schema": "dhika-twins-e01-e05-milestone-ledger-v1",
+  "source": "raw/Dhika.txt",
+  "policy": "Non-graphic evidence-classification; exact original wording accessible via global source line. Proposed, attempted and completed states are separate. This is not a list of future predictions.",
+  "milestones": [
+    {
+      "id": "TW-M001",
+      "episode": 1,
+      "source_line": 44,
+      "pair": "DB",
+      "event": "earlier discomfort with compliments changes to anticipation",
+      "classification": "mindset_change",
+      "evidence_state": "narrated",
+      "original_source_ref": "raw/Dhika.txt#L44"
+    },
+    {
+      "id": "TW-M002",
+      "episode": 1,
+      "source_line": 81,
+      "pair": "DY",
+      "event": "Bobby visually notices clothing displacement",
+      "classification": "visual_observation",
+      "evidence_state": "narrated",
+      "original_source_ref": "raw/Dhika.txt#L81"
+    },
+    {
+      "id": "TW-M003",
+      "episode": 1,
+      "source_line": 92,
+      "pair": "TRIO",
+      "event": "Both twins separately observe Dhika and signal to each other",
+      "classification": "knowledge_between_twins",
+      "evidence_state": "direct",
+      "original_source_ref": "raw/Dhika.txt#L92"
+    },
+    {
+      "id": "TW-M004",
+      "episode": 1,
+      "source_line": 99,
+      "pair": "DY",
+      "event": "Bobby holds Dhika around the waist/stomach during ride",
+      "classification": "physical_contact",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L99"
+    },
+    {
+      "id": "TW-M005",
+      "episode": 1,
+      "source_line": 102,
+      "pair": "DY",
+      "event": "Bobby finger gesture and hand movement on ride",
+      "classification": "physical_contact",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L102"
+    },
+    {
+      "id": "TW-M006",
+      "episode": 1,
+      "source_line": 103,
+      "pair": "DY",
+      "event": "Dhika experiences shyness and a bodily reaction",
+      "classification": "mindset_after_contact",
+      "evidence_state": "narrated",
+      "original_source_ref": "raw/Dhika.txt#L103"
+    },
+    {
+      "id": "TW-M007",
+      "episode": 2,
+      "source_line": 323,
+      "pair": "DB",
+      "event": "Bantu conceives extra tuition as a chance to spend time",
+      "classification": "planning_motive",
+      "evidence_state": "narrated",
+      "original_source_ref": "raw/Dhika.txt#L323"
+    },
+    {
+      "id": "TW-M008",
+      "episode": 2,
+      "source_line": 335,
+      "pair": "TRIO",
+      "event": "Dhika offers after-college teaching hours",
+      "classification": "everyday_opportunity",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L335"
+    },
+    {
+      "id": "TW-M009",
+      "episode": 2,
+      "source_line": 353,
+      "pair": "TRIO",
+      "event": "Unexpected saree displacement at home",
+      "classification": "clothing_change",
+      "evidence_state": "direct",
+      "original_source_ref": "raw/Dhika.txt#L353"
+    },
+    {
+      "id": "TW-M010",
+      "episode": 2,
+      "source_line": 356,
+      "pair": "DY",
+      "event": "Bobby observes and then withdraws early",
+      "classification": "visual_and_withdrawal",
+      "evidence_state": "direct",
+      "original_source_ref": "raw/Dhika.txt#L356"
+    },
+    {
+      "id": "TW-M011",
+      "episode": 2,
+      "source_line": 356,
+      "pair": "DB",
+      "event": "Bantu looks away in embarrassment",
+      "classification": "gaze_aversion",
+      "evidence_state": "direct",
+      "original_source_ref": "raw/Dhika.txt#L356"
+    },
+    {
+      "id": "TW-M012",
+      "episode": 2,
+      "source_line": 364,
+      "pair": "TRIO",
+      "event": "Dhika worries about information becoming public",
+      "classification": "privacy_anxiety",
+      "evidence_state": "internal",
+      "original_source_ref": "raw/Dhika.txt#L364"
+    },
+    {
+      "id": "TW-M013",
+      "episode": 3,
+      "source_line": 503,
+      "pair": "TRIO",
+      "event": "Dhika voluntarily removes dupatta during lesson",
+      "classification": "clothing_choice",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L503"
+    },
+    {
+      "id": "TW-M014",
+      "episode": 3,
+      "source_line": 512,
+      "pair": "DY",
+      "event": "Bobby gives extended unsolicited compliment",
+      "classification": "verbal_openness",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L512"
+    },
+    {
+      "id": "TW-M015",
+      "episode": 3,
+      "source_line": 524,
+      "pair": "DY",
+      "event": "Dhika playfully pinches Bobby's cheek",
+      "classification": "physical_contact",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L524"
+    },
+    {
+      "id": "TW-M016",
+      "episode": 3,
+      "source_line": 543,
+      "pair": "TRIO",
+      "event": "Clothing moves unexpectedly during writing",
+      "classification": "clothing_transition",
+      "evidence_state": "direct",
+      "original_source_ref": "raw/Dhika.txt#L543"
+    },
+    {
+      "id": "TW-M017",
+      "episode": 3,
+      "source_line": 555,
+      "pair": "DY",
+      "event": "Bobby wipes Dhika's tears",
+      "classification": "physical_contact_reassurance",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L555"
+    },
+    {
+      "id": "TW-M018",
+      "episode": 3,
+      "source_line": 555,
+      "pair": "DY",
+      "event": "Bobby promises discretion and verbal support",
+      "classification": "trust_building",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L555"
+    },
+    {
+      "id": "TW-M019",
+      "episode": 3,
+      "source_line": 560,
+      "pair": "DY",
+      "event": "Dhika pats Bobby's head",
+      "classification": "physical_contact",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L560"
+    },
+    {
+      "id": "TW-M020",
+      "episode": 3,
+      "source_line": 571,
+      "pair": "DB",
+      "event": "Dhika playfully pinches Bantu's cheek",
+      "classification": "physical_contact",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L571"
+    },
+    {
+      "id": "TW-M021",
+      "episode": 4,
+      "source_line": 669,
+      "pair": "DB",
+      "event": "Bantu asks before changing shirt",
+      "classification": "request",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L669"
+    },
+    {
+      "id": "TW-M022",
+      "episode": 4,
+      "source_line": 672,
+      "pair": "DB",
+      "event": "Dhika accepts clothing request within stated context",
+      "classification": "permission_for_clothing",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L672"
+    },
+    {
+      "id": "TW-M023",
+      "episode": 4,
+      "source_line": 687,
+      "pair": "DB",
+      "event": "Dhika playfully pinches Bantu's thigh",
+      "classification": "physical_contact",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L687"
+    },
+    {
+      "id": "TW-M024",
+      "episode": 4,
+      "source_line": 696,
+      "pair": "TRIO",
+      "event": "Dhika voluntarily removes dupatta",
+      "classification": "clothing_change",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L696"
+    },
+    {
+      "id": "TW-M025",
+      "episode": 4,
+      "source_line": 704,
+      "pair": "DY",
+      "event": "Dhika asks Bobby not to keep peeking",
+      "classification": "visual_boundary",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L704"
+    },
+    {
+      "id": "TW-M026",
+      "episode": 4,
+      "source_line": 713,
+      "pair": "DY",
+      "event": "Dhika pinches Bobby's cheek and sends a flying kiss",
+      "classification": "physical_plus_gesture",
+      "evidence_state": "completed_gesture_not_lip_kiss",
+      "original_source_ref": "raw/Dhika.txt#L713"
+    },
+    {
+      "id": "TW-M027",
+      "episode": 4,
+      "source_line": 751,
+      "pair": "TRIO",
+      "event": "Dhika removes pallu after discussion and hesitation",
+      "classification": "clothing_choice",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L751"
+    },
+    {
+      "id": "TW-M028",
+      "episode": 4,
+      "source_line": 754,
+      "pair": "TRIO",
+      "event": "Dhika asks both to moderate their gaze",
+      "classification": "visual_boundary",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L754"
+    },
+    {
+      "id": "TW-M029",
+      "episode": 4,
+      "source_line": 759,
+      "pair": "DB",
+      "event": "Bantu holds Dhika's hands and repositions them",
+      "classification": "physical_contact",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L759"
+    },
+    {
+      "id": "TW-M030",
+      "episode": 4,
+      "source_line": 765,
+      "pair": "DB",
+      "event": "Bantu rubs Dhika's hands during conversation",
+      "classification": "physical_contact",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L765"
+    },
+    {
+      "id": "TW-M031",
+      "episode": 4,
+      "source_line": 773,
+      "pair": "DY",
+      "event": "Bobby pulls an exposed waist accessory",
+      "classification": "object_contact",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L773"
+    },
+    {
+      "id": "TW-M032",
+      "episode": 4,
+      "source_line": 774,
+      "pair": "DY",
+      "event": "Dhika objects to the pulling",
+      "classification": "boundary",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L774"
+    },
+    {
+      "id": "TW-M033",
+      "episode": 4,
+      "source_line": 776,
+      "pair": "DY",
+      "event": "Dhika refuses further viewing request",
+      "classification": "refusal",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L776"
+    },
+    {
+      "id": "TW-M034",
+      "episode": 4,
+      "source_line": 781,
+      "pair": "DB",
+      "event": "Dhika declines proposed further clothing change",
+      "classification": "refusal",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L781"
+    },
+    {
+      "id": "TW-M035",
+      "episode": 4,
+      "source_line": 796,
+      "pair": "DY",
+      "event": "Dhika rejects a personal question",
+      "classification": "conversation_boundary",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L796"
+    },
+    {
+      "id": "TW-M036",
+      "episode": 4,
+      "source_line": 814,
+      "pair": "DB",
+      "event": "Dhika misspeaks about kissing and immediately corrects",
+      "classification": "dialogue_not_action",
+      "evidence_state": "not_completed",
+      "original_source_ref": "raw/Dhika.txt#L814"
+    },
+    {
+      "id": "TW-M037",
+      "episode": 4,
+      "source_line": 818,
+      "pair": "TRIO",
+      "event": "Dhika asks twins to keep events private",
+      "classification": "privacy_request",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L818"
+    },
+    {
+      "id": "TW-M038",
+      "episode": 5,
+      "source_line": 840,
+      "pair": "DB",
+      "event": "Dhika reacts to continued teasing and states a limit",
+      "classification": "boundary_and_play",
+      "evidence_state": "direct",
+      "original_source_ref": "raw/Dhika.txt#L840"
+    },
+    {
+      "id": "TW-M039",
+      "episode": 5,
+      "source_line": 850,
+      "pair": "DB",
+      "event": "Dhika kisses Bantu on the cheek",
+      "classification": "physical_affection",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L850"
+    },
+    {
+      "id": "TW-M040",
+      "episode": 5,
+      "source_line": 850,
+      "pair": "DY",
+      "event": "Dhika kisses Bobby on the cheek",
+      "classification": "physical_affection",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L850"
+    },
+    {
+      "id": "TW-M041",
+      "episode": 5,
+      "source_line": 853,
+      "pair": "DY",
+      "event": "Bobby returns to give Dhika a cheek kiss",
+      "classification": "physical_affection",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L853"
+    },
+    {
+      "id": "TW-M042",
+      "episode": 5,
+      "source_line": 891,
+      "pair": "DB",
+      "event": "Bobby confirmed absent from separate shopping encounter",
+      "classification": "participant_absence",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L891"
+    },
+    {
+      "id": "TW-M043",
+      "episode": 5,
+      "source_line": 901,
+      "pair": "DB",
+      "event": "Dhika says outfit is intended for her husband",
+      "classification": "intent_and_boundary",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L901"
+    },
+    {
+      "id": "TW-M044",
+      "episode": 5,
+      "source_line": 919,
+      "pair": "DB",
+      "event": "Bantu initiates skin contact during fitting discussion",
+      "classification": "physical_contact",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L919"
+    },
+    {
+      "id": "TW-M045",
+      "episode": 5,
+      "source_line": 922,
+      "pair": "DB",
+      "event": "Dhika questions uninvited contact",
+      "classification": "boundary",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L922"
+    },
+    {
+      "id": "TW-M046",
+      "episode": 5,
+      "source_line": 928,
+      "pair": "DB",
+      "event": "Dhika turns for requested fitting assessment",
+      "classification": "positioning",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L928"
+    },
+    {
+      "id": "TW-M047",
+      "episode": 5,
+      "source_line": 943,
+      "pair": "DB",
+      "event": "Dhika covers herself and objects to observation",
+      "classification": "visual_boundary",
+      "evidence_state": "direct",
+      "original_source_ref": "raw/Dhika.txt#L943"
+    },
+    {
+      "id": "TW-M048",
+      "episode": 5,
+      "source_line": 947,
+      "pair": "DB",
+      "event": "Dhika again requests that observation stop",
+      "classification": "visual_boundary",
+      "evidence_state": "spoken",
+      "original_source_ref": "raw/Dhika.txt#L947"
+    },
+    {
+      "id": "TW-M049",
+      "episode": 5,
+      "source_line": 952,
+      "pair": "DB",
+      "event": "Dhika gives Bantu a hug before leaving",
+      "classification": "physical_affection",
+      "evidence_state": "completed",
+      "original_source_ref": "raw/Dhika.txt#L952"
+    },
+    {
+      "id": "TW-M050",
+      "episode": 5,
+      "source_line": 994,
+      "pair": "TRIO",
+      "event": "Both twins react to the canceled tuition",
+      "classification": "ordinary_aftereffect",
+      "evidence_state": "reported",
+      "original_source_ref": "raw/Dhika.txt#L994"
+    }
+  ],
+  "notes": [
+    "Not an exhaustive list of all utterances; detailed action files store individual acts.",
+    "Body-region ownership remains governed by the original cited line, not by the title.",
+    "E04 spoken kiss possibility is not counted as a completed kiss.",
+    "E05 cheek kisses are three separate acts involving different directions.",
+    "This file freezes E01-E05 facts only; it does not predict future encounters."
+  ]
+}
