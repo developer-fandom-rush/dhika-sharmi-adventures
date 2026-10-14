@@ -1,0 +1,2203 @@
+{
+  "schema": "twins_e09_line_ledger_v1",
+  "episode": 9,
+  "source": "raw/Dhika.txt",
+  "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "source_range": [
+    1758,
+    1993
+  ],
+  "status": "ALL_SOURCE_LINES_CLASSIFIED; RELEVANT_REMOTE_SCENE_FIRST_PASS_NOT_EXHAUSTIVELY_ATOMIC",
+  "scope_and_continuity": {
+    "incoming": "E08-M03 Bobby–Dhika Skype call continues from E08 L1753 to E09 L1762",
+    "outgoing": "The Skype exchange ends before the later non-twin shopping and social scenes",
+    "relationship_scope": "Only L1762–1787 relevant to Dhika–Bobby remote track; remaining L1788–1993 unrelated to Bantu/Bobby",
+    "excluded": "Do not map Dhika–Chotu or other characters' action to Bantu or Bobby"
+  },
+  "scenes": [
+    {
+      "id": "E09-S01",
+      "episode": 9,
+      "start": 1762,
+      "end": 1787,
+      "track": "DY",
+      "participants": [
+        "Dhika",
+        "Bobby"
+      ],
+      "medium": "Skype video call",
+      "source_status": "E08-M03_CONTINUATION_ENDS_IN_E09"
+    },
+    {
+      "id": "E09-S02",
+      "episode": 9,
+      "start": 1788,
+      "end": 1814,
+      "track": "NON_TWIN_CONTEXT",
+      "participants": [
+        "Dhika",
+        "John",
+        "Sharmi",
+        "Raj"
+      ],
+      "medium": "in person",
+      "source_status": "no_new_twin_encounter"
+    },
+    {
+      "id": "E09-S03",
+      "episode": 9,
+      "start": 1815,
+      "end": 1888,
+      "track": "NON_TWIN_CONTEXT",
+      "participants": [
+        "Dhika",
+        "Chotu",
+        "John",
+        "Pappu"
+      ],
+      "medium": "in person",
+      "source_status": "no_new_twin_encounter"
+    },
+    {
+      "id": "E09-S04",
+      "episode": 9,
+      "start": 1889,
+      "end": 1993,
+      "track": "NON_TWIN_CONTEXT",
+      "participants": [
+        "Dhika",
+        "John",
+        "Sharmi",
+        "Raj",
+        "Pappu"
+      ],
+      "medium": "in person",
+      "source_status": "no_new_twin_encounter"
+    }
+  ],
+  "events": [
+    {
+      "id": "E09-AT-001",
+      "episode": 9,
+      "line": 1762,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Narrator",
+      "recipient": "Source reader",
+      "action": "repeats_E08_Bobby_expectation",
+      "kind": "recalled_expectation",
+      "source_ref": "raw/Dhika.txt#L1762",
+      "source_line_checksum_fnv1a": "098d8ae1",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-002",
+      "episode": 9,
+      "line": 1763,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "reaction_repeated_from_E08_cliffhanger",
+      "kind": "same_call_reaction",
+      "source_ref": "raw/Dhika.txt#L1763",
+      "source_line_checksum_fnv1a": "77e2aa68",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-003",
+      "episode": 9,
+      "line": 1764,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "turns_seat_for_remote_display",
+      "kind": "remote_visual_action",
+      "source_ref": "raw/Dhika.txt#L1764",
+      "source_line_checksum_fnv1a": "7cccbe76",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-004",
+      "episode": 9,
+      "line": 1765,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "picks_up_clothing_item",
+      "kind": "object_action",
+      "source_ref": "raw/Dhika.txt#L1765",
+      "source_line_checksum_fnv1a": "45b2a8c6",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-005",
+      "episode": 9,
+      "line": 1766,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "holds_item_in_place_and_turns_back",
+      "kind": "clothing_action",
+      "source_ref": "raw/Dhika.txt#L1766",
+      "source_line_checksum_fnv1a": "adb7fa9d",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-006",
+      "episode": 9,
+      "line": 1767,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "asks_Bobby_for_view_opinion",
+      "kind": "spoken_question",
+      "source_ref": "raw/Dhika.txt#L1767",
+      "source_line_checksum_fnv1a": "c62fcb18",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-007",
+      "episode": 9,
+      "line": 1768,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "reacts_with_embarrassment",
+      "kind": "reaction",
+      "source_ref": "raw/Dhika.txt#L1768",
+      "source_line_checksum_fnv1a": "4941a9f5",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-008",
+      "episode": 9,
+      "line": 1769,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "teases_about_shyness",
+      "kind": "spoken_dialogue",
+      "source_ref": "raw/Dhika.txt#L1769",
+      "source_line_checksum_fnv1a": "d08527b1",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-009",
+      "episode": 9,
+      "line": 1770,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "remains_shy_and_watches_screen",
+      "kind": "remote_visual_observation",
+      "source_ref": "raw/Dhika.txt#L1770",
+      "source_line_checksum_fnv1a": "63a1db63",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-010",
+      "episode": 9,
+      "line": 1771,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "responds_with_qualified_praise",
+      "kind": "spoken_dialogue",
+      "source_ref": "raw/Dhika.txt#L1771",
+      "source_line_checksum_fnv1a": "beed1458",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-011",
+      "episode": 9,
+      "line": 1772,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "asks_what_he_means",
+      "kind": "spoken_question",
+      "source_ref": "raw/Dhika.txt#L1772",
+      "source_line_checksum_fnv1a": "4e1f5975",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-012",
+      "episode": 9,
+      "line": 1773,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "expresses_preference_for_previous_appearance",
+      "kind": "spoken_dialogue",
+      "source_ref": "raw/Dhika.txt#L1773",
+      "source_line_checksum_fnv1a": "c91ec1a3",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-013",
+      "episode": 9,
+      "line": 1774,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "asks_reason_for_preference",
+      "kind": "spoken_question",
+      "source_ref": "raw/Dhika.txt#L1774",
+      "source_line_checksum_fnv1a": "c25dbdc1",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-014",
+      "episode": 9,
+      "line": 1775,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "forms_unspoken_explanation_not_stated_aloud",
+      "kind": "private_thought_not_spoken",
+      "source_ref": "raw/Dhika.txt#L1775",
+      "source_line_checksum_fnv1a": "446812e1",
+      "outcome": "narrator_only",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-015",
+      "episode": 9,
+      "line": 1776,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "interprets_unspoken_implication_from_context",
+      "kind": "character_inference",
+      "source_ref": "raw/Dhika.txt#L1776",
+      "source_line_checksum_fnv1a": "fd7e3003",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-016",
+      "episode": 9,
+      "line": 1777,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "reacts_and_reassesses_his_shyness",
+      "kind": "reaction",
+      "source_ref": "raw/Dhika.txt#L1777",
+      "source_line_checksum_fnv1a": "02750744",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-017",
+      "episode": 9,
+      "line": 1778,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "returns_to_previous_clothing_arrangement",
+      "kind": "clothing_action",
+      "source_ref": "raw/Dhika.txt#L1778",
+      "source_line_checksum_fnv1a": "332cf6e1",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-018",
+      "episode": 9,
+      "line": 1779,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "asks_followup_on_remote_appearance",
+      "kind": "spoken_question",
+      "source_ref": "raw/Dhika.txt#L1779",
+      "source_line_checksum_fnv1a": "53714884",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-019",
+      "episode": 9,
+      "line": 1780,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "shifts_uncomfortably_in_seat",
+      "kind": "body_position_reaction",
+      "source_ref": "raw/Dhika.txt#L1780",
+      "source_line_checksum_fnv1a": "6d118d34",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-020",
+      "episode": 9,
+      "line": 1781,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "notices_his_seat_movement",
+      "kind": "remote_observation",
+      "source_ref": "raw/Dhika.txt#L1781",
+      "source_line_checksum_fnv1a": "e2ca96b9",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-021",
+      "episode": 9,
+      "line": 1782,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "asks_Bobby_if_he_would_stand",
+      "kind": "request",
+      "source_ref": "raw/Dhika.txt#L1782",
+      "source_line_checksum_fnv1a": "4669c494",
+      "outcome": "request_is_not_action_completion",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-022",
+      "episode": 9,
+      "line": 1783,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "signals_agreement",
+      "kind": "nonverbal_assent",
+      "source_ref": "raw/Dhika.txt#L1783",
+      "source_line_checksum_fnv1a": "1945cb69",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-023",
+      "episode": 9,
+      "line": 1784,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "repeats_request_to_stand",
+      "kind": "request",
+      "source_ref": "raw/Dhika.txt#L1784",
+      "source_line_checksum_fnv1a": "41b8dc28",
+      "outcome": "request_is_not_action_completion",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-024",
+      "episode": 9,
+      "line": 1785,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "stands_briefly_in_front_of_camera",
+      "kind": "remote_movement",
+      "source_ref": "raw/Dhika.txt#L1785",
+      "source_line_checksum_fnv1a": "eb54760b",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-025",
+      "episode": 9,
+      "line": 1786,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "asks_Bobby_to_sit_and_announces_upcoming_errand",
+      "kind": "request_and_schedule",
+      "source_ref": "raw/Dhika.txt#L1786",
+      "source_line_checksum_fnv1a": "3678a882",
+      "outcome": "request_is_not_action_completion",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-026",
+      "episode": 9,
+      "line": 1786,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "returns_to_sitting_as_call_winds_down",
+      "kind": "response",
+      "source_ref": "raw/Dhika.txt#L1786",
+      "source_line_checksum_fnv1a": "3678a882",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    },
+    {
+      "id": "E09-AT-027",
+      "episode": 9,
+      "line": 1787,
+      "scene_id": "E09-S01",
+      "track": "DY",
+      "actor": "Narrator",
+      "recipient": "Source reader",
+      "action": "closes_unproductive_study_time_with_author_aside",
+      "kind": "narrative_closure",
+      "source_ref": "raw/Dhika.txt#L1787",
+      "source_line_checksum_fnv1a": "b65ca979",
+      "outcome": "source_linked_first_pass",
+      "review": "source_line_reviewed_non_graphic_first_pass"
+    }
+  ],
+  "line_index": [
+    {
+      "line": 1758,
+      "scene_id": null,
+      "disposition": "header_or_source_metadata",
+      "source_checksum_fnv1a": "8e9ee17d",
+      "event_ids": []
+    },
+    {
+      "line": 1759,
+      "scene_id": null,
+      "disposition": "header_or_source_metadata",
+      "source_checksum_fnv1a": "d17c94c2",
+      "event_ids": []
+    },
+    {
+      "line": 1760,
+      "scene_id": null,
+      "disposition": "divider_or_epilogue",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": []
+    },
+    {
+      "line": 1761,
+      "scene_id": null,
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 1762,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "098d8ae1",
+      "event_ids": [
+        "E09-AT-001"
+      ]
+    },
+    {
+      "line": 1763,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "77e2aa68",
+      "event_ids": [
+        "E09-AT-002"
+      ]
+    },
+    {
+      "line": 1764,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "7cccbe76",
+      "event_ids": [
+        "E09-AT-003"
+      ]
+    },
+    {
+      "line": 1765,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "45b2a8c6",
+      "event_ids": [
+        "E09-AT-004"
+      ]
+    },
+    {
+      "line": 1766,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "adb7fa9d",
+      "event_ids": [
+        "E09-AT-005"
+      ]
+    },
+    {
+      "line": 1767,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "c62fcb18",
+      "event_ids": [
+        "E09-AT-006"
+      ]
+    },
+    {
+      "line": 1768,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "4941a9f5",
+      "event_ids": [
+        "E09-AT-007"
+      ]
+    },
+    {
+      "line": 1769,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "d08527b1",
+      "event_ids": [
+        "E09-AT-008"
+      ]
+    },
+    {
+      "line": 1770,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "63a1db63",
+      "event_ids": [
+        "E09-AT-009"
+      ]
+    },
+    {
+      "line": 1771,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "beed1458",
+      "event_ids": [
+        "E09-AT-010"
+      ]
+    },
+    {
+      "line": 1772,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "4e1f5975",
+      "event_ids": [
+        "E09-AT-011"
+      ]
+    },
+    {
+      "line": 1773,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "c91ec1a3",
+      "event_ids": [
+        "E09-AT-012"
+      ]
+    },
+    {
+      "line": 1774,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "c25dbdc1",
+      "event_ids": [
+        "E09-AT-013"
+      ]
+    },
+    {
+      "line": 1775,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "446812e1",
+      "event_ids": [
+        "E09-AT-014"
+      ]
+    },
+    {
+      "line": 1776,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "fd7e3003",
+      "event_ids": [
+        "E09-AT-015"
+      ]
+    },
+    {
+      "line": 1777,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "02750744",
+      "event_ids": [
+        "E09-AT-016"
+      ]
+    },
+    {
+      "line": 1778,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "332cf6e1",
+      "event_ids": [
+        "E09-AT-017"
+      ]
+    },
+    {
+      "line": 1779,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "53714884",
+      "event_ids": [
+        "E09-AT-018"
+      ]
+    },
+    {
+      "line": 1780,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "6d118d34",
+      "event_ids": [
+        "E09-AT-019"
+      ]
+    },
+    {
+      "line": 1781,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "e2ca96b9",
+      "event_ids": [
+        "E09-AT-020"
+      ]
+    },
+    {
+      "line": 1782,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "4669c494",
+      "event_ids": [
+        "E09-AT-021"
+      ]
+    },
+    {
+      "line": 1783,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "1945cb69",
+      "event_ids": [
+        "E09-AT-022"
+      ]
+    },
+    {
+      "line": 1784,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "41b8dc28",
+      "event_ids": [
+        "E09-AT-023"
+      ]
+    },
+    {
+      "line": 1785,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "eb54760b",
+      "event_ids": [
+        "E09-AT-024"
+      ]
+    },
+    {
+      "line": 1786,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "3678a882",
+      "event_ids": [
+        "E09-AT-025",
+        "E09-AT-026"
+      ]
+    },
+    {
+      "line": 1787,
+      "scene_id": "E09-S01",
+      "disposition": "E08_SKYPE_CONTINUATION_END",
+      "source_checksum_fnv1a": "b65ca979",
+      "event_ids": [
+        "E09-AT-027"
+      ]
+    },
+    {
+      "line": 1788,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "a0245cc5",
+      "event_ids": []
+    },
+    {
+      "line": 1789,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "6739c159",
+      "event_ids": []
+    },
+    {
+      "line": 1790,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "eadb780b",
+      "event_ids": []
+    },
+    {
+      "line": 1791,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "b0b5ee9c",
+      "event_ids": []
+    },
+    {
+      "line": 1792,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "96df2257",
+      "event_ids": []
+    },
+    {
+      "line": 1793,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "1db3db90",
+      "event_ids": []
+    },
+    {
+      "line": 1794,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "47435393",
+      "event_ids": []
+    },
+    {
+      "line": 1795,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "e47ce8d4",
+      "event_ids": []
+    },
+    {
+      "line": 1796,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "8018e5ae",
+      "event_ids": []
+    },
+    {
+      "line": 1797,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "7f589ac4",
+      "event_ids": []
+    },
+    {
+      "line": 1798,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "bf758d63",
+      "event_ids": []
+    },
+    {
+      "line": 1799,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "9d0fee38",
+      "event_ids": []
+    },
+    {
+      "line": 1800,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "37b1133f",
+      "event_ids": []
+    },
+    {
+      "line": 1801,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "71f35fb4",
+      "event_ids": []
+    },
+    {
+      "line": 1802,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "6f2c3a02",
+      "event_ids": []
+    },
+    {
+      "line": 1803,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "9f63d5a2",
+      "event_ids": []
+    },
+    {
+      "line": 1804,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "d27185a6",
+      "event_ids": []
+    },
+    {
+      "line": 1805,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "a73c72ed",
+      "event_ids": []
+    },
+    {
+      "line": 1806,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "dd611ca6",
+      "event_ids": []
+    },
+    {
+      "line": 1807,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "afbc887f",
+      "event_ids": []
+    },
+    {
+      "line": 1808,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "dde903b7",
+      "event_ids": []
+    },
+    {
+      "line": 1809,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "715a7d7c",
+      "event_ids": []
+    },
+    {
+      "line": 1810,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "6a353c30",
+      "event_ids": []
+    },
+    {
+      "line": 1811,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "2814a8b5",
+      "event_ids": []
+    },
+    {
+      "line": 1812,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "d88b5f54",
+      "event_ids": []
+    },
+    {
+      "line": 1813,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "b97c1765",
+      "event_ids": []
+    },
+    {
+      "line": 1814,
+      "scene_id": "E09-S02",
+      "disposition": "NO_TWIN_SHOPPING_SOCIAL_CONTEXT",
+      "source_checksum_fnv1a": "9732ccd8",
+      "event_ids": []
+    },
+    {
+      "line": 1815,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "78400076",
+      "event_ids": []
+    },
+    {
+      "line": 1816,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "4d18f4f8",
+      "event_ids": []
+    },
+    {
+      "line": 1817,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "2a113a9e",
+      "event_ids": []
+    },
+    {
+      "line": 1818,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "acfbdf32",
+      "event_ids": []
+    },
+    {
+      "line": 1819,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "70b6cfc8",
+      "event_ids": []
+    },
+    {
+      "line": 1820,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "e05b6971",
+      "event_ids": []
+    },
+    {
+      "line": 1821,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "634b40c7",
+      "event_ids": []
+    },
+    {
+      "line": 1822,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "62b919d8",
+      "event_ids": []
+    },
+    {
+      "line": 1823,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "f5bb9b72",
+      "event_ids": []
+    },
+    {
+      "line": 1824,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "9d069127",
+      "event_ids": []
+    },
+    {
+      "line": 1825,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "8987f994",
+      "event_ids": []
+    },
+    {
+      "line": 1826,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "1b0c0d2e",
+      "event_ids": []
+    },
+    {
+      "line": 1827,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "df9b472a",
+      "event_ids": []
+    },
+    {
+      "line": 1828,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "aa399eb8",
+      "event_ids": []
+    },
+    {
+      "line": 1829,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "d3b69ce0",
+      "event_ids": []
+    },
+    {
+      "line": 1830,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "f59e4976",
+      "event_ids": []
+    },
+    {
+      "line": 1831,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "fb465bd4",
+      "event_ids": []
+    },
+    {
+      "line": 1832,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "61f745df",
+      "event_ids": []
+    },
+    {
+      "line": 1833,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "a24f9b02",
+      "event_ids": []
+    },
+    {
+      "line": 1834,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "c3dc41ad",
+      "event_ids": []
+    },
+    {
+      "line": 1835,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "afd41e40",
+      "event_ids": []
+    },
+    {
+      "line": 1836,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "8154d90e",
+      "event_ids": []
+    },
+    {
+      "line": 1837,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "811586e8",
+      "event_ids": []
+    },
+    {
+      "line": 1838,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "fbfacd60",
+      "event_ids": []
+    },
+    {
+      "line": 1839,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "65e6d164",
+      "event_ids": []
+    },
+    {
+      "line": 1840,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "8ca1aca7",
+      "event_ids": []
+    },
+    {
+      "line": 1841,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "b85b8489",
+      "event_ids": []
+    },
+    {
+      "line": 1842,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "76b90054",
+      "event_ids": []
+    },
+    {
+      "line": 1843,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "bb1a9bfc",
+      "event_ids": []
+    },
+    {
+      "line": 1844,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "9ea8de10",
+      "event_ids": []
+    },
+    {
+      "line": 1845,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "d0914b10",
+      "event_ids": []
+    },
+    {
+      "line": 1846,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "ef67a212",
+      "event_ids": []
+    },
+    {
+      "line": 1847,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "996940af",
+      "event_ids": []
+    },
+    {
+      "line": 1848,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "f7f58dc1",
+      "event_ids": []
+    },
+    {
+      "line": 1849,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "6c44666a",
+      "event_ids": []
+    },
+    {
+      "line": 1850,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "8025cfaf",
+      "event_ids": []
+    },
+    {
+      "line": 1851,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "9c631cc1",
+      "event_ids": []
+    },
+    {
+      "line": 1852,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "9ca62226",
+      "event_ids": []
+    },
+    {
+      "line": 1853,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "f9f21c6a",
+      "event_ids": []
+    },
+    {
+      "line": 1854,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "17da4e33",
+      "event_ids": []
+    },
+    {
+      "line": 1855,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "f86c56d6",
+      "event_ids": []
+    },
+    {
+      "line": 1856,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "fa634b52",
+      "event_ids": []
+    },
+    {
+      "line": 1857,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "7338db39",
+      "event_ids": []
+    },
+    {
+      "line": 1858,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "99942795",
+      "event_ids": []
+    },
+    {
+      "line": 1859,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "9bb6577b",
+      "event_ids": []
+    },
+    {
+      "line": 1860,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "36347da5",
+      "event_ids": []
+    },
+    {
+      "line": 1861,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "ee7a0ebd",
+      "event_ids": []
+    },
+    {
+      "line": 1862,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "d9d101c5",
+      "event_ids": []
+    },
+    {
+      "line": 1863,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "1700d918",
+      "event_ids": []
+    },
+    {
+      "line": 1864,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "e7dd3a95",
+      "event_ids": []
+    },
+    {
+      "line": 1865,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "a6b0feb7",
+      "event_ids": []
+    },
+    {
+      "line": 1866,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "eb78859d",
+      "event_ids": []
+    },
+    {
+      "line": 1867,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "127f2231",
+      "event_ids": []
+    },
+    {
+      "line": 1868,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "f0ff0e6e",
+      "event_ids": []
+    },
+    {
+      "line": 1869,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "f1cd5fe2",
+      "event_ids": []
+    },
+    {
+      "line": 1870,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "7f99b661",
+      "event_ids": []
+    },
+    {
+      "line": 1871,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "7e95cde5",
+      "event_ids": []
+    },
+    {
+      "line": 1872,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "2c82c411",
+      "event_ids": []
+    },
+    {
+      "line": 1873,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "e8b8363a",
+      "event_ids": []
+    },
+    {
+      "line": 1874,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "8529853c",
+      "event_ids": []
+    },
+    {
+      "line": 1875,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "46350d3e",
+      "event_ids": []
+    },
+    {
+      "line": 1876,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "97c12c7c",
+      "event_ids": []
+    },
+    {
+      "line": 1877,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "7dd378a8",
+      "event_ids": []
+    },
+    {
+      "line": 1878,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "a19f82e4",
+      "event_ids": []
+    },
+    {
+      "line": 1879,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "75b4c0de",
+      "event_ids": []
+    },
+    {
+      "line": 1880,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "efbc30ab",
+      "event_ids": []
+    },
+    {
+      "line": 1881,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "87ac0786",
+      "event_ids": []
+    },
+    {
+      "line": 1882,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "9c6dd571",
+      "event_ids": []
+    },
+    {
+      "line": 1883,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "2d42f938",
+      "event_ids": []
+    },
+    {
+      "line": 1884,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "f920fb08",
+      "event_ids": []
+    },
+    {
+      "line": 1885,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "059b340d",
+      "event_ids": []
+    },
+    {
+      "line": 1886,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "ba4a4aec",
+      "event_ids": []
+    },
+    {
+      "line": 1887,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "b9cd95ee",
+      "event_ids": []
+    },
+    {
+      "line": 1888,
+      "scene_id": "E09-S03",
+      "disposition": "NO_TWIN_CHOTU_HOME_CONTEXT",
+      "source_checksum_fnv1a": "3401386e",
+      "event_ids": []
+    },
+    {
+      "line": 1889,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "810950f0",
+      "event_ids": []
+    },
+    {
+      "line": 1890,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "dd5766cf",
+      "event_ids": []
+    },
+    {
+      "line": 1891,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "62eade31",
+      "event_ids": []
+    },
+    {
+      "line": 1892,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "2f691049",
+      "event_ids": []
+    },
+    {
+      "line": 1893,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "783dc24b",
+      "event_ids": []
+    },
+    {
+      "line": 1894,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "2a640d8c",
+      "event_ids": []
+    },
+    {
+      "line": 1895,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "b28a8952",
+      "event_ids": []
+    },
+    {
+      "line": 1896,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "101f0da2",
+      "event_ids": []
+    },
+    {
+      "line": 1897,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "44f78f4c",
+      "event_ids": []
+    },
+    {
+      "line": 1898,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "674bbb59",
+      "event_ids": []
+    },
+    {
+      "line": 1899,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "9534d597",
+      "event_ids": []
+    },
+    {
+      "line": 1900,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "7ca820b0",
+      "event_ids": []
+    },
+    {
+      "line": 1901,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "9e5e3961",
+      "event_ids": []
+    },
+    {
+      "line": 1902,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "37646317",
+      "event_ids": []
+    },
+    {
+      "line": 1903,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "4080f960",
+      "event_ids": []
+    },
+    {
+      "line": 1904,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "17914070",
+      "event_ids": []
+    },
+    {
+      "line": 1905,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "9ad698f1",
+      "event_ids": []
+    },
+    {
+      "line": 1906,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "db4df020",
+      "event_ids": []
+    },
+    {
+      "line": 1907,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "ef70dcaf",
+      "event_ids": []
+    },
+    {
+      "line": 1908,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "624edb98",
+      "event_ids": []
+    },
+    {
+      "line": 1909,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "4f2e654a",
+      "event_ids": []
+    },
+    {
+      "line": 1910,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "3c042cd7",
+      "event_ids": []
+    },
+    {
+      "line": 1911,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "0744911b",
+      "event_ids": []
+    },
+    {
+      "line": 1912,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "badb353f",
+      "event_ids": []
+    },
+    {
+      "line": 1913,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "60b12c0f",
+      "event_ids": []
+    },
+    {
+      "line": 1914,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "b27f7bcf",
+      "event_ids": []
+    },
+    {
+      "line": 1915,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "21fd6934",
+      "event_ids": []
+    },
+    {
+      "line": 1916,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "bbd5ed2e",
+      "event_ids": []
+    },
+    {
+      "line": 1917,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "a13a19f7",
+      "event_ids": []
+    },
+    {
+      "line": 1918,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "3e823212",
+      "event_ids": []
+    },
+    {
+      "line": 1919,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "e27bc45e",
+      "event_ids": []
+    },
+    {
+      "line": 1920,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "72291444",
+      "event_ids": []
+    },
+    {
+      "line": 1921,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "c3c285e8",
+      "event_ids": []
+    },
+    {
+      "line": 1922,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "68de5ae4",
+      "event_ids": []
+    },
+    {
+      "line": 1923,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "5f52c970",
+      "event_ids": []
+    },
+    {
+      "line": 1924,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "ddfb8e17",
+      "event_ids": []
+    },
+    {
+      "line": 1925,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "ef39a55a",
+      "event_ids": []
+    },
+    {
+      "line": 1926,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "89a73b4a",
+      "event_ids": []
+    },
+    {
+      "line": 1927,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "14c37745",
+      "event_ids": []
+    },
+    {
+      "line": 1928,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "30dfa947",
+      "event_ids": []
+    },
+    {
+      "line": 1929,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "3de3fd77",
+      "event_ids": []
+    },
+    {
+      "line": 1930,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "2dcd5056",
+      "event_ids": []
+    },
+    {
+      "line": 1931,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "4ca51359",
+      "event_ids": []
+    },
+    {
+      "line": 1932,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "4da8b4e3",
+      "event_ids": []
+    },
+    {
+      "line": 1933,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "c438e55c",
+      "event_ids": []
+    },
+    {
+      "line": 1934,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "5c0a853f",
+      "event_ids": []
+    },
+    {
+      "line": 1935,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "236bbbfb",
+      "event_ids": []
+    },
+    {
+      "line": 1936,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "7f27c45c",
+      "event_ids": []
+    },
+    {
+      "line": 1937,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "da6e91c7",
+      "event_ids": []
+    },
+    {
+      "line": 1938,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "30dfc5c4",
+      "event_ids": []
+    },
+    {
+      "line": 1939,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "7396cb3c",
+      "event_ids": []
+    },
+    {
+      "line": 1940,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "44feeb02",
+      "event_ids": []
+    },
+    {
+      "line": 1941,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "361bc1c4",
+      "event_ids": []
+    },
+    {
+      "line": 1942,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "ab40a72d",
+      "event_ids": []
+    },
+    {
+      "line": 1943,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "2da0d5ef",
+      "event_ids": []
+    },
+    {
+      "line": 1944,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "0291008a",
+      "event_ids": []
+    },
+    {
+      "line": 1945,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "12e733e2",
+      "event_ids": []
+    },
+    {
+      "line": 1946,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "7acdbb13",
+      "event_ids": []
+    },
+    {
+      "line": 1947,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "aa3b09b5",
+      "event_ids": []
+    },
+    {
+      "line": 1948,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "7a7ca2fc",
+      "event_ids": []
+    },
+    {
+      "line": 1949,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "f427abc7",
+      "event_ids": []
+    },
+    {
+      "line": 1950,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "ac36496a",
+      "event_ids": []
+    },
+    {
+      "line": 1951,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "a81491be",
+      "event_ids": []
+    },
+    {
+      "line": 1952,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "7cae0e4b",
+      "event_ids": []
+    },
+    {
+      "line": 1953,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "faeac74d",
+      "event_ids": []
+    },
+    {
+      "line": 1954,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "70c9f389",
+      "event_ids": []
+    },
+    {
+      "line": 1955,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "70e3e32f",
+      "event_ids": []
+    },
+    {
+      "line": 1956,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "453aa819",
+      "event_ids": []
+    },
+    {
+      "line": 1957,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "3dccc323",
+      "event_ids": []
+    },
+    {
+      "line": 1958,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "4acc790a",
+      "event_ids": []
+    },
+    {
+      "line": 1959,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "14b97ddc",
+      "event_ids": []
+    },
+    {
+      "line": 1960,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "d0e04c07",
+      "event_ids": []
+    },
+    {
+      "line": 1961,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "d28cc065",
+      "event_ids": []
+    },
+    {
+      "line": 1962,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "292154fc",
+      "event_ids": []
+    },
+    {
+      "line": 1963,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "c8809016",
+      "event_ids": []
+    },
+    {
+      "line": 1964,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "9a869c5f",
+      "event_ids": []
+    },
+    {
+      "line": 1965,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "4f6446aa",
+      "event_ids": []
+    },
+    {
+      "line": 1966,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "2449f042",
+      "event_ids": []
+    },
+    {
+      "line": 1967,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "a71bd212",
+      "event_ids": []
+    },
+    {
+      "line": 1968,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "1082786f",
+      "event_ids": []
+    },
+    {
+      "line": 1969,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "1fe656a4",
+      "event_ids": []
+    },
+    {
+      "line": 1970,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "48742334",
+      "event_ids": []
+    },
+    {
+      "line": 1971,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "635d4053",
+      "event_ids": []
+    },
+    {
+      "line": 1972,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "ce41b05a",
+      "event_ids": []
+    },
+    {
+      "line": 1973,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "b199bbe0",
+      "event_ids": []
+    },
+    {
+      "line": 1974,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "c42da3e2",
+      "event_ids": []
+    },
+    {
+      "line": 1975,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "532568ad",
+      "event_ids": []
+    },
+    {
+      "line": 1976,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "d9454534",
+      "event_ids": []
+    },
+    {
+      "line": 1977,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "253b0874",
+      "event_ids": []
+    },
+    {
+      "line": 1978,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "bf7f2b00",
+      "event_ids": []
+    },
+    {
+      "line": 1979,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "8ec96607",
+      "event_ids": []
+    },
+    {
+      "line": 1980,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "a03e615c",
+      "event_ids": []
+    },
+    {
+      "line": 1981,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "443b9074",
+      "event_ids": []
+    },
+    {
+      "line": 1982,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "b861d862",
+      "event_ids": []
+    },
+    {
+      "line": 1983,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "2bb2ca6e",
+      "event_ids": []
+    },
+    {
+      "line": 1984,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "3b3bcfa0",
+      "event_ids": []
+    },
+    {
+      "line": 1985,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "3b7e7396",
+      "event_ids": []
+    },
+    {
+      "line": 1986,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "165aa80a",
+      "event_ids": []
+    },
+    {
+      "line": 1987,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "8cf5b50b",
+      "event_ids": []
+    },
+    {
+      "line": 1988,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "2228f91e",
+      "event_ids": []
+    },
+    {
+      "line": 1989,
+      "scene_id": "E09-S04",
+      "disposition": "NO_TWIN_SOCIAL_DINNER_CONTEXT",
+      "source_checksum_fnv1a": "0de9ad68",
+      "event_ids": []
+    },
+    {
+      "line": 1990,
+      "scene_id": "E09-S04",
+      "disposition": "divider_or_epilogue",
+      "source_checksum_fnv1a": "0e3ecb4a",
+      "event_ids": []
+    },
+    {
+      "line": 1991,
+      "scene_id": "E09-S04",
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 1992,
+      "scene_id": "E09-S04",
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 1993,
+      "scene_id": "E09-S04",
+      "disposition": "divider_or_epilogue",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": []
+    }
+  ],
+  "qa": {
+    "total_source_lines": 236,
+    "source_lines_disposed": 236,
+    "direct_remote_lines": 26,
+    "direct_remote_lines_without_first_pass_event": [],
+    "source_linked_event_tags": 27,
+    "original_source_hash_matches": 27,
+    "other_character_context_lines": 206,
+    "atomic_second_pass_complete": false,
+    "source_story_read_only": true
+  }
+}
