@@ -13,9 +13,10 @@ loc+"twins_e05_actions_p1.json",loc+"twins_e05_actions_p2.json",loc+"twins_e05_a
 loc+"twins_e05_callbacks.json",loc+"twins_e01_e05_state_index_v1.json",
 loc+"unified_pair_audit_v2.json",
 loc+"unified_pair_partial_scene_events_v2.json",
+loc+"twins_e06_line_ledger_v1.json",loc+"twins_e07_line_ledger_v1.json",
 "./raw/Dhika.txt"];
 const trackNames={DB:"Dhika × Bantu",DY:"Dhika × Bobby",TRIO:"Dhika × Bantu × Bobby",DBC:"Dhika × Bobby × Chotu"};
-let canon=[],episodes=[],curated=[],scenes=[],windows=[],states=[],gaps=[],audit={},writingNotes=[],filtered=[],shown=0,tab="history";
+let canon=[],episodes=[],curated=[],scenes=[],windows=[],states=[],gaps=[],audit={},writingNotes=[],lineAudits=[],filtered=[],shown=0,tab="history";
 function link(n){return '<a href="'+srcUrl(n)+'" target="_blank" rel="noopener">Raw L'+n+' ↗</a>'}
 function has(s,k){return k==="Bantu"?/\bbantu\b/i.test(s):k==="Bobby"?/\bbobby\b/i.test(s):k==="Chotu"?/\b(chotu|babu)\b/i.test(s):/\btwins?\b/i.test(s)}
 function epFor(n){return episodes.find(e=>n>=e.start&&n<=e.end)?.id||0}
@@ -53,7 +54,7 @@ function normalize(d,ep,i){
 }
 function fnv1a(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return (h>>>0).toString(16).padStart(8,"0")}
 function evidenceIntegrity(r){
- const a=r.raw,checksum=Array.isArray(a)?"":(a.source?.line_checksum_fnv1a||a.source_checksum||a.line_checksum||a.checksum||"");
+ const a=r.raw,checksum=Array.isArray(a)?"":(a.source?.line_checksum_fnv1a||a.source_line_checksum_fnv1a||a.source_checksum||a.line_checksum||a.checksum||"");
  if(!Number.isInteger(r.line)||r.line<1||r.line>canon.length)return {label:"Invalid source line",bad:true};
  if(!checksum)return {label:"Source line linked; no checksum in record",bad:false};
  const actual=fnv1a(canon[r.line-1]);return {label:actual.toLowerCase()===String(checksum).toLowerCase()?"Source checksum matches":"Source checksum mismatch",bad:actual.toLowerCase()!==String(checksum).toLowerCase()};
@@ -62,7 +63,7 @@ function evidenceMeta(r){
  const a=r.raw,integ=evidenceIntegrity(r);
  if(Array.isArray(a))return '<p class="hint">Five-column original anchor retained: source line, pair, actor, action and classification. '+enc(integ.label)+'.</p>';
  const rows=[
-  ["Record ID",r.id],["Actor",r.actor],["Recipient",r.recipient||"Not specified"],
+  ["Record ID",r.id],["Actor",r.actor],["Recipient",r.recipient||"Not specified"],["Scene ID",a.scene_id||"Not specified"],["Outcome",a.outcome||"Not specified"],
   ["Observer",a.observer||a.observers||"Not specified"],
   ["Reported / observed",a.status||a.evidence||"Not specified"],
   ["Review status",r.review],["Record origin",r.file],
@@ -124,7 +125,7 @@ function searched(r,q){
  return false
 }
 function statusChip(status){
- return '<span class="badge '+(status==="UNREVIEWED_MENTION_WINDOW"?"pending":"")+'">'+enc(status==="UNREVIEWED_MENTION_WINDOW"?"Unreviewed reference":status==="VERIFIED_SOURCE_SCENE"?"Verified scene anchor":status==="source_linked_partial"?"Partial scene event":"Curated first pass")+'</span>'
+ return '<span class="badge '+(status==="UNREVIEWED_MENTION_WINDOW"?"pending":"")+'">'+enc(status==="UNREVIEWED_MENTION_WINDOW"?"Unreviewed reference":status==="VERIFIED_SOURCE_SCENE"?"Verified scene anchor":status==="source_linked_partial"?"Partial scene event":status==="source_linked_first_pass"?"Source-indexed first pass":status==="SOURCE_LINKED_FIRST_PASS_SCENE"?"Source-reviewed scene":"Curated first pass")+'</span>'
 }
 function actionCard(r){
  const a=r.raw,integrity=evidenceIntegrity(r);
@@ -210,8 +211,9 @@ function coverageMetrics(ep,p){
  const sc=scenes.filter(x=>x.episode===ep&&relevant(x,p)).length;
  const wc=windows.filter(x=>x.episode===ep&&relevant(x,p)).length;
  const first=curated.some(x=>x.episode===ep&&relevant(x,p)&&x.source_kind==="curated_first_pass");
+ const linePass=lineAudits.some(x=>x.episode===ep);
  const partial=curated.some(x=>x.episode===ep&&relevant(x,p)&&x.source_kind==="source_linked_partial");
- return {episode:ep,actions:ac,scenes:sc,windows:wc,status:first?"CURATED_FIRST_PASS":partial?"PARTIAL_SCENE_EVENTS":sc?"SCENE_ANCHOR_ONLY":wc?"DISCOVERY_ONLY":"NOT_REVIEWED"};
+ return {episode:ep,actions:ac,scenes:sc,windows:wc,status:first?"CURATED_FIRST_PASS":linePass?"LINE_DISPOSITION_FIRST_PASS":partial?"PARTIAL_SCENE_EVENTS":sc?"SCENE_ANCHOR_ONLY":wc?"DISCOVERY_ONLY":"NOT_REVIEWED"};
 }
 function coverageView(){
  const p=$("pair").value;
@@ -221,6 +223,18 @@ function coverageView(){
  '</tbody></table></div></article>';
  for(const b of $("results").querySelectorAll("[data-episode]"))b.onclick=()=>{$("episode").value=b.dataset.episode;$("scope").value="single";tab="history";render()};
  $("info").textContent="Coverage: "+rows.length+" episode slots shown · source-backed verification pending for all E01–E68.";$("more").hidden=true;
+}
+function lineqaView(){
+ const q=$("search").value.trim().toLowerCase();
+ const data=lineAudits.filter(x=>isInScope(x.episode));
+ if(!data.length){$("results").innerHTML='<article class="card">E01–E05: prior curated records exist; no line-complete second-pass QA certification yet.</article>';$("info").textContent="E06–E07 line audit only";$("more").hidden=true;return;}
+ const out=[];for(const d of data)for(const x of d.line_index){
+  const s=canon[x.line-1]||"";
+  if(q&&!(s.toLowerCase().includes(q)||x.disposition.toLowerCase().includes(q)||String(x.line).includes(q)))continue;
+  out.push('<div class="mini"><div class="row">'+link(x.line)+'<span class="muted">E'+d.episode+' · '+enc(x.disposition.replaceAll("_"," "))+'</span></div><div class="evidence">'+cue(s,$("search").value.trim())+'</div><p class="muted">First-pass event IDs: '+enc((x.event_ids||[]).join(", ")||"No pair event assigned")+'</p></div>');
+ }
+ $("results").innerHTML='<article class="card"><h2>E06–E07 source line audit</h2><p class="hint">All lines indexed, including context, blank and metadata lines. Semantic multi-action completeness not independently certified.</p>'+out.join("")+'</article>';
+ $("info").textContent=out.length+" original source line records";$("more").hidden=true;
 }
 function sourceView(){
  const p=$("pair").value,q=$("search").value.trim().toLowerCase();
@@ -254,13 +268,14 @@ function render(){
  else if(tab==="style")styleView();
  else if(tab==="coverage")coverageView();
  else if(tab==="source")sourceView();
+ else if(tab==="lineqa")lineqaView();
  else if(tab==="qa")qaView();
 }
 function downloadSelection(){
  const p=$("pair").value,e=$("episode").value,scope=$("scope").value;
  const matched=curated.concat(scenes,windows).filter(r=>relevant(r,p)&&isInScope(r.episode));
  const records=matched.map(r=>r.recordType==="action"?{record_type:r.source_kind==="source_linked_partial"?"partial_scene_event":"first_pass_action",id:r.id,episode:r.episode,source_line:r.line,source_file:r.file,source_integrity:evidenceIntegrity(r).label,source_record:r.raw}:r.recordType==="scene"?{record_type:"verified_scene_anchor",...r}:{record_type:"unreviewed_lexical_window",...r});
- const payload={schema:"unified_pair_filtered_export_v2",track:p,episode:e,scope,source:"raw/Dhika.txt",
+ const payload={schema:"unified_pair_filtered_export_v3",track:p,episode:e,scope,source:"raw/Dhika.txt",line_dispositions:lineAudits.filter(x=>isInScope(x.episode)).flatMap(x=>x.line_index),
   warning:"This is partial source indexing, not a verified relationship timeline. Canonical source prose is not duplicated in export.",audit_gaps:gaps.map(x=>({id:x.id,status:x.status||"OPEN"})),records};
  const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});
  const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="dhika-"+p.toLowerCase()+"-source-index.json";document.body.append(a);a.click();a.remove();URL.revokeObjectURL(url);
@@ -277,12 +292,25 @@ function downloadSelection(){
   const epIndex=[1,2,2,3,3,4,5,5,5,5];
   curated=data.slice(1,11).flatMap((d,i)=>normalize(d,epIndex[i],i)).map(r=>({...r,recordType:"action"}));
   curated.push(...data[13].records.map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.pair,actor:a.actor,recipient:a.recipient,action:a.action,kind:a.type,source_kind:a.source_kind,recordType:"action",file:loadPaths[13],raw:a,review:a.review,status:"fragment_only"})));
+  lineAudits=[data[14],data[15]];
+  for(let i=14;i<=15;i++){
+    curated.push(...data[i].events.filter(a=>a.track!=="NON_TWIN_CONTEXT").map(a=>({
+      id:a.id,episode:a.episode,line:a.line,pair:a.track,actor:a.actor,recipient:a.recipient||"",
+      action:a.action,kind:a.kind,source_kind:"source_linked_first_pass",
+      recordType:"action",file:loadPaths[i],raw:a,review:a.review,status:a.outcome
+    })));
+  }
+  scenes.push(
+    {id:"E06-SOLO",episode:6,start:1082,end:1138,track:"DY",participants:["Dhika","Bobby"],absent:["Bantu"],roles:"Bobby solo visit; Chotu arrives only later",kind:"bobby_solo_visit_and_tuition",recordType:"scene",source_kind:"SOURCE_LINKED_FIRST_PASS_SCENE"},
+    {id:"E07-SOLO",episode:7,start:1370,end:1501,track:"DB",participants:["Dhika","Bantu"],absent:["Bobby"],roles:"Single Monday visit. Bobby reported/remembered, not present",kind:"bantu_solo_visit_continuous",recordType:"scene",source_kind:"SOURCE_LINKED_FIRST_PASS_SCENE"},
+    {id:"E07-REMOTE",episode:7,start:1509,end:1535,track:"TRIO",participants:["Dhika","Bantu","Bobby"],roles:"Remote session continues directly in E08 L1544; no resolution in E07",kind:"remote_tuition_continues_e08",recordType:"scene",source_kind:"SOURCE_LINKED_FIRST_PASS_SCENE"}
+  );
   windows=makeWindows();
   for(let i=1;i<=68;i++){$("episode").insertAdjacentHTML("beforeend",'<option value="'+i+'">Episode '+String(i).padStart(2,"0")+'</option>')}
   $("stats").innerHTML=[
    [68,"Episode slots scanned"],[curated.length,"Indexed action tags"],[scenes.length,"Verified scene anchors"],[windows.length,"Unreviewed discovery windows"]
   ].map(a=>'<div><strong>'+a[0]+'</strong><small>'+a[1]+'</small></div>').join("");
-  $("status").textContent="Ready · original source plus prior curated records loaded. E01–E05 first pass; E06/E67/E68 selected partial event fragments; E06–E68 still need full line-by-line certification. No encounter inferred from name hits.";
+  $("status").textContent="Ready · E01–E05 earlier first pass; E06–E07 line-disposition indexes; E67–E68 partial fragments; exhaustive atomic QA not yet certified. No encounter inferred from name hits.";
   for(const id of ["pair","episode","scope","kind","search"])$(id).addEventListener(id==="search"?"input":"change",render);
   for(const b of document.querySelectorAll("[data-tab]"))b.onclick=()=>{tab=b.dataset.tab;render()};
   $("more").onclick=renderChunk;$("download").onclick=downloadSelection;render();
