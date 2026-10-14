@@ -1,0 +1,1597 @@
+{
+  "schema": "dhika-twins-source-action-v1",
+  "scope": "Episode 1 only — user-selected Bantu, Bobby, Dhika, and linked shared appearances",
+  "source": "raw/Dhika.txt",
+  "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "global_episode_range": [
+    3,
+    230
+  ],
+  "summary_of_scope": "Only direct or indirect twin-related evidence; unrelated Chotu and other character events deliberately omitted.",
+  "exact_evidence_policy": "Do not duplicate raw prose. The UI fetches the unchanged canonical source and highlights exact UTF-16 character offsets. No long original passage is rewritten.",
+  "source_warnings": [
+    {
+      "line": 45,
+      "issue": "Source speaker attribution appears inconsistent ('Dhika:' delivers compliment to miss). Preserve attribution as written; do not transfer to Bantu automatically."
+    },
+    {
+      "line": 79,
+      "issue": "E01 source refers to Bantu as 18; later user-stated age 20. Keep episode-time discrepancy open."
+    }
+  ],
+  "scene_order": [
+    {
+      "id": "E01-TW-01",
+      "label": "Morning college parking",
+      "lines": [
+        32,
+        48
+      ],
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "frame": "morning"
+    },
+    {
+      "id": "E01-TW-02",
+      "label": "4PM staff-room visit",
+      "lines": [
+        72,
+        82
+      ],
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "frame": "afternoon"
+    },
+    {
+      "id": "E01-TW-03",
+      "label": "Travel request and pretext",
+      "lines": [
+        83,
+        91
+      ],
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "frame": "afternoon"
+    },
+    {
+      "id": "E01-TW-04",
+      "label": "Bike ride, seating and contact",
+      "lines": [
+        92,
+        103
+      ],
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "frame": "afternoon"
+    },
+    {
+      "id": "E01-TW-05",
+      "label": "Aftermath and undisclosed motivations",
+      "lines": [
+        104,
+        108
+      ],
+      "participants": [
+        "Dhika",
+        "Bantu",
+        "Bobby"
+      ],
+      "frame": "afternoon"
+    },
+    {
+      "id": "E01-TW-06",
+      "label": "Later recollection of Bantu compliments",
+      "lines": [
+        201,
+        201
+      ],
+      "participants": [
+        "Dhika"
+      ],
+      "frame": "later"
+    }
+  ],
+  "relationship_baseline": {
+    "dhika_bantu": "Teacher/student; regular compliments initially uncomfortable but now anticipated; no in-person completed kiss or intimate contact between them in the tracked E01 scenes.",
+    "dhika_bobby": "Teacher/student; Bobby shy not timid; staffroom visual observation and bike ride skin contact; Dhika interprets him as innocent but Bobby privately wanted proximity.",
+    "trio": "Bantu and Bobby twins; shared physical presence during ride; Bobby's detailed contact is not knowledge attributed to Bantu."
+  },
+  "emotional_state_rules": {
+    "before_after": "Keep discomfort, embarrassment, shyness, curiosity, excitement and interpretation separate. Do not assign E68 emotional state retroactively to E01.",
+    "consent_logic": "Transport invitation and balance support are not unrestricted consent to unrelated contact."
+  },
+  "records": [
+    {
+      "id": "E01-AT-001",
+      "episode": 1,
+      "line": 33,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "compliment",
+      "type": "speech",
+      "status": "direct_dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 33,
+        "highlight_start": 7,
+        "highlight_end": 26,
+        "line_checksum_fnv1a": "63837698"
+      },
+      "note": "Prior compliment pattern begins before this line",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-002",
+      "episode": 1,
+      "line": 34,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "past_compliments_referenced",
+      "type": "reported",
+      "status": "direct_dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 34,
+        "highlight_start": 7,
+        "highlight_end": 26,
+        "line_checksum_fnv1a": "85388357"
+      },
+      "note": "Do not count as fresh independent past scene",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-003",
+      "episode": 1,
+      "line": 35,
+      "pair": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "blush_and_redirect",
+      "type": "response",
+      "status": "direct_narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 35,
+        "highlight_start": 7,
+        "highlight_end": 15,
+        "line_checksum_fnv1a": "34de22eb"
+      },
+      "note": "Mild positive response with discretion",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-004",
+      "episode": 1,
+      "line": 36,
+      "pair": "DB",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "privacy_concern",
+      "type": "inner_state",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 36,
+        "highlight_start": 54,
+        "highlight_end": 82,
+        "line_checksum_fnv1a": "cd092826"
+      },
+      "note": "Concern about public observation",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-005",
+      "episode": 1,
+      "line": 37,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Group",
+      "action": "favorites_status",
+      "type": "relationship",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 37,
+        "highlight_start": 51,
+        "highlight_end": 66,
+        "line_checksum_fnv1a": "5f4c6dda"
+      },
+      "note": "Teacher's exception for twins",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-006",
+      "episode": 1,
+      "line": 38,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_about_bobby",
+      "type": "speech",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 38,
+        "highlight_start": 26,
+        "highlight_end": 40,
+        "line_checksum_fnv1a": "fb138d63"
+      },
+      "note": "Asks absent twin whereabouts",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-007",
+      "episode": 1,
+      "line": 39,
+      "pair": "TRIO",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "identifies_bobby",
+      "type": "speech",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 39,
+        "highlight_start": 7,
+        "highlight_end": 18,
+        "line_checksum_fnv1a": "90080cd8"
+      },
+      "note": "Bobby nearby",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-008",
+      "episode": 1,
+      "line": 40,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "waves",
+      "type": "gesture",
+      "status": "direct_narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 40,
+        "highlight_start": 24,
+        "highlight_end": 38,
+        "line_checksum_fnv1a": "93ced31a"
+      },
+      "note": "Distant greeting",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-009",
+      "episode": 1,
+      "line": 41,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Group",
+      "action": "establishes_twins_students",
+      "type": "relationship",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 41,
+        "highlight_start": 0,
+        "highlight_end": 25,
+        "line_checksum_fnv1a": "5ec2aa03"
+      },
+      "note": "Twins and Dhika's students",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-010",
+      "episode": 1,
+      "line": 42,
+      "pair": "DY",
+      "actor": "Narrator",
+      "recipient": "Bobby",
+      "action": "shyness_not_timidity",
+      "type": "character_profile",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 42,
+        "highlight_start": 127,
+        "highlight_end": 163,
+        "line_checksum_fnv1a": "83216ecb"
+      },
+      "note": "Shy does not mean he lacks initiative",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-011",
+      "episode": 1,
+      "line": 43,
+      "pair": "DY",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "prefers_bobby_slightly",
+      "type": "relationship_state",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 43,
+        "highlight_start": 27,
+        "highlight_end": 55,
+        "line_checksum_fnv1a": "63e789ca"
+      },
+      "note": "Comparative preference, not commitment",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-012",
+      "episode": 1,
+      "line": 44,
+      "pair": "DB",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "earlier_discomfort",
+      "type": "past_mindset",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 44,
+        "highlight_start": 63,
+        "highlight_end": 96,
+        "line_checksum_fnv1a": "70b4e222"
+      },
+      "note": "Past comfort state",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-013",
+      "episode": 1,
+      "line": 44,
+      "pair": "DB",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "now_expects_compliments",
+      "type": "mindset_change",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 44,
+        "highlight_start": 205,
+        "highlight_end": 230,
+        "line_checksum_fnv1a": "70b4e222"
+      },
+      "note": "Current change from previous discomfort",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-014",
+      "episode": 1,
+      "line": 45,
+      "pair": "UNKNOWN",
+      "actor": "Attributed Dhika",
+      "recipient": "Unknown",
+      "action": "speaker_anomaly",
+      "type": "provenance_warning",
+      "status": "verbatim_speaker_disputed",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 45,
+        "highlight_start": 7,
+        "highlight_end": 37,
+        "line_checksum_fnv1a": "edefd3c8"
+      },
+      "note": "Source attributes to Dhika; do not silently reassign to Bantu",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-015",
+      "episode": 1,
+      "line": 46,
+      "pair": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "tells_to_stop_and_go_to_class",
+      "type": "request",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 46,
+        "highlight_start": 13,
+        "highlight_end": 42,
+        "line_checksum_fnv1a": "fbcd9468"
+      },
+      "note": "Redirection; not automatically strong refusal",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-016",
+      "episode": 1,
+      "line": 48,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "pink_cotton_saree",
+      "type": "clothing",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 48,
+        "highlight_start": 52,
+        "highlight_end": 69,
+        "line_checksum_fnv1a": "9dadc300"
+      },
+      "note": "College clothing baseline",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-017",
+      "episode": 1,
+      "line": 72,
+      "pair": "TRIO",
+      "actor": "Narrator",
+      "recipient": "Group",
+      "action": "staff_room_meeting",
+      "type": "setup",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 72,
+        "highlight_start": 95,
+        "highlight_end": 129,
+        "line_checksum_fnv1a": "a0fbb66d"
+      },
+      "note": "Second scene at 4 PM",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-018",
+      "episode": 1,
+      "line": 73,
+      "pair": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_reason_staying",
+      "type": "speech",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 73,
+        "highlight_start": 50,
+        "highlight_end": 85,
+        "line_checksum_fnv1a": "6a33405f"
+      },
+      "note": "Normal school conversation",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-019",
+      "episode": 1,
+      "line": 74,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "farewell_compliment",
+      "type": "speech",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 74,
+        "highlight_start": 29,
+        "highlight_end": 46,
+        "line_checksum_fnv1a": "741fb6ca"
+      },
+      "note": "Continued compliment dynamic",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-020",
+      "episode": 1,
+      "line": 75,
+      "pair": "DY",
+      "actor": "Narrator",
+      "recipient": "Bobby",
+      "action": "silence_observation",
+      "type": "observation",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 75,
+        "highlight_start": 23,
+        "highlight_end": 49,
+        "line_checksum_fnv1a": "c736c30c"
+      },
+      "note": "Present without speaking",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-021",
+      "episode": 1,
+      "line": 76,
+      "pair": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "deflects_compliment",
+      "type": "speech",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 76,
+        "highlight_start": 16,
+        "highlight_end": 29,
+        "line_checksum_fnv1a": "e4f51053"
+      },
+      "note": "No physical interaction",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-022",
+      "episode": 1,
+      "line": 77,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "repeats_compliment",
+      "type": "speech",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 77,
+        "highlight_start": 33,
+        "highlight_end": 47,
+        "line_checksum_fnv1a": "c3d99eb9"
+      },
+      "note": "Verbal affection",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-023",
+      "episode": 1,
+      "line": 78,
+      "pair": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "redirects_to_students",
+      "type": "speech",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 78,
+        "highlight_start": 23,
+        "highlight_end": 49,
+        "line_checksum_fnv1a": "cbc8f19f"
+      },
+      "note": "Teacher role remains relevant",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-024",
+      "episode": 1,
+      "line": 79,
+      "pair": "DB",
+      "actor": "Narrator",
+      "recipient": "Dhika",
+      "action": "blush_and_age_reference",
+      "type": "mindset",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 79,
+        "highlight_start": 36,
+        "highlight_end": 47,
+        "line_checksum_fnv1a": "6a793c80"
+      },
+      "note": "Source age at this episode; conflicts with later metadata",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-025",
+      "episode": 1,
+      "line": 80,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "intense_compliment",
+      "type": "speech",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 80,
+        "highlight_start": 100,
+        "highlight_end": 121,
+        "line_checksum_fnv1a": "ca63422a"
+      },
+      "note": "Author characterizes Bantu as persuasive",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-026",
+      "episode": 1,
+      "line": 81,
+      "pair": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "notices_saree_hip_gap",
+      "type": "gaze",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 81,
+        "highlight_start": 101,
+        "highlight_end": 136,
+        "line_checksum_fnv1a": "c642ef82"
+      },
+      "note": "Specific uncovered hip detail, not a physical touch",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-027",
+      "episode": 1,
+      "line": 81,
+      "pair": "DY",
+      "actor": "Narrator",
+      "recipient": "Bobby",
+      "action": "likes_teacher",
+      "type": "mindset",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 81,
+        "highlight_start": 193,
+        "highlight_end": 226,
+        "line_checksum_fnv1a": "c642ef82"
+      },
+      "note": "Narrator states interest",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-028",
+      "episode": 1,
+      "line": 82,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "notices_bobby_gaze",
+      "type": "gaze_awareness",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 82,
+        "highlight_start": 60,
+        "highlight_end": 78,
+        "line_checksum_fnv1a": "e33a32a2"
+      },
+      "note": "Dhika detects what he observed",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-029",
+      "episode": 1,
+      "line": 82,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "embarrassment",
+      "type": "mindset",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 82,
+        "highlight_start": 195,
+        "highlight_end": 211,
+        "line_checksum_fnv1a": "e33a32a2"
+      },
+      "note": "Emotion explicit",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-030",
+      "episode": 1,
+      "line": 82,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "deliberately_does_not_cover",
+      "type": "response",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 82,
+        "highlight_start": 216,
+        "highlight_end": 231,
+        "line_checksum_fnv1a": "e33a32a2"
+      },
+      "note": "Reason: not embarrassing Bobby",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-031",
+      "episode": 1,
+      "line": 82,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "blush",
+      "type": "response",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 82,
+        "highlight_start": 275,
+        "highlight_end": 295,
+        "line_checksum_fnv1a": "e33a32a2"
+      },
+      "note": "Response to observation",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-032",
+      "episode": 1,
+      "line": 83,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "requests_ride",
+      "type": "request",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 83,
+        "highlight_start": 57,
+        "highlight_end": 80,
+        "line_checksum_fnv1a": "1f5d9b76"
+      },
+      "note": "Initiates travel setup",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-033",
+      "episode": 1,
+      "line": 84,
+      "pair": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "asks_transport_reason",
+      "type": "question",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 84,
+        "highlight_start": 20,
+        "highlight_end": 40,
+        "line_checksum_fnv1a": "2eb208d7"
+      },
+      "note": "Questions ride request",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-034",
+      "episode": 1,
+      "line": 85,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "false_petrol_explanation",
+      "type": "speech",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 85,
+        "highlight_start": 15,
+        "highlight_end": 26,
+        "line_checksum_fnv1a": "5e579115"
+      },
+      "note": "Narration contradicts this in L90",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-035",
+      "episode": 1,
+      "line": 86,
+      "pair": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "offers_money",
+      "type": "offer",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 86,
+        "highlight_start": 44,
+        "highlight_end": 60,
+        "line_checksum_fnv1a": "417e2db8"
+      },
+      "note": "Practical solution offered",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-036",
+      "episode": 1,
+      "line": 87,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "refuses_money",
+      "type": "speech",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 87,
+        "highlight_start": 26,
+        "highlight_end": 40,
+        "line_checksum_fnv1a": "4976660d"
+      },
+      "note": "Continues effort to ride along",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-037",
+      "episode": 1,
+      "line": 89,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "repeats_ride_request",
+      "type": "request",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 89,
+        "highlight_start": 20,
+        "highlight_end": 39,
+        "line_checksum_fnv1a": "b1f40d4e"
+      },
+      "note": "Persistent request",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-038",
+      "episode": 1,
+      "line": 90,
+      "pair": "DB",
+      "actor": "Narrator",
+      "recipient": "Bantu",
+      "action": "reveals_pretext",
+      "type": "setup_motive",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 90,
+        "highlight_start": 10,
+        "highlight_end": 37,
+        "line_checksum_fnv1a": "e12a5ccd"
+      },
+      "note": "His request is not due to mechanical problem",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-039",
+      "episode": 1,
+      "line": 90,
+      "pair": "DB",
+      "actor": "Narrator",
+      "recipient": "Bantu",
+      "action": "wanted_to_ride_close",
+      "type": "motivation",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 90,
+        "highlight_start": 39,
+        "highlight_end": 70,
+        "line_checksum_fnv1a": "e12a5ccd"
+      },
+      "note": "Do not infer Dhika knows this motive",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-040",
+      "episode": 1,
+      "line": 91,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Twins",
+      "action": "accepts_ride",
+      "type": "decision",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 91,
+        "highlight_start": 27,
+        "highlight_end": 47,
+        "line_checksum_fnv1a": "8a729958"
+      },
+      "note": "Consent to transport not other acts",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-041",
+      "episode": 1,
+      "line": 92,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "gaze_during_walk",
+      "type": "gaze",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 92,
+        "highlight_start": 90,
+        "highlight_end": 113,
+        "line_checksum_fnv1a": "51511205"
+      },
+      "note": "Visual observation; body area in full source",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-042",
+      "episode": 1,
+      "line": 92,
+      "pair": "TRIO",
+      "actor": "Bantu",
+      "recipient": "Bobby",
+      "action": "recognizes_bobby_gaze",
+      "type": "knowledge",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 92,
+        "highlight_start": 184,
+        "highlight_end": 197,
+        "line_checksum_fnv1a": "51511205"
+      },
+      "note": "Bantu notices Bobby looking",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-043",
+      "episode": 1,
+      "line": 92,
+      "pair": "TRIO",
+      "actor": "Bantu",
+      "recipient": "Bobby",
+      "action": "shoulder_nudge",
+      "type": "contact",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 92,
+        "highlight_start": 213,
+        "highlight_end": 247,
+        "line_checksum_fnv1a": "51511205"
+      },
+      "note": "Contact between twins, not Dhika",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-044",
+      "episode": 1,
+      "line": 92,
+      "pair": "TRIO",
+      "actor": "Bantu",
+      "recipient": "Bobby",
+      "action": "wink",
+      "type": "gesture",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 92,
+        "highlight_start": 252,
+        "highlight_end": 265,
+        "line_checksum_fnv1a": "51511205"
+      },
+      "note": "Nonverbal communication",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-045",
+      "episode": 1,
+      "line": 92,
+      "pair": "TRIO",
+      "actor": "Bobby",
+      "recipient": "Bantu",
+      "action": "blush_smile",
+      "type": "response",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 92,
+        "highlight_start": 267,
+        "highlight_end": 301,
+        "line_checksum_fnv1a": "51511205"
+      },
+      "note": "Shared observational moment",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-046",
+      "episode": 1,
+      "line": 93,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Twins",
+      "action": "sets_seating_order",
+      "type": "request",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 93,
+        "highlight_start": 31,
+        "highlight_end": 51,
+        "line_checksum_fnv1a": "1b5641d0"
+      },
+      "note": "Bobby middle, Bantu rear",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-047",
+      "episode": 1,
+      "line": 94,
+      "pair": "DY",
+      "actor": "Bobby",
+      "recipient": "Self",
+      "action": "wants_proximity",
+      "type": "inner_motive",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 94,
+        "highlight_start": 49,
+        "highlight_end": 75,
+        "line_checksum_fnv1a": "89b52def"
+      },
+      "note": "Motive given by narrator",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-048",
+      "episode": 1,
+      "line": 94,
+      "pair": "DY",
+      "actor": "Bobby",
+      "recipient": "Self",
+      "action": "does_not_tell_bantu",
+      "type": "knowledge_gap",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 94,
+        "highlight_start": 80,
+        "highlight_end": 107,
+        "line_checksum_fnv1a": "89b52def"
+      },
+      "note": "Asymmetry between twins",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-049",
+      "episode": 1,
+      "line": 95,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Self",
+      "action": "wants_proximity",
+      "type": "inner_motive",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 95,
+        "highlight_start": 0,
+        "highlight_end": 34,
+        "line_checksum_fnv1a": "6a5f989f"
+      },
+      "note": "Bantu seeks middle seat",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-050",
+      "episode": 1,
+      "line": 95,
+      "pair": "TRIO",
+      "actor": "Bobby",
+      "recipient": "Motorbike",
+      "action": "boards_first",
+      "type": "positioning",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 95,
+        "highlight_start": 79,
+        "highlight_end": 107,
+        "line_checksum_fnv1a": "6a5f989f"
+      },
+      "note": "Wins the middle seat",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-051",
+      "episode": 1,
+      "line": 95,
+      "pair": "TRIO",
+      "actor": "Bantu",
+      "recipient": "Motorbike",
+      "action": "boards_behind",
+      "type": "positioning",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 95,
+        "highlight_start": 139,
+        "highlight_end": 161,
+        "line_checksum_fnv1a": "6a5f989f"
+      },
+      "note": "Bantu sits behind Bobby",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-052",
+      "episode": 1,
+      "line": 96,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Bobby",
+      "action": "allows_holding_for_balance",
+      "type": "request",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 96,
+        "highlight_start": 14,
+        "highlight_end": 29,
+        "line_checksum_fnv1a": "90be51e6"
+      },
+      "note": "She later reveals she meant shoulders",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-053",
+      "episode": 1,
+      "line": 96,
+      "pair": "TRIO",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "instructs_hold_bobby",
+      "type": "request",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 96,
+        "highlight_start": 62,
+        "highlight_end": 87,
+        "line_checksum_fnv1a": "90be51e6"
+      },
+      "note": "Seating guidance",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-054",
+      "episode": 1,
+      "line": 97,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Self",
+      "action": "disappointment",
+      "type": "mindset",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 97,
+        "highlight_start": 32,
+        "highlight_end": 45,
+        "line_checksum_fnv1a": "ba9cdbcc"
+      },
+      "note": "Bantu's unmet preference",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-055",
+      "episode": 1,
+      "line": 98,
+      "pair": "DY",
+      "actor": "Bobby",
+      "recipient": "Self",
+      "action": "quiet_amusement",
+      "type": "mindset",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 98,
+        "highlight_start": 7,
+        "highlight_end": 24,
+        "line_checksum_fnv1a": "dc2fad91"
+      },
+      "note": "Reaction",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-056",
+      "episode": 1,
+      "line": 99,
+      "pair": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "arms_encircle_hips",
+      "type": "physical_contact",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 99,
+        "highlight_start": 90,
+        "highlight_end": 119,
+        "line_checksum_fnv1a": "d4b12ab0"
+      },
+      "note": "Completed contact",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-057",
+      "episode": 1,
+      "line": 99,
+      "pair": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "holds_stomach",
+      "type": "physical_contact",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 99,
+        "highlight_start": 124,
+        "highlight_end": 148,
+        "line_checksum_fnv1a": "d4b12ab0"
+      },
+      "note": "Completed contact; separate from hips",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-058",
+      "episode": 1,
+      "line": 100,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "expected_shoulder_hold",
+      "type": "internal_expectation",
+      "status": "internal_dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 100,
+        "highlight_start": 50,
+        "highlight_end": 67,
+        "line_checksum_fnv1a": "bba1cf55"
+      },
+      "note": "Mismatch between offered balance and actual contact",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-059",
+      "episode": 1,
+      "line": 101,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "interprets_as_innocent",
+      "type": "interpretation",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 101,
+        "highlight_start": 65,
+        "highlight_end": 77,
+        "line_checksum_fnv1a": "c025e672"
+      },
+      "note": "Dhika's interpretation, not established Bobby intent",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-060",
+      "episode": 1,
+      "line": 101,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "chooses_not_to_object",
+      "type": "response",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 101,
+        "highlight_start": 86,
+        "highlight_end": 114,
+        "line_checksum_fnv1a": "c025e672"
+      },
+      "note": "Not evidence of advance permission",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-061",
+      "episode": 1,
+      "line": 102,
+      "pair": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "finger_tapping_belly_over_saree",
+      "type": "physical_contact",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 102,
+        "highlight_start": 88,
+        "highlight_end": 137,
+        "line_checksum_fnv1a": "5331d82a"
+      },
+      "note": "Over clothing",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-062",
+      "episode": 1,
+      "line": 102,
+      "pair": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "hands_shift_at_hips",
+      "type": "physical_contact",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 102,
+        "highlight_start": 170,
+        "highlight_end": 199,
+        "line_checksum_fnv1a": "5331d82a"
+      },
+      "note": "Movement while seated",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-063",
+      "episode": 1,
+      "line": 102,
+      "pair": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "rub_bare_hip",
+      "type": "physical_contact",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 102,
+        "highlight_start": 223,
+        "highlight_end": 251,
+        "line_checksum_fnv1a": "5331d82a"
+      },
+      "note": "Specific skin contact",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-064",
+      "episode": 1,
+      "line": 103,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "chill_reaction",
+      "type": "body_response",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 103,
+        "highlight_start": 4,
+        "highlight_end": 16,
+        "line_checksum_fnv1a": "3c21c56e"
+      },
+      "note": "Author explicitly describes reaction",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-065",
+      "episode": 1,
+      "line": 103,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "prior_contact_belief",
+      "type": "historical_milestone",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 103,
+        "highlight_start": 38,
+        "highlight_end": 63,
+        "line_checksum_fnv1a": "3c21c56e"
+      },
+      "note": "Character-viewpoint prior limit, not full historical audit",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-066",
+      "episode": 1,
+      "line": 103,
+      "pair": "DY",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "shyness",
+      "type": "mindset",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 103,
+        "highlight_start": 104,
+        "highlight_end": 120,
+        "line_checksum_fnv1a": "3c21c56e"
+      },
+      "note": "Emotion explicit",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-067",
+      "episode": 1,
+      "line": 103,
+      "pair": "TRIO",
+      "actor": "Group",
+      "recipient": "Group",
+      "action": "ride_ends",
+      "type": "scene_end",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 103,
+        "highlight_start": 167,
+        "highlight_end": 194,
+        "line_checksum_fnv1a": "3c21c56e"
+      },
+      "note": "Physical contact encounter ends",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-068",
+      "episode": 1,
+      "line": 104,
+      "pair": "DY",
+      "actor": "Bobby",
+      "recipient": "Dhika",
+      "action": "thanks_with_shy_smile",
+      "type": "dialogue",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 104,
+        "highlight_start": 41,
+        "highlight_end": 50,
+        "line_checksum_fnv1a": "8ba31c13"
+      },
+      "note": "Aftermath",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-069",
+      "episode": 1,
+      "line": 105,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "thanks_sadly",
+      "type": "dialogue",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 105,
+        "highlight_start": 34,
+        "highlight_end": 39,
+        "line_checksum_fnv1a": "9511eb49"
+      },
+      "note": "Aftermath",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-070",
+      "episode": 1,
+      "line": 106,
+      "pair": "DB",
+      "actor": "Dhika",
+      "recipient": "Bantu",
+      "action": "notices_his_mood",
+      "type": "question",
+      "status": "dialogue",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 106,
+        "highlight_start": 30,
+        "highlight_end": 51,
+        "line_checksum_fnv1a": "6dc25f16"
+      },
+      "note": "Dhika detects dissatisfaction but not the motive",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-071",
+      "episode": 1,
+      "line": 107,
+      "pair": "DB",
+      "actor": "Bantu",
+      "recipient": "Dhika",
+      "action": "withholds_reason",
+      "type": "knowledge_gap",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 107,
+        "highlight_start": 34,
+        "highlight_end": 67,
+        "line_checksum_fnv1a": "0d57240b"
+      },
+      "note": "Bantu conceals motive",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-072",
+      "episode": 1,
+      "line": 108,
+      "pair": "TRIO",
+      "actor": "Bantu",
+      "recipient": "Bobby",
+      "action": "scolds_for_boarding",
+      "type": "conflict",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 108,
+        "highlight_start": 44,
+        "highlight_end": 57,
+        "line_checksum_fnv1a": "aa343c5e"
+      },
+      "note": "After ride",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-073",
+      "episode": 1,
+      "line": 108,
+      "pair": "TRIO",
+      "actor": "Bobby",
+      "recipient": "Bantu",
+      "action": "hides_ride_detail",
+      "type": "knowledge_gap",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 108,
+        "highlight_start": 95,
+        "highlight_end": 126,
+        "line_checksum_fnv1a": "aa343c5e"
+      },
+      "note": "Knowledge asymmetric; narrator statement about Bobby",
+      "review": "source_fragment_located"
+    },
+    {
+      "id": "E01-AT-074",
+      "episode": 1,
+      "line": 201,
+      "pair": "DB",
+      "actor": "Dhika",
+      "recipient": "Self",
+      "action": "remembers_daily_compliment",
+      "type": "indirect_memory",
+      "status": "narration",
+      "source": {
+        "file": "raw/Dhika.txt",
+        "global_line": 201,
+        "highlight_start": 15,
+        "highlight_end": 48,
+        "line_checksum_fnv1a": "0505a8e3"
+      },
+      "note": "Later callback, not a fresh Bantu encounter",
+      "review": "source_fragment_located"
+    }
+  ]
+}
