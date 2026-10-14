@@ -1,0 +1,3696 @@
+{
+  "schema": "dhika_twins_e06_line_ledger_v1",
+  "source": "raw/Dhika.txt",
+  "source_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "episode": 6,
+  "source_range": [
+    1067,
+    1297
+  ],
+  "line_count": 231,
+  "status": "FULL_LINE_DISPOSITION_WITH_SOURCE_LINKED_FIRST_PASS_EVENTS_NOT_SECOND_PASS_CERTIFIED",
+  "scope_policy": "Separate Bobby solo from Bobby+Chotu group; Bantu absent for their scenes. Chotu-only after Bobby exit is context, not Bobby action.",
+  "not_assumed": [
+    "Bantu hears what Bobby plans to tell him at line 1198",
+    "Bobby stayed after line 1199",
+    "Bobby has knowledge of Chotu-only follow-on",
+    "No direct new twin action is inferred from Chotu-only aftermath",
+    "One source line with separate actions may need later independent QA"
+  ],
+  "scenes": [
+    {
+      "id": "E06-S01",
+      "episode": 6,
+      "start": 1071,
+      "end": 1081,
+      "title": "Saturday preparations and Chotu delayed; no twins present",
+      "participants": [
+        "Dhika",
+        "John",
+        "Pappu",
+        "Chotu (expected)"
+      ],
+      "kind": "context_no_twins",
+      "source_verified": true,
+      "atomic_qa_certified": false
+    },
+    {
+      "id": "E06-S02",
+      "episode": 6,
+      "start": 1082,
+      "end": 1105,
+      "title": "Bobby arrives alone; physics competition and shy conversation",
+      "participants": [
+        "Dhika",
+        "Bobby"
+      ],
+      "kind": "dy_direct_bantu_absent",
+      "source_verified": true,
+      "atomic_qa_certified": false
+    },
+    {
+      "id": "E06-S03",
+      "episode": 6,
+      "start": 1106,
+      "end": 1138,
+      "title": "Bobby solo tuition discussion and reactions",
+      "participants": [
+        "Dhika",
+        "Bobby"
+      ],
+      "kind": "dy_direct_bantu_absent",
+      "source_verified": true,
+      "atomic_qa_certified": false
+    },
+    {
+      "id": "E06-S04",
+      "episode": 6,
+      "start": 1139,
+      "end": 1142,
+      "title": "Doorbell and Chotu arrival ends Bobby solo interval",
+      "participants": [
+        "Dhika",
+        "Bobby",
+        "Chotu"
+      ],
+      "kind": "transition_to_group",
+      "source_verified": true,
+      "atomic_qa_certified": false
+    },
+    {
+      "id": "E06-S05",
+      "episode": 6,
+      "start": 1143,
+      "end": 1168,
+      "title": "Introductions, Bobby asks to stay, group painting",
+      "participants": [
+        "Dhika",
+        "Bobby",
+        "Chotu"
+      ],
+      "kind": "dbc_direct_bantu_absent",
+      "source_verified": true,
+      "atomic_qa_certified": false
+    },
+    {
+      "id": "E06-S06",
+      "episode": 6,
+      "start": 1169,
+      "end": 1199,
+      "title": "Group painting, accident, practical help and Bobby departure",
+      "participants": [
+        "Dhika",
+        "Bobby",
+        "Chotu"
+      ],
+      "kind": "dbc_direct_bantu_absent",
+      "source_verified": true,
+      "atomic_qa_certified": false
+    },
+    {
+      "id": "E06-S07",
+      "episode": 6,
+      "start": 1200,
+      "end": 1293,
+      "title": "Chotu–Dhika remaining encounter and immediate aftermath",
+      "participants": [
+        "Dhika",
+        "Chotu"
+      ],
+      "kind": "chotu_only_no_twins",
+      "source_verified": true,
+      "atomic_qa_certified": false
+    }
+  ],
+  "events": [
+    {
+      "id": "E06-AT-001",
+      "episode": 6,
+      "line": 1082,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "bobby_arrives_alone",
+      "kind": "arrival",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1082",
+      "source_line_checksum_fnv1a": "351e4d4b",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-002",
+      "episode": 6,
+      "line": 1083,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "notices_unexpected_solo_arrival",
+      "kind": "reaction",
+      "outcome": "internal",
+      "source_ref": "raw/Dhika.txt#L1083",
+      "source_line_checksum_fnv1a": "5e27a296",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-003",
+      "episode": 6,
+      "line": 1083,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "opens_door_and_greets_bobby",
+      "kind": "welcome",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1083",
+      "source_line_checksum_fnv1a": "5e27a296",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-004",
+      "episode": 6,
+      "line": 1085,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "says_wishes_to_talk",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1085",
+      "source_line_checksum_fnv1a": "ce2ae43f",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-005",
+      "episode": 6,
+      "line": 1086,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "invites_bobby_in_and_offers_water",
+      "kind": "welcome",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1086",
+      "source_line_checksum_fnv1a": "f56a4b98",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-006",
+      "episode": 6,
+      "line": 1087,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "sits_while_dhika_brings_water",
+      "kind": "action",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1087",
+      "source_line_checksum_fnv1a": "ce448c54",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-007",
+      "episode": 6,
+      "line": 1087,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "observes_dhika_walking",
+      "kind": "visual_observation",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1087",
+      "source_line_checksum_fnv1a": "ce448c54",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-008",
+      "episode": 6,
+      "line": 1088,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "asks_about_bantu",
+      "kind": "question",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1088",
+      "source_line_checksum_fnv1a": "5df0e0d4",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-009",
+      "episode": 6,
+      "line": 1089,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "reports_bantu_outstation_with_father",
+      "kind": "third_party_report",
+      "outcome": "reported",
+      "source_ref": "raw/Dhika.txt#L1089",
+      "source_line_checksum_fnv1a": "0b1cde7f",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-010",
+      "episode": 6,
+      "line": 1090,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "praises_bobby_and_sits_near",
+      "kind": "dialogue_motion",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1090",
+      "source_line_checksum_fnv1a": "8aef5420",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-011",
+      "episode": 6,
+      "line": 1092,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "introduces_physics_competition",
+      "kind": "academic_dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1092",
+      "source_line_checksum_fnv1a": "dd13a56d",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-012",
+      "episode": 6,
+      "line": 1093,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "recognizes_swiss_destination",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1093",
+      "source_line_checksum_fnv1a": "f48ecf2d",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-013",
+      "episode": 6,
+      "line": 1094,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "requests_prep_help_for_both_twins",
+      "kind": "request",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1094",
+      "source_line_checksum_fnv1a": "a8b4cff6",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-014",
+      "episode": 6,
+      "line": 1095,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "accepts_help_request",
+      "kind": "permission",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1095",
+      "source_line_checksum_fnv1a": "1cceac53",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-015",
+      "episode": 6,
+      "line": 1096,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "thanks_for_help",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1096",
+      "source_line_checksum_fnv1a": "bc6f27c0",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-016",
+      "episode": 6,
+      "line": 1097,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "reports_bobby_private_reason_for_visit",
+      "kind": "narrated_intent",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1097",
+      "source_line_checksum_fnv1a": "ff9c2aa7",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-017",
+      "episode": 6,
+      "line": 1097,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "reports_bobby_unsure_how_to_continue",
+      "kind": "emotional_state",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1097",
+      "source_line_checksum_fnv1a": "ff9c2aa7",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-018",
+      "episode": 6,
+      "line": 1098,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "encourages_more_open_speech",
+      "kind": "encouragement",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1098",
+      "source_line_checksum_fnv1a": "501efaa2",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-019",
+      "episode": 6,
+      "line": 1099,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "responds_with_embarrassment",
+      "kind": "emotion",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1099",
+      "source_line_checksum_fnv1a": "2d9f3f93",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-020",
+      "episode": 6,
+      "line": 1100,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "requests_eye_contact",
+      "kind": "request",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1100",
+      "source_line_checksum_fnv1a": "bf486b7d",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-021",
+      "episode": 6,
+      "line": 1101,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "looks_toward_her",
+      "kind": "response",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1101",
+      "source_line_checksum_fnv1a": "f5b60090",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-022",
+      "episode": 6,
+      "line": 1102,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "teases_bobby_about_past_gaze",
+      "kind": "memory_in_dialogue",
+      "outcome": "not_new_action",
+      "source_ref": "raw/Dhika.txt#L1102",
+      "source_line_checksum_fnv1a": "387c4aba",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-023",
+      "episode": 6,
+      "line": 1103,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "apologizes",
+      "kind": "apology",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1103",
+      "source_line_checksum_fnv1a": "4ffc6e3b",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-024",
+      "episode": 6,
+      "line": 1104,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "clarifies_it_was_teasing",
+      "kind": "reassurance",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1104",
+      "source_line_checksum_fnv1a": "8ec8e6d3",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-025",
+      "episode": 6,
+      "line": 1105,
+      "scene_id": "E06-S02",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "forms_plan_to_help_bobby_talk",
+      "kind": "intent",
+      "outcome": "internal",
+      "source_ref": "raw/Dhika.txt#L1105",
+      "source_line_checksum_fnv1a": "9f580ce1",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-026",
+      "episode": 6,
+      "line": 1106,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "offers_study_session",
+      "kind": "offer",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1106",
+      "source_line_checksum_fnv1a": "c559e3d5",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-027",
+      "episode": 6,
+      "line": 1107,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "expects_study_topic_to_help_dialogue",
+      "kind": "internal_reason",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1107",
+      "source_line_checksum_fnv1a": "708d571b",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-028",
+      "episode": 6,
+      "line": 1108,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "accepts_study_offer",
+      "kind": "acceptance",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1108",
+      "source_line_checksum_fnv1a": "6194ab2f",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-029",
+      "episode": 6,
+      "line": 1109,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Group",
+      "action": "moves_to_floor_for_tuition",
+      "kind": "task_start",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1109",
+      "source_line_checksum_fnv1a": "a4d2229a",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-030",
+      "episode": 6,
+      "line": 1109,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "adjusts_seating_posture",
+      "kind": "clothing_boundary_management",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1109",
+      "source_line_checksum_fnv1a": "a4d2229a",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-031",
+      "episode": 6,
+      "line": 1110,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "bobby_more_active_without_bantu",
+      "kind": "interaction_observation",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1110",
+      "source_line_checksum_fnv1a": "98992bea",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-032",
+      "episode": 6,
+      "line": 1110,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "pleased_with_increasing_rapport",
+      "kind": "emotional_state",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1110",
+      "source_line_checksum_fnv1a": "98992bea",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-033",
+      "episode": 6,
+      "line": 1111,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "comments_on_bobby_participation",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1111",
+      "source_line_checksum_fnv1a": "0cc25ea7",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-034",
+      "episode": 6,
+      "line": 1113,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "encourages_openness",
+      "kind": "encouragement",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1113",
+      "source_line_checksum_fnv1a": "71825120",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-035",
+      "episode": 6,
+      "line": 1114,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "notices_heat_and_sweat",
+      "kind": "environment_observation",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1114",
+      "source_line_checksum_fnv1a": "e5d3dce7",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-036",
+      "episode": 6,
+      "line": 1115,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "comments_on_heat",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1115",
+      "source_line_checksum_fnv1a": "f502495b",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-037",
+      "episode": 6,
+      "line": 1117,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "suggests_bobby_remove_shirt_because_hot",
+      "kind": "request",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1117",
+      "source_line_checksum_fnv1a": "a2cf4c01",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-038",
+      "episode": 6,
+      "line": 1118,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "declines_initial_request",
+      "kind": "refusal",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1118",
+      "source_line_checksum_fnv1a": "fe158474",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-039",
+      "episode": 6,
+      "line": 1119,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "tries_to_reassure_bobby",
+      "kind": "encouragement",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1119",
+      "source_line_checksum_fnv1a": "f4f59e70",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-040",
+      "episode": 6,
+      "line": 1120,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "explains_not_wearing_vest",
+      "kind": "explanation",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1120",
+      "source_line_checksum_fnv1a": "23e52870",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-041",
+      "episode": 6,
+      "line": 1122,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "does_not_change_after_initial_request",
+      "kind": "noncompliance",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1122",
+      "source_line_checksum_fnv1a": "b7879a9b",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-042",
+      "episode": 6,
+      "line": 1123,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "proposes_mutual_comfort_condition",
+      "kind": "proposal",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1123",
+      "source_line_checksum_fnv1a": "5eeb44f8",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-043",
+      "episode": 6,
+      "line": 1124,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "knots_own_shirt",
+      "kind": "garment_state_change",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1124",
+      "source_line_checksum_fnv1a": "2ea4a940",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-044",
+      "episode": 6,
+      "line": 1124,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "reacts_shyly_after_adjustment",
+      "kind": "emotional_state",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1124",
+      "source_line_checksum_fnv1a": "2ea4a940",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-045",
+      "episode": 6,
+      "line": 1126,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "removes_own_shirt",
+      "kind": "garment_state_change",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1126",
+      "source_line_checksum_fnv1a": "12928656",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-046",
+      "episode": 6,
+      "line": 1127,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "comments_on_steps_to_make_him_comfortable",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1127",
+      "source_line_checksum_fnv1a": "39d36860",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-047",
+      "episode": 6,
+      "line": 1128,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "says_he_is_shy_with_everyone",
+      "kind": "self_report",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1128",
+      "source_line_checksum_fnv1a": "976bb3f7",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-048",
+      "episode": 6,
+      "line": 1129,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "starts_prior_exposure_reference_then_stops",
+      "kind": "interrupted_dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1129",
+      "source_line_checksum_fnv1a": "11a8e805",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-049",
+      "episode": 6,
+      "line": 1130,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "laughs_openly",
+      "kind": "reaction",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1130",
+      "source_line_checksum_fnv1a": "b31b3c0d",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-050",
+      "episode": 6,
+      "line": 1131,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "resumes_tuition",
+      "kind": "task_resume",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1131",
+      "source_line_checksum_fnv1a": "eafbdd95",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-051",
+      "episode": 6,
+      "line": 1132,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "struggles_to_focus_during_lesson",
+      "kind": "inner_state",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1132",
+      "source_line_checksum_fnv1a": "6dabd714",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-052",
+      "episode": 6,
+      "line": 1134,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "notices_bobby_reaction_and_becomes_shy",
+      "kind": "observation_reaction",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1134",
+      "source_line_checksum_fnv1a": "a21325f7",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-053",
+      "episode": 6,
+      "line": 1134,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "changes_seating_posture",
+      "kind": "posture_change",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1134",
+      "source_line_checksum_fnv1a": "a21325f7",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-054",
+      "episode": 6,
+      "line": 1135,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "notices_bobby_gaze_and_appearance",
+      "kind": "visual_observation",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1135",
+      "source_line_checksum_fnv1a": "e3e16369",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-055",
+      "episode": 6,
+      "line": 1136,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "sees_clothing_visibility_due_to_posture",
+      "kind": "visual_observation",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1136",
+      "source_line_checksum_fnv1a": "2a09eb05",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-056",
+      "episode": 6,
+      "line": 1137,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "experiences_embarrassment_and_excitation",
+      "kind": "mixed_emotion",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1137",
+      "source_line_checksum_fnv1a": "e62bfdd4",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-057",
+      "episode": 6,
+      "line": 1138,
+      "scene_id": "E06-S03",
+      "track": "DY",
+      "actor": "Narrator",
+      "action": "doorbell_interrupts_solo_study",
+      "kind": "interruption",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1138",
+      "source_line_checksum_fnv1a": "c536db45",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-058",
+      "episode": 6,
+      "line": 1139,
+      "scene_id": "E06-S04",
+      "track": "DBC",
+      "actor": "Chotu",
+      "action": "calls_from_door",
+      "kind": "arrival_announced",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1139",
+      "source_line_checksum_fnv1a": "d38ae7f6",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-059",
+      "episode": 6,
+      "line": 1140,
+      "scene_id": "E06-S04",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "stands_and_corrects_clothing",
+      "kind": "garment_state_restore",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1140",
+      "source_line_checksum_fnv1a": "8a0cd5be",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-060",
+      "episode": 6,
+      "line": 1141,
+      "scene_id": "E06-S04",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "greets_and_hugs_chotu",
+      "kind": "group_arrival",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1141",
+      "source_line_checksum_fnv1a": "aabe39ac",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-061",
+      "episode": 6,
+      "line": 1142,
+      "scene_id": "E06-S04",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "puts_own_shirt_back_on",
+      "kind": "garment_state_restore",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1142",
+      "source_line_checksum_fnv1a": "8538c8a9",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-062",
+      "episode": 6,
+      "line": 1143,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "introduces_bobby_to_chotu",
+      "kind": "introduction",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1143",
+      "source_line_checksum_fnv1a": "763fadfc",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-063",
+      "episode": 6,
+      "line": 1144,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Chotu",
+      "action": "greets_bobby",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1144",
+      "source_line_checksum_fnv1a": "bc606aef",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-064",
+      "episode": 6,
+      "line": 1145,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "introduces_chotu_to_bobby",
+      "kind": "introduction",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1145",
+      "source_line_checksum_fnv1a": "29b37c89",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-065",
+      "episode": 6,
+      "line": 1146,
+      "scene_id": "E06-S05",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "offers_to_depart",
+      "kind": "departure_offer",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1146",
+      "source_line_checksum_fnv1a": "4f2b14a9",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-066",
+      "episode": 6,
+      "line": 1147,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "asks_chotu_to_wait_while_bobby_leaves",
+      "kind": "request",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1147",
+      "source_line_checksum_fnv1a": "23f7621c",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-067",
+      "episode": 6,
+      "line": 1148,
+      "scene_id": "E06-S05",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "turns_back_before_departing",
+      "kind": "transition",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1148",
+      "source_line_checksum_fnv1a": "d74ee6d3",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-068",
+      "episode": 6,
+      "line": 1149,
+      "scene_id": "E06-S05",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "asks_permission_to_stay_and_help_paint",
+      "kind": "request",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1149",
+      "source_line_checksum_fnv1a": "459da6a1",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-069",
+      "episode": 6,
+      "line": 1150,
+      "scene_id": "E06-S05",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "checks_if_bobby_is_sure",
+      "kind": "question",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1150",
+      "source_line_checksum_fnv1a": "5977b952",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-070",
+      "episode": 6,
+      "line": 1151,
+      "scene_id": "E06-S05",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "confirms_request",
+      "kind": "confirmation",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1151",
+      "source_line_checksum_fnv1a": "a2618a2a",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-071",
+      "episode": 6,
+      "line": 1152,
+      "scene_id": "E06-S05",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "agrees_to_bobby_staying",
+      "kind": "acceptance",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1152",
+      "source_line_checksum_fnv1a": "ac5493ad",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-072",
+      "episode": 6,
+      "line": 1153,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Group",
+      "action": "three_start_painting_with_wall_roles",
+      "kind": "shared_task",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1153",
+      "source_line_checksum_fnv1a": "40820921",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-073",
+      "episode": 6,
+      "line": 1154,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Narrator",
+      "action": "describes_room_heat_and_clothing_state",
+      "kind": "environmental_change",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1154",
+      "source_line_checksum_fnv1a": "16143559",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-074",
+      "episode": 6,
+      "line": 1155,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Group",
+      "action": "continues_silent_painting",
+      "kind": "shared_task",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1155",
+      "source_line_checksum_fnv1a": "9f697d4d",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-075",
+      "episode": 6,
+      "line": 1156,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "rests_and_stretches",
+      "kind": "task_pause",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1156",
+      "source_line_checksum_fnv1a": "bb52b2e2",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-076",
+      "episode": 6,
+      "line": 1157,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Bobby",
+      "action": "observes_dhika_posture_and_outfit",
+      "kind": "visual_observation",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1157",
+      "source_line_checksum_fnv1a": "b6306f47",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-077",
+      "episode": 6,
+      "line": 1158,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Narrator",
+      "action": "describes_group_gaze",
+      "kind": "visual_observation",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1158",
+      "source_line_checksum_fnv1a": "e4477aeb",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-078",
+      "episode": 6,
+      "line": 1159,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "notices_observations_and_has_mixed_emotion",
+      "kind": "observation_emotion",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1159",
+      "source_line_checksum_fnv1a": "6b0b2d5b",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-079",
+      "episode": 6,
+      "line": 1160,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "questions_private_reaction",
+      "kind": "internal_thought",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1160",
+      "source_line_checksum_fnv1a": "da65871e",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-080",
+      "episode": 6,
+      "line": 1161,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "resumes_work",
+      "kind": "task_resume",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1161",
+      "source_line_checksum_fnv1a": "3323496f",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-081",
+      "episode": 6,
+      "line": 1163,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "suggests_chotu_remove_shirt_to_avoid_paint",
+      "kind": "request",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1163",
+      "source_line_checksum_fnv1a": "ea21f254",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-082",
+      "episode": 6,
+      "line": 1164,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Chotu",
+      "action": "hesitates",
+      "kind": "response",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1164",
+      "source_line_checksum_fnv1a": "b2fa3970",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-083",
+      "episode": 6,
+      "line": 1165,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "interprets_hesitation_in_front_of_bobby",
+      "kind": "character_inference",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1165",
+      "source_line_checksum_fnv1a": "a04f5f15",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-084",
+      "episode": 6,
+      "line": 1166,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "asks_both_to_remove_shirts_for_painting",
+      "kind": "request",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1166",
+      "source_line_checksum_fnv1a": "c9e9cd20",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-085",
+      "episode": 6,
+      "line": 1167,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "leaves_room_to_freshen_up",
+      "kind": "scene_transition",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1167",
+      "source_line_checksum_fnv1a": "287a8f3c",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-086",
+      "episode": 6,
+      "line": 1168,
+      "scene_id": "E06-S05",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "privately_rationalizes_comfort_request",
+      "kind": "internal_thought",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1168",
+      "source_line_checksum_fnv1a": "84f67257",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-087",
+      "episode": 6,
+      "line": 1169,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "decides_on_different_clothing_choice",
+      "kind": "internal_choice",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1169",
+      "source_line_checksum_fnv1a": "f97876c0",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-088",
+      "episode": 6,
+      "line": 1170,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Chotu",
+      "action": "removes_own_shirt",
+      "kind": "garment_change",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1170",
+      "source_line_checksum_fnv1a": "44c55da2",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-089",
+      "episode": 6,
+      "line": 1170,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Bobby",
+      "action": "follows_removing_own_shirt",
+      "kind": "garment_change",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1170",
+      "source_line_checksum_fnv1a": "44c55da2",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-090",
+      "episode": 6,
+      "line": 1171,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "returns_and_observes_both_painting",
+      "kind": "scene_return",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1171",
+      "source_line_checksum_fnv1a": "3cf670aa",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-091",
+      "episode": 6,
+      "line": 1172,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Chotu",
+      "action": "drops_brush_and_spills_paint",
+      "kind": "accident",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1172",
+      "source_line_checksum_fnv1a": "7767bc4f",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-092",
+      "episode": 6,
+      "line": 1173,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Bobby",
+      "action": "turns_and_observes_dhika",
+      "kind": "visual_observation",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1173",
+      "source_line_checksum_fnv1a": "ebf39ca4",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-093",
+      "episode": 6,
+      "line": 1174,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "explains_own_clothing_change",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1174",
+      "source_line_checksum_fnv1a": "2f54aa3e",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-094",
+      "episode": 6,
+      "line": 1175,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Narrator",
+      "action": "describes_new_visible_outfit_state",
+      "kind": "garment_state",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1175",
+      "source_line_checksum_fnv1a": "e1e3eda0",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-095",
+      "episode": 6,
+      "line": 1176,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "explains_choice_and_asks_them_not_to_peek",
+      "kind": "boundary_instruction",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1176",
+      "source_line_checksum_fnv1a": "cc1893ec",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-096",
+      "episode": 6,
+      "line": 1177,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Bobby",
+      "action": "turns_back_to_work_after_comment",
+      "kind": "compliance",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1177",
+      "source_line_checksum_fnv1a": "0d9954f1",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-097",
+      "episode": 6,
+      "line": 1178,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "returns_to_painting",
+      "kind": "task_resume",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1178",
+      "source_line_checksum_fnv1a": "9dbe2cf8",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-098",
+      "episode": 6,
+      "line": 1179,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "slips_and_falls",
+      "kind": "accident",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1179",
+      "source_line_checksum_fnv1a": "6c9bd007",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-099",
+      "episode": 6,
+      "line": 1180,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Bobby",
+      "action": "turns_and_freezes_after_fall",
+      "kind": "reaction",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1180",
+      "source_line_checksum_fnv1a": "2fd9ba72",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-100",
+      "episode": 6,
+      "line": 1181,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "asks_for_help_up_and_to_stop_staring",
+      "kind": "help_request",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1181",
+      "source_line_checksum_fnv1a": "0dd2e4cc",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-101",
+      "episode": 6,
+      "line": 1182,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Chotu",
+      "action": "offers_to_help",
+      "kind": "help_offer",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1182",
+      "source_line_checksum_fnv1a": "7b83cd7c",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-102",
+      "episode": 6,
+      "line": 1183,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Chotu",
+      "action": "supports_dhika_when_rising",
+      "kind": "assistance_contact",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1183",
+      "source_line_checksum_fnv1a": "157b03d9",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-103",
+      "episode": 6,
+      "line": 1184,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Bobby",
+      "action": "helps_dhika_to_chair",
+      "kind": "assistance_contact",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1184",
+      "source_line_checksum_fnv1a": "ec1eebdd",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-104",
+      "episode": 6,
+      "line": 1185,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "explains_slip",
+      "kind": "accident_explanation",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1185",
+      "source_line_checksum_fnv1a": "1ab2dbf9",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-105",
+      "episode": 6,
+      "line": 1186,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Chotu",
+      "action": "acknowledges_spill_may_be_his",
+      "kind": "explanation",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1186",
+      "source_line_checksum_fnv1a": "d0c44b48",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-106",
+      "episode": 6,
+      "line": 1187,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "warns_chotu_about_future_stool_use",
+      "kind": "boundary_instruction",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1187",
+      "source_line_checksum_fnv1a": "d1790f8a",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-107",
+      "episode": 6,
+      "line": 1189,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Bobby",
+      "action": "brings_pain_relief_and_assists",
+      "kind": "practical_care",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1189",
+      "source_line_checksum_fnv1a": "ff2efc8d",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-108",
+      "episode": 6,
+      "line": 1189,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Chotu",
+      "action": "brings_hot_water_for_therapy",
+      "kind": "practical_care",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1189",
+      "source_line_checksum_fnv1a": "ff2efc8d",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-109",
+      "episode": 6,
+      "line": 1190,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "comments_on_observed_gaze",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1190",
+      "source_line_checksum_fnv1a": "d223bca2",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-110",
+      "episode": 6,
+      "line": 1191,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Bobby",
+      "action": "compliments_dhika",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1191",
+      "source_line_checksum_fnv1a": "6eefa18e",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-111",
+      "episode": 6,
+      "line": 1192,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "responds_to_compliment",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1192",
+      "source_line_checksum_fnv1a": "67efca00",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-112",
+      "episode": 6,
+      "line": 1194,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Bobby",
+      "action": "decides_to_leave_and_says_goodbye",
+      "kind": "encounter_exit",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1194",
+      "source_line_checksum_fnv1a": "d03a1c07",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-113",
+      "episode": 6,
+      "line": 1195,
+      "scene_id": "E06-S06",
+      "track": "DBC",
+      "actor": "Chotu",
+      "action": "notices_paint_mark_while_dhika_stands",
+      "kind": "visual_observation",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1195",
+      "source_line_checksum_fnv1a": "5845821c",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-114",
+      "episode": 6,
+      "line": 1196,
+      "scene_id": "E06-S06",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "asks_to_keep_accident_private",
+      "kind": "request",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1196",
+      "source_line_checksum_fnv1a": "791f10e2",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-115",
+      "episode": 6,
+      "line": 1196,
+      "scene_id": "E06-S06",
+      "track": "DY",
+      "actor": "Dhika",
+      "action": "briefly_hugs_bobby",
+      "kind": "contact",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1196",
+      "source_line_checksum_fnv1a": "791f10e2",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-116",
+      "episode": 6,
+      "line": 1197,
+      "scene_id": "E06-S06",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "responds_to_goodbye",
+      "kind": "dialogue",
+      "outcome": "direct",
+      "source_ref": "raw/Dhika.txt#L1197",
+      "source_line_checksum_fnv1a": "f11ff09a",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-117",
+      "episode": 6,
+      "line": 1198,
+      "scene_id": "E06-S06",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "plans_to_tell_bantu_later",
+      "kind": "future_intent",
+      "outcome": "not_confirmed_told",
+      "source_ref": "raw/Dhika.txt#L1198",
+      "source_line_checksum_fnv1a": "c15d8719",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-118",
+      "episode": 6,
+      "line": 1199,
+      "scene_id": "E06-S06",
+      "track": "DY",
+      "actor": "Bobby",
+      "action": "departs_house",
+      "kind": "encounter_end",
+      "outcome": "completed",
+      "source_ref": "raw/Dhika.txt#L1199",
+      "source_line_checksum_fnv1a": "8f572a1e",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-119",
+      "episode": 6,
+      "line": 1200,
+      "scene_id": "E06-S07",
+      "track": "DBC",
+      "actor": "Narrator",
+      "action": "bobby_already_absent_chotu_only_continues",
+      "kind": "absence_marker",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1200",
+      "source_line_checksum_fnv1a": "796bc03e",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-120",
+      "episode": 6,
+      "line": 1285,
+      "scene_id": "E06-S07",
+      "track": "DBC",
+      "actor": "Narrator",
+      "action": "chotu_departs_after_private_continuation",
+      "kind": "absence_marker",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1285",
+      "source_line_checksum_fnv1a": "198f2686",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-121",
+      "episode": 6,
+      "line": 1288,
+      "scene_id": "E06-S07",
+      "track": "DBC",
+      "actor": "Dhika",
+      "action": "has_guilt_reflection_that_carries_to_e07",
+      "kind": "aftermath",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1288",
+      "source_line_checksum_fnv1a": "74f55444",
+      "review": "source_line_checked_semantic_first_pass"
+    },
+    {
+      "id": "E06-AT-122",
+      "episode": 6,
+      "line": 1293,
+      "scene_id": "E06-S07",
+      "track": "DBC",
+      "actor": "Narrator",
+      "action": "end_e06_private_aftermath",
+      "kind": "scene_end",
+      "outcome": "narrated",
+      "source_ref": "raw/Dhika.txt#L1293",
+      "source_line_checksum_fnv1a": "eb970989",
+      "review": "source_line_checked_semantic_first_pass"
+    }
+  ],
+  "line_index": [
+    {
+      "line": 1067,
+      "scene_id": null,
+      "disposition": "header",
+      "source_checksum_fnv1a": "7f9ec9e0",
+      "event_ids": []
+    },
+    {
+      "line": 1068,
+      "scene_id": null,
+      "disposition": "header",
+      "source_checksum_fnv1a": "3e69ad9b",
+      "event_ids": []
+    },
+    {
+      "line": 1069,
+      "scene_id": null,
+      "disposition": "separator",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": []
+    },
+    {
+      "line": 1070,
+      "scene_id": null,
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 1071,
+      "scene_id": "E06-S01",
+      "disposition": "non_twin_context",
+      "source_checksum_fnv1a": "80c85d84",
+      "event_ids": []
+    },
+    {
+      "line": 1072,
+      "scene_id": "E06-S01",
+      "disposition": "non_twin_context",
+      "source_checksum_fnv1a": "a591d7f3",
+      "event_ids": []
+    },
+    {
+      "line": 1073,
+      "scene_id": "E06-S01",
+      "disposition": "non_twin_context",
+      "source_checksum_fnv1a": "1cf04ce7",
+      "event_ids": []
+    },
+    {
+      "line": 1074,
+      "scene_id": "E06-S01",
+      "disposition": "non_twin_context",
+      "source_checksum_fnv1a": "55a63588",
+      "event_ids": []
+    },
+    {
+      "line": 1075,
+      "scene_id": "E06-S01",
+      "disposition": "non_twin_context",
+      "source_checksum_fnv1a": "852d35b5",
+      "event_ids": []
+    },
+    {
+      "line": 1076,
+      "scene_id": "E06-S01",
+      "disposition": "non_twin_context",
+      "source_checksum_fnv1a": "59db5634",
+      "event_ids": []
+    },
+    {
+      "line": 1077,
+      "scene_id": "E06-S01",
+      "disposition": "non_twin_context",
+      "source_checksum_fnv1a": "46efe5d7",
+      "event_ids": []
+    },
+    {
+      "line": 1078,
+      "scene_id": "E06-S01",
+      "disposition": "non_twin_context",
+      "source_checksum_fnv1a": "f995a1bb",
+      "event_ids": []
+    },
+    {
+      "line": 1079,
+      "scene_id": "E06-S01",
+      "disposition": "non_twin_context",
+      "source_checksum_fnv1a": "9e843b1c",
+      "event_ids": []
+    },
+    {
+      "line": 1080,
+      "scene_id": "E06-S01",
+      "disposition": "non_twin_context",
+      "source_checksum_fnv1a": "063ac33d",
+      "event_ids": []
+    },
+    {
+      "line": 1081,
+      "scene_id": "E06-S01",
+      "disposition": "non_twin_context",
+      "source_checksum_fnv1a": "cb0de0ea",
+      "event_ids": []
+    },
+    {
+      "line": 1082,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "351e4d4b",
+      "event_ids": [
+        "E06-AT-001"
+      ]
+    },
+    {
+      "line": 1083,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "5e27a296",
+      "event_ids": [
+        "E06-AT-002",
+        "E06-AT-003"
+      ]
+    },
+    {
+      "line": 1084,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "cc5ea6b4",
+      "event_ids": []
+    },
+    {
+      "line": 1085,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "ce2ae43f",
+      "event_ids": [
+        "E06-AT-004"
+      ]
+    },
+    {
+      "line": 1086,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "f56a4b98",
+      "event_ids": [
+        "E06-AT-005"
+      ]
+    },
+    {
+      "line": 1087,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "ce448c54",
+      "event_ids": [
+        "E06-AT-006",
+        "E06-AT-007"
+      ]
+    },
+    {
+      "line": 1088,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "5df0e0d4",
+      "event_ids": [
+        "E06-AT-008"
+      ]
+    },
+    {
+      "line": 1089,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "0b1cde7f",
+      "event_ids": [
+        "E06-AT-009"
+      ]
+    },
+    {
+      "line": 1090,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "8aef5420",
+      "event_ids": [
+        "E06-AT-010"
+      ]
+    },
+    {
+      "line": 1091,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "db3295f2",
+      "event_ids": []
+    },
+    {
+      "line": 1092,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "dd13a56d",
+      "event_ids": [
+        "E06-AT-011"
+      ]
+    },
+    {
+      "line": 1093,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "f48ecf2d",
+      "event_ids": [
+        "E06-AT-012"
+      ]
+    },
+    {
+      "line": 1094,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "a8b4cff6",
+      "event_ids": [
+        "E06-AT-013"
+      ]
+    },
+    {
+      "line": 1095,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "1cceac53",
+      "event_ids": [
+        "E06-AT-014"
+      ]
+    },
+    {
+      "line": 1096,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "bc6f27c0",
+      "event_ids": [
+        "E06-AT-015"
+      ]
+    },
+    {
+      "line": 1097,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "ff9c2aa7",
+      "event_ids": [
+        "E06-AT-016",
+        "E06-AT-017"
+      ]
+    },
+    {
+      "line": 1098,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "501efaa2",
+      "event_ids": [
+        "E06-AT-018"
+      ]
+    },
+    {
+      "line": 1099,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "2d9f3f93",
+      "event_ids": [
+        "E06-AT-019"
+      ]
+    },
+    {
+      "line": 1100,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "bf486b7d",
+      "event_ids": [
+        "E06-AT-020"
+      ]
+    },
+    {
+      "line": 1101,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "f5b60090",
+      "event_ids": [
+        "E06-AT-021"
+      ]
+    },
+    {
+      "line": 1102,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "387c4aba",
+      "event_ids": [
+        "E06-AT-022"
+      ]
+    },
+    {
+      "line": 1103,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "4ffc6e3b",
+      "event_ids": [
+        "E06-AT-023"
+      ]
+    },
+    {
+      "line": 1104,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "8ec8e6d3",
+      "event_ids": [
+        "E06-AT-024"
+      ]
+    },
+    {
+      "line": 1105,
+      "scene_id": "E06-S02",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "9f580ce1",
+      "event_ids": [
+        "E06-AT-025"
+      ]
+    },
+    {
+      "line": 1106,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "c559e3d5",
+      "event_ids": [
+        "E06-AT-026"
+      ]
+    },
+    {
+      "line": 1107,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "708d571b",
+      "event_ids": [
+        "E06-AT-027"
+      ]
+    },
+    {
+      "line": 1108,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "6194ab2f",
+      "event_ids": [
+        "E06-AT-028"
+      ]
+    },
+    {
+      "line": 1109,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "a4d2229a",
+      "event_ids": [
+        "E06-AT-029",
+        "E06-AT-030"
+      ]
+    },
+    {
+      "line": 1110,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "98992bea",
+      "event_ids": [
+        "E06-AT-031",
+        "E06-AT-032"
+      ]
+    },
+    {
+      "line": 1111,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "0cc25ea7",
+      "event_ids": [
+        "E06-AT-033"
+      ]
+    },
+    {
+      "line": 1112,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "6218338f",
+      "event_ids": []
+    },
+    {
+      "line": 1113,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "71825120",
+      "event_ids": [
+        "E06-AT-034"
+      ]
+    },
+    {
+      "line": 1114,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "e5d3dce7",
+      "event_ids": [
+        "E06-AT-035"
+      ]
+    },
+    {
+      "line": 1115,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "f502495b",
+      "event_ids": [
+        "E06-AT-036"
+      ]
+    },
+    {
+      "line": 1116,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "13df2335",
+      "event_ids": []
+    },
+    {
+      "line": 1117,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "a2cf4c01",
+      "event_ids": [
+        "E06-AT-037"
+      ]
+    },
+    {
+      "line": 1118,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "fe158474",
+      "event_ids": [
+        "E06-AT-038"
+      ]
+    },
+    {
+      "line": 1119,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "f4f59e70",
+      "event_ids": [
+        "E06-AT-039"
+      ]
+    },
+    {
+      "line": 1120,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "23e52870",
+      "event_ids": [
+        "E06-AT-040"
+      ]
+    },
+    {
+      "line": 1121,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "ad6cdd29",
+      "event_ids": []
+    },
+    {
+      "line": 1122,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "b7879a9b",
+      "event_ids": [
+        "E06-AT-041"
+      ]
+    },
+    {
+      "line": 1123,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "5eeb44f8",
+      "event_ids": [
+        "E06-AT-042"
+      ]
+    },
+    {
+      "line": 1124,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "2ea4a940",
+      "event_ids": [
+        "E06-AT-043",
+        "E06-AT-044"
+      ]
+    },
+    {
+      "line": 1125,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "e014d504",
+      "event_ids": []
+    },
+    {
+      "line": 1126,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "12928656",
+      "event_ids": [
+        "E06-AT-045"
+      ]
+    },
+    {
+      "line": 1127,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "39d36860",
+      "event_ids": [
+        "E06-AT-046"
+      ]
+    },
+    {
+      "line": 1128,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "976bb3f7",
+      "event_ids": [
+        "E06-AT-047"
+      ]
+    },
+    {
+      "line": 1129,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "11a8e805",
+      "event_ids": [
+        "E06-AT-048"
+      ]
+    },
+    {
+      "line": 1130,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "b31b3c0d",
+      "event_ids": [
+        "E06-AT-049"
+      ]
+    },
+    {
+      "line": 1131,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "eafbdd95",
+      "event_ids": [
+        "E06-AT-050"
+      ]
+    },
+    {
+      "line": 1132,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "6dabd714",
+      "event_ids": [
+        "E06-AT-051"
+      ]
+    },
+    {
+      "line": 1133,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "7c3a5169",
+      "event_ids": []
+    },
+    {
+      "line": 1134,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "a21325f7",
+      "event_ids": [
+        "E06-AT-052",
+        "E06-AT-053"
+      ]
+    },
+    {
+      "line": 1135,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "e3e16369",
+      "event_ids": [
+        "E06-AT-054"
+      ]
+    },
+    {
+      "line": 1136,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "2a09eb05",
+      "event_ids": [
+        "E06-AT-055"
+      ]
+    },
+    {
+      "line": 1137,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "e62bfdd4",
+      "event_ids": [
+        "E06-AT-056"
+      ]
+    },
+    {
+      "line": 1138,
+      "scene_id": "E06-S03",
+      "disposition": "bobby_dhika_solo_direct",
+      "source_checksum_fnv1a": "c536db45",
+      "event_ids": [
+        "E06-AT-057"
+      ]
+    },
+    {
+      "line": 1139,
+      "scene_id": "E06-S04",
+      "disposition": "bobby_chotu_dhika_transition",
+      "source_checksum_fnv1a": "d38ae7f6",
+      "event_ids": [
+        "E06-AT-058"
+      ]
+    },
+    {
+      "line": 1140,
+      "scene_id": "E06-S04",
+      "disposition": "bobby_chotu_dhika_transition",
+      "source_checksum_fnv1a": "8a0cd5be",
+      "event_ids": [
+        "E06-AT-059"
+      ]
+    },
+    {
+      "line": 1141,
+      "scene_id": "E06-S04",
+      "disposition": "bobby_chotu_dhika_transition",
+      "source_checksum_fnv1a": "aabe39ac",
+      "event_ids": [
+        "E06-AT-060"
+      ]
+    },
+    {
+      "line": 1142,
+      "scene_id": "E06-S04",
+      "disposition": "bobby_chotu_dhika_transition",
+      "source_checksum_fnv1a": "8538c8a9",
+      "event_ids": [
+        "E06-AT-061"
+      ]
+    },
+    {
+      "line": 1143,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "763fadfc",
+      "event_ids": [
+        "E06-AT-062"
+      ]
+    },
+    {
+      "line": 1144,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "bc606aef",
+      "event_ids": [
+        "E06-AT-063"
+      ]
+    },
+    {
+      "line": 1145,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "29b37c89",
+      "event_ids": [
+        "E06-AT-064"
+      ]
+    },
+    {
+      "line": 1146,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "4f2b14a9",
+      "event_ids": [
+        "E06-AT-065"
+      ]
+    },
+    {
+      "line": 1147,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "23f7621c",
+      "event_ids": [
+        "E06-AT-066"
+      ]
+    },
+    {
+      "line": 1148,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "d74ee6d3",
+      "event_ids": [
+        "E06-AT-067"
+      ]
+    },
+    {
+      "line": 1149,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "459da6a1",
+      "event_ids": [
+        "E06-AT-068"
+      ]
+    },
+    {
+      "line": 1150,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "5977b952",
+      "event_ids": [
+        "E06-AT-069"
+      ]
+    },
+    {
+      "line": 1151,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "a2618a2a",
+      "event_ids": [
+        "E06-AT-070"
+      ]
+    },
+    {
+      "line": 1152,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "ac5493ad",
+      "event_ids": [
+        "E06-AT-071"
+      ]
+    },
+    {
+      "line": 1153,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "40820921",
+      "event_ids": [
+        "E06-AT-072"
+      ]
+    },
+    {
+      "line": 1154,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "16143559",
+      "event_ids": [
+        "E06-AT-073"
+      ]
+    },
+    {
+      "line": 1155,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "9f697d4d",
+      "event_ids": [
+        "E06-AT-074"
+      ]
+    },
+    {
+      "line": 1156,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "bb52b2e2",
+      "event_ids": [
+        "E06-AT-075"
+      ]
+    },
+    {
+      "line": 1157,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "b6306f47",
+      "event_ids": [
+        "E06-AT-076"
+      ]
+    },
+    {
+      "line": 1158,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "e4477aeb",
+      "event_ids": [
+        "E06-AT-077"
+      ]
+    },
+    {
+      "line": 1159,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "6b0b2d5b",
+      "event_ids": [
+        "E06-AT-078"
+      ]
+    },
+    {
+      "line": 1160,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "da65871e",
+      "event_ids": [
+        "E06-AT-079"
+      ]
+    },
+    {
+      "line": 1161,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "3323496f",
+      "event_ids": [
+        "E06-AT-080"
+      ]
+    },
+    {
+      "line": 1162,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "631b5529",
+      "event_ids": []
+    },
+    {
+      "line": 1163,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "ea21f254",
+      "event_ids": [
+        "E06-AT-081"
+      ]
+    },
+    {
+      "line": 1164,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "b2fa3970",
+      "event_ids": [
+        "E06-AT-082"
+      ]
+    },
+    {
+      "line": 1165,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "a04f5f15",
+      "event_ids": [
+        "E06-AT-083"
+      ]
+    },
+    {
+      "line": 1166,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "c9e9cd20",
+      "event_ids": [
+        "E06-AT-084"
+      ]
+    },
+    {
+      "line": 1167,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "287a8f3c",
+      "event_ids": [
+        "E06-AT-085"
+      ]
+    },
+    {
+      "line": 1168,
+      "scene_id": "E06-S05",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "84f67257",
+      "event_ids": [
+        "E06-AT-086"
+      ]
+    },
+    {
+      "line": 1169,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "f97876c0",
+      "event_ids": [
+        "E06-AT-087"
+      ]
+    },
+    {
+      "line": 1170,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "44c55da2",
+      "event_ids": [
+        "E06-AT-088",
+        "E06-AT-089"
+      ]
+    },
+    {
+      "line": 1171,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "3cf670aa",
+      "event_ids": [
+        "E06-AT-090"
+      ]
+    },
+    {
+      "line": 1172,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "7767bc4f",
+      "event_ids": [
+        "E06-AT-091"
+      ]
+    },
+    {
+      "line": 1173,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "ebf39ca4",
+      "event_ids": [
+        "E06-AT-092"
+      ]
+    },
+    {
+      "line": 1174,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "2f54aa3e",
+      "event_ids": [
+        "E06-AT-093"
+      ]
+    },
+    {
+      "line": 1175,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "e1e3eda0",
+      "event_ids": [
+        "E06-AT-094"
+      ]
+    },
+    {
+      "line": 1176,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "cc1893ec",
+      "event_ids": [
+        "E06-AT-095"
+      ]
+    },
+    {
+      "line": 1177,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "0d9954f1",
+      "event_ids": [
+        "E06-AT-096"
+      ]
+    },
+    {
+      "line": 1178,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "9dbe2cf8",
+      "event_ids": [
+        "E06-AT-097"
+      ]
+    },
+    {
+      "line": 1179,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "6c9bd007",
+      "event_ids": [
+        "E06-AT-098"
+      ]
+    },
+    {
+      "line": 1180,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "2fd9ba72",
+      "event_ids": [
+        "E06-AT-099"
+      ]
+    },
+    {
+      "line": 1181,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "0dd2e4cc",
+      "event_ids": [
+        "E06-AT-100"
+      ]
+    },
+    {
+      "line": 1182,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "7b83cd7c",
+      "event_ids": [
+        "E06-AT-101"
+      ]
+    },
+    {
+      "line": 1183,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "157b03d9",
+      "event_ids": [
+        "E06-AT-102"
+      ]
+    },
+    {
+      "line": 1184,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "ec1eebdd",
+      "event_ids": [
+        "E06-AT-103"
+      ]
+    },
+    {
+      "line": 1185,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "1ab2dbf9",
+      "event_ids": [
+        "E06-AT-104"
+      ]
+    },
+    {
+      "line": 1186,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "d0c44b48",
+      "event_ids": [
+        "E06-AT-105"
+      ]
+    },
+    {
+      "line": 1187,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "d1790f8a",
+      "event_ids": [
+        "E06-AT-106"
+      ]
+    },
+    {
+      "line": 1188,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "c94357e7",
+      "event_ids": []
+    },
+    {
+      "line": 1189,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "ff2efc8d",
+      "event_ids": [
+        "E06-AT-107",
+        "E06-AT-108"
+      ]
+    },
+    {
+      "line": 1190,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "d223bca2",
+      "event_ids": [
+        "E06-AT-109"
+      ]
+    },
+    {
+      "line": 1191,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "6eefa18e",
+      "event_ids": [
+        "E06-AT-110"
+      ]
+    },
+    {
+      "line": 1192,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "67efca00",
+      "event_ids": [
+        "E06-AT-111"
+      ]
+    },
+    {
+      "line": 1193,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "df562a75",
+      "event_ids": []
+    },
+    {
+      "line": 1194,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "d03a1c07",
+      "event_ids": [
+        "E06-AT-112"
+      ]
+    },
+    {
+      "line": 1195,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "5845821c",
+      "event_ids": [
+        "E06-AT-113"
+      ]
+    },
+    {
+      "line": 1196,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "791f10e2",
+      "event_ids": [
+        "E06-AT-114",
+        "E06-AT-115"
+      ]
+    },
+    {
+      "line": 1197,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "f11ff09a",
+      "event_ids": [
+        "E06-AT-116"
+      ]
+    },
+    {
+      "line": 1198,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "c15d8719",
+      "event_ids": [
+        "E06-AT-117"
+      ]
+    },
+    {
+      "line": 1199,
+      "scene_id": "E06-S06",
+      "disposition": "bobby_chotu_dhika_shared",
+      "source_checksum_fnv1a": "8f572a1e",
+      "event_ids": [
+        "E06-AT-118"
+      ]
+    },
+    {
+      "line": 1200,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "796bc03e",
+      "event_ids": [
+        "E06-AT-119"
+      ]
+    },
+    {
+      "line": 1201,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "0ba89dfc",
+      "event_ids": []
+    },
+    {
+      "line": 1202,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "92fca517",
+      "event_ids": []
+    },
+    {
+      "line": 1203,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "cddbdc4f",
+      "event_ids": []
+    },
+    {
+      "line": 1204,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "6432bee3",
+      "event_ids": []
+    },
+    {
+      "line": 1205,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "d8ac1c7a",
+      "event_ids": []
+    },
+    {
+      "line": 1206,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "4b0c8fc2",
+      "event_ids": []
+    },
+    {
+      "line": 1207,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "d64ecda2",
+      "event_ids": []
+    },
+    {
+      "line": 1208,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "f7ab55d8",
+      "event_ids": []
+    },
+    {
+      "line": 1209,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "b38fb6f9",
+      "event_ids": []
+    },
+    {
+      "line": 1210,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "9b0703b3",
+      "event_ids": []
+    },
+    {
+      "line": 1211,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "a0884199",
+      "event_ids": []
+    },
+    {
+      "line": 1212,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "5d876d07",
+      "event_ids": []
+    },
+    {
+      "line": 1213,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "91c4f379",
+      "event_ids": []
+    },
+    {
+      "line": 1214,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "c8c6410a",
+      "event_ids": []
+    },
+    {
+      "line": 1215,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "ab58b327",
+      "event_ids": []
+    },
+    {
+      "line": 1216,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "272176bb",
+      "event_ids": []
+    },
+    {
+      "line": 1217,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "64554c91",
+      "event_ids": []
+    },
+    {
+      "line": 1218,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "eccbb139",
+      "event_ids": []
+    },
+    {
+      "line": 1219,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "4ca4a451",
+      "event_ids": []
+    },
+    {
+      "line": 1220,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "062e3f68",
+      "event_ids": []
+    },
+    {
+      "line": 1221,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "37bca440",
+      "event_ids": []
+    },
+    {
+      "line": 1222,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "e4616ac5",
+      "event_ids": []
+    },
+    {
+      "line": 1223,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "12ef5fe8",
+      "event_ids": []
+    },
+    {
+      "line": 1224,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "9f54ef76",
+      "event_ids": []
+    },
+    {
+      "line": 1225,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "5e909063",
+      "event_ids": []
+    },
+    {
+      "line": 1226,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "d8c2804b",
+      "event_ids": []
+    },
+    {
+      "line": 1227,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "81136890",
+      "event_ids": []
+    },
+    {
+      "line": 1228,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "30683a58",
+      "event_ids": []
+    },
+    {
+      "line": 1229,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "a3736c60",
+      "event_ids": []
+    },
+    {
+      "line": 1230,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "9d7e92fa",
+      "event_ids": []
+    },
+    {
+      "line": 1231,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "d129150a",
+      "event_ids": []
+    },
+    {
+      "line": 1232,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "f32194cf",
+      "event_ids": []
+    },
+    {
+      "line": 1233,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "f6696d2e",
+      "event_ids": []
+    },
+    {
+      "line": 1234,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "5f12e377",
+      "event_ids": []
+    },
+    {
+      "line": 1235,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "9d2e8f65",
+      "event_ids": []
+    },
+    {
+      "line": 1236,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "b5d04243",
+      "event_ids": []
+    },
+    {
+      "line": 1237,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "0d880eca",
+      "event_ids": []
+    },
+    {
+      "line": 1238,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "adf8b01a",
+      "event_ids": []
+    },
+    {
+      "line": 1239,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "be401b72",
+      "event_ids": []
+    },
+    {
+      "line": 1240,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "f080cec4",
+      "event_ids": []
+    },
+    {
+      "line": 1241,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "15a82f5a",
+      "event_ids": []
+    },
+    {
+      "line": 1242,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "d2e8c83f",
+      "event_ids": []
+    },
+    {
+      "line": 1243,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "4adcc719",
+      "event_ids": []
+    },
+    {
+      "line": 1244,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "4fd139a7",
+      "event_ids": []
+    },
+    {
+      "line": 1245,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "2c0c9a84",
+      "event_ids": []
+    },
+    {
+      "line": 1246,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "87804503",
+      "event_ids": []
+    },
+    {
+      "line": 1247,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "fe2a0506",
+      "event_ids": []
+    },
+    {
+      "line": 1248,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "2f8d5d16",
+      "event_ids": []
+    },
+    {
+      "line": 1249,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "a3f12676",
+      "event_ids": []
+    },
+    {
+      "line": 1250,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "1677b3ec",
+      "event_ids": []
+    },
+    {
+      "line": 1251,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "e9a9d13b",
+      "event_ids": []
+    },
+    {
+      "line": 1252,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "861165ed",
+      "event_ids": []
+    },
+    {
+      "line": 1253,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "4fe322f3",
+      "event_ids": []
+    },
+    {
+      "line": 1254,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "f3f2ba22",
+      "event_ids": []
+    },
+    {
+      "line": 1255,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "8b26b652",
+      "event_ids": []
+    },
+    {
+      "line": 1256,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "7da372c3",
+      "event_ids": []
+    },
+    {
+      "line": 1257,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "bfdf88e0",
+      "event_ids": []
+    },
+    {
+      "line": 1258,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "cabc4d5a",
+      "event_ids": []
+    },
+    {
+      "line": 1259,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "939e766d",
+      "event_ids": []
+    },
+    {
+      "line": 1260,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "cf3f8802",
+      "event_ids": []
+    },
+    {
+      "line": 1261,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "90f289db",
+      "event_ids": []
+    },
+    {
+      "line": 1262,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "1bac6e81",
+      "event_ids": []
+    },
+    {
+      "line": 1263,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "8f61e6bc",
+      "event_ids": []
+    },
+    {
+      "line": 1264,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "5ddfb6f7",
+      "event_ids": []
+    },
+    {
+      "line": 1265,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "f6099f97",
+      "event_ids": []
+    },
+    {
+      "line": 1266,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "93d29e0d",
+      "event_ids": []
+    },
+    {
+      "line": 1267,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "4aa784fe",
+      "event_ids": []
+    },
+    {
+      "line": 1268,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "44f55c4f",
+      "event_ids": []
+    },
+    {
+      "line": 1269,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "bb0d2226",
+      "event_ids": []
+    },
+    {
+      "line": 1270,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "ffcd884a",
+      "event_ids": []
+    },
+    {
+      "line": 1271,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "4f3c2ac2",
+      "event_ids": []
+    },
+    {
+      "line": 1272,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "fbf830a8",
+      "event_ids": []
+    },
+    {
+      "line": 1273,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "a14eb6c5",
+      "event_ids": []
+    },
+    {
+      "line": 1274,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "636c44fe",
+      "event_ids": []
+    },
+    {
+      "line": 1275,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "fc5eed8e",
+      "event_ids": []
+    },
+    {
+      "line": 1276,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "f274b1a6",
+      "event_ids": []
+    },
+    {
+      "line": 1277,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "f474b625",
+      "event_ids": []
+    },
+    {
+      "line": 1278,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "1c559bed",
+      "event_ids": []
+    },
+    {
+      "line": 1279,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "4a2e4c62",
+      "event_ids": []
+    },
+    {
+      "line": 1280,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "5311fdb7",
+      "event_ids": []
+    },
+    {
+      "line": 1281,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "c5069e49",
+      "event_ids": []
+    },
+    {
+      "line": 1282,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "f0613ce8",
+      "event_ids": []
+    },
+    {
+      "line": 1283,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "5b0e5001",
+      "event_ids": []
+    },
+    {
+      "line": 1284,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "d8978b40",
+      "event_ids": []
+    },
+    {
+      "line": 1285,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "198f2686",
+      "event_ids": [
+        "E06-AT-120"
+      ]
+    },
+    {
+      "line": 1286,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "e19ee13c",
+      "event_ids": []
+    },
+    {
+      "line": 1287,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "7cf06e4d",
+      "event_ids": []
+    },
+    {
+      "line": 1288,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "74f55444",
+      "event_ids": [
+        "E06-AT-121"
+      ]
+    },
+    {
+      "line": 1289,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "3642430b",
+      "event_ids": []
+    },
+    {
+      "line": 1290,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "bda0ef1c",
+      "event_ids": []
+    },
+    {
+      "line": 1291,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "b1e15e84",
+      "event_ids": []
+    },
+    {
+      "line": 1292,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "e47ff2df",
+      "event_ids": []
+    },
+    {
+      "line": 1293,
+      "scene_id": "E06-S07",
+      "disposition": "third_party_aftermath_no_twins",
+      "source_checksum_fnv1a": "eb970989",
+      "event_ids": [
+        "E06-AT-122"
+      ]
+    },
+    {
+      "line": 1294,
+      "scene_id": null,
+      "disposition": "separator",
+      "source_checksum_fnv1a": "0e3ecb4a",
+      "event_ids": []
+    },
+    {
+      "line": 1295,
+      "scene_id": null,
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 1296,
+      "scene_id": null,
+      "disposition": "blank",
+      "source_checksum_fnv1a": "811c9dc5",
+      "event_ids": []
+    },
+    {
+      "line": 1297,
+      "scene_id": null,
+      "disposition": "separator",
+      "source_checksum_fnv1a": "6e407e6d",
+      "event_ids": []
+    }
+  ],
+  "qa": {
+    "line_index_count": 231,
+    "unique_source_lines": 231,
+    "first_pass_events": 122,
+    "unassigned_context_lines": 0,
+    "events_without_scene": 0,
+    "exhaustive_atomic_certification": false
+  }
+}
