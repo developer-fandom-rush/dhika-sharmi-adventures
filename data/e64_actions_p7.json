@@ -1,0 +1,38 @@
+{
+  "schema": "dhika-e64-line-disposition",
+  "phase": "episode-opening-metadata",
+  "source": "raw/Dhika.txt",
+  "range": [
+    12696,
+    12699
+  ],
+  "pair_codes": {
+    "D": "Dhika"
+  },
+  "rows": [
+    [
+      12696,
+      "D",
+      "episode_heading",
+      "metadata"
+    ],
+    [
+      12697,
+      "D",
+      "source_url",
+      "metadata"
+    ],
+    [
+      12698,
+      "D",
+      "separator",
+      "metadata"
+    ],
+    [
+      12699,
+      "D",
+      "blank",
+      "none"
+    ]
+  ]
+}
