@@ -19,3 +19,29 @@ mark{background:#8e7248;color:#fff;padding:0 2px;border-radius:3px}
 
 /* V2: lossless record inspection, episode coverage, and responsive evidence metadata */
 .metadata{margin:14px 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 14px}.metadata>div{border-bottom:1px solid var(--line);padding:6px 0}.metadata dt{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}.metadata dd{margin:2px 0;overflow-wrap:anywhere}.raw-json{white-space:pre-wrap;overflow-wrap:anywhere;max-height:380px;overflow:auto;padding:12px;border:1px solid var(--line);border-radius:9px;background:#071526;font-size:12px}.card details{margin-top:10px}.card summary{cursor:pointer;color:var(--accent)}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse}td,th{border-bottom:1px solid var(--line);padding:10px;text-align:left;white-space:nowrap}th{color:var(--muted);font-size:12px}.jump-episode{padding:3px 9px}.action-record{border-left:3px solid var(--accent)!important}@media(max-width:730px){.metadata{grid-template-columns:1fr}.row #download{width:100%}}
+
+/* V4: story-reader interface patterned after Chotu tracker */
+.reader-notice{background:#193248;padding:13px 16px;border:1px solid #3b6171;border-radius:10px;color:#e0f4f1}
+.reader-meeting{border:1px solid #426279;background:linear-gradient(155deg,#1a314a,#122338);border-radius:15px;margin:18px 0;overflow:hidden}
+.reader-meeting>summary{cursor:pointer;padding:19px 21px;display:flex;align-items:flex-start;flex-direction:column;gap:4px}
+.reader-meeting>summary strong{font-size:20px;font-weight:750;line-height:1.35}
+.reader-meeting>summary small{font-size:13px;color:var(--muted)}
+.reader-meetno{font-size:12px;color:var(--accent);text-transform:uppercase;letter-spacing:.08em;font-weight:800}
+.reader-context{margin:5px 20px 20px;color:var(--muted);font-size:14px}
+.reader-beat{margin:12px 20px 16px;padding:18px;background:#1d324a;border:1px solid #395169;border-radius:12px;border-left:4px solid #96dac7}
+.reader-order{display:flex;align-items:flex-start;gap:12px}
+.reader-order h3{font-size:17px;margin:0}
+.reader-step{display:flex;min-width:32px;height:32px;justify-content:center;align-items:center;background:#315767;border-radius:50%;font-weight:800;color:#e5fff9}
+.reader-overline{font-size:12px;margin:0 0 5px;color:var(--muted)}
+.reader-reading{font-size:15px;line-height:1.75;margin:12px 0 10px;color:#f1f6ff}
+.reader-milestone{display:inline-block;color:#fde2aa;font-size:12px;font-weight:800;border:1px solid #a4834c;padding:3px 9px;border-radius:7px}
+.reader-effect{border-left:3px solid #dcca92;padding:8px 12px;background:#253849;color:#f5eeda;font-size:13px;line-height:1.7;border-radius:4px}
+.reader-proof{margin-top:15px;border-top:1px dashed #426379;padding:10px 0 0}
+.reader-proof>summary{cursor:pointer;color:#a9e7d8;font-size:13px}
+.reader-bond{line-height:1.75}
+.reader-body-row{border-top:1px solid var(--line);padding:13px 0}
+.reader-state-table td,.reader-state-table th{white-space:normal;vertical-align:top;min-width:150px}
+.reader-state-table td:nth-child(2){min-width:340px}
+.reader-source-row{background:#122840}
+#results .reader-meeting .mini{background:#142b43}
+@media(max-width:730px){.reader-meeting>summary{padding:14px}.reader-beat{margin:10px;padding:13px}.reader-state-table td:nth-child(2){min-width:230px}}
