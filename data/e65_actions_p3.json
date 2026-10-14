@@ -1,0 +1,124 @@
+{
+  "schema": "e65_actions_v1",
+  "source": "raw/Dhika.txt",
+  "range": [
+    13005,
+    13027
+  ],
+  "pair_codes": {
+    "DJ": "Dhika–John",
+    "DB": "Dhika–Bantu",
+    "TW": "Dhika–Twins",
+    "D": "Dhika"
+  },
+  "records": [
+    [
+      13005,
+      "DJ",
+      "return_to_present",
+      "narrative"
+    ],
+    [
+      13006,
+      "DJ",
+      "reaction",
+      "spoken"
+    ],
+    [
+      13007,
+      "DJ",
+      "question",
+      "spoken"
+    ],
+    [
+      13008,
+      "DJ",
+      "clarification",
+      "spoken"
+    ],
+    [
+      13009,
+      "D",
+      "flashback_start",
+      "narrative"
+    ],
+    [
+      13011,
+      "DB",
+      "departure",
+      "observed"
+    ],
+    [
+      13012,
+      "D",
+      "reflection",
+      "inner"
+    ],
+    [
+      13014,
+      "TW",
+      "separate_sleep_request",
+      "reported"
+    ],
+    [
+      13015,
+      "D",
+      "reason",
+      "inner"
+    ],
+    [
+      13016,
+      "D",
+      "future_uncertainty",
+      "inner"
+    ],
+    [
+      13017,
+      "D",
+      "sleepwear_state",
+      "direct"
+    ],
+    [
+      13018,
+      "DJ",
+      "return_to_present",
+      "narrative"
+    ],
+    [
+      13019,
+      "DJ",
+      "question",
+      "spoken"
+    ],
+    [
+      13022,
+      "DJ",
+      "emotion",
+      "narrated"
+    ],
+    [
+      13023,
+      "DJ",
+      "limit_on_questions",
+      "spoken"
+    ],
+    [
+      13025,
+      "DJ",
+      "next_morning_setup",
+      "spoken"
+    ],
+    [
+      13026,
+      "DJ",
+      "clothing_and_position",
+      "direct"
+    ],
+    [
+      13027,
+      "D",
+      "flashback_start",
+      "narrative"
+    ]
+  ]
+}
