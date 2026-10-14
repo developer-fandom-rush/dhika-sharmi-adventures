@@ -2031,7 +2031,39 @@
         "visual_observation",
         "separate_knowledge"
       ],
-      "before_after": "E08's last reaction now has a documented cause. The call remains the same ongoing Skype conversation."
+      "before_after": "E08's last reaction now has a documented cause. The call remains the same ongoing Skype conversation.",
+      "body_refs": [
+        {
+          "owner": "Dhika",
+          "area": "Clothing and on-screen appearance",
+          "mode": "Remote visual action",
+          "line": 1764,
+          "actor": "Dhika",
+          "observer": "Bobby (remote)",
+          "subject": "Dhika",
+          "tracks": [
+            "DY"
+          ],
+          "context_group": [],
+          "evidence_class": "ON_SCREEN_VISUAL_ONLY",
+          "reading": "Dhika changes her position on camera during the same Skype conversation; Bobby observes remotely. There is no in-person contact."
+        },
+        {
+          "owner": "Dhika",
+          "area": "Clothing presentation",
+          "mode": "Clothing adjustment on call",
+          "line": 1766,
+          "actor": "Dhika",
+          "observer": "Bobby (remote)",
+          "subject": "Dhika",
+          "tracks": [
+            "DY"
+          ],
+          "context_group": [],
+          "evidence_class": "ON_SCREEN_CLOTHING_ACTION",
+          "reading": "A further clothing adjustment occurs on the video call; treat it as a remote visual event, not physical interaction between participants."
+        }
+      ]
     },
     {
       "id": "R-E09-058",
@@ -2084,7 +2116,24 @@
         "boundary_response",
         "observation"
       ],
-      "before_after": "The request and Bobby's actual response are distinct; no direct physical contact occurs between the two."
+      "before_after": "The request and Bobby's actual response are distinct; no direct physical contact occurs between the two.",
+      "body_refs": [
+        {
+          "owner": "Bobby",
+          "area": "Posture and camera framing",
+          "mode": "Stands briefly on request",
+          "line": 1785,
+          "actor": "Bobby",
+          "observer": "Dhika (remote)",
+          "subject": "Bobby",
+          "tracks": [
+            "DY"
+          ],
+          "context_group": [],
+          "evidence_class": "REMOTE_POSTURE_ACTION",
+          "reading": "Bobby responds to Dhika's request by standing in front of his own camera; she asks him to sit again. The scene remains online."
+        }
+      ]
     },
     {
       "id": "R-E09-060",
