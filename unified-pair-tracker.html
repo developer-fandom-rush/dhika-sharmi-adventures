@@ -3,7 +3,7 @@
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dhika · Bantu · Bobby | Unified Source Tracker</title>
 <link rel="stylesheet" href="./unified-pair-tracker.css?v=4">
-<script src="./unified-pair-tracker.js?v=4" defer></script></head>
+<script src="./unified-pair-tracker.js?v=5" defer></script></head>
 <body>
 <header><a href="./index.html">← Story dashboard</a><a href="./chotu-tracker.html">Existing Chotu tracker</a><a href="./raw/Dhika.txt">Original source</a></header>
 <main>
@@ -20,10 +20,12 @@
 <option value="DBC">Dhika × Bobby × Chotu (Babu)</option>
 </select></label>
 <label>Episode <select id="episode"><option value="all">All E01–E68</option></select></label>
+<button id="previous" type="button" aria-label="Previous episode">← Previous</button><button id="next" type="button" aria-label="Next episode">Next →</button>
 <label>Episode scope <select id="scope"><option value="single">Selected episode</option><option value="through">From E01 through selected</option></select></label>
 <label>Evidence <select id="kind"><option value="all">All source references</option><option value="verified">Curated and source-linked</option><option value="candidate">Name matches / needs review</option></select></label>
 <label>Search <input id="search" placeholder="Original words, line, action"></label>
 </div>
+<p class="reader-notice">Study order: <strong>choose the relationship and episode → Meetings & sequence → Bond & memories → Physical actions / Body-part history → Cumulative state → Exact source.</strong> Open a scene to see its phases, then expand the original evidence. E01–E07 has a readable first-pass map; later episodes are not yet certified.</p>
 <nav class="tabs">
 <button data-tab="meetings" aria-pressed="true">Meetings & sequence</button>
 <button data-tab="bond" aria-pressed="false">Bond & memories</button>
