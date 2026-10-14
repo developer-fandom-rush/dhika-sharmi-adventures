@@ -1,0 +1,630 @@
+{
+  "schema": "dhika_twins_68_canonical_reference_manifest_v1",
+  "source_path": "raw/Dhika.txt",
+  "source_commit_blob": "590b4dce02db105b1ff150a118d309fcef7778f2",
+  "scope": "Episodes 01-68",
+  "rules": [
+    "Lexical name appearance does not prove co-presence, action, consent, or scene completeness.",
+    "Canonical source text is loaded dynamically by the reader. No long story text copied here.",
+    "Use source-based verified anchor and earlier audited atomic records for positive claims."
+  ],
+  "counts": {
+    "episodes": 68,
+    "refs": 4343,
+    "windows": 209
+  },
+  "episode_stats": [
+    {
+      "episode": 1,
+      "source_range": [
+        3,
+        230
+      ],
+      "reference_lines": 105,
+      "window_count": 4
+    },
+    {
+      "episode": 2,
+      "source_range": [
+        231,
+        389
+      ],
+      "reference_lines": 44,
+      "window_count": 5
+    },
+    {
+      "episode": 3,
+      "source_range": [
+        390,
+        628
+      ],
+      "reference_lines": 145,
+      "window_count": 4
+    },
+    {
+      "episode": 4,
+      "source_range": [
+        629,
+        834
+      ],
+      "reference_lines": 129,
+      "window_count": 3
+    },
+    {
+      "episode": 5,
+      "source_range": [
+        835,
+        1066
+      ],
+      "reference_lines": 101,
+      "window_count": 3
+    },
+    {
+      "episode": 6,
+      "source_range": [
+        1067,
+        1297
+      ],
+      "reference_lines": 122,
+      "window_count": 3
+    },
+    {
+      "episode": 7,
+      "source_range": [
+        1298,
+        1539
+      ],
+      "reference_lines": 91,
+      "window_count": 4
+    },
+    {
+      "episode": 8,
+      "source_range": [
+        1540,
+        1757
+      ],
+      "reference_lines": 95,
+      "window_count": 3
+    },
+    {
+      "episode": 9,
+      "source_range": [
+        1758,
+        1993
+      ],
+      "reference_lines": 50,
+      "window_count": 2
+    },
+    {
+      "episode": 10,
+      "source_range": [
+        1994,
+        2134
+      ],
+      "reference_lines": 57,
+      "window_count": 2
+    },
+    {
+      "episode": 11,
+      "source_range": [
+        2135,
+        2298
+      ],
+      "reference_lines": 52,
+      "window_count": 2
+    },
+    {
+      "episode": 12,
+      "source_range": [
+        2299,
+        2459
+      ],
+      "reference_lines": 83,
+      "window_count": 2
+    },
+    {
+      "episode": 13,
+      "source_range": [
+        2460,
+        2623
+      ],
+      "reference_lines": 76,
+      "window_count": 3
+    },
+    {
+      "episode": 14,
+      "source_range": [
+        2624,
+        2770
+      ],
+      "reference_lines": 3,
+      "window_count": 2
+    },
+    {
+      "episode": 15,
+      "source_range": [
+        2771,
+        2962
+      ],
+      "reference_lines": 58,
+      "window_count": 4
+    },
+    {
+      "episode": 16,
+      "source_range": [
+        2963,
+        3097
+      ],
+      "reference_lines": 66,
+      "window_count": 2
+    },
+    {
+      "episode": 17,
+      "source_range": [
+        3098,
+        3262
+      ],
+      "reference_lines": 86,
+      "window_count": 2
+    },
+    {
+      "episode": 18,
+      "source_range": [
+        3263,
+        3413
+      ],
+      "reference_lines": 54,
+      "window_count": 2
+    },
+    {
+      "episode": 19,
+      "source_range": [
+        3414,
+        3596
+      ],
+      "reference_lines": 80,
+      "window_count": 3
+    },
+    {
+      "episode": 20,
+      "source_range": [
+        3597,
+        3739
+      ],
+      "reference_lines": 58,
+      "window_count": 4
+    },
+    {
+      "episode": 21,
+      "source_range": [
+        3740,
+        3891
+      ],
+      "reference_lines": 78,
+      "window_count": 2
+    },
+    {
+      "episode": 22,
+      "source_range": [
+        3892,
+        4054
+      ],
+      "reference_lines": 68,
+      "window_count": 3
+    },
+    {
+      "episode": 23,
+      "source_range": [
+        4055,
+        4246
+      ],
+      "reference_lines": 118,
+      "window_count": 3
+    },
+    {
+      "episode": 24,
+      "source_range": [
+        4247,
+        4412
+      ],
+      "reference_lines": 65,
+      "window_count": 3
+    },
+    {
+      "episode": 25,
+      "source_range": [
+        4413,
+        4678
+      ],
+      "reference_lines": 129,
+      "window_count": 4
+    },
+    {
+      "episode": 26,
+      "source_range": [
+        4679,
+        4886
+      ],
+      "reference_lines": 87,
+      "window_count": 3
+    },
+    {
+      "episode": 27,
+      "source_range": [
+        4887,
+        5110
+      ],
+      "reference_lines": 100,
+      "window_count": 3
+    },
+    {
+      "episode": 28,
+      "source_range": [
+        5111,
+        5268
+      ],
+      "reference_lines": 45,
+      "window_count": 3
+    },
+    {
+      "episode": 29,
+      "source_range": [
+        5269,
+        5436
+      ],
+      "reference_lines": 101,
+      "window_count": 2
+    },
+    {
+      "episode": 30,
+      "source_range": [
+        5437,
+        5637
+      ],
+      "reference_lines": 18,
+      "window_count": 5
+    },
+    {
+      "episode": 31,
+      "source_range": [
+        5638,
+        5807
+      ],
+      "reference_lines": 21,
+      "window_count": 3
+    },
+    {
+      "episode": 32,
+      "source_range": [
+        5808,
+        5978
+      ],
+      "reference_lines": 5,
+      "window_count": 1
+    },
+    {
+      "episode": 33,
+      "source_range": [
+        5979,
+        6157
+      ],
+      "reference_lines": 7,
+      "window_count": 2
+    },
+    {
+      "episode": 34,
+      "source_range": [
+        6158,
+        6357
+      ],
+      "reference_lines": 77,
+      "window_count": 2
+    },
+    {
+      "episode": 35,
+      "source_range": [
+        6358,
+        6579
+      ],
+      "reference_lines": 33,
+      "window_count": 4
+    },
+    {
+      "episode": 36,
+      "source_range": [
+        6580,
+        6816
+      ],
+      "reference_lines": 142,
+      "window_count": 3
+    },
+    {
+      "episode": 37,
+      "source_range": [
+        6817,
+        7021
+      ],
+      "reference_lines": 81,
+      "window_count": 4
+    },
+    {
+      "episode": 38,
+      "source_range": [
+        7022,
+        7274
+      ],
+      "reference_lines": 123,
+      "window_count": 3
+    },
+    {
+      "episode": 39,
+      "source_range": [
+        7275,
+        7444
+      ],
+      "reference_lines": 33,
+      "window_count": 2
+    },
+    {
+      "episode": 40,
+      "source_range": [
+        7445,
+        7657
+      ],
+      "reference_lines": 67,
+      "window_count": 2
+    },
+    {
+      "episode": 41,
+      "source_range": [
+        7658,
+        7953
+      ],
+      "reference_lines": 138,
+      "window_count": 5
+    },
+    {
+      "episode": 42,
+      "source_range": [
+        7954,
+        8165
+      ],
+      "reference_lines": 12,
+      "window_count": 2
+    },
+    {
+      "episode": 43,
+      "source_range": [
+        8166,
+        8327
+      ],
+      "reference_lines": 4,
+      "window_count": 3
+    },
+    {
+      "episode": 44,
+      "source_range": [
+        8328,
+        8529
+      ],
+      "reference_lines": 2,
+      "window_count": 1
+    },
+    {
+      "episode": 45,
+      "source_range": [
+        8530,
+        8835
+      ],
+      "reference_lines": 100,
+      "window_count": 7
+    },
+    {
+      "episode": 46,
+      "source_range": [
+        8836,
+        8989
+      ],
+      "reference_lines": 2,
+      "window_count": 1
+    },
+    {
+      "episode": 47,
+      "source_range": [
+        8990,
+        9229
+      ],
+      "reference_lines": 0,
+      "window_count": 0
+    },
+    {
+      "episode": 48,
+      "source_range": [
+        9230,
+        9524
+      ],
+      "reference_lines": 4,
+      "window_count": 3
+    },
+    {
+      "episode": 49,
+      "source_range": [
+        9525,
+        9685
+      ],
+      "reference_lines": 0,
+      "window_count": 0
+    },
+    {
+      "episode": 50,
+      "source_range": [
+        9686,
+        9879
+      ],
+      "reference_lines": 30,
+      "window_count": 3
+    },
+    {
+      "episode": 51,
+      "source_range": [
+        9880,
+        10085
+      ],
+      "reference_lines": 88,
+      "window_count": 3
+    },
+    {
+      "episode": 52,
+      "source_range": [
+        10086,
+        10264
+      ],
+      "reference_lines": 7,
+      "window_count": 2
+    },
+    {
+      "episode": 53,
+      "source_range": [
+        10265,
+        10468
+      ],
+      "reference_lines": 37,
+      "window_count": 3
+    },
+    {
+      "episode": 54,
+      "source_range": [
+        10469,
+        10620
+      ],
+      "reference_lines": 3,
+      "window_count": 3
+    },
+    {
+      "episode": 55,
+      "source_range": [
+        10621,
+        10800
+      ],
+      "reference_lines": 0,
+      "window_count": 0
+    },
+    {
+      "episode": 56,
+      "source_range": [
+        10801,
+        11022
+      ],
+      "reference_lines": 17,
+      "window_count": 3
+    },
+    {
+      "episode": 57,
+      "source_range": [
+        11023,
+        11294
+      ],
+      "reference_lines": 67,
+      "window_count": 7
+    },
+    {
+      "episode": 58,
+      "source_range": [
+        11295,
+        11575
+      ],
+      "reference_lines": 54,
+      "window_count": 6
+    },
+    {
+      "episode": 59,
+      "source_range": [
+        11576,
+        11806
+      ],
+      "reference_lines": 112,
+      "window_count": 4
+    },
+    {
+      "episode": 60,
+      "source_range": [
+        11807,
+        12048
+      ],
+      "reference_lines": 122,
+      "window_count": 4
+    },
+    {
+      "episode": 61,
+      "source_range": [
+        12049,
+        12283
+      ],
+      "reference_lines": 111,
+      "window_count": 3
+    },
+    {
+      "episode": 62,
+      "source_range": [
+        12284,
+        12566
+      ],
+      "reference_lines": 91,
+      "window_count": 5
+    },
+    {
+      "episode": 63,
+      "source_range": [
+        12567,
+        12695
+      ],
+      "reference_lines": 66,
+      "window_count": 2
+    },
+    {
+      "episode": 64,
+      "source_range": [
+        12696,
+        12913
+      ],
+      "reference_lines": 31,
+      "window_count": 2
+    },
+    {
+      "episode": 65,
+      "source_range": [
+        12914,
+        13104
+      ],
+      "reference_lines": 38,
+      "window_count": 5
+    },
+    {
+      "episode": 66,
+      "source_range": [
+        13105,
+        13394
+      ],
+      "reference_lines": 112,
+      "window_count": 6
+    },
+    {
+      "episode": 67,
+      "source_range": [
+        13395,
+        13702
+      ],
+      "reference_lines": 78,
+      "window_count": 6
+    },
+    {
+      "episode": 68,
+      "source_range": [
+        13703,
+        13912
+      ],
+      "reference_lines": 64,
+      "window_count": 4
+    }
+  ]
+}
