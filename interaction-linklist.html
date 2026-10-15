@@ -106,7 +106,7 @@ function ensembleData(x){
  const scenes=Object.fromEntries((x.scenes||[]).map(s=>[s.id,s]));
  for(const t of x.scope?.tracks||[])track('ensemble-'+t.key,t.members,t.label,'Ensemble checked-source tracker');
  for(const s of x.episode_index||[])sourceRanges[s.episode_id]=[s.start,s.end];
- for(const b of x.beats||[])for(const key of b.track_keys||[])for(const ep of b.episode_ids||[]){
+ for(const b of x.beats||[])for(const key of b.track_keys||[])for(const epID of b.episode_ids||[]){const ep=readEpisodeId(epID);
   const members=membership[key]||[],scene=scenes[b.scene_id],present=members.every(m=>scene?.present?.includes(m));
   const actual=present&&b.temporal_frame==='actual';
   const body=(b.body_parts||[]).filter(p=>members.includes(p.owner)&&(p.counterparts||[]).some(c=>members.includes(c)&&c!==p.owner));
@@ -462,7 +462,15 @@ const resolved=await Promise.allSettled(paths.map(load));const x=resolved.map(r=
 if(x[0])ensembleData(x[0]);if(x[1])pairsFromSource(x[1],'dc');if(x[2]){pairsFromSource(x[2].pairs?.UD,'ud');pairsFromSource(x[2].pairs?.US,'us');}
 if(x[3]){const alias={DS:'stranger',DI:'iroh',DZ:'zuko',DJ:'jared',DP:'plumbing',DL:'leo'};for(const [id,k] of Object.entries(alias))pairsFromSource(x[3].pairs?.[id],k);}
 if(x[4])twinsData(x[4]);if(x[6])bobbyChotuE06(x[6]);if(x[7]&&x[8])addInnerStates(x[7],x[8]);fixE69();
-try{const rawResp=await fetch('raw/Dhika.txt');if(rawResp.ok){const original=await rawResp.text();rawLines=original.split(/\r?\n/);}}catch(err){console.warn('Original source unavailable',err);}
+try{const rawResp=await fetch('raw/Dhika.txt');if(rawResp.ok){const original=await rawResp.text();rawLines=original.split(/\r?\n/);
+ try{const extResp=await fetch('data/ensemble/ensemble_mexico_continuity_v1.json',{cache:'no-store'});
+ if(extResp.ok&&x[0]){const ext=await extResp.json();
+  if(ext.source_guards.every(g=>(rawLines[g.line-1]||'').includes(g.contains))){
+   ensembleData({scope:{tracks:x[0].scope.tracks},episode_index:[],scenes:ext.scenes,beats:ext.beats});
+  }else console.warn('Mexico supplementary source guards failed');
+ }
+ }catch(extraError){console.warn('Supplementary Mexico reference not loaded',extraError);}
+ }}catch(err){console.warn('Original source unavailable',err);}
 const failure=resolved.filter(r=>r.status!=='fulfilled').length;if(failure){const p=el('p',failure+' existing source indexes could not load. This link-list is partially populated.','notice');$('status').after(p);}
 render();const first=tracks.get('ensemble-DS');if(first?.episodes.has(1))showDetails('ensemble-DS',1);
 }
