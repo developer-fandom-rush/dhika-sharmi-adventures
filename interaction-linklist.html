@@ -94,6 +94,7 @@ track('dbc',['Dhika','Bobby','Chotu'],'Bobby + Chotu · group','Twins tracker');
 const entourage=[['stranger','Stranger',['Dhika','Stranger']],['iroh','Uncle Iroh',['Dhika','Iroh']],['zuko','Zuko',['Dhika','Zuko']],['jared','Jared',['Dhika','Jared']],['plumbing','Iroh + Zuko + Jared',['Dhika','Iroh','Zuko','Jared']],['leo','Leo',['Dhika','Leo']]];
 for(const [id,name,members] of entourage)track(id,members,name,'Visitors tracker');
 for(const [id,name,members] of [['aunty','Aunty',['Dhika','Aunty']],['auntyS','Aunty',['Sharmi','Aunty']],['pappu','Pappu (family context)',['Dhika','Pappu']]])track(id,members,name,'Source proximity index');
+for(const name of ['Bantu','Bobby','Leo','Pappu','Stranger','Iroh','Zuko','Jared','Mantu','Scott'])track('sharmi-extra-'+name.toLowerCase(),['Sharmi',name],name+' · candidate references','Original-text proximity scan');
 }
 function ensembleData(x){for(const t of x.scope?.tracks||[])track('ensemble-'+t.key,t.members,t.label,'Ensemble tracker');
 for(const s of x.episode_index||[])sourceRanges[s.episode_id]=[s.start,s.end];
@@ -120,6 +121,15 @@ for(const ep of x.episodes||[]){const n=ep.episode;
  }
  if(found!==-1&&!t.episodes.has(n))add(id,n,{title:'Possible source reference · verify context',reading:'Names occur within a short source-text window. This does not prove co-presence, contact, consent, conversation or a new event.',line:ep.start_github_line+found,grade:'candidate',frame:'automated nearby-name index',type:'candidate'});}
  }
+}
+function sourceNameCandidates(original){
+const lines=original.split(/\r?\n/),extras=['Bantu','Bobby','Leo','Pappu','Stranger','Iroh','Zuko','Jared','Mantu','Scott'];
+for(let n=1;n<=69;n++){const range=sourceRanges[n];if(!range)continue;const start=range[0],end=Math.min(range[1],lines.length);
+const sharmi=[];for(let j=start;j<=end;j++)if(/\bSharmi\b/i.test(lines[j-1]||''))sharmi.push(j);if(!sharmi.length)continue;
+for(const name of extras){const id='sharmi-extra-'+name.toLowerCase();let found=0;const regex=new RegExp('\\b'+name+'\\b','i');
+for(let j=start;j<=end;j++){if(!regex.test(lines[j-1]||''))continue;if(sharmi.some(k=>Math.abs(k-j)<=8)){found=j;break;}}
+if(found)add(id,n,{title:'Names appear near each other · needs scene review',reading:'This is a navigation pointer only; it does not establish a direct encounter, physical action, conversation, or new relationship change.',line:found,frame:'nearby mention',type:'candidate',grade:'candidate'});
+}}
 }
 function fixE69(){const start=sourceRanges[69]?.[0];if(!start)return;
 const at=n=>start+n-3;
@@ -153,6 +163,7 @@ const resolved=await Promise.allSettled(paths.map(load));const x=resolved.map(r=
 if(x[0])ensembleData(x[0]);if(x[1])pairsFromSource(x[1],'dc');if(x[2]){pairsFromSource(x[2].pairs?.UD,'ud');pairsFromSource(x[2].pairs?.US,'us');}
 if(x[3]){const alias={DS:'stranger',DI:'iroh',DZ:'zuko',DJ:'jared',DP:'plumbing',DL:'leo'};for(const [id,k] of Object.entries(alias))pairsFromSource(x[3].pairs?.[id],k);}
 if(x[4])twinsData(x[4]);if(x[5])machineData(x[5]);fixE69();
+try{const rawResp=await fetch('raw/Dhika.txt');if(rawResp.ok)sourceNameCandidates(await rawResp.text());}catch(err){console.warn('Additional original-text scan unavailable',err);}
 const failure=resolved.filter(r=>r.status!=='fulfilled').length;if(failure){const p=el('p',failure+' existing source indexes could not load. This link-list is partially populated.','notice');$('status').after(p);}
 render();const first=tracks.get('ensemble-DS');if(first?.episodes.has(1))showDetails('ensemble-DS',1);
 }
