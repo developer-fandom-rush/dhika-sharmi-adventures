@@ -15,6 +15,12 @@ jobs:
         run: node --check app.js
       - name: Check all-episode review JavaScript syntax
         run: node --check action-review.js
+      - name: Check unified twins tracker syntax
+        run: node --check unified-pair-tracker.js
+      - name: Verify twins source ranges, section hashes and restored ledgers
+        run: python3 scripts/validate_twins_tracker.py
+      - name: Check twins episode scopes, attribution controls and exports
+        run: node scripts/test_twins_tracker.mjs
       - name: Verify all 69 episode source ledgers and checked action spans
         run: python3 scripts/validate_female_action_review.py
       - name: Check source validator syntax

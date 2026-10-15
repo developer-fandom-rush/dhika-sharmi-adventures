@@ -1,0 +1,70 @@
+{
+  "schema": "twins_tracker_repair_audit_v1",
+  "date": "2026-10-15",
+  "scope": "Bantu–Dhika, Bobby–Dhika, Bantu–Bobby–Dhika; preserve Bobby–Chotu–Dhika",
+  "source_unchanged": true,
+  "atomic_complete": false,
+  "software_repairs": [
+    {
+      "issue": "Dark palette differed from the reference readers",
+      "status": "FIXED",
+      "evidence": "unified-pair-tracker.css: light paper/cream/green palette and readable focus styles"
+    },
+    {
+      "issue": "Existing E11–E13 event ledgers were not loaded",
+      "status": "FIXED",
+      "evidence": "All 89 existing event records restored with checksum checks"
+    },
+    {
+      "issue": "Later Exact source used selected name windows rather than full episodes",
+      "status": "FIXED",
+      "evidence": "All 68 complete source ranges, 13910 lines, paginated in the reader"
+    },
+    {
+      "issue": "Cumulative history silently stopped at E10",
+      "status": "FIXED_WITH_LIMIT",
+      "evidence": "Requested cutoff extends through E68; older dimensional checkpoints retain actual dates; later source notes remain first-pass"
+    },
+    {
+      "issue": "Shared group context could not be excluded from pair views",
+      "status": "FIXED",
+      "evidence": "Include shared-group context toggle; strict mode regression tested"
+    },
+    {
+      "issue": "No arbitrary episode selection",
+      "status": "FIXED",
+      "evidence": "68 checkbox choices, scope-aware views and exports"
+    },
+    {
+      "issue": "Export omitted reader notes and ignored search",
+      "status": "FIXED",
+      "evidence": "v4 export includes filtered records, reader phases, navigation sections, scope and source provenance"
+    },
+    {
+      "issue": "No direct hub route from main dashboard or twins header",
+      "status": "FIXED",
+      "evidence": "All trackers links added; hub description updated"
+    },
+    {
+      "issue": "Later source-sequence navigation absent",
+      "status": "FIRST_PASS_ADDED",
+      "evidence": "196 authored non-graphic source-section notes; frame explicitly labelled"
+    }
+  ],
+  "validation": {
+    "source_integrity": "PASS",
+    "section_hashes": "PASS",
+    "restored_event_checksums": "PASS",
+    "functional_dom_fixture": "PASS",
+    "existing_repository_source_checks": "PASS",
+    "live_browser": "PENDING"
+  },
+  "remaining_semantic_work": [
+    "No episode is newly certified as exhaustively atomically extracted.",
+    "All original G01–G18 requirements remain available; this software repair does not claim their full closure.",
+    "196 section notes are navigation annotations, not 196 distinct encounters or complete event inventories.",
+    "Later-episode actor/recipient, knowledge, body-history and per-line multi-action sign-off still need an independent full semantic pass.",
+    "Episodes without explicit name matches remain pending pronoun/context review; no absence claim is made.",
+    "E23 master line 4229 has conflicting actor continuity; original text is retained and ambiguity is explicit."
+  ]
+}

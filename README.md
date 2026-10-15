@@ -1,5 +1,41 @@
 # Dhika & Sharmi Adventures — source-locked analysis dashboard
 
+## Unified twins tracker repair (15 October 2026)
+
+[All trackers](https://developer-fandom-rush.github.io/dhika-sharmi-adventures/tracker-hub.html)
+· [Bantu / Bobby tracker](https://developer-fandom-rush.github.io/dhika-sharmi-adventures/unified-pair-tracker.html)
+
+The unified tracker now uses the light paper/cream/green palette of the Chotu
+and Uncle readers. It preserves the earlier detailed records and restores the
+89 existing E11–E13 event records that the prior UI did not load.
+
+**Episode map** adds 196 source-linked, non-graphic navigation sections for later
+episodes, keeping direct/remote scenes, memories, reports, comparisons and
+hypotheses distinct. These sections are navigation annotations, not 196 new
+encounters and not an exhaustive atomic-action ledger. E01–E68 all have complete
+source browsing (13,910 master lines, including blanks and metadata). The source
+hash is unchanged. Episodes without explicit name matches still retain their
+full source and are not certified as having no relevant pronoun-only scene.
+
+Filters support one episode, cumulative scope or arbitrary episode checkboxes.
+Shared group context can be switched off in pair views. Exact source is paginated
+without dropping later-episode or pronoun-only passages. Exports preserve the
+selected track, episode scope, search, source-index filter, earlier record metadata,
+new section notes and explicit incomplete-review status. Cumulative history is
+no longer silently capped at E10; earlier detailed checkpoints keep their actual
+episode dates rather than being represented as a verified E68 state.
+
+`data/twins_e01_e68_navigation_review_v1.json` and
+`scripts/build_twins_review.py` hold the new section map and lossless episode
+pointers. `data/twins_tracker_repair_audit_20261015.json` distinguishes repaired
+software defects from the still-open semantic review requirements.
+
+Run `python3 scripts/validate_twins_tracker.py` and
+`node scripts/test_twins_tracker.mjs` in addition to the existing source checks.
+The functional test uses a DOM fixture; it is not a browser-layout test.
+**Exhaustive action/recipient/knowledge/continuity certification remains pending.**
+The repair does not close G01–G18 or convert lexical matches into verified acts.
+
 ## Current E01 scene repair (13 October 2026)
 
 The **Characters & actions** page now uses the scene-level E01 review in
