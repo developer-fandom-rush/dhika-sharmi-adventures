@@ -1,0 +1,102 @@
+{
+  "schema": "ensemble_mexico_continuity_v1",
+  "source": "raw/Dhika.txt",
+  "episode": 69,
+  "audit_status": "SOURCE_REFERENCED_LIMITED_REVIEW",
+  "attribution_policy": "Mention, behaviour, co-presence and physical actions are separate. Do not infer a kiss or invitation from teasing comments.",
+  "scenes": [
+    {
+      "id": "MX69-S1",
+      "episode_ids": [
+        "E69"
+      ],
+      "mode": "reported_history",
+      "present": [
+        "Sharmi",
+        "John"
+      ],
+      "title": "Earlier Mexico behaviour toward John (narration)",
+      "time_anchor": "E69 narration recalls behaviour after arrival; not a new in-person event in the car scene."
+    },
+    {
+      "id": "MX69-S2",
+      "episode_ids": [
+        "E69"
+      ],
+      "mode": "reported_history",
+      "present": [
+        "Dhika",
+        "Sharmi"
+      ],
+      "title": "Poolside conversation about bartender",
+      "time_anchor": "E69 narrates earlier poolside comments; not a verified bartender–Sharmi physical encounter."
+    }
+  ],
+  "beats": [
+    {
+      "id": "MX69-B01",
+      "scene_id": "MX69-S1",
+      "episode_ids": [
+        "E69"
+      ],
+      "start": 14010,
+      "end": 14011,
+      "title": "Sharmi's playful Mexico behaviour toward John is reported",
+      "reading": "Narration reports Sharmi was more openly playful with John in Mexico; it does not specify a particular touch or other physical action.",
+      "track_keys": [
+        "JS"
+      ],
+      "kind": "character_continuity",
+      "actor": "Sharmi",
+      "recipient": "John",
+      "body_parts": [],
+      "contact_layer": null,
+      "temporal_frame": "reported_actual",
+      "knowledge": "Narration and Dhika's perspective; John or Sharmi's private motives are not established.",
+      "context_lines": [],
+      "recalls_scene_ids": []
+    },
+    {
+      "id": "MX69-B02",
+      "scene_id": "MX69-S2",
+      "episode_ids": [
+        "E69"
+      ],
+      "start": 14011,
+      "end": 14013,
+      "title": "Sharmi's bartender comments with Dhika beside her",
+      "reading": "At the pool, the source says Sharmi made playful comments about a bartender while Dhika observed him. No kiss offer or kiss with the bartender is established.",
+      "track_keys": [
+        "DS"
+      ],
+      "kind": "character_continuity",
+      "actor": "Sharmi",
+      "recipient": null,
+      "body_parts": [],
+      "contact_layer": null,
+      "temporal_frame": "reported_actual",
+      "knowledge": "Only the narrated behaviour is established; no new action by John or Raj is assigned.",
+      "context_lines": [],
+      "recalls_scene_ids": []
+    }
+  ],
+  "source_guards": [
+    {
+      "line": 14010,
+      "contains": "landed in Mexico"
+    },
+    {
+      "line": 14011,
+      "contains": "Sharmi"
+    },
+    {
+      "line": 14013,
+      "contains": "passing naughty comments"
+    }
+  ],
+  "status_notes": [
+    "This supplements the existing 97 first-pass source beats; it does not claim all E69 scenes are semantically complete.",
+    "The source contains no explicit scene of Sharmi offering the bartender a kiss in these lines.",
+    "The narrator's recollection is not the same as a direct present-tense bartender meeting."
+  ]
+}
