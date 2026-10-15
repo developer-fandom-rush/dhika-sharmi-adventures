@@ -74,7 +74,7 @@ async function boot(){try{const response=await fetch('data/chotu_dhika_tracker.j
   const candidate=await responseAudit.json();
   const valid=candidate.source?.sha256===data.scope.source_sha256&&candidate.encounters.every(item=>{
    const ep=data.episodes[item.episode-1],anchor=ep?.source_lines?.find(row=>row.global_line===item.source_chotu_name_line);
-   return !!ep&&!!anchor&&/\\b(?:Chotu|Babu)\\b/i.test(anchor.text)&&item.source_ranges.every(([a,b])=>a<=b&&ep.source_range[0]<=a&&b<=ep.source_range[1]);
+   return !!ep&&!!anchor&&/\b(?:Chotu|Babu)\b/i.test(anchor.text)&&item.source_ranges.every(([a,b])=>a<=b&&ep.source_range[0]<=a&&b<=ep.source_range[1]);
   });
   if(valid)encounterAudit=candidate;
  }
