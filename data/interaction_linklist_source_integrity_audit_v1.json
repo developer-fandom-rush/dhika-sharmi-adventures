@@ -1,0 +1,104 @@
+{
+  "kind": "interaction_linklist_source_integrity_audit",
+  "version": 1,
+  "audited_on": "2026-10-15",
+  "source": {
+    "path": "raw/Dhika.txt",
+    "git_blob_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+    "episode_count": 69,
+    "physical_line_count_including_empty_or_separators": 14046,
+    "rule": "The source is authoritative; a source line is not itself a verified encounter."
+  },
+  "scope": {
+    "tracker": "interaction-linklist.html",
+    "supported_focus_characters": [
+      "Dhika",
+      "Sharmi"
+    ],
+    "evidence_groups": [
+      "Chotu",
+      "Neighbour Uncle (Dhika and Sharmi)",
+      "Stranger/Iroh/Zuko/Jared/Leo and plumbing team",
+      "Ensemble couples/trios/quartet",
+      "Twins E01–E68 first-pass navigation",
+      "E06 Dhika+Bobby+Chotu atomic first pass"
+    ],
+    "semantic_exhaustiveness": false,
+    "manually_verified_every_scene": false,
+    "hover_sections": [
+      "exact original source lines",
+      "literal body-part words and literal physical-action words from indexed source ranges"
+    ],
+    "unreviewed_name_windows": "Automatically shown as candidates where names co-occur nearby beyond curated indexed ranges; these do NOT assert an event or a character-specific action."
+  },
+  "integrity": {
+    "source_line_references_checked": 7400,
+    "exact_preserved_source_line_text_mismatches": 0,
+    "reference_line_numbers_out_of_range": 0,
+    "blank_source_lines_referenced": 6,
+    "explanation": "Six valid line references land on empty source lines (DS E40 at 7655–7656, E41 at 7661; DL E59 at 11804–11805, E60 at 11810). These are not invented source lines; the raw file has blank lines at those positions.",
+    "combined_sources_line_range_check": "Ensemble beats, Uncle UD/US, visitor tracks, Chotu episodes, twins E01–E68 section map, and E06 action ledger checked.",
+    "direct_source_metadata": {
+      "chotu": {
+        "episode_slots": 68,
+        "meeting_records": 36,
+        "bond_beats": 145,
+        "physical_records": 286,
+        "verbatim_source_lines": 2752
+      },
+      "neighbour_uncle_dhika": {
+        "episode_slots": 69,
+        "meeting_records": 21,
+        "bond_beats": 86,
+        "physical_records": 43,
+        "verbatim_source_lines": 1342
+      },
+      "neighbour_uncle_sharmi": {
+        "episode_slots": 69,
+        "meeting_records": 1,
+        "bond_beats": 8,
+        "physical_records": 9,
+        "verbatim_source_lines": 129
+      },
+      "visitor_tracks": 6,
+      "ensemble_beats": 97,
+      "twins_first_pass_sections": 196,
+      "e06_group_source_range": [
+        1139,
+        1199
+      ],
+      "e06_group_ledger_events": 51
+    }
+  },
+  "age_display": {
+    "user_confirmed_current": {
+      "Dhika": 29.5,
+      "John": 31.5,
+      "Sharmi": 29,
+      "Raj": 30,
+      "Bobby": 20,
+      "Chotu": 20,
+      "Neighbour Uncle": 65,
+      "Mantu": 20
+    },
+    "unresolved_name": "The literal name Mantu does not appear in the E01–E69 raw source, while Bantu does. The source does not establish these are aliases, so Bantu is NOT automatically assigned Mantu's 20-year age.",
+    "other_source_time_only": {
+      "Leo": "25 years at L5723",
+      "Iroh": "approximately 60 at L10249",
+      "Zuko": "Dhika estimates around 22 at L10271",
+      "Stranger": "age unknown"
+    },
+    "note": "Current user-specified ages are UI annotations; source paragraphs are never rewritten to match them."
+  },
+  "unresolved": {
+    "status": "PENDING_MANUAL_SEMANTIC_REVIEW",
+    "items": [
+      "Source proximity does not determine which character acted, which body reacted, or who observed a detail.",
+      "Not every scene of E01–E69 has a checked atomic beat list. All source text remains available through original GitHub lines.",
+      "Some source contexts contain first-pass interpretations; these are never treated as substitutes for original quotes.",
+      "Physical-action and body-word extraction is literal regex matching, not exhaustive semantic recognition.",
+      "A proposed future relationship direction, marriage change, trio/quartet setup or boundary shift is not established without source evidence.",
+      "Source line ranges can be structurally correct while an important dialogue, thought, observation, reaction, or state change is absent from the index."
+    ]
+  }
+}
