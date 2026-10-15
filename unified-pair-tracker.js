@@ -194,7 +194,7 @@ function getFilter(){
  if(q)all=all.filter(r=>searched(r,q));
  return all.sort((a,b)=>a.episode-b.episode||(a.line||a.start)-(b.line||b.start)||String(a.id).localeCompare(String(b.id)))
 }
-function history(){
+function historyView(){
  filtered=getFilter();shown=0;$("results").innerHTML="";renderChunk()
 }
 function sceneView(){

@@ -6,6 +6,7 @@ import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+let lastUrl='';
 const html=await fs.readFile(path.join(root,'unified-pair-tracker.html'),'utf8');
 const elements=new Map(),buttons=[],checks=[];
 class Element {
@@ -24,7 +25,7 @@ for(const m of html.matchAll(/<select id="([^"]+)"[^>]*>([\s\S]*?)<\/select>/g))
  const options=[...m[2].matchAll(/<option value="([^"]+)"/g)].map(x=>({value:x[1]}));el(m[1]).options=options;el(m[1]).value=options[0]?.value||'';
 }
 el('shared').checked=true;
-const sandbox={console,URLSearchParams,Blob,URL,location:{search:''},history:{replaceState(){}},document:{getElementById:el,querySelectorAll:s=>s==='[data-tab]'?buttons:s==='.selected-episode'?checks:[]},fetch:async rel=>{const text=await fs.readFile(path.join(root,rel.split('?')[0]),'utf8');return {ok:true,json:async()=>JSON.parse(text),text:async()=>text};}};
+const sandbox={console,URLSearchParams,Blob,URL,location:{search:''},history:{replaceState(_state,_title,url){lastUrl=url;}},document:{getElementById:el,querySelectorAll:s=>s==='[data-tab]'?buttons:s==='.selected-episode'?checks:[]},fetch:async rel=>{const text=await fs.readFile(path.join(root,rel.split('?')[0]),'utf8');return {ok:true,json:async()=>JSON.parse(text),text:async()=>text};}};
 vm.createContext(sandbox);
 vm.runInContext(await fs.readFile(path.join(root,'unified-pair-tracker.js'),'utf8'),sandbox);
 for(let i=0;i<100&&el('status').textContent==='';i++)await new Promise(resolve=>setTimeout(resolve,10));
@@ -35,6 +36,7 @@ for(const [e,count] of [[11,5],[12,66],[13,18]])assert.equal(run(`curated.filter
 
 el('episode').value='68';el('scope').value='single';el('pair').value='DY';
 run('tab="source";render()');
+assert.match(lastUrl,/pair=DY/);assert.match(lastUrl,/episode=68/);assert.match(lastUrl,/view=source/);
 assert.equal(run('sourceMatches.length'),210);
 assert.equal(run('sourceMatches.at(0).n'),13703);
 assert.equal(run('sourceMatches.at(-1).n'),13912);
