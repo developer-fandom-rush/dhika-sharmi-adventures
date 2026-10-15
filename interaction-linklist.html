@@ -57,7 +57,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 <section id="directory" class="directory" aria-label="Episode link list"></section>
 <aside id="detail" class="detail" aria-live="polite"><h2>Episode details</h2><p class="detailsEmpty">Hover over or select any episode chip. On mobile, tap an episode.</p></aside>
 </div>
-<p class="footer-note">Original source lines are shown verbatim, separately from generated keywords and curated interpretations. Lexical cues may refer to a different character and never establish who touched or experienced something. Existing first-pass actor tags are source-linked, not an exhaustive second-pass audit. E01–E69 source indexing is wider than its verified scene coverage; no missing track means a character was absent. Neighbour Uncle and Uncle Iroh remain distinct.</p>
+<p class="footer-note">Automated source-gap scan adds unreviewed nearby-name windows beyond existing pair-indexed ranges, including existing episodes with other verified scenes. Name proximity and a physical-action word do NOT prove a pair acted together. Source text is verbatim; the two keyword lists are literal term extraction, not a character-level interpretation. Full E01–E69 manual semantic audit is still incomplete. Neighbour Uncle and Uncle Iroh remain distinct. “Mantu” does not appear by that name in the raw source, so no undocumented alias is assumed.</p>
 </main>
 <script>
 'use strict';
@@ -149,6 +149,47 @@ for(let j=start;j<=end;j++){if(!regex.test(lines[j-1]||''))continue;if(sharmi.so
 if(found)add(id,n,{title:'Names appear near each other · needs scene review',reading:'This is a navigation pointer only; it does not establish a direct encounter, physical action, conversation, or new relationship change.',line:found,frame:'nearby mention',type:'candidate',grade:'candidate'});
 }}
 }
+
+const sourceNameAliases={
+ 'dhika':['Dhika'],'sharmi':['Sharmi'],'john':['John'],'raj':['Raj'],
+ 'chotu':['Chotu','Babu'],'bantu':['Bantu'],'bobby':['Bobby'],
+ 'uncle':['Uncle'],'iroh':['Iroh'],'zuko':['Zuko'],'jared':['Jared'],
+ 'stranger':['Stranger'],'leo':['Leo'],'aunty':['Aunty'],'pappu':['Pappu'],'scott':['Scott']
+};
+function sourceGapCandidates(){
+ if(!rawLines.length)return 0;let candidates=0;
+ const names=(t)=>[...new Set(t.members.map(n=>String(n).toLowerCase()))];
+ for(const t of tracks.values()){
+  const people=names(t);
+  if(people.length<2||people.some(n=>!sourceNameAliases[n]))continue;
+  const tests=people.map(n=>new RegExp('\\b(?:'+sourceNameAliases[n].join('|')+')\\b','i'));
+  for(let ep=1;ep<=END;ep++){
+   const range=sourceRanges[ep];if(!range)continue;
+   const [start,end]=range,seen=tests.map(re=>[]);
+   for(let line=start;line<=end&&line<=rawLines.length;line++){
+    const text=rawLines[line-1]||'';for(let j=0;j<tests.length;j++)if(tests[j].test(text))seen[j].push(line);
+   }
+   if(seen.some(arr=>!arr.length))continue;
+   const curated=(t.episodes.get(ep)||[]).filter(r=>r.grade!=='candidate').map(r=>[Number(r.line)||0,Number(r.end)||Number(r.line)||0]);
+   const hit=seen[0].filter(i=>seen.every(arr=>arr.some(j=>Math.abs(i-j)<=12)));
+   const unreviewed=hit.filter(i=>!curated.some(([a,b])=>i>=a-2&&i<=b+2));
+   if(!unreviewed.length)continue;
+   const groups=[];for(const i of unreviewed){
+    let last=groups[groups.length-1];
+    if(last&&i-last.at(-1)<=10)last.push(i);else groups.push([i]);
+   }
+   for(const group of groups){
+    const a=Math.max(start,group[0]-2),b=Math.min(end,group.at(-1)+12);
+    add(t.id,ep,{title:'Source-only nearby-name window · event unverified',
+    reading:'Some character names appear close together in the source. No event, touch, shared awareness, consent or relationship progression has been verified for this specific window.',
+    line:a,end:b,grade:'candidate',frame:'name proximity / source gap',type:'candidate'});
+    candidates++;
+   }
+  }
+ }
+ return candidates;
+}
+
 function fixE69(){const start=sourceRanges[69]?.[0];if(!start)return;
 const episodeLocalLine=n=>start+n-1;
 add('dc',69,{title:'Chotu age comparison only',reading:'E69 mentions Chotu by comparing his approximate age to a bartender. Chotu is not established as appearing or participating in a new encounter.',line:episodeLocalLine(100),frame:'reference / comparison',type:'reference',grade:'reviewed'});
@@ -306,7 +347,7 @@ function fillHover(box,t,ep,rows){
  if(result.lines.length){
   for(const item of result.lines){const p=el('p',undefined,'hover-scene');const a=el('a','L'+item.line);a.href=linkLine(item.line);a.target='_blank';a.rel='noopener';p.append(a,document.createTextNode('  '+item.text));one.append(p);}
  }else one.append(el('p','No pair-assigned source lines indexed here; this is not proof of no encounter.'));
- if(rows.some(x=>x.grade==='candidate'))one.append(el('p','WARNING: Some lines are candidate references, not verified co-presence or pair-specific contact.','hover-note'));
+ if(rows.some(x=>x.grade==='candidate'))one.append(el('p','WARNING: Some lines are unreviewed nearby-name references, not verified co-presence or pair-specific contact. The exact text is shown to avoid hiding possible gaps.','hover-note'));
  const two=el('section',undefined,'hover-part');two.append(el('h4','2 · Body parts + physical actions · exact words in the lines'));
  const p=el('p');p.append(el('strong','Body parts: '),document.createTextNode(result.parts.length?result.parts.join(' · '):'No explicit matching body-part word in these indexed lines'));two.append(p);
  const act=el('p');act.append(el('strong','Physical actions: '),document.createTextNode(result.actions.length?result.actions.join(' · '):'No explicit matching action word in these indexed lines'));two.append(act);
@@ -383,7 +424,7 @@ const resolved=await Promise.allSettled(paths.map(load));const x=resolved.map(r=
 if(x[0])ensembleData(x[0]);if(x[1])pairsFromSource(x[1],'dc');if(x[2]){pairsFromSource(x[2].pairs?.UD,'ud');pairsFromSource(x[2].pairs?.US,'us');}
 if(x[3]){const alias={DS:'stranger',DI:'iroh',DZ:'zuko',DJ:'jared',DP:'plumbing',DL:'leo'};for(const [id,k] of Object.entries(alias))pairsFromSource(x[3].pairs?.[id],k);}
 if(x[4])twinsData(x[4]);if(x[5])machineData(x[5]);if(x[6])bobbyChotuE06(x[6]);if(x[7]&&x[8])addInnerStates(x[7],x[8]);fixE69();
-try{const rawResp=await fetch('raw/Dhika.txt');if(rawResp.ok){const original=await rawResp.text();rawLines=original.split(/\r?\n/);sourceNameCandidates(original);}}catch(err){console.warn('Original-text lexical source view unavailable',err);}
+try{const rawResp=await fetch('raw/Dhika.txt');if(rawResp.ok){const original=await rawResp.text();rawLines=original.split(/\r?\n/);sourceNameCandidates(original);const gapCount=sourceGapCandidates();console.info('Unreviewed source-only candidate windows:',gapCount);}}catch(err){console.warn('Original-text lexical source view unavailable',err);}
 const failure=resolved.filter(r=>r.status!=='fulfilled').length;if(failure){const p=el('p',failure+' existing source indexes could not load. This link-list is partially populated.','notice');$('status').after(p);}
 render();const first=tracks.get('ensemble-DS');if(first?.episodes.has(1))showDetails('ensemble-DS',1);
 }
