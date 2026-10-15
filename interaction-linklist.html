@@ -24,7 +24,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 .chip[data-grade=reviewed]{border-color:#a4ccb1;background:#eef8f0}.chip[data-grade=firstpass]{border-color:#eed8a4;background:#fff8e8}
 .chip[data-grade=candidate]{border-color:#d5dce4;background:#f7f9fb;color:#5d6c79}
 .chip:hover,.chip:focus,.chip.active{outline:2px solid #276995;outline-offset:1px;background:#e8f2fa}
-.chip .hover{display:none;position:absolute;z-index:9;left:0;top:calc(100% + 7px);width:min(390px,88vw);text-align:left;white-space:pre-line;background:#263b50;color:white;font-size:12px;line-height:1.55;padding:12px;border-radius:9px;box-shadow:0 12px 28px #0003;font-weight:400;pointer-events:none}
+.chip .hover{display:none;position:absolute;z-index:9;left:0;top:calc(100% + 7px);width:min(520px,88vw);max-height:min(65vh,520px);overflow:auto;text-align:left;white-space:pre-wrap;pointer-events:auto;background:#263b50;color:white;font-size:12px;line-height:1.55;padding:12px;border-radius:9px;box-shadow:0 12px 28px #0003;font-weight:400;pointer-events:none}
 .chip:hover .hover,.chip:focus .hover{display:block}.chip:nth-child(5n) .hover{left:auto;right:0}
 .detail{position:sticky;top:15px;background:white;border:1px solid var(--line);border-radius:14px;padding:20px;max-height:calc(100vh - 30px);overflow:auto}
 .detail h2{margin:0 0 12px}.detail .sub{font-size:13px;color:var(--muted)}
@@ -34,7 +34,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 .mark.candidate{background:#f1f3f6}.mark.firstpass{background:var(--gold)}.mark.reviewed{background:var(--green)}
 .detailsEmpty{color:var(--muted);padding:20px 0}
 .notice{padding:10px 14px;border-left:3px solid #b78b3e;background:#fff8eb;border-radius:4px;color:#5e584a;font-size:13px}
-#status{font-size:13px;color:var(--muted)}.footer-note{font-size:12px;color:var(--muted);margin:25px 0}.cueblock{margin:10px 0;padding:10px 12px;background:#f8fafc;border:1px solid #e4ebf2;border-radius:9px}.cueblock strong{font-size:12px;display:block;margin-bottom:5px}.cue-line{font-size:12px!important;margin:5px 0!important;border-left:2px solid #cad9e8;padding-left:8px}.cue-line a{margin-right:7px;font-weight:700}.cue-warning{font-size:12px;color:#795f30}.handoff{margin:12px 0;background:#edf4f8;border-radius:10px;padding:12px 14px}.handoff p{font-size:13px}.handoff h3{font-size:14px;margin:4px 0}.handoff details{margin-top:6px}.handoff summary{cursor:pointer;font-size:13px;font-weight:650}
+#status{font-size:13px;color:var(--muted)}.footer-note{font-size:12px;color:var(--muted);margin:25px 0}.cueblock{margin:10px 0;padding:10px 12px;background:#f8fafc;border:1px solid #e4ebf2;border-radius:9px}.cueblock strong{font-size:12px;display:block;margin-bottom:5px}.cue-line{font-size:12px!important;margin:5px 0!important;border-left:2px solid #cad9e8;padding-left:8px}.cue-line a{margin-right:7px;font-weight:700}.cue-warning{font-size:12px;color:#795f30}.handoff{margin:12px 0;background:#edf4f8;border-radius:10px;padding:12px 14px}.handoff p{font-size:13px}.handoff h3{font-size:14px;margin:4px 0}.handoff details{margin-top:6px}.handoff summary{cursor:pointer;font-size:13px;font-weight:650}.original-reader{border:1px solid #cbdce9;border-radius:10px;background:#f9fcfe;margin:10px 0}.original-reader summary{padding:11px 13px;cursor:pointer;font-weight:700;color:#234e72}.original-body{max-height:55vh;overflow:auto;padding:6px 11px;border-top:1px solid #dce8ef}.original-line{padding:9px 7px;border-bottom:1px solid #e2eaf1}.original-line:last-child{border-bottom:0}.original-line p{white-space:pre-wrap;overflow-wrap:anywhere;margin:5px 0;font-size:13px;line-height:1.58}.original-tags{font-size:11px;color:#345b77;margin:3px 0;padding:4px 7px;background:#eaf2f9;border-radius:6px;overflow-wrap:anywhere}.phase{background:#edf5f9;border-radius:10px;margin:10px 0;padding:10px 12px}.phase summary{font-weight:750;cursor:pointer;color:#255b84}.source-primary{padding:12px;border-left:3px solid #266489;background:#edf6fc;margin-bottom:12px;border-radius:5px;font-size:13px}.source-primary strong{display:block;margin-bottom:4px}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.detail{position:static;max-height:none}.tools{align-items:stretch}.tools label{display:flex;align-items:center;gap:8px;flex-wrap:wrap}}
 </style>
 </head>
@@ -43,7 +43,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 <main>
 <p class="eyebrow">Relationship directory · cumulative by episode</p>
 <h1>Interaction Link-List</h1>
-<p class="lead">Choose Dhika or Sharmi, and move from E01 to E69 without losing earlier entries. Hover for source wording and reactions; click for original visual descriptors, dialogue, inner-state before/after, action context, and a writer handoff checklist. Machine-detected words stay separate from verified events.</p>
+<p class="lead">E01–E69 cumulative relationship index. Hover an episode for <strong>unaltered source wording</strong>; click for scene-level original paragraphs, actor-attributed action ledger (where reviewed), visual and bodily reactions, dialogue, character state and continuity. Source remains authoritative; AI summaries are separately labelled.</p>
 <div class="tools">
   <div class="tabs" role="group" aria-label="Main character"><button id="dhikaTab" aria-pressed="true">Dhika</button><button id="sharmiTab" aria-pressed="false">Sharmi</button></div>
   <label>Through episode <input id="upto" type="range" min="1" max="69" value="69"><span id="uptoText" class="readout">E69</span></label>
@@ -56,14 +56,14 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 <section id="directory" class="directory" aria-label="Episode link list"></section>
 <aside id="detail" class="detail" aria-live="polite"><h2>Episode details</h2><p class="detailsEmpty">Hover over or select any episode chip. On mobile, tap an episode.</p></aside>
 </div>
-<p class="footer-note">Scope note: the original E01–E69 source is linked, but exhaustive character-wise semantic adjudication is not complete. A lexical candidate is never treated as a verified encounter. Neighbour Uncle and Uncle Iroh are distinct. No future-story proposal is canon. Existing trackers remain unchanged.</p>
+<p class="footer-note">Original source lines are shown verbatim, separately from generated keywords and curated interpretations. Lexical cues may refer to a different character and never establish who touched or experienced something. Existing first-pass actor tags are source-linked, not an exhaustive second-pass audit. E01–E69 source indexing is wider than its verified scene coverage; no missing track means a character was absent. Neighbour Uncle and Uncle Iroh remain distinct.</p>
 </main>
 <script>
 'use strict';
 const $=id=>document.getElementById(id);
 const BASE='https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt';
 const END=69;
-const tracks=new Map(), sourceRanges={}, innerStateByTrack=new Map(), cueCache=new Map(), detailedEventByTrack=new Map();
+const tracks=new Map(), sourceRanges={}, innerStateByTrack=new Map(), cueCache=new Map(), detailedEventByTrack=new Map(), detailedEventByLine=new Map();
 let rawLines=[];
 let focus='Dhika',until=69,filter='all',search='',active=null, totalIndexed=0;
 function track(id,members,title,source){if(!tracks.has(id))tracks.set(id,{id,members,title,source,episodes:new Map()});return tracks.get(id);}
@@ -106,6 +106,7 @@ add('ensemble-'+key,ep,{title:b.title,reading:b.reading,body:[parts,b.contact_la
 function bobbyChotuE06(x){
  if(!x||x.episode!==6)return;
  detailedEventByTrack.set('dbc:6',(x.events||[]).filter(e=>e.track==='DBC'&&/^(observation_emotion|internal_thought|reaction|response|boundary_instruction|assistance_contact|practical_care|dialogue|help_request|encounter_exit|group_arrival|introduction)$/i.test(e.kind)));
+for(const e of x.events||[]){if(e.track!=='DBC'||!Number.isInteger(e.line))continue;if(!detailedEventByLine.has(e.line))detailedEventByLine.set(e.line,[]);detailedEventByLine.get(e.line).push(e);}
  const notes={
  'E06-S04':{reading:'Chotu arrives while Bobby is with Dhika. Dhika greets Chotu and introduces both. This is the transition from Bobby solo to the three-person scene. Bantu is absent.',body:'Dhika → Chotu: greeting hug (source L1141); no Bobby–Chotu physical contact assigned here.',type:'meeting'},
  'E06-S05':{reading:'Dhika, Bobby and Chotu talk about the visit and divide the wall-painting work. Bobby notices Dhika; her own reaction and private thoughts are separately recorded. Dhika discusses clothing suitable for painting; Chotu hesitates.',body:'Bobby: looking/observing, not contact. Chotu and Bobby each change their own shirts while painting. Dhika’s private interpretation is not shared knowledge.',type:'meeting'},
@@ -231,8 +232,62 @@ function summaryContext(id,ep,parent){
  parent.append(d);
 }
 
+
+const e06Phases=[
+ {name:'Arrival, Dhika greets Chotu, Bobby introduced',start:1139,end:1145},
+ {name:'Bobby requests to stay; three-person painting starts',start:1146,end:1153},
+ {name:'What they see; Dhika notices and privately reacts',start:1154,end:1162},
+ {name:'Requests, hesitation, clothing and self-perception',start:1163,end:1170},
+ {name:'Returns, visible state, their response and Dhika awareness',start:1171,end:1178},
+ {name:'Fall, pain, aid, touch, bodily sensation',start:1179,end:1189},
+ {name:'Conversation, goodbye, separated perspectives',start:1190,end:1199}
+];
+function originalReader(start,end,label,withActorTags=false,open=false){
+ const d=el('details',undefined,'original-reader');d.open=open;
+ const s=Math.max(1,Number(start)||1),e=Math.min(rawLines.length,Number(end)||s);
+ d.append(el('summary',label||('Original unchanged text · L'+s+'–L'+e)));
+ let loaded=false;
+ function fill(){
+  if(!d.open||loaded)return;loaded=true;
+  if(!rawLines.length){d.append(el('p','Original source file not loaded. Use the linked source reference.','notice'));return;}
+  const wrap=el('div',undefined,'original-body');
+  for(let line=s;line<=e&&line<s+220;line++){
+   const div=el('div',undefined,'original-line');div.id='original-line-'+line;
+   const p=el('p');const a=el('a','L'+line+' · original source');a.href=linkLine(line);a.target='_blank';a.rel='noopener';p.append(a);
+   div.append(p,el('p',rawLines[line-1]||'','original-text'));
+   if(withActorTags){const tags=detailedEventByLine.get(line)||[];
+      if(tags.length)div.append(el('p','Existing action ledger · '+tags.map(t=>(t.actor||'?')+': '+(t.action||'').replaceAll('_',' ')+' ['+(t.kind||'')+']').join(' | '),'original-tags'));
+   }
+   wrap.append(div);
+  }d.append(wrap);
+ }
+ d.addEventListener('toggle',fill);fill();return d;
+}
+function e06Trace(pane){
+ if(!rawLines.length){pane.append(el('p','Full original source unavailable in this browser. Please use linked source lines.','notice'));return;}
+ const heading=el('div',undefined,'source-primary');
+ heading.append(el('strong','E06 · original source is authoritative'),
+ el('p','Read the entire encounter in original episode order below. Body descriptions, visual observations, private reactions and uttered words are preserved unchanged. Existing ledger tags identify the recorded actor/action, not a newly invented interpretation. Bobby leaves at L1199; subsequent Chotu-only events stay separate.'));
+ pane.append(heading);
+ for(const p of e06Phases){
+  const phase=el('div',undefined,'phase');const titles=el('p',p.name+' · L'+p.start+'–L'+p.end,'sub');phase.append(titles);
+  phase.append(originalReader(p.start,p.end,'Read exact original source paragraphs ('+(p.end-p.start+1)+' lines)',true,false));
+  pane.append(phase);
+ }
+}
+function originalPreview(t,ep,rows){
+ if(!rawLines.length)return '';
+ const isE06Group=t.id==='dbc'&&ep===6;
+ const selected=isE06Group?[1159,1160,1177,1181,1183,1196,1197]:[...new Set(rows.slice(0,3).map(x=>Number(x.line)).filter(Boolean))];
+ const pre=[];
+ for(const n of selected){if(!rawLines[n-1])continue;const tags=isE06Group?(detailedEventByLine.get(n)||[]).map(x=>(x.actor||'Narrator')+' / '+String(x.kind||'').replaceAll('_',' ')).join(', '):'';
+ pre.push('L'+n+(tags?' ['+tags+']':'')+' · '+rawLines[n-1]);}
+ return pre.length?'\nORIGINAL SOURCE WORDING (verbatim)\n'+pre.join('\n\n'):'';
+}
 function showDetails(id,ep){const t=tracks.get(id);if(!t)return;active={id,ep};const rows=visibleRecord(t,ep).sort((a,b)=>a.line-b.line);
 const pane=$('detail');pane.replaceChildren();pane.append(el('p',padded(ep)+' · '+t.source,'eyebrow'),el('h2',t.title),el('p',rows.length+' source-linked / candidate pointers for this episode','sub'));
+if(t.id==='dbc'&&ep===6)e06Trace(pane);
+
 if(!rows.length)pane.append(el('p','No matching source pointer at this filter level.','detailsEmpty'));
 summaryContext(id,ep,pane);
 const states=innerFor(id,ep);
@@ -258,6 +313,11 @@ sectionCue(node,'Teasing / compliments / playful dialogue wording',cues.teasing)
 sectionCue(node,'Thoughts / memory cues · original wording (not necessarily spoken)',cues.inner);
 sectionCue(node,'Action / movement wording · do not infer the actor from keyword alone',cues.action);
 sectionCue(node,'Character-labelled dialogue · voice/context review required',cues.dialogue);
+const epRange=sourceRanges[ep]||[1,rawLines.length];
+const boundStart=Math.max(epRange[0],Number(r.line)||1),boundEnd=Math.min(epRange[1],Math.max(boundStart,Number(r.end)||boundStart));
+node.append(originalReader(Math.max(epRange[0],boundStart-(boundEnd===boundStart?2:0)),Math.min(epRange[1],boundEnd+(boundEnd===boundStart?2:0)),
+'Show complete unchanged original paragraph(s) · L'+boundStart+'–L'+boundEnd,t.id==='dbc'&&ep===6));
+
 if(r.grade==='candidate')node.append(el('p','Lexical proximity only: these descriptions may concern someone else. Do not treat as pair-specific facts until verified.','cue-warning'));
 else node.append(el('p','Quoted fragments are source locators. A keyword is not proof of completed contact or an automatic change in emotional state.','cue-warning'));
 pane.append(node);}
@@ -278,7 +338,7 @@ if(cue.reaction.length)tips.push('Reaction wording: '+cue.reaction[0].text.slice
 if(cue.bodyResponse.length)tips.push('Body response wording: '+cue.bodyResponse[0].text.slice(0,125));
 if(state)tips.push('Before → After: '+state.prior_state_or_expectation+' → '+state.observed_state_or_difference);
 tips.push('Hover previews original wording; click for all evidence.');
-const tt=el('span',tips.join('\n'),'hover');button.append(tt);
+const tt=el('span',tips.join('\n')+originalPreview(t,ep,rows),'hover');button.append(tt);
 button.addEventListener('mouseenter',()=>showDetails(t.id,ep));button.addEventListener('focus',()=>showDetails(t.id,ep));button.addEventListener('click',()=>{showDetails(t.id,ep);document.querySelectorAll('.chip.active').forEach(x=>x.classList.remove('active'));button.classList.add('active');if(innerWidth<900)$('detail').scrollIntoView({behavior:'smooth',block:'start'});});chips.append(button);}
 card.append(chips);dir.append(card);}
 if(!count)dir.append(el('p','No indexed links for this selection. Try a broader filter; lack of an index is not proof of no interaction.','notice'));
