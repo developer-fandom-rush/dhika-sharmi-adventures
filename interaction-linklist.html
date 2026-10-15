@@ -63,7 +63,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 const $=id=>document.getElementById(id);
 const BASE='https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt';
 const END=69;
-const tracks=new Map(), sourceRanges={}, innerStateByTrack=new Map(), cueCache=new Map();
+const tracks=new Map(), sourceRanges={}, innerStateByTrack=new Map(), cueCache=new Map(), detailedEventByTrack=new Map();
 let rawLines=[];
 let focus='Dhika',until=69,filter='all',search='',active=null, totalIndexed=0;
 function track(id,members,title,source){if(!tracks.has(id))tracks.set(id,{id,members,title,source,episodes:new Map()});return tracks.get(id);}
@@ -105,6 +105,7 @@ add('ensemble-'+key,ep,{title:b.title,reading:b.reading,body:[parts,b.contact_la
 }}
 function bobbyChotuE06(x){
  if(!x||x.episode!==6)return;
+ detailedEventByTrack.set('dbc:6',(x.events||[]).filter(e=>e.track==='DBC'&&/^(observation_emotion|internal_thought|reaction|response|boundary_instruction|assistance_contact|practical_care|dialogue|help_request|encounter_exit|group_arrival|introduction)$/i.test(e.kind)));
  const notes={
  'E06-S04':{reading:'Chotu arrives while Bobby is with Dhika. Dhika greets Chotu and introduces both. This is the transition from Bobby solo to the three-person scene. Bantu is absent.',body:'Dhika → Chotu: greeting hug (source L1141); no Bobby–Chotu physical contact assigned here.',type:'meeting'},
  'E06-S05':{reading:'Dhika, Bobby and Chotu talk about the visit and divide the wall-painting work. Bobby notices Dhika; her own reaction and private thoughts are separately recorded. Dhika discusses clothing suitable for painting; Chotu hesitates.',body:'Bobby: looking/observing, not contact. Chotu and Bobby each change their own shirts while painting. Dhika’s private interpretation is not shared knowledge.',type:'meeting'},
@@ -144,14 +145,14 @@ if(found)add(id,n,{title:'Names appear near each other · needs scene review',re
 }}
 }
 function fixE69(){const start=sourceRanges[69]?.[0];if(!start)return;
-const at=n=>start+n-3;
-add('dc',69,{title:'Chotu age comparison only',reading:'E69 mentions Chotu by comparing his approximate age to a bartender. Chotu is not established as appearing or participating in a new encounter.',line:at(102),frame:'reference / comparison',type:'reference',grade:'reviewed'});
+const episodeLocalLine=n=>start+n-1;
+add('dc',69,{title:'Chotu age comparison only',reading:'E69 mentions Chotu by comparing his approximate age to a bartender. Chotu is not established as appearing or participating in a new encounter.',line:episodeLocalLine(100),frame:'reference / comparison',type:'reference',grade:'reviewed'});
 }
 function visibleRecord(t,ep){const arr=t.episodes.get(ep)||[];return arr.filter(o=>filter==='all'||filter==='reviewed'&&o.grade!=='candidate'||filter==='direct'&&(/meeting|greet|conversation|dialogue/i.test(o.frame+' '+o.title)&&o.type!=='candidate')||filter==='reference'&&(/reference|thought|memory|recall|mental|report|remote|comparison/i.test(o.frame+' '+o.title)||o.type==='reference'));}
 function gradeOf(arr){return arr.some(x=>x.grade==='reviewed')?'reviewed':arr.some(x=>x.grade==='firstpass')?'firstpass':'candidate';}
 
 function addInnerStates(states,links){
- const aliases={'dhika_chotu':['dc'],'dhika_bantu':['db','trio'],'dhika_bobby':['dy','trio'],'dhika_uncle':['ud'],'dhika_john':['ensemble-DJ'],'dhika_sharmi':['ensemble-DS'],'bantu_bobby':['trio']};
+ const aliases={'dhika_chotu':['dc'],'dhika_bantu':['db'],'dhika_bobby':['dy'],'dhika_uncle':['ud'],'dhika_john':['ensemble-DJ'],'dhika_sharmi':['ensemble-DS'],'bantu_bobby':[]};
  for(const character of Object.values(states?.characters||{}))for(const s of character.states||[]){
    const eps=readEpisodeId(s.episode_id);if(!eps)continue;
    const ids=new Set((links?.inner_state_links?.[s.id]||[]).flatMap(pair=>aliases[pair]||[]));
@@ -233,6 +234,12 @@ const pane=$('detail');pane.replaceChildren();pane.append(el('p',padded(ep)+' ·
 if(!rows.length)pane.append(el('p','No matching source pointer at this filter level.','detailsEmpty'));
 summaryContext(id,ep,pane);
 const states=innerFor(id,ep);
+const ledger=detailedEventByTrack.get(id+':'+ep)||[];
+if(ledger.length){const box=el('details',undefined,'handoff');box.append(el('summary','E06 source action/reaction ledger · '+ledger.length+' actor-attributed indicators'));
+box.append(el('p','These are original-ledger actor labels and event pointers, not a second-pass adjudication. Each entry links to its source line.','sub'));
+for(const e of ledger){const p=el('p',undefined,'cue-line');const a=el('a','L'+e.line);a.href=linkLine(e.line);a.target='_blank';a.rel='noopener';
+p.append(a,document.createTextNode((e.actor||'Unattributed')+' · '+String(e.kind).replaceAll('_',' ')+' · '+String(e.action||'').replaceAll('_',' ')));box.append(p);}
+pane.append(box);}
 if(states.length){const box=el('section',undefined,'handoff');box.append(el('h3','Source-linked inner-state transitions'));
 for(const s of states){const line=el('p');line.append(document.createTextNode('Before: '+s.prior_state_or_expectation+' → After: '+s.observed_state_or_difference+' · voice: '+s.source_voice+' · '));
 const a=el('a','L'+s.line_start+'–L'+s.line_end);a.href=linkLine(s.line_start);a.target='_blank';a.rel='noopener';line.append(a);box.append(line);}
