@@ -166,18 +166,20 @@ function addInnerStates(states,links){
 function innerFor(id,ep){return innerStateByTrack.get(id)?.get(ep)||[];}
 const cueRules={
  visual:/\b(?:saree|sari|skirt|shirt|blouse|robe|dress|outfit|kurti|clothes|clothing|hair|eyes|face|waist|hip|shoulders|stomach|hands|skin|pink|green|black|white|blue|red|cotton|silk|tight|loose|curly|bright)\b/i,
- reaction:/\b(?:blush(?:ed|es|ing)?|shy|shyness|embarrass(?:ed|ing|ment)?|hesitat(?:ed|ion|ing|e)|froze|freez(?:e|ing)|startl(?:ed|ing)|nervous|awkward|afraid|scared|laugh(?:ed|ing)?|giggl(?:e|ed|ing)|surpris(?:ed|ing)|smil(?:e|ed|ing)|reliev(?:ed|e)|confus(?:ed|ion)|sweat(?:ed|ing)?|trembl(?:ed|ing|e)|shiver(?:ed|ing)?|gasps?|breath|stunned)\b/i,
+ reaction:/\b(?:blush(?:ed|es|ing)?|shy|shyness|embarrass(?:ed|ing|ment)?|hesitat(?:ed|ion|ing|e)|froze|freez(?:e|ing)|startl(?:ed|ing)|nervous|awkward|afraid|scared|laugh(?:ed|ing)?|giggl(?:e|ed|ing)|surpris(?:ed|ing)|smil(?:e|ed|ing)|reliev(?:ed|e)|confus(?:ed|ion)|sweat(?:ed|ing)?|trembl(?:ed|ing|e)|shiver(?:ed|ing)?|gasps?|breath|stunned|widen(?:ed|ing)|flushed|paled|blinking)\b/i,
+ bodyResponse:/\b(?:blush(?:ed|ing)?|sweat(?:ed|ing)?|trembl(?:ed|ing|e)|shiver(?:ed|ing)?|goosebumps?|tingl(?:e|ed|ing)|heartbeat|heart beat|breath(?:ing|less)?|gasp(?:ed|ing)?|pulse|tens(?:e|ed|ing)|froze|frozen|flushed|widened eyes)\b/i,
+ teasing:/\b(?:teas(?:e|ed|ing)|flirt(?:ed|ing)?|compliment(?:ed|s|ing)?|playful|playfully|wink(?:ed|ing)?|giggl(?:ed|ing|e)|jok(?:ed|ing|e)|laugh(?:ed|ing)?|praised|mock(?:ed|ing)?)\b/i,
  inner:/\b(?:thought|thinking|think|remember(?:ed|s|ing)?|imagined|wonder(?:ed|ing)?|knew|realiz(?:ed|e)|felt|wanted|expected|secretly|not sure|inside|wished|worried|curious|mind)\b/i,
  action:/\b(?:touch(?:ed|ing)?|hold|held|hug(?:ged|ging)?|pull(?:ed|ing)?|push(?:ed|ing)?|slip(?:ped|s)?|fell|lean(?:ed|ing)?|pinch(?:ed|ing)?|kiss(?:ed|ing)?|lift(?:ed|ing)?|support(?:ed|ing)?|turn(?:ed|ing)?|walk(?:ed|ing)?|grab(?:bed|bing)?|rub(?:bed|bing)?|carried|help(?:ed|ing)?)\b/i
 };
-const surfaceRule=/\b(?:small|little|short|long|bright|pale|pink|white|green|black|blue|red|yellow|brown|wet|dry|curly|full|loose|tight|shy|blushing|blushed|awkward|nervous|embarrassed|hesitated|smiling|surprised|stunned|trembling|frozen|soft|cotton|silk|warm|cold)\b/gi;
+const surfaceRule=/\b(?:small|little|short|long|bright|pale|pink|white|green|black|blue|red|yellow|brown|wet|dry|curly|full|loose|tight|shy|blushing|blushed|awkward|nervous|embarrassed|hesitated|smiling|surprised|stunned|trembling|frozen|soft|cotton|silk|warm|cold|sparkling|oval|sharp|chubby|sleeveless|transparent|conservative|fleshed|milky|bulging|flushed|sweaty|naughty|playful)\b/gi;
 function shortExtract(line,match){
  const at=match?.index||0;const a=Math.max(0,at-55),b=Math.min(line.length,at+108);
  return (a?'…':'')+line.slice(a,b).trim()+(b<line.length?'…':'');
 }
 function sourceCues(row){
  const key=row.line+'-'+row.end; if(cueCache.has(key))return cueCache.get(key);
- const result={visual:[],reaction:[],inner:[],action:[],dialogue:[],keywords:[]};
+ const result={visual:[],reaction:[],bodyResponse:[],teasing:[],inner:[],action:[],dialogue:[],keywords:[]};
  const start=Number(row.line)||0,final=Number(row.end)||start;
  if(!rawLines.length||start<1){cueCache.set(key,result);return result;}
  const words=new Set();
@@ -187,7 +189,7 @@ function sourceCues(row){
   for(const [category,rule] of Object.entries(cueRules)){
     if(result[category].length>=2)continue;
     const hit=line.match(rule);if(hit){result[category].push({line:n,text:shortExtract(line,hit)});
-      if(category==='visual'||category==='reaction')for(const m of line.matchAll(surfaceRule))words.add(m[0]);
+      if(category==='visual'||category==='reaction'||category==='bodyResponse')for(const m of line.matchAll(surfaceRule))words.add(m[0]);
     }
   }
   if(result.dialogue.length<2&&/^\s*[A-Za-z][A-Za-z ]{1,25}\s*:/.test(line)){
@@ -251,6 +253,8 @@ const cues=sourceCues(r);
 if(cues.keywords.length)node.append(el('p','Exact original descriptive words (unadjudicated): '+cues.keywords.join(' · ')));
 sectionCue(node,'Visual details · original wording',cues.visual);
 sectionCue(node,'Observable reactions · original wording',cues.reaction);
+sectionCue(node,'Physical/body response wording · not automatically attributed',cues.bodyResponse);
+sectionCue(node,'Teasing / compliments / playful dialogue wording',cues.teasing);
 sectionCue(node,'Thoughts / memory cues · original wording (not necessarily spoken)',cues.inner);
 sectionCue(node,'Action / movement wording · do not infer the actor from keyword alone',cues.action);
 sectionCue(node,'Character-labelled dialogue · voice/context review required',cues.dialogue);
@@ -271,6 +275,7 @@ const state=innerFor(t.id,ep)?.[0];
 const tips=[rows.slice(0,2).map(r=>r.title).join(' · '),rows.length+' pointers · '+(grade==='candidate'?'Needs review':grade==='firstpass'?'First-pass review':'Source linked')];
 if(cue.keywords.length)tips.push('Original descriptors: '+cue.keywords.slice(0,8).join(', '));
 if(cue.reaction.length)tips.push('Reaction wording: '+cue.reaction[0].text.slice(0,130));
+if(cue.bodyResponse.length)tips.push('Body response wording: '+cue.bodyResponse[0].text.slice(0,125));
 if(state)tips.push('Before → After: '+state.prior_state_or_expectation+' → '+state.observed_state_or_difference);
 tips.push('Hover previews original wording; click for all evidence.');
 const tt=el('span',tips.join('\n'),'hover');button.append(tt);
