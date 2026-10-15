@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Interaction Link-List | Dhika & Sharmi</title>
+<style>
+:root{--ink:#253547;--muted:#65768a;--line:#dde4ec;--paper:#fcfdfd;--card:#fff;--blue:#245b87;--bluewash:#eaf2f9;--green:#e7f2e9;--gold:#fff3d9}
+*{box-sizing:border-box}body{margin:0;background:#f5f8fa;font:15px/1.55 system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--ink)}
+header{display:flex;gap:20px;flex-wrap:wrap;padding:15px max(18px,calc((100vw - 1280px)/2));background:#fff;border-bottom:1px solid var(--line)}
+a{color:#245b87}header a{text-decoration:none;font-weight:650}a:hover{text-decoration:underline}
+main{max-width:1280px;padding:30px 18px 50px;margin:auto}h1{margin:2px 0 4px;font-size:clamp(28px,4vw,42px);line-height:1.13}
+h2{font-size:20px}p{margin:5px 0 12px}.eyebrow{font-size:12px;font-weight:750;letter-spacing:.12em;text-transform:uppercase;color:#627d98}.lead{color:var(--muted);max-width:970px}
+.tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;background:white;padding:14px;border:1px solid var(--line);border-radius:15px;margin:17px 0}
+.tabs{display:flex;gap:6px}.tabs button,.step,.tiny{font:inherit;cursor:pointer;background:white;border:1px solid #c8d4df;border-radius:9px;padding:9px 15px;color:var(--ink)}
+.tabs button[aria-pressed=true]{background:#235b86;color:white;border-color:#235b86}
+.tools label{font-size:13px;font-weight:650;color:var(--muted)}input,select{accent-color:#276995}
+select,input[type=search]{padding:9px 10px;font:inherit;border:1px solid #c8d4df;border-radius:8px;background:#fff;color:var(--ink)}
+input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeric:tabular-nums;font-weight:800}
+.legend{font-size:13px;color:var(--muted);margin:12px 0 20px}.dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin:0 4px 0 14px}.dot:first-child{margin-left:0}.reviewed{background:#468660}.firstpass{background:#d29d38}.candidate{background:#a5b2c0}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(290px,390px);gap:20px;align-items:start}
+.directory{min-width:0}.pair-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 17px;margin:0 0 12px}
+.pair-head{display:flex;justify-content:space-between;gap:10px;align-items:start}.pair-name{margin:0;font-size:17px}.pair-info{font-size:12px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.chip{position:relative;min-width:46px;cursor:pointer;font-weight:680;font-size:12px;padding:7px 8px;border:1px solid #c8d6e3;border-radius:7px;background:#f7fafc;color:var(--ink)}
+.chip[data-grade=reviewed]{border-color:#a4ccb1;background:#eef8f0}.chip[data-grade=firstpass]{border-color:#eed8a4;background:#fff8e8}
+.chip[data-grade=candidate]{border-color:#d5dce4;background:#f7f9fb;color:#5d6c79}
+.chip:hover,.chip:focus,.chip.active{outline:2px solid #276995;outline-offset:1px;background:#e8f2fa}
+.chip .hover{display:none;position:absolute;z-index:9;left:0;top:calc(100% + 7px);width:min(310px,78vw);text-align:left;white-space:normal;background:#263b50;color:white;font-size:12px;line-height:1.55;padding:12px;border-radius:9px;box-shadow:0 12px 28px #0003;font-weight:400;pointer-events:none}
+.chip:hover .hover,.chip:focus .hover{display:block}.chip:nth-child(5n) .hover{left:auto;right:0}
+.detail{position:sticky;top:15px;background:white;border:1px solid var(--line);border-radius:14px;padding:20px;max-height:calc(100vh - 30px);overflow:auto}
+.detail h2{margin:0 0 12px}.detail .sub{font-size:13px;color:var(--muted)}
+.event{padding:12px 0;border-bottom:1px solid #e7edf1}.event:last-child{border-bottom:0}
+.event h3{font-size:15px;margin:1px 0 5px}.event p{font-size:13px;white-space:pre-wrap;overflow-wrap:anywhere}
+.line{font-size:12px;color:#65768a}.mark{display:inline-block;font-size:11px;font-weight:700;border-radius:5px;padding:2px 8px;margin:0 0 5px;background:var(--bluewash)}
+.mark.candidate{background:#f1f3f6}.mark.firstpass{background:var(--gold)}.mark.reviewed{background:var(--green)}
+.detailsEmpty{color:var(--muted);padding:20px 0}
+.notice{padding:10px 14px;border-left:3px solid #b78b3e;background:#fff8eb;border-radius:4px;color:#5e584a;font-size:13px}
+#status{font-size:13px;color:var(--muted)}.footer-note{font-size:12px;color:var(--muted);margin:25px 0}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.detail{position:static;max-height:none}.tools{align-items:stretch}.tools label{display:flex;align-items:center;gap:8px;flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<header><a href="tracker-hub.html">← All relationship trackers</a><a href="index.html">Story dashboard</a><a href="raw/Dhika.txt">Original source</a></header>
+<main>
+<p class="eyebrow">Relationship directory · cumulative by episode</p>
+<h1>Interaction Link-List</h1>
+<p class="lead">Choose Dhika or Sharmi, and move from E01 to E69 without losing earlier entries. Hover or click an episode chip for source-linked scene pointers, thoughts, dialogue context, responses, and available structured body/action labels.</p>
+<div class="tools">
+  <div class="tabs" role="group" aria-label="Main character"><button id="dhikaTab" aria-pressed="true">Dhika</button><button id="sharmiTab" aria-pressed="false">Sharmi</button></div>
+  <label>Through episode <input id="upto" type="range" min="1" max="69" value="69"><span id="uptoText" class="readout">E69</span></label>
+  <label>Record <select id="level"><option value="all">All indexed + candidates</option><option value="reviewed">Source-linked records only</option><option value="direct">Direct meetings only</option><option value="reference">References / thoughts</option></select></label>
+  <label>Find <input id="query" type="search" placeholder="Character or group" size="18"></label>
+</div>
+<p id="status" role="status">Reading existing source-linked trackers…</p>
+<div class="legend"><span class="dot reviewed"></span>Source-linked tracker record <span class="dot firstpass"></span>First-pass section <span class="dot candidate"></span>Candidate co-mention / needs scene verification</div>
+<div class="layout">
+<section id="directory" class="directory" aria-label="Episode link list"></section>
+<aside id="detail" class="detail" aria-live="polite"><h2>Episode details</h2><p class="detailsEmpty">Hover over or select any episode chip. On mobile, tap an episode.</p></aside>
+</div>
+<p class="footer-note">Scope note: the original E01–E69 source is linked, but exhaustive character-wise semantic adjudication is not complete. A lexical candidate is never treated as a verified encounter. Neighbour Uncle and Uncle Iroh are distinct. No future-story proposal is canon. Existing trackers remain unchanged.</p>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+const BASE='https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt';
+const END=69;
+const tracks=new Map(), sourceRanges={};
+let focus='Dhika',until=69,filter='all',search='',active=null, totalIndexed=0;
+function track(id,members,title,source){if(!tracks.has(id))tracks.set(id,{id,members,title,source,episodes:new Map()});return tracks.get(id);}
+function padded(n){return 'E'+String(n).padStart(2,'0');}
+function linkLine(n){return BASE+(Number.isInteger(n)&&n>0?'#L'+n:'');}
+function readEpisodeId(s){const m=String(s).match(/\d+/);return m?Number(m[0]):0;}
+function add(id,ep,object){const t=tracks.get(id);if(!t||!ep||ep>END)return;let arr=t.episodes.get(ep);if(!arr){arr=[];t.episodes.set(ep,arr);}
+const line=Number(object.line)||sourceRanges[ep]?.[0]||0;
+const key=String(object.title||'')+'|'+line+'|'+String(object.frame||'');
+if(arr.some(e=>e.key===key))return;
+arr.push({key,title:object.title||'Source record',reading:object.reading||'',frame:object.frame||'not specified',line,end:Number(object.end)||line,grade:object.grade||'reviewed',type:object.type||'context',body:object.body||'',actor:object.actor||'',recipient:object.recipient||'',knowledge:object.knowledge||''});
+}
+function pairsFromSource(x,id){const t=tracks.get(id);if(!t||!x?.episodes)return;for(const e of x.episodes){
+ const n=readEpisodeId(e.episode_id);
+ for(const m of e.meetings||[]){const a=Array.isArray(m.sections?.[0])?m.sections[0][0]:m.sections?.[0]?.start;
+ add(id,n,{title:m.title,reading:m.time_anchor||'Scene or meeting index.',line:a||m.time_anchor_evidence?.[0]?.global_line,frame:'meeting',type:'meeting'});}
+ for(const b of e.bond_beats||[])add(id,n,{title:b.title,reading:b.reading,line:b.start,end:b.end,frame:b.kind||'story beat',type:b.kind==='recall'?'reference':'context',knowledge:b.reading_status||''});
+ for(const a of e.physical_actions||[])add(id,n,{title:a.action||'Physical action / observation record',reading:'Body/action location is linked to the original source; actual contact, looking and recollection must remain separate.',line:a.evidence?.[0]?.global_line||a.start,frame:a.temporal_frame||'physical index',type:'physical',body:(a.body_targets||[]).map(t=>(t.owner||'')+' · '+(t.body_part||'').replaceAll('_',' ')+' · '+(t.mode||'').replaceAll('_',' ')).join('; ')});
+ if(!(e.meetings?.length||e.bond_beats?.length||e.physical_actions?.length)&&(e.reference_only_lines||[]).length){const r=e.reference_only_lines[0];add(id,n,{title:'Indexed reference (not a direct meeting)',reading:'This source pointer needs context to determine whether it is recollection, mention or remote communication.',line:Number(r.global_line||r.line||r)||0,frame:'reference',type:'reference',grade:'firstpass'});}
+ }}
+function el(tag,txt,cls){const n=document.createElement(tag);if(txt!==undefined)n.textContent=txt;if(cls)n.className=cls;return n;}
+function buildTracks(){track('dc',['Dhika','Chotu'],'Chotu (Babu)','Chotu tracker');
+track('ud',['Dhika','Uncle'],'Neighbour Uncle','Uncle tracker');
+track('us',['Sharmi','Uncle'],'Neighbour Uncle','Uncle tracker');
+track('db',['Dhika','Bantu'],'Bantu · solo','Twins tracker');
+track('dy',['Dhika','Bobby'],'Bobby · solo','Twins tracker');
+track('trio',['Dhika','Bantu','Bobby'],'Bantu + Bobby · group','Twins tracker');
+track('dbc',['Dhika','Bobby','Chotu'],'Bobby + Chotu · group','Twins tracker');
+const entourage=[['stranger','Stranger',['Dhika','Stranger']],['iroh','Uncle Iroh',['Dhika','Iroh']],['zuko','Zuko',['Dhika','Zuko']],['jared','Jared',['Dhika','Jared']],['plumbing','Iroh + Zuko + Jared',['Dhika','Iroh','Zuko','Jared']],['leo','Leo',['Dhika','Leo']]];
+for(const [id,name,members] of entourage)track(id,members,name,'Visitors tracker');
+for(const [id,name,members] of [['aunty','Aunty',['Dhika','Aunty']],['auntyS','Aunty',['Sharmi','Aunty']],['pappu','Pappu (family context)',['Dhika','Pappu']]])track(id,members,name,'Source proximity index');
+}
+function ensembleData(x){for(const t of x.scope?.tracks||[])track('ensemble-'+t.key,t.members,t.label,'Ensemble tracker');
+for(const s of x.episode_index||[])sourceRanges[s.episode_id]=[s.start,s.end];
+for(const b of x.beats||[])for(const key of b.track_keys||[])for(const ep of b.episode_ids||[]){
+const parts=(b.body_parts||[]).map(p=>(p.owner||'')+' · '+(p.part||'')+' · '+(p.mode||'')).join('; ');
+add('ensemble-'+key,ep,{title:b.title,reading:b.reading,body:parts,line:b.start,end:b.end,type:b.temporal_frame==='actual'?'context':'reference',frame:b.kind||b.temporal_frame||'scene',actor:b.actor,recipient:b.recipient,knowledge:b.knowledge});
+}}
+function twinsData(x){const cross={DB:'db',DY:'dy',TRIO:'trio',DBC:'dbc'};
+for(const s of x.sections||[])add(cross[s.track],s.episode,{title:s.title,reading:s.reading,line:s.source?.[0],end:s.source?.[1],frame:s.frame||'indexed section',grade:'firstpass',type:/reference|thought|remote|report|memory/i.test(s.frame||'')?'reference':'context'});
+for(const ep of x.episodes||[])if(ep.episode<=10 && ep.explicit_name_lines?.length){
+  const at=ep.explicit_name_lines[0];
+  for(const id of ['db','dy','trio'])add(id,ep.episode,{title:'Earlier twins source index · pair attribution pending',reading:'Existing source-linked episode ledger is available in the unified twins tracker. This pointer is not a certification that every listed participant took part in the same event.',line:at,frame:'source pointer',grade:'candidate',type:'candidate'});
+}}
+function machineData(x){const bits=x.encoding?.character_bits||[];
+const index=Object.fromEntries(bits.map((name,i)=>[name,i]));
+const named={'dc':'Chotu','ud':'Uncle','us':'Uncle','db':'Bantu','dy':'Bobby','aunty':'Aunty','auntyS':'Aunty','pappu':'Pappu'};
+const focusBit=n=>index[n]===undefined?0:Math.pow(2,index[n]);
+for(const ep of x.episodes||[]){const n=ep.episode;
+ for(const [id,name] of Object.entries(named)){const t=tracks.get(id);if(!t)continue;const f=t.members.includes('Dhika')?'Dhika':'Sharmi';const rows=ep.feature_rows||[];
+ if(!focusBit(f)||!focusBit(name))continue;
+ let found=-1;
+ for(let i=0;i<rows.length&&found===-1;i++){if(!(rows[i][0]&focusBit(name)))continue;
+ for(let j=Math.max(0,i-8);j<=Math.min(rows.length-1,i+8);j++){if(rows[j][0]&focusBit(f)){found=i;break;}}
+ }
+ if(found!==-1&&!t.episodes.has(n))add(id,n,{title:'Possible source reference · verify context',reading:'Names occur within a short source-text window. This does not prove co-presence, contact, consent, conversation or a new event.',line:ep.start_github_line+found,grade:'candidate',frame:'automated nearby-name index',type:'candidate'});}
+ }
+}
+function fixE69(){const start=sourceRanges[69]?.[0];if(!start)return;
+const at=n=>start+n-3;
+add('dc',69,{title:'Chotu age comparison only',reading:'E69 mentions Chotu by comparing his approximate age to a bartender. Chotu is not established as appearing or participating in a new encounter.',line:at(102),frame:'reference / comparison',type:'reference',grade:'reviewed'});
+}
+function visibleRecord(t,ep){const arr=t.episodes.get(ep)||[];return arr.filter(o=>filter==='all'||filter==='reviewed'&&o.grade!=='candidate'||filter==='direct'&&(/meeting|greet|conversation|dialogue/i.test(o.frame+' '+o.title)&&o.type!=='candidate')||filter==='reference'&&(/reference|thought|memory|recall|mental|report|remote|comparison/i.test(o.frame+' '+o.title)||o.type==='reference'));}
+function gradeOf(arr){return arr.some(x=>x.grade==='reviewed')?'reviewed':arr.some(x=>x.grade==='firstpass')?'firstpass':'candidate';}
+function showDetails(id,ep){const t=tracks.get(id);if(!t)return;active={id,ep};const rows=visibleRecord(t,ep).sort((a,b)=>a.line-b.line);
+const pane=$('detail');pane.replaceChildren();pane.append(el('p',padded(ep)+' · '+t.source,'eyebrow'),el('h2',t.title),el('p',rows.length+' source-linked / candidate pointers for this episode','sub'));
+if(!rows.length)pane.append(el('p','No matching source pointer at this filter level.','detailsEmpty'));
+for(const r of rows){const node=el('section',undefined,'event');node.append(el('span',r.grade==='reviewed'?'Source-linked record':r.grade==='firstpass'?'First-pass section':'Needs scene verification','mark '+r.grade),el('h3',r.title));
+if(r.reading)node.append(el('p',r.reading));if(r.body)node.append(el('p','Body/action labels: '+r.body));if(r.actor||r.recipient)node.append(el('p','Actor: '+(r.actor||'not established')+' · Recipient: '+(r.recipient||'not established')));
+if(r.knowledge)node.append(el('p','Knowledge / context: '+r.knowledge));const p=el('p',undefined,'line');p.append(el('span',(r.frame||'source')+' · '));const a=el('a','Source L'+r.line+(r.end!==r.line?'–L'+r.end:''));a.href=linkLine(r.line);a.target='_blank';a.rel='noopener';p.append(a);node.append(p);pane.append(node);}
+if(rows.length>12)pane.append(el('p','Scroll here to view all recorded pointers.','sub'));
+}
+function render(){const dir=$('directory');dir.replaceChildren();let count=0,episodeLinks=0;
+const all=[...tracks.values()].filter(t=>t.members.includes(focus)&&(!search||t.title.toLowerCase().includes(search)));
+for(const t of all){const eps=[...t.episodes.keys()].filter(n=>n<=until&&visibleRecord(t,n).length).sort((a,b)=>a-b);if(!eps.length)continue;
+count++;episodeLinks+=eps.length;const card=el('article',undefined,'pair-card'),head=el('div',undefined,'pair-head'),left=el('div');left.append(el('h2',t.title,'pair-name'),el('p',t.source+' · '+eps.length+' episode links','pair-info'));head.append(left);card.append(head);
+const chips=el('div',undefined,'chips');
+for(const ep of eps){const rows=visibleRecord(t,ep),grade=gradeOf(rows);const button=el('button',padded(ep),'chip');button.type='button';button.dataset.grade=grade;button.setAttribute('aria-label',t.title+' '+padded(ep)+': '+rows.length+' source pointers');if(active?.id===t.id&&active.ep===ep)button.classList.add('active');
+const tt=el('span',rows.slice(0,3).map(r=>r.title).join(' · ')+' · '+rows.length+' pointers · '+(grade==='candidate'?'Needs verification':grade==='firstpass'?'First pass':'Source linked'),'hover');button.append(tt);
+button.addEventListener('mouseenter',()=>showDetails(t.id,ep));button.addEventListener('focus',()=>showDetails(t.id,ep));button.addEventListener('click',()=>{showDetails(t.id,ep);document.querySelectorAll('.chip.active').forEach(x=>x.classList.remove('active'));button.classList.add('active');if(innerWidth<900)$('detail').scrollIntoView({behavior:'smooth',block:'start'});});chips.append(button);}
+card.append(chips);dir.append(card);}
+if(!count)dir.append(el('p','No indexed links for this selection. Try a broader filter; lack of an index is not proof of no interaction.','notice'));
+$('status').textContent=focus+' · '+count+' relationship/group tracks · '+episodeLinks+' episode links through '+padded(until)+' · source-indexed, not exhaustive semantic certification.';
+}
+async function load(p){const resp=await fetch('data/'+p);if(!resp.ok)throw Error(p+' '+resp.status);return resp.json();}
+async function init(){buildTracks();const paths=['ensemble/ensemble_tracker.json','chotu_dhika_tracker.json','uncle_pair_tracker.json','additional_pair_trackers.json','twins_e01_e68_navigation_review_v1.json','director_all69_machine_line_cues_v1.json'];
+const resolved=await Promise.allSettled(paths.map(load));const x=resolved.map(r=>r.status==='fulfilled'?r.value:null);for(let i=0;i<resolved.length;i++)if(!x[i])console.warn('Index unavailable',paths[i],resolved[i].reason);
+if(x[0])ensembleData(x[0]);if(x[1])pairsFromSource(x[1],'dc');if(x[2]){pairsFromSource(x[2].pairs?.UD,'ud');pairsFromSource(x[2].pairs?.US,'us');}
+if(x[3]){const alias={DS:'stranger',DI:'iroh',DZ:'zuko',DJ:'jared',DP:'plumbing',DL:'leo'};for(const [id,k] of Object.entries(alias))pairsFromSource(x[3].pairs?.[id],k);}
+if(x[4])twinsData(x[4]);if(x[5])machineData(x[5]);fixE69();
+const failure=resolved.filter(r=>r.status!=='fulfilled').length;if(failure){const p=el('p',failure+' existing source indexes could not load. This link-list is partially populated.','notice');$('status').after(p);}
+render();const first=tracks.get('ensemble-DS');if(first?.episodes.has(1))showDetails('ensemble-DS',1);
+}
+$('dhikaTab').addEventListener('click',()=>{focus='Dhika';$('dhikaTab').setAttribute('aria-pressed','true');$('sharmiTab').setAttribute('aria-pressed','false');active=null;render();});
+$('sharmiTab').addEventListener('click',()=>{focus='Sharmi';$('dhikaTab').setAttribute('aria-pressed','false');$('sharmiTab').setAttribute('aria-pressed','true');active=null;render();});
+$('upto').addEventListener('input',e=>{until=Number(e.target.value);$('uptoText').textContent=padded(until);render();});
+$('level').addEventListener('change',e=>{filter=e.target.value;active=null;render();});
+$('query').addEventListener('input',e=>{search=e.target.value.toLowerCase().trim();render();});
+init().catch(e=>{$('status').textContent='Could not load source-linked data: '+e.message;console.error(e);});
+</script></body></html>
