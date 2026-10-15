@@ -1,0 +1,822 @@
+{
+  "schema": "ensemble_source_tag_integrity_v2",
+  "episode_scope": "E01–E69",
+  "source": "raw/Dhika.txt",
+  "read_only_legacy_files": [
+    "data/ensemble/ensemble_tracker.json",
+    "raw/Dhika.txt"
+  ],
+  "coverage": {
+    "original_source_episode_count": 69,
+    "legacy_reviewed_beats": 97,
+    "legacy_pair_group_tag_assignments": 306,
+    "tagged_but_members_not_in_scene": 44,
+    "manually_exhaustive_semantic_review": false
+  },
+  "rule": "Every tagged relation is either an actor-specific action, direct co-present context, or off-scene reference. No physical action, couple/group encounter, or consent is inferred from name proximity or a shared source section.",
+  "quads_and_pairs": {
+    "DJ": {
+      "key": "DJ",
+      "members": [
+        "Dhika",
+        "John"
+      ],
+      "label": "Dhika × John"
+    },
+    "RS": {
+      "key": "RS",
+      "members": [
+        "Raj",
+        "Sharmi"
+      ],
+      "label": "Raj × Sharmi"
+    },
+    "JS": {
+      "key": "JS",
+      "members": [
+        "John",
+        "Sharmi"
+      ],
+      "label": "John × Sharmi"
+    },
+    "RD": {
+      "key": "RD",
+      "members": [
+        "Raj",
+        "Dhika"
+      ],
+      "label": "Raj × Dhika"
+    },
+    "DS": {
+      "key": "DS",
+      "members": [
+        "Dhika",
+        "Sharmi"
+      ],
+      "label": "Dhika × Sharmi"
+    },
+    "JR": {
+      "key": "JR",
+      "members": [
+        "John",
+        "Raj"
+      ],
+      "label": "John × Raj"
+    },
+    "DJS": {
+      "key": "DJS",
+      "members": [
+        "Dhika",
+        "John",
+        "Sharmi"
+      ],
+      "label": "Dhika × John × Sharmi"
+    },
+    "DRS": {
+      "key": "DRS",
+      "members": [
+        "Dhika",
+        "Raj",
+        "Sharmi"
+      ],
+      "label": "Dhika × Raj × Sharmi"
+    },
+    "DJR": {
+      "key": "DJR",
+      "members": [
+        "Dhika",
+        "John",
+        "Raj"
+      ],
+      "label": "Dhika × John × Raj"
+    },
+    "JRS": {
+      "key": "JRS",
+      "members": [
+        "John",
+        "Raj",
+        "Sharmi"
+      ],
+      "label": "John × Raj × Sharmi"
+    },
+    "ALL": {
+      "key": "ALL",
+      "members": [
+        "Dhika",
+        "John",
+        "Raj",
+        "Sharmi"
+      ],
+      "label": "Dhika × John × Raj × Sharmi"
+    },
+    "SC": {
+      "key": "SC",
+      "members": [
+        "Sharmi",
+        "Chotu"
+      ],
+      "label": "Sharmi × Chotu"
+    }
+  },
+  "source_integrity_warnings": [
+    {
+      "beat_id": "B001",
+      "track_key": "RS",
+      "episode": 1,
+      "source": [
+        54,
+        63
+      ],
+      "scene_id": "M01",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B001",
+      "track_key": "RD",
+      "episode": 1,
+      "source": [
+        54,
+        63
+      ],
+      "scene_id": "M01",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B026",
+      "track_key": "RD",
+      "episode": 11,
+      "source": [
+        2188,
+        2190
+      ],
+      "scene_id": "M12",
+      "source_frame": "remembered",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B028",
+      "track_key": "RD",
+      "episode": 14,
+      "source": [
+        2645,
+        2661
+      ],
+      "scene_id": "M13",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B028",
+      "track_key": "JS",
+      "episode": 14,
+      "source": [
+        2645,
+        2661
+      ],
+      "scene_id": "M13",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B077",
+      "track_key": "JS",
+      "episode": 24,
+      "source": [
+        4294,
+        4313
+      ],
+      "scene_id": "M26",
+      "source_frame": "reported_actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B077",
+      "track_key": "RS",
+      "episode": 24,
+      "source": [
+        4294,
+        4313
+      ],
+      "scene_id": "M26",
+      "source_frame": "reported_actual",
+      "absent_from_scene": [
+        "Raj",
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B077",
+      "track_key": "JR",
+      "episode": 24,
+      "source": [
+        4294,
+        4313
+      ],
+      "scene_id": "M26",
+      "source_frame": "reported_actual",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B077",
+      "track_key": "JRS",
+      "episode": 24,
+      "source": [
+        4294,
+        4313
+      ],
+      "scene_id": "M26",
+      "source_frame": "reported_actual",
+      "absent_from_scene": [
+        "Raj",
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B079",
+      "track_key": "JS",
+      "episode": 24,
+      "source": [
+        4329,
+        4338
+      ],
+      "scene_id": "M26",
+      "source_frame": "written speech",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B079",
+      "track_key": "RD",
+      "episode": 24,
+      "source": [
+        4329,
+        4338
+      ],
+      "scene_id": "M26",
+      "source_frame": "written speech",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B080",
+      "track_key": "RD",
+      "episode": 24,
+      "source": [
+        4339,
+        4350
+      ],
+      "scene_id": "M26",
+      "source_frame": "written speech",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B080",
+      "track_key": "JS",
+      "episode": 24,
+      "source": [
+        4339,
+        4350
+      ],
+      "scene_id": "M26",
+      "source_frame": "written speech",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B047",
+      "track_key": "DS",
+      "episode": 33,
+      "source": [
+        5999,
+        6030
+      ],
+      "scene_id": "M17",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B047",
+      "track_key": "RD",
+      "episode": 33,
+      "source": [
+        5999,
+        6030
+      ],
+      "scene_id": "M17",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B047",
+      "track_key": "JS",
+      "episode": 33,
+      "source": [
+        5999,
+        6030
+      ],
+      "scene_id": "M17",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B048",
+      "track_key": "JS",
+      "episode": 33,
+      "source": [
+        6031,
+        6054
+      ],
+      "scene_id": "M17",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B048",
+      "track_key": "RD",
+      "episode": 33,
+      "source": [
+        6031,
+        6054
+      ],
+      "scene_id": "M17",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B055",
+      "track_key": "JS",
+      "episode": 43,
+      "source": [
+        8211,
+        8248
+      ],
+      "scene_id": "M19",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B081",
+      "track_key": "DS",
+      "episode": 56,
+      "source": [
+        10809,
+        10816
+      ],
+      "scene_id": "M27",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B081",
+      "track_key": "JS",
+      "episode": 56,
+      "source": [
+        10809,
+        10816
+      ],
+      "scene_id": "M27",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B082",
+      "track_key": "RD",
+      "episode": 56,
+      "source": [
+        10817,
+        10836
+      ],
+      "scene_id": "M27",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B082",
+      "track_key": "DS",
+      "episode": 56,
+      "source": [
+        10817,
+        10836
+      ],
+      "scene_id": "M27",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B082",
+      "track_key": "JR",
+      "episode": 56,
+      "source": [
+        10817,
+        10836
+      ],
+      "scene_id": "M27",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B082",
+      "track_key": "DJR",
+      "episode": 56,
+      "source": [
+        10817,
+        10836
+      ],
+      "scene_id": "M27",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B070",
+      "track_key": "DS",
+      "episode": 58,
+      "source": [
+        11299,
+        11330
+      ],
+      "scene_id": "M23",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B070",
+      "track_key": "JS",
+      "episode": 58,
+      "source": [
+        11299,
+        11330
+      ],
+      "scene_id": "M23",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B071",
+      "track_key": "JS",
+      "episode": 58,
+      "source": [
+        11475,
+        11503
+      ],
+      "scene_id": "M23",
+      "source_frame": "messaging and narrated thoughts",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B071",
+      "track_key": "RS",
+      "episode": 58,
+      "source": [
+        11475,
+        11503
+      ],
+      "scene_id": "M23",
+      "source_frame": "messaging and narrated thoughts",
+      "absent_from_scene": [
+        "Raj",
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B071",
+      "track_key": "DS",
+      "episode": 58,
+      "source": [
+        11475,
+        11503
+      ],
+      "scene_id": "M23",
+      "source_frame": "messaging and narrated thoughts",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B071",
+      "track_key": "ALL",
+      "episode": 58,
+      "source": [
+        11475,
+        11503
+      ],
+      "scene_id": "M23",
+      "source_frame": "messaging and narrated thoughts",
+      "absent_from_scene": [
+        "Raj",
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B085",
+      "track_key": "ALL",
+      "episode": 65,
+      "source": [
+        12918,
+        12944
+      ],
+      "scene_id": "M29",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj",
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B085",
+      "track_key": "RS",
+      "episode": 65,
+      "source": [
+        12918,
+        12944
+      ],
+      "scene_id": "M29",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj",
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B085",
+      "track_key": "RD",
+      "episode": 65,
+      "source": [
+        12918,
+        12944
+      ],
+      "scene_id": "M29",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B085",
+      "track_key": "DS",
+      "episode": 65,
+      "source": [
+        12918,
+        12944
+      ],
+      "scene_id": "M29",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B085",
+      "track_key": "JS",
+      "episode": 65,
+      "source": [
+        12918,
+        12944
+      ],
+      "scene_id": "M29",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B085",
+      "track_key": "JR",
+      "episode": 65,
+      "source": [
+        12918,
+        12944
+      ],
+      "scene_id": "M29",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "Raj"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B074",
+      "track_key": "DJ",
+      "episode": 69,
+      "source": [
+        13952,
+        14003
+      ],
+      "scene_id": "M25",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "John"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B075",
+      "track_key": "DJ",
+      "episode": 69,
+      "source": [
+        14004,
+        14023
+      ],
+      "scene_id": "M25",
+      "source_frame": "narrated_thought",
+      "absent_from_scene": [
+        "John"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B075",
+      "track_key": "DS",
+      "episode": 69,
+      "source": [
+        14004,
+        14023
+      ],
+      "scene_id": "M25",
+      "source_frame": "narrated_thought",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B075",
+      "track_key": "JS",
+      "episode": 69,
+      "source": [
+        14004,
+        14023
+      ],
+      "scene_id": "M25",
+      "source_frame": "narrated_thought",
+      "absent_from_scene": [
+        "John",
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B075",
+      "track_key": "RS",
+      "episode": 69,
+      "source": [
+        14004,
+        14023
+      ],
+      "scene_id": "M25",
+      "source_frame": "narrated_thought",
+      "absent_from_scene": [
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B075",
+      "track_key": "ALL",
+      "episode": 69,
+      "source": [
+        14004,
+        14023
+      ],
+      "scene_id": "M25",
+      "source_frame": "narrated_thought",
+      "absent_from_scene": [
+        "John",
+        "Sharmi"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    },
+    {
+      "beat_id": "B076",
+      "track_key": "DJ",
+      "episode": 69,
+      "source": [
+        14024,
+        14043
+      ],
+      "scene_id": "M25",
+      "source_frame": "actual",
+      "absent_from_scene": [
+        "John"
+      ],
+      "classification": "REFERENCE_OR_CONTEXT_ONLY_NOT_DIRECT_CO_PRESENCE"
+    }
+  ],
+  "mexico_continuity": {
+    "arrival_in_mexico": [
+      14010,
+      14011
+    ],
+    "bartender_characterization": [
+      14011,
+      14013
+    ],
+    "status": "Sharmi makes comments about the bartender while with Dhika by the pool. Source establishes no kiss offer or kissing the bartender.",
+    "earlier_cancun_context": [
+      11483,
+      11487
+    ],
+    "remote_group_chat": [
+      12334,
+      12343
+    ],
+    "flight_and_childcare": [
+      13117,
+      13120,
+      13619,
+      13626,
+      13843,
+      13844
+    ],
+    "source_lacunae": [
+      "Exact flight booking and invitation not identified in available source",
+      "No prediction or new future action added."
+    ]
+  }
+}
