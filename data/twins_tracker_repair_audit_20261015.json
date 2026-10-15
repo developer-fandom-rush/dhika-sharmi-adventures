@@ -49,6 +49,11 @@
       "issue": "Later source-sequence navigation absent",
       "status": "FIRST_PASS_ADDED",
       "evidence": "196 authored non-graphic source-section notes; frame explicitly labelled"
+    },
+    {
+      "issue": "Group action view omitted individually attributed actions within a shared scene",
+      "status": "FIXED",
+      "evidence": "Group source ranges retain DB/DY action labels; E12 both actors included; private E68 Bobby call excluded from TRIO."
     }
   ],
   "validation": {
@@ -57,7 +62,7 @@
     "restored_event_checksums": "PASS",
     "functional_dom_fixture": "PASS",
     "existing_repository_source_checks": "PASS",
-    "live_browser": "PENDING"
+    "live_browser": "Verified light palette, all 210 E68 source lines and scoped JSON download on c2a470a; group-reader follow-up covered by regression tests."
   },
   "remaining_semantic_work": [
     "No episode is newly certified as exhaustively atomically extracted.",

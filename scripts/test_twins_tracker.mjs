@@ -47,6 +47,12 @@ el('episode').value='12';el('pair').value='DB';el('shared').checked=false;
 assert.equal(run('getFilter().some(r=>r.pair==="TRIO")'),false);
 assert.equal(run('readerSelect({episode:12,tracks:["DB","DY","TRIO"]})'),false);
 el('shared').checked=true;assert.equal(run('readerSelect({episode:12,tracks:["DB","DY","TRIO"]})'),true);
+el('pair').value='TRIO';
+assert(run('getFilter().some(r=>r.recordType==="action"&&r.episode===12&&r.pair==="DB")'));
+assert(run('getFilter().some(r=>r.recordType==="action"&&r.episode===12&&r.pair==="DY")'));
+// A later private Bobby call does not become a trio encounter.
+assert.equal(run('relevant({recordType:"action",episode:68,line:13808,pair:"DY"},"TRIO")'),false);
+el('pair').value='DY';
 
 el('scope').value='selected';run('selectedEpisodes.clear();selectedEpisodes.add(2);selectedEpisodes.add(68)');
 const payload=JSON.parse(run('JSON.stringify(exportPayload())'));

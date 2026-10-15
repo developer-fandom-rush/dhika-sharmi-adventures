@@ -121,7 +121,13 @@ function makeWindows(){
  return all
 }
 function relevant(r,p){
- if(r.recordType==="action")return trackIncluded(r.pair,p);
+ if(r.recordType==="action"){
+  if(trackIncluded(r.pair,p))return true;
+  // A group reader retains the individually attributed actions inside an
+  // established shared scene, without rewriting their original pair label.
+  if(p==="TRIO"&&["DB","DY"].includes(r.pair))return navigationReview.sections.some(s=>s.track==="TRIO"&&["meeting","continuation","remote"].includes(s.frame)&&s.episode===r.episode&&r.line>=s.source[0]&&r.line<=s.source[1])||scenes.some(s=>s.track==="TRIO"&&s.episode===r.episode&&r.line>=s.start&&r.line<=s.end);
+  return false;
+ }
  if(r.recordType==="scene"){
   if(r.track!==p&&!sharedEnabled())return false;
   const n=new Set(r.participants||[]);
@@ -339,7 +345,7 @@ function readerPhysical(){
  '<article class="card">No individually interpreted physical/visual beat mapped for this selection yet. This does not mean no action appears in source.</article>';
  const pair=$("pair").value;
  const kinds=/contact|observ|garment|clothing|posture|accident|care|help|boundary|request|refusal|reaction|movement|visual|nonverbal|motion/i;
- const relevantTags=curated.filter(r=>isInScope(r.episode)&&kinds.test(r.kind+" "+r.action)&&searched(r,q)&&trackIncluded(r.pair,pair));
+ const relevantTags=curated.filter(r=>isInScope(r.episode)&&kinds.test(r.kind+" "+r.action)&&searched(r,q)&&relevant(r,pair));
  if(relevantTags.length){
   const tags=relevantTags.sort((a,b)=>a.episode-b.episode||a.line-b.line);
   const detail=tags.map(r=>{
