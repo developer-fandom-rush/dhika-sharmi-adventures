@@ -24,7 +24,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 .chip[data-grade=reviewed]{border-color:#a4ccb1;background:#eef8f0}.chip[data-grade=firstpass]{border-color:#eed8a4;background:#fff8e8}
 .chip[data-grade=candidate]{border-color:#d5dce4;background:#f7f9fb;color:#5d6c79}
 .chip:hover,.chip:focus,.chip.active{outline:2px solid #276995;outline-offset:1px;background:#e8f2fa}
-.chip .hover{display:none;position:absolute;z-index:9;left:0;top:calc(100% + 7px);width:min(310px,78vw);text-align:left;white-space:normal;background:#263b50;color:white;font-size:12px;line-height:1.55;padding:12px;border-radius:9px;box-shadow:0 12px 28px #0003;font-weight:400;pointer-events:none}
+.chip .hover{display:none;position:absolute;z-index:9;left:0;top:calc(100% + 7px);width:min(390px,88vw);text-align:left;white-space:pre-line;background:#263b50;color:white;font-size:12px;line-height:1.55;padding:12px;border-radius:9px;box-shadow:0 12px 28px #0003;font-weight:400;pointer-events:none}
 .chip:hover .hover,.chip:focus .hover{display:block}.chip:nth-child(5n) .hover{left:auto;right:0}
 .detail{position:sticky;top:15px;background:white;border:1px solid var(--line);border-radius:14px;padding:20px;max-height:calc(100vh - 30px);overflow:auto}
 .detail h2{margin:0 0 12px}.detail .sub{font-size:13px;color:var(--muted)}
@@ -34,7 +34,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 .mark.candidate{background:#f1f3f6}.mark.firstpass{background:var(--gold)}.mark.reviewed{background:var(--green)}
 .detailsEmpty{color:var(--muted);padding:20px 0}
 .notice{padding:10px 14px;border-left:3px solid #b78b3e;background:#fff8eb;border-radius:4px;color:#5e584a;font-size:13px}
-#status{font-size:13px;color:var(--muted)}.footer-note{font-size:12px;color:var(--muted);margin:25px 0}
+#status{font-size:13px;color:var(--muted)}.footer-note{font-size:12px;color:var(--muted);margin:25px 0}.cueblock{margin:10px 0;padding:10px 12px;background:#f8fafc;border:1px solid #e4ebf2;border-radius:9px}.cueblock strong{font-size:12px;display:block;margin-bottom:5px}.cue-line{font-size:12px!important;margin:5px 0!important;border-left:2px solid #cad9e8;padding-left:8px}.cue-line a{margin-right:7px;font-weight:700}.cue-warning{font-size:12px;color:#795f30}.handoff{margin:12px 0;background:#edf4f8;border-radius:10px;padding:12px 14px}.handoff p{font-size:13px}.handoff h3{font-size:14px;margin:4px 0}.handoff details{margin-top:6px}.handoff summary{cursor:pointer;font-size:13px;font-weight:650}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.detail{position:static;max-height:none}.tools{align-items:stretch}.tools label{display:flex;align-items:center;gap:8px;flex-wrap:wrap}}
 </style>
 </head>
@@ -43,7 +43,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 <main>
 <p class="eyebrow">Relationship directory · cumulative by episode</p>
 <h1>Interaction Link-List</h1>
-<p class="lead">Choose Dhika or Sharmi, and move from E01 to E69 without losing earlier entries. Hover or click an episode chip for source-linked scene pointers, thoughts, dialogue context, responses, and available structured body/action labels.</p>
+<p class="lead">Choose Dhika or Sharmi, and move from E01 to E69 without losing earlier entries. Hover for source wording and reactions; click for original visual descriptors, dialogue, inner-state before/after, action context, and a writer handoff checklist. Machine-detected words stay separate from verified events.</p>
 <div class="tools">
   <div class="tabs" role="group" aria-label="Main character"><button id="dhikaTab" aria-pressed="true">Dhika</button><button id="sharmiTab" aria-pressed="false">Sharmi</button></div>
   <label>Through episode <input id="upto" type="range" min="1" max="69" value="69"><span id="uptoText" class="readout">E69</span></label>
@@ -63,7 +63,8 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 const $=id=>document.getElementById(id);
 const BASE='https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt';
 const END=69;
-const tracks=new Map(), sourceRanges={};
+const tracks=new Map(), sourceRanges={}, innerStateByTrack=new Map(), cueCache=new Map();
+let rawLines=[];
 let focus='Dhika',until=69,filter='all',search='',active=null, totalIndexed=0;
 function track(id,members,title,source){if(!tracks.has(id))tracks.set(id,{id,members,title,source,episodes:new Map()});return tracks.get(id);}
 function padded(n){return 'E'+String(n).padStart(2,'0');}
@@ -80,7 +81,7 @@ function pairsFromSource(x,id){const t=tracks.get(id);if(!t||!x?.episodes)return
  for(const m of e.meetings||[]){const a=Array.isArray(m.sections?.[0])?m.sections[0][0]:m.sections?.[0]?.start;
  add(id,n,{title:m.title,reading:m.time_anchor||'Scene or meeting index.',line:a||m.time_anchor_evidence?.[0]?.global_line,frame:'meeting',type:'meeting'});}
  for(const b of e.bond_beats||[])add(id,n,{title:b.title,reading:b.reading,line:b.start,end:b.end,frame:b.kind||'story beat',type:b.kind==='recall'?'reference':'context',knowledge:b.reading_status||''});
- for(const a of e.physical_actions||[])add(id,n,{title:a.action||'Physical action / observation record',reading:'Body/action location is linked to the original source; actual contact, looking and recollection must remain separate.',line:a.evidence?.[0]?.global_line||a.start,frame:a.temporal_frame||'physical index',type:'physical',body:(a.body_targets||[]).map(t=>(t.owner||'')+' · '+(t.body_part||'').replaceAll('_',' ')+' · '+(t.mode||'').replaceAll('_',' ')).join('; ')});
+ for(const a of e.physical_actions||[])add(id,n,{title:a.action||'Physical action / observation record',reading:'Body/action location is linked to the original source; actual contact, looking and recollection must remain separate.',line:a.evidence?.[0]?.global_line||a.start,frame:a.temporal_frame||'physical index',type:'physical',body:(a.body_targets||[]).map(t=>(t.owner||'')+' · '+(t.body_part||'').replaceAll('_',' ')+' · '+(t.mode||'').replaceAll('_',' ')+(t.contact_layer?' · layer: '+String(t.contact_layer).replaceAll('_',' '):'')+(t.qualification?' · '+t.qualification:'')).join('; '),actor:a.initiated_by||a.actor||'',recipient:[...new Set((a.body_targets||[]).map(t=>t.owner).filter(Boolean))].join(', '),knowledge:a.body_annotation_status||''});
  if(!(e.meetings?.length||e.bond_beats?.length||e.physical_actions?.length)&&(e.reference_only_lines||[]).length){const r=e.reference_only_lines[0];add(id,n,{title:'Indexed reference (not a direct meeting)',reading:'This source pointer needs context to determine whether it is recollection, mention or remote communication.',line:Number(r.global_line||r.line||r)||0,frame:'reference',type:'reference',grade:'firstpass'});}
  }}
 function el(tag,txt,cls){const n=document.createElement(tag);if(txt!==undefined)n.textContent=txt;if(cls)n.className=cls;return n;}
@@ -100,7 +101,7 @@ function ensembleData(x){for(const t of x.scope?.tracks||[])track('ensemble-'+t.
 for(const s of x.episode_index||[])sourceRanges[s.episode_id]=[s.start,s.end];
 for(const b of x.beats||[])for(const key of b.track_keys||[])for(const ep of b.episode_ids||[]){
 const parts=(b.body_parts||[]).map(p=>(p.owner||'')+' · '+(p.part||'')+' · '+(p.mode||'')).join('; ');
-add('ensemble-'+key,ep,{title:b.title,reading:b.reading,body:parts,line:b.start,end:b.end,type:b.temporal_frame==='actual'?'context':'reference',frame:b.kind||b.temporal_frame||'scene',actor:b.actor,recipient:b.recipient,knowledge:b.knowledge});
+add('ensemble-'+key,ep,{title:b.title,reading:b.reading,body:[parts,b.contact_layer?'Layer: '+b.contact_layer:''].filter(Boolean).join(' · '),line:b.start,end:b.end,type:b.temporal_frame==='actual'?'context':'reference',frame:b.temporal_frame==='actual'?(b.kind||'scene'):(b.temporal_frame||'context'),actor:b.actor,recipient:b.recipient,knowledge:b.knowledge});
 }}
 function bobbyChotuE06(x){
  if(!x||x.episode!==6)return;
@@ -148,12 +149,108 @@ add('dc',69,{title:'Chotu age comparison only',reading:'E69 mentions Chotu by co
 }
 function visibleRecord(t,ep){const arr=t.episodes.get(ep)||[];return arr.filter(o=>filter==='all'||filter==='reviewed'&&o.grade!=='candidate'||filter==='direct'&&(/meeting|greet|conversation|dialogue/i.test(o.frame+' '+o.title)&&o.type!=='candidate')||filter==='reference'&&(/reference|thought|memory|recall|mental|report|remote|comparison/i.test(o.frame+' '+o.title)||o.type==='reference'));}
 function gradeOf(arr){return arr.some(x=>x.grade==='reviewed')?'reviewed':arr.some(x=>x.grade==='firstpass')?'firstpass':'candidate';}
+
+function addInnerStates(states,links){
+ const aliases={'dhika_chotu':['dc'],'dhika_bantu':['db','trio'],'dhika_bobby':['dy','trio'],'dhika_uncle':['ud'],'dhika_john':['ensemble-DJ'],'dhika_sharmi':['ensemble-DS'],'bantu_bobby':['trio']};
+ for(const character of Object.values(states?.characters||{}))for(const s of character.states||[]){
+   const eps=readEpisodeId(s.episode_id);if(!eps)continue;
+   const ids=new Set((links?.inner_state_links?.[s.id]||[]).flatMap(pair=>aliases[pair]||[]));
+   for(const id of ids){if(!tracks.has(id))continue;
+     if(!innerStateByTrack.has(id))innerStateByTrack.set(id,new Map());
+     const byEp=innerStateByTrack.get(id);if(!byEp.has(eps))byEp.set(eps,[]);
+     byEp.get(eps).push(s);
+   }
+ }
+}
+function innerFor(id,ep){return innerStateByTrack.get(id)?.get(ep)||[];}
+const cueRules={
+ visual:/\b(?:saree|sari|skirt|shirt|blouse|robe|dress|outfit|kurti|clothes|clothing|hair|eyes|face|waist|hip|shoulders|stomach|hands|skin|pink|green|black|white|blue|red|cotton|silk|tight|loose|curly|bright)\b/i,
+ reaction:/\b(?:blush(?:ed|es|ing)?|shy|shyness|embarrass(?:ed|ing|ment)?|hesitat(?:ed|ion|ing|e)|froze|freez(?:e|ing)|startl(?:ed|ing)|nervous|awkward|afraid|scared|laugh(?:ed|ing)?|giggl(?:e|ed|ing)|surpris(?:ed|ing)|smil(?:e|ed|ing)|reliev(?:ed|e)|confus(?:ed|ion)|sweat(?:ed|ing)?|trembl(?:ed|ing|e)|shiver(?:ed|ing)?|gasps?|breath|stunned)\b/i,
+ inner:/\b(?:thought|thinking|think|remember(?:ed|s|ing)?|imagined|wonder(?:ed|ing)?|knew|realiz(?:ed|e)|felt|wanted|expected|secretly|not sure|inside|wished|worried|curious|mind)\b/i,
+ action:/\b(?:touch(?:ed|ing)?|hold|held|hug(?:ged|ging)?|pull(?:ed|ing)?|push(?:ed|ing)?|slip(?:ped|s)?|fell|lean(?:ed|ing)?|pinch(?:ed|ing)?|kiss(?:ed|ing)?|lift(?:ed|ing)?|support(?:ed|ing)?|turn(?:ed|ing)?|walk(?:ed|ing)?|grab(?:bed|bing)?|rub(?:bed|bing)?|carried|help(?:ed|ing)?)\b/i
+};
+const surfaceRule=/\b(?:small|little|short|long|bright|pale|pink|white|green|black|blue|red|yellow|brown|wet|dry|curly|full|loose|tight|shy|blushing|blushed|awkward|nervous|embarrassed|hesitated|smiling|surprised|stunned|trembling|frozen|soft|cotton|silk|warm|cold)\b/gi;
+function shortExtract(line,match){
+ const at=match?.index||0;const a=Math.max(0,at-55),b=Math.min(line.length,at+108);
+ return (a?'…':'')+line.slice(a,b).trim()+(b<line.length?'…':'');
+}
+function sourceCues(row){
+ const key=row.line+'-'+row.end; if(cueCache.has(key))return cueCache.get(key);
+ const result={visual:[],reaction:[],inner:[],action:[],dialogue:[],keywords:[]};
+ const start=Number(row.line)||0,final=Number(row.end)||start;
+ if(!rawLines.length||start<1){cueCache.set(key,result);return result;}
+ const words=new Set();
+ const end=Math.min(rawLines.length,Math.max(start,final),start+100);
+ for(let n=start;n<=end;n++){
+  const line=rawLines[n-1]||'';if(!line.trim())continue;
+  for(const [category,rule] of Object.entries(cueRules)){
+    if(result[category].length>=2)continue;
+    const hit=line.match(rule);if(hit){result[category].push({line:n,text:shortExtract(line,hit)});
+      if(category==='visual'||category==='reaction')for(const m of line.matchAll(surfaceRule))words.add(m[0]);
+    }
+  }
+  if(result.dialogue.length<2&&/^\s*[A-Za-z][A-Za-z ]{1,25}\s*:/.test(line)){
+    result.dialogue.push({line:n,text:shortExtract(line,{index:0})});
+  }
+ }
+ result.keywords=[...words].slice(0,18);
+ cueCache.set(key,result);return result;
+}
+function sectionCue(parent,title,items){
+ if(!items?.length)return;
+ const wrap=el('div',undefined,'cueblock');wrap.append(el('strong',title));
+ for(const item of items){
+  const p=el('p',undefined,'cue-line');const a=el('a','L'+item.line);a.href=linkLine(item.line);a.target='_blank';a.rel='noopener';
+  p.append(a,document.createTextNode('“'+item.text+'”'));wrap.append(p);
+ }parent.append(wrap);
+}
+function summaryContext(id,ep,parent){
+ const t=tracks.get(id);if(!t)return;
+ const earlier=[...t.episodes.entries()].filter(([n])=>n<ep).flatMap(([n,items])=>items.filter(z=>z.grade!=='candidate').map(z=>({...z,ep:n}))).sort((a,b)=>a.ep-b.ep||a.line-b.line);
+ const now=[...t.episodes.entries()].filter(([n])=>n<=ep).flatMap(([n,items])=>items.filter(z=>z.grade!=='candidate').map(z=>({...z,ep:n}))).sort((a,b)=>a.ep-b.ep||a.line-b.line);
+ const d=el('div',undefined,'handoff');d.append(el('h3','Continuity handoff · through '+padded(ep)));
+ if(earlier.length){const last=earlier[earlier.length-1],p=el('p');
+  p.append(document.createTextNode('Previous indexed checkpoint: '+padded(last.ep)+' · '+last.title+' · '));
+  const a=el('a','L'+last.line);a.href=linkLine(last.line);a.target='_blank';a.rel='noopener';p.append(a);d.append(p);
+ } else d.append(el('p','Prior checkpoint: none established by this selected dataset. Not proof of no earlier event.'));
+ if(now.length){const last=now[now.length-1];d.append(el('p','Latest linked event through selection: '+padded(last.ep)+' · '+last.title+'. This is an index pointer, not a complete relationship-state certification.'));}
+ const tasks=el('details');const summary=el('summary','Questions a continuing writer must resolve');tasks.append(summary);
+ for(const x of [
+ 'Where and when is this scene in story time (including flashbacks)?',
+ 'Who is physically present, and who is only mentioned or remembered?',
+ 'What exact words and visual details are in the original lines?',
+ 'Who acts, who receives, who observes, and what physical response is actually narrated?',
+ 'What did each character privately think versus actually say? Who knows what?',
+ 'Was a boundary stated, respected, declined or still ambiguous?',
+ 'What changes by the end of this scene? What remains unresolved?'
+ ])tasks.append(el('p','• '+x));
+ d.append(tasks);
+ parent.append(d);
+}
+
 function showDetails(id,ep){const t=tracks.get(id);if(!t)return;active={id,ep};const rows=visibleRecord(t,ep).sort((a,b)=>a.line-b.line);
 const pane=$('detail');pane.replaceChildren();pane.append(el('p',padded(ep)+' · '+t.source,'eyebrow'),el('h2',t.title),el('p',rows.length+' source-linked / candidate pointers for this episode','sub'));
 if(!rows.length)pane.append(el('p','No matching source pointer at this filter level.','detailsEmpty'));
+summaryContext(id,ep,pane);
+const states=innerFor(id,ep);
+if(states.length){const box=el('section',undefined,'handoff');box.append(el('h3','Source-linked inner-state transitions'));
+for(const s of states){const line=el('p');line.append(document.createTextNode('Before: '+s.prior_state_or_expectation+' → After: '+s.observed_state_or_difference+' · voice: '+s.source_voice+' · '));
+const a=el('a','L'+s.line_start+'–L'+s.line_end);a.href=linkLine(s.line_start);a.target='_blank';a.rel='noopener';line.append(a);box.append(line);}
+box.append(el('p','These existing annotated states cover E01–E03 only; additional episodes need further manual adjudication.','sub'));pane.append(box);}
 for(const r of rows){const node=el('section',undefined,'event');node.append(el('span',r.grade==='reviewed'?'Source-linked record':r.grade==='firstpass'?'First-pass section':'Needs scene verification','mark '+r.grade),el('h3',r.title));
-if(r.reading)node.append(el('p',r.reading));if(r.body)node.append(el('p','Body/action labels: '+r.body));if(r.actor||r.recipient)node.append(el('p','Actor: '+(r.actor||'not established')+' · Recipient: '+(r.recipient||'not established')));
-if(r.knowledge)node.append(el('p','Knowledge / context: '+r.knowledge));const p=el('p',undefined,'line');p.append(el('span',(r.frame||'source')+' · '));const a=el('a','Source L'+r.line+(r.end!==r.line?'–L'+r.end:''));a.href=linkLine(r.line);a.target='_blank';a.rel='noopener';p.append(a);node.append(p);pane.append(node);}
+if(r.reading)node.append(el('p',r.reading));if(r.body)node.append(el('p','Body/action labels from curated dataset: '+r.body));if(r.actor||r.recipient)node.append(el('p','Actor: '+(r.actor||'not established')+' · Recipient: '+(r.recipient||'not established')));
+if(r.knowledge)node.append(el('p','Knowledge / context: '+r.knowledge));const p=el('p',undefined,'line');p.append(el('span',(r.frame||'source')+' · '));const a=el('a','Source L'+r.line+(r.end!==r.line?'–L'+r.end:''));a.href=linkLine(r.line);a.target='_blank';a.rel='noopener';p.append(a);node.append(p);
+const cues=sourceCues(r);
+if(cues.keywords.length)node.append(el('p','Exact original descriptive words (unadjudicated): '+cues.keywords.join(' · ')));
+sectionCue(node,'Visual details · original wording',cues.visual);
+sectionCue(node,'Observable reactions · original wording',cues.reaction);
+sectionCue(node,'Thoughts / memory cues · original wording (not necessarily spoken)',cues.inner);
+sectionCue(node,'Action / movement wording · do not infer the actor from keyword alone',cues.action);
+sectionCue(node,'Character-labelled dialogue · voice/context review required',cues.dialogue);
+if(r.grade==='candidate')node.append(el('p','Lexical proximity only: these descriptions may concern someone else. Do not treat as pair-specific facts until verified.','cue-warning'));
+else node.append(el('p','Quoted fragments are source locators. A keyword is not proof of completed contact or an automatic change in emotional state.','cue-warning'));
+pane.append(node);}
+if(!rawLines.length)pane.append(el('p','Original descriptive wording unavailable in this view; use the source links while original text loads.','notice'));
 if(rows.length>12)pane.append(el('p','Scroll here to view all recorded pointers.','sub'));
 }
 function render(){const dir=$('directory');dir.replaceChildren();let count=0,episodeLinks=0;
@@ -162,19 +259,26 @@ for(const t of all){const eps=[...t.episodes.keys()].filter(n=>n<=until&&visible
 count++;episodeLinks+=eps.length;const card=el('article',undefined,'pair-card'),head=el('div',undefined,'pair-head'),left=el('div');left.append(el('h2',t.title,'pair-name'),el('p',t.source+' · '+eps.length+' episode links','pair-info'));head.append(left);card.append(head);
 const chips=el('div',undefined,'chips');
 for(const ep of eps){const rows=visibleRecord(t,ep),grade=gradeOf(rows);const button=el('button',padded(ep),'chip');button.type='button';button.dataset.grade=grade;button.setAttribute('aria-label',t.title+' '+padded(ep)+': '+rows.length+' source pointers');if(active?.id===t.id&&active.ep===ep)button.classList.add('active');
-const tt=el('span',rows.slice(0,3).map(r=>r.title).join(' · ')+' · '+rows.length+' pointers · '+(grade==='candidate'?'Needs verification':grade==='firstpass'?'First pass':'Source linked'),'hover');button.append(tt);
+const example=rows.find(r=>r.grade!=='candidate')||rows[0],cue=sourceCues(example);
+const state=innerFor(t.id,ep)?.[0];
+const tips=[rows.slice(0,2).map(r=>r.title).join(' · '),rows.length+' pointers · '+(grade==='candidate'?'Needs review':grade==='firstpass'?'First-pass review':'Source linked')];
+if(cue.keywords.length)tips.push('Original descriptors: '+cue.keywords.slice(0,8).join(', '));
+if(cue.reaction.length)tips.push('Reaction wording: '+cue.reaction[0].text.slice(0,130));
+if(state)tips.push('Before → After: '+state.prior_state_or_expectation+' → '+state.observed_state_or_difference);
+tips.push('Hover previews original wording; click for all evidence.');
+const tt=el('span',tips.join('\n'),'hover');button.append(tt);
 button.addEventListener('mouseenter',()=>showDetails(t.id,ep));button.addEventListener('focus',()=>showDetails(t.id,ep));button.addEventListener('click',()=>{showDetails(t.id,ep);document.querySelectorAll('.chip.active').forEach(x=>x.classList.remove('active'));button.classList.add('active');if(innerWidth<900)$('detail').scrollIntoView({behavior:'smooth',block:'start'});});chips.append(button);}
 card.append(chips);dir.append(card);}
 if(!count)dir.append(el('p','No indexed links for this selection. Try a broader filter; lack of an index is not proof of no interaction.','notice'));
 $('status').textContent=focus+' · '+count+' relationship/group tracks · '+episodeLinks+' episode links through '+padded(until)+' · source-indexed, not exhaustive semantic certification.';
 }
 async function load(p){const resp=await fetch('data/'+p);if(!resp.ok)throw Error(p+' '+resp.status);return resp.json();}
-async function init(){buildTracks();const paths=['ensemble/ensemble_tracker.json','chotu_dhika_tracker.json','uncle_pair_tracker.json','additional_pair_trackers.json','twins_e01_e68_navigation_review_v1.json','director_all69_machine_line_cues_v1.json','twins_e06_line_ledger_v1.json'];
+async function init(){buildTracks();const paths=['ensemble/ensemble_tracker.json','chotu_dhika_tracker.json','uncle_pair_tracker.json','additional_pair_trackers.json','twins_e01_e68_navigation_review_v1.json','director_all69_machine_line_cues_v1.json','twins_e06_line_ledger_v1.json','character_inner_evolution.json','relationship_links.json'];
 const resolved=await Promise.allSettled(paths.map(load));const x=resolved.map(r=>r.status==='fulfilled'?r.value:null);for(let i=0;i<resolved.length;i++)if(!x[i])console.warn('Index unavailable',paths[i],resolved[i].reason);
 if(x[0])ensembleData(x[0]);if(x[1])pairsFromSource(x[1],'dc');if(x[2]){pairsFromSource(x[2].pairs?.UD,'ud');pairsFromSource(x[2].pairs?.US,'us');}
 if(x[3]){const alias={DS:'stranger',DI:'iroh',DZ:'zuko',DJ:'jared',DP:'plumbing',DL:'leo'};for(const [id,k] of Object.entries(alias))pairsFromSource(x[3].pairs?.[id],k);}
-if(x[4])twinsData(x[4]);if(x[5])machineData(x[5]);if(x[6])bobbyChotuE06(x[6]);fixE69();
-try{const rawResp=await fetch('raw/Dhika.txt');if(rawResp.ok)sourceNameCandidates(await rawResp.text());}catch(err){console.warn('Additional original-text scan unavailable',err);}
+if(x[4])twinsData(x[4]);if(x[5])machineData(x[5]);if(x[6])bobbyChotuE06(x[6]);if(x[7]&&x[8])addInnerStates(x[7],x[8]);fixE69();
+try{const rawResp=await fetch('raw/Dhika.txt');if(rawResp.ok){const original=await rawResp.text();rawLines=original.split(/\r?\n/);sourceNameCandidates(original);}}catch(err){console.warn('Original-text lexical source view unavailable',err);}
 const failure=resolved.filter(r=>r.status!=='fulfilled').length;if(failure){const p=el('p',failure+' existing source indexes could not load. This link-list is partially populated.','notice');$('status').after(p);}
 render();const first=tracks.get('ensemble-DS');if(first?.episodes.has(1))showDetails('ensemble-DS',1);
 }
