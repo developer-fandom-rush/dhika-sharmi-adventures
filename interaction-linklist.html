@@ -351,7 +351,6 @@ function fillHover(box,t,ep,rows){
  const two=el('section',undefined,'hover-part');two.append(el('h4','2 · Body parts + physical actions · exact words in the lines'));
  const p=el('p');p.append(el('strong','Body parts: '),document.createTextNode(result.parts.length?result.parts.join(' · '):'No explicit matching body-part word in these indexed lines'));two.append(p);
  const act=el('p');act.append(el('strong','Physical actions: '),document.createTextNode(result.actions.length?result.actions.join(' · '):'No explicit matching action word in these indexed lines'));two.append(act);
- two.append(el('p','Source words only. These words do not establish who performed an action, and the extraction may miss uncommon wording.','hover-note'));
  box.append(one,two);
 }
 
