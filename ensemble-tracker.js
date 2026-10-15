@@ -21,7 +21,7 @@ const sourceRole=x=>{
  return named?'ANNOTATED PARTICIPANT ACTION — VERIFY ORIGINAL LINE':'CO-PRESENT CONTEXT — NOT PROOF OF A PHYSICAL GROUP ACTION';
 };
 const selected=()=>D.beats.filter(x=>inScope(x)&&(tagged(x)||context(x))&&search(x));
-function sourceBlock(a,b){return L.slice(a-1,b).map((s,i)=>`<div class="raw"><span class="line-label"><a href="raw/Dhika.txt#L${a+i}" target="_blank" rel="noopener">L${a+i}</a> · ${en(D.episode_index.find(e=>e.start<=a+i&&e.end>=a+i)?.episode_id||1)}</span>${esc(s)}</div>`).join('');}
+function sourceBlock(a,b){return L.slice(a-1,b).map((s,i)=>`<div class="raw"><span class="line-label"><a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L${a+i}" target="_blank" rel="noopener">L${a+i}</a> · ${en(D.episode_index.find(e=>e.start<=a+i&&e.end>=a+i)?.episode_id||1)}</span>${esc(s)}</div>`).join('');}
 function evidence(x){return `<details class="evidence" data-start="${x.start}" data-end="${x.end}"><summary>Original evidence · L${x.start}–${x.end}</summary></details>`+(x.context_lines.length?`<details class="evidence" data-lines="${x.context_lines.join(',')}"><summary>Clothing/context evidence · ${x.context_lines.map(n=>'L'+n).join(', ')}</summary></details>`:'');}
 function card(x){
  const part=x.body_parts.filter(p=>bodyMatches(p,x));
