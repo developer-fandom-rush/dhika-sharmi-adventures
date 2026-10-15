@@ -43,7 +43,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 <main>
 <p class="eyebrow">Relationship directory · cumulative by episode · exact source hover</p>
 <h1>Interaction Link-List</h1>
-<p class="lead">Select a relationship and episode. Only existing source-reviewed records appear as relationship links. Automated name-proximity references have been disabled because they caused incorrect pairing. Hover presents original linked lines plus source-word action cues; only specifically attributed evidence should be treated as a relationship event.</p>
+<p class="lead">Select a relationship and episode. Only existing source-reviewed records appear as relationship links. For Dhika–Chotu, episode nodes now require source-confirmed co-presence (including clearly framed flashbacks), not a mention, memory or comparison. Hover presents original linked lines plus source-word action cues; only specifically attributed evidence should be treated as a relationship event.</p>
 <div class="tools">
   <div class="tabs" role="group" aria-label="Main character"><button id="dhikaTab" aria-pressed="true">Dhika</button><button id="sharmiTab" aria-pressed="false">Sharmi</button></div>
   <label>Through episode <input id="upto" type="range" min="1" max="69" value="69"><span id="uptoText" class="readout">E69</span></label>
@@ -88,6 +88,29 @@ function pairsFromSource(x,id){const t=tracks.get(id);if(!t||!x?.episodes)return
  for(const a of e.physical_actions||[])add(id,n,{title:a.action||'Physical action / observation record',reading:'Body/action location is linked to the original source; actual contact, looking and recollection must remain separate.',line:a.evidence?.[0]?.global_line||a.start,frame:a.temporal_frame||'physical index',type:'physical',body:(a.body_targets||[]).map(t=>(t.owner||'')+' · '+(t.body_part||'').replaceAll('_',' ')+' · '+(t.mode||'').replaceAll('_',' ')+(t.contact_layer?' · layer: '+String(t.contact_layer).replaceAll('_',' '):'')+(t.qualification?' · '+t.qualification:'')).join('; '),actor:a.initiated_by||a.actor||'',recipient:[...new Set((a.body_targets||[]).map(t=>t.owner).filter(Boolean))].join(', '),knowledge:a.body_annotation_status||''});
  if(!(e.meetings?.length||e.bond_beats?.length||e.physical_actions?.length)&&(e.reference_only_lines||[]).length){const r=e.reference_only_lines[0];add(id,n,{title:'Indexed reference (not a direct meeting)',reading:'This source pointer needs context to determine whether it is recollection, mention or remote communication.',line:Number(r.global_line||r.line||r)||0,frame:'reference',type:'reference',grade:'firstpass'});}
  }}
+function loadChotuVerifiedEncounters(audit){
+ if(!audit?.encounters?.length||!rawLines.length)return 0;
+ const sources=sourceRanges;
+ let validated=0;
+ for(const item of audit.encounters){
+  const ep=Number(item.episode),bounds=sources[ep];
+  if(!bounds||!item.source_ranges?.length)continue;
+  const anchor=Number(item.source_chotu_name_line),line=rawLines[anchor-1]||'';
+  if(anchor<bounds[0]||anchor>bounds[1]||!/\b(?:Chotu|Babu)\b/i.test(line))continue;
+  for(const range of item.source_ranges){
+   const a=Number(range[0]),b=Number(range[1]);
+   if(!Number.isInteger(a)||!Number.isInteger(b)||a> b||a<bounds[0]||b>bounds[1])continue;
+   add('dc',ep,{
+    title:'Dhika + Chotu · source-checked encounter L'+a+'–L'+b,
+    reading:'Direct interaction or directly narrated earlier in-person scene. Evidence is the source range; do not infer other people’s actions from the surrounding chapter.',
+    line:a,end:b,frame:item.frame==='visible_wave'?'distant wave / direct acknowledgment':item.frame==='recounted_scene'?'narrated earlier in-person scene':item.frame==='encounter_departure'?'in-person / departing':'in-person source scene',
+    type:'meeting',grade:'reviewed'
+   });
+   validated++;
+  }
+ }
+ return validated;
+}
 function el(tag,txt,cls){const n=document.createElement(tag);if(txt!==undefined)n.textContent=txt;if(cls)n.className=cls;return n;}
 function buildTracks(){track('dc',['Dhika','Chotu'],'Chotu (Babu)','Chotu tracker');
 track('ud',['Dhika','Uncle'],'Neighbour Uncle','Uncle tracker');
@@ -458,12 +481,18 @@ if(!count)dir.append(el('p','No indexed links for this selection. Try a broader 
 $('status').textContent=focus+' · '+count+' relationship/group tracks · '+episodeLinks+' episode links through '+padded(until)+' · source-indexed, not exhaustive semantic certification.';
 }
 async function load(p){const resp=await fetch('data/'+p);if(!resp.ok)throw Error(p+' '+resp.status);return resp.json();}
-async function init(){buildTracks();const paths=['ensemble/ensemble_tracker.json','chotu_dhika_tracker.json','uncle_pair_tracker.json','additional_pair_trackers.json','twins_e01_e68_navigation_review_v1.json','director_all69_machine_line_cues_v1.json','twins_e06_line_ledger_v1.json','character_inner_evolution.json','relationship_links.json'];
+async function init(){buildTracks();const paths=['ensemble/ensemble_tracker.json','chotu_dhika_tracker.json','uncle_pair_tracker.json','additional_pair_trackers.json','twins_e01_e68_navigation_review_v1.json','director_all69_machine_line_cues_v1.json','twins_e06_line_ledger_v1.json','character_inner_evolution.json','relationship_links.json','chotu_dhika_encounter_nodes_v2.json'];
 const resolved=await Promise.allSettled(paths.map(load));const x=resolved.map(r=>r.status==='fulfilled'?r.value:null);for(let i=0;i<resolved.length;i++)if(!x[i])console.warn('Index unavailable',paths[i],resolved[i].reason);
-if(x[0])ensembleData(x[0]);if(x[1])pairsFromSource(x[1],'dc');if(x[2]){pairsFromSource(x[2].pairs?.UD,'ud');pairsFromSource(x[2].pairs?.US,'us');}
+if(x[0])ensembleData(x[0]);if(x[2]){pairsFromSource(x[2].pairs?.UD,'ud');pairsFromSource(x[2].pairs?.US,'us');}
 if(x[3]){const alias={DS:'stranger',DI:'iroh',DZ:'zuko',DJ:'jared',DP:'plumbing',DL:'leo'};for(const [id,k] of Object.entries(alias))pairsFromSource(x[3].pairs?.[id],k);}
-if(x[4])twinsData(x[4]);if(x[6])bobbyChotuE06(x[6]);if(x[7]&&x[8])addInnerStates(x[7],x[8]);fixE69();
+if(x[4])twinsData(x[4]);if(x[6])bobbyChotuE06(x[6]);if(x[7]&&x[8])addInnerStates(x[7],x[8]);
 try{const rawResp=await fetch('raw/Dhika.txt');if(rawResp.ok){const original=await rawResp.text();rawLines=original.split(/\r?\n/);
+ if(x[9]){
+  const bytes=new TextEncoder().encode(original);
+  const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))).map(v=>v.toString(16).padStart(2,'0')).join('');
+  if(hash===x[9].source.sha256)console.info('Chotu encounter source ranges checked:',loadChotuVerifiedEncounters(x[9]));
+  else console.warn('Chotu encounter index not loaded: original source hash mismatch');
+ }
  try{const extResp=await fetch('data/ensemble/ensemble_mexico_continuity_v1.json',{cache:'no-store'});
  if(extResp.ok&&x[0]){const ext=await extResp.json();
   if(ext.source_guards.every(g=>(rawLines[g.line-1]||'').includes(g.contains))){
