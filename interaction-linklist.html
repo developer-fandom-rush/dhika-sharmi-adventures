@@ -102,6 +102,17 @@ for(const b of x.beats||[])for(const key of b.track_keys||[])for(const ep of b.e
 const parts=(b.body_parts||[]).map(p=>(p.owner||'')+' · '+(p.part||'')+' · '+(p.mode||'')).join('; ');
 add('ensemble-'+key,ep,{title:b.title,reading:b.reading,body:parts,line:b.start,end:b.end,type:b.temporal_frame==='actual'?'context':'reference',frame:b.kind||b.temporal_frame||'scene',actor:b.actor,recipient:b.recipient,knowledge:b.knowledge});
 }}
+function bobbyChotuE06(x){
+ if(!x||x.episode!==6)return;
+ const notes={
+ 'E06-S04':{reading:'Chotu arrives while Bobby is with Dhika. Dhika greets Chotu and introduces both. This is the transition from Bobby solo to the three-person scene. Bantu is absent.',body:'Dhika → Chotu: greeting hug (source L1141); no Bobby–Chotu physical contact assigned here.',type:'meeting'},
+ 'E06-S05':{reading:'Dhika, Bobby and Chotu talk about the visit and divide the wall-painting work. Bobby notices Dhika; her own reaction and private thoughts are separately recorded. Dhika discusses clothing suitable for painting; Chotu hesitates.',body:'Bobby: looking/observing, not contact. Chotu and Bobby each change their own shirts while painting. Dhika’s private interpretation is not shared knowledge.',type:'meeting'},
+ 'E06-S06':{reading:'Painting continues. Chotu spills paint; Dhika slips, requests help and asks them to stop staring. Chotu helps her stand and Bobby helps her reach a chair. Both offer practical care. Bobby compliments her and then departs; later Chotu-only activity must not be attributed to Bobby.',body:'Chotu supports Dhika in rising; Bobby helps her to a chair. These are separate assistance contacts. Requests and responses stay distinct from looks and thoughts.',type:'physical'}
+ };
+ for(const scene of x.scenes||[]){if(!notes[scene.id])continue;const d=notes[scene.id];
+ add('dbc',6,{title:scene.title,reading:d.reading,body:d.body,line:scene.start,end:scene.end,frame:'verified co-presence · source-reviewed first pass',type:d.type,grade:'firstpass',actor:scene.id==='E06-S06'?'Chotu and Bobby (separate actions)':'Scene participants',recipient:'Dhika / group as narrated',knowledge:'First-pass episode event ledger; NOT independently second-pass atomic QA-certified.'});
+ }
+}
 function twinsData(x){const cross={DB:'db',DY:'dy',TRIO:'trio',DBC:'dbc'};
 for(const s of x.sections||[])add(cross[s.track],s.episode,{title:s.title,reading:s.reading,line:s.source?.[0],end:s.source?.[1],frame:s.frame||'indexed section',grade:'firstpass',type:/reference|thought|remote|report|memory/i.test(s.frame||'')?'reference':'context'});
 for(const ep of x.episodes||[])if(ep.episode<=10 && ep.explicit_name_lines?.length){
@@ -158,11 +169,11 @@ if(!count)dir.append(el('p','No indexed links for this selection. Try a broader 
 $('status').textContent=focus+' · '+count+' relationship/group tracks · '+episodeLinks+' episode links through '+padded(until)+' · source-indexed, not exhaustive semantic certification.';
 }
 async function load(p){const resp=await fetch('data/'+p);if(!resp.ok)throw Error(p+' '+resp.status);return resp.json();}
-async function init(){buildTracks();const paths=['ensemble/ensemble_tracker.json','chotu_dhika_tracker.json','uncle_pair_tracker.json','additional_pair_trackers.json','twins_e01_e68_navigation_review_v1.json','director_all69_machine_line_cues_v1.json'];
+async function init(){buildTracks();const paths=['ensemble/ensemble_tracker.json','chotu_dhika_tracker.json','uncle_pair_tracker.json','additional_pair_trackers.json','twins_e01_e68_navigation_review_v1.json','director_all69_machine_line_cues_v1.json','twins_e06_line_ledger_v1.json'];
 const resolved=await Promise.allSettled(paths.map(load));const x=resolved.map(r=>r.status==='fulfilled'?r.value:null);for(let i=0;i<resolved.length;i++)if(!x[i])console.warn('Index unavailable',paths[i],resolved[i].reason);
 if(x[0])ensembleData(x[0]);if(x[1])pairsFromSource(x[1],'dc');if(x[2]){pairsFromSource(x[2].pairs?.UD,'ud');pairsFromSource(x[2].pairs?.US,'us');}
 if(x[3]){const alias={DS:'stranger',DI:'iroh',DZ:'zuko',DJ:'jared',DP:'plumbing',DL:'leo'};for(const [id,k] of Object.entries(alias))pairsFromSource(x[3].pairs?.[id],k);}
-if(x[4])twinsData(x[4]);if(x[5])machineData(x[5]);fixE69();
+if(x[4])twinsData(x[4]);if(x[5])machineData(x[5]);if(x[6])bobbyChotuE06(x[6]);fixE69();
 try{const rawResp=await fetch('raw/Dhika.txt');if(rawResp.ok)sourceNameCandidates(await rawResp.text());}catch(err){console.warn('Additional original-text scan unavailable',err);}
 const failure=resolved.filter(r=>r.status!=='fulfilled').length;if(failure){const p=el('p',failure+' existing source indexes could not load. This link-list is partially populated.','notice');$('status').after(p);}
 render();const first=tracks.get('ensemble-DS');if(first?.episodes.has(1))showDetails('ensemble-DS',1);
