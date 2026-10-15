@@ -1,5 +1,5 @@
 'use strict';
-const $=id=>document.getElementById(id);let data,view='meetings';
+const $=id=>document.getElementById(id);let data,encounterAudit=null,view='meetings';
 const labels={familiarity:'Familiarity & everyday access',care:'Care & practical help',role:'How they see one another',emotional_sharing:'Personal disclosure',openness:'Communication & comfort',trust_statement:'Explicit trust statements',attraction_dhika:'Dhika’s attraction / private thoughts',attraction_chotu:'Chotu’s attraction / private thoughts',initiative:'Initiative',hesitation:'Hesitation / embarrassment',interpretation:'Character interpretations',uncertainty:'Unresolved knowledge',separation:'Distance / absence',repair:'Reassurance & reconnection',relationship_with_john:'John-related disclosure / context',boundary_response:'Requests, withdrawal & stopping',physical_history:'Physical progression'};
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
 function episodeNumber(){return Number($('episode').value);}
@@ -8,12 +8,33 @@ function sourceMap(episodes){return new Map([...episodes.flatMap(e=>e.source_lin
 function evidence(lines,map,open=false){const d=el('details',undefined,'evidence');d.open=open;d.append(el('summary',`Original paragraphs · source ${lines[0]}${lines.length>1?'–'+lines.at(-1):''}`));let loaded=false;function load(){if(!d.open||loaded)return;loaded=true;for(const line of lines){const s=map.get(line);if(!s)continue;const p=el('p',undefined,'raw');p.append(el('span',`${s.episode_id} · global ${line} · episode line ${s.episode_line}`,'line-label'),el('span',s.text));d.append(p);}}d.addEventListener('toggle',load);load();return d;}
 function beatNode(b,map){const node=el('section',undefined,'beat');node.dataset.beatId=b.beat_id;node.append(el('p',`${b.episode<10?'E0':'E'}${b.episode} · ${b.kind.replaceAll('_',' ')}`,'kind'),el('h3',b.title),el('p',b.reading,'reading'));if(b.recalls_meeting_ids.length)node.append(el('p','Refers back to '+b.recalls_meeting_ids.join(', '),'refs'));node.append(evidence(b.evidence_global_lines,map));return node;}
 function header(ep){return el('h2',ep.episode_id,'episode-heading');}
-function meetings(episodes,map){const target=$('content');const allBeats=episodes.flatMap(e=>e.bond_beats);const meetings=new Map();for(const e of episodes)for(const m of e.meetings){if(!meetings.has(m.meeting_id))meetings.set(m.meeting_id,{...m,episodes:[]});meetings.get(m.meeting_id).episodes.push(e.episode_id);}
- const entries=allBeats.filter(b=>!b.meeting_id).map(b=>({order:b.start,beat:b}));
- for(const m of meetings.values()){const bs=allBeats.filter(b=>b.meeting_id===m.meeting_id).sort((a,b)=>a.story_sequence_order-b.story_sequence_order);let order=Math.min(...bs.map(b=>b.start));if(m.meeting_id==='C23'&&meetings.has('C24'))order=13124;entries.push({order,meeting:m,beats:bs});}
- entries.sort((a,b)=>a.order-b.order);
- for(const entry of entries){if(entry.beat){const section=el('details',undefined,'meeting');section.open=episodes.length===1;section.append(el('summary',`${entry.beat.kind.replaceAll('_',' ')} · ${entry.beat.title}`),beatNode(entry.beat,map));target.append(section);continue;}const m=entry.meeting,d=el('details',undefined,'meeting');d.open=episodes.length===1;d.id=m.meeting_id;d.append(el('summary',`${m.meeting_id} · ${m.title}`),el('p',m.episodes.join(' · '),'context'),el('p',m.time_anchor,'context'));if(m.time_anchor_evidence?.length)d.append(evidence(m.time_anchor_evidence.map(s=>s.global_line),map));for(const b of entry.beats)d.append(beatNode(b,map));target.append(d);}
- if(!allBeats.length)for(const e of episodes)target.append(header(e),el('p',e.absence_note||'Original references are available in Exact source.','notice'));
+function meetings(episodes,map){
+ const target=$('content');
+ target.append(el('p','Encounter-only view. A Dhika–Chotu encounter appears only if original source confirms direct co-presence, a wave, or a correctly labelled prior in-person flashback. Chotu mentions, remembered actions and John-only discussions are not encounter nodes; use Bond & memories or Exact source for those.','notice'));
+ if(!encounterAudit){
+  target.append(el('p','Direct encounter review index unavailable or did not pass source validation. No encounter nodes shown until verified.','review-pending'));
+  return;
+ }
+ const byEpisode=new Map(encounterAudit.encounters.map(z=>[z.episode,z]));
+ let displayed=0;
+ for(const e of episodes){
+  const n=Number(e.episode_id.slice(1)),entry=byEpisode.get(n);
+  if(!entry)continue;
+  displayed++;
+  const group=el('section',undefined,'meeting');
+  group.append(el('h2',e.episode_id+' · '+(entry.frame==='visible_wave'?'Direct distant acknowledgment':entry.frame==='recounted_scene'?'In-person event narrated in flashback':entry.frame==='encounter_departure'?'In-person departure/aftermath boundary':'Source-checked in-person encounter')));
+  for(const [a,b] of entry.source_ranges){
+   const d=el('details',undefined,'meeting');d.open=episodes.length===1;
+   d.append(el('summary','Original source L'+a+'–L'+b+' · checked Chotu presence'));
+   const nlines=Array.from({length:b-a+1},(_,i)=>a+i);
+   d.append(evidence(nlines,map));
+   const beats=(e.bond_beats||[]).filter(b=>Number(b.start)>=a&&Number(b.end)<=b&&!/memory|comparison|absence|reported|hypothesis|retrospect/i.test(b.kind||''));
+   for(const beat of beats)d.append(beatNode(beat,map));
+   group.append(d);
+  }
+  target.append(group);
+ }
+ if(!displayed)target.append(el('p','No direct Dhika–Chotu encounter established in the selected episode(s). Memories, remote references and other characters speaking about Chotu are excluded from this encounter view.','notice'));
 }
 function bond(episodes,map){for(const e of episodes){$('content').append(header(e));if(!e.bond_beats.length)$('content').append(el('p',e.absence_note||'No separate bond reading assigned.','notice'));for(const b of e.bond_beats)$('content').append(beatNode(b,map));}}
 function physical(episodes,map){$('content').append(el('p','These are reference records, not encounter counts. Actual visual actions are included. Thoughts about an action are not counted as completed contact.','notice'));for(const e of episodes){$('content').append(header(e));if(!e.physical_actions.length)$('content').append(el('p','No new direct pair physical-action record assigned in this episode. Memories and reports remain in the bond/source views.','context'));for(const a of e.physical_actions){const d=el('section',undefined,'action');d.dataset.actionId=a.action_id;d.append(el('h3',a.action),el('p',`${a.action_id} · ${a.temporal_frame.replaceAll('_',' ')}`,'kind'));for(const s of a.evidence){const p=el('p',undefined,'quote');p.append(el('span',`Source ${s.global_line} · episode line ${s.episode_line}`,'line-label'),el('q',s.quote));d.append(p);}d.append(evidence([...new Set(a.evidence.map(s=>s.global_line))],map));$('content').append(d);}}}
@@ -46,5 +67,17 @@ function writingStyle(episodes,map){
 
 function render(){const episodes=selected();$('content').replaceChildren();$('selection').textContent=episodes.length?`${episodes.length===1?episodes[0].episode_id:($('scope').value==='selected'?episodes.map(e=>e.episode_id).join(', '):episodes[0].episode_id+'–'+episodes.at(-1).episode_id)} · ${episodes.length} episode slot(s) selected`:'No episodes selected';$('previous').disabled=episodeNumber()===1;$('next').disabled=episodeNumber()===68;for(const b of document.querySelectorAll('#views button'))b.setAttribute('aria-pressed',String(b.dataset.view===view));const map=sourceMap(episodes);if(view==='meetings')meetings(episodes,map);if(view==='bond')bond(episodes,map);if(view==='physical')physical(episodes,map);if(view==='body')bodyHistory(episodes,map);if(view==='style')writingStyle(episodes,map);if(view==='state')cumulative();if(view==='source')exact(episodes);}
 function download(){const episodes=view==='state'?data.episodes.slice(0,stateLimit()):selected();const payload={scope:data.scope,selected_episode_ids:episodes.map(e=>e.episode_id),meeting_groups:data.meeting_groups.filter(m=>m.episode_sections.some(s=>episodes.some(e=>e.episode_id===s.episode))),episodes,evidence_links:data.evidence_links,source_uncertainties:data.source_uncertainties,future_planning:data.future_planning,body_tracking_policy:data.body_tracking_policy,style_observations:data.style_observations.filter(o=>o.evidence.some(s=>episodes.some(e=>e.episode_id===s.episode_id)))};const url=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}));const a=el('a');a.href=url;a.download='Chotu_Dhika_Tracker_'+(episodes[0]?.episode_id||'empty')+'_'+(episodes.at(-1)?.episode_id||'empty')+'.json';a.click();URL.revokeObjectURL(url);}
-async function boot(){try{const response=await fetch('data/chotu_dhika_tracker.json?v=3');if(!response.ok)throw Error('Tracker data could not be loaded.');data=await response.json();for(let i=1;i<=68;i++){const option=el('option',`Episode ${i}`);option.value=String(i);$('episode').append(option);const label=el('label');const check=el('input');check.type='checkbox';check.value=`E${String(i).padStart(2,'0')}`;check.checked=i===1;check.addEventListener('change',()=>{$('scope').value='selected';render();});label.append(check,el('span',check.value));$('checks').append(label);}$('episode').addEventListener('change',render);$('scope').addEventListener('change',render);$('previous').addEventListener('click',()=>{$('episode').value=String(episodeNumber()-1);render();});$('next').addEventListener('click',()=>{$('episode').value=String(episodeNumber()+1);render();});for(const b of document.querySelectorAll('#views button'))b.addEventListener('click',()=>{view=b.dataset.view;render();});$('download').addEventListener('click',download);$('overview').textContent=`68 episode slots · ${data.counts.meeting_groups} continuous meeting groups · full source evidence retained. A meeting can span episodes; memories, reports and interrupted phases retain their own labels.`;$('status').textContent='Ready · starts at E01. Use Next to review one episode at a time.';render();}catch(error){$('status').textContent=error.message;}}
+async function boot(){try{const response=await fetch('data/chotu_dhika_tracker.json?v=3');if(!response.ok)throw Error('Tracker data could not be loaded.');data=await response.json();
+ try{
+ const responseAudit=await fetch('data/chotu_dhika_encounter_nodes_v2.json',{cache:'no-store'});
+ if(responseAudit.ok){
+  const candidate=await responseAudit.json();
+  const valid=candidate.source?.sha256===data.scope.source_sha256&&candidate.encounters.every(item=>{
+   const ep=data.episodes[item.episode-1],anchor=ep?.source_lines?.find(row=>row.global_line===item.source_chotu_name_line);
+   return !!ep&&!!anchor&&/\\b(?:Chotu|Babu)\\b/i.test(anchor.text)&&item.source_ranges.every(([a,b])=>a<=b&&ep.source_range[0]<=a&&b<=ep.source_range[1]);
+  });
+  if(valid)encounterAudit=candidate;
+ }
+ }catch(error){console.warn('Chotu encounter-only source index unavailable',error);}
+ for(let i=1;i<=68;i++){const option=el('option',`Episode ${i}`);option.value=String(i);$('episode').append(option);const label=el('label');const check=el('input');check.type='checkbox';check.value=`E${String(i).padStart(2,'0')}`;check.checked=i===1;check.addEventListener('change',()=>{$('scope').value='selected';render();});label.append(check,el('span',check.value));$('checks').append(label);}$('episode').addEventListener('change',render);$('scope').addEventListener('change',render);$('previous').addEventListener('click',()=>{$('episode').value=String(episodeNumber()-1);render();});$('next').addEventListener('click',()=>{$('episode').value=String(episodeNumber()+1);render();});for(const b of document.querySelectorAll('#views button'))b.addEventListener('click',()=>{view=b.dataset.view;render();});$('download').addEventListener('click',download);$('overview').textContent=`68 readable source episodes · ${encounterAudit?.encounters?.length||0} source-checked direct encounter episode nodes. Other episodes may discuss or remember Chotu, but do not count as in-person encounters.`;$('status').textContent=encounterAudit?'Direct encounters verified against original source-line anchors. Other tabs retain non-encounter continuity.':'Encounter audit file unavailable; source-only and bond views remain accessible.';render();}catch(error){$('status').textContent=error.message;}}
 boot();
