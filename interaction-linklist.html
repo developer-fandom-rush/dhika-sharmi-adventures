@@ -366,8 +366,14 @@ function originalPreview(t,ep,rows){
 }
 function showDetails(id,ep){const t=tracks.get(id);if(!t)return;active={id,ep};const rows=visibleRecord(t,ep).sort((a,b)=>a.line-b.line);
 const pane=$('detail');pane.replaceChildren();pane.append(el('p',padded(ep)+' · '+t.source,'eyebrow'),el('h2',t.title),el('p',rows.length+' source-linked / candidate pointers for this episode','sub'));
+if(rows.length){const banner=el('div',undefined,'source-primary');
+banner.append(el('strong','ORIGINAL SOURCE FIRST · unchanged lines'));
+banner.append(el('p','The following original ranges belong to this node’s source index. Nearby-name candidates are not evidence of joint action; original lines take precedence over all interpretations.'));
+pane.append(banner);}
 if(t.id==='dbc'&&ep===6)e06Trace(pane);
-
+else if(rawLines.length){const groups=nodeSourceRanges(t,ep,rows);
+for(let i=0;i<groups.length;i++){const [a,b]=groups[i],assigned=rows.some(r=>r.grade!=='candidate'&&Number(r.line)<=b&&(Number(r.end)||Number(r.line))>=a);
+pane.append(originalReader(a,b,(assigned?'Indexed source range':'Unreviewed source-only candidate')+' · exact L'+a+'–L'+b,false,assigned&&i<2));}}
 if(!rows.length)pane.append(el('p','No matching source pointer at this filter level.','detailsEmpty'));
 summaryContext(id,ep,pane);
 const states=innerFor(id,ep);
