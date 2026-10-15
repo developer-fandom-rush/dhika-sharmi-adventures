@@ -43,7 +43,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 <main>
 <p class="eyebrow">Relationship directory · cumulative by episode · exact source hover</p>
 <h1>Interaction Link-List</h1>
-<p class="lead">Select a relationship and episode. <strong>Hover shows exactly two sections:</strong> original source lines and a literal list of body-part/action words present in those lines. Click to see the evidence reader and continuity notes. The unaltered original source overrides every generated summary.</p>
+<p class="lead">Select a relationship and episode. Only existing source-reviewed records appear as relationship links. Automated name-proximity references have been disabled because they caused incorrect pairing. Hover presents original linked lines plus source-word action cues; only specifically attributed evidence should be treated as a relationship event.</p>
 <div class="tools">
   <div class="tabs" role="group" aria-label="Main character"><button id="dhikaTab" aria-pressed="true">Dhika</button><button id="sharmiTab" aria-pressed="false">Sharmi</button></div>
   <label>Through episode <input id="upto" type="range" min="1" max="69" value="69"><span id="uptoText" class="readout">E69</span></label>
@@ -57,7 +57,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 <section id="directory" class="directory" aria-label="Episode link list"></section>
 <aside id="detail" class="detail" aria-live="polite"><h2>Episode details</h2><p class="detailsEmpty">Hover over or select any episode chip. On mobile, tap an episode.</p></aside>
 </div>
-<p class="footer-note">Automated source-gap scan adds unreviewed nearby-name windows beyond existing pair-indexed ranges, including existing episodes with other verified scenes. Name proximity and a physical-action word do NOT prove a pair acted together. Source text is verbatim; the two keyword lists are literal term extraction, not a character-level interpretation. Full E01–E69 manual semantic audit is still incomplete. Neighbour Uncle and Uncle Iroh remain distinct. Childcare continuity is not included in the adult physical-action relationship directory. “Mantu” does not appear by that name in the raw source, so no undocumented alias is assumed. <a href="data/interaction_linklist_source_integrity_audit_v1.json">View source-integrity QA</a>.</p>
+<p class="footer-note">Automatic source-gap and nearby-name relationship creation is disabled. Name proximity and a physical-action word do NOT prove a pair acted together. Source text is verbatim; the two keyword lists are literal term extraction, not a character-level interpretation. Full E01–E69 manual semantic audit is still incomplete. Neighbour Uncle and Uncle Iroh remain distinct. Childcare continuity is not included in the adult physical-action relationship directory. “Mantu” does not appear by that name in the raw source, so no undocumented alias is assumed. <a href="data/interaction_linklist_source_integrity_audit_v1.json">View source-integrity QA</a>.</p>
 </main>
 <script>
 'use strict';
@@ -101,12 +101,29 @@ for(const [id,name,members] of entourage)track(id,members,name,'Visitors tracker
 for(const [id,name,members] of [['aunty','Aunty',['Dhika','Aunty']],['auntyS','Aunty',['Sharmi','Aunty']]])track(id,members,name,'Source proximity index');
 for(const name of ['Bantu','Bobby','Leo','Pappu','Stranger','Iroh','Zuko','Jared','Mantu','Scott'])track('sharmi-extra-'+name.toLowerCase(),['Sharmi',name],name+' · candidate references','Original-text proximity scan');
 }
-function ensembleData(x){for(const t of x.scope?.tracks||[])track('ensemble-'+t.key,t.members,t.label,'Ensemble tracker');
-for(const s of x.episode_index||[])sourceRanges[s.episode_id]=[s.start,s.end];
-for(const b of x.beats||[])for(const key of b.track_keys||[])for(const ep of b.episode_ids||[]){
-const parts=(b.body_parts||[]).map(p=>(p.owner||'')+' · '+(p.part||'')+' · '+(p.mode||'')).join('; ');
-add('ensemble-'+key,ep,{title:b.title,reading:b.reading,body:[parts,b.contact_layer?'Layer: '+b.contact_layer:''].filter(Boolean).join(' · '),line:b.start,end:b.end,type:b.temporal_frame==='actual'?'context':'reference',frame:b.temporal_frame==='actual'?(b.kind||'scene'):(b.temporal_frame||'context'),actor:b.actor,recipient:b.recipient,knowledge:b.knowledge});
-}}
+function ensembleData(x){
+ const membership=Object.fromEntries((x.scope?.tracks||[]).map(t=>[t.key,t.members]));
+ const scenes=Object.fromEntries((x.scenes||[]).map(s=>[s.id,s]));
+ for(const t of x.scope?.tracks||[])track('ensemble-'+t.key,t.members,t.label,'Ensemble checked-source tracker');
+ for(const s of x.episode_index||[])sourceRanges[s.episode_id]=[s.start,s.end];
+ for(const b of x.beats||[])for(const key of b.track_keys||[])for(const ep of b.episode_ids||[]){
+  const members=membership[key]||[],scene=scenes[b.scene_id],present=members.every(m=>scene?.present?.includes(m));
+  const actual=present&&b.temporal_frame==='actual';
+  const body=(b.body_parts||[]).filter(p=>members.includes(p.owner)&&(p.counterparts||[]).some(c=>members.includes(c)&&c!==p.owner));
+  const role=!present?'OFF-SCENE REFERENCE (not a group meeting)':
+             !actual?'REPORTED / HISTORICAL / THOUGHT (not current contact)':
+             body.length?'CO-PRESENT + subgroup action annotation':'CO-PRESENT SCENE CONTEXT (no group action established)';
+  const title=role+' · '+b.title;
+  add('ensemble-'+key,ep,{
+   title,reading:'Review original source; '+(b.reading||''),
+   body:body.map(p=>p.owner+' · '+p.part+' · '+p.mode+' · counterpart '+p.counterparts.join(', ')).join('; '),
+   line:b.start,end:b.end,frame:role,type:actual?'context':'reference',
+   actor:(actual&&members.includes(b.actor))?b.actor:'',recipient:(actual&&members.includes(b.recipient))?b.recipient:'',
+   knowledge:'Original source L'+b.start+'–L'+b.end+' · '+(b.knowledge||'No knowledge change independently verified'),
+   grade:'firstpass'
+  });
+ }
+}
 function bobbyChotuE06(x){
  if(!x||x.episode!==6)return;
  detailedEventByTrack.set('dbc:6',(x.events||[]).filter(e=>e.track==='DBC'&&/^(observation_emotion|internal_thought|reaction|response|boundary_instruction|assistance_contact|practical_care|dialogue|help_request|encounter_exit|group_arrival|introduction)$/i.test(e.kind)));
@@ -428,8 +445,8 @@ async function init(){buildTracks();const paths=['ensemble/ensemble_tracker.json
 const resolved=await Promise.allSettled(paths.map(load));const x=resolved.map(r=>r.status==='fulfilled'?r.value:null);for(let i=0;i<resolved.length;i++)if(!x[i])console.warn('Index unavailable',paths[i],resolved[i].reason);
 if(x[0])ensembleData(x[0]);if(x[1])pairsFromSource(x[1],'dc');if(x[2]){pairsFromSource(x[2].pairs?.UD,'ud');pairsFromSource(x[2].pairs?.US,'us');}
 if(x[3]){const alias={DS:'stranger',DI:'iroh',DZ:'zuko',DJ:'jared',DP:'plumbing',DL:'leo'};for(const [id,k] of Object.entries(alias))pairsFromSource(x[3].pairs?.[id],k);}
-if(x[4])twinsData(x[4]);if(x[5])machineData(x[5]);if(x[6])bobbyChotuE06(x[6]);if(x[7]&&x[8])addInnerStates(x[7],x[8]);fixE69();
-try{const rawResp=await fetch('raw/Dhika.txt');if(rawResp.ok){const original=await rawResp.text();rawLines=original.split(/\r?\n/);sourceNameCandidates(original);const gapCount=sourceGapCandidates();console.info('Unreviewed source-only candidate windows:',gapCount);}}catch(err){console.warn('Original-text lexical source view unavailable',err);}
+if(x[4])twinsData(x[4]);if(x[6])bobbyChotuE06(x[6]);if(x[7]&&x[8])addInnerStates(x[7],x[8]);fixE69();
+try{const rawResp=await fetch('raw/Dhika.txt');if(rawResp.ok){const original=await rawResp.text();rawLines=original.split(/\r?\n/);}}catch(err){console.warn('Original source unavailable',err);}
 const failure=resolved.filter(r=>r.status!=='fulfilled').length;if(failure){const p=el('p',failure+' existing source indexes could not load. This link-list is partially populated.','notice');$('status').after(p);}
 render();const first=tracks.get('ensemble-DS');if(first?.episodes.has(1))showDetails('ensemble-DS',1);
 }
