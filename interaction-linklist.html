@@ -57,7 +57,7 @@ input[type=range]{width:165px;vertical-align:middle}.readout{font-variant-numeri
 <section id="directory" class="directory" aria-label="Episode link list"></section>
 <aside id="detail" class="detail" aria-live="polite"><h2>Episode details</h2><p class="detailsEmpty">Hover over or select any episode chip. On mobile, tap an episode.</p></aside>
 </div>
-<p class="footer-note">Automated source-gap scan adds unreviewed nearby-name windows beyond existing pair-indexed ranges, including existing episodes with other verified scenes. Name proximity and a physical-action word do NOT prove a pair acted together. Source text is verbatim; the two keyword lists are literal term extraction, not a character-level interpretation. Full E01–E69 manual semantic audit is still incomplete. Neighbour Uncle and Uncle Iroh remain distinct. “Mantu” does not appear by that name in the raw source, so no undocumented alias is assumed.</p>
+<p class="footer-note">Automated source-gap scan adds unreviewed nearby-name windows beyond existing pair-indexed ranges, including existing episodes with other verified scenes. Name proximity and a physical-action word do NOT prove a pair acted together. Source text is verbatim; the two keyword lists are literal term extraction, not a character-level interpretation. Full E01–E69 manual semantic audit is still incomplete. Neighbour Uncle and Uncle Iroh remain distinct. Childcare continuity is not included in the adult physical-action relationship directory. “Mantu” does not appear by that name in the raw source, so no undocumented alias is assumed. <a href="data/interaction_linklist_source_integrity_audit_v1.json">View source-integrity QA</a>.</p>
 </main>
 <script>
 'use strict';
@@ -98,7 +98,7 @@ track('trio',['Dhika','Bantu','Bobby'],'Bantu + Bobby · group','Twins tracker')
 track('dbc',['Dhika','Bobby','Chotu'],'Bobby + Chotu · group','Twins tracker');
 const entourage=[['stranger','Stranger',['Dhika','Stranger']],['iroh','Uncle Iroh',['Dhika','Iroh']],['zuko','Zuko',['Dhika','Zuko']],['jared','Jared',['Dhika','Jared']],['plumbing','Iroh + Zuko + Jared',['Dhika','Iroh','Zuko','Jared']],['leo','Leo',['Dhika','Leo']]];
 for(const [id,name,members] of entourage)track(id,members,name,'Visitors tracker');
-for(const [id,name,members] of [['aunty','Aunty',['Dhika','Aunty']],['auntyS','Aunty',['Sharmi','Aunty']],['pappu','Pappu (family context)',['Dhika','Pappu']]])track(id,members,name,'Source proximity index');
+for(const [id,name,members] of [['aunty','Aunty',['Dhika','Aunty']],['auntyS','Aunty',['Sharmi','Aunty']]])track(id,members,name,'Source proximity index');
 for(const name of ['Bantu','Bobby','Leo','Pappu','Stranger','Iroh','Zuko','Jared','Mantu','Scott'])track('sharmi-extra-'+name.toLowerCase(),['Sharmi',name],name+' · candidate references','Original-text proximity scan');
 }
 function ensembleData(x){for(const t of x.scope?.tracks||[])track('ensemble-'+t.key,t.members,t.label,'Ensemble tracker');
