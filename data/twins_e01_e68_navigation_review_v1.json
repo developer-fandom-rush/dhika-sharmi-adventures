@@ -1822,7 +1822,8 @@
         4670
       ],
       "section_ids": [
-        "REVIEW-E25-4418",
+        "REVIEW-E25-4417",
+        "REVIEW-E25-4424",
         "REVIEW-E25-4456",
         "REVIEW-E25-4468",
         "REVIEW-E25-4514",
@@ -1933,6 +1934,7 @@
       ],
       "section_ids": [
         "REVIEW-E26-4683",
+        "REVIEW-E26-4689",
         "REVIEW-E26-4695",
         "REVIEW-E26-4767",
         "REVIEW-E26-4803",
@@ -2488,6 +2490,7 @@
       ],
       "section_ids": [
         "REVIEW-E37-6822",
+        "REVIEW-E37-6827",
         "REVIEW-E37-6880",
         "REVIEW-E37-6910",
         "REVIEW-E37-6956",
@@ -3239,6 +3242,7 @@
         "REVIEW-E51-9898",
         "REVIEW-E51-9930",
         "REVIEW-E51-9958",
+        "REVIEW-E51-9967",
         "REVIEW-E51-10018"
       ],
       "existing_event_ledger": false,
@@ -4089,7 +4093,7 @@
       ],
       "section_ids": [
         "REVIEW-E64-12700",
-        "REVIEW-E64-12720",
+        "REVIEW-E64-12718",
         "REVIEW-E64-12746",
         "REVIEW-E64-12775",
         "REVIEW-E64-12858"
@@ -4145,7 +4149,7 @@
         13090
       ],
       "section_ids": [
-        "REVIEW-E65-12947",
+        "REVIEW-E65-12943",
         "REVIEW-E65-13027",
         "REVIEW-E65-13058"
       ],
@@ -4306,7 +4310,7 @@
         "REVIEW-E67-13420",
         "REVIEW-E67-13474",
         "REVIEW-E67-13545",
-        "REVIEW-E67-13608",
+        "REVIEW-E67-13578",
         "REVIEW-E67-13626",
         "REVIEW-E67-13642"
       ],
@@ -5334,18 +5338,33 @@
       "atomic_complete": false
     },
     {
-      "id": "REVIEW-E25-4418",
+      "id": "REVIEW-E25-4417",
       "episode": 25,
       "source": [
-        4418,
+        4417,
+        4423
+      ],
+      "track": "TRIO",
+      "frame": "dream",
+      "title": "Dream before waking",
+      "reading": "The opening is explicitly a dream, terminated by waking at L4422. Do not count its actions as a completed twin encounter.",
+      "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
+      "source_sha256": "45b364e658126ec8d20ad4e3594affc7eccecfdf39840f2dd132334701bff8e5",
+      "atomic_complete": false
+    },
+    {
+      "id": "REVIEW-E25-4424",
+      "episode": 25,
+      "source": [
+        4424,
         4455
       ],
       "track": "DY",
       "frame": "meeting",
       "title": "Waking and a private Bobby interval",
-      "reading": "Dhika wakes with Bobby nearby. Their private exchange is distinct from the later shared morning.",
+      "reading": "Dhika wakes with Bobby nearby. Their private exchange is distinct from the opening dream and later shared morning.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "449b71864a1c219673313b94f15f06f70dae0aeeaa87d5e70d2dc492ca47899f",
+      "source_sha256": "3566dd84a98bd923f804a1cdbab79eb1d0be3f43d0f8b6bcfa21004917e6f2e1",
       "atomic_complete": false
     },
     {
@@ -5458,14 +5477,29 @@
       "episode": 26,
       "source": [
         4683,
-        4694
+        4688
       ],
       "track": "TRIO",
       "frame": "continuation",
       "title": "Aftermath and overnight arrangements",
       "reading": "The E25 scene leads into washing, rest and the overnight arrangement. Later sleep positions are not newly initiated encounters.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "f293e98b0e923d73e3124661757c8b167376c21e809f8ab8323eeaa4226fef78",
+      "source_sha256": "12e0a7dff01594303c07a7a5ba83066bee4afc9468faaa248e9edc3e9833a492",
+      "atomic_complete": false
+    },
+    {
+      "id": "REVIEW-E26-4689",
+      "episode": 26,
+      "source": [
+        4689,
+        4692
+      ],
+      "track": "TRIO",
+      "frame": "preview",
+      "title": "Tonight buddy insert",
+      "reading": "This short insert is a preview, not evidence of a completed current action. Its text later appears in the final-evening scene.",
+      "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
+      "source_sha256": "49734bf96e3c9c82f231e399ffd6952d972e024259114873b25e8a973643e2ff",
       "atomic_complete": false
     },
     {
@@ -5803,14 +5837,14 @@
       "episode": 35,
       "source": [
         6420,
-        6426
+        6456
       ],
       "track": "TRIO",
       "frame": "report",
       "title": "Meeting with the twins and their mother",
       "reading": "The text reports the family meeting after it has ended. Do not invent its unshown dialogue.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "d5cb352676a5bdc0af5dd4b5da3459e4367bca07631ae0a17c1183c9bbd00b0a",
+      "source_sha256": "2bddb9e00b9a31068e6298de0f0029ace7dd8dd4b4c275da73b726d189e710a3",
       "atomic_complete": false
     },
     {
@@ -5938,14 +5972,29 @@
       "episode": 37,
       "source": [
         6822,
-        6865
+        6826
+      ],
+      "track": "DB",
+      "frame": "preview",
+      "title": "Chicken-game preview",
+      "reading": "The opening game lines anticipate E38. Do not place the game before the resumed clasp scene.",
+      "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
+      "source_sha256": "c5fc0f070cd4097a1a151fcb9122ab9e8157f0df718c30de7218ed769e8f26b0",
+      "atomic_complete": false
+    },
+    {
+      "id": "REVIEW-E37-6827",
+      "episode": 37,
+      "source": [
+        6827,
+        6867
       ],
       "track": "TRIO",
       "frame": "continuation",
       "title": "Boundary response and a limited promise",
-      "reading": "Dhika tells Bantu to reverse the preceding action. He does; a later promise is explicitly limited. The first lines also revisit the earlier game setup.",
+      "reading": "The repeated clasp line resumes E36. Dhika tells Bantu to refasten it, and he does; a later promise is explicitly limited to under a top.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "c6351c50e2ef316704506244949c32a4c9c5ce875cd142d13964615cd5f8de92",
+      "source_sha256": "780b0370f27cc7f9e2fb3c2da5b0e5c7b0a470884a77846f98123fa76ab40a8b",
       "atomic_complete": false
     },
     {
@@ -6478,14 +6527,29 @@
       "episode": 51,
       "source": [
         9958,
+        9966
+      ],
+      "track": "TRIO",
+      "frame": "aftermath",
+      "title": "After the twins leave",
+      "reading": "Dhika privately wonders what Bobby inferred. Their departure is not a remote call.",
+      "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
+      "source_sha256": "9d8bd4a5c1ad71193b6f24ec25feeda59b9282994cb164caca0ebaa0fa79681b",
+      "atomic_complete": false
+    },
+    {
+      "id": "REVIEW-E51-9967",
+      "episode": 51,
+      "source": [
+        9967,
         10017
       ],
       "track": "TRIO",
       "frame": "remote",
       "title": "Video-call request and Dhika’s response",
-      "reading": "The setting changes to a remote call. Requests, claimed prior knowledge and Dhika’s actual response need separate attribution.",
+      "reading": "A new call begins after the shower. Bantu discloses his previously withheld observation; Dhika and Bobby learn it here.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "d7338c7d31f78065b7390cfcb096f543eeeeceb2d5a31ef02b6ed248a5ccb246",
+      "source_sha256": "8c36f41e837489ca597993f00e65d06eff74e636fb8a54feb402c10842cc30ff",
       "atomic_complete": false
     },
     {
@@ -6508,14 +6572,14 @@
       "episode": 52,
       "source": [
         10162,
-        10184
+        10189
       ],
       "track": "TRIO",
       "frame": "aftermath",
       "title": "Unpacking the twins’ gifts",
       "reading": "Dhika reflects on the prior call and opens their gifts. This is private aftermath, not a new visit.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "25ff866f762fbabace866d4734d8b28d4d6891ee2587588abe82835473d034fe",
+      "source_sha256": "f651f8d027d5b22193dfc28f383b742f13e6dba6ec275537e3622c8435da235e",
       "atomic_complete": false
     },
     {
@@ -6823,14 +6887,14 @@
       "episode": 61,
       "source": [
         12190,
-        12277
+        12280
       ],
       "track": "DB",
       "frame": "meeting",
       "title": "Bantu’s bathroom request and private interaction",
       "reading": "Bantu asks to enter and the pair interact. The sequence continues in E62; its boundary response must be read there.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "08ac7cde5af7e6489ffb98a2fbe88b6ffde778d280a4d1e68dd9b5153b194c7d",
+      "source_sha256": "1654ac37f56b69f49947fe3edcd2077cf15bb9aa1c1dc680095772f516c15472",
       "atomic_complete": false
     },
     {
@@ -6958,21 +7022,21 @@
       "episode": 64,
       "source": [
         12700,
-        12718
+        12717
       ],
       "track": "DB",
       "frame": "continuation",
       "title": "Bathroom interaction before a retrospective explanation",
       "reading": "The opening depicts a current Bantu–Dhika interaction. The narration then moves back a few minutes to explain the preceding request; those two frames are not two independent visits.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "3acb531ce68e1ec8b15a352c77e3c3deec9323bfc921e7815b367b54438a3e2e",
+      "source_sha256": "d554beb33e2c9d6f64c78151fe82d2ba48f1c14ed202ad86298df694e41873d8",
       "atomic_complete": false
     },
     {
-      "id": "REVIEW-E64-12720",
+      "id": "REVIEW-E64-12718",
       "episode": 64,
       "source": [
-        12720,
+        12718,
         12745
       ],
       "track": "DB",
@@ -6980,7 +7044,7 @@
       "title": "Recounted aftermath and bathroom request",
       "reading": "The account moves back a few minutes within the same stay. A request and promise to enter are reported; the episode later resumes the opening scene.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "90dd952a78e6bdec881aa72ffa17de40c8de402c3dac75da1341d75694e1fc06",
+      "source_sha256": "11c7caa3d0448eed6b5fadb95593d39fec2ef9fb7c80427de5a1f61bbe73e28b",
       "atomic_complete": false
     },
     {
@@ -6991,7 +7055,7 @@
         12774
       ],
       "track": "DB",
-      "frame": "private_thought",
+      "frame": "continuation",
       "title": "Present-tense reflection and asking for space",
       "reading": "Dhika returns to the present frame, asks Bantu to wait outside and reflects on responsibility and her own limit.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
@@ -7029,18 +7093,18 @@
       "atomic_complete": false
     },
     {
-      "id": "REVIEW-E65-12947",
+      "id": "REVIEW-E65-12943",
       "episode": 65,
       "source": [
-        12947,
-        13014
+        12943,
+        13017
       ],
       "track": "DB",
       "frame": "memory",
       "title": "Flashback fills an earlier gap",
       "reading": "This retrospective account supplies earlier actions omitted from E64. It ends with Bantu leaving and Dhika asking the twins to sleep separately; it is not a new present-day visit.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "67e417702900fc0e5762432fb3d65969473f92fca50c272e2458148a1d168ed8",
+      "source_sha256": "6ac196e0e8da17b85b82569b6e8cf23d99aa3468524491e89aea9a0b897cbfb0",
       "atomic_complete": false
     },
     {
@@ -7093,14 +7157,14 @@
       "episode": 66,
       "source": [
         13145,
-        13164
+        13171
       ],
       "track": "TRIO",
       "frame": "meeting",
       "title": "Party incident and sleeping arrangements",
       "reading": "The party moves to practical help and sleeping-place discussion. Larger-group presence does not establish a selected pair’s action.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "8d6e11203c6ca67bf236a19e1f395cc077228321673c2a4843bed268b9377c0b",
+      "source_sha256": "086e4cecd297d84c4e62e672954e4a1b15acf2b5f86a28448fb73e1407bc7d49",
       "atomic_complete": false
     },
     {
@@ -7171,9 +7235,9 @@
         13467
       ],
       "track": "DB",
-      "frame": "meeting",
+      "frame": "memory",
       "title": "Bantu visits while Dhika dresses",
-      "reading": "Bantu enters and states why John sent him. Dhika states a no-touching limit and subsequently sends him out. This is distinct from the party preparation interval.",
+      "reading": "Still in the earlier-that-day frame, Bantu enters while Dhika dresses. The no-touching line is an internal thought, not spoken permission or a spoken instruction. She later explicitly says no and sends him out.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
       "source_sha256": "0aa0f6c040eb53a82887ca6f5440ec8136adcf6d8c9ab999562c7a1dd124d652",
       "atomic_complete": false
@@ -7209,18 +7273,18 @@
       "atomic_complete": false
     },
     {
-      "id": "REVIEW-E67-13608",
+      "id": "REVIEW-E67-13578",
       "episode": 67,
       "source": [
-        13608,
-        13608
+        13578,
+        13618
       ],
-      "track": "DB",
+      "track": "TRIO",
       "frame": "report",
-      "title": "Later reference to Bantu’s action",
-      "reading": "A report in another conversation is not repeated attendance by Bantu.",
+      "title": "Reporting the unshown room interval",
+      "reading": "Dhika reports the earlier sweater and tasting sequence, her contact with each twin and a specific Bantu hand redirection. These reports are not a second twin encounter.",
       "review": "SOURCE_LINKED_SECTION_FIRST_PASS",
-      "source_sha256": "30ea78082c1b5675cc6d6ff293a8b9e86c780cec4acc1519f1ee2166ae445e69",
+      "source_sha256": "86dd89348770c409f9559e79e1f30f5eca39d9bde9f5c3dc9c701059dce9f93f",
       "atomic_complete": false
     },
     {

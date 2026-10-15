@@ -72,5 +72,44 @@ assert.match(el('results').innerHTML,/Later source history through E68/);
 el('scope').value='selected';run('selectedEpisodes.clear();tab="episodeMap";render()');
 assert.match(el('results').innerHTML,/Select at least one episode/);
 
+// Evidence distinctions that previously produced false completion/attribution.
+assert.equal(run('detailedAudit.events.length'),891);
+assert.equal(run('detailedAudit.review_by_episode.length'),68);
+assert.equal(run('detailedAudit.context_review.length'),8);
+assert.equal(run('detailedAudit.events.find(r=>r.line===4417).frame'),'dream');
+assert.equal(run('detailedAudit.events.find(r=>r.line===4689).outcome'),'not_current_event');
+assert.equal(run('detailedAudit.events.find(r=>r.line===4229).outcome'),'unresolved');
+assert.equal(run('detailedAudit.events.filter(r=>r.line===3419).length'),2);
+assert.equal(run('detailedAudit.events.find(r=>r.line===13441).outcome'),'unspoken');
+assert.equal(run('detailedAudit.events.find(r=>r.line===13417).frame'),'flashback');
+assert.equal(run('detailedAudit.continuity.find(f=>f.id==="C22").relation'),'duplicate_opening');
+
+el('scope').value='single';el('episode').value='68';el('pair').value='DY';el('shared').checked=false;
+run('tab="detailed";render()');
+assert(run('detailedMatches.some(r=>r.line===13837)'));
+assert.match(el('results').innerHTML,/Recipient:/);
+assert.match(el('results').innerHTML,/car presence/);
+el('pair').value='TRIO';run('render()');
+assert.equal(run('detailedMatches.some(r=>r.line===13837)'),false);
+el('episode').value='21';run('render()');
+assert(run('detailedMatches.some(r=>r.line===3766)')); // Bobby is in wider shower scene.
+assert.equal(run('detailedMatches.some(r=>r.line===3858)'),false); // Private Bantu interval.
+
+el('episode').value='all';el('pair').value='DB';el('shared').checked=true;run('render()');
+assert.equal(run('detailedShown'),30);assert.equal(el('more').hidden,false);
+run('renderChunk()');assert.equal(run('detailedShown'),60);
+el('scope').value='selected';run('selectedEpisodes.clear();selectedEpisodes.add(17);selectedEpisodes.add(68)');
+const detailPayload=JSON.parse(run('JSON.stringify(exportPayload())'));
+assert(detailPayload.detailed_audit_records.every(r=>[17,68].includes(r.episode)));
+assert.equal(detailPayload.schema,'unified_pair_filtered_export_v5');
+el('search').value='no-such-source-phrase-8aac';
+assert.equal(run('exportPayload().detailed_audit_records.length'),0);
+el('search').value='';el('scope').value='single';el('episode').value='16';run('tab="episodeMap";render()');
+assert.match(el('results').innerHTML,/Context checked:/);
+assert.doesNotMatch(el('results').innerHTML,/Pronoun and context review remains pending/);
+el('episode').value='68';el('pair').value='DY';run('tab="states";render()');
+assert.match(el('results').innerHTML,/Chronology and knowledge checkpoints through E68/);
+
 console.log('PASS: boot, 68 episodes, restored E11–E13 records, all E68 source lines, source pagination, all-source scope, strict/shared pair attribution, arbitrary episode export, search filtering, E68 cumulative cutoff, empty selections.');
+console.log('PASS: detailed pagination/export, shared-scene attribution, private E68 view, dream/preview/duplicate/flashback distinctions, uncertain actor, internal thought and contextual episode review.');
 console.log('LIMIT: DOM fixture checks behavior, not browser layout or exhaustive source semantics.');

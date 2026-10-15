@@ -3,6 +3,7 @@ import hashlib
 import json
 import re
 from pathlib import Path
+from build_twins_detailed_audit import build
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -36,6 +37,30 @@ def main():
         assert ep['explicit_name_lines']==expected
         previous=b
     assert previous==13912
+    detailed=json.loads((ROOT/'data/twins_detailed_source_audit_v1.json').read_text())
+    assert detailed==build(), 'Detailed audit differs from its manual authoring inputs'
+    assert detailed['source_sha256']==hashlib.sha256(raw).hexdigest()
+    assert detailed['atomic_complete'] is False
+    assert [r['episode'] for r in detailed['review_by_episode']]==list(range(1,69))
+    event_ids=set()
+    for row in detailed['events']:
+        assert row['id'] not in event_ids;event_ids.add(row['id'])
+        a,b=row['source'];ep=d['episodes'][row['episode']-1]
+        assert ep['source'][0]<=a<=b<=ep['source'][1]
+        assert row['line']==a and row['end_line']==b
+        assert row['source_line_checksum_fnv1a']==fnv(lines[a-1])
+        assert row['source_sha256']==hashlib.sha256('\n'.join(lines[a-1:b]).encode()).hexdigest()
+        assert all(row[k] for k in ['actor','recipient','kind','outcome','knowledge_limit','frame'])
+        assert row['atomic_complete'] is False
+    for row in detailed['context_review']:
+        assert row['source']==d['episodes'][row['episode']-1]['source']
+        a,b=row['source']
+        assert row['source_sha256']==hashlib.sha256('\n'.join(lines[a-1:b]).encode()).hexdigest()
+        assert all(a<=n<=b for n in row['referent_anchors'])
+    for fact in detailed['continuity']:
+        assert len(fact['sources'])==len(fact['source_hashes'])
+        for (a,b),sha in zip(fact['sources'],fact['source_hashes']):
+            assert sha==hashlib.sha256('\n'.join(lines[a-1:b]).encode()).hexdigest()
     ids=set()
     for r in d['sections']:
         assert r['id'] not in ids;ids.add(r['id'])
@@ -65,6 +90,7 @@ def main():
     html=(ROOT/'unified-pair-tracker.html').read_text()
     assert 'tracker-hub.html' in html and 'id="shared"' in html and 'id="checks"' in html
     print(f'PASS: immutable raw source; 68 contiguous episode ranges / 13,910 original lines; {len(ids)} section hashes; {count} E11–E13 event checksums; data wiring; light theme.')
+    print(f"PASS: {len(event_ids)} detailed sequence ranges/checksums; {len(detailed['context_review'])} contextual episode checks; {len(detailed['continuity'])} chronology facts; reproducible manual authoring inputs.")
     print('LIMIT: source and structural validation do not certify exhaustive semantic/atomic extraction.')
 
 

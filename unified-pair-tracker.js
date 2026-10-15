@@ -24,16 +24,42 @@ loc+"twins_e10_reading_context_v1.json",
 loc+"twins_e11_source_ledger_v1.json",
 loc+"twins_e12_source_ledger_v1.json",
 loc+"twins_e13_source_ledger_v1.json",
-loc+"twins_e01_e68_navigation_review_v1.json?v=1",
+loc+"twins_e01_e68_navigation_review_v1.json?v=2",
+loc+"twins_detailed_source_audit_v1.json?v=1",
 "./raw/Dhika.txt"];
 const trackNames={DB:"Dhika × Bantu",DY:"Dhika × Bobby",TRIO:"Dhika × Bantu × Bobby",DBC:"Dhika × Bobby × Chotu"};
 let canon=[],episodes=[],curated=[],scenes=[],windows=[],states=[],gaps=[],audit={},writingNotes=[],lineAudits=[],readerBeats=[],readerEncounters=[],readerRefinements={},filtered=[],shown=0,tab="meetings";
 let navigationReview={episodes:[],sections:[]},sourceMatches=[],sourceShown=0;
+let detailedAudit={events:[],reviewed_episodes:[]};
+let detailedMatches=[],detailedShown=0;
 const selectedEpisodes=new Set();
 function sharedEnabled(){return $("shared").checked;}
 function trackIncluded(track,p){return track===p||(sharedEnabled()&&track==="TRIO"&&(p==="DB"||p==="DY"));}
 function reviewSelect(r){return trackIncluded(r.track,$("pair").value)&&isInScope(r.episode);}
 function reviewSearch(r,q){return !q||[r.title,r.reading,r.frame,r.track,r.source.join(" "),r.episode].join(" ").toLowerCase().includes(q)||getPlainSourceMatches(r.source[0],r.source[1],q);}
+function detailedSelect(r){return isInScope(r.episode)&&relevant({recordType:"action",pair:r.track,episode:r.episode,line:r.line,raw:r},$("pair").value);}
+function detailedSearch(r,q){return !q||[r.id,r.action,r.actor,r.recipient,r.kind,r.outcome,r.knowledge_limit,r.frame,r.source.join(" "),r.episode].join(" ").toLowerCase().includes(q)||getPlainSourceMatches(...r.source,q);}
+function detailedView(){
+ const q=$("search").value.trim().toLowerCase();detailedMatches=detailedAudit.events.filter(r=>detailedSelect(r)&&detailedSearch(r,q));detailedShown=0;
+ $("results").innerHTML='<p class="reader-notice">Source-checked neutral sequences: initiative, response, boundary, interruption and knowledge limits. Linked steps may share one record. These supplement the earlier ledgers; they do not certify exhaustive atomic extraction.</p>';
+ if(!detailedMatches.length)$("results").innerHTML+='<article class="card">No additional detailed-audit record matches this selection. Earlier E01–E13 records remain in Physical actions and Source index. This is not an absence claim.</article>';
+ const contexts=(detailedAudit.context_review||[]).filter(r=>isInScope(r.episode));
+ if(contexts.length)$("results").innerHTML+='<article class="card"><h2>Episodes checked for contextual references</h2>'+contexts.map(r=>'<p><strong>E'+r.episode+'</strong> · '+enc(r.reading)+' '+link(r.source[0])+'</p>').join("")+'</article>';
+ const facts=(detailedAudit.continuity||[]).filter(f=>f.episodes.some(isInScope)&&(!q||f.reading.toLowerCase().includes(q)));
+ if(facts.length)$("results").innerHTML+='<details class="card"><summary>Chronology and knowledge checks ('+facts.length+')</summary>'+continuityMarkup(facts)+'</details>';
+ renderDetailedChunk();
+}
+function continuityMarkup(facts){return facts.map(f=>'<div class="mini"><strong>'+enc(f.id+' · '+f.relation.replaceAll("_"," "))+'</strong><p>'+enc(f.reading)+'</p><p>'+f.sources.map(([a,b])=>link(a)+(b!==a?'–'+link(b):'')).join(' · ')+'</p></div>').join('');}
+function auditSupplement(pattern,title){
+ const q=$("search").value.trim().toLowerCase(),matches=detailedAudit.events.filter(r=>detailedSelect(r)&&pattern.test(r.kind)&&detailedSearch(r,q));
+ if(!matches.length)return '';
+ return '<article class="card"><h2>'+enc(title)+' ('+matches.length+')</h2><p class="hint">Neutral source-checked sequences. Actor, recipient and limits stay explicit. First 30 shown; open Detailed action audit for the complete filtered list and original evidence.</p>'+matches.slice(0,30).map(r=>'<div class="reader-body-row"><div class="row"><strong>E'+r.episode+' · '+enc(r.kind.replaceAll("_"," "))+'</strong>'+link(r.line)+'</div><p>'+enc(r.action)+'</p><p class="hint">'+enc(r.actor)+' → '+enc(r.recipient)+' · '+enc(r.outcome)+'<br>'+enc(r.knowledge_limit)+'</p></div>').join('')+'</article>';
+}
+function renderDetailedChunk(){
+ const q=$("search").value.trim().toLowerCase(),slice=detailedMatches.slice(detailedShown,detailedShown+30);detailedShown+=slice.length;
+ $("results").insertAdjacentHTML("beforeend",slice.map(r=>actionCard({id:r.id,episode:r.episode,line:r.line,pair:r.track,actor:r.actor,recipient:r.recipient,action:r.action,kind:r.kind,source_kind:"source_checked_sequence",review:r.review,status:r.outcome,file:"data/twins_detailed_source_audit_v1.json",raw:r})).join(""));
+ $("info").textContent=detailedShown+' / '+detailedMatches.length+' source-checked sequences';$("more").hidden=detailedShown>=detailedMatches.length;
+}
 function link(n){return '<a href="'+srcUrl(n)+'" target="_blank" rel="noopener">Raw L'+n+' ↗</a>'}
 function has(s,k){return k==="Bantu"?/\bbantu\b/i.test(s):k==="Bobby"?/\bbobby\b/i.test(s):k==="Chotu"?/\b(chotu|babu)\b/i.test(s):/\btwins?\b/i.test(s)}
 function epFor(n){return episodes.find(e=>n>=e.start&&n<=e.end)?.id||0}
@@ -84,6 +110,9 @@ function evidenceMeta(r){
   ["Observer",a.observer||a.observers||"Not specified"],
   ["Reported / observed",a.status||a.evidence||"Not specified"],
   ["Review status",r.review],["Record origin",r.file],
+  ["Knowledge & limits",a.knowledge_limit||"Not specified"],["Narrative frame",a.frame||"Not specified"],
+  ["Source range",Array.isArray(a.source)?a.source.join("–"):a.source_ref||"Not specified"],
+  ["Range SHA-256",a.source_sha256||"Not supplied"],
   ["Note",a.note||"Not specified"],["Verification",integ.label]
  ];
  const pos=a.source?.highlight_start!=null?[[a.source.highlight_start,a.source.highlight_end]]:
@@ -125,7 +154,7 @@ function relevant(r,p){
   if(trackIncluded(r.pair,p))return true;
   // A group reader retains the individually attributed actions inside an
   // established shared scene, without rewriting their original pair label.
-  if(p==="TRIO"&&["DB","DY"].includes(r.pair))return navigationReview.sections.some(s=>s.track==="TRIO"&&["meeting","continuation","remote"].includes(s.frame)&&s.episode===r.episode&&r.line>=s.source[0]&&r.line<=s.source[1])||scenes.some(s=>s.track==="TRIO"&&s.episode===r.episode&&r.line>=s.start&&r.line<=s.end);
+  if(p==="TRIO"&&["DB","DY"].includes(r.pair))return r.raw?.shared_scene===true||navigationReview.sections.some(s=>s.track==="TRIO"&&["meeting","continuation","remote"].includes(s.frame)&&s.episode===r.episode&&r.line>=s.source[0]&&r.line<=s.source[1])||scenes.some(s=>s.track==="TRIO"&&s.episode===r.episode&&r.line>=s.start&&r.line<=s.end);
   return false;
  }
  if(r.recordType==="scene"){
@@ -149,7 +178,7 @@ function searched(r,q){
  return false
 }
 function statusChip(status){
- return '<span class="badge '+(status==="UNREVIEWED_MENTION_WINDOW"?"pending":"")+'">'+enc(status==="UNREVIEWED_MENTION_WINDOW"?"Unreviewed reference":status==="VERIFIED_SOURCE_SCENE"?"Verified scene anchor":status==="source_linked_partial"?"Partial scene event":status==="source_linked_first_pass"?"Source-indexed first pass":status==="SOURCE_LINKED_FIRST_PASS_SCENE"?"Source-reviewed scene":"Curated first pass")+'</span>'
+ return '<span class="badge '+(status==="UNREVIEWED_MENTION_WINDOW"?"pending":"")+'">'+enc(status==="source_checked_sequence"?"Source-checked sequence":status==="UNREVIEWED_MENTION_WINDOW"?"Unreviewed reference":status==="VERIFIED_SOURCE_SCENE"?"Verified scene anchor":status==="source_linked_partial"?"Partial scene event":status==="source_linked_first_pass"?"Source-indexed first pass":status==="SOURCE_LINKED_FIRST_PASS_SCENE"?"Source-reviewed scene":"Curated first pass")+'</span>'
 }
 function actionCard(r){
  const a=r.raw,integrity=evidenceIntegrity(r);
@@ -158,7 +187,8 @@ function actionCard(r){
  return '<article class="card action-record"><div class="row"><div>'+statusChip(r.source_kind)+'<span class="badge source">E'+String(r.episode).padStart(2,"0")+'</span>'+(integrity.bad?'<span class="badge pending">CHECKSUM CONFLICT</span>':'')+'</div>'+link(r.line)+'</div>'+
  '<h3>'+enc(r.action.replaceAll("_"," "))+'</h3><p class="muted">Actor: '+enc(r.actor)+' · '+enc(r.kind)+' · '+enc(r.pair)+(shared?' · Shared group-context tag; not a pair-only act':'')+'</p>'+
  '<p class="hint">Status: '+enc(r.status)+' · QA: '+enc(r.review)+'</p>'+
- '<details><summary>Exact original line & full evidence metadata</summary><div class="evidence">'+cue(canon[r.line-1]||"",$("search").value.trim())+'</div>'+
+ '<p class="hint">Recipient: '+enc(r.recipient||"Not specified")+(a.knowledge_limit?' · '+enc(a.knowledge_limit):'')+'</p>'+
+ '<details><summary>Exact original evidence & full metadata</summary>'+(r.source_kind==="source_checked_sequence"?getLines(...a.source,$("search").value.trim()):'<div class="evidence">'+cue(canon[r.line-1]||"",$("search").value.trim())+'</div>')+
  evidenceMeta(r)+'<p class="muted">Source: '+enc(source)+'</p>'+
  '<details><summary>Unmodified action record (all fields)</summary><pre class="raw-json">'+enc(JSON.stringify(a,null,2))+'</pre></details></details></article>';
 }
@@ -181,6 +211,7 @@ function rangeCard(r){
 
 function renderChunk(){
  if(tab==="source"){renderSourceChunk();return;}
+ if(tab==="detailed"){renderDetailedChunk();return;}
  const slice=filtered.slice(shown,shown+18);shown+=slice.length;
  $("results").insertAdjacentHTML("beforeend",slice.map(r=>r.recordType==="action"?actionCard(r):rangeCard(r)).join(""));
  $("more").hidden=shown>=filtered.length;$("info").textContent=shown+" / "+filtered.length+" items displayed. Source-text results may be candidates; use verified scene records for confirmed co-presence."
@@ -262,11 +293,12 @@ function lineqaView(){
  const q=$("search").value.trim().toLowerCase(),p=$("pair").value;
  const rows=episodes.filter(e=>isInScope(e.id)).map(e=>{
   const ledger=lineAudits.find(x=>x.episode===e.id),m=coverageMetrics(e.id,p);
-  return '<tr><td>E'+String(e.id).padStart(2,"0")+'</td><td>'+link(e.start)+'–'+e.end+'</td><td>'+(e.end-e.start+1)+'</td><td>'+(ledger?ledger.line_index.length+' earlier dispositions':'No earlier line-disposition ledger')+'</td><td>'+m.actions+' tags · '+m.sections+' section notes</td><td>Atomic sign-off pending</td></tr>';
+  const review=(detailedAudit.review_by_episode||[]).find(x=>x.episode===e.id);
+  return '<tr><td>E'+String(e.id).padStart(2,"0")+'</td><td>'+link(e.start)+'–'+e.end+'</td><td>'+(e.end-e.start+1)+'</td><td>'+(ledger?ledger.line_index.length+' earlier dispositions':'No earlier line-disposition ledger')+'</td><td>'+m.actions+' records · '+m.sections+' section notes</td><td>'+enc(review?.status?.replaceAll('_',' ')||'Review pending')+(review?.new_sequence_records?' · '+review.new_sequence_records+' new sequences':'')+'<br>Exhaustive atomic sign-off not certified</td></tr>';
  });
  $("results").innerHTML='<article class="card"><h2>All-episode source and review status</h2><p class="hint">Every episode can be read in full under Exact source. Earlier E06–E13 line dispositions are retained in the downloadable export. Source availability, lexical matches, section annotations and exhaustive semantic review are different measures.</p><div class="table-wrap"><table><thead><tr><th>Episode</th><th>Master lines</th><th>All source lines</th><th>Earlier line QA</th><th>Selected track</th><th>Sign-off</th></tr></thead><tbody>'+rows.join("")+'</tbody></table></div></article>';
  if(q)$("results").innerHTML+='<p class="hint">Search is applied to source/event views; review-status rows remain visible for every selected episode.</p>';
- $("info").textContent=rows.length+' episodes · source index is complete; semantic sign-off remains pending';$("more").hidden=true;
+ $("info").textContent=rows.length+' episodes · detailed-ledger, sequence and context review shown separately from exhaustive atomic sign-off';$("more").hidden=true;
 }
 function sourceView(){
  const p=$("pair").value,q=$("search").value.trim().toLowerCase();
@@ -284,7 +316,8 @@ function qaView(){
  '<p><strong>Not inferred:</strong> direct contact from co-presence; completed acts from requests; consent from silence; equal knowledge across twins; continuous time from flashback; absence from zero lexical mentions.</p>'+
  '<p><strong>Source checks:</strong> Record-level checksum status shown in action metadata. Original records, with source highlights, remain available via expandable JSON.</p>'+
  '<p><a href="./data/unified_pair_e01_e07_source_qa_v1.json">E01–E07 coverage report ↗</a> · <a href="./data/twins_e07_line_ledger_v1.json">E07 source audit ↗</a> · <a href="./data/twins_e06_line_ledger_v1.json">E06 source audit ↗</a> · <a href="./data/unified_pair_audit_v2.json">G01–G18 audit JSON ↗</a> · <a href="./data/unified_pair_scene_anchors.json">Original scene anchors ↗</a></p></article>';
- $("info").textContent="All 18 audit issues OPEN. E01–E05 first-pass source index plus five repaired references; E06/E07 complete line disposition (not semantic sign-off); E67–E68 fragmentary. G01–G18 remain open overall.";$("more").hidden=true
+ $("results").innerHTML+='<article class="card"><h2>Additional review delivered</h2><p>'+detailedAudit.events.length+' neutral source-checked sequences across '+detailedAudit.reviewed_episodes.length+' later episodes, '+(detailedAudit.context_review||[]).length+' contextual episode checks and '+(detailedAudit.continuity||[]).length+' chronology/knowledge checks. These supplement the retained E01–E13 ledgers. Linked steps may share a sequence record; the broader exhaustive atomic requirements remain open.</p></article>';
+ $("info").textContent='Detailed sequence review added through E68; G01–G18 full atomic closure is not claimed.';$("more").hidden=true
 }
 
 
@@ -336,6 +369,7 @@ function readerBond(){
  readerEvidence(b)+'</article>').join("")||
  '<article class="card">No additional source-reviewed bond beats in this selection. Consult Exact source for the unchanged text.</article>';
  $("info").textContent=bs.length+" bond, reaction and memory beats";$("more").hidden=true;
+ $("results").innerHTML+=auditSupplement(/emotion|memory|reassur|care|private|apology|boundary|knowledge/,"Later bond, boundaries and knowledge audit");
 }
 function readerPhysical(){
  const q=$("search").value.trim().toLowerCase();
@@ -351,10 +385,10 @@ function readerPhysical(){
   const detail=tags.map(r=>{
    const context=r.pair!==pair;
    return '<div class="reader-body-row"><div class="row"><strong>E'+r.episode+' · '+enc(r.action.replaceAll("_"," "))+'</strong>'+link(r.line)+'</div>'+
-   '<p class="hint">Actor: '+enc(r.actor)+' · Source tag: '+enc(r.kind)+' · '+(context?'Shared scene context; individual recipient must be checked':'Pair source tag')+'</p>'+
+ '<p class="hint">Actor: '+enc(r.actor)+' · Recipient: '+enc(r.recipient||'Not specified')+' · Outcome: '+enc(r.status||'Not specified')+' · Source tag: '+enc(r.kind)+' · '+(context?'Shared scene context; individual recipient must be checked':'Pair source tag')+'</p>'+(r.raw.knowledge_limit?'<p>'+enc(r.raw.knowledge_limit)+'</p>':'')+
    '<details><summary>Exact source line</summary><div class="evidence">'+cue(canon[r.line-1]||"",q)+'</div></details></div>';
   });
-  $("results").innerHTML+='<article class="card"><h3>Available action and observation ledgers</h3><p class="hint">Earlier records are preserved in source order. These first-pass tags include requests, observations and responses, not just completed contact. Later navigation sections do not fabricate missing atomic actions.</p>'+detail.join("")+'</article>';
+  $("results").innerHTML+='<article class="card"><h3>Action and observation ledgers</h3><p class="hint">Earlier records and the added detailed sequences are preserved in source order. Requests, observations, refusals and completed contact remain distinct; sequence records may link several steps.</p>'+detail.join("")+'</article>';
  }
  if(!bs.length&&!relevantTags.length)$("results").innerHTML+='<article class="card">No individually tagged action available for these filters yet. Read Episode map and Exact source; this is a review gap, not an absence claim.</article>';
  $("info").textContent=bs.length+" narrative phases + "+relevantTags.length+" earlier source-linked action tags";$("more").hidden=true;
@@ -370,6 +404,7 @@ function readerBody(){
  '<p>'+enc(x.reading)+'</p>'+readerEvidence({...x.beat,source:[x.line,x.line]})+'</div>').join("")+'</article>').join("")||
  '<article class="card">No individually classified visual/body-reference record for this selection yet. See Exact source and Source index; no absence is inferred.</article>';
  $("info").textContent=entries.length+" first-pass body/clothing/visual history entries";$("more").hidden=true;
+ $("results").innerHTML+=auditSupplement(/clothing|visual|observation|posture|position/,"Later clothing and visibility audit");
 }
 function readerCumulative(){
  const p=$("pair").value,last=$("episode").value==="all"?68:+$("episode").value;
@@ -388,6 +423,8 @@ function readerCumulative(){
  const laterSections=navigationReview.sections.filter(r=>r.episode<=last&&trackIncluded(r.track,p)).map(r=>'<tr><td>E'+r.episode+'</td><td>'+enc(r.frame.replaceAll("_"," "))+'</td><td><strong>'+enc(r.title)+'</strong><p>'+enc(r.reading)+'</p></td><td>'+link(r.source[0])+'</td></tr>');
  $("results").innerHTML=prefix+later+$("results").innerHTML+(laterSections.length?'<article class="card"><h2>Later source history through E'+last+'</h2><p class="hint">Narrative source order. Flashbacks, reports and hypotheses remain labelled; these rows are not independent encounter counts or certified state transitions.</p><div class="table-wrap"><table><thead><tr><th>Episode</th><th>Frame</th><th>Source-linked section</th><th>Evidence</th></tr></thead><tbody>'+laterSections.join("")+'</tbody></table></div></article>':"");
  $("info").textContent=keys.length+" cumulative relationship categories through Episode "+last;$("more").hidden=true;
+ const facts=(detailedAudit.continuity||[]).filter(f=>f.episodes.every(e=>e<=last));
+ if(facts.length)$("results").innerHTML+='<article class="card"><h2>Chronology and knowledge checkpoints through E'+last+'</h2>'+continuityMarkup(facts)+'</article>';
 }
 function readerExact(){
  const q=$("search").value.trim().toLowerCase();sourceMatches=[];sourceShown=0;
@@ -414,8 +451,9 @@ function episodeMapView(){
   const old=readerBeats.filter(b=>b.episode===e.id&&!b.section_map&&readerSelect(b)&&readerSearch(b,q));
   const meta=navigationReview.episodes.find(x=>x.episode===e.id);
   const noNames=meta&&!meta.explicit_name_lines.length;
+  const contextual=(detailedAudit.context_review||[]).find(r=>r.episode===e.id);
   return '<section class="episode-map"><h2>E'+String(e.id).padStart(2,"0")+'</h2><p class="hint">Complete source: '+link(e.start)+'–'+e.end+' · '+(e.end-e.start+1)+' lines.</p>'+(old.length?old.map((b,i)=>readerBeatCard(b,i+1)).join(""):"")+ss.map(mapSectionCard).join("")+
-  (!old.length&&!ss.length?'<div class="coverage-strip">'+(noNames?'No explicit Bantu/Bobby/twins name match in this episode. Pronoun and context review remains pending; no absence is certified.':'No source-section note matches this track and these filters. This does not prove no relevant interaction.')+' Read Exact source for the full episode.</div>':"")+'</section>';
+  (!old.length&&!ss.length?'<div class="coverage-strip">'+(contextual?'Context checked: '+enc(contextual.reading):noNames?'No explicit Bantu/Bobby/twins name match in this episode. Pronoun and context review remains pending; no absence is certified.':'No source-section note matches this track and these filters. This does not prove no relevant interaction.')+' Read Exact source for the full episode.</div>':"")+'</section>';
  });
  $("results").innerHTML='<p class="reader-notice">Source-linked first-pass navigation through E01–E68. Meetings, remote contact, private thoughts, memories, reports, comparisons and hypotheses remain separate. A section is not an atomic action or a unique encounter.</p>'+parts.join("");
  if(!parts.length)$("results").innerHTML+='<article class="card">Select at least one episode using the episode checkboxes.</article>';
@@ -430,6 +468,7 @@ function render(){
  $("next").disabled=$("scope").value==="selected"||$("episode").value==="68";
  for(const btn of document.querySelectorAll("[data-tab]"))btn.setAttribute("aria-pressed",String(btn.dataset.tab===tab));
  if(tab==="episodeMap"){episodeMapView()}
+ else if(tab==="detailed"){detailedView()}
  else if(tab==="meetings"){readerMeetings()}
  else if(tab==="bond"){readerBond()}
  else if(tab==="physical"){readerPhysical()}
@@ -455,12 +494,15 @@ function render(){
 function exportPayload(){
  const p=$("pair").value,e=$("episode").value,scope=$("scope").value;
  const matched=getFilter().filter(r=>isInScope(r.episode));
- const records=matched.map(r=>r.recordType==="action"?{record_type:r.source_kind==="source_linked_partial"?"partial_scene_event":"first_pass_action",id:r.id,episode:r.episode,source_line:r.line,source_file:r.file,source_integrity:evidenceIntegrity(r).label,source_record:r.raw}:r.recordType==="scene"?{record_type:"verified_scene_anchor",...r}:{record_type:"unreviewed_lexical_window",...r});
+  const records=matched.map(r=>r.recordType==="action"?{record_type:r.source_kind==="source_checked_sequence"?"source_checked_sequence":r.source_kind==="source_linked_partial"?"partial_scene_event":"first_pass_action",id:r.id,episode:r.episode,source_line:r.line,source_file:r.file,source_integrity:evidenceIntegrity(r).label,source_record:r.raw}:r.recordType==="scene"?{record_type:"verified_scene_anchor",...r}:{record_type:"unreviewed_lexical_window",...r});
  const q=$("search").value.trim().toLowerCase();
- return {schema:"unified_pair_filtered_export_v4",track:p,episode:e,scope,selected_episodes:episodes.filter(x=>isInScope(x.id)).map(x=>x.id),include_shared_context:sharedEnabled(),search:$("search").value,evidence:$("kind").value,source:"raw/Dhika.txt",source_sha256:navigationReview.source_sha256,atomic_complete:false,
+ return {schema:"unified_pair_filtered_export_v5",track:p,episode:e,scope,selected_episodes:episodes.filter(x=>isInScope(x.id)).map(x=>x.id),include_shared_context:sharedEnabled(),search:$("search").value,evidence:$("kind").value,source:"raw/Dhika.txt",source_sha256:navigationReview.source_sha256,atomic_complete:false,
   episode_source_ranges:navigationReview.episodes.filter(x=>isInScope(x.episode)),
   episode_line_dispositions:lineAudits.filter(x=>isInScope(x.episode)).map(x=>({episode:x.episode,note:"Whole-episode QA context, not pair actions",line_index:x.line_index})),
   navigation_sections:navigationReview.sections.filter(x=>reviewSelect(x)&&reviewSearch(x,q)),
+  detailed_audit_records:detailedAudit.events.filter(x=>detailedSelect(x)&&detailedSearch(x,q)),
+  contextual_episode_reviews:(detailedAudit.context_review||[]).filter(x=>isInScope(x.episode)),
+  chronology_checks:(detailedAudit.continuity||[]).filter(x=>x.episodes.some(isInScope)),
   reader_phases:readerBeats.filter(x=>readerSelect(x)&&readerSearch(x,q)),
   warning:"Source-linked first-pass records and navigation sections; exhaustive atomic review is not certified. Shared context does not prove pair-specific acts. Earlier source-record metadata is preserved.",audit_gaps:gaps.map(x=>({id:x.id,status:x.status||"OPEN"})),records};
 }
@@ -484,6 +526,8 @@ function downloadSelection(){
   lineAudits=[data[14],data[15],data[19],data[20],data[21]];
   readerBeats=data[17].beats.concat(data[22].beats);readerEncounters=data[17].encounters.concat(data[22].encounters);readerRefinements=data[18];
   navigationReview=data[26];
+  detailedAudit=data[27];
+  curated.push(...detailedAudit.events.map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.track,actor:a.actor,recipient:a.recipient,action:a.action,kind:a.kind,source_kind:"source_checked_sequence",recordType:"action",file:"data/twins_detailed_source_audit_v1.json",raw:a,review:a.review,status:a.outcome})));
   for(let i=23;i<=25;i++){
    lineAudits.push(data[i]);
    curated.push(...data[i].events.filter(a=>["DB","DY","TRIO","DBC"].includes(a.track)).map(a=>({id:a.id,episode:a.episode,line:a.line,pair:a.track,actor:a.actor,recipient:a.recipient||"",action:a.action,kind:a.kind,source_kind:"source_linked_first_pass",recordType:"action",file:loadPaths[i],raw:a,review:a.review,status:a.outcome||"first_pass"})));
@@ -531,7 +575,7 @@ function downloadSelection(){
   $("stats").innerHTML=[
    [68,"Episodes in source · not certified"],[curated.length,"Source tags · first pass"],[scenes.length,"Scene anchors · incomplete"],[windows.length,"Unreviewed name windows"]
   ].map(a=>'<div><strong>'+a[0]+'</strong><small>'+a[1]+'</small></div>').join("");
-  $("status").textContent="E01–E68 complete source browsing · "+navigationReview.sections.length+" additional first-pass source sections · E11–E13 event ledgers restored. Exhaustive atomic review is not certified. Check QA coverage for the selected relationship.";
+  $("status").textContent="E01–E68 complete source browsing · "+detailedAudit.events.length+" additional source-checked sequences · "+(detailedAudit.continuity||[]).length+" chronology/knowledge checks · earlier detailed ledgers retained. Linked sequence review is available; exhaustive per-clause atomic certification is not claimed.";
   const params=new URLSearchParams(globalThis.location?.search||"");
   for(const id of ["pair","episode","scope","kind"]){const value=params.get(id==="kind"?"evidence":id);if(value&&[...$(id).options].some(o=>o.value===value))$(id).value=value;}
   if(params.get("shared")==="false")$("shared").checked=false;

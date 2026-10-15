@@ -62,14 +62,28 @@
     "restored_event_checksums": "PASS",
     "functional_dom_fixture": "PASS",
     "existing_repository_source_checks": "PASS",
-    "live_browser": "Verified light palette, all 210 E68 source lines and scoped JSON download on c2a470a; group-reader follow-up covered by regression tests."
+    "live_browser": "Verified light palette, all 210 E68 source lines and scoped JSON download on c2a470a; group-reader follow-up covered by regression tests.",
+    "detailed_source_ranges_and_checksums": "PASS: 891 records; deterministic generation from manual authoring inputs",
+    "context_and_chronology": "PASS: 8 full episode-range hashes and 36 evidence-linked facts"
   },
   "remaining_semantic_work": [
-    "No episode is newly certified as exhaustively atomically extracted.",
-    "All original G01–G18 requirements remain available; this software repair does not claim their full closure.",
-    "196 section notes are navigation annotations, not 196 distinct encounters or complete event inventories.",
-    "Later-episode actor/recipient, knowledge, body-history and per-line multi-action sign-off still need an independent full semantic pass.",
-    "Episodes without explicit name matches remain pending pronoun/context review; no absence claim is made.",
-    "E23 master line 4229 has conflicting actor continuity; original text is retained and ambiguity is explicit."
-  ]
+    "New records are neutral linked sequences, not a complete per-clause atomic extraction.",
+    "Earlier E01–E13 ledgers retain their original review status; they are not newly certified by the later sequence pass.",
+    "All original G01–G18 exhaustive atomic requirements remain available without fabricated full closure.",
+    "E23 master line 4229 has conflicting actor continuity; original text and uncertainty are preserved."
+  ],
+  "detailed_sequence_release": {
+    "date": "2026-10-15",
+    "source_checked_sequences": 891,
+    "later_episodes_with_new_sequences": 47,
+    "contextual_episode_checks": 8,
+    "chronology_knowledge_checks": 36,
+    "navigation_sections": 200,
+    "episode_status_rows": 68,
+    "earlier_ledgers_retained": true,
+    "source_unchanged": true,
+    "atomic_complete": false,
+    "authoring_inputs": "scripts/twins_audit/",
+    "data": "data/twins_detailed_source_audit_v1.json"
+  }
 }

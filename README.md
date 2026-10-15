@@ -1,40 +1,45 @@
 # Dhika & Sharmi Adventures — source-locked analysis dashboard
 
-## Unified twins tracker repair (15 October 2026)
+## Unified twins tracker detail pass (15 October 2026)
 
 [All trackers](https://developer-fandom-rush.github.io/dhika-sharmi-adventures/tracker-hub.html)
-· [Bantu / Bobby tracker](https://developer-fandom-rush.github.io/dhika-sharmi-adventures/unified-pair-tracker.html)
+· [Detailed twins audit](https://developer-fandom-rush.github.io/dhika-sharmi-adventures/unified-pair-tracker.html?pair=TRIO&episode=all&scope=single&view=detailed&shared=true&evidence=all)
 
-The unified tracker now uses the light paper/cream/green palette of the Chotu
-and Uncle readers. It preserves the earlier detailed records and restores the
-89 existing E11–E13 event records that the prior UI did not load.
+The light paper/cream/green reader preserves all earlier E01–E13 ledgers, including
+89 formerly unloaded E11–E13 records. It adds **891 manually authored neutral
+source-checked sequences across 47 later episodes**, **8 contextual episode
+reviews**, and **36 chronology/knowledge checks**. The review-status table covers
+all 68 episodes, distinguishing retained early ledgers, new sequences, and context
+checks with no twin event identified. No absence is inferred from name matching.
 
-**Episode map** adds 196 source-linked, non-graphic navigation sections for later
-episodes, keeping direct/remote scenes, memories, reports, comparisons and
-hypotheses distinct. These sections are navigation annotations, not 196 new
-encounters and not an exhaustive atomic-action ledger. E01–E68 all have complete
-source browsing (13,910 master lines, including blanks and metadata). The source
-hash is unchanged. Episodes without explicit name matches still retain their
-full source and are not certified as having no relevant pronoun-only scene.
+Each new record preserves actor, recipient, action class, outcome, knowledge
+limits, narrative frame, master source range, SHA-256 range hash, first-line FNV
+checksum, and the authoring row. Linked requests/responses sometimes share a
+sequence: this is **not an exhaustive per-clause atomic certification**. All 18
+broader atomic requirements remain available without fabricated sign-off.
 
-Filters support one episode, cumulative scope or arbitrary episode checkboxes.
-Shared group context can be switched off in pair views. Exact source is paginated
-without dropping later-episode or pronoun-only passages. Exports preserve the
-selected track, episode scope, search, source-index filter, earlier record metadata,
-new section notes and explicit incomplete-review status. Cumulative history is
-no longer silently capped at E10; earlier detailed checkpoints keep their actual
-episode dates rather than being represented as a verified E68 state.
+Corrections include the E25 dream, E26/E37 previews, E36/E37 clasp replay and stop
+response, E38/E51 unequal knowledge and later disclosure, the E44/E45 duplicate
+call, E64's actual opening plus retrospective explanation, E66/E67's extended
+flashback, E67's internal no-touch thought versus later spoken stop, and E68's
+private Bobby camera view. E23 L4229's actor conflict remains unresolved rather
+than silently reassigned. Reports, hypotheticals and unknown observers retain
+explicit limits. The unshown hour in E67 remains a later report, not invented prose.
 
-`data/twins_e01_e68_navigation_review_v1.json` and
-`scripts/build_twins_review.py` hold the new section map and lossless episode
-pointers. `data/twins_tracker_repair_audit_20261015.json` distinguishes repaired
-software defects from the still-open semantic review requirements.
+The 200 navigation sections are separate from action sequences and unique
+encounters. E01–E68 full source browsing retains all 13,910 master lines. The raw
+source blob is unchanged. Filters support one, cumulative or arbitrary episodes,
+strict/shared pair context, search and paginated detailed records. v5 filtered
+exports include original records, new sequences, contextual reviews and chronology
+checks. Physical, bond, clothing and cumulative views use the added evidence
+without turning old checkpoints into a supposedly verified current state.
 
-Run `python3 scripts/validate_twins_tracker.py` and
-`node scripts/test_twins_tracker.mjs` in addition to the existing source checks.
-The functional test uses a DOM fixture; it is not a browser-layout test.
-**Exhaustive action/recipient/knowledge/continuity certification remains pending.**
-The repair does not close G01–G18 or convert lexical matches into verified acts.
+Authoring inputs are in `scripts/twins_audit/`; regenerate with
+`python3 scripts/build_twins_review.py` and
+`python3 scripts/build_twins_detailed_audit.py`. Validate using
+`python3 scripts/validate_twins_tracker.py` and
+`node scripts/test_twins_tracker.mjs`, plus the repository's existing checks.
+Functional tests use a DOM fixture; live browser verification is separate.
 
 ## Current E01 scene repair (13 October 2026)
 

@@ -1,0 +1,127 @@
+# source|track|actor|recipient|kind|outcome|action|knowledge
+2760|DY|Dhika|self|comparison|thought|Compares Raj's quiet manner with Bobby and Chotu.|Bobby absent; comparison only.
+2775|TRIO|Narrator|reader|comparison|narrated|Contrasts Raj's manner with Bobby's reserve and Bantu's directness.|No current twin attendance.
+2823|TRIO|Dhika|self|memory|recalled|Recalls the twins' and Chotu's earlier reactions to her clothing.|The recall is not a second encounter.
+3107|TRIO|Dhika|Bantu and Bobby|preparation|completed|Prepares a mock test for the competition.|Twins have not arrived.
+3108|TRIO|Dhika|Aunty|care_arrangement|accepted|Arranges for Pappu to stay with Aunty during tuition.|Pappu is away from the tuition scene.
+3111:3118|TRIO|Bantu and Bobby|Dhika|arrival|completed|Arrive, greet Dhika and sit with her for tuition.|Both present in the hall.
+3122|DB|Bantu|Dhika|travel_request|proposed|Renews the request that she accompany them to Switzerland if they win.|Bobby present.
+3123:3127|TRIO|Dhika|Bantu and Bobby|boundary|declined|Explains her hesitation about travel, family responsibilities and travelling alone.|A later change of mind must be recorded separately.
+3128:3131|TRIO|Bantu and Bobby|Dhika|travel_request|repeated|Ask her to reconsider and explain why they want her as mentor.|Individual lines distinguish the speakers.
+3132|TRIO|Dhika|Bantu and Bobby|response|conditional|Agrees to think about travelling if they win.|This is not yet a confirmed travel commitment.
+3135|TRIO|Dhika|Bantu and Bobby|gift|completed|Gives each twin a chocolate as a study reward.|One gift to each; no later reward implied.
+3142|DB|Bantu|Dhika|clothing_request|requested|Requests her T-shirt as a different reward.|Bobby present; request only.
+3143|DB|Dhika|Bantu|refusal|declined|Initially refuses the clothing request.|Retained before later decisions.
+3147|DB|Dhika|Bantu|reaction_contact|completed|Responds to teasing with a pinch.|Direct action by Dhika.
+3148:3150|DY|Bobby|Dhika|verbal_response|affirmed|Confirms his own opinion when Dhika asks him.|Bantu's earlier claim alone is not treated as Bobby's statement.
+3151:3153|TRIO|Dhika|Bantu and Bobby|refusal|declined|Redirects them to the test and refuses another display request.|No permission inferred from teasing.
+3154:3155|DY|Dhika|self|emotional_reaction|narrated|Notices Bobby looking sad and feels moved to respond.|This is her stated trigger for the next choice.
+3156:3158|TRIO|Dhika|Bantu and Bobby|clothing_visibility|completed|Lifts her T-shirt while facing away, initially showing only the back of the undergarment.|Back view first; not a full removal.
+3159|DB|Bantu|Dhika|request|requested|Asks her to turn towards them.|Request precedes the turn.
+3161:3162|TRIO|Dhika|Bantu and Bobby|visual_transition|completed|Turns towards the twins while keeping the T-shirt raised.|Both observe the changed view.
+3167|DY|Bobby|Dhika|clothing_request|requested|Asks her to remove the T-shirt.|Bantu present; Bobby is the speaker.
+3168|DY|Dhika|Bobby|boundary_response|hesitant|States that she feels shy being the only one without an outer top.|Hesitation is recorded, not blanket agreement.
+3169|TRIO|Bantu and Bobby|Dhika|clothing_transition|completed|Both remove their own shirts.|Dhika sees them; this does not change her clothing itself.
+3172|DB|Bantu|Dhika|request|repeated|Renews the T-shirt request after removing his own shirt.|Separate from Bobby's earlier request.
+3173|TRIO|Dhika|Bantu and Bobby|clothing_transition|completed|Removes her outer T-shirt and sits between them.|The undergarment remains on.
+3175:3177|DB|Bantu|Dhika|contact_request|requested|Offers and then asks her to touch his chest.|Her initial verbal denial is retained at L3176.
+3178|DB|Bantu|Dhika|initiated_contact|completed|Takes her hand and places it on his chest without waiting for a further answer.|Do not rewrite the preceding denial as consent.
+3179|DB|Dhika|self|sensory_reaction|narrated|Notices the physical texture and questions her own action.|Private reaction; not shared knowledge by default.
+3180|DB|Dhika|Bantu|withdrawal|completed|Pulls her hand away.|Ends this contact interval.
+3183|DY|Bobby|Dhika|emotional_disclosure|stated|Says he feels overlooked because he lacks Bantu's physique.|Bantu remains in the wider scene.
+3186:3187|DY|Dhika|Bobby|reassurance_contact|completed|Apologizes and draws Bobby into a side hug.|Narrator states Bobby no longer looks sad.
+3188|DB|Bantu|Dhika|contact_request|requested|Asks for a hug too.|No corresponding hug is supplied here.
+3189:3190|TRIO|Dhika|Bantu and Bobby|redirection|completed|Ends the play and starts the mock test.|Teaching resumes.
+3192|TRIO|Dhika|self|observation|observed|Notices their attention drifting from the questions.|Her observation is separate from their answers.
+3193:3197|TRIO|Dhika|Bantu and Bobby|boundary_condition|stated|Restores her T-shirt and makes any later change conditional on finishing the test correctly.|L3204 confirms the T-shirt is on in the kitchen.
+3198:3200|TRIO|Bantu and Bobby|Dhika|academic_action|completed|Answer the test correctly and receive congratulations.|No independent travel win yet.
+3201:3203|DB|Bantu|Dhika|movement|completed|Follows her into the kitchen while Bobby stays outside the private interval.|Dhika initially does not know he followed.
+3204|DB|Bantu|Dhika|clothing_interference|completed|Pulls the neckline forward and looks inside.|His initiative is not a prior request.
+3205|DB|Dhika|Bantu|boundary_contact|completed|Hits his hand and challenges what he is doing.|The objection follows the interference.
+3208:3209|DB|Dhika|Bantu|contact_transition|completed|Her playful hitting changes into stroking his chest.|Source explicitly describes the transition.
+3211:3214|DB|Dhika|Bantu|verbal_response|stated|Answers his questions about how the contact feels.|Separate dialogue from contact.
+3215|DB|Bantu|Dhika|contact_request|proposed|Suggests a hug against bare skin.|No completed hug is supplied at this line.
+3218|DB|Bantu|Dhika|clothing_request|requested|Asks permission to remove her T-shirt.|Separate from earlier neckline interference.
+3220|DB|Dhika|Bantu|response|assented|Nods in response to this specific request.|Limited to this action.
+3221:3223|DB|Bantu|Dhika|clothing_transition|completed|Removes the T-shirt while she raises her arms to assist.|Undergarment remains on.
+3224:3225|DB|Dhika|Bantu|contact|completed|Returns her hand to his chest.|Bobby still absent from this interval.
+3226|DB|Bantu|Dhika|contact|completed|Makes a separate intentional brushing contact over the undergarment.|Not attributed to Bobby.
+3227:3228|DB|Dhika|self|reaction|narrated|Reacts verbally and with a shiver.|No extra completed act inferred.
+3229|DY|Bobby|Dhika and Bantu|arrival_interruption|completed|Enters the kitchen and interrupts the private exchange.|Does not establish that he saw the preceding actions.
+3230:3231|DY|Dhika|Bobby|movement_contact|completed|Moves away from Bantu, takes Bobby's hand and leads him to the hall.|Marks the end of the private interval.
+3232|DB|Bantu|self|private_thought|narrated|Privately resents the interruption.|Dhika and Bobby are not assigned this knowledge.
+3233|TRIO|Dhika|Bantu and Bobby|position|completed|Sits between them again.|Same tuition visit; no new arrival.
+3238|DB|Bantu|Dhika|contact_request|requested|Asks for a kiss as a reward.|Request is not the eventual location or type of contact.
+3239|TRIO|Dhika|Bantu and Bobby|affection|completed|Gives each twin a cheek kiss.|Two recipients, one source line.
+3240:3241|DB|Dhika|Bantu|response_contact|completed|Responds to Bantu's request for another location with a forehead kiss.|Separate from the cheek kisses.
+3244:3245|DB|Dhika|Bantu|affection|completed|After a stated private wish, kisses his chest.|Individual initiative by Dhika.
+3247:3250|DY|Dhika and Bobby|each other|request_response|completed|Dhika asks Bobby for a kiss and he kisses her cheek.|Request and completion are explicitly linked in the cited range.
+3254:3256|DB|Dhika|Bantu|boundary|stated|Responds to Bantu's further suggestion with a warning.|Not a completed kiss by Bantu.
+3267|DY|Bobby|Dhika|initiated_contact|completed|Initiates a surprise kiss to her abdomen.|Continuation of E17; not a new visit.
+3269:3270|DY|Dhika|Bobby|boundary_response|stated|Says he should not do that while visibly reacting.|Lack of pushing is not encoded as general consent.
+3271|DB|Bantu|Dhika and Bobby|observation|observed|Notices her reaction to Bobby's action.|Observation is not the same as participation.
+3275|DB|Bantu|Dhika|clothing_request|requested|Asks her to remove the skirt.|Request only.
+3276:3277|DB|Dhika|Bantu|refusal_contact|declined|Challenges the request and pinches him.|The skirt is not removed in this exchange.
+3280|DB|Bantu|Dhika|reported_observation|reported|Says he previously caught a glimpse while seated.|A report by Bantu, not independent certainty about every sightline.
+3282|DB|Bantu|Dhika|request|repeated|Repeats the clothing request.|Earlier refusal remains part of the chain.
+3284|DY|Bobby|self|private_knowledge|narrated|Recalls that he has seen more previously.|Not automatically known to Bantu.
+3286:3288|DB|Bantu|Dhika|clothing_transition|completed|Responds to her teasing question by removing his own shorts.|His own decision; her skirt remains on.
+3301|DY|Dhika|Bobby|clothing_suggestion|proposed|Suggests Bobby can remove his shorts if uncomfortable.|Separate from Bantu's decision.
+3303|DY|Bobby|Dhika|clothing_transition|completed|Removes his own shorts.|Source states this separately.
+3309:3310|TRIO|Bantu and Bobby|Dhika|position|completed|Sit on the floor at her request.|Shared scene continues.
+3312:3314|TRIO|Dhika|Bantu and Bobby|visual_transition|completed|Briefly changes posture to show the undergarment, then closes the view.|No skirt removal or direct contact inferred.
+3316:3317|DB|Dhika|Bantu|refusal|declined|Refuses his request to repeat the display.|A distinct boundary after the brief display.
+3320|DY|Bobby|Dhika|initiated_contact|completed|Initiates another kiss to her abdomen.|Not attributed to Bantu.
+3325|DY|Dhika|Bobby|response_contact|completed|Holds his head closer.|Specific response to this interval only.
+3326:3327|DY|Bobby|Dhika|contact_reaction|completed|Continues contact and she reacts audibly.|Bantu observes but is not actor.
+3328:3329|TRIO|Dhika|Bantu and Bobby|interruption|completed|Stands and ends the visit, saying she must collect Pappu.|Child is elsewhere and has no adult action role.
+3332|TRIO|Bantu and Bobby|Dhika|clothing_transition|completed|Dress again and prepare to leave.|Before farewell.
+3335:3336|TRIO|Dhika|Bantu and Bobby|farewell_contact|completed|Wishes them luck and hugs both.|Same visit.
+3337|TRIO|Dhika|Bantu and Bobby|affection|completed|Gives each twin a brief lip kiss for luck.|Explicit separate recipients in source.
+3340:3341|DY|Dhika|self|private_thought|narrated|Reflects on Bobby's occasional boldness after they leave.|Not an additional interaction.
+3343:3346|TRIO|Dhika|John|report|partial_disclosure|Tells John about the competition and travel request.|Narrator expressly limits John's knowledge of the earlier clothing changes.
+3351|TRIO|Dhika|Bantu and Bobby|remote_contact|connected|Answers the late-night video call immediately.|Different encounter from the tuition visit.
+3354:3355|TRIO|Bantu and Bobby|Dhika|remote_observation|observed|React to her nightwear on camera.|Camera observation, not co-presence.
+3358|TRIO|Bantu and Bobby|Dhika|result_report|reported|Announce that they won the competition.|Reported result, not the contest itself depicted.
+3360|TRIO|Dhika|Bantu and Bobby|remote_affection|completed|Congratulates them with a flying kiss.|No physical contact.
+3362:3364|TRIO|John|Bantu and Bobby|remote_greeting|completed|Joins to congratulate them; they thank him and end the call.|John joins only at this stage.
+3367:3369|TRIO|Dhika|John|report|partial_disclosure|Answers his question by recalling an earlier clothing incident.|Narrator explicitly says she does not disclose everything.
+3372|TRIO|Bantu and Bobby|Dhika|remote_report|reported|Describe the competition on a later call.|A separate next-day call.
+3374:3378|TRIO|Bantu and Bobby|Dhika|invitation|proposed|Invite her and John to a thank-you dinner despite her initial refusal.|Repeated invitation, not dinner attendance yet.
+3382:3384|DB|Bantu|Dhika|gift_announcement|reported|Says they bought a dress and are sending it.|Delivery occurs later.
+3387|TRIO|Dhika|John|report|completed|Relays the invitation and gift; John accepts dinner.|John's acceptance is separate from the twins' proposal.
+3388:3390|TRIO|Dhika|self|gift_receipt|completed|Receives and opens the dress parcel on Tuesday.|Narrator corrects the earlier expected Monday delivery.
+3391:3407|TRIO|Dhika|John|clothing_decision|completed|Initially objects to wearing the gift in public, then agrees after persuasion.|Twins are absent; distinguish her public/private concern.
+3408:3409|TRIO|Bantu and Bobby|Dhika and John|arrival_observation|completed|Wait at the restaurant and see the couple arrive.|Dinner continues in E19.
+3419|DB|Bantu|John|greeting|completed|Greets John with a handshake.|Bantu's action distinct from Bobby's.
+3419|DY|Bobby|Dhika and John|practical_help|completed|Moves chairs for the arriving couple.|Same source line, different actor and action.
+3420|TRIO|Dhika and John|Bantu and Bobby|conversation|completed|Share dinner and discuss family, studies and work.|Ordinary dinner phase retained.
+3424:3425|TRIO|Bantu and Bobby|John|travel_request|requested|Ask John about Dhika joining the trip.|John cannot supply Dhika's own final decision.
+3426|TRIO|John|Bantu and Bobby|response|agreed|Says he supports the trip.|Not consent for later private conduct.
+3428|TRIO|Dhika|Bantu and Bobby|travel_decision|agreed|Finally agrees to accompany them after discussion.|Resolves the earlier conditional consideration.
+3430|TRIO|Bantu and Bobby|Dhika and John|departure|completed|Part from the couple and leave in their own vehicle.|Dinner encounter ends.
+3446:3453|DB|Bantu|Dhika|remote_request|requested|Messages after dinner and requests a video call.|Bobby is reported as with him, not the message sender.
+3454|DB|Dhika|Bantu|boundary|deferred|Initially asks to speak in the morning because John is asleep.|No call connection yet.
+3456:3458|TRIO|Dhika|Bantu and Bobby|remote_contact|connected|Agrees to call herself, moves to the empty room and starts the video call.|John remains asleep elsewhere.
+3460|TRIO|Dhika|Bantu and Bobby|remote_observation|observed|Sees only their upper bodies in the camera frame.|Does not establish what is outside the frame.
+3466:3468|TRIO|Bantu and Bobby|Dhika|visual_request|requested|Ask to see the whole dress rather than only her face.|Camera request, not physical action.
+3472|TRIO|Dhika|Bantu and Bobby|camera_transition|completed|Changes framing to show the dress.|Her face leaves the frame.
+3478:3480|TRIO|Dhika|Bantu and Bobby|camera_transition|completed|Leans into view after Bobby asks to see her face.|Both react to the changed sightline.
+3483:3488|TRIO|Dhika|Bantu and Bobby|boundary_visibility|completed|Answers their clothing questions and covers the view with her hands.|Their impression that an item is absent is not treated as fact.
+3489:3494|TRIO|Dhika|Bantu and Bobby|request_response|completed|Responds to renewed requests by moving her hands away.|Specific camera choice only.
+3498|DB|Bantu|Dhika|clothing_request|requested|Asks her to remove the nightdress.|Remote request only.
+3501:3504|TRIO|Dhika|Bantu and Bobby|clothing_camera_transition|completed|Puts the phone face down, changes clothing off-camera, then restores a restricted upper-body view.|Off-camera action and returned view distinguished.
+3506:3508|TRIO|Bantu and Bobby|Dhika|compliment_reaction|stated|Compliment her; narrator states she increasingly enjoys the compliments.|Change in feeling is source-stated.
+3515|TRIO|Dhika|self|uncertain_observation|uncertain|Notices something briefly at the bottom of the screen but is not certain what it is.|Do not upgrade uncertainty to confirmed observation.
+3516:3522|DB|Dhika|Bantu|refusal|declined|Acknowledges the restricted framing and refuses another display request.|Remote view remains limited at this point.
+3534|DB|Bantu|Dhika|challenge|proposed|Challenges her to accept what they ask without shyness.|A proposal, not blanket permission.
+3536:3538|TRIO|Dhika|Bantu and Bobby|boundary_condition|stated|Responds competitively but immediately adds that they must keep limits.|Both parts of the statement retained.
+3545|DB|Bantu|Dhika|travel_condition|proposed|Proposes that they choose her trip outfits.|No agreement until her conditions follow.
+3547|TRIO|Dhika|Bantu and Bobby|boundary|stated|Objects to revealing clothing, especially outdoors.|Public/private distinction explicit.
+3556:3558|TRIO|Dhika|Bantu and Bobby|travel_condition|conditional|Agrees only if she chooses her undergarments and comfortable sleepwear.|These conditions remain attached to the agreement.
+3559:3560|TRIO|Bantu and Bobby|Dhika|response|agreed|Accept the stated clothing conditions.|Not an unrestricted later permission.
+3564:3571|TRIO|Dhika|Bantu and Bobby|boundary|stated|Answers another clothing question, explains discomfort and asks to change topic.|A stated request to redirect.
+3573:3575|TRIO|Bantu and Bobby|Dhika|remote_visual_transition|completed|Move into a wider camera view, allowing Dhika to see their clothing state.|Remote observation only.
+3581|DY|Bobby|Dhika|verbal_initiative|stated|Gives a direct personal compliment after Bantu hesitates.|Bobby is explicitly the speaker.
+3587:3588|TRIO|Dhika|Bantu and Bobby|remote_visual_transition|completed|Briefly shows one side of her undergarment on camera.|A limited side view, not complete undressing.
+3591|TRIO|Dhika|Bantu and Bobby|remote_farewell|completed|Says goodbye and gives a flying kiss.|Closes the late-night call.
