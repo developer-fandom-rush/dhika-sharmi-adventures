@@ -365,9 +365,25 @@ function fillHover(box,t,ep,rows){
   for(const item of result.lines){const p=el('p',undefined,'hover-scene');const a=el('a','L'+item.line);a.href=linkLine(item.line);a.target='_blank';a.rel='noopener';p.append(a,document.createTextNode('  '+item.text));one.append(p);}
  }else one.append(el('p','No pair-assigned source lines indexed here; this is not proof of no encounter.'));
  if(rows.some(x=>x.grade==='candidate'))one.append(el('p','WARNING: Some lines are unreviewed nearby-name references, not verified co-presence or pair-specific contact. The exact text is shown to avoid hiding possible gaps.','hover-note'));
- const two=el('section',undefined,'hover-part');two.append(el('h4','2 · Body parts + physical actions · exact words in the lines'));
- const p=el('p');p.append(el('strong','Body parts: '),document.createTextNode(result.parts.length?result.parts.join(' · '):'No explicit matching body-part word in these indexed lines'));two.append(p);
- const act=el('p');act.append(el('strong','Physical actions: '),document.createTextNode(result.actions.length?result.actions.join(' · '):'No explicit matching action word in these indexed lines'));two.append(act);
+ const two=el('section',undefined,'hover-part');
+ if(t.id.startsWith('ensemble-')&&t.id!=='ensemble-SC'){
+  two.append(el('h4','2 · Participant-attributed body parts and actions · curated source index'));
+  const structured=rows.filter(r=>r.body&&r.body.trim()&&r.type!=='reference');
+  if(structured.length){
+   const parts=new Set(),actions=new Set();
+   for(const rec of structured)for(const section of rec.body.split('; ')){
+    const fields=section.split(' · ');if(fields[1])parts.add(fields[1]);if(fields[2])actions.add(fields[2]);
+   }
+   two.append(el('p','Body parts: '+([...parts].join(' · ')||'No separately annotated target')));
+   two.append(el('p','Physical actions: '+([...actions].join(' · ')||'No separately annotated action')));
+  }else{
+   two.append(el('p','No physical action has been specifically attributed to this selected group in the existing reviewed index.'));
+  }
+ }else{
+  two.append(el('h4','2 · Literal body/action words in source range · attribution pending'));
+  const p=el('p');p.append(el('strong','Body words: '),document.createTextNode(result.parts.length?result.parts.join(' · '):'None extracted'));two.append(p);
+  const act=el('p');act.append(el('strong','Action words: '),document.createTextNode(result.actions.length?result.actions.join(' · '):'None extracted'));two.append(act);
+ }
  box.append(one,two);
 }
 
