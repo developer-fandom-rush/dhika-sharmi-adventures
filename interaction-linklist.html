@@ -113,9 +113,10 @@ function ensembleData(x){
   const role=!present?'OFF-SCENE REFERENCE (not a group meeting)':
              !actual?'REPORTED / HISTORICAL / THOUGHT (not current contact)':
              body.length?'CO-PRESENT + subgroup action annotation':'CO-PRESENT SCENE CONTEXT (no group action established)';
-  const title=role+' · '+b.title;
+  const earlierVacation=b.id==='B064';
+  const title=role+' · '+(earlierVacation?'E55 retrospective: Sharmi gives resort bartender a bikini top as parting gift; Raj discusses marriage':b.title);
   add('ensemble-'+key,ep,{
-   title,reading:'Review original source; '+(b.reading||''),
+   title,reading:(earlierVacation?'Earlier resort vacation disclosed during the four-person Never Have I Ever game. The gift was already given before E55; source does not identify this bartender as the E69 Mexico bartender. No bartender kiss is confirmed in this passage. ':'')+'Review original source; '+(b.reading||''),
    body:body.map(p=>p.owner+' · '+p.part+' · '+p.mode+' · counterpart '+p.counterparts.join(', ')).join('; '),
    line:b.start,end:b.end,frame:role,type:actual?'context':'reference',
    actor:(actual&&members.includes(b.actor))?b.actor:'',recipient:(actual&&members.includes(b.recipient))?b.recipient:'',
