@@ -1,0 +1,345 @@
+{
+  "sourceRepository": "developer-fandom-rush/Midnight-bet",
+  "sourceCommit": "b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9",
+  "sourceIndex": "index.html#cast-view",
+  "importedOn": "2026-10-22",
+  "assignmentStatus": "Reference portraits only; no Four Walls character-photo mapping has been made.",
+  "portraits": [
+    {
+      "name": "Mira",
+      "filename": "MIRA.jpg",
+      "image": "assets/midnight-bet/MIRA.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/MIRA.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/MIRA.jpg",
+      "sha256": "55b9c615682dbe0869b3cdf108f29273e72ea3ae80dd68754ed4629cd576ddc8"
+    },
+    {
+      "name": "Rhea",
+      "filename": "RHEA.jpg",
+      "image": "assets/midnight-bet/RHEA.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/RHEA.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/RHEA.jpg",
+      "sha256": "5be104f6dbb55cafc772bf1c83f3cbb172fa2c2f0d2e40684e9d3e0d494f0862"
+    },
+    {
+      "name": "Naina",
+      "filename": "NAINA.jpg",
+      "image": "assets/midnight-bet/NAINA.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/NAINA.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/NAINA.jpg",
+      "sha256": "2902ab1f7f41a8f1363c98e76b9a1a9c9bfb3c1a7cbf498c41a04994659d98e0"
+    },
+    {
+      "name": "Ananya",
+      "filename": "ANANYA.jpg",
+      "image": "assets/midnight-bet/ANANYA.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/ANANYA.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/ANANYA.jpg",
+      "sha256": "3d8a47860b105a880c92019878d007546726cce6a9090c70cc6c3e44b55f61e5"
+    },
+    {
+      "name": "Shalini",
+      "filename": "SHALINI.jpg",
+      "image": "assets/midnight-bet/SHALINI.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/SHALINI.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/SHALINI.jpg",
+      "sha256": "d0890f4a36ec29e80587e651f4f192122c54da2922a65d2f674d987041d03b5c"
+    },
+    {
+      "name": "Tara",
+      "filename": "TARA.jpg",
+      "image": "assets/midnight-bet/TARA.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/TARA.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/TARA.jpg",
+      "sha256": "f659c8da2c5c5d557309d46613e7792e8013f7d2ce85a6817ddb2b9357633415"
+    },
+    {
+      "name": "Neha",
+      "filename": "NEHA.jpg",
+      "image": "assets/midnight-bet/NEHA.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/NEHA.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/NEHA.jpg",
+      "sha256": "d31f773693248c61c8a5a71b60a0daf703a2ad0b259951e3622f8f7ddad1858f"
+    },
+    {
+      "name": "Sana",
+      "filename": "SANA.jpg",
+      "image": "assets/midnight-bet/SANA.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/SANA.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/SANA.jpg",
+      "sha256": "a82ec22a9039f874b048235174bbbdaa0092954c3f18ef4f87983081a128f0ab"
+    },
+    {
+      "name": "Meera Khana",
+      "filename": "MEERA_KHANA.png",
+      "image": "assets/midnight-bet/MEERA_KHANA.png",
+      "width": 497,
+      "height": 616,
+      "sourcePath": "assets/characters/MEERA_KHANA.png",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/MEERA_KHANA.png",
+      "sha256": "37e5aef5f59124dc9ba455d77670d467933abaa60bcdcffdc35e6cecc4188a1c"
+    }
+  ],
+  "currentCast": [
+    {
+      "id": 0,
+      "name": "Ankita Bansal",
+      "age": 32,
+      "role": "Freelance UX designer",
+      "initials": "AB"
+    },
+    {
+      "id": 1,
+      "name": "Shivani Sinha",
+      "age": 33,
+      "role": "Chartered accountant",
+      "initials": "SS"
+    },
+    {
+      "id": 2,
+      "name": "Shreya Mehta",
+      "age": 31,
+      "role": "Boutique owner / fashion designer",
+      "initials": "SM"
+    },
+    {
+      "id": 3,
+      "name": "Tanya Arora",
+      "age": 34,
+      "role": "Digital marketing consultant",
+      "initials": "TA"
+    },
+    {
+      "id": 4,
+      "name": "Ritvik Bansal",
+      "age": 36,
+      "role": "Engineering incident manager",
+      "initials": "RB"
+    },
+    {
+      "id": 5,
+      "name": "Aditya Sinha",
+      "age": 38,
+      "role": "Banking executive",
+      "initials": "AS"
+    },
+    {
+      "id": 6,
+      "name": "Samar Mehta",
+      "age": 36,
+      "role": "Orthopedic surgeon",
+      "initials": "SM"
+    },
+    {
+      "id": 7,
+      "name": "Dev Arora",
+      "age": 38,
+      "role": "Logistics business owner",
+      "initials": "DA"
+    },
+    {
+      "id": 8,
+      "name": "Mahendra Mehta",
+      "age": 66,
+      "role": "Retired civil engineer",
+      "initials": "MM"
+    },
+    {
+      "id": 9,
+      "name": "Ishaan",
+      "age": 35,
+      "role": "Lighting designer",
+      "initials": "I"
+    },
+    {
+      "id": 10,
+      "name": "Kabir",
+      "age": 34,
+      "role": "Not set",
+      "initials": "K"
+    },
+    {
+      "id": 11,
+      "name": "Rohan",
+      "age": 34,
+      "role": "Event coordinator",
+      "initials": "R"
+    },
+    {
+      "id": 12,
+      "name": "Ayaan",
+      "age": 35,
+      "role": "Photographer",
+      "initials": "A"
+    },
+    {
+      "id": 13,
+      "name": "Harish Sinha",
+      "age": 67,
+      "role": "Retired banking professional",
+      "initials": "HS"
+    },
+    {
+      "id": 14,
+      "name": "Prakash Arora",
+      "age": 65,
+      "role": "Retired school principal",
+      "initials": "PA"
+    },
+    {
+      "id": 15,
+      "name": "Col. Virendra Rathore",
+      "age": 69,
+      "role": "Retired army officer · society resident",
+      "initials": "VR"
+    },
+    {
+      "id": 16,
+      "name": "Nikhil Sethi",
+      "age": 35,
+      "role": "On-site digital guest check-in and event-registration technology vendor",
+      "initials": "NS"
+    },
+    {
+      "id": 17,
+      "name": "Karan Malhotra",
+      "age": 36,
+      "role": "Client Product Manager",
+      "initials": "KM"
+    },
+    {
+      "id": 18,
+      "name": "Aman Joshi",
+      "age": 30,
+      "role": "Front-end software developer",
+      "initials": "AJ"
+    },
+    {
+      "id": 19,
+      "name": "Anika",
+      "age": 32,
+      "role": "Bride-to-be · Shivani's close friend",
+      "initials": "A"
+    },
+    {
+      "id": 20,
+      "name": "Sahil Khurana",
+      "age": 34,
+      "role": "Anika's fiancé",
+      "initials": "SK"
+    },
+    {
+      "id": 21,
+      "name": "Raghav Kapoor",
+      "age": 20,
+      "role": "Adult B.Com intern · Shivani's mentee",
+      "initials": "RK"
+    },
+    {
+      "id": 22,
+      "name": "Rishabh Kapoor",
+      "age": 20,
+      "role": "Adult B.Com intern · Shivani's mentee",
+      "initials": "RK"
+    },
+    {
+      "id": 23,
+      "name": "Aarav Khanna",
+      "age": 20,
+      "role": "Society guitarist · college student",
+      "initials": "AK"
+    },
+    {
+      "id": 24,
+      "name": "Neel Verma",
+      "age": 20,
+      "role": "Society percussionist and audio volunteer · college student",
+      "initials": "NV"
+    },
+    {
+      "id": 25,
+      "name": "Vihaan Arora",
+      "age": 19,
+      "role": "Dev's younger cousin · Tanya's cousin-devar · college marketing student",
+      "initials": "VA"
+    },
+    {
+      "id": 26,
+      "name": "Arjun Mehta",
+      "age": 19,
+      "role": "Samar's younger cousin · Shreya's cousin-devar · college marketing student",
+      "initials": "AM"
+    },
+    {
+      "id": 27,
+      "name": "Dhruv Sinha",
+      "age": 19,
+      "role": "Aditya's younger cousin · Shivani's cousin-devar · college marketing student",
+      "initials": "DS"
+    },
+    {
+      "id": 28,
+      "name": "Laksh Bansal",
+      "age": 19,
+      "role": "Ritvik's younger cousin · Ankita's cousin-devar · college marketing student",
+      "initials": "LB"
+    },
+    {
+      "id": 29,
+      "name": "Ira Arora",
+      "age": 29,
+      "role": "Dev's younger sister · Tanya's nanad",
+      "initials": "IA"
+    }
+  ],
+  "families": [
+    {
+      "label": "Bansal family",
+      "members": [
+        0,
+        4
+      ],
+      "detail": "Rey, 4 · Ankita and Ritvik’s son."
+    },
+    {
+      "label": "Sinha family",
+      "members": [
+        1,
+        5
+      ],
+      "detail": "Shivani and Aditya · no children established in the current profiles."
+    },
+    {
+      "label": "Mehta family",
+      "members": [
+        2,
+        6
+      ],
+      "detail": "Mahi, 5 · their daughter. Mahendra, 66 · Samar’s father."
+    },
+    {
+      "label": "Arora family",
+      "members": [
+        3,
+        7
+      ],
+      "detail": "Tanya and Dev · no children established in the current profiles."
+    }
+  ]
+}
