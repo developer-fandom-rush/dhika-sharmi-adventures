@@ -1,0 +1,3820 @@
+{
+  "schema_version": 1,
+  "kind": "dhika_episode_navigation_index",
+  "source": {
+    "path": "raw/Dhika.txt",
+    "master_line_count": 14046,
+    "source_blob_sha": "590b4dce02db105b1ff150a118d309fcef7778f2",
+    "episode_header_count": 69,
+    "mode": "read_only_master_with_episode_local_lines"
+  },
+  "notes": [
+    "Episode headings establish 69 raw-source spans. E01-E03 existing JSON includes one additional terminal empty string after the final separator, and the index preserves that convention.",
+    "All source lines within each episode are accounted for once. Source segment titles are editorial boundaries and are NOT original author chapters.",
+    "E02 is the only active FWFS planning episode. Every other DHIKA episode is browse-only."
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "episode_id": "E01",
+      "master_start_line": 3,
+      "master_end_line": 230,
+      "master_data_line_count": 228,
+      "line_count": 229,
+      "normalized_terminal_blank": true,
+      "source_reader": "indexed_json",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 29,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 30,
+          "end": 63,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 64,
+          "end": 69,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 70,
+          "end": 106,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 107,
+          "end": 157,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 158,
+          "end": 193,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P07",
+          "start": 194,
+          "end": 229,
+          "title": "Source segment 7",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "episode_id": "E02",
+      "master_start_line": 231,
+      "master_end_line": 389,
+      "master_data_line_count": 159,
+      "line_count": 160,
+      "normalized_terminal_blank": true,
+      "source_reader": "indexed_json",
+      "planning_status": "active_director_planning",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 23,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 24,
+          "end": 53,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 54,
+          "end": 78,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 79,
+          "end": 109,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 110,
+          "end": 135,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 136,
+          "end": 160,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "episode_id": "E03",
+      "master_start_line": 390,
+      "master_end_line": 628,
+      "master_data_line_count": 239,
+      "line_count": 240,
+      "normalized_terminal_blank": true,
+      "source_reader": "indexed_json",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 40,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 41,
+          "end": 80,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 81,
+          "end": 120,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 121,
+          "end": 160,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 161,
+          "end": 200,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 201,
+          "end": 240,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 4,
+      "episode_id": "E04",
+      "master_start_line": 629,
+      "master_end_line": 834,
+      "master_data_line_count": 206,
+      "line_count": 207,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 35,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 36,
+          "end": 69,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 70,
+          "end": 104,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 105,
+          "end": 138,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 139,
+          "end": 173,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 174,
+          "end": 207,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 5,
+      "episode_id": "E05",
+      "master_start_line": 835,
+      "master_end_line": 1066,
+      "master_data_line_count": 232,
+      "line_count": 233,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 39,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 40,
+          "end": 78,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 79,
+          "end": 117,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 118,
+          "end": 155,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 156,
+          "end": 194,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 195,
+          "end": 233,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 6,
+      "episode_id": "E06",
+      "master_start_line": 1067,
+      "master_end_line": 1297,
+      "master_data_line_count": 231,
+      "line_count": 232,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 39,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 40,
+          "end": 77,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 78,
+          "end": 116,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 117,
+          "end": 155,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 156,
+          "end": 193,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 194,
+          "end": 232,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 7,
+      "episode_id": "E07",
+      "master_start_line": 1298,
+      "master_end_line": 1539,
+      "master_data_line_count": 242,
+      "line_count": 243,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 41,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 42,
+          "end": 81,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 82,
+          "end": 122,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 123,
+          "end": 162,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 163,
+          "end": 203,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 204,
+          "end": 243,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 8,
+      "episode_id": "E08",
+      "master_start_line": 1540,
+      "master_end_line": 1757,
+      "master_data_line_count": 218,
+      "line_count": 219,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 37,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 38,
+          "end": 73,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 74,
+          "end": 110,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 111,
+          "end": 146,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 147,
+          "end": 183,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 184,
+          "end": 219,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 9,
+      "episode_id": "E09",
+      "master_start_line": 1758,
+      "master_end_line": 1993,
+      "master_data_line_count": 236,
+      "line_count": 237,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 40,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 41,
+          "end": 79,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 80,
+          "end": 119,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 120,
+          "end": 158,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 159,
+          "end": 198,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 199,
+          "end": 237,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 10,
+      "episode_id": "E10",
+      "master_start_line": 1994,
+      "master_end_line": 2134,
+      "master_data_line_count": 141,
+      "line_count": 142,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 24,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 25,
+          "end": 47,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 48,
+          "end": 71,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 72,
+          "end": 95,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 96,
+          "end": 118,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 119,
+          "end": 142,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 11,
+      "episode_id": "E11",
+      "master_start_line": 2135,
+      "master_end_line": 2298,
+      "master_data_line_count": 164,
+      "line_count": 165,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 28,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 29,
+          "end": 55,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 56,
+          "end": 83,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 84,
+          "end": 110,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 111,
+          "end": 138,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 139,
+          "end": 165,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 12,
+      "episode_id": "E12",
+      "master_start_line": 2299,
+      "master_end_line": 2459,
+      "master_data_line_count": 161,
+      "line_count": 162,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 27,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 28,
+          "end": 54,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 55,
+          "end": 81,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 82,
+          "end": 108,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 109,
+          "end": 135,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 136,
+          "end": 162,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 13,
+      "episode_id": "E13",
+      "master_start_line": 2460,
+      "master_end_line": 2623,
+      "master_data_line_count": 164,
+      "line_count": 165,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 28,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 29,
+          "end": 55,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 56,
+          "end": 83,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 84,
+          "end": 110,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 111,
+          "end": 138,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 139,
+          "end": 165,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 14,
+      "episode_id": "E14",
+      "master_start_line": 2624,
+      "master_end_line": 2770,
+      "master_data_line_count": 147,
+      "line_count": 148,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 25,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 26,
+          "end": 49,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 50,
+          "end": 74,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 75,
+          "end": 99,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 100,
+          "end": 123,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 124,
+          "end": 148,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 15,
+      "episode_id": "E15",
+      "master_start_line": 2771,
+      "master_end_line": 2962,
+      "master_data_line_count": 192,
+      "line_count": 193,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 32,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 33,
+          "end": 64,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 65,
+          "end": 97,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 98,
+          "end": 129,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 130,
+          "end": 161,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 162,
+          "end": 193,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 16,
+      "episode_id": "E16",
+      "master_start_line": 2963,
+      "master_end_line": 3097,
+      "master_data_line_count": 135,
+      "line_count": 136,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 23,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 24,
+          "end": 45,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 46,
+          "end": 68,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 69,
+          "end": 91,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 92,
+          "end": 113,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 114,
+          "end": 136,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 17,
+      "episode_id": "E17",
+      "master_start_line": 3098,
+      "master_end_line": 3262,
+      "master_data_line_count": 165,
+      "line_count": 166,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 28,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 29,
+          "end": 55,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 56,
+          "end": 83,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 84,
+          "end": 111,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 112,
+          "end": 138,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 139,
+          "end": 166,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 18,
+      "episode_id": "E18",
+      "master_start_line": 3263,
+      "master_end_line": 3413,
+      "master_data_line_count": 151,
+      "line_count": 152,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 25,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 26,
+          "end": 51,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 52,
+          "end": 76,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 77,
+          "end": 101,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 102,
+          "end": 127,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 128,
+          "end": 152,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 19,
+      "episode_id": "E19",
+      "master_start_line": 3414,
+      "master_end_line": 3596,
+      "master_data_line_count": 183,
+      "line_count": 184,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 31,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 32,
+          "end": 61,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 62,
+          "end": 92,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 93,
+          "end": 123,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 124,
+          "end": 153,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 154,
+          "end": 184,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 20,
+      "episode_id": "E20",
+      "master_start_line": 3597,
+      "master_end_line": 3739,
+      "master_data_line_count": 143,
+      "line_count": 144,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 24,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 25,
+          "end": 48,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 49,
+          "end": 72,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 73,
+          "end": 96,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 97,
+          "end": 120,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 121,
+          "end": 144,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 21,
+      "episode_id": "E21",
+      "master_start_line": 3740,
+      "master_end_line": 3891,
+      "master_data_line_count": 152,
+      "line_count": 153,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 26,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 27,
+          "end": 51,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 52,
+          "end": 77,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 78,
+          "end": 102,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 103,
+          "end": 128,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 129,
+          "end": 153,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 22,
+      "episode_id": "E22",
+      "master_start_line": 3892,
+      "master_end_line": 4054,
+      "master_data_line_count": 163,
+      "line_count": 164,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 27,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 28,
+          "end": 55,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 56,
+          "end": 82,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 83,
+          "end": 109,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 110,
+          "end": 137,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 138,
+          "end": 164,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 23,
+      "episode_id": "E23",
+      "master_start_line": 4055,
+      "master_end_line": 4246,
+      "master_data_line_count": 192,
+      "line_count": 193,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 32,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 33,
+          "end": 64,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 65,
+          "end": 97,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 98,
+          "end": 129,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 130,
+          "end": 161,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 162,
+          "end": 193,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 24,
+      "episode_id": "E24",
+      "master_start_line": 4247,
+      "master_end_line": 4412,
+      "master_data_line_count": 166,
+      "line_count": 167,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 28,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 29,
+          "end": 56,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 57,
+          "end": 84,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 85,
+          "end": 111,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 112,
+          "end": 139,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 140,
+          "end": 167,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 25,
+      "episode_id": "E25",
+      "master_start_line": 4413,
+      "master_end_line": 4678,
+      "master_data_line_count": 266,
+      "line_count": 267,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 45,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 46,
+          "end": 89,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 90,
+          "end": 134,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 135,
+          "end": 178,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 179,
+          "end": 223,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 224,
+          "end": 267,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 26,
+      "episode_id": "E26",
+      "master_start_line": 4679,
+      "master_end_line": 4886,
+      "master_data_line_count": 208,
+      "line_count": 209,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 35,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 36,
+          "end": 70,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 71,
+          "end": 105,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 106,
+          "end": 139,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 140,
+          "end": 174,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 175,
+          "end": 209,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 27,
+      "episode_id": "E27",
+      "master_start_line": 4887,
+      "master_end_line": 5110,
+      "master_data_line_count": 224,
+      "line_count": 225,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 38,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 39,
+          "end": 75,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 76,
+          "end": 113,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 114,
+          "end": 150,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 151,
+          "end": 188,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 189,
+          "end": 225,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 28,
+      "episode_id": "E28",
+      "master_start_line": 5111,
+      "master_end_line": 5268,
+      "master_data_line_count": 158,
+      "line_count": 159,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 27,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 28,
+          "end": 53,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 54,
+          "end": 80,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 81,
+          "end": 106,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 107,
+          "end": 133,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 134,
+          "end": 159,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 29,
+      "episode_id": "E29",
+      "master_start_line": 5269,
+      "master_end_line": 5436,
+      "master_data_line_count": 168,
+      "line_count": 169,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 28,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 29,
+          "end": 56,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 57,
+          "end": 85,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 86,
+          "end": 113,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 114,
+          "end": 141,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 142,
+          "end": 169,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 30,
+      "episode_id": "E30",
+      "master_start_line": 5437,
+      "master_end_line": 5637,
+      "master_data_line_count": 201,
+      "line_count": 202,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 34,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 35,
+          "end": 67,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 68,
+          "end": 101,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 102,
+          "end": 135,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 136,
+          "end": 168,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 169,
+          "end": 202,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 31,
+      "episode_id": "E31",
+      "master_start_line": 5638,
+      "master_end_line": 5807,
+      "master_data_line_count": 170,
+      "line_count": 171,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 29,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 30,
+          "end": 57,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 58,
+          "end": 86,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 87,
+          "end": 114,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 115,
+          "end": 143,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 144,
+          "end": 171,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 32,
+      "episode_id": "E32",
+      "master_start_line": 5808,
+      "master_end_line": 5978,
+      "master_data_line_count": 171,
+      "line_count": 172,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 29,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 30,
+          "end": 57,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 58,
+          "end": 86,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 87,
+          "end": 115,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 116,
+          "end": 143,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 144,
+          "end": 172,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 33,
+      "episode_id": "E33",
+      "master_start_line": 5979,
+      "master_end_line": 6157,
+      "master_data_line_count": 179,
+      "line_count": 180,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 30,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 31,
+          "end": 60,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 61,
+          "end": 90,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 91,
+          "end": 120,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 121,
+          "end": 150,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 151,
+          "end": 180,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 34,
+      "episode_id": "E34",
+      "master_start_line": 6158,
+      "master_end_line": 6357,
+      "master_data_line_count": 200,
+      "line_count": 201,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 34,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 35,
+          "end": 67,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 68,
+          "end": 101,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 102,
+          "end": 134,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 135,
+          "end": 168,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 169,
+          "end": 201,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 35,
+      "episode_id": "E35",
+      "master_start_line": 6358,
+      "master_end_line": 6579,
+      "master_data_line_count": 222,
+      "line_count": 223,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 37,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 38,
+          "end": 74,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 75,
+          "end": 112,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 113,
+          "end": 149,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 150,
+          "end": 186,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 187,
+          "end": 223,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 36,
+      "episode_id": "E36",
+      "master_start_line": 6580,
+      "master_end_line": 6816,
+      "master_data_line_count": 237,
+      "line_count": 238,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 40,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 41,
+          "end": 79,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 80,
+          "end": 119,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 120,
+          "end": 159,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 160,
+          "end": 198,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 199,
+          "end": 238,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 37,
+      "episode_id": "E37",
+      "master_start_line": 6817,
+      "master_end_line": 7021,
+      "master_data_line_count": 205,
+      "line_count": 206,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 34,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 35,
+          "end": 69,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 70,
+          "end": 103,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 104,
+          "end": 137,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 138,
+          "end": 172,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 173,
+          "end": 206,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 38,
+      "episode_id": "E38",
+      "master_start_line": 7022,
+      "master_end_line": 7274,
+      "master_data_line_count": 253,
+      "line_count": 254,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 42,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 43,
+          "end": 85,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 86,
+          "end": 127,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 128,
+          "end": 169,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 170,
+          "end": 212,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 213,
+          "end": 254,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 39,
+      "episode_id": "E39",
+      "master_start_line": 7275,
+      "master_end_line": 7444,
+      "master_data_line_count": 170,
+      "line_count": 171,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 29,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 30,
+          "end": 57,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 58,
+          "end": 86,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 87,
+          "end": 114,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 115,
+          "end": 143,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 144,
+          "end": 171,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 40,
+      "episode_id": "E40",
+      "master_start_line": 7445,
+      "master_end_line": 7657,
+      "master_data_line_count": 213,
+      "line_count": 214,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 36,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 37,
+          "end": 71,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 72,
+          "end": 107,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 108,
+          "end": 143,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 144,
+          "end": 178,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 179,
+          "end": 214,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 41,
+      "episode_id": "E41",
+      "master_start_line": 7658,
+      "master_end_line": 7953,
+      "master_data_line_count": 296,
+      "line_count": 297,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 50,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 51,
+          "end": 99,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 100,
+          "end": 149,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 150,
+          "end": 198,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 199,
+          "end": 248,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 249,
+          "end": 297,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 42,
+      "episode_id": "E42",
+      "master_start_line": 7954,
+      "master_end_line": 8165,
+      "master_data_line_count": 212,
+      "line_count": 213,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 36,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 37,
+          "end": 71,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 72,
+          "end": 107,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 108,
+          "end": 142,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 143,
+          "end": 178,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 179,
+          "end": 213,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 43,
+      "episode_id": "E43",
+      "master_start_line": 8166,
+      "master_end_line": 8327,
+      "master_data_line_count": 162,
+      "line_count": 163,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 27,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 28,
+          "end": 54,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 55,
+          "end": 82,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 83,
+          "end": 109,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 110,
+          "end": 136,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 137,
+          "end": 163,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 44,
+      "episode_id": "E44",
+      "master_start_line": 8328,
+      "master_end_line": 8529,
+      "master_data_line_count": 202,
+      "line_count": 203,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 34,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 35,
+          "end": 68,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 69,
+          "end": 102,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 103,
+          "end": 135,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 136,
+          "end": 169,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 170,
+          "end": 203,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 45,
+      "episode_id": "E45",
+      "master_start_line": 8530,
+      "master_end_line": 8835,
+      "master_data_line_count": 306,
+      "line_count": 307,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 51,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 52,
+          "end": 102,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 103,
+          "end": 154,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 155,
+          "end": 205,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 206,
+          "end": 256,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 257,
+          "end": 307,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 46,
+      "episode_id": "E46",
+      "master_start_line": 8836,
+      "master_end_line": 8989,
+      "master_data_line_count": 154,
+      "line_count": 155,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 26,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 27,
+          "end": 52,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 53,
+          "end": 78,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 79,
+          "end": 103,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 104,
+          "end": 129,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 130,
+          "end": 155,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 47,
+      "episode_id": "E47",
+      "master_start_line": 8990,
+      "master_end_line": 9229,
+      "master_data_line_count": 240,
+      "line_count": 241,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 40,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 41,
+          "end": 80,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 81,
+          "end": 121,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 122,
+          "end": 161,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 162,
+          "end": 201,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 202,
+          "end": 241,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 48,
+      "episode_id": "E48",
+      "master_start_line": 9230,
+      "master_end_line": 9524,
+      "master_data_line_count": 295,
+      "line_count": 296,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 49,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 50,
+          "end": 99,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 100,
+          "end": 148,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 149,
+          "end": 197,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 198,
+          "end": 247,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 248,
+          "end": 296,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 49,
+      "episode_id": "E49",
+      "master_start_line": 9525,
+      "master_end_line": 9685,
+      "master_data_line_count": 161,
+      "line_count": 162,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 27,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 28,
+          "end": 54,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 55,
+          "end": 81,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 82,
+          "end": 108,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 109,
+          "end": 135,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 136,
+          "end": 162,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 50,
+      "episode_id": "E50",
+      "master_start_line": 9686,
+      "master_end_line": 9879,
+      "master_data_line_count": 194,
+      "line_count": 195,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 33,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 34,
+          "end": 65,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 66,
+          "end": 98,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 99,
+          "end": 130,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 131,
+          "end": 163,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 164,
+          "end": 195,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 51,
+      "episode_id": "E51",
+      "master_start_line": 9880,
+      "master_end_line": 10085,
+      "master_data_line_count": 206,
+      "line_count": 207,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 35,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 36,
+          "end": 69,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 70,
+          "end": 104,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 105,
+          "end": 138,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 139,
+          "end": 173,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 174,
+          "end": 207,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 52,
+      "episode_id": "E52",
+      "master_start_line": 10086,
+      "master_end_line": 10264,
+      "master_data_line_count": 179,
+      "line_count": 180,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 30,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 31,
+          "end": 60,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 61,
+          "end": 90,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 91,
+          "end": 120,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 121,
+          "end": 150,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 151,
+          "end": 180,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 53,
+      "episode_id": "E53",
+      "master_start_line": 10265,
+      "master_end_line": 10468,
+      "master_data_line_count": 204,
+      "line_count": 205,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 34,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 35,
+          "end": 68,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 69,
+          "end": 103,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 104,
+          "end": 137,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 138,
+          "end": 171,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 172,
+          "end": 205,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 54,
+      "episode_id": "E54",
+      "master_start_line": 10469,
+      "master_end_line": 10620,
+      "master_data_line_count": 152,
+      "line_count": 153,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 26,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 27,
+          "end": 51,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 52,
+          "end": 77,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 78,
+          "end": 102,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 103,
+          "end": 128,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 129,
+          "end": 153,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 55,
+      "episode_id": "E55",
+      "master_start_line": 10621,
+      "master_end_line": 10800,
+      "master_data_line_count": 180,
+      "line_count": 181,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 30,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 31,
+          "end": 60,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 61,
+          "end": 91,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 92,
+          "end": 121,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 122,
+          "end": 151,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 152,
+          "end": 181,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 56,
+      "episode_id": "E56",
+      "master_start_line": 10801,
+      "master_end_line": 11022,
+      "master_data_line_count": 222,
+      "line_count": 223,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 37,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 38,
+          "end": 74,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 75,
+          "end": 112,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 113,
+          "end": 149,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 150,
+          "end": 186,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 187,
+          "end": 223,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 57,
+      "episode_id": "E57",
+      "master_start_line": 11023,
+      "master_end_line": 11294,
+      "master_data_line_count": 272,
+      "line_count": 273,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 46,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 47,
+          "end": 91,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 92,
+          "end": 137,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 138,
+          "end": 182,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 183,
+          "end": 228,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 229,
+          "end": 273,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 58,
+      "episode_id": "E58",
+      "master_start_line": 11295,
+      "master_end_line": 11575,
+      "master_data_line_count": 281,
+      "line_count": 282,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 47,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 48,
+          "end": 94,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 95,
+          "end": 141,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 142,
+          "end": 188,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 189,
+          "end": 235,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 236,
+          "end": 282,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 59,
+      "episode_id": "E59",
+      "master_start_line": 11576,
+      "master_end_line": 11806,
+      "master_data_line_count": 231,
+      "line_count": 232,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 39,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 40,
+          "end": 77,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 78,
+          "end": 116,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 117,
+          "end": 155,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 156,
+          "end": 193,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 194,
+          "end": 232,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 60,
+      "episode_id": "E60",
+      "master_start_line": 11807,
+      "master_end_line": 12048,
+      "master_data_line_count": 242,
+      "line_count": 243,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 41,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 42,
+          "end": 81,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 82,
+          "end": 122,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 123,
+          "end": 162,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 163,
+          "end": 203,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 204,
+          "end": 243,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 61,
+      "episode_id": "E61",
+      "master_start_line": 12049,
+      "master_end_line": 12283,
+      "master_data_line_count": 235,
+      "line_count": 236,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 39,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 40,
+          "end": 79,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 80,
+          "end": 118,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 119,
+          "end": 157,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 158,
+          "end": 197,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 198,
+          "end": 236,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 62,
+      "episode_id": "E62",
+      "master_start_line": 12284,
+      "master_end_line": 12566,
+      "master_data_line_count": 283,
+      "line_count": 284,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 47,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 48,
+          "end": 95,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 96,
+          "end": 142,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 143,
+          "end": 189,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 190,
+          "end": 237,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 238,
+          "end": 284,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 63,
+      "episode_id": "E63",
+      "master_start_line": 12567,
+      "master_end_line": 12695,
+      "master_data_line_count": 129,
+      "line_count": 130,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 22,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 23,
+          "end": 43,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 44,
+          "end": 65,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 66,
+          "end": 87,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 88,
+          "end": 108,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 109,
+          "end": 130,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 64,
+      "episode_id": "E64",
+      "master_start_line": 12696,
+      "master_end_line": 12913,
+      "master_data_line_count": 218,
+      "line_count": 219,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 37,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 38,
+          "end": 73,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 74,
+          "end": 110,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 111,
+          "end": 146,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 147,
+          "end": 183,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 184,
+          "end": 219,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 65,
+      "episode_id": "E65",
+      "master_start_line": 12914,
+      "master_end_line": 13104,
+      "master_data_line_count": 191,
+      "line_count": 192,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 32,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 33,
+          "end": 64,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 65,
+          "end": 96,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 97,
+          "end": 128,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 129,
+          "end": 160,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 161,
+          "end": 192,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 66,
+      "episode_id": "E66",
+      "master_start_line": 13105,
+      "master_end_line": 13394,
+      "master_data_line_count": 290,
+      "line_count": 291,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 49,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 50,
+          "end": 97,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 98,
+          "end": 146,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 147,
+          "end": 194,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 195,
+          "end": 243,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 244,
+          "end": 291,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 67,
+      "episode_id": "E67",
+      "master_start_line": 13395,
+      "master_end_line": 13702,
+      "master_data_line_count": 308,
+      "line_count": 309,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 52,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 53,
+          "end": 103,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 104,
+          "end": 155,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 156,
+          "end": 206,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 207,
+          "end": 258,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 259,
+          "end": 309,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 68,
+      "episode_id": "E68",
+      "master_start_line": 13703,
+      "master_end_line": 13912,
+      "master_data_line_count": 210,
+      "line_count": 211,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 35,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 36,
+          "end": 70,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 71,
+          "end": 106,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 107,
+          "end": 141,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 142,
+          "end": 176,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 177,
+          "end": 211,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    },
+    {
+      "episode": 69,
+      "episode_id": "E69",
+      "master_start_line": 13913,
+      "master_end_line": 14046,
+      "master_data_line_count": 134,
+      "line_count": 135,
+      "normalized_terminal_blank": true,
+      "source_reader": "raw_master",
+      "planning_status": "read_only_source",
+      "parts": [
+        {
+          "id": "P01",
+          "start": 1,
+          "end": 23,
+          "title": "Source segment 1",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P02",
+          "start": 24,
+          "end": 45,
+          "title": "Source segment 2",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P03",
+          "start": 46,
+          "end": 68,
+          "title": "Source segment 3",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P04",
+          "start": 69,
+          "end": 90,
+          "title": "Source segment 4",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P05",
+          "start": 91,
+          "end": 113,
+          "title": "Source segment 5",
+          "kind": "editorial_raw_partition"
+        },
+        {
+          "id": "P06",
+          "start": 114,
+          "end": 135,
+          "title": "Source segment 6",
+          "kind": "editorial_raw_partition"
+        }
+      ]
+    }
+  ]
+}
