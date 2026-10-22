@@ -7,7 +7,7 @@
 
 Boutique ki front window par subah ki dhoop ek patli si dhaar banakar gir rahi thi. Assistant ne safed backdrop ko do clamps se seedha kiya aur doosri taraf se steamer ki halki seeti sunai di. Shreya changing-room se nikli toh ek pal ke liye apni hi shop use nayi lagi.
 
-Wine-coloured saree ka pallu usne carefully shoulder par rakha tha. Fitted blouse ka V-shaped neckline aur saree ke side drape ke beech thodi bare waist nazar aati thi. Ye wahi second styling thi jo usne kuch der pehle mirror mein choose ki thi. Woh is collection ko display karne wali designer thi; phir bhi aaj use lag raha tha jaise design ke saath-saath uska apna confidence bhi camera ke saamne test hone wala hai.
+Wine-coloured saree ka pallu usne carefully shoulder par rakha tha. Fitted blouse ke V-shaped neckline se upper cleavage ka lagbhag 3–4 cm hissa dikh raha tha; saree ke side drape se bare side-waist ki patli strip bhi nazar aati thi. Ye styling usne khud select ki thi. Ye wahi second styling thi jo usne kuch der pehle mirror mein choose ki thi. Woh is collection ko display karne wali designer thi; phir bhi aaj use lag raha tha jaise design ke saath-saath uska apna confidence bhi camera ke saamne test hone wala hai.
 
 “Chotu Babu,” usne doorway se pukara, “aaj tumhe delivery ke paise ke alawa ek aur kaam karna padega.”
 
@@ -100,7 +100,7 @@ Chotu ne bundle uthakar dikhaya. “Judge? Main toh delivery lene aaya tha.”
 
 “Promotion mil gaya.”
 
-Rust-red cotton-silk saree mein Tanya usual wedding-prep maroon se alag lag rahi thi. Blouse neatly fitted tha; pallu side mein drape tha. Walk karte waqt pleats ek saaf silhouette banati thin. Chotu ne ek pal us look ko notice kiya, phir respectfully bundle table par rakha.
+Rust-red cotton-silk saree mein Tanya usual wedding-prep maroon se alag lag rahi thi. Blouse ka fit chest ki clothed outline ko define karta tha; side par rakhe pallu aur pleats ke beech navel ke aaspaas stomach ka chhota sa hissa visible tha. Walk karte waqt saree hips aur clothed backside ke around ek saaf silhouette banati thi. Chotu ne ek pal us look ko notice kiya, phir respectfully bundle table par rakha.
 
 Tanya ne uski aankhon ki chhoti si movement pakad li, par turant uspar comment nahi kiya.
 
@@ -211,7 +211,7 @@ Verification page load hone laga. Ankita ne charger socket check kiya toh ek cab
 
 “Wait, ye bhi nikaal doon. Nahi toh Rey phir poora ghar search karega.”
 
-Woh table ke paas jhuki. Kurti ki neckline us posture mein thodi shift hui; Chotu ki nazar ek lamhe ko uthi aur turant phone ki screen par laut gayi. Ankita ko uski khamoshi sunaai di—waise hi jaise Saturday ko hui thi.
+Woh table ke paas jhuki. Jhukne par kurti ka neckline halka sa khula aur upper cleavage ki lagbhag 2–3 cm jhalak Chotu ko dikh gayi. Woh ek lamhe ke liye chup hua, phir turant phone ki screen par nazar lauta li. Ankita ko uski khamoshi sunaai di—waise hi jaise Saturday ko hui thi.
 
 Fin uske haath mein tha, lekin woh ek second ruk gayi.
 
@@ -284,7 +284,7 @@ Use uski taraf khinchav mehsoos hua. Saath hi usne samjha ki friendly teasing ka
 
 Shaam ke saath hi Sinha apartment mein kitchen se tadke ki halki khushboo aa rahi thi. Shivani ne dining table par brochures aur course comparison ki ek sheet rakhi. Chotu saat baje aane wala tha.
 
-Usne cream saree pehni thi. Matching blouse ka back kaafi open tha, do narrow doriyon ke saath. Baal upar bun mein the; uske kandhon aur upper back ka design mirror mein saaf nazar aa raha tha. Front fasteners alag se secure the. Monday ko wardrobe ke saamne khade hokar jo faisla kiya tha, woh aaj outfit ban chuka tha.
+Usne cream saree pehni thi. Matching blouse ka back shoulder blades se mid-back tak khula tha, do narrow decorative doriyon ke saath. Baal upar bun mein the, isliye uski bare back ka design mirror mein saaf nazar aa raha tha; blouse ke main fasteners alag se secure the. Front fasteners alag se secure the. Monday ko wardrobe ke saamne khade hokar jo faisla kiya tha, woh aaj outfit ban chuka tha.
 
 Shivani ne back mirror mein dori ko dekha. Knot uske haath se ठीक से नहीं बन रहा था। Pichhle hafte usi dori ka ek thread nikal aaya tha. Aditya ki warning yaad aayi—*Tailor ko dena.* Usne ek baar socha, kapde badal loon. Phir khud se poochha, *Main itni nervous kyun hoon?*
 
