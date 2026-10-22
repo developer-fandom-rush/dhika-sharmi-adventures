@@ -194,7 +194,7 @@
       "master_data_line_count": 206,
       "line_count": 207,
       "normalized_terminal_blank": true,
-      "source_reader": "raw_master",
+      "source_reader": "indexed_json",
       "planning_status": "read_only_source",
       "parts": [
         {
@@ -249,7 +249,7 @@
       "master_data_line_count": 232,
       "line_count": 233,
       "normalized_terminal_blank": true,
-      "source_reader": "raw_master",
+      "source_reader": "indexed_json",
       "planning_status": "read_only_source",
       "parts": [
         {
@@ -304,7 +304,7 @@
       "master_data_line_count": 231,
       "line_count": 232,
       "normalized_terminal_blank": true,
-      "source_reader": "raw_master",
+      "source_reader": "indexed_json",
       "planning_status": "read_only_source",
       "parts": [
         {
@@ -359,7 +359,7 @@
       "master_data_line_count": 242,
       "line_count": 243,
       "normalized_terminal_blank": true,
-      "source_reader": "raw_master",
+      "source_reader": "indexed_json",
       "planning_status": "read_only_source",
       "parts": [
         {
@@ -414,7 +414,7 @@
       "master_data_line_count": 218,
       "line_count": 219,
       "normalized_terminal_blank": true,
-      "source_reader": "raw_master",
+      "source_reader": "indexed_json",
       "planning_status": "read_only_source",
       "parts": [
         {
@@ -469,7 +469,7 @@
       "master_data_line_count": 236,
       "line_count": 237,
       "normalized_terminal_blank": true,
-      "source_reader": "raw_master",
+      "source_reader": "indexed_json",
       "planning_status": "read_only_source",
       "parts": [
         {
@@ -524,7 +524,7 @@
       "master_data_line_count": 141,
       "line_count": 142,
       "normalized_terminal_blank": true,
-      "source_reader": "raw_master",
+      "source_reader": "indexed_json",
       "planning_status": "read_only_source",
       "parts": [
         {
