@@ -1,0 +1,449 @@
+{
+  "sourceRepository": "developer-fandom-rush/Midnight-bet",
+  "sourceCommit": "b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9",
+  "sourceIndex": "index.html#cast-view",
+  "importedOn": "2026-10-22",
+  "assignmentStatus": "Four female references selected and assigned to the current Four Walls leads. Male portraits and story illustrations are AI-generated.",
+  "portraits": [
+    {
+      "name": "Ankita Bansal",
+      "filename": "MIRA.jpg",
+      "image": "assets/midnight-bet/MIRA.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/MIRA.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/MIRA.jpg",
+      "sha256": "55b9c615682dbe0869b3cdf108f29273e72ea3ae80dd68754ed4629cd576ddc8",
+      "referenceName": "Mira",
+      "characterId": 0
+    },
+    {
+      "name": "Shivani Sinha",
+      "filename": "RHEA.jpg",
+      "image": "assets/midnight-bet/RHEA.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/RHEA.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/RHEA.jpg",
+      "sha256": "5be104f6dbb55cafc772bf1c83f3cbb172fa2c2f0d2e40684e9d3e0d494f0862",
+      "referenceName": "Rhea",
+      "characterId": 1
+    },
+    {
+      "name": "Shreya Mehta",
+      "filename": "NAINA.jpg",
+      "image": "assets/midnight-bet/NAINA.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/NAINA.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/NAINA.jpg",
+      "sha256": "2902ab1f7f41a8f1363c98e76b9a1a9c9bfb3c1a7cbf498c41a04994659d98e0",
+      "referenceName": "Naina",
+      "characterId": 2
+    },
+    {
+      "name": "Tanya Arora",
+      "filename": "ANANYA.jpg",
+      "image": "assets/midnight-bet/ANANYA.jpg",
+      "width": 600,
+      "height": 750,
+      "sourcePath": "assets/characters/ANANYA.jpg",
+      "sourceUrl": "https://github.com/developer-fandom-rush/Midnight-bet/blob/b98b9a7efeb53e6ed3ac174e54723991b6c0e5d9/assets/characters/ANANYA.jpg",
+      "sha256": "3d8a47860b105a880c92019878d007546726cce6a9090c70cc6c3e44b55f61e5",
+      "referenceName": "Ananya",
+      "characterId": 3
+    }
+  ],
+  "currentCast": [
+    {
+      "id": 0,
+      "name": "Ankita Bansal",
+      "age": 32,
+      "role": "Freelance UX designer",
+      "initials": "AB",
+      "portrait": {
+        "image": "assets/midnight-bet/MIRA.jpg",
+        "kind": "reference",
+        "referenceName": "Mira"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Shivani Sinha",
+      "age": 33,
+      "role": "Chartered accountant",
+      "initials": "SS",
+      "portrait": {
+        "image": "assets/midnight-bet/RHEA.jpg",
+        "kind": "reference",
+        "referenceName": "Rhea"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Shreya Mehta",
+      "age": 31,
+      "role": "Boutique owner / fashion designer",
+      "initials": "SM",
+      "portrait": {
+        "image": "assets/midnight-bet/NAINA.jpg",
+        "kind": "reference",
+        "referenceName": "Naina"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Tanya Arora",
+      "age": 34,
+      "role": "Digital marketing consultant",
+      "initials": "TA",
+      "portrait": {
+        "image": "assets/midnight-bet/ANANYA.jpg",
+        "kind": "reference",
+        "referenceName": "Ananya"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Ritvik Bansal",
+      "age": 36,
+      "role": "Engineering incident manager",
+      "initials": "RB",
+      "portrait": {
+        "image": "assets/four-walls/husbands-atlas.webp",
+        "kind": "generated",
+        "slot": 0,
+        "width": 1122,
+        "height": 1402
+      }
+    },
+    {
+      "id": 5,
+      "name": "Aditya Sinha",
+      "age": 38,
+      "role": "Banking executive",
+      "initials": "AS",
+      "portrait": {
+        "image": "assets/four-walls/husbands-atlas.webp",
+        "kind": "generated",
+        "slot": 1,
+        "width": 1122,
+        "height": 1402
+      }
+    },
+    {
+      "id": 6,
+      "name": "Samar Mehta",
+      "age": 36,
+      "role": "Orthopedic surgeon",
+      "initials": "SM",
+      "portrait": {
+        "image": "assets/four-walls/husbands-atlas.webp",
+        "kind": "generated",
+        "slot": 2,
+        "width": 1122,
+        "height": 1402
+      }
+    },
+    {
+      "id": 7,
+      "name": "Dev Arora",
+      "age": 38,
+      "role": "Logistics business owner",
+      "initials": "DA",
+      "portrait": {
+        "image": "assets/four-walls/husbands-atlas.webp",
+        "kind": "generated",
+        "slot": 3,
+        "width": 1122,
+        "height": 1402
+      }
+    },
+    {
+      "id": 8,
+      "name": "Mahendra Mehta",
+      "age": 66,
+      "role": "Retired civil engineer",
+      "initials": "MM",
+      "portrait": {
+        "image": "assets/four-walls/elders-atlas.webp",
+        "kind": "generated",
+        "slot": 0,
+        "width": 1122,
+        "height": 1402
+      }
+    },
+    {
+      "id": 9,
+      "name": "Ishaan",
+      "age": 35,
+      "role": "Lighting designer",
+      "initials": "I"
+    },
+    {
+      "id": 10,
+      "name": "Kabir",
+      "age": 34,
+      "role": "Not set",
+      "initials": "K"
+    },
+    {
+      "id": 11,
+      "name": "Rohan",
+      "age": 34,
+      "role": "Event coordinator",
+      "initials": "R"
+    },
+    {
+      "id": 12,
+      "name": "Ayaan",
+      "age": 35,
+      "role": "Photographer",
+      "initials": "A"
+    },
+    {
+      "id": 13,
+      "name": "Harish Sinha",
+      "age": 67,
+      "role": "Retired banking professional",
+      "initials": "HS",
+      "portrait": {
+        "image": "assets/four-walls/elders-atlas.webp",
+        "kind": "generated",
+        "slot": 1,
+        "width": 1122,
+        "height": 1402
+      }
+    },
+    {
+      "id": 14,
+      "name": "Prakash Arora",
+      "age": 65,
+      "role": "Retired school principal",
+      "initials": "PA",
+      "portrait": {
+        "image": "assets/four-walls/elders-atlas.webp",
+        "kind": "generated",
+        "slot": 2,
+        "width": 1122,
+        "height": 1402
+      }
+    },
+    {
+      "id": 15,
+      "name": "Col. Virendra Rathore",
+      "age": 69,
+      "role": "Retired army officer · society resident",
+      "initials": "VR",
+      "portrait": {
+        "image": "assets/four-walls/elders-atlas.webp",
+        "kind": "generated",
+        "slot": 3,
+        "width": 1122,
+        "height": 1402
+      }
+    },
+    {
+      "id": 16,
+      "name": "Nikhil Sethi",
+      "age": 35,
+      "role": "On-site digital guest check-in and event-registration technology vendor",
+      "initials": "NS"
+    },
+    {
+      "id": 17,
+      "name": "Karan Malhotra",
+      "age": 36,
+      "role": "Client Product Manager",
+      "initials": "KM"
+    },
+    {
+      "id": 18,
+      "name": "Aman Joshi",
+      "age": 30,
+      "role": "Front-end software developer",
+      "initials": "AJ"
+    },
+    {
+      "id": 19,
+      "name": "Anika",
+      "age": 32,
+      "role": "Bride-to-be · Shivani's close friend",
+      "initials": "A"
+    },
+    {
+      "id": 20,
+      "name": "Sahil Khurana",
+      "age": 34,
+      "role": "Anika's fiancé",
+      "initials": "SK"
+    },
+    {
+      "id": 21,
+      "name": "Raghav Kapoor",
+      "age": 20,
+      "role": "Adult B.Com intern · Shivani's mentee",
+      "initials": "RK"
+    },
+    {
+      "id": 22,
+      "name": "Rishabh Kapoor",
+      "age": 20,
+      "role": "Adult B.Com intern · Shivani's mentee",
+      "initials": "RK"
+    },
+    {
+      "id": 23,
+      "name": "Aarav Khanna",
+      "age": 20,
+      "role": "Society guitarist · college student",
+      "initials": "AK"
+    },
+    {
+      "id": 24,
+      "name": "Neel Verma",
+      "age": 20,
+      "role": "Society percussionist and audio volunteer · college student",
+      "initials": "NV"
+    },
+    {
+      "id": 25,
+      "name": "Vihaan Arora",
+      "age": 19,
+      "role": "Dev's younger cousin · Tanya's cousin-devar · college marketing student",
+      "initials": "VA"
+    },
+    {
+      "id": 26,
+      "name": "Arjun Mehta",
+      "age": 19,
+      "role": "Samar's younger cousin · Shreya's cousin-devar · college marketing student",
+      "initials": "AM"
+    },
+    {
+      "id": 27,
+      "name": "Dhruv Sinha",
+      "age": 19,
+      "role": "Aditya's younger cousin · Shivani's cousin-devar · college marketing student",
+      "initials": "DS"
+    },
+    {
+      "id": 28,
+      "name": "Laksh Bansal",
+      "age": 19,
+      "role": "Ritvik's younger cousin · Ankita's cousin-devar · college marketing student",
+      "initials": "LB"
+    },
+    {
+      "id": 29,
+      "name": "Ira Arora",
+      "age": 29,
+      "role": "Dev's younger sister · Tanya's nanad",
+      "initials": "IA"
+    }
+  ],
+  "families": [
+    {
+      "label": "Bansal family",
+      "members": [
+        0,
+        4
+      ],
+      "detail": "Rey, 4 · Ankita and Ritvik’s son."
+    },
+    {
+      "label": "Sinha family",
+      "members": [
+        1,
+        5
+      ],
+      "detail": "Shivani and Aditya · no children established in the current profiles."
+    },
+    {
+      "label": "Mehta family",
+      "members": [
+        2,
+        6
+      ],
+      "detail": "Mahi, 5 · their daughter. Mahendra, 66 · Samar’s father."
+    },
+    {
+      "label": "Arora family",
+      "members": [
+        3,
+        7
+      ],
+      "detail": "Tanya and Dev · no children established in the current profiles."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "prologue",
+      "view": "story-prologue",
+      "title": "Saturday morning, four homes",
+      "image": "assets/four-walls/prologue-morning.webp",
+      "width": 1536,
+      "height": 1024,
+      "cast": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "alt": "Four-panel morning montage: Ankita at her laptop, Shivani reviewing accounts, Shreya checking outfits and Tanya choosing earrings.",
+      "caption": "The Courtyard · Saturday morning. Left to right: Ankita, Shivani, Shreya and Tanya.",
+      "kind": "generated"
+    },
+    {
+      "id": "part1",
+      "view": "story-part1",
+      "title": "Four friends, one wedding entrance",
+      "image": "assets/four-walls/part1-wedding-prep.webp",
+      "width": 1536,
+      "height": 1024,
+      "cast": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "alt": "Ankita studies the entrance plan, Shivani checks a quotation, Shreya adjusts the floral arch and Tanya coordinates by phone at the wedding hall.",
+      "caption": "Episode 01 · Part 1 · Saturday, 12:20 PM. Four friends prepare the wedding entrance.",
+      "kind": "generated"
+    }
+  ],
+  "generatedAssets": [
+    {
+      "image": "assets/four-walls/elders-atlas.webp",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "b26ad70d8718789223c0422dbfa9f3d51f620baa94814c6bf6d8b09c791c17d5",
+      "kind": "AI-generated",
+      "encoding": "WebP, quality 88, full dimensions"
+    },
+    {
+      "image": "assets/four-walls/husbands-atlas.webp",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "ab3799eaf971b5844839c7fc5724623f99b9e828883cb48d5fea8cfd4732f68d",
+      "kind": "AI-generated",
+      "encoding": "WebP, quality 88, full dimensions"
+    },
+    {
+      "image": "assets/four-walls/part1-wedding-prep.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "097dd73a904edfeff0c206619f628a9e018f0222b240eba7a6e5fa9b6f2e2ab0",
+      "kind": "AI-generated",
+      "encoding": "WebP, quality 88, full dimensions"
+    },
+    {
+      "image": "assets/four-walls/prologue-morning.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a16d43d1a061a84785003febbfcf95def63c6899119bb9eab9c2290a4418c7a3",
+      "kind": "AI-generated",
+      "encoding": "WebP, quality 88, full dimensions"
+    }
+  ]
+}

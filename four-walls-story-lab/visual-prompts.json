@@ -1,0 +1,40 @@
+{
+  "generatedOn": "2026-10-22",
+  "generator": "Built-in image generation",
+  "portraits": [
+    {
+      "key": "husbands",
+      "prompt": "Use case: photorealistic-natural. Asset type: Four Walls fictional character portrait atlas for a story website. Create ONE clean 2-by-2 contact sheet of FOUR DISTINCT fictional Indian adult men, exactly equal rectangular quadrants, no margins, no gutters, no text, no watermarks. Overall portrait canvas 4:5; each tile itself 4:5. Each tile has a head-and-upper-torso portrait, front-facing with natural subtle expression, fully visible head with generous headroom, softly blurred same warm gray studio background, realistic skin texture, cinematic editorial photography. TOP LEFT Ritvik Bansal age36: lean, softly angular oval face, short slightly tousled black hair, light stubble, navy casual crew-neck, warm approachable eyes. TOP RIGHT Aditya Sinha age38: square face, neatly side-parted black hair, clean shaven, slim dark rectangular glasses, pale blue formal shirt, reserved calm expression. BOTTOM LEFT Samar Mehta age36: broad oval face, wavy short black hair, tidy full beard, olive collared shirt, kindly confident look. BOTTOM RIGHT Dev Arora age38: rounder sturdy face, cropped black hair, trimmed mustache and short beard, charcoal polo, playful eyes. Keep four identities clearly distinguishable. Ordinary modest professional portraits; no logos. These men are invented, not celebrities.",
+      "transparent_background": false
+    },
+    {
+      "key": "elders",
+      "prompt": "Use case: photorealistic-natural. Asset type: Four Walls fictional senior character portrait atlas for a story website. Create ONE clean 2-by-2 contact sheet of FOUR DISTINCT fictional Indian senior men, exactly equal rectangular quadrants, no margins or gutters and NO TEXT or watermarks. Overall portrait canvas 4:5; each quadrant a 4:5 head-and-upper-torso portrait with full visible head and generous headroom, same softly blurred warm gray studio background, natural skin and age lines, dignified everyday appearance, cinematic editorial photography. TOP LEFT Mahendra Mehta age66 retired civil engineer: silver side-parted hair, thick silver mustache, no beard, rectangular thin metal spectacles, beige linen shirt, genial practical expression. TOP RIGHT Harish Sinha age67 retired banker: receding gray hair, clean-shaven slender long face, rimless glasses, light blue shirt and dark sleeveless sweater, serious reserved expression. BOTTOM LEFT Prakash Arora age65 retired school principal: full salt-and-pepper hair, round thin wire glasses, short neat gray beard, off-white kurta and brown waistcoat, gentle thoughtful expression. BOTTOM RIGHT Colonel Virendra Rathore age69 retired army: upright broad-shouldered man, short neatly cropped white hair, prominent white handlebar mustache, no glasses, olive casual collared shirt without military insignia, commanding but friendly expression. Clearly distinct faces. All fictional, no celebrities. No hats, no logos.",
+      "transparent_background": false
+    }
+  ],
+  "scenes": [
+    {
+      "key": "prologue",
+      "prompt": "Use case: illustration-story. Asset type: cinematic photorealistic story illustration for Four Walls prologue, wide landscape 3:2. Four EQUAL vertical panels separated by thin warm ivory rules, a tasteful editorial montage of Saturday morning in four separate contemporary Noida apartments, exactly ONE adult woman per panel, four total. Input references define faces: image1=Mira reference playing Ankita age32 in panel1; image2=Rhea reference playing Shivani age33 in panel2; image3=Naina reference playing Shreya age31 in panel3; image4=Ananya reference playing Tanya age34 in panel4. Preserve each woman's distinct recognizable facial identity, eyes, hair and skin tone; no blending or substitution, no duplicates. Scene LEFT TO RIGHT: Ankita in modest dusty rose short-sleeve blouse seated at dining table reviewing design work on laptop beside coffee, smiling down at a phone; Shivani in modest burgundy blouse at breakfast table reviewing accounts on her laptop and papers with composed expression; Shreya in modest teal kurta standing beside a clothing rail checking three garment covers in her living room, confident lively expression; Tanya in modest navy kurta choosing small earrings at a mirror, thoughtful playful expression, show her face in three-quarter view without a confusing reflected duplicate. Warm natural morning window light, lived-in apartment details, editorial lifestyle photography, human natural hands, faces large enough to recognize. All fully clothed ordinary everyday scenes. No men, no children, no romance, no intimate or suggestive posing. No titles, no text, no logos, no watermark.",
+      "referenced_image_paths": [
+        "assets/midnight-bet/MIRA.jpg",
+        "assets/midnight-bet/RHEA.jpg",
+        "assets/midnight-bet/NAINA.jpg",
+        "assets/midnight-bet/ANANYA.jpg"
+      ],
+      "transparent_background": false
+    },
+    {
+      "key": "part1",
+      "prompt": "Use case: illustration-story. Asset type: cinematic photorealistic wide landscape 3:2 story illustration for Four Walls Episode01 Part1. Contemporary apartment society community wedding hall in Noida, Saturday midday, preparations for a wedding the next day. EXACTLY FOUR adult Indian women working together at a marigold and white jasmine floral entrance arch, friendly busy candid scene, all four faces visible in medium-wide framing. Use each input solely as facial identity reference, preserve distinct recognizable faces, no blending, no duplicates: image1 is Ankita age32, image2 is Shivani age33, image3 is Shreya age31, image4 is Tanya age34. Left to right: Ankita wearing modest dusty rose kurta points at entrance floor plan on a tablet; Shivani in modest burgundy kurta holds clipboard with quotation papers and studies layout; Shreya in modest teal kurta gestures towards flowers to direct arch adjustment, animated and smiling; Tanya in modest navy kurta holds smartphone to coordinate volunteers, sharing a light joke. Four women at one common task, natural hands, no staged glamour pose. Arch offset to side, clearly visible broad walkway and safely bundled cable at wall, distant empty chairs and ladders, soft warm daylight, premium cinematic still with natural skin texture and realistic Indian community hall. Match original friendly practical public scene. No men, no children, no romantic interaction, no intimate posing, no sexual content. No legible text or signage, no titles, no logos, no watermark.",
+      "referenced_image_paths": [
+        "assets/midnight-bet/MIRA.jpg",
+        "assets/midnight-bet/RHEA.jpg",
+        "assets/midnight-bet/NAINA.jpg",
+        "assets/midnight-bet/ANANYA.jpg"
+      ],
+      "transparent_background": false
+    }
+  ]
+}
