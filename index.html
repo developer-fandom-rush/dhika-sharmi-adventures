@@ -16,43 +16,47 @@
 .e01-upgrade{border:1px solid #806c50;border-radius:17px;background:linear-gradient(125deg,#26374e,#142237);padding:27px;margin:24px 0}.e01-upgrade-title{font-weight:800;font-size:11px;letter-spacing:.14em;color:#f3ce90}.e01-upgrade h2{font-size:22px;margin:9px 0}.e01-hub-actions{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.e01-hub-actions button,.e01-after button{border:1px solid #a68864;background:#31465d;color:#f6e8cf;padding:10px 14px;border-radius:9px;cursor:pointer}.e01-hub-actions a{padding:10px}.e01-hub-note{font-size:13px;color:#d4dfee;margin:0}.e01-toc{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:23px 0}.e01-toc button{cursor:pointer;padding:12px;background:#1b3046;border:1px solid #516882;border-radius:9px;color:#e7edf4;text-align:left;font-size:12px}.e01-toc span{font-weight:800;color:#efc88a;margin-right:8px}.e01-chapter{max-width:880px;scroll-margin-top:16px}.e01-chapter p{line-height:1.9;margin:0 0 18px}.e01-event{border-left:3px solid #e1b878;border-radius:0 10px 10px 0;padding:15px 19px;margin:24px 0;background:#2c3747;color:#ffe7be}.e01-chapter-divider{margin:24px 0;background:#364d66;height:2px}.e01-after{margin:25px 0;display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap}@media(max-width:700px){.e01-toc{grid-template-columns:repeat(2,minmax(0,1fr))}.e01-upgrade{padding:17px}}
 
 .e02-main-card{border:1px solid #6d6f78;background:linear-gradient(125deg,#29394f,#162335);padding:26px;border-radius:17px;margin:24px 0}.e02-main-card h2{font-size:clamp(21px,2.8vw,31px)}.e02-main-card p{max-width:760px}.e02-links{display:flex;gap:12px;flex-wrap:wrap;margin:17px 0}.e02-links button,.e02-route button,.e02-qa button{border:1px solid #91795b;border-radius:9px;padding:10px 14px;background:#314860;color:#fce5c4;cursor:pointer}.e02-parts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:17px 0 29px}.e02-parts button{padding:17px;border:1px solid #4e6681;border-radius:13px;background:#1a2c43;color:#eaf0f7;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:9px;min-height:145px}.e02-parts button:hover{background:#283c55;border-color:#d9af7a}.e02-parts small,.e02-parts span{color:#b2c5d8;font-size:12px}.e02-parts strong{font-size:15px}.e02-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0}.e02-flow>div{border:1px solid #4a5c72;border-radius:9px;padding:12px;background:#182c44;display:flex;flex-direction:column;gap:6px}.e02-flow .n{color:#ebc78b;font-weight:800;font-size:11px}.e02-flow small{font-size:12px;color:#b2c6da}.e02-note{border-left:3px solid #bc9b68;background:#202f42;padding:14px 18px;margin:20px 0;border-radius:5px}.e02-prompt-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0 24px}.e02-register{border:1px solid #4d647a;border-radius:10px;overflow:hidden;margin-bottom:20px}.e02-register>div{display:grid;grid-template-columns:92px minmax(0,1fr) 85px;gap:8px;padding:11px 15px;align-items:center;border-bottom:1px solid #31475c}.e02-register>div:last-child{border-bottom:0}.e02-register code{color:#edc78b;font-size:11px}.e02-register span{font-size:11px;color:#b5c4d6;text-align:right}.e02-route{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.e02-qa{margin:25px 0;padding:16px 20px;border:1px solid #58687a;border-radius:12px;background:#202c3c}.e02-qa .paper{margin:0}.e02-review ul{padding-left:22px}.e02-review li{margin-bottom:9px}@media(max-width:700px){.e02-parts,.e02-prompt-grid{grid-template-columns:1fr}.e02-flow{grid-template-columns:repeat(2,minmax(0,1fr))}.e02-main-card{padding:18px}.e02-register>div{grid-template-columns:78px minmax(0,1fr) 70px}}
+
+.nav-cluster{border:1px solid #354960;border-radius:11px;margin:12px 0;padding:3px 9px 9px;background:#122036}
+.nav-cluster>summary{cursor:pointer;padding:11px 5px;font-weight:750;color:#f0dcc0;list-style:none}
+.nav-cluster>summary::-webkit-details-marker{display:none}
+.nav-cluster>summary:after{content:"▾";float:right;color:#afbfcd}
+.nav-cluster:not([open])>summary:after{content:"▸"}
+.nav-picker-label{display:block;font-size:.78rem;color:#afbfcb;margin:3px 4px 5px}
+.nav-episode-picker{display:block;width:100%;border:1px solid #586d82;border-radius:8px;background:#0e192a;color:#f6f7fb;padding:10px 8px;font:inherit;margin-bottom:11px}
+.nav-part-menu{display:grid;gap:5px;min-width:0}
+.nav-part-menu .side-button{display:block;width:100%;text-align:left;white-space:normal;overflow-wrap:anywhere;padding:9px}
+.nav-small-note{font-size:.75rem;color:#abbccd;margin:9px 4px 0}
+.dhika-source-reader .reader-meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.dhika-source-reader .reader-status{padding:6px 10px;background:#24374a;border-radius:6px;color:#d8e6ef;font-size:.82rem}
+.dhika-source-reader .reader-rows{max-height:72vh;overflow-y:auto;border:1px solid #41566d;border-radius:10px;padding:10px;background:#142239}
+.dhika-source-reader .rawline{display:grid;grid-template-columns:80px minmax(0,1fr);gap:14px;border-bottom:1px solid #243750;padding:7px 4px}
+.dhika-source-reader .rawlabel{color:#e9c992;white-space:nowrap;font:0.76rem ui-monospace,monospace}
+.dhika-source-reader .rawtxt{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.6}
+@media(max-width:700px){.dhika-source-reader .rawline{grid-template-columns:65px minmax(0,1fr);gap:8px}.dhika-source-reader .rawlabel{font-size:.67rem}}
+
 </style></head><body><div class="app">
-<aside class="sidebar"><div class="brand"><div class="logotype">FOUR WALLS<em> / </em>STORY LAB</div><p>One section. One episode. One review part.</p></div>
-<div class="group-label">Original source · DHIKA</div>
-<button class="side-button primary" data-go="dhika-1">📚 &nbsp; Episode 01 — Review</button>
-<div class="part-group"><button class="side-button active" data-go="dhika-1"><span class="num">01</span> Part 1 <span class="arrow">›</span></button><button class="side-button " data-go="dhika-2"><span class="num">02</span> Part 2 <span class="arrow">›</span></button><button class="side-button " data-go="dhika-3"><span class="num">03</span> Part 3 <span class="arrow">›</span></button><button class="side-button " data-go="dhika-4"><span class="num">04</span> Part 4 <span class="arrow">›</span></button><button class="side-button " data-go="dhika-5"><span class="num">05</span> Part 5 <span class="arrow">›</span></button><button class="side-button " data-go="dhika-6"><span class="num">06</span> Part 6 <span class="arrow">›</span></button><button class="side-button " data-go="dhika-7"><span class="num">07</span> Part 7 <span class="arrow">›</span></button></div>
-<div class="group-label">Episode 02 · New Planning Lab</div>
-<button class="side-button primary" data-go="story-e02-hub">🧭 &nbsp; E02 — New Workspace</button>
-<div class="part-group"><button class="side-button" data-go="story-e02-p01"><span class="num">01</span> Source L1–23</button>
-<button class="side-button" data-go="story-e02-p02"><span class="num">02</span> Source L24–53</button>
-<button class="side-button" data-go="story-e02-p03"><span class="num">03</span> Source L54–78</button>
-<button class="side-button" data-go="story-e02-p04"><span class="num">04</span> Source L79–109</button>
-<button class="side-button" data-go="story-e02-p05"><span class="num">05</span> Source L110–135</button>
-<button class="side-button" data-go="story-e02-p06"><span class="num">06</span> Source L136–160</button></div>
-<div class="group-label">New story · Four Walls</div>
-<button class="side-button" data-go="story-prologue">📖 &nbsp; Episode 00 — Prologue</button>
-<button class="side-button" data-go="story-part1">✍ &nbsp; Episode 01 — Part 1 Review</button>
-<button class="side-button" data-go="story-part2-ankita">✍ &nbsp; Part 2 — Ankita</button>
-<button class="side-button" data-go="story-part2-shivani">✍ &nbsp; Part 2 — Shivani</button>
-<button class="side-button" data-go="story-part2-shreya">🎵 &nbsp; Part 2 — Shreya</button>
-<button class="side-button" data-go="story-part2-tanya">🎭 &nbsp; Part 2 — Tanya</button>
-<button class="side-button" data-go="story-part3-elders">🔒 &nbsp; Part 3 — Elder Secrets</button>
-<button class="side-button" data-go="story-part4-ankita">📋 &nbsp; Part 4 — Ankita Locked Plan</button>
-<button class="side-button" data-go="story-part4-shivani">📋 &nbsp; Part 4 — Shivani Plan</button>
-<button class="side-button" data-go="story-part4-tanya">🎭 &nbsp; Part 4 — Tanya Storeroom</button>
-<button class="side-button" data-go="story-part4-shreya">🎵 &nbsp; Part 4 — Shreya Music</button>
-<button class="side-button" data-go="story-part5-chotu">📖 &nbsp; Part 5 — Chotu (Full Draft)</button>
-<button class="side-button" data-go="story-part5-continuation">📖 &nbsp; Part 5 — Chotu Follow-Ups</button>
-<button class="side-button" data-go="story-part6-four-decisions">✍ &nbsp; Part 6 — Chaar Faisle (Full Draft)</button>
-<button class="side-button" data-go="story-part7-director-cut">📖 &nbsp; Part 7 — Latest Full Draft</button>
-<button class="side-button" data-go="story-part7-four-encounters">📄 &nbsp; Part 7 — Earlier Alternate</button>
-<button class="side-button primary" data-go="story-e01-review">✅ &nbsp; Episode 01 — Completion &amp; QA</button>
-<button class="side-button" data-go="story-attraction-index">✦ &nbsp; E01 Attraction Highlights</button>
-<button class="side-button" data-go="story-characters">👥 &nbsp; Character Profiles</button>
-<button class="side-button" data-go="story-scenes">📝 &nbsp; Approved Scenes</button>
-<button class="side-button" data-go="story-continuity">📍 &nbsp; Continuity</button>
-<a class="minor-link" href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/episodes/e01.json" target="_blank" rel="noopener">Original E01 source evidence ↗</a>
-<p class="mobile-legend">Choose exactly one page above.</p>
+
+<aside class="sidebar">
+<div class="brand"><div class="logotype">FOUR WALLS<em> / </em>STORY LAB</div><p>Series → Episode → Part</p></div>
+<details class="nav-cluster" open id="dhika-cluster"><summary>📚 DHIKA — Original Source</summary>
+<label for="dhika-episode-picker" class="nav-picker-label">Episode</label>
+<select id="dhika-episode-picker" class="nav-episode-picker" aria-label="Choose original DHIKA episode"><option value="2">Episode 02</option></select>
+<div class="nav-part-menu" id="dhika-part-nav">Loading source index…</div>
+<p class="nav-small-note">DHIKA original, read-only. E02 is active for director planning.</p></details>
+<details class="nav-cluster" id="fwfs-cluster"><summary>✍ FOUR WALLS — New Story</summary>
+<label for="fwfs-episode-picker" class="nav-picker-label">Episode</label>
+<select id="fwfs-episode-picker" class="nav-episode-picker" aria-label="Choose Four Walls story episode"><option value="00">Episode 00 — Prologue</option><option value="01">Episode 01 — Draft</option><option value="02" selected>Episode 02 — Planning</option></select>
+<div class="nav-part-menu" id="fwfs-part-nav"></div></details>
+<details class="nav-cluster" id="profiles-cluster"><summary>👥 Characters & Story Tools</summary>
+<div class="nav-part-menu">
+<button class="side-button" data-go="story-characters">Profiles and relationships</button>
+<button class="side-button" data-go="story-scenes">Approved scenes</button>
+<button class="side-button" data-go="story-continuity">Continuity</button>
+<button class="side-button" data-go="story-e01-review">Episode 01 QA</button>
+<button class="side-button" data-go="story-attraction-index">E01 editorial index</button>
+</div></details>
+<p class="mobile-legend">Only the selected episode's parts are displayed.</p>
 </aside>
 <div class="workspace"><div class="toolbar"><span id="breadcrumb" class="crumb">DHIKA / Episode 01 / Part 1</span><span class="tag" id="status">SOURCE VERIFIED</span></div>
 <main class="main">
@@ -1673,6 +1677,16 @@
 <section class="view" data-view="story-scenes" hidden><div class="kicker">FOUR WALLS / APPROVED EPISODE 01</div><h1>Approved Scenes</h1><div class="empty"><div class="symbol">✍</div><h2>Nothing approved for publication yet</h2><p>We will discuss original Episode 01 ideas <b>in chat first</b>. Only after you approve a scene plan or return an accepted Grok draft will the scene appear here.</p><span class="tag">WAITING FOR DIRECTOR DECISIONS</span></div></section>
 <section class="view" data-view="story-continuity" hidden><div class="kicker">FOUR WALLS / CONTINUITY</div><h1>What is established vs still open</h1><div class="paper"><h2>Established working baseline</h2><p>Four college friends in Noida's The Courtyard. Four existing marriages, two households with young children, professionals with active everyday responsibilities, and wedding preparations around Anika's celebration.</p><h3>Working identity changes</h3><p>Ankita (formerly Aarohi); Shivani (formerly Mira); Shreya (formerly Kiara); Tanya (formerly Zoya). Other names and relationships are temporarily unchanged.</p><h3>Working roster: Part 2 planning</h3><p><b>Nikhil Sethi (35)</b>, event-tech vendor for digital check-in, is reserved as a proposed supporting adult. Suggested first professional interaction: Ankita helps diagnose a guest-registration UX problem during Saturday&#39;s hall preparation. Neither attraction nor a new scene is yet finalized.</p><h3>Episode 01 · Part 2 proposed chronology and stopping point</h3><p><b>1 PM:</b> digital guest check-in issue with Nikhil Sethi (35) at The Courtyard. <b>About 1:15 PM:</b> Ankita-Shreya coffee, friendly teasing and contrast. <b>2 PM:</b> online design-review call with Karan Malhotra (36, Product Manager) and Aman Joshi (30, developer). <b>About 2:45 PM:</b> brief scene with husband Ritvik. <b>At about 3 PM:</b> Ankita leaves for the next in-person professional review. <b>END PART 2 AT DEPARTURE.</b> Do not write the 3 PM meeting, its dialogue, arrival or outcomes until the next part. All of these beats are a discussion plan, not drafted prose or final canon.</p><h3>Not yet established</h3><p>E01 Part 1 is a review draft with four specified elder preferences, not final canon. No reciprocation, private relationship, offscreen encounter or future milestone is established. The three fathers-in-law have no present attraction toward their own daughters-in-law.</p><h3>Documents and original archive</h3><p><a href="https://docs.google.com/document/d/1gP17JcSui9_2ZzdDKJVbXvf6e_Bd1Yq_rzehyitIpDU/edit">Existing Director document ↗</a></p><p><a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/tree/archive/dhika-original-2026">DHIKA archive branch ↗</a></p></div></section>
 <p class="foot">Independent original source is preserved; DHIKA references are descriptive analyses, not reproduced source text. Proposed ideas stay in conversation until approved.</p>
+
+<section class="view dhika-source-reader" data-view="dhika-browser" hidden>
+<div class="kicker">DHIKA / ORIGINAL SOURCE / READ-ONLY EPISODE BROWSER</div>
+<h1 id="dhika-reader-title">Original source episode reader</h1>
+<p class="sub" id="dhika-reader-sub">Select a part from the left navigation.</p>
+<div class="reader-meta"><span class="reader-status" id="dhika-reader-coverage">Line coverage</span><span class="reader-status">FWFS planning remains Episode 02</span></div>
+<p class="warn-lite">Editorial part boundaries are not the author's chapters. Source text is displayed exactly, including blank lines.</p>
+<div class="reader-rows" id="dhika-reader-raw">Select a source part from the left.</div>
+<div class="sourcefoot"><a target="_blank" rel="noopener" href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt">Read-only raw source ↗</a></div>
+</section>
 </main></div></div><script>
 (function(){
 function navigate(key){var pages=document.querySelectorAll("[data-view]");var active=false;pages.forEach(function(page){var same=page.getAttribute("data-view")===key;page.hidden=!same;if(same)active=true;});if(!active)return;
