@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "kind": "fwfs_e02_source_review_and_planning_workspace",
+  "current_status": "OPEN_FOR_SOURCE_REVIEW_NO_FICTION_PLANNED_OR_APPROVED",
+  "read_only_original": {
+    "repository": "developer-fandom-rush/dhika-sharmi-adventures",
+    "path": "data/episodes/e02.json",
+    "episode_id": "E02",
+    "line_count": 160,
+    "indexed_events": 28,
+    "editorial_partition_is_not_author_chapters": true
+  },
+  "episode1_bridge": {
+    "review_required": true,
+    "previous_story_draft_ends": "Tuesday late night E01 Part 7",
+    "audit_path": "data/analysis/fwfs_e01_completion_and_continuity_audit.md",
+    "caveats": [
+      "E01 Part 3 unapproved review prose",
+      "E01 Part 4 four director briefs without full prose",
+      "E01 Part 6 intercut relative-day mismatch awaiting approval",
+      "Two alternate E01 Part 7 drafts; never merge or replace silently"
+    ]
+  },
+  "workflow": [
+    "1 Read original E02 in six contiguous source-backed blocks",
+    "2 Create scene action ledger with doer, observer, observable action label, response, aftermath, highest boundary attained and evidence line range",
+    "3 Director proposes two or three non-graphic FWFS alternatives per beat; user chooses, rejects or changes",
+    "4 Freeze approved decision and Grok step-by-step handoff; no GPT-generated fictional scene prose",
+    "5 Grok authors separately, preserve author/version and run independent E01 consistency checks",
+    "6 Mark FWFS E02 scenes as drafted and approved only after explicit reader acceptance"
+  ],
+  "parts": [
+    {
+      "id": "01",
+      "start": 1,
+      "end": 23,
+      "title": "Return, marriage and private carry-over",
+      "when": "Saturday evening → Sunday morning",
+      "status": "SOURCE INDEXED · PLANNING NOT STARTED",
+      "mechanics": [
+        "Domestic return",
+        "Private memory",
+        "Marital knowledge asymmetry"
+      ],
+      "reviewQuestions": [
+        "Who remembers Episode 01, and who does not know it?",
+        "What has actually changed versus what the POV merely thinks?"
+      ],
+      "fwfsAdaptation": [
+        "Four domestic life checkpoints, not identical husband scenes",
+        "Carry four distinct E01 feelings without falsely implying partners know them"
+      ],
+      "maxBoundary": "Private recognition of emotional change; no new relationship declaration",
+      "sourceEvidence": [
+        "E02-B002",
+        "E02-B003",
+        "E02-B004",
+        "E02-B005"
+      ],
+      "event_index": [
+        {
+          "id": "E02-B001",
+          "from": 1,
+          "to": 4,
+          "source_index_label": "episode_heading"
+        },
+        {
+          "id": "E02-B002",
+          "from": 5,
+          "to": 8,
+          "source_index_label": "john_return_guilt_concealment"
+        },
+        {
+          "id": "E02-B003",
+          "from": 9,
+          "to": 13,
+          "source_index_label": "john_family_reunion"
+        },
+        {
+          "id": "E02-B004",
+          "from": 14,
+          "to": 20,
+          "source_index_label": "dhika_john_marital_backstory"
+        },
+        {
+          "id": "E02-B005",
+          "from": 21,
+          "to": 23,
+          "source_index_label": "sunday_morning_and_chotu_recall"
+        }
+      ],
+      "approval": "not_requested",
+      "grok_handoff": "not_created",
+      "fwfs_story_prose": "not_written"
+    },
+    {
+      "id": "02",
+      "start": 24,
+      "end": 53,
+      "title": "Invitation, clothing choice and neighbour gathering",
+      "when": "Sunday daytime",
+      "status": "SOURCE INDEXED · PLANNING NOT STARTED",
+      "mechanics": [
+        "Practical social invitation",
+        "Wardrobe choice",
+        "Multiple observer perspectives"
+      ],
+      "reviewQuestions": [
+        "Who chooses the clothing, who comments, and who knows the motive?",
+        "What is public dialogue versus the narrator's private information?"
+      ],
+      "fwfsAdaptation": [
+        "Choose one socially grounded gathering relevant to existing FWFS cast",
+        "Give each person separate observable behaviour and knowledge"
+      ],
+      "maxBoundary": "Noticeable attention and social awkwardness; preserve each person's boundaries",
+      "sourceEvidence": [
+        "E02-B006",
+        "E02-B007",
+        "E02-B008",
+        "E02-B009"
+      ],
+      "event_index": [
+        {
+          "id": "E02-B006",
+          "from": 24,
+          "to": 32,
+          "source_index_label": "aunty_lunch_invitation_john_knowledge"
+        },
+        {
+          "id": "E02-B007",
+          "from": 33,
+          "to": 44,
+          "source_index_label": "clothing_change_motivations"
+        },
+        {
+          "id": "E02-B008",
+          "from": 45,
+          "to": 51,
+          "source_index_label": "neighbor_visit_and_reactions"
+        },
+        {
+          "id": "E02-B009",
+          "from": 52,
+          "to": 53,
+          "source_index_label": "lunch_and_milk_pretext"
+        }
+      ],
+      "approval": "not_requested",
+      "grok_handoff": "not_created",
+      "fwfs_story_prose": "not_written"
+    },
+    {
+      "id": "03",
+      "start": 54,
+      "end": 78,
+      "title": "Discovery, concealed truth and household consequences",
+      "when": "Sunday afternoon → night",
+      "status": "SOURCE INDEXED · PLANNING NOT STARTED",
+      "mechanics": [
+        "Concealed violation",
+        "Discovery",
+        "Rationalisation",
+        "Consequence in established relationships"
+      ],
+      "reviewQuestions": [
+        "What is proven by source, and what is rationalisation by Dhika?",
+        "What evidence can FWFS characters discover without making Chotu the culprit?",
+        "Who knows and who does not know?"
+      ],
+      "fwfsAdaptation": [
+        "Refer to E01 older-men garment mysteries without reenacting their acts",
+        "Offer a choice: notice, question, document evidence, or defer; do not pre-decide forgiveness"
+      ],
+      "maxBoundary": "A private discovery and boundary decision, not an automatic endorsement of wrongdoing",
+      "sourceEvidence": [
+        "E02-B010",
+        "E02-B011",
+        "E02-B012",
+        "E02-B013",
+        "E02-B014",
+        "E02-B015",
+        "E02-B016"
+      ],
+      "event_index": [
+        {
+          "id": "E02-B010",
+          "from": 54,
+          "to": 55,
+          "source_index_label": "uncle_private_boundary_repeated"
+        },
+        {
+          "id": "E02-B011",
+          "from": 56,
+          "to": 60,
+          "source_index_label": "dhika_unexpected_discovery"
+        },
+        {
+          "id": "E02-B012",
+          "from": 61,
+          "to": 63,
+          "source_index_label": "dhika_mixed_initial_reaction"
+        },
+        {
+          "id": "E02-B013",
+          "from": 64,
+          "to": 66,
+          "source_index_label": "dhika_conceals_discovery"
+        },
+        {
+          "id": "E02-B014",
+          "from": 67,
+          "to": 70,
+          "source_index_label": "rationalization_and_boundary_decision"
+        },
+        {
+          "id": "E02-B015",
+          "from": 71,
+          "to": 73,
+          "source_index_label": "silence_and_john_notices"
+        },
+        {
+          "id": "E02-B016",
+          "from": 74,
+          "to": 78,
+          "source_index_label": "marital_initiative_and_cut"
+        }
+      ],
+      "approval": "not_requested",
+      "grok_handoff": "not_created",
+      "fwfs_story_prose": "not_written"
+    },
+    {
+      "id": "04",
+      "start": 79,
+      "end": 109,
+      "title": "Return of familiar students and a new commitment",
+      "when": "Monday at work",
+      "status": "SOURCE INDEXED · PLANNING NOT STARTED",
+      "mechanics": [
+        "Old compliment habit",
+        "Callback to past awkward event",
+        "Plausible new request",
+        "Commitment with a schedule"
+      ],
+      "reviewQuestions": [
+        "How do the two students differ in speaking and intention?",
+        "What legitimate task creates the next meeting?"
+      ],
+      "fwfsAdaptation": [
+        "Reconnect the pre-existing pairs Karan/Aman, Raghav/Rishabh, Aarav/Neel, Vihaan/Arjun/Dhruv/Laksh only where continuity supports it",
+        "Create one new practical obligation without inventing prior consent or off-page actions"
+      ],
+      "maxBoundary": "Agreed future interaction / new routine; no off-page escalation assumed",
+      "sourceEvidence": [
+        "E02-B017",
+        "E02-B018",
+        "E02-B019",
+        "E02-B020"
+      ],
+      "event_index": [
+        {
+          "id": "E02-B017",
+          "from": 79,
+          "to": 84,
+          "source_index_label": "monday_bantu_compliment"
+        },
+        {
+          "id": "E02-B018",
+          "from": 85,
+          "to": 88,
+          "source_index_label": "bobby_previous_ride_recall"
+        },
+        {
+          "id": "E02-B019",
+          "from": 89,
+          "to": 98,
+          "source_index_label": "twins_tuition_pretext"
+        },
+        {
+          "id": "E02-B020",
+          "from": 99,
+          "to": 109,
+          "source_index_label": "tutoring_agreement_john_consult"
+        }
+      ],
+      "approval": "not_requested",
+      "grok_handoff": "not_created",
+      "fwfs_story_prose": "not_written"
+    },
+    {
+      "id": "05",
+      "start": 110,
+      "end": 135,
+      "title": "Errand, home entry, unexpected incident and exit",
+      "when": "Monday after work",
+      "status": "SOURCE INDEXED · PLANNING NOT STARTED",
+      "mechanics": [
+        "Ordinary errand",
+        "Character absence",
+        "Object-handling accident",
+        "Separate reactions",
+        "Immediate exit"
+      ],
+      "reviewQuestions": [
+        "Was the incident accidental or planned according to the source?",
+        "What can each witness actually see and know?",
+        "Does an established E01 outfit or day/time get contradicted?"
+      ],
+      "fwfsAdaptation": [
+        "Use one genuinely different incident per selected character instead of four copies",
+        "Name doer, observer, action, response, exit in a non-graphic action ledger"
+      ],
+      "maxBoundary": "A new awkwardness / evidence / trust question; no coercion or forced contact",
+      "sourceEvidence": [
+        "E02-B021",
+        "E02-B022",
+        "E02-B023",
+        "E02-B024"
+      ],
+      "event_index": [
+        {
+          "id": "E02-B021",
+          "from": 110,
+          "to": 115,
+          "source_index_label": "grocery_chotu_absence"
+        },
+        {
+          "id": "E02-B022",
+          "from": 116,
+          "to": 121,
+          "source_index_label": "apartment_arrival_key_request"
+        },
+        {
+          "id": "E02-B023",
+          "from": 122,
+          "to": 128,
+          "source_index_label": "unexpected_clothing_accident"
+        },
+        {
+          "id": "E02-B024",
+          "from": 129,
+          "to": 135,
+          "source_index_label": "twins_depart_emotional_aftermath"
+        }
+      ],
+      "approval": "not_requested",
+      "grok_handoff": "not_created",
+      "fwfs_story_prose": "not_written"
+    },
+    {
+      "id": "06",
+      "start": 136,
+      "end": 160,
+      "title": "Disclosure, reset and next-episode hook",
+      "when": "Monday night → following day",
+      "status": "SOURCE INDEXED · PLANNING NOT STARTED",
+      "mechanics": [
+        "Disclosure to spouse",
+        "Emotional reset",
+        "Avoidance",
+        "Chotu callback",
+        "Episode-end hinge"
+      ],
+      "reviewQuestions": [
+        "What is disclosed, to whom, and what stays concealed?",
+        "Which practical errands must remain open in Episode 03?",
+        "How does one common Chotu thread interact with four independent households?"
+      ],
+      "fwfsAdaptation": [
+        "End on a consequence or decision with a tracked follow-up",
+        "No new action beyond source-derived planning without reader selecting it"
+      ],
+      "maxBoundary": "Decision and episode hook only; no unapproved relationship milestone",
+      "sourceEvidence": [
+        "E02-B025",
+        "E02-B026",
+        "E02-B027",
+        "E02-B028"
+      ],
+      "event_index": [
+        {
+          "id": "E02-B025",
+          "from": 136,
+          "to": 149,
+          "source_index_label": "dhika_discloses_incident_to_john"
+        },
+        {
+          "id": "E02-B026",
+          "from": 150,
+          "to": 151,
+          "source_index_label": "avoids_college_and_routine_childcare"
+        },
+        {
+          "id": "E02-B027",
+          "from": 152,
+          "to": 155,
+          "source_index_label": "chotu_delivery_request_and_self_comparison"
+        },
+        {
+          "id": "E02-B028",
+          "from": 156,
+          "to": 160,
+          "source_index_label": "episode_closing"
+        }
+      ],
+      "approval": "not_requested",
+      "grok_handoff": "not_created",
+      "fwfs_story_prose": "not_written"
+    }
+  ],
+  "source_style_files": [
+    "data/source_verified_style_mechanisms_e01_e05.json",
+    "data/director_learning_protocol.json"
+  ],
+  "story_style_file": "data/analysis/fwfs_story_direction_protocol_v1.md"
+}
