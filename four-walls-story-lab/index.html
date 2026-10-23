@@ -61,6 +61,26 @@
 .p2-reader-panel .draft-paper{max-width:100%;min-width:0;overflow-wrap:break-word;margin:14px 0;padding:24px}
 .p2-reader-panel .draft-line{overflow-wrap:anywhere}
 @media(max-width:690px){.p2-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}.p2-reader-panel .draft-paper{padding:14px}.p2-readernote{padding:12px}}
+
+/* E01 P5 Grok brief editor: one panel in place, no long scroll jumping */
+.grok-banner{max-width:1020px;padding:15px 18px;margin:15px 0 20px;border:1px solid #9e875f;border-radius:12px;background:#283548;color:#e4ecf4;font-size:13px}
+.grok-banner strong{color:#f5d8a5}
+.grok-total{max-width:1020px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0 21px}
+.grok-total>div{border:1px solid #51667a;background:#1b3047;border-radius:9px;padding:14px;display:flex;flex-direction:column;gap:5px}
+.grok-total span{color:#b6cce0;font-size:12px}.grok-total strong{color:#f6d5a0;font-size:17px}
+.grok-tabbar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;max-width:1020px}
+.grok-tab{min-width:0;cursor:pointer;border:1px solid #57708a;border-radius:9px;padding:13px 9px;color:#e1eaf5;background:#1b2c43;font-size:13px;font-family:inherit;font-weight:750}
+.grok-tab.active,.grok-tab[aria-selected="true"]{border-color:#f1be6c;color:#ffdeb0;background:#3b4350;box-shadow:inset 0 -3px 0 #edb966}.grok-tab:focus-visible{outline:2px solid #ffe09d;outline-offset:2px}
+.grok-reader{max-width:1020px;min-width:0;border:1px solid #586c86;border-radius:12px;background:#13253a;padding:19px;margin:15px 0 22px}
+.grok-reader-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:15px}.grok-reader-top h2{margin:0}.grok-reader-top .sub{margin:6px 0}
+.grok-target{font-size:14px;color:#f6cd90}.grok-buttons{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.grok-buttons button{cursor:pointer;border:1px solid #f1bc74;background:#e6ae63;color:#1f2731;border-radius:9px;padding:11px 15px;font-weight:800}
+.grok-buttons button:disabled{opacity:.45;cursor:not-allowed}.grok-buttons a{color:#ebce9c;font-size:13px}
+.grok-copy-status{color:#b7cede;font-size:12px;margin:14px 0 8px}
+.grok-pre{white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%;min-width:0;max-height:610px;overflow:auto;background:#0c1b2c;color:#e1eaf4;border:1px solid #344b64;border-radius:10px;padding:17px 18px;font-family:inherit;font-size:13px;line-height:1.75;tab-size:2}
+.grok-notes{max-width:1020px;background:#1f3449;padding:14px 18px;border-left:3px solid #d1ad70;border-radius:9px;font-size:13px}
+@media(max-width:800px){.grok-total{grid-template-columns:1fr}.grok-tabbar{grid-template-columns:repeat(3,minmax(0,1fr))}.grok-reader{padding:12px}}
+@media(max-width:480px){.grok-tabbar{grid-template-columns:repeat(2,minmax(0,1fr))}.grok-total strong{font-size:15px}.grok-pre{font-size:12px;padding:11px}}
 </style></head><body><div class="app">
 <aside class="sidebar">
 <div class="brand"><div class="logotype">FOUR WALLS<em> / </em>STORY LAB</div><p>Series → Episode → Part</p></div>
@@ -79,6 +99,7 @@
 <button class="side-button" data-go="story-scenes">Approved scenes</button>
 <button class="side-button" data-go="story-continuity">Continuity</button>
 <button class="side-button" data-go="story-e01-director-desk">Writing rules & corrections</button>
+<button class="side-button" data-go="story-e01-grok-editor">Grok Editor · E01 Part 5</button>
 <button class="side-button" data-go="story-e01-review">Episode 01 QA</button>
 <button class="side-button" data-go="story-attraction-index">E01 editorial index</button>
 </div></details>
@@ -1089,6 +1110,36 @@
 <div class="e02-note"><b>Director action sheet:</b> Setting/task → doer → action label → observer → reaction → highest boundary attained → aftermath → reader option → Grok handoff. Source facts, speculation and new fiction stay in separate columns.</div>
 <div class="e02-route"><button data-go="story-e02-hub">E02 source index</button></div>
 </section>
+<section class="view" data-view="story-e01-grok-editor" hidden>
+<div class="kicker">FOUR WALLS / EDITOR WORKSPACE / EPISODE 01 / PART 5</div>
+<h1>Grok Editor — Episode 01 / Part 5</h1>
+<p class="sub">A separate ready-to-copy writing brief for each woman, plus Chotu's ending and the assembly order. Choose a character to replace the prompt below, without scrolling through everyone else's instructions.</p>
+<div class="grok-banner"><strong>How to use:</strong> 1. Select a character → 2. Copy Prompt → 3. Paste into Grok (with the linked original sources) → 4. Paste Grok's full response back into ChatGPT for review. <strong>These are instructions, not completed story chapters.</strong> No change is accepted into canon until you approve.</div>
+<div class="grok-total">
+<div><span>Four character drafts</span><strong>7,100–8,350 words</strong></div>
+<div><span>Chotu closing</span><strong>250–350 words</strong></div>
+<div><span>Combined Part 5 target</span><strong>7,350–8,700 words</strong></div>
+</div>
+<div class="grok-tabbar" role="tablist" aria-label="Choose Grok's Part 5 writing brief">
+<button class="grok-tab active" type="button" role="tab" id="grok-tab-ankita" aria-controls="grok-brief-content" aria-selected="true" tabindex="0" data-grok-select="ankita">Ankita</button>
+<button class="grok-tab" type="button" role="tab" id="grok-tab-shivani" aria-controls="grok-brief-content" aria-selected="false" tabindex="-1" data-grok-select="shivani">Shivani</button>
+<button class="grok-tab" type="button" role="tab" id="grok-tab-shreya" aria-controls="grok-brief-content" aria-selected="false" tabindex="-1" data-grok-select="shreya">Shreya</button>
+<button class="grok-tab" type="button" role="tab" id="grok-tab-tanya" aria-controls="grok-brief-content" aria-selected="false" tabindex="-1" data-grok-select="tanya">Tanya</button>
+<button class="grok-tab" type="button" role="tab" id="grok-tab-chotu" aria-controls="grok-brief-content" aria-selected="false" tabindex="-1" data-grok-select="chotu">Chotu + Assembly</button>
+</div>
+<div class="grok-reader" id="grok-brief-content" role="tabpanel" aria-labelledby="grok-tab-ankita">
+<div class="grok-reader-top">
+<div><h2 id="grok-active-label">Ankita</h2><p id="grok-active-description" class="sub">Saturday 6:15 PM + Sunday 10:15 AM</p><strong class="grok-target" id="grok-word-target">Target: 1,600–1,900 words</strong></div>
+<div class="grok-buttons">
+<button type="button" data-grok-copy="1" id="grok-copy-prompt" disabled>Copy Grok Prompt</button>
+<a id="grok-source-link" href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/writing-briefs/fwfs_e01_p5_ankita_grok_editor_brief.md" target="_blank" rel="noopener">Open raw brief on GitHub ↗</a>
+</div>
+</div>
+<p class="grok-copy-status" id="grok-copy-status" aria-live="polite">Loading Ankita's instructions…</p>
+<pre id="grok-instruction-text" class="grok-pre" tabindex="0">Loading prompt…</pre>
+</div>
+<div class="grok-notes"><b>Do not confuse manuscript and instructions.</b> These five briefs live under <code>writing-briefs/</code>; the original Part 5 text remains unchanged. Review will check exact scene facts, word count, chronological Chotu state and the character-specific effect—not approve purely for length.</div>
+</section>
 <section class="view" data-view="story-e01-director-desk" hidden>
 <div class="kicker">FOUR WALLS / DIRECTOR WORKSPACE / E01</div>
 <h1>Writing Rules &amp; Corrections</h1>
@@ -1721,7 +1772,7 @@
 (function(){
 function navigate(key){var oldP2=/^story-part2-(ankita|shivani|shreya|tanya)$/.exec(key);if(oldP2){selectPart2Character(oldP2[1]);key="story-part2-all";}if(key==="story-part5-continuation")key="story-part5-chotu";var pages=document.querySelectorAll("[data-view]");var active=false;pages.forEach(function(page){var same=page.getAttribute("data-view")===key;page.hidden=!same;if(same)active=true;});if(!active)return;
 document.querySelectorAll("[data-go]").forEach(function(btn){var selected=btn.getAttribute("data-go")===key;btn.classList.toggle("active",selected);btn.setAttribute("aria-current",selected?"page":"false");});
-var dhika=key.indexOf("dhika-")===0;var e02Source=/^story-e02-p(0[1-6])$/.exec(key);document.getElementById("breadcrumb").textContent=e02Source?("DHIKA / Episode 02 / Part "+Number(e02Source[1])):dhika?(key==="dhika-browser"?"DHIKA / Original episode browser":"DHIKA / Episode 01 / Part "+key.split("-")[1]):"FOUR WALLS / "+({"story-prologue":"Episode 00 · Prologue","story-part1":"Episode 01 · Part 1 Review","story-part2-all":"Episode 01 · Part 2 — All Four","story-part2-ankita":"Episode 01 · Part 2 — Ankita","story-part2-shivani":"Episode 01 · Part 2 — Shivani","story-part2-shreya":"Episode 01 · Part 2 — Shreya","story-part2-tanya":"Episode 01 · Part 2 — Tanya","story-part3-elders":"Episode 01 · Part 3 — Elder Secrets","story-part4-ankita":"Episode 01 · Part 4 — Ankita Director Plan","story-part4-shivani":"Episode 01 · Part 4 — Shivani Director Plan","story-part4-tanya":"Episode 01 · Part 4 — Tanya Director Plan","story-part4-shreya":"Episode 01 · Part 4 — Shreya Director Plan","story-part5-chotu":"Episode 01 · Part 5 — Chotu Full Draft","story-part5-continuation":"Episode 01 · Part 5 — Chotu Follow-Ups","story-part6-four-decisions":"Episode 01 · Part 6 — Chaar Faisle","story-part7-four-encounters":"Episode 01 · Part 7 — Earlier Alternate","story-part7-director-cut":"Episode 01 · Part 7 — Latest Full Draft","story-e02-hub":"Episode 02 · Planning Workspace","story-e02-p01":"Episode 02 · Source 1","story-e02-p02":"Episode 02 · Source 2","story-e02-p03":"Episode 02 · Source 3","story-e02-p04":"Episode 02 · Source 4","story-e02-p05":"Episode 02 · Source 5","story-e02-p06":"Episode 02 · Source 6","story-e01-director-desk":"Writing Rules & Corrections","story-e01-review":"Episode 01 · Completion & QA","story-attraction-index":"Episode 01 · Attraction and Tension Index","story-characters":"Characters","story-scenes":"Approved Scenes","story-continuity":"Continuity"}[key]||"Story");document.getElementById("status").textContent=dhika||e02Source?"SOURCE VERIFIED":key==="story-scenes"?"AWAITING APPROVAL":"WORKING STORY";window.scrollTo({top:0,behavior:"instant"});if(history.replaceState)history.replaceState(null,"","#"+key);}
+var dhika=key.indexOf("dhika-")===0;var e02Source=/^story-e02-p(0[1-6])$/.exec(key);document.getElementById("breadcrumb").textContent=e02Source?("DHIKA / Episode 02 / Part "+Number(e02Source[1])):dhika?(key==="dhika-browser"?"DHIKA / Original episode browser":"DHIKA / Episode 01 / Part "+key.split("-")[1]):"FOUR WALLS / "+({"story-prologue":"Episode 00 · Prologue","story-part1":"Episode 01 · Part 1 Review","story-part2-all":"Episode 01 · Part 2 — All Four","story-part2-ankita":"Episode 01 · Part 2 — Ankita","story-part2-shivani":"Episode 01 · Part 2 — Shivani","story-part2-shreya":"Episode 01 · Part 2 — Shreya","story-part2-tanya":"Episode 01 · Part 2 — Tanya","story-part3-elders":"Episode 01 · Part 3 — Elder Secrets","story-part4-ankita":"Episode 01 · Part 4 — Ankita Director Plan","story-part4-shivani":"Episode 01 · Part 4 — Shivani Director Plan","story-part4-tanya":"Episode 01 · Part 4 — Tanya Director Plan","story-part4-shreya":"Episode 01 · Part 4 — Shreya Director Plan","story-part5-chotu":"Episode 01 · Part 5 — Chotu Full Draft","story-part5-continuation":"Episode 01 · Part 5 — Chotu Follow-Ups","story-part6-four-decisions":"Episode 01 · Part 6 — Chaar Faisle","story-part7-four-encounters":"Episode 01 · Part 7 — Earlier Alternate","story-part7-director-cut":"Episode 01 · Part 7 — Latest Full Draft","story-e02-hub":"Episode 02 · Planning Workspace","story-e02-p01":"Episode 02 · Source 1","story-e02-p02":"Episode 02 · Source 2","story-e02-p03":"Episode 02 · Source 3","story-e02-p04":"Episode 02 · Source 4","story-e02-p05":"Episode 02 · Source 5","story-e02-p06":"Episode 02 · Source 6","story-e01-grok-editor":"Episode 01 · Part 5 — Grok Editor","story-e01-director-desk":"Writing Rules & Corrections","story-e01-review":"Episode 01 · Completion & QA","story-attraction-index":"Episode 01 · Attraction and Tension Index","story-characters":"Characters","story-scenes":"Approved Scenes","story-continuity":"Continuity"}[key]||"Story");document.getElementById("status").textContent=dhika||e02Source?"SOURCE VERIFIED":key==="story-scenes"?"AWAITING APPROVAL":"WORKING STORY";window.scrollTo({top:0,behavior:"instant"});if(history.replaceState)history.replaceState(null,"","#"+key);}
 document.addEventListener("click",function(e){var button=e.target.closest("[data-go]");if(button&&!button.disabled)navigate(button.getAttribute("data-go"));var jump=e.target.closest("[data-jump]");if(jump){var target=document.getElementById(jump.getAttribute("data-jump"));if(target)target.scrollIntoView({behavior:"smooth",block:"center"});}var person=e.target.closest("[data-person]");if(person){var k=person.getAttribute("data-person");document.querySelectorAll("[data-profile]").forEach(function(node){node.hidden=node.getAttribute("data-profile")!==k;});document.querySelectorAll("[data-person]").forEach(function(btn){btn.classList.toggle("selected",btn===person);});}});
 var first=document.querySelector('[data-person="0"]');if(first)first.classList.add("selected");
 document.querySelectorAll(".exact-source").forEach(function(panel){panel.addEventListener("toggle",function(){if(!panel.open||panel.dataset.loaded)return;panel.dataset.loaded="1";var out=panel.querySelector(".raw-content");out.textContent="Loading indexed original source lines…";var srcEp=panel.getAttribute("data-source-episode")==="e02"?"e02":"e01";var sourceTag=srcEp.toUpperCase();var sourcePath=(location.pathname.indexOf("/four-walls-story-lab/")!==-1?"../data/episodes/":"./data/episodes/")+srcEp+".json";fetch(sourcePath).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(d){var start=Number(panel.getAttribute("data-start")),end=Number(panel.getAttribute("data-end"));var all=d.events.reduce(function(a,e){return a.concat(e.raw_lines||[]);},[]).filter(function(line){return line.line>=start&&line.line<=end;});out.textContent="";if(all.length!==end-start+1){out.textContent="Source coverage mismatch: expected "+(end-start+1)+" lines; found "+all.length;return;}all.forEach(function(line){var row=document.createElement("div"),number=document.createElement("span"),content=document.createElement("span");row.className="rawline";number.className="rawlabel";content.className="rawtxt";number.textContent=sourceTag+"-L"+String(line.line).padStart(3,"0");content.textContent=line.text||" ";row.append(number,content);out.appendChild(row);});}).catch(function(e){out.textContent="Unable to fetch original lines ("+e.message+"). Open indexed source via the source link below."});});});
@@ -1786,11 +1837,56 @@ document.addEventListener("keydown",function(e){
  selectPart2Character(id);var target=document.getElementById("p2-tab-"+id);if(target)target.focus();
 });
 
+
+/* Editor prompts are stored as standalone Markdown in this repository, not buried in large HTML. */
+var grokBriefs={
+ ankita:{title:"Ankita",words:"1,600–1,900",time:"Saturday 6:15 PM + Sunday 10:15 AM",file:"fwfs_e01_p5_ankita_grok_editor_brief.md"},
+ shivani:{title:"Shivani",words:"1,700–2,000",time:"Saturday 7:05 PM + Sunday 9:30 AM",file:"fwfs_e01_p5_shivani_grok_editor_brief.md"},
+ shreya:{title:"Shreya",words:"1,800–2,100",time:"Sunday 3:10 PM + 6:30 PM",file:"fwfs_e01_p5_shreya_grok_editor_brief.md"},
+ tanya:{title:"Tanya",words:"2,000–2,350",time:"Sunday 12:50 PM + Monday 11 AM",file:"fwfs_e01_p5_tanya_grok_editor_brief.md"},
+ chotu:{title:"Chotu + Assembly",words:"250–350",time:"Sunday night coda and full nine-scene order",file:"fwfs_e01_p5_chotu_grok_editor_brief.md"}
+};
+var grokBriefCache={},grokCurrent="ankita",grokPromptText="";
+function showGrokBrief(id){
+ if(!grokBriefs[id])return;
+ grokCurrent=id;var entry=grokBriefs[id],page=document.querySelector('[data-view="story-e01-grok-editor"]');if(!page)return;
+ page.querySelectorAll("[data-grok-select]").forEach(function(btn){var selected=btn.getAttribute("data-grok-select")===id;btn.classList.toggle("active",selected);btn.setAttribute("aria-selected",selected?"true":"false");btn.tabIndex=selected?0:-1;});
+ document.getElementById("grok-active-label").textContent=entry.title;
+ document.getElementById("grok-active-description").textContent=entry.time;
+ document.getElementById("grok-word-target").textContent="Target: "+entry.words+" words";
+ document.getElementById("grok-brief-content").setAttribute("aria-labelledby","grok-tab-"+id);
+ var src="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/writing-briefs/"+entry.file;
+ document.getElementById("grok-source-link").href=src;
+ var pre=document.getElementById("grok-instruction-text"),status=document.getElementById("grok-copy-status"),copy=document.getElementById("grok-copy-prompt");
+ grokPromptText="";pre.textContent="Loading "+entry.title+"'s prompt…";status.textContent="Loading brief…";copy.disabled=true;
+ if(grokBriefCache[id]){grokPromptText=grokBriefCache[id];pre.textContent=grokPromptText;status.textContent="Ready to copy; copy the entire brief, not just the visible lines.";copy.disabled=false;return;}
+ var reqId=id;fetch("../writing-briefs/"+entry.file,{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("HTTP "+r.status);return r.text();}).then(function(t){
+ grokBriefCache[reqId]=t;if(grokCurrent!==reqId)return;grokPromptText=t;pre.textContent=t;status.textContent="Ready to copy; prompt loaded from GitHub-published file.";copy.disabled=false;
+ }).catch(function(error){if(grokCurrent!==reqId)return;status.textContent="Prompt not loaded ("+error.message+"). Open the GitHub source link instead.";pre.textContent="Open the GitHub source link above to view and copy this brief.";});
+}
+document.addEventListener("click",function(ev){
+ var b=ev.target.closest("[data-grok-select]");if(b){ev.preventDefault();showGrokBrief(b.getAttribute("data-grok-select"));return;}
+ var copy=ev.target.closest("[data-grok-copy]");if(!copy)return;
+ ev.preventDefault();if(!grokPromptText)return;
+ var status=document.getElementById("grok-copy-status");
+ if(navigator.clipboard && navigator.clipboard.writeText){
+ navigator.clipboard.writeText(grokPromptText).then(function(){status.textContent="Prompt copied — paste it into Grok.";}).catch(function(){status.textContent="Clipboard permission denied. Select text from the prompt box or use the GitHub link.";});
+ }else{
+ var pre=document.getElementById("grok-instruction-text");var range=document.createRange();range.selectNodeContents(pre);var sel=window.getSelection();sel.removeAllRanges();sel.addRange(range);status.textContent="Prompt selected. Press Ctrl+C (or Cmd+C) to copy.";
+ }
+});
+document.addEventListener("keydown",function(ev){
+ var b=ev.target.closest("[data-grok-select]");if(!b)return;
+ var keys=["ankita","shivani","shreya","tanya","chotu"],at=keys.indexOf(b.getAttribute("data-grok-select")),next=ev.key==="ArrowRight"?at+1:ev.key==="ArrowLeft"?at-1:ev.key==="Home"?0:ev.key==="End"?keys.length-1:null;
+ if(next===null)return;ev.preventDefault();var key=keys[(next+keys.length)%keys.length];showGrokBrief(key);var target=document.getElementById("grok-tab-"+key);if(target)target.focus();
+});
+showGrokBrief("ankita");
+
 /* Nested episode selectors and lazy source reader. */
 var sourceIndex=null, masterPromise=null, selectedDHIKA=2;
 var storyMenu={
 "00":[["Prologue","story-prologue"]],
-"01":[["Writing Rules & Corrections","story-e01-director-desk"],["Part 1","story-part1"],["Part 2 · Complete","story-part2-all"],["Part 3 · Review","story-part3-elders"],["Part 4 · Ankita","story-part4-ankita"],["Part 4 · Shivani","story-part4-shivani"],["Part 4 · Shreya","story-part4-shreya"],["Part 4 · Tanya","story-part4-tanya"],["Part 5 · Chotu","story-part5-chotu"],["Part 5 · Followups","story-part5-continuation"],["Part 6","story-part6-four-decisions"],["Part 7 · Latest","story-part7-director-cut"],["Part 7 · Alternate","story-part7-four-encounters"],["Episode 01 review","story-e01-review"]],
+"01":[["Writing Rules & Corrections","story-e01-director-desk"],["Part 1","story-part1"],["Part 2 · Complete","story-part2-all"],["Part 3 · Review","story-part3-elders"],["Part 4 · Ankita","story-part4-ankita"],["Part 4 · Shivani","story-part4-shivani"],["Part 4 · Shreya","story-part4-shreya"],["Part 4 · Tanya","story-part4-tanya"],["Grok Editor · Part 5","story-e01-grok-editor"],["Part 5 · Chotu","story-part5-chotu"],["Part 5 · Followups","story-part5-continuation"],["Part 6","story-part6-four-decisions"],["Part 7 · Latest","story-part7-director-cut"],["Part 7 · Alternate","story-part7-four-encounters"],["Episode 01 review","story-e01-review"]],
 "02":[["Episode 02 director workspace","story-e02-hub"]]
 };
 function buttonFor(parent,label,key){var b=document.createElement("button");b.type="button";b.className="side-button";b.setAttribute("data-go",key);b.textContent=label;parent.appendChild(b);}
@@ -1816,7 +1912,7 @@ document.getElementById("fwfs-episode-picker").addEventListener("change",functio
 document.getElementById("dhika-episode-picker").addEventListener("change",function(){var n=Number(this.value);setSourceMenu(n);document.getElementById("dhika-cluster").open=true;document.getElementById("fwfs-cluster").open=false;if(n===1)navigate("dhika-1");else if(n===2)navigate("story-e02-p01");else{navigate("dhika-browser");openPart(n,1);}});
 document.addEventListener("click",function(e){var b=e.target.closest("[data-source-part]");if(!b)return;var n=selectedDHIKA,p=Number(b.dataset.sourcePart);if(n===1)navigate("dhika-"+p);else if(n===2)navigate("story-e02-p"+String(p).padStart(2,"0"));else{navigate("dhika-browser");openPart(n,p);}});
 setStoryMenu("02");
-fetch(repoPath("data/analysis/dhika_episode_navigation_index.json")).then(function(r){if(!r.ok)throw Error("Index HTTP "+r.status);return r.json()}).then(function(d){sourceIndex=d;var sel=document.getElementById("dhika-episode-picker");sel.textContent="";d.episodes.forEach(function(ep){var o=document.createElement("option");o.value=ep.episode;o.textContent="Episode "+String(ep.episode).padStart(2,"0")+(ep.episode===2?" · Active":" · Browse");sel.appendChild(o);});setSourceMenu(2);var hash=location.hash.substring(1),match=hash.match(/^dhika-e([0-9]+)-p([0-9]+)$/);if(match){navigate("dhika-browser");openPart(Number(match[1]),Number(match[2]));document.getElementById("dhika-cluster").open=true;}else if(hash==="dhika-browser"){navigate("dhika-browser");openPart(3,1);}else if(/^dhika-[1-7]$/.test(hash)){setSourceMenu(1);}else if(/^story-part[1-7]/.test(hash)||hash==="story-e01-review"||hash==="story-e01-director-desk"){document.getElementById("fwfs-episode-picker").value="01";setStoryMenu("01");document.getElementById("fwfs-cluster").open=true;}else if(hash==="story-prologue"){document.getElementById("fwfs-episode-picker").value="00";setStoryMenu("00");document.getElementById("fwfs-cluster").open=true;}}).catch(function(e){document.getElementById("dhika-part-nav").textContent="Episode index unavailable: "+e.message;});
+fetch(repoPath("data/analysis/dhika_episode_navigation_index.json")).then(function(r){if(!r.ok)throw Error("Index HTTP "+r.status);return r.json()}).then(function(d){sourceIndex=d;var sel=document.getElementById("dhika-episode-picker");sel.textContent="";d.episodes.forEach(function(ep){var o=document.createElement("option");o.value=ep.episode;o.textContent="Episode "+String(ep.episode).padStart(2,"0")+(ep.episode===2?" · Active":" · Browse");sel.appendChild(o);});setSourceMenu(2);var hash=location.hash.substring(1),match=hash.match(/^dhika-e([0-9]+)-p([0-9]+)$/);if(match){navigate("dhika-browser");openPart(Number(match[1]),Number(match[2]));document.getElementById("dhika-cluster").open=true;}else if(hash==="dhika-browser"){navigate("dhika-browser");openPart(3,1);}else if(/^dhika-[1-7]$/.test(hash)){setSourceMenu(1);}else if(/^story-part[1-7]/.test(hash)||hash==="story-e01-review"||hash==="story-e01-director-desk"||hash==="story-e01-grok-editor"){document.getElementById("fwfs-episode-picker").value="01";setStoryMenu("01");document.getElementById("fwfs-cluster").open=true;}else if(hash==="story-prologue"){document.getElementById("fwfs-episode-picker").value="00";setStoryMenu("00");document.getElementById("fwfs-cluster").open=true;}}).catch(function(e){document.getElementById("dhika-part-nav").textContent="Episode index unavailable: "+e.message;});
 
 
 var h=location.hash.substring(1);if(h==="story-part5-continuation")h="story-part5-chotu";if(document.querySelector('[data-view="'+h+'"]')||/^story-part2-(ankita|shivani|shreya|tanya)$/.test(h))navigate(h);else if(!h)navigate("story-e02-p01");
