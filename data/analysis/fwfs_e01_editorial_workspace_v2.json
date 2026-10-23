@@ -62,13 +62,32 @@
       "id": "P05",
       "title": "Part 5 — Chotu ke saare 9 scenes (ab ek hi part)",
       "status": "NOT DHIKA-LEVEL — SCENE PROGRESSION UNDERDELIVERED",
-      "release": "All 9 working Part 5 scenes exist in one combined original manuscript/UI; literary-intensity QA FAILED. No prose edited or approved.",
+      "release": "Nine-scene original remains unchanged. A separate Google-Docs-sourced Grok V1 for Ankita (Sat + Sun, 877 words) has been preserved, numbered and added to Story Lab; reader approval still pending. Other characters not yet delivered.",
       "dhika": "DHIKA E01-L116–205 (main Part 5 comparison); L206–224 only later payoff reference",
       "strength": "Part 5 contains four real delivery motives; distinct women and household contexts; each has an unexpected visual/behavioural hesitation and later follow-up. Ankita remembers Saturday (FWFS L36–50, L194–228); Shivani remembers ride and offers breakfast/study help (L66–108, L143–171); Shreya recognizes singing/creative talent (L314–338, L385–409); Tanya recalls storeroom and jokes (L258–278, L454–490).",
       "gap": "A full nine-scene comparison shows intensity and causal progression significantly below DHIKA's first incident → private recall → next interaction transformation (DHIKA L126–151, L165–205). The women's reactions are often labelled, then reset to ordinary tasks. Chotu repeats look-away/silence/compliment patterns with limited state carry-over across households. Tanya's intended strongest emotional progression instead disperses into four-devar group banter and a delivery; Shreya's two visits close mostly through friendly compliments. Additional sequencing gap: Shreya reaches home in the late-afternoon end of her 3:10 boutique visit (FWFS combined ~L340–348), then reappears at the boutique at 6:30 (~L352–363) without a travel/return bridge.",
       "next": "Do NOT call the earlier 3 orange sentences a sufficient repair. Preserve the 9 original scenes. Creative outcome per character needs an approved new director decision, then prose work by the writer as required. For now, mark Part 5 NOT READY; no explicit new passage is automatically required until the reader sets goals. Separate non-graphic continuity and narrative QA from writer-authored explicit descriptions.",
       "source": "data/stories/e01_part5_complete_working_draft.md",
-      "kind": "source-based literary intensity review; not explicit prose writing"
+      "kind": "source-based literary intensity review; not explicit prose writing",
+      "received_grok_v1": {
+        "character": "Ankita",
+        "status": "RECEIVED · 2 SCENES · NUMBERED · NOT APPROVED",
+        "google_doc": "https://docs.google.com/document/d/1Tp7LG9m6Ba7vj-MRaJJvpkgIbWBV9oH81dL5rOjbHHo/edit",
+        "source": "data/stories/e01_part5_ankita_grok_v1_source_transcription.txt",
+        "numbered": "data/stories/e01_part5_ankita_grok_v1_numbered.md",
+        "scene_a_words": 461,
+        "scene_b_words": 416,
+        "total_words": 877,
+        "assigned_min_words": 1600,
+        "assigned_max_words": 1900,
+        "numbered_paragraphs": 44,
+        "review_flags": [
+          "Saturday clothing says 'blouse' although established outfit is teal top",
+          "Laundry complaint is mentioned without clearly staging when returned packet revealed a missing set",
+          "Scene length materially below agreed two-scene target"
+        ],
+        "original_p5_changed": false
+      }
     },
     {
       "id": "P06",
@@ -377,6 +396,14 @@
       "status": "FIVE SOURCE-LINKED BRIEFS PUBLISHED",
       "issue": "Grok had no dedicated copyable, character-specific briefs or per-scene word budgets in the combined Story Lab; Part 5 earlier menu also listed an obsolete separate continuation.",
       "fix": "New Episode 01 → Grok Editor · Part 5 view offers Ankita (1,600–1,900), Shivani (1,700–2,000), Shreya (1,800–2,100), Tanya (2,000–2,350), Chotu/assembly coda (250–350) as separate linked/copyable briefs; master target 7,350–8,700 prose words, excluding change logs. Removed duplicate continuation from Episode 01 menu; story manuscripts remain unchanged."
+    },
+    {
+      "id": "C030",
+      "scope": "E01 P05 Ankita — Grok V1 Received",
+      "type": "SOURCE TRANSCRIPTION · DISPLAY ONLY",
+      "status": "44 NUMBERED PARAGRAPHS PUBLISHED · NOT CANON",
+      "issue": "User pasted Ankita's two-scene Grok rewrite into their designated Google Doc. It is 877 scene-prose words versus 1,600–1,900 assigned and has a 'blouse' vs teal-top clothing-word inconsistency and an underspecified Saturday laundry packet/discovery sequence.",
+      "fix": "Preserved original paragraph texts verbatim from the Google Doc into a separate GitHub raw snapshot, a numbered 44-paragraph reading copy, and a dedicated Story Lab view with styled dialogue. Left the original nine-scene Part 5 and Google Doc untouched. Reader may request factual fixes or Grok expansion after review."
     }
   ],
   "chronology": [
