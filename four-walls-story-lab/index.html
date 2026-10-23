@@ -1752,6 +1752,9 @@ function loadFWFSEditorial(){
  root.appendChild(editorialEl("h2","","Corrections history"));
  root.appendChild(editorialEl("p","ew-sub","A correction marked 'shown in UI' is a proposal, not a rewritten manuscript."));
  (data.corrections||[]).forEach(function(c){var d=editorialEl("details","ew-detail"),summary=editorialEl("summary","",c.id+" · "+c.scope+" · "+c.type+" · "+c.status),inner=editorialEl("div");d.appendChild(summary);editorialField(inner,"Issue",c.issue);editorialField(inner,"Correction",c.fix);d.appendChild(inner);root.appendChild(d);});
+ root.appendChild(editorialEl("h2","","Writer input / canon decisions (only if needed)"));
+ root.appendChild(editorialEl("p","ew-sub","No new explicit writing is necessary for the already applied neutral name, timing and location corrections. These are the only outstanding reader/writer decisions."));
+ (data.author_input_needed||[]).forEach(function(c){var d=editorialEl("details","ew-detail"),s=editorialEl("summary","",c.part+" · "+c.status),inner=editorialEl("div");d.appendChild(s);editorialField(inner,"What to decide or supply",c.needed);d.appendChild(inner);root.appendChild(d);});
  root.appendChild(editorialEl("h2","","Chotu’s actual chronological order"));
  var timeline=editorialEl("div","ew-panel");(data.chronology||[]).forEach(function(c){editorialField(timeline,c.day,c.sequence.join(" → "));});root.appendChild(timeline);
  root.appendChild(editorialEl("p","ew-note","This is the only Story Lab interface for both episodes and editorial review. The source evidence, old versions and correction history remain preserved in GitHub."));
