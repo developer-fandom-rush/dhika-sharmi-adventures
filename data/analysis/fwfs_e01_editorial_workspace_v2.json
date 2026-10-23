@@ -191,6 +191,26 @@
       "word_target": "850–900",
       "canon": "unapproved",
       "next": "Use copyable brief to commission Grok scene; review before editing any Part 7A/B prose"
+    },
+    {
+      "id": "P07SH",
+      "title": "Part 7 — Shreya Grok eight-step source-locked brief",
+      "status": "COPYABLE GROK INSTRUCTIONS PUBLISHED · PROSE UNWRITTEN",
+      "source": "data/stories/e01_part7_shreya_grok_instruction_v1.md",
+      "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-shreya-grok-v1",
+      "chronology": "Tuesday 9:25 AM Mehta Boutique; earlier than Tanya 2 PM",
+      "key_gates": "Established side-waist and neckline from Sunday P5; wine saree's second drape from P6; informal familiar equation, not formal-client composure; new private arousal reaction must be narratively earned; no accidental high-shelf repeat",
+      "canon": "not approved"
+    },
+    {
+      "id": "P07T",
+      "title": "Part 7 — Tanya Grok eight-step source-locked brief",
+      "status": "COPYABLE GROK INSTRUCTIONS PUBLISHED · ENDING DEFERRED",
+      "source": "data/stories/e01_part7_tanya_grok_instruction_v1.md",
+      "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-tanya-grok-v1",
+      "chronology": "Tuesday 2 PM Arora apartment after Shreya and before Ankita",
+      "key_gates": "Part 5 navel/side-waist; Part 6 rust-red saree; legitimate one-on-one photo review; director-proposed consent-checked limited navel-area touch; Tanya unexpected private reaction; END on shared pause BEFORE anyone leaves",
+      "canon": "not approved"
     }
   ],
   "rules": [
@@ -495,6 +515,14 @@
       "status": "COPYABLE INSTRUCTIONS PUBLISHED — P7A/B MANUSCRIPTS PRESERVED",
       "issue": "User requested Ankita director prompt alongside Shivani in Story Lab, following source-grounded Part 5 accident and Part 6 decision. Must not conflate Ankita's full-after-moment brief with Shivani's deferred ending.",
       "fix": "Created dedicated Ankita Part 7 Grok instruction Markdown file, source-linked and with eight scene beats; added separate copyable Story Lab view and reciprocal navigation; previous Part 7 drafts unchanged."
+    },
+    {
+      "id": "C034",
+      "scope": "E01 PART 7 / ALL FOUR GROK WRITER BRIEFS",
+      "type": "ROLE & STEP-WISE SCENE DIRECTION",
+      "status": "FOUR COPYABLE INSTRUCTION FILES / VIEWS, NOT STORY CANON",
+      "issue": "Reader explicitly fixed Grok role as Sex Story Writer, rejected incorrectly formal 'professional composure with Chotu' for Shreya and requested scene-by-scene escalation and distinct stopping points for Shreya/Tanya.",
+      "fix": "Shreya and Tanya each get separate 8-step source-checked 850–900-word writer instruction briefs with individual Copy control in Story Lab; Ankita/Shivani existing role labels changed to Sex Story Writer only; no Part 5/6/7 prose source overwritten. Tanya scene stops before an ending; Shivani ending remains deferred."
     }
   ],
   "chronology": [
