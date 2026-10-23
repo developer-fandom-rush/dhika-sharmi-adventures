@@ -13,26 +13,26 @@
     {
       "id": "P01",
       "title": "Part 1 — Four women and four elders",
-      "status": "PARTIAL MATCH — 1 SMALL STORY CHANGE RECOMMENDED",
-      "release": "Reader review pending",
+      "status": "KEEP — READER DECLINED PREVIOUS SUGGESTION",
+      "release": "Part 1 unchanged by explicit reader decision; previous idea closed without implementation.",
       "dhika": "E01-L007–029",
       "strength": "Both opening sections introduce ordinary lives, adult women's social roles, trusted/recognizable older men, and reader-only hidden interest. FWFS P01: four friends solve wedding arch problem; Mahendra, Harish, Prakash and Virendra have separately presented hidden motivations.",
-      "gap": "DHIKA E01-L021–029 dramatizes strong household-level trust by actually handing over Pappu to the elder's care, with concealed motive revealed at L015–020. FWFS P01-L011–048 demonstrates public event coordination, but comparable personally consequential trusted access is not as concrete. This is a narrative suspense gap, not an absent sexual scene.",
-      "next": "Recommend only one short, believable ordinary trust/access action for an elder within the existing wedding setup, and show the reader-only knowledge contrast. Keep cast, adult situations and all four character introductions. Reader approval before changing.",
+      "gap": "Earlier editorial suggestion to add a personal trust action was explicitly declined by the reader. It is not an open correction or task.",
+      "next": "NO CHANGE to Part 1. Do not repeat the rejected trust-addition suggestion.",
       "source": "four-walls-story-lab/index.html#story-part1",
-      "kind": "original-source-based comparison"
+      "kind": "reader decision final"
     },
     {
       "id": "P02",
-      "title": "Part 2 — Four independent tracks",
-      "status": "कोई बदलाव नहीं",
-      "release": "Four Story Lab prose tracks; not final canon",
-      "dhika": "E01-L030–063; L070–106 (mechanism only)",
-      "strength": "Ankita's work encounters, Shivani's dual mentoring thread, Shreya's two musical personalities, and Tanya's four adult cousin-devars all have distinct setups.",
-      "gap": "Original Part 2 में कोई verified factual mistake या missing event नहीं मिला. Prior 'bridge' note Part 2 की गलती नहीं थी.",
-      "next": "Part 2 as it is रहे. Next scenes में इसका असर दिखाना है, यहाँ line replace नहीं करनी.",
-      "source": "four-walls-story-lab/index.html#story-part2-ankita",
-      "kind": "editorial"
+      "title": "Part 2 — Four character tracks combined (226 beats)",
+      "status": "SCENARIOS MATCH; 3 OPTIONAL WRITING IMPROVEMENTS",
+      "release": "Four prose tracks now form one UI page and one combined source file; no underlying scene replacement.",
+      "dhika": "E01-L030–063",
+      "strength": "DHIKA E01 L030–063 and FWFS Part 2 both use familiar teasing, compliments, differently behaved observers, individual styling/identity and memorable private reactions. Ankita: Nikhil, Karan and Aman; Shivani: Raghav and Rishabh; Shreya: Aarav and Neel; Tanya: Vihaan, Arjun, Dhruv and Laksh. Existing actions and identities are retained.",
+      "gap": "FWFS narratorial comments sometimes explain/restrict uncertainty explicitly, rather than letting dialogue and reaction hold tension: Ankita FWFS-E01-P02-A-L027, Shivani FWFS-E01-P02-S-L052 and Tanya FWFS-E01-P02-T-L069. Shreya's existing music scene is sufficiently distinctive; no word change proposed there. This is an editorial style difference, NOT a missing scenario or factual error.",
+      "next": "No scene rewrite required. One complete Part 2 view, with three optional orange-underlined original-wording vs [suggested] prose changes. Reader may accept/reject each; original prose remains preserved.",
+      "source": "data/stories/e01_part2_complete_working_draft.md",
+      "kind": "source-verified comparative prose review"
     },
     {
       "id": "P03",
@@ -294,9 +294,25 @@
       "id": "C019",
       "scope": "P01",
       "type": "SOURCE COMPARISON / LESSON LEARNED",
-      "status": "REVIEW CORRECTED; PROSE NOT CHANGED",
+      "status": "CLOSED — READER DECLINED",
       "issue": "Prior reviewer marked Part 1 KEEP mainly because named characters, dates and attractions appeared, without testing how strongly the original DHIKA source dramatizes trust vs concealed motivation.",
-      "fix": "For P01 compare only DHIKA E01-L001–029 vs FWFS P01-L001–055; note both share the reader-only secret mechanism, but DHIKA demonstrates personal trust through Pappu childcare while FWFS has public wedding duties. One small practical trust action is a reader-optional recommendation, not a forced rewrite. Never mark narrative equivalence solely by matching keywords."
+      "fix": "No Part 1 prose change. Reader explicitly declined suggested addition, and it must not be repeatedly reopened."
+    },
+    {
+      "id": "C020",
+      "scope": "P02",
+      "type": "MANUSCRIPT ORGANIZATION",
+      "status": "ONE COMBINED UI & SOURCE FILE COMMITTED",
+      "issue": "Part 2 was spread across four independent character views in the same Episode 01 workspace, making reading difficult.",
+      "fix": "Preserved all 226 original numbered beats in one Part 2 UI section and one untouched chronological-by-character combined working markdown. Source character order is Ankita, Shivani, Shreya, Tanya."
+    },
+    {
+      "id": "C021",
+      "scope": "P02",
+      "type": "DHIKA STYLE COMPARISON",
+      "status": "THREE OPTIONAL WORDING SUGGESTIONS SHOWN IN UI",
+      "issue": "The four FWFS scenes have the intended interactions, but a few narrator-only statements explicitly explain or deflate ambiguity. DHIKA E01 L030–063 tends to use compliments, contrasting personalities and the response itself as the storytelling mechanism.",
+      "fix": "Offer optional replacement lines for Ankita L027, Shivani L052, Tanya L069; do not change scene outcomes, family relationships, physical events or characters. Leave Shreya unchanged."
     }
   ],
   "chronology": [
@@ -385,6 +401,30 @@
       "existing": "Magar uske dimaag mein din ordinary nahi tha.",
       "suggestion": "Usne socha tha har nayi delivery ke saath pichhli jhijhak peeche reh jaayegi; aaj ulta hua—use har ghar ke saamne apne jawaab aur nazar ko naye tareeke se sambhaalna pada.",
       "status": "SUPERSEDED AS COMPLETE REPAIR; original suggestion remains visible for history"
+    },
+    {
+      "id": "H07",
+      "part": "P02",
+      "reason": "Narrator over-explains curiosity; let the lived exchange carry uncertainty.",
+      "existing": "Usne khud ko answer dene se rok liya. Yeh sirf curiosity thi, koi naya rishta nahi.",
+      "suggestion": "Usne Shreya ko jawab dene ke bajay cup ki taraf dekha. Nikhil ka woh ek pal phir yaad aa gaya.",
+      "status": "OPTIONAL; VISIBLE IN COMBINED PART 2 UI"
+    },
+    {
+      "id": "H08",
+      "part": "P02",
+      "reason": "Ending labels an emotional state abstractly instead of showing what was remembered.",
+      "existing": "Woh kisi relationship ka decision nahi tha, sirf ek aisi private awareness thi jiske baare mein woh abhi kisi se baat nahi karna chahti thi.",
+      "suggestion": "Lift ka darwaaza khul gaya. Monday ki report yaad thi, par Rishabh ki ek unexpected tareef bhi uske saath ghar tak gayi.",
+      "status": "OPTIONAL; VISIBLE IN COMBINED PART 2 UI"
+    },
+    {
+      "id": "H09",
+      "part": "P02",
+      "reason": "Replace repetitive explanatory boundary statement with an action-based lingering thought.",
+      "existing": "Uski married life, apne decisions aur is familiar family bond ke beech koi nayi line usne khud nahi kheenchhi thi.",
+      "suggestion": "Arjun ki ek serious line phir yaad aayi; agla game card dekhne ke bahaane usne is khayal ko wahi chhod diya.",
+      "status": "OPTIONAL; VISIBLE IN COMBINED PART 2 UI"
     }
   ],
   "story_outcome_audit": {
