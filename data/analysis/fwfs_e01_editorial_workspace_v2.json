@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "updated": "2026-10-24",
   "story": "Four Walls, Four Secrets",
-  "overall_status": "E01 REVIEW IN PROGRESS: P3 neutral clue repairs committed; P4 continuity-edited Grok previews exist but are not integrated/approved; P7 creative acceptance failed",
+  "overall_status": "E01 still under review. Ankita Part 7 now has exactly one active reading version: submitted Grok Revised V1; superseded Part 7A/B Ankita scenes removed from working drafts and UI. Shreya, Tanya, Shivani Part 7 materials remain unapproved.",
   "source_hierarchy": {
     "dhika_original": "data/episodes/e01.json",
     "fwfs_working": "four-walls-story-lab/index.html; data/stories/; uploaded Grok Part 4 PDF",
@@ -144,24 +144,24 @@
     {
       "id": "P07A",
       "title": "Part 7 Version A — Four Doors, One New Secret",
-      "status": "MAJOR SCENE REWORK REQUIRED — NOT READY",
-      "release": "Full Part 7A prose exists, but creative acceptance FAILED and final canon approval is NOT given; 2 earlier line proposals are insufficient",
+      "status": "OBSOLETE MIXED-DRAFT SOURCE — ANKITA SCENE DISCARDED",
+      "release": "Older Ankita prose deleted from working markdown; other women's unfinished Part 7A scenes remain review sources only. No longer published as a Story Lab reader page.",
       "dhika": "E01-L217–224",
       "strength": "Shreya selects styling and asks for personal feedback; Tanya has an independent photo-review meeting; Ankita's form and Shivani's documents have practical outcomes. Keep the successful dialogue and established names/times.",
       "gap": "Shreya L10/34–68: visual styling is described and chosen, but Chotu's observable response gets resolved through a short compliment and the scene quickly returns to design critique; the intended distinctive turning point is underexecuted. Tanya L93–177: despite intended highest escalation, encounter consists chiefly of photo comparison, jokes, envelope exchange and Laksh interruption; there is no stronger new relationship milestone or consequential change. Chotu L369–400: retrospective lists four experiences but doesn't dramatize what the previous experience changed during the next one. These are SCENE-LEVEL shortcomings, NOT two missing sentences.",
-      "next": "Do not apply the previous 2-line cosmetic patch as a complete solution. Redesign Shreya and Tanya scene objectives and consequences and their Tuesday 09:25→14:00 Chotu state handoff using a fresh reader-approved non-graphic director brief, then commission writer prose and independently evaluate it against the exact acceptance criteria.",
+      "next": "Do not use P07A Ankita text. Use selected Grok Revised V1 for the sole active Ankita Part 7 scene.",
       "source": "data/stories/e01_part7_four_doors_one_new_secret_draft.md",
       "kind": "critical creative mismatch"
     },
     {
       "id": "P07B",
       "title": "Part 7 Version B — Four Encounters",
-      "status": "ALTERNATE ALSO NOT READY — DO NOT AUTO PROMOTE",
-      "release": "Alternative untouched, not canon",
+      "status": "OBSOLETE MIXED-DRAFT SOURCE — ANKITA SCENE DISCARDED",
+      "release": "Older Ankita prose deleted from working markdown; other women's unfinished Part 7B scenes remain review sources only. No longer published as a Story Lab reader page.",
       "dhika": "E01-L217–224",
       "strength": "Alternate complete episode closing candidate available for side-by-side comparison.",
       "gap": "Version B Shreya L173–239 and Tanya L259–339 are still predominantly photo critique, teasing and work closure; Chotu L343–399 recaps rather than establishing strong earlier-to-later behavioural carry-over. It is NOT demonstrated that swapping to Version B meets intended escalation.",
-      "next": "Preserve as comparison only. Rework from a scene-outcome spec instead of selecting B simply because A failed.",
+      "next": "Do not use P07B Ankita text. Use selected Grok Revised V1 for the sole active Ankita Part 7 scene.",
       "source": "data/stories/e01_part7_the_four_encounters_draft.md",
       "kind": "critical creative mismatch"
     },
@@ -179,7 +179,7 @@
     {
       "id": "P07ANK",
       "title": "Part 7 — Ankita Grok handoff · complete encounter",
-      "status": "INSTRUCTIONS PUBLISHED · PROSE UNWRITTEN · READER REVIEW PENDING",
+      "status": "WRITER INSTRUCTION ONLY — NOT AN ALTERNATE STORY VERSION",
       "source": "data/stories/e01_part7_ankita_grok_instruction_v1.md",
       "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-ankita-grok-v1",
       "continuity": [
@@ -215,14 +215,14 @@
     {
       "id": "P07ANKGROKV1",
       "title": "Part 7 — Ankita received Grok prose · structured reader v1",
-      "status": "USER-PROVIDED GROK PROSE ARCHIVED; EDITORIAL V1 PUBLISHED FOR REVIEW; NOT CANON",
+      "status": "USER-SELECTED / SOLE ACTIVE ANKITA PART 7 STORY EDITION · GROK REVISED V1",
       "source_original": "data/stories/e01_part7_ankita_grok_raw_received_20261024.md",
       "source_revised": "data/stories/e01_part7_ankita_grok_reader_v1.json",
       "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-ankita-revised-v1",
       "preserved": "Descriptive sensual passages, character introspection, duration and eye-contact language verbatim from user-provided text",
       "fixes": "Monday raat -> Monday shaam (Part6 at 4:10 PM); replace narrative 'Part 5' label with Saturday rocket incident; identify verification certificate/receipt photo, physical table/camera staging and legitimate retake; move spoken lines to explicit Ankita/Chotu dialogue channels; narrator/Ankita/Chotu perspectives separately readable",
       "quality": "39 chronological blocks; 6 unchanged spoken lines; original Grok transcript separately archived. Neither old Part 7A nor B replaced.",
-      "next": "User reviews full chronological and perspective filters, then decides whether to merge into Part 7."
+      "next": "Reader can send Shivani's new Part 7 material; never restore old Part 7A/B Ankita stories."
     }
   ],
   "rules": [
@@ -535,6 +535,14 @@
       "status": "FOUR COPYABLE INSTRUCTION FILES / VIEWS, NOT STORY CANON",
       "issue": "Reader explicitly fixed Grok role as Sex Story Writer, rejected incorrectly formal 'professional composure with Chotu' for Shreya and requested scene-by-scene escalation and distinct stopping points for Shreya/Tanya.",
       "fix": "Shreya and Tanya each get separate 8-step source-checked 850–900-word writer instruction briefs with individual Copy control in Story Lab; Ankita/Shivani existing role labels changed to Sex Story Writer only; no Part 5/6/7 prose source overwritten. Tanya scene stops before an ending; Shivani ending remains deferred."
+    },
+    {
+      "id": "C035",
+      "scope": "E01 PART 7 — ANKITA VERSION CONSOLIDATION",
+      "type": "USER-DIRECTED DISCARDS / SINGLE ACTIVE VERSION",
+      "status": "COMPLETE · UI AND SOURCE CLEANED",
+      "issue": "Old full Part 7A/B reader pages and their embedded Ankita scenes competed with user-submitted selected Grok Revised V1, causing duplicate Ankita versions.",
+      "fix": "Deleted old Ankita scene blocks from both mixed-character working Markdown sources while leaving every subsequent character scene unmodified. Removed both A/B story reader pages and all UI navigation to them; kept the single Grok Revised V1 Ankita story reader and optional instructions. Git history retains normal revision trace. Other characters' draft prose still needs separate editorial decisions."
     }
   ],
   "chronology": [
