@@ -3,6 +3,8 @@
 <meta name="description" content="Focused director workspace for the original DHIKA Episode 01 source and Four Walls, Four Secrets prologue, characters and approved scenes.">
 <title>Four Walls, Four Secrets · Director Workspace</title>
 <style>
+.revision-legend{padding:15px 18px;margin:17px 0;background:#2a3040;border:1px solid #c58b3b;border-radius:12px}.draft-change{background:rgba(255,171,57,.15);border-radius:5px;padding:3px 4px;color:#ffd19a}.draft-change u{text-decoration:underline 2px solid #ffa641;text-underline-offset:3px}.draft-suggestion{font-weight:700;color:#fff2df}.scene-in-one-part{border-top:1px solid #35485c;padding-top:7px}.scene-number{font-size:12px;font-weight:800;color:#f1c994;margin:25px 0 2px}.no-edit-note{margin:14px 0;padding:12px 17px;border-left:3px solid #a0b7ca;background:#22374c;border-radius:7px}
+
 :root{--bg:#0b1220;--sidebar:#111c2e;--panel:#152339;--paper:#18283f;--text:#e7edf4;--muted:#aebdd0;--line:#33465f;--accent:#efc88a;--accent-bg:#363323;--danger:#edbe94;color-scheme:dark;font:15px/1.56 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--text);background:var(--bg)}*{box-sizing:border-box}body{margin:0}button{font:inherit}a{color:#f3cd8e}a:hover{text-decoration:none}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(23px,3vw,35px);line-height:1.2;margin-bottom:10px}h2{font-size:18px;line-height:1.35}h3{font-size:15px;margin-top:19px;margin-bottom:4px}p{line-height:1.68}small,.sub{color:var(--muted)}.app{display:grid;grid-template-columns:268px minmax(0,1fr);min-height:100vh}.sidebar{background:var(--sidebar);border-right:1px solid var(--line);padding:25px 14px;height:100vh;position:sticky;top:0;overflow-y:auto}.brand{padding:0 12px 20px;border-bottom:1px solid var(--line);margin-bottom:18px}.brand .logotype{font-size:18px;font-weight:800;line-height:1.1}.brand .logotype em{font-style:normal;color:var(--accent)}.brand p{font-size:12px;color:var(--muted);margin:8px 0 0}.group-label{font-size:11px;color:var(--accent);font-weight:800;letter-spacing:.12em;margin:20px 12px 8px;text-transform:uppercase}.side-button{border:1px solid transparent;color:#cddbea;background:none;text-align:left;display:flex;align-items:center;gap:10px;width:100%;padding:10px 13px;border-radius:9px;cursor:pointer;font-size:14px}.side-button:hover{background:#21334b}.side-button.active{background:#314056;border-color:#64738a;color:#fff;font-weight:700}.side-button.primary{background:var(--accent-bg);border:1px solid #6c6044;color:#f5d9ad;margin-bottom:8px}.part-group{padding-left:11px;border-left:1px solid #526076;margin-left:17px}.side-button .num{color:#bdab87;font-size:12px;min-width:20px}.minor-link{display:block;font-size:12px;padding:12px;margin-top:20px;color:#b8c9dc}.workspace{min-width:0}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:8px;border-bottom:1px solid var(--line);padding:19px 30px;background:#102034}.crumb{color:#b8c8d9;font-size:13px}.tag{display:inline-flex;align-items:center;border-radius:8px;border:1px solid #726547;background:#302e29;color:#edd09e;font-size:11px;font-weight:700;padding:3px 8px;vertical-align:middle}.main{max-width:1080px;margin:0 auto;padding:30px 28px 60px}.view[hidden],[data-profile][hidden]{display:none!important}.kicker{font-size:11px;font-weight:800;color:var(--accent);letter-spacing:.12em;margin-bottom:9px}.review-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:24px 0}.paper,.reader,.character-card,.empty,.evidence,.callout{border:1px solid var(--line);border-radius:15px;background:var(--panel);padding:22px}.paper h2{color:#edc78a;font-size:17px}.paper h3{color:#d5e0ef}.paper p{color:#d9e3ef}.paper-icon{font-weight:800;font-size:11px;letter-spacing:.1em;color:#8eb5d0;margin-bottom:12px}.warn-lite{margin-top:16px;background:#222c39;border-left:3px solid #b89056;padding:14px 17px;border-radius:8px;color:#d9dfe9;font-size:13px}.evidence{padding:0;overflow:hidden}.evidence summary{list-style:none;cursor:pointer;padding:17px 22px;font-weight:750}.evidence summary::-webkit-details-marker{display:none}.evidence summary::before{content:"▸";color:var(--accent);padding-right:10px}.evidence[open] summary::before{content:"▾"}.evidence summary span{font-weight:400;color:var(--muted);font-size:12px;padding-left:10px}.evidence ol{margin:0;padding:2px 24px 24px 52px;background:#111f31}.evidence li{padding:12px 4px;border-bottom:1px solid var(--line)}.evidence li>div{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.evidence li strong{font-size:13px}.evidence li p{margin:5px 0 2px;color:#d6e1ec}.evidence li small{font-size:11px}.sourcefoot{display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;font-size:12px;color:#adbed0;padding:15px 0}.pager{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-top:18px}.pager button{border:1px solid #66768a;border-radius:9px;background:#273a55;color:white;padding:9px 15px;cursor:pointer}.pager button:disabled{opacity:.32;cursor:default}.reader{max-width:830px;margin-top:20px;background:#16263c;line-height:1.76}.reader h3{margin-top:16px}.reader-intro{padding:12px 18px;border-left:3px solid #edc78a;background:#1e3045;margin-bottom:22px}.reader-intro p:last-child{margin-bottom:0}.reader .dialogue{padding-left:12px;border-left:2px solid #92754a;margin-bottom:13px}.reader hr{border:0;border-top:1px dashed #485a70;margin:21px 0}.reader p{margin-bottom:13px}.reader .eyebrow{color:#efc88a;font-size:12px;font-weight:700}.person-layout{display:grid;grid-template-columns:265px 1fr;gap:18px;margin-top:22px}.people-menu{background:#122035;border:1px solid var(--line);border-radius:13px;padding:7px;height:max-content}.person-btn{width:100%;display:flex;align-items:center;gap:10px;text-align:left;border:0;border-radius:9px;padding:11px 10px;background:transparent;color:var(--text);cursor:pointer}.person-btn:hover,.person-btn.selected{background:#31455f}.person-btn small{display:block;font-size:11px}.person-btn b{font-size:13px}.avatar{font-size:20px;filter:grayscale(1);background:#293b50;border-radius:12px;width:34px;height:34px;display:flex;align-items:center;justify-content:center}.arrow{margin-left:auto;color:var(--accent);font-size:19px}.character-card{min-height:390px}.profile-head{display:flex;align-items:center;gap:20px}.profile-head h2{font-size:27px;margin:7px 0}.photo{height:185px;min-width:148px;border:1px dashed #70839a;background:#26394e;border-radius:13px;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:42px;color:#9fb0c6}.photo small{font-size:12px}.facts{padding-top:22px}.facts h3{color:#edc78a}.empty{margin-top:22px;text-align:center;padding:48px 22px}.empty .symbol{font-size:34px;color:#aab7c8}.empty h2{margin-top:10px}.callout{margin-top:20px}.notice{font-size:13px;color:#c7d4e4}code{color:#e2c998;font-size:12px}.foot{font-size:12px;color:#93a7bf;margin-top:25px}.mobile-legend{display:none}
 @media(max-width:900px){.app{grid-template-columns:225px minmax(0,1fr)}.review-columns,.person-layout{grid-template-columns:1fr}.people-menu{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.main{padding:24px 16px 50px}.toolbar{padding:16px}.reader{padding:15px}}
 @media(max-width:620px){.app{display:block}.sidebar{position:relative;height:auto;padding:12px;border-right:0;border-bottom:1px solid var(--line)}.brand{padding:7px 8px 11px}.brand p{display:none}.group-label{margin:10px 10px 5px}.part-group{padding-left:0;margin-left:0;border-left:0;display:flex;overflow-x:auto;gap:3px}.part-group .side-button{flex:0 0 auto;width:auto;font-size:12px}.side-button{padding:8px}.mobile-legend{display:block;color:var(--muted);font-size:12px;margin:8px 10px}.toolbar{padding:10px 14px}.main{padding:18px 12px 45px}.paper,.character-card,.reader{padding:16px}.people-menu{grid-template-columns:1fr 1fr}.profile-head{flex-direction:column;align-items:flex-start}.photo{width:100%;min-width:0}.pager button{padding:8px 10px}.evidence ol{padding-left:35px}}
@@ -41,8 +43,8 @@
 <button class="side-button" data-go="story-part4-shivani">📋 &nbsp; Part 4 — Shivani Plan</button>
 <button class="side-button" data-go="story-part4-tanya">🎭 &nbsp; Part 4 — Tanya Storeroom</button>
 <button class="side-button" data-go="story-part4-shreya">🎵 &nbsp; Part 4 — Shreya Music</button>
-<button class="side-button" data-go="story-part5-chotu">📖 &nbsp; Part 5 — Chotu (Full Draft)</button>
-<button class="side-button" data-go="story-part5-continuation">📖 &nbsp; Part 5 — Chotu Follow-Ups</button>
+<button class="side-button" data-go="story-part5-chotu">📖 &nbsp; Part 5 — Complete (9 Scenes)</button>
+
 <button class="side-button" data-go="story-part6-four-decisions">✍ &nbsp; Part 6 — Chaar Faisle (Full Draft)</button>
 <button class="side-button" data-go="story-part7-director-cut">📖 &nbsp; Part 7 — Latest Full Draft</button>
 <button class="side-button" data-go="story-part7-four-encounters">📄 &nbsp; Part 7 — Earlier Alternate</button>
@@ -229,7 +231,7 @@
 <p class="draft-line"><span class="lno">FWFS-E01-P01-L055</span>Rehearsal music bajne laga. Chaaron friends next task ki taraf chal di; unhe kisi secret ka andaaza nahi tha. Lekin reader ke liye wahi normal conversations ab alag meaning rakhti thi: ek elder ka purana pull, doosre ka self-conscious interest, teesre ki quietly developing attraction aur chauthe ki chaaron mein alag preference. Kisi woman ne attraction return nahi kiya tha, aur koi future encounter abhi establish nahi hua tha.</p></article>
 <div class="callout"><h2>Director review checkpoint</h2><p>V2 changes: a single central problem, more natural friendship dialogue and four distinct internal attraction patterns. Review whether the viewpoints are believable and distinct? Is the scene natural and slow enough? Are the highlights too explicit, not explicit enough, or at the wrong point?</p><p class="notice">This is a new original-fiction draft, not copied from DHIKA; no secret is mutual or publicly discovered. No Grok draft has been approved.</p></div>
 <details class="evidence scene-lens"><summary>✦ Key private attraction reveals <span>Source lines P01-L019 / 029 / 040 / 047</span></summary><div style="padding:10px 20px"><p><b>Mahendra → Ankita:</b> attention to her voice and presence. <b>Harish → Shreya:</b> her unguarded laughter and confidence. <b>Prakash → Shivani:</b> measured voice and calm composure. <b>Virendra → all four:</b> private preference strongest toward Tanya. <b>Mechanism:</b> everyday task → outwardly ordinary conversation → reader-only attraction; all four women unaware.</p></div></details></section>
-<section class="view" data-view="story-part2-ankita" hidden>
+<section class="view" data-view="story-part2-ankita" hidden><div class="no-edit-note"><b>Part 2 में कोई confirmed गलत line नहीं मिली — यहाँ कुछ नहीं बदल रहा।</b> Ankita's work interactions and Saturday studio appointment are already written clearly. अगली reaction का connection Part 4/5 में check करेंगे, इस part को rewrite नहीं.</div>
 <div class="kicker">FOUR WALLS / EPISODE 01 / PART 2 · ANKITA TRACK</div>
 <h1>Part 2 — Ankita</h1><p class="sub">Saturday · 1:00–3:00 PM · From The Courtyard to Ankita's professional world</p><span class="tag">V2 REVISED PROSE · SLOW-BURN TENSION · DIRECTOR REVIEW</span>
 <div class="warn-lite"><b>Approved scene sequence carried into this draft:</b> 1 PM digital check-in with Nikhil Sethi (35) → 1:15 PM coffee and teasing with Shreya (31) → 2 PM online UX call with Karan Malhotra (36) and Aman Joshi (30) → 2:45 PM husband Ritvik (36) at home → <b>STOP when Ankita leaves around 3 PM</b>. No in-person meeting is shown.</div>
@@ -307,7 +309,7 @@
 <p class="draft-line"><span class="lno">FWFS-E01-P02-A-L059</span>Darwaaza uske peeche band ho gaya. Andar ghar ki familiar awaazen thi; bahar ek ordinary Saturday ka agla, abhi unknown chapter. Ankita meeting ke liye nikli thi—wahi Part 2 ka aakhri pal tha.</p></article>
 <div class="callout"><h2>Director self-review · criteria-based</h2><p><b>Verified continuity:</b> wedding still Sunday; Part 1 ends at Saturday rehearsal; all four women are married adults; Nikhil (35), Karan (36) and Aman (30) match the roster; 2 PM call precedes home scene; draft ends with 3 PM departure.</p><p><b>Source-function check:</b> contrasting personalities, professional social space, compliment/private reaction and friend teasing are all included. This is a structural comparison, not a claim that narrative quality can be guaranteed at 10/10.</p><p><b>Open editorial risk:</b> pace may be crowded; Shreya's coffee scene must remain believable and not copy Sharmi's original wording or conduct. Future personal attractions are unapproved.</p></div>
 <details class="evidence scene-lens"><summary>✦ Ankita · attraction, blush, gaze and concealment <span>P02-A key lines marked</span></summary><div style="padding:10px 20px"><p><b>Nikhil's gaze:</b> her concentration and smile (A-L005,013). <b>Shreya's teasing:</b> catches that gaze; Ankita warms at the cheeks and adjusts her <b>stole</b> (A-L018–027). <b>Karan vs Aman:</b> open compliment compared with technical, quiet appreciation (A-L030–046). <b>Closing fact:</b> she leaves for an actual-device test near 3 PM (A-L057–059). Her next fitted outfit is only a Part 4 selection.</p></div></details></section>
-<section class="view" data-view="story-part2-shivani" hidden><div class="kicker">FOUR WALLS / EPISODE 01 / PART 2 · SHIVANI</div><h1>Part 2 — Shivani</h1><p class="sub">Saturday · 1:08–2:20 PM · The Courtyard bridal room → CA office</p><span class="tag">V2 REVISED PROSE · DIRECTOR REVIEW</span><div class="warn-lite"><b>Cast:</b> Shivani Sinha (33), shy and quietly playful; Anika (32, working age), outgoing bride; Sahil Khurana (34), her fiancé; Raghav Kapoor and Rishabh Kapoor (20 each), adult twin commerce interns mentored by Shivani. Four-month familiarity is established. Friendly compliments and teasing are not assumed to be reciprocated romance. Mentor responsibilities remain in force.</div><details class="evidence" style="margin-top:15px"><summary>Source-function comparison and future continuity <span>Click to review the narrative reasoning</span></summary><div style="padding:8px 22px 19px"><p><b>DHIKA E01-L030–042:</b> contrasting twin personalities; favourite trainees; repeated compliments and a character's private reaction. <b>Our structure:</b> two adult interns with an earned four-month mentoring relationship, one talkative and one reserved; Shivani's internal response is highlighted.</p><p><b>DHIKA E01-L052–063:</b> a naughty close friend contrasts with a shy protagonist; outside compliment creates more playful conversation. <b>Our structure:</b> Anika's bridal-room teasing, Sahil's friendly compliment and Shivani's confident private humour.</p><p><b>Part 4 continuity seed:</b> Monday 9:30 AM client report creates a credible professional reason for the twins to return. No future encounter or romantic development is locked.</p><p><b>Continuity:</b> Shivani's wedding-room interaction overlaps Ankita's Part 2 without contradicting it. Interns are both exactly 20 and adults; Shivani is their mentor.</p></div></details><div class="reveal-key"><b>Highlighted inner reactions</b><p>Yellow narration reveals Shivani's shy-versus-playful contrast, her gradually comfortable reaction to compliments, the twins' differing motives, and her private interpretation.</p></div><article class="draft-paper"><h2>Episode 01 — Part 2: Shivani</h2><p class="sub">52 numbered narrative/dialogue beats · 2 locations · 4 highlighted internal-reaction passages</p><h3 class="part2-stage">Saturday 1:08 PM · The Courtyard bridal room</h3>
+<section class="view" data-view="story-part2-shivani" hidden><div class="no-edit-note"><b>Part 2 में कोई confirmed गलत line नहीं मिली — यहाँ कुछ नहीं बदल रहा।</b> Raghav and Rishabh's different reactions and Monday report are already established. अगली reaction का connection Part 4/5 में check करेंगे, इस part को rewrite नहीं.</div><div class="kicker">FOUR WALLS / EPISODE 01 / PART 2 · SHIVANI</div><h1>Part 2 — Shivani</h1><p class="sub">Saturday · 1:08–2:20 PM · The Courtyard bridal room → CA office</p><span class="tag">V2 REVISED PROSE · DIRECTOR REVIEW</span><div class="warn-lite"><b>Cast:</b> Shivani Sinha (33), shy and quietly playful; Anika (32, working age), outgoing bride; Sahil Khurana (34), her fiancé; Raghav Kapoor and Rishabh Kapoor (20 each), adult twin commerce interns mentored by Shivani. Four-month familiarity is established. Friendly compliments and teasing are not assumed to be reciprocated romance. Mentor responsibilities remain in force.</div><details class="evidence" style="margin-top:15px"><summary>Source-function comparison and future continuity <span>Click to review the narrative reasoning</span></summary><div style="padding:8px 22px 19px"><p><b>DHIKA E01-L030–042:</b> contrasting twin personalities; favourite trainees; repeated compliments and a character's private reaction. <b>Our structure:</b> two adult interns with an earned four-month mentoring relationship, one talkative and one reserved; Shivani's internal response is highlighted.</p><p><b>DHIKA E01-L052–063:</b> a naughty close friend contrasts with a shy protagonist; outside compliment creates more playful conversation. <b>Our structure:</b> Anika's bridal-room teasing, Sahil's friendly compliment and Shivani's confident private humour.</p><p><b>Part 4 continuity seed:</b> Monday 9:30 AM client report creates a credible professional reason for the twins to return. No future encounter or romantic development is locked.</p><p><b>Continuity:</b> Shivani's wedding-room interaction overlaps Ankita's Part 2 without contradicting it. Interns are both exactly 20 and adults; Shivani is their mentor.</p></div></details><div class="reveal-key"><b>Highlighted inner reactions</b><p>Yellow narration reveals Shivani's shy-versus-playful contrast, her gradually comfortable reaction to compliments, the twins' differing motives, and her private interpretation.</p></div><article class="draft-paper"><h2>Episode 01 — Part 2: Shivani</h2><p class="sub">52 numbered narrative/dialogue beats · 2 locations · 4 highlighted internal-reaction passages</p><h3 class="part2-stage">Saturday 1:08 PM · The Courtyard bridal room</h3>
 <p class="draft-line dna-highlight"><span class="lno">FWFS-E01-P02-S-L001</span>Hall ke floral arch ka problem solve ho chuka tha. Shivani revised guest list lekar bridal room mein aayi. Sea-green saree ka pallu neatly pinned tha, baalon ke paas chhoti pearl earrings chamak rahi thi. Woh apni appearance par kabhi shor nahi karti thi; shayad isi liye Anika ne mirror mein uska reflection dekhte hi smile kar di.</p>
 <p class="draft-line dialogue-line"><span class="lno">FWFS-E01-P02-S-L002</span><b>Anika:</b> Aao Madam Sinha! Face par phir audit report wala expression? Kal meri shaadi hai, income-tax raid nahi.</p>
 <p class="draft-line dialogue-line"><span class="lno">FWFS-E01-P02-S-L003</span><b>Shivani:</b> Main bas guest list dene aayi hoon. Aur in dono mein left wala dupatta better hai.</p>
@@ -361,7 +363,7 @@
 <p class="draft-line dialogue-line"><span class="lno">FWFS-E01-P02-S-L050</span><b>Rishabh:</b> Report ka promise main kar sakta hoon, ma&#39;am. Iski commentary ka nahi.</p>
 <p class="draft-line dna-highlight"><span class="lno">FWFS-E01-P02-S-L051</span>Lift mein Shivani ko Raghav ki familiar line se zyada Rishabh ka hesitant &#39;main bhi agree karta hoon&#39; yaad aa raha tha. Usne phone screen mein apna reflection dekha aur pallu theek kiya. Anika ki bold teasing, Sahil ki warm tareef aur twins ke opposite andaaz—har ek ne uski reserved smile ko alag tarah chhua tha.</p>
 <p class="draft-line dna-highlight narrator-reveal"><span class="lno">FWFS-E01-P02-S-L052</span><mark><strong>READER-ONLY · Shivani:</strong> Office se nikalte hue usne Monday ka reminder save kiya. Uski zindagi wahi thi—Aditya, ghar, kaam, apni familiar routines. Lekin aaj kuch tareefein unexpected tarah yaad reh gayi thi. Woh kisi relationship ka decision nahi tha, sirf ek aisi private awareness thi jiske baare mein woh abhi kisi se baat nahi karna chahti thi.</mark></p></article><div class="callout"><h2>Editorial checkpoint</h2><p>The narrative gives Shivani a recognizably different voice from Ankita, links Anika and Sahil to the existing Sunday wedding, distinguishes both interns, and establishes friendly banter without compromising the workplace mentoring boundaries.</p><p><b>Not yet canon:</b> any romantic relationship with the twins, next meeting beyond the Monday work expectation, or any scenes for Shreya/Tanya. This draft can still receive numbered-line corrections.</p></div><details class="evidence scene-lens"><summary>✦ Shivani · saree, compliments and hidden contrast <span>P02-S key lines marked</span></summary><div style="padding:10px 20px"><p><b>Wardrobe:</b> sea-green saree, pinned pallu and pearl earrings (S-L001). <b>Anika:</b> praises her looks; she blushes and fixes pallu (S-L006–012). <b>Raghav:</b> openly calls her lovely in the office (S-L027–032). <b>Rishabh:</b> quieter, surprising compliment, more memorable to Shivani in the lift (S-L039–052). <b>End:</b> Saturday office exit, Monday report still scheduled.</p></div></details></section>
-<section class="view" data-view="story-part2-shreya" hidden>
+<section class="view" data-view="story-part2-shreya" hidden><div class="no-edit-note"><b>Part 2 में कोई confirmed गलत line नहीं मिली — यहाँ कुछ नहीं बदल रहा।</b> Aarav/Neel's rehearsal and Sunday's sound-check plan are already present. अगली reaction का connection Part 4/5 में check करेंगे, इस part को rewrite नहीं.</div>
 <div class="kicker">FOUR WALLS / EPISODE 01 / PART 2 · SHREYA</div>
 <h1>Part 2 — Shreya</h1><p class="sub">Saturday · 3:32–4:15 PM · The Courtyard society lawn, music rehearsal</p>
 <span class="tag">V2 REVISED PROSE · DIRECTOR REVIEW</span>
@@ -411,7 +413,7 @@
 <p class="draft-line dna-highlight narrator-reveal" id="shreya-shreya"><span class="lno">FWFS-E01-P02-SH-L038</span><mark><strong>READER-ONLY · Shreya:</strong> Shreya ko apni beauty ki tareef sunne ki aadat thi, lekin music ki woh chhupi hui duniya kisi ne kab notice ki thi? Aarav ne seedhe kaha woh khoobsurat gaati hai, Neel ne bina shor uski timing ko respect diya. Dono compliments uske andar alag jagah thehar gaye. Usne unhe society ke do sweet, familiar friends hi samjha. Un dono ke mann mein kya chal raha tha, woh nahi jaanti thi—aur apni kuch pal ki jhijhak ka naam bhi usne nahi rakha.</mark></p>
 <p class="draft-line"><span class="lno">FWFS-E01-P02-SH-L039</span>Shreya ne dono ko thank you kaha aur lawn se ghar ki taraf chal di. Peechhe guitar par wahi melody phir chhedi gayi. Usne bina palte muskura kar ek sur apne mann mein poora kiya. Aarav ne usse jaate dekha; Neel ne speaker mute kar diya. Kal ka cue fix tha—par teeno ke liye aaj ki rehearsal sirf timing chart nahi reh gayi thi.</p></article>
 <div class="callout"><h2>Self-review</h2><p><b>Stronger continuity:</b> The characters are familiar society volunteers, the meeting has a concrete musical purpose, and the timing follows the two earlier female tracks. Shreya's public confidence and private shyness are shown rather than merely asserted.</p><p><b>Open for revision:</b> the level of friendly compliments and the frequency of narrator explanations. The story does not establish Shreya's attraction or any new relationship.</p></div><details class="evidence scene-lens"><summary>✦ Shreya · music-driven chemistry <span>P02-SH key lines marked</span></summary><div style="padding:10px 20px"><p><b>Look:</b> deep-maroon kurti and silver jhumkas (SH-L001). <b>Aarav:</b> guitar and direct admiration for her unexpectedly beautiful voice (SH-L018–023); she smiles and momentarily loses her reply. <b>Neel:</b> quiet focus on her timing and a private crush (SH-L024–030). <b>Sunday noon sound-check</b> follows naturally; no contact has occurred yet in Part 2.</p></div></details></section>
-<section class="view" data-view="story-part2-tanya" hidden>
+<section class="view" data-view="story-part2-tanya" hidden><div class="no-edit-note"><b>Part 2 में कोई confirmed गलत line नहीं मिली — यहाँ कुछ नहीं बदल रहा।</b> All four adult cousin-devars and their Sunday responsibilities are already present. अगली reaction का connection Part 4/5 में check करेंगे, इस part को rewrite नहीं.</div>
 <div class="kicker">FOUR WALLS / EPISODE 01 / PART 2 · TANYA</div>
 <h1>Part 2 — Tanya</h1><p class="sub">Saturday · 4:32–5:40 PM · The Courtyard clubhouse</p>
 <span class="tag">V2 REVISED PROSE · DIRECTOR REVIEW</span>
@@ -632,136 +634,9 @@
 </ol><p><a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shreya_director_plan.md" target="_blank" rel="noopener">Open full Shreya director brief ↗</a></p></article>
 <details class="evidence scene-lens" open><summary>✦ Part 4 Shreya · attraction anchors <span>Specific body and reaction locations</span></summary><div style="padding:10px 20px"><p><b>Compliment:</b> her singing and appearance. <b>Contact 1:</b> Neel at <b>earlobe, outer neck</b>, warm breath nearby; Shreya notices <b>toned forearms and shoulders</b>; a missed count and blush. <b>Contact 2:</b> Aarav teaches a chord, short <b>finger/palm/forearm</b> proximity and close voice; wrong chord and shy laughter. <b>Hook:</b> her new private attraction to both feels different, and she is surprised by it. <b>Status:</b> scene plan only.</p></div></details>
 </section>
-<section class="view" data-view="story-part5-continuation" hidden>
-<div class="kicker">FOUR WALLS / EPISODE 01 / PART 5 · FOLLOW-UP READER PREVIEWS</div>
-<h1>Part 5 — Chotu Returns · Four Follow-Ups</h1>
-<p class="sub">After Part 5's first accidental-view encounters · four separate visits and conversations</p>
-<span class="tag">GPT READER-PREVIEW DRAFTS · NOT FINAL CANON · NOT PART 6</span>
-<div class="warn-lite"><b>Sequence:</b> These four scenes follow the saved Part 5 full draft; they are not Part 6. The Part 3 uncles' hidden incidents occurred <b>before</b> Chotu's arrival. Chotu is not implicated in the missing or displaced garments. Reader approval of final wording is still pending.</div>
-<article class="draft-paper" style="margin-top:20px"><h2>Ankita — The Unfinished Conversation</h2><p class="sub">Sunday · 10:15 AM · Bansal Apartment</p><p>Subah Ankita laptop par laundry service ka complaint form bhar rahi thi. Kal shaam ka packet kholne par ek matching innerwear set missing mila tha. Usne dobara check kiya, phir service ko message kiya. Use nahi pata tha ki parcel galat flat mein pahunchne ke baad kya hua tha.</p>
-<p>“Mom, rocket ki lights phir band hain!” Rey ki awaaz sunkar woh hans padi.</p>
-<p>“Tumhara rocket Mars tak pahunchne se pehle retirement le lega.”</p>
-<p>Usi samay doorbell baji. Chotu batteries ka replacement lekar khada tha.</p>
-<p>“Good morning, didi!”</p>
-<p>“Good morning, Chotu Babu. Kal ke rocket engineer ko phir tumhari zaroorat hai.”</p>
-<p>Ankita ne use andar bulaya. Aaj usne soft cotton kurti pehni thi. Baal dheele bandhe the aur chehre par pichhli raat ki thakaan thi.</p>
-<p>Chotu ne samaan rakhkar Rey ke saath circuit check karna shuru kiya.</p>
-<p>Ankita ne use kaam karte dekha. Kal woh achanak itna chup kyun ho gaya tha? Sawaal abhi bhi uske mann mein tha.</p>
-<p>“Chotu, kal kuch hua tha kya? Ekdum silent ho gaye the.”</p>
-<p>“Arre nahi didi. Bas aap logon ka rocket dekh raha tha.”</p>
-<p>“Achha? Itna complicated hai hamara rocket?”</p>
-<p>“Engineer sahab ka project hai. Darna toh padega!”</p>
-<p>Ankita hans di.</p>
-<p>Kuch der baad usne dekha ki Chotu apne phone par kisi online application ko samajhne ki koshish kar raha hai.</p>
-<p>“Dikhao.”</p>
-<p>“Didi, store ke liye ek delivery app ka form hai. Samajh nahi aa raha.”</p>
-<p>Ankita uske paas baithkar form samjhane lagi.</p>
-<p>“Ye dekho, har field ke neeche example diya hai. Pehle address bharo, phir documents upload karo.”</p>
-<p>Chotu chupchaap uski baat sunta raha.</p>
-<p>Kal usne Ankita ki appearance ko alag nazar se notice kiya tha. Aaj uski confidence aur madad karne ke andaaz ne use aur prabhavit kiya.</p>
-<p>“Didi, aap sab kitni aasani se samjha deti ho.”</p>
-<p>“Professional habit hai, Chotu Babu.”</p>
-<p>Rey beech mein bola, “Mumma best teacher hain!”</p>
-<p>Ankita muskuraayi.</p>
-<p>Chotu ne jaate-jaate dhanyavaad kaha. Woh phir normal lag raha tha. Lekin Ankita ko kal shaam ki uski achanak badli expression yaad thi.</p>
-<p>Aur laundry complaint ka jawaab abhi tak nahi aaya tha.</p></article>
-<article class="draft-paper" style="margin-top:20px"><h2>Shivani — The Breakfast Invitation</h2><p class="sub">Sunday · 9:30 AM · Sinha Apartment</p><p>Shivani ne bathroom ka darwaaza band karke ek baar phir drying stand ki taraf dekha. Kal wahan rakhi uski bra ki position kuch alag lagi thi.</p>
-<p>“Shayad maine hi jaldi mein theek se nahi rakhi,” usne socha. Phir baat taal di.</p>
-<p>Kitchen mein Aditya ke liye breakfast taiyaar tha. Use wedding preparations mein jaldi nikalna tha.</p>
-<p>“Shivani, main hall jaa raha hoon. Tum aaram se aana,” Aditya ne kaha.</p>
-<p>“Okay. Aur please accounts waali file car mein mat bhoolna.”</p>
-<p>Uske jaane ke kuch der baad doorbell baji. Chotu dukaan se aaya tha. Haath mein kal ka pending delivery invoice aur ek chhota notebook tha.</p>
-<p>“Didi, ek help chahiye thi.”</p>
-<p>“Bolo, Chotu.”</p>
-<p>“Store ke hisaab mein ek amount match nahi ho raha.”</p>
-<p>Shivani ne notebook liya.</p>
-<p>“Tumhe calculator chalana aata hai?”</p>
-<p>“Didi!”</p>
-<p>“Achha baba, mazaak kar rahi hoon.”</p>
-<p>Dono hans diye.</p>
-<p>Shivani ne use dining table par bithaya aur do entries ka farq samjhaya. Chotu dhyaan se sunta raha.</p>
-<p>Woh uthne laga toh Shivani ne poochha, “Breakfast kiya?”</p>
-<p>“Ghar jaakar kar loonga.”</p>
-<p>“Baitho. Poha bana hai. Main bhi kha rahi hoon.”</p>
-<p>Chotu ne pehle sankoch kiya.</p>
-<p>“Didi, aap logon ko disturb...”</p>
-<p>“Arre, accountant hoon. Ek plate extra ka hisaab manage kar lungi.”</p>
-<p>Is baar woh hanskar baith gaya.</p>
-<p>Khaana khaate hue usne bataya ki dukaan ki deliveries aur ghar ki responsibilities ke beech padhaai phir shuru karna chahta hai.</p>
-<p>Shivani kuch der chup rahi.</p>
-<p>“Tum seriously padhna chahte ho toh main course options dekhne mein help kar sakti hoon.”</p>
-<p>Chotu ne uski taraf dekha. “Sach, didi?”</p>
-<p>“Haan. Lekin mehnat tumhari hogi.”</p>
-<p>Kal usne Shivani ko achanak asahaj sthiti mein dekha tha. Aaj use mehsoos hua ki uski shaant aur sankochi appearance ke peeche kitna aatmavishwas hai.</p>
-<p>Shivani ke liye yeh ek saamanya madad thi. Chotu ke liye shayad thodi adhik yaadgaar.</p></article>
-<article class="draft-paper" style="margin-top:20px"><h2>Shreya — The Boutique Compliment</h2><p class="sub">Sunday · 6:30 PM · Shreya's Boutique</p><p>Shaam tak Shreya thak chuki thi. Subah Neel ke saath sound-check aur Aarav se guitar seekhne waala chhota lesson ab bhi uske dimaag mein ghoom raha tha.</p>
-<p>Boutique mein woh fabric rolls arrange kar rahi thi. Dopahar ko Chotu ke saamne oonchi shelf se roll nikaalte samay kurti thoda upar khisakne waala awkward moment bhi yaad aaya.</p>
-<p>“Madam, aaj kaafi busy lag rahi hain.”</p>
-<p>Darwaaze se Chotu ki awaaz aayi. Woh packaging ka bacha samaan lene aaya tha.</p>
-<p>“Busy nahi, Chotu. Exhausted.”</p>
-<p>“Phir bhi aap sab manage kar leti ho.”</p>
-<p>“Bas, ab tum bhi compliments shuru mat karna!”</p>
-<p>Chotu hans pada.</p>
-<p>Shreya ne ek gift hamper nikaala.</p>
-<p>“Achha, tumhari madad chahiye. Ye ribbon pakdo.”</p>
-<p>Chotu ne ribbon pakda. Shreya ne use decorative knot banaana sikhaya.</p>
-<p>“Dekho, is corner ko fold karna hai. Zyada tight nahi.”</p>
-<p>“Didi, mere se toh grocery bag hi theek pack hote hain.”</p>
-<p>“Practice karo. Boutique assistant bana dungi.”</p>
-<p>Dono hanse.</p>
-<p>Chotu ki nazar Shreya ke haathon ki tez aur saaf movements par gayi. Use yaad aaya ki yeh wahi Shreya thi jo wedding hall mein har volunteer ko bina ghabraaye nirdesh deti thi.</p>
-<p>“Waise didi, aaj aapne gaana bhi gaya tha?”</p>
-<p>Shreya ruk gayi. “Tumne suna?”</p>
-<p>“Thoda sa. Bahut achcha tha.”</p>
-<p>Is baar Shreya sachmuch muskura di.</p>
-<p>Neel aur Aarav ne bhi uski awaaz ki tareef ki thi. Lekin Chotu se aisi baat sunne ki use ummeed nahi thi.</p>
-<p>“Thank you, Chotu.”</p>
-<p>“Phir kab gaaogi?”</p>
-<p>“Pehle guitar seekh loon!”</p>
-<p>“Guitar bhi?”</p>
-<p>Shreya hanste hue boli, “Haan. Mere talents ki list abhi complete nahi hui.”</p>
-<p>Chotu ke jaane ke baad usne ribbon waala hamper dekha.</p>
-<p>Use achcha laga ki log uske kaam ke alaawa uske chhipe hue shauk bhi notice kar rahe the.</p></article>
-<article class="draft-paper" style="margin-top:20px"><h2>Tanya — Five Against One</h2><p class="sub">Monday · 11 AM · Clubhouse Cleanup</p><p>Wedding event khatam ho chuka tha, lekin clubhouse mein abhi bhi samaan ke boxes rakhe the.</p>
-<p>Tanya ne clipboard uthaya.</p>
-<p>“Vihaan, Arjun, Dhruv, Laksh! Tum chaaron kal wedding games ke heroes the. Aaj cleanup se bhaag kyun rahe ho?”</p>
-<p>Laksh ne naatkiya andaaz mein haath jod diye.</p>
-<p>“Bhabhi, heroes ko recovery day milna chahiye.”</p>
-<p>“Achha? Toh recovery ke paise bhi kaat loon?”</p>
-<p>Sab hans pade.</p>
-<p>Tabhi Chotu khaali cartons lene aaya.</p>
-<p>“Good morning, Tanya didi.”</p>
-<p>“Arey Chotu! Tum aa gaye. At least ek responsible ladka toh hai yahan.”</p>
-<p>Arjun ne turant kaha, “Bhabhi, hum chaaron ki insult ho rahi hai!”</p>
-<p>Tanya hansi. “Insult nahi, performance evaluation.”</p>
-<p>Chotu ne bade cartons uthaane shuru kiye. Tanya ek table ke paas khadi hokar use labels bata rahi thi.</p>
-<p>Kal ki storeroom ghatna ke baad woh saavdhaani se chal rahi thi. Laksh ne bhi yaad dilaya:</p>
-<p>“Bhabhi, floor par koi kapda ho toh pehle mujhe bula lena.”</p>
-<p>“Bilkul nahi! Tumhari rescue service ki rating bahut kharaab hai.”</p>
-<p>Sab phir hans pade.</p>
-<p>Chotu kuch der chupchaap kaam karta raha.</p>
-<p>Tanya ne poochha, “Kya hua? Tum bhi inke jokes se darr gaye?”</p>
-<p>“Nahi didi. Bas aap kal se itna kaam kar rahi ho. Thakti nahi?”</p>
-<p>Tanya ek pal ko ruki.</p>
-<p>“Thakti hoon, Chotu. Bas in chaaron ke saamne admit nahi karti.”</p>
-<p>Vihaan ne uski taraf dekha. “Bhabhi, hum help toh kar rahe hain.”</p>
-<p>“Kar rahe ho. Lekin supervision ke bina tum chaaron ka result doubtful hai.”</p>
-<p>Arjun ne mazaak mein kaha, “Chotu ko fifth devar bana lo. Team strong ho jayegi.”</p>
-<p>Laksh turant bola, “Nahi bhai, phir favourite bhabhi ka favourite devar competition badh jayega.”</p>
-<p>Tanya ne clipboard band kar diya.</p>
-<p>“Bas! Ab jo sabse pehle boxes finish karega, usko chai milegi.”</p>
-<p>“Bhabhi, sabko!” Laksh chillaaya.</p>
-<p>“Dekhenge!”</p>
-<p>Kaam phir shuru ho gaya.</p>
-<p>Tanya ko unke saath ki familiar teasing achchi lag rahi thi. Lekin kal ke kuch achanak kareeb aaye kshan bhi use yaad the—khaaskar jab sabhi use girne se bachaane daude the.</p>
-<p>Woh nahi jaanti thi ki kis ladke ke mann mein kaun-si chhoti baat reh gayi hai.</p>
-<p>Aur Chotu ab unke beech ek naya parichit chehra ban chuka tha.</p></article>
-<div class="callout"><h2>Director handoff</h2><p><b>Focus:</b> Ankita — laundry question and online form; Shivani — breakfast and financial help; Shreya — boutique packaging and singing praise; Tanya — four cousin-devars and Chotu at clubhouse cleanup. These scenes build familiarity rather than repeating four accidental exposure events. Original source text is unchanged.</p><p><b>Next:</b> Part 6 is a separate upcoming scene discussion, not yet a drafted or approved chapter.</p></div>
-<p><a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part5_continuation_four_chotu_followups_draft.md" target="_blank" rel="noopener">Open complete Part 5 continuation reader drafts ↗</a></p>
-</section>
 <section class="view" data-view="story-part6-four-decisions" hidden>
 <div class="kicker">FOUR WALLS / EPISODE 01 / PART 6 · FOUR DECISIONS</div>
-<h1>Part 6 — Chaar Faisle</h1>
+<div class="revision-legend">एक वास्तविक समय की गलती: मंगलवार का काम यहाँ 'कल' लिखा है। Brackets में exact proposed correction है।</div><h1>Part 6 — Chaar Faisle</h1>
 <p class="sub">Monday afternoon to Tuesday morning · five POV sections · full story draft</p>
 <span class="tag">ORIGINAL FIRST DRAFT · SAVED UNALTERED · NOT APPROVED FINAL CANON</span>
 <div class="warn-lite"><b>Publication scope:</b> Full written reader-preview story, no softened replacement. Part 6 sets up each woman's conscious choice; Part 7 has not yet been published. Part 5 and DHIKA original sources remain unchanged.</div>
@@ -848,7 +723,7 @@
 <div class="divider"></div>
 </article><article class="draft-paper" style="margin-top:20px"><h2>CLOSING INTERCUT — CHIRAG</h2>
 <p>Society store mein Chirag ne delivery screen kholi. Chaar addresses alag time slots mein the; uske liye ab bhi yeh kaam tha, koi secret itinerary nahi.</p>
-<p>Ankita didi ka verification issue kal solve karna tha. Shivani didi ke printed brochures file mein the. Shreya didi ki boutique receipt sambhaalni thi. Tanya didi ne photographs ka kuch extra kaam diya tha.</p>
+<p><span class="draft-change" data-review="p6-kal"><u>Ankita didi ka verification issue kal solve karna tha.</u><span class="draft-suggestion"> [बदलेगा: Ankita didi ka verification issue aaj 4 baje solve karna tha.]</span></span> Shivani didi ke printed brochures file mein the. Shreya didi ki boutique receipt sambhaalni thi. Tanya didi ne photographs ka kuch extra kaam diya tha.</p>
 <p>Use chaaron pasand thi, lekin pasand ka matlab bhi chaaron ke saath alag tha. Ankita ki quick intelligence use impress karti. Shivani ki softness aur discipline, Shreya ki creative confidence, Tanya ki shararat—sab yaad rehta.</p>
 <p>Usne screen lock ki.</p>
 <p><em>“Main sabke saath waise hi baat kar paaunga jaise hamesha karta tha?”</em></p>
@@ -1213,7 +1088,7 @@
 <li>Part 2 (Ankita, Shivani, Shreya, Tanya)</li>
 <li>Part 3 (elders' hidden secrets; draft under review)</li>
 <li>Part 4 (Grok prose received in PDF; approved corrected version not yet published in this Story Lab)</li>
-<li>Part 5 + Part 5 continuation (Chotu enters four lives)</li>
+<li>Part 5 (all 9 scenes, one combined draft)</li>
 <li>Part 6 — Chaar Faisle (the women make individual choices)</li>
 <li><b>Part 7 — Chaar Mulaqatein (four payoff encounters and Chotu closing POV)</b></li>
 </ol><p><b>Important:</b> Part 3 is review prose, Part 4 exists as Grok prose outside the current site, and Parts 5–7 are unapproved manuscripts. For the latest evidence-based statuses use <a href="editorial-desk.html">Writing Rules &amp; Corrections</a>.</p></article>
@@ -1226,7 +1101,7 @@
 <article class="paper"><h2>Continuity audit — needs review before canon lock</h2>
 <ol>
 <li><b>Parts 4 and 5:</b> Part 4 Grok prose exists in the reader-provided PDF, but site views still show director plans. Resolve the named staging and continuity issues before importing chosen revised scenes.</li>
-<li><b>Calendar and wedding:</b> Part 5 continuation describes Monday cleanup after a Sunday event. Parts 6–7 run Monday/Tuesday; align Tuesday noon Shreya/Tanya actions with Tuesday 4 PM Ankita and 7 PM Shivani; prose reading order is character-focused, not clock-linear.</li>
+<li><b>Calendar and wedding:</b> Part 5 describes Monday cleanup after a Sunday event. Parts 6–7 run Monday/Tuesday; align Tuesday noon Shreya/Tanya actions with Tuesday 4 PM Ankita and 7 PM Shivani; prose reading order is character-focused, not clock-linear.</li>
 <li><b>Clothing:</b> Part 6 chooses Shivani's worn back-dori blouse; Part 7 snaps only the decorative dori and leaves main fasteners intact. No accidental disrobing or contrived repeated catch.</li>
 <li><b>Privacy mystery:</b> Ankita has a genuinely missing set; other three have displaced/rearranged items. The reader knows elder incidents preceded Chotu; characters do not.</li>
 <li><b>Relationship ethics:</b> Chotu is 22 and all four women are adults. A reaction, embarrassment or compliment does not establish an invitation or consent; characters’ knowledge must remain distinct.</li>
@@ -1242,7 +1117,7 @@
 </section>
 <section class="view" data-view="story-part7-director-cut" hidden>
 <div class="kicker">FOUR WALLS / EPISODE 01 / PART 7 · CHRONOLOGICAL DIRECTOR CUT</div>
-<h1>Part 7 — Chaar Darwaaze, Ek Naya Raaz</h1>
+<div class="revision-legend">Part 7: एक repeated sentence हटाने और Chotu की आखिरी reflection को specific बनाने के 2 suggestions। Part 7 alternate untouched.</div><h1>Part 7 — Chaar Darwaaze, Ek Naya Raaz</h1>
 <p class="sub">Tuesday 9:25 AM → late night · six consecutive chapters · 1 words of full prose</p>
 <span class="tag">NEWEST FULL STORY DRAFT · READER APPROVAL PENDING · E01 ENDING</span>
 <div class="warn-lite"><b>Version transparency:</b> This is the new chronological full prose draft. The separate previously published <b>Chaar Mulaqatein</b> draft remains available as an alternate; neither one is silently overwritten. No Part 3/4 outline is being called complete prose.</div>
@@ -1399,7 +1274,7 @@
 <article class="draft-paper e01-chapter" id="newp7-shivani" style="margin-top:24px"><h2>4. SHIVANI — THE BROKEN DORI
 <em>Tuesday · 6:58 PM · Sinha Apartment</em></h2>
 <p>Shaam ke saath hi Sinha apartment mein kitchen se tadke ki halki khushboo aa rahi thi. Shivani ne dining table par brochures aur course comparison ki ek sheet rakhi. Chotu saat baje aane wala tha.</p>
-<p>Usne cream saree pehni thi. Matching blouse ka back shoulder blades se mid-back tak khula tha, do narrow decorative doriyon ke saath. Baal upar bun mein the, isliye uski bare back ka design mirror mein saaf nazar aa raha tha; blouse ke main fasteners alag se secure the. Front fasteners alag se secure the. Monday ko wardrobe ke saamne khade hokar jo faisla kiya tha, woh aaj outfit ban chuka tha.</p>
+<p>Usne cream saree pehni thi. Matching blouse ka back shoulder blades se mid-back tak khula tha, do narrow decorative doriyon ke saath. Baal upar bun mein the, isliye uski bare back ka design mirror mein saaf nazar aa raha tha; blouse ke main fasteners alag se secure the. <span class="draft-change" data-review="p7-repeat"><u>Front fasteners alag se secure the.</u><span class="draft-suggestion"> [बदलेगा: (यह repeated sentence हटेगा, क्योंकि पीछे वाली line already says the main fasteners were secure.)]</span></span> Monday ko wardrobe ke saamne khade hokar jo faisla kiya tha, woh aaj outfit ban chuka tha.</p>
 <p>Shivani ne back mirror mein dori ko dekha. Knot uske haath se ठीक से नहीं बन रहा था। Pichhle hafte usi dori ka ek thread nikal aaya tha. Aditya ki warning yaad aayi—<em>Tailor ko dena.</em> Usne ek baar socha, kapde badal loon. Phir khud se poochha, <em>Main itni nervous kyun hoon?</em></p>
 <p>Doorbell ne sawaal adhura chhod diya.</p>
 <p>“Good evening, didi,” Chotu ne darwaaze par kaha. “Brochures aur Aditya bhaiya ki file.”</p>
@@ -1446,7 +1321,7 @@
 <p>Dukaan bandh hone ko thi. Chirag ne refrigerator ki light off ki, cash drawer balance kiya aur notebook ke last page par chaar pending reminders likhe:</p>
 <p class="sub"><em>Mehta boutique — photographs sent. Arora apartment — decor sheets collected. Bansal flat — app verified. Sinha flat — course option follow-up.</em></p>
 <p>Kaam ke hisaab se ordinary Tuesday tha. Ek bhi payment pending nahi thi.</p>
-<p>Magar uske dimaag mein din ordinary nahi tha.</p>
+<p><span class="draft-change" data-review="p7-chotu-reflection"><u>Magar uske dimaag mein din ordinary nahi tha.</u><span class="draft-suggestion"> [बदलेगा: Usne socha tha har nayi delivery ke saath pichhli jhijhak peeche reh jaayegi; aaj ulta hua—use har ghar ke saamne apne jawaab aur nazar ko naye tareeke se sambhaalna pada.]</span></span></p>
 <p>Shreya didi ne phone par apni do photographs compare karte waqt use ek aisa sawaal poochha tha jiska jawaab usne school ki kisi exam mein bhi itna sochkar nahi diya hota. Tanya didi ne uske decision ko jaanchne ke liye fake courtroom bana diya tha. Ankita didi ne uski aadhi baat complete karne ko kaha tha. Shivani didi ki dori tootne ke baad usse laga tha ki woh phir kabhi unke saamne normal nahi ho payega—phir unka message aaya aur saans aasaan hui.</p>
 <p>Usne khidki ke sheeshe mein apna reflection dekha.</p>
 <p>“Chirag,” usne dheere se kaha, “tumhe kya ho raha hai?”</p>
@@ -1497,13 +1372,12 @@
  </article><p>Open each corresponding Part 1–4 page from the left sidebar to see source-line highlighting and the exact visual/interaction lens. Separate DHIKA original source panels remain unchanged.</p>
  </section>
 <section class="view" data-view="story-part5-chotu" hidden>
-<div class="kicker">FOUR WALLS / EPISODE 01 / PART 5 · FOUR WOMEN / ONE DELIVERY WORKER</div>
-<h1>Part 5 — Chaar Darwaaze, Ek Chotu</h1>
-<p class="sub">Saturday evening to Sunday afternoon · original prose draft</p>
-<span class="tag">WRITTEN PROSE DRAFT · READER-APPROVED PREMISE · FINAL TEXT AWAITING REVIEW</span>
-<div class="warn-lite"><b>Story identity:</b> Chirag (22), commonly called Chotu, has delivered to all four homes for almost a year. Four distinct accidental visual encounters are shown; no unrelated involvement in the previous elder misconduct is implied. Part 3 elder secrets happened <b>before</b> Chotu's visits. Ankita's innerwear is <b>missing</b>, whereas Shivani/Shreya find changed positions and Tanya finds changed folding.</div>
-<div class="reveal-key"><b>Highlighted details:</b> visual/clothing mechanism, exact region briefly visible, who notices, what she feels, and earlier hidden garment clue. The content below is an actual draft to read, <b>not a summary</b>.</div>
-<article class="draft-paper" style="margin-top:20px"><h2>ANKITA — Saturday, 6:15 PM · Bansal Apartment</h2>
+<div class="kicker">FOUR WALLS / EPISODE 01 · ONE COMPLETE PART 5</div><h1>Part 5 — Chaar Darwaaze, Ek Chotu</h1>
+<p class="sub">Saturday to Monday · all 9 original scenes in chronological reading order · original prose retained</p>
+<span class="tag">COMBINED WORKING DRAFT · SUGGESTIONS ONLY · NOT CANON</span>
+<div class="revision-legend"><b>How to review:</b> <span class="draft-change"><u>orange underline = original wording</u> <span class="draft-suggestion">[बदलेगा: suggested new line]</span></span>. Bracket text has NOT replaced the original. You decide.</div>
+<div class="warn-lite"><b>Clock order:</b> Saturday Ankita → Shivani; Sunday Shivani → Ankita → Tanya → Shreya → Shreya evening → Chotu night reflection; Monday Tanya cleanup. No extra scene was invented.</div>
+<div class="scene-in-one-part"><div class="scene-number">Part 5 · Scene 1 of 9</div><article class="draft-paper" style="margin-top:20px"><h2>ANKITA — Saturday, 6:15 PM · Bansal Apartment</h2>
 <p>Cab se ghar lautkar Ankita ne laptop bag sofa ke paas rakha. Studio ki testing khatam ho chuki thi, magar Karan ki khuli tareef aur Aman ka woh achanak use sambhaal lena abhi dimaag se poori tarah gaya nahi tha. Uski deep-teal fitted top par din bhar ki silvatein thi; ivory trousers ab bhi neat the. Loose hair ka ek curl gardan ke paas chipak raha tha. Cream stole usne chair par rakh diya.</p>
 <p>“Mom, rocket ki lights nahi jal rahi!” Rey ne door ke paas se awaaz di.</p>
 <p>“Rocket mein battery lagayi bhi thi, captain?” Ankita ne poochha.</p>
@@ -1526,11 +1400,11 @@
 <p>Tabhi laundry attendant ne pehle lautaya hua ek labelled packet gate par chhod diya. Ankita ne kapde ginne shuru kiye. Packet ka ek compartment khaali tha; <mark><strong>ek matching innerwear set missing tha</strong></mark>.</p>
 <p>“Strange. Maine toh poora set bheja tha,” usne dheere se kaha.</p>
 <p>Usne laundry service ko message draft kiya. Use ye nahi pata tha ki uske naam wala packet pehle galti se <mark><strong>Mahendra ke flat</strong></mark> pahunch chuka tha—aur Mahendra ne baaki packet lautate waqt woh set apne paas rakh liya tha. Chotu ka is raaz se koi lena-dena nahi tha.</p>
-<p>Ankita ne light band karte hue din ki teen alag baatein yaad ki: Aman ki awkward closeness, Chotu ki nazar ka achanak hatna, aur packet se missing kapde. Kisi ko ek doosre se jodne ka uske paas abhi koi kaaran nahi tha.</p></article>
-<article class="draft-paper" style="margin-top:20px"><h2>SHIVANI — Saturday, 7:05 PM · Sinha Apartment</h2>
+<p>Ankita ne light band karte hue din ki teen alag baatein yaad ki: Aman ki awkward closeness, Chotu ki nazar ka achanak hatna, aur packet se missing kapde. Kisi ko ek doosre se jodne ka uske paas abhi koi kaaran nahi tha.</p></article></div>
+<div class="scene-in-one-part"><div class="scene-number">Part 5 · Scene 2 of 9</div><article class="draft-paper" style="margin-top:20px"><h2>SHIVANI — Saturday, 7:05 PM · Sinha Apartment</h2>
 <p>Shaam tak Shivani ne apni sea-green saree theek se sambhaal li thi, lekin dopahar ki bike ride bhulaana aasaan nahi tha. Raghav ke jokes, Rishabh ki kaan ke kareeb ki apology aur speed breakers ke jhatke—sab kuch yaad aate hi woh pal bhar ko khamosh ho jaati.</p>
 <p>Dining table par Monday ke accounting folders rakhe the. Printer labels aur kuch file clips ki delivery pending thi.</p>
-<p>Doorbell par Chotu mila.</p>
+<p><span class="draft-change" data-review="p5-sat-shivani"><u>Doorbell par Chotu mila.</u><span class="draft-suggestion"> [बदलेगा: Doorbell par Chotu mila. Ankita ke ghar ki apni achanak khamoshi use abhi yaad thi; usne pehle invoice seedha kiya, phir Shivani se nazar milakar baat shuru ki.]</span></span></p>
 <p>“Shivani didi, aaj toh bill se zyada files hain!”</p>
 <p>“Monday ko audit hai, Chotu. Tumhara bhi kar doon?”</p>
 <p>“Aap karogi toh meri toh ek bhi entry pass nahi hogi!”</p>
@@ -1549,37 +1423,64 @@
 <p>Woh chala gaya, lekin Shivani ko aaj doosri baar apne kapdon aur kisi aur ki achanak chuppi ka khayal aaya. Usne khud ko samjhaya: <em>Har nazar ka matlab ek jaisa nahi hota.</em></p>
 <p>Kapde badalne ke liye bathroom mein gayi toh drying stand par latki <mark><strong>bra ka strap doosre hook par atka</strong></mark> nazar aaya. Aam taur par woh use bahar wale hook par rakhti thi. Usne hanger ko theek kiya aur samjhi ki shayad hawa ya ghar ke kisi kaam mein hil gaya hoga.</p>
 <p>Reader ko pichhli baat maloom thi: <mark><strong>Prakash</strong></mark> isi ghar mein aakar us garment ko bina permission chhoo chuka tha aur baad mein jaldi se wapas latka gaya tha. Shivani ko us baat ka andaaza nahi tha.</p>
-<p>Phone par Raghav-Rishabh ki taraf se ride ki apology ab bhi saved thi. Shivani ne Monday ki report ke reminder ke paas use rehne diya aur lamp off kar diya.</p></article>
-<article class="draft-paper" style="margin-top:20px"><h2>SHREYA — Sunday, 3:10 PM · Boutique</h2>
-<p>Dopahar ka sound-check khatam hua toh Shreya seedhe boutique pahunchi. Plum boat-neck kurti, silver jhumkas aur half-tied hair mein woh din bhar kaam sambhaal rahi thi. Neel ka headset adjust karna aur Aarav ka guitar lesson kabhi-kabhi be-wajah yaad aa jaata, toh woh khud par hans padti.</p>
-<p>“Madam, packing rolls aa gaye,” assistant ne kaha.</p>
-<p>Saath mein Chotu bhi tha—brown-paper rolls, tape aur garment covers lekar.</p>
-<p>“Arre, Chotu Babu! Aaj bhi express delivery?”</p>
-<p>“Didi, aapka boutique hi sabse zyada express demand karta hai.”</p>
-<p>“Good. Toh tumhe award dena padega.”</p>
-<p>“Chocolate chalegi.”</p>
-<p>“Woh toh Mahi ke liye laate ho. Apne liye kya loge?”</p>
-<p>“Bas ek din late delivery par daant mat dena.”</p>
-<p>Shreya zor se hans di. “Impossible promise.”</p>
-<p>Assistant next counter par customer ki fitting lene chali gayi. Shreya ne Chotu se ek fabric roll pass karne ko kaha. Upar wale rack mein jagah banane ke liye woh step-stool par khadi hui. Uski <mark><strong>waist-length kurti</strong></mark> ki side thodi upar khisak gayi; <mark><strong>kamar ke kinare ki bare skin</strong></mark> dikh aayi.</p>
-<p>Chotu ne roll upar karne ke liye nazar uthayi. Ek pal ko uska haath ruka, phir usne roll theek jagah par diya.</p>
-<p>“Chotu? Roll pakde raho,” Shreya ne kaha.</p>
-<p>“Ji, didi.”</p>
-<p>Neeche utarte waqt Shreya ko side par hawa ka halka ehsaas hua. Usne kurti ka hem neeche kiya aur Chotu ki khamoshi notice ki.</p>
-<p>“Kya hua? Bill bhool gaye ya boutique ka fashion sense samajh nahi aaya?”</p>
-<p>Chotu sharmaakar hasa. “Aapke saamne kaun fashion discuss karega, didi?”</p>
-<p>“Achha, ye toh smart answer tha.”</p>
-<p>“Waise aaj earrings aur hairstyle bahut suit kar rahe hain.”</p>
-<p>“Thank you! Tum toh Aarav se competition kar rahe ho aaj.”</p>
-<p>“Aarav kaun?”</p>
-<p>“Ek guitarist. Bahut bolta hai—tumse bhi zyada.”</p>
-<p>Un dono ne phir normal billing ki baat ki. Shreya jaanti thi ki ab woh aasani se logon ka awkward silence pakad leti hai. Magar woh Chotu ki taraf waise attracted nahi hui jaise use sound-check par apne aap ko Neel aur Aarav ke kareeb mehsoos karke surprise hua tha. Yahaan use zyada curious amusement thi—aur ek halki jhijhak.</p>
-<p>Shaam ko ghar pahunchkar Shreya ne kapde badalne ke liye wash area khola. <mark><strong>Black lace bra</strong></mark> hanger par thi, lekin uski position pehle jaisi nahi thi. Usne apni aadat ke mutabik dono straps ek hi direction mein rakhe the; ab ek palta hua tha.</p>
-<p>“Main hi jaldi mein rakh gayi houngi,” usne socha, aur hanger seedha kar diya.</p>
-<p>Reader ko yaad tha: <mark><strong>Harish</strong></mark> ne pehle ghar ke private wash area mein bina permission woh garment uthaya tha aur awaaz aane par wapas rakha tha. Shreya ko uska pata nahi tha.</p>
-<p>Mahi ki awaaz aayi—“Mumma, song sunao!”</p>
-<p>Shreya muskurakar bahar aayi. Guitar ki ek galat chord aur kisi ka playful compliment phir yaad aa gaya. Woh melody gungunaane lagi.</p></article>
-<article class="draft-paper" style="margin-top:20px"><h2>TANYA — Sunday, 12:50 PM · Arora Apartment</h2>
+<p>Phone par Raghav-Rishabh ki taraf se ride ki apology ab bhi saved thi. Shivani ne Monday ki report ke reminder ke paas use rehne diya aur lamp off kar diya.</p></article></div>
+<div class="scene-in-one-part"><div class="scene-number">Part 5 · Scene 3 of 9</div><article class="draft-paper" style="margin-top:20px"><h2>Shivani — The Breakfast Invitation</h2><p class="sub">Sunday · 9:30 AM · Sinha Apartment</p><p>Shivani ne bathroom ka darwaaza band karke ek baar phir drying stand ki taraf dekha. Kal wahan rakhi uski bra ki position kuch alag lagi thi.</p>
+<p>“Shayad maine hi jaldi mein theek se nahi rakhi,” usne socha. Phir baat taal di.</p>
+<p>Kitchen mein Aditya ke liye breakfast taiyaar tha. Use wedding preparations mein jaldi nikalna tha.</p>
+<p>“Shivani, main hall jaa raha hoon. Tum aaram se aana,” Aditya ne kaha.</p>
+<p>“Okay. Aur please accounts waali file car mein mat bhoolna.”</p>
+<p>Uske jaane ke kuch der baad doorbell baji. Chotu dukaan se aaya tha. Haath mein kal ka pending delivery invoice aur ek chhota notebook tha.</p>
+<p>“Didi, ek help chahiye thi.”</p>
+<p>“Bolo, Chotu.”</p>
+<p>“Store ke hisaab mein ek amount match nahi ho raha.”</p>
+<p>Shivani ne notebook liya.</p>
+<p>“Tumhe calculator chalana aata hai?”</p>
+<p>“Didi!”</p>
+<p>“Achha baba, mazaak kar rahi hoon.”</p>
+<p>Dono hans diye.</p>
+<p>Shivani ne use dining table par bithaya aur do entries ka farq samjhaya. Chotu dhyaan se sunta raha.</p>
+<p>Woh uthne laga toh Shivani ne poochha, “Breakfast kiya?”</p>
+<p>“Ghar jaakar kar loonga.”</p>
+<p>“Baitho. Poha bana hai. Main bhi kha rahi hoon.”</p>
+<p>Chotu ne pehle sankoch kiya.</p>
+<p>“Didi, aap logon ko disturb...”</p>
+<p>“Arre, accountant hoon. Ek plate extra ka hisaab manage kar lungi.”</p>
+<p>Is baar woh hanskar baith gaya.</p>
+<p>Khaana khaate hue usne bataya ki dukaan ki deliveries aur ghar ki responsibilities ke beech padhaai phir shuru karna chahta hai.</p>
+<p>Shivani kuch der chup rahi.</p>
+<p>“Tum seriously padhna chahte ho toh main course options dekhne mein help kar sakti hoon.”</p>
+<p>Chotu ne uski taraf dekha. “Sach, didi?”</p>
+<p>“Haan. Lekin mehnat tumhari hogi.”</p>
+<p>Kal usne Shivani ko achanak asahaj sthiti mein dekha tha. Aaj use mehsoos hua ki uski shaant aur sankochi appearance ke peeche kitna aatmavishwas hai.</p>
+<p>Shivani ke liye yeh ek saamanya madad thi. Chotu ke liye shayad thodi adhik yaadgaar.</p></article></div>
+<div class="scene-in-one-part"><div class="scene-number">Part 5 · Scene 4 of 9</div><article class="draft-paper" style="margin-top:20px"><h2>Ankita — The Unfinished Conversation</h2><p class="sub">Sunday · 10:15 AM · Bansal Apartment</p><p>Subah Ankita laptop par laundry service ka complaint form bhar rahi thi. Kal shaam ka packet kholne par ek matching innerwear set missing mila tha. Usne dobara check kiya, phir service ko message kiya. Use nahi pata tha ki parcel galat flat mein pahunchne ke baad kya hua tha.</p>
+<p>“Mom, rocket ki lights phir band hain!” Rey ki awaaz sunkar woh hans padi.</p>
+<p>“Tumhara rocket Mars tak pahunchne se pehle retirement le lega.”</p>
+<p>Usi samay doorbell baji. Chotu batteries ka replacement lekar khada tha.</p>
+<p>“Good morning, didi!”</p>
+<p>“Good morning, Chotu Babu. Kal ke rocket engineer ko phir tumhari zaroorat hai.”</p>
+<p>Ankita ne use andar bulaya. Aaj usne soft cotton kurti pehni thi. Baal dheele bandhe the aur chehre par pichhli raat ki thakaan thi.</p>
+<p>Chotu ne samaan rakhkar Rey ke saath circuit check karna shuru kiya.</p>
+<p>Ankita ne use kaam karte dekha. Kal woh achanak itna chup kyun ho gaya tha? Sawaal abhi bhi uske mann mein tha.</p>
+<p>“Chotu, kal kuch hua tha kya? Ekdum silent ho gaye the.”</p>
+<p>“Arre nahi didi. Bas aap logon ka rocket dekh raha tha.”</p>
+<p>“Achha? Itna complicated hai hamara rocket?”</p>
+<p>“Engineer sahab ka project hai. Darna toh padega!”</p>
+<p>Ankita hans di.</p>
+<p>Kuch der baad usne dekha ki Chotu apne phone par kisi online application ko samajhne ki koshish kar raha hai.</p>
+<p>“Dikhao.”</p>
+<p>“Didi, store ke liye ek delivery app ka form hai. Samajh nahi aa raha.”</p>
+<p>Ankita uske paas baithkar form samjhane lagi.</p>
+<p>“Ye dekho, har field ke neeche example diya hai. Pehle address bharo, phir documents upload karo.”</p>
+<p>Chotu chupchaap uski baat sunta raha.</p>
+<p>Kal usne Ankita ki appearance ko alag nazar se notice kiya tha. Aaj uski confidence aur madad karne ke andaaz ne use aur prabhavit kiya.</p>
+<p>“Didi, aap sab kitni aasani se samjha deti ho.”</p>
+<p>“Professional habit hai, Chotu Babu.”</p>
+<p>Rey beech mein bola, “Mumma best teacher hain!”</p>
+<p>Ankita muskuraayi.</p>
+<p>Chotu ne jaate-jaate dhanyavaad kaha. Woh phir normal lag raha tha. Lekin Ankita ko kal shaam ki uski achanak badli expression yaad thi.</p>
+<p>Aur laundry complaint ka jawaab abhi tak nahi aaya tha.</p></article></div>
+<div class="scene-in-one-part"><div class="scene-number">Part 5 · Scene 5 of 9</div><article class="draft-paper" style="margin-top:20px"><h2>TANYA — Sunday, 12:50 PM · Arora Apartment</h2>
 <p>Storeroom mein subah teen mishaps hone ke baad Tanya ne khud ko finally sofa par bithaya. Maroon saree ka pallu usne phir se pin kiya tha; nape par paseene ki halki nami thi. Vihaan, Arjun, Dhruv aur Laksh abhi bhi wahi the. Chaaron ne use ghar tak chhod diya tha aur ab remaining game-props checklist verify kar rahe the.</p>
 <p>“Bhabhi, aaj ka game ‘Survive the Storeroom’ rakhein?” Laksh ne poochha.</p>
 <p>“Tumhare liye ‘Keep Quiet for Five Minutes’ zyada challenging hoga,” Tanya ne jawab diya.</p>
@@ -1606,17 +1507,107 @@
 <p>“Ye kisne is tarah fold kiya?” woh halki awaaz mein boli, phir socha shayad ghar ke kaam mein kapde ulat gaye honge.</p>
 <p>Reader ko Part 3 se pata tha ki <mark><strong>Virendra</strong></mark> ne pehle us item ko bina permission chhua aur jaldi mein alag tarah fold karke rakh diya tha. Tanya ko iska koi andaaza nahi tha.</p>
 <p>Living room se Laksh ki awaaz aayi: “Bhabhi, next game ki rehearsal cancel?”</p>
-<p>Tanya ne muskurakar jawab diya, “Rehearsal cancel nahi. Bas tumhari comedy par fine lagega!”</p></article>
-<article class="draft-paper" style="margin-top:20px"><h2>CLOSING CUT — CHOTU</h2>
+<p>Tanya ne muskurakar jawab diya, “Rehearsal cancel nahi. Bas tumhari comedy par fine lagega!”</p></article></div>
+<div class="scene-in-one-part"><div class="scene-number">Part 5 · Scene 6 of 9</div><article class="draft-paper" style="margin-top:20px"><h2>SHREYA — Sunday, 3:10 PM · Boutique</h2>
+<p>Dopahar ka sound-check khatam hua toh Shreya seedhe boutique pahunchi. Plum boat-neck kurti, silver jhumkas aur half-tied hair mein woh din bhar kaam sambhaal rahi thi. Neel ka headset adjust karna aur Aarav ka guitar lesson kabhi-kabhi be-wajah yaad aa jaata, toh woh khud par hans padti.</p>
+<p>“Madam, packing rolls aa gaye,” assistant ne kaha.</p>
+<p><span class="draft-change" data-review="p5-sun-shreya"><u>Saath mein Chotu bhi tha—brown-paper rolls, tape aur garment covers lekar.</u><span class="draft-suggestion"> [बदलेगा: Saath mein Chotu bhi tha—brown-paper rolls, tape aur garment covers lekar. Tanya ke ghar ki teasing ab bhi dimaag mein thi. Usne pehle delivery ki list sambhaali, phir Shreya ki taraf dekha—iss baar jawaab sochkar dena chahta tha.]</span></span></p>
+<p>“Arre, Chotu Babu! Aaj bhi express delivery?”</p>
+<p>“Didi, aapka boutique hi sabse zyada express demand karta hai.”</p>
+<p>“Good. Toh tumhe award dena padega.”</p>
+<p>“Chocolate chalegi.”</p>
+<p>“Woh toh Mahi ke liye laate ho. Apne liye kya loge?”</p>
+<p>“Bas ek din late delivery par daant mat dena.”</p>
+<p>Shreya zor se hans di. “Impossible promise.”</p>
+<p>Assistant next counter par customer ki fitting lene chali gayi. Shreya ne Chotu se ek fabric roll pass karne ko kaha. Upar wale rack mein jagah banane ke liye woh step-stool par khadi hui. Uski <mark><strong>waist-length kurti</strong></mark> ki side thodi upar khisak gayi; <mark><strong>kamar ke kinare ki bare skin</strong></mark> dikh aayi.</p>
+<p>Chotu ne roll upar karne ke liye nazar uthayi. Ek pal ko uska haath ruka, phir usne roll theek jagah par diya.</p>
+<p>“Chotu? Roll pakde raho,” Shreya ne kaha.</p>
+<p>“Ji, didi.”</p>
+<p>Neeche utarte waqt Shreya ko side par hawa ka halka ehsaas hua. Usne kurti ka hem neeche kiya aur Chotu ki khamoshi notice ki.</p>
+<p>“Kya hua? Bill bhool gaye ya boutique ka fashion sense samajh nahi aaya?”</p>
+<p>Chotu sharmaakar hasa. “Aapke saamne kaun fashion discuss karega, didi?”</p>
+<p>“Achha, ye toh smart answer tha.”</p>
+<p>“Waise aaj earrings aur hairstyle bahut suit kar rahe hain.”</p>
+<p>“Thank you! Tum toh Aarav se competition kar rahe ho aaj.”</p>
+<p>“Aarav kaun?”</p>
+<p>“Ek guitarist. Bahut bolta hai—tumse bhi zyada.”</p>
+<p>Un dono ne phir normal billing ki baat ki. Shreya jaanti thi ki ab woh aasani se logon ka awkward silence pakad leti hai. Magar woh Chotu ki taraf waise attracted nahi hui jaise use sound-check par apne aap ko Neel aur Aarav ke kareeb mehsoos karke surprise hua tha. Yahaan use zyada curious amusement thi—aur ek halki jhijhak.</p>
+<p>Shaam ko ghar pahunchkar Shreya ne kapde badalne ke liye wash area khola. <mark><strong>Black lace bra</strong></mark> hanger par thi, lekin uski position pehle jaisi nahi thi. Usne apni aadat ke mutabik dono straps ek hi direction mein rakhe the; ab ek palta hua tha.</p>
+<p>“Main hi jaldi mein rakh gayi houngi,” usne socha, aur hanger seedha kar diya.</p>
+<p>Reader ko yaad tha: <mark><strong>Harish</strong></mark> ne pehle ghar ke private wash area mein bina permission woh garment uthaya tha aur awaaz aane par wapas rakha tha. Shreya ko uska pata nahi tha.</p>
+<p>Mahi ki awaaz aayi—“Mumma, song sunao!”</p>
+<p>Shreya muskurakar bahar aayi. Guitar ki ek galat chord aur kisi ka playful compliment phir yaad aa gaya. Woh melody gungunaane lagi.</p></article></div>
+<div class="scene-in-one-part"><div class="scene-number">Part 5 · Scene 7 of 9</div><article class="draft-paper" style="margin-top:20px"><h2>Shreya — The Boutique Compliment</h2><p class="sub">Sunday · 6:30 PM · Shreya's Boutique</p><p>Shaam tak Shreya thak chuki thi. Subah Neel ke saath sound-check aur Aarav se guitar seekhne waala chhota lesson ab bhi uske dimaag mein ghoom raha tha.</p>
+<p>Boutique mein woh fabric rolls arrange kar rahi thi. Dopahar ko Chotu ke saamne oonchi shelf se roll nikaalte samay kurti thoda upar khisakne waala awkward moment bhi yaad aaya.</p>
+<p>“Madam, aaj kaafi busy lag rahi hain.”</p>
+<p>Darwaaze se Chotu ki awaaz aayi. Woh packaging ka bacha samaan lene aaya tha.</p>
+<p>“Busy nahi, Chotu. Exhausted.”</p>
+<p>“Phir bhi aap sab manage kar leti ho.”</p>
+<p>“Bas, ab tum bhi compliments shuru mat karna!”</p>
+<p>Chotu hans pada.</p>
+<p>Shreya ne ek gift hamper nikaala.</p>
+<p>“Achha, tumhari madad chahiye. Ye ribbon pakdo.”</p>
+<p>Chotu ne ribbon pakda. Shreya ne use decorative knot banaana sikhaya.</p>
+<p>“Dekho, is corner ko fold karna hai. Zyada tight nahi.”</p>
+<p>“Didi, mere se toh grocery bag hi theek pack hote hain.”</p>
+<p>“Practice karo. Boutique assistant bana dungi.”</p>
+<p>Dono hanse.</p>
+<p>Chotu ki nazar Shreya ke haathon ki tez aur saaf movements par gayi. Use yaad aaya ki yeh wahi Shreya thi jo wedding hall mein har volunteer ko bina ghabraaye nirdesh deti thi.</p>
+<p>“Waise didi, aaj aapne gaana bhi gaya tha?”</p>
+<p>Shreya ruk gayi. “Tumne suna?”</p>
+<p>“Thoda sa. Bahut achcha tha.”</p>
+<p>Is baar Shreya sachmuch muskura di.</p>
+<p>Neel aur Aarav ne bhi uski awaaz ki tareef ki thi. Lekin Chotu se aisi baat sunne ki use ummeed nahi thi.</p>
+<p>“Thank you, Chotu.”</p>
+<p>“Phir kab gaaogi?”</p>
+<p>“Pehle guitar seekh loon!”</p>
+<p>“Guitar bhi?”</p>
+<p>Shreya hanste hue boli, “Haan. Mere talents ki list abhi complete nahi hui.”</p>
+<p>Chotu ke jaane ke baad usne ribbon waala hamper dekha.</p>
+<p>Use achcha laga ki log uske kaam ke alaawa uske chhipe hue shauk bhi notice kar rahe the.</p></article></div>
+<div class="scene-in-one-part"><div class="scene-number">Part 5 · Scene 8 of 9</div><article class="draft-paper" style="margin-top:20px"><h2>CLOSING CUT — CHOTU</h2>
 <p>Raat ko convenience store bandh karte waqt Chotu ne receipts sort ki. Bansal, Sinha, Mehta aur Arora—chaar alag ghar, chaar familiar women, aur do din mein kuch aise awkward pauses jo uske liye naye the.</p>
-<p>Ankita ke confidence ke saamne woh apni zubaan kho baitha tha. Shivani ki sharmili muskaan aur phir invoice wala excuse use yaad tha. Shreya ke boutique mein hansi-mazaak ne tension turant halka kar diya. Tanya ke ghar mein toh chaar devaron ne uski ek pal ki chuppi bhi joke bana di.</p>
+<p><span class="draft-change" data-review="p5-sunday-closing"><u>Ankita ke confidence ke saamne woh apni zubaan kho baitha tha. Shivani ki sharmili muskaan aur phir invoice wala excuse use yaad tha. Shreya ke boutique mein hansi-mazaak ne tension turant halka kar diya. Tanya ke ghar mein toh chaar devaron ne uski ek pal ki chuppi bhi joke bana di.</u><span class="draft-suggestion"> [बदलेगा: Ankita ke ghar ki achanak chuppi agle din Shivani ke saamne uski baat karne ka andaaz badal gayi thi. Sunday ko Tanya ke ghar ki teasing yaad rahi, isliye Shreya ke boutique mein pehle woh sambhal kar bola. Koi bhi ghar ek jaisa nahi tha—aur uske jawaab bhi ab ek jaise nahi rahe the.]</span></span></p>
 <p>Chotu ne receipts band kar di. Usse kisi ghar ke <mark><strong>missing ya displaced private garments</strong></mark> ke baare mein kuch nahi pata tha. Woh sirf apni deliveries jaanta tha; chaaron auraton ke alag andarooni sawaal nahi.</p>
 <p>Aur chaaron gharon mein, din ki normal routines ke beech, ek-ek chhota sawaal bina jawab ke reh gaya.</p>
-<p><mark><strong>End of Part 5 draft.</strong></mark></p></article>
-<div class="sourcefoot"><span>Full draft file</span><a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part5_chotu_four_tracks_draft.md" target="_blank" rel="noopener">Read story markdown on GitHub ↗</a></div>
-<div class="callout"><h2>Director QA</h2><p>Continuity matched against previously saved Parts 2–4. This full draft is not marked final or published as approved prose. Writer credit/reader approval for wording can be decided after review.</p></div>
-</section>
-<section class="view" data-view="story-prologue" hidden><div class="kicker">FOUR WALLS / EPISODE 00</div><h1>The Courtyard — Shared Prologue</h1><p class="sub">Draft setting preserved. The four lead names shown below are provisional replacements requested for easier recognition; other plot decisions remain unchanged.</p><span class="tag">EXISTING E00 DRAFT · NOT FORMALLY LOCKED</span><div class="reader-intro" aria-label="Dear readers introduction"><p><strong>Dear Readers,</strong></p><p>Welcome to <em>Four Walls, Four Secrets</em> — the riveting journey of four married friends whose everyday lives hide four very different private worlds. Ankita is quiet with strangers but warm and playful with those she trusts. Shivani guards her feelings, Shreya wears her confidence openly, and Tanya notices what others leave unsaid.</p><p>This will be a long, lively, slow-burn adult ensemble story. Behind loving marriages, close friendships, family routines and unexpected encounters, curiosity, temptation and sexual tension will build little by little — through meaningful conversations, conflicting emotions, hidden intentions and choices with real consequences. Nothing important happens overnight. Every small moment matters, and every secret brings a new question.</p></div><article class="reader"><div class="eyebrow">Author's note</div><p><strong>NOTE:</strong> Four Walls, Four Secrets is original fiction. All fictional characters, conversations and situations belong to the new world. DHIKA is used only to study narrative structure.</p><p><strong>DISCLAIMER:</strong> Any romantic or intimate storylines concern adults aged 18 or older; consent and boundaries are meaningful. Children appear only in ordinary family and community scenes.</p><hr>
+<p><mark><strong>End of Part 5 draft.</strong></mark></p></article></div>
+<div class="scene-in-one-part"><div class="scene-number">Part 5 · Scene 9 of 9</div><article class="draft-paper" style="margin-top:20px"><h2>Tanya — Five Against One</h2><p class="sub">Monday · 11 AM · Clubhouse Cleanup</p><p>Wedding event khatam ho chuka tha, lekin clubhouse mein abhi bhi samaan ke boxes rakhe the.</p>
+<p>Tanya ne clipboard uthaya.</p>
+<p>“Vihaan, Arjun, Dhruv, Laksh! Tum chaaron kal wedding games ke heroes the. Aaj cleanup se bhaag kyun rahe ho?”</p>
+<p>Laksh ne naatkiya andaaz mein haath jod diye.</p>
+<p>“Bhabhi, heroes ko recovery day milna chahiye.”</p>
+<p>“Achha? Toh recovery ke paise bhi kaat loon?”</p>
+<p>Sab hans pade.</p>
+<p>Tabhi Chotu khaali cartons lene aaya.</p>
+<p>“Good morning, Tanya didi.”</p>
+<p>“Arey Chotu! Tum aa gaye. At least ek responsible ladka toh hai yahan.”</p>
+<p>Arjun ne turant kaha, “Bhabhi, hum chaaron ki insult ho rahi hai!”</p>
+<p>Tanya hansi. “Insult nahi, performance evaluation.”</p>
+<p>Chotu ne bade cartons uthaane shuru kiye. Tanya ek table ke paas khadi hokar use labels bata rahi thi.</p>
+<p>Kal ki storeroom ghatna ke baad woh saavdhaani se chal rahi thi. Laksh ne bhi yaad dilaya:</p>
+<p>“Bhabhi, floor par koi kapda ho toh pehle mujhe bula lena.”</p>
+<p>“Bilkul nahi! Tumhari rescue service ki rating bahut kharaab hai.”</p>
+<p>Sab phir hans pade.</p>
+<p>Chotu kuch der chupchaap kaam karta raha.</p>
+<p>Tanya ne poochha, “Kya hua? Tum bhi inke jokes se darr gaye?”</p>
+<p>“Nahi didi. Bas aap kal se itna kaam kar rahi ho. Thakti nahi?”</p>
+<p>Tanya ek pal ko ruki.</p>
+<p>“Thakti hoon, Chotu. Bas in chaaron ke saamne admit nahi karti.”</p>
+<p>Vihaan ne uski taraf dekha. “Bhabhi, hum help toh kar rahe hain.”</p>
+<p>“Kar rahe ho. Lekin supervision ke bina tum chaaron ka result doubtful hai.”</p>
+<p>Arjun ne mazaak mein kaha, “Chotu ko fifth devar bana lo. Team strong ho jayegi.”</p>
+<p>Laksh turant bola, “Nahi bhai, phir favourite bhabhi ka favourite devar competition badh jayega.”</p>
+<p>Tanya ne clipboard band kar diya.</p>
+<p>“Bas! Ab jo sabse pehle boxes finish karega, usko chai milegi.”</p>
+<p>“Bhabhi, sabko!” Laksh chillaaya.</p>
+<p>“Dekhenge!”</p>
+<p>Kaam phir shuru ho gaya.</p>
+<p>Tanya ko unke saath ki familiar teasing achchi lag rahi thi. Lekin kal ke kuch achanak kareeb aaye kshan bhi use yaad the—khaaskar jab sabhi use girne se bachaane daude the.</p>
+<p>Woh nahi jaanti thi ki kis ladke ke mann mein kaun-si chhoti baat reh gayi hai.</p>
+<p>Aur Chotu ab unke beech ek naya parichit chehra ban chuka tha.</p></article></div>
+<div class="sourcefoot"><span>One combined Part 5 file</span><a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part5_complete_working_draft.md" target="_blank" rel="noopener">Read complete Part 5 manuscript ↗</a></div>
+<div class="callout"><h2>इन तीन जगह ही change suggest किया है</h2><p>1. Ankita ke baad Chotu Shivani se milta hai. 2. Tanya se milne ke baad woh Shreya ke paas jaata hai. 3. Sunday night woh alag experiences ko connect karta hai. Original incidents and dialogue untouched. You can reject any bracketed suggestion.</p></div>
+</section><section class="view" data-view="story-prologue" hidden><div class="kicker">FOUR WALLS / EPISODE 00</div><h1>The Courtyard — Shared Prologue</h1><p class="sub">Draft setting preserved. The four lead names shown below are provisional replacements requested for easier recognition; other plot decisions remain unchanged.</p><span class="tag">EXISTING E00 DRAFT · NOT FORMALLY LOCKED</span><div class="reader-intro" aria-label="Dear readers introduction"><p><strong>Dear Readers,</strong></p><p>Welcome to <em>Four Walls, Four Secrets</em> — the riveting journey of four married friends whose everyday lives hide four very different private worlds. Ankita is quiet with strangers but warm and playful with those she trusts. Shivani guards her feelings, Shreya wears her confidence openly, and Tanya notices what others leave unsaid.</p><p>This will be a long, lively, slow-burn adult ensemble story. Behind loving marriages, close friendships, family routines and unexpected encounters, curiosity, temptation and sexual tension will build little by little — through meaningful conversations, conflicting emotions, hidden intentions and choices with real consequences. Nothing important happens overnight. Every small moment matters, and every secret brings a new question.</p></div><article class="reader"><div class="eyebrow">Author's note</div><p><strong>NOTE:</strong> Four Walls, Four Secrets is original fiction. All fictional characters, conversations and situations belong to the new world. DHIKA is used only to study narrative structure.</p><p><strong>DISCLAIMER:</strong> Any romantic or intimate storylines concern adults aged 18 or older; consent and boundaries are meaningful. Children appear only in ordinary family and community scenes.</p><hr>
 <p>Noida ke <em>The Courtyard</em> society mein Saturday ki subah kuch zyada hi halchal thi. Central lawn mein decorators fairy lights laga rahe the. Community hall ke bahar chairs ki unloading ho rahi thi, aur society ke WhatsApp groups mein Anika ki Sunday wedding celebration se zyada Saturday rehearsal ki discussions chal rahi thi.</p>
 <p>Ankita Bansal apne dining table par laptop kholkar ek client ke design revisions check kar rahi thi.</p>
 <p class="dialogue"><strong>Rey:</strong> Mumma, mera blue wala dinosaur kahan hai?</p>
@@ -1676,7 +1667,7 @@
 <p class="foot">Independent original source is preserved; DHIKA references are descriptive analyses, not reproduced source text. Proposed ideas stay in conversation until approved.</p>
 </main></div></div><script>
 (function(){
-function navigate(key){var pages=document.querySelectorAll("[data-view]");var active=false;pages.forEach(function(page){var same=page.getAttribute("data-view")===key;page.hidden=!same;if(same)active=true;});if(!active)return;
+function navigate(key){if(key==="story-part5-continuation")key="story-part5-chotu";var pages=document.querySelectorAll("[data-view]");var active=false;pages.forEach(function(page){var same=page.getAttribute("data-view")===key;page.hidden=!same;if(same)active=true;});if(!active)return;
 document.querySelectorAll("[data-go]").forEach(function(btn){var selected=btn.getAttribute("data-go")===key;btn.classList.toggle("active",selected);btn.setAttribute("aria-current",selected?"page":"false");});
 var dhika=key.indexOf("dhika-")===0;document.getElementById("breadcrumb").textContent=dhika?"DHIKA / Episode 01 / Part "+key.split("-")[1]:"FOUR WALLS / "+({"story-prologue":"Episode 00 · Prologue","story-part1":"Episode 01 · Part 1 Review","story-part2-ankita":"Episode 01 · Part 2 — Ankita","story-part2-shivani":"Episode 01 · Part 2 — Shivani","story-part2-shreya":"Episode 01 · Part 2 — Shreya","story-part2-tanya":"Episode 01 · Part 2 — Tanya","story-part3-elders":"Episode 01 · Part 3 — Elder Secrets","story-part4-ankita":"Episode 01 · Part 4 — Ankita Director Plan","story-part4-shivani":"Episode 01 · Part 4 — Shivani Director Plan","story-part4-tanya":"Episode 01 · Part 4 — Tanya Director Plan","story-part4-shreya":"Episode 01 · Part 4 — Shreya Director Plan","story-part5-chotu":"Episode 01 · Part 5 — Chotu Full Draft","story-part5-continuation":"Episode 01 · Part 5 — Chotu Follow-Ups","story-part6-four-decisions":"Episode 01 · Part 6 — Chaar Faisle","story-part7-four-encounters":"Episode 01 · Part 7 — Earlier Alternate","story-part7-director-cut":"Episode 01 · Part 7 — Latest Full Draft","story-e02-hub":"Episode 02 · Planning Workspace","story-e02-p01":"Episode 02 · Source 1","story-e02-p02":"Episode 02 · Source 2","story-e02-p03":"Episode 02 · Source 3","story-e02-p04":"Episode 02 · Source 4","story-e02-p05":"Episode 02 · Source 5","story-e02-p06":"Episode 02 · Source 6","story-e01-review":"Episode 01 · Completion & QA","story-attraction-index":"Episode 01 · Attraction and Tension Index","story-characters":"Characters","story-scenes":"Approved Scenes","story-continuity":"Continuity"}[key]||"Story");document.getElementById("status").textContent=dhika?"SOURCE VERIFIED":key==="story-scenes"?"AWAITING APPROVAL":"WORKING STORY";window.scrollTo({top:0,behavior:"instant"});if(history.replaceState)history.replaceState(null,"","#"+key);}
 document.addEventListener("click",function(e){var button=e.target.closest("[data-go]");if(button&&!button.disabled)navigate(button.getAttribute("data-go"));var jump=e.target.closest("[data-jump]");if(jump){var target=document.getElementById(jump.getAttribute("data-jump"));if(target)target.scrollIntoView({behavior:"smooth",block:"center"});}var person=e.target.closest("[data-person]");if(person){var k=person.getAttribute("data-person");document.querySelectorAll("[data-profile]").forEach(function(node){node.hidden=node.getAttribute("data-profile")!==k;});document.querySelectorAll("[data-person]").forEach(function(btn){btn.classList.toggle("selected",btn===person);});}});
