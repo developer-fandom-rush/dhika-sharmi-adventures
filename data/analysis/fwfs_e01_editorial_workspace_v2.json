@@ -369,6 +369,14 @@
       "status": "EXPLANATION/BRIDGE MISSING; UNEDITED",
       "issue": "Combined P5 Shreya boutique visit at Sunday 3:10 (~L292–348) ends with her going home later that evening; the 6:30 PM continuation starts at the boutique again without narrating her return.",
       "fix": "Either establish a real intervening home trip/return to boutique or adjust the sequence before canon lock. Leave original text untouched until approved."
+    },
+    {
+      "id": "C029",
+      "scope": "E01 Part 5 / Grok Editor UI",
+      "type": "PRODUCTION",
+      "status": "FIVE SOURCE-LINKED BRIEFS PUBLISHED",
+      "issue": "Grok had no dedicated copyable, character-specific briefs or per-scene word budgets in the combined Story Lab; Part 5 earlier menu also listed an obsolete separate continuation.",
+      "fix": "New Episode 01 → Grok Editor · Part 5 view offers Ankita (1,600–1,900), Shivani (1,700–2,000), Shreya (1,800–2,100), Tanya (2,000–2,350), Chotu/assembly coda (250–350) as separate linked/copyable briefs; master target 7,350–8,700 prose words, excluding change logs. Removed duplicate continuation from Episode 01 menu; story manuscripts remain unchanged."
     }
   ],
   "chronology": [
@@ -566,5 +574,37 @@
         "evidence": "FWFS L36–42, 86–98, 258–278, 314–338 and 415–421 — repeated brief noticing, looking away, silence and retrospective summary, without consistently changed action on the next visit."
       }
     ]
-  }
+  },
+  "grok_p5_briefs": [
+    {
+      "id": "ankita",
+      "path": "writing-briefs/fwfs_e01_p5_ankita_grok_editor_brief.md",
+      "min_words": 1600,
+      "max_words": 1900
+    },
+    {
+      "id": "shivani",
+      "path": "writing-briefs/fwfs_e01_p5_shivani_grok_editor_brief.md",
+      "min_words": 1700,
+      "max_words": 2000
+    },
+    {
+      "id": "shreya",
+      "path": "writing-briefs/fwfs_e01_p5_shreya_grok_editor_brief.md",
+      "min_words": 1800,
+      "max_words": 2100
+    },
+    {
+      "id": "tanya",
+      "path": "writing-briefs/fwfs_e01_p5_tanya_grok_editor_brief.md",
+      "min_words": 2000,
+      "max_words": 2350
+    },
+    {
+      "id": "chotu",
+      "path": "writing-briefs/fwfs_e01_p5_chotu_grok_editor_brief.md",
+      "min_words": 250,
+      "max_words": 350
+    }
+  ]
 }
