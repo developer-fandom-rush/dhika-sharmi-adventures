@@ -1,4 +1,6 @@
 # FOUR WALLS, FOUR SECRETS — Episode 01 / Part 4 — ANKITA
+
+**Current prose status (23 Oct 2026):** Full Grok prose and a separate continuity-edited preview exist in the user-provided conversation artifacts. This file remains the older director storyboard, **not the final accepted contact blocking**. The revised preview preserves the Grok contact sequence at the reader's request; that sequence differs from beat 6 here and needs an explicit canon choice.
 ## Director-approved SCENE PLAN; prose not yet written
 
 **Status:** Director-selected / scene beats locked for writer handoff. Not locked final prose. Separate from original DHIKA source. Preserve Part 2 and all Part 3 review material untouched.
