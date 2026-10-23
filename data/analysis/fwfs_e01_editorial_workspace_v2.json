@@ -25,12 +25,12 @@
     {
       "id": "P02",
       "title": "Part 2 — Four character tracks combined (226 beats)",
-      "status": "SCENARIOS MATCH; 3 OPTIONAL WRITING IMPROVEMENTS",
-      "release": "Four prose tracks now form one UI page and one combined source file; no underlying scene replacement.",
+      "status": "PRELIMINARY MECHANISM REVIEW — NOT A FULL ADULT-FICTION STYLE APPROVAL",
+      "release": "One stable Story Lab Part 2 reading tab with four in-place character tabs, each showing ONLY original prose; 226 numbered beats retained. Narration suggestions are review-only.",
       "dhika": "E01-L030–063",
       "strength": "DHIKA E01 L030–063 and FWFS Part 2 both use familiar teasing, compliments, differently behaved observers, individual styling/identity and memorable private reactions. Ankita: Nikhil, Karan and Aman; Shivani: Raghav and Rishabh; Shreya: Aarav and Neel; Tanya: Vihaan, Arjun, Dhruv and Laksh. Existing actions and identities are retained.",
-      "gap": "FWFS narratorial comments sometimes explain/restrict uncertainty explicitly, rather than letting dialogue and reaction hold tension: Ankita FWFS-E01-P02-A-L027, Shivani FWFS-E01-P02-S-L052 and Tanya FWFS-E01-P02-T-L069. Shreya's existing music scene is sufficiently distinctive; no word change proposed there. This is an editorial style difference, NOT a missing scenario or factual error.",
-      "next": "No scene rewrite required. One complete Part 2 view, with three optional orange-underlined original-wording vs [suggested] prose changes. Reader may accept/reject each; original prose remains preserved.",
+      "gap": "Compared DHIKA E01 lines 30–63 with FWFS four Part 2 drafts as a narrative-structure and continuity reviewer: analogous banter/compliments and contrasted personalities are present. Only three over-explanatory lines were flagged. This was NOT an exhaustive line-by-line literary or adult-fiction scene-intensity audit.",
+      "next": "No mandatory scene edit established. Reader switches four in-place story tabs (Ankita, Shivani, Shreya, Tanya); optional language suggestions stay in Writing Rules & Corrections, not inside reading prose.",
       "source": "data/stories/e01_part2_complete_working_draft.md",
       "kind": "source-verified comparative prose review"
     },
@@ -313,6 +313,14 @@
       "status": "THREE OPTIONAL WORDING SUGGESTIONS SHOWN IN UI",
       "issue": "The four FWFS scenes have the intended interactions, but a few narrator-only statements explicitly explain or deflate ambiguity. DHIKA E01 L030–063 tends to use compliments, contrasting personalities and the response itself as the storytelling mechanism.",
       "fix": "Offer optional replacement lines for Ankita L027, Shivani L052, Tanya L069; do not change scene outcomes, family relationships, physical events or characters. Leave Shreya unchanged."
+    },
+    {
+      "id": "C022",
+      "scope": "P02 UI",
+      "type": "UI / REVIEW TRANSPARENCY",
+      "status": "FIXED IN SOURCE — DEPLOYMENT TO VERIFY",
+      "issue": "Part 2 merged four older HTML sections including their closing tags, breaking the layout after Ankita; character buttons scrolled to distant content instead of replacing the story panel; editorial notes were mixed into reading mode.",
+      "fix": "Reconstructed one valid section with four mutually exclusive tabpanels, keyboard-accessible tabs and no scroll jumping; 226 original paragraphs retained. Reading mode now contains story prose only. Review notes remain in the shared review tab."
     }
   ],
   "chronology": [
