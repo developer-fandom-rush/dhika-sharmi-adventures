@@ -2,87 +2,9 @@
 ## Episode 01 — Part 7: Chaar Mulaqatein
 *Complete original prose draft · Tuesday, four consecutive encounters · Reader review pending*
 
-### ANKITA — TUESDAY, 4:02 PM · BANSAL APARTMENT
+### ANKITA — DISCARDED OLD DRAFT B (NO STORY TEXT)
 
-Doorbell bajne se pehle Ankita ne teen baar phone dekha. Pehli baar client message ke liye. Doosri baar verification code ke liye. Teesri baar bina kisi khaas wajah ke.
-
-Woh khud apni harkat par muskurayi.
-
-Rey ki rocket body ab coffee table ke neeche nahi thi. Usne subah hi use shelf par rakh diya tha, lekin tape aur batteries ka dabba abhi living room mein tha. Soft-blue cotton kurti mein Ankita comparatively relaxed lag rahi thi. Sleeveless cut aur simple neckline office ke structured kapdon se bilkul alag the. Uska stole side chair par tha.
-
-“Good afternoon, didi!” Chotu ne darwaaze se kaha. “Form ne phir attack kar diya.”
-
-“Form tumpar attack nahi kar raha, Chirag. Tum uski instructions skip kar rahe ho.”
-
-“Chirag mat bolo, didi. Lagta hai principal office mein bula rahe hain.”
-
-Ankita hans padi. “Theek hai, Chotu Babu. Phone dikhao.”
-
-Dono dining table ke paas baith gaye. Chotu ne screen kholi: *Business verification pending.* Ankita ne instructions padhkar poochha, “Store ka registered number kaunsa hai?”
-
-“Maami ka. Unhone OTP bheja tha. Main usse submit kar chuka hoon.”
-
-“Good. Ab yahan additional proof chahiye. Woh receipt?”
-
-Chotu ne apna bag khola, lekin receipt neeche gir gayi. Ankita uske saath jhukkar kagaz uthane lagi. Ek pal ko dono ke haath ek hi sheet ke kinare par aa gaye. Chotu ne turant haath peeche kar liya.
-
-“Didi, aap rehne do. Main uthata hoon.”
-
-Ankita ne kagaz seedha karke use diya. “Itni formalities? Kal tak tum Rey ke rocket ke chief engineer the.”
-
-“Woh alag department tha,” Chotu ne kaha.
-
-Woh uske chehre ko dekh rahi thi. Pichhli mulaqaton mein usne uski awaaz ke achanak rukne ko notice kiya tha. Aaj woh dekhna chahti thi ki sach mein koi farq hai bhi ya woh apni imagination ko zyada importance de rahi hai.
-
-“Ek baat poochhun?” usne seedha kaha.
-
-“Ji.”
-
-“Tum meri taraf dekhte hi kabhi-kabhi itne serious kyun ho jaate ho?”
-
-Chotu ke haath mein phone tha. Usne screen lock kar diya. “Main serious ho jaata hoon?”
-
-“Abhi ho gaye.”
-
-“Didi, aapko sab pata chal jaata hai.”
-
-“Sab nahi. Isliye toh poochh rahi hoon.”
-
-Ek second ke liye kamre mein refrigerator ki halki awaaz hi thi.
-
-Chotu ne nazar uthayi. “Aap... achchi lagti ho. Matlab, aapse baat karna achcha lagta hai. Aur aap office mein bhi itni confident rehti ho. Main kabhi kuch ulta na bol doon, bas.”
-
-Ankita ko jawab ki itni seedhi shakal ki ummeed nahi thi. Usne kaan ke paas se nikal aayi baalon ki lat theek ki.
-
-“Chotu, compliment dena koi exam nahi hai.”
-
-“Achha. Toh pass ho gaya?”
-
-“Conditional pass. Agli baar sentence poora bolna.”
-
-Dono hanse, aur tension ka ek hissa khul gaya.
-
-Ankita ne form ka final document upload karaya. Confirmation screen aayi. Chotu ne khushi se phone utha liya.
-
-“Didi, ho gaya!”
-
-“Ab store ki extra income se meri consulting fee dena.”
-
-“Rey ke liye chocolate aur aapke liye coffee?”
-
-“Coffee chalegi.”
-
-Woh jaane laga toh Ankita ne mehsoos kiya ki uska experiment uske plan se alag nikla. Usne Chotu ki awkwardness ko test karna chaha tha; jawab mein use ek uncomplicated, respectful confession mila. Koi dramatic gesture nahi, koi asaan conclusion nahi.
-
-Door band hone ke baad woh chair ke paas ruki aur stole utha liya. Usne pehna nahi—sirf neatly fold karke shelf par rakha.
-
-Phone par laundry service ka notification chamka: *We have escalated the missing-items case.*
-
-Kal tak is message par uska saara dhyaan hota. Aaj usne use padhaa, phir phone rakh diya.
-
-“Conditional pass,” woh khud se dohrakar muskurayi.
-
----
+*Reader selected a single active Ankita Part 7 edition on 24 Oct 2026. The older Ankita scene formerly at this position has been discarded from this working file. Use ONLY `data/stories/e01_part7_ankita_grok_reader_v1.json` for Ankita's Tuesday encounter. Other characters' scene drafts remain source material under separate review and are not made canon by this replacement.*
 
 ### SHIVANI — TUESDAY, 7:08 PM · SINHA APARTMENT
 
