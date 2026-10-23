@@ -1,54 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FWFS — Writing Rules, Corrections & Episode 01 Review</title>
-<meta name="description" content="Source-grounded editorial rules and correction history for Four Walls, Four Secrets Episode 01">
-<style>
-:root{font:15px/1.62 system-ui,-apple-system,"Segoe UI",sans-serif;background:#0b1220;color:#e7edf4;color-scheme:dark}
-*{box-sizing:border-box}body{margin:0}a{color:#f3cb8e}a:hover{text-decoration:none}
-header{position:sticky;top:0;z-index:2;background:#111c2e;border-bottom:1px solid #354860;padding:14px max(18px,calc((100% - 1100px)/2));display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
-.brand{font-size:13px;font-weight:800;letter-spacing:.08em;color:#edcb92}nav{display:flex;flex-wrap:wrap;gap:12px}nav a{font-size:13px}
-main{max-width:1100px;padding:34px 20px 90px;margin:auto}h1{font-size:clamp(25px,4vw,39px);line-height:1.2;margin:9px 0 13px}h2{font-size:21px;margin:33px 0 15px}h3{font-size:16px;color:#f0ce92;margin:0 0 9px}p{margin:10px 0}.eyebrow{color:#f0ca90;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:800}.muted{color:#bcc9da}.banner{background:#1b2c40;border:1px solid #71809a;border-radius:14px;padding:19px 22px;margin:24px 0}.banner strong{color:#f6cc92}.panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.panel{border:1px solid #425874;border-radius:13px;background:#16253a;padding:17px}.panel p{font-size:14px;color:#d4dfea}.small{font-size:12px;color:#b7c6d8}.table-scroll{overflow-x:auto;border:1px solid #435972;border-radius:12px;margin:12px 0 21px}table{width:100%;min-width:700px;border-collapse:collapse}th,td{text-align:left;vertical-align:top;padding:12px 13px;border-bottom:1px solid #3a4f66;font-size:13px}th{background:#20324a;color:#f0cd93}details{border:1px solid #435974;background:#17283e;border-radius:10px;margin:10px 0}summary{cursor:pointer;padding:13px 16px;color:#f2d4a3;font-weight:750}details div{padding:1px 17px 17px}details p{font-size:14px}.tag{display:inline-block;font-weight:800;font-size:11px;letter-spacing:.03em;background:#2c4056;border-radius:6px;padding:4px 8px}.divider{border:0;border-top:1px solid #35475b;margin:28px 0}.next{background:#243145;padding:16px 21px;border-radius:11px;border-left:3px solid #efc488}.buttons{display:flex;gap:10px;flex-wrap:wrap}.buttons a{display:inline-block;border:1px solid #926f49;background:#2b3c51;border-radius:9px;padding:10px 14px;text-decoration:none;font-weight:700}.status{color:#f1cc96}.copy-note{font-size:13px;color:#bfcddc}
-@media(max-width:680px){.panels{grid-template-columns:1fr}main{padding:24px 14px 65px}header{padding:12px 15px}h2{font-size:19px}}
-</style></head>
-<body>
-<header><div class="brand">FOUR WALLS / EDITORIAL DESK</div><nav><a href="index.html#story-e01-review">Episode 01 Review</a><a href="index.html#story-part1">Read Story</a><a href="../data/episodes/e01.json" target="_blank" rel="noopener">DHIKA E01 source</a></nav></header>
-<main>
-<div class="eyebrow">Director working protocol v2 · 23 October 2026</div>
-<h1>Writing Rules, Corrections & Episode 01 Status</h1>
-<p class="muted">Source-backed editorial workspace, not a declaration that any draft is canon. This page reads one appendable correction register from the GitHub repository each time it loads.</p>
-<div class="banner"><strong>Episode 01 is not fully fixed yet.</strong> Four Grok-written Part 4 tracks exist in the user-provided PDF and have separate revision previews; the current Story Lab still displays the Part 4 director plans. Part 5–7 story prose exists, but the verified patches and reader approvals have not been applied to final story files.</div>
-<div class="buttons">
-<a href="index.html#story-part5-chotu">Read Part 5 →</a>
-<a href="index.html#story-part6-four-decisions">Read Part 6 →</a>
-<a href="index.html#story-part7-director-cut">Read Part 7 Version A →</a>
-</div>
-<div id="data"><div class="panel">Loading source-grounded review register…</div></div>
-<hr class="divider">
-<p class="copy-note"><strong>Where do changes go?</strong> Open the <a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/analysis/fwfs_e01_editorial_workspace_v2.json" target="_blank" rel="noopener">structured editorial register ↗</a>. Each new correction is appended with a unique ID and an OPEN / PROPOSED / FIXED status. When the updated file is committed, reloading this page retrieves the new entries. The Story Lab site is a read-only viewer; it cannot save edits directly. To suggest a change, tell the Director its part and the exact paragraph.</p>
-<p class="small">Evidence hierarchy: original DHIKA numbered episodes for DHIKA events; separately approved FWFS facts for FWFS canon; Grok drafts remain drafts until the reader approves them. Never conflate original DHIKA review partitions with FWFS story parts.</p>
-</main>
-<script>
-(function(){
-function el(t,c,x){var n=document.createElement(t);if(c)n.className=c;if(x!==undefined)n.textContent=String(x);return n;}
-function labelled(parent,title,value){var p=el("p"),b=el("strong","",title+": ");p.appendChild(b);p.appendChild(document.createTextNode(value||"—"));parent.appendChild(p);}
-function sourceHref(path){if(path.indexOf("four-walls-story-lab/index.html#")===0)return "index.html#"+path.split("#")[1];return "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/"+path;}
-fetch("../data/analysis/fwfs_e01_editorial_workspace_v2.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).then(function(d){
- var root=document.getElementById("data");root.textContent="";
- var state=el("div","panel");state.appendChild(el("h3","","Current completion status"));state.appendChild(el("p","status",d.overall_status));state.appendChild(el("p","small",d.review_limitations));root.appendChild(state);
- root.appendChild(el("h2","","Part-wise review: KEEP / PATCH / REWORK"));
- var wrap=el("div","table-scroll"),table=el("table"),thead=el("thead"),tr=el("tr");["Part","Current verdict","DHIKA source anchor","Approval status"].forEach(function(x){tr.appendChild(el("th","",x));});thead.appendChild(tr);table.appendChild(thead);
- var tbody=el("tbody");(d.part_reviews||[]).forEach(function(p){var row=el("tr");[p.title,p.status,p.dhika,p.release].forEach(function(s){row.appendChild(el("td","",s));});tbody.appendChild(row);});table.appendChild(tbody);wrap.appendChild(table);root.appendChild(wrap);
- (d.part_reviews||[]).forEach(function(p){var dt=el("details"),sm=el("summary","",p.title+" — "+p.status),inside=el("div");dt.appendChild(sm);labelled(inside,"Already correct",p.strength);labelled(inside,"Exact issue",p.gap);labelled(inside,"Minimum correction",p.next);labelled(inside,"DHIKA evidence",p.dhika);var link=el("a","","Read working FWFS material ↗");link.href=sourceHref(p.source);if(link.href.indexOf("github.com")!==-1){link.target="_blank";link.rel="noopener";}inside.appendChild(link);dt.appendChild(inside);root.appendChild(dt);});
- root.appendChild(el("h2","","Writing rules — Director Protocol v2"));
- var grid=el("div","panels");(d.rules||[]).forEach(function(r){var panel=el("div","panel");panel.appendChild(el("h3","",r.title));panel.appendChild(el("p","",r.body));grid.appendChild(panel);});root.appendChild(grid);
- root.appendChild(el("h2","","Corrections register — reviewed, proposed, unresolved"));
- root.appendChild(el("p","muted","An issue labelled 'CORRECTED IN REVIEW UI' was corrected in editorial status wording, not automatically in story prose."));
- (d.corrections||[]).forEach(function(c){var dt=el("details"),summary=el("summary","",c.id+" · "+c.scope+" · "+c.type+" · "+c.status),inside=el("div");dt.appendChild(summary);labelled(inside,"Issue",c.issue);labelled(inside,"Required action",c.fix);dt.appendChild(inside);root.appendChild(dt);});
- root.appendChild(el("h2","","Chotu clock-order carry-over"));
- var timeline=el("div","panel");(d.chronology||[]).forEach(function(v){labelled(timeline,v.day,v.sequence.join(" → "));});root.appendChild(timeline);
- root.appendChild(el("h2","","Approval decisions still needed"));
- var choices=el("div","next");choices.appendChild(el("p","","Part 3: choose a canonical version. Part 4: approve corrected scene versions, especially Ankita's action blocking. Part 5–6: approve only needed bridge patches and objective timing corrections. Part 7: select Version A or B before publication."));root.appendChild(choices);
- root.appendChild(el("p","small","Last structured register update: "+d.updated+". This is an evidence-checked working review, not a finished rewrite or independent scene-by-scene copyedit of every paragraph."));
- }).catch(function(e){document.getElementById("data").textContent="Unable to load review data ("+e.message+"). The register linked above remains available on GitHub.";});
-})();
-</script></body></html>
+<title>FWFS — Writing Rules and Corrections in Story Lab</title>
+<link rel="canonical" href="https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-e01-director-desk">
+<meta http-equiv="refresh" content="0;url=index.html#story-e01-director-desk">
+<script>location.replace(new URL("./index.html"+location.search+"#story-e01-director-desk",location.href));</script>
+</head><body><p>Writing rules and corrections are now part of the <a href="index.html#story-e01-director-desk">complete Story Lab</a>.</p></body></html>
