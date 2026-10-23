@@ -2,13 +2,13 @@
   "schema_version": "2.0",
   "updated": "2026-10-23",
   "story": "Four Walls, Four Secrets",
-  "overall_status": "DRAFTS EXIST — EPISODE 01 NOT FIXED OR CANON-LOCKED",
+  "overall_status": "E01 story not final; Part 5 now ONE 9-scene working manuscript + inline change proposals awaiting reader approval",
   "source_hierarchy": {
     "dhika_original": "data/episodes/e01.json",
     "fwfs_working": "four-walls-story-lab/index.html; data/stories/; uploaded Grok Part 4 PDF",
     "caution": "Original DHIKA facts are not automatically FWFS facts. Keep all versions distinct."
   },
-  "review_limitations": "Part 4 Grok prose and corrections arrived in an uploaded PDF; this GitHub repository's Story Lab still displays director plans. Review statuses are working and not final manuscript QA, prose publication or source line-by-line completeness certification.",
+  "review_limitations": "Source-grounded E01 part review done. No Part 2 prose correction needed. Part 4 still Grok PDF draft plus external revised previews; not integrated. Only P5 has unified working file, no story replacement suggestions committed to manuscripts. Six orange-underlined proposals in P5/P6/P7A are user-choice, not accepted edits.",
   "part_reviews": [
     {
       "id": "P01",
@@ -25,12 +25,12 @@
     {
       "id": "P02",
       "title": "Part 2 — Four independent tracks",
-      "status": "KEEP + BRIDGE PATCH",
+      "status": "कोई बदलाव नहीं",
       "release": "Four Story Lab prose tracks; not final canon",
       "dhika": "E01-L030–063; L070–106 (mechanism only)",
       "strength": "Ankita's work encounters, Shivani's dual mentoring thread, Shreya's two musical personalities, and Tanya's four adult cousin-devars all have distinct setups.",
-      "gap": "The Part 2 emotional baselines are not systematically carried into Part 4; this is a bridge/structure concern, not missing scenes.",
-      "next": "Add a concise character-state handoff for each woman, without replacing source paragraphs.",
+      "gap": "Original Part 2 में कोई verified factual mistake या missing event नहीं मिला. Prior 'bridge' note Part 2 की गलती नहीं थी.",
+      "next": "Part 2 as it is रहे. Next scenes में इसका असर दिखाना है, यहाँ line replace नहीं करनी.",
       "source": "four-walls-story-lab/index.html#story-part2-ankita",
       "kind": "editorial"
     },
@@ -60,49 +60,37 @@
     },
     {
       "id": "P05",
-      "title": "Part 5 — First Chotu encounters",
-      "status": "PATCH — KEY GAP",
-      "release": "Full prose draft, not approved",
+      "title": "Part 5 — Chotu ke saare 9 scenes (ab ek hi part)",
+      "status": "3 sentences propose kiye; original safe",
+      "release": "One combined working markdown file and one Story Lab section; original lines retained, 3 orange-underlined proposals",
       "dhika": "E01-L116–157; L165–205",
       "strength": "Four work-led encounters, individual female voices, observable awkwardness, and private thoughts are present; do not remove these.",
-      "gap": "Most encounters read as fresh starts. Chotu's previous social/psychological experience is not strongly enough carried into later visits; a delayed reaction is sometimes summarized rather than shown.",
-      "next": "Build clock-order state transitions: Saturday Ankita 6:15 PM → Shivani 7:05 PM; Sunday Tanya 12:50 PM → Shreya 3:10 PM. Keep all existing physical actions and boundaries.",
-      "source": "data/stories/e01_part5_chotu_four_tracks_draft.md",
-      "kind": "editorial"
-    },
-    {
-      "id": "P05C",
-      "title": "Part 5 Continuation — Second encounters",
-      "status": "PATCH — BRIDGE",
-      "release": "Full draft; separate continuation",
-      "dhika": "E01-L158–205",
-      "strength": "Ankita's application help, Shivani's shared meal and study support, Shreya's compliment, and Tanya's group banter supply genuine non-romantic scene motives. Tanya already remembers the storeroom fall.",
-      "gap": "Subsequent decisions are more often intellectual recaps than fully connected scene-to-scene changes. Several 'missing aftermath' comments in Grok's review are overstated because memories are present.",
-      "next": "Preserve the existing recalls. Add only genuinely new causal links in the correct time sequence; no generic copied response for all four women.",
-      "source": "data/stories/e01_part5_continuation_four_chotu_followups_draft.md",
+      "gap": "Do transitions need stronger cause-and-effect: Ankita Saturday → Shivani Saturday, Tanya Sunday → Shreya Sunday; Sunday closing reflection also describes rather than links these visits. Existing reactions already appear and are not 'missing'.",
+      "next": "Three concrete orange-underlined original sentences with bracketed proposed replacements in Story Lab Part 5. Keep or reject each separately; no change has been applied to the main prose.",
+      "source": "data/stories/e01_part5_complete_working_draft.md",
       "kind": "editorial"
     },
     {
       "id": "P06",
       "title": "Part 6 — Four Decisions",
-      "status": "PATCH — ONE FACTUAL ERROR",
+      "status": "एक time-word correction दिखाया",
       "release": "Full prose draft; original unmodified",
       "dhika": "E01-L206–216",
       "strength": "All four women already make intentional decisions about appearance, conversation, help or personal feedback. No missing 'agency' event.",
       "gap": "Chirag's closing intercut uses 'kal' about Ankita's verification although Tanya's Tuesday 12:40 task is already known; needs Tuesday same-day reference. The established memories can be more specific without creating scenes.",
-      "next": "Correct temporal phrase only after setting closing intercut's clock. Optionally link each choice to one actually known prior reaction.",
+      "next": "Story Lab Part 6 में 'kal' orange underline किया है; [बदलेगा: aaj 4 baje] suggest किया है. Original prose untouched.",
       "source": "data/stories/e01_part6_the_four_decisions_draft.md",
       "kind": "confirmed"
     },
     {
       "id": "P07A",
       "title": "Part 7 Version A — Four Doors, One New Secret",
-      "status": "PATCH + PICK CANON",
+      "status": "1 duplicate + 1 optional line highlighted",
       "release": "Latest working candidate; not approved",
       "dhika": "E01-L217–224",
       "strength": "Each practical task has payoff: photos chosen, form verified, documents delivered, decorative dori incident resolved with reassurance. Chotu has a coda.",
       "gap": "Repeated sentence about secure fasteners in Shivani's scene; Chotu's cross-encounter continuity and final character-specific aftereffects are artistically underdeveloped compared with DHIKA's concentrated ending.",
-      "next": "Remove duplicate wording; preserve existing events, add only continuity/aftermath bridge where genuinely missing; select A/B rather than merge.",
+      "next": "Story Lab Part 7 A में repeated 'Front fasteners...' line हटाने और Chotu की final reflection को concrete बनाने का bracketed proposal दिखाया; दोनों अभी pending.",
       "source": "data/stories/e01_part7_four_doors_one_new_secret_draft.md",
       "kind": "confirmed"
     },
@@ -218,9 +206,9 @@
       "id": "C008",
       "scope": "P05/P05C",
       "type": "EDITORIAL",
-      "status": "PROPOSED",
+      "status": "3 PROPOSALS SHOWN IN PART 5 UI",
       "issue": "Chotu's across-household psychology is described in closing reflection but not consistently used to shape each following interaction.",
-      "fix": "Add minimum chronological state-bridge beats, retaining original encounters."
+      "fix": "Three original lines orange-underlined, with proposed replacement in brackets. Not applied to story. Chotu Saturday and Sunday experience carried in proper real-time order."
     },
     {
       "id": "C009",
@@ -261,6 +249,30 @@
       "status": "CORRECTED IN REVIEW UI",
       "issue": "A prior UI statement said no independent source-backed review had been undertaken.",
       "fix": "State current work is a documented source-backed working review; complete independent proofread and final reader approval are still outstanding."
+    },
+    {
+      "id": "C014",
+      "scope": "P05",
+      "type": "STORY ORGANIZATION",
+      "status": "ONE COMBINED UI + SINGLE FILE CREATED",
+      "issue": "Part 5 was split into main Part 5 and a separate follow-up section, which confused reading and hid the actual date order.",
+      "fix": "One nine-scene reading page + new chronological working manuscript. Both source drafts retained unchanged. No final canon approved."
+    },
+    {
+      "id": "C015",
+      "scope": "P02",
+      "type": "REVIEW CLARIFICATION",
+      "status": "NO PROSE CHANGE REQUIRED",
+      "issue": "Past 'bridge repair' label wrongly suggested that the text of Part 2 was defective.",
+      "fix": "All four Part 2 views now explicitly say no verified incorrect line and no rewrite is proposed there."
+    },
+    {
+      "id": "C016",
+      "scope": "P05/P06/P07A",
+      "type": "INLINE ORIGINAL VS PROPOSAL",
+      "status": "UI HIGHLIGHTS PUBLISHED; NOT ACCEPTED IN PROSE",
+      "issue": "User could not locate exact proposed edits; abstract PATCH wording wasn't enough.",
+      "fix": "Orange underlined original and [बदलेगा: ...] replacement in same paragraph: three Part 5 proposals, one Part 6 factual timing correction, two Part 7 proposals."
     }
   ],
   "chronology": [
@@ -300,5 +312,55 @@
       ]
     }
   ],
-  "append_instructions": "To add a correction, append a new object with unique C### id under corrections and commit the JSON. Never overwrite a historical correction: update status or append a follow-up entry."
+  "append_instructions": "To add a correction, append a new object with unique C### id under corrections and commit the JSON. Never overwrite a historical correction: update status or append a follow-up entry.",
+  "proposed_text_changes": [
+    {
+      "id": "H01",
+      "part": "P05",
+      "reason": "Chotu at Shivani same Saturday should plausibly retain earlier awkwardness without changing the invoice scene.",
+      "existing": "Doorbell par Chotu mila.",
+      "suggestion": "Doorbell par Chotu mila. Ankita ke ghar ki apni achanak khamoshi use abhi yaad thi; usne pehle invoice seedha kiya, phir Shivani se nazar milakar baat shuru ki.",
+      "status": "PROPOSAL"
+    },
+    {
+      "id": "H02",
+      "part": "P05",
+      "reason": "At 3:10 PM Sunday, Shreya follows Tanya's 12:50 PM visit in Chotu's own day.",
+      "existing": "Saath mein Chotu bhi tha—brown-paper rolls, tape aur garment covers lekar.",
+      "suggestion": "Saath mein Chotu bhi tha—brown-paper rolls, tape aur garment covers lekar. Tanya ke ghar ki teasing ab bhi dimaag mein thi. Usne pehle delivery ki list sambhaali, phir Shreya ki taraf dekha—iss baar jawaab sochkar dena chahta tha.",
+      "status": "PROPOSAL"
+    },
+    {
+      "id": "H03",
+      "part": "P05",
+      "reason": "Retrospective should connect reactions without changing original encounters; Saturday Ankita and Shivani are same day.",
+      "existing": "Ankita ke confidence ke saamne woh apni zubaan kho baitha tha. Shivani ki sharmili muskaan aur phir invoice wala excuse use yaad tha. Shreya ke boutique mein hansi-mazaak ne tension turant halka kar diya. Tanya ke ghar mein toh chaar devaron ne uski ek pal ki chuppi bhi joke bana di.",
+      "suggestion": "Ankita ke ghar ki achanak chuppi usi shaam Shivani ke saamne uski baat karne ka andaaz badal gayi thi. Sunday ko Tanya ke ghar ki teasing yaad rahi, isliye Shreya ke boutique mein pehle woh sambhal kar bola. Koi bhi ghar ek jaisa nahi tha—aur uske jawaab bhi ab ek jaise nahi rahe the.",
+      "status": "PROPOSAL"
+    },
+    {
+      "id": "H04",
+      "part": "P06",
+      "reason": "Chirag's intercut is after Tanya's Tuesday 12:40 arrangement, before Ankita's Tuesday 4 PM task.",
+      "existing": "Ankita didi ka verification issue kal solve karna tha.",
+      "suggestion": "Ankita didi ka verification issue aaj 4 baje solve karna tha.",
+      "status": "PROPOSAL FACTUAL"
+    },
+    {
+      "id": "H05",
+      "part": "P07A",
+      "reason": "Duplicate clause (already stated previous line).",
+      "existing": "Front fasteners alag se secure the.",
+      "suggestion": "(यह repeated sentence हटेगा, क्योंकि पीछे वाली line already says the main fasteners were secure.)",
+      "status": "PROPOSAL FACTUAL"
+    },
+    {
+      "id": "H06",
+      "part": "P07A",
+      "reason": "Optional clearer Chotu connection, no new encounter.",
+      "existing": "Magar uske dimaag mein din ordinary nahi tha.",
+      "suggestion": "Usne socha tha har nayi delivery ke saath pichhli jhijhak peeche reh jaayegi; aaj ulta hua—use har ghar ke saamne apne jawaab aur nazar ko naye tareeke se sambhaalna pada.",
+      "status": "PROPOSAL"
+    }
+  ]
 }
