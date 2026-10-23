@@ -61,12 +61,12 @@
     {
       "id": "P05",
       "title": "Part 5 — Chotu ke saare 9 scenes (ab ek hi part)",
-      "status": "NOT DHIKA-LEVEL — SCENE PROGRESSION UNDERDELIVERED",
-      "release": "Nine-scene original remains unchanged. A separate Google-Docs-sourced Grok V1 for Ankita (Sat + Sun, 877 words) has been preserved, numbered and added to Story Lab; reader approval still pending. Other characters not yet delivered.",
+      "status": "FULL NINE-SCENE SELECTIVE MERGE V1 PUBLISHED FOR READER REVIEW",
+      "release": "Merged full nine-scene Part 5 (4,366 prose words, 280 numbered paragraph blocks) published separately in Story Lab. Original combined nine-scene copy is not overwritten. Ankita, Shreya and Tanya combine retained original/Grok excerpts; Shivani Sat/Sun and Chotu closing have verbatim original paragraphs. No reader canon acceptance assumed.",
       "dhika": "DHIKA E01-L116–205 (main Part 5 comparison); L206–224 only later payoff reference",
       "strength": "Part 5 contains four real delivery motives; distinct women and household contexts; each has an unexpected visual/behavioural hesitation and later follow-up. Ankita remembers Saturday (FWFS L36–50, L194–228); Shivani remembers ride and offers breakfast/study help (L66–108, L143–171); Shreya recognizes singing/creative talent (L314–338, L385–409); Tanya recalls storeroom and jokes (L258–278, L454–490).",
-      "gap": "A full nine-scene comparison shows intensity and causal progression significantly below DHIKA's first incident → private recall → next interaction transformation (DHIKA L126–151, L165–205). The women's reactions are often labelled, then reset to ordinary tasks. Chotu repeats look-away/silence/compliment patterns with limited state carry-over across households. Tanya's intended strongest emotional progression instead disperses into four-devar group banter and a delivery; Shreya's two visits close mostly through friendly compliments. Additional sequencing gap: Shreya reaches home in the late-afternoon end of her 3:10 boutique visit (FWFS combined ~L340–348), then reappears at the boutique at 6:30 (~L352–363) without a travel/return bridge.",
-      "next": "Do NOT call the earlier 3 orange sentences a sufficient repair. Preserve the 9 original scenes. Creative outcome per character needs an approved new director decision, then prose work by the writer as required. For now, mark Part 5 NOT READY; no explicit new passage is automatically required until the reader sets goals. Separate non-graphic continuity and narrative QA from writer-authored explicit descriptions.",
+      "gap": "First full selective Grok merge is ready, but creative intensity and final character progression still require reader review; two original Shivani scenes were intentionally unchanged, and the old Chotu Sunday-night recap has yet to be rechecked against revised scenes.",
+      "next": "Read nine-scene merged Story Lab with yellow turning-point markers. Approve or request pinpoint fixes per line ID. Do not automatically replace the original nine-scene manuscript.",
       "source": "data/stories/e01_part5_complete_working_draft.md",
       "kind": "source-based literary intensity review; not explicit prose writing",
       "received_grok_v1": {
@@ -87,6 +87,29 @@
           "Scene length materially below agreed two-scene target"
         ],
         "original_p5_changed": false
+      },
+      "merged_v1": {
+        "source": "data/stories/e01_part5_selective_merge_v1.md",
+        "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part5-merged-v1",
+        "paragraphs": 280,
+        "words": 4366,
+        "highlighted_turning_points": 52,
+        "scenes": 9,
+        "shivani_verbatim": true,
+        "chotu_closing_verbatim": true,
+        "original_unchanged": true,
+        "clue_carryover": [
+          "Ankita/Mahendra missing set",
+          "Shreya/Harish strap orientation",
+          "Tanya/Virendra reversed fold"
+        ],
+        "tiny_source_edits": [
+          "Ankita Blouse → Top",
+          "Shreya Blouse/kurti → kurti",
+          "Shreya Subah → Dopahar",
+          "Shreya boutique return location clarified"
+        ],
+        "approval": "READER REVIEW PENDING"
       }
     },
     {
@@ -404,6 +427,14 @@
       "status": "44 NUMBERED PARAGRAPHS PUBLISHED · NOT CANON",
       "issue": "User pasted Ankita's two-scene Grok rewrite into their designated Google Doc. It is 877 scene-prose words versus 1,600–1,900 assigned and has a 'blouse' vs teal-top clothing-word inconsistency and an underspecified Saturday laundry packet/discovery sequence.",
       "fix": "Preserved original paragraph texts verbatim from the Google Doc into a separate GitHub raw snapshot, a numbered 44-paragraph reading copy, and a dedicated Story Lab view with styled dialogue. Left the original nine-scene Part 5 and Google Doc untouched. Reader may request factual fixes or Grok expansion after review."
+    },
+    {
+      "id": "C031",
+      "scope": "E01 P05 FULL COMBINED MERGE",
+      "type": "GROK + ORIGINAL PROSE EDITORIAL COMBINATION",
+      "status": "READER-REVIEW VERSION PUBLISHED — ORIGINALS PRESERVED",
+      "issue": "User approved merging Ankita, Tanya and Shreya Grok drafts with the original Part 5 while requiring Shivani unchanged, retention of mature submitted prose, and yellow highlights on key existing story turns.",
+      "fix": "Published an independent 9-scene / 280-paragraph / 4,366-prose-word merged Markdown chapter, incorporated it into single Story Lab as an expandable reader with 52 yellow highlights. Retained earlier Part 5 and all user Grok source docs intact. Restored Part 3 character knowledge/clues and corrected non-graphic wording/return timing. Shivani original paragraphs verified exact."
     }
   ],
   "chronology": [
