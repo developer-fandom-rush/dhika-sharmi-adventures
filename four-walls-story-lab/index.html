@@ -89,6 +89,21 @@
 .grok-direct-dialogue{margin-left:10px;border-left:2px solid #c3a067;padding-left:13px;background:#22354a}
 .grok-scene .draft-paper{margin-top:12px}
 @media(max-width:650px){.grok-submitted-line{grid-template-columns:1fr;gap:3px;padding:11px 7px}.grok-submitted-line .lno{font-size:10px}.grok-direct-dialogue{margin-left:0}}
+
+/* Part 5: source-preserving merged draft reader */
+.p5-merge-reader{max-width:1100px;display:flex;flex-direction:column;gap:12px}
+.p5-merge-item{border:1px solid #52667c;border-radius:12px;overflow:hidden;background:#14283d}
+.p5-merge-item>summary{cursor:pointer;font-size:15px;padding:16px 17px;line-height:1.55;font-weight:750;color:#f4d5a1}
+.p5-merge-body{border-top:1px solid #32445b;padding:12px 17px}
+.p5-merge-line{display:grid;grid-template-columns:170px minmax(0,1fr);gap:10px;padding:11px 7px;margin:3px 0;border-bottom:1px solid #314359;line-height:1.8}
+.p5-merge-ref{font-size:10.5px;color:#b6c6d8;font-family:monospace;overflow-wrap:anywhere;padding-top:3px}
+.p5-merge-prose{font-size:14px;overflow-wrap:anywhere;white-space:pre-wrap}
+.p5-merge-line.p5-merge-key{background:#f3d166!important;color:#23232a!important;border-radius:8px;border:1px solid #d6ab37;margin:7px 0}
+.p5-merge-line.p5-merge-key .p5-merge-prose,.p5-merge-line.p5-merge-key .p5-merge-ref{color:#25252c!important}
+.p5-merge-line.p5-merge-dialogue:not(.p5-merge-key) .p5-merge-prose{color:#f2d9b0}
+.p5-escalation-sample{background:#f3d166;color:#25252c;border-radius:3px;padding:3px 5px}
+.p5-merge-top{color:#b6cadb;font-size:12px;margin:4px 0 18px}
+@media(max-width:700px){.p5-merge-body{padding:9px}.p5-merge-line{grid-template-columns:1fr;gap:2px}.p5-merge-ref{font-size:10px}.p5-merge-prose{font-size:13px}}
 </style></head><body><div class="app">
 <aside class="sidebar">
 <div class="brand"><div class="logotype">FOUR WALLS<em> / </em>STORY LAB</div><p>Series → Episode → Part</p></div>
@@ -1533,8 +1548,25 @@
 </div></details>
 <div class="no-edit-note"><b>Provenance:</b> Every numbered prose paragraph comes from the submitted Google Doc, in order. Scene headings, line IDs and review notes are editorial elements only. Grok's narration and dialogue are not rewritten or expanded.</div>
 </section>
+<section class="view" data-view="story-part5-merged-v1" hidden>
+<div class="kicker">FOUR WALLS / EPISODE 01 / PART 5 · SELECTIVE MERGE</div>
+<h1>Part 5 — Merged Reading V1</h1>
+<p class="sub">Ankita + Shreya + Tanya: best retained Grok and old text · Shivani: exactly unchanged · all nine chronological scenes.</p>
+<span class="tag">FULL SELECTIVE MERGE · 4,366 WORDS · FOR READER REVIEW</span>
+<div class="no-edit-note"><b>Reader guide:</b> <mark class="p5-escalation-sample">Yellow highlight</mark> marks significant moments already present in the source: an encounter changes direction, someone notices a reaction, teasing creates a question, or understanding shifts. Yellow is an editorial marker, not new or approved prose. It does not mean every such moment involves physical contact.</div>
+<div class="grok-total">
+<div><span>Scenes</span><strong>9 / 9</strong></div>
+<div><span>Numbered paragraphs</span><strong>280</strong></div>
+<div><span>Shivani</span><strong>Unchanged · 2 scenes</strong></div>
+</div>
+<div class="e02-route"><button data-go="story-part5-chotu">Compare original Part 5 →</button><button data-go="story-e01-grok-editor">Grok Editor →</button></div>
+<div class="sourcefoot"><span>Grok + original source · exact-prose selective merge</span><a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part5_selective_merge_v1.md" target="_blank" rel="noopener">Open numbered merged manuscript ↗</a><a href="https://docs.google.com/document/d/1Tp7LG9m6Ba7vj-MRaJJvpkgIbWBV9oH81dL5rOjbHHo/edit" target="_blank" rel="noopener">View Grok source drafts ↗</a></div>
+<div id="p5-merge-reader" class="p5-merge-reader" aria-live="polite"><p>Loading merged chapter from the published repository…</p></div>
+<div class="no-edit-note"><b>Change log:</b> Ankita's missing set discovery, Shreya's displaced item, and Tanya's displaced item remain intact. Minor Shreya same-day timing/return and clothing-name errors are corrected. The original nine-scene manuscript has not been overwritten, and this merged version needs final reader approval.</div>
+</section>
 <section class="view" data-view="story-part5-chotu" hidden>
 <div class="no-edit-note"><b>New received draft:</b> Ankita ke Saturday + Sunday Grok rewritten scenes now have their own <button type="button" data-go="story-part5-ankita-grok">numbered V1 reading page →</button>. They have <b>not</b> replaced this original 9-scene manuscript.</div>
+<div class="no-edit-note"><b>Updated comparison:</b> Read the <button type="button" data-go="story-part5-merged-v1">new merged 9-scene V1 with yellow highlights →</button>. This original copy remains unchanged.</div>
 <div class="kicker">FOUR WALLS / EPISODE 01 · ONE COMPLETE PART 5</div><h1>Part 5 — Chaar Darwaaze, Ek Chotu</h1>
 <p class="sub">Saturday to Monday · all 9 original scenes in chronological reading order · original prose retained</p>
 <span class="tag">COMBINED WORKING DRAFT · SUGGESTIONS ONLY · NOT CANON</span>
@@ -1842,7 +1874,7 @@
 (function(){
 function navigate(key){var oldP2=/^story-part2-(ankita|shivani|shreya|tanya)$/.exec(key);if(oldP2){selectPart2Character(oldP2[1]);key="story-part2-all";}if(key==="story-part5-continuation")key="story-part5-chotu";var pages=document.querySelectorAll("[data-view]");var active=false;pages.forEach(function(page){var same=page.getAttribute("data-view")===key;page.hidden=!same;if(same)active=true;});if(!active)return;
 document.querySelectorAll("[data-go]").forEach(function(btn){var selected=btn.getAttribute("data-go")===key;btn.classList.toggle("active",selected);btn.setAttribute("aria-current",selected?"page":"false");});
-var dhika=key.indexOf("dhika-")===0;var e02Source=/^story-e02-p(0[1-6])$/.exec(key);document.getElementById("breadcrumb").textContent=e02Source?("DHIKA / Episode 02 / Part "+Number(e02Source[1])):dhika?(key==="dhika-browser"?"DHIKA / Original episode browser":"DHIKA / Episode 01 / Part "+key.split("-")[1]):"FOUR WALLS / "+({"story-prologue":"Episode 00 · Prologue","story-part1":"Episode 01 · Part 1 Review","story-part2-all":"Episode 01 · Part 2 — All Four","story-part2-ankita":"Episode 01 · Part 2 — Ankita","story-part2-shivani":"Episode 01 · Part 2 — Shivani","story-part2-shreya":"Episode 01 · Part 2 — Shreya","story-part2-tanya":"Episode 01 · Part 2 — Tanya","story-part3-elders":"Episode 01 · Part 3 — Elder Secrets","story-part4-ankita":"Episode 01 · Part 4 — Ankita Director Plan","story-part4-shivani":"Episode 01 · Part 4 — Shivani Director Plan","story-part4-tanya":"Episode 01 · Part 4 — Tanya Director Plan","story-part4-shreya":"Episode 01 · Part 4 — Shreya Director Plan","story-part5-ankita-grok":"Episode 01 · Part 5 — Ankita · Grok V1","story-part5-chotu":"Episode 01 · Part 5 — Chotu Full Draft","story-part5-continuation":"Episode 01 · Part 5 — Chotu Follow-Ups","story-part6-four-decisions":"Episode 01 · Part 6 — Chaar Faisle","story-part7-four-encounters":"Episode 01 · Part 7 — Earlier Alternate","story-part7-director-cut":"Episode 01 · Part 7 — Latest Full Draft","story-e02-hub":"Episode 02 · Planning Workspace","story-e02-p01":"Episode 02 · Source 1","story-e02-p02":"Episode 02 · Source 2","story-e02-p03":"Episode 02 · Source 3","story-e02-p04":"Episode 02 · Source 4","story-e02-p05":"Episode 02 · Source 5","story-e02-p06":"Episode 02 · Source 6","story-e01-grok-editor":"Episode 01 · Part 5 — Grok Editor","story-e01-director-desk":"Writing Rules & Corrections","story-e01-review":"Episode 01 · Completion & QA","story-attraction-index":"Episode 01 · Attraction and Tension Index","story-characters":"Characters","story-scenes":"Approved Scenes","story-continuity":"Continuity"}[key]||"Story");document.getElementById("status").textContent=dhika||e02Source?"SOURCE VERIFIED":key==="story-scenes"?"AWAITING APPROVAL":"WORKING STORY";window.scrollTo({top:0,behavior:"instant"});if(history.replaceState)history.replaceState(null,"","#"+key);}
+var dhika=key.indexOf("dhika-")===0;var e02Source=/^story-e02-p(0[1-6])$/.exec(key);document.getElementById("breadcrumb").textContent=e02Source?("DHIKA / Episode 02 / Part "+Number(e02Source[1])):dhika?(key==="dhika-browser"?"DHIKA / Original episode browser":"DHIKA / Episode 01 / Part "+key.split("-")[1]):"FOUR WALLS / "+({"story-prologue":"Episode 00 · Prologue","story-part1":"Episode 01 · Part 1 Review","story-part2-all":"Episode 01 · Part 2 — All Four","story-part2-ankita":"Episode 01 · Part 2 — Ankita","story-part2-shivani":"Episode 01 · Part 2 — Shivani","story-part2-shreya":"Episode 01 · Part 2 — Shreya","story-part2-tanya":"Episode 01 · Part 2 — Tanya","story-part3-elders":"Episode 01 · Part 3 — Elder Secrets","story-part4-ankita":"Episode 01 · Part 4 — Ankita Director Plan","story-part4-shivani":"Episode 01 · Part 4 — Shivani Director Plan","story-part4-tanya":"Episode 01 · Part 4 — Tanya Director Plan","story-part4-shreya":"Episode 01 · Part 4 — Shreya Director Plan","story-part5-ankita-grok":"Episode 01 · Part 5 — Ankita · Grok V1","story-part5-merged-v1":"Episode 01 · Part 5 — Merged V1","story-part5-chotu":"Episode 01 · Part 5 — Chotu Full Draft","story-part5-continuation":"Episode 01 · Part 5 — Chotu Follow-Ups","story-part6-four-decisions":"Episode 01 · Part 6 — Chaar Faisle","story-part7-four-encounters":"Episode 01 · Part 7 — Earlier Alternate","story-part7-director-cut":"Episode 01 · Part 7 — Latest Full Draft","story-e02-hub":"Episode 02 · Planning Workspace","story-e02-p01":"Episode 02 · Source 1","story-e02-p02":"Episode 02 · Source 2","story-e02-p03":"Episode 02 · Source 3","story-e02-p04":"Episode 02 · Source 4","story-e02-p05":"Episode 02 · Source 5","story-e02-p06":"Episode 02 · Source 6","story-e01-grok-editor":"Episode 01 · Part 5 — Grok Editor","story-e01-director-desk":"Writing Rules & Corrections","story-e01-review":"Episode 01 · Completion & QA","story-attraction-index":"Episode 01 · Attraction and Tension Index","story-characters":"Characters","story-scenes":"Approved Scenes","story-continuity":"Continuity"}[key]||"Story");document.getElementById("status").textContent=dhika||e02Source?"SOURCE VERIFIED":key==="story-scenes"?"AWAITING APPROVAL":"WORKING STORY";window.scrollTo({top:0,behavior:"instant"});if(history.replaceState)history.replaceState(null,"","#"+key);}
 document.addEventListener("click",function(e){var button=e.target.closest("[data-go]");if(button&&!button.disabled)navigate(button.getAttribute("data-go"));var jump=e.target.closest("[data-jump]");if(jump){var target=document.getElementById(jump.getAttribute("data-jump"));if(target)target.scrollIntoView({behavior:"smooth",block:"center"});}var person=e.target.closest("[data-person]");if(person){var k=person.getAttribute("data-person");document.querySelectorAll("[data-profile]").forEach(function(node){node.hidden=node.getAttribute("data-profile")!==k;});document.querySelectorAll("[data-person]").forEach(function(btn){btn.classList.toggle("selected",btn===person);});}});
 var first=document.querySelector('[data-person="0"]');if(first)first.classList.add("selected");
 document.querySelectorAll(".exact-source").forEach(function(panel){panel.addEventListener("toggle",function(){if(!panel.open||panel.dataset.loaded)return;panel.dataset.loaded="1";var out=panel.querySelector(".raw-content");out.textContent="Loading indexed original source lines…";var srcEp=panel.getAttribute("data-source-episode")==="e02"?"e02":"e01";var sourceTag=srcEp.toUpperCase();var sourcePath=(location.pathname.indexOf("/four-walls-story-lab/")!==-1?"../data/episodes/":"./data/episodes/")+srcEp+".json";fetch(sourcePath).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(d){var start=Number(panel.getAttribute("data-start")),end=Number(panel.getAttribute("data-end"));var all=d.events.reduce(function(a,e){return a.concat(e.raw_lines||[]);},[]).filter(function(line){return line.line>=start&&line.line<=end;});out.textContent="";if(all.length!==end-start+1){out.textContent="Source coverage mismatch: expected "+(end-start+1)+" lines; found "+all.length;return;}all.forEach(function(line){var row=document.createElement("div"),number=document.createElement("span"),content=document.createElement("span");row.className="rawline";number.className="rawlabel";content.className="rawtxt";number.textContent=sourceTag+"-L"+String(line.line).padStart(3,"0");content.textContent=line.text||" ";row.append(number,content);out.appendChild(row);});}).catch(function(e){out.textContent="Unable to fetch original lines ("+e.message+"). Open indexed source via the source link below."});});});
@@ -1908,6 +1940,39 @@ document.addEventListener("keydown",function(e){
 });
 
 
+
+/* Source-backed Part 5 merged reader; markup is added only for existing story lines. */
+function loadP5MergedReader(){
+ var host=document.getElementById("p5-merge-reader");if(!host||host.dataset.loaded==="1")return;host.dataset.loaded="1";
+ var path=(location.pathname.indexOf("/four-walls-story-lab/")>=0?"../":"./")+"data/stories/e01_part5_selective_merge_v1.md";
+ fetch(path,{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("HTTP "+r.status);return r.text();}).then(function(raw){
+   var lines=raw.split(/\r?\n/),scenes=[],current=null;
+   lines.forEach(function(rawLine){
+     var head=/^## Scene (\d+) of 9 — (.+)$/.exec(rawLine);
+     if(head){current={n:Number(head[1]),title:head[2],paras:[]};scenes.push(current);return;}
+     var p=/^\*\*(FWFS-E01-P5-M-L\d{3})\*\* (🟨 )?(.*)$/.exec(rawLine);
+     if(p&&current){current.paras.push({id:p[1],important:!!p[2],text:p[3]});}
+   });
+   if(scenes.length!==9||scenes.reduce(function(n,s){return n+s.paras.length;},0)!==280)throw Error("Scene/paragraph count mismatch");
+   host.textContent="";
+   var summary=document.createElement("p");summary.className="p5-merge-top";summary.textContent="Nine scenes in timeline order. Expand a scene to read numbered text; yellow highlights mark existing turning points.";
+   host.appendChild(summary);
+   scenes.forEach(function(s,i){
+     var details=document.createElement("details");details.className="p5-merge-item";if(i===0)details.open=true;
+     var title=document.createElement("summary");title.textContent=String(s.n)+". "+s.title+" · "+s.paras.length+" numbered paragraphs";details.appendChild(title);
+     var body=document.createElement("div");body.className="p5-merge-body";
+     s.paras.forEach(function(q){
+       var para=document.createElement("div");para.className="p5-merge-line"+(q.important?" p5-merge-key":"")+(q.text.trim().startsWith("“")?" p5-merge-dialogue":"");
+       var label=document.createElement("span");label.className="p5-merge-ref";label.textContent=q.id;
+       var content=document.createElement("span");content.className="p5-merge-prose";
+       content.textContent=q.text.replace(/\*\*([^*]+)\*\*/g,"$1").replace(/\*([^*]+)\*/g,"$1");
+       para.appendChild(label);para.appendChild(content);body.appendChild(para);
+     });details.appendChild(body);host.appendChild(details);
+   });
+ }).catch(function(err){host.textContent="Unable to load merged draft: "+err.message+". Open the numbered manuscript via the GitHub link above.";host.dataset.loaded="0";});
+}
+loadP5MergedReader();
+
 /* Editor prompts are stored as standalone Markdown in this repository, not buried in large HTML. */
 var grokBriefs={
  ankita:{title:"Ankita",words:"1,600–1,900",time:"Saturday 6:15 PM + Sunday 10:15 AM",file:"fwfs_e01_p5_ankita_grok_editor_brief.md"},
@@ -1956,7 +2021,7 @@ showGrokBrief("ankita");
 var sourceIndex=null, masterPromise=null, selectedDHIKA=2;
 var storyMenu={
 "00":[["Prologue","story-prologue"]],
-"01":[["Writing Rules & Corrections","story-e01-director-desk"],["Part 1","story-part1"],["Part 2 · Complete","story-part2-all"],["Part 3 · Review","story-part3-elders"],["Part 4 · Ankita","story-part4-ankita"],["Part 4 · Shivani","story-part4-shivani"],["Part 4 · Shreya","story-part4-shreya"],["Part 4 · Tanya","story-part4-tanya"],["Grok Editor · Part 5","story-e01-grok-editor"],["Part 5 · Ankita (Grok V1)","story-part5-ankita-grok"],["Part 5 · Chotu","story-part5-chotu"],["Part 6","story-part6-four-decisions"],["Part 7 · Latest","story-part7-director-cut"],["Part 7 · Alternate","story-part7-four-encounters"],["Episode 01 review","story-e01-review"]],
+"01":[["Writing Rules & Corrections","story-e01-director-desk"],["Part 1","story-part1"],["Part 2 · Complete","story-part2-all"],["Part 3 · Review","story-part3-elders"],["Part 4 · Ankita","story-part4-ankita"],["Part 4 · Shivani","story-part4-shivani"],["Part 4 · Shreya","story-part4-shreya"],["Part 4 · Tanya","story-part4-tanya"],["Grok Editor · Part 5","story-e01-grok-editor"],["Part 5 · Ankita (Grok V1)","story-part5-ankita-grok"],["Part 5 · Merged V1","story-part5-merged-v1"],["Part 5 · Chotu","story-part5-chotu"],["Part 6","story-part6-four-decisions"],["Part 7 · Latest","story-part7-director-cut"],["Part 7 · Alternate","story-part7-four-encounters"],["Episode 01 review","story-e01-review"]],
 "02":[["Episode 02 director workspace","story-e02-hub"]]
 };
 function buttonFor(parent,label,key){var b=document.createElement("button");b.type="button";b.className="side-button";b.setAttribute("data-go",key);b.textContent=label;parent.appendChild(b);}
