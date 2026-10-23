@@ -1,0 +1,304 @@
+{
+  "schema_version": "2.0",
+  "updated": "2026-10-23",
+  "story": "Four Walls, Four Secrets",
+  "overall_status": "DRAFTS EXIST — EPISODE 01 NOT FIXED OR CANON-LOCKED",
+  "source_hierarchy": {
+    "dhika_original": "data/episodes/e01.json",
+    "fwfs_working": "four-walls-story-lab/index.html; data/stories/; uploaded Grok Part 4 PDF",
+    "caution": "Original DHIKA facts are not automatically FWFS facts. Keep all versions distinct."
+  },
+  "review_limitations": "Part 4 Grok prose and corrections arrived in an uploaded PDF; this GitHub repository's Story Lab still displays director plans. Review statuses are working and not final manuscript QA, prose publication or source line-by-line completeness certification.",
+  "part_reviews": [
+    {
+      "id": "P01",
+      "title": "Part 1 — Four women and four elders",
+      "status": "KEEP",
+      "release": "Reader review pending",
+      "dhika": "E01-L007–063",
+      "strength": "Four distinct women, wedding context, four older men's separate hidden motivations, and information asymmetry are already established.",
+      "gap": "No proven missing event requiring rewrite. Preserve existing social context and relationship assignments.",
+      "next": "No rewrite. Verify the Part 1 family/elder matrix when Part 3 is canon-locked.",
+      "source": "four-walls-story-lab/index.html#story-part1",
+      "kind": "confirmed"
+    },
+    {
+      "id": "P02",
+      "title": "Part 2 — Four independent tracks",
+      "status": "KEEP + BRIDGE PATCH",
+      "release": "Four Story Lab prose tracks; not final canon",
+      "dhika": "E01-L030–063; L070–106 (mechanism only)",
+      "strength": "Ankita's work encounters, Shivani's dual mentoring thread, Shreya's two musical personalities, and Tanya's four adult cousin-devars all have distinct setups.",
+      "gap": "The Part 2 emotional baselines are not systematically carried into Part 4; this is a bridge/structure concern, not missing scenes.",
+      "next": "Add a concise character-state handoff for each woman, without replacing source paragraphs.",
+      "source": "four-walls-story-lab/index.html#story-part2-ankita",
+      "kind": "editorial"
+    },
+    {
+      "id": "P03",
+      "title": "Part 3 — Four concealed misconduct scenes",
+      "status": "REVIEW + CANON LOCK",
+      "release": "Grok review/copyedit draft, not approved",
+      "dhika": "E01-L064–069",
+      "strength": "Distinct elder identities and reader-only secrets were planned, with ordinary access pretexts.",
+      "gap": "Multiple prior Grok proposal versions exist. Final approved version and exact discovery clues are not locked; the women's awareness must not be inferred from reader knowledge.",
+      "next": "Select and QA one version, preserve the consequences as non-consensual misconduct, and maintain the Mahendra missing-item / other displaced-item distinction.",
+      "source": "data/stories/e01_part3_grok_copyedit.txt",
+      "kind": "confirmed"
+    },
+    {
+      "id": "P04",
+      "title": "Part 4 — Grok prose for four tracks",
+      "status": "TARGETED REWORK + APPROVAL",
+      "release": "All four prose tracks in user-provided PDF, not yet integrated in Story Lab",
+      "dhika": "E01-L070–106",
+      "strength": "Four full scene drafts now exist in uploaded Grok conversation; the individual scenarios and established physical events do not need a wholesale replacement.",
+      "gap": "Ankita's actual equipment/touch blocking differs from the approved stand-rescue plan; Shivani has two versions and a Saturday/Monday reference error; Shreya has a wrong-name reference; Tanya's hook and box-rescue actors drift from the plan.",
+      "next": "Use existing prose as base, correct actor/timeline/exit specifics; get user approval on intentional deviations. Replace the outdated UI claim that only plans exist.",
+      "source": "data/stories/e01_part4_ankita_director_lock.md",
+      "kind": "confirmed"
+    },
+    {
+      "id": "P05",
+      "title": "Part 5 — First Chotu encounters",
+      "status": "PATCH — KEY GAP",
+      "release": "Full prose draft, not approved",
+      "dhika": "E01-L116–157; L165–205",
+      "strength": "Four work-led encounters, individual female voices, observable awkwardness, and private thoughts are present; do not remove these.",
+      "gap": "Most encounters read as fresh starts. Chotu's previous social/psychological experience is not strongly enough carried into later visits; a delayed reaction is sometimes summarized rather than shown.",
+      "next": "Build clock-order state transitions: Saturday Ankita 6:15 PM → Shivani 7:05 PM; Sunday Tanya 12:50 PM → Shreya 3:10 PM. Keep all existing physical actions and boundaries.",
+      "source": "data/stories/e01_part5_chotu_four_tracks_draft.md",
+      "kind": "editorial"
+    },
+    {
+      "id": "P05C",
+      "title": "Part 5 Continuation — Second encounters",
+      "status": "PATCH — BRIDGE",
+      "release": "Full draft; separate continuation",
+      "dhika": "E01-L158–205",
+      "strength": "Ankita's application help, Shivani's shared meal and study support, Shreya's compliment, and Tanya's group banter supply genuine non-romantic scene motives. Tanya already remembers the storeroom fall.",
+      "gap": "Subsequent decisions are more often intellectual recaps than fully connected scene-to-scene changes. Several 'missing aftermath' comments in Grok's review are overstated because memories are present.",
+      "next": "Preserve the existing recalls. Add only genuinely new causal links in the correct time sequence; no generic copied response for all four women.",
+      "source": "data/stories/e01_part5_continuation_four_chotu_followups_draft.md",
+      "kind": "editorial"
+    },
+    {
+      "id": "P06",
+      "title": "Part 6 — Four Decisions",
+      "status": "PATCH — ONE FACTUAL ERROR",
+      "release": "Full prose draft; original unmodified",
+      "dhika": "E01-L206–216",
+      "strength": "All four women already make intentional decisions about appearance, conversation, help or personal feedback. No missing 'agency' event.",
+      "gap": "Chirag's closing intercut uses 'kal' about Ankita's verification although Tanya's Tuesday 12:40 task is already known; needs Tuesday same-day reference. The established memories can be more specific without creating scenes.",
+      "next": "Correct temporal phrase only after setting closing intercut's clock. Optionally link each choice to one actually known prior reaction.",
+      "source": "data/stories/e01_part6_the_four_decisions_draft.md",
+      "kind": "confirmed"
+    },
+    {
+      "id": "P07A",
+      "title": "Part 7 Version A — Four Doors, One New Secret",
+      "status": "PATCH + PICK CANON",
+      "release": "Latest working candidate; not approved",
+      "dhika": "E01-L217–224",
+      "strength": "Each practical task has payoff: photos chosen, form verified, documents delivered, decorative dori incident resolved with reassurance. Chotu has a coda.",
+      "gap": "Repeated sentence about secure fasteners in Shivani's scene; Chotu's cross-encounter continuity and final character-specific aftereffects are artistically underdeveloped compared with DHIKA's concentrated ending.",
+      "next": "Remove duplicate wording; preserve existing events, add only continuity/aftermath bridge where genuinely missing; select A/B rather than merge.",
+      "source": "data/stories/e01_part7_four_doors_one_new_secret_draft.md",
+      "kind": "confirmed"
+    },
+    {
+      "id": "P07B",
+      "title": "Part 7 Version B — Four Encounters",
+      "status": "KEEP SEPARATE / CHOOSE",
+      "release": "Older alternate draft, not approved",
+      "dhika": "E01-L217–224",
+      "strength": "Alternate complete episode closing candidate available for side-by-side comparison.",
+      "gap": "Different scene ordering and clock times; it cannot silently be treated as approved Version A or merged.",
+      "next": "Keep intact; compare and ask reader to select eventual canon.",
+      "source": "data/stories/e01_part7_the_four_encounters_draft.md",
+      "kind": "confirmed"
+    }
+  ],
+  "rules": [
+    {
+      "title": "Source of truth",
+      "body": "For DHIKA: read the exact source text and episode-local line ranges in data/episodes/eXX.json. Do not treat AI summaries as primary evidence. For FWFS: reader-approved decisions outrank draft suggestions; preserve named actors, chronology and accepted events."
+    },
+    {
+      "title": "Same encounter ≠ same response",
+      "body": "A similar ordinary scenario may recur, but each character enters with a different prior state, motivation, prior knowledge and consequence. Do not manufacture four identical reactions."
+    },
+    {
+      "title": "Five interconnected state tracks",
+      "body": "Maintain Ankita, Shivani, Shreya, Tanya and Chirag/Chotu (22) as five parallel, accumulating character-state ledgers. Chotu's experiences carry over according to actual clock order, not display order."
+    },
+    {
+      "title": "Entry → Middle → Exit",
+      "body": "Entry: practical reason, roles, immediate previous state. Middle: actor, affected person, witness, non-graphic action label, immediate reaction, knowledge gap, highest milestone. Exit: task outcome, separate private interpretation, next encounter dependency."
+    },
+    {
+      "title": "Doer / Receiver / Observer",
+      "body": "Name who initiated, who was affected, who actually noticed, what everyone can infer, and what remains private. Body language is not proof of consent, reciprocation or another person's thoughts."
+    },
+    {
+      "title": "Strong tension without generic filler",
+      "body": "Non-graphic direction must keep concrete anticipation, hesitation, proximity, choice and consequences where supported; avoid replacing action with vague soft emotional summaries. Do not generate graphic anatomy or sexual choreography in the director brief."
+    },
+    {
+      "title": "Preservation-first change policy",
+      "body": "KEEP working paragraphs. PATCH supported causal gaps or definite errors. REWORK only broken story mechanics with reader approval. Keep rejected versions intact and keep separate Part 7 A/B candidates."
+    },
+    {
+      "title": "Writer / Director / Reviewer",
+      "body": "Reader selects plot and approved deviations. ChatGPT checks primary sources, constructs coherent non-graphic scene architecture, and audits continuity. Grok authors prose from an exact approved brief and reports deviations; Grok output never self-approves."
+    },
+    {
+      "title": "Correction publishing workflow",
+      "body": "New corrections are appended to this structured JSON register with IDs and statuses. After a repository commit, the Story Lab review UI refreshes to show the updated register. This static reader UI cannot edit GitHub by itself."
+    }
+  ],
+  "corrections": [
+    {
+      "id": "C001",
+      "scope": "P06",
+      "type": "FACTUAL",
+      "status": "OPEN IN MANUSCRIPT",
+      "issue": "Tuesday store intercut says Ankita's form task is tomorrow ('kal'), while Tuesday 12:40 Tanya task is already known.",
+      "fix": "Set Tuesday intercut time consistently; change only the temporal clause to 'aaj 4 baje'."
+    },
+    {
+      "id": "C002",
+      "scope": "P07A",
+      "type": "TEXT",
+      "status": "OPEN IN MANUSCRIPT",
+      "issue": "Shivani's secure-fasteners statement is repeated in consecutive sentences.",
+      "fix": "Remove redundant sentence; keep fasteners explicitly secure."
+    },
+    {
+      "id": "C003",
+      "scope": "P04",
+      "type": "PRODUCTION",
+      "status": "CORRECTED IN REVIEW UI",
+      "issue": "Older Story Lab asserted Part 4 had only director plans; four actual Grok prose drafts were later uploaded.",
+      "fix": "State: Grok prose exists in PDF; updated/revised prose not yet integrated as final Story Lab story content."
+    },
+    {
+      "id": "C004",
+      "scope": "P04 Ankita",
+      "type": "SCENE MECHANICS",
+      "status": "AWAITING USER DECISION",
+      "issue": "Approved equipment-stand blocking and Grok's existing staged interactions do not fully match.",
+      "fix": "Preserve user-selected existing interaction unless explicitly changed, then align practical incident and hidden knowledge."
+    },
+    {
+      "id": "C005",
+      "scope": "P04 Shivani",
+      "type": "FACTUAL",
+      "status": "OPEN IN SOURCE DRAFT",
+      "issue": "Grok draft's Saturday dialogue uses 'kal' to refer to Monday report; next day is Sunday.",
+      "fix": "Use 'Monday' / 'parson' consistent with scene date; keep two versions separate."
+    },
+    {
+      "id": "C006",
+      "scope": "P04 Shreya",
+      "type": "NAME",
+      "status": "OPEN IN SOURCE DRAFT",
+      "issue": "Grok's Shreya scene mistakenly uses 'Shivani' as the person nodding to Neel.",
+      "fix": "Replace that subject with Shreya in the accepted prose version."
+    },
+    {
+      "id": "C007",
+      "scope": "P04 Tanya",
+      "type": "SCENE MECHANICS",
+      "status": "OPEN IN SOURCE DRAFT",
+      "issue": "Approved scenario had a caught pallu/hook and Arjun handling the carton; draft blocking diverges.",
+      "fix": "Verify the chosen action owners and what each man witnessed before canon."
+    },
+    {
+      "id": "C008",
+      "scope": "P05/P05C",
+      "type": "EDITORIAL",
+      "status": "PROPOSED",
+      "issue": "Chotu's across-household psychology is described in closing reflection but not consistently used to shape each following interaction.",
+      "fix": "Add minimum chronological state-bridge beats, retaining original encounters."
+    },
+    {
+      "id": "C009",
+      "scope": "P06/P07",
+      "type": "REVIEW CORRECTION",
+      "status": "RECLASSIFIED",
+      "issue": "Prior Grok review called female deliberate agency largely missing.",
+      "fix": "Mark agency PRESENT in P06 and P07; critique only its cumulative impact, not event absence."
+    },
+    {
+      "id": "C010",
+      "scope": "P05C",
+      "type": "REVIEW CORRECTION",
+      "status": "RECLASSIFIED",
+      "issue": "Prior review said Tanya's previous storeroom experience had no follow-up.",
+      "fix": "A memory already appears in the Monday 11 AM continuation; evaluate its strength, not its absence."
+    },
+    {
+      "id": "C011",
+      "scope": "P07A/P07B",
+      "type": "VERSION CONTROL",
+      "status": "OPEN — CHOICE",
+      "issue": "Two independently written Part 7 versions with different timings exist.",
+      "fix": "Preserve both. Obtain reader approval of one before canon lock."
+    },
+    {
+      "id": "C012",
+      "scope": "P03",
+      "type": "KNOWLEDGE",
+      "status": "ENFORCED AS RULE",
+      "issue": "Part 3 hidden misconduct must not be treated as known to victims or attributed to Chotu.",
+      "fix": "Track reader-only, actor-only, and receiver-known states separately."
+    },
+    {
+      "id": "C013",
+      "scope": "P01-P07",
+      "type": "REVIEW PROCESS",
+      "status": "CORRECTED IN REVIEW UI",
+      "issue": "A prior UI statement said no independent source-backed review had been undertaken.",
+      "fix": "State current work is a documented source-backed working review; complete independent proofread and final reader approval are still outstanding."
+    }
+  ],
+  "chronology": [
+    {
+      "day": "Saturday",
+      "sequence": [
+        "Ankita 18:15",
+        "Shivani 19:05"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "sequence": [
+        "Shivani continuation 09:30",
+        "Ankita continuation 10:15",
+        "Tanya Part 5 12:50",
+        "Shreya Part 5 15:10",
+        "Shreya continuation 18:30"
+      ]
+    },
+    {
+      "day": "Monday",
+      "sequence": [
+        "Tanya continuation 11:00",
+        "Ankita Part 6 16:10",
+        "Shivani Part 6 18:35"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "sequence": [
+        "Shreya 09:25 (Part 7A)",
+        "Tanya 14:00 (Part 7A)",
+        "Ankita 16:03 (Part 7A)",
+        "Shivani 18:58 (Part 7A)",
+        "Chotu 21:22 (Part 7A)"
+      ]
+    }
+  ],
+  "append_instructions": "To add a correction, append a new object with unique C### id under corrections and commit the JSON. Never overwrite a historical correction: update status or append a follow-up entry."
+}
