@@ -1,0 +1,247 @@
+{
+  "schema": "fwfs.story_reader.v1",
+  "title": "FWFS Episode 01 — Part 7 — Ankita · Grok Revised V1",
+  "timeline": "Tuesday 4:03 PM · Bansal Apartment",
+  "source": "User-pasted Grok prose · 2026-10-24",
+  "status": "REVIEW COPY — NOT CANON",
+  "transformation": "Six minimal setup/timeline repairs; author-supplied descriptive passages retained verbatim. Sequential reading split into narrator, Ankita close-third, Chotu close-third/observable, and spoken dialogue; no new internal thoughts attributed to Chotu.",
+  "edits": [
+    {
+      "type": "timeline",
+      "from": "Monday raat mirror",
+      "to": "Monday shaam mirror",
+      "reason": "Monday Part 6 mirror scene is 4:10 PM, not night"
+    },
+    {
+      "type": "meta-reference",
+      "from": "Part 5 mein jo ek second ka freeze",
+      "to": "Saturday ko Rey ke rocket ke paas jo ek second ka freeze",
+      "reason": "Remove out-of-world part label"
+    },
+    {
+      "type": "task",
+      "reason": "Delivery app needs document image rather than an unspecified photo"
+    },
+    {
+      "type": "blocking",
+      "reason": "Anchor Chotu on sofa with camera, Ankita across low table, and glare on receipt"
+    },
+    {
+      "type": "duration",
+      "reason": "Explain second photo/adjustment while preserving the author-provided observed duration"
+    },
+    {
+      "type": "dialogue / POV",
+      "reason": "Extract six unchanged spoken lines into named speaker blocks; third-person narration and both character perspectives remain chronologically interleaved"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "A-P7-GR-001",
+      "channel": "narrator",
+      "text": "Ankita ne soft-blue sleeveless kurti pehni thi. Stole chair pe pada tha. Usne usse uthaya nahi. Monday shaam mirror ke saamne jo faisla kiya tha, woh ab body pe tha."
+    },
+    {
+      "id": "A-P7-GR-002",
+      "channel": "narrator",
+      "text": "Doorbell baji."
+    },
+    {
+      "id": "A-P7-GR-003",
+      "channel": "narrator",
+      "text": "Chotu andar aaya. Delivery-app verification ke liye supporting certificate, receipt aur unki readable photo upload karni thi."
+    },
+    {
+      "id": "A-P7-GR-004",
+      "channel": "chotu-dialogue",
+      "text": "“Didi, portal pe supporting photo upload karni hai.”"
+    },
+    {
+      "id": "A-P7-GR-005",
+      "channel": "ankita-dialogue",
+      "text": "“Table pe rakh do. Main pages seedhe karti hoon.”"
+    },
+    {
+      "id": "A-P7-GR-006",
+      "channel": "narrator",
+      "text": "Chotu sofa pe baith gaya, bilkul coffee table ke opposite. Phone haath mein; camera documents ki taraf tha. Ankita table ke doosre kinare khadi thi aur certificate aur receipt table pe failane lagi. Light se glare aa raha tha. Pages fold mein the. Pehli framing mein receipt ka ek kona light reflect kar raha tha, isliye Ankita ne pages phir se flat karne shuru kiye."
+    },
+    {
+      "id": "A-P7-GR-007",
+      "channel": "narrator",
+      "text": "Woh jhuki."
+    },
+    {
+      "id": "A-P7-GR-008",
+      "channel": "ankita-pov",
+      "text": "Is baar accident nahi tha."
+    },
+    {
+      "id": "A-P7-GR-009",
+      "channel": "ankita-pov",
+      "text": "Usse pata tha Chotu bilkul saamne baitha hai. Usse pata tha sleeveless kurti ka neckline aage ko khulega. Usse pata tha agar woh itni der jhuki rahi toh woh dekhega. Saturday ko Rey ke rocket ke paas jo ek second ka freeze hua tha, ab woh usse test karna chahti thi — jaan-bujhkar."
+    },
+    {
+      "id": "A-P7-GR-010",
+      "channel": "narrator",
+      "text": "Neckline aage slide hua."
+    },
+    {
+      "id": "A-P7-GR-011",
+      "channel": "chotu-pov",
+      "text": "Chotu ki nazar pages se hat kar seedha uspe ruk gayi."
+    },
+    {
+      "id": "A-P7-GR-012",
+      "channel": "chotu-pov",
+      "text": "Uske saamne soft-blue fabric ke andar se **cream-colored upper breasts** ka hissa dikh raha tha. Poora nahi. Lagbhag ek-tihai. Soft round shape, smooth skin, beech ki halki line. Jhukne se weight aage ko tha, isliye curve clear aur heavy dikh raha tha. Light unpe pad rahi thi. Woh pehli baar itni der tak dekh raha tha."
+    },
+    {
+      "id": "A-P7-GR-013",
+      "channel": "chotu-pov",
+      "text": "Uske haath mein phone thoda tight ho gaya. Baat uski ruk gayi."
+    },
+    {
+      "id": "A-P7-GR-014",
+      "channel": "chotu-dialogue",
+      "text": "“Didi… angle…”"
+    },
+    {
+      "id": "A-P7-GR-015",
+      "channel": "chotu-pov",
+      "text": "Aage kuch nahi bola. Aankhen wahi thin."
+    },
+    {
+      "id": "A-P7-GR-016",
+      "channel": "narrator",
+      "text": "Ankita pages ko adjust karti rahi. Pehli photo mein receipt ka text clear nahi aaya tha; Chotu ne camera ka angle dobara set kiya aur Ankita ne folded kona dabakar seedha kiya.  \nPachas seconds.  \nEk minute ke qareeb."
+    },
+    {
+      "id": "A-P7-GR-017",
+      "channel": "ankita-pov",
+      "text": "Woh jaldi nahi uthi. Glare theek karna bahana tha. Asli baat yeh thi ki woh opportunity de rahi thi. Uske nipples kurti ke andar tight ho gaye the. Chest mein heat fail rahi thi. Saans thodi bhaari thi, lekin usne rhythm control kiye rakhi. Woh jaan ti thi woh dekh raha hai. Har second uske body pe register ho raha tha."
+    },
+    {
+      "id": "A-P7-GR-018",
+      "channel": "narrator",
+      "text": "Phir usne dheere se nazar uthayi."
+    },
+    {
+      "id": "A-P7-GR-019",
+      "channel": "narrator",
+      "text": "Document ke upar se.  \nSeedha Chotu ki taraf."
+    },
+    {
+      "id": "A-P7-GR-020",
+      "channel": "ankita-pov",
+      "text": "Confirmation ke liye."
+    },
+    {
+      "id": "A-P7-GR-021",
+      "channel": "narrator",
+      "text": "Unki aankhen mili."
+    },
+    {
+      "id": "A-P7-GR-022",
+      "channel": "ankita-pov",
+      "text": "Chotu ki aankhen wide thin. Usme shock tha, hunger tha, aur ek ajeeb si guilt bhi. Usne turant nazar nahi hatayi. Ankita bhi nahi. Ek full moment. Uske lips thode se kaamp rahe the. Ankita ke andar excitement aur sharam ek saath daude — pehli baar kisi aur mard ki itni clear, raw reaction uske apne breasts pe."
+    },
+    {
+      "id": "A-P7-GR-023",
+      "channel": "chotu-pov",
+      "text": "Chotu ne zabardasti nazar phone pe laayi. Screen blur dikh rahi thi usse."
+    },
+    {
+      "id": "A-P7-GR-024",
+      "channel": "chotu-dialogue",
+      "text": "“Photo… ho gayi didi.”"
+    },
+    {
+      "id": "A-P7-GR-025",
+      "channel": "chotu-pov",
+      "text": "Awaaz uski control mein nahi thi."
+    },
+    {
+      "id": "A-P7-GR-026",
+      "channel": "narrator",
+      "text": "Ankita seedhi hui. Neckline wapas settle hua. Cream skin fabric ke peeche chup gaya. Usne stole ab bhi nahi uthaya."
+    },
+    {
+      "id": "A-P7-GR-027",
+      "channel": "ankita-dialogue",
+      "text": "“Upload kar do.”"
+    },
+    {
+      "id": "A-P7-GR-028",
+      "channel": "narrator",
+      "text": "Verification complete hua. Chotu utha. Uske kadam tez the. Door pe jaake usne sirf itna kaha:"
+    },
+    {
+      "id": "A-P7-GR-029",
+      "channel": "chotu-dialogue",
+      "text": "“Bye didi.”"
+    },
+    {
+      "id": "A-P7-GR-030",
+      "channel": "narrator",
+      "text": "Bahut short. Door band ho gaya."
+    },
+    {
+      "id": "A-P7-GR-031",
+      "channel": "ankita-pov",
+      "text": "Ankita wahi khadi rahi."
+    },
+    {
+      "id": "A-P7-GR-032",
+      "channel": "ankita-pov",
+      "text": "Table pe documents ab bhi khule the. Usne unhe nahi chhua."
+    },
+    {
+      "id": "A-P7-GR-033",
+      "channel": "ankita-pov",
+      "text": "Uske legs ke beech halki si, clear tightness thi.  \nGarmi spine se nahi, **neeche beech mein** fail rahi thi.  \nUsne jaan-bujhkar usse dikhaya tha.  \nUsne jaan-bujhkar itni der di thi.  \nAur jab confirmation ke liye nazar uthayi thi, toh uski aankhon mein jo kuch tha — woh uske body ne poora feel kar liya tha."
+    },
+    {
+      "id": "A-P7-GR-034",
+      "channel": "ankita-pov",
+      "text": "Woh dheere se sofa pe baith gayi.  \nHaath se face nahi dhaampa, lekin aankhen ek second ke liye band ki."
+    },
+    {
+      "id": "A-P7-GR-035",
+      "channel": "ankita-pov",
+      "text": "Saans ab bhi normal nahi thi.  \nNipples ab bhi tight the.  \nBeech mein jo tingle tha, woh badh raha tha."
+    },
+    {
+      "id": "A-P7-GR-036",
+      "channel": "ankita-pov",
+      "text": "Usne apne aap se kaha — yeh main nahi hoon.  \nLekin body ne jawab diya tha.  \nAur Chotu ne bhi."
+    },
+    {
+      "id": "A-P7-GR-037",
+      "channel": "narrator",
+      "text": "Laundry folder table ke corner pe pada tha. Usse aaj koi lena dena nahi tha."
+    },
+    {
+      "id": "A-P7-GR-038",
+      "channel": "ankita-pov",
+      "text": "Ankita ne aankhen kholi. Soft-blue kurti ab bhi uspe thi. Stole ab bhi chair pe tha."
+    },
+    {
+      "id": "A-P7-GR-039",
+      "channel": "ankita-pov",
+      "text": "Jo usne abhi kiya tha, uska weight uske legs ke beech baitha hua tha.  \nStrong.  \nClear.  \nUnfinished"
+    }
+  ],
+  "dialogueSummary": {
+    "ankita": [
+      "“Table pe rakh do. Main pages seedhe karti hoon.”",
+      "“Upload kar do.”"
+    ],
+    "chotu": [
+      "“Didi, portal pe supporting photo upload karni hai.”",
+      "“Didi… angle…”",
+      "“Photo… ho gayi didi.”",
+      "“Bye didi.”"
+    ]
+  }
+}
