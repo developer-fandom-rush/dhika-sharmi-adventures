@@ -44,6 +44,6 @@ Exit: he leaves with a specific changed perspective and plausible reason to retu
 ## SHIVANI ACCEPTANCE
 - Raghav/Rishabh's separate story is not imported as knowledge for Chotu.
 - Shivani's reserved professional voice stays distinctive.
-- The Saturday appearance shift and Sunday breakfast have separate causal functions; no copy-and-paste Anhika or Shreya reaction.
+- The Saturday appearance shift and Sunday breakfast have separate causal functions; no copy-and-paste Ankita or Shreya reaction.
 - Leave a coherent bridge to her Monday Part 6 planning, without changing her later schedule.
 
