@@ -36,15 +36,15 @@
     },
     {
       "id": "P03",
-      "title": "Part 3 — Four concealed misconduct scenes",
-      "status": "REVIEW + CANON LOCK",
-      "release": "Grok review/copyedit draft, not approved",
+      "title": "Part 3 — Grok's four elder-secret cutaways",
+      "status": "GROK REVISED V1 ACCEPTED FOR COPYEDIT · 2 VERIFIED REVIEW ISSUES",
+      "release": "Grok-supplied V1 copyedit exists in source manuscript and Story Lab. Previous reader accepted light verbal/continuity editing; explicit final canon lock is not recorded in current GitHub draft.",
       "dhika": "E01-L064–069",
-      "strength": "Distinct elder identities and reader-only secrets were planned, with ordinary access pretexts.",
-      "gap": "Multiple prior Grok proposal versions exist. Final approved version and exact discovery clues are not locked; the women's awareness must not be inferred from reader knowledge.",
-      "next": "Select and QA one version, preserve the consequences as non-consensual misconduct, and maintain the Mahendra missing-item / other displaced-item distinction.",
+      "strength": "All four real elder identities and household entry justifications now align with FWFS Part 1, and Saturday times fit around four women's Part 2 activities. Part 3 correctly preserves reader-only knowledge and keeps Chotu uninvolved. DHIKA mechanism of trusted domestic proximity, interruption, and an unresolved trace is recognizable.",
+      "gap": "(1) CONFIRMED LATER-CONTINUITY GAP: Part 3 source P3-P-L005–006 and P3-H-L005–006, P3-V-L005–006 leave physical traces and restore garments, but Part 5 (complete working lines ~104,340,280) mentions only a different hook/reversed strap/fold. Prakash and Harish do not explicitly cause their later hook/strap clues; material aftermath is neither described nor accounted for. Ankita's missing set from P3-M-L006 correctly maps to Part 5. (2) LITERARY/PACING CONCERN: all four cutaways follow near-identical discovery→private wrongdoing→imagined scenario→interruption→return patterns, making four elders less distinct than their Part 1 character setups; original DHIKA uses one succinct interrupted cutaway (L064–069).",
+      "next": "Keep the already accepted Grok scene premises, male identities, chronology, nonconsensual character facts, and reader-only secrecy. Before final canon, resolve observable trace continuity between Part 3 and Part 5 in non-graphic causal terms (or show a valid intervening explanation) and assess whether one or two already-written reactions can be characterized more distinctly. Do not rewrite or intensify misconduct, and do not silently alter manuscript or treat hidden wrongdoing as consensual.",
       "source": "data/stories/e01_part3_grok_copyedit.txt",
-      "kind": "confirmed"
+      "kind": "evidence-checked adult-fiction narrative/cause-and-effect review"
     },
     {
       "id": "P04",
@@ -321,6 +321,22 @@
       "status": "FIXED IN SOURCE — DEPLOYMENT TO VERIFY",
       "issue": "Part 2 merged four older HTML sections including their closing tags, breaking the layout after Ankita; character buttons scrolled to distant content instead of replacing the story panel; editorial notes were mixed into reading mode.",
       "fix": "Reconstructed one valid section with four mutually exclusive tabpanels, keyboard-accessible tabs and no scroll jumping; 226 original paragraphs retained. Reading mode now contains story prose only. Review notes remain in the shared review tab."
+    },
+    {
+      "id": "C023",
+      "scope": "P03 → P05",
+      "type": "FACTUAL CONTINUITY — MATERIAL TRACE",
+      "status": "CONFIRMED ISSUE; NARRATIVE UNMODIFIED",
+      "issue": "Part 3 Grok V1 P3-P/H/V L005–006 contains physical/material aftermath and garment return; Part 5 only notices hook/strap orientation or folding. P3 doesn't explicitly stage the later different hook and reversed strap, and the extra material traces have no resolved account. Ankita P3-M L006 → Part 5 missing set is coherent.",
+      "fix": "At canon pass, reconcile what objectively remains with what is observed and what stays unnoticed, using the original scenes and realistic aftermath; do not add or eroticize new wrongdoing. Do not edit source without reader approval."
+    },
+    {
+      "id": "C024",
+      "scope": "P03",
+      "type": "LITERARY REVIEW — FORMULAIC REPETITION",
+      "status": "REVIEW NOTE; NO FORCED REWRITE",
+      "issue": "Four elder scenes share the same private-violation and interrupted-exit beat sequence with relatively little distinct pacing or personality; DHIKA E01-L064–069 achieves a concise suspense beat with one distinctive interruption.",
+      "fix": "Preserve the reader-accepted story actions. If any editing is approved, vary the individual motives, hesitation, response to interruption and narrative rhythm without adding explicit content or changing canon."
     }
   ],
   "chronology": [
