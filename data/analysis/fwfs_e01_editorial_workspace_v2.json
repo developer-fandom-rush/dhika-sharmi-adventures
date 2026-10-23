@@ -13,14 +13,14 @@
     {
       "id": "P01",
       "title": "Part 1 — Four women and four elders",
-      "status": "KEEP",
+      "status": "PARTIAL MATCH — 1 SMALL STORY CHANGE RECOMMENDED",
       "release": "Reader review pending",
-      "dhika": "E01-L007–063",
-      "strength": "Four distinct women, wedding context, four older men's separate hidden motivations, and information asymmetry are already established.",
-      "gap": "No proven missing event requiring rewrite. Preserve existing social context and relationship assignments.",
-      "next": "No rewrite. Verify the Part 1 family/elder matrix when Part 3 is canon-locked.",
+      "dhika": "E01-L007–029",
+      "strength": "Both opening sections introduce ordinary lives, adult women's social roles, trusted/recognizable older men, and reader-only hidden interest. FWFS P01: four friends solve wedding arch problem; Mahendra, Harish, Prakash and Virendra have separately presented hidden motivations.",
+      "gap": "DHIKA E01-L021–029 dramatizes strong household-level trust by actually handing over Pappu to the elder's care, with concealed motive revealed at L015–020. FWFS P01-L011–048 demonstrates public event coordination, but comparable personally consequential trusted access is not as concrete. This is a narrative suspense gap, not an absent sexual scene.",
+      "next": "Recommend only one short, believable ordinary trust/access action for an elder within the existing wedding setup, and show the reader-only knowledge contrast. Keep cast, adult situations and all four character introductions. Reader approval before changing.",
       "source": "four-walls-story-lab/index.html#story-part1",
-      "kind": "confirmed"
+      "kind": "original-source-based comparison"
     },
     {
       "id": "P02",
@@ -289,6 +289,14 @@
       "status": "ADDED TO REVIEW PROCESS",
       "issue": "One AI reviewed another AI's comments and counted existing sentences instead of checking reader-approved outcome, causality and whether the next scene differs because the previous encounter happened.",
       "fix": "For each scene log: expected end-state, actually depicted end-state, transition to next same-person encounter, visible difference in behaviour, character-specific consequence. Mark MISSING/WEAK/ACHIEVED separately. Do not self-approve or treat a recap as carry-over."
+    },
+    {
+      "id": "C019",
+      "scope": "P01",
+      "type": "SOURCE COMPARISON / LESSON LEARNED",
+      "status": "REVIEW CORRECTED; PROSE NOT CHANGED",
+      "issue": "Prior reviewer marked Part 1 KEEP mainly because named characters, dates and attractions appeared, without testing how strongly the original DHIKA source dramatizes trust vs concealed motivation.",
+      "fix": "For P01 compare only DHIKA E01-L001–029 vs FWFS P01-L001–055; note both share the reader-only secret mechanism, but DHIKA demonstrates personal trust through Pappu childcare while FWFS has public wedding duties. One small practical trust action is a reader-optional recommendation, not a forced rewrite. Never mark narrative equivalence solely by matching keywords."
     }
   ],
   "chronology": [
