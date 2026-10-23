@@ -175,6 +175,22 @@
       "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-shivani-grok-v1",
       "gap": "Part 7A/B existing drafts still contain the older, longer resolution; no creative acceptance or rewrite has been performed. The future-ending beat is NOT yet canon.",
       "next": "Copy Grok prompt from Story Lab. Review submitted prose; only after reader approval reconcile the larger Part 7 draft and Chotu closing."
+    },
+    {
+      "id": "P07ANK",
+      "title": "Part 7 — Ankita Grok handoff · complete encounter",
+      "status": "INSTRUCTIONS PUBLISHED · PROSE UNWRITTEN · READER REVIEW PENDING",
+      "source": "data/stories/e01_part7_ankita_grok_instruction_v1.md",
+      "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-ankita-grok-v1",
+      "continuity": [
+        "Part 5 Saturday unplanned observation during Rey rocket work",
+        "Part 5 Sunday repeated unresolved awareness during delivery-app form",
+        "Part 6 Monday deliberate mirror reflection and soft-blue sleeveless kurti choice",
+        "Part 7 Tuesday 4:03 PM verification; actual prolonged practical activity and direct eye contact; Chotu's departure and Ankita aftermath written in this brief unlike Shivani deferred ending"
+      ],
+      "word_target": "850–900",
+      "canon": "unapproved",
+      "next": "Use copyable brief to commission Grok scene; review before editing any Part 7A/B prose"
     }
   ],
   "rules": [
@@ -471,6 +487,14 @@
       "status": "UI AND MARKDOWN UPDATED, SOURCE DRAFTS OTHERWISE PRESERVED",
       "issue": "Part 6 contains two time-word mismatches plus an inaccurate timeline label. User also asks to withhold Shivani's Part 7 dori snapping and aftermath while making Grok instructions available in the Story Lab.",
       "fix": "Apply 3 targeted Part 6 timing edits to story Markdown and UI. Publish a source-linked copyable Shivani Grok brief ending before dori snap. Park dori-snap/apology/aftermath for future planning only; Part 7A and Part 7B existing prose unchanged."
+    },
+    {
+      "id": "C033",
+      "scope": "E01 P07 ANKITA GROK HANDOFF",
+      "type": "SOURCE-BASED SCENE DIRECTION / UI",
+      "status": "COPYABLE INSTRUCTIONS PUBLISHED — P7A/B MANUSCRIPTS PRESERVED",
+      "issue": "User requested Ankita director prompt alongside Shivani in Story Lab, following source-grounded Part 5 accident and Part 6 decision. Must not conflate Ankita's full-after-moment brief with Shivani's deferred ending.",
+      "fix": "Created dedicated Ankita Part 7 Grok instruction Markdown file, source-linked and with eight scene beats; added separate copyable Story Lab view and reciprocal navigation; previous Part 7 drafts unchanged."
     }
   ],
   "chronology": [
