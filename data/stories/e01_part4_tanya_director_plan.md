@@ -1,4 +1,6 @@
 # FOUR WALLS, FOUR SECRETS — Episode 01 / Part 4 — Tanya
+
+**Current prose status (23 Oct 2026):** Full Grok prose and a corrected preview exist outside this repository. The preview restores hook/carton/fall staging while retaining an additional original arm-steadying action during the carton rescue; approval of that blocking remains open. This plan is not the final accepted manuscript.
 ## READER-SELECTED SCENE FLOW · DIRECTOR BRIEF · NOT FINAL PROSE
 
 **Approval scope:** The user selected the storeroom sequence and requested body-specific narrator visuals, playful and private devar conversations, three rising mishaps and distinct private reactions. The director's job here is a **scene brief**, not Grok's final prose. No other episode file is revised.
