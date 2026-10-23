@@ -2,13 +2,13 @@
   "schema_version": "2.0",
   "updated": "2026-10-23",
   "story": "Four Walls, Four Secrets",
-  "overall_status": "E01 story not final; Part 5 now ONE 9-scene working manuscript + inline change proposals awaiting reader approval",
+  "overall_status": "EPISODE 01 NOT FIXED: PART 7 FAILS READER CREATIVE ACCEPTANCE; scene-level rework and fresh QA required",
   "source_hierarchy": {
     "dhika_original": "data/episodes/e01.json",
     "fwfs_working": "four-walls-story-lab/index.html; data/stories/; uploaded Grok Part 4 PDF",
     "caution": "Original DHIKA facts are not automatically FWFS facts. Keep all versions distinct."
   },
-  "review_limitations": "Source-grounded E01 part review done. No Part 2 prose correction needed. Part 4 still Grok PDF draft plus external revised previews; not integrated. Only P5 has unified working file, no story replacement suggestions committed to manuscripts. Six orange-underlined proposals in P5/P6/P7A are user-choice, not accepted edits.",
+  "review_limitations": "Updated 2026-10-23 after reader identified inadequate intensity/progression. Earlier editor marked Part 7 as a small patch after verifying continuity rather than testing intended narrative outcomes. That editorial result is retracted. No final P7 manuscript rewrite applied. Part 5 remains one combined working draft; Part 3/4 approvals pending.",
   "part_reviews": [
     {
       "id": "P01",
@@ -65,8 +65,8 @@
       "release": "One combined working markdown file and one Story Lab section; original lines retained, 3 orange-underlined proposals",
       "dhika": "E01-L116–157; L165–205",
       "strength": "Four work-led encounters, individual female voices, observable awkwardness, and private thoughts are present; do not remove these.",
-      "gap": "Do transitions need stronger cause-and-effect: Ankita Saturday → Shivani Saturday, Tanya Sunday → Shreya Sunday; Sunday closing reflection also describes rather than links these visits. Existing reactions already appear and are not 'missing'.",
-      "next": "Three concrete orange-underlined original sentences with bracketed proposed replacements in Story Lab Part 5. Keep or reject each separately; no change has been applied to the main prose.",
+      "gap": "Do transitions need stronger cause-and-effect: Ankita Saturday → Shivani Saturday, Tanya Sunday → Shreya Sunday; Sunday closing reflection also describes rather than links these visits. Existing reactions already appear and are not 'missing'. Earlier 3 in-line language proposals are not proof that Chotu's accumulating psychological progression is achieved; a proper complete-sequence acceptance check remains missing.",
+      "next": "Retain one merged Part 5. Review observable carry-over through the actual next interaction, not solely recap sentences; demonstrate how experience modifies choices without inventing unapproved physical events.",
       "source": "data/stories/e01_part5_complete_working_draft.md",
       "kind": "editorial"
     },
@@ -77,7 +77,7 @@
       "release": "Full prose draft; original unmodified",
       "dhika": "E01-L206–216",
       "strength": "All four women already make intentional decisions about appearance, conversation, help or personal feedback. No missing 'agency' event.",
-      "gap": "Chirag's closing intercut uses 'kal' about Ankita's verification although Tanya's Tuesday 12:40 task is already known; needs Tuesday same-day reference. The established memories can be more specific without creating scenes.",
+      "gap": "Chirag's closing intercut uses 'kal' about Ankita's verification although Tanya's Tuesday 12:40 task is already known; needs Tuesday same-day reference. The established memories can be more specific without creating scenes. Part 6's strong deliberative setups raise specific expectations for Part 7. User-directed progression is not delivered just because the character chooses an outfit or asks for an opinion.",
       "next": "Story Lab Part 6 में 'kal' orange underline किया है; [बदलेगा: aaj 4 baje] suggest किया है. Original prose untouched.",
       "source": "data/stories/e01_part6_the_four_decisions_draft.md",
       "kind": "confirmed"
@@ -85,26 +85,26 @@
     {
       "id": "P07A",
       "title": "Part 7 Version A — Four Doors, One New Secret",
-      "status": "1 duplicate + 1 optional line highlighted",
-      "release": "Latest working candidate; not approved",
+      "status": "MAJOR SCENE REWORK REQUIRED — NOT READY",
+      "release": "Full Part 7A prose exists, but creative acceptance FAILED and final canon approval is NOT given; 2 earlier line proposals are insufficient",
       "dhika": "E01-L217–224",
-      "strength": "Each practical task has payoff: photos chosen, form verified, documents delivered, decorative dori incident resolved with reassurance. Chotu has a coda.",
-      "gap": "Repeated sentence about secure fasteners in Shivani's scene; Chotu's cross-encounter continuity and final character-specific aftereffects are artistically underdeveloped compared with DHIKA's concentrated ending.",
-      "next": "Story Lab Part 7 A में repeated 'Front fasteners...' line हटाने और Chotu की final reflection को concrete बनाने का bracketed proposal दिखाया; दोनों अभी pending.",
+      "strength": "Shreya selects styling and asks for personal feedback; Tanya has an independent photo-review meeting; Ankita's form and Shivani's documents have practical outcomes. Keep the successful dialogue and established names/times.",
+      "gap": "Shreya L10/34–68: visual styling is described and chosen, but Chotu's observable response gets resolved through a short compliment and the scene quickly returns to design critique; the intended distinctive turning point is underexecuted. Tanya L93–177: despite intended highest escalation, encounter consists chiefly of photo comparison, jokes, envelope exchange and Laksh interruption; there is no stronger new relationship milestone or consequential change. Chotu L369–400: retrospective lists four experiences but doesn't dramatize what the previous experience changed during the next one. These are SCENE-LEVEL shortcomings, NOT two missing sentences.",
+      "next": "Do not apply the previous 2-line cosmetic patch as a complete solution. Redesign Shreya and Tanya scene objectives and consequences and their Tuesday 09:25→14:00 Chotu state handoff using a fresh reader-approved non-graphic director brief, then commission writer prose and independently evaluate it against the exact acceptance criteria.",
       "source": "data/stories/e01_part7_four_doors_one_new_secret_draft.md",
-      "kind": "confirmed"
+      "kind": "critical creative mismatch"
     },
     {
       "id": "P07B",
       "title": "Part 7 Version B — Four Encounters",
-      "status": "KEEP SEPARATE / CHOOSE",
-      "release": "Older alternate draft, not approved",
+      "status": "ALTERNATE ALSO NOT READY — DO NOT AUTO PROMOTE",
+      "release": "Alternative untouched, not canon",
       "dhika": "E01-L217–224",
       "strength": "Alternate complete episode closing candidate available for side-by-side comparison.",
-      "gap": "Different scene ordering and clock times; it cannot silently be treated as approved Version A or merged.",
-      "next": "Keep intact; compare and ask reader to select eventual canon.",
+      "gap": "Version B Shreya L173–239 and Tanya L259–339 are still predominantly photo critique, teasing and work closure; Chotu L343–399 recaps rather than establishing strong earlier-to-later behavioural carry-over. It is NOT demonstrated that swapping to Version B meets intended escalation.",
+      "next": "Preserve as comparison only. Rework from a scene-outcome spec instead of selecting B simply because A failed.",
       "source": "data/stories/e01_part7_the_four_encounters_draft.md",
-      "kind": "confirmed"
+      "kind": "critical creative mismatch"
     }
   ],
   "rules": [
@@ -273,6 +273,22 @@
       "status": "UI HIGHLIGHTS PUBLISHED; NOT ACCEPTED IN PROSE",
       "issue": "User could not locate exact proposed edits; abstract PATCH wording wasn't enough.",
       "fix": "Orange underlined original and [बदलेगा: ...] replacement in same paragraph: three Part 5 proposals, one Part 6 factual timing correction, two Part 7 proposals."
+    },
+    {
+      "id": "C017",
+      "scope": "P07A/P07B",
+      "type": "EDITORIAL REVIEW RETRACTION",
+      "status": "CREATIVE FAIL CONFIRMED; MANUSCRIPTS UNCHANGED",
+      "issue": "Previous review wrongly classified Part 7 as just duplicate wording and one optional Chotu line. It did not test Tanya's requested top-level progression, Shreya's meaningful choice-to-reaction payoff, or Chotu's cumulative character state.",
+      "fix": "Replace PASS/PATCH conclusion with scene-level redesign required; writer may preserve working dialogue and wardrobe, but neither candidate is accepted canon. Evidence P7A Shreya L10–84, Tanya L93–175, Chotu L369–400; compare earlier P7B."
+    },
+    {
+      "id": "C018",
+      "scope": "P05→P06→P07A",
+      "type": "CREATIVE ACCEPTANCE CRITERIA",
+      "status": "ADDED TO REVIEW PROCESS",
+      "issue": "One AI reviewed another AI's comments and counted existing sentences instead of checking reader-approved outcome, causality and whether the next scene differs because the previous encounter happened.",
+      "fix": "For each scene log: expected end-state, actually depicted end-state, transition to next same-person encounter, visible difference in behaviour, character-specific consequence. Mark MISSING/WEAK/ACHIEVED separately. Do not self-approve or treat a recap as carry-over."
     }
   ],
   "chronology": [
@@ -349,18 +365,51 @@
     {
       "id": "H05",
       "part": "P07A",
-      "reason": "Duplicate clause (already stated previous line).",
+      "reason": "Duplicate clause (already stated previous line). Earlier this was presented as sufficient QA; it is NOT a fix for the failed scene objective.",
       "existing": "Front fasteners alag se secure the.",
       "suggestion": "(यह repeated sentence हटेगा, क्योंकि पीछे वाली line already says the main fasteners were secure.)",
-      "status": "PROPOSAL FACTUAL"
+      "status": "SUPERSEDED AS COMPLETE REPAIR; original suggestion remains visible for history"
     },
     {
       "id": "H06",
       "part": "P07A",
-      "reason": "Optional clearer Chotu connection, no new encounter.",
+      "reason": "Optional clearer Chotu connection, no new encounter. Earlier this was presented as sufficient QA; it is NOT a fix for the failed scene objective.",
       "existing": "Magar uske dimaag mein din ordinary nahi tha.",
       "suggestion": "Usne socha tha har nayi delivery ke saath pichhli jhijhak peeche reh jaayegi; aaj ulta hua—use har ghar ke saamne apne jawaab aur nazar ko naye tareeke se sambhaalna pada.",
-      "status": "PROPOSAL"
+      "status": "SUPERSEDED AS COMPLETE REPAIR; original suggestion remains visible for history"
     }
-  ]
+  ],
+  "story_outcome_audit": {
+    "updated": "2026-10-23",
+    "quality_gate": "Intended narrative effect, not presence of keywords/sentences",
+    "reference_mechanisms": [
+      "Original DHIKA E01-L181–205: ordinary conversation and compliment establish trust and perception shift.",
+      "Original DHIKA E01-L206–216: reflection → deliberate decision → practical setup.",
+      "Original DHIKA E01-L217–224: response is observed, eye contact occurs, final private emotional aftermath functions as hook."
+    ],
+    "p7a": [
+      {
+        "scene": "Shreya",
+        "lines": "L10, L34–84",
+        "intended": "Distinct and consciously chosen appearance; a clearly enacted turn in Chotu's perception and Shreya's personal response.",
+        "observed": "Clothing choice and personal question are present; Chotu hesitates, says a compliment; she chooses second image, and scene returns to work.",
+        "verdict": "PARTLY ACHIEVED; decisive progression too brief"
+      },
+      {
+        "scene": "Tanya",
+        "lines": "L93–177",
+        "intended": "The most advanced planned emotional/interpersonal milestone in this draft, distinct from the other three women.",
+        "observed": "Appearance described, brief look, image vote, banter, envelope handoff, Laksh interrupts. No significantly new relational consequence established.",
+        "verdict": "NOT ACHIEVED at intended level"
+      },
+      {
+        "scene": "Chotu",
+        "lines": "L369–400",
+        "intended": "Specific effects carried from Shreya 09:25 to Tanya 14:00 to Ankita 16:03 to Shivani 18:58.",
+        "observed": "Sunday and Tuesday visits are recalled, but Tuesday transition effects are chiefly retrospectively told rather than demonstrated in the immediately following scene.",
+        "verdict": "WEAK; recap is not scene-to-scene carry-over"
+      }
+    ],
+    "authoring_handoff": "First user confirms intended new relational milestone and boundary per scene; GPT creates a detailed non-graphic causal sequence with character states, reasons and consequences. Writer drafts in their own voice. Independent QA compares intent to prose and reports where it actually appeared; no claim of success without evidence."
+  }
 }
