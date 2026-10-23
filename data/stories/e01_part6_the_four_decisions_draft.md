@@ -1,6 +1,6 @@
 # Four Walls, Four Secrets
 ## Episode 01 — Part 6: Chaar Faisle
-*Reader-preview full prose · Monday afternoon to Tuesday morning · original fiction · adult ensemble · not yet final canon*
+*Reader-preview full prose · Monday afternoon to Tuesday early afternoon · original fiction · adult ensemble · not yet final canon*
 
 ### ANKITA — MONDAY, 4:10 PM · BANSAL APARTMENT
 
@@ -94,7 +94,7 @@ Woh mirror ke saamne khadi hui aur pallu ki do placements try ki. First placemen
 
 Shreya ne apne reflection ko dekhkar ek lambi saans li.
 
-Kal Chotu ne ribbon baandhte hue uski singing ki tareef ki thi. Usse pehle fabric roll pakadte waqt woh ek pal ke liye ajeeb tarah se chup hua tha. Woh moment Shreya ko ab tak yaad tha. *Kya woh outfit notice kar raha tha?* Phir usne apne hi sawaal par hansi rok li.
+Ravivaar ko Chotu ne ribbon baandhte hue uski singing ki tareef ki thi. Usse pehle fabric roll pakadte waqt woh ek pal ke liye ajeeb tarah se chup hua tha. Woh moment Shreya ko ab tak yaad tha. *Kya woh outfit notice kar raha tha?* Phir usne apne hi sawaal par hansi rok li.
 
 “Main boutique owner hoon. Log mujhe kapdon mein dekhenge hi. Lekin mujhe uska opinion kyun chahiye?”
 
@@ -164,7 +164,7 @@ Doorbell abhi nahi baji thi. Tanya ne laptop par do photographs side by side kho
 
 Society store mein Chirag ne delivery screen kholi. Chaar addresses alag time slots mein the; uske liye ab bhi yeh kaam tha, koi secret itinerary nahi.
 
-Ankita didi ka verification issue kal solve karna tha. Shivani didi ke printed brochures file mein the. Shreya didi ki boutique receipt sambhaalni thi. Tanya didi ne photographs ka kuch extra kaam diya tha.
+Ankita didi ka verification issue aaj 4 baje solve karna tha. Shivani didi ke printed brochures file mein the. Shreya didi ki boutique receipt sambhaalni thi. Tanya didi ne photographs ka kuch extra kaam diya tha.
 
 Use chaaron pasand thi, lekin pasand ka matlab bhi chaaron ke saath alag tha. Ankita ki quick intelligence use impress karti. Shivani ki softness aur discipline, Shreya ki creative confidence, Tanya ki shararat—sab yaad rehta.
 
