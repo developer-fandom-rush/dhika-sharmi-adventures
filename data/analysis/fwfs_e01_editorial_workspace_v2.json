@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "story": "Four Walls, Four Secrets",
   "overall_status": "E01 REVIEW IN PROGRESS: P3 neutral clue repairs committed; P4 continuity-edited Grok previews exist but are not integrated/approved; P7 creative acceptance failed",
   "source_hierarchy": {
@@ -211,6 +211,18 @@
       "chronology": "Tuesday 2 PM Arora apartment after Shreya and before Ankita",
       "key_gates": "Part 5 navel/side-waist; Part 6 rust-red saree; legitimate one-on-one photo review; director-proposed consent-checked limited navel-area touch; Tanya unexpected private reaction; END on shared pause BEFORE anyone leaves",
       "canon": "not approved"
+    },
+    {
+      "id": "P07ANKGROKV1",
+      "title": "Part 7 — Ankita received Grok prose · structured reader v1",
+      "status": "USER-PROVIDED GROK PROSE ARCHIVED; EDITORIAL V1 PUBLISHED FOR REVIEW; NOT CANON",
+      "source_original": "data/stories/e01_part7_ankita_grok_raw_received_20261024.md",
+      "source_revised": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-ankita-revised-v1",
+      "preserved": "Descriptive sensual passages, character introspection, duration and eye-contact language verbatim from user-provided text",
+      "fixes": "Monday raat -> Monday shaam (Part6 at 4:10 PM); replace narrative 'Part 5' label with Saturday rocket incident; identify verification certificate/receipt photo, physical table/camera staging and legitimate retake; move spoken lines to explicit Ankita/Chotu dialogue channels; narrator/Ankita/Chotu perspectives separately readable",
+      "quality": "39 chronological blocks; 6 unchanged spoken lines; original Grok transcript separately archived. Neither old Part 7A nor B replaced.",
+      "next": "User reviews full chronological and perspective filters, then decides whether to merge into Part 7."
     }
   ],
   "rules": [
