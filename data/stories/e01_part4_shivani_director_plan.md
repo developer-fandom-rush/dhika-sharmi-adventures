@@ -1,5 +1,7 @@
 # FWFS — E01 Part 4: Shivani — Director-Selected Beat Plan
 
+**Current prose status (23 Oct 2026):** Full Grok prose and a corrected preview exist outside this repository. The revised preview corrects Saturday/Monday wording and includes the twins' post-ride conversation. The original scene plan below remains reference, not the final approved prose.
+
 Status: Storyboard selected in discussion; final prose is not written. This is an editorial outline, not source text from DHIKA.
 
 ## Continuity from Part 2
