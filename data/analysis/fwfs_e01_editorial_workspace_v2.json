@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "updated": "2026-10-23",
   "story": "Four Walls, Four Secrets",
-  "overall_status": "EPISODE 01 NOT FIXED: PART 7 FAILS READER CREATIVE ACCEPTANCE; scene-level rework and fresh QA required",
+  "overall_status": "E01 REVIEW IN PROGRESS: P3 neutral clue repairs committed; P4 continuity-edited Grok previews exist but are not integrated/approved; P7 creative acceptance failed",
   "source_hierarchy": {
     "dhika_original": "data/episodes/e01.json",
     "fwfs_working": "four-walls-story-lab/index.html; data/stories/; uploaded Grok Part 4 PDF",
@@ -37,26 +37,26 @@
     {
       "id": "P03",
       "title": "Part 3 — Grok's four elder-secret cutaways",
-      "status": "GROK REVISED V1 ACCEPTED FOR COPYEDIT · 2 VERIFIED REVIEW ISSUES",
-      "release": "Grok-supplied V1 copyedit exists in source manuscript and Story Lab. Previous reader accepted light verbal/continuity editing; explicit final canon lock is not recorded in current GitHub draft.",
+      "status": "TWO POSITION FIXES APPLIED · OTHER TRACE STILL OPEN",
+      "release": "Grok's original sensitive prose preserved. Mechanical position edits committed in Part 3 source and UI; additional material aftermath requires reader decision before final acceptance.",
       "dhika": "E01-L064–069",
       "strength": "All four real elder identities and household entry justifications now align with FWFS Part 1, and Saturday times fit around four women's Part 2 activities. Part 3 correctly preserves reader-only knowledge and keeps Chotu uninvolved. DHIKA mechanism of trusted domestic proximity, interruption, and an unresolved trace is recognizable.",
-      "gap": "(1) CONFIRMED LATER-CONTINUITY GAP: Part 3 source P3-P-L005–006 and P3-H-L005–006, P3-V-L005–006 leave physical traces and restore garments, but Part 5 (complete working lines ~104,340,280) mentions only a different hook/reversed strap/fold. Prakash and Harish do not explicitly cause their later hook/strap clues; material aftermath is neither described nor accounted for. Ankita's missing set from P3-M-L006 correctly maps to Part 5. (2) LITERARY/PACING CONCERN: all four cutaways follow near-identical discovery→private wrongdoing→imagined scenario→interruption→return patterns, making four elders less distinct than their Part 1 character setups; original DHIKA uses one succinct interrupted cutaway (L064–069).",
-      "next": "Keep the already accepted Grok scene premises, male identities, chronology, nonconsensual character facts, and reader-only secrecy. Before final canon, resolve observable trace continuity between Part 3 and Part 5 in non-graphic causal terms (or show a valid intervening explanation) and assess whether one or two already-written reactions can be characterized more distinctly. Do not rewrite or intensify misconduct, and do not silently alter manuscript or treat hidden wrongdoing as consensual.",
+      "gap": "The hooks/strap clues now align: Shivani adjacent hook, Shreya reversed strap. Tanya's item fold and Ankita's missing set already aligned. Remaining question: does Part 5 intentionally omit other physical aftermath, or should a character notice something beyond item position? No new description should be invented.",
+      "next": "No more auto-edit. Reader/writer supplies or approves any consequential discovery, if intended; otherwise document limited perception. Keep consent/knowledge states separate. Final creative approval still pending.",
       "source": "data/stories/e01_part3_grok_copyedit.txt",
-      "kind": "evidence-checked adult-fiction narrative/cause-and-effect review"
+      "kind": "mechanical continuity partially corrected"
     },
     {
       "id": "P04",
       "title": "Part 4 — Grok prose for four tracks",
-      "status": "TARGETED REWORK + APPROVAL",
-      "release": "All four prose tracks in user-provided PDF, not yet integrated in Story Lab",
+      "status": "FOUR CONTINUITY-REVISED PREVIEWS AVAILABLE · CANON CHOICES OPEN",
+      "release": "Four full Grok prose tracks and source-based corrected previews exist in ChatGPT artifact pack. GitHub Story Lab still presents the prior director plan, not complete revised prose.",
       "dhika": "E01-L070–106",
-      "strength": "Four full scene drafts now exist in uploaded Grok conversation; the individual scenarios and established physical events do not need a wholesale replacement.",
-      "gap": "Ankita's actual equipment/touch blocking differs from the approved stand-rescue plan; Shivani has two versions and a Saturday/Monday reference error; Shreya has a wrong-name reference; Tanya's hook and box-rescue actors drift from the plan.",
-      "next": "Use existing prose as base, correct actor/timeline/exit specifics; get user approval on intentional deviations. Replace the outdated UI claim that only plans exist.",
+      "strength": "Grok has written all four Part 4 tracks, and the editor completed mechanical corrections without wholesale rewriting: Ankita real testing/exit, Shivani Monday reference + follow-up, Shreya proper name + practical sound-check, Tanya cast/action positioning.",
+      "gap": "Ankita's older approved staging specified different contact actors from the existing Grok passage; the newer preservation-first preference was applied in the corrected preview, but no final approval recorded. Tanya's box rescue also retains an original arm steadying in addition to Arjun catching the box. Prior QA does not certify literary intensity or final prose publication.",
+      "next": "Review corrected Grok-preserving previews and decide whether to retain the existing Ankita/Tanya action blocking. No other name/date/factual issue requires an explicit new scene. Once approved, import unchanged original passages with continuity fixes into Story Lab.",
       "source": "data/stories/e01_part4_ankita_director_lock.md",
-      "kind": "confirmed"
+      "kind": "source-verified preview QA, not creative endorsement"
     },
     {
       "id": "P05",
@@ -326,9 +326,9 @@
       "id": "C023",
       "scope": "P03 → P05",
       "type": "FACTUAL CONTINUITY — MATERIAL TRACE",
-      "status": "CONFIRMED ISSUE; NARRATIVE UNMODIFIED",
+      "status": "POSITION CLUES FIXED · OTHER TRACE OPEN",
       "issue": "Part 3 Grok V1 P3-P/H/V L005–006 contains physical/material aftermath and garment return; Part 5 only notices hook/strap orientation or folding. P3 doesn't explicitly stage the later different hook and reversed strap, and the extra material traces have no resolved account. Ankita P3-M L006 → Part 5 missing set is coherent.",
-      "fix": "At canon pass, reconcile what objectively remains with what is observed and what stays unnoticed, using the original scenes and realistic aftermath; do not add or eroticize new wrongdoing. Do not edit source without reader approval."
+      "fix": "Part 3 P3-P-L006 and P3-H-L006 now explicitly cause the Part 5 hook/strap observations; Tanya's fold and Ankita's missing set were already consistent. Any other evidence/physical aftermath remains a reader decision, not a silent editor insertion."
     },
     {
       "id": "C024",
@@ -337,6 +337,22 @@
       "status": "REVIEW NOTE; NO FORCED REWRITE",
       "issue": "Four elder scenes share the same private-violation and interrupted-exit beat sequence with relatively little distinct pacing or personality; DHIKA E01-L064–069 achieves a concise suspense beat with one distinctive interruption.",
       "fix": "Preserve the reader-accepted story actions. If any editing is approved, vary the individual motives, hesitation, response to interruption and narrative rhythm without adding explicit content or changing canon."
+    },
+    {
+      "id": "C025",
+      "scope": "P03 → P05",
+      "type": "SOURCE MANUSCRIPT + UI FIX",
+      "status": "COMMITTED — 2 NEUTRAL EXIT CLAUSES",
+      "issue": "Part 5 sees Shivani's item on another hook and Shreya's strap reversed, but Part 3 Grok exits originally did not stage the position changes.",
+      "fix": "Prakash's exit now leaves the strap on an adjacent hook; Harish's exit now leaves a strap reversed. All original sexual prose preserved. No new physical acts invented."
+    },
+    {
+      "id": "C026",
+      "scope": "P04",
+      "type": "OUT-OF-SYNC DRAFT STATUS",
+      "status": "STORYBOARDS LABELLED AS REFERENCE · PREVIEW PENDING APPROVAL",
+      "issue": "Older GitHub Part 4 plans asserted no prose had been written despite the four Grok-written scenes and corrected preview pack already existing.",
+      "fix": "Notices added to all four director plans; reviewer explicitly records corrected preview scope and two specific character-action decisions. The original prose has not been imported into GitHub and cannot honestly be called published."
     }
   ],
   "chronology": [
@@ -483,5 +499,22 @@
       }
     ],
     "authoring_handoff": "First user confirms intended new relational milestone and boundary per scene; GPT creates a detailed non-graphic causal sequence with character states, reasons and consequences. Writer drafts in their own voice. Independent QA compares intent to prose and reports where it actually appeared; no claim of success without evidence."
-  }
+  },
+  "author_input_needed": [
+    {
+      "part": "P03",
+      "needed": "Only if the story requires a woman to notice evidence beyond a changed item position; reader or Grok can supply the resulting passage. Otherwise decide that the women noticed no further clue. No explicit passage required merely to keep names/timings consistent.",
+      "status": "OPTIONAL, CONTINUITY CHOICE"
+    },
+    {
+      "part": "P04 Ankita",
+      "needed": "Confirm which existing contact sequence is canon: the later Grok-preserved version or the older director storyboard. This is a staging decision, not a demand for new explicit prose.",
+      "status": "READER CHOICE"
+    },
+    {
+      "part": "P04 Tanya",
+      "needed": "Confirm whether the existing Arjun arm-steadying remains alongside his carton rescue, or whether only the older plan's actor arrangement should stand.",
+      "status": "READER CHOICE"
+    }
+  ]
 }
