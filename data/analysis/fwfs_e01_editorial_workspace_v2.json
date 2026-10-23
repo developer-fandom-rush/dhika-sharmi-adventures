@@ -61,14 +61,14 @@
     {
       "id": "P05",
       "title": "Part 5 — Chotu ke saare 9 scenes (ab ek hi part)",
-      "status": "3 sentences propose kiye; original safe",
-      "release": "One combined working markdown file and one Story Lab section; original lines retained, 3 orange-underlined proposals",
-      "dhika": "E01-L116–157; L165–205",
-      "strength": "Four work-led encounters, individual female voices, observable awkwardness, and private thoughts are present; do not remove these.",
-      "gap": "Do transitions need stronger cause-and-effect: Ankita Saturday → Shivani Saturday, Tanya Sunday → Shreya Sunday; Sunday closing reflection also describes rather than links these visits. Existing reactions already appear and are not 'missing'. Earlier 3 in-line language proposals are not proof that Chotu's accumulating psychological progression is achieved; a proper complete-sequence acceptance check remains missing.",
-      "next": "Retain one merged Part 5. Review observable carry-over through the actual next interaction, not solely recap sentences; demonstrate how experience modifies choices without inventing unapproved physical events.",
+      "status": "NOT DHIKA-LEVEL — SCENE PROGRESSION UNDERDELIVERED",
+      "release": "All 9 working Part 5 scenes exist in one combined original manuscript/UI; literary-intensity QA FAILED. No prose edited or approved.",
+      "dhika": "DHIKA E01-L116–205 (main Part 5 comparison); L206–224 only later payoff reference",
+      "strength": "Part 5 contains four real delivery motives; distinct women and household contexts; each has an unexpected visual/behavioural hesitation and later follow-up. Ankita remembers Saturday (FWFS L36–50, L194–228); Shivani remembers ride and offers breakfast/study help (L66–108, L143–171); Shreya recognizes singing/creative talent (L314–338, L385–409); Tanya recalls storeroom and jokes (L258–278, L454–490).",
+      "gap": "A full nine-scene comparison shows intensity and causal progression significantly below DHIKA's first incident → private recall → next interaction transformation (DHIKA L126–151, L165–205). The women's reactions are often labelled, then reset to ordinary tasks. Chotu repeats look-away/silence/compliment patterns with limited state carry-over across households. Tanya's intended strongest emotional progression instead disperses into four-devar group banter and a delivery; Shreya's two visits close mostly through friendly compliments. Additional sequencing gap: Shreya reaches home in the late-afternoon end of her 3:10 boutique visit (FWFS combined ~L340–348), then reappears at the boutique at 6:30 (~L352–363) without a travel/return bridge.",
+      "next": "Do NOT call the earlier 3 orange sentences a sufficient repair. Preserve the 9 original scenes. Creative outcome per character needs an approved new director decision, then prose work by the writer as required. For now, mark Part 5 NOT READY; no explicit new passage is automatically required until the reader sets goals. Separate non-graphic continuity and narrative QA from writer-authored explicit descriptions.",
       "source": "data/stories/e01_part5_complete_working_draft.md",
-      "kind": "editorial"
+      "kind": "source-based literary intensity review; not explicit prose writing"
     },
     {
       "id": "P06",
@@ -353,6 +353,22 @@
       "status": "STORYBOARDS LABELLED AS REFERENCE · PREVIEW PENDING APPROVAL",
       "issue": "Older GitHub Part 4 plans asserted no prose had been written despite the four Grok-written scenes and corrected preview pack already existing.",
       "fix": "Notices added to all four director plans; reviewer explicitly records corrected preview scope and two specific character-action decisions. The original prose has not been imported into GitHub and cannot honestly be called published."
+    },
+    {
+      "id": "C027",
+      "scope": "P05",
+      "type": "DHIKA COMPARISON — EARLIER MINIMAL-PATCH REVIEW RETRACTED",
+      "status": "REVIEW FAIL; MANUSCRIPT UNCHANGED",
+      "issue": "A complete read of FWFS's nine Part 5 scenes against original DHIKA E01 L116–205 finds significantly weaker sustained intensity and transformation. Chotu repeatedly notices/looks away, later conversations pivot into help or banter, and Tanya/Shreya particularly lack a consequential development at the intended level.",
+      "fix": "Treat as scene-level creative gap, not three sentence substitutions. Record expected state change for each character and only then delegate prose revision if user wants it. Do not silently invent new adult incidents or rewrite existing prose."
+    },
+    {
+      "id": "C028",
+      "scope": "P05 Shreya",
+      "type": "SCENE SEQUENCING",
+      "status": "EXPLANATION/BRIDGE MISSING; UNEDITED",
+      "issue": "Combined P5 Shreya boutique visit at Sunday 3:10 (~L292–348) ends with her going home later that evening; the 6:30 PM continuation starts at the boutique again without narrating her return.",
+      "fix": "Either establish a real intervening home trip/return to boutique or adjust the sequence before canon lock. Leave original text untouched until approved."
     }
   ],
   "chronology": [
@@ -516,5 +532,39 @@
       "needed": "Confirm whether the existing Arjun arm-steadying remains alongside his carton rescue, or whether only the older plan's actor arrangement should stand.",
       "status": "READER CHOICE"
     }
-  ]
+  ],
+  "intensity_comparison_p5": {
+    "reviewed": "2026-10-23",
+    "source_range": "Original DHIKA E01 L116–205",
+    "adaptation": "FWFS E01 Part 5 nine-scene combined working copy, L14–496",
+    "status": "NOT EQUIVALENT; not a claim that more explicit vocabulary alone would fix it",
+    "technique_difference": "Original Dhika structures accidental change in perception → immediate discomfort and uncertainty → private later recall → next-day interpersonal change; in FWFS the awkward incidents are present but often dissolve into separate helpful routine conversations.",
+    "by_character": [
+      {
+        "name": "Ankita",
+        "rating": "PARTIAL",
+        "evidence": "FWFS L36–50 and 194–228 — glances and remembered awkwardness exist; second encounter emphasizes form help rather than progressing the established tension."
+      },
+      {
+        "name": "Shivani",
+        "rating": "PARTIAL",
+        "evidence": "FWFS L66–108 and 143–171 — bike-memory overlay and a stronger trust/mentoring bond, but emotional momentum is not sustained as scene consequences."
+      },
+      {
+        "name": "Shreya",
+        "rating": "WEAK",
+        "evidence": "FWFS L314–338 and 385–409 — both encounters close with compliments/friendly comments and little observable changed dynamic."
+      },
+      {
+        "name": "Tanya",
+        "rating": "NOT AT INTENDED HIGHEST LEVEL",
+        "evidence": "FWFS L234–288 and L425–494 — group jokes and logistics dominate; no new substantial Chotu-Tanya state change is shown."
+      },
+      {
+        "name": "Chotu",
+        "rating": "WEAK CUMULATIVE ARC",
+        "evidence": "FWFS L36–42, 86–98, 258–278, 314–338 and 415–421 — repeated brief noticing, looking away, silence and retrospective summary, without consistently changed action on the next visit."
+      }
+    ]
+  }
 }
