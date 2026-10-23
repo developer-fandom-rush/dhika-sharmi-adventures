@@ -115,14 +115,31 @@
     {
       "id": "P06",
       "title": "Part 6 — Four Decisions",
-      "status": "एक time-word correction दिखाया",
-      "release": "Full prose draft; original unmodified",
+      "status": "THREE SOURCE-GROUNDED CONTINUITY CORRECTIONS APPLIED — READER DRAFT",
+      "release": "Original Part 6 prose retained with 3 factual timing references corrected in Markdown and Story Lab; remains not final canon.",
       "dhika": "E01-L206–216",
       "strength": "All four women already make intentional decisions about appearance, conversation, help or personal feedback. No missing 'agency' event.",
-      "gap": "Chirag's closing intercut uses 'kal' about Ankita's verification although Tanya's Tuesday 12:40 task is already known; needs Tuesday same-day reference. The established memories can be more specific without creating scenes. Part 6's strong deliberative setups raise specific expectations for Part 7. User-directed progression is not delivered just because the character chooses an outfit or asks for an opinion.",
-      "next": "Story Lab Part 6 में 'kal' orange underline किया है; [बदलेगा: aaj 4 baje] suggest किया है. Original prose untouched.",
+      "gap": "Part 6 causally establishes deliberate appearance and meeting decisions. Only three verifiable timing defects were corrected. A separate Grok-generated Part 6 correction document was not located in the accessible source search, so no undocumented Grok recommendations were applied.",
+      "next": "Read the updated full Part 6 UI. Future Part 7 scene drafts must preserve Tuesday chronological chain and carry over decisions into character-specific consequences; source text not otherwise altered.",
       "source": "data/stories/e01_part6_the_four_decisions_draft.md",
-      "kind": "confirmed"
+      "kind": "confirmed",
+      "edits_applied": [
+        {
+          "source": "Chapter preface",
+          "old": "Monday afternoon to Tuesday morning",
+          "new": "Monday afternoon to Tuesday early afternoon"
+        },
+        {
+          "source": "Shreya Tuesday mirror",
+          "old": "Kal Chotu ne ribbon...",
+          "new": "Ravivaar ko Chotu ne ribbon..."
+        },
+        {
+          "source": "Chirag Tuesday intercut",
+          "old": "Ankita didi ka verification issue kal solve karna tha.",
+          "new": "Ankita didi ka verification issue aaj 4 baje solve karna tha."
+        }
+      ]
     },
     {
       "id": "P07A",
@@ -147,6 +164,17 @@
       "next": "Preserve as comparison only. Rework from a scene-outcome spec instead of selecting B simply because A failed.",
       "source": "data/stories/e01_part7_the_four_encounters_draft.md",
       "kind": "critical creative mismatch"
+    },
+    {
+      "id": "P07S",
+      "title": "Part 7 — Shivani Grok handoff with ending deferred",
+      "status": "WRITER INSTRUCTIONS PUBLISHED · SCENE UNWRITTEN",
+      "release": "Source-grounded 850–900-word prompt with existing Tuesday wardrobe, course visit and mirror/dori setup. Dori snap, apology/exit and private aftermath reserved separately for future continuation.",
+      "source": "data/stories/e01_part7_shivani_grok_instruction_v1.md",
+      "future_source": "data/stories/e01_part7_shivani_deferred_ending_v1.md",
+      "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-shivani-grok-v1",
+      "gap": "Part 7A/B existing drafts still contain the older, longer resolution; no creative acceptance or rewrite has been performed. The future-ending beat is NOT yet canon.",
+      "next": "Copy Grok prompt from Story Lab. Review submitted prose; only after reader approval reconcile the larger Part 7 draft and Chotu closing."
     }
   ],
   "rules": [
@@ -435,6 +463,14 @@
       "status": "READER-REVIEW VERSION PUBLISHED — ORIGINALS PRESERVED",
       "issue": "User approved merging Ankita, Tanya and Shreya Grok drafts with the original Part 5 while requiring Shivani unchanged, retention of mature submitted prose, and yellow highlights on key existing story turns.",
       "fix": "Published an independent 9-scene / 280-paragraph / 4,366-prose-word merged Markdown chapter, incorporated it into single Story Lab as an expandable reader with 52 yellow highlights. Retained earlier Part 5 and all user Grok source docs intact. Restored Part 3 character knowledge/clues and corrected non-graphic wording/return timing. Shivani original paragraphs verified exact."
+    },
+    {
+      "id": "C032",
+      "scope": "P06 AND P07 SHIVANI INSTRUCTIONS",
+      "type": "CONTINUITY CORRECTIONS / FUTURE BEAT PARKING",
+      "status": "UI AND MARKDOWN UPDATED, SOURCE DRAFTS OTHERWISE PRESERVED",
+      "issue": "Part 6 contains two time-word mismatches plus an inaccurate timeline label. User also asks to withhold Shivani's Part 7 dori snapping and aftermath while making Grok instructions available in the Story Lab.",
+      "fix": "Apply 3 targeted Part 6 timing edits to story Markdown and UI. Publish a source-linked copyable Shivani Grok brief ending before dori snap. Park dori-snap/apology/aftermath for future planning only; Part 7A and Part 7B existing prose unchanged."
     }
   ],
   "chronology": [
