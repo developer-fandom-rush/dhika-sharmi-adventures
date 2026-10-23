@@ -1,5 +1,7 @@
 # FOUR WALLS, FOUR SECRETS — E01 / PART 4 — SHREYA
 
+**Current prose status (23 Oct 2026):** Full Grok prose and a corrected preview exist outside this repository. The revised preview corrects a wrong name and completes the Sunday sound-check. The director beats below remain the reference, not an approved imported story.
+
 **Status: Reader-discussed combined A + B director scene plan, not Grok final prose.** Keep source Part 2 unchanged.
 
 ## Part 2 continuity / launch
