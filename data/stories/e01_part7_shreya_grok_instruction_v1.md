@@ -10,7 +10,7 @@
 2. Same manuscript **Scene 7**, Shreya Sunday 6:30 PM, `L189–228`. Chotu returns for packaging; Shreya teaches ribbon, he praises her singing, the encounter ends with a small unresolved awareness. Shreya **went home and came back to the boutique** before the second visit.
 3. `data/stories/e01_part6_the_four_decisions_draft.md`, **Shreya Tuesday 9:20 AM**: wine-coloured saree, deep V-neck blouse, two chosen drapes, private mirror question. Important: recollection is of **Sunday**, not Monday.
 4. `data/stories/e01_part7_four_doors_one_new_secret_draft.md`, **Part 7A Shreya Tuesday 9:25 AM**, `THE SECOND PHOTOGRAPH`, current unapproved candidate.
-5. `data/stories/e01_part7_the_four_encounters_draft.md`, **Part 7B Shreya Tuesday 10:05 AM**, alternate only. Adopt the **9:25 AM** chronological A basis to ensure Tanya's 2 PM encounter can follow.
+5. `data/stories/e01_part7_the_four_encounters_draft.md`, **Part 7B Shreya Tuesday 10:05 AM**, alternate only. Adopt the **9:25 AM** chronological A basis to ensure Taniya's 2 PM encounter can follow.
 
 ## Required continuity / personality
 
@@ -35,7 +35,7 @@
 
 **07 · Concealment through familiar behaviour:** Shreya resumes the ordinary playful exchange and the practical shoot. She is not hiding behind professional etiquette; she is **personally choosing** not to reveal a newly unsettling internal response. She selects the second photo and has it transferred to her own device with explicit respect for storage boundaries.
 
-**08 · Close the scene, not the arc:** After Chotu's work concludes, she checks the selected photo and recognizes why the conversation mattered more than she expected. Keep the personal change unresolved. **Do not insert Tanya's event, take Shreya beyond the boutique, or write Chotu's later four-visit coda.**
+**08 · Close the scene, not the arc:** After Chotu's work concludes, she checks the selected photo and recognizes why the conversation mattered more than she expected. Keep the personal change unresolved. **Do not insert Taniya's event, take Shreya beyond the boutique, or write Chotu's later four-visit coda.**
 
 ## Acceptance tests
 

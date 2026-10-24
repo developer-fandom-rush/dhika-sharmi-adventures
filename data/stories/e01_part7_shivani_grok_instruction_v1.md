@@ -12,14 +12,14 @@
 2. `data/stories/e01_part6_the_four_decisions_draft.md`, Shivani Monday 6:35 PM: deliberate cream-saree / back-dori-blouse choice and course-brochure appointment.
 3. `data/stories/e01_part7_four_doors_one_new_secret_draft.md`, Shivani Tuesday 6:58 PM: original A candidate, unapproved.
 4. `data/stories/e01_part7_the_four_encounters_draft.md`, Shivani Tuesday 7:08 PM: alternate B candidate, unapproved.
-5. `data/stories/e01_part7_four_doors_one_new_secret_draft.md`, earlier Tuesday scenes of Shreya 9:25 AM, Tanya 2 PM and Ankita 4:03 PM are chronological **draft inputs only**, not all approved outcomes.
+5. `data/stories/e01_part7_four_doors_one_new_secret_draft.md`, earlier Tuesday scenes of Shreya 9:25 AM, Taniya 2 PM and Ankita 4:03 PM are chronological **draft inputs only**, not all approved outcomes.
 
 ## Character state and continuity
 
 - **Shivani, Part 5 Saturday:** sea-green saree, Chotu's ordinary compliment, an unplanned upper-back/pallu glimpse while retrieving a file, his sudden formality noticed by her in the mirror. She also has a separate Part 3 garment-displacement mystery unrelated to him.
 - **Shivani, Part 5 Sunday:** she helps with bookkeeping, shares breakfast and encourages Chotu to pursue studies. Trust has a concrete reason, not an instant romantic declaration.
 - **Shivani, Part 6 Monday:** she plans the Tuesday 7 PM brochure delivery; independently chooses a cream saree, matching open-back blouse, and hair bun. Two decorative back doris; one is worn/previously loosened, and Aditya warned her to see a tailor. **She chooses her appearance; she does not plan a malfunction.**
-- **Chotu on Tuesday after Shreya/Tanya/Ankita:** he has done multiple errands and observed different attention/teasing. His confirmed physical/mental state is fatigue or alertness, guarded body language, intermittent hesitation and determination to act respectfully. A precise sexual physiological state is **not established as fact** by the drafts. Do not attribute other people's private thoughts to him.
+- **Chotu on Tuesday after Shreya/Taniya/Ankita:** he has done multiple errands and observed different attention/teasing. His confirmed physical/mental state is fatigue or alertness, guarded body language, intermittent hesitation and determination to act respectfully. A precise sexual physiological state is **not established as fact** by the drafts. Do not attribute other people's private thoughts to him.
 - **Clothing mechanic:** main blouse fasteners are secure. The decorative dori is not the garment's sole support. Clothing cannot fall open because one decorative thread becomes loose.
 
 ## Scene plan — current draft ONLY
