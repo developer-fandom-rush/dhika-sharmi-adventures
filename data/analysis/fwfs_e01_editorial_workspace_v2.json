@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "updated": "2026-10-24",
   "story": "Four Walls, Four Secrets",
-  "overall_status": "E01 still under review. Ankita Part 7 now has exactly one active reading version: submitted Grok Revised V1; superseded Part 7A/B Ankita scenes removed from working drafts and UI. Shreya, Tanya, Shivani Part 7 materials remain unapproved.",
+  "overall_status": "E01 still under review. Part 7 current received readers: Ankita Grok Revised V1 (user-selected), Shivani Grok Received V1 (continuity conflicts flagged), Shreya Grok Received Revised V1 (six limited factual fixes). Tanya prose pending. Old Part 7 A/B Ankita scenes discarded.",
   "source_hierarchy": {
     "dhika_original": "data/episodes/e01.json",
     "fwfs_working": "four-walls-story-lab/index.html; data/stories/; uploaded Grok Part 4 PDF",
@@ -235,6 +235,30 @@
       "issues": "Monday's cream saree versus user-draft sea-green; Monday 6:35 PM versus Monday raat; Part5/6 labels in fictional narrator; snap of decorative dori contradicts secure primary fasteners; Grok scene completes ending previously deferred; 'Usne blouse pehna' ambiguous pronoun.",
       "release": "Latest user-received Grok prose includes extended ending. Original source and POV-labelled reader are saved. Outfit/fastener consistency vs Part 6 remains unresolved, so not marked approved canon.",
       "next": "Reader to decide if costume/fastening setup is retconned, whether to keep newly submitted completed ending, and whether to request continuity-only corrections."
+    },
+    {
+      "id": "P07SHREYAGROKV1",
+      "title": "Part 7 · Shreya received Grok prose, revised reader V1",
+      "status": "RECEIVED USER GROK PROSE; SOURCE ORIGINAL ARCHIVED; CONTINUITY-LIMITED EDITED READER IN UI; NOT CANON",
+      "source_original": "data/stories/e01_part7_shreya_grok_raw_received_20261024.md",
+      "source_revised": "data/stories/e01_part7_shreya_grok_reader_v1.json",
+      "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-shreya-received-v1",
+      "scope": "Tuesday 9:25 AM Mehta boutique with Chotu photo-shoot. 53 ordered reader blocks; 8 Shreya and 4 Chotu separated spoken lines. Author-supplied physical descriptions and intimate response words preserved.",
+      "fixes": [
+        "Add Tuesday 9:25 AM timestamp",
+        "Remove out-of-story Part 6 styling reference",
+        "Replace out-of-story Part 5 high shelf reference with Sunday memory",
+        "Clarify prior Ankita/Shivani/Tanya encounters are from earlier days, not later on Tuesday",
+        "Show a genuine second camera click before Chotu says photo is done",
+        "Correct Pishthe Hinglish typo without rewriting subsequent body-reaction text"
+      ],
+      "continuity": [
+        "P5 Shreya Sunday high-rack and ribbon/guitar conversation",
+        "P6 Shreya Tuesday morning already selects second wine-coloured drape",
+        "P7 photo pose 1 and pose 2 both occur while selected second styling is worn"
+      ],
+      "canon": "READER APPROVAL REQUIRED",
+      "next": "Reader verifies Shreya source and version; don't auto-merge older Part 7A/B Shreya scenes or declare all E01 complete."
     }
   ],
   "rules": [
