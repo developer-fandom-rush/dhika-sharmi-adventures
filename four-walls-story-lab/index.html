@@ -950,16 +950,11 @@
 <section class="view" data-view="story-e01-part7-four-encounters" hidden>
 <div class="kicker">FOUR WALLS / EPISODE 01 / FOUR PART 7 ENCOUNTERS</div>
 <h1>Episode 01 · Part 7 — Complete Working Reader</h1>
-<p class="sub">Tuesday encounter order: Shreya 9:25 AM → Taniya 2 PM → Ankita 4:03 PM → Shivani around 7 PM. All four existing manuscripts assembled without writing new plot.</p>
+<p class="sub">One chronological Episode 01 Part 7 reader: Shreya 9:25 AM → Taniya 2 PM → Ankita 4:03 PM → Shivani around 7 PM. Source drafts remain in the archive.</p>
 <span class="tag">FOUR STORY DRAFTS ASSEMBLED · FINAL CANON APPROVAL PENDING</span>
-<div class="grok-banner"><b>Editorial completion:</b> All four Part 7 scenes are available in chronological order. Taniya was the last scene written but the second encounter in story time. Important: Episode 01's Part 3 and Part 4 remain separately reviewable work, and both Taniya and Shivani have unresolved QA points; this assembled reader does not claim the full episode is canon-locked.</div>
+<div class="grok-banner"><b>One Part 7 reader:</b> Four existing manuscripts appear sequentially in this page. Earlier individual readers remain archived but are no longer separate sidebar entries. The newly supplied Taniya G1/G4/G5/G6 revisions are still pending manuscript integration; this reader currently displays the earlier saved Taniya version. Part 3/4 integration and Shivani continuity checks are also pending. This is not a final Episode 01 canon lock.</div>
 <div class="sourcefoot"><a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_four_encounters_working_reader_20261024.md" target="_blank" rel="noopener">Read combined four-scene working manuscript ↗</a></div>
-<div class="e02-route">
-<button type="button" data-go="story-part7-shreya-received-v1">Shreya detail</button>
-<button type="button" data-go="story-part7-taniya-received-v1">Taniya detail</button>
-<button type="button" data-go="story-part7-ankita-revised-v1">Ankita detail</button>
-<button type="button" data-go="story-part7-shivani-received-v1">Shivani detail</button>
-</div>
+
 <p class="p5-merge-top" id="p7-four-reader-status" role="status">Loading four scenes in chronology…</p>
 <article class="p7-ankita-timeline" id="p7-four-reader"></article>
 </section>
@@ -1349,7 +1344,7 @@
 <div class="e02-route">
 <button data-go="story-part5-merged-v1">Part 5 · Merged V1</button>
 <button data-go="story-part6-four-decisions">Part 6 · Corrected V1</button>
-<button data-go="story-e01-part7-four-encounters">Part 7 · All four scenes</button>
+<button data-go="story-e01-part7-four-encounters">Part 7 · One Complete Reader</button>
 <button data-go="story-part7-shreya-received-v1">Part 7 · Shreya</button>
 <button data-go="story-part7-taniya-received-v1">Part 7 · Taniya</button>
 <button data-go="story-part7-ankita-revised-v1">Part 7 · Ankita — Current</button>
@@ -1970,8 +1965,8 @@ loadP5MergedReader();
   combined.textContent="";var total=0;
   data.forEach(function(d,i){
    if(d.schema!=="fwfs.story_reader.v1"||!Array.isArray(d.blocks)||!d.blocks.length)throw Error("Invalid "+scenes[i][0]);
-   var det=document.createElement("details");det.className="p7-ankita-transcript";det.open=(i===0);
-   var hd=document.createElement("summary");hd.textContent=(i+1)+". "+scenes[i][0]+" · "+d.blocks.length+" reading blocks · review draft";det.appendChild(hd);
+   var det=document.createElement("section");det.className="p7-ankita-transcript";
+   var hd=document.createElement("h2");hd.textContent=(i+1)+". "+scenes[i][0]+" · "+d.blocks.length+" reading blocks";det.appendChild(hd);
    d.blocks.forEach(function(bl){total++;var p=document.createElement("p");p.className="draft-line";fillText(p,bl.text);det.appendChild(p);});
    combined.appendChild(det);
   });cs.textContent="All four Tuesday scenes loaded · "+total+" story blocks · final canon approval pending.";
@@ -2191,7 +2186,7 @@ function loadAnkitaDraft(key){
 var sourceIndex=null, masterPromise=null, selectedDHIKA=2;
 var storyMenu={
 "00":[["Prologue","story-prologue"]],
-"01":[["Episode 01 · Overview","story-e01-review"],["Part 1","story-part1"],["Part 2 · Complete","story-part2-all"],["Part 3 · Review","story-part3-elders"],["Part 4 · Plans","story-e01-part4-index"],["Part 5 · Merged Reader","story-part5-merged-v1"],["Part 6 · Chaar Faisle","story-part6-four-decisions"],["Part 7 · All four (working)","story-e01-part7-four-encounters"],["Part 7 · Shreya (V3 review)","story-part7-shreya-received-v1"],["Part 7 · Taniya (G1–G6)","story-part7-taniya-received-v1"],["Part 7 · Ankita (Current)","story-part7-ankita-revised-v1"],["Part 7 · Shivani (Current)","story-part7-shivani-received-v1"]],
+"01":[["Episode 01 · Overview","story-e01-review"],["Part 1","story-part1"],["Part 2 · Complete","story-part2-all"],["Part 3 · Review","story-part3-elders"],["Part 4 · Plans","story-e01-part4-index"],["Part 5 · Merged Reader","story-part5-merged-v1"],["Part 6 · Chaar Faisle","story-part6-four-decisions"],["Part 7 · Complete Reader","story-e01-part7-four-encounters"]],
 "02":[["Episode 02 overview","story-e02-hub"],["Ankita · Part 1 (saved)","story-e02-ankita-part1"],["Ankita · Parts 2–3 (150 lines)","story-e02-ankita-p02p03"],["Ankita · Part 4 (80 lines)","story-e02-ankita-p04-reader"],["Ankita · Part 5 (60 lines)","story-e02-ankita-p05-reader"],["Ankita · Part 6 (82 lines) · E02 END","story-e02-ankita-p06-reader"],["Part 4 source/execution plan","story-e02-ankita-p04-plan"]],
 "03":[["Shivani · Part 1 (revised, current)","story-e03-shivani-part1"]]
 };
