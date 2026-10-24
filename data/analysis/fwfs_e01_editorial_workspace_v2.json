@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "updated": "2026-10-24",
   "story": "Four Walls, Four Secrets",
-  "overall_status": "E01 still under review. Part 7 current received readers: Ankita Grok Revised V1 (user-selected), Shivani Grok Received V1 (continuity conflicts flagged), Shreya Grok Received Revised V1 (six limited factual fixes). Tanya prose pending. Old Part 7 A/B Ankita scenes discarded.",
+  "overall_status": "E01 still under review. Part 7 current received readers: Ankita Grok Revised V1 (user-selected), Shivani Grok Received V1 (continuity conflicts flagged), Shreya Grok Received Revised V1 (six limited factual fixes). Taniya prose pending. Old Part 7 A/B Ankita scenes discarded.",
   "source_hierarchy": {
     "dhika_original": "data/episodes/e01.json",
     "fwfs_working": "four-walls-story-lab/index.html; data/stories/; uploaded Grok Part 4 PDF",
@@ -28,9 +28,9 @@
       "status": "PRELIMINARY MECHANISM REVIEW — NOT A FULL ADULT-FICTION STYLE APPROVAL",
       "release": "One stable Story Lab Part 2 reading tab with four in-place character tabs, each showing ONLY original prose; 226 numbered beats retained. Narration suggestions are review-only.",
       "dhika": "E01-L030–063",
-      "strength": "DHIKA E01 L030–063 and FWFS Part 2 both use familiar teasing, compliments, differently behaved observers, individual styling/identity and memorable private reactions. Ankita: Nikhil, Karan and Aman; Shivani: Raghav and Rishabh; Shreya: Aarav and Neel; Tanya: Vihaan, Arjun, Dhruv and Laksh. Existing actions and identities are retained.",
+      "strength": "DHIKA E01 L030–063 and FWFS Part 2 both use familiar teasing, compliments, differently behaved observers, individual styling/identity and memorable private reactions. Ankita: Nikhil, Karan and Aman; Shivani: Raghav and Rishabh; Shreya: Aarav and Neel; Taniya: Vihaan, Arjun, Dhruv and Laksh. Existing actions and identities are retained.",
       "gap": "Compared DHIKA E01 lines 30–63 with FWFS four Part 2 drafts as a narrative-structure and continuity reviewer: analogous banter/compliments and contrasted personalities are present. Only three over-explanatory lines were flagged. This was NOT an exhaustive line-by-line literary or adult-fiction scene-intensity audit.",
-      "next": "No mandatory scene edit established. Reader switches four in-place story tabs (Ankita, Shivani, Shreya, Tanya); optional language suggestions stay in Writing Rules & Corrections, not inside reading prose.",
+      "next": "No mandatory scene edit established. Reader switches four in-place story tabs (Ankita, Shivani, Shreya, Taniya); optional language suggestions stay in Writing Rules & Corrections, not inside reading prose.",
       "source": "data/stories/e01_part2_complete_working_draft.md",
       "kind": "source-verified comparative prose review"
     },
@@ -41,7 +41,7 @@
       "release": "Grok's original sensitive prose preserved. Mechanical position edits committed in Part 3 source and UI; additional material aftermath requires reader decision before final acceptance.",
       "dhika": "E01-L064–069",
       "strength": "All four real elder identities and household entry justifications now align with FWFS Part 1, and Saturday times fit around four women's Part 2 activities. Part 3 correctly preserves reader-only knowledge and keeps Chotu uninvolved. DHIKA mechanism of trusted domestic proximity, interruption, and an unresolved trace is recognizable.",
-      "gap": "The hooks/strap clues now align: Shivani adjacent hook, Shreya reversed strap. Tanya's item fold and Ankita's missing set already aligned. Remaining question: does Part 5 intentionally omit other physical aftermath, or should a character notice something beyond item position? No new description should be invented.",
+      "gap": "The hooks/strap clues now align: Shivani adjacent hook, Shreya reversed strap. Taniya's item fold and Ankita's missing set already aligned. Remaining question: does Part 5 intentionally omit other physical aftermath, or should a character notice something beyond item position? No new description should be invented.",
       "next": "No more auto-edit. Reader/writer supplies or approves any consequential discovery, if intended; otherwise document limited perception. Keep consent/knowledge states separate. Final creative approval still pending.",
       "source": "data/stories/e01_part3_grok_copyedit.txt",
       "kind": "mechanical continuity partially corrected"
@@ -52,9 +52,9 @@
       "status": "FOUR CONTINUITY-REVISED PREVIEWS AVAILABLE · CANON CHOICES OPEN",
       "release": "Four full Grok prose tracks and source-based corrected previews exist in ChatGPT artifact pack. GitHub Story Lab still presents the prior director plan, not complete revised prose.",
       "dhika": "E01-L070–106",
-      "strength": "Grok has written all four Part 4 tracks, and the editor completed mechanical corrections without wholesale rewriting: Ankita real testing/exit, Shivani Monday reference + follow-up, Shreya proper name + practical sound-check, Tanya cast/action positioning.",
-      "gap": "Ankita's older approved staging specified different contact actors from the existing Grok passage; the newer preservation-first preference was applied in the corrected preview, but no final approval recorded. Tanya's box rescue also retains an original arm steadying in addition to Arjun catching the box. Prior QA does not certify literary intensity or final prose publication.",
-      "next": "Review corrected Grok-preserving previews and decide whether to retain the existing Ankita/Tanya action blocking. No other name/date/factual issue requires an explicit new scene. Once approved, import unchanged original passages with continuity fixes into Story Lab.",
+      "strength": "Grok has written all four Part 4 tracks, and the editor completed mechanical corrections without wholesale rewriting: Ankita real testing/exit, Shivani Monday reference + follow-up, Shreya proper name + practical sound-check, Taniya cast/action positioning.",
+      "gap": "Ankita's older approved staging specified different contact actors from the existing Grok passage; the newer preservation-first preference was applied in the corrected preview, but no final approval recorded. Taniya's box rescue also retains an original arm steadying in addition to Arjun catching the box. Prior QA does not certify literary intensity or final prose publication.",
+      "next": "Review corrected Grok-preserving previews and decide whether to retain the existing Ankita/Taniya action blocking. No other name/date/factual issue requires an explicit new scene. Once approved, import unchanged original passages with continuity fixes into Story Lab.",
       "source": "data/stories/e01_part4_ankita_director_lock.md",
       "kind": "source-verified preview QA, not creative endorsement"
     },
@@ -62,9 +62,9 @@
       "id": "P05",
       "title": "Part 5 — Chotu ke saare 9 scenes (ab ek hi part)",
       "status": "FULL NINE-SCENE SELECTIVE MERGE V1 PUBLISHED FOR READER REVIEW",
-      "release": "Merged full nine-scene Part 5 (4,366 prose words, 280 numbered paragraph blocks) published separately in Story Lab. Original combined nine-scene copy is not overwritten. Ankita, Shreya and Tanya combine retained original/Grok excerpts; Shivani Sat/Sun and Chotu closing have verbatim original paragraphs. No reader canon acceptance assumed.",
+      "release": "Merged full nine-scene Part 5 (4,366 prose words, 280 numbered paragraph blocks) published separately in Story Lab. Original combined nine-scene copy is not overwritten. Ankita, Shreya and Taniya combine retained original/Grok excerpts; Shivani Sat/Sun and Chotu closing have verbatim original paragraphs. No reader canon acceptance assumed.",
       "dhika": "DHIKA E01-L116–205 (main Part 5 comparison); L206–224 only later payoff reference",
-      "strength": "Part 5 contains four real delivery motives; distinct women and household contexts; each has an unexpected visual/behavioural hesitation and later follow-up. Ankita remembers Saturday (FWFS L36–50, L194–228); Shivani remembers ride and offers breakfast/study help (L66–108, L143–171); Shreya recognizes singing/creative talent (L314–338, L385–409); Tanya recalls storeroom and jokes (L258–278, L454–490).",
+      "strength": "Part 5 contains four real delivery motives; distinct women and household contexts; each has an unexpected visual/behavioural hesitation and later follow-up. Ankita remembers Saturday (FWFS L36–50, L194–228); Shivani remembers ride and offers breakfast/study help (L66–108, L143–171); Shreya recognizes singing/creative talent (L314–338, L385–409); Taniya recalls storeroom and jokes (L258–278, L454–490).",
       "gap": "First full selective Grok merge is ready, but creative intensity and final character progression still require reader review; two original Shivani scenes were intentionally unchanged, and the old Chotu Sunday-night recap has yet to be rechecked against revised scenes.",
       "next": "Read nine-scene merged Story Lab with yellow turning-point markers. Approve or request pinpoint fixes per line ID. Do not automatically replace the original nine-scene manuscript.",
       "source": "data/stories/e01_part5_complete_working_draft.md",
@@ -101,7 +101,7 @@
         "clue_carryover": [
           "Ankita/Mahendra missing set",
           "Shreya/Harish strap orientation",
-          "Tanya/Virendra reversed fold"
+          "Taniya/Virendra reversed fold"
         ],
         "tiny_source_edits": [
           "Ankita Blouse → Top",
@@ -147,8 +147,8 @@
       "status": "OBSOLETE MIXED-DRAFT SOURCE — ANKITA SCENE DISCARDED",
       "release": "Older Ankita prose deleted from working markdown; other women's unfinished Part 7A scenes remain review sources only. No longer published as a Story Lab reader page.",
       "dhika": "E01-L217–224",
-      "strength": "Shreya selects styling and asks for personal feedback; Tanya has an independent photo-review meeting; Ankita's form and Shivani's documents have practical outcomes. Keep the successful dialogue and established names/times.",
-      "gap": "Shreya L10/34–68: visual styling is described and chosen, but Chotu's observable response gets resolved through a short compliment and the scene quickly returns to design critique; the intended distinctive turning point is underexecuted. Tanya L93–177: despite intended highest escalation, encounter consists chiefly of photo comparison, jokes, envelope exchange and Laksh interruption; there is no stronger new relationship milestone or consequential change. Chotu L369–400: retrospective lists four experiences but doesn't dramatize what the previous experience changed during the next one. These are SCENE-LEVEL shortcomings, NOT two missing sentences.",
+      "strength": "Shreya selects styling and asks for personal feedback; Taniya has an independent photo-review meeting; Ankita's form and Shivani's documents have practical outcomes. Keep the successful dialogue and established names/times.",
+      "gap": "Shreya L10/34–68: visual styling is described and chosen, but Chotu's observable response gets resolved through a short compliment and the scene quickly returns to design critique; the intended distinctive turning point is underexecuted. Taniya L93–177: despite intended highest escalation, encounter consists chiefly of photo comparison, jokes, envelope exchange and Laksh interruption; there is no stronger new relationship milestone or consequential change. Chotu L369–400: retrospective lists four experiences but doesn't dramatize what the previous experience changed during the next one. These are SCENE-LEVEL shortcomings, NOT two missing sentences.",
       "next": "Do not use P07A Ankita text. Use selected Grok Revised V1 for the sole active Ankita Part 7 scene.",
       "source": "data/stories/e01_part7_four_doors_one_new_secret_draft.md",
       "kind": "critical creative mismatch"
@@ -160,7 +160,7 @@
       "release": "Older Ankita prose deleted from working markdown; other women's unfinished Part 7B scenes remain review sources only. No longer published as a Story Lab reader page.",
       "dhika": "E01-L217–224",
       "strength": "Alternate complete episode closing candidate available for side-by-side comparison.",
-      "gap": "Version B Shreya L173–239 and Tanya L259–339 are still predominantly photo critique, teasing and work closure; Chotu L343–399 recaps rather than establishing strong earlier-to-later behavioural carry-over. It is NOT demonstrated that swapping to Version B meets intended escalation.",
+      "gap": "Version B Shreya L173–239 and Taniya L259–339 are still predominantly photo critique, teasing and work closure; Chotu L343–399 recaps rather than establishing strong earlier-to-later behavioural carry-over. It is NOT demonstrated that swapping to Version B meets intended escalation.",
       "next": "Do not use P07B Ankita text. Use selected Grok Revised V1 for the sole active Ankita Part 7 scene.",
       "source": "data/stories/e01_part7_the_four_encounters_draft.md",
       "kind": "critical creative mismatch"
@@ -198,18 +198,18 @@
       "status": "COPYABLE GROK INSTRUCTIONS PUBLISHED · PROSE UNWRITTEN",
       "source": "data/stories/e01_part7_shreya_grok_instruction_v1.md",
       "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-shreya-grok-v1",
-      "chronology": "Tuesday 9:25 AM Mehta Boutique; earlier than Tanya 2 PM",
+      "chronology": "Tuesday 9:25 AM Mehta Boutique; earlier than Taniya 2 PM",
       "key_gates": "Established side-waist and neckline from Sunday P5; wine saree's second drape from P6; informal familiar equation, not formal-client composure; new private arousal reaction must be narratively earned; no accidental high-shelf repeat",
       "canon": "not approved"
     },
     {
       "id": "P07T",
-      "title": "Part 7 — Tanya Grok eight-step source-locked brief",
+      "title": "Part 7 — Taniya Grok eight-step source-locked brief",
       "status": "COPYABLE GROK INSTRUCTIONS PUBLISHED · ENDING DEFERRED",
       "source": "data/stories/e01_part7_tanya_grok_instruction_v1.md",
       "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-tanya-grok-v1",
       "chronology": "Tuesday 2 PM Arora apartment after Shreya and before Ankita",
-      "key_gates": "Part 5 navel/side-waist; Part 6 rust-red saree; legitimate one-on-one photo review; director-proposed consent-checked limited navel-area touch; Tanya unexpected private reaction; END on shared pause BEFORE anyone leaves",
+      "key_gates": "Part 5 navel/side-waist; Part 6 rust-red saree; legitimate one-on-one photo review; director-proposed consent-checked limited navel-area touch; Taniya unexpected private reaction; END on shared pause BEFORE anyone leaves",
       "canon": "not approved"
     },
     {
@@ -248,7 +248,7 @@
         "Add Tuesday 9:25 AM timestamp",
         "Remove out-of-story Part 6 styling reference",
         "Replace out-of-story Part 5 high shelf reference with Sunday memory",
-        "Clarify prior Ankita/Shivani/Tanya encounters are from earlier days, not later on Tuesday",
+        "Clarify prior Ankita/Shivani/Taniya encounters are from earlier days, not later on Tuesday",
         "Show a genuine second camera click before Chotu says photo is done",
         "Correct Pishthe Hinglish typo without rewriting subsequent body-reaction text"
       ],
@@ -272,7 +272,7 @@
     },
     {
       "title": "Five interconnected state tracks",
-      "body": "Maintain Ankita, Shivani, Shreya, Tanya and Chirag/Chotu (22) as five parallel, accumulating character-state ledgers. Chotu's experiences carry over according to actual clock order, not display order."
+      "body": "Maintain Ankita, Shivani, Shreya, Taniya and Chirag/Chotu (22) as five parallel, accumulating character-state ledgers. Chotu's experiences carry over according to actual clock order, not display order."
     },
     {
       "title": "Entry → Middle → Exit",
@@ -305,7 +305,7 @@
       "scope": "P06",
       "type": "FACTUAL",
       "status": "OPEN IN MANUSCRIPT",
-      "issue": "Tuesday store intercut says Ankita's form task is tomorrow ('kal'), while Tuesday 12:40 Tanya task is already known.",
+      "issue": "Tuesday store intercut says Ankita's form task is tomorrow ('kal'), while Tuesday 12:40 Taniya task is already known.",
       "fix": "Set Tuesday intercut time consistently; change only the temporal clause to 'aaj 4 baje'."
     },
     {
@@ -350,7 +350,7 @@
     },
     {
       "id": "C007",
-      "scope": "P04 Tanya",
+      "scope": "P04 Taniya",
       "type": "SCENE MECHANICS",
       "status": "OPEN IN SOURCE DRAFT",
       "issue": "Approved scenario had a caught pallu/hook and Arjun handling the carton; draft blocking diverges.",
@@ -377,7 +377,7 @@
       "scope": "P05C",
       "type": "REVIEW CORRECTION",
       "status": "RECLASSIFIED",
-      "issue": "Prior review said Tanya's previous storeroom experience had no follow-up.",
+      "issue": "Prior review said Taniya's previous storeroom experience had no follow-up.",
       "fix": "A memory already appears in the Monday 11 AM continuation; evaluate its strength, not its absence."
     },
     {
@@ -433,8 +433,8 @@
       "scope": "P07A/P07B",
       "type": "EDITORIAL REVIEW RETRACTION",
       "status": "CREATIVE FAIL CONFIRMED; MANUSCRIPTS UNCHANGED",
-      "issue": "Previous review wrongly classified Part 7 as just duplicate wording and one optional Chotu line. It did not test Tanya's requested top-level progression, Shreya's meaningful choice-to-reaction payoff, or Chotu's cumulative character state.",
-      "fix": "Replace PASS/PATCH conclusion with scene-level redesign required; writer may preserve working dialogue and wardrobe, but neither candidate is accepted canon. Evidence P7A Shreya L10–84, Tanya L93–175, Chotu L369–400; compare earlier P7B."
+      "issue": "Previous review wrongly classified Part 7 as just duplicate wording and one optional Chotu line. It did not test Taniya's requested top-level progression, Shreya's meaningful choice-to-reaction payoff, or Chotu's cumulative character state.",
+      "fix": "Replace PASS/PATCH conclusion with scene-level redesign required; writer may preserve working dialogue and wardrobe, but neither candidate is accepted canon. Evidence P7A Shreya L10–84, Taniya L93–175, Chotu L369–400; compare earlier P7B."
     },
     {
       "id": "C018",
@@ -458,7 +458,7 @@
       "type": "MANUSCRIPT ORGANIZATION",
       "status": "ONE COMBINED UI & SOURCE FILE COMMITTED",
       "issue": "Part 2 was spread across four independent character views in the same Episode 01 workspace, making reading difficult.",
-      "fix": "Preserved all 226 original numbered beats in one Part 2 UI section and one untouched chronological-by-character combined working markdown. Source character order is Ankita, Shivani, Shreya, Tanya."
+      "fix": "Preserved all 226 original numbered beats in one Part 2 UI section and one untouched chronological-by-character combined working markdown. Source character order is Ankita, Shivani, Shreya, Taniya."
     },
     {
       "id": "C021",
@@ -466,7 +466,7 @@
       "type": "DHIKA STYLE COMPARISON",
       "status": "THREE OPTIONAL WORDING SUGGESTIONS SHOWN IN UI",
       "issue": "The four FWFS scenes have the intended interactions, but a few narrator-only statements explicitly explain or deflate ambiguity. DHIKA E01 L030–063 tends to use compliments, contrasting personalities and the response itself as the storytelling mechanism.",
-      "fix": "Offer optional replacement lines for Ankita L027, Shivani L052, Tanya L069; do not change scene outcomes, family relationships, physical events or characters. Leave Shreya unchanged."
+      "fix": "Offer optional replacement lines for Ankita L027, Shivani L052, Taniya L069; do not change scene outcomes, family relationships, physical events or characters. Leave Shreya unchanged."
     },
     {
       "id": "C022",
@@ -482,7 +482,7 @@
       "type": "FACTUAL CONTINUITY — MATERIAL TRACE",
       "status": "POSITION CLUES FIXED · OTHER TRACE OPEN",
       "issue": "Part 3 Grok V1 P3-P/H/V L005–006 contains physical/material aftermath and garment return; Part 5 only notices hook/strap orientation or folding. P3 doesn't explicitly stage the later different hook and reversed strap, and the extra material traces have no resolved account. Ankita P3-M L006 → Part 5 missing set is coherent.",
-      "fix": "Part 3 P3-P-L006 and P3-H-L006 now explicitly cause the Part 5 hook/strap observations; Tanya's fold and Ankita's missing set were already consistent. Any other evidence/physical aftermath remains a reader decision, not a silent editor insertion."
+      "fix": "Part 3 P3-P-L006 and P3-H-L006 now explicitly cause the Part 5 hook/strap observations; Taniya's fold and Ankita's missing set were already consistent. Any other evidence/physical aftermath remains a reader decision, not a silent editor insertion."
     },
     {
       "id": "C024",
@@ -513,7 +513,7 @@
       "scope": "P05",
       "type": "DHIKA COMPARISON — EARLIER MINIMAL-PATCH REVIEW RETRACTED",
       "status": "REVIEW FAIL; MANUSCRIPT UNCHANGED",
-      "issue": "A complete read of FWFS's nine Part 5 scenes against original DHIKA E01 L116–205 finds significantly weaker sustained intensity and transformation. Chotu repeatedly notices/looks away, later conversations pivot into help or banter, and Tanya/Shreya particularly lack a consequential development at the intended level.",
+      "issue": "A complete read of FWFS's nine Part 5 scenes against original DHIKA E01 L116–205 finds significantly weaker sustained intensity and transformation. Chotu repeatedly notices/looks away, later conversations pivot into help or banter, and Taniya/Shreya particularly lack a consequential development at the intended level.",
       "fix": "Treat as scene-level creative gap, not three sentence substitutions. Record expected state change for each character and only then delegate prose revision if user wants it. Do not silently invent new adult incidents or rewrite existing prose."
     },
     {
@@ -530,7 +530,7 @@
       "type": "PRODUCTION",
       "status": "FIVE SOURCE-LINKED BRIEFS PUBLISHED",
       "issue": "Grok had no dedicated copyable, character-specific briefs or per-scene word budgets in the combined Story Lab; Part 5 earlier menu also listed an obsolete separate continuation.",
-      "fix": "New Episode 01 → Grok Editor · Part 5 view offers Ankita (1,600–1,900), Shivani (1,700–2,000), Shreya (1,800–2,100), Tanya (2,000–2,350), Chotu/assembly coda (250–350) as separate linked/copyable briefs; master target 7,350–8,700 prose words, excluding change logs. Removed duplicate continuation from Episode 01 menu; story manuscripts remain unchanged."
+      "fix": "New Episode 01 → Grok Editor · Part 5 view offers Ankita (1,600–1,900), Shivani (1,700–2,000), Shreya (1,800–2,100), Taniya (2,000–2,350), Chotu/assembly coda (250–350) as separate linked/copyable briefs; master target 7,350–8,700 prose words, excluding change logs. Removed duplicate continuation from Episode 01 menu; story manuscripts remain unchanged."
     },
     {
       "id": "C030",
@@ -545,7 +545,7 @@
       "scope": "E01 P05 FULL COMBINED MERGE",
       "type": "GROK + ORIGINAL PROSE EDITORIAL COMBINATION",
       "status": "READER-REVIEW VERSION PUBLISHED — ORIGINALS PRESERVED",
-      "issue": "User approved merging Ankita, Tanya and Shreya Grok drafts with the original Part 5 while requiring Shivani unchanged, retention of mature submitted prose, and yellow highlights on key existing story turns.",
+      "issue": "User approved merging Ankita, Taniya and Shreya Grok drafts with the original Part 5 while requiring Shivani unchanged, retention of mature submitted prose, and yellow highlights on key existing story turns.",
       "fix": "Published an independent 9-scene / 280-paragraph / 4,366-prose-word merged Markdown chapter, incorporated it into single Story Lab as an expandable reader with 52 yellow highlights. Retained earlier Part 5 and all user Grok source docs intact. Restored Part 3 character knowledge/clues and corrected non-graphic wording/return timing. Shivani original paragraphs verified exact."
     },
     {
@@ -569,8 +569,8 @@
       "scope": "E01 PART 7 / ALL FOUR GROK WRITER BRIEFS",
       "type": "ROLE & STEP-WISE SCENE DIRECTION",
       "status": "FOUR COPYABLE INSTRUCTION FILES / VIEWS, NOT STORY CANON",
-      "issue": "Reader explicitly fixed Grok role as Sex Story Writer, rejected incorrectly formal 'professional composure with Chotu' for Shreya and requested scene-by-scene escalation and distinct stopping points for Shreya/Tanya.",
-      "fix": "Shreya and Tanya each get separate 8-step source-checked 850–900-word writer instruction briefs with individual Copy control in Story Lab; Ankita/Shivani existing role labels changed to Sex Story Writer only; no Part 5/6/7 prose source overwritten. Tanya scene stops before an ending; Shivani ending remains deferred."
+      "issue": "Reader explicitly fixed Grok role as Sex Story Writer, rejected incorrectly formal 'professional composure with Chotu' for Shreya and requested scene-by-scene escalation and distinct stopping points for Shreya/Taniya.",
+      "fix": "Shreya and Taniya each get separate 8-step source-checked 850–900-word writer instruction briefs with individual Copy control in Story Lab; Ankita/Shivani existing role labels changed to Sex Story Writer only; no Part 5/6/7 prose source overwritten. Taniya scene stops before an ending; Shivani ending remains deferred."
     },
     {
       "id": "C035",
@@ -610,7 +610,7 @@
       "sequence": [
         "Shivani continuation 09:30",
         "Ankita continuation 10:15",
-        "Tanya Part 5 12:50",
+        "Taniya Part 5 12:50",
         "Shreya Part 5 15:10",
         "Shreya continuation 18:30"
       ]
@@ -618,7 +618,7 @@
     {
       "day": "Monday",
       "sequence": [
-        "Tanya continuation 11:00",
+        "Taniya continuation 11:00",
         "Ankita Part 6 16:10",
         "Shivani Part 6 18:35"
       ]
@@ -627,7 +627,7 @@
       "day": "Tuesday",
       "sequence": [
         "Shreya 09:25 (Part 7A)",
-        "Tanya 14:00 (Part 7A)",
+        "Taniya 14:00 (Part 7A)",
         "Ankita 16:03 (Part 7A)",
         "Shivani 18:58 (Part 7A)",
         "Chotu 21:22 (Part 7A)"
@@ -647,23 +647,23 @@
     {
       "id": "H02",
       "part": "P05",
-      "reason": "At 3:10 PM Sunday, Shreya follows Tanya's 12:50 PM visit in Chotu's own day.",
+      "reason": "At 3:10 PM Sunday, Shreya follows Taniya's 12:50 PM visit in Chotu's own day.",
       "existing": "Saath mein Chotu bhi tha—brown-paper rolls, tape aur garment covers lekar.",
-      "suggestion": "Saath mein Chotu bhi tha—brown-paper rolls, tape aur garment covers lekar. Tanya ke ghar ki teasing ab bhi dimaag mein thi. Usne pehle delivery ki list sambhaali, phir Shreya ki taraf dekha—iss baar jawaab sochkar dena chahta tha.",
+      "suggestion": "Saath mein Chotu bhi tha—brown-paper rolls, tape aur garment covers lekar. Taniya ke ghar ki teasing ab bhi dimaag mein thi. Usne pehle delivery ki list sambhaali, phir Shreya ki taraf dekha—iss baar jawaab sochkar dena chahta tha.",
       "status": "PROPOSAL"
     },
     {
       "id": "H03",
       "part": "P05",
       "reason": "Retrospective should connect reactions without changing original encounters; Saturday Ankita and Shivani are same day.",
-      "existing": "Ankita ke confidence ke saamne woh apni zubaan kho baitha tha. Shivani ki sharmili muskaan aur phir invoice wala excuse use yaad tha. Shreya ke boutique mein hansi-mazaak ne tension turant halka kar diya. Tanya ke ghar mein toh chaar devaron ne uski ek pal ki chuppi bhi joke bana di.",
-      "suggestion": "Ankita ke ghar ki achanak chuppi usi shaam Shivani ke saamne uski baat karne ka andaaz badal gayi thi. Sunday ko Tanya ke ghar ki teasing yaad rahi, isliye Shreya ke boutique mein pehle woh sambhal kar bola. Koi bhi ghar ek jaisa nahi tha—aur uske jawaab bhi ab ek jaise nahi rahe the.",
+      "existing": "Ankita ke confidence ke saamne woh apni zubaan kho baitha tha. Shivani ki sharmili muskaan aur phir invoice wala excuse use yaad tha. Shreya ke boutique mein hansi-mazaak ne tension turant halka kar diya. Taniya ke ghar mein toh chaar devaron ne uski ek pal ki chuppi bhi joke bana di.",
+      "suggestion": "Ankita ke ghar ki achanak chuppi usi shaam Shivani ke saamne uski baat karne ka andaaz badal gayi thi. Sunday ko Taniya ke ghar ki teasing yaad rahi, isliye Shreya ke boutique mein pehle woh sambhal kar bola. Koi bhi ghar ek jaisa nahi tha—aur uske jawaab bhi ab ek jaise nahi rahe the.",
       "status": "PROPOSAL"
     },
     {
       "id": "H04",
       "part": "P06",
-      "reason": "Chirag's intercut is after Tanya's Tuesday 12:40 arrangement, before Ankita's Tuesday 4 PM task.",
+      "reason": "Chirag's intercut is after Taniya's Tuesday 12:40 arrangement, before Ankita's Tuesday 4 PM task.",
       "existing": "Ankita didi ka verification issue kal solve karna tha.",
       "suggestion": "Ankita didi ka verification issue aaj 4 baje solve karna tha.",
       "status": "PROPOSAL FACTUAL"
@@ -726,7 +726,7 @@
         "verdict": "PARTLY ACHIEVED; decisive progression too brief"
       },
       {
-        "scene": "Tanya",
+        "scene": "Taniya",
         "lines": "L93–177",
         "intended": "The most advanced planned emotional/interpersonal milestone in this draft, distinct from the other three women.",
         "observed": "Appearance described, brief look, image vote, banter, envelope handoff, Laksh interrupts. No significantly new relational consequence established.",
@@ -735,7 +735,7 @@
       {
         "scene": "Chotu",
         "lines": "L369–400",
-        "intended": "Specific effects carried from Shreya 09:25 to Tanya 14:00 to Ankita 16:03 to Shivani 18:58.",
+        "intended": "Specific effects carried from Shreya 09:25 to Taniya 14:00 to Ankita 16:03 to Shivani 18:58.",
         "observed": "Sunday and Tuesday visits are recalled, but Tuesday transition effects are chiefly retrospectively told rather than demonstrated in the immediately following scene.",
         "verdict": "WEAK; recap is not scene-to-scene carry-over"
       }
@@ -754,7 +754,7 @@
       "status": "READER CHOICE"
     },
     {
-      "part": "P04 Tanya",
+      "part": "P04 Taniya",
       "needed": "Confirm whether the existing Arjun arm-steadying remains alongside his carton rescue, or whether only the older plan's actor arrangement should stand.",
       "status": "READER CHOICE"
     }
@@ -782,9 +782,9 @@
         "evidence": "FWFS L314–338 and 385–409 — both encounters close with compliments/friendly comments and little observable changed dynamic."
       },
       {
-        "name": "Tanya",
+        "name": "Taniya",
         "rating": "NOT AT INTENDED HIGHEST LEVEL",
-        "evidence": "FWFS L234–288 and L425–494 — group jokes and logistics dominate; no new substantial Chotu-Tanya state change is shown."
+        "evidence": "FWFS L234–288 and L425–494 — group jokes and logistics dominate; no new substantial Chotu-Taniya state change is shown."
       },
       {
         "name": "Chotu",

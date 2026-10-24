@@ -20,13 +20,13 @@ Episode 01's **draft story has a closing scene in Part 7**. Original DHIKA E01 i
 - **Monday 4:10 PM:** Ankita invites Chirag for Tuesday 4 PM verification.
 - **Monday 6:35 PM:** Shivani invites Chirag for Tuesday 7 PM brochures.
 - **Tuesday 9:20 AM:** Shreya has already arranged boutique photographs; Chirag is present with receipt; Part 7 photography scene begins 9:25 AM.
-- **Tuesday 12:40 PM:** Tanya invites Chirag to pick up props and help assess photos at 2 PM; Part 7 begins 2 PM.
+- **Tuesday 12:40 PM:** Taniya invites Chirag to pick up props and help assess photos at 2 PM; Part 7 begins 2 PM.
 - **Tuesday 4:03 PM:** Ankita resolves verification.
 - **Tuesday 6:58 PM:** Shivani begins the document handoff and broken blouse-dori incident.
 - **Tuesday 9:22 PM:** Chirag closes the store; the four households' coda comes afterward.
 
 ## Confirmed editorial gap — Part 6 closing intercut
-Part 6 closes with a Chirag store intercut that knows about **Tanya's Tuesday 12:40 PM extra photo task**, but says **“Ankita didi ka verification issue kal solve karna tha”**. Since Ankita's appointment is Tuesday at 4 PM, this "kal" is wrong if that closing cut is Tuesday after Tanya's invitation. **Proposed fix (not applied):** explicitly set the closing Chirag intercut at *Tuesday approx 1:15 PM* and replace that single phrase with *“Ankita didi ka verification issue aaj 4 baje solve karna tha.”* The Part 6 manuscript has not been silently changed.
+Part 6 closes with a Chirag store intercut that knows about **Taniya's Tuesday 12:40 PM extra photo task**, but says **“Ankita didi ka verification issue kal solve karna tha”**. Since Ankita's appointment is Tuesday at 4 PM, this "kal" is wrong if that closing cut is Tuesday after Taniya's invitation. **Proposed fix (not applied):** explicitly set the closing Chirag intercut at *Tuesday approx 1:15 PM* and replace that single phrase with *“Ankita didi ka verification issue aaj 4 baje solve karna tha.”* The Part 6 manuscript has not been silently changed.
 
 ## Four independent story tracks, event → knowledge → hook
 ### Ankita
@@ -38,7 +38,7 @@ Part 5: brief view of upper back during delivery and displaced bra hook → foll
 ### Shreya
 Part 5: accidental side-waist view at boutique → genuine ribbon/singing compliment → Part 6 personal choice of wine-colour sample, two styling options → Part 7 photos, fashion feedback, meaningful personal compliment. Shreya retains photos on her own boutique phone; Chirag is not assumed to retain her images. Neel/Aarav guitar and music threads remain open. **Separate Part 3:** Harish's earlier garment intrusion unrelated to Chotu.
 
-### Tanya
+### Taniya
 Part 5: accidental view in wedding-prop scene → Part 5 continuation social interaction with four cousin-devars → Part 6 consciously plans rust-red saree and solo photo review → Part 7 picks a working photo and honest feedback; Laksh arrives and jokes about a fifth competitor. Four cousin-devars are **Vihaan, Arjun, Dhruv, Laksh**, all adults; no additional person inserted. **Separate Part 3:** Virendra's earlier garment misconduct unrelated to Chotu.
 
 ### Chirag / Chotu

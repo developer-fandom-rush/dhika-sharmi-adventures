@@ -17,32 +17,32 @@
 
 **Output instructions:** Produce the full prose for ONLY the assigned character's two Part 5 scenes, in Roman Hindi/Hinglish. Then append a short retained-vs-added ledger with exact scene references, and an output word-count by scene. Avoid outline-only output. Do not write Part 6 or Part 7.
 
-**Assignment: Tanya. Target prose word count: 2,000–2,350.**
+**Assignment: Taniya. Target prose word count: 2,000–2,350.**
 
 **Word allocation:** Sunday 12:50 PM — 1,100–1,250; Monday 11 AM — 900–1,100.
 
-## CHARACTER LOCK — TANYA
+## CHARACTER LOCK — TANIYA
 - Husband Dev, daughter Ira; confident, witty, skilled organiser. Part 2 fixed relationships: Vihaan, Arjun, Dhruv and Laksh are **four adult cousin-devars**. Their names and identities must not drift.
 - Part 4 Sunday storeroom (approx 11 AM) has just involved an actual hook/pallu incident, a tipping carton rescue and a final padded-backdrop slip. Preserve the selected actor roles and corrected Grok scene; do not randomly add injuries, contacts or a new person.
-- Sunday 12:50 PM Arora apartment: Tanya wears light-maroon saree and has pinned her pallu after storeroom work. Four devars are present handling wedding-game props. Chotu arrives with a cardboard carton and registration slips. She signs while leaning; draping temporarily changes; Chotu stops briefly. The four cousins notice teasing opportunities; none knows all other minds.
+- Sunday 12:50 PM Arora apartment: Taniya wears light-maroon saree and has pinned her pallu after storeroom work. Four devars are present handling wedding-game props. Chotu arrives with a cardboard carton and registration slips. She signs while leaning; draping temporarily changes; Chotu stops briefly. The four cousins notice teasing opportunities; none knows all other minds.
 - Her Part 3 garment clue from Virendra later is separate reader-only information. Chotu knows nothing about it and must not be connected to it.
 - Monday 11 AM clubhouse cleanup: four devars and Chotu; real task is moving/labeling cartons. The existing text acknowledges Sunday's storeroom slip, and Laksh jokes about his 'rescue rating'. Preserve these callbacks.
 
 ## EXACT TWO-SCENE EXECUTION
 **Scene A — Sunday 12:50 PM | 1,100–1,250 words**
 Entry: real exhaustion and aftermath from Sunday storeroom, independent leadership, distinct tones from each devar. Chotu arrives as delivery worker.
-Middle: precise task blocking at the signature/register. The existing brief moment of clothing awareness stays at its established scope. Group commentary must not hijack the central Tanya–Chotu social exchange. Create one clearly identifiable non-graphic milestone in Tanya's understanding of Chotu as a person—how she chooses to address him, what she notices, and what changes in his response—without assuming a new intimate incident or collapsing four cousin voices into a chorus.
-Exit: ordinary delivery resolution; Tanya has a new question or deliberate interpersonal choice that matters at Monday cleanup. Maintain firm boundaries between friendly banter, attraction, consent and what each person knows.
-**Review failure to repair:** The previous scene ends mostly in jokes and handoff; Tanya–Chotu has no substantial character progression.
+Middle: precise task blocking at the signature/register. The existing brief moment of clothing awareness stays at its established scope. Group commentary must not hijack the central Taniya–Chotu social exchange. Create one clearly identifiable non-graphic milestone in Taniya's understanding of Chotu as a person—how she chooses to address him, what she notices, and what changes in his response—without assuming a new intimate incident or collapsing four cousin voices into a chorus.
+Exit: ordinary delivery resolution; Taniya has a new question or deliberate interpersonal choice that matters at Monday cleanup. Maintain firm boundaries between friendly banter, attraction, consent and what each person knows.
+**Review failure to repair:** The previous scene ends mostly in jokes and handoff; Taniya–Chotu has no substantial character progression.
 
 **Scene B — Monday 11 AM | 900–1,100 words**
 Entry: clubhouse cleanup for the event, with remembered Sunday storeroom and delivery moments. Chotu is a returning, known participant.
-Middle: five distinct young men? **NO: four devars + Chotu = five adult men; only the four devars are family.** Make practical roles legible. Tanya's behaviour toward Chotu should now register Sunday in a subtle but unmistakable manner while still leading the group. Every new exchange must have a reason.
-Exit: a clearly different Tanya–Chotu understanding from Sunday, with a natural pending choice for later chapters, not just another group joke.
+Middle: five distinct young men? **NO: four devars + Chotu = five adult men; only the four devars are family.** Make practical roles legible. Taniya's behaviour toward Chotu should now register Sunday in a subtle but unmistakable manner while still leading the group. Every new exchange must have a reason.
+Exit: a clearly different Taniya–Chotu understanding from Sunday, with a natural pending choice for later chapters, not just another group joke.
 **Review failure to repair:** Monday currently restates the same social dynamics as Sunday.
 
-## TANYA ACCEPTANCE
+## TANIYA ACCEPTANCE
 - This is the strongest planned **character-development** movement among the four Part 5 tracks; that does not mandate the most physical contact or override consent.
 - No invented explicit familial interaction. If a substantial new event is necessary, flag **READER APPROVAL REQUIRED** instead of smuggling it in as prose.
-- Preserve Tanya's active voice, family and wedding responsibilities, distinct young-adult relationships and the Part 3 knowledge asymmetry.
+- Preserve Taniya's active voice, family and wedding responsibilities, distinct young-adult relationships and the Part 3 knowledge asymmetry.
 
