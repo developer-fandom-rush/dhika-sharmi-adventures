@@ -264,5 +264,20 @@
       "status": "needs_reader_direction",
       "proposed": "Fix subject in separate editorial revision only."
     }
-  ]
+  ],
+  "spoken": {
+    "shivani": [
+      "“Andar aao, Chotu. Papers table pe rakh do.”",
+      "“Chotu… ek kaam karoge?”",
+      "“Peeche dori loose ho gayi hai. Main reach nahi kar paa rahi. Agar tum comfortable ho… toh halka sa baandh doge?”",
+      "“Chotu—”",
+      "“Bas. Ho gaya.”"
+    ],
+    "chotu": [
+      "“Haan didi.”",
+      "“Haan.”",
+      "“Didi… sorry. Main… galat string… sorry.”",
+      "“Sorry didi—”"
+    ]
+  }
 }
