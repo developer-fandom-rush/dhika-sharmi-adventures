@@ -223,6 +223,18 @@
       "fixes": "Monday raat -> Monday shaam (Part6 at 4:10 PM); replace narrative 'Part 5' label with Saturday rocket incident; identify verification certificate/receipt photo, physical table/camera staging and legitimate retake; move spoken lines to explicit Ankita/Chotu dialogue channels; narrator/Ankita/Chotu perspectives separately readable",
       "quality": "39 chronological blocks; 6 unchanged spoken lines; original Grok transcript separately archived. Neither old Part 7A nor B replaced.",
       "next": "Reader can send Shivani's new Part 7 material; never restore old Part 7A/B Ankita stories."
+    },
+    {
+      "id": "P07SHIVANIGROKV1",
+      "title": "Part 7 — Shivani original Grok manuscript received",
+      "status": "SOURCE RECEIVED EXACT · UI READER PUBLISHED · CONTINUITY ISSUES UNRESOLVED · NOT FINAL CANON",
+      "source_original": "data/stories/e01_part7_shivani_grok_raw_received_20261024.md",
+      "source_structured": "data/stories/e01_part7_shivani_grok_reader_v1.json",
+      "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-shivani-received-v1",
+      "content": "Complete user-pasted prose kept verbatim in raw markdown; structured paragraph attribution, two separate speaker transcripts, source-only issue register, no edits to descriptions or outcome.",
+      "issues": "Monday's cream saree versus user-draft sea-green; Monday 6:35 PM versus Monday raat; Part5/6 labels in fictional narrator; snap of decorative dori contradicts secure primary fasteners; Grok scene completes ending previously deferred; 'Usne blouse pehna' ambiguous pronoun.",
+      "release": "Prose received, not reader-approved. Old main Part7A/B scenes for other characters remain source material; old Ankita alternatives discarded.",
+      "next": "Reader to decide if costume/fastening setup is retconned, whether to keep newly submitted completed ending, and whether to request continuity-only corrections."
     }
   ],
   "rules": [
@@ -543,6 +555,14 @@
       "status": "COMPLETE · UI AND SOURCE CLEANED",
       "issue": "Old full Part 7A/B reader pages and their embedded Ankita scenes competed with user-submitted selected Grok Revised V1, causing duplicate Ankita versions.",
       "fix": "Deleted old Ankita scene blocks from both mixed-character working Markdown sources while leaving every subsequent character scene unmodified. Removed both A/B story reader pages and all UI navigation to them; kept the single Grok Revised V1 Ankita story reader and optional instructions. Git history retains normal revision trace. Other characters' draft prose still needs separate editorial decisions."
+    },
+    {
+      "id": "C036",
+      "scope": "E01 Part 7 Shivani Grok text",
+      "type": "NEW AUTHOR SUBMISSION / RAW PRESERVATION / UI",
+      "status": "PUBLISHED AS RECEIVED · NOT CANON · ISSUES FLAGGED",
+      "issue": "New Shivani Grok manuscript supplied with explicit ending, but outfit and decorative dori support mechanics differ from established Part6. Previously agreed ending deferral is superseded within this candidate, not automatically approved.",
+      "fix": "Preserve exact submitted text and make a per-POV source reader in UI; expose explicit continuity issues as review notes without silently changing text or already agreed setup. Reader chooses outcome."
     }
   ],
   "chronology": [
