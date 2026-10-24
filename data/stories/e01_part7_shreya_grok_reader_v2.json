@@ -1,0 +1,272 @@
+{
+  "schema": "fwfs.story_reader.v1",
+  "title": "FWFS Episode 01 Part 7 Shreya — Grok V2 / continuity edited",
+  "timeline": "Tuesday 9:25 AM · Mehta Boutique",
+  "status": "DIRECTOR REVIEW PENDING · GRAPHICAL ADDITIONS NOT YET REVIEWED · NOT CANON",
+  "source": "data/stories/e01_part7_shreya_v2_continuity_edit_20261024.md",
+  "source_original": "data/stories/e01_part7_shreya_grok_v2_raw_received_20261024.md",
+  "editorial_policy": "User-supplied Grok V2 physical-description passages retained, no new explicit writing. Only non-graphic fixes made.",
+  "wordCount": {
+    "raw": 790,
+    "continuityEdit": 892,
+    "target": "1000–1100"
+  },
+  "edits": [
+    {
+      "type": "non-graphic continuity",
+      "reason": "Continue exactly from Part 6 exit without replay"
+    },
+    {
+      "type": "non-graphic continuity",
+      "reason": "Delivery stand and receipt setup"
+    },
+    {
+      "type": "non-graphic continuity",
+      "reason": "Don't repeat Part 6 invitation"
+    },
+    {
+      "type": "non-graphic continuity",
+      "reason": "Restore first formal placement before first image"
+    },
+    {
+      "type": "non-graphic continuity",
+      "reason": "Ground Sunday callbacks in Part 5 source"
+    },
+    {
+      "type": "non-graphic continuity",
+      "reason": "Clarify camera instruction"
+    },
+    {
+      "type": "non-graphic continuity",
+      "reason": "Explicit second photo click"
+    },
+    {
+      "type": "non-graphic continuity",
+      "reason": "Remove unclear stray word"
+    },
+    {
+      "type": "non-graphic continuity",
+      "reason": "Phone returned / photo chosen / device boundary"
+    },
+    {
+      "type": "non-graphic continuity",
+      "reason": "Correct receipt dialogue"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "FWFS-E01-P7-S-V2-001",
+      "channel": "narrator",
+      "text": "Boutique ki front window se subah ki light aa rahi thi. Assistant ne backdrop seedha kiya, phir reception ki taraf chali gayi — customer call."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-002",
+      "channel": "narrator",
+      "text": "Shreya shoot corner ke paas khadi thi. Wine-coloured saree, fitted blouse, V-shaped neckline. Mirror ke saamne chuni hui **second pallu placement** abhi bhi wahi thi. Tuesday 9:20 par woh changing-room se bahar aa chuki thi aur Chotu ko extra assignment bol chuki thi. Ab usi baat ko aage badhana tha."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-003",
+      "channel": "narrator",
+      "text": "Chotu counter pe khada tha. Chirag. Saal bhar se Mehta boutique ki deliveries karta tha. Familiar face, natural halki teasing. Aaj Tuesday, 9:25. Woh receipt aur backdrop stand ke kaam se aaya tha. Shreya didi ne shoot corner mein hi kaha tha ki usse photograph aur honest opinion bhi chahiye."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-004",
+      "channel": "shreya-dialogue",
+      "text": "“Chotu Babu, jo extra assignment bola tha, ab uska practical bhi ho jaaye?”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-005",
+      "channel": "narrator",
+      "text": "Woh muskuraaya. “Overtime milega, didi?”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-006",
+      "channel": "shreya-dialogue",
+      "text": "“Ek chocolate. Aur ek honest opinion. Galat diya toh photo dobara.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-007",
+      "channel": "narrator",
+      "text": "Usne apna phone uske haath mein diya, camera khola, floor pe chalk mark dikhaya."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-008",
+      "channel": "shreya-dialogue",
+      "text": "“Yahan se frame. Colour natural aana chahiye.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-009",
+      "channel": "shreya-pov",
+      "text": "Shreya ne comparison ke liye pallu ko pehli, **formal placement** mein wapas set kiya. Wine-coloured saree aur blouse wahi rahe; sirf drape badla. Usne clutch uthaya aur floor ke chalk mark par khadi hui."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-010",
+      "channel": "narrator",
+      "text": "**Pehli styling — formal.**\nKandhe seedhe, pallu neat, clutch haath mein. Professional. Chotu ne phone ke screen par white backdrop aur neutral lighting check ki, frame set kiya, click kiya. Screen par photo dekhi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-011",
+      "channel": "chotu-dialogue",
+      "text": "“Pehli ho gayi.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-012",
+      "channel": "shreya-pov",
+      "text": "Shreya ne nod kiya. “Ab second.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-013",
+      "channel": "shreya-pov",
+      "text": "Woh mirror ke paas gayi aur pallu ko subah ki chuni hui second placement mein wapas set kiya. Ravivaar ka upper-rack incident yaad aaya — kurti ka khisakna, uski nazar ka rukna. Usi shaam ribbon baandhne ke waqt Chotu ne uski singing ki bhi tareef ki thi. Aaj ka doosra look usne khud choose kiya tha taaki uska honest response jaan sake. Aarav aur Neel ke saath music aur easy energy thi; Chotu ke saath aaj uski apni alag curiosity ka sawaal tha."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-014",
+      "channel": "narrator",
+      "text": "Usne pallu side kiya. V-neck open ho gaya. Side drape se bare side-waist ki strip clear. Woh mark pe aayi, body thoda aage lean kiya."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-015",
+      "channel": "shreya-dialogue",
+      "text": "“Light yahan better hai. Frame yahin se lena.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-016",
+      "channel": "chotu-observable",
+      "text": "Camera uske haath mein tha, lekin Chotu ki nazar screen se hat kar seedha uspe aa gayi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-017",
+      "channel": "narrator",
+      "text": "V-neck ke andar **cream-colored upper breasts** ka soft hissa dikh raha tha — poora nahi, lagbhag upar ka ek-tihai curve, beech ki cleavage line, smooth skin. Lean se blouse tight hua. Uske breasts ne fabric ke andar heavy, soft neeche shift kiya; weight clear tha. Nipples ka halka outline ek second ke liye tight fabric pe aaya. Side-waist ki lambi line light mein thi — Part 5 wala zone, ab sustained."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-018",
+      "channel": "chotu-observable",
+      "text": "Chotu ka frame shake hua. Uske fingers phone pe tight. Saans short. Shorts mein pressure aa gaya. Woh pehle bhi is ghar aata tha, teasing karta tha, lekin aaj woh khud hold karke de rahi thi. Uski aankhen cleavage pe thin, phir side-waist pe, phir wapas."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-019",
+      "channel": "shreya-pov",
+      "text": "Shreya ne hold kiya.\nBees second.\nChalis.\nPachas se ek minute."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-020",
+      "channel": "shreya-pov",
+      "text": "Jaldi nahi hili. Pose camera ke liye tha; window uski nazar ke liye thi. Har saans pe uske breasts blouse ke andar halka sa uthte-girte. Nipples hard. Side-waist aware. Legs ke beech garmi fail rahi thi — pehle halki, phir clear tightness. Woh soch rahi thi: dekh raha hai. Design nahi. Mujhe. Aarav ke saamne aisa nahi feel hota tha. Neel ke saamne bhi nahi. Yeh raw tha."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-021",
+      "channel": "chotu-observable",
+      "text": "Chotu ne ek baar screen pe aane ki koshish ki, fail hua. Nazar wapas uske chest pe. Cream skin, soft round weight, cleavage ki deep line, side ki bare strip. Uske lips thode khule. Uska phone ek pal ke liye hila, phir usne screen par framing dekhi aur second photograph click kar di."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-022",
+      "channel": "shreya-pov",
+      "text": "Shreya ne dheere nazar uthayi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-023",
+      "channel": "narrator",
+      "text": "Phone ki screen ya mirror nahi — seedha uski aankhen."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-024",
+      "channel": "narrator",
+      "text": "Confirmation."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-025",
+      "channel": "chotu-observable",
+      "text": "Unki nazar mili. Ek full second. Do. Chotu wide-eyed, hungry, trapped. Shreya ne uske shorts ka tight shape bhi ek glance mein padh liya. Uske andar wave aayi — nipples dard laayak tight, beech mein soft wetness, lips thode se bite."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-026",
+      "channel": "narrator",
+      "text": "Usne pose todha. Seedhi hui. V-neck thoda settle hua; cream hissa fabric ke peeche gaya."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-027",
+      "channel": "shreya-dialogue",
+      "text": "“Photo aa gayi?”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-028",
+      "channel": "chotu-dialogue",
+      "text": "“Haan didi.” Awaaz toot i."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-029",
+      "channel": "narrator",
+      "text": "Woh paas aayi. Chotu ne uska phone wapas diya. Shreya ne gallery mein dono images compare ki — pehli formal placement, doosri pehle se chuni hui second placement. Usne **second photograph select** ki, collection folder mein save ki, aur pehli ko shortlist se hataya, delete nahi kiya. Dono photos sirf Shreya ke phone mein rahin; Chotu ne koi copy nahi rakhi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-030",
+      "channel": "shreya-dialogue",
+      "text": "“Honest opinion. Design… ya main?”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-031",
+      "channel": "narrator",
+      "text": "Chotu ne ek second liya. Familiar teasing ab nahi nikal rahi thi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-032",
+      "channel": "chotu-dialogue",
+      "text": "“Dono. Lekin… aap zyada.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-033",
+      "channel": "narrator",
+      "text": "Usne aage kuch nahi joda. Step back. Door ki taraf."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-034",
+      "channel": "chotu-dialogue",
+      "text": "“Receipt de di thi, didi. Ab main chalta hoon.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-035",
+      "channel": "shreya-dialogue",
+      "text": "“Bye, Chotu.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-036",
+      "channel": "chotu-dialogue",
+      "text": "“Bye.” Short. Door band."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-037",
+      "channel": "shreya-pov",
+      "text": "Shreya mark pe rahi. Phir changing-room. Door close. Peeth deewar se lagi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-038",
+      "channel": "shreya-pov",
+      "text": "V-neck ki yaad, cream curve, uski nazar, uske shorts — sab body mein tha. Nipples ab bhi hard. Beech mein tingle clear, spine se nahi neeche. Usne jaan-bujhkar hold kiya tha. Usne confirmation li thi. Jo reaction mili thi, usne uske body ne jawab diya tha."
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-039",
+      "channel": "shreya-pov",
+      "text": "Second photo uske phone mein selected thi.\nUske body mein unfinished heat thi."
+    }
+  ],
+  "dialogueSummary": {
+    "shreya": [
+      "“Chotu Babu, jo extra assignment bola tha, ab uska practical bhi ho jaaye?”",
+      "“Ek chocolate. Aur ek honest opinion. Galat diya toh photo dobara.”",
+      "“Yahan se frame. Colour natural aana chahiye.”",
+      "“Light yahan better hai. Frame yahin se lena.”",
+      "“Photo aa gayi?”",
+      "“Honest opinion. Design… ya main?”",
+      "“Bye, Chotu.”"
+    ],
+    "chotu": [
+      "“Pehli ho gayi.”",
+      "“Haan didi.” Awaaz toot i.",
+      "“Dono. Lekin… aap zyada.”",
+      "“Receipt de di thi, didi. Ab main chalta hoon.”",
+      "“Bye.” Short. Door band."
+    ]
+  },
+  "ui_note": "Original Grok V1 reader file and Grok V2 raw both remain available. This is a continuity-only V2 edit; no director approval or explicit-description QA claimed."
+}
