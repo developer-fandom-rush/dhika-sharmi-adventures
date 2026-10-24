@@ -166,9 +166,9 @@ Shreya ne type kiya: *Haan. Lekin is baar main galat note nahi bajaaungi.*
 
 ---
 
-### TANYA — TUESDAY, 2:03 PM · ARORA APARTMENT
+### TANIYA — TUESDAY, 2:03 PM · ARORA APARTMENT
 
-“Finally!” Tanya ne darwaaza kholte hi kaha. “Mister Honest Delivery Boy, tum teen minute late ho.”
+“Finally!” Taniya ne darwaaza kholte hi kaha. “Mister Honest Delivery Boy, tum teen minute late ho.”
 
 Chotu ne wristwatch dekhi. “Didi, do minute.”
 
@@ -178,7 +178,7 @@ Chotu ne wristwatch dekhi. “Didi, do minute.”
 
 “Bilkul nahi.”
 
-Tanya ne use andar bulaya. Table par props sheets ka bundle tha. Laptop par do photographs khuli hui thi. Rust-red cotton-silk saree ke drape ko usne khud style kiya tha; blouse ka fit aur neatly arranged pleats uski usual confident presentation jaisa tha.
+Taniya ne use andar bulaya. Table par props sheets ka bundle tha. Laptop par do photographs khuli hui thi. Rust-red cotton-silk saree ke drape ko usne khud style kiya tha; blouse ka fit aur neatly arranged pleats uski usual confident presentation jaisa tha.
 
 “Yeh sheets wahan rakh do,” usne kaha. “Aur ek judgement deni hai.”
 
@@ -186,7 +186,7 @@ Tanya ne use andar bulaya. Table par props sheets ka bundle tha. Laptop par do p
 
 “Nahi. Is baar fashion jury.”
 
-Usne screen uski taraf ghumayi. Pehli photograph front-facing thi: Tanya camera ki taraf seedha dekh rahi thi. Doosri side angle se li gayi thi; saree ki silhouette aur loose hair zyada prominent the.
+Usne screen uski taraf ghumayi. Pehli photograph front-facing thi: Taniya camera ki taraf seedha dekh rahi thi. Doosri side angle se li gayi thi; saree ki silhouette aur loose hair zyada prominent the.
 
 “Kaunsi choose karun?”
 
@@ -198,7 +198,7 @@ Chotu ne pehle photo A dekhi. Phir B. Phir dono ek saath.
 
 “Usmein aap naturally hans rahi ho. Pehle waali mein lag raha hai kisi ko daantne wali ho.”
 
-Tanya ne aankhein badi kar li. “Oh! Toh main daantti bahut hoon?”
+Taniya ne aankhein badi kar li. “Oh! Toh main daantti bahut hoon?”
 
 “Main aisa thodi keh raha tha!”
 
@@ -206,7 +206,7 @@ Tanya ne aankhein badi kar li. “Oh! Toh main daantti bahut hoon?”
 
 Chotu hasne laga. “Didi, aap hi toh honest opinion maang rahi thi.”
 
-Tanya ne second photo enlarge ki. “Achha, pose?”
+Taniya ne second photo enlarge ki. “Achha, pose?”
 
 “Achcha.”
 
@@ -218,7 +218,7 @@ Tanya ne second photo enlarge ki. “Achha, pose?”
 
 “Phir usi ko bula lo,” Chotu ne bol diya, aur turant chup ho gaya.
 
-Tanya pehle ek second ke liye surprised hui. Phir zor se hans padi.
+Taniya pehle ek second ke liye surprised hui. Phir zor se hans padi.
 
 “Wah! Ab jawab bhi dene lage?”
 
@@ -226,7 +226,7 @@ Tanya pehle ek second ke liye surprised hui. Phir zor se hans padi.
 
 “Sorry kyun? Best answer diya tumne!”
 
-Woh chair ke peeche se nikli aur laptop ka lid half-close kar diya. Chotu ne bundle uthaya. Tanya ne uski taraf dekha; woh phir nervous tha, lekin is baar usne pehle se zyada confidently baat ki thi.
+Woh chair ke peeche se nikli aur laptop ka lid half-close kar diya. Chotu ne bundle uthaya. Taniya ne uski taraf dekha; woh phir nervous tha, lekin is baar usne pehle se zyada confidently baat ki thi.
 
 “Chotu,” usne kaha, “tumko pata hai in chaaron devaron ki problem kya hai?”
 
@@ -240,7 +240,7 @@ Chotu ne aankhon mein aankhen daali. “Aap bhi sabko chhedti rehti ho.”
 
 Tabhi phone vibrate hua. Laksh ka message tha: *Bhabhi, Chotu interview pass hua kya?*
 
-Tanya ne phone Chotu ko nahi dikhaya. Bas screen lock kar diya.
+Taniya ne phone Chotu ko nahi dikhaya. Bas screen lock kar diya.
 
 “Kaun tha?” Chotu ne poochha.
 
@@ -252,13 +252,13 @@ Tanya ne phone Chotu ko nahi dikhaya. Bas screen lock kar diya.
 
 Dono hans diye.
 
-Chotu receipts sign karaake gaya toh Tanya ne screen par wahi second photo select kar li. Usne realize kiya ki woh uska opinion sirf tease karne ke liye nahi, genuinely jaanne ke liye bhi maang rahi thi.
+Chotu receipts sign karaake gaya toh Taniya ne screen par wahi second photo select kar li. Usne realize kiya ki woh uska opinion sirf tease karne ke liye nahi, genuinely jaanne ke liye bhi maang rahi thi.
 
 Laksh ko usne reply kiya: *Interview confidential hai. Result kal.*
 
 Dus second mein message aa gaya: *Matlab pass!*
 
-Tanya muskuraayi. “Tum log kabhi nahi sudhroge.”
+Taniya muskuraayi. “Tum log kabhi nahi sudhroge.”
 
 ---
 
@@ -280,7 +280,7 @@ Store ka shutter aadha gira hua tha. Bindu Maami ne cashbook band karke ghar jaa
 
 “Done.”
 
-“Tanya madam ke decor sheets?”
+“Taniya madam ke decor sheets?”
 
 “Woh bhi.”
 
@@ -296,7 +296,7 @@ Shivani didi ki dori tootne par uska pehla khayal bas yeh tha ki kahin uski waja
 
 Shreya didi ka boutique uske liye ab sirf delivery address nahi raha. Unki camera screen par outfit ke alawa ek confident creator bhi dikhti thi—jo apni art par serious thi, aur phir achanak bachchon ki tarah hans deti thi.
 
-Tanya didi ke saath sabse zyada mushkil tha predict karna ki agla sentence kya hoga. Lekin pehli baar usne bhi joke wapas kiya tha. Aur Tanya sach mein hansi thi.
+Taniya didi ke saath sabse zyada mushkil tha predict karna ki agla sentence kya hoga. Lekin pehli baar usne bhi joke wapas kiya tha. Aur Taniya sach mein hansi thi.
 
 Usne Maami ki taraf dekha. Woh dukaan ka last switch off kar rahi thi.
 
@@ -310,7 +310,7 @@ Usne Maami ki taraf dekha. Woh dukaan ka last switch off kar rahi thi.
 
 Chotu ne sir hila diya.
 
-Phone par Shivani ka reminder tha: *Sunday last date.* Ankita ne bhi documents ki photo bheji thi. Shreya ne selected campaign image forward ki thi: *Thanks, photographer.* Tanya ki ek missed call thi—shayad sheets ka receipt.
+Phone par Shivani ka reminder tha: *Sunday last date.* Ankita ne bhi documents ki photo bheji thi. Shreya ne selected campaign image forward ki thi: *Thanks, photographer.* Taniya ki ek missed call thi—shayad sheets ka receipt.
 
 Chotu ek-ek message dekhkar muskuraya. Uske andar attraction aur appreciation dono the. Lekin use ab samajh aane laga tha ki kisi ko pasand karna aur uske intentions ko jaan lena alag baat hai.
 
@@ -330,7 +330,7 @@ Sinha apartment mein Shivani ne broken decorative dori ek envelope mein rakhi, t
 
 Mehta home mein Shreya ne campaign ke liye second photograph approve ki aur Sunday ke guitar lesson ko calendar mein mark kar diya.
 
-Arora home mein Tanya ne Laksh ka latest joke ignore karte hue album ke liye selected pictures final kar di.
+Arora home mein Taniya ne Laksh ka latest joke ignore karte hue album ke liye selected pictures final kar di.
 
 Chaar homes. Chaar ordinary evenings. Ek delivery boy, jo kal bhi unke darwaaze par aayega.
 

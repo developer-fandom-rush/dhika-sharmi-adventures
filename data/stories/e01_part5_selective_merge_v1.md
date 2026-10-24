@@ -2,7 +2,7 @@
 
 **Status:** READER-REVIEW MERGED DRAFT, not canon-locked. Original nine-scene Part 5 is unchanged.
 
-**Provenance:** Original `data/stories/e01_part5_complete_working_draft.md`; Grok original text from Google Doc https://docs.google.com/document/d/1Tp7LG9m6Ba7vj-MRaJJvpkgIbWBV9oH81dL5rOjbHHo/edit (Ankita, Tanya and Shreya). Shivani's original two scenes unchanged. Chotu's old Sunday-night closing retained.
+**Provenance:** Original `data/stories/e01_part5_complete_working_draft.md`; Grok original text from Google Doc https://docs.google.com/document/d/1Tp7LG9m6Ba7vj-MRaJJvpkgIbWBV9oH81dL5rOjbHHo/edit (Ankita, Taniya and Shreya). Shivani's original two scenes unchanged. Chotu's old Sunday-night closing retained.
 
 **Method:** Existing paragraphs or direct excerpts selected, no new encounters. Tiny corrections of clothing wording (Ankita top; Shreya kurti) and Shreya's timing / return transition noted in merge. Yellow highlight markers flag turning points already written.
 
@@ -246,13 +246,13 @@
 
 ---
 
-## Scene 5 of 9 — TANYA — Sunday, 12:50 PM · Arora Apartment
+## Scene 5 of 9 — TANIYA — Sunday, 12:50 PM · Arora Apartment
 
-**FWFS-E01-P5-M-L112** Storeroom mein subah teen mishaps hone ke baad Tanya ne khud ko finally sofa par bithaya. Maroon saree ka pallu usne phir se pin kiya tha; nape par paseene ki halki nami thi. Vihaan, Arjun, Dhruv aur Laksh abhi bhi wahi the. Chaaron ne use ghar tak chhod diya tha aur ab remaining game-props checklist verify kar rahe the.
+**FWFS-E01-P5-M-L112** Storeroom mein subah teen mishaps hone ke baad Taniya ne khud ko finally sofa par bithaya. Maroon saree ka pallu usne phir se pin kiya tha; nape par paseene ki halki nami thi. Vihaan, Arjun, Dhruv aur Laksh abhi bhi wahi the. Chaaron ne use ghar tak chhod diya tha aur ab remaining game-props checklist verify kar rahe the.
 
 **FWFS-E01-P5-M-L113** “Bhabhi, aaj ka game ‘Survive the Storeroom’ rakhein?” Laksh ne poochha.
 
-**FWFS-E01-P5-M-L114** “Tumhare liye ‘Keep Quiet for Five Minutes’ zyada challenging hoga,” Tanya ne jawab diya.
+**FWFS-E01-P5-M-L114** “Tumhare liye ‘Keep Quiet for Five Minutes’ zyada challenging hoga,” Taniya ne jawab diya.
 
 **FWFS-E01-P5-M-L115** Arjun ne paani ka glass diya. “Seriously, bhabhi. Aaj aapne jitna kaam kiya, kisi ko bhi thakaan ho jaaye. Phir bhi maroon saree mein full event-ready lag rahi ho.”
 
@@ -260,7 +260,7 @@
 
 **FWFS-E01-P5-M-L117** Vihaan ne doorbell suni. Chotu cardboard carton aur registration slips lekar khada tha.
 
-**FWFS-E01-P5-M-L118** “Arey, Chotu!” Tanya ne kaha. “Perfect timing. Tumhari delivery hi reh gayi thi.”
+**FWFS-E01-P5-M-L118** “Arey, Chotu!” Taniya ne kaha. “Perfect timing. Tumhari delivery hi reh gayi thi.”
 
 **FWFS-E01-P5-M-L119** “Bhabhi, mujhe sab log Chotu Babu bulate hain. Aap sirf Chotu kyon?”
 
@@ -270,7 +270,7 @@
 
 **FWFS-E01-P5-M-L122** “Bilkul nahi. Tum chaar kaafi ho.”
 
-**FWFS-E01-P5-M-L123** Chotu ne carton neeche rakha. Tanya usi box par rakhe delivery register mein sign karne jhuki.
+**FWFS-E01-P5-M-L123** Chotu ne carton neeche rakha. Taniya usi box par rakhe delivery register mein sign karne jhuki.
 
 **FWFS-E01-P5-M-L124** Saree ka pallu side ko khisak gaya. Fitted blouse upar ki taraf thoda khinch gaya.
 
@@ -282,7 +282,7 @@
 
 **FWFS-E01-P5-M-L128** 🟨 Woh familiar delivery boy ab ordinary nahi dikh raha tha. Uske eyes uske navel pe the, phir side-waist pe, phir thoda upar. Uske haath mein pen thoda tight ho gaya. Saans uski short si padi.
 
-**FWFS-E01-P5-M-L129** 🟨 Tanya ne signature karte-karte uski nazar pakdi.
+**FWFS-E01-P5-M-L129** 🟨 Taniya ne signature karte-karte uski nazar pakdi.
 
 **FWFS-E01-P5-M-L130** Uske andar do cheezein ek saath huiin.
 
@@ -300,17 +300,17 @@
 
 **FWFS-E01-P5-M-L137** Arjun hansa. “Bhabhi ke saamne sabka viva ho raha hai.”
 
-**FWFS-E01-P5-M-L138** 🟨 Tanya ne aankhen badi ki. “Ek aur word bola na, toh saare cartons tum chaaron uthaaoge. Chotu ko main chai pilaungi.”
+**FWFS-E01-P5-M-L138** 🟨 Taniya ne aankhen badi ki. “Ek aur word bola na, toh saare cartons tum chaaron uthaaoge. Chotu ko main chai pilaungi.”
 
 **FWFS-E01-P5-M-L139** “Dekha!” Laksh ne kaha. “Usko chai aur humein duty!”
 
-**FWFS-E01-P5-M-L140** “Aur tumhe extra duty,” Tanya ne bina ruke jawab diya.
+**FWFS-E01-P5-M-L140** “Aur tumhe extra duty,” Taniya ne bina ruke jawab diya.
 
-**FWFS-E01-P5-M-L141** Sab hans diye. Vihaan ne quietly carton uthaya aur doorway clear kar diya. Usne apne saathiyon ki nazron ka direction notice kiya tha, magar Tanya ke saamne koi alag comment nahi kiya. Arjun ke liye uska confidence hi sabse appealing raha; Dhruv ne uski thakaan aur recovery observe ki; Laksh ko usse ek aur hansi nikaal lena jeet laga.
+**FWFS-E01-P5-M-L141** Sab hans diye. Vihaan ne quietly carton uthaya aur doorway clear kar diya. Usne apne saathiyon ki nazron ka direction notice kiya tha, magar Taniya ke saamne koi alag comment nahi kiya. Arjun ke liye uska confidence hi sabse appealing raha; Dhruv ne uski thakaan aur recovery observe ki; Laksh ko usse ek aur hansi nikaal lena jeet laga.
 
 **FWFS-E01-P5-M-L142** Chotu ne payment complete kiya. Nikalte waqt uski nazar ek baar phir uske face pe gayi — short — phir door band ho gaya.
 
-**FWFS-E01-P5-M-L143** Tanya clipboard ke paas khadi rahi.
+**FWFS-E01-P5-M-L143** Taniya clipboard ke paas khadi rahi.
 
 **FWFS-E01-P5-M-L144** Uske navel ke around ab bhi us nazar ka residual feel tha.
 
@@ -320,15 +320,15 @@
 
 **FWFS-E01-P5-M-L147** 🟨 Woh ek aadmi tha jiski nazar uske body pe ruki thi — aur uske body ne bhi jawab diya tha.
 
-**FWFS-E01-P5-M-L148** 🟨 Baad mein washroom shelf par **ek personal garment ulte fold mein** rakha dikha. Tanya ne use seedha kiya.
+**FWFS-E01-P5-M-L148** 🟨 Baad mein washroom shelf par **ek personal garment ulte fold mein** rakha dikha. Taniya ne use seedha kiya.
 
 **FWFS-E01-P5-M-L149** “Ye kisne is tarah fold kiya?” woh halki awaaz mein boli, phir socha shayad ghar ke kaam mein kapde ulat gaye honge.
 
-**FWFS-E01-P5-M-L150** Reader ko Part 3 se pata tha ki **Virendra** ne pehle us item ko bina permission chhua aur jaldi mein alag tarah fold karke rakh diya tha. Tanya ko iska koi andaaza nahi tha.
+**FWFS-E01-P5-M-L150** Reader ko Part 3 se pata tha ki **Virendra** ne pehle us item ko bina permission chhua aur jaldi mein alag tarah fold karke rakh diya tha. Taniya ko iska koi andaaza nahi tha.
 
 **FWFS-E01-P5-M-L151** Living room se Laksh ki awaaz aayi: “Bhabhi, next game ki rehearsal cancel?”
 
-**FWFS-E01-P5-M-L152** Tanya ne muskurakar jawab diya, “Rehearsal cancel nahi. Bas tumhari comedy par fine lagega!”
+**FWFS-E01-P5-M-L152** Taniya ne muskurakar jawab diya, “Rehearsal cancel nahi. Bas tumhari comedy par fine lagega!”
 
 ---
 
@@ -360,7 +360,7 @@
 
 **FWFS-E01-P5-M-L165** 🟨 Chotu ne roll upar karne ke liye nazar uthayi. Ek pal ko uska haath ruka, phir usne roll theek jagah par diya.
 
-**FWFS-E01-P5-M-L166** 🟨 Uske pehle Ankita ki neckline, Shivani ka upper back, Tanya ka navel — sab dekh chuka tha. Phir bhi is baar freeze hua. Alag angle tha. Side-waist ki line, under-bust ki soft curve, uski saans ka halka sa rise.
+**FWFS-E01-P5-M-L166** 🟨 Uske pehle Ankita ki neckline, Shivani ka upper back, Taniya ka navel — sab dekh chuka tha. Phir bhi is baar freeze hua. Alag angle tha. Side-waist ki line, under-bust ki soft curve, uski saans ka halka sa rise.
 
 **FWFS-E01-P5-M-L167** “Chotu? Roll pakde raho,” Shreya ne kaha.
 
@@ -496,7 +496,7 @@
 
 **FWFS-E01-P5-M-L229** Raat ko convenience store bandh karte waqt Chotu ne receipts sort ki. Bansal, Sinha, Mehta aur Arora—chaar alag ghar, chaar familiar women, aur do din mein kuch aise awkward pauses jo uske liye naye the.
 
-**FWFS-E01-P5-M-L230** Ankita ke confidence ke saamne woh apni zubaan kho baitha tha. Shivani ki sharmili muskaan aur phir invoice wala excuse use yaad tha. Shreya ke boutique mein hansi-mazaak ne tension turant halka kar diya. Tanya ke ghar mein toh chaar devaron ne uski ek pal ki chuppi bhi joke bana di.
+**FWFS-E01-P5-M-L230** Ankita ke confidence ke saamne woh apni zubaan kho baitha tha. Shivani ki sharmili muskaan aur phir invoice wala excuse use yaad tha. Shreya ke boutique mein hansi-mazaak ne tension turant halka kar diya. Taniya ke ghar mein toh chaar devaron ne uski ek pal ki chuppi bhi joke bana di.
 
 **FWFS-E01-P5-M-L231** Chotu ne receipts band kar di. Usse kisi ghar ke **missing ya displaced private garments** ke baare mein kuch nahi pata tha. Woh sirf apni deliveries jaanta tha; chaaron auraton ke alag andarooni sawaal nahi.
 
@@ -504,13 +504,13 @@
 
 ---
 
-## Scene 9 of 9 — Tanya — Monday, 11:00 AM · Clubhouse Cleanup
+## Scene 9 of 9 — Taniya — Monday, 11:00 AM · Clubhouse Cleanup
 
 **FWFS-E01-P5-M-L233** *Monday · 11 AM · Clubhouse Cleanup*
 
 **FWFS-E01-P5-M-L234** Wedding event khatam ho chuka tha, lekin clubhouse mein abhi bhi samaan ke boxes rakhe the.
 
-**FWFS-E01-P5-M-L235** Tanya ne clipboard uthaya.
+**FWFS-E01-P5-M-L235** Taniya ne clipboard uthaya.
 
 **FWFS-E01-P5-M-L236** “Vihaan, Arjun, Dhruv, Laksh! Tum chaaron kal wedding games ke heroes the. Aaj cleanup se bhaag kyun rahe ho?”
 
@@ -524,15 +524,15 @@
 
 **FWFS-E01-P5-M-L241** Tabhi Chotu khaali cartons lene aaya.
 
-**FWFS-E01-P5-M-L242** “Good morning, Tanya didi.”
+**FWFS-E01-P5-M-L242** “Good morning, Taniya didi.”
 
 **FWFS-E01-P5-M-L243** “Arey Chotu! Tum aa gaye. At least ek responsible ladka toh hai yahan.”
 
 **FWFS-E01-P5-M-L244** Arjun ne turant kaha, “Bhabhi, hum chaaron ki insult ho rahi hai!”
 
-**FWFS-E01-P5-M-L245** Tanya hansi. “Insult nahi, performance evaluation.”
+**FWFS-E01-P5-M-L245** Taniya hansi. “Insult nahi, performance evaluation.”
 
-**FWFS-E01-P5-M-L246** Chotu ne bade cartons uthaane shuru kiye. Tanya ek table ke paas khadi hokar use labels bata rahi thi.
+**FWFS-E01-P5-M-L246** Chotu ne bade cartons uthaane shuru kiye. Taniya ek table ke paas khadi hokar use labels bata rahi thi.
 
 **FWFS-E01-P5-M-L247** Kal ki storeroom ghatna ke baad woh saavdhaani se chal rahi thi. Laksh ne bhi yaad dilaya:
 
@@ -544,11 +544,11 @@
 
 **FWFS-E01-P5-M-L251** Chotu kuch der chupchaap kaam karta raha.
 
-**FWFS-E01-P5-M-L252** 🟨 Tanya ne poochha, “Kya hua? Tum bhi inke jokes se darr gaye?”
+**FWFS-E01-P5-M-L252** 🟨 Taniya ne poochha, “Kya hua? Tum bhi inke jokes se darr gaye?”
 
 **FWFS-E01-P5-M-L253** 🟨 “Nahi didi. Bas aap kal se itna kaam kar rahi ho. Thakti nahi?”
 
-**FWFS-E01-P5-M-L254** Tanya ek pal ko ruki.
+**FWFS-E01-P5-M-L254** Taniya ek pal ko ruki.
 
 **FWFS-E01-P5-M-L255** “Thakti hoon, Chotu. Bas in chaaron ke saamne admit nahi karti.”
 
@@ -560,7 +560,7 @@
 
 **FWFS-E01-P5-M-L259** Laksh turant bola, “Nahi bhai, phir favourite bhabhi ka favourite devar competition badh jayega.”
 
-**FWFS-E01-P5-M-L260** Tanya ne clipboard band kar diya.
+**FWFS-E01-P5-M-L260** Taniya ne clipboard band kar diya.
 
 **FWFS-E01-P5-M-L261** “Bas! Ab jo sabse pehle boxes finish karega, usko chai milegi.”
 
@@ -568,25 +568,25 @@
 
 **FWFS-E01-P5-M-L263** “Dekhenge!”
 
-**FWFS-E01-P5-M-L264** 🟨 Chotu ek carton uthane ke liye jhuka. Tanya usi line mein labels chipka rahi thi. Jab woh thoda aage badhi, unka distance kam ho gaya. Uske blouse ka side uske arm ke near se guzra. Touch nahi hua. Bas nearness.
+**FWFS-E01-P5-M-L264** 🟨 Chotu ek carton uthane ke liye jhuka. Taniya usi line mein labels chipka rahi thi. Jab woh thoda aage badhi, unka distance kam ho gaya. Uske blouse ka side uske arm ke near se guzra. Touch nahi hua. Bas nearness.
 
-**FWFS-E01-P5-M-L265** 🟨 Chotu ne thoda sa step back liya. Tanya ne notice kiya.
+**FWFS-E01-P5-M-L265** 🟨 Chotu ne thoda sa step back liya. Taniya ne notice kiya.
 
 **FWFS-E01-P5-M-L266** Kal wala moment dono ke beech ab bhi tha.
 
-**FWFS-E01-P5-M-L267** Kaam ke beech mein Tanya ne usse clipboard diya. “Yahan count likh do.”
+**FWFS-E01-P5-M-L267** Kaam ke beech mein Taniya ne usse clipboard diya. “Yahan count likh do.”
 
-**FWFS-E01-P5-M-L268** 🟨 Uske haath ne clipboard pakda. Unki ungliyan ek second ke liye close aayi. Chotu ne eyes upar uthaye. Tanya bhi usse dekh rahi thi.
+**FWFS-E01-P5-M-L268** 🟨 Uske haath ne clipboard pakda. Unki ungliyan ek second ke liye close aayi. Chotu ne eyes upar uthaye. Taniya bhi usse dekh rahi thi.
 
 **FWFS-E01-P5-M-L269** Koi extra word nahi hua.
 
 **FWFS-E01-P5-M-L270** 🟨 Bas ek chhota sa, clear register — kal usne uska navel dekha tha, aur aaj dono us baat ko jaante the bina bole.
 
-**FWFS-E01-P5-M-L271** 🟨 Tanya ne pallu set kiya. Uske andar kal wala residual warmth phir se uth gaya. Bahut halka. Control mein. Lekin present.
+**FWFS-E01-P5-M-L271** 🟨 Taniya ne pallu set kiya. Uske andar kal wala residual warmth phir se uth gaya. Bahut halka. Control mein. Lekin present.
 
 **FWFS-E01-P5-M-L272** Chotu ne count likh diya aur doosre carton ki taraf chala gaya. Uske shoulders thode set the.
 
-**FWFS-E01-P5-M-L273** Tanya ne uske peeche dekha.
+**FWFS-E01-P5-M-L273** Taniya ne uske peeche dekha.
 
 **FWFS-E01-P5-M-L274** Part 4 ka fall ab bhi body mein tha.
 

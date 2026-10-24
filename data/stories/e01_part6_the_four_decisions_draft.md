@@ -112,21 +112,21 @@ Shreya ne khud ko ek second diya. Phir familiar awaaz mein boli, “Chotu Babu, 
 
 ---
 
-### TANYA — TUESDAY, 12:40 PM · ARORA APARTMENT
+### TANIYA — TUESDAY, 12:40 PM · ARORA APARTMENT
 
-Tanya ne wedding-game photos ki memory card laptop mein lagayi. Har dusri photo mein kisi na kisi ka face funny tha. Ek photo mein Laksh ka haath hawaa mein tha aur Arjun aankhein band karke speech de raha tha.
+Taniya ne wedding-game photos ki memory card laptop mein lagayi. Har dusri photo mein kisi na kisi ka face funny tha. Ek photo mein Laksh ka haath hawaa mein tha aur Arjun aankhein band karke speech de raha tha.
 
-“Four intelligent devars,” Tanya ne badbadaaya. “One decent photograph nahi.”
+“Four intelligent devars,” Taniya ne badbadaaya. “One decent photograph nahi.”
 
-Dev office gaya tha. Ira ne subah call karke poochha tha ki final albums kab milenge. Tanya ne vaada kiya tha ki shaam tak shortlist bhej degi.
+Dev office gaya tha. Ira ne subah call karke poochha tha ki final albums kab milenge. Taniya ne vaada kiya tha ki shaam tak shortlist bhej degi.
 
 Chotu ka message aaya: *Didi, remaining decor sheets lene 2 baje aa jaaun?*
 
-*Aa jao,* Tanya ne reply kiya. *Aur camera phone charge karke lana. Ek kaam bhi hai.*
+*Aa jao,* Taniya ne reply kiya. *Aur camera phone charge karke lana. Ek kaam bhi hai.*
 
 Woh wardrobe ke saamne aayi. Sunday ki maroon saree laundry ko bhej di thi. Aaj usne rust-red cotton-silk saree chuni, jiska blouse structured fit ka tha. Pallu ko front se pin karne ke bajay, usne side mein softly drape kiya. Mirror mein uski waist ka curve aur saree ke neatly gathered pleats visible the. Side angle se fabric uske hips ka silhouette follow kar raha tha.
 
-Tanya ne khud ko dekhkar muskuraya. “Theek hai, madam. Marketing ka first rule: presentation.”
+Taniya ne khud ko dekhkar muskuraya. “Theek hai, madam. Marketing ka first rule: presentation.”
 
 Usko Chotu ka Sunday wala nervous glance yaad aaya. Phir Monday clubhouse mein Laksh ka joke—*fifth devar competition*. Us waqt usne usse sirf hasi mein uda diya tha. Aaj pata nahi kyun, woh dono moments uske saath chale aaye.
 
@@ -148,13 +148,13 @@ Ira ka phone aaya.
 
 Ira hansi. “Toh Arjun ko bhi bula doon? Competition ho jayega.”
 
-“Nahi,” Tanya ne turant kaha. “Is baar mujhe seedha jawab chahiye, commentary nahi.”
+“Nahi,” Taniya ne turant kaha. “Is baar mujhe seedha jawab chahiye, commentary nahi.”
 
 Phone rakhkar woh ek pal ke liye chup hui. Usne Chotu ke saath akele photo opinion lene ka plan khud banaya tha. Is baat ne use thoda surprise kiya.
 
-**READER-ONLY — TANYA:** Usne outfits aur photographs khud select kiye. Woh apne look ke baare mein Chotu ka honest response chahti thi—aur shayad uski famous teasing ko kisi naye insaan par aazmaana bhi. Lekin reaction ka control uske haath mein nahi tha.
+**READER-ONLY — TANIYA:** Usne outfits aur photographs khud select kiye. Woh apne look ke baare mein Chotu ka honest response chahti thi—aur shayad uski famous teasing ko kisi naye insaan par aazmaana bhi. Lekin reaction ka control uske haath mein nahi tha.
 
-Doorbell abhi nahi baji thi. Tanya ne laptop par do photographs side by side khol di.
+Doorbell abhi nahi baji thi. Taniya ne laptop par do photographs side by side khol di.
 
 *“Aao Chotu Babu. Dekhte hain tum kitne honest ho.”*
 
@@ -164,9 +164,9 @@ Doorbell abhi nahi baji thi. Tanya ne laptop par do photographs side by side kho
 
 Society store mein Chirag ne delivery screen kholi. Chaar addresses alag time slots mein the; uske liye ab bhi yeh kaam tha, koi secret itinerary nahi.
 
-Ankita didi ka verification issue aaj 4 baje solve karna tha. Shivani didi ke printed brochures file mein the. Shreya didi ki boutique receipt sambhaalni thi. Tanya didi ne photographs ka kuch extra kaam diya tha.
+Ankita didi ka verification issue aaj 4 baje solve karna tha. Shivani didi ke printed brochures file mein the. Shreya didi ki boutique receipt sambhaalni thi. Taniya didi ne photographs ka kuch extra kaam diya tha.
 
-Use chaaron pasand thi, lekin pasand ka matlab bhi chaaron ke saath alag tha. Ankita ki quick intelligence use impress karti. Shivani ki softness aur discipline, Shreya ki creative confidence, Tanya ki shararat—sab yaad rehta.
+Use chaaron pasand thi, lekin pasand ka matlab bhi chaaron ke saath alag tha. Ankita ki quick intelligence use impress karti. Shivani ki softness aur discipline, Shreya ki creative confidence, Taniya ki shararat—sab yaad rehta.
 
 Usne screen lock ki.
 

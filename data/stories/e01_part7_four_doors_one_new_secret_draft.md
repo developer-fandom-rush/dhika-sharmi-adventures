@@ -87,26 +87,26 @@ Chotu ne haan mein sir hilaaya. Door band hua toh Shreya ne apni selected photog
 
 ---
 
-### 2. TANYA — THE HONEST JUDGE
+### 2. TANIYA — THE HONEST JUDGE
 *Tuesday · 2:00 PM · Arora Apartment*
 
-Tanya ne dining table par teen cheezein rakhi thin: remaining decorative sheets ka bundle, wedding album ka laptop aur paani ka glass. Aaj usne kisi devar ko nahi bulaya tha. Ek ghante ke liye na Vihaan ka over-serious concern chahiye tha, na Arjun ki speech, na Dhruv ki careful silence, na Laksh ka running commentary.
+Taniya ne dining table par teen cheezein rakhi thin: remaining decorative sheets ka bundle, wedding album ka laptop aur paani ka glass. Aaj usne kisi devar ko nahi bulaya tha. Ek ghante ke liye na Vihaan ka over-serious concern chahiye tha, na Arjun ki speech, na Dhruv ki careful silence, na Laksh ka running commentary.
 
 Doorbell baji.
 
-“Entry permitted,” Tanya ne darwaaza kholte hue kaha, “lekin judge ko sach bolna padega.”
+“Entry permitted,” Taniya ne darwaaza kholte hue kaha, “lekin judge ko sach bolna padega.”
 
 Chotu ne bundle uthakar dikhaya. “Judge? Main toh delivery lene aaya tha.”
 
 “Promotion mil gaya.”
 
-Rust-red cotton-silk saree mein Tanya usual wedding-prep maroon se alag lag rahi thi. Blouse ka fit chest ki clothed outline ko define karta tha; side par rakhe pallu aur pleats ke beech navel ke aaspaas stomach ka chhota sa hissa visible tha. Walk karte waqt saree hips aur clothed backside ke around ek saaf silhouette banati thi. Chotu ne ek pal us look ko notice kiya, phir respectfully bundle table par rakha.
+Rust-red cotton-silk saree mein Taniya usual wedding-prep maroon se alag lag rahi thi. Blouse ka fit chest ki clothed outline ko define karta tha; side par rakhe pallu aur pleats ke beech navel ke aaspaas stomach ka chhota sa hissa visible tha. Walk karte waqt saree hips aur clothed backside ke around ek saaf silhouette banati thi. Chotu ne ek pal us look ko notice kiya, phir respectfully bundle table par rakha.
 
-Tanya ne uski aankhon ki chhoti si movement pakad li, par turant uspar comment nahi kiya.
+Taniya ne uski aankhon ki chhoti si movement pakad li, par turant uspar comment nahi kiya.
 
 “Sit. Do photos compare karni hain.”
 
-Laptop par pehli image khuli: Tanya front-facing, game cards haath mein, laughter ke beech. Doosri image mein woh side se standing microphone adjust kar rahi thi; saree ki waistline, drape aur posture zyada prominent the.
+Laptop par pehli image khuli: Taniya front-facing, game cards haath mein, laughter ke beech. Doosri image mein woh side se standing microphone adjust kar rahi thi; saree ki waistline, drape aur posture zyada prominent the.
 
 “Now choose. No diplomacy.”
 
@@ -116,23 +116,23 @@ Chotu ne pehli dekhi. “Ismein smile natural hai.”
 
 “Ismein aap confident lag rahi ho. Jaise aap hi poora event chala rahi thi.”
 
-“Which, by the way, is true,” Tanya ne seedha jawaab diya.
+“Which, by the way, is true,” Taniya ne seedha jawaab diya.
 
 “Dono sahi hain.”
 
 “Wrong answer. One photo.”
 
-Chotu sochne laga. Tanya ne chin par haath rakha aur bilkul interviewer ki tarah uske saamne baith gayi.
+Chotu sochne laga. Taniya ne chin par haath rakha aur bilkul interviewer ki tarah uske saamne baith gayi.
 
 “Mere chaar devar do minute mein meri tareef karke bhaag jaate. Tum itna analysis kyun karte ho?”
 
 “Kyuki aap phir poochhogi—*kyun?*”
 
-Tanya zor se hansi. “Smart.”
+Taniya zor se hansi. “Smart.”
 
 Chotu ne cursor doosri image par rakha. “Ye. Ismein aap photo ke liye khadi nahi ho. Aap kuch kar rahi ho. Achcha lagta hai.”
 
-Tanya ka haath trackpad par ruk gaya.
+Taniya ka haath trackpad par ruk gaya.
 
 Use teasing ki ummeed thi. Shayad kisi nervous compliment ki bhi. Lekin Chotu ne us cheez ko choose kiya tha jisse woh khud sabse zyada identify karti thi—kaam karte waqt ka confidence.
 
@@ -144,9 +144,9 @@ Use teasing ki ummeed thi. Shayad kisi nervous compliment ki bhi. Lekin Chotu ne
 
 “Dono ho sakta hai.”
 
-Tanya ne use fake glare diya. Phir woh uthi aur shelf se ek print envelope nikaalne lagi. Saree ka pallu thoda adjust karte hue usne side profile mein wall mirror dekha. Use apni appearance ko lekar aaj ki consciously ki gayi preparation yaad thi. Chotu ki nazar phir uski taraf aayi, lekin ab woh sirf uski taraf dekhne ke liye nahi, balki envelope pakadne ke liye khada tha.
+Taniya ne use fake glare diya. Phir woh uthi aur shelf se ek print envelope nikaalne lagi. Saree ka pallu thoda adjust karte hue usne side profile mein wall mirror dekha. Use apni appearance ko lekar aaj ki consciously ki gayi preparation yaad thi. Chotu ki nazar phir uski taraf aayi, lekin ab woh sirf uski taraf dekhne ke liye nahi, balki envelope pakadne ke liye khada tha.
 
-“Tanya didi, main help kar doon?”
+“Taniya didi, main help kar doon?”
 
 “Arre, mujhe sab aata hai.”
 
@@ -154,27 +154,27 @@ Tanya ne use fake glare diya. Phir woh uthi aur shelf se ek print envelope nikaa
 
 Woh ek saath hans pade.
 
-“Chotu,” Tanya ne envelope dete hue kaha, “tum in chaaron se alag ho.”
+“Chotu,” Taniya ne envelope dete hue kaha, “tum in chaaron se alag ho.”
 
 “Achcha alag ya bura alag?”
 
 “Abhi judge ka result confidential hai.”
 
-Chotu ke dil mein ek chhoti si khushi hui. Use Tanya ki personality attractive lagti thi—woh bina soch-vichaar ke nahi, khulkar baat karti thi. Lekin uski jokes ko invitation samajh lena galat hoga, yeh bhi woh jaanta tha.
+Chotu ke dil mein ek chhoti si khushi hui. Use Taniya ki personality attractive lagti thi—woh bina soch-vichaar ke nahi, khulkar baat karti thi. Lekin uski jokes ko invitation samajh lena galat hoga, yeh bhi woh jaanta tha.
 
 Door ke paas pahunchte hi bell baji. Laksh tha.
 
 “Bhabhi! Photos final hui ki nahi?” Usne Chotu ko dekha. “Oh ho, special jury!”
 
-Tanya ne bina expression badle kaha, “Haan. Aur is jury ne teen minute mein better decision liya. Tum log teen din se argue kar rahe the.”
+Taniya ne bina expression badle kaha, “Haan. Aur is jury ne teen minute mein better decision liya. Tum log teen din se argue kar rahe the.”
 
 Laksh ne dramatic sigh li. “Fifth competitor officially appointed.”
 
-Chotu muskuraya, magar Laksh ki aankhon mein curiosity thi. Tanya ne dono ko kaam de diya—“Tum envelope neeche drop karo, tum game cards ka box le jao.” Joke ke peeche ki odd awkwardness turant routine mein badal gayi.
+Chotu muskuraya, magar Laksh ki aankhon mein curiosity thi. Taniya ne dono ko kaam de diya—“Tum envelope neeche drop karo, tum game cards ka box le jao.” Joke ke peeche ki odd awkwardness turant routine mein badal gayi.
 
-Chotu lift mein khada tha toh use Tanya ka sawaal yaad aaya: *Tumne notice kiya?* Usne khud se kaha ki haan, usne notice kiya tha—sirf saree nahi, uski attention ko apni taraf kheench lene wali confidence bhi.
+Chotu lift mein khada tha toh use Taniya ka sawaal yaad aaya: *Tumne notice kiya?* Usne khud se kaha ki haan, usne notice kiya tha—sirf saree nahi, uski attention ko apni taraf kheench lene wali confidence bhi.
 
-**MAJOR EVENT — TANYA:** A planned one-on-one photo review becomes a surprisingly honest personal exchange. Chotu chooses Tanya's candid working photograph rather than simply flattering her appearance. Laksh notices the private jury and gains a reason to tease them later.
+**MAJOR EVENT — TANIYA:** A planned one-on-one photo review becomes a surprisingly honest personal exchange. Chotu chooses Taniya's candid working photograph rather than simply flattering her appearance. Laksh notices the private jury and gains a reason to tease them later.
 
 ---
 
@@ -280,7 +280,7 @@ Kaam ke hisaab se ordinary Tuesday tha. Ek bhi payment pending nahi thi.
 
 Magar uske dimaag mein din ordinary nahi tha.
 
-Shreya didi ne phone par apni do photographs compare karte waqt use ek aisa sawaal poochha tha jiska jawaab usne school ki kisi exam mein bhi itna sochkar nahi diya hota. Tanya didi ne uske decision ko jaanchne ke liye fake courtroom bana diya tha. Ankita didi ne uski aadhi baat complete karne ko kaha tha. Shivani didi ki dori tootne ke baad usse laga tha ki woh phir kabhi unke saamne normal nahi ho payega—phir unka message aaya aur saans aasaan hui.
+Shreya didi ne phone par apni do photographs compare karte waqt use ek aisa sawaal poochha tha jiska jawaab usne school ki kisi exam mein bhi itna sochkar nahi diya hota. Taniya didi ne uske decision ko jaanchne ke liye fake courtroom bana diya tha. Ankita didi ne uski aadhi baat complete karne ko kaha tha. Shivani didi ki dori tootne ke baad usse laga tha ki woh phir kabhi unke saamne normal nahi ho payega—phir unka message aaya aur saans aasaan hui.
 
 Usne khidki ke sheeshe mein apna reflection dekha.
 
@@ -313,7 +313,7 @@ Sinha apartment mein Shivani ne damaged blouse tailor-bag mein rakha, phir study
 
 Mehta home mein Shreya ne boutique ke liye second photograph select karke assistant ko bheji. Mahi so chuki thi. Aarav ka next guitar lesson message unread pada tha; Neel ka technical note already filed. Chotu ka sincerely diya opinion yaad aate hi woh phir muskuraayi.
 
-Arora apartment mein Tanya ne Laksh ke teen voice notes mute kiye. Wedding album ke cover ke liye Chotu ki chosen photograph ab shortlist mein thi. Dev ne poochha, “Final photo mil gayi?” Tanya ne kaha, “Haan. Finally ek honest judge mil gaya.”
+Arora apartment mein Taniya ne Laksh ke teen voice notes mute kiye. Wedding album ke cover ke liye Chotu ki chosen photograph ab shortlist mein thi. Dev ne poochha, “Final photo mil gayi?” Taniya ne kaha, “Haan. Finally ek honest judge mil gaya.”
 
 Charon gharon mein ek aadmi ka naam alag meanings ke saath yaad aaya—Chotu. Lekin har woman ke paas aaj ki shaam ke baare mein apna jawaab tha; kisi ne doosri ko apna secret nahi bataya.
 
