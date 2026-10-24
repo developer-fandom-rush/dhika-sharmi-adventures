@@ -8,7 +8,7 @@
   "editorial_policy": "User-supplied Grok V2 physical-description passages retained, no new explicit writing. Only non-graphic fixes made.",
   "wordCount": {
     "raw": 790,
-    "continuityEdit": 892,
+    "continuityEdit": 930,
     "target": "1000–1100"
   },
   "edits": [
@@ -62,7 +62,7 @@
     {
       "id": "FWFS-E01-P7-S-V2-002",
       "channel": "narrator",
-      "text": "Shreya shoot corner ke paas khadi thi. Wine-coloured saree, fitted blouse, V-shaped neckline. Mirror ke saamne chuni hui **second pallu placement** abhi bhi wahi thi. Tuesday 9:20 par woh changing-room se bahar aa chuki thi aur Chotu ko extra assignment bol chuki thi. Ab usi baat ko aage badhana tha."
+      "text": "Shreya shoot corner ke paas khadi thi. Wine-coloured saree, fitted blouse, V-shaped neckline. Mirror ke saamne chuni hui **second pallu placement** abhi bhi wahi thi. Tuesday 9:20 par woh changing-room se bahar aa chuki thi aur Chotu ko extra assignment bol chuki thi. Ab usi baat ko aage badhana tha. Doosra look usne honest opinion ke liye chuna tha, sirf camera ke liye nahi."
     },
     {
       "id": "FWFS-E01-P7-S-V2-003",
@@ -117,7 +117,7 @@
     {
       "id": "FWFS-E01-P7-S-V2-013",
       "channel": "shreya-pov",
-      "text": "Woh mirror ke paas gayi aur pallu ko subah ki chuni hui second placement mein wapas set kiya. Ravivaar ka upper-rack incident yaad aaya — kurti ka khisakna, uski nazar ka rukna. Usi shaam ribbon baandhne ke waqt Chotu ne uski singing ki bhi tareef ki thi. Aaj ka doosra look usne khud choose kiya tha taaki uska honest response jaan sake. Aarav aur Neel ke saath music aur easy energy thi; Chotu ke saath aaj uski apni alag curiosity ka sawaal tha."
+      "text": "Woh mirror ke paas gayi aur pallu ko subah ki chuni hui second placement mein wapas set kiya. Ravivaar ka high-shelf moment yaad aaya — kurti upar, side-waist aur under-bust ki line, uski nazar ka rukna. Usi shaam ribbon baandhte waqt Chotu ne uski singing ki bhi tareef ki thi. Aaj ka doosra look usne khud choose kiya tha taaki uski nazar phir ruke toh woh samajh sake. Aarav aur Neel alag the; unke saath music aur easy energy thi. Yeh alag tha. Yeh uski apni curiosity thi."
     },
     {
       "id": "FWFS-E01-P7-S-V2-014",
@@ -127,7 +127,7 @@
     {
       "id": "FWFS-E01-P7-S-V2-015",
       "channel": "shreya-dialogue",
-      "text": "“Light yahan better hai. Frame yahin se lena.”"
+      "text": "“Light yahan better hai. Hold karna.”"
     },
     {
       "id": "FWFS-E01-P7-S-V2-016",
@@ -157,7 +157,7 @@
     {
       "id": "FWFS-E01-P7-S-V2-021",
       "channel": "chotu-observable",
-      "text": "Chotu ne ek baar screen pe aane ki koshish ki, fail hua. Nazar wapas uske chest pe. Cream skin, soft round weight, cleavage ki deep line, side ki bare strip. Uske lips thode khule. Uska phone ek pal ke liye hila, phir usne screen par framing dekhi aur second photograph click kar di."
+      "text": "Chotu ne ek baar screen pe aane ki koshish ki, fail hua. Nazar wapas uske chest pe. Cream skin, soft round weight, cleavage ki deep line, side ki bare strip. Uske lips thode khule. Uska phone ek pal ke liye hila; usne frame dobara set karke second photograph click ki, lekin aankhen body pe thin."
     },
     {
       "id": "FWFS-E01-P7-S-V2-022",
