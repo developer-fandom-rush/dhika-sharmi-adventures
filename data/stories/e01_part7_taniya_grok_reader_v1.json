@@ -1,0 +1,756 @@
+{
+  "schema": "fwfs.story_reader.v1",
+  "title": "FWFS Episode 01 Part 7 — Taniya × Chotu (Grok G1–G6)",
+  "timeline": "Tuesday 2:00 PM · Arora Apartment",
+  "status": "RECEIVED READER · DIRECTOR QA PENDING · NOT FINAL CANON",
+  "source": "data/stories/e01_part7_taniya_grok_g1_g6_received_20261024.md",
+  "blocks": [
+    {
+      "id": "FWFS-E01-P7-TANIYA-001",
+      "channel": "narrator",
+      "text": "Doorbell baji.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-002",
+      "channel": "taniya-pov",
+      "text": "Taniya ne laptop se nazar uthayi. Dining table par wedding photographs khuli thi. Remaining decor sheets ka bundle darwaaze ke paas ready tha. Wall mirror ke saamne khadi hokar woh apni rust-red saree ka pallu ek baar dekh chuki thi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-003",
+      "channel": "narrator",
+      "text": "Darwaaza khola toh Chotu saamne tha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-004",
+      "channel": "chotu-dialogue",
+      "text": "“Good afternoon, didi. Sheets lene aaya hoon.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-005",
+      "channel": "taniya-dialogue",
+      "text": "“Sheets milengi. Lekin pehle tumhari promotion ka interview hai.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-006",
+      "channel": "chotu-dialogue",
+      "text": "“Phir se interview?” Chotu hansa. “Didi, aapke ghar delivery karne ke liye degree lagne waali hai kya?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-007",
+      "channel": "taniya-dialogue",
+      "text": "“Degree nahi. Honesty certificate.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-008",
+      "channel": "chotu-dialogue",
+      "text": "“Woh toh mere paas already hai.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-009",
+      "channel": "taniya-dialogue",
+      "text": "“Dekhte hain.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-010",
+      "channel": "narrator",
+      "text": "Chotu andar aaya. Usne apna charged phone table par rakha aur decorative sheets ke bundle ki taraf dekha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-011",
+      "channel": "taniya-pov",
+      "text": "Taniya ne usse chair kheenchne ka ishara kiya.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-012",
+      "channel": "taniya-dialogue",
+      "text": "“Pehle in dono photographs mein se ek choose karo.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-013",
+      "channel": "narrator",
+      "text": "Laptop par Sunday wedding-event ki do photos khuli thi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-014",
+      "channel": "narrator",
+      "text": "Pehli mein Taniya game cards pakde hue camera ki taraf hans rahi thi. Doosri mein woh stage ke paas microphone adjust kar rahi thi, apne kaam mein busy.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-015",
+      "channel": "narrator",
+      "text": "Chotu ne dono dhyaan se dekhin.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-016",
+      "channel": "chotu-dialogue",
+      "text": "“Second.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-017",
+      "channel": "taniya-dialogue",
+      "text": "“Reason?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-018",
+      "channel": "chotu-dialogue",
+      "text": "“Ismein aap actual kaam kar rahi ho. Pehli mein lag raha hai camera dekh ke smile di hai.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-019",
+      "channel": "taniya-dialogue",
+      "text": "“Matlab meri smile fake hai?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-020",
+      "channel": "chotu-dialogue",
+      "text": "“Arre nahi, didi!”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-021",
+      "channel": "narrator",
+      "text": "Taniya zor se hansi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-022",
+      "channel": "taniya-dialogue",
+      "text": "“Tumhare saath problem yahi hai. Ek honest answer dete ho aur phir uski safai dene lagte ho.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-023",
+      "channel": "chotu-dialogue",
+      "text": "“Safai nahi doon toh aap mujhe daant dogi.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-024",
+      "channel": "taniya-dialogue",
+      "text": "“Correct. Tum jaldi seekh rahe ho.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-025",
+      "channel": "narrator",
+      "text": "Usne second photograph shortlist kar li.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-026",
+      "channel": "narrator",
+      "text": "Kaam ka pehla hissa complete tha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-027",
+      "channel": "narrator",
+      "text": "Ab Taniya ne laptop thoda side kiya.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-028",
+      "channel": "taniya-dialogue",
+      "text": "“Achha, woh Sunday's event look tha. Aaj ka look?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-029",
+      "channel": "narrator",
+      "text": "Chotu ne uski taraf dekha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-030",
+      "channel": "chotu-dialogue",
+      "text": "“Achcha hai.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-031",
+      "channel": "taniya-dialogue",
+      "text": "“Bas?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-032",
+      "channel": "chotu-dialogue",
+      "text": "“Aapne poora jawab dene ka mauka kab diya?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-033",
+      "channel": "taniya-dialogue",
+      "text": "“Fine. Ek actual photo lekar dikhao.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-034",
+      "channel": "narrator",
+      "text": "Chotu ne phone uthaya.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-035",
+      "channel": "narrator",
+      "text": "Taniya dining table se kuch door, mirror ke paas khadi hui. Window se natural light aa rahi thi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-036",
+      "channel": "taniya-dialogue",
+      "text": "“Yahan se frame lo. Background mein woh shelf nahi aani chahiye.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-037",
+      "channel": "narrator",
+      "text": "Chotu ne camera khola aur frame adjust kiya.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-038",
+      "channel": "taniya-pov",
+      "text": "Taniya ne seedha khade hokar ek photograph lene diya.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-039",
+      "channel": "narrator",
+      "text": "Click.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-040",
+      "channel": "taniya-dialogue",
+      "text": "“Ho gayi,” Chotu bola.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-041",
+      "channel": "taniya-dialogue",
+      "text": "“Dikhao.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-042",
+      "channel": "narrator",
+      "text": "Usne screen dekhi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-043",
+      "channel": "taniya-dialogue",
+      "text": "“Hmm. Yeh first option hai. Ek second angle bhi chahiye.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-044",
+      "channel": "narrator",
+      "text": "Chotu phone lekar wahi khada raha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-045",
+      "channel": "narrator",
+      "text": "Taniya mirror ke paas laut aayi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-046",
+      "channel": "taniya-pov",
+      "text": "Sunday ka register-signing incident use yaad tha. Tab saree apni jagah se accidentally khiski thi aur Chotu ki baat ek pal ke liye ruk gayi thi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-047",
+      "channel": "taniya-pov",
+      "text": "Monday clubhouse mein bhi jab woh uske paas aayi thi, Chotu ne bina kisi wajah ke ek step peeche liya tha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-048",
+      "channel": "taniya-pov",
+      "text": "Dono moments uske dimaag mein the.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-049",
+      "channel": "taniya-pov",
+      "text": "Aaj woh bas coincidence par dependent nahi rehna chahti thi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-050",
+      "channel": "taniya-pov",
+      "text": "Usne mirror mein apna reflection dekha. Pallu aur blouse ko apni usual secure styling mein rakhna aasaan tha. Lekin aaj woh deliberately ek different presentation choose kar rahi thi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-051",
+      "channel": "narrator",
+      "text": "Usne Chotu ki taraf dekha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-052",
+      "channel": "taniya-dialogue",
+      "text": "“Ready, Mister Photographer?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-053",
+      "channel": "chotu-dialogue",
+      "text": "“Haan, didi.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-054",
+      "channel": "taniya-dialogue",
+      "text": "“Achha. Toh ab dhyaan se.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-055",
+      "channel": "grok-insert",
+      "text": "**[G1]**\nUsne pallu ko left shoulder se hata kar waist ke neeche loosely drap kiya — secure pin nahi. Rust-red blouse ka deep front neckline ab clear open tha. Window light mein uske cream upper breasts ka soft curve V ke andar dikh raha tha; cleavage ki line, do round shapes ka beginning, fabric ke against heavy weight. Yeh Sunday wala accident nahi tha. Yeh uska choice tha — second angle ke bahane, uski nazar ke liye.",
+      "slot": "G1"
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-056",
+      "channel": "narrator",
+      "text": "Taniya apni selected position mein khadi rahi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-057",
+      "channel": "narrator",
+      "text": "Chotu ne phone ka frame set karne ki koshish ki.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-058",
+      "channel": "taniya-dialogue",
+      "text": "“Angle theek hai?” usne poochha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-059",
+      "channel": "chotu-dialogue",
+      "text": "“Haan… ek minute.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-060",
+      "channel": "taniya-dialogue",
+      "text": "“Ek minute toh tumne mujhe diya tha. Ab tumhe chahiye?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-061",
+      "channel": "narrator",
+      "text": "Chotu ne jawab nahi diya.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-062",
+      "channel": "taniya-pov",
+      "text": "Taniya ne uske chehre par nazar rakhi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-063",
+      "channel": "narrator",
+      "text": "Sunday ki tarah uski conversation phir ruk gayi thi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-064",
+      "channel": "narrator",
+      "text": "Lekin is baar Taniya ne immediately position change nahi ki.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-065",
+      "channel": "taniya-pov",
+      "text": "Woh dekhna chahti thi ki Chotu phir se normal baat karega, camera par dhyaan dega, ya uski attention isi taraf bani rahegi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-066",
+      "channel": "grok-insert",
+      "text": "**[G2]**\nWoh hold karti rahi.\nBees second. Chalis. Lagbhag ek minute.",
+      "slot": "G2"
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-067",
+      "channel": "narrator",
+      "text": "Chotu ka frame set nahi ho raha tha. Uski nazar screen se hat kar uske neckline pe thin — cream curve, cleavage, har saans pe blouse ke andar breasts ka soft uthna-girna. Phone uske haath mein tight tha. Taniya jaan ti thi woh dekh raha hai. Usne position nahi badli. Andar nipples hard the; chest heavy; beech mein halki heat. Yeh test tha. Woh wait kar rahi thi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-068",
+      "channel": "taniya-dialogue",
+      "text": "“Chotu?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-069",
+      "channel": "taniya-dialogue",
+      "text": "“Haan?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-070",
+      "channel": "taniya-dialogue",
+      "text": "“Photo?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-071",
+      "channel": "narrator",
+      "text": "Woh phone ki screen ki taraf dekhne laga.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-072",
+      "channel": "chotu-dialogue",
+      "text": "“Didi… second angle…”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-073",
+      "channel": "taniya-dialogue",
+      "text": "“Second angle hi toh de rahi hoon.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-074",
+      "channel": "narrator",
+      "text": "Taniya ki awaaz mein usual teasing thi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-075",
+      "channel": "narrator",
+      "text": "Lekin ab woh uski reaction ko casually ignore nahi kar rahi thi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-076",
+      "channel": "narrator",
+      "text": "Usne ek baar seedha uski aankhon mein dekha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-077",
+      "channel": "narrator",
+      "text": "Chotu ne bhi nazar uthayi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-078",
+      "channel": "narrator",
+      "text": "Kuch seconds ke liye dono chup rahe.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-079",
+      "channel": "grok-insert",
+      "text": "**[G3]**\nChotu ki aankhen wide thin. Sunday ka freeze, Monday ka step-back — aaj dono se zyada. Uski saans short. Shorts mein clear tension, fabric tight. Woh bol nahi paya. Nazar uske lips se neeche cleavage pe wapas chali gayi, phir zabardasti aankhon pe laayi. Trapped. Hungry. Quiet.",
+      "slot": "G3"
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-080",
+      "channel": "taniya-pov",
+      "text": "Taniya ne halka sa sir tilt kiya.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-081",
+      "channel": "taniya-dialogue",
+      "text": "“Achha, camera mein kya problem aa rahi hai?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-082",
+      "channel": "chotu-dialogue",
+      "text": "“Kuch nahi, didi.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-083",
+      "channel": "taniya-dialogue",
+      "text": "“Phir photograph complete kyun nahi hui?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-084",
+      "channel": "narrator",
+      "text": "Chotu kuch bolne laga, phir ruk gaya.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-085",
+      "channel": "narrator",
+      "text": "Taniya uske paas aayi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-086",
+      "channel": "taniya-dialogue",
+      "text": "“Idhar dikhao.”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-087",
+      "channel": "narrator",
+      "text": "Usne phone ki screen dekhne ke liye uske kareeb apni position badli.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-088",
+      "channel": "narrator",
+      "text": "Mirror unke paas wali wall par tha. Screen, reflection aur dono ki positions ek hi moment mein relevant ho gaye.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-089",
+      "channel": "grok-insert",
+      "text": "**[G4]**\nPaas aate hi uska pallu side se aur khisak gaya. Mirror ne peeche se dikhaya — saree ka drape waist pe tight, blouse ka lower back edge, side se navel ka soft circle aur hip curve ka outline. Chotu ke haath se phone almost chhalak gaya. Unka distance kam tha. Uske shoulder ne uske arm se brush kiya — short, accidental-on-purpose proximity. Uski saans uske kaan ke near thi. Mirror mein uski nazar uske back/side pe thi, phir reflection mein uski aankhen.",
+      "slot": "G4"
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-090",
+      "channel": "narrator",
+      "text": "Taniya ekdam seedhi hui.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-091",
+      "channel": "narrator",
+      "text": "Woh palti.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-092",
+      "channel": "narrator",
+      "text": "Chotu ab bhi apni jagah khada tha. Phone uske haath mein tha, lekin woh photograph complete nahi kar raha tha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-093",
+      "channel": "narrator",
+      "text": "Dono ek-do seconds chup rahe.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-094",
+      "channel": "taniya-pov",
+      "text": "Taniya ne uski taraf dekha. Jo abhi hua tha, woh uske planned photograph test ka hissa nahi tha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-095",
+      "channel": "narrator",
+      "text": "Usne ek pal apni usual teasing expression kho di.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-096",
+      "channel": "grok-insert",
+      "text": "**[G5]**\nUske nipples blouse ke andar dard laayak tight the. Beech mein clear wetness-tingle. Mirror mein jo uski aankhen thin — shock, arousal — unhone uske body ko jawaab de diya tha. Brush ka residual uske arm pe tha. Woh control kho baithe thi ek second ke liye. Yeh uske plan se aage nikal gaya tha.",
+      "slot": "G5"
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-097",
+      "channel": "narrator",
+      "text": "Phir Taniya ne apni awaaz sambhali.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-098",
+      "channel": "taniya-dialogue",
+      "text": "“Chotu Babu…”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-099",
+      "channel": "narrator",
+      "text": "Chotu ne nazar uthayi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-100",
+      "channel": "narrator",
+      "text": "Woh ab bhi unusually quiet tha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-101",
+      "channel": "taniya-pov",
+      "text": "Taniya ne ek final, deliberate styling gesture kiya. Yeh Sunday wala accident nahi tha; usne khud decide kiya tha ki woh kya test karna chahti hai.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-102",
+      "channel": "grok-insert",
+      "text": "**[G6]**\nUsne pallu bilkul waist ke neeche rehne diya, shoulders free, front neckline open. Window light mein cream cleavage phir se full second ke liye clear thi. Usne seedha uski nazar pakdi — last checkpoint. Chotu ki aankhen wahi thin; shorts ab bhi tight; woh hila nahi, click nahi kiya.",
+      "slot": "G6"
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-103",
+      "channel": "taniya-pov",
+      "text": "Taniya ne seedha uski taraf dekha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-104",
+      "channel": "taniya-dialogue",
+      "text": "“Do you like it?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-105",
+      "channel": "narrator",
+      "text": "Ek pal ke liye Chotu bilkul chup raha.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-106",
+      "channel": "narrator",
+      "text": "Phir jaise usse achanak yaad aaya ki woh kahan khada hai.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-107",
+      "channel": "chotu-dialogue",
+      "text": "“Didi… main…”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-108",
+      "channel": "narrator",
+      "text": "Sentence complete nahi hua.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-109",
+      "channel": "narrator",
+      "text": "Usne phone sambhala, darwaaze ki taraf muda aur bina photograph complete kiye jaldi se bahar nikal gaya.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-110",
+      "channel": "taniya-dialogue",
+      "text": "“Chotu?”",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-111",
+      "channel": "narrator",
+      "text": "Koi jawab nahi.",
+      "slot": null
+    },
+    {
+      "id": "FWFS-E01-P7-TANIYA-112",
+      "channel": "narrator",
+      "text": "Darwaaza band ho gaya.",
+      "slot": null
+    }
+  ],
+  "dialogueSummary": {
+    "taniya": [
+      "“Sheets milengi. Lekin pehle tumhari promotion ka interview hai.”",
+      "“Degree nahi. Honesty certificate.”",
+      "“Dekhte hain.”",
+      "“Pehle in dono photographs mein se ek choose karo.”",
+      "“Reason?”",
+      "“Matlab meri smile fake hai?”",
+      "“Tumhare saath problem yahi hai. Ek honest answer dete ho aur phir uski safai dene lagte ho.”",
+      "“Correct. Tum jaldi seekh rahe ho.”",
+      "“Achha, woh Sunday's event look tha. Aaj ka look?”",
+      "“Bas?”",
+      "“Fine. Ek actual photo lekar dikhao.”",
+      "“Yahan se frame lo. Background mein woh shelf nahi aani chahiye.”",
+      "“Ho gayi,” Chotu bola.",
+      "“Dikhao.”",
+      "“Hmm. Yeh first option hai. Ek second angle bhi chahiye.”",
+      "“Ready, Mister Photographer?”",
+      "“Achha. Toh ab dhyaan se.”",
+      "“Angle theek hai?” usne poochha.",
+      "“Ek minute toh tumne mujhe diya tha. Ab tumhe chahiye?”",
+      "“Chotu?”",
+      "“Haan?”",
+      "“Photo?”",
+      "“Second angle hi toh de rahi hoon.”",
+      "“Achha, camera mein kya problem aa rahi hai?”",
+      "“Phir photograph complete kyun nahi hui?”",
+      "“Idhar dikhao.”",
+      "“Chotu Babu…”",
+      "“Do you like it?”",
+      "“Chotu?”"
+    ],
+    "chotu": [
+      "“Good afternoon, didi. Sheets lene aaya hoon.”",
+      "“Phir se interview?” Chotu hansa. “Didi, aapke ghar delivery karne ke liye degree lagne waali hai kya?”",
+      "“Woh toh mere paas already hai.”",
+      "“Second.”",
+      "“Ismein aap actual kaam kar rahi ho. Pehli mein lag raha hai camera dekh ke smile di hai.”",
+      "“Arre nahi, didi!”",
+      "“Safai nahi doon toh aap mujhe daant dogi.”",
+      "“Achcha hai.”",
+      "“Aapne poora jawab dene ka mauka kab diya?”",
+      "“Haan, didi.”",
+      "“Haan… ek minute.”",
+      "“Didi… second angle…”",
+      "“Kuch nahi, didi.”",
+      "“Didi… main…”"
+    ]
+  },
+  "storyWordCount": 1244,
+  "editorialMarkers": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6"
+  ],
+  "review": {
+    "matched": [
+      "Only Taniya and Chotu in scene",
+      "Part 5 Sunday register incident and Monday distance recalled",
+      "Part 6 rust-red drape and charged phone used",
+      "Sunday photo shortlisted and live photo taken once",
+      "Second current photo intentionally unfinished, decor sheets uncollected",
+      "Chotu exits abruptly without disclosing destination"
+    ],
+    "gaps": [
+      "G4 submitted shoulder–arm contact does not match director's earlier specified close-contact turning point",
+      "Director's planned last navel-centered test is not clearly enacted in G6; it ends as repeated front styling",
+      "Mirror/back and side-navel visibility needs spatial verification; mirror location and viewing direction are unclear",
+      "Director's earlier suggested blouse fastening change is not present in supplied G1, which instead changes the pallu"
+    ],
+    "sourceNote": "Review flags only; user-submitted prose intentionally unchanged."
+  }
+}
