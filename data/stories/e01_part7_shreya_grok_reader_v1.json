@@ -1,0 +1,309 @@
+{
+  "schema": "fwfs.story_reader.v1",
+  "title": "FWFS Episode 01 — Part 7 — Shreya · Grok Received Revised V1",
+  "timeline": "Tuesday 9:25 AM · Mehta Boutique",
+  "status": "CURRENT SHREYA RECEIVED WORKING READER · USER REVIEW PENDING",
+  "source": "User-pasted Grok prose on October 24, 2026",
+  "source_original": "data/stories/e01_part7_shreya_grok_raw_received_20261024.md",
+  "editorial_policy": "Preserve all original graphic/physical depiction and intimate responses verbatim. Only six non-graphic timestamp, continuity, photo mechanics and typography patches; author note/outro excluded from chronological story but retained in exact raw original.",
+  "edits": [
+    {
+      "type": "timestamp",
+      "from": "**FWFS Episode 01 — Part 7 — SHREYA**",
+      "to": "**FWFS Episode 01 — Part 7 — SHREYA**\n\nTuesday, 9:25 AM. Mehta Boutique.",
+      "reason": "Set precise Tuesday time of the Part 7A encounter."
+    },
+    {
+      "type": "meta-reference",
+      "from": "Yeh second styling thi — Part 6 mein jo bolder look usne choose kiya tha.",
+      "to": "Yeh wahi second styling thi jo usne subah changing-room ke mirror ke saamne khud choose ki thi.",
+      "reason": "Replace out-of-story Part 6 reference without changing the chosen saree styling."
+    },
+    {
+      "type": "meta-reference",
+      "from": "Part 5 mein shelf pe jab kurti khichi thi, under-bust aur side-waist dikhe the.",
+      "to": "Ravivaar ko boutique ke upper rack se fabric nikaalte waqt jab kurti khichi thi, under-bust aur side-waist dikhe the.",
+      "reason": "Replace out-of-story Part 5 reference with sourced Sunday high-rack incident."
+    },
+    {
+      "type": "chronology",
+      "from": "Usne pehle Ankita dekhi thi, Shivani, Tanya — lekin yeh alag tha.",
+      "to": "Pichhle dino mein Ankita, Shivani aur Tanya ke saath bhi uski nazar ek pal ko ruki thi — lekin yeh alag tha.",
+      "reason": "Clarify those earlier observations predate Tuesday's first encounter; don't imply future visits already occurred."
+    },
+    {
+      "type": "photo-sequence",
+      "from": "Woh thoda sa aur lean rahi — ek second extra — phir seedhi hui.\n\n“Photo… le li na?”",
+      "to": "Woh thoda sa aur lean rahi — ek second extra — phir seedhi hui.\n\nChotu ne phone ki framing dobara set karke second photograph click kar di.\n\n“Photo… le li na?”",
+      "reason": "Actually capture the requested second photograph before Chotu confirms completion."
+    },
+    {
+      "type": "typo",
+      "from": "Pishthe ke against thoda sa leti.",
+      "to": "Peeth deewar ke sahare thodi der tikayi.",
+      "reason": "Repair unclear Hinglish typo in changing-room position without altering the described response."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "FWFS-E01-P7-S-GR-001",
+      "channel": "narrator",
+      "text": "Boutique ki subah ki light front window se aa rahi thi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-002",
+      "channel": "narrator",
+      "text": "Shreya changing room se nikli. Wine-coloured saree, fitted blouse, V-neck. Pallu usne carefully set kiya tha. Yeh wahi second styling thi jo usne subah changing-room ke mirror ke saamne khud choose ki thi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-003",
+      "channel": "narrator",
+      "text": "Chotu counter ke paas khada tha. Receipt pehle ho chuki thi. Aaj uska kaam photo tha — honest opinion ke saath."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-004",
+      "channel": "shreya-dialogue",
+      "text": "“Chotu Babu. Camera ready?”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-005",
+      "channel": "chotu-dialogue",
+      "text": "“Haan didi.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-006",
+      "channel": "narrator",
+      "text": "Usne phone diya. Chalk mark floor pe tha. Backdrop saaf tha."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-007",
+      "channel": "narrator",
+      "text": "Pehla pose simple tha. Kandhe seedhe. Pallu neat. Smile professional. Click."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-008",
+      "channel": "shreya-dialogue",
+      "text": "“Theek hai. Ab second angle.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-009",
+      "channel": "narrator",
+      "text": "Shreya mirror ke paas gayi. Usne pallu thoda side kiya. V-neck ka opening clear ho gaya. Soft cream upper curve, cleavage ki line, do breasts ka soft meeting point. Side drape se uska side-waist bhi dikh raha tha — smooth, bare, thin strip of skin."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-010",
+      "channel": "shreya-pov",
+      "text": "Woh jaan ti thi Chotu dekh raha hai."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-011",
+      "channel": "shreya-pov",
+      "text": "Ravivaar ko boutique ke upper rack se fabric nikaalte waqt jab kurti khichi thi, under-bust aur side-waist dikhe the. Uski nazar ruki thi. Aaj woh usse dobara test karna chahti thi — is baar apni marzi se."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-012",
+      "channel": "narrator",
+      "text": "Woh mark pe aayi. Body thoda aage lean kiya. “Light yahan better hai.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-013",
+      "channel": "narrator",
+      "text": "V-neck aur khul gaya. Jhukne / lean karne se uske breasts ne blouse ke andar soft neeche shift kiya. Heavy, round. Fabric tight ho gaya unke upar. Cleavage deeper dikhi. Cream skin light mein glow kar rahi thi. Side-waist ki line lambi ho gayi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-014",
+      "channel": "chotu-observable",
+      "text": "Chotu ka camera haath mein tha. Frame set nahi ho raha tha."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-015",
+      "channel": "chotu-observable",
+      "text": "Uski nazar screen pe nahi thi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-016",
+      "channel": "chotu-observable",
+      "text": "Woh seedha uske chest pe thi. Soft cream flesh, V ke andar ka hissa, nipples ka halka outline jab fabric tight hua. Side mein bare waist. Pichhle dino mein Ankita, Shivani aur Tanya ke saath bhi uski nazar ek pal ko ruki thi — lekin yeh alag tha. Yeh usne khud hold karke diya tha."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-017",
+      "channel": "chotu-observable",
+      "text": "Uske haath thode kaampe. Saans ruk si gayi. Shorts mein pressure aa gaya."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-018",
+      "channel": "shreya-pov",
+      "text": "Shreya ne pose hold kiya.  \nPachas seconds.  \nEk minute ke qareeb."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-019",
+      "channel": "shreya-pov",
+      "text": "Woh jaldi nahi hili. Camera ke liye nahi. Uski nazar ke liye. Uske nipples blouse ke andar bilkul hard the. Har saans pe uske breasts halka sa move kar rahe the — up, down, soft weight. Beech mein garmi fail rahi thi. Legs tight thi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-020",
+      "channel": "shreya-pov",
+      "text": "Usne socha — dekh raha hai.  \nPoora dekh raha hai.  \nDesign nahi. Mujhe."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-021",
+      "channel": "narrator",
+      "text": "Phir usne nazar uthayi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-022",
+      "channel": "narrator",
+      "text": "Seedha Chotu ki taraf."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-023",
+      "channel": "narrator",
+      "text": "Confirmation."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-024",
+      "channel": "narrator",
+      "text": "Unki aankhen mili."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-025",
+      "channel": "shreya-pov",
+      "text": "Chotu ki aankhen wide thin, dark, hungry. Usne turant nazar nahi hatayi. Shreya bhi nahi. Ek full second. Do. Uske lips thode khule. Uske shorts ka shape clear tha us angle se — tight, aroused."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-026",
+      "channel": "shreya-pov",
+      "text": "Shreya ke andar ek strong wave aayi.  \nUsse laga uski nazar uske breasts pe fire ki tarah hai.  \nUske apne breasts heavy aur sensitive the.  \nNipples dard hone laayak tight.  \nBeech mein wetness clear feel hui."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-027",
+      "channel": "narrator",
+      "text": "Woh thoda sa aur lean rahi — ek second extra — phir seedhi hui."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-028",
+      "channel": "narrator",
+      "text": "Chotu ne phone ki framing dobara set karke second photograph click kar di."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-029",
+      "channel": "shreya-dialogue",
+      "text": "“Photo… le li na?”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-030",
+      "channel": "chotu-observable",
+      "text": "Chotu ne jaise jhatka khaya. “Haan… didi. Ho gayi.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-031",
+      "channel": "chotu-observable",
+      "text": "Awaaz uski toot i hui thi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-032",
+      "channel": "shreya-dialogue",
+      "text": "“Honest opinion.” Shreya ki awaaz soft thi, lekin steady. “Design achcha hai… ya main?”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-033",
+      "channel": "chotu-observable",
+      "text": "Chotu chup raha. Ek second. Do."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-034",
+      "channel": "chotu-dialogue",
+      "text": "“Dono… lekin aap.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-035",
+      "channel": "chotu-observable",
+      "text": "Usne aage kuch nahi kaha. Phone wapas diya. Uske fingers uske fingers se touch hue — short, electric. Woh almost turant step back leke door ki taraf badha."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-036",
+      "channel": "chotu-dialogue",
+      "text": "“Main… chalta hoon didi. Receipt pehle ho gaya tha.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-037",
+      "channel": "shreya-dialogue",
+      "text": "“Chotu.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-038",
+      "channel": "narrator",
+      "text": "Woh ruka. Peeth uski taraf thi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-039",
+      "channel": "shreya-dialogue",
+      "text": "“Bye.”"
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-040",
+      "channel": "narrator",
+      "text": "Sirf itna. Door band."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-041",
+      "channel": "narrator",
+      "text": "Shreya mark pe khadi rahi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-042",
+      "channel": "shreya-pov",
+      "text": "V-neck ab bhi open tha. Pallu side mein.  \nUske breasts ab bhi blouse ke andar move kar rahe the har saans pe.  \nNipples hard.  \nLegs ke beech tingle clear tha — spine se nahi, beech mein, neeche."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-043",
+      "channel": "shreya-pov",
+      "text": "Usne mirror mein khud ko dekha.  \nCleavage, side-waist, thoda khula hua look.  \nUsne yeh pose hold kiya tha.  \nUsne usse dekha tha.  \nUsne uski aankhen aur uske body ka reaction dono dekh liye the."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-044",
+      "channel": "narrator",
+      "text": "Woh dheere se pallu sambhalti hui changing room ki taraf gayi.  \nDoor band kiya.  \nPeeth deewar ke sahare thodi der tikayi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-045",
+      "channel": "narrator",
+      "text": "Haath se face nahi dhaampa. Aankhen band ki."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-046",
+      "channel": "shreya-pov",
+      "text": "Beech mein jo heat thi, woh baithi hui thi.  \nStrong.  \nUnfinished.  \nUske apne choice se bani hui."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-047",
+      "channel": "shreya-pov",
+      "text": "Aarav ya Neel ki yaad is moment mein nahi aayi.  \nSirf Chotu ki nazar aayi — cream skin pe, V ke andar, uske breasts ke movement pe.  \nAur uske shorts mein jo tight tha."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-048",
+      "channel": "narrator",
+      "text": "Shreya ne aankhen kholi.  \nSaans ab bhi poori nahi thi."
+    },
+    {
+      "id": "FWFS-E01-P7-S-GR-049",
+      "channel": "shreya-pov",
+      "text": "Jo usne abhi display kiya tha, uska weight uske body mein tha.  \nCleavage se leke neeche tak."
+    }
+  ],
+  "dialogueSummary": {
+    "shreya": [
+      "“Chotu Babu. Camera ready?”",
+      "“Theek hai. Ab second angle.”",
+      "“Photo… le li na?”",
+      "“Honest opinion.” Shreya ki awaaz soft thi, lekin steady. “Design achcha hai… ya main?”",
+      "“Chotu.”",
+      "“Bye.”"
+    ],
+    "chotu": [
+      "“Haan didi.”",
+      "“Dono… lekin aap.”",
+      "“Main… chalta hoon didi. Receipt pehle ho gaya tha.”"
+    ]
+  }
+}
