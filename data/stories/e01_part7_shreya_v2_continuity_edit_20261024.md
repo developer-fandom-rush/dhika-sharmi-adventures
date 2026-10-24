@@ -4,7 +4,7 @@
 
 **Provenance:** Director-supplied Grok V2 manuscript in conversation on 2026-10-24. Previous Grok V1 raw and V1 reader remain in the repository. Raw V2 preserved separately in `data/stories/e01_part7_shreya_grok_v2_raw_received_20261024.md`.
 
-**Actual whitespace word counts:** Grok V2 narrative 790; continuity-edit narrative 892. Claimed 1,050 words was not independently accurate. Target 1,000–1,100 words remains unmet until director-approved additions.
+**Actual whitespace word counts:** Grok V2 narrative 790; continuity-edit narrative 930. Claimed 1,050 words was not independently accurate. Target 1,000–1,100 words remains unmet until director-approved additions.
 
 **Specific continuity changes:** 
 1. Part 6 exit no longer repeated; second drape already selected
@@ -29,7 +29,7 @@
 
 Boutique ki front window se subah ki light aa rahi thi. Assistant ne backdrop seedha kiya, phir reception ki taraf chali gayi — customer call.
 
-Shreya shoot corner ke paas khadi thi. Wine-coloured saree, fitted blouse, V-shaped neckline. Mirror ke saamne chuni hui **second pallu placement** abhi bhi wahi thi. Tuesday 9:20 par woh changing-room se bahar aa chuki thi aur Chotu ko extra assignment bol chuki thi. Ab usi baat ko aage badhana tha.
+Shreya shoot corner ke paas khadi thi. Wine-coloured saree, fitted blouse, V-shaped neckline. Mirror ke saamne chuni hui **second pallu placement** abhi bhi wahi thi. Tuesday 9:20 par woh changing-room se bahar aa chuki thi aur Chotu ko extra assignment bol chuki thi. Ab usi baat ko aage badhana tha. Doosra look usne honest opinion ke liye chuna tha, sirf camera ke liye nahi.
 
 Chotu counter pe khada tha. Chirag. Saal bhar se Mehta boutique ki deliveries karta tha. Familiar face, natural halki teasing. Aaj Tuesday, 9:25. Woh receipt aur backdrop stand ke kaam se aaya tha. Shreya didi ne shoot corner mein hi kaha tha ki usse photograph aur honest opinion bhi chahiye.
 
@@ -52,11 +52,11 @@ Kandhe seedhe, pallu neat, clutch haath mein. Professional. Chotu ne phone ke sc
 
 Shreya ne nod kiya. “Ab second.”
 
-Woh mirror ke paas gayi aur pallu ko subah ki chuni hui second placement mein wapas set kiya. Ravivaar ka upper-rack incident yaad aaya — kurti ka khisakna, uski nazar ka rukna. Usi shaam ribbon baandhne ke waqt Chotu ne uski singing ki bhi tareef ki thi. Aaj ka doosra look usne khud choose kiya tha taaki uska honest response jaan sake. Aarav aur Neel ke saath music aur easy energy thi; Chotu ke saath aaj uski apni alag curiosity ka sawaal tha.
+Woh mirror ke paas gayi aur pallu ko subah ki chuni hui second placement mein wapas set kiya. Ravivaar ka high-shelf moment yaad aaya — kurti upar, side-waist aur under-bust ki line, uski nazar ka rukna. Usi shaam ribbon baandhte waqt Chotu ne uski singing ki bhi tareef ki thi. Aaj ka doosra look usne khud choose kiya tha taaki uski nazar phir ruke toh woh samajh sake. Aarav aur Neel alag the; unke saath music aur easy energy thi. Yeh alag tha. Yeh uski apni curiosity thi.
 
 Usne pallu side kiya. V-neck open ho gaya. Side drape se bare side-waist ki strip clear. Woh mark pe aayi, body thoda aage lean kiya.
 
-“Light yahan better hai. Frame yahin se lena.”
+“Light yahan better hai. Hold karna.”
 
 Camera uske haath mein tha, lekin Chotu ki nazar screen se hat kar seedha uspe aa gayi.
 
@@ -71,7 +71,7 @@ Pachas se ek minute.
 
 Jaldi nahi hili. Pose camera ke liye tha; window uski nazar ke liye thi. Har saans pe uske breasts blouse ke andar halka sa uthte-girte. Nipples hard. Side-waist aware. Legs ke beech garmi fail rahi thi — pehle halki, phir clear tightness. Woh soch rahi thi: dekh raha hai. Design nahi. Mujhe. Aarav ke saamne aisa nahi feel hota tha. Neel ke saamne bhi nahi. Yeh raw tha.
 
-Chotu ne ek baar screen pe aane ki koshish ki, fail hua. Nazar wapas uske chest pe. Cream skin, soft round weight, cleavage ki deep line, side ki bare strip. Uske lips thode khule. Uska phone ek pal ke liye hila, phir usne screen par framing dekhi aur second photograph click kar di.
+Chotu ne ek baar screen pe aane ki koshish ki, fail hua. Nazar wapas uske chest pe. Cream skin, soft round weight, cleavage ki deep line, side ki bare strip. Uske lips thode khule. Uska phone ek pal ke liye hila; usne frame dobara set karke second photograph click ki, lekin aankhen body pe thin.
 
 Shreya ne dheere nazar uthayi.
 
