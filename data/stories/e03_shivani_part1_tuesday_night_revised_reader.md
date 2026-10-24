@@ -21,7 +21,7 @@
 009 Shivani, thirty-three, profession mein measured aur evidence-driven thi. Personal life mein bhi woh jaldi conclusion nahi banati thi; lekin kisi apne ke saamne uski reserved smile aasani se shararat mein badal jaati thi.
 010 Aditya, thirty-eight, banking ke demanding schedule ke bawajood uski independence ka respect karta tha. Uska humour quiet tha; Shivani ki tarah woh bhi har personal feeling sabke saamne announce nahi karta tha.
 011 Shaadi ke shuruati dino mein Shivani affection express karte hue thodi hesitant thi. Aditya ne use kabhi hurry nahi ki. Saalon mein dono ne apni comfortable rhythm bana li thi—care, teasing, affection aur ek-doosre ke kaam ke liye jagah.
-012 Unki marriage ki pehli mulaqat, proposal aur intimate history ki detailed baatein abhi ke liye zaroori nahi thin. Is waqt Shivani ke liye sach itna tha ki Aditya uska trusted partner tha, jiske saath use ghar jaisa comfort milta tha.
+012 Shivani ko unke saath guzre saal yaad aaye—busy workdays, chhoti-chhoti nok-jhonk, aur woh familiarity jisme har baat explain karna nahi padta tha. Aditya uska trusted partner tha; uske paas baithna ab bhi ghar lautne jaisa lagta tha.
 013 Aditya ne aankhen kholi. “Kal ka koi pending courier issue hai?” Shivani hansi. “Nahi. Bas ek blouse tailor ko bhejna hai. Dori toot gayi.”
 014 “Wahi jiske baare mein Monday ko warn kiya tha?” Aditya ne poochha. Shivani ne use dekha. “Haan, auditor sahib. Tumhara observation correct nikla.”
 015 “Main bank mein risk assess karta hoon,” Aditya bola. “Ghar mein bhi aadat reh gayi hai.” Shivani ne uske shoulder par halka sa punch maara. “Risk report kal dena. Ab so jao.”
