@@ -155,13 +155,13 @@ Mahi ki awaaz aayi—“Mumma, song sunao!”
 
 Shreya muskurakar bahar aayi. Guitar ki ek galat chord aur kisi ka playful compliment phir yaad aa gaya. Woh melody gungunaane lagi.
 
-### TANYA — Sunday, 12:50 PM · Arora Apartment
+### TANIYA — Sunday, 12:50 PM · Arora Apartment
 
-Storeroom mein subah teen mishaps hone ke baad Tanya ne khud ko finally sofa par bithaya. Maroon saree ka pallu usne phir se pin kiya tha; nape par paseene ki halki nami thi. Vihaan, Arjun, Dhruv aur Laksh abhi bhi wahi the. Chaaron ne use ghar tak chhod diya tha aur ab remaining game-props checklist verify kar rahe the.
+Storeroom mein subah teen mishaps hone ke baad Taniya ne khud ko finally sofa par bithaya. Maroon saree ka pallu usne phir se pin kiya tha; nape par paseene ki halki nami thi. Vihaan, Arjun, Dhruv aur Laksh abhi bhi wahi the. Chaaron ne use ghar tak chhod diya tha aur ab remaining game-props checklist verify kar rahe the.
 
 “Bhabhi, aaj ka game ‘Survive the Storeroom’ rakhein?” Laksh ne poochha.
 
-“Tumhare liye ‘Keep Quiet for Five Minutes’ zyada challenging hoga,” Tanya ne jawab diya.
+“Tumhare liye ‘Keep Quiet for Five Minutes’ zyada challenging hoga,” Taniya ne jawab diya.
 
 Arjun ne paani ka glass diya. “Seriously, bhabhi. Aaj aapne jitna kaam kiya, kisi ko bhi thakaan ho jaaye. Phir bhi maroon saree mein full event-ready lag rahi ho.”
 
@@ -169,7 +169,7 @@ Arjun ne paani ka glass diya. “Seriously, bhabhi. Aaj aapne jitna kaam kiya, k
 
 Vihaan ne doorbell suni. Chotu cardboard carton aur registration slips lekar khada tha.
 
-“Arey, Chotu!” Tanya ne kaha. “Perfect timing. Tumhari delivery hi reh gayi thi.”
+“Arey, Chotu!” Taniya ne kaha. “Perfect timing. Tumhari delivery hi reh gayi thi.”
 
 “Bhabhi, mujhe sab log Chotu Babu bulate hain. Aap sirf Chotu kyon?”
 
@@ -179,9 +179,9 @@ Laksh turant bol pada, “Bhabhi, hum paanch ki team ho gayi?”
 
 “Bilkul nahi. Tum chaar kaafi ho.”
 
-Chotu ne carton neeche rakha. Tanya usi box par rakhe delivery register mein sign karne jhuki. Pallu ka kinaara side ko saraka aur saree ki pleats thodi hileen; **navel aur stomach ka chhota sa hissa** pal bhar ke liye nazar aaya.
+Chotu ne carton neeche rakha. Taniya usi box par rakhe delivery register mein sign karne jhuki. Pallu ka kinaara side ko saraka aur saree ki pleats thodi hileen; **navel aur stomach ka chhota sa hissa** pal bhar ke liye nazar aaya.
 
-Chotu ne register ki taraf dekhte hue woh badli drape notice ki, phir aankhen neeche kar li. Tanya ne pen rakhkar pallu sambhaala. Usne Chotu ki ek pal ki chuppi pakad li thi.
+Chotu ne register ki taraf dekhte hue woh badli drape notice ki, phir aankhen neeche kar li. Taniya ne pen rakhkar pallu sambhaala. Usne Chotu ki ek pal ki chuppi pakad li thi.
 
 Laksh ne turant chheda, “Chotu bhai, signature ho gaya. Ab bhi bill padh rahe ho?”
 
@@ -191,31 +191,31 @@ Laksh ne turant chheda, “Chotu bhai, signature ho gaya. Ab bhi bill padh rahe 
 
 Arjun hansa. “Bhabhi ke saamne sabka viva ho raha hai.”
 
-Tanya ne aankhen badi ki. “Ek aur word bola na, toh saare cartons tum chaaron uthaaoge. Chotu ko main chai pilaungi.”
+Taniya ne aankhen badi ki. “Ek aur word bola na, toh saare cartons tum chaaron uthaaoge. Chotu ko main chai pilaungi.”
 
 “Dekha!” Laksh ne kaha. “Usko chai aur humein duty!”
 
-“Aur tumhe extra duty,” Tanya ne bina ruke jawab diya.
+“Aur tumhe extra duty,” Taniya ne bina ruke jawab diya.
 
-Sab hans diye. Vihaan ne quietly carton uthaya aur doorway clear kar diya. Usne apne saathiyon ki nazron ka direction notice kiya tha, magar Tanya ke saamne koi alag comment nahi kiya. Arjun ke liye uska confidence hi sabse appealing raha; Dhruv ne uski thakaan aur recovery observe ki; Laksh ko usse ek aur hansi nikaal lena jeet laga.
+Sab hans diye. Vihaan ne quietly carton uthaya aur doorway clear kar diya. Usne apne saathiyon ki nazron ka direction notice kiya tha, magar Taniya ke saamne koi alag comment nahi kiya. Arjun ke liye uska confidence hi sabse appealing raha; Dhruv ne uski thakaan aur recovery observe ki; Laksh ko usse ek aur hansi nikaal lena jeet laga.
 
-Chotu ne payment receipt di aur chala gaya. Tanya ne ek pal socha: *Pehle ye log mujhe chhedte the, main jawaab deti thi. Aaj sab meri aankhon ka reaction bhi padhne lage hain kya?* Usse apni pehle ki ghabraahat aur aaj ke compliments ka fark samajh aa raha tha.
+Chotu ne payment receipt di aur chala gaya. Taniya ne ek pal socha: *Pehle ye log mujhe chhedte the, main jawaab deti thi. Aaj sab meri aankhon ka reaction bhi padhne lage hain kya?* Usse apni pehle ki ghabraahat aur aaj ke compliments ka fark samajh aa raha tha.
 
-Baad mein washroom shelf par **ek personal garment ulte fold mein** rakha dikha. Tanya ne use seedha kiya.
+Baad mein washroom shelf par **ek personal garment ulte fold mein** rakha dikha. Taniya ne use seedha kiya.
 
 “Ye kisne is tarah fold kiya?” woh halki awaaz mein boli, phir socha shayad ghar ke kaam mein kapde ulat gaye honge.
 
-Reader ko Part 3 se pata tha ki **Virendra** ne pehle us item ko bina permission chhua aur jaldi mein alag tarah fold karke rakh diya tha. Tanya ko iska koi andaaza nahi tha.
+Reader ko Part 3 se pata tha ki **Virendra** ne pehle us item ko bina permission chhua aur jaldi mein alag tarah fold karke rakh diya tha. Taniya ko iska koi andaaza nahi tha.
 
 Living room se Laksh ki awaaz aayi: “Bhabhi, next game ki rehearsal cancel?”
 
-Tanya ne muskurakar jawab diya, “Rehearsal cancel nahi. Bas tumhari comedy par fine lagega!”
+Taniya ne muskurakar jawab diya, “Rehearsal cancel nahi. Bas tumhari comedy par fine lagega!”
 
 ### CLOSING CUT — CHOTU
 
 Raat ko convenience store bandh karte waqt Chotu ne receipts sort ki. Bansal, Sinha, Mehta aur Arora—chaar alag ghar, chaar familiar women, aur do din mein kuch aise awkward pauses jo uske liye naye the.
 
-Ankita ke confidence ke saamne woh apni zubaan kho baitha tha. Shivani ki sharmili muskaan aur phir invoice wala excuse use yaad tha. Shreya ke boutique mein hansi-mazaak ne tension turant halka kar diya. Tanya ke ghar mein toh chaar devaron ne uski ek pal ki chuppi bhi joke bana di.
+Ankita ke confidence ke saamne woh apni zubaan kho baitha tha. Shivani ki sharmili muskaan aur phir invoice wala excuse use yaad tha. Shreya ke boutique mein hansi-mazaak ne tension turant halka kar diya. Taniya ke ghar mein toh chaar devaron ne uski ek pal ki chuppi bhi joke bana di.
 
 Chotu ne receipts band kar di. Usse kisi ghar ke **missing ya displaced private garments** ke baare mein kuch nahi pata tha. Woh sirf apni deliveries jaanta tha; chaaron auraton ke alag andarooni sawaal nahi.
 

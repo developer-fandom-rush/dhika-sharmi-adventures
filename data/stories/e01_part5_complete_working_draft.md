@@ -7,7 +7,7 @@
 - `data/stories/e01_part5_chotu_four_tracks_draft.md`
 - `data/stories/e01_part5_continuation_four_chotu_followups_draft.md`
 
-**Reading order:** Saturday: Ankita → Shivani. Sunday: Shivani → Ankita → Tanya → Shreya → Shreya again → Chotu night reflection. Monday: Tanya cleanup.
+**Reading order:** Saturday: Ankita → Shivani. Sunday: Shivani → Ankita → Taniya → Shreya → Shreya again → Chotu night reflection. Monday: Taniya cleanup.
 
 ---
 
@@ -231,13 +231,13 @@ Aur laundry complaint ka jawaab abhi tak nahi aaya tha.
 
 ---
 
-### TANYA — Sunday, 12:50 PM · Arora Apartment
+### TANIYA — Sunday, 12:50 PM · Arora Apartment
 
-Storeroom mein subah teen mishaps hone ke baad Tanya ne khud ko finally sofa par bithaya. Maroon saree ka pallu usne phir se pin kiya tha; nape par paseene ki halki nami thi. Vihaan, Arjun, Dhruv aur Laksh abhi bhi wahi the. Chaaron ne use ghar tak chhod diya tha aur ab remaining game-props checklist verify kar rahe the.
+Storeroom mein subah teen mishaps hone ke baad Taniya ne khud ko finally sofa par bithaya. Maroon saree ka pallu usne phir se pin kiya tha; nape par paseene ki halki nami thi. Vihaan, Arjun, Dhruv aur Laksh abhi bhi wahi the. Chaaron ne use ghar tak chhod diya tha aur ab remaining game-props checklist verify kar rahe the.
 
 “Bhabhi, aaj ka game ‘Survive the Storeroom’ rakhein?” Laksh ne poochha.
 
-“Tumhare liye ‘Keep Quiet for Five Minutes’ zyada challenging hoga,” Tanya ne jawab diya.
+“Tumhare liye ‘Keep Quiet for Five Minutes’ zyada challenging hoga,” Taniya ne jawab diya.
 
 Arjun ne paani ka glass diya. “Seriously, bhabhi. Aaj aapne jitna kaam kiya, kisi ko bhi thakaan ho jaaye. Phir bhi maroon saree mein full event-ready lag rahi ho.”
 
@@ -245,7 +245,7 @@ Arjun ne paani ka glass diya. “Seriously, bhabhi. Aaj aapne jitna kaam kiya, k
 
 Vihaan ne doorbell suni. Chotu cardboard carton aur registration slips lekar khada tha.
 
-“Arey, Chotu!” Tanya ne kaha. “Perfect timing. Tumhari delivery hi reh gayi thi.”
+“Arey, Chotu!” Taniya ne kaha. “Perfect timing. Tumhari delivery hi reh gayi thi.”
 
 “Bhabhi, mujhe sab log Chotu Babu bulate hain. Aap sirf Chotu kyon?”
 
@@ -255,9 +255,9 @@ Laksh turant bol pada, “Bhabhi, hum paanch ki team ho gayi?”
 
 “Bilkul nahi. Tum chaar kaafi ho.”
 
-Chotu ne carton neeche rakha. Tanya usi box par rakhe delivery register mein sign karne jhuki. Pallu ka kinaara side ko saraka aur saree ki pleats thodi hileen; **navel aur stomach ka chhota sa hissa** pal bhar ke liye nazar aaya.
+Chotu ne carton neeche rakha. Taniya usi box par rakhe delivery register mein sign karne jhuki. Pallu ka kinaara side ko saraka aur saree ki pleats thodi hileen; **navel aur stomach ka chhota sa hissa** pal bhar ke liye nazar aaya.
 
-Chotu ne register ki taraf dekhte hue woh badli drape notice ki, phir aankhen neeche kar li. Tanya ne pen rakhkar pallu sambhaala. Usne Chotu ki ek pal ki chuppi pakad li thi.
+Chotu ne register ki taraf dekhte hue woh badli drape notice ki, phir aankhen neeche kar li. Taniya ne pen rakhkar pallu sambhaala. Usne Chotu ki ek pal ki chuppi pakad li thi.
 
 Laksh ne turant chheda, “Chotu bhai, signature ho gaya. Ab bhi bill padh rahe ho?”
 
@@ -267,25 +267,25 @@ Laksh ne turant chheda, “Chotu bhai, signature ho gaya. Ab bhi bill padh rahe 
 
 Arjun hansa. “Bhabhi ke saamne sabka viva ho raha hai.”
 
-Tanya ne aankhen badi ki. “Ek aur word bola na, toh saare cartons tum chaaron uthaaoge. Chotu ko main chai pilaungi.”
+Taniya ne aankhen badi ki. “Ek aur word bola na, toh saare cartons tum chaaron uthaaoge. Chotu ko main chai pilaungi.”
 
 “Dekha!” Laksh ne kaha. “Usko chai aur humein duty!”
 
-“Aur tumhe extra duty,” Tanya ne bina ruke jawab diya.
+“Aur tumhe extra duty,” Taniya ne bina ruke jawab diya.
 
-Sab hans diye. Vihaan ne quietly carton uthaya aur doorway clear kar diya. Usne apne saathiyon ki nazron ka direction notice kiya tha, magar Tanya ke saamne koi alag comment nahi kiya. Arjun ke liye uska confidence hi sabse appealing raha; Dhruv ne uski thakaan aur recovery observe ki; Laksh ko usse ek aur hansi nikaal lena jeet laga.
+Sab hans diye. Vihaan ne quietly carton uthaya aur doorway clear kar diya. Usne apne saathiyon ki nazron ka direction notice kiya tha, magar Taniya ke saamne koi alag comment nahi kiya. Arjun ke liye uska confidence hi sabse appealing raha; Dhruv ne uski thakaan aur recovery observe ki; Laksh ko usse ek aur hansi nikaal lena jeet laga.
 
-Chotu ne payment receipt di aur chala gaya. Tanya ne ek pal socha: *Pehle ye log mujhe chhedte the, main jawaab deti thi. Aaj sab meri aankhon ka reaction bhi padhne lage hain kya?* Usse apni pehle ki ghabraahat aur aaj ke compliments ka fark samajh aa raha tha.
+Chotu ne payment receipt di aur chala gaya. Taniya ne ek pal socha: *Pehle ye log mujhe chhedte the, main jawaab deti thi. Aaj sab meri aankhon ka reaction bhi padhne lage hain kya?* Usse apni pehle ki ghabraahat aur aaj ke compliments ka fark samajh aa raha tha.
 
-Baad mein washroom shelf par **ek personal garment ulte fold mein** rakha dikha. Tanya ne use seedha kiya.
+Baad mein washroom shelf par **ek personal garment ulte fold mein** rakha dikha. Taniya ne use seedha kiya.
 
 “Ye kisne is tarah fold kiya?” woh halki awaaz mein boli, phir socha shayad ghar ke kaam mein kapde ulat gaye honge.
 
-Reader ko Part 3 se pata tha ki **Virendra** ne pehle us item ko bina permission chhua aur jaldi mein alag tarah fold karke rakh diya tha. Tanya ko iska koi andaaza nahi tha.
+Reader ko Part 3 se pata tha ki **Virendra** ne pehle us item ko bina permission chhua aur jaldi mein alag tarah fold karke rakh diya tha. Taniya ko iska koi andaaza nahi tha.
 
 Living room se Laksh ki awaaz aayi: “Bhabhi, next game ki rehearsal cancel?”
 
-Tanya ne muskurakar jawab diya, “Rehearsal cancel nahi. Bas tumhari comedy par fine lagega!”
+Taniya ne muskurakar jawab diya, “Rehearsal cancel nahi. Bas tumhari comedy par fine lagega!”
 
 ---
 
@@ -414,7 +414,7 @@ Use achcha laga ki log uske kaam ke alaawa uske chhipe hue shauk bhi notice kar 
 
 Raat ko convenience store bandh karte waqt Chotu ne receipts sort ki. Bansal, Sinha, Mehta aur Arora—chaar alag ghar, chaar familiar women, aur do din mein kuch aise awkward pauses jo uske liye naye the.
 
-Ankita ke confidence ke saamne woh apni zubaan kho baitha tha. Shivani ki sharmili muskaan aur phir invoice wala excuse use yaad tha. Shreya ke boutique mein hansi-mazaak ne tension turant halka kar diya. Tanya ke ghar mein toh chaar devaron ne uski ek pal ki chuppi bhi joke bana di.
+Ankita ke confidence ke saamne woh apni zubaan kho baitha tha. Shivani ki sharmili muskaan aur phir invoice wala excuse use yaad tha. Shreya ke boutique mein hansi-mazaak ne tension turant halka kar diya. Taniya ke ghar mein toh chaar devaron ne uski ek pal ki chuppi bhi joke bana di.
 
 Chotu ne receipts band kar di. Usse kisi ghar ke **missing ya displaced private garments** ke baare mein kuch nahi pata tha. Woh sirf apni deliveries jaanta tha; chaaron auraton ke alag andarooni sawaal nahi.
 
@@ -422,12 +422,12 @@ Aur chaaron gharon mein, din ki normal routines ke beech, ek-ek chhota sawaal bi
 
 ---
 
-### Tanya — Five Against One
+### Taniya — Five Against One
 *Monday · 11 AM · Clubhouse Cleanup*
 
 Wedding event khatam ho chuka tha, lekin clubhouse mein abhi bhi samaan ke boxes rakhe the.
 
-Tanya ne clipboard uthaya.
+Taniya ne clipboard uthaya.
 
 “Vihaan, Arjun, Dhruv, Laksh! Tum chaaron kal wedding games ke heroes the. Aaj cleanup se bhaag kyun rahe ho?”
 
@@ -441,15 +441,15 @@ Sab hans pade.
 
 Tabhi Chotu khaali cartons lene aaya.
 
-“Good morning, Tanya didi.”
+“Good morning, Taniya didi.”
 
 “Arey Chotu! Tum aa gaye. At least ek responsible ladka toh hai yahan.”
 
 Arjun ne turant kaha, “Bhabhi, hum chaaron ki insult ho rahi hai!”
 
-Tanya hansi. “Insult nahi, performance evaluation.”
+Taniya hansi. “Insult nahi, performance evaluation.”
 
-Chotu ne bade cartons uthaane shuru kiye. Tanya ek table ke paas khadi hokar use labels bata rahi thi.
+Chotu ne bade cartons uthaane shuru kiye. Taniya ek table ke paas khadi hokar use labels bata rahi thi.
 
 Kal ki storeroom ghatna ke baad woh saavdhaani se chal rahi thi. Laksh ne bhi yaad dilaya:
 
@@ -461,11 +461,11 @@ Sab phir hans pade.
 
 Chotu kuch der chupchaap kaam karta raha.
 
-Tanya ne poochha, “Kya hua? Tum bhi inke jokes se darr gaye?”
+Taniya ne poochha, “Kya hua? Tum bhi inke jokes se darr gaye?”
 
 “Nahi didi. Bas aap kal se itna kaam kar rahi ho. Thakti nahi?”
 
-Tanya ek pal ko ruki.
+Taniya ek pal ko ruki.
 
 “Thakti hoon, Chotu. Bas in chaaron ke saamne admit nahi karti.”
 
@@ -477,7 +477,7 @@ Arjun ne mazaak mein kaha, “Chotu ko fifth devar bana lo. Team strong ho jayeg
 
 Laksh turant bola, “Nahi bhai, phir favourite bhabhi ka favourite devar competition badh jayega.”
 
-Tanya ne clipboard band kar diya.
+Taniya ne clipboard band kar diya.
 
 “Bas! Ab jo sabse pehle boxes finish karega, usko chai milegi.”
 
@@ -487,7 +487,7 @@ Tanya ne clipboard band kar diya.
 
 Kaam phir shuru ho gaya.
 
-Tanya ko unke saath ki familiar teasing achchi lag rahi thi. Lekin kal ke kuch achanak kareeb aaye kshan bhi use yaad the—khaaskar jab sabhi use girne se bachaane daude the.
+Taniya ko unke saath ki familiar teasing achchi lag rahi thi. Lekin kal ke kuch achanak kareeb aaye kshan bhi use yaad the—khaaskar jab sabhi use girne se bachaane daude the.
 
 Woh nahi jaanti thi ki kis ladke ke mann mein kaun-si chhoti baat reh gayi hai.
 

@@ -315,9 +315,9 @@ FWFS-E01-P02-SH-L039Shreya ne dono ko thank you kaha aur lawn se ghar ki taraf c
 
 ---
 
-### TANYA
+### TANIYA
 
-FWFS-E01-P02-T-L001Shaam dhal rahi thi. Wedding entrance ban chuka tha, lawn mein music rehearse ho raha tha, aur clubhouse ke table par game cards ka rang-biranga dher laga tha. Tanya Arora ne darwaaza khola—maroon stole ka ek kona shoulder se phisla, jisey usne bina soch sambhaal liya. Saamne chaar familiar faces kisi great college debate ke jaise ek-doosre par bol rahe the. Sabne use dekha toh room ka mood palat gaya.
+FWFS-E01-P02-T-L001Shaam dhal rahi thi. Wedding entrance ban chuka tha, lawn mein music rehearse ho raha tha, aur clubhouse ke table par game cards ka rang-biranga dher laga tha. Taniya Arora ne darwaaza khola—maroon stole ka ek kona shoulder se phisla, jisey usne bina soch sambhaal liya. Saamne chaar familiar faces kisi great college debate ke jaise ek-doosre par bol rahe the. Sabne use dekha toh room ka mood palat gaya.
 
 FWFS-E01-P02-T-L002Tanya: Wonderful. Main games review karne aayi thi aur yahan college canteen ka extension mil gaya.
 
@@ -327,15 +327,15 @@ FWFS-E01-P02-T-L004Vihaan: Thirty-six question cards banaye hain. Categories app
 
 FWFS-E01-P02-T-L005Tanya: Thirty-six? Wedding game hai, UPSC exam nahi.
 
-FWFS-E01-P02-T-L006Vihaan Arora, Dev ka younger cousin aur Tanya ka cousin-devar tha. Arjun Mehta, Samar ka cousin aur Shreya ka devar; Dhruv Sinha, Aditya ka cousin aur Shivani ka devar; Laksh Bansal, Ritvik ka cousin aur Ankita ka devar. Chaaron nineteen-year-old adults, ek hi college mein BBA marketing padhte aur bachpan se family functions mein milte aaye the. Har bhabhi se unki pehchaan thi; Tanya ke saath six months ki mentoring ne bond alag bana diya tha.
+FWFS-E01-P02-T-L006Vihaan Arora, Dev ka younger cousin aur Taniya ka cousin-devar tha. Arjun Mehta, Samar ka cousin aur Shreya ka devar; Dhruv Sinha, Aditya ka cousin aur Shivani ka devar; Laksh Bansal, Ritvik ka cousin aur Ankita ka devar. Chaaron nineteen-year-old adults, ek hi college mein BBA marketing padhte aur bachpan se family functions mein milte aaye the. Har bhabhi se unki pehchaan thi; Taniya ke saath six months ki mentoring ne bond alag bana diya tha.
 
-FWFS-E01-P02-T-L007Vihaan naturally leader banta; Arjun har cheez mein colour aur style dhoondhta; Dhruv sabse quiet, par aksar sahi sawaal wahi poochhta; Laksh toh serious conversation ko bhi doodle bana deta. Tanya un chaaron ko naam se nahi, unke expressions se samajh leti thi. Aur chaaron ko pata tha—Tanya bhabhi unke jokes ka jawab bhi unhi ki language mein deti hai.
+FWFS-E01-P02-T-L007Vihaan naturally leader banta; Arjun har cheez mein colour aur style dhoondhta; Dhruv sabse quiet, par aksar sahi sawaal wahi poochhta; Laksh toh serious conversation ko bhi doodle bana deta. Taniya un chaaron ko naam se nahi, unke expressions se samajh leti thi. Aur chaaron ko pata tha—Taniya bhabhi unke jokes ka jawab bhi unhi ki language mein deti hai.
 
 FWFS-E01-P02-T-L008Arjun: Bhabhi, ek baat kahun? Aaj aapka look ekdum campaign cover jaisa hai. Honestly, hamare college fest ka poster aap hoti toh sab ruk kar dekhte.
 
 FWFS-E01-P02-T-L009Tanya: Toh poster improve karo. Compliment se poor product nahi bachega.
 
-FWFS-E01-P02-T-L010Laksh: Laksh ne haath jod diye. 'One compliment, one performance review!' Tanya hans padi. Arjun ne bhi hansi mein uski taraf dekha, lekin uske liye woh ek genuine compliment tha, sirf mazaak nahi.
+FWFS-E01-P02-T-L010Laksh: Laksh ne haath jod diye. 'One compliment, one performance review!' Taniya hans padi. Arjun ne bhi hansi mein uski taraf dekha, lekin uske liye woh ek genuine compliment tha, sirf mazaak nahi.
 
 FWFS-E01-P02-T-L011Tanya khud marketing consultant thi—brands ko audience samajhne, campaign plan karne aur message ko engaging banane mein help karti thi. Kaam ki baat aate hi uski awaaz firm ho jaati, lekin in chaaron ke saath woh har instruction ko lecture nahi banne deti. Khaas kar Arjun ki tareef sun kar usne ek pal ko apna stole theek kiya, phir cards utha liye.
 
@@ -345,7 +345,7 @@ FWFS-E01-P02-T-L013Dhruv: Humne private questions remove kiye. Har card pe pass 
 
 FWFS-E01-P02-T-L014Tanya: Good. Jo comfortable nahi, unko reason dene ki bhi zaroorat nahi.
 
-FWFS-E01-P02-T-L015Ira Arora lemonade lekar andar aayi. Dev ki twenty-nine-year-old chhoti behen, Tanya ki nanad, public mein zyada nahi bolti thi. Lekin bhabhi ko chhedne ke liye uski ek nazar hi kaafi thi. Usne pehle Arjun ki khushi dekhi, phir Tanya ka carefully straightened stole, aur bina hansi roke table par tray rakhi.
+FWFS-E01-P02-T-L015Ira Arora lemonade lekar andar aayi. Dev ki twenty-nine-year-old chhoti behen, Taniya ki nanad, public mein zyada nahi bolti thi. Lekin bhabhi ko chhedne ke liye uski ek nazar hi kaafi thi. Usne pehle Arjun ki khushi dekhi, phir Taniya ka carefully straightened stole, aur bina hansi roke table par tray rakhi.
 
 FWFS-E01-P02-T-L016Ira: Marketing class chal rahi hai ya favourite-bhabhi appreciation meeting?
 
@@ -353,11 +353,11 @@ FWFS-E01-P02-T-L017Tanya: Tu meri side par hai ya inki?
 
 FWFS-E01-P02-T-L018Ira: Sach ki side par. Arjun ne tareef ki aur tumne uska campaign reject kar diya.
 
-FWFS-E01-P02-T-L019Sab hans pade. Tanya ne serious face banaye rakha, par aankhon ke kone already muskura rahe the. Yeh chaaron uske liye naye log nahi the. Family dinners, exam weeks aur project rehearsals se unke beech itni easy familiarity ban gayi thi ki awkward silence bhi kabhi-kabhi mazaak ban jaata.
+FWFS-E01-P02-T-L019Sab hans pade. Taniya ne serious face banaye rakha, par aankhon ke kone already muskura rahe the. Yeh chaaron uske liye naye log nahi the. Family dinners, exam weeks aur project rehearsals se unke beech itni easy familiarity ban gayi thi ki awkward silence bhi kabhi-kabhi mazaak ban jaata.
 
-FWFS-E01-P02-T-L020READER-ONLY · Tanya: Tanya ko in chaaron ka shor pasand tha, kyunki use woh nervous boys yaad the jo pehle uske saamne practice bhi nahi kar paate the. Ab woh usse bilkul apni favourite bhabhi ki tarah argue karte. Kabhi-kabhi unki tareef use pleasantly surprise karti, lekin woh unhe family warmth aur gratitude samajh kar hans deti. Boys ke andar chalti personal feelings usse nazar nahi aati thi.
+FWFS-E01-P02-T-L020READER-ONLY · Taniya: Taniya ko in chaaron ka shor pasand tha, kyunki use woh nervous boys yaad the jo pehle uske saamne practice bhi nahi kar paate the. Ab woh usse bilkul apni favourite bhabhi ki tarah argue karte. Kabhi-kabhi unki tareef use pleasantly surprise karti, lekin woh unhe family warmth aur gratitude samajh kar hans deti. Boys ke andar chalti personal feelings usse nazar nahi aati thi.
 
-FWFS-E01-P02-T-L021The first card asked couples to reveal an embarrassing habit of their partners. Tanya crossed out the question and wrote a new one: Tell us one small kindness your partner does that others might not know. Vihaan nodded and rewrote the category.
+FWFS-E01-P02-T-L021The first card asked couples to reveal an embarrassing habit of their partners. Taniya crossed out the question and wrote a new one: Tell us one small kindness your partner does that others might not know. Vihaan nodded and rewrote the category.
 
 FWFS-E01-P02-T-L022Vihaan: Same fun, but more positive. Yeh better hai.
 
@@ -367,19 +367,19 @@ FWFS-E01-P02-T-L024Arjun: Most stylish guest ka award bhi rakhein? Mere paas per
 
 FWFS-E01-P02-T-L025Ira: Apna naam likh diya hoga.
 
-FWFS-E01-P02-T-L026Arjun: Nahi. Tanya bhabhi.
+FWFS-E01-P02-T-L026Arjun: Nahi. Taniya bhabhi.
 
 FWFS-E01-P02-T-L027Tanya: Rejected. Family loyalty is not audience research.
 
-FWFS-E01-P02-T-L028Chhe mahine pehle college marketing festival mein Vihaan itna nervous tha ki slides tez-tez change kar raha tha. Arjun tagline mein uljha tha, Dhruv ki research koi sun hi nahi raha tha aur Laksh jokes se gaps bhar raha tha. First mock pitch buri tarah fail hui thi. Woh shaam chaaron ne Tanya ko call kiya tha—aur woh unhe daantne ke bajay ghar bula laayi thi.
+FWFS-E01-P02-T-L028Chhe mahine pehle college marketing festival mein Vihaan itna nervous tha ki slides tez-tez change kar raha tha. Arjun tagline mein uljha tha, Dhruv ki research koi sun hi nahi raha tha aur Laksh jokes se gaps bhar raha tha. First mock pitch buri tarah fail hui thi. Woh shaam chaaron ne Taniya ko call kiya tha—aur woh unhe daantne ke bajay ghar bula laayi thi.
 
-FWFS-E01-P02-T-L029Do weekends uski dining table par unki practice hui. Tanya ne unke slides khud nahi banaye. Usne ek-ek se poochha, 'Customer ko tumhari zaroorat kyun?' Jab final presentation mein chaaron confident khade hue, sabse loud cheer Tanya ka tha. Tab se 'favourite bhabhi' unke liye sirf nickname nahi, ek purani gratitude thi.
+FWFS-E01-P02-T-L029Do weekends uski dining table par unki practice hui. Taniya ne unke slides khud nahi banaye. Usne ek-ek se poochha, 'Customer ko tumhari zaroorat kyun?' Jab final presentation mein chaaron confident khade hue, sabse loud cheer Taniya ka tha. Tab se 'favourite bhabhi' unke liye sirf nickname nahi, ek purani gratitude thi.
 
 FWFS-E01-P02-T-L030Vihaan: Bhabhi, aapne humara first pitch bachaya tha. Kal ke games bhi aap hi rescue karogi.
 
 FWFS-E01-P02-T-L031Tanya: Rescue unko milti hai jo pehle khud kaam karte hain. Ab questions khatam karo.
 
-FWFS-E01-P02-T-L032READER-ONLY · Vihaan: Vihaan Tanya ki confident presence se us din se drawn tha jab usne sabke saamne uski mistake ko joke nahi banaya. Uski praise aur smile Vihaan ko unusual importance dene lagi thi; kabhi woh extra question sirf ek aur moment ke liye poochhta. Woh family bond ki boundary samajhta tha, isliye apni feeling kisi se share nahi karta. Tanya use improving young leader ki tarah dekhti rahi.
+FWFS-E01-P02-T-L032READER-ONLY · Vihaan: Vihaan Taniya ki confident presence se us din se drawn tha jab usne sabke saamne uski mistake ko joke nahi banaya. Uski praise aur smile Vihaan ko unusual importance dene lagi thi; kabhi woh extra question sirf ek aur moment ke liye poochhta. Woh family bond ki boundary samajhta tha, isliye apni feeling kisi se share nahi karta. Taniya use improving young leader ki tarah dekhti rahi.
 
 FWFS-E01-P02-T-L033Dhruv checked another prompt about first impressions and suggested the option to skip if guests considered it too personal.
 
@@ -391,11 +391,11 @@ FWFS-E01-P02-T-L036Laksh: Dhruv ka quote college noticeboard par jayega.
 
 FWFS-E01-P02-T-L037Dhruv: Spelling check kar lena.
 
-FWFS-E01-P02-T-L038Tanya ne Dhruv ki taraf dekha. Woh jab bolta tha toh zyada shabd nahi, magar har baar kisi ki comfort ke baare mein soch leta. Tanya ki smile is baar teasing nahi, genuinely warm thi. Dhruv ne notebook mein nazar jhuka li; use us expression ko thoda aur dekhne ki ichchha hui thi.
+FWFS-E01-P02-T-L038Tanya ne Dhruv ki taraf dekha. Woh jab bolta tha toh zyada shabd nahi, magar har baar kisi ki comfort ke baare mein soch leta. Taniya ki smile is baar teasing nahi, genuinely warm thi. Dhruv ne notebook mein nazar jhuka li; use us expression ko thoda aur dekhne ki ichchha hui thi.
 
-FWFS-E01-P02-T-L039READER-ONLY · Dhruv: Dhruv Tanya ke jokes se nahi, unke peeche ki thoughtful woman se attract hota tha. Usse yaad tha kaise rehearsals mein Tanya sabse shy member se pehle poochhti thi ki woh bolna chahta bhi hai ya nahi. Tanya ki nazar mein woh ab bhi dependable young cousin tha; uski unsaid attraction ki ek bhi line room se bahar nahi nikli.
+FWFS-E01-P02-T-L039READER-ONLY · Dhruv: Dhruv Taniya ke jokes se nahi, unke peeche ki thoughtful woman se attract hota tha. Usse yaad tha kaise rehearsals mein Taniya sabse shy member se pehle poochhti thi ki woh bolna chahta bhi hai ya nahi. Taniya ki nazar mein woh ab bhi dependable young cousin tha; uski unsaid attraction ki ek bhi line room se bahar nahi nikli.
 
-FWFS-E01-P02-T-L040Ira appointed herself judge, Vihaan took the timer, Arjun became mock host and Laksh played a pretend guest. Before Tanya could escape, they seated her in the middle as a test participant.
+FWFS-E01-P02-T-L040Ira appointed herself judge, Vihaan took the timer, Arjun became mock host and Laksh played a pretend guest. Before Taniya could escape, they seated her in the middle as a test participant.
 
 FWFS-E01-P02-T-L041Tanya: Main host hoon. Tum mujhe contestant kyun bana rahe ho?
 
@@ -403,9 +403,9 @@ FWFS-E01-P02-T-L042Laksh: User testing, bhabhi. Apna product khud test karna hot
 
 FWFS-E01-P02-T-L043Ira: I hate to admit it, but this is sound marketing logic.
 
-FWFS-E01-P02-T-L044Arjun: First prompt. Ek quality jo kisi mein sabse pehle notice ki ho. Main shuru karta hoon: Tanya bhabhi ki woh smile, jis se lagta hai bhale tumne galti ki ho, abhi duniya khatam nahi hui. And she never makes anyone feel small.
+FWFS-E01-P02-T-L044Arjun: First prompt. Ek quality jo kisi mein sabse pehle notice ki ho. Main shuru karta hoon: Taniya bhabhi ki woh smile, jis se lagta hai bhale tumne galti ki ho, abhi duniya khatam nahi hui. And she never makes anyone feel small.
 
-FWFS-E01-P02-T-L045Arjun ka tone is baar bilkul serious tha. Tanya ka ready-made comeback ek pal ko kho gaya. Usne Arjun ko dekha, phir haste hue apni aankhen glass par le aayi. Ira ne sab notice kiya; usne turant koi comment nahi kiya.
+FWFS-E01-P02-T-L045Arjun ka tone is baar bilkul serious tha. Taniya ka ready-made comeback ek pal ko kho gaya. Usne Arjun ko dekha, phir haste hue apni aankhen glass par le aayi. Ira ne sab notice kiya; usne turant koi comment nahi kiya.
 
 FWFS-E01-P02-T-L046Tanya: Unexpectedly sensible. Tumhe points milenge.
 
@@ -413,11 +413,11 @@ FWFS-E01-P02-T-L047Arjun: Kabhi-kabhi real compliment bhi de sakta hoon, bhabhi.
 
 FWFS-E01-P02-T-L048Tanya: Bas roz ka quota mat banana.
 
-FWFS-E01-P02-T-L049READER-ONLY · Arjun: Arjun ko Tanya ka style pehle din se attractive lagta tha, isliye uski tareef karna uske liye easy tha. Mushkil tab hoti jab Tanya bina mazaak ke muskurati. Aaj usne uski kindness ki sincere baat ki aur us ek silent second ko yaad rakh liya. Tanya ne bas appreciate kiya; Arjun ki private feelings ka asar uski samajh mein abhi tak nahi aaya.
+FWFS-E01-P02-T-L049READER-ONLY · Arjun: Arjun ko Taniya ka style pehle din se attractive lagta tha, isliye uski tareef karna uske liye easy tha. Mushkil tab hoti jab Taniya bina mazaak ke muskurati. Aaj usne uski kindness ki sincere baat ki aur us ek silent second ko yaad rakh liya. Taniya ne bas appreciate kiya; Arjun ki private feelings ka asar uski samajh mein abhi tak nahi aaya.
 
-FWFS-E01-P02-T-L050Laksh turned around a hand-drawn card. It showed a stern Tanya in the middle of four helpless students carrying colourful posters.
+FWFS-E01-P02-T-L050Laksh turned around a hand-drawn card. It showed a stern Taniya in the middle of four helpless students carrying colourful posters.
 
-FWFS-E01-P02-T-L051Ira: Yeh Tanya bhabhi hai ya school principal?
+FWFS-E01-P02-T-L051Ira: Yeh Taniya bhabhi hai ya school principal?
 
 FWFS-E01-P02-T-L052Laksh: Favourite bhabhi, marketing mentor and unpaid creative director.
 
@@ -427,13 +427,13 @@ FWFS-E01-P02-T-L054Laksh: Next project mein bhi chai chalegi?
 
 FWFS-E01-P02-T-L055Tanya: Next project mein completed assignment chahiye. Chai bonus.
 
-FWFS-E01-P02-T-L056Laksh ne cartoon par uski smile thodi aur badi bana di. Tanya usse hans kar daant rahi thi, aur Laksh khud bhi muskura raha tha. Room mein sabko yeh usual banter laga. Laksh ke liye, har baar use hansa lena ek chhoti personal victory ban chuki thi.
+FWFS-E01-P02-T-L056Laksh ne cartoon par uski smile thodi aur badi bana di. Taniya usse hans kar daant rahi thi, aur Laksh khud bhi muskura raha tha. Room mein sabko yeh usual banter laga. Laksh ke liye, har baar use hansa lena ek chhoti personal victory ban chuki thi.
 
-FWFS-E01-P02-T-L057READER-ONLY · Laksh: Laksh ke jokes ka asli target kabhi award jeetna nahi tha; woh Tanya ki khulkar nikli hansi sunna chahta tha. Usne is private liking ko kabhi seriously naam nahi diya. Tanya usse ab bhi wahi mischievous younger cousin samajhti thi jiske jokes ke saath deadline bhi deni padti hai.
+FWFS-E01-P02-T-L057READER-ONLY · Laksh: Laksh ke jokes ka asli target kabhi award jeetna nahi tha; woh Taniya ki khulkar nikli hansi sunna chahta tha. Usne is private liking ko kabhi seriously naam nahi diya. Taniya usse ab bhi wahi mischievous younger cousin samajhti thi jiske jokes ke saath deadline bhi deni padti hai.
 
 FWFS-E01-P02-T-L058They shortened thirty-six cards to twelve. Dhruv finalised the rules, Vihaan checked timing, Arjun sorted colour labels and Laksh tested the timer. The wedding game now had a workable plan rather than a list of embarrassing dares.
 
-FWFS-E01-P02-T-L059Cards scan karne ke liye boys ko table par chhodkar Ira Tanya ko balcony mein le gayi. Neeche lawn ki lights jal rahi thi. Tanya ne thoda jhukkar railing par kohni rakhi, aur Ira ne uski taraf dekha. Bheed mein confident Tanya, do logon ke beech kabhi-kabhi bilkul narm ho jaati thi.
+FWFS-E01-P02-T-L059Cards scan karne ke liye boys ko table par chhodkar Ira Taniya ko balcony mein le gayi. Neeche lawn ki lights jal rahi thi. Taniya ne thoda jhukkar railing par kohni rakhi, aur Ira ne uski taraf dekha. Bheed mein confident Taniya, do logon ke beech kabhi-kabhi bilkul narm ho jaati thi.
 
 FWFS-E01-P02-T-L060Ira: Tum un chaaron ke saath itni patience kaise rakhti ho?
 
@@ -443,7 +443,7 @@ FWFS-E01-P02-T-L062Ira: Isliye tum inko seriously leti ho, even jab woh silly be
 
 FWFS-E01-P02-T-L063Tanya: Haan. Lekin homework maaf nahi.
 
-FWFS-E01-P02-T-L064Ira hansi. Usse pata tha Tanya ki jokes ke peeche kuch purani disappointments bhi hain. Ira public mein quieter thi, par apni bhabhi ko samajhne ke liye use lambi conversation nahi chahiye thi. Usne Tanya ke chehre par aayi chhoti si seriousness ko bhi pehchaan liya.
+FWFS-E01-P02-T-L064Ira hansi. Usse pata tha Taniya ki jokes ke peeche kuch purani disappointments bhi hain. Ira public mein quieter thi, par apni bhabhi ko samajhne ke liye use lambi conversation nahi chahiye thi. Usne Taniya ke chehre par aayi chhoti si seriousness ko bhi pehchaan liya.
 
 FWFS-E01-P02-T-L065Ira: Waise Arjun ne aaj tumhari smile ki jo tareef ki, us par tum sach mein ek second sharma gayi thi. Favourite bhabhi ko bhi blush karna aata hai, interesting.
 
@@ -451,11 +451,11 @@ FWFS-E01-P02-T-L066Tanya: Main shock mein thi ki usne joke ke bina poora sentenc
 
 FWFS-E01-P02-T-L067Ira: Of course, bhabhi. Of course.
 
-FWFS-E01-P02-T-L068Tanya ne Ira ke shoulder se shoulder takraaya. 'Zyada expert mat ban,' woh hansi. Ira ki aankhon mein wahi naughtiness thi jo bahar ke chaaron boys ke paas alag-alag tareeke se thi. Bas is baar Tanya ka jawab thoda dheere aaya.
+FWFS-E01-P02-T-L068Tanya ne Ira ke shoulder se shoulder takraaya. 'Zyada expert mat ban,' woh hansi. Ira ki aankhon mein wahi naughtiness thi jo bahar ke chaaron boys ke paas alag-alag tareeke se thi. Bas is baar Taniya ka jawab thoda dheere aaya.
 
-FWFS-E01-P02-T-L069READER-ONLY · Tanya: Tanya ko 'favourite bhabhi' sunna achcha lagta tha, aur uski wajah un chaaron ki purani mehnat aur family closeness thi. Kuch compliments uske funny replies ke baad bhi mann mein reh jaate—jaise Arjun ka serious answer. Lekin abhi woh kisi ka hidden crush nahi dekh rahi thi. Uski married life, apne decisions aur is familiar family bond ke beech koi nayi line usne khud nahi kheenchhi thi.
+FWFS-E01-P02-T-L069READER-ONLY · Taniya: Taniya ko 'favourite bhabhi' sunna achcha lagta tha, aur uski wajah un chaaron ki purani mehnat aur family closeness thi. Kuch compliments uske funny replies ke baad bhi mann mein reh jaate—jaise Arjun ka serious answer. Lekin abhi woh kisi ka hidden crush nahi dekh rahi thi. Uski married life, apne decisions aur is familiar family bond ke beech koi nayi line usne khud nahi kheenchhi thi.
 
-FWFS-E01-P02-T-L070They returned to the room. Tanya approved the twelve-card set and marked PASS IS ALWAYS OKAY at the top of the instructions. The four boys confirmed their wedding-day responsibilities. Ira gathered the lemonade glasses.
+FWFS-E01-P02-T-L070They returned to the room. Taniya approved the twelve-card set and marked PASS IS ALWAYS OKAY at the top of the instructions. The four boys confirmed their wedding-day responsibilities. Ira gathered the lemonade glasses.
 
 FWFS-E01-P02-T-L071Tanya: Kal guests ko fun feel hona chahiye, awkward nahi. Favourite bhabhi ka title free mein nahi milta. Time par aana.
 
@@ -467,7 +467,7 @@ FWFS-E01-P02-T-L074Dhruv: Rules final.
 
 FWFS-E01-P02-T-L075Laksh: Jokes ka guarantee nahi.
 
-FWFS-E01-P02-T-L076Clubhouse mein laughter phir goonj gayi. Sunday ke liye roles final the, lekin chaaron ke dil mein bachi chhoti, unsaid baatein kisi checklist par likhi nahi gayi thi. Tanya ke liye sab apne hi the; reader ko pata tha ki kal ki familiar teasing ab pehle jaisi simple lagegi bhi aur nahi bhi. Part 2 — Tanya yahin close hua.
+FWFS-E01-P02-T-L076Clubhouse mein laughter phir goonj gayi. Sunday ke liye roles final the, lekin chaaron ke dil mein bachi chhoti, unsaid baatein kisi checklist par likhi nahi gayi thi. Taniya ke liye sab apne hi the; reader ko pata tha ki kal ki familiar teasing ab pehle jaisi simple lagegi bhi aur nahi bhi. Part 2 — Taniya yahin close hua.
 
 ---
 

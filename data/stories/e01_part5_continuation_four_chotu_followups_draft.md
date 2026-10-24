@@ -181,12 +181,12 @@ Chotu ke jaane ke baad usne ribbon waala hamper dekha.
 
 Use achcha laga ki log uske kaam ke alaawa uske chhipe hue shauk bhi notice kar rahe the.
 
-## Tanya — Five Against One
+## Taniya — Five Against One
 *Monday · 11 AM · Clubhouse Cleanup*
 
 Wedding event khatam ho chuka tha, lekin clubhouse mein abhi bhi samaan ke boxes rakhe the.
 
-Tanya ne clipboard uthaya.
+Taniya ne clipboard uthaya.
 
 “Vihaan, Arjun, Dhruv, Laksh! Tum chaaron kal wedding games ke heroes the. Aaj cleanup se bhaag kyun rahe ho?”
 
@@ -200,15 +200,15 @@ Sab hans pade.
 
 Tabhi Chotu khaali cartons lene aaya.
 
-“Good morning, Tanya didi.”
+“Good morning, Taniya didi.”
 
 “Arey Chotu! Tum aa gaye. At least ek responsible ladka toh hai yahan.”
 
 Arjun ne turant kaha, “Bhabhi, hum chaaron ki insult ho rahi hai!”
 
-Tanya hansi. “Insult nahi, performance evaluation.”
+Taniya hansi. “Insult nahi, performance evaluation.”
 
-Chotu ne bade cartons uthaane shuru kiye. Tanya ek table ke paas khadi hokar use labels bata rahi thi.
+Chotu ne bade cartons uthaane shuru kiye. Taniya ek table ke paas khadi hokar use labels bata rahi thi.
 
 Kal ki storeroom ghatna ke baad woh saavdhaani se chal rahi thi. Laksh ne bhi yaad dilaya:
 
@@ -220,11 +220,11 @@ Sab phir hans pade.
 
 Chotu kuch der chupchaap kaam karta raha.
 
-Tanya ne poochha, “Kya hua? Tum bhi inke jokes se darr gaye?”
+Taniya ne poochha, “Kya hua? Tum bhi inke jokes se darr gaye?”
 
 “Nahi didi. Bas aap kal se itna kaam kar rahi ho. Thakti nahi?”
 
-Tanya ek pal ko ruki.
+Taniya ek pal ko ruki.
 
 “Thakti hoon, Chotu. Bas in chaaron ke saamne admit nahi karti.”
 
@@ -236,7 +236,7 @@ Arjun ne mazaak mein kaha, “Chotu ko fifth devar bana lo. Team strong ho jayeg
 
 Laksh turant bola, “Nahi bhai, phir favourite bhabhi ka favourite devar competition badh jayega.”
 
-Tanya ne clipboard band kar diya.
+Taniya ne clipboard band kar diya.
 
 “Bas! Ab jo sabse pehle boxes finish karega, usko chai milegi.”
 
@@ -246,7 +246,7 @@ Tanya ne clipboard band kar diya.
 
 Kaam phir shuru ho gaya.
 
-Tanya ko unke saath ki familiar teasing achchi lag rahi thi. Lekin kal ke kuch achanak kareeb aaye kshan bhi use yaad the—khaaskar jab sabhi use girne se bachaane daude the.
+Taniya ko unke saath ki familiar teasing achchi lag rahi thi. Lekin kal ke kuch achanak kareeb aaye kshan bhi use yaad the—khaaskar jab sabhi use girne se bachaane daude the.
 
 Woh nahi jaanti thi ki kis ladke ke mann mein kaun-si chhoti baat reh gayi hai.
 
