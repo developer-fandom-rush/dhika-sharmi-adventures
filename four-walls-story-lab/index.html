@@ -854,10 +854,10 @@
 </section>
 <section class="view" data-view="story-part7-shreya-received-v1" hidden>
 <div class="kicker">FOUR WALLS / EPISODE 01 / PART 7 · GROK STORY READER</div>
-<h1>Part 7 — Shreya · V2 Continuity-Edited Reader</h1>
-<p class="sub">Tuesday, 9:25 AM · Mehta Boutique · Grok V2 preserved; 10 non-graphic continuity edits · 930 actual words · director review pending</p>
-<span class="tag">SHREYA · V2 CONTINUITY EDIT · GROK GRAPHICAL REVIEW PENDING · NOT CANON</span>
-<div class="grok-banner"><b>V2 preservation + director control:</b> Grok V2 raw and previous V1 are archived separately. This edition fixes the Part 6 repeated exit, formal/second pallu-placement sequence, photo setup and capture, scene references, camera wording, phone ownership and typos. Grok-supplied anatomical description and internal reactions were not expanded or rewritten. Original V2: 790 words; continuity edit: 930; target 1,000–1,100 still pending director-approved additions. Genre and pacing are not being re-directed.</div>
+<h1>Part 7 — Shreya · V3 with Five Grok Additions</h1>
+<p class="sub">Tuesday, 9:25 AM · Mehta Boutique · 5 director-supplied Grok additions inserted verbatim · 1,128 story words · final canon review pending</p>
+<span class="tag">SHREYA · FIVE GROK INSERTS ADDED · DIRECTOR CANON REVIEW PENDING</span>
+<div class="grok-banner"><b>Updated Shreya V3:</b> The non-graphic Part 5–6–7 continuity corrections remain as saved. Grok's five director-provided additions A–E have now been inserted verbatim at their specified positions: two visual/observable additions and three Shreya internal-perspective additions. Story-only word count: 911 → 1,128 (+217); all five additions were retained without trimming, exceeding the previous 1,100-word guideline by 28 words. Grok V2 raw, V2 continuity copy, and previous V1 reader remain archived. This is <b>not</b> automatic canon approval.</div>
 <div class="e02-route">
 <button type="button" data-go="story-part6-four-decisions">Part 6 setup</button>
 <button type="button" data-go="story-part7-shreya-grok-v1">Original Grok instructions</button>
@@ -866,8 +866,10 @@
 </div>
 <div class="sourcefoot">
 <a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_v2_raw_received_20261024.md" target="_blank" rel="noopener">Grok V2 raw (unchanged) ↗</a>
-<a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_v2_continuity_edit_20261024.md" target="_blank" rel="noopener">V2 continuity-edited manuscript ↗</a>
-<a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v2.json" target="_blank" rel="noopener">V2 reader JSON + correction log ↗</a>
+<a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_v3_director_grok_inserts_20261024.md" target="_blank" rel="noopener">Read V3 with all 5 Grok additions ↗</a>
+<a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_v2_continuity_edit_20261024.md" target="_blank" rel="noopener">V2 continuity-edited archive ↗</a>
+<a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v3.json" target="_blank" rel="noopener">V3 reader JSON + all 15 editorial entries ↗</a>
+<a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v2.json" target="_blank" rel="noopener">Previous V2 reader archive ↗</a>
 <a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v1.json" target="_blank" rel="noopener">Previous V1 reader archive ↗</a>
 </div>
 <div class="p7-ankita-legend"><b>How to read:</b> The full story keeps its original timeline; switch modes to examine Reader narration, Shreya's close-third experience, Chotu's observable perspective, and each person's exact spoken words separately.</div>
@@ -888,10 +890,10 @@
 </div>
 </details>
 <details class="p7-ankita-transcript">
-<summary>Ten structural continuity fixes — Grok's descriptive passages retained</summary>
+<summary>15 tracked changes: 10 continuity fixes + 5 Grok insertions</summary>
 <div id="p7-shreya-fix-log"></div>
 </details>
-<div class="no-edit-note"><b>Source boundary:</b> Chotu's observable perspective is labelled from received text only. This is not final canon; targeted Grok additions remain outstanding. Part 5 selective-merge Scene 6 explicitly includes the under-bust reference, so it was not removed. The prior V1 and original V2 remain untouched.</div>
+<div class="no-edit-note"><b>Source boundary:</b> All five Grok additions A–E have been integrated as supplied without rewriting their wording. The preceding V2 continuity version and earlier source documents remain untouched. The director must separately decide final Episode 1 canon approval; the Tanya Part 7 scene has not been changed here.</div>
 </section>
 <section class="view" data-view="story-part7-shreya-grok-v1" hidden>
 <div class="kicker">FOUR WALLS / E01 PART 7 / GROK WRITER INSTRUCTIONS</div>
@@ -1897,7 +1899,7 @@ loadP5MergedReader();
 
 
 
-/* Shreya Part 7 continuity-edited Grok V2; V1 and received V2 remain archived. */
+/* Shreya P7 V3: continuity-edited V2 + 5 verbatim director-supplied Grok additions. */
 (function(){
  var host=document.getElementById("p7-shreya-reader"),status=document.getElementById("p7-shreya-reader-status");
  if(!host||!status)return;
@@ -1924,9 +1926,9 @@ loadP5MergedReader();
    render();
   });
  });
- var path=(location.pathname.indexOf("/four-walls-story-lab/")>=0?"../":"./")+"data/stories/e01_part7_shreya_grok_reader_v2.json";
+ var path=(location.pathname.indexOf("/four-walls-story-lab/")>=0?"../":"./")+"data/stories/e01_part7_shreya_grok_reader_v3.json";
  fetch(path,{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(function(d){
-   if(d.schema!=="fwfs.story_reader.v1"||!Array.isArray(d.blocks)||d.blocks.length!==39||d.dialogueSummary.shreya.length!==7||d.dialogueSummary.chotu.length!==5)throw Error("Story completeness or dialogue count mismatch");
+   if(d.schema!=="fwfs.story_reader.v1"||!Array.isArray(d.blocks)||d.blocks.length!==45||d.dialogueSummary.shreya.length!==7||d.dialogueSummary.chotu.length!==5)throw Error("Story completeness or dialogue count mismatch");
    story=d;render();
    [["shreya","p7-shreya-spoken"],["chotu","p7-shreya-chotu-spoken"]].forEach(function(pair){
      var el=document.getElementById(pair[1]);el.textContent="";
@@ -2110,7 +2112,7 @@ function loadAnkitaDraft(key){
 var sourceIndex=null, masterPromise=null, selectedDHIKA=2;
 var storyMenu={
 "00":[["Prologue","story-prologue"]],
-"01":[["Episode 01 · Overview","story-e01-review"],["Part 1","story-part1"],["Part 2 · Complete","story-part2-all"],["Part 3 · Review","story-part3-elders"],["Part 4 · Plans","story-e01-part4-index"],["Part 5 · Merged Reader","story-part5-merged-v1"],["Part 6 · Chaar Faisle","story-part6-four-decisions"],["Part 7 · Shreya (V2 QA)","story-part7-shreya-received-v1"],["Part 7 · Ankita (Current)","story-part7-ankita-revised-v1"],["Part 7 · Shivani (Current)","story-part7-shivani-received-v1"]],
+"01":[["Episode 01 · Overview","story-e01-review"],["Part 1","story-part1"],["Part 2 · Complete","story-part2-all"],["Part 3 · Review","story-part3-elders"],["Part 4 · Plans","story-e01-part4-index"],["Part 5 · Merged Reader","story-part5-merged-v1"],["Part 6 · Chaar Faisle","story-part6-four-decisions"],["Part 7 · Shreya (V3 review)","story-part7-shreya-received-v1"],["Part 7 · Ankita (Current)","story-part7-ankita-revised-v1"],["Part 7 · Shivani (Current)","story-part7-shivani-received-v1"]],
 "02":[["Episode 02 overview","story-e02-hub"],["Ankita · Part 1 (saved)","story-e02-ankita-part1"],["Ankita · Parts 2–3 (150 lines)","story-e02-ankita-p02p03"],["Ankita · Part 4 (80 lines)","story-e02-ankita-p04-reader"],["Ankita · Part 5 (60 lines)","story-e02-ankita-p05-reader"],["Ankita · Part 6 (82 lines) · E02 END","story-e02-ankita-p06-reader"],["Part 4 source/execution plan","story-e02-ankita-p04-plan"]],
 "03":[["Shivani · Part 1 (revised, current)","story-e03-shivani-part1"]]
 };
