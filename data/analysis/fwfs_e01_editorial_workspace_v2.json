@@ -115,7 +115,7 @@
     {
       "id": "P06",
       "title": "Part 6 — Four Decisions",
-      "status": "THREE SOURCE-GROUNDED CONTINUITY CORRECTIONS APPLIED — READER DRAFT",
+      "status": "CONTINUITY-CORRECTED V1 ONLY — NO VERIFIED FULL GROK REWRITE, READER APPROVAL NOT RECORDED",
       "release": "Original Part 6 prose retained with 3 factual timing references corrected in Markdown and Story Lab; remains not final canon.",
       "dhika": "E01-L206–216",
       "strength": "All four women already make intentional decisions about appearance, conversation, help or personal feedback. No missing 'agency' event.",
@@ -168,13 +168,13 @@
     {
       "id": "P07S",
       "title": "Part 7 — Shivani Grok handoff with ending deferred",
-      "status": "WRITER INSTRUCTIONS PUBLISHED · SCENE UNWRITTEN",
-      "release": "Source-grounded 850–900-word prompt with existing Tuesday wardrobe, course visit and mirror/dori setup. Dori snap, apology/exit and private aftermath reserved separately for future continuation.",
+      "status": "EARLIER GROK INSTRUCTIONS ONLY — SUPERSEDED BY LATEST RECEIVED SHIVANI PROSE",
+      "release": "The previously deferred ending belonged to the earlier instruction brief. The user's latest Grok submission includes the ending and is saved separately as current received text, pending continuity review.",
       "source": "data/stories/e01_part7_shivani_grok_instruction_v1.md",
       "future_source": "data/stories/e01_part7_shivani_deferred_ending_v1.md",
       "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-shivani-grok-v1",
       "gap": "Part 7A/B existing drafts still contain the older, longer resolution; no creative acceptance or rewrite has been performed. The future-ending beat is NOT yet canon.",
-      "next": "Copy Grok prompt from Story Lab. Review submitted prose; only after reader approval reconcile the larger Part 7 draft and Chotu closing."
+      "next": "Use P07SHIVANIGROKV1 as sole current Shivani story reader; old instructions are a reference, not another Part 7 story."
     },
     {
       "id": "P07ANK",
@@ -227,13 +227,13 @@
     {
       "id": "P07SHIVANIGROKV1",
       "title": "Part 7 — Shivani original Grok manuscript received",
-      "status": "SOURCE RECEIVED EXACT · UI READER PUBLISHED · CONTINUITY ISSUES UNRESOLVED · NOT FINAL CANON",
+      "status": "SOLE CURRENT RECEIVED SHIVANI PART 7 STORY — SOURCE-EXACT, CONTINUITY REVIEW PENDING",
       "source_original": "data/stories/e01_part7_shivani_grok_raw_received_20261024.md",
       "source_structured": "data/stories/e01_part7_shivani_grok_reader_v1.json",
       "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-shivani-received-v1",
       "content": "Complete user-pasted prose kept verbatim in raw markdown; structured paragraph attribution, two separate speaker transcripts, source-only issue register, no edits to descriptions or outcome.",
       "issues": "Monday's cream saree versus user-draft sea-green; Monday 6:35 PM versus Monday raat; Part5/6 labels in fictional narrator; snap of decorative dori contradicts secure primary fasteners; Grok scene completes ending previously deferred; 'Usne blouse pehna' ambiguous pronoun.",
-      "release": "Prose received, not reader-approved. Old main Part7A/B scenes for other characters remain source material; old Ankita alternatives discarded.",
+      "release": "Latest user-received Grok prose includes extended ending. Original source and POV-labelled reader are saved. Outfit/fastener consistency vs Part 6 remains unresolved, so not marked approved canon.",
       "next": "Reader to decide if costume/fastening setup is retconned, whether to keep newly submitted completed ending, and whether to request continuity-only corrections."
     }
   ],
@@ -563,6 +563,14 @@
       "status": "PUBLISHED AS RECEIVED · NOT CANON · ISSUES FLAGGED",
       "issue": "New Shivani Grok manuscript supplied with explicit ending, but outfit and decorative dori support mechanics differ from established Part6. Previously agreed ending deferral is superseded within this candidate, not automatically approved.",
       "fix": "Preserve exact submitted text and make a per-POV source reader in UI; expose explicit continuity issues as review notes without silently changing text or already agreed setup. Reader chooses outcome."
+    },
+    {
+      "id": "C037",
+      "scope": "E01 STORY LAB NAVIGATION AND STATUS",
+      "type": "UI CLEANUP / PROVENANCE",
+      "status": "PUBLISHED · NAVIGATION SIMPLIFIED",
+      "issue": "Episode 1 side menu listed duplicate Part5 reader/source views, four independent Part4 plan views, both current Part7 story readers AND their old Grok brief pages as if competing story parts. E01 review page also falsely described old A/B Part7 alternate and claimed Part6 wrong day still unfixed.",
+      "fix": "Episode 1 menu now shows Overview, Parts1–3, one Part4 planning index, Part5 selective merge, Part6 corrected reader, Part7 Ankita current Grok Revised V1 and Part7 Shivani current Grok Received V1. Older sources and briefs moved to collapsed Reference menu; E01 review page rewritten with accurate approval/status chain and fresh-chat handoff URL. No story prose altered."
     }
   ],
   "chronology": [
