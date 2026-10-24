@@ -33,9 +33,9 @@
     },
     {
       "type": "photo-sequence",
-      "from": "Woh thoda sa aur lean rahi — ek second extra — phir seedhi hui.\n\n“Photo… le li na?”",
-      "to": "Woh thoda sa aur lean rahi — ek second extra — phir seedhi hui.\n\nChotu ne phone ki framing dobara set karke second photograph click kar di.\n\n“Photo… le li na?”",
-      "reason": "Actually capture the requested second photograph before Chotu confirms completion."
+      "from": "Woh thoda sa aur lean rahi — ek second extra — phir seedhi hui. [no second photo click before confirmation]",
+      "to": "Chotu ne phone ki framing dobara set karke second photograph click kar di. [then the supplied 'Woh thoda sa...' sentence remains in its original words]",
+      "reason": "Have the second photograph actually captured while Shreya is still holding the second camera pose, before she straightens and asks whether it was taken."
     },
     {
       "type": "typo",
@@ -183,12 +183,12 @@
     {
       "id": "FWFS-E01-P7-S-GR-028",
       "channel": "narrator",
-      "text": "Woh thoda sa aur lean rahi — ek second extra — phir seedhi hui."
+      "text": "Chotu ne phone ki framing dobara set karke second photograph click kar di."
     },
     {
       "id": "FWFS-E01-P7-S-GR-029",
       "channel": "narrator",
-      "text": "Chotu ne phone ki framing dobara set karke second photograph click kar di."
+      "text": "Woh thoda sa aur lean rahi — ek second extra — phir seedhi hui."
     },
     {
       "id": "FWFS-E01-P7-S-GR-030",
