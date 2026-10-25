@@ -1,0 +1,40 @@
+{
+  "schema": "fwfs.e01.part4.recovery.v1",
+  "date": "2026-10-25",
+  "source": "ChatGPT Library file e01_part4_all_four_revised_drafts.md",
+  "provenance": "Grok-origin E01 Part 4 continuity-edited reader previews recovered from Library; not final-approved canon",
+  "preservation": "Entire combined text retained, each of four scene sections separately preserved without spelling or narrative edits; original Library file unmodified",
+  "revision_log": "data/analysis/e01_part4_recovered_revision_log_20261025.md",
+  "bundle": "data/stories/e01_part4_recovered_all_four_reader_preview_20261025.md",
+  "scenes": [
+    {
+      "character": "Ankita",
+      "original_source_heading": "Ankita",
+      "source_path": "data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "character_count": 6389,
+      "status": "Grok-origin continuity-edited review; not final canon"
+    },
+    {
+      "character": "Shivani",
+      "original_source_heading": "Shivani",
+      "source_path": "data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "character_count": 6354,
+      "status": "Grok-origin continuity-edited review; not final canon"
+    },
+    {
+      "character": "Shreya",
+      "original_source_heading": "Shreya",
+      "source_path": "data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "character_count": 4568,
+      "status": "Grok-origin continuity-edited review; not final canon"
+    },
+    {
+      "character": "Taniya",
+      "original_source_heading": "Tanya",
+      "source_path": "data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "character_count": 8159,
+      "status": "Grok-origin continuity-edited review; not final canon"
+    }
+  ],
+  "note": "Original source spells Tanya in its heading. Taniya is the standardized current character name; source was not silently modified. New director-submitted Ankita copy should be compared, not overwritten."
+}
