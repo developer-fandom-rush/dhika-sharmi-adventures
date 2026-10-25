@@ -7,7 +7,7 @@
   "source_original": "raw/Dhika.txt",
   "source_reader": "data/episodes/e01.json",
   "source_evidence": "data/director_reanalysis_e01_line_index_v1.json",
-  "source_explanation": "Use source event IDs and exact original lines, not condensed retellings. All 229 E01 lines remain accessible from source reader.",
+  "source_explanation": "Use source event IDs and exact original lines, not condensed retellings. All 229 E01 lines remain accessible from source reader. Anatomical reference, imagination, inner-response and outfit facets are lexical cues only.",
   "line_count": 229,
   "events": [
     {
@@ -201,7 +201,8 @@
       ],
       "searchFacets": [
         "appearance",
-        "observation"
+        "observation",
+        "outfit_mechanics"
       ],
       "source_label": "speaker_label_ambiguity",
       "canonical_text_location": {
@@ -231,7 +232,8 @@
         "appearance",
         "observation",
         "inner_thought",
-        "privacy_boundary"
+        "privacy_boundary",
+        "outfit_mechanics"
       ],
       "source_label": "dhika_personality",
       "canonical_text_location": {
@@ -261,7 +263,8 @@
       "searchFacets": [
         "observation",
         "contact",
-        "inner_thought"
+        "inner_thought",
+        "body_specific"
       ],
       "source_label": "sharmi_greeting",
       "canonical_text_location": {
@@ -291,7 +294,8 @@
       ],
       "searchFacets": [
         "appearance",
-        "observation"
+        "observation",
+        "outfit_mechanics"
       ],
       "source_label": "sharmi_comparison",
       "canonical_text_location": {
@@ -324,7 +328,9 @@
         "observation",
         "contact",
         "inner_thought",
-        "privacy_boundary"
+        "privacy_boundary",
+        "body_specific",
+        "imagination"
       ],
       "source_label": "uncle_private_action",
       "canonical_text_location": {
@@ -387,7 +393,9 @@
         "appearance",
         "observation",
         "inner_thought",
-        "dialogue"
+        "dialogue",
+        "body_specific",
+        "outfit_mechanics"
       ],
       "source_label": "bobby_attention",
       "canonical_text_location": {
@@ -505,7 +513,9 @@
       ],
       "searchFacets": [
         "contact",
-        "inner_thought"
+        "inner_thought",
+        "body_specific",
+        "inner_physical_response"
       ],
       "source_label": "bobby_contact_first",
       "canonical_text_location": {
@@ -537,7 +547,9 @@
         "observation",
         "contact",
         "inner_thought",
-        "dialogue"
+        "dialogue",
+        "body_specific",
+        "outfit_mechanics"
       ],
       "source_label": "bobby_contact_continues",
       "canonical_text_location": {
@@ -816,7 +828,8 @@
         "observation",
         "inner_thought",
         "privacy_boundary",
-        "dialogue"
+        "dialogue",
+        "imagination"
       ],
       "source_label": "first_awkward_event",
       "canonical_text_location": {
@@ -848,7 +861,8 @@
         "observation",
         "inner_thought",
         "privacy_boundary",
-        "dialogue"
+        "dialogue",
+        "body_specific"
       ],
       "source_label": "question_and_departure",
       "canonical_text_location": {
@@ -877,7 +891,8 @@
       ],
       "searchFacets": [
         "inner_thought",
-        "dialogue"
+        "dialogue",
+        "imagination"
       ],
       "source_label": "phone_shop_reframe",
       "canonical_text_location": {
@@ -939,7 +954,9 @@
       "searchFacets": [
         "observation",
         "inner_thought",
-        "privacy_boundary"
+        "privacy_boundary",
+        "body_specific",
+        "inner_physical_response"
       ],
       "source_label": "dhika_private_recall",
       "canonical_text_location": {
@@ -1031,7 +1048,8 @@
         "relationship"
       ],
       "searchFacets": [
-        "inner_thought"
+        "inner_thought",
+        "body_specific"
       ],
       "source_label": "sharing_meal_decision",
       "canonical_text_location": {
@@ -1125,7 +1143,8 @@
         "contact",
         "inner_thought",
         "dialogue",
-        "privacy_boundary"
+        "privacy_boundary",
+        "body_specific"
       ],
       "source_label": "dhika_trust_vs_chotu_new_view",
       "canonical_text_location": {
@@ -1186,7 +1205,8 @@
         "appearance",
         "observation",
         "inner_thought",
-        "privacy_boundary"
+        "privacy_boundary",
+        "body_specific"
       ],
       "source_label": "deliberate_decision",
       "canonical_text_location": {
@@ -1215,7 +1235,9 @@
       ],
       "searchFacets": [
         "inner_thought",
-        "privacy_boundary"
+        "privacy_boundary",
+        "body_specific",
+        "inner_physical_response"
       ],
       "source_label": "deliberate_scene_setup",
       "canonical_text_location": {
@@ -1244,7 +1266,8 @@
       ],
       "searchFacets": [
         "appearance",
-        "observation"
+        "observation",
+        "inner_physical_response"
       ],
       "source_label": "observed_response",
       "canonical_text_location": {
@@ -1302,7 +1325,8 @@
       "searchFacets": [
         "appearance",
         "observation",
-        "inner_thought"
+        "inner_thought",
+        "inner_physical_response"
       ],
       "source_label": "departing_reaction_and_hook",
       "canonical_text_location": {
@@ -4918,5 +4942,6 @@
     ],
     "source_preservation": "Show text from data/episodes/e01.json on click; ledger does not replicate graphic language or invent anatomical details."
   },
-  "created": "2026-10-25"
+  "created": "2026-10-25",
+  "local_line_note": "E01 reader indexes 229 local slots: 228 physical master-source lines plus one normalized terminal blank."
 }
