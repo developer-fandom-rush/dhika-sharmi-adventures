@@ -1,3 +1,8 @@
+> **REJECTED / WASTE STATE — 2026-10-25. NOT CANON. NOT AN ACTIVE GROK HANDOFF.**
+> The reader rejected the entire earlier FWFS Episode 02 adaptation, including Part 1 and the Part 2–3 double-witness scenario. Earlier QA approval and narrative-completion labels in the archived text below are revoked. Do not use this text as a new baseline or display it as an active Story Lab story. Historical text is retained solely for provenance / rollback. See `data/analysis/fwfs_e02_reset_waste_manifest_20261025.md`.
+
+---
+
 # GROK VISUAL-ONLY REVISION HANDOFF — Ankita E02 Parts 2–3
 
 **Input manuscript (MANDATORY):** https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e02_ankita_parts2_3_150_line_gpt_continuity_fixed_pre_grok.md
