@@ -1,3 +1,8 @@
+> **REJECTED / WASTE STATE — 2026-10-25. NOT CURRENT CANON OR ACTIVE INSTRUCTIONS.**
+> The reader rejected the existing FWFS Episode 02 adaptation and the old instructions; keep this only as a historical record. Do not use as a writing baseline. See `data/analysis/fwfs_e02_reset_waste_manifest_20261025.md`.
+
+---
+
 # FOUR WALLS, FOUR SECRETS
 ## Episode 02 · Ankita · Part 1 — The Marriage Behind the Smile
 
