@@ -4,7 +4,7 @@
   "episode": "E01",
   "no_summarization": true,
   "status": "Source-exact cross-file index; not approved final canon; P4 is director-plan only.",
-  "source_policy": "Original prose is resolved on demand from source labels, paragraphs or JSON block IDs; no source language abridged in this index. Facet tags are keyword search cues, not claims that an act took place. Extended body-specific, imagination, inner-physical-response and outfit-mechanics tags are lexical search cues, not automatically confirmed events.",
+  "source_policy": "Original prose is resolved on demand from source labels, paragraphs or JSON block IDs; no source language abridged in this index. Facet tags are keyword search cues, not claims that an act took place. Extended body-specific, imagination, inner-physical-response and outfit-mechanics tags are lexical search cues, not automatically confirmed events. Recovered Part 4 is now indexed as existing provisional full prose in addition to four earlier director-plan entries. Never classify P04 as plans-only.",
   "items": [
     {
       "id": "FWFS-E01-P01-L001",
@@ -16884,6 +16884,545 @@
       "channel": "shivani-pov",
       "slot": null,
       "status": "RECEIVED · SOURCE-EXACT · NOT APPROVED CANON"
+    },
+    {
+      "id": "FWFS-E01-P04-A-R001",
+      "part": "P04",
+      "subscene": "Ankita",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-0",
+      "paragraph_index": 0,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Ankita"
+      ],
+      "facets": [],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-A-R002",
+      "part": "P04",
+      "subscene": "Ankita",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-1",
+      "paragraph_index": 1,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Ankita"
+      ],
+      "facets": [
+        "contact"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-A-R003",
+      "part": "P04",
+      "subscene": "Ankita",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-2",
+      "paragraph_index": 2,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Ankita"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "outfit_mechanics",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-A-R004",
+      "part": "P04",
+      "subscene": "Ankita",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-3",
+      "paragraph_index": 3,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Ankita"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "private_thought",
+        "dialogue",
+        "outfit_mechanics",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-A-R005",
+      "part": "P04",
+      "subscene": "Ankita",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-4",
+      "paragraph_index": 4,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Ankita"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "private_thought",
+        "dialogue",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-A-R006",
+      "part": "P04",
+      "subscene": "Ankita",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-5",
+      "paragraph_index": 5,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Ankita"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "dialogue",
+        "outfit_mechanics"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-A-R007",
+      "part": "P04",
+      "subscene": "Ankita",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-6",
+      "paragraph_index": 6,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Ankita"
+      ],
+      "facets": [],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-S-R001",
+      "part": "P04",
+      "subscene": "Shivani",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-0",
+      "paragraph_index": 0,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shivani"
+      ],
+      "facets": [],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-S-R002",
+      "part": "P04",
+      "subscene": "Shivani",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-1",
+      "paragraph_index": 1,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shivani"
+      ],
+      "facets": [
+        "contact"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-S-R003",
+      "part": "P04",
+      "subscene": "Shivani",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-2",
+      "paragraph_index": 2,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shivani"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "private_thought",
+        "dialogue",
+        "outfit_mechanics",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-S-R004",
+      "part": "P04",
+      "subscene": "Shivani",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-3",
+      "paragraph_index": 3,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shivani"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "private_thought",
+        "dialogue",
+        "outfit_mechanics",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-S-R005",
+      "part": "P04",
+      "subscene": "Shivani",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-4",
+      "paragraph_index": 4,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shivani"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "private_thought",
+        "dialogue",
+        "outfit_mechanics",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-S-R006",
+      "part": "P04",
+      "subscene": "Shivani",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-5",
+      "paragraph_index": 5,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shivani"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "private_thought",
+        "dialogue",
+        "outfit_mechanics",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-S-R007",
+      "part": "P04",
+      "subscene": "Shivani",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-6",
+      "paragraph_index": 6,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shivani"
+      ],
+      "facets": [],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-SH-R001",
+      "part": "P04",
+      "subscene": "Shreya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-0",
+      "paragraph_index": 0,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shreya"
+      ],
+      "facets": [],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-SH-R002",
+      "part": "P04",
+      "subscene": "Shreya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-1",
+      "paragraph_index": 1,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shreya"
+      ],
+      "facets": [
+        "contact"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-SH-R003",
+      "part": "P04",
+      "subscene": "Shreya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-2",
+      "paragraph_index": 2,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shreya"
+      ],
+      "facets": [],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-SH-R004",
+      "part": "P04",
+      "subscene": "Shreya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-3",
+      "paragraph_index": 3,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shreya"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "private_thought",
+        "dialogue",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-SH-R005",
+      "part": "P04",
+      "subscene": "Shreya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-4",
+      "paragraph_index": 4,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shreya"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "private_thought",
+        "dialogue",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-SH-R006",
+      "part": "P04",
+      "subscene": "Shreya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-5",
+      "paragraph_index": 5,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Shreya"
+      ],
+      "facets": [],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-T-R001",
+      "part": "P04",
+      "subscene": "Taniya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-0",
+      "paragraph_index": 0,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Taniya"
+      ],
+      "facets": [],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-T-R002",
+      "part": "P04",
+      "subscene": "Taniya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-1",
+      "paragraph_index": 1,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Taniya"
+      ],
+      "facets": [
+        "contact"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-T-R003",
+      "part": "P04",
+      "subscene": "Taniya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-2",
+      "paragraph_index": 2,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Taniya"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "dialogue",
+        "outfit_mechanics"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-T-R004",
+      "part": "P04",
+      "subscene": "Taniya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-3",
+      "paragraph_index": 3,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Taniya"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "private_thought",
+        "dialogue",
+        "outfit_mechanics",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-T-R005",
+      "part": "P04",
+      "subscene": "Taniya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-4",
+      "paragraph_index": 4,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Taniya"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "private_thought",
+        "dialogue",
+        "outfit_mechanics",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
+    },
+    {
+      "id": "FWFS-E01-P04-T-R006",
+      "part": "P04",
+      "subscene": "Taniya",
+      "source_kind": "markdown_paragraph",
+      "source": "data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "source_ref": "paragraph-index-5",
+      "paragraph_index": 5,
+      "route": "story-e01-part4-index",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md",
+      "characters": [
+        "Taniya"
+      ],
+      "facets": [
+        "visual",
+        "contact",
+        "private_thought",
+        "dialogue",
+        "outfit_mechanics",
+        "inner_physical_response"
+      ],
+      "status": "RECOVERED GROK PROSE / CONTINUITY-EDITED READER PREVIEW / NOT CANON-LOCKED",
+      "provenance": "Existing ChatGPT Library revised Part 4 manuscript; original wording preserved, source title TANYA where applicable"
     }
   ],
   "relationships": [
@@ -17161,7 +17700,7 @@
     "P01": 55,
     "P02": 226,
     "P03": 24,
-    "P04": 4,
+    "P04": 30,
     "P05": 280,
     "P06": 82,
     "P07": 232
@@ -17174,8 +17713,12 @@
     "data/stories/e01_part7_shreya_grok_reader_v3.json",
     "data/stories/e01_part7_taniya_grok_reader_v2.json",
     "data/stories/e01_part7_ankita_grok_reader_v1.json",
-    "data/stories/e01_part7_shivani_grok_reader_v1.json"
+    "data/stories/e01_part7_shivani_grok_reader_v1.json",
+    "data/stories/e01_part4_ankita_recovered_reader_preview_20261025.md",
+    "data/stories/e01_part4_shivani_recovered_reader_preview_20261025.md",
+    "data/stories/e01_part4_shreya_recovered_reader_preview_20261025.md",
+    "data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md"
   ],
   "reader_version": "2026-10-25",
-  "index_version": "2026-10-25-facet-expanded"
+  "index_version": "2026-10-25-part4-recovered"
 }
