@@ -3,7 +3,7 @@
   "universe": "FWFS",
   "episode": "E01",
   "no_summarization": true,
-  "status": "Source-exact cross-file index; not approved final canon; P4 is director-plan only.",
+  "status": "Source-exact prose tracker: Part 4 recovered complete four-track review prose indexed per original line; final canon approval pending.",
   "source_policy": "Original prose is resolved on demand from source labels, paragraphs or JSON block IDs; no source language abridged in this index. Facet tags are keyword search cues, not claims that an act took place. Extended body-specific, imagination, inner-physical-response and outfit-mechanics tags are lexical search cues, not automatically confirmed events. Recovered Part 4 is now indexed as existing provisional full prose in addition to four earlier director-plan entries. Never classify P04 as plans-only.",
   "items": [
     {
@@ -22917,5 +22917,14 @@
     "data/stories/e01_part4_taniya_recovered_reader_preview_20261025.md"
   ],
   "reader_version": "2026-10-25",
-  "index_version": "2026-10-25-part4-recovered-lineexact"
+  "index_version": "2026-10-25-part4-recovered-lineexact",
+  "source_sequence": [
+    "P01 original current Story Lab reading copy",
+    "P02 current combined reading draft",
+    "P03 user-supplied Grok continuity copy",
+    "P04 recovered full Grok-origin reader preview, 323 source exact nonempty lines, plus 4 older director plans",
+    "P05 selective nine-scene merge",
+    "P06 corrected decisions draft",
+    "P07 Shreya 09:25, Taniya 14:00, Ankita 16:03, Shivani 19:00"
+  ]
 }

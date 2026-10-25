@@ -23,10 +23,10 @@
 
 ### FWFS E01 — working fiction and candidate readers
 - Source-exact tracker: `data/continuity/fwfs_e01_source_exact_tracker_v1.json`
-- Source anchor coverage: **P1 55 paragraph IDs; P2 226 labelled lines; P3 24 prose beats; P4 four director plans (NOT completed prose); P5 280 numbered lines; P6 82 indexed paragraph blocks; P7 232 source-exact reader blocks**.
+- Source anchor coverage: **P1 55 paragraph IDs; P2 226 labelled lines; P3 24 prose beats; P4 323 exact recovered prose lines + 4 historical director plans (NOT canon-approved); P5 280 numbered lines; P6 82 indexed paragraph blocks; P7 232 source-exact reader blocks**.
 - P1 and P3 original/current reading copy source: `four-walls-story-lab/index.html` keyed by `FWFS-E01-P01-Lxxx` or `FWFS-E01-P3-X-Lxxx`.
 - P2: `data/stories/e01_part2_complete_working_draft.md`
-- P4: `data/stories/e01_part4_*_director_*.md` — director plans, not accepted final prose.
+- P4: Full revised prose recovered from the ChatGPT Library on 25 October 2026. Combined source: `data/stories/e01_part4_recovered_all_four_reader_preview_20261025.md`. Four individual Ankita/Shivani/Shreya/Taniya sources: `data/stories/e01_part4_*_recovered_reader_preview_20261025.md`. Original correction log: `data/analysis/e01_part4_recovered_revision_log_20261025.md`. Older plans remain separate. **Manuscripts exist but are not approved final canon.**
 - P5: `data/stories/e01_part5_selective_merge_v1.md`
 - P6: `data/stories/e01_part6_the_four_decisions_draft.md`
 - P7: `data/stories/e01_part7_shreya_grok_reader_v3.json`, `data/stories/e01_part7_taniya_grok_reader_v2.json`, `data/stories/e01_part7_ankita_grok_reader_v1.json`, `data/stories/e01_part7_shivani_grok_reader_v1.json`
