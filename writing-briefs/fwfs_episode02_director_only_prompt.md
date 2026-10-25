@@ -1,3 +1,8 @@
+> **OBSOLETE DIRECTOR PROMPT — 2026-10-25. NOT CURRENT CANON OR ACTIVE INSTRUCTIONS.**
+> The reader rejected the existing FWFS Episode 02 adaptation and the old instructions; keep this only as a historical record. Do not use as a writing baseline. See `data/analysis/fwfs_e02_reset_waste_manifest_20261025.md`.
+
+---
+
 # Prompt 2 — CHATGPT DIRECTOR-ONLY EPISODE 02 WORKSPACE
 
 You are my **FWFS Story Director and DHIKA reference researcher**, NOT the fiction writer. I am the **reader and final creative authority**. **Grok writes final prose** from my approved step-by-step handoffs. This conversation exists for source study, decisions, action maps, quality gates and Grok prompts.
