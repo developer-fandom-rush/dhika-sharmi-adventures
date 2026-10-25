@@ -1,3 +1,8 @@
+> **REJECTED / WASTE STATE — 2026-10-25. NOT CANON. NOT AN ACTIVE GROK HANDOFF.**
+> The reader rejected the entire earlier FWFS Episode 02 adaptation, including Part 1 and the Part 2–3 double-witness scenario. Earlier QA approval and narrative-completion labels in the archived text below are revoked. Do not use this text as a new baseline or display it as an active Story Lab story. Historical text is retained solely for provenance / rollback. See `data/analysis/fwfs_e02_reset_waste_manifest_20261025.md`.
+
+---
+
 # Four Walls, Four Secrets
 ## Episode 02 · Ankita · Part 4 — The EPP Proposal
 **Status:** READER DRAFT · NOT CANON · preserved narrative from previous chat
