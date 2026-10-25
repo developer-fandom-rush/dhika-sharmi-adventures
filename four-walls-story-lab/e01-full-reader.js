@@ -17,6 +17,8 @@ var classifiers=[
 function e(tag,cls,t){var node=document.createElement(tag);if(cls)node.className=cls;if(t!==undefined)node.textContent=t;return node;}
 function clean(text){
  return text
+   .replace(/\bTanya\b/g,"Taniya")
+   .replace(/\bTANYA\b/g,"TANIYA")
    .replace(/^\*\*\[G[1-6]\]\*\*\s*/,"")
    .replace(/^[🟨🟧]\s*/,"")
    .replace(/\*\*([^*]+)\*\*/g,"$1")
