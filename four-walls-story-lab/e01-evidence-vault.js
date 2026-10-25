@@ -30,6 +30,7 @@ function buildVault(prefixId,kind,path){
    job=getJson(x.source).then(function(j){var b=j.blocks.find(function(z){return z.id===x.source_ref;});if(!b)throw Error("Exact reader block not found");return b.text;});
   }else if(x.source_kind==="markdown_line"){
    job=getText(x.source).then(function(t){var hits=t.split(/\r?\n/).filter(function(line){return x.part==="P05"?line.indexOf("**"+x.source_ref+"**")>=0:line.indexOf(x.source_ref)===0;});if(hits.length!==1)throw Error("Expected one exact source line; found "+hits.length);return hits[0];});
+  }else if(x.source_kind==="markdown_line_number"){job=getText(x.source).then(function(t){var line=t.split(/\r?\n/)[x.line_index];if(line===undefined)throw Error("Recovered exact prose line not found");return line;});
   }else if(x.source_kind==="markdown_paragraph"){
    job=getText(x.source).then(function(t){var para=t.split(/\n\s*\n/)[x.paragraph_index];if(!para)throw Error("Exact source paragraph missing");return para;});
   }else if(x.source_kind==="director_plan_only"){job=getText(x.source);}
