@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "kind": "fwfs_e02_source_review_and_planning_workspace",
-  "current_status": "OPEN_FOR_SOURCE_REVIEW_NO_FICTION_PLANNED_OR_APPROVED",
+  "current_status": "SOURCE_REFERENCE_ONLY__FWFS_E02_DRAFTS_REJECTED_2026_10_25",
   "read_only_original": {
     "repository": "developer-fandom-rush/dhika-sharmi-adventures",
     "path": "data/episodes/e02.json",
@@ -413,5 +413,14 @@
     "data/source_verified_style_mechanisms_e01_e05.json",
     "data/director_learning_protocol.json"
   ],
-  "story_style_file": "data/analysis/fwfs_story_direction_protocol_v1.md"
+  "story_style_file": "data/analysis/fwfs_story_direction_protocol_v1.md",
+  "reader_decision": {
+    "date": "2026-10-25",
+    "status": "NO_ACTIVE_FWFS_E02_MANUSCRIPT",
+    "source_original_unchanged": true,
+    "prior_ankita_parts_1_to_6": "WASTE_REJECTED",
+    "prior_grok_handoffs": "WASTE_REJECTED",
+    "governance": "GPT owns source mapping/sequence/pacing; reader approves creative direction instead of performing independent QA.",
+    "waste_manifest": "data/analysis/fwfs_e02_reset_waste_manifest_20261025.md"
+  }
 }
