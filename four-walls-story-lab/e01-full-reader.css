@@ -1,0 +1,22 @@
+
+/* Read-only source-preserving Episode 01 reading edition. */
+.e01-full-intro{max-width:840px;margin:6px auto 24px;line-height:1.6}
+.e01-full-toc{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0 25px}
+.e01-full-toc button{border:1px solid #4d6275;background:#17283b;color:#f0eee9;padding:9px 12px;border-radius:8px;cursor:pointer}
+.e01-full-options{display:flex;flex-wrap:wrap;align-items:center;gap:9px 18px;border-bottom:1px solid #39495b;padding:13px 0;margin:12px 0 22px}
+.e01-full-options label{display:flex;align-items:center;gap:6px;cursor:pointer;font-size:13px;color:#d7e1e8;white-space:nowrap}
+.e01-full-options input{accent-color:#cfaf66}
+.e01-full-reader{max-width:820px;margin:20px auto 50px}
+.e01-full-chapter{border-top:1px solid #48576b;padding:35px 0 18px;scroll-margin-top:14px}
+.e01-full-chapter h2{letter-spacing:.03em;margin:0 0 16px;font-size:24px;line-height:1.25}
+.e01-full-chapter h3{margin:20px 0 17px;font-size:17px;color:#d5c6a3;font-weight:600}
+.e01-full-paragraph{font-size:16px;line-height:1.85;margin:0 0 16px;color:#eef0f2;overflow-wrap:anywhere;white-space:pre-wrap}
+.e01-full-reader .key-curiosity{background:rgba(196,155,77,.22);box-decoration-break:clone;-webkit-box-decoration-break:clone;border-radius:3px}
+.e01-full-reader .key-tension{background:rgba(132,162,197,.18);box-decoration-break:clone;-webkit-box-decoration-break:clone;border-radius:3px}
+.e01-full-reader .key-response{background:rgba(176,128,147,.21);box-decoration-break:clone;-webkit-box-decoration-break:clone;border-radius:3px}
+.e01-full-reader .key-contact{background:rgba(134,173,149,.2);box-decoration-break:clone;-webkit-box-decoration-break:clone;border-radius:3px}
+.e01-full-reader [data-plain="true"] .key-curiosity,.e01-full-reader [data-plain="true"] .key-tension,.e01-full-reader [data-plain="true"] .key-response,.e01-full-reader [data-plain="true"] .key-contact{background:transparent}
+.e01-full-progress{color:#aebacb;font-size:13px;margin:12px 0}
+.e01-reader-source{margin:12px 0;font-size:12px;color:#a9b5c3}
+.e01-reader-source a{color:#c8d9ea}
+@media(max-width:650px){.e01-full-reader{margin:10px 0}.e01-full-paragraph{font-size:15px;line-height:1.75}.e01-full-chapter h2{font-size:20px}}
