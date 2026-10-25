@@ -13,7 +13,7 @@
     {
       "id": "E01-B001",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P01",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L3-L8",
@@ -35,7 +35,7 @@
     {
       "id": "E01-B002",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P01",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L9-L16",
@@ -63,7 +63,7 @@
     {
       "id": "E01-B003",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P01",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L17-L22",
@@ -95,7 +95,7 @@
     {
       "id": "E01-B004",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P01",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L23-L31",
@@ -122,7 +122,7 @@
     {
       "id": "E01-B005",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P02",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L32-L37",
@@ -151,7 +151,7 @@
     {
       "id": "E01-B006",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P02",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L38-L44",
@@ -185,7 +185,7 @@
     {
       "id": "E01-B007",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P02",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L45-L46",
@@ -214,7 +214,7 @@
     {
       "id": "E01-B008",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P02",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L47-L53",
@@ -244,7 +244,7 @@
     {
       "id": "E01-B009",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P02",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L54-L58",
@@ -274,7 +274,7 @@
     {
       "id": "E01-B010",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P02",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L59-L65",
@@ -304,7 +304,7 @@
     {
       "id": "E01-B011",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P03",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L66-L71",
@@ -337,7 +337,7 @@
     {
       "id": "E01-B012",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P04",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L72-L80",
@@ -369,7 +369,7 @@
     {
       "id": "E01-B013",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P04",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L81-L82",
@@ -400,7 +400,7 @@
     {
       "id": "E01-B014",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P04",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L83-L91",
@@ -427,7 +427,7 @@
     {
       "id": "E01-B015",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P04",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L92-L95",
@@ -459,7 +459,7 @@
     {
       "id": "E01-B016",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P04",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L96-L98",
@@ -489,7 +489,7 @@
     {
       "id": "E01-B017",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P04",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L99-L101",
@@ -518,7 +518,7 @@
     {
       "id": "E01-B018",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P04",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L102-L103",
@@ -550,7 +550,7 @@
     {
       "id": "E01-B019",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P04",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L104-L108",
@@ -579,7 +579,7 @@
     {
       "id": "E01-B020",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P05",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L109-L114",
@@ -610,7 +610,7 @@
     {
       "id": "E01-B021",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P05",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L115-L117",
@@ -641,7 +641,7 @@
     {
       "id": "E01-B022",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P05",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L118-L122",
@@ -674,7 +674,7 @@
     {
       "id": "E01-B023",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P05",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L123-L127",
@@ -702,7 +702,7 @@
     {
       "id": "E01-B024",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P05",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L128-L132",
@@ -734,7 +734,7 @@
     {
       "id": "E01-B025",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P05",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L133-L137",
@@ -768,7 +768,7 @@
     {
       "id": "E01-B026",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P05",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L138-L142",
@@ -797,7 +797,7 @@
     {
       "id": "E01-B027",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P05",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L143-L146",
@@ -829,7 +829,7 @@
     {
       "id": "E01-B028",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P05",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L147-L153",
@@ -861,7 +861,7 @@
     {
       "id": "E01-B029",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P05",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L154-L159",
@@ -890,7 +890,7 @@
     {
       "id": "E01-B030",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P06",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L160-L166",
@@ -921,7 +921,7 @@
     {
       "id": "E01-B031",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P06",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L167-L171",
@@ -952,7 +952,7 @@
     {
       "id": "E01-B032",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P06",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L172-L175",
@@ -985,7 +985,7 @@
     {
       "id": "E01-B033",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P06",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L176-L182",
@@ -1016,7 +1016,7 @@
     {
       "id": "E01-B034",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P06",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L183-L190",
@@ -1044,7 +1044,7 @@
     {
       "id": "E01-B035",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P06",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L191-L195",
@@ -1072,7 +1072,7 @@
     {
       "id": "E01-B036",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P07",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L196-L202",
@@ -1105,7 +1105,7 @@
     {
       "id": "E01-B037",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P07",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L203-L207",
@@ -1138,7 +1138,7 @@
     {
       "id": "E01-B038",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P07",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L208-L211",
@@ -1168,7 +1168,7 @@
     {
       "id": "E01-B039",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P07",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L212-L215",
@@ -1199,7 +1199,7 @@
     {
       "id": "E01-B040",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P07",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L216-L218",
@@ -1228,7 +1228,7 @@
     {
       "id": "E01-B041",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P07",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L219-L220",
@@ -1257,7 +1257,7 @@
     {
       "id": "E01-B042",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P07",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L221-L222",
@@ -1285,7 +1285,7 @@
     {
       "id": "E01-B043",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P07",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L223-L226",
@@ -1315,7 +1315,7 @@
     {
       "id": "E01-B044",
       "episode": "DHIKA E01",
-      "part": 1,
+      "part": "P07",
       "source_kind": "source_exact",
       "source": "data/episodes/e01.json",
       "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L227-L231",
