@@ -6,7 +6,7 @@ var prefix=location.pathname.indexOf("/four-walls-story-lab/")>=0?"../":"./";
 var cached={};
 function getText(path){if(!cached[path])cached[path]=fetch(prefix+path,{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("HTTP "+r.status+" for "+path);return r.text();});return cached[path];}
 function getJson(path){return getText(path).then(function(s){return JSON.parse(s);});}
-var facetLabels={appearance:"Clothing / visual",observation:"Observation / gaze",contact:"Contact / proximity cue",inner_thought:"Private thoughts",privacy_boundary:"Privacy / knowledge boundary",dialogue:"Dialogue",photography:"Photography",source_descriptive:"Original descriptive slot",plan_only:"Plan only"};
+var facetLabels={appearance:"Clothing / visual",observation:"Observation / gaze",contact:"Contact / proximity cue",inner_thought:"Private thoughts",privacy_boundary:"Privacy / knowledge boundary",dialogue:"Dialogue",photography:"Photography",source_descriptive:"Original descriptive slot",body_specific:"Body-specific source details",imagination:"Imagined / fantasy cues",inner_physical_response:"Internal physical-response cues",outfit_mechanics:"Garment / draping mechanics",plan_only:"Plan only"};
 function id(x){return document.getElementById(x);}
 function element(tag,cls,label){var e=document.createElement(tag);if(cls)e.className=cls;if(label!==undefined)e.textContent=label;return e;}
 function fillOptions(select,values,placeholder){select.textContent="";var all=element("option","",placeholder);all.value="";select.appendChild(all);values.forEach(function(value){var o=element("option","",value);o.value=value;select.appendChild(o);});}
@@ -78,7 +78,7 @@ function buildVault(prefixId,kind,path){
   var tags=[...new Set(records.flatMap(function(x){return x.facets||x.searchFacets||[]}))].sort();
   fillOptions(facetSel,tags,"All evidence categories");Array.from(facetSel.options).forEach(function(o){if(o.value)o.textContent=facetLabels[o.value]||o.value;});
   fillOptions(partSel,[...new Set(records.map(function(x){return x.part}))].sort(),"All source parts");
-  var info=root.querySelector(".vault-data-count");if(info)info.textContent=(kind==="dhika"?"229 original E01 lines · 44 events":records.length+" indexed source locators")+" · "+relations.length+" relationship links";
+  var info=root.querySelector(".vault-data-count");if(info)info.textContent=(kind==="dhika"?"229 E01 local slots (228 physical lines + terminal blank) · 44 events":records.length+" indexed source locators")+" · "+relations.length+" relationship links";
   renderRecords();
  }).catch(function(e){alertStatus("Tracker loading failed: "+e.message);});
 }
