@@ -1,0 +1,4922 @@
+{
+  "schema": "source_exact_character_continuity_ledger.v1",
+  "universe": "DHIKA",
+  "episode": "E01",
+  "status": "Original E01 source read-only; line-exact tracker; no episode-summary replacements",
+  "no_summarization": true,
+  "source_original": "raw/Dhika.txt",
+  "source_reader": "data/episodes/e01.json",
+  "source_evidence": "data/director_reanalysis_e01_line_index_v1.json",
+  "source_explanation": "Use source event IDs and exact original lines, not condensed retellings. All 229 E01 lines remain accessible from source reader.",
+  "line_count": 229,
+  "events": [
+    {
+      "id": "E01-B001",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L3-L8",
+      "start": 1,
+      "end": 6,
+      "actors": [],
+      "source_tags": [
+        "structural"
+      ],
+      "searchFacets": [],
+      "source_label": "episode_header",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B001"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B002",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L9-L16",
+      "start": 7,
+      "end": 14,
+      "actors": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "baseline"
+      ],
+      "searchFacets": [
+        "inner_thought"
+      ],
+      "source_label": "character_identity",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B002"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B003",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L17-L22",
+      "start": 15,
+      "end": 20,
+      "actors": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "reader_knows_more",
+        "trust"
+      ],
+      "searchFacets": [
+        "appearance",
+        "contact",
+        "privacy_boundary"
+      ],
+      "source_label": "uncle_intro",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B003"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B004",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L23-L31",
+      "start": 21,
+      "end": 29,
+      "actors": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "family_context"
+      ],
+      "searchFacets": [],
+      "source_label": "childcare_handoff",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B004"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B005",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L32-L37",
+      "start": 30,
+      "end": 35,
+      "actors": [
+        "dhika",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "public_awareness"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation"
+      ],
+      "source_label": "bantu_morning_compliment",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B005"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B006",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L38-L44",
+      "start": 36,
+      "end": 42,
+      "actors": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "personality",
+        "baseline",
+        "thought"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "contact",
+        "privacy_boundary",
+        "dialogue"
+      ],
+      "source_label": "twins_baseline",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B006"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B007",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L45-L46",
+      "start": 43,
+      "end": 44,
+      "actors": [
+        "dhika",
+        "bantu"
+      ],
+      "source_tags": [
+        "dialogue",
+        "qa_flag"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation"
+      ],
+      "source_label": "speaker_label_ambiguity",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B007"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B008",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L47-L53",
+      "start": 45,
+      "end": 51,
+      "actors": [
+        "dhika"
+      ],
+      "source_tags": [
+        "self_presentation",
+        "narration"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "source_label": "dhika_personality",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B008"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B009",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L54-L58",
+      "start": 52,
+      "end": 56,
+      "actors": [
+        "sharmi",
+        "dhika"
+      ],
+      "source_tags": [
+        "friendship",
+        "physical_touch"
+      ],
+      "searchFacets": [
+        "observation",
+        "contact",
+        "inner_thought"
+      ],
+      "source_label": "sharmi_greeting",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B009"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B010",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L59-L65",
+      "start": 57,
+      "end": 63,
+      "actors": [
+        "sharmi",
+        "dhika",
+        "raj"
+      ],
+      "source_tags": [
+        "friendship",
+        "comparison"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation"
+      ],
+      "source_label": "sharmi_comparison",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B010"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B011",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L66-L71",
+      "start": 64,
+      "end": 69,
+      "actors": [
+        "uncle",
+        "aunty",
+        "dhika"
+      ],
+      "source_tags": [
+        "privacy_breach",
+        "reader_knows_more"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "contact",
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "source_label": "uncle_private_action",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B011"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B012",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L72-L80",
+      "start": 70,
+      "end": 78,
+      "actors": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "compliment",
+        "private_thought"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "dialogue",
+        "inner_thought"
+      ],
+      "source_label": "bantu_afternoon",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B012"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B013",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L81-L82",
+      "start": 79,
+      "end": 80,
+      "actors": [
+        "dhika",
+        "bobby"
+      ],
+      "source_tags": [
+        "observation",
+        "response"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "inner_thought",
+        "dialogue"
+      ],
+      "source_label": "bobby_attention",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B013"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B014",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L83-L91",
+      "start": 81,
+      "end": 89,
+      "actors": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "deception",
+        "mobility"
+      ],
+      "searchFacets": [],
+      "source_label": "bantu_false_ride_pretext",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B014"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B015",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L92-L95",
+      "start": 90,
+      "end": 93,
+      "actors": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "positioning",
+        "competition"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "contact",
+        "privacy_boundary"
+      ],
+      "source_label": "twins_rivalry_vehicle",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B015"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B016",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L96-L98",
+      "start": 94,
+      "end": 96,
+      "actors": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "boundary",
+        "instruction"
+      ],
+      "searchFacets": [
+        "contact",
+        "dialogue"
+      ],
+      "source_label": "ride_contact_instruction",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B016"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B017",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L99-L101",
+      "start": 97,
+      "end": 99,
+      "actors": [
+        "dhika",
+        "bobby"
+      ],
+      "source_tags": [
+        "unrequested_contact",
+        "internal_thought"
+      ],
+      "searchFacets": [
+        "contact",
+        "inner_thought"
+      ],
+      "source_label": "bobby_contact_first",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B017"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B018",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L102-L103",
+      "start": 100,
+      "end": 101,
+      "actors": [
+        "dhika",
+        "bobby"
+      ],
+      "source_tags": [
+        "unrequested_contact",
+        "reaction"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "contact",
+        "inner_thought",
+        "dialogue"
+      ],
+      "source_label": "bobby_contact_continues",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B018"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B019",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L104-L108",
+      "start": 102,
+      "end": 106,
+      "actors": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "secrecy",
+        "reaction"
+      ],
+      "searchFacets": [
+        "dialogue"
+      ],
+      "source_label": "ride_aftermath",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B019"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B020",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L109-L114",
+      "start": 107,
+      "end": 112,
+      "actors": [
+        "dhika",
+        "aunty",
+        "pappu",
+        "john"
+      ],
+      "source_tags": [
+        "family_context"
+      ],
+      "searchFacets": [
+        "observation",
+        "inner_thought",
+        "dialogue"
+      ],
+      "source_label": "home_childcare",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B020"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B021",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L115-L117",
+      "start": 113,
+      "end": 115,
+      "actors": [
+        "dhika",
+        "uncle",
+        "aunty"
+      ],
+      "source_tags": [
+        "unrecognized_evidence"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "source_label": "garment_clue",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B021"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B022",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L118-L122",
+      "start": 116,
+      "end": 120,
+      "actors": [
+        "dhika",
+        "chotu",
+        "maami",
+        "pappu"
+      ],
+      "source_tags": [
+        "age_confirmed",
+        "trust",
+        "baseline"
+      ],
+      "searchFacets": [
+        "observation",
+        "contact",
+        "inner_thought"
+      ],
+      "source_label": "chotu_baseline",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B022"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B023",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L123-L127",
+      "start": 121,
+      "end": 125,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "nickname",
+        "dialogue"
+      ],
+      "searchFacets": [
+        "dialogue"
+      ],
+      "source_label": "chotu_first_delivery",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B023"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B024",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L128-L132",
+      "start": 126,
+      "end": 130,
+      "actors": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "prop",
+        "return"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "contact",
+        "dialogue"
+      ],
+      "source_label": "chotu_second_arrival_setup",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B024"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B025",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L133-L137",
+      "start": 131,
+      "end": 135,
+      "actors": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "visual_reference_missing",
+        "observation"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "contact",
+        "inner_thought",
+        "privacy_boundary",
+        "dialogue"
+      ],
+      "source_label": "first_clothing_attention",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B025"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B026",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L138-L142",
+      "start": 136,
+      "end": 140,
+      "actors": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "hospitality"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation"
+      ],
+      "source_label": "drink_request",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B026"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B027",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L143-L146",
+      "start": 141,
+      "end": 144,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "unplanned_event",
+        "reaction"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "inner_thought",
+        "privacy_boundary",
+        "dialogue"
+      ],
+      "source_label": "first_awkward_event",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B027"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B028",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L147-L153",
+      "start": 145,
+      "end": 151,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "concealment"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "inner_thought",
+        "privacy_boundary",
+        "dialogue"
+      ],
+      "source_label": "question_and_departure",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B028"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B029",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L154-L159",
+      "start": 152,
+      "end": 157,
+      "actors": [
+        "dhika",
+        "chotu",
+        "maami"
+      ],
+      "source_tags": [
+        "alternative_explanation"
+      ],
+      "searchFacets": [
+        "inner_thought",
+        "dialogue"
+      ],
+      "source_label": "phone_shop_reframe",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B029"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B030",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L160-L166",
+      "start": 158,
+      "end": 164,
+      "actors": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "spousal_context",
+        "work_absence"
+      ],
+      "searchFacets": [
+        "appearance",
+        "inner_thought",
+        "dialogue"
+      ],
+      "source_label": "john_work_call",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B030"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B031",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L167-L171",
+      "start": 165,
+      "end": 169,
+      "actors": [
+        "dhika",
+        "chotu",
+        "john"
+      ],
+      "source_tags": [
+        "internal_state",
+        "memory"
+      ],
+      "searchFacets": [
+        "observation",
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "source_label": "dhika_private_recall",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B031"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B032",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L172-L175",
+      "start": 170,
+      "end": 173,
+      "actors": [
+        "dhika",
+        "john",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "day_transition",
+        "qa_timing"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "inner_thought",
+        "dialogue"
+      ],
+      "source_label": "next_day_setup",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B032"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B033",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L176-L182",
+      "start": 174,
+      "end": 180,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "return",
+        "avoided_explanation"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "source_label": "chotu_next_day_return",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B033"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B034",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L183-L190",
+      "start": 181,
+      "end": 188,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "hospitality",
+        "relationship"
+      ],
+      "searchFacets": [
+        "inner_thought"
+      ],
+      "source_label": "sharing_meal_decision",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B034"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B035",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L191-L195",
+      "start": 189,
+      "end": 193,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "dialogue",
+        "trust"
+      ],
+      "searchFacets": [
+        "dialogue"
+      ],
+      "source_label": "shared_meal_conversation",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B035"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B036",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L196-L202",
+      "start": 194,
+      "end": 200,
+      "actors": [
+        "dhika",
+        "chotu",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "memory"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "contact",
+        "inner_thought",
+        "dialogue"
+      ],
+      "source_label": "chotu_appearance_compliment",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B036"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B037",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L203-L207",
+      "start": 201,
+      "end": 205,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "knowledge_gap",
+        "attraction"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "contact",
+        "inner_thought",
+        "dialogue",
+        "privacy_boundary"
+      ],
+      "source_label": "dhika_trust_vs_chotu_new_view",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B037"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B038",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L208-L211",
+      "start": 206,
+      "end": 209,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "self_perception"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "contact",
+        "dialogue"
+      ],
+      "source_label": "mirror_reflection",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B038"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B039",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L212-L215",
+      "start": 210,
+      "end": 213,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "choice",
+        "internal_state"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "source_label": "deliberate_decision",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B039"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B040",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L216-L218",
+      "start": 214,
+      "end": 216,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "choice",
+        "observation"
+      ],
+      "searchFacets": [
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "source_label": "deliberate_scene_setup",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B040"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B041",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L219-L220",
+      "start": 217,
+      "end": 218,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "visual_attention",
+        "reaction"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation"
+      ],
+      "source_label": "observed_response",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B041"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B042",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L221-L222",
+      "start": 219,
+      "end": 220,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "recognition"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation"
+      ],
+      "source_label": "mutual_eye_contact",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B042"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B043",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L223-L226",
+      "start": 221,
+      "end": 224,
+      "actors": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "final_hook"
+      ],
+      "searchFacets": [
+        "appearance",
+        "observation",
+        "inner_thought"
+      ],
+      "source_label": "departing_reaction_and_hook",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B043"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    },
+    {
+      "id": "E01-B044",
+      "episode": "DHIKA E01",
+      "part": 1,
+      "source_kind": "source_exact",
+      "source": "data/episodes/e01.json",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L227-L231",
+      "start": 225,
+      "end": 229,
+      "actors": [],
+      "source_tags": [
+        "structural"
+      ],
+      "searchFacets": [],
+      "source_label": "episode_ending",
+      "canonical_text_location": {
+        "kind": "dhika_event",
+        "id": "E01-B044"
+      },
+      "editorial_status": "original text, read-only",
+      "all_lines_intact": true
+    }
+  ],
+  "perLine": [
+    {
+      "line": 1,
+      "beat_id": "E01-B001",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L3",
+      "participants": [],
+      "source_tags": [
+        "structural"
+      ]
+    },
+    {
+      "line": 2,
+      "beat_id": "E01-B001",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L4",
+      "participants": [],
+      "source_tags": [
+        "structural"
+      ]
+    },
+    {
+      "line": 3,
+      "beat_id": "E01-B001",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L5",
+      "participants": [],
+      "source_tags": [
+        "structural"
+      ]
+    },
+    {
+      "line": 4,
+      "beat_id": "E01-B001",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L6",
+      "participants": [],
+      "source_tags": [
+        "structural"
+      ]
+    },
+    {
+      "line": 5,
+      "beat_id": "E01-B001",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L7",
+      "participants": [],
+      "source_tags": [
+        "structural"
+      ]
+    },
+    {
+      "line": 6,
+      "beat_id": "E01-B001",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L8",
+      "participants": [],
+      "source_tags": [
+        "structural"
+      ]
+    },
+    {
+      "line": 7,
+      "beat_id": "E01-B002",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L9",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "baseline"
+      ]
+    },
+    {
+      "line": 8,
+      "beat_id": "E01-B002",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L10",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "baseline"
+      ]
+    },
+    {
+      "line": 9,
+      "beat_id": "E01-B002",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L11",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "baseline"
+      ]
+    },
+    {
+      "line": 10,
+      "beat_id": "E01-B002",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L12",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "baseline"
+      ]
+    },
+    {
+      "line": 11,
+      "beat_id": "E01-B002",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L13",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "baseline"
+      ]
+    },
+    {
+      "line": 12,
+      "beat_id": "E01-B002",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L14",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "baseline"
+      ]
+    },
+    {
+      "line": 13,
+      "beat_id": "E01-B002",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L15",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "baseline"
+      ]
+    },
+    {
+      "line": 14,
+      "beat_id": "E01-B002",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L16",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "baseline"
+      ]
+    },
+    {
+      "line": 15,
+      "beat_id": "E01-B003",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L17",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "reader_knows_more",
+        "trust"
+      ]
+    },
+    {
+      "line": 16,
+      "beat_id": "E01-B003",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L18",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "reader_knows_more",
+        "trust"
+      ]
+    },
+    {
+      "line": 17,
+      "beat_id": "E01-B003",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L19",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "reader_knows_more",
+        "trust"
+      ]
+    },
+    {
+      "line": 18,
+      "beat_id": "E01-B003",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L20",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "reader_knows_more",
+        "trust"
+      ]
+    },
+    {
+      "line": 19,
+      "beat_id": "E01-B003",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L21",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "reader_knows_more",
+        "trust"
+      ]
+    },
+    {
+      "line": 20,
+      "beat_id": "E01-B003",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L22",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "reader_knows_more",
+        "trust"
+      ]
+    },
+    {
+      "line": 21,
+      "beat_id": "E01-B004",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L23",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 22,
+      "beat_id": "E01-B004",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L24",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 23,
+      "beat_id": "E01-B004",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L25",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 24,
+      "beat_id": "E01-B004",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L26",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 25,
+      "beat_id": "E01-B004",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L27",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 26,
+      "beat_id": "E01-B004",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L28",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 27,
+      "beat_id": "E01-B004",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L29",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 28,
+      "beat_id": "E01-B004",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L30",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 29,
+      "beat_id": "E01-B004",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L31",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty",
+        "pappu"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 30,
+      "beat_id": "E01-B005",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L32",
+      "participants": [
+        "dhika",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "public_awareness"
+      ]
+    },
+    {
+      "line": 31,
+      "beat_id": "E01-B005",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L33",
+      "participants": [
+        "dhika",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "public_awareness"
+      ]
+    },
+    {
+      "line": 32,
+      "beat_id": "E01-B005",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L34",
+      "participants": [
+        "dhika",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "public_awareness"
+      ]
+    },
+    {
+      "line": 33,
+      "beat_id": "E01-B005",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L35",
+      "participants": [
+        "dhika",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "public_awareness"
+      ]
+    },
+    {
+      "line": 34,
+      "beat_id": "E01-B005",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L36",
+      "participants": [
+        "dhika",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "public_awareness"
+      ]
+    },
+    {
+      "line": 35,
+      "beat_id": "E01-B005",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L37",
+      "participants": [
+        "dhika",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "public_awareness"
+      ]
+    },
+    {
+      "line": 36,
+      "beat_id": "E01-B006",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L38",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "personality",
+        "baseline",
+        "thought"
+      ]
+    },
+    {
+      "line": 37,
+      "beat_id": "E01-B006",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L39",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "personality",
+        "baseline",
+        "thought"
+      ]
+    },
+    {
+      "line": 38,
+      "beat_id": "E01-B006",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L40",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "personality",
+        "baseline",
+        "thought"
+      ]
+    },
+    {
+      "line": 39,
+      "beat_id": "E01-B006",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L41",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "personality",
+        "baseline",
+        "thought"
+      ]
+    },
+    {
+      "line": 40,
+      "beat_id": "E01-B006",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L42",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "personality",
+        "baseline",
+        "thought"
+      ]
+    },
+    {
+      "line": 41,
+      "beat_id": "E01-B006",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L43",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "personality",
+        "baseline",
+        "thought"
+      ]
+    },
+    {
+      "line": 42,
+      "beat_id": "E01-B006",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L44",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "personality",
+        "baseline",
+        "thought"
+      ]
+    },
+    {
+      "line": 43,
+      "beat_id": "E01-B007",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L45",
+      "participants": [
+        "dhika",
+        "bantu"
+      ],
+      "source_tags": [
+        "dialogue",
+        "qa_flag"
+      ]
+    },
+    {
+      "line": 44,
+      "beat_id": "E01-B007",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L46",
+      "participants": [
+        "dhika",
+        "bantu"
+      ],
+      "source_tags": [
+        "dialogue",
+        "qa_flag"
+      ]
+    },
+    {
+      "line": 45,
+      "beat_id": "E01-B008",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L47",
+      "participants": [
+        "dhika"
+      ],
+      "source_tags": [
+        "self_presentation",
+        "narration"
+      ]
+    },
+    {
+      "line": 46,
+      "beat_id": "E01-B008",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L48",
+      "participants": [
+        "dhika"
+      ],
+      "source_tags": [
+        "self_presentation",
+        "narration"
+      ]
+    },
+    {
+      "line": 47,
+      "beat_id": "E01-B008",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L49",
+      "participants": [
+        "dhika"
+      ],
+      "source_tags": [
+        "self_presentation",
+        "narration"
+      ]
+    },
+    {
+      "line": 48,
+      "beat_id": "E01-B008",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L50",
+      "participants": [
+        "dhika"
+      ],
+      "source_tags": [
+        "self_presentation",
+        "narration"
+      ]
+    },
+    {
+      "line": 49,
+      "beat_id": "E01-B008",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L51",
+      "participants": [
+        "dhika"
+      ],
+      "source_tags": [
+        "self_presentation",
+        "narration"
+      ]
+    },
+    {
+      "line": 50,
+      "beat_id": "E01-B008",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L52",
+      "participants": [
+        "dhika"
+      ],
+      "source_tags": [
+        "self_presentation",
+        "narration"
+      ]
+    },
+    {
+      "line": 51,
+      "beat_id": "E01-B008",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L53",
+      "participants": [
+        "dhika"
+      ],
+      "source_tags": [
+        "self_presentation",
+        "narration"
+      ]
+    },
+    {
+      "line": 52,
+      "beat_id": "E01-B009",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L54",
+      "participants": [
+        "sharmi",
+        "dhika"
+      ],
+      "source_tags": [
+        "friendship",
+        "physical_touch"
+      ]
+    },
+    {
+      "line": 53,
+      "beat_id": "E01-B009",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L55",
+      "participants": [
+        "sharmi",
+        "dhika"
+      ],
+      "source_tags": [
+        "friendship",
+        "physical_touch"
+      ]
+    },
+    {
+      "line": 54,
+      "beat_id": "E01-B009",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L56",
+      "participants": [
+        "sharmi",
+        "dhika"
+      ],
+      "source_tags": [
+        "friendship",
+        "physical_touch"
+      ]
+    },
+    {
+      "line": 55,
+      "beat_id": "E01-B009",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L57",
+      "participants": [
+        "sharmi",
+        "dhika"
+      ],
+      "source_tags": [
+        "friendship",
+        "physical_touch"
+      ]
+    },
+    {
+      "line": 56,
+      "beat_id": "E01-B009",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L58",
+      "participants": [
+        "sharmi",
+        "dhika"
+      ],
+      "source_tags": [
+        "friendship",
+        "physical_touch"
+      ]
+    },
+    {
+      "line": 57,
+      "beat_id": "E01-B010",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L59",
+      "participants": [
+        "sharmi",
+        "dhika",
+        "raj"
+      ],
+      "source_tags": [
+        "friendship",
+        "comparison"
+      ]
+    },
+    {
+      "line": 58,
+      "beat_id": "E01-B010",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L60",
+      "participants": [
+        "sharmi",
+        "dhika",
+        "raj"
+      ],
+      "source_tags": [
+        "friendship",
+        "comparison"
+      ]
+    },
+    {
+      "line": 59,
+      "beat_id": "E01-B010",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L61",
+      "participants": [
+        "sharmi",
+        "dhika",
+        "raj"
+      ],
+      "source_tags": [
+        "friendship",
+        "comparison"
+      ]
+    },
+    {
+      "line": 60,
+      "beat_id": "E01-B010",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L62",
+      "participants": [
+        "sharmi",
+        "dhika",
+        "raj"
+      ],
+      "source_tags": [
+        "friendship",
+        "comparison"
+      ]
+    },
+    {
+      "line": 61,
+      "beat_id": "E01-B010",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L63",
+      "participants": [
+        "sharmi",
+        "dhika",
+        "raj"
+      ],
+      "source_tags": [
+        "friendship",
+        "comparison"
+      ]
+    },
+    {
+      "line": 62,
+      "beat_id": "E01-B010",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L64",
+      "participants": [
+        "sharmi",
+        "dhika",
+        "raj"
+      ],
+      "source_tags": [
+        "friendship",
+        "comparison"
+      ]
+    },
+    {
+      "line": 63,
+      "beat_id": "E01-B010",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L65",
+      "participants": [
+        "sharmi",
+        "dhika",
+        "raj"
+      ],
+      "source_tags": [
+        "friendship",
+        "comparison"
+      ]
+    },
+    {
+      "line": 64,
+      "beat_id": "E01-B011",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L66",
+      "participants": [
+        "uncle",
+        "aunty",
+        "dhika"
+      ],
+      "source_tags": [
+        "privacy_breach",
+        "reader_knows_more"
+      ]
+    },
+    {
+      "line": 65,
+      "beat_id": "E01-B011",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L67",
+      "participants": [
+        "uncle",
+        "aunty",
+        "dhika"
+      ],
+      "source_tags": [
+        "privacy_breach",
+        "reader_knows_more"
+      ]
+    },
+    {
+      "line": 66,
+      "beat_id": "E01-B011",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L68",
+      "participants": [
+        "uncle",
+        "aunty",
+        "dhika"
+      ],
+      "source_tags": [
+        "privacy_breach",
+        "reader_knows_more"
+      ]
+    },
+    {
+      "line": 67,
+      "beat_id": "E01-B011",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L69",
+      "participants": [
+        "uncle",
+        "aunty",
+        "dhika"
+      ],
+      "source_tags": [
+        "privacy_breach",
+        "reader_knows_more"
+      ]
+    },
+    {
+      "line": 68,
+      "beat_id": "E01-B011",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L70",
+      "participants": [
+        "uncle",
+        "aunty",
+        "dhika"
+      ],
+      "source_tags": [
+        "privacy_breach",
+        "reader_knows_more"
+      ]
+    },
+    {
+      "line": 69,
+      "beat_id": "E01-B011",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L71",
+      "participants": [
+        "uncle",
+        "aunty",
+        "dhika"
+      ],
+      "source_tags": [
+        "privacy_breach",
+        "reader_knows_more"
+      ]
+    },
+    {
+      "line": 70,
+      "beat_id": "E01-B012",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L72",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "compliment",
+        "private_thought"
+      ]
+    },
+    {
+      "line": 71,
+      "beat_id": "E01-B012",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L73",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "compliment",
+        "private_thought"
+      ]
+    },
+    {
+      "line": 72,
+      "beat_id": "E01-B012",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L74",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "compliment",
+        "private_thought"
+      ]
+    },
+    {
+      "line": 73,
+      "beat_id": "E01-B012",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L75",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "compliment",
+        "private_thought"
+      ]
+    },
+    {
+      "line": 74,
+      "beat_id": "E01-B012",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L76",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "compliment",
+        "private_thought"
+      ]
+    },
+    {
+      "line": 75,
+      "beat_id": "E01-B012",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L77",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "compliment",
+        "private_thought"
+      ]
+    },
+    {
+      "line": 76,
+      "beat_id": "E01-B012",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L78",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "compliment",
+        "private_thought"
+      ]
+    },
+    {
+      "line": 77,
+      "beat_id": "E01-B012",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L79",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "compliment",
+        "private_thought"
+      ]
+    },
+    {
+      "line": 78,
+      "beat_id": "E01-B012",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L80",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "compliment",
+        "private_thought"
+      ]
+    },
+    {
+      "line": 79,
+      "beat_id": "E01-B013",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L81",
+      "participants": [
+        "dhika",
+        "bobby"
+      ],
+      "source_tags": [
+        "observation",
+        "response"
+      ]
+    },
+    {
+      "line": 80,
+      "beat_id": "E01-B013",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L82",
+      "participants": [
+        "dhika",
+        "bobby"
+      ],
+      "source_tags": [
+        "observation",
+        "response"
+      ]
+    },
+    {
+      "line": 81,
+      "beat_id": "E01-B014",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L83",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "deception",
+        "mobility"
+      ]
+    },
+    {
+      "line": 82,
+      "beat_id": "E01-B014",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L84",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "deception",
+        "mobility"
+      ]
+    },
+    {
+      "line": 83,
+      "beat_id": "E01-B014",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L85",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "deception",
+        "mobility"
+      ]
+    },
+    {
+      "line": 84,
+      "beat_id": "E01-B014",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L86",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "deception",
+        "mobility"
+      ]
+    },
+    {
+      "line": 85,
+      "beat_id": "E01-B014",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L87",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "deception",
+        "mobility"
+      ]
+    },
+    {
+      "line": 86,
+      "beat_id": "E01-B014",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L88",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "deception",
+        "mobility"
+      ]
+    },
+    {
+      "line": 87,
+      "beat_id": "E01-B014",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L89",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "deception",
+        "mobility"
+      ]
+    },
+    {
+      "line": 88,
+      "beat_id": "E01-B014",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L90",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "deception",
+        "mobility"
+      ]
+    },
+    {
+      "line": 89,
+      "beat_id": "E01-B014",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L91",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "deception",
+        "mobility"
+      ]
+    },
+    {
+      "line": 90,
+      "beat_id": "E01-B015",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L92",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "positioning",
+        "competition"
+      ]
+    },
+    {
+      "line": 91,
+      "beat_id": "E01-B015",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L93",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "positioning",
+        "competition"
+      ]
+    },
+    {
+      "line": 92,
+      "beat_id": "E01-B015",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L94",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "positioning",
+        "competition"
+      ]
+    },
+    {
+      "line": 93,
+      "beat_id": "E01-B015",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L95",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "positioning",
+        "competition"
+      ]
+    },
+    {
+      "line": 94,
+      "beat_id": "E01-B016",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L96",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "boundary",
+        "instruction"
+      ]
+    },
+    {
+      "line": 95,
+      "beat_id": "E01-B016",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L97",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "boundary",
+        "instruction"
+      ]
+    },
+    {
+      "line": 96,
+      "beat_id": "E01-B016",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L98",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "boundary",
+        "instruction"
+      ]
+    },
+    {
+      "line": 97,
+      "beat_id": "E01-B017",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L99",
+      "participants": [
+        "dhika",
+        "bobby"
+      ],
+      "source_tags": [
+        "unrequested_contact",
+        "internal_thought"
+      ]
+    },
+    {
+      "line": 98,
+      "beat_id": "E01-B017",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L100",
+      "participants": [
+        "dhika",
+        "bobby"
+      ],
+      "source_tags": [
+        "unrequested_contact",
+        "internal_thought"
+      ]
+    },
+    {
+      "line": 99,
+      "beat_id": "E01-B017",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L101",
+      "participants": [
+        "dhika",
+        "bobby"
+      ],
+      "source_tags": [
+        "unrequested_contact",
+        "internal_thought"
+      ]
+    },
+    {
+      "line": 100,
+      "beat_id": "E01-B018",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L102",
+      "participants": [
+        "dhika",
+        "bobby"
+      ],
+      "source_tags": [
+        "unrequested_contact",
+        "reaction"
+      ]
+    },
+    {
+      "line": 101,
+      "beat_id": "E01-B018",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L103",
+      "participants": [
+        "dhika",
+        "bobby"
+      ],
+      "source_tags": [
+        "unrequested_contact",
+        "reaction"
+      ]
+    },
+    {
+      "line": 102,
+      "beat_id": "E01-B019",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L104",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "secrecy",
+        "reaction"
+      ]
+    },
+    {
+      "line": 103,
+      "beat_id": "E01-B019",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L105",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "secrecy",
+        "reaction"
+      ]
+    },
+    {
+      "line": 104,
+      "beat_id": "E01-B019",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L106",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "secrecy",
+        "reaction"
+      ]
+    },
+    {
+      "line": 105,
+      "beat_id": "E01-B019",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L107",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "secrecy",
+        "reaction"
+      ]
+    },
+    {
+      "line": 106,
+      "beat_id": "E01-B019",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L108",
+      "participants": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "source_tags": [
+        "secrecy",
+        "reaction"
+      ]
+    },
+    {
+      "line": 107,
+      "beat_id": "E01-B020",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L109",
+      "participants": [
+        "dhika",
+        "aunty",
+        "pappu",
+        "john"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 108,
+      "beat_id": "E01-B020",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L110",
+      "participants": [
+        "dhika",
+        "aunty",
+        "pappu",
+        "john"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 109,
+      "beat_id": "E01-B020",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L111",
+      "participants": [
+        "dhika",
+        "aunty",
+        "pappu",
+        "john"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 110,
+      "beat_id": "E01-B020",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L112",
+      "participants": [
+        "dhika",
+        "aunty",
+        "pappu",
+        "john"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 111,
+      "beat_id": "E01-B020",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L113",
+      "participants": [
+        "dhika",
+        "aunty",
+        "pappu",
+        "john"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 112,
+      "beat_id": "E01-B020",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L114",
+      "participants": [
+        "dhika",
+        "aunty",
+        "pappu",
+        "john"
+      ],
+      "source_tags": [
+        "family_context"
+      ]
+    },
+    {
+      "line": 113,
+      "beat_id": "E01-B021",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L115",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty"
+      ],
+      "source_tags": [
+        "unrecognized_evidence"
+      ]
+    },
+    {
+      "line": 114,
+      "beat_id": "E01-B021",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L116",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty"
+      ],
+      "source_tags": [
+        "unrecognized_evidence"
+      ]
+    },
+    {
+      "line": 115,
+      "beat_id": "E01-B021",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L117",
+      "participants": [
+        "dhika",
+        "uncle",
+        "aunty"
+      ],
+      "source_tags": [
+        "unrecognized_evidence"
+      ]
+    },
+    {
+      "line": 116,
+      "beat_id": "E01-B022",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L118",
+      "participants": [
+        "dhika",
+        "chotu",
+        "maami",
+        "pappu"
+      ],
+      "source_tags": [
+        "age_confirmed",
+        "trust",
+        "baseline"
+      ]
+    },
+    {
+      "line": 117,
+      "beat_id": "E01-B022",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L119",
+      "participants": [
+        "dhika",
+        "chotu",
+        "maami",
+        "pappu"
+      ],
+      "source_tags": [
+        "age_confirmed",
+        "trust",
+        "baseline"
+      ]
+    },
+    {
+      "line": 118,
+      "beat_id": "E01-B022",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L120",
+      "participants": [
+        "dhika",
+        "chotu",
+        "maami",
+        "pappu"
+      ],
+      "source_tags": [
+        "age_confirmed",
+        "trust",
+        "baseline"
+      ]
+    },
+    {
+      "line": 119,
+      "beat_id": "E01-B022",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L121",
+      "participants": [
+        "dhika",
+        "chotu",
+        "maami",
+        "pappu"
+      ],
+      "source_tags": [
+        "age_confirmed",
+        "trust",
+        "baseline"
+      ]
+    },
+    {
+      "line": 120,
+      "beat_id": "E01-B022",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L122",
+      "participants": [
+        "dhika",
+        "chotu",
+        "maami",
+        "pappu"
+      ],
+      "source_tags": [
+        "age_confirmed",
+        "trust",
+        "baseline"
+      ]
+    },
+    {
+      "line": 121,
+      "beat_id": "E01-B023",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L123",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "nickname",
+        "dialogue"
+      ]
+    },
+    {
+      "line": 122,
+      "beat_id": "E01-B023",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L124",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "nickname",
+        "dialogue"
+      ]
+    },
+    {
+      "line": 123,
+      "beat_id": "E01-B023",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L125",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "nickname",
+        "dialogue"
+      ]
+    },
+    {
+      "line": 124,
+      "beat_id": "E01-B023",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L126",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "nickname",
+        "dialogue"
+      ]
+    },
+    {
+      "line": 125,
+      "beat_id": "E01-B023",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L127",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "nickname",
+        "dialogue"
+      ]
+    },
+    {
+      "line": 126,
+      "beat_id": "E01-B024",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L128",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "prop",
+        "return"
+      ]
+    },
+    {
+      "line": 127,
+      "beat_id": "E01-B024",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L129",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "prop",
+        "return"
+      ]
+    },
+    {
+      "line": 128,
+      "beat_id": "E01-B024",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L130",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "prop",
+        "return"
+      ]
+    },
+    {
+      "line": 129,
+      "beat_id": "E01-B024",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L131",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "prop",
+        "return"
+      ]
+    },
+    {
+      "line": 130,
+      "beat_id": "E01-B024",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L132",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "prop",
+        "return"
+      ]
+    },
+    {
+      "line": 131,
+      "beat_id": "E01-B025",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L133",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "visual_reference_missing",
+        "observation"
+      ]
+    },
+    {
+      "line": 132,
+      "beat_id": "E01-B025",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L134",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "visual_reference_missing",
+        "observation"
+      ]
+    },
+    {
+      "line": 133,
+      "beat_id": "E01-B025",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L135",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "visual_reference_missing",
+        "observation"
+      ]
+    },
+    {
+      "line": 134,
+      "beat_id": "E01-B025",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L136",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "visual_reference_missing",
+        "observation"
+      ]
+    },
+    {
+      "line": 135,
+      "beat_id": "E01-B025",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L137",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "visual_reference_missing",
+        "observation"
+      ]
+    },
+    {
+      "line": 136,
+      "beat_id": "E01-B026",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L138",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "hospitality"
+      ]
+    },
+    {
+      "line": 137,
+      "beat_id": "E01-B026",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L139",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "hospitality"
+      ]
+    },
+    {
+      "line": 138,
+      "beat_id": "E01-B026",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L140",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "hospitality"
+      ]
+    },
+    {
+      "line": 139,
+      "beat_id": "E01-B026",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L141",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "hospitality"
+      ]
+    },
+    {
+      "line": 140,
+      "beat_id": "E01-B026",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L142",
+      "participants": [
+        "dhika",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "hospitality"
+      ]
+    },
+    {
+      "line": 141,
+      "beat_id": "E01-B027",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L143",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "unplanned_event",
+        "reaction"
+      ]
+    },
+    {
+      "line": 142,
+      "beat_id": "E01-B027",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L144",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "unplanned_event",
+        "reaction"
+      ]
+    },
+    {
+      "line": 143,
+      "beat_id": "E01-B027",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L145",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "unplanned_event",
+        "reaction"
+      ]
+    },
+    {
+      "line": 144,
+      "beat_id": "E01-B027",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L146",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "unplanned_event",
+        "reaction"
+      ]
+    },
+    {
+      "line": 145,
+      "beat_id": "E01-B028",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L147",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "concealment"
+      ]
+    },
+    {
+      "line": 146,
+      "beat_id": "E01-B028",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L148",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "concealment"
+      ]
+    },
+    {
+      "line": 147,
+      "beat_id": "E01-B028",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L149",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "concealment"
+      ]
+    },
+    {
+      "line": 148,
+      "beat_id": "E01-B028",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L150",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "concealment"
+      ]
+    },
+    {
+      "line": 149,
+      "beat_id": "E01-B028",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L151",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "concealment"
+      ]
+    },
+    {
+      "line": 150,
+      "beat_id": "E01-B028",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L152",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "concealment"
+      ]
+    },
+    {
+      "line": 151,
+      "beat_id": "E01-B028",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L153",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "concealment"
+      ]
+    },
+    {
+      "line": 152,
+      "beat_id": "E01-B029",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L154",
+      "participants": [
+        "dhika",
+        "chotu",
+        "maami"
+      ],
+      "source_tags": [
+        "alternative_explanation"
+      ]
+    },
+    {
+      "line": 153,
+      "beat_id": "E01-B029",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L155",
+      "participants": [
+        "dhika",
+        "chotu",
+        "maami"
+      ],
+      "source_tags": [
+        "alternative_explanation"
+      ]
+    },
+    {
+      "line": 154,
+      "beat_id": "E01-B029",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L156",
+      "participants": [
+        "dhika",
+        "chotu",
+        "maami"
+      ],
+      "source_tags": [
+        "alternative_explanation"
+      ]
+    },
+    {
+      "line": 155,
+      "beat_id": "E01-B029",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L157",
+      "participants": [
+        "dhika",
+        "chotu",
+        "maami"
+      ],
+      "source_tags": [
+        "alternative_explanation"
+      ]
+    },
+    {
+      "line": 156,
+      "beat_id": "E01-B029",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L158",
+      "participants": [
+        "dhika",
+        "chotu",
+        "maami"
+      ],
+      "source_tags": [
+        "alternative_explanation"
+      ]
+    },
+    {
+      "line": 157,
+      "beat_id": "E01-B029",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L159",
+      "participants": [
+        "dhika",
+        "chotu",
+        "maami"
+      ],
+      "source_tags": [
+        "alternative_explanation"
+      ]
+    },
+    {
+      "line": 158,
+      "beat_id": "E01-B030",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L160",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "spousal_context",
+        "work_absence"
+      ]
+    },
+    {
+      "line": 159,
+      "beat_id": "E01-B030",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L161",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "spousal_context",
+        "work_absence"
+      ]
+    },
+    {
+      "line": 160,
+      "beat_id": "E01-B030",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L162",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "spousal_context",
+        "work_absence"
+      ]
+    },
+    {
+      "line": 161,
+      "beat_id": "E01-B030",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L163",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "spousal_context",
+        "work_absence"
+      ]
+    },
+    {
+      "line": 162,
+      "beat_id": "E01-B030",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L164",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "spousal_context",
+        "work_absence"
+      ]
+    },
+    {
+      "line": 163,
+      "beat_id": "E01-B030",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L165",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "spousal_context",
+        "work_absence"
+      ]
+    },
+    {
+      "line": 164,
+      "beat_id": "E01-B030",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L166",
+      "participants": [
+        "dhika",
+        "john",
+        "pappu"
+      ],
+      "source_tags": [
+        "spousal_context",
+        "work_absence"
+      ]
+    },
+    {
+      "line": 165,
+      "beat_id": "E01-B031",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L167",
+      "participants": [
+        "dhika",
+        "chotu",
+        "john"
+      ],
+      "source_tags": [
+        "internal_state",
+        "memory"
+      ]
+    },
+    {
+      "line": 166,
+      "beat_id": "E01-B031",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L168",
+      "participants": [
+        "dhika",
+        "chotu",
+        "john"
+      ],
+      "source_tags": [
+        "internal_state",
+        "memory"
+      ]
+    },
+    {
+      "line": 167,
+      "beat_id": "E01-B031",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L169",
+      "participants": [
+        "dhika",
+        "chotu",
+        "john"
+      ],
+      "source_tags": [
+        "internal_state",
+        "memory"
+      ]
+    },
+    {
+      "line": 168,
+      "beat_id": "E01-B031",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L170",
+      "participants": [
+        "dhika",
+        "chotu",
+        "john"
+      ],
+      "source_tags": [
+        "internal_state",
+        "memory"
+      ]
+    },
+    {
+      "line": 169,
+      "beat_id": "E01-B031",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L171",
+      "participants": [
+        "dhika",
+        "chotu",
+        "john"
+      ],
+      "source_tags": [
+        "internal_state",
+        "memory"
+      ]
+    },
+    {
+      "line": 170,
+      "beat_id": "E01-B032",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L172",
+      "participants": [
+        "dhika",
+        "john",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "day_transition",
+        "qa_timing"
+      ]
+    },
+    {
+      "line": 171,
+      "beat_id": "E01-B032",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L173",
+      "participants": [
+        "dhika",
+        "john",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "day_transition",
+        "qa_timing"
+      ]
+    },
+    {
+      "line": 172,
+      "beat_id": "E01-B032",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L174",
+      "participants": [
+        "dhika",
+        "john",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "day_transition",
+        "qa_timing"
+      ]
+    },
+    {
+      "line": 173,
+      "beat_id": "E01-B032",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L175",
+      "participants": [
+        "dhika",
+        "john",
+        "chotu",
+        "pappu"
+      ],
+      "source_tags": [
+        "day_transition",
+        "qa_timing"
+      ]
+    },
+    {
+      "line": 174,
+      "beat_id": "E01-B033",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L176",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "return",
+        "avoided_explanation"
+      ]
+    },
+    {
+      "line": 175,
+      "beat_id": "E01-B033",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L177",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "return",
+        "avoided_explanation"
+      ]
+    },
+    {
+      "line": 176,
+      "beat_id": "E01-B033",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L178",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "return",
+        "avoided_explanation"
+      ]
+    },
+    {
+      "line": 177,
+      "beat_id": "E01-B033",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L179",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "return",
+        "avoided_explanation"
+      ]
+    },
+    {
+      "line": 178,
+      "beat_id": "E01-B033",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L180",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "return",
+        "avoided_explanation"
+      ]
+    },
+    {
+      "line": 179,
+      "beat_id": "E01-B033",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L181",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "return",
+        "avoided_explanation"
+      ]
+    },
+    {
+      "line": 180,
+      "beat_id": "E01-B033",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L182",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "return",
+        "avoided_explanation"
+      ]
+    },
+    {
+      "line": 181,
+      "beat_id": "E01-B034",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L183",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "hospitality",
+        "relationship"
+      ]
+    },
+    {
+      "line": 182,
+      "beat_id": "E01-B034",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L184",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "hospitality",
+        "relationship"
+      ]
+    },
+    {
+      "line": 183,
+      "beat_id": "E01-B034",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L185",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "hospitality",
+        "relationship"
+      ]
+    },
+    {
+      "line": 184,
+      "beat_id": "E01-B034",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L186",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "hospitality",
+        "relationship"
+      ]
+    },
+    {
+      "line": 185,
+      "beat_id": "E01-B034",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L187",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "hospitality",
+        "relationship"
+      ]
+    },
+    {
+      "line": 186,
+      "beat_id": "E01-B034",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L188",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "hospitality",
+        "relationship"
+      ]
+    },
+    {
+      "line": 187,
+      "beat_id": "E01-B034",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L189",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "hospitality",
+        "relationship"
+      ]
+    },
+    {
+      "line": 188,
+      "beat_id": "E01-B034",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L190",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "hospitality",
+        "relationship"
+      ]
+    },
+    {
+      "line": 189,
+      "beat_id": "E01-B035",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L191",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "dialogue",
+        "trust"
+      ]
+    },
+    {
+      "line": 190,
+      "beat_id": "E01-B035",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L192",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "dialogue",
+        "trust"
+      ]
+    },
+    {
+      "line": 191,
+      "beat_id": "E01-B035",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L193",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "dialogue",
+        "trust"
+      ]
+    },
+    {
+      "line": 192,
+      "beat_id": "E01-B035",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L194",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "dialogue",
+        "trust"
+      ]
+    },
+    {
+      "line": 193,
+      "beat_id": "E01-B035",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L195",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "dialogue",
+        "trust"
+      ]
+    },
+    {
+      "line": 194,
+      "beat_id": "E01-B036",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L196",
+      "participants": [
+        "dhika",
+        "chotu",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "memory"
+      ]
+    },
+    {
+      "line": 195,
+      "beat_id": "E01-B036",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L197",
+      "participants": [
+        "dhika",
+        "chotu",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "memory"
+      ]
+    },
+    {
+      "line": 196,
+      "beat_id": "E01-B036",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L198",
+      "participants": [
+        "dhika",
+        "chotu",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "memory"
+      ]
+    },
+    {
+      "line": 197,
+      "beat_id": "E01-B036",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L199",
+      "participants": [
+        "dhika",
+        "chotu",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "memory"
+      ]
+    },
+    {
+      "line": 198,
+      "beat_id": "E01-B036",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L200",
+      "participants": [
+        "dhika",
+        "chotu",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "memory"
+      ]
+    },
+    {
+      "line": 199,
+      "beat_id": "E01-B036",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L201",
+      "participants": [
+        "dhika",
+        "chotu",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "memory"
+      ]
+    },
+    {
+      "line": 200,
+      "beat_id": "E01-B036",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L202",
+      "participants": [
+        "dhika",
+        "chotu",
+        "bantu"
+      ],
+      "source_tags": [
+        "compliment",
+        "memory"
+      ]
+    },
+    {
+      "line": 201,
+      "beat_id": "E01-B037",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L203",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "knowledge_gap",
+        "attraction"
+      ]
+    },
+    {
+      "line": 202,
+      "beat_id": "E01-B037",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L204",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "knowledge_gap",
+        "attraction"
+      ]
+    },
+    {
+      "line": 203,
+      "beat_id": "E01-B037",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L205",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "knowledge_gap",
+        "attraction"
+      ]
+    },
+    {
+      "line": 204,
+      "beat_id": "E01-B037",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L206",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "knowledge_gap",
+        "attraction"
+      ]
+    },
+    {
+      "line": 205,
+      "beat_id": "E01-B037",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L207",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "knowledge_gap",
+        "attraction"
+      ]
+    },
+    {
+      "line": 206,
+      "beat_id": "E01-B038",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L208",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "self_perception"
+      ]
+    },
+    {
+      "line": 207,
+      "beat_id": "E01-B038",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L209",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "self_perception"
+      ]
+    },
+    {
+      "line": 208,
+      "beat_id": "E01-B038",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L210",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "self_perception"
+      ]
+    },
+    {
+      "line": 209,
+      "beat_id": "E01-B038",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L211",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "self_perception"
+      ]
+    },
+    {
+      "line": 210,
+      "beat_id": "E01-B039",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L212",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "choice",
+        "internal_state"
+      ]
+    },
+    {
+      "line": 211,
+      "beat_id": "E01-B039",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L213",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "choice",
+        "internal_state"
+      ]
+    },
+    {
+      "line": 212,
+      "beat_id": "E01-B039",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L214",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "choice",
+        "internal_state"
+      ]
+    },
+    {
+      "line": 213,
+      "beat_id": "E01-B039",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L215",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "choice",
+        "internal_state"
+      ]
+    },
+    {
+      "line": 214,
+      "beat_id": "E01-B040",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L216",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "choice",
+        "observation"
+      ]
+    },
+    {
+      "line": 215,
+      "beat_id": "E01-B040",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L217",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "choice",
+        "observation"
+      ]
+    },
+    {
+      "line": 216,
+      "beat_id": "E01-B040",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L218",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "choice",
+        "observation"
+      ]
+    },
+    {
+      "line": 217,
+      "beat_id": "E01-B041",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L219",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "visual_attention",
+        "reaction"
+      ]
+    },
+    {
+      "line": 218,
+      "beat_id": "E01-B041",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L220",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "visual_attention",
+        "reaction"
+      ]
+    },
+    {
+      "line": 219,
+      "beat_id": "E01-B042",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L221",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "recognition"
+      ]
+    },
+    {
+      "line": 220,
+      "beat_id": "E01-B042",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L222",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "recognition"
+      ]
+    },
+    {
+      "line": 221,
+      "beat_id": "E01-B043",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L223",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "final_hook"
+      ]
+    },
+    {
+      "line": 222,
+      "beat_id": "E01-B043",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L224",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "final_hook"
+      ]
+    },
+    {
+      "line": 223,
+      "beat_id": "E01-B043",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L225",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "final_hook"
+      ]
+    },
+    {
+      "line": 224,
+      "beat_id": "E01-B043",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L226",
+      "participants": [
+        "dhika",
+        "chotu"
+      ],
+      "source_tags": [
+        "uncertainty",
+        "final_hook"
+      ]
+    },
+    {
+      "line": 225,
+      "beat_id": "E01-B044",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L227",
+      "participants": [],
+      "source_tags": [
+        "structural"
+      ]
+    },
+    {
+      "line": 226,
+      "beat_id": "E01-B044",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L228",
+      "participants": [],
+      "source_tags": [
+        "structural"
+      ]
+    },
+    {
+      "line": 227,
+      "beat_id": "E01-B044",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L229",
+      "participants": [],
+      "source_tags": [
+        "structural"
+      ]
+    },
+    {
+      "line": 228,
+      "beat_id": "E01-B044",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L230",
+      "participants": [],
+      "source_tags": [
+        "structural"
+      ]
+    },
+    {
+      "line": 229,
+      "beat_id": "E01-B044",
+      "source_line_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt#L231",
+      "participants": [],
+      "source_tags": [
+        "structural"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "DHIKA-E01-EVID-01",
+      "beat_id": 1,
+      "start": 1,
+      "end": 14,
+      "pair": "setup",
+      "event_key": "source metadata",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-02",
+      "beat_id": 2,
+      "start": 15,
+      "end": 20,
+      "pair": "uncle",
+      "event_key": "knowledge asymmetry",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-03",
+      "beat_id": 3,
+      "start": 21,
+      "end": 29,
+      "pair": "uncle",
+      "event_key": "domestic logistics",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-04",
+      "beat_id": 4,
+      "start": 30,
+      "end": 35,
+      "pair": "bantu",
+      "event_key": "verbal approach",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-05",
+      "beat_id": 5,
+      "start": 36,
+      "end": 42,
+      "pair": "twins",
+      "event_key": "character contrast",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-06",
+      "beat_id": 6,
+      "start": 43,
+      "end": 51,
+      "pair": "dhika",
+      "event_key": "appearance and self-regulation",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-07",
+      "beat_id": 7,
+      "start": 52,
+      "end": 58,
+      "pair": "sharmi",
+      "event_key": "friend introduction",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-08",
+      "beat_id": 8,
+      "start": 59,
+      "end": 63,
+      "pair": "sharmi",
+      "event_key": "comparison",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-09",
+      "beat_id": 9,
+      "start": 64,
+      "end": 69,
+      "pair": "uncle",
+      "event_key": "private violation",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-10",
+      "beat_id": 10,
+      "start": 70,
+      "end": 78,
+      "pair": "twins",
+      "event_key": "return visit",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-11",
+      "beat_id": 11,
+      "start": 79,
+      "end": 80,
+      "pair": "bobby",
+      "event_key": "observation",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-12",
+      "beat_id": 12,
+      "start": 81,
+      "end": 89,
+      "pair": "bantu",
+      "event_key": "manufactured opportunity",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-13",
+      "beat_id": 13,
+      "start": 90,
+      "end": 96,
+      "pair": "twins",
+      "event_key": "positioning",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-14",
+      "beat_id": 14,
+      "start": 97,
+      "end": 101,
+      "pair": "bobby",
+      "event_key": "physical contact",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-15",
+      "beat_id": 15,
+      "start": 102,
+      "end": 106,
+      "pair": "twins",
+      "event_key": "aftereffect",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-16",
+      "beat_id": 16,
+      "start": 107,
+      "end": 112,
+      "pair": "home",
+      "event_key": "domestic routine",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-17",
+      "beat_id": 17,
+      "start": 113,
+      "end": 115,
+      "pair": "uncle",
+      "event_key": "unrecognized trace",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-18",
+      "beat_id": 18,
+      "start": 116,
+      "end": 119,
+      "pair": "chotu",
+      "event_key": "introduction and trusted history",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-19",
+      "beat_id": 19,
+      "start": 120,
+      "end": 127,
+      "pair": "chotu",
+      "event_key": "grocery delivery",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-20",
+      "beat_id": 20,
+      "start": 128,
+      "end": 130,
+      "pair": "chotu",
+      "event_key": "wardrobe obstacle",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-21",
+      "beat_id": 21,
+      "start": 131,
+      "end": 140,
+      "pair": "chotu",
+      "event_key": "unplanned visit extension",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-22",
+      "beat_id": 22,
+      "start": 141,
+      "end": 151,
+      "pair": "chotu",
+      "event_key": "uncertain first observation",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-23",
+      "beat_id": 23,
+      "start": 152,
+      "end": 157,
+      "pair": "chotu",
+      "event_key": "misattribution",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-24",
+      "beat_id": 24,
+      "start": 158,
+      "end": 164,
+      "pair": "john",
+      "event_key": "absence",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-25",
+      "beat_id": 25,
+      "start": 165,
+      "end": 169,
+      "pair": "dhika",
+      "event_key": "private reflection",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-26",
+      "beat_id": 26,
+      "start": 170,
+      "end": 173,
+      "pair": "home",
+      "event_key": "following day",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-27",
+      "beat_id": 27,
+      "start": 174,
+      "end": 184,
+      "pair": "chotu",
+      "event_key": "invitation",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-28",
+      "beat_id": 28,
+      "start": 185,
+      "end": 193,
+      "pair": "chotu",
+      "event_key": "shared meal",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-29",
+      "beat_id": 29,
+      "start": 194,
+      "end": 205,
+      "pair": "chotu",
+      "event_key": "clothing conversation",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-30",
+      "beat_id": 30,
+      "start": 206,
+      "end": 209,
+      "pair": "dhika",
+      "event_key": "self-image",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-31",
+      "beat_id": 31,
+      "start": 210,
+      "end": 213,
+      "pair": "dhika",
+      "event_key": "deliberate choice",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-32",
+      "beat_id": 32,
+      "start": 214,
+      "end": 218,
+      "pair": "chotu",
+      "event_key": "visual reaction",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-33",
+      "beat_id": 33,
+      "start": 219,
+      "end": 224,
+      "pair": "dhika",
+      "event_key": "mutual recognition and aftermath",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    },
+    {
+      "id": "DHIKA-E01-EVID-34",
+      "beat_id": 34,
+      "start": 225,
+      "end": 228,
+      "pair": "structure",
+      "event_key": "episode closure",
+      "source_path": "data/episodes/e01.json",
+      "evidence_type": "editorial interpretation with exact source range; never substitute for original story"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "dhika-dhika-john",
+      "a": "dhika",
+      "b": "john",
+      "role": "spouses",
+      "status": "source-grounded E01 only",
+      "sourceRange": [
+        7,
+        11
+      ],
+      "beatRefs": [
+        "E01-B002",
+        "E01-B030"
+      ]
+    },
+    {
+      "id": "dhika-dhika-pappu",
+      "a": "dhika",
+      "b": "pappu",
+      "role": "mother / child",
+      "status": "source-grounded E01 only",
+      "sourceRange": [
+        7,
+        29
+      ],
+      "beatRefs": [
+        "E01-B002",
+        "E01-B004"
+      ]
+    },
+    {
+      "id": "dhika-dhika-uncle",
+      "a": "dhika",
+      "b": "uncle",
+      "role": "trusted neighbours; reader-only concealed intention",
+      "status": "source-grounded E01 only",
+      "sourceRange": [
+        15,
+        29
+      ],
+      "beatRefs": [
+        "E01-B003",
+        "E01-B004",
+        "E01-B011"
+      ]
+    },
+    {
+      "id": "dhika-dhika-aunty",
+      "a": "dhika",
+      "b": "aunty",
+      "role": "neighbours; childcare",
+      "status": "source-grounded E01 only",
+      "sourceRange": [
+        15,
+        29
+      ],
+      "beatRefs": [
+        "E01-B003",
+        "E01-B004"
+      ]
+    },
+    {
+      "id": "dhika-dhika-sharmi",
+      "a": "dhika",
+      "b": "sharmi",
+      "role": "close friends and colleagues",
+      "status": "source-grounded E01 only",
+      "sourceRange": [
+        52,
+        63
+      ],
+      "beatRefs": [
+        "E01-B009",
+        "E01-B010"
+      ]
+    },
+    {
+      "id": "dhika-dhika-bantu",
+      "a": "dhika",
+      "b": "bantu",
+      "role": "teacher / adult student",
+      "status": "source-grounded E01 only",
+      "sourceRange": [
+        30,
+        42
+      ],
+      "beatRefs": [
+        "E01-B005",
+        "E01-B006"
+      ]
+    },
+    {
+      "id": "dhika-dhika-bobby",
+      "a": "dhika",
+      "b": "bobby",
+      "role": "teacher / adult student",
+      "status": "source-grounded E01 only",
+      "sourceRange": [
+        36,
+        42
+      ],
+      "beatRefs": [
+        "E01-B006",
+        "E01-B017"
+      ]
+    },
+    {
+      "id": "dhika-bantu-bobby",
+      "a": "bantu",
+      "b": "bobby",
+      "role": "twins",
+      "status": "source-grounded E01 only",
+      "sourceRange": [
+        36,
+        42
+      ],
+      "beatRefs": [
+        "E01-B006",
+        "E01-B015"
+      ]
+    },
+    {
+      "id": "dhika-dhika-chotu",
+      "a": "dhika",
+      "b": "chotu",
+      "role": "known delivery worker / customer; changing perception",
+      "status": "source-grounded E01 only",
+      "sourceRange": [
+        116,
+        125
+      ],
+      "beatRefs": [
+        "E01-B022",
+        "E01-B037"
+      ]
+    },
+    {
+      "id": "dhika-sharmi-raj",
+      "a": "sharmi",
+      "b": "raj",
+      "role": "married",
+      "status": "source-grounded E01 only",
+      "sourceRange": [
+        57,
+        63
+      ],
+      "beatRefs": [
+        "E01-B010"
+      ]
+    },
+    {
+      "id": "dhika-chotu-maami",
+      "a": "chotu",
+      "b": "maami",
+      "role": "workplace/home family context",
+      "status": "source-grounded E01 only",
+      "sourceRange": [
+        116,
+        120
+      ],
+      "beatRefs": [
+        "E01-B022"
+      ]
+    }
+  ],
+  "notes": {
+    "human_age": "All sexually involved characters are documented as adults by source disclaimer; no extrapolation.",
+    "character_ids": [
+      "dhika",
+      "john",
+      "pappu",
+      "uncle",
+      "aunty",
+      "bantu",
+      "bobby",
+      "sharmi",
+      "raj",
+      "chotu",
+      "maami"
+    ],
+    "source_preservation": "Show text from data/episodes/e01.json on click; ledger does not replicate graphic language or invent anatomical details."
+  },
+  "created": "2026-10-25"
+}
