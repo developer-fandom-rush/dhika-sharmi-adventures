@@ -292,6 +292,26 @@
       "status": "reading-copy review"
     },
     {
+      "id": "FWFS-E01-P01-L019",
+      "part": "P01",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P01-L019",
+      "route": "story-part1",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part1",
+      "characters": [
+        "Mahendra",
+        "Ankita",
+        "Shreya"
+      ],
+      "facets": [
+        "observation",
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "status": "narrator-only reader knowledge, unapproved reading copy"
+    },
+    {
       "id": "FWFS-E01-P01-L020",
       "part": "P01",
       "source_kind": "html_line",
@@ -427,6 +447,26 @@
         "contact"
       ],
       "status": "reading-copy review"
+    },
+    {
+      "id": "FWFS-E01-P01-L029",
+      "part": "P01",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P01-L029",
+      "route": "story-part1",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part1",
+      "characters": [
+        "Harish",
+        "Shreya",
+        "Shivani"
+      ],
+      "facets": [
+        "observation",
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "status": "narrator-only reader knowledge, unapproved reading copy"
     },
     {
       "id": "FWFS-E01-P01-L030",
@@ -590,6 +630,26 @@
       "status": "reading-copy review"
     },
     {
+      "id": "FWFS-E01-P01-L040",
+      "part": "P01",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P01-L040",
+      "route": "story-part1",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part1",
+      "characters": [
+        "Prakash",
+        "Shivani",
+        "Taniya"
+      ],
+      "facets": [
+        "observation",
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "status": "narrator-only reader knowledge, unapproved reading copy"
+    },
+    {
       "id": "FWFS-E01-P01-L041",
       "part": "P01",
       "source_kind": "html_line",
@@ -680,6 +740,28 @@
         "observation"
       ],
       "status": "reading-copy review"
+    },
+    {
+      "id": "FWFS-E01-P01-L047",
+      "part": "P01",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P01-L047",
+      "route": "story-part1",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part1",
+      "characters": [
+        "Ankita",
+        "Shreya",
+        "Shivani",
+        "Virendra",
+        "Taniya"
+      ],
+      "facets": [
+        "observation",
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "status": "narrator-only reader knowledge, unapproved reading copy"
     },
     {
       "id": "FWFS-E01-P01-L048",
@@ -799,426 +881,6 @@
         "privacy_boundary"
       ],
       "status": "reading-copy review"
-    },
-    {
-      "id": "FWFS-E01-P3-P-L001",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-P-L001",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Prakash",
-        "Shivani",
-        "Harish"
-      ],
-      "facets": [
-        "privacy_boundary"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-P-L002",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-P-L002",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Prakash",
-        "Shivani"
-      ],
-      "facets": [
-        "appearance",
-        "observation"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-P-L003",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-P-L003",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Prakash",
-        "Shivani"
-      ],
-      "facets": [
-        "contact"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-P-L004",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-P-L004",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Prakash",
-        "Shivani"
-      ],
-      "facets": [
-        "observation"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-P-L005",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-P-L005",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Prakash",
-        "Shivani"
-      ],
-      "facets": [
-        "contact",
-        "inner_thought"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-P-L006",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-P-L006",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Prakash",
-        "Shivani",
-        "Harish"
-      ],
-      "facets": [
-        "contact"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-M-L001",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-M-L001",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Mahendra",
-        "Ankita"
-      ],
-      "facets": [
-        "inner_thought"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-M-L002",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-M-L002",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Mahendra",
-        "Ankita"
-      ],
-      "facets": [
-        "appearance",
-        "observation",
-        "contact",
-        "inner_thought"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-M-L003",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-M-L003",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Mahendra",
-        "Ankita"
-      ],
-      "facets": [
-        "contact"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-M-L004",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-M-L004",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Mahendra",
-        "Ankita"
-      ],
-      "facets": [
-        "observation"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-M-L005",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-M-L005",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Mahendra",
-        "Ankita"
-      ],
-      "facets": [],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-M-L006",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-M-L006",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Mahendra",
-        "Ankita"
-      ],
-      "facets": [
-        "contact",
-        "inner_thought",
-        "privacy_boundary"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-H-L001",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-H-L001",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Harish",
-        "Shreya",
-        "Mahendra"
-      ],
-      "facets": [
-        "inner_thought",
-        "privacy_boundary"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-H-L002",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-H-L002",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Harish",
-        "Shreya"
-      ],
-      "facets": [
-        "appearance",
-        "observation",
-        "contact"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-H-L003",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-H-L003",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Harish",
-        "Shreya"
-      ],
-      "facets": [
-        "contact"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-H-L004",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-H-L004",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Harish",
-        "Shreya"
-      ],
-      "facets": [
-        "observation",
-        "privacy_boundary"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-H-L005",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-H-L005",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Harish",
-        "Shreya"
-      ],
-      "facets": [],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-H-L006",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-H-L006",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Harish",
-        "Shreya",
-        "Mahendra"
-      ],
-      "facets": [
-        "contact",
-        "privacy_boundary"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-V-L001",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-V-L001",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Virendra",
-        "Taniya",
-        "Prakash",
-        "Ira"
-      ],
-      "facets": [
-        "inner_thought"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-V-L002",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-V-L002",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Virendra",
-        "Taniya"
-      ],
-      "facets": [
-        "appearance",
-        "observation",
-        "contact",
-        "inner_thought"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-V-L003",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-V-L003",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Virendra",
-        "Taniya"
-      ],
-      "facets": [
-        "contact"
-      ],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-V-L004",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-V-L004",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Virendra",
-        "Taniya"
-      ],
-      "facets": [],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-V-L005",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-V-L005",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Virendra",
-        "Taniya"
-      ],
-      "facets": [],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
-    },
-    {
-      "id": "FWFS-E01-P3-V-L006",
-      "part": "P03",
-      "source_kind": "html_line",
-      "source": "four-walls-story-lab/index.html",
-      "source_ref": "FWFS-E01-P3-V-L006",
-      "route": "story-part3-elders",
-      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
-      "characters": [
-        "Virendra",
-        "Taniya",
-        "Prakash"
-      ],
-      "facets": [],
-      "status": "Grok copyedit, unapproved; private violations are not consensual"
     },
     {
       "id": "FWFS-E01-P02-A-L001",
@@ -4639,6 +4301,426 @@
       ],
       "facets": [],
       "status": "combined original prose review"
+    },
+    {
+      "id": "FWFS-E01-P3-H-L001",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-H-L001",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Harish",
+        "Shreya",
+        "Mahendra"
+      ],
+      "facets": [
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-H-L002",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-H-L002",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Harish",
+        "Shreya"
+      ],
+      "facets": [
+        "appearance",
+        "observation",
+        "contact"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-H-L003",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-H-L003",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Harish",
+        "Shreya"
+      ],
+      "facets": [
+        "contact"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-H-L004",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-H-L004",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Harish",
+        "Shreya"
+      ],
+      "facets": [
+        "observation",
+        "privacy_boundary"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-H-L005",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-H-L005",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Harish",
+        "Shreya"
+      ],
+      "facets": [],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-H-L006",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-H-L006",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Harish",
+        "Shreya",
+        "Mahendra"
+      ],
+      "facets": [
+        "contact",
+        "privacy_boundary"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-M-L001",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-M-L001",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Mahendra",
+        "Ankita"
+      ],
+      "facets": [
+        "inner_thought"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-M-L002",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-M-L002",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Mahendra",
+        "Ankita"
+      ],
+      "facets": [
+        "appearance",
+        "observation",
+        "contact",
+        "inner_thought"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-M-L003",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-M-L003",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Mahendra",
+        "Ankita"
+      ],
+      "facets": [
+        "contact"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-M-L004",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-M-L004",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Mahendra",
+        "Ankita"
+      ],
+      "facets": [
+        "observation"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-M-L005",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-M-L005",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Mahendra",
+        "Ankita"
+      ],
+      "facets": [],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-M-L006",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-M-L006",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Mahendra",
+        "Ankita"
+      ],
+      "facets": [
+        "contact",
+        "inner_thought",
+        "privacy_boundary"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-P-L001",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-P-L001",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Prakash",
+        "Shivani",
+        "Harish"
+      ],
+      "facets": [
+        "privacy_boundary"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-P-L002",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-P-L002",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Prakash",
+        "Shivani"
+      ],
+      "facets": [
+        "appearance",
+        "observation"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-P-L003",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-P-L003",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Prakash",
+        "Shivani"
+      ],
+      "facets": [
+        "contact"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-P-L004",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-P-L004",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Prakash",
+        "Shivani"
+      ],
+      "facets": [
+        "observation"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-P-L005",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-P-L005",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Prakash",
+        "Shivani"
+      ],
+      "facets": [
+        "contact",
+        "inner_thought"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-P-L006",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-P-L006",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Prakash",
+        "Shivani",
+        "Harish"
+      ],
+      "facets": [
+        "contact"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-V-L001",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-V-L001",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Virendra",
+        "Taniya",
+        "Prakash",
+        "Ira"
+      ],
+      "facets": [
+        "inner_thought"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-V-L002",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-V-L002",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Virendra",
+        "Taniya"
+      ],
+      "facets": [
+        "appearance",
+        "observation",
+        "contact",
+        "inner_thought"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-V-L003",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-V-L003",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Virendra",
+        "Taniya"
+      ],
+      "facets": [
+        "contact"
+      ],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-V-L004",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-V-L004",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Virendra",
+        "Taniya"
+      ],
+      "facets": [],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-V-L005",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-V-L005",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Virendra",
+        "Taniya"
+      ],
+      "facets": [],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
+    },
+    {
+      "id": "FWFS-E01-P3-V-L006",
+      "part": "P03",
+      "source_kind": "html_line",
+      "source": "four-walls-story-lab/index.html",
+      "source_ref": "FWFS-E01-P3-V-L006",
+      "route": "story-part3-elders",
+      "source_url": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part3-elders",
+      "characters": [
+        "Virendra",
+        "Taniya",
+        "Prakash"
+      ],
+      "facets": [],
+      "status": "Grok copyedit, unapproved; private violations are not consensual"
     },
     {
       "id": "FWFS-E01-P04-PLAN-ANKITA",
@@ -11373,6 +11455,876 @@
       "status": "continuity-corrected draft review"
     },
     {
+      "id": "A-P7-GR-001",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-001",
+      "block_index": 0,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "appearance",
+        "observation"
+      ],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-002",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-002",
+      "block_index": 1,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-003",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-003",
+      "block_index": 2,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "inner_thought",
+        "photography"
+      ],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-004",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-004",
+      "block_index": 3,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "dialogue",
+        "photography"
+      ],
+      "channel": "chotu-dialogue",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-005",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-005",
+      "block_index": 4,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "dialogue"
+      ],
+      "channel": "ankita-dialogue",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-006",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-006",
+      "block_index": 5,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "contact",
+        "photography"
+      ],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-007",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-007",
+      "block_index": 6,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-008",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-008",
+      "block_index": 7,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-009",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-009",
+      "block_index": 8,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu",
+        "Rey"
+      ],
+      "facets": [
+        "appearance",
+        "observation",
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-010",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-010",
+      "block_index": 9,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "appearance"
+      ],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-011",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-011",
+      "block_index": 10,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "observation",
+        "inner_thought"
+      ],
+      "channel": "chotu-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-012",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-012",
+      "block_index": 11,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "appearance",
+        "observation",
+        "inner_thought"
+      ],
+      "channel": "chotu-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-013",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-013",
+      "block_index": 12,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "contact",
+        "inner_thought"
+      ],
+      "channel": "chotu-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-014",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-014",
+      "block_index": 13,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "dialogue"
+      ],
+      "channel": "chotu-dialogue",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-015",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-015",
+      "block_index": 14,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "observation",
+        "inner_thought"
+      ],
+      "channel": "chotu-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-016",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-016",
+      "block_index": 15,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "photography"
+      ],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-017",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-017",
+      "block_index": 16,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "appearance",
+        "observation",
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-018",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-018",
+      "block_index": 17,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "observation"
+      ],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-019",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-019",
+      "block_index": 18,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-020",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-020",
+      "block_index": 19,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-021",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-021",
+      "block_index": 20,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "observation"
+      ],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-022",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-022",
+      "block_index": 21,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "appearance",
+        "observation",
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-023",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-023",
+      "block_index": 22,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "observation",
+        "inner_thought"
+      ],
+      "channel": "chotu-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-024",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-024",
+      "block_index": 23,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "dialogue",
+        "photography"
+      ],
+      "channel": "chotu-dialogue",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-025",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-025",
+      "block_index": 24,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "inner_thought"
+      ],
+      "channel": "chotu-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-026",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-026",
+      "block_index": 25,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "appearance"
+      ],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-027",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-027",
+      "block_index": 26,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "dialogue"
+      ],
+      "channel": "ankita-dialogue",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-028",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-028",
+      "block_index": 27,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-029",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-029",
+      "block_index": 28,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "dialogue"
+      ],
+      "channel": "chotu-dialogue",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-030",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-030",
+      "block_index": 29,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-031",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-031",
+      "block_index": 30,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-032",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-032",
+      "block_index": 31,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-033",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-033",
+      "block_index": 32,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "observation",
+        "contact",
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-034",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-034",
+      "block_index": 33,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "observation",
+        "contact",
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-035",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-035",
+      "block_index": 34,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-036",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-036",
+      "block_index": 35,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-037",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-037",
+      "block_index": 36,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [],
+      "channel": "narrator",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-038",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-038",
+      "block_index": 37,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "appearance",
+        "observation",
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
+      "id": "A-P7-GR-039",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "source_ref": "A-P7-GR-039",
+      "block_index": 38,
+      "subscene": "Ankita",
+      "story_time": "16:03",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
+      "characters": [
+        "Ankita",
+        "Chotu"
+      ],
+      "facets": [
+        "inner_thought"
+      ],
+      "channel": "ankita-pov",
+      "slot": null,
+      "status": "REVIEW COPY — NOT CANON"
+    },
+    {
       "id": "FWFS-E01-P7-S-V2-001",
       "part": "P07",
       "source_kind": "reader_json_block",
@@ -11716,29 +12668,6 @@
       "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
     },
     {
-      "id": "FWFS-E01-P7-S-V2-INSERT-C",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_shreya_grok_reader_v3.json",
-      "source_ref": "FWFS-E01-P7-S-V2-INSERT-C",
-      "block_index": 15,
-      "subscene": "Shreya",
-      "story_time": "09:25",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v3.json",
-      "characters": [
-        "Shreya",
-        "Chotu"
-      ],
-      "facets": [
-        "appearance",
-        "inner_thought"
-      ],
-      "channel": "shreya-pov",
-      "slot": null,
-      "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
-    },
-    {
       "id": "FWFS-E01-P7-S-V2-016",
       "part": "P07",
       "source_kind": "reader_json_block",
@@ -11786,30 +12715,6 @@
       "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
     },
     {
-      "id": "FWFS-E01-P7-S-V2-INSERT-A",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_shreya_grok_reader_v3.json",
-      "source_ref": "FWFS-E01-P7-S-V2-INSERT-A",
-      "block_index": 18,
-      "subscene": "Shreya",
-      "story_time": "09:25",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v3.json",
-      "characters": [
-        "Shreya",
-        "Chotu"
-      ],
-      "facets": [
-        "appearance",
-        "contact",
-        "inner_thought"
-      ],
-      "channel": "chotu-observable",
-      "slot": null,
-      "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
-    },
-    {
       "id": "FWFS-E01-P7-S-V2-018",
       "part": "P07",
       "source_kind": "reader_json_block",
@@ -11850,30 +12755,6 @@
         "Chotu"
       ],
       "facets": [
-        "contact",
-        "inner_thought"
-      ],
-      "channel": "shreya-pov",
-      "slot": null,
-      "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
-    },
-    {
-      "id": "FWFS-E01-P7-S-V2-INSERT-D",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_shreya_grok_reader_v3.json",
-      "source_ref": "FWFS-E01-P7-S-V2-INSERT-D",
-      "block_index": 21,
-      "subscene": "Shreya",
-      "story_time": "09:25",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v3.json",
-      "characters": [
-        "Shreya",
-        "Chotu"
-      ],
-      "facets": [
-        "appearance",
         "contact",
         "inner_thought"
       ],
@@ -11932,29 +12813,6 @@
       "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
     },
     {
-      "id": "FWFS-E01-P7-S-V2-INSERT-B",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_shreya_grok_reader_v3.json",
-      "source_ref": "FWFS-E01-P7-S-V2-INSERT-B",
-      "block_index": 24,
-      "subscene": "Shreya",
-      "story_time": "09:25",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v3.json",
-      "characters": [
-        "Shreya",
-        "Chotu"
-      ],
-      "facets": [
-        "appearance",
-        "inner_thought"
-      ],
-      "channel": "chotu-observable",
-      "slot": null,
-      "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
-    },
-    {
       "id": "FWFS-E01-P7-S-V2-021-REMAINDER-B",
       "part": "P07",
       "source_kind": "reader_json_block",
@@ -11994,28 +12852,6 @@
       ],
       "facets": [
         "observation",
-        "inner_thought"
-      ],
-      "channel": "shreya-pov",
-      "slot": null,
-      "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
-    },
-    {
-      "id": "FWFS-E01-P7-S-V2-INSERT-E",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_shreya_grok_reader_v3.json",
-      "source_ref": "FWFS-E01-P7-S-V2-INSERT-E",
-      "block_index": 27,
-      "subscene": "Shreya",
-      "story_time": "09:25",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v3.json",
-      "characters": [
-        "Shreya",
-        "Chotu"
-      ],
-      "facets": [
         "inner_thought"
       ],
       "channel": "shreya-pov",
@@ -12389,6 +13225,122 @@
       ],
       "facets": [
         "photography",
+        "inner_thought"
+      ],
+      "channel": "shreya-pov",
+      "slot": null,
+      "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-INSERT-A",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_shreya_grok_reader_v3.json",
+      "source_ref": "FWFS-E01-P7-S-V2-INSERT-A",
+      "block_index": 18,
+      "subscene": "Shreya",
+      "story_time": "09:25",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v3.json",
+      "characters": [
+        "Shreya",
+        "Chotu"
+      ],
+      "facets": [
+        "appearance",
+        "contact",
+        "inner_thought"
+      ],
+      "channel": "chotu-observable",
+      "slot": null,
+      "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-INSERT-B",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_shreya_grok_reader_v3.json",
+      "source_ref": "FWFS-E01-P7-S-V2-INSERT-B",
+      "block_index": 24,
+      "subscene": "Shreya",
+      "story_time": "09:25",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v3.json",
+      "characters": [
+        "Shreya",
+        "Chotu"
+      ],
+      "facets": [
+        "appearance",
+        "inner_thought"
+      ],
+      "channel": "chotu-observable",
+      "slot": null,
+      "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-INSERT-C",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_shreya_grok_reader_v3.json",
+      "source_ref": "FWFS-E01-P7-S-V2-INSERT-C",
+      "block_index": 15,
+      "subscene": "Shreya",
+      "story_time": "09:25",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v3.json",
+      "characters": [
+        "Shreya",
+        "Chotu"
+      ],
+      "facets": [
+        "appearance",
+        "inner_thought"
+      ],
+      "channel": "shreya-pov",
+      "slot": null,
+      "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-INSERT-D",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_shreya_grok_reader_v3.json",
+      "source_ref": "FWFS-E01-P7-S-V2-INSERT-D",
+      "block_index": 21,
+      "subscene": "Shreya",
+      "story_time": "09:25",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v3.json",
+      "characters": [
+        "Shreya",
+        "Chotu"
+      ],
+      "facets": [
+        "appearance",
+        "contact",
+        "inner_thought"
+      ],
+      "channel": "shreya-pov",
+      "slot": null,
+      "status": "STORY LAB DISPLAY UPDATED · DIRECTOR FINAL CANON REVIEW PENDING"
+    },
+    {
+      "id": "FWFS-E01-P7-S-V2-INSERT-E",
+      "part": "P07",
+      "source_kind": "reader_json_block",
+      "source": "data/stories/e01_part7_shreya_grok_reader_v3.json",
+      "source_ref": "FWFS-E01-P7-S-V2-INSERT-E",
+      "block_index": 27,
+      "subscene": "Shreya",
+      "story_time": "09:25",
+      "route": "story-e01-part7-four-encounters",
+      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_shreya_grok_reader_v3.json",
+      "characters": [
+        "Shreya",
+        "Chotu"
+      ],
+      "facets": [
         "inner_thought"
       ],
       "channel": "shreya-pov",
@@ -14709,876 +15661,6 @@
       "status": "Director review pending; G1 G4 G5 G6 received revisions"
     },
     {
-      "id": "A-P7-GR-001",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-001",
-      "block_index": 0,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "appearance",
-        "observation"
-      ],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-002",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-002",
-      "block_index": 1,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-003",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-003",
-      "block_index": 2,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "inner_thought",
-        "photography"
-      ],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-004",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-004",
-      "block_index": 3,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "dialogue",
-        "photography"
-      ],
-      "channel": "chotu-dialogue",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-005",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-005",
-      "block_index": 4,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "dialogue"
-      ],
-      "channel": "ankita-dialogue",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-006",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-006",
-      "block_index": 5,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "contact",
-        "photography"
-      ],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-007",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-007",
-      "block_index": 6,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-008",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-008",
-      "block_index": 7,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-009",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-009",
-      "block_index": 8,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu",
-        "Rey"
-      ],
-      "facets": [
-        "appearance",
-        "observation",
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-010",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-010",
-      "block_index": 9,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "appearance"
-      ],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-011",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-011",
-      "block_index": 10,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "observation",
-        "inner_thought"
-      ],
-      "channel": "chotu-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-012",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-012",
-      "block_index": 11,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "appearance",
-        "observation",
-        "inner_thought"
-      ],
-      "channel": "chotu-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-013",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-013",
-      "block_index": 12,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "contact",
-        "inner_thought"
-      ],
-      "channel": "chotu-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-014",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-014",
-      "block_index": 13,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "dialogue"
-      ],
-      "channel": "chotu-dialogue",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-015",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-015",
-      "block_index": 14,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "observation",
-        "inner_thought"
-      ],
-      "channel": "chotu-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-016",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-016",
-      "block_index": 15,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "photography"
-      ],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-017",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-017",
-      "block_index": 16,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "appearance",
-        "observation",
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-018",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-018",
-      "block_index": 17,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "observation"
-      ],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-019",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-019",
-      "block_index": 18,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-020",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-020",
-      "block_index": 19,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-021",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-021",
-      "block_index": 20,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "observation"
-      ],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-022",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-022",
-      "block_index": 21,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "appearance",
-        "observation",
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-023",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-023",
-      "block_index": 22,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "observation",
-        "inner_thought"
-      ],
-      "channel": "chotu-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-024",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-024",
-      "block_index": 23,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "dialogue",
-        "photography"
-      ],
-      "channel": "chotu-dialogue",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-025",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-025",
-      "block_index": 24,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "inner_thought"
-      ],
-      "channel": "chotu-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-026",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-026",
-      "block_index": 25,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "appearance"
-      ],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-027",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-027",
-      "block_index": 26,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "dialogue"
-      ],
-      "channel": "ankita-dialogue",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-028",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-028",
-      "block_index": 27,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-029",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-029",
-      "block_index": 28,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "dialogue"
-      ],
-      "channel": "chotu-dialogue",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-030",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-030",
-      "block_index": 29,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-031",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-031",
-      "block_index": 30,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-032",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-032",
-      "block_index": 31,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-033",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-033",
-      "block_index": 32,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "observation",
-        "contact",
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-034",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-034",
-      "block_index": 33,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "observation",
-        "contact",
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-035",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-035",
-      "block_index": 34,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-036",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-036",
-      "block_index": 35,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-037",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-037",
-      "block_index": 36,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [],
-      "channel": "narrator",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-038",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-038",
-      "block_index": 37,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "appearance",
-        "observation",
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
-      "id": "A-P7-GR-039",
-      "part": "P07",
-      "source_kind": "reader_json_block",
-      "source": "data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "source_ref": "A-P7-GR-039",
-      "block_index": 38,
-      "subscene": "Ankita",
-      "story_time": "16:03",
-      "route": "story-e01-part7-four-encounters",
-      "source_url": "https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e01_part7_ankita_grok_reader_v1.json",
-      "characters": [
-        "Ankita",
-        "Chotu"
-      ],
-      "facets": [
-        "inner_thought"
-      ],
-      "channel": "ankita-pov",
-      "slot": null,
-      "status": "REVIEW COPY — NOT CANON"
-    },
-    {
       "id": "S-P7-GR-001",
       "part": "P07",
       "source_kind": "reader_json_block",
@@ -16820,7 +16902,7 @@
     }
   ],
   "coverage": {
-    "P01": 51,
+    "P01": 55,
     "P02": 226,
     "P03": 24,
     "P04": 4,
