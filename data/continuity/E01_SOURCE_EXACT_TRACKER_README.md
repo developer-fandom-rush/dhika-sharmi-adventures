@@ -16,7 +16,7 @@
 
 ### DHIKA E01 — original source only
 - Source-exact tracker: `data/continuity/dhika_e01_source_exact_tracker_v1.json`
-- Read-only original line source: `data/episodes/e01.json` — **229 exact local E01 lines**, indexed into **44 original source events**.
+- Read-only original line source: `data/episodes/e01.json` — **229 local E01 slots (228 physical source lines + one normalized terminal blank)**, indexed into **44 original source events**.
 - Independent line-range evidence: `data/director_reanalysis_e01_line_index_v1.json` — 34 editorial evidence ranges; descriptions are commentary, NOT new source facts.
 - Master source: `raw/Dhika.txt` (do not modify).
 - Character/relationship ledger: 11 evidence-linked relationship edges in DHIKA tracker.
