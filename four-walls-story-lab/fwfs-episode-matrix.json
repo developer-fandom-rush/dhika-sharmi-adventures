@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "series": "Four Walls, Four Secrets",
+  "layout": {
+    "x_axis": "Story day and optional calendar date; Wednesday starts at offset 0",
+    "y_axis": "Exactly four women; rows are fixed",
+    "cell": "DHIKA episode/part → FWFS episode/part",
+    "extend_by_days": 7,
+    "first_day": "Wednesday",
+    "first_offset": 0,
+    "default_days": 5,
+    "day_columns_unbounded": true
+  },
+  "calendar_anchor": {
+    "status": "not_canon",
+    "start_wednesday_date": null,
+    "annotation": "No actual story calendar dates established. User may supply a Wednesday date for preview only; do not persist preview as canon."
+  },
+  "approval_policy": "Only character-specific episode correspondences explicitly grounded in approved/current story. Unmapped does not mean no scene.",
+  "characters": [
+    {
+      "id": "ankita",
+      "name": "Ankita"
+    },
+    {
+      "id": "shreya",
+      "name": "Shreya"
+    },
+    {
+      "id": "shivani",
+      "name": "Shivani"
+    },
+    {
+      "id": "taniya",
+      "name": "Taniya"
+    }
+  ],
+  "mappings": [
+    {
+      "id": "ankita-wed",
+      "character": "ankita",
+      "offset": 0,
+      "dhika": {
+        "episode": 2,
+        "part": 2
+      },
+      "fwfs": {
+        "episode": 2,
+        "part": 2
+      },
+      "status": "confirmed",
+      "context": "Wednesday family dinner at Mehta residence",
+      "source": "data/stories/fwfs_e02_integrated_reader_data_20261026.json",
+      "source_basis": "Approved Episode 02 Part 2 reader; episode mapping established in prior director timeline"
+    },
+    {
+      "id": "ankita-thu",
+      "character": "ankita",
+      "offset": 1,
+      "dhika": {
+        "episode": 2,
+        "part": 3
+      },
+      "fwfs": {
+        "episode": 2,
+        "part": 3
+      },
+      "status": "confirmed",
+      "context": "Thursday continuation — Ankita, Karan and Aman; Ritvik aftermath",
+      "source": "data/stories/fwfs_e02_part03_ankita_next_day_reader_20261026.md",
+      "source_basis": "Header explicitly says FWFS E02 Part 3 adaptation of DHIKA Episode 02 lines 079–150"
+    }
+  ],
+  "invitation_background": {
+    "source_range": "FWFS Episode 02 Part 1 established invitations; DHIKA original Episode 02 Part 2 onward provides subsequent source material",
+    "original_dhika_scope": "DHIKA E02 excluding Part 1",
+    "note": "Visit slots are stored as background context and NOT automatically filled into women's episode mapping cells; FWFS assignments for other women's tracks await director discussion.",
+    "visits": [
+      {
+        "day_offset": 0,
+        "day": "Wednesday",
+        "guests": "Ankita, Ritvik, Rey",
+        "host": "Mehta / Mahendra",
+        "time": "19:30",
+        "mapping_explicitly_placed": true
+      },
+      {
+        "day_offset": 2,
+        "day": "Friday",
+        "guests": "Shreya, Samar, Mahi, Mahendra",
+        "host": "Sinha / Shivani",
+        "time": "19:30",
+        "mapping_explicitly_placed": false,
+        "invitation_day": "Friday",
+        "day_override": "User corrected Harish invitation from Wednesday to Friday, invitation clock time not fixed"
+      },
+      {
+        "day_offset": 3,
+        "day": "Saturday",
+        "guests": "Shivani, Aditya",
+        "host": "Arora / Taniya",
+        "time": "13:00",
+        "mapping_explicitly_placed": false
+      },
+      {
+        "day_offset": 4,
+        "day": "Sunday",
+        "guests": "Taniya, Dev",
+        "host": "Colonel Virendra Rathore",
+        "time": "17:00",
+        "mapping_explicitly_placed": false
+      }
+    ]
+  },
+  "next_director_decision": {
+    "focus": "Continue Ankita mapping from Friday onward only after discussing source events; do not auto-assign FWFS E04 woman or day",
+    "episode04": "unassigned"
+  },
+  "legacy_board": "fwfs-timeline-board.json",
+  "updated": "2026-10-26"
+}
