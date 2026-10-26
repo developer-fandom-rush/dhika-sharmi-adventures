@@ -1,153 +1,56 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FWFS · Horizontal Story Calendar</title>
+<title>FWFS · Simple Story Timeline</title>
+<meta name="description" content="Four Walls, Four Secrets — director-approved story calendar, Wednesday onward.">
 <style>
-:root{color-scheme:dark;--bg:#0c1523;--surface:#13243a;--surface2:#1b3049;--line:#37516d;--ink:#f3f5f8;--muted:#b7c8d8;--gold:#edc990;--blue:#8bc1ea;--green:#8fd5b0}
-*{box-sizing:border-box}body{background:var(--bg);color:var(--ink);font:14px/1.6 system-ui,-apple-system,Segoe UI,Arial,sans-serif;margin:0}
-a{color:var(--gold)}header{padding:12px clamp(14px,4vw,44px);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:#111f31;border-bottom:1px solid var(--line)}
-header strong{letter-spacing:.04em}header nav{display:flex;gap:9px;flex-wrap:wrap}header nav a{display:inline-block;text-decoration:none;padding:6px 11px;border:1px solid #566d85;background:#243850;border-radius:8px}
-main{max-width:1580px;margin:auto;padding:28px clamp(13px,2.4vw,38px) 72px}
-.kicker{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
-h1{font-size:clamp(28px,4.5vw,44px);line-height:1.15;letter-spacing:-.03em;margin:8px 0 12px}
-h2{font-size:21px;line-height:1.3;margin:31px 0 12px}p{margin:0}.muted{color:var(--muted)}
-.hero{max-width:900px}.hero p{font-size:15px}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
-.tag{border:1px solid #516a83;color:#d6e2ed;padding:4px 10px;border-radius:99px;font-size:12px}
-.anchorbox{margin-top:22px;border:1px solid #536c86;background:#1b3047;padding:14px 16px;border-radius:11px;display:flex;gap:13px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-.anchorbox strong{display:block}.anchorbox small{display:block;color:var(--muted);max-width:730px}.controls{display:flex;gap:7px;align-items:center;flex-wrap:wrap}
-label{font-size:12px;color:var(--muted)}input,select,button{font:inherit;color:var(--ink);border-radius:8px;border:1px solid #617d98;background:#233a55;padding:7px 10px}
-button{cursor:pointer}button:hover,header nav a:hover{background:#355574}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:1px}
-.error{color:#ffb99c;font-size:12px;min-height:18px}.chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
-.inv{padding:14px;background:var(--surface);border:1px solid var(--line);border-radius:12px}
-.inv .day{color:var(--gold);font-weight:800;font-size:12px;letter-spacing:.05em;text-transform:uppercase}
-.inv strong{font-size:16px;display:block;margin:4px 0 3px}.inv p{color:var(--muted)}
-.inv .trace{font-size:12px;margin-top:7px;color:#8fb9d8}
-.boardbar{display:flex;justify-content:space-between;align-items:end;gap:10px;flex-wrap:wrap}
-.boardbar h2{margin-bottom:3px}.boardbar .controls{padding-bottom:4px}
-.board-wrap{border:1px solid #476380;border-radius:13px;overflow:hidden;margin-top:11px;background:var(--surface)}
-.board-scroll{overflow-x:auto;max-width:100%;scroll-behavior:smooth;scrollbar-color:#6384a6 #172c42}
-.board-head,.board-row{display:grid;grid-template-columns:190px repeat(15,245px);width:max-content}
-.board-head{position:sticky;top:0;z-index:5;background:#1e324b}
-.corner{position:sticky;left:0;z-index:8;padding:14px 12px;background:#223c55;border-right:2px solid #66809a;border-bottom:2px solid #617d98;display:flex;flex-direction:column;justify-content:center}
-.corner strong{font-size:14px}.corner span{font-size:11px;color:var(--muted)}
-.datecell{padding:12px 10px;border-right:1px solid #3e5873;border-bottom:2px solid #59738e;background:#22364f}
-.datecell .dayname{font-size:14px;font-weight:800}.datecell .date{color:var(--muted);font-size:12px}.datecell .seq{display:block;font-size:11px;color:var(--gold)}
-.datecell.cursor{background:#55442a;border-bottom-color:var(--gold)}.datecell.weekend:not(.cursor){background:#283f54}
-.board-row{border-bottom:1px solid var(--line)}.lane{position:sticky;left:0;z-index:4;border-right:2px solid #67819d;background:#1a3047;padding:15px 12px}
-.lane strong{font-size:14px;display:block}.lane small{display:block;font-size:11px;color:var(--muted);line-height:1.4;margin-top:5px}
-.lane::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px;background:var(--lane,#edc990)}
-.cell{padding:9px 8px;min-height:127px;border-right:1px solid rgba(115,143,175,.18);background:#102238}
-.cell:nth-child(2n){background:#14273d}.cell.cursor{background:#243544}.cell.weekend:not(.cursor){background:#182b40}
-.event{border:1px solid #5a7190;border-left:3px solid #a2b4cd;background:#1c3149;border-radius:9px;padding:9px 10px;margin-bottom:7px;overflow-wrap:anywhere}
-.event .eventtop{display:flex;justify-content:space-between;gap:5px;align-items:center;flex-wrap:wrap}
-.time{font-size:11px;color:var(--gold);font-weight:750}.state{font-size:10px;border:1px solid #5d7895;background:#233c56;padding:2px 6px;border-radius:5px}
-.event h3{font-size:13px;line-height:1.4;margin:7px 0 4px}.event p{font-size:11px;color:#d0dce9}.meta{font-size:11px;color:#9ebdd5;line-height:1.4;margin-top:5px}
-.event[data-state="published"]{border-left-color:#83c8a5}.event[data-state="invited"]{border-left-color:#edca8d}.event[data-state="planned"]{border-left-color:#b4a5ec}.event[data-state="written"]{border-left-color:#87c5e9}
-.empty{font-size:11px;color:#7490a9;border:1px dashed #3c5670;padding:9px 8px;border-radius:9px;min-height:41px}
-.scrollnote{font-size:12px;margin:10px 0;color:var(--muted)}
-.mapgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:11px}
-.mapcard{padding:14px;border:1px solid var(--line);background:var(--surface);border-radius:11px}
-.mapcard .source{color:#e8c791;font-size:12px;font-weight:700}.mapcard strong{display:block;margin:5px 0;font-size:15px}
-.mapcard .scope{font-size:12px;color:var(--muted)}
-.issues{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px}
-.issue{background:#1d3047;border-left:3px solid #e9bf8d;border-radius:7px;padding:12px 14px}
-.issue strong{display:block}.issue p{margin-top:5px;font-size:13px;color:var(--muted)}
-footer{margin-top:35px;padding-top:17px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
-@media(max-width:680px){.board-head,.board-row{grid-template-columns:140px repeat(15,224px)}.corner,.lane{padding:12px 8px}.datecell{padding:10px 8px}header{padding:10px 13px}}
+:root{color-scheme:dark;--bg:#0b1421;--surface:#132238;--soft:#1b3048;--line:#334e69;--ink:#f0f3f6;--muted:#becbda;--gold:#efc989;--good:#86d1ac}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 system-ui,-apple-system,Segoe UI,Arial,sans-serif}a{color:var(--gold)}a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+header{padding:13px max(20px,calc((100vw - 1050px)/2));display:flex;align-items:center;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--line);background:#112034}
+header b{letter-spacing:.06em}header nav{margin-left:auto;display:flex;gap:15px;flex-wrap:wrap}header nav a{text-decoration:none}
+main{max-width:1050px;margin:auto;padding:40px 19px 75px}.eyebrow{font-size:12px;color:var(--gold);text-transform:uppercase;letter-spacing:.14em;font-weight:800}
+h1{font-size:clamp(29px,4vw,44px);margin:7px 0 10px;line-height:1.2}h2{font-size:21px;margin:0}p{margin:0}.lead{max-width:730px;color:var(--muted)}.top-status{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:26px 0}
+.progress{padding:17px;border-radius:12px;border:1px solid var(--line);background:var(--surface)}.progress .eyebrow{font-size:11px;letter-spacing:.04em}.progress strong{display:block;font-size:16px;margin:6px 0}.progress p{color:var(--muted);font-size:12px}
+.notice{padding:17px 19px;background:#243342;border-left:4px solid var(--gold);border-radius:10px;margin-bottom:25px}.notice strong{display:block;color:#f7d99f;margin-bottom:4px}.notice p{color:#e0e7ef}
+.jump{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0 25px}.jump a{padding:7px 13px;text-decoration:none;border:1px solid #526f8b;background:var(--soft);border-radius:8px;font-weight:650}
+.timeline{display:grid;gap:17px}.day{scroll-margin-top:25px;display:grid;grid-template-columns:150px minmax(0,1fr);border:1px solid var(--line);border-radius:15px;overflow:hidden;background:var(--surface)}.day-heading{padding:20px 16px;background:#1d334b;border-right:1px solid #3b5571}.day-heading .label{font-weight:850;font-size:21px}.day-heading .day-state{font-size:12px;color:var(--gold);line-height:1.5;margin-top:7px}.day-main{padding:18px 23px}.day-main>.summary{color:var(--muted);font-size:13px;margin-bottom:14px}
+.event{padding:12px 0;border-top:1px solid var(--line)}.event:first-of-type{border-top:0}.time{font-size:12px;color:var(--gold);font-weight:750}.event-head{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline}.event h3{font-size:16px;margin:3px 0;font-weight:720;line-height:1.45}.stage{font-size:11px;color:#b8f0d1;border:1px solid #416d67;border-radius:4px;padding:1px 7px}.event p{font-size:13px;color:#cedae5;margin-top:3px}.source{display:block;font-size:11px;color:#94b7d0;margin-top:5px}
+.next{border:1px solid #526c82;border-radius:14px;padding:20px;margin-top:23px}.next h2{margin-bottom:7px}.next p{color:var(--muted)}details{margin-top:28px;background:#101e30;border:1px solid var(--line);border-radius:11px;padding:13px 17px}summary{cursor:pointer;font-weight:670}details p{margin-top:8px;color:var(--muted);font-size:13px}footer{color:var(--muted);font-size:12px;margin-top:30px}
+@media(max-width:660px){main{padding:25px 13px 55px}.top-status{grid-template-columns:1fr}.day{grid-template-columns:1fr}.day-heading{border-right:0;border-bottom:1px solid var(--line);padding:12px 16px}.day-heading .label{font-size:20px}.day-main{padding:13px 16px}.day-main>.summary{margin-bottom:7px}header{padding:13px}}
 </style></head><body>
-<header><strong>FOUR WALLS · STORY LAB</strong><nav><a href="./">Story Lab home</a><a href="e03-part03-shreya-next-day.html">E03 Part 3</a><a href="./#story-e02-hub">Episode 02</a></nav></header>
-<main><div class="hero"><div class="kicker">Director's timeline · Calendar axis / multi-character lanes</div>
-<h1>Story calendar: every day, every character</h1>
-<p class="muted">X-axis = continuously ordered days with dates. The boxes below each date track promised visits, parallel character stories, DHIKA references and future unwritten slots. Your chapter-writing order can go backward to Friday without changing the story calendar.</p>
-<div class="tags"><span class="tag">4 original E02 Part 1 invitations</span><span class="tag">6 character/family lanes</span><span class="tag">15-day extendable calendar</span><span class="tag">Friday E04 = DHIKA E03</span></div></div>
-<div class="anchorbox">
-<div><strong>Working date anchor (not yet canonical)</strong><small>The scripts specify weekdays and invitation times, not real calendar dates. This sample week uses Wednesday 21 October 2026. Selecting another Wednesday changes only the visible date labels, not the saved story events.</small><p class="error" id="anchor-error" role="status" aria-live="polite"></p></div>
-<div class="controls"><label for="anchor-input">Story Wednesday</label><input type="date" id="anchor-input" value="2026-10-21"><button id="reset-anchor" type="button">Reset example</button></div>
-</div>
-<h2>Four fixed visits — invited in E02 Part 1</h2>
-<div class="chips" id="invitations"></div>
-<div class="boardbar"><div><h2>Horizontal day-by-day event board</h2><p class="muted">Scroll sideways to see future dates. Each row continues, even if that character has no written scene yet.</p></div>
-<div class="controls"><label for="lane-select">Track</label><select id="lane-select"><option value="all">All characters</option></select>
-<label for="status-select">Show</label><select id="status-select"><option value="all">All statuses</option><option value="published">Published</option><option value="written">Written</option><option value="invited">Invitation pending</option><option value="planned">Planned</option></select>
-<button type="button" id="focus-friday">Focus Friday (writing cursor)</button></div></div>
-<p class="scrollnote">← Earlier days · Wednesday invitations → Friday story cursor → Saturday parallel visits → Sunday promises → Next week →</p>
-<div class="board-wrap"><div class="board-scroll" id="board-scroll" tabindex="0" aria-label="Horizontal story timeline; scroll left and right"><div id="board-content" role="group" aria-label="Timeline lanes"></div></div></div>
-<h2>DHIKA → FWFS episode mapping</h2><div class="mapgrid" id="mapping"></div>
-<h2>Unresolved chronology — preserve approved wording</h2><div class="issues" id="issues"></div>
-<footer>Saved events and open future slots come from <a href="fwfs-timeline-board.json">the versioned timeline board data</a>. Adding an event to that GitHub file gives it a calendar offset, character lane, status, episode ID and source. Updates to this board file trigger the Story Lab publish workflow. The currently displayed October dates remain illustrative until an exact fiction calendar date is approved.</footer>
+<header><b>FOUR WALLS · STORY LAB</b><nav><a href="./">← Story Lab</a><a href="./#story-e02-hub">Episode 02</a><a href="./#story-e03-shreya-scenes02-05">Episode 03</a></nav></header>
+<main>
+<div class="eyebrow">Director workspace / Story calendar</div>
+<h1>Our simple timeline</h1>
+<p class="lead">Wednesday se start. Sirf decided events — no invented dates, no extra encounters, no unfinished episodes presented as final. We will add new events together after deciding them.</p>
+<section class="top-status" id="progress" aria-label="Episode completion status"></section>
+<div class="notice"><strong>Director correction · Friday, not Wednesday</strong><p>Harish invites Shreya's family on Friday. The earlier Wednesday placement was incorrect for our working timeline. Invitation time remains open; Friday dinner stays at 7:30 PM.</p></div>
+<nav class="jump" aria-label="Jump to story day"><a href="#wed">Wednesday</a><a href="#thu">Thursday</a><a href="#fri">Friday</a><a href="#sat">Saturday</a><a href="#sun">Sunday</a></nav>
+<div class="timeline" id="timeline" aria-live="polite"><p>Loading saved decisions from GitHub…</p></div>
+<div class="next"><div class="eyebrow">Our next discussion · Not yet decided</div><h2>Episode 04 — which woman, and which day?</h2><p>No character or story date is locked. We'll decide this only after checking the completed Episode 02 and remaining Episode 03 timeline.</p></div>
+<details><summary>Source note and earlier timeline archive</summary><p>Episode 02 Part 1 lines 065–067 in the existing manuscript still place Harish's invitation on Wednesday. The director corrected the timeline to Friday. The original prose has not been silently edited; this difference is recorded for a future source-consistency decision.</p><p><a href="fwfs-timeline-board-v2-archive-20261026.json">Older detailed 15-day timeline (archive only)</a>. Its unapproved proposed events are not part of the current agreed calendar.</p></details>
+<footer>Only story weekdays are shown; no October 2026 dates have been made canonical. <a href="fwfs-timeline-board.json">View versioned timeline data</a>.</footer>
 </main>
 <script>
-(function(){
-"use strict";
-var state={board:null,anchor:"2026-10-21",lane:"all",status:"all"};
-var boardEl=document.getElementById("board-content");
-function el(tag,cls,txt){var n=document.createElement(tag);if(cls)n.className=cls;if(txt!==undefined)n.textContent=txt;return n;}
-function append(parent,child){parent.appendChild(child);return child;}
-function dateAt(offset){var p=state.anchor.split("-").map(Number);return new Date(Date.UTC(p[0],p[1]-1,p[2]+offset));}
-var daysLong=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-var months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-function dateLabel(offset){var d=dateAt(offset);return d.getUTCDate()+" "+months[d.getUTCMonth()]+" "+d.getUTCFullYear();}
-function weekday(offset){return daysLong[dateAt(offset).getUTCDay()];}
-function currentFilter(e){return state.status==="all"||e.status===state.status;}
-function makeCard(e){var box=el("article","event");box.dataset.state=e.status;
-var top=append(box,el("div","eventtop"));append(top,el("span","time",e.time||"time TBD"));
-append(top,el("span","state",e.status==="invited"?"Visit invited":e.status.charAt(0).toUpperCase()+e.status.slice(1)));
-append(box,el("h3","",e.title));
-append(box,el("p","",e.detail));
-append(box,el("div","meta",(e.fwfs||"FWFS TBD")+" · "+(e.dhika||"DHIKA TBD")));
-append(box,el("div","meta","Source: "+(e.source||"Planning note")));
-return box;}
-function makeHeader(b){var head=el("div","board-head");
-var corner=append(head,el("div","corner"));append(corner,el("strong","","Character / invitations"));append(corner,el("span","","Dates flow left → right"));
-for(var i=0;i<b.x_axis.days_count;i++){var offset=b.x_axis.start_offset+i;var c=el("div","datecell"+(offset===b.x_axis.story_cursor_offset?" cursor":"")+
-((dateAt(offset).getUTCDay()===0||dateAt(offset).getUTCDay()===6)?" weekend":""));
-c.dataset.offset=String(offset);append(c,el("div","dayname",weekday(offset)));append(c,el("div","date",dateLabel(offset)));
-if(offset===b.x_axis.story_cursor_offset)append(c,el("span","seq","← Writing cursor · Friday E04"));
-else if(offset<0)append(c,el("span","seq","Before invites"));
-else if(offset>=6)append(c,el("span","seq","Future dates · open"));
-else append(c,el("span","seq","Story day +"+offset));
-append(head,c);}
-return head;}
-function renderBoard(){var b=state.board;if(!b)return;var scroller=document.getElementById("board-scroll");var oldLeft=scroller.scrollLeft;
-boardEl.textContent="";append(boardEl,makeHeader(b));
-b.lanes.filter(function(l){return state.lane==="all"||state.lane===l.id;}).forEach(function(l){
-var row=el("div","board-row");
-var label=append(row,el("div","lane"));label.style.setProperty("--lane",l.color);
-append(label,el("strong","",l.label));append(label,el("small","",l.subtitle));
-for(var i=0;i<b.x_axis.days_count;i++){var off=b.x_axis.start_offset+i;var c=el("div","cell"+(off===b.x_axis.story_cursor_offset?" cursor":"")+
-((dateAt(off).getUTCDay()===0||dateAt(off).getUTCDay()===6)?" weekend":""));
-var matches=b.events.filter(function(e){return e.offset===off&&e.lane===l.id&&currentFilter(e);});
-matches.sort(function(a,z){return(a.time||"").localeCompare(z.time||"");});
-if(matches.length){matches.forEach(function(e){append(c,makeCard(e));});}
-else append(c,el("div","empty","＋ Future scene slot"));
-append(row,c);}
-append(boardEl,row);
-});
-scroller.scrollLeft=oldLeft;}
-function renderInvitations(){var p=document.getElementById("invitations");p.textContent="";
-["visit-wed","visit-fri","visit-sat","visit-sun"].forEach(function(id){
-var e=state.board.events.find(function(x){return x.id===id;});if(!e)return;
-var c=append(p,el("article","inv"));append(c,el("div","day",weekday(e.offset)+" · "+dateLabel(e.offset)+" · "+e.time));
-append(c,el("strong","",e.title));append(c,el("p","",e.detail));append(c,el("div","trace",e.fwfs+" · "+e.dhika+" · "+e.source));});}
-function renderMapping(){var node=document.getElementById("mapping");node.textContent="";
-state.board.mapping.forEach(function(m){
-var card=append(node,el("article","mapcard"));append(card,el("div","source",m.source+"  ↓"));
-append(card,el("strong","",m.target));append(card,el("div","scope",m.state+" · "+m.scope));});}
-function renderIssues(){var node=document.getElementById("issues");node.textContent="";
-state.board.issues.forEach(function(v){var c=append(node,el("article","issue"));append(c,el("strong","",v.title));append(c,el("p","",v.detail));});}
-function renderAll(){renderInvitations();renderBoard();renderMapping();renderIssues();}
-function focusFriday(){var node=boardEl.querySelector('[data-offset="2"]');if(node)document.getElementById("board-scroll").scrollLeft=Math.max(0,node.offsetLeft-225);}
-var anchorInput=document.getElementById("anchor-input");
-anchorInput.addEventListener("change",function(){var val=anchorInput.value;var dt=new Date(val+"T00:00:00Z");
-if(!val||!Number.isFinite(dt.getTime())||dt.getUTCDay()!==3){document.getElementById("anchor-error").textContent="Please choose a Wednesday. Source weekdays remain fixed.";anchorInput.value=state.anchor;return;}
-document.getElementById("anchor-error").textContent="Preview only — story canon and GitHub data unchanged.";state.anchor=val;renderAll();});
-document.getElementById("reset-anchor").addEventListener("click",function(){state.anchor=state.board.date_policy.working_anchor_date;anchorInput.value=state.anchor;document.getElementById("anchor-error").textContent="Example anchor restored.";renderAll();});
-document.getElementById("focus-friday").addEventListener("click",focusFriday);
-document.getElementById("lane-select").addEventListener("change",function(){state.lane=this.value;renderBoard();});
-document.getElementById("status-select").addEventListener("change",function(){state.status=this.value;renderBoard();});
-fetch("./fwfs-timeline-board.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("HTTP "+r.status);return r.json();})
-.then(function(b){if(!b||!Array.isArray(b.lanes)||!Array.isArray(b.events)||!b.x_axis)throw Error("Board data incomplete");
-state.board=b;state.anchor=b.date_policy.working_anchor_date;anchorInput.value=state.anchor;
-var sel=document.getElementById("lane-select");b.lanes.forEach(function(l){var o=el("option","",l.label);o.value=l.id;append(sel,o);});renderAll();})
-.catch(function(err){boardEl.textContent="The timeline data could not load: "+err.message+". The episode and source links above remain available.";});
+(function(){"use strict";
+function node(name,cl,t){var n=document.createElement(name);if(cl)n.className=cl;if(t!==undefined)n.textContent=t;return n;}
+function add(p,c){p.appendChild(c);return c;}
+function render(b){
+ var pr=document.getElementById("progress");pr.textContent="";
+ b.episode_progress.forEach(function(ep){var c=add(pr,node("article","progress"));add(c,node("div","eyebrow",ep.episode));add(c,node("strong","",ep.status));add(c,node("p","",ep.note));});
+ var target=document.getElementById("timeline");target.textContent="";
+ b.days.forEach(function(d){
+  var art=add(target,node("section","day"));art.id=d.id;
+  var head=add(art,node("div","day-heading"));add(head,node("div","label",d.day));add(head,node("div","day-state",d.status));
+  var body=add(art,node("div","day-main"));add(body,node("p","summary",d.summary));
+  d.events.forEach(function(e){var v=add(body,node("article","event"));add(v,node("span","time",e.time));
+   var title=add(v,node("div","event-head"));add(title,node("h3","",e.title));add(title,node("span","stage",e.stage));
+   add(v,node("p","",e.detail));add(v,node("span","source","Source: "+e.source));
+  });
+ });
+}
+fetch("fwfs-timeline-board.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("HTTP "+r.status);return r.json();}).then(function(b){
+if(b.schema_version!=="3.0"||b.days.length!==5)throw Error("Simple timeline data version mismatch");
+render(b);
+}).catch(function(e){document.getElementById("timeline").textContent="Timeline could not load: "+e.message+". You can open the versioned data link below.";});
 })();
 </script></body></html>
