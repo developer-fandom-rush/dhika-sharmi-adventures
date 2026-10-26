@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "series": "Four Walls, Four Secrets",
+  "updated": "2026-10-26",
+  "scope": "Timeline and DHIKA-to-FWFS episode mapping; protect approved prose",
+  "rules": [
+    "Calendar chronology and published episode order are tracked separately",
+    "Do not retroactively overwrite approved chapters without director instruction",
+    "One person's planned Saturday activity may coexist with another's"
+  ],
+  "dhika_mapping": [
+    {
+      "dhika": "DHIKA E02 L079–150",
+      "fwfs": "FWFS E02 Part 3",
+      "characters": "Ankita, Karan, Aman, Ritvik",
+      "calendar_day": "Thursday",
+      "status": "published approved adaptation"
+    },
+    {
+      "dhika": "DHIKA E02 L045–78 approximate event mechanism",
+      "fwfs": "FWFS E03 Friday Shreya scenes",
+      "characters": "Shreya, Harish, Mahendra, Samar, Shivani, Aditya",
+      "calendar_day": "Friday",
+      "status": "published scenes 02–05, remaining Part 2 not published"
+    },
+    {
+      "dhika": "DHIKA E02 L079–150",
+      "fwfs": "FWFS E03 Part 3",
+      "characters": "Shreya, Aarav, Neel, Samar",
+      "calendar_day": "Saturday",
+      "status": "user approved and published",
+      "source_file": "data/stories/fwfs_e03_part03_shreya_next_day_approved_20261026.md"
+    },
+    {
+      "dhika": "DHIKA E03",
+      "fwfs": "FWFS E04 — Ankita × Chotu",
+      "characters": "Ankita, Chotu",
+      "calendar_day": "Friday",
+      "status": "director-confirmed mapping, scene NOT written"
+    },
+    {
+      "dhika": "DHIKA E03 as adaptation benchmark — exact lines TBD",
+      "fwfs": "Future Shreya × Chotu",
+      "calendar_day": "Sunday",
+      "status": "user-planned, episode number TBD"
+    },
+    {
+      "dhika": "TBD",
+      "fwfs": "Shivani + Aditya → Taniya/Dev/Prakash (Arora residence)",
+      "calendar_day": "Saturday",
+      "clock": "13:00",
+      "status": "invitation established E02 Part1 L068–70, chapter not written"
+    },
+    {
+      "dhika": "TBD",
+      "fwfs": "Taniya + Dev → Colonel Virendra Rathore",
+      "calendar_day": "Sunday",
+      "clock": "17:00",
+      "status": "invitation established E02 Part1 L071–73, chapter not written"
+    }
+  ],
+  "calendar": [
+    {
+      "day": "Wednesday",
+      "events": [
+        "Ankita/Ritvik/Rey at Mehta dinner 19:30 (FWFS E02 Part2); Mahendra's overnight garment swap"
+      ],
+      "status": "written"
+    },
+    {
+      "day": "Thursday",
+      "events": [
+        "Ankita office with Karan and Aman, freelance project discussion, home visit, Ritvik conversation (FWFS E02 Part3)",
+        "Chotu on leave at Thursday shop inquiry"
+      ],
+      "status": "written"
+    },
+    {
+      "day": "Friday",
+      "events": [
+        "Ankita–Chotu encounter = FWFS E04; adaptation source DHIKA E03 (TO WRITE)",
+        "Shreya/Samar/Mahendra 19:30 visit Shivani/Aditya/Harish at Sinha (FWFS E03 Parts 1–2; Part 2 completion pending)"
+      ],
+      "status": "mixed"
+    },
+    {
+      "day": "Saturday",
+      "events": [
+        "Shreya society music meeting with Aarav and Neel, Mehta setup accident, Samar conversation, Chotu shop hook (FWFS E03 Part3; published)",
+        "Shivani and Aditya to Arora/Taniya/Dev/Prakash for 13:00 lunch (planned invitation)"
+      ],
+      "status": "mixed"
+    },
+    {
+      "day": "Sunday",
+      "events": [
+        "Shreya–Chotu next encounter, supposed skipped tuition/class (planned; which class needs reconciliation)",
+        "Taniya and Dev to Colonel Virendra Rathore at 17:00 (planned invitation)"
+      ],
+      "status": "planned"
+    },
+    {
+      "day": "Monday",
+      "events": [
+        "Shreya music lessons with Aarav and Neel planned Monday/Wednesday/Friday 19:00–20:00 in FWFS E03 Part3 L105"
+      ],
+      "status": "future"
+    }
+  ],
+  "pending_timeline_reconciliations": [
+    {
+      "key": "return_date",
+      "source": "Published FWFS E03 Part3 L150 says Chotu returned 'today' on Saturday and Ankita called him; proposed FWFS E04 depicts Friday Ankita–Chotu return/encounter.",
+      "resolution": "Director to decide whether Friday is the true return and Saturday the separate inquiry; do not silently change approved L150."
+    },
+    {
+      "key": "sunday_class",
+      "source": "Published FWFS E03 Part3 L105 schedules Aarav/Neel music lessons on Monday/Wednesday/Friday 19:00–20:00, not Sunday.",
+      "resolution": "Clarify which Sunday tuition/class is skipped; leave Part3 intact."
+    },
+    {
+      "key": "future_episode_numbers",
+      "source": "FWFS E04 confirmed Friday Ankita/Chotu; no later episode numbers finalized.",
+      "resolution": "Use provisional future episode labels until director confirms."
+    }
+  ]
+}
