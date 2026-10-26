@@ -215,7 +215,7 @@
       "status": "written",
       "fwfs": "FWFS E03 P1–P2",
       "dhika": "DHIKA E02",
-      "detail": "Friday scenes 01–05 exist; remaining Scenes 06–12 writer handoff, not yet published.",
+      "detail": "Friday scenes 01–05 and Scene 06 exist. Scene 06's compliment game leads to accidental dal spill and a short cleanup detour. Scenes 07–12 writer handoff remains separate.",
       "source": "E03 Friday drafts & handoff"
     },
     {
@@ -227,7 +227,7 @@
       "status": "written",
       "fwfs": "FWFS E03",
       "dhika": "DHIKA E02",
-      "detail": "Shivani and Aditya host Friday dinner. Future viewpoint beats remain planned.",
+      "detail": "Shivani and Aditya host the Friday dinner; Scene 06 includes the compliment game and dal incident. The departure of Samar to Mehta is NOT shown in the newly finalized Scene 06 and requires a bridge before subsequent scenes.",
       "source": "E02 P1 L065–L067"
     },
     {
@@ -361,6 +361,18 @@
       "dhika": "DHIKA E03",
       "detail": "Latest director timeline example mentions an Ankita–Chotu encounter on Saturday. Earlier approval mapped the same encounter to Friday. This is a date-reconciliation marker, NOT a second encounter.",
       "source": "Latest director timeline discussion vs earlier Friday E04 instruction"
+    },
+    {
+      "id": "e03-s06-spill-final",
+      "offset": 2,
+      "lane": "shivani",
+      "time": "Dinner · exact minute TBD",
+      "title": "Scene 06 · Compliments → dal accident → cleanup",
+      "status": "published",
+      "fwfs": "FWFS E03 Scene 06 · Director final",
+      "dhika": "FWFS revised original",
+      "detail": "Four-men compliment game; Harish/Mahendra go to children, leaving Shreya, Shivani, Samar, Aditya at table. Playful teasing causes accidental dal spill. Samar and Shivani briefly go to the separate changing/wash area; Samar then exits that room. Later departure to Mehta remains to be bridged in subsequent writing.",
+      "source": "E03 Scene 06 finalized L001–L030 · Google Doc tab t.7xo2f69aweu0"
     }
   ],
   "mapping": [
@@ -422,6 +434,11 @@
       "id": "calendar_dates",
       "title": "Actual story dates",
       "detail": "The source names weekdays and clock times, but not year/month/day. Working Oct 2026 calendar is a preview anchor; not canonical."
+    },
+    {
+      "id": "scene06_07_movement",
+      "title": "Scene 06 → 07 Samar whereabouts",
+      "detail": "In finalized Scene 06 Samar leaves the private change area, not explicitly the Sinha residence. Prior outline has him departing for Mehta. Scene 07 begins with Shreya and Aditya alone at the table; bridge Samar's movement on-page without silently rewriting finalized Scene 06."
     }
   ]
 }
