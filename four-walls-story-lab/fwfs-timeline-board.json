@@ -1,0 +1,415 @@
+{
+  "schema_version": "2.0",
+  "series": "Four Walls, Four Secrets",
+  "display_name": "X-axis story calendar · character lanes",
+  "revised": "2026-10-26",
+  "date_policy": {
+    "anchor_weekday": "Wednesday",
+    "working_anchor_date": "2026-10-21",
+    "status": "PROVISIONAL planning illustration, not established story canon",
+    "anchor_offset_for": "Wednesday",
+    "note": "Authoritative manuscripts establish weekdays and clock times, but not absolute year/month/day. Change the Wednesday anchor when director specifies exact story date."
+  },
+  "x_axis": {
+    "start_offset": -2,
+    "days_count": 15,
+    "story_cursor_offset": 2,
+    "day_headers": "Monday through second Monday; all blanks intentionally available for future events"
+  },
+  "lanes": [
+    {
+      "id": "invites",
+      "label": "Invitations / family visits",
+      "subtitle": "Promised visits, RSVP and hosts",
+      "color": "#e6ba75"
+    },
+    {
+      "id": "ankita",
+      "label": "Ankita · Ritvik",
+      "subtitle": "Office, projects, Chotu",
+      "color": "#82c5e8"
+    },
+    {
+      "id": "shreya",
+      "label": "Shreya · Samar",
+      "subtitle": "Mehta, music, Chotu",
+      "color": "#bca8ee"
+    },
+    {
+      "id": "shivani",
+      "label": "Shivani · Aditya",
+      "subtitle": "Sinha, Arora lunch",
+      "color": "#eda7ba"
+    },
+    {
+      "id": "taniya",
+      "label": "Taniya · Dev",
+      "subtitle": "Arora, Colonel visit",
+      "color": "#95d7af"
+    },
+    {
+      "id": "chotu",
+      "label": "Chotu",
+      "subtitle": "Cross-household appearances",
+      "color": "#b9c7d6"
+    }
+  ],
+  "legend": {
+    "published": "Approved / published text",
+    "written": "Written or established; check chapter state",
+    "invited": "Confirmed invitation, visit not drafted",
+    "planned": "Director planned, not written",
+    "proposal": "Open continuity / provisional scheduling"
+  },
+  "events": [
+    {
+      "id": "e02-mon",
+      "offset": -2,
+      "lane": "ankita",
+      "time": "",
+      "title": "Monday baseline",
+      "status": "written",
+      "fwfs": "FWFS E02 P1",
+      "dhika": "—",
+      "detail": "Ankita's earlier household and work setup; episode narration contains Monday continuity.",
+      "source": "E02 P1 Monday opening"
+    },
+    {
+      "id": "e02-tue",
+      "offset": -1,
+      "lane": "shreya",
+      "time": "19:30",
+      "title": "Shreya–Samar home routine",
+      "status": "written",
+      "fwfs": "FWFS E02 P1",
+      "dhika": "—",
+      "detail": "Tuesday Mehta household baseline, established before the visits.",
+      "source": "E02 P1 Scene 1"
+    },
+    {
+      "id": "inv-morning-wed-mehta",
+      "offset": 0,
+      "lane": "invites",
+      "time": "08:30",
+      "title": "Mahendra invites Ankita family",
+      "status": "written",
+      "fwfs": "E02 P1",
+      "dhika": "DHIKA E02 (framework)",
+      "detail": "Mehta invites Ankita, Ritvik and Rey for Wednesday 7:30 PM dinner.",
+      "source": "E02 P1 L061–L064"
+    },
+    {
+      "id": "inv-morning-wed-sinha",
+      "offset": 0,
+      "lane": "invites",
+      "time": "09:30",
+      "title": "Harish invites Shreya family",
+      "status": "written",
+      "fwfs": "E02 P1",
+      "dhika": "DHIKA E02 (framework)",
+      "detail": "Sinha invites Shreya, Samar and Mahi for Friday 7:30 PM dinner; Mahendra joins per later director instruction.",
+      "source": "E02 P1 L065–L067"
+    },
+    {
+      "id": "inv-morning-wed-arora",
+      "offset": 0,
+      "lane": "invites",
+      "time": "10:30",
+      "title": "Prakash invites Shivani",
+      "status": "written",
+      "fwfs": "E02 P1",
+      "dhika": "DHIKA E02 (framework)",
+      "detail": "Arora invites Shivani and Aditya for Saturday 1 PM lunch.",
+      "source": "E02 P1 L068–L070"
+    },
+    {
+      "id": "inv-morning-wed-rathore",
+      "offset": 0,
+      "lane": "invites",
+      "time": "11:30",
+      "title": "Colonel invites Taniya",
+      "status": "written",
+      "fwfs": "E02 P1",
+      "dhika": "DHIKA E02 (framework)",
+      "detail": "Taniya and Dev invited to Colonel Virendra Rathore's Sunday 5 PM tea.",
+      "source": "E02 P1 L071–L073"
+    },
+    {
+      "id": "visit-wed",
+      "offset": 0,
+      "lane": "invites",
+      "time": "19:30",
+      "title": "Ankita → Mehta dinner",
+      "status": "published",
+      "fwfs": "FWFS E02 P2",
+      "dhika": "DHIKA E02 (visit structure)",
+      "detail": "Ankita, Ritvik and Rey visit Shreya, Samar, Mahendra and Mahi.",
+      "source": "E02 P1 L061–L064 / E02 P2"
+    },
+    {
+      "id": "ankita-wed",
+      "offset": 0,
+      "lane": "ankita",
+      "time": "19:30",
+      "title": "Wednesday dinner thread",
+      "status": "published",
+      "fwfs": "FWFS E02 P2",
+      "dhika": "DHIKA E02",
+      "detail": "Ankita's family-dinner story; earlier secrets are known to the reader.",
+      "source": "E02 P2"
+    },
+    {
+      "id": "ankita-thu",
+      "offset": 1,
+      "lane": "ankita",
+      "time": "~12:00",
+      "title": "Office · Karan and Aman",
+      "status": "published",
+      "fwfs": "FWFS E02 P3",
+      "dhika": "DHIKA E02 L079–150",
+      "detail": "Freelance project request, short visit and Ritvik conversation.",
+      "source": "E02 P3"
+    },
+    {
+      "id": "chotu-thu",
+      "offset": 1,
+      "lane": "chotu",
+      "time": "",
+      "title": "Reported on leave",
+      "status": "published",
+      "fwfs": "FWFS E02 P3",
+      "dhika": "DHIKA E02",
+      "detail": "Shop inquiry says Chotu took sudden leave.",
+      "source": "E02 P3 L113–L115"
+    },
+    {
+      "id": "visit-fri",
+      "offset": 2,
+      "lane": "invites",
+      "time": "19:30",
+      "title": "Shreya → Sinha dinner",
+      "status": "written",
+      "fwfs": "FWFS E03 P1/P2",
+      "dhika": "DHIKA E02 (visit structure)",
+      "detail": "Shreya, Samar, Mahi and later-added Mahendra visit Shivani, Aditya and Harish. Scenes 02–05 in Story Lab; remainder Part 2 pending.",
+      "source": "E02 P1 L065–L067; FWFS E03"
+    },
+    {
+      "id": "ankita-fri",
+      "offset": 2,
+      "lane": "ankita",
+      "time": "TBD",
+      "title": "Ankita × Chotu · encounter",
+      "status": "planned",
+      "fwfs": "FWFS E04 · LOCKED MAPPING",
+      "dhika": "DHIKA E03",
+      "detail": "Director-confirmed Friday event; FWFS Episode 04; manuscript not written. Return-day conflict tracked below.",
+      "source": "Director's 26 Oct mapping"
+    },
+    {
+      "id": "shreya-fri",
+      "offset": 2,
+      "lane": "shreya",
+      "time": "19:30",
+      "title": "Sinha dinner & secrets",
+      "status": "written",
+      "fwfs": "FWFS E03 P1–P2",
+      "dhika": "DHIKA E02",
+      "detail": "Friday scenes 01–05 exist; remaining Scenes 06–12 writer handoff, not yet published.",
+      "source": "E03 Friday drafts & handoff"
+    },
+    {
+      "id": "shivani-fri",
+      "offset": 2,
+      "lane": "shivani",
+      "time": "19:30",
+      "title": "Hosting Shreya at Sinha",
+      "status": "written",
+      "fwfs": "FWFS E03",
+      "dhika": "DHIKA E02",
+      "detail": "Shivani and Aditya host Friday dinner. Future viewpoint beats remain planned.",
+      "source": "E02 P1 L065–L067"
+    },
+    {
+      "id": "chotu-fri",
+      "offset": 2,
+      "lane": "chotu",
+      "time": "TBD",
+      "title": "Friday Chotu thread · planned",
+      "status": "planned",
+      "fwfs": "FWFS E04",
+      "dhika": "DHIKA E03",
+      "detail": "Same Ankita–Chotu encounter; cross-reference, not a second encounter.",
+      "source": "Director E04 mapping"
+    },
+    {
+      "id": "visit-sat",
+      "offset": 3,
+      "lane": "invites",
+      "time": "13:00",
+      "title": "Shivani → Arora lunch",
+      "status": "invited",
+      "fwfs": "FWFS TBD",
+      "dhika": "DHIKA E02 P2–3 framework",
+      "detail": "Shivani and Aditya visit Taniya, Dev and Prakash. RSVP recorded; scene not yet written.",
+      "source": "E02 P1 L068–L070"
+    },
+    {
+      "id": "shreya-sat",
+      "offset": 3,
+      "lane": "shreya",
+      "time": "~12:00+",
+      "title": "Music meeting → home setup",
+      "status": "published",
+      "fwfs": "FWFS E03 P3",
+      "dhika": "DHIKA E02 L079–150",
+      "detail": "Shreya, Aarav and Neel meeting and setup; Samar conversation; shop hook at end. Approved 72 lines.",
+      "source": "E03 P3 L079–150"
+    },
+    {
+      "id": "shivani-sat",
+      "offset": 3,
+      "lane": "shivani",
+      "time": "13:00",
+      "title": "At Taniya's Arora home",
+      "status": "invited",
+      "fwfs": "FWFS TBD",
+      "dhika": "DHIKA E02 P2–3 framework",
+      "detail": "Invitation confirmed; actual visit scene and further events to be written.",
+      "source": "E02 P1 L068–L070"
+    },
+    {
+      "id": "taniya-sat",
+      "offset": 3,
+      "lane": "taniya",
+      "time": "13:00",
+      "title": "Hosting Shivani and Aditya",
+      "status": "invited",
+      "fwfs": "FWFS TBD",
+      "dhika": "DHIKA E02 P2–3 framework",
+      "detail": "Taniya, Dev and Prakash host proposed Saturday lunch.",
+      "source": "E02 P1 L068–L070"
+    },
+    {
+      "id": "chotu-sat",
+      "offset": 3,
+      "lane": "chotu",
+      "time": "Later",
+      "title": "Shop reports return & Ankita call",
+      "status": "published",
+      "fwfs": "FWFS E03 P3 L150",
+      "dhika": "Adapted E02 ending",
+      "detail": "Published Saturday text says Chotu returned 'today' and Ankita called him to her home; possible conflict with Friday E04.",
+      "source": "E03 P3 L150"
+    },
+    {
+      "id": "visit-sun",
+      "offset": 4,
+      "lane": "invites",
+      "time": "17:00",
+      "title": "Taniya → Colonel's tea",
+      "status": "invited",
+      "fwfs": "FWFS TBD",
+      "dhika": "DHIKA E02 P2–3 framework",
+      "detail": "Taniya and Dev visit Colonel Virendra Rathore at 5 PM.",
+      "source": "E02 P1 L071–L073"
+    },
+    {
+      "id": "shreya-sun",
+      "offset": 4,
+      "lane": "shreya",
+      "time": "TBD",
+      "title": "Shreya × Chotu · proposed",
+      "status": "planned",
+      "fwfs": "FWFS TBD",
+      "dhika": "DHIKA E03-inspired",
+      "detail": "Director-planned Sunday encounter. Sunday skipped class needs reconciliation with Monday/Wednesday/Friday music schedule.",
+      "source": "Director's Sunday plan"
+    },
+    {
+      "id": "taniya-sun",
+      "offset": 4,
+      "lane": "taniya",
+      "time": "17:00",
+      "title": "Tea at Colonel Rathore's",
+      "status": "invited",
+      "fwfs": "FWFS TBD",
+      "dhika": "DHIKA E02 framework",
+      "detail": "Confirmed invitation; future prose not yet drafted.",
+      "source": "E02 P1 L071–L073"
+    },
+    {
+      "id": "shreya-mon",
+      "offset": 5,
+      "lane": "shreya",
+      "time": "19:00–20:00",
+      "title": "First guitar lesson scheduled",
+      "status": "planned",
+      "fwfs": "FWFS E03 P3 promise",
+      "dhika": "DHIKA E02 adapted",
+      "detail": "Aarav and Neel music lessons planned Monday/Wednesday/Friday, one hour.",
+      "source": "E03 P3 L105"
+    }
+  ],
+  "mapping": [
+    {
+      "id": "m1",
+      "source": "DHIKA E02 P2",
+      "target": "FWFS E02 P2 · Wednesday Ankita / family",
+      "state": "Published",
+      "scope": "Visit/dinner structure"
+    },
+    {
+      "id": "m2",
+      "source": "DHIKA E02 L079–150",
+      "target": "FWFS E02 P3 · Thursday Ankita",
+      "state": "Published",
+      "scope": "Karan, Aman, Ritvik adaptation"
+    },
+    {
+      "id": "m3",
+      "source": "DHIKA E02 P2–P3",
+      "target": "FWFS E03 Friday Shreya & Saturday P3",
+      "state": "Mixed",
+      "scope": "Friday draft scenes; Saturday P3 published"
+    },
+    {
+      "id": "m4",
+      "source": "DHIKA E03",
+      "target": "FWFS E04 · Friday Ankita × Chotu",
+      "state": "Mapping locked; to write",
+      "scope": "Next episode in writing order"
+    },
+    {
+      "id": "m5",
+      "source": "DHIKA E02 P2–P3 · visit reference",
+      "target": "FWFS TBD · Saturday Shivani / Sunday Taniya",
+      "state": "Invitations fixed; episodes TBD",
+      "scope": "Two existing family promises"
+    },
+    {
+      "id": "m6",
+      "source": "DHIKA E03 (benchmark)",
+      "target": "FWFS TBD · Sunday Shreya × Chotu",
+      "state": "Planned, not assigned",
+      "scope": "Separate encounter; not the Friday Ankita event"
+    }
+  ],
+  "issues": [
+    {
+      "id": "chotu_day",
+      "title": "Chotu return date",
+      "detail": "Published Saturday E03 P3 line 150 says he returned 'today'; Friday FWFS E04 is planned for Ankita–Chotu. Preserve both, resolve chronological contradiction with director."
+    },
+    {
+      "id": "sunday_lesson",
+      "title": "Sunday skipped class",
+      "detail": "Shreya's Part 3 schedules Monday/Wednesday/Friday lessons, not Sunday. What Sunday class is skipped remains undefined."
+    },
+    {
+      "id": "calendar_dates",
+      "title": "Actual story dates",
+      "detail": "The source names weekdays and clock times, but not year/month/day. Working Oct 2026 calendar is a preview anchor; not canonical."
+    }
+  ]
+}
