@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FWFS E03 Scene 06 · Director Final</title><style>
+:root{color-scheme:dark;background:#0b1423;color:#ecf1f7;font:16px/1.75 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+*{box-sizing:border-box}body{margin:0}a{color:#f3cb89}header{border-bottom:1px solid #3b526a;background:#132037;padding:14px 5%;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}nav{display:flex;gap:10px;flex-wrap:wrap}nav a{font-size:13px;border:1px solid #576f86;background:#243953;border-radius:8px;padding:6px 10px;text-decoration:none}
+main{max-width:890px;margin:auto;padding:30px 17px 90px}h1{font-size:clamp(27px,5vw,41px);margin:5px 0 10px;line-height:1.15}.kicker{font-size:12px;color:#f3cb89;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.sub{color:#b9c9db}.pill{display:inline-block;border:1px solid #5a7087;padding:4px 12px;border-radius:25px;margin:15px 8px 0 0;font-size:12px}article{background:#18293e;border:1px solid #3c5670;border-radius:15px;margin-top:24px;padding:17px clamp(12px,3vw,30px)}.line{display:grid;grid-template-columns:40px 1fr;gap:10px;padding:12px 0;border-bottom:1px solid #34465a;white-space:pre-wrap;overflow-wrap:anywhere}.line:last-child{border-bottom:0}.num{font-size:12px;font-weight:800;color:#f3cb89}#status{color:#b9c9db;padding:15px 0}footer{color:#b9c9db;font-size:13px;padding-top:24px}@media(max-width:600px){.line{grid-template-columns:35px 1fr;gap:7px}}
+</style></head><body><header><strong>FOUR WALLS / EPISODE 03</strong><nav><a href="./#story-scenes">Approved stories</a><a href="fwfs-episode-timeline.html">Timeline</a><a href="e03-part03-shreya-next-day.html">Part 3</a></nav></header><main><div class="kicker">Director-final · Scene 06</div><h1>Compliment Game → Accident → Private Cleanup</h1><p class="sub">Friday · Sinha residence · Scene 06, lines L001–L030</p><span class="pill">30 lines</span><span class="pill">Opening L001–006 + Revised L007–030</span><span class="pill">Scene 07 remains separate</span><div id="status">Loading approved manuscript…</div><article id="reader" aria-label="Approved Scene 06"></article>
+<footer>Preserved source: <a href="https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.7xo2f69aweu0">Google Doc · Director Final</a> · <a href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/stories/e03_shreya_scene06_director_final_20261026.md">GitHub manuscript</a>. This reader does not publish or change the remaining Scenes 07–12.</footer></main><script>
+(function(){
+"use strict";
+var source="../data/stories/e03_shreya_scene06_director_final_20261026.md";
+var reader=document.getElementById("reader"),status=document.getElementById("status");
+fetch(source).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.text();}).then(function(t){
+var lines=t.split(/(?=E03-S06-L\d{3}\.)/g).slice(1);
+if(lines.length!==30)throw Error("Unexpected line count: "+lines.length);
+lines.forEach(function(entry,i){
+var m=/^E03-S06-L(\d{3})\.\s*([\s\S]*)$/.exec(entry.trim());
+if(!m||Number(m[1])!==i+1)throw Error("Line numbering inconsistent at "+(i+1));
+var wrap=document.createElement("section"),num=document.createElement("span"),body=document.createElement("span");
+wrap.className="line";wrap.id="line-"+m[1];num.className="num";num.textContent=m[1];
+body.textContent=m[2].trim();wrap.appendChild(num);wrap.appendChild(body);reader.appendChild(wrap);
+});
+status.textContent="30 approved source lines loaded.";
+}).catch(function(e){status.textContent="Cannot load saved Scene 06: "+e.message;});
+})();
+</script></body></html>
