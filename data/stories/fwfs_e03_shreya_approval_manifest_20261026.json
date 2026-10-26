@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-26",
+  "series": "Four Walls, Four Secrets",
+  "episode": 3,
+  "arc": "Shreya — Friday visit",
+  "status": "user_approved",
+  "approval_source": "Direct user instruction 2026-10-26",
+  "source_document": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit",
+  "note": "Source text copied, not creatively rewritten. Scene 04 opening from the earlier Google Doc tab is superseded by the complete 14-line Scene 04.",
+  "episode_approval_register": {
+    "e01": {
+      "scope": "episode",
+      "status": "user_approved",
+      "note": "Director approval; archival technical audits do not constitute an active creative review queue."
+    },
+    "e02": {
+      "scope": "episode",
+      "status": "user_approved",
+      "note": "Existing story preserved, all active scenes marked user-approved; Scene 01 is a reconstructed framing, not recovered verbatim."
+    },
+    "e03_p05": {
+      "scope": "part_05",
+      "status": "user_approved",
+      "note": "Part 5 approval recorded per director; this source document supplies Scenes 02–05 of Shreya's Friday sequence, not a separate Part 5 manuscript."
+    }
+  },
+  "scenes": [
+    {
+      "scene": 2,
+      "id": "E03-S02",
+      "title": "The Household Errand",
+      "numbered_lines": 11,
+      "status": "user_approved",
+      "file": "e03_shreya_scene02_approved_20261026.md",
+      "source_tab": "t.7gor2da1n3lc"
+    },
+    {
+      "scene": 3,
+      "id": "E03-S03",
+      "title": "Shreya Follows Harish",
+      "numbered_lines": 15,
+      "status": "user_approved",
+      "file": "e03_shreya_scene03_approved_20261026.md",
+      "source_tab": "t.7gor2da1n3lc"
+    },
+    {
+      "scene": 4,
+      "id": "E03-S04",
+      "title": "Mahendra’s Bathroom Act",
+      "numbered_lines": 14,
+      "status": "user_approved",
+      "file": "e03_shreya_scene04_approved_20261026.md",
+      "source_tab": "t.uuvu1l1icofo"
+    },
+    {
+      "scene": 5,
+      "id": "E03-S05",
+      "title": "Return and Concealment",
+      "numbered_lines": 12,
+      "status": "user_approved",
+      "file": "e03_shreya_scene05_approved_20261026.md",
+      "source_tab": "t.uuvu1l1icofo"
+    }
+  ]
+}

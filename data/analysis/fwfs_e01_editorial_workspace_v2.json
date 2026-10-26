@@ -2,66 +2,70 @@
   "schema_version": "2.0",
   "updated": "2026-10-24",
   "story": "Four Walls, Four Secrets",
-  "overall_status": "E01 still under review. Part 7 current received readers: Ankita Grok Revised V1 (user-selected), Shivani Grok Received V1 (continuity conflicts flagged), Shreya Grok Received Revised V1 (six limited factual fixes). Taniya prose pending. Old Part 7 A/B Ankita scenes discarded.",
+  "overall_status": "Episode 01 user-approved by director on 2026-10-26. Episode 02 user-approved. Episode 03 Part 5 user-approved. Former reader-review statuses are historical, not current creative approval gates.",
   "source_hierarchy": {
     "dhika_original": "data/episodes/e01.json",
     "fwfs_working": "four-walls-story-lab/index.html; data/stories/; uploaded Grok Part 4 PDF",
     "caution": "Original DHIKA facts are not automatically FWFS facts. Keep all versions distinct."
   },
-  "review_limitations": "Updated 2026-10-23 after reader identified inadequate intensity/progression. Earlier editor marked Part 7 as a small patch after verifying continuity rather than testing intended narrative outcomes. That editorial result is retracted. No final P7 manuscript rewrite applied. Part 5 remains one combined working draft; Part 3/4 approvals pending.",
+  "review_limitations": "Historical QA notes and original source-provenance flags are retained for traceability; they are not active director approval requests. Publication fidelity and missing source wording are distinct technical concerns.",
   "part_reviews": [
     {
       "id": "P01",
       "title": "Part 1 — Four women and four elders",
-      "status": "KEEP — READER DECLINED PREVIOUS SUGGESTION",
+      "status": "USER APPROVED · SOURCE/TECHNICAL NOTES ARCHIVED",
       "release": "Part 1 unchanged by explicit reader decision; previous idea closed without implementation.",
       "dhika": "E01-L007–029",
       "strength": "Both opening sections introduce ordinary lives, adult women's social roles, trusted/recognizable older men, and reader-only hidden interest. FWFS P01: four friends solve wedding arch problem; Mahendra, Harish, Prakash and Virendra have separately presented hidden motivations.",
       "gap": "Earlier editorial suggestion to add a personal trust action was explicitly declined by the reader. It is not an open correction or task.",
       "next": "NO CHANGE to Part 1. Do not repeat the rejected trust-addition suggestion.",
       "source": "four-walls-story-lab/index.html#story-part1",
-      "kind": "reader decision final"
+      "kind": "reader decision final",
+      "status_before_director_approval": "KEEP — READER DECLINED PREVIOUS SUGGESTION"
     },
     {
       "id": "P02",
       "title": "Part 2 — Four character tracks combined (226 beats)",
-      "status": "PRELIMINARY MECHANISM REVIEW — NOT A FULL ADULT-FICTION STYLE APPROVAL",
+      "status": "USER APPROVED · SOURCE/TECHNICAL NOTES ARCHIVED",
       "release": "One stable Story Lab Part 2 reading tab with four in-place character tabs, each showing ONLY original prose; 226 numbered beats retained. Narration suggestions are review-only.",
       "dhika": "E01-L030–063",
       "strength": "DHIKA E01 L030–063 and FWFS Part 2 both use familiar teasing, compliments, differently behaved observers, individual styling/identity and memorable private reactions. Ankita: Nikhil, Karan and Aman; Shivani: Raghav and Rishabh; Shreya: Aarav and Neel; Taniya: Vihaan, Arjun, Dhruv and Laksh. Existing actions and identities are retained.",
       "gap": "Compared DHIKA E01 lines 30–63 with FWFS four Part 2 drafts as a narrative-structure and continuity reviewer: analogous banter/compliments and contrasted personalities are present. Only three over-explanatory lines were flagged. This was NOT an exhaustive line-by-line literary or adult-fiction scene-intensity audit.",
       "next": "No mandatory scene edit established. Reader switches four in-place story tabs (Ankita, Shivani, Shreya, Taniya); optional language suggestions stay in Writing Rules & Corrections, not inside reading prose.",
       "source": "data/stories/e01_part2_complete_working_draft.md",
-      "kind": "source-verified comparative prose review"
+      "kind": "source-verified comparative prose review",
+      "status_before_director_approval": "PRELIMINARY MECHANISM REVIEW — NOT A FULL ADULT-FICTION STYLE APPROVAL"
     },
     {
       "id": "P03",
       "title": "Part 3 — Grok's four elder-secret cutaways",
-      "status": "TWO POSITION FIXES APPLIED · OTHER TRACE STILL OPEN",
+      "status": "USER APPROVED · SOURCE/TECHNICAL NOTES ARCHIVED",
       "release": "Grok's original sensitive prose preserved. Mechanical position edits committed in Part 3 source and UI; additional material aftermath requires reader decision before final acceptance.",
       "dhika": "E01-L064–069",
       "strength": "All four real elder identities and household entry justifications now align with FWFS Part 1, and Saturday times fit around four women's Part 2 activities. Part 3 correctly preserves reader-only knowledge and keeps Chotu uninvolved. DHIKA mechanism of trusted domestic proximity, interruption, and an unresolved trace is recognizable.",
       "gap": "The hooks/strap clues now align: Shivani adjacent hook, Shreya reversed strap. Taniya's item fold and Ankita's missing set already aligned. Remaining question: does Part 5 intentionally omit other physical aftermath, or should a character notice something beyond item position? No new description should be invented.",
       "next": "No more auto-edit. Reader/writer supplies or approves any consequential discovery, if intended; otherwise document limited perception. Keep consent/knowledge states separate. Final creative approval still pending.",
       "source": "data/stories/e01_part3_grok_copyedit.txt",
-      "kind": "mechanical continuity partially corrected"
+      "kind": "mechanical continuity partially corrected",
+      "status_before_director_approval": "TWO POSITION FIXES APPLIED · OTHER TRACE STILL OPEN"
     },
     {
       "id": "P04",
       "title": "Part 4 — Grok prose for four tracks",
-      "status": "FOUR CONTINUITY-REVISED PREVIEWS AVAILABLE · CANON CHOICES OPEN",
+      "status": "USER APPROVED · SOURCE/TECHNICAL NOTES ARCHIVED",
       "release": "Four full Grok prose tracks and source-based corrected previews exist in ChatGPT artifact pack. GitHub Story Lab still presents the prior director plan, not complete revised prose.",
       "dhika": "E01-L070–106",
       "strength": "Grok has written all four Part 4 tracks, and the editor completed mechanical corrections without wholesale rewriting: Ankita real testing/exit, Shivani Monday reference + follow-up, Shreya proper name + practical sound-check, Taniya cast/action positioning.",
       "gap": "Ankita's older approved staging specified different contact actors from the existing Grok passage; the newer preservation-first preference was applied in the corrected preview, but no final approval recorded. Taniya's box rescue also retains an original arm steadying in addition to Arjun catching the box. Prior QA does not certify literary intensity or final prose publication.",
       "next": "Review corrected Grok-preserving previews and decide whether to retain the existing Ankita/Taniya action blocking. No other name/date/factual issue requires an explicit new scene. Once approved, import unchanged original passages with continuity fixes into Story Lab.",
       "source": "data/stories/e01_part4_ankita_director_lock.md",
-      "kind": "source-verified preview QA, not creative endorsement"
+      "kind": "source-verified preview QA, not creative endorsement",
+      "status_before_director_approval": "FOUR CONTINUITY-REVISED PREVIEWS AVAILABLE · CANON CHOICES OPEN"
     },
     {
       "id": "P05",
       "title": "Part 5 — Chotu ke saare 9 scenes (ab ek hi part)",
-      "status": "FULL NINE-SCENE SELECTIVE MERGE V1 PUBLISHED FOR READER REVIEW",
+      "status": "USER APPROVED · SOURCE/TECHNICAL NOTES ARCHIVED",
       "release": "Merged full nine-scene Part 5 (4,366 prose words, 280 numbered paragraph blocks) published separately in Story Lab. Original combined nine-scene copy is not overwritten. Ankita, Shreya and Taniya combine retained original/Grok excerpts; Shivani Sat/Sun and Chotu closing have verbatim original paragraphs. No reader canon acceptance assumed.",
       "dhika": "DHIKA E01-L116–205 (main Part 5 comparison); L206–224 only later payoff reference",
       "strength": "Part 5 contains four real delivery motives; distinct women and household contexts; each has an unexpected visual/behavioural hesitation and later follow-up. Ankita remembers Saturday (FWFS L36–50, L194–228); Shivani remembers ride and offers breakfast/study help (L66–108, L143–171); Shreya recognizes singing/creative talent (L314–338, L385–409); Taniya recalls storeroom and jokes (L258–278, L454–490).",
@@ -110,12 +114,13 @@
           "Shreya boutique return location clarified"
         ],
         "approval": "READER REVIEW PENDING"
-      }
+      },
+      "status_before_director_approval": "FULL NINE-SCENE SELECTIVE MERGE V1 PUBLISHED FOR READER REVIEW"
     },
     {
       "id": "P06",
       "title": "Part 6 — Four Decisions",
-      "status": "CONTINUITY-CORRECTED V1 ONLY — NO VERIFIED FULL GROK REWRITE, READER APPROVAL NOT RECORDED",
+      "status": "USER APPROVED · SOURCE/TECHNICAL NOTES ARCHIVED",
       "release": "Original Part 6 prose retained with 3 factual timing references corrected in Markdown and Story Lab; remains not final canon.",
       "dhika": "E01-L206–216",
       "strength": "All four women already make intentional decisions about appearance, conversation, help or personal feedback. No missing 'agency' event.",
@@ -139,7 +144,8 @@
           "old": "Ankita didi ka verification issue kal solve karna tha.",
           "new": "Ankita didi ka verification issue aaj 4 baje solve karna tha."
         }
-      ]
+      ],
+      "status_before_director_approval": "CONTINUITY-CORRECTED V1 ONLY — NO VERIFIED FULL GROK REWRITE, READER APPROVAL NOT RECORDED"
     },
     {
       "id": "P07A",
@@ -239,7 +245,7 @@
     {
       "id": "P07SHREYAGROKV1",
       "title": "Part 7 · Shreya received Grok prose, revised reader V1",
-      "status": "RECEIVED USER GROK PROSE; SOURCE ORIGINAL ARCHIVED; CONTINUITY-LIMITED EDITED READER IN UI; NOT CANON",
+      "status": "USER APPROVED · SOURCE/TECHNICAL NOTES ARCHIVED",
       "source_original": "data/stories/e01_part7_shreya_grok_raw_received_20261024.md",
       "source_revised": "data/stories/e01_part7_shreya_grok_reader_v1.json",
       "ui": "https://developer-fandom-rush.github.io/dhika-sharmi-adventures/four-walls-story-lab/#story-part7-shreya-received-v1",
@@ -258,7 +264,8 @@
         "P7 photo pose 1 and pose 2 both occur while selected second styling is worn"
       ],
       "canon": "READER APPROVAL REQUIRED",
-      "next": "Reader verifies Shreya source and version; don't auto-merge older Part 7A/B Shreya scenes or declare all E01 complete."
+      "next": "Reader verifies Shreya source and version; don't auto-merge older Part 7A/B Shreya scenes or declare all E01 complete.",
+      "status_before_director_approval": "RECEIVED USER GROK PROSE; SOURCE ORIGINAL ARCHIVED; CONTINUITY-LIMITED EDITED READER IN UI; NOT CANON"
     }
   ],
   "rules": [
@@ -824,5 +831,13 @@
       "min_words": 250,
       "max_words": 350
     }
-  ]
+  ],
+  "director_approval_update": {
+    "date": "2026-10-26",
+    "episode01": "user_approved",
+    "episode02": "user_approved",
+    "episode03_part5": "user_approved",
+    "creative_review_queue": "none",
+    "technical_source_integrity": "separate archived checks"
+  }
 }
