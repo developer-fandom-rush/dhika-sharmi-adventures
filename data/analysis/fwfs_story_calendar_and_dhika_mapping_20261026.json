@@ -123,5 +123,14 @@
       "source": "FWFS E04 confirmed Friday Ankita/Chotu; no later episode numbers finalized.",
       "resolution": "Use provisional future episode labels until director confirms."
     }
-  ]
+  ],
+  "canonical_timeline_board": {
+    "path": "four-walls-story-lab/fwfs-timeline-board.json",
+    "page": "four-walls-story-lab/fwfs-episode-timeline.html",
+    "role": "Horizontal day/date by character-lane calendar, authoritative for extendable planning",
+    "default_anchor": "2026-10-21",
+    "anchor_status": "provisional date preview only — actual fiction year/month/day unconfirmed",
+    "editable_future_events": "Append events to the board JSON; do not assign new episode numbers without director approval"
+  },
+  "archival_note": "Earlier calendar list above is a preserved synopsis. For detailed time-slotted visits, current cross-character board and open future slots, use canonical_timeline_board. Approved manuscripts were not altered."
 }
