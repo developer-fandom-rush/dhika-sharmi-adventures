@@ -349,6 +349,18 @@
       "dhika": "DHIKA E02 adapted",
       "detail": "Aarav and Neel music lessons planned Monday/Wednesday/Friday, one hour.",
       "source": "E03 P3 L105"
+    },
+    {
+      "id": "ankita-sat-continuation-check",
+      "offset": 3,
+      "lane": "ankita",
+      "time": "TBD",
+      "title": "Ankita × Chotu — Saturday date check",
+      "status": "proposal",
+      "fwfs": "FWFS E04 (Friday mapping; Saturday alternative NOT LOCKED)",
+      "dhika": "DHIKA E03",
+      "detail": "Latest director timeline example mentions an Ankita–Chotu encounter on Saturday. Earlier approval mapped the same encounter to Friday. This is a date-reconciliation marker, NOT a second encounter.",
+      "source": "Latest director timeline discussion vs earlier Friday E04 instruction"
     }
   ],
   "mapping": [
@@ -399,7 +411,7 @@
     {
       "id": "chotu_day",
       "title": "Chotu return date",
-      "detail": "Published Saturday E03 P3 line 150 says he returned 'today'; Friday FWFS E04 is planned for Ankita–Chotu. Preserve both, resolve chronological contradiction with director."
+      "detail": "Older director mapping assigns FWFS E04 Ankita–Chotu to Friday; latest calendar example mentions Saturday. Published Saturday E03 P3 L150 also says Chotu returned 'today' and Ankita called him. The board marks a Saturday CHECK, not an extra encounter. Confirm actual day before changing approved prose."
     },
     {
       "id": "sunday_lesson",
