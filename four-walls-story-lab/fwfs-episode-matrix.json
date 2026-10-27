@@ -1,22 +1,22 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "series": "Four Walls, Four Secrets",
   "layout": {
     "x_axis": "Story day and optional calendar date; Wednesday starts at offset 0",
     "y_axis": "Exactly four women; rows are fixed",
-    "cell": "Each cell shows confirmed DHIKA→FWFS mapping if available, plus written/scheduled/planned event.",
+    "cell": "Written, selected, scheduled and tentative/proposed event placements, with DHIKA source sequence references where applicable.",
     "extend_by_days": 7,
     "first_day": "Wednesday",
     "first_offset": 0,
-    "default_days": 7,
+    "default_days": 10,
     "day_columns_unbounded": true
   },
   "calendar_anchor": {
-    "status": "not_canon",
-    "start_wednesday_date": null,
-    "annotation": "No actual story calendar dates established. User may supply a Wednesday date for preview only; do not persist preview as canon."
+    "status": "working_planning_date",
+    "start_wednesday_date": "2026-10-21",
+    "annotation": "Chosen fictional working date per user's request. Does not rewrite dates in approved source prose."
   },
-  "approval_policy": "Written = archived source event, scheduled = fixed visit not yet written, planned = director-designated event, planned-check = event with unresolved contradiction. DHIKA E03 in planned cells is a structural reference, not approved FWFS writing.",
+  "approval_policy": "Only Friday Ankita–Chotu E04 is selected next; other women's Chotu slots are tentative and not locked. Written scene and proposed scene are never conflated.",
   "characters": [
     {
       "id": "ankita",
@@ -181,8 +181,8 @@
     ]
   },
   "next_director_decision": {
-    "focus": "Plan FWFS E04 Friday morning Ankita + Chotu after addressing Saturday return contradiction; no rewriting other approved scenes",
-    "episode04": "Ankita Friday morning, director planning, draft not yet approved"
+    "focus": "Plan Friday 23 October FWFS E04 Ankita/Chotu encounter, no new manuscript written without director scene confirmation",
+    "episode04": "selected (Friday AM); later encounters all tentative"
   },
   "legacy_board": "fwfs-timeline-board.json",
   "updated": "2026-10-27",
@@ -217,10 +217,10 @@
       "offset": 2,
       "time": "Friday morning",
       "title": "Chotu first return meeting",
-      "state": "planned-check",
-      "episode": "FWFS E04 · director planning",
+      "state": "selected",
+      "episode": "FWFS E04 · selected for planning (not written)",
       "dhika": "DHIKA E03 opening pattern",
-      "notes": "Source conflict: FWFS Shreya Saturday P3 L150 says Chotu returned Saturday; do not edit that line without director approval",
+      "notes": "Friday 23 Oct 2026 morning. DHIKA E02 L150–155 setup and E03 opening as structural references; source weekdays not imported. The Saturday Shreya Chotu statement needs only a date-reference correction.",
       "source": "Director 27 Oct / DHIKA E02 L152–155 to E03 L11–23"
     },
     {
@@ -256,7 +256,7 @@
       "state": "written",
       "episode": "FWFS E03 P3",
       "dhika": "DHIKA E02 P3 adaptation",
-      "notes": "Monday/Wednesday/Friday guitar lessons agreed 7–8 PM; Saturday Chotu-return line creates open contradiction",
+      "notes": "Saturday music story already written. Shopkeeper's Chotu reference should say he had already returned, Ankita called Friday; not that Chotu returned Saturday.",
       "source": "FWFS E03 P3 L079–150"
     },
     {
@@ -265,10 +265,10 @@
       "offset": 4,
       "time": "Sunday · TBD",
       "title": "First Chotu meeting",
-      "state": "planned-check",
+      "state": "tentative",
       "episode": "FWFS Ep-XX",
       "dhika": "DHIKA E03 reference template",
-      "notes": "Sunday is not a scheduled music lesson; no lesson cancellation is assumed",
+      "notes": "Sunday slot is not locked. Source classes scheduled Monday/Wednesday/Friday, not Sunday.",
       "source": "Director 27 Oct; FWFS E03 P3 L103–105"
     },
     {
@@ -313,10 +313,10 @@
       "offset": 5,
       "time": "Monday · TBD",
       "title": "First Chotu meeting",
-      "state": "planned",
+      "state": "tentative",
       "episode": "FWFS Ep-XX",
       "dhika": "DHIKA E03 reference template",
-      "notes": "After Sunday twin meeting; trigger/time to be decided",
+      "notes": "Earlier proposed Monday Chotu meeting, after Raghav/Rishabh Sunday meeting, not locked.",
       "source": "Director 27 Oct"
     },
     {
@@ -361,11 +361,83 @@
       "offset": 6,
       "time": "Tuesday · TBD",
       "title": "Meeting cancelled/rescheduled; Chotu encounter",
-      "state": "planned",
+      "state": "tentative",
       "episode": "FWFS Ep-XX",
       "dhika": "DHIKA E03 reference template",
-      "notes": "Cancellation target and reason TBD; first Chotu meeting planned after activity",
+      "notes": "Earlier proposed Tuesday Chotu meeting after rescheduling some meeting; not locked.",
       "source": "Director 27 Oct"
+    },
+    {
+      "id": "ankita-forward-3-15",
+      "character": "ankita",
+      "offset": 3,
+      "time": "Saturday 24 Oct · TBD",
+      "title": "Next-day reflection and usual home routine",
+      "state": "proposed",
+      "episode": "FWFS Ep-XX (not assigned)",
+      "dhika": "DHIKA E03 L99–100 next-day beat",
+      "notes": "First day after Friday. Routine, internal processing only if written later; no Saturday EPP lesson assumed.",
+      "source": "DHIKA E03 L99–100; relative day+1"
+    },
+    {
+      "id": "ankita-forward-4-16",
+      "character": "ankita",
+      "offset": 4,
+      "time": "Sunday 25 Oct · TBD",
+      "title": "Weekend routine / possible home project idea",
+      "state": "proposed",
+      "episode": "FWFS Ep-XX",
+      "dhika": "DHIKA E03 L137–151 domestic project setup",
+      "notes": "No fixed scene; can use Sunday for household normality and a domestic-project idea instead of inventing an activity.",
+      "source": "Adaptation proposal"
+    },
+    {
+      "id": "ankita-forward-5-17",
+      "character": "ankita",
+      "offset": 5,
+      "time": "Monday 26 Oct · 7–8 PM (conditional)",
+      "title": "First Karan–Aman EPP session",
+      "state": "scheduled",
+      "episode": "FWFS Ep-XX",
+      "dhika": "DHIKA E03 L101–136 next teaching pattern",
+      "notes": "Thursday FWFS E02 P3 L105 sets Monday 7–8 PM as a starting arrangement, subject to Ankita's convenience. This is professional UX/EPP work, not DHIKA classroom tuition.",
+      "source": "FWFS E02 P3 L105"
+    },
+    {
+      "id": "ankita-forward-6-18",
+      "character": "ankita",
+      "offset": 6,
+      "time": "Tuesday 27 Oct · flexible",
+      "title": "Work follow-up / project preparation",
+      "state": "proposed",
+      "episode": "FWFS Ep-XX",
+      "dhika": "DHIKA E03 L137–152 preparation pattern",
+      "notes": "Proposed bridge in Ankita track, with ordinary work/home responsibilities. Do not invent painting materials as canon.",
+      "source": "Source-inspired proposal"
+    },
+    {
+      "id": "ankita-forward-7-19",
+      "character": "ankita",
+      "offset": 7,
+      "time": "Wednesday 28 Oct · 7–8 PM (tentative)",
+      "title": "Possible second EPP session",
+      "state": "tentative",
+      "episode": "FWFS Ep-XX",
+      "dhika": "DHIKA E03 L152–183 later session pattern",
+      "notes": "Only if Mon/Wed/Fri option is confirmed; no scene written.",
+      "source": "FWFS E02 P3 L105 (weekdays unconfirmed)"
+    },
+    {
+      "id": "ankita-forward-7-20",
+      "character": "ankita",
+      "offset": 7,
+      "time": "Wednesday 28 Oct daytime · +5 days",
+      "title": "Optional later Chotu assistance / household project",
+      "state": "tentative",
+      "episode": "FWFS Ep-XX",
+      "dhika": "DHIKA E03 L184–235 later Chotu interaction",
+      "notes": "A five-day gap after Friday follows the source's approximate interval rather than its weekdays. This second meeting is merely an option, NOT selected.",
+      "source": "DHIKA E03 L184–235 / interval template"
     }
   ],
   "source_checks": {
@@ -394,7 +466,7 @@
     "continuity_conflicts": [
       {
         "id": "return_day",
-        "resolution": "Friday Ankita-Chotu is current director planning target, but published FWFS E03 P3 Saturday L150 says Chotu came back 'today'. Resolve separately before prose edit; do not silently rewrite."
+        "resolution": "Saturday Shreya Part3 L150 should state Chotu was already back and Ankita called him on Friday; working reader date-reference change authorized by director. Original DHIKA remains read-only."
       },
       {
         "id": "sunday_music",
@@ -410,5 +482,68 @@
       }
     ],
     "writing_boundary": "Director calendar scheduling only; no explicit sexual content, especially regarding characters described in original source as teenagers."
-  }
+  },
+  "ankita_source_progression": [
+    {
+      "source": "DHIKA E02 L150–155 → E03 L5–98",
+      "gap": "0",
+      "fwfs": "Friday 23 October",
+      "beat": "First Chotu return visit",
+      "status": "FWFS E04 selected"
+    },
+    {
+      "source": "DHIKA E03 L99–100",
+      "gap": "+1 day",
+      "fwfs": "Saturday 24 October",
+      "beat": "Next-day follow-up/reflection",
+      "status": "proposed"
+    },
+    {
+      "source": "DHIKA E03 L101–136",
+      "gap": "next feasible workday",
+      "fwfs": "Monday 26 October",
+      "beat": "Karan/Aman EPP session",
+      "status": "scheduled conditionally"
+    },
+    {
+      "source": "DHIKA E03 L137–183",
+      "gap": "between visits",
+      "fwfs": "Tuesday 27 / Wednesday 28 October",
+      "beat": "Work/household preparation + optional second EPP session",
+      "status": "proposed"
+    },
+    {
+      "source": "DHIKA E03 L184–235",
+      "gap": "~5 days after first visit",
+      "fwfs": "Wednesday 28 October",
+      "beat": "Later Chotu follow-up candidate",
+      "status": "tentative, not locked"
+    }
+  ],
+  "episode_numbering_suggestions": [
+    {
+      "fwfs": "E04",
+      "date": "Fri 23 Oct AM",
+      "focus": "Ankita + Chotu first return",
+      "state": "selected for planning"
+    },
+    {
+      "fwfs": "E05",
+      "date": "Sat 24 Oct onward",
+      "focus": "Outstanding Saturday visit / Ankita aftermath; choose one primary focus",
+      "state": "suggestion only"
+    },
+    {
+      "fwfs": "E06",
+      "date": "Sun 25–Tue 27 Oct",
+      "focus": "Outstanding Shivani / Taniya scenes and parallel events",
+      "state": "suggestion only"
+    },
+    {
+      "fwfs": "E07+",
+      "date": "Wed 28 Oct onward",
+      "focus": "Ankita E03 later interval-based beat; future events",
+      "state": "suggestion only"
+    }
+  ]
 }
