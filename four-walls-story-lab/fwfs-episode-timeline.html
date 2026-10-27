@@ -29,7 +29,7 @@ tbody td{padding:13px;min-height:130px;height:131px;background:#112238}
 tbody tr:nth-child(even) td{background:#152840}
 .cell-map{border-radius:9px;border:1px solid #48715f;background:#173d38;padding:12px;min-height:104px}
 .source{font-size:12px;font-weight:800;color:#c8e9dc}.to{font-size:17px;color:var(--gold);line-height:1.45}.target{font-size:14px;font-weight:850;color:#e5f4ee}.type{margin-top:6px;font-size:11px;color:#b0d7cc}
-.event-card{margin-top:8px;border-radius:8px;border:1px solid #50708d;padding:9px 10px;background:#24394f}.event-card.written{border-left:3px solid #91ddaf}.event-card.scheduled{border-left:3px solid #eac68b}.event-card.planned{border-left:3px solid #b6a1f0}.event-card.planned-check{border-left:3px solid #ffa48b}.event-state{font-size:10px;font-weight:800;color:var(--gold)}.event-title{font-size:13px;line-height:1.45;font-weight:700;margin-top:4px}.event-time,.episode-ref{font-size:11px;color:var(--muted);margin-top:4px}.cell-map{min-height:auto;padding:9px}.cell-map .to{font-size:12px}.cell-map .target{font-size:12px}
+.event-card{margin-top:8px;border-radius:8px;border:1px solid #50708d;padding:9px 10px;background:#24394f}.event-card.written{border-left:3px solid #91ddaf}.event-card.scheduled{border-left:3px solid #eac68b}.event-card.planned{border-left:3px solid #b6a1f0}.event-card.planned-check{border-left:3px solid #ffa48b}.event-card.selected{border-left:4px solid #8fe0af}.event-card.proposed{border-left:3px solid #8cb4dc}.event-card.tentative{border-left:3px dotted #ada5d9;opacity:.85}.event-state{font-size:10px;font-weight:800;color:var(--gold)}.event-title{font-size:13px;line-height:1.45;font-weight:700;margin-top:4px}.event-time,.episode-ref{font-size:11px;color:var(--muted);margin-top:4px}.cell-map{min-height:auto;padding:9px}.cell-map .to{font-size:12px}.cell-map .target{font-size:12px}
 .empty{display:flex;align-items:center;justify-content:center;color:#8fa8c0;border:1px dashed #3e5873;border-radius:8px;min-height:103px;font-size:12px;text-align:center}
 .helper{font-size:12px;color:var(--muted);margin:10px 0 0}
 .after{margin-top:24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:13px}
@@ -41,26 +41,26 @@ tbody tr:nth-child(even) td{background:#152840}
 <main>
 <div class="kicker">Director timeline · Four permanent rows</div><h1>DHIKA → FWFS Episode Mapping</h1>
 <p class="lead">X-axis = day/date starting Wednesday. Y-axis = four women. Each cell shows written, scheduled, or planned events, with DHIKA → FWFS mapping only when established. No calendar dates or future episode numbers have been invented.</p>
-<div class="legend"><span>4 women · permanent rows</span><span>Wednesday → Tuesday</span><span>Four women · 15 registered events</span><span>Columns can grow</span></div>
+<div class="legend"><span>4 women · permanent rows</span><span>Wed 21 Oct 2026 → later days</span><span>4 women · 21 dated event placements</span><span>Columns can grow</span></div>
 <div class="controls">
 <div class="field"><label for="anchor-date">Optional Wednesday date (preview only)</label><input id="anchor-date" type="date" aria-describedby="date-note"></div>
 <button type="button" id="add-days">+ Next 7 days</button>
-<button type="button" id="reset-days">Show first 7 days</button>
+<button type="button" id="reset-days">Show first 10 days</button>
 </div>
-<p id="date-note" role="status">No calendar date locked. Headers show weekdays; date remains TBD.</p>
+<p id="date-note" role="status">Planning anchor: Wednesday 21 Oct 2026. Date can be previewed differently; approved prose remains unchanged.</p>
 <div class="matrix-viewport" id="matrix-viewport" tabindex="0" aria-label="Scrollable episode mapping, four rows and growing day columns"><table aria-describedby="matrix-caption">
 <thead id="matrix-header"></thead><tbody id="matrix-body"><tr><td>Loading GitHub mapping…</td></tr></tbody></table></div>
-<p class="helper" id="matrix-caption">W = written source · S = fixed invitation · P = planned event · CHECK = unresolved chronology. Scroll right for more days; source manuscripts remain unchanged.</p>
+<p class="helper" id="matrix-caption">Written = existing scene · Scheduled = fixed invitation/arrangement · Selected E04 = Friday target · Proposed/Tentative = not locked. Scroll horizontally.</p>
 <div class="after">
-<section class="note"><h2>Story sequence through next Tuesday</h2><p>Wednesday: Ankita dinner / Shreya hosts. Thursday: Ankita with Karan/Aman. Friday AM: Ankita–Chotu E04 planned. Friday PM: Shreya visits Shivani, written E03. Saturday: Shreya music + Shivani at Taniya. Sunday: Shreya–Chotu plan, Shivani/Raghav/Rishabh, Taniya at Colonel. Monday: Shivani–Chotu plan + Taniya/Dev group. Tuesday: Taniya–Chotu plan.</p></section>
-<section class="note"><h2>Episode 04 preflight</h2><p>Director plans Friday morning Ankita/Chotu, but approved Saturday E03 P3 L150 says Chotu returned that Saturday. Reconcile before writing, without silently editing approved text. Shreya has no Sunday guitar class to cancel.</p></section>
+<section class="note"><h2>Four tracks · 21–28 October 2026</h2><p>Wednesday: Ankita dinner / Shreya hosts. Thursday: Ankita with Karan/Aman. Friday AM: Ankita–Chotu E04 selected. Friday PM: Shreya visits Shivani, written E03. Saturday: Shreya music + Shivani at Taniya. Sunday: Shreya–Chotu plan, Shivani/Raghav/Rishabh, Taniya at Colonel. Monday: Shivani–Chotu plan + Taniya/Dev group. Tuesday: Taniya–Chotu tentative. Ankita: Sat 24 aftermath, Sun 25 routine, Mon 26 EPP, Tue 27 prep; Wed 28 later +5-day Chotu follow-up candidate (not locked).</p></section>
+<section class="note"><h2>Episode 04 next · Friday morning</h2><p>Friday 23 October morning Ankita/Chotu is selected for planning, not written. The Saturday shopkeeper reference has been narrowly corrected to refer to an earlier Friday invitation. Shreya, Shivani and Taniya's later Chotu slots remain tentative.</p></section>
 </div>
 <p class="notice">Four fixed visits and all four Chotu encounter slots are stored with source/planning status. DHIKA E03 is a planning template, not a direct episode-number assignment. <a href="fwfs-episode-matrix.json">View exact mapping data</a>. The earlier detailed calendar is preserved separately in the repository.</p>
 </main>
 <script>
 (function(){
 "use strict";
-var state={data:null,visibleDays:7,anchor:null};
+var state={data:null,visibleDays:10,anchor:"2026-10-21"};
 var names=["Wednesday","Thursday","Friday","Saturday","Sunday","Monday","Tuesday"];
 function el(tag,cls,t){var x=document.createElement(tag);if(cls)x.className=cls;if(t!==undefined)x.textContent=t;return x;}
 function add(p,c){p.appendChild(c);return c;}
@@ -87,7 +87,7 @@ function render(){
    }
    events.forEach(function(e){
      var box=add(cell,el("article","event-card "+e.state));box.title=e.notes+" | Source: "+e.source;
-     add(box,el("div","event-state",e.state==="written"?"WRITTEN":e.state==="scheduled"?"SCHEDULED":e.state==="planned-check"?"PLANNED · CHECK":"PLANNED"));
+     add(box,el("div","event-state",e.state==="written"?"WRITTEN":e.state==="scheduled"?"SCHEDULED":e.state==="selected"?"SELECTED E04":e.state==="tentative"?"TENTATIVE":e.state==="proposed"?"PROPOSED":e.state==="planned-check"?"PLANNED · CHECK":"PLANNED"));
      add(box,el("div","event-title",e.title));
      add(box,el("div","event-time",e.time));
      if(!m)add(box,el("div","episode-ref",e.episode+" | "+e.dhika));
@@ -108,10 +108,10 @@ input.addEventListener("change",function(){var d=this.value?new Date(this.value+
 document.getElementById("add-days").addEventListener("click",function(){
  state.visibleDays+=7;render();var sc=document.getElementById("matrix-viewport");sc.scrollLeft=sc.scrollWidth-sc.clientWidth;
 });
-document.getElementById("reset-days").addEventListener("click",function(){state.visibleDays=7;render();document.getElementById("matrix-viewport").scrollLeft=0;});
+document.getElementById("reset-days").addEventListener("click",function(){state.visibleDays=10;render();document.getElementById("matrix-viewport").scrollLeft=0;});
 fetch("fwfs-episode-matrix.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("HTTP "+r.status);return r.json();}).then(function(data){
- if(data.schema_version!=="2.0"||data.characters.length!==4)throw Error("Unexpected mapping schema");
- state.data=data;render();
+ if(data.schema_version!=="3.0"||data.characters.length!==4)throw Error("Unexpected mapping schema");
+ state.data=data;state.anchor=data.calendar_anchor&&data.calendar_anchor.start_wednesday_date||null;document.getElementById("anchor-date").value=state.anchor||"";render();
 }).catch(function(e){document.getElementById("matrix-body").textContent="Mapping unavailable: "+e.message;});
 })();
 </script></body></html>
