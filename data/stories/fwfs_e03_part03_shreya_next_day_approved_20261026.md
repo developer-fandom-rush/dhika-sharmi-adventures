@@ -150,4 +150,4 @@ Approved Google Doc source: https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2
 
 149. Thodi der baad Shreya kuch ghar ka saman lene society ke paas ki shop par nikli. Use Chotu ka bhi khayal aaya—kaafi din se woh nazar nahi aaya tha. Counter par rukkar usne poochha, “Chotu aaj duty par aaya hai kya?”
 
-150. Shop owner ne kaha, “Haan, aaj hi wapas aaya hai. Lekin Ankita ji ne ghar ke kuch kaam ke liye use call kiya tha, toh abhi woh unke yahan gaya hai.” Shreya ek pal ko ruki. “Achchha... theek hai,” usne kaha. Woh saman lekar laut gayi. Chotu aur Ankita ki mulaqat ab kisi aur ghar mein hone wali thi.
+150. Shop owner ne kaha, “Haan, Chotu wapas aa gaya hai. Ankita ji ne kal Friday ko use ghar ke kuch kaam ke liye bulaya tha.” Shreya ek pal ko ruki. “Achchha... theek hai,” usne kaha. Woh saman lekar laut gayi. Ankita aur Chotu ki Friday wali mulaqat ki details use nahi pata thi.
