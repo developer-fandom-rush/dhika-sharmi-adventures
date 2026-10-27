@@ -16,7 +16,7 @@
     "start_wednesday_date": null,
     "annotation": "No actual story calendar dates established. User may supply a Wednesday date for preview only; do not persist preview as canon."
   },
-  "approval_policy": "Only character-specific episode correspondences explicitly grounded in approved/current story. Unmapped does not mean no scene.",
+  "approval_policy": "Only character-specific episode correspondences explicitly grounded in approved/current story. Unmapped does not mean no scene. The Wednesday E02 P2 dinner is shared between Ankita (guest) and Shreya (host).",
   "characters": [
     {
       "id": "ankita",
@@ -69,12 +69,63 @@
       "context": "Thursday continuation — Ankita, Karan and Aman; Ritvik aftermath",
       "source": "data/stories/fwfs_e02_part03_ankita_next_day_reader_20261026.md",
       "source_basis": "Header explicitly says FWFS E02 Part 3 adaptation of DHIKA Episode 02 lines 079–150"
+    },
+    {
+      "id": "shreya-wed-host",
+      "character": "shreya",
+      "offset": 0,
+      "dhika": {
+        "episode": 2,
+        "part": 2
+      },
+      "fwfs": {
+        "episode": 2,
+        "part": 2
+      },
+      "status": "confirmed",
+      "context": "Wednesday Shreya hosts Ankita/Ritvik/Rey for dinner; same event as Ankita's guest cell",
+      "source": "data/stories/fwfs_e02_integrated_reader_data_20261026.json",
+      "source_basis": "E02 Scenes 01, 03, 04, 08, 09, and farewell; user correction 2026-10-27 to show both guest and host perspectives"
+    },
+    {
+      "id": "shreya-fri-visit",
+      "character": "shreya",
+      "offset": 2,
+      "dhika": {
+        "episode": 2,
+        "part": "2–3"
+      },
+      "fwfs": {
+        "episode": 3,
+        "part": "1–2"
+      },
+      "status": "confirmed",
+      "context": "Friday 7:30 PM Shreya/Samar/Mahi/Mahendra visit Shivani's Sinha home; this is a structural DHIKA E02 adaptation, not one-to-one source-part equivalence",
+      "source": "four-walls-story-lab/e03-friday-scenes-manifest.json",
+      "source_basis": "FWFS E03 Friday 12-scene collection archived; adaptation uses DHIKA E02 mechanisms"
+    },
+    {
+      "id": "shreya-sat-music",
+      "character": "shreya",
+      "offset": 3,
+      "dhika": {
+        "episode": 2,
+        "part": 3
+      },
+      "fwfs": {
+        "episode": 3,
+        "part": 3
+      },
+      "status": "confirmed",
+      "context": "Saturday music meeting and Mehta home setup with Aarav/Neel; future lessons scheduled Mon/Wed/Fri 7–8 PM",
+      "source": "data/stories/fwfs_e03_part03_shreya_next_day_approved_20261026.md",
+      "source_basis": "Approved Shreya E03 P3 adapts DHIKA E02 L079–150"
     }
   ],
   "invitation_background": {
     "source_range": "FWFS Episode 02 Part 1 established invitations; DHIKA original Episode 02 Part 2 onward provides subsequent source material",
     "original_dhika_scope": "DHIKA E02 excluding Part 1",
-    "note": "Visit slots are stored as background context and NOT automatically filled into women's episode mapping cells; FWFS assignments for other women's tracks await director discussion.",
+    "note": "Four invitations remain background planning events. Explicit source-backed scene mappings are now shown for Ankita and Shreya. Shivani/Taniya mapping cells remain unassigned until director approval.",
     "visits": [
       {
         "day_offset": 0,
@@ -113,9 +164,9 @@
     ]
   },
   "next_director_decision": {
-    "focus": "Continue Ankita mapping from Friday onward only after discussing source events; do not auto-assign FWFS E04 woman or day",
-    "episode04": "unassigned"
+    "focus": "Complete remaining women one at a time after reviewing their actual source; reconcile planned Friday Ankita/Chotu against Saturday Chotu return",
+    "episode04": "planned Ankita/Chotu in older director note; day continuity unresolved; do not treat as approved written event"
   },
   "legacy_board": "fwfs-timeline-board.json",
-  "updated": "2026-10-26"
+  "updated": "2026-10-27"
 }
