@@ -13,8 +13,8 @@
     },
     {
       "episode": "Episode 03",
-      "status": "Scenes 06–08, 10–12 saved; Scene 09 still pending",
-      "note": "Director-final Scene 06, latest Scene 07–08, corrected 10–12 stored. Part 2 has missing final Scene 09; do not mark whole E03 final."
+      "status": "Full draft coverage · 12/12 Friday scenes + published Saturday Part 3",
+      "note": "Scene 09 newly supplied with 31 numbered lines and archived. Scene 01 still marked working draft; remaining continuity review/approval and reader parity to confirm before final status."
     },
     {
       "episode": "Episode 04",
@@ -97,16 +97,16 @@
           "id": "fri-shreya-dinner",
           "time": "7:30 PM",
           "title": "Shreya, Samar, Mahi (+ Mahendra) → Sinha home",
-          "detail": "Scenes 02–06 include approved/director-final work. Latest supplied Scenes 07–08 and 10–12 are saved as numbered manuscripts (Scene 12 in Google Doc). Scene 09 numbered manuscript not found. Part 2 reader page: e03-part2-scenes06-12.html.",
-          "stage": "Partial draft collection; Scene 09 missing",
-          "source": "E03 Google Doc scene tabs · reader collection 2026-10-27"
+          "detail": "Friday Scene 01–12 now all exist as numbered manuscripts (09 = 31 lines). Part 2 reader now includes Scene09 after Scene08. Director approval and continuity check remain; see e03-episode-reading-order.html.",
+          "stage": "Complete numbered draft collection, editorial checks open",
+          "source": "Current Google Doc with revised Scene09 tab t.orn8m3m9t4ik, 2026-10-27"
         },
         {
           "id": "fri-scenes07-12",
           "time": "Dinner through late night",
-          "title": "E03 Scene sequence: 06–12 (Scene 09 outline)",
-          "detail": "Saved: Scene 06 finalized; Scenes 07,08,10,11,12 supplied and indexed. Scene 09 is not final-numbered; do not call Part 2 entirely complete. See e03-part2-scenes06-12.html.",
-          "stage": "Manuscripts saved; one gap",
+          "title": "E03 Scene sequence: 06–12 complete draft coverage",
+          "detail": "Scene09 L001–L031 added in order between 08 and 10. Scenes 06–12 numbered copies/sources available. Editorial timing and sign-off pending.",
+          "stage": "Complete drafted collection, review pending",
           "source": "Director text 26–27 October 2026"
         }
       ]
@@ -162,8 +162,13 @@
   "editorial_open_items": [
     {
       "id": "e03-scene09_missing",
-      "status": "needs numbered manuscript",
-      "detail": "Source rough plot exists, but final Scene 09 was not found; reader has outline-only link."
+      "status": "RESOLVED: 31 lines retrieved and archived",
+      "detail": "Latest director Google Doc tab t.orn8m3m9t4ik supplies E03-S09-L001–L031; UI updated on 2026-10-27."
+    },
+    {
+      "id": "e03_final_signoff",
+      "status": "still open",
+      "detail": "Story manuscript coverage complete, but Scene 01 marked working draft and Scene06/08 overlap + Samar home-departure transition require final continuity review; not all scene statuses are director-final."
     }
   ]
 }
