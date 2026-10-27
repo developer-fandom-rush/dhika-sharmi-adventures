@@ -1,0 +1,1213 @@
+{
+  "schema": "fwfs.ankita_chotu.history.v1",
+  "tab_name": "Ankita and chotu (latest)",
+  "updated": "2026-10-27",
+  "source_policy": "Source-ordered line/block pointers ONLY; no original FWFS or DHIKA prose has been copied or edited. Renderer reads existing canonical reader JSON unchanged. Story status must not be silently promoted to approved canon.",
+  "fwfs_source": "data/stories/e01_all_seven_parts_continuous_reader_v1.json",
+  "dhika_source": "data/episodes/e01.json",
+  "fwfs_episode": "E01",
+  "record_count": 115,
+  "identity": {
+    "fwfs": {
+      "woman": "Ankita Bansal",
+      "man": "Chirag / Chotu",
+      "age_of_chotu": 22,
+      "context": "Bansal family / Rey's rocket and delivery-app paperwork",
+      "story_days": "Saturday→Sunday→Monday→Tuesday"
+    },
+    "dhika": {
+      "woman": "Dhika John",
+      "man": "Babu / Chotu",
+      "age_of_chotu": 19,
+      "context": "Department store errands and a later shared meal",
+      "story_days": "Original E01 first and following day; do not map the dates directly"
+    }
+  },
+  "groups": [
+    {
+      "key": "saturday",
+      "title": "Saturday · 6:15 PM · first meeting",
+      "reader_part": "Part 5 · ANKITA — Saturday, 6:15 PM · Bansal Apartment",
+      "status": "READER-REVIEW MERGED DRAFT · not canon-locked",
+      "source_block_count": 27,
+      "first_source_id": "FWFS-E01-P5-M-L001",
+      "last_source_id": "FWFS-E01-P5-M-L027",
+      "shared_scene_last_source_id": "FWFS-E01-P5-M-L021",
+      "section_last_source_id": "FWFS-E01-P5-M-L027",
+      "stages": [
+        {
+          "first": 1,
+          "last": 5,
+          "key": "home_setup",
+          "note": "Private home setup; no Chotu present"
+        },
+        {
+          "first": 6,
+          "last": 10,
+          "key": "routine_arrival",
+          "note": "Chirag arrives to deliver rocket materials; familiar teasing with Ankita"
+        },
+        {
+          "first": 11,
+          "last": 15,
+          "key": "first_shift",
+          "note": "First unexpected awkward glance; Chotu falters and Ankita notices"
+        },
+        {
+          "first": 16,
+          "last": 19,
+          "key": "social_recovery",
+          "note": "Brief verbal deflection and Rey's successful rocket test"
+        },
+        {
+          "first": 20,
+          "last": 21,
+          "key": "departure",
+          "note": "Chotu leaves; their shared scene ends"
+        },
+        {
+          "first": 22,
+          "last": 23,
+          "key": "private_reflection",
+          "note": "Ankita's private recollection after he leaves"
+        },
+        {
+          "first": 24,
+          "last": 27,
+          "key": "parallel_thread",
+          "note": "Laundry discrepancy and Mahendra information; Chotu does not know this"
+        }
+      ]
+    },
+    {
+      "key": "sunday",
+      "title": "Sunday · 10:15 AM · return",
+      "reader_part": "Part 5 · Ankita — Sunday, 10:15 AM · Bansal Apartment",
+      "status": "READER-REVIEW MERGED DRAFT · not canon-locked",
+      "source_block_count": 32,
+      "first_source_id": "FWFS-E01-P5-M-L080",
+      "last_source_id": "FWFS-E01-P5-M-L111",
+      "shared_scene_last_source_id": "FWFS-E01-P5-M-L108",
+      "section_last_source_id": "FWFS-E01-P5-M-L111",
+      "stages": [
+        {
+          "first": 80,
+          "last": 83,
+          "key": "setup",
+          "note": "Laundry complaint and Rey's rocket issue"
+        },
+        {
+          "first": 84,
+          "last": 88,
+          "key": "return",
+          "note": "Chotu returns with replacement batteries and works with Rey"
+        },
+        {
+          "first": 89,
+          "last": 94,
+          "key": "direct_question",
+          "note": "Ankita asks about Saturday's abrupt silence; Chotu deflects"
+        },
+        {
+          "first": 95,
+          "last": 105,
+          "key": "practical_help",
+          "note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains"
+        },
+        {
+          "first": 106,
+          "last": 108,
+          "key": "departure",
+          "note": "Form completed; brief exchanged look; Chotu leaves"
+        },
+        {
+          "first": 109,
+          "last": 111,
+          "key": "private_reflection",
+          "note": "Ankita processes the earlier event; laundry unresolved"
+        }
+      ]
+    },
+    {
+      "key": "monday",
+      "title": "Monday · 4:10 PM · private decision",
+      "reader_part": "Part 6 · ANKITA — MONDAY, 4:10 PM · BANSAL APARTMENT",
+      "status": "WORKING DRAFT · not canon-locked",
+      "source_block_count": 17,
+      "first_source_id": "P6-1-001",
+      "last_source_id": "P6-1-017",
+      "shared_scene_last_source_id": null,
+      "section_last_source_id": "P6-1-017",
+      "stages": [
+        {
+          "first": 1,
+          "last": 2,
+          "key": "parallel_thread",
+          "note": "Laundry follow-up only; Chotu not present"
+        },
+        {
+          "first": 3,
+          "last": 5,
+          "key": "message_and_memory",
+          "note": "Chotu messages about delivery app; Ankita recalls his reactions"
+        },
+        {
+          "first": 6,
+          "last": 9,
+          "key": "private_preparation",
+          "note": "Ankita selects clothing and privately questions her interest"
+        },
+        {
+          "first": 10,
+          "last": 12,
+          "key": "intentional_invitation",
+          "note": "She fixes next day's 4 PM appointment; reader-only motive established"
+        },
+        {
+          "first": 13,
+          "last": 17,
+          "key": "home_context",
+          "note": "Ritvik calls; Ankita's private scene ends"
+        }
+      ]
+    },
+    {
+      "key": "tuesday",
+      "title": "Tuesday · 4:03 PM · Part 7 encounter",
+      "reader_part": "Part 7 · Ankita",
+      "status": "GROK REVISED V1 REVIEW COPY · NOT CANON",
+      "source_block_count": 39,
+      "first_source_id": "A-P7-GR-001",
+      "last_source_id": "A-P7-GR-039",
+      "shared_scene_last_source_id": "A-P7-GR-030",
+      "section_last_source_id": "A-P7-GR-039",
+      "stages": [
+        {
+          "first": 1,
+          "last": 5,
+          "key": "arrival_and_task",
+          "note": "Ankita's Monday choice carries forward; Chotu arrives for document verification"
+        },
+        {
+          "first": 6,
+          "last": 7,
+          "key": "setup",
+          "note": "Phone, documents, sofa and coffee table positions are established"
+        },
+        {
+          "first": 8,
+          "last": 10,
+          "key": "deliberate_change",
+          "note": "Narration explicitly distinguishes this encounter from Saturday's accident"
+        },
+        {
+          "first": 11,
+          "last": 17,
+          "key": "prolonged_attention",
+          "note": "The original records a sustained look and a pause during document photographs"
+        },
+        {
+          "first": 18,
+          "last": 22,
+          "key": "acknowledgement",
+          "note": "Ankita looks up and they make direct eye contact"
+        },
+        {
+          "first": 23,
+          "last": 30,
+          "key": "task_and_departure",
+          "note": "Verification is completed; Chotu exits and the shared scene ends"
+        },
+        {
+          "first": 31,
+          "last": 39,
+          "key": "private_aftermath",
+          "note": "Ankita remains alone; reader-only reaction ends on an unresolved note"
+        }
+      ]
+    }
+  ],
+  "source_rows": [
+    {
+      "order": 1,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L001",
+      "stage": "home_setup",
+      "stage_note": "Private home setup; no Chotu present",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 2,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L002",
+      "stage": "home_setup",
+      "stage_note": "Private home setup; no Chotu present",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 3,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L003",
+      "stage": "home_setup",
+      "stage_note": "Private home setup; no Chotu present",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 4,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L004",
+      "stage": "home_setup",
+      "stage_note": "Private home setup; no Chotu present",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 5,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L005",
+      "stage": "home_setup",
+      "stage_note": "Private home setup; no Chotu present",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 6,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L006",
+      "stage": "routine_arrival",
+      "stage_note": "Chirag arrives to deliver rocket materials; familiar teasing with Ankita",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 7,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L007",
+      "stage": "routine_arrival",
+      "stage_note": "Chirag arrives to deliver rocket materials; familiar teasing with Ankita",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 8,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L008",
+      "stage": "routine_arrival",
+      "stage_note": "Chirag arrives to deliver rocket materials; familiar teasing with Ankita",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 9,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L009",
+      "stage": "routine_arrival",
+      "stage_note": "Chirag arrives to deliver rocket materials; familiar teasing with Ankita",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 10,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L010",
+      "stage": "routine_arrival",
+      "stage_note": "Chirag arrives to deliver rocket materials; familiar teasing with Ankita",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 11,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L011",
+      "stage": "first_shift",
+      "stage_note": "First unexpected awkward glance; Chotu falters and Ankita notices",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 12,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L012",
+      "stage": "first_shift",
+      "stage_note": "First unexpected awkward glance; Chotu falters and Ankita notices",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 13,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L013",
+      "stage": "first_shift",
+      "stage_note": "First unexpected awkward glance; Chotu falters and Ankita notices",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 14,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L014",
+      "stage": "first_shift",
+      "stage_note": "First unexpected awkward glance; Chotu falters and Ankita notices",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 15,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L015",
+      "stage": "first_shift",
+      "stage_note": "First unexpected awkward glance; Chotu falters and Ankita notices",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 16,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L016",
+      "stage": "social_recovery",
+      "stage_note": "Brief verbal deflection and Rey's successful rocket test",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 17,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L017",
+      "stage": "social_recovery",
+      "stage_note": "Brief verbal deflection and Rey's successful rocket test",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 18,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L018",
+      "stage": "social_recovery",
+      "stage_note": "Brief verbal deflection and Rey's successful rocket test",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 19,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L019",
+      "stage": "social_recovery",
+      "stage_note": "Brief verbal deflection and Rey's successful rocket test",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 20,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L020",
+      "stage": "departure",
+      "stage_note": "Chotu leaves; their shared scene ends",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 21,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L021",
+      "stage": "departure",
+      "stage_note": "Chotu leaves; their shared scene ends",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 22,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L022",
+      "stage": "private_reflection",
+      "stage_note": "Ankita's private recollection after he leaves",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 23,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L023",
+      "stage": "private_reflection",
+      "stage_note": "Ankita's private recollection after he leaves",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 24,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L024",
+      "stage": "parallel_thread",
+      "stage_note": "Laundry discrepancy and Mahendra information; Chotu does not know this",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 25,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L025",
+      "stage": "parallel_thread",
+      "stage_note": "Laundry discrepancy and Mahendra information; Chotu does not know this",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 26,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L026",
+      "stage": "parallel_thread",
+      "stage_note": "Laundry discrepancy and Mahendra information; Chotu does not know this",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 27,
+      "phase": "saturday",
+      "source_id": "FWFS-E01-P5-M-L027",
+      "stage": "parallel_thread",
+      "stage_note": "Laundry discrepancy and Mahendra information; Chotu does not know this",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 28,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L080",
+      "stage": "setup",
+      "stage_note": "Laundry complaint and Rey's rocket issue",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 29,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L081",
+      "stage": "setup",
+      "stage_note": "Laundry complaint and Rey's rocket issue",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 30,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L082",
+      "stage": "setup",
+      "stage_note": "Laundry complaint and Rey's rocket issue",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 31,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L083",
+      "stage": "setup",
+      "stage_note": "Laundry complaint and Rey's rocket issue",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 32,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L084",
+      "stage": "return",
+      "stage_note": "Chotu returns with replacement batteries and works with Rey",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 33,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L085",
+      "stage": "return",
+      "stage_note": "Chotu returns with replacement batteries and works with Rey",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 34,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L086",
+      "stage": "return",
+      "stage_note": "Chotu returns with replacement batteries and works with Rey",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 35,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L087",
+      "stage": "return",
+      "stage_note": "Chotu returns with replacement batteries and works with Rey",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 36,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L088",
+      "stage": "return",
+      "stage_note": "Chotu returns with replacement batteries and works with Rey",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 37,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L089",
+      "stage": "direct_question",
+      "stage_note": "Ankita asks about Saturday's abrupt silence; Chotu deflects",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 38,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L090",
+      "stage": "direct_question",
+      "stage_note": "Ankita asks about Saturday's abrupt silence; Chotu deflects",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 39,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L091",
+      "stage": "direct_question",
+      "stage_note": "Ankita asks about Saturday's abrupt silence; Chotu deflects",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 40,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L092",
+      "stage": "direct_question",
+      "stage_note": "Ankita asks about Saturday's abrupt silence; Chotu deflects",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 41,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L093",
+      "stage": "direct_question",
+      "stage_note": "Ankita asks about Saturday's abrupt silence; Chotu deflects",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 42,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L094",
+      "stage": "direct_question",
+      "stage_note": "Ankita asks about Saturday's abrupt silence; Chotu deflects",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 43,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L095",
+      "stage": "practical_help",
+      "stage_note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 44,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L096",
+      "stage": "practical_help",
+      "stage_note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 45,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L097",
+      "stage": "practical_help",
+      "stage_note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 46,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L098",
+      "stage": "practical_help",
+      "stage_note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 47,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L099",
+      "stage": "practical_help",
+      "stage_note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 48,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L100",
+      "stage": "practical_help",
+      "stage_note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 49,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L101",
+      "stage": "practical_help",
+      "stage_note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 50,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L102",
+      "stage": "practical_help",
+      "stage_note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 51,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L103",
+      "stage": "practical_help",
+      "stage_note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 52,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L104",
+      "stage": "practical_help",
+      "stage_note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 53,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L105",
+      "stage": "practical_help",
+      "stage_note": "Ankita helps Chotu complete delivery-app form; mutual awareness remains",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 54,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L106",
+      "stage": "departure",
+      "stage_note": "Form completed; brief exchanged look; Chotu leaves",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 55,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L107",
+      "stage": "departure",
+      "stage_note": "Form completed; brief exchanged look; Chotu leaves",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 56,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L108",
+      "stage": "departure",
+      "stage_note": "Form completed; brief exchanged look; Chotu leaves",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 57,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L109",
+      "stage": "private_reflection",
+      "stage_note": "Ankita processes the earlier event; laundry unresolved",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 58,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L110",
+      "stage": "private_reflection",
+      "stage_note": "Ankita processes the earlier event; laundry unresolved",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 59,
+      "phase": "sunday",
+      "source_id": "FWFS-E01-P5-M-L111",
+      "stage": "private_reflection",
+      "stage_note": "Ankita processes the earlier event; laundry unresolved",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 60,
+      "phase": "monday",
+      "source_id": "P6-1-001",
+      "stage": "parallel_thread",
+      "stage_note": "Laundry follow-up only; Chotu not present",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 61,
+      "phase": "monday",
+      "source_id": "P6-1-002",
+      "stage": "parallel_thread",
+      "stage_note": "Laundry follow-up only; Chotu not present",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 62,
+      "phase": "monday",
+      "source_id": "P6-1-003",
+      "stage": "message_and_memory",
+      "stage_note": "Chotu messages about delivery app; Ankita recalls his reactions",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 63,
+      "phase": "monday",
+      "source_id": "P6-1-004",
+      "stage": "message_and_memory",
+      "stage_note": "Chotu messages about delivery app; Ankita recalls his reactions",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 64,
+      "phase": "monday",
+      "source_id": "P6-1-005",
+      "stage": "message_and_memory",
+      "stage_note": "Chotu messages about delivery app; Ankita recalls his reactions",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 65,
+      "phase": "monday",
+      "source_id": "P6-1-006",
+      "stage": "private_preparation",
+      "stage_note": "Ankita selects clothing and privately questions her interest",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 66,
+      "phase": "monday",
+      "source_id": "P6-1-007",
+      "stage": "private_preparation",
+      "stage_note": "Ankita selects clothing and privately questions her interest",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 67,
+      "phase": "monday",
+      "source_id": "P6-1-008",
+      "stage": "private_preparation",
+      "stage_note": "Ankita selects clothing and privately questions her interest",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 68,
+      "phase": "monday",
+      "source_id": "P6-1-009",
+      "stage": "private_preparation",
+      "stage_note": "Ankita selects clothing and privately questions her interest",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 69,
+      "phase": "monday",
+      "source_id": "P6-1-010",
+      "stage": "intentional_invitation",
+      "stage_note": "She fixes next day's 4 PM appointment; reader-only motive established",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 70,
+      "phase": "monday",
+      "source_id": "P6-1-011",
+      "stage": "intentional_invitation",
+      "stage_note": "She fixes next day's 4 PM appointment; reader-only motive established",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 71,
+      "phase": "monday",
+      "source_id": "P6-1-012",
+      "stage": "intentional_invitation",
+      "stage_note": "She fixes next day's 4 PM appointment; reader-only motive established",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 72,
+      "phase": "monday",
+      "source_id": "P6-1-013",
+      "stage": "home_context",
+      "stage_note": "Ritvik calls; Ankita's private scene ends",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 73,
+      "phase": "monday",
+      "source_id": "P6-1-014",
+      "stage": "home_context",
+      "stage_note": "Ritvik calls; Ankita's private scene ends",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 74,
+      "phase": "monday",
+      "source_id": "P6-1-015",
+      "stage": "home_context",
+      "stage_note": "Ritvik calls; Ankita's private scene ends",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 75,
+      "phase": "monday",
+      "source_id": "P6-1-016",
+      "stage": "home_context",
+      "stage_note": "Ritvik calls; Ankita's private scene ends",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 76,
+      "phase": "monday",
+      "source_id": "P6-1-017",
+      "stage": "home_context",
+      "stage_note": "Ritvik calls; Ankita's private scene ends",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 77,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-001",
+      "stage": "arrival_and_task",
+      "stage_note": "Ankita's Monday choice carries forward; Chotu arrives for document verification",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 78,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-002",
+      "stage": "arrival_and_task",
+      "stage_note": "Ankita's Monday choice carries forward; Chotu arrives for document verification",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 79,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-003",
+      "stage": "arrival_and_task",
+      "stage_note": "Ankita's Monday choice carries forward; Chotu arrives for document verification",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 80,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-004",
+      "stage": "arrival_and_task",
+      "stage_note": "Ankita's Monday choice carries forward; Chotu arrives for document verification",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 81,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-005",
+      "stage": "arrival_and_task",
+      "stage_note": "Ankita's Monday choice carries forward; Chotu arrives for document verification",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 82,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-006",
+      "stage": "setup",
+      "stage_note": "Phone, documents, sofa and coffee table positions are established",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 83,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-007",
+      "stage": "setup",
+      "stage_note": "Phone, documents, sofa and coffee table positions are established",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 84,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-008",
+      "stage": "deliberate_change",
+      "stage_note": "Narration explicitly distinguishes this encounter from Saturday's accident",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 85,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-009",
+      "stage": "deliberate_change",
+      "stage_note": "Narration explicitly distinguishes this encounter from Saturday's accident",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 86,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-010",
+      "stage": "deliberate_change",
+      "stage_note": "Narration explicitly distinguishes this encounter from Saturday's accident",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 87,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-011",
+      "stage": "prolonged_attention",
+      "stage_note": "The original records a sustained look and a pause during document photographs",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 88,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-012",
+      "stage": "prolonged_attention",
+      "stage_note": "The original records a sustained look and a pause during document photographs",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 89,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-013",
+      "stage": "prolonged_attention",
+      "stage_note": "The original records a sustained look and a pause during document photographs",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 90,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-014",
+      "stage": "prolonged_attention",
+      "stage_note": "The original records a sustained look and a pause during document photographs",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 91,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-015",
+      "stage": "prolonged_attention",
+      "stage_note": "The original records a sustained look and a pause during document photographs",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 92,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-016",
+      "stage": "prolonged_attention",
+      "stage_note": "The original records a sustained look and a pause during document photographs",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 93,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-017",
+      "stage": "prolonged_attention",
+      "stage_note": "The original records a sustained look and a pause during document photographs",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 94,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-018",
+      "stage": "acknowledgement",
+      "stage_note": "Ankita looks up and they make direct eye contact",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 95,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-019",
+      "stage": "acknowledgement",
+      "stage_note": "Ankita looks up and they make direct eye contact",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 96,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-020",
+      "stage": "acknowledgement",
+      "stage_note": "Ankita looks up and they make direct eye contact",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 97,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-021",
+      "stage": "acknowledgement",
+      "stage_note": "Ankita looks up and they make direct eye contact",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 98,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-022",
+      "stage": "acknowledgement",
+      "stage_note": "Ankita looks up and they make direct eye contact",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 99,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-023",
+      "stage": "task_and_departure",
+      "stage_note": "Verification is completed; Chotu exits and the shared scene ends",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 100,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-024",
+      "stage": "task_and_departure",
+      "stage_note": "Verification is completed; Chotu exits and the shared scene ends",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 101,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-025",
+      "stage": "task_and_departure",
+      "stage_note": "Verification is completed; Chotu exits and the shared scene ends",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 102,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-026",
+      "stage": "task_and_departure",
+      "stage_note": "Verification is completed; Chotu exits and the shared scene ends",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 103,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-027",
+      "stage": "task_and_departure",
+      "stage_note": "Verification is completed; Chotu exits and the shared scene ends",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 104,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-028",
+      "stage": "task_and_departure",
+      "stage_note": "Verification is completed; Chotu exits and the shared scene ends",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 105,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-029",
+      "stage": "task_and_departure",
+      "stage_note": "Verification is completed; Chotu exits and the shared scene ends",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 106,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-030",
+      "stage": "task_and_departure",
+      "stage_note": "Verification is completed; Chotu exits and the shared scene ends",
+      "has_chotu_on_scene": true
+    },
+    {
+      "order": 107,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-031",
+      "stage": "private_aftermath",
+      "stage_note": "Ankita remains alone; reader-only reaction ends on an unresolved note",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 108,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-032",
+      "stage": "private_aftermath",
+      "stage_note": "Ankita remains alone; reader-only reaction ends on an unresolved note",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 109,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-033",
+      "stage": "private_aftermath",
+      "stage_note": "Ankita remains alone; reader-only reaction ends on an unresolved note",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 110,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-034",
+      "stage": "private_aftermath",
+      "stage_note": "Ankita remains alone; reader-only reaction ends on an unresolved note",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 111,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-035",
+      "stage": "private_aftermath",
+      "stage_note": "Ankita remains alone; reader-only reaction ends on an unresolved note",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 112,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-036",
+      "stage": "private_aftermath",
+      "stage_note": "Ankita remains alone; reader-only reaction ends on an unresolved note",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 113,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-037",
+      "stage": "private_aftermath",
+      "stage_note": "Ankita remains alone; reader-only reaction ends on an unresolved note",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 114,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-038",
+      "stage": "private_aftermath",
+      "stage_note": "Ankita remains alone; reader-only reaction ends on an unresolved note",
+      "has_chotu_on_scene": false
+    },
+    {
+      "order": 115,
+      "phase": "tuesday",
+      "source_id": "A-P7-GR-039",
+      "stage": "private_aftermath",
+      "stage_note": "Ankita remains alone; reader-only reaction ends on an unresolved note",
+      "has_chotu_on_scene": false
+    }
+  ],
+  "dhika_e01_reference": [
+    {
+      "range": "E01-L116–120",
+      "event_ids": [
+        "E01-B022"
+      ],
+      "why": "Original identity/store baseline"
+    },
+    {
+      "range": "E01-L121–157",
+      "event_ids": [
+        "E01-B023",
+        "E01-B024",
+        "E01-B025",
+        "E01-B026",
+        "E01-B027",
+        "E01-B028",
+        "E01-B029"
+      ],
+      "why": "First delivery, return, unexpected moment, departure and shop call"
+    },
+    {
+      "range": "E01-L158–169",
+      "event_ids": [
+        "E01-B030",
+        "E01-B031"
+      ],
+      "why": "John's work call and Dhika's private reflection"
+    },
+    {
+      "range": "E01-L170–205",
+      "event_ids": [
+        "E01-B032",
+        "E01-B033",
+        "E01-B034",
+        "E01-B035",
+        "E01-B036",
+        "E01-B037"
+      ],
+      "why": "Next-day return, meal and changed perception"
+    },
+    {
+      "range": "E01-L206–224",
+      "event_ids": [
+        "E01-B038",
+        "E01-B039",
+        "E01-B040",
+        "E01-B041",
+        "E01-B042",
+        "E01-B043"
+      ],
+      "why": "Deliberate change, eye contact, departure and aftermath"
+    }
+  ],
+  "boundary": {
+    "fwfs_first_chotu": "FWFS-E01-P5-M-L006",
+    "fwfs_first_shared_scene_ends": "FWFS-E01-P5-M-L021",
+    "fwfs_tuesday_shared_scene_ends": "A-P7-GR-030",
+    "fwfs_current_ankita_episode_end": "A-P7-GR-039",
+    "original_e01_chotu_arc_ends": "E01-L224"
+  }
+}
