@@ -1,0 +1,108 @@
+{
+  "schema": "1.0",
+  "series": "FWFS",
+  "episode": 3,
+  "section": "Friday scenes 01-12 (Part 2 collection)",
+  "publication_status": "Published as-is per director request, 2026-10-27",
+  "editorial_policy": "Preserve source manuscripts unchanged; future continuity revisions separately",
+  "total_lines": 191,
+  "doc_id": "1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do",
+  "scenes": [
+    {
+      "number": 1,
+      "title": "Friday arrival",
+      "lines": 25,
+      "source": "../data/stories/e03_shreya_scene01_grok_source_20261027.md",
+      "source_filename": "e03_shreya_scene01_grok_source_20261027.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.banp7yjtvtei"
+    },
+    {
+      "number": 2,
+      "title": "Household errand",
+      "lines": 11,
+      "source": "../data/stories/e03_shreya_scene02_approved_20261026.md",
+      "source_filename": "e03_shreya_scene02_approved_20261026.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.7gor2da1n3lc"
+    },
+    {
+      "number": 3,
+      "title": "Shreya follows Harish",
+      "lines": 15,
+      "source": "../data/stories/e03_shreya_scene03_approved_20261026.md",
+      "source_filename": "e03_shreya_scene03_approved_20261026.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.7gor2da1n3lc"
+    },
+    {
+      "number": 4,
+      "title": "Mahendra bathroom episode",
+      "lines": 14,
+      "source": "../data/stories/e03_shreya_scene04_approved_20261026.md",
+      "source_filename": "e03_shreya_scene04_approved_20261026.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.uuvu1l1icofo"
+    },
+    {
+      "number": 5,
+      "title": "Return and concealment",
+      "lines": 12,
+      "source": "../data/stories/e03_shreya_scene05_approved_20261026.md",
+      "source_filename": "e03_shreya_scene05_approved_20261026.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.uuvu1l1icofo"
+    },
+    {
+      "number": 6,
+      "title": "Compliment game and dal accident",
+      "lines": 30,
+      "source": "../data/stories/e03_shreya_scene06_director_final_20261026.md",
+      "source_filename": "e03_shreya_scene06_director_final_20261026.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.7xo2f69aweu0"
+    },
+    {
+      "number": 7,
+      "title": "Shreya–Aditya conversation and imagination",
+      "lines": 10,
+      "source": "../data/stories/e03_shreya_scene07_supplied_20261027.md",
+      "source_filename": "e03_shreya_scene07_supplied_20261027.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.5rwbheqk63uo"
+    },
+    {
+      "number": 8,
+      "title": "Reality interruption and parallel observation",
+      "lines": 14,
+      "source": "../data/stories/e03_shreya_scene08_supplied_20261027.md",
+      "source_filename": "e03_shreya_scene08_supplied_20261027.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.7vtmfjc49ptj"
+    },
+    {
+      "number": 9,
+      "title": "Shivani's discoveries",
+      "lines": 31,
+      "source": "../data/stories/e03_shreya_scene09_supplied_20261027.md",
+      "source_filename": "e03_shreya_scene09_supplied_20261027.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.orn8m3m9t4ik"
+    },
+    {
+      "number": 10,
+      "title": "Departure",
+      "lines": 11,
+      "source": "../data/stories/e03_shreya_scene10_supplied_20261027.md",
+      "source_filename": "e03_shreya_scene10_supplied_20261027.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.5smprnf2gsz3"
+    },
+    {
+      "number": 11,
+      "title": "Shivani–Aditya aftermath",
+      "lines": 8,
+      "source": "../data/stories/e03_shreya_scene11_supplied_20261027.md",
+      "source_filename": "e03_shreya_scene11_supplied_20261027.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.86k79przpm0f"
+    },
+    {
+      "number": 12,
+      "title": "Shreya–Samar aftermath and Part 2 ending",
+      "lines": 10,
+      "source": "../data/stories/e03_shreya_scene12_supplied_20261027.md",
+      "source_filename": "e03_shreya_scene12_supplied_20261027.md",
+      "doc_url": "https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do/edit?tab=t.n5gm0zfkdnru"
+    }
+  ]
+}
