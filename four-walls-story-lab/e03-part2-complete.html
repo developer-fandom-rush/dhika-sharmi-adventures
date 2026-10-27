@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="FWFS Episode 03 Friday — complete Scene 01–12 reader, sourced directly from the director's original manuscripts.">
+<title>FWFS Episode 03 · Friday · All 12 Scenes</title>
+<style>
+:root{color-scheme:dark;--bg:#0c1422;--card:#17283d;--card2:#1d334d;--line:#384f6a;--gold:#efce97;--text:#eff3f8;--muted:#b6c9db;--mint:#a5d3bd}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:15.5px/1.85 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+a{color:var(--gold)}header{position:sticky;top:0;z-index:8;background:#111f30;border-bottom:1px solid var(--line);padding:10px max(14px,calc((100vw - 1080px)/2));display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+header strong{font-size:13px;letter-spacing:.045em}header nav{display:flex;gap:7px;flex-wrap:wrap}header nav a{font-size:12px;text-decoration:none;background:#263e55;border:1px solid #59758e;border-radius:7px;padding:5px 10px}
+main{max-width:1040px;margin:auto;padding:36px 18px 80px}h1{font-size:clamp(31px,5vw,47px);line-height:1.2;letter-spacing:-.025em;margin:9px 0 10px}h2{margin:4px 0;font-size:21px;line-height:1.35}.kicker{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.sub{color:var(--muted)}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin:19px 0 23px}.pill{border:1px solid #526d88;border-radius:20px;padding:4px 10px;font-size:12px;color:#d7e5f0}
+.notice{border-left:3px solid #efce97;background:#1c2f44;padding:13px 16px;border-radius:8px;font-size:13px;color:#dae5ed;margin:18px 0 25px}
+.controls{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;margin:16px 0 11px}
+.controls button{font:inherit;font-size:13px;color:var(--text);cursor:pointer;background:#253d55;border:1px solid #637e98;border-radius:7px;padding:7px 12px}
+.controls button:hover{background:#325775}.progress{font-size:13px;color:var(--muted)}
+.scene-index{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0 23px}.scene-index a{font-size:12px;display:inline-block;text-decoration:none;border:1px solid #5b748e;background:#253e58;border-radius:7px;padding:6px 11px}
+.scene{border:1px solid var(--line);background:var(--card);border-radius:14px;margin:24px 0;scroll-margin-top:82px;overflow:hidden}
+.scene-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:20px 22px;border-bottom:1px solid var(--line)}
+.scene-title{max-width:700px}.scene-title small{font-weight:800;font-size:11px;color:var(--gold);letter-spacing:.1em;text-transform:uppercase}
+.source{font-size:12px;display:flex;gap:7px;align-items:center;flex-wrap:wrap}.source a{border:1px solid #5d7a97;background:#233b55;border-radius:6px;padding:4px 8px;text-decoration:none}
+.scene-body{padding:8px 22px 18px}.entry{display:grid;grid-template-columns:43px minmax(0,1fr);gap:10px;padding:14px 0;border-bottom:1px solid rgba(185,203,221,.12);overflow-wrap:anywhere}
+.entry:last-child{border-bottom:0}.num{font-size:12px;font-weight:800;color:var(--gold)}.prose{white-space:pre-wrap;font-size:15px;line-height:1.86;overflow-wrap:anywhere}.prose strong{font-weight:760}
+.scene-status{color:var(--muted);padding:16px 0;font-size:13px}
+footer{border-top:1px solid var(--line);padding-top:22px;color:var(--muted);font-size:13px;margin-top:32px}
+@media(max-width:650px){header{position:relative}.scene-heading{padding:14px}.scene-body{padding:6px 13px 12px}.entry{grid-template-columns:34px minmax(0,1fr);gap:6px}.scene{scroll-margin-top:10px}}
+</style></head><body>
+<header><strong>FOUR WALLS · EPISODE 03 / FRIDAY</strong><nav><a href="./">Story Lab</a><a href="e03-episode-reading-order.html">Episode index</a><a href="e03-part03-shreya-next-day.html">Saturday · Part 3</a><a href="fwfs-episode-timeline.html">Timeline</a></nav></header>
+<main><div class="kicker">Director-requested source-exact publication · Friday</div><h1>Episode 03 · Scenes 01–12</h1><p class="sub">Complete Friday story, in numerical order. The prose is loaded directly from the original, archived scene manuscripts; no extra scenes, rewrites or continuity edits are added here.</p>
+<div class="pills"><span class="pill">12 numbered scenes</span><span class="pill">191 narrative lines</span><span class="pill">Friday · Sinha / Mehta</span><span class="pill">As-is · updates can follow later</span></div>
+<p class="notice"><b>Publication note:</b> This page publishes the current manuscripts as supplied, including the original Scene 01 from the first Google Doc tab. Any timeline inconsistencies remain for a later editorial pass; a “working draft” label in the source does not remove its prose from this reader.</p>
+<div class="controls"><span class="progress" id="loadstatus" role="status" aria-live="polite">Loading source manuscripts…</span><div><button type="button" id="go-first">Start at Scene 01</button><button type="button" id="go-last">Go to ending</button></div></div>
+<nav class="scene-index" id="toc" aria-label="Jump to individual scenes"></nav><div id="scenes"></div>
+<footer><a href="e03-friday-scenes-manifest.json">Open episode scene manifest</a> · <a href="https://docs.google.com/document/d/1lvIKx4I9oHWDaRt2oHcQZH0RlO577X_lIL58ivKE8do">Original Google Doc</a> · <a href="e03-part03-shreya-next-day.html">Read the already published Saturday continuation</a>. Scene source files and earlier chapters remain unchanged.</footer>
+</main>
+<script>
+(function(){"use strict";
+const list=document.getElementById("scenes"),toc=document.getElementById("toc"),status=document.getElementById("loadstatus");
+const mk=(tag,cl,txt)=>{const e=document.createElement(tag);if(cl)e.className=cl;if(txt!==undefined)e.textContent=txt;return e;};
+function renderText(parent,raw){
+ const parts=raw.split(/(\*\*[^*]+\*\*)/g);
+ parts.forEach(t=>{if(t.startsWith("**")&&t.endsWith("**")&&t.length>4){parent.appendChild(mk("strong","",t.slice(2,-2)));}else parent.appendChild(document.createTextNode(t));});
+}
+function parseScene(text,n,expected){
+ const code="E03-S"+String(n).padStart(2,"0")+"-L";
+ const re=new RegExp(code+"(\\d{3})\\.\\s*","g");
+ const matches=[...text.matchAll(re)];
+ if(matches.length!==expected)throw Error("Expected "+expected+" numbered lines; source had "+matches.length);
+ return matches.map((m,i)=>{
+  const end=i+1<matches.length?matches[i+1].index:text.length;
+  if(Number(m[1])!==i+1)throw Error("Unexpected line number "+m[1]);
+  let body=text.slice(m.index+m[0].length,end);
+  if(i===matches.length-1)body=body.replace(/\n(?:---\s*|Episode 03 · Part 2 ends here\.\s*)+$/g,"").trimEnd();
+  return {num:m[1],body:body.trim()};
+ });
+}
+function addScene(info,raw){
+ const section=mk("section","scene");section.id="scene-"+info.number;
+ const head=mk("div","scene-heading"),lhs=mk("div","scene-title");
+ lhs.appendChild(mk("small","","SCENE "+String(info.number).padStart(2,"0")+" · "+info.lines+" lines"));
+ lhs.appendChild(mk("h2","",info.title));head.appendChild(lhs);
+ const src=mk("div","source");
+ const origin=mk("a","","Original Doc");origin.href=info.doc_url;origin.target="_blank";origin.rel="noopener";src.appendChild(origin);
+ const manuscript=mk("a","","Source file");manuscript.href=info.source;manuscript.target="_blank";manuscript.rel="noopener";src.appendChild(manuscript);
+ head.appendChild(src);section.appendChild(head);
+ const body=mk("div","scene-body");
+ const lines=parseScene(raw,info.number,info.lines);
+ lines.forEach(line=>{
+  const p=mk("div","entry");p.id="s"+String(info.number).padStart(2,"0")+"-l"+line.num;
+  p.appendChild(mk("span","num",line.num));const span=mk("span","prose");renderText(span,line.body);p.appendChild(span);body.appendChild(p);
+ });
+ section.appendChild(body);return section;
+}
+document.getElementById("go-first").addEventListener("click",()=>document.getElementById("scene-1")?.scrollIntoView({behavior:"smooth",block:"start"}));
+document.getElementById("go-last").addEventListener("click",()=>document.getElementById("scene-12")?.scrollIntoView({behavior:"smooth",block:"start"}));
+fetch("e03-friday-scenes-manifest.json",{cache:"no-store"})
+.then(r=>{if(!r.ok)throw Error("Manifest HTTP "+r.status);return r.json();})
+.then(m=>{
+ if(!m.scenes||m.scenes.length!==12||m.total_lines!==191||m.scenes.some((s,i)=>s.number!==i+1))throw Error("Unexpected episode scene manifest.");
+ m.scenes.forEach(s=>{const a=mk("a","","Scene "+String(s.number).padStart(2,"0"));a.href="#scene-"+s.number;toc.appendChild(a);});
+ return Promise.all(m.scenes.map(info=>fetch(info.source).then(r=>{if(!r.ok)throw Error("Scene "+info.number+" HTTP "+r.status);return r.text();}).then(text=>({info,text}))));
+})
+.then(rows=>{
+ const frag=document.createDocumentFragment();
+ rows.forEach(x=>frag.appendChild(addScene(x.info,x.text)));
+ list.appendChild(frag);
+ status.textContent="All 12 scenes loaded · 191 numbered lines. Publication: AS-IS.";
+ if(location.hash&&/^#scene-\d+$/.test(location.hash))document.getElementById(location.hash.slice(1))?.scrollIntoView();
+})
+.catch(err=>{status.textContent="Some content could not load: "+err.message+". Open the original Google Doc or manifest links below.";});
+})();
+</script></body></html>
