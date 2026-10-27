@@ -1,0 +1,47 @@
+FWFS E04 — GROK HANDOVER / ONE-SCENE TEMPLATE (COPY AFTER DIRECTOR APPROVAL)
+
+PROJECT: Four Walls, Four Secrets · FWFS Episode 04 · Ankita focus.
+REFERENCE: DHIKA Episode 03 (original 240 source lines; source sections selected below).
+AUTHOR RESPONSIBILITY: Grok writes the one scene based on the Director's approved brief and independently governs its output; GPT prepares source-grounded, non-graphic continuity instructions and reviews resulting prose.
+WORD BUDGET: Target ~600–800 words, hard practical ceiling ~800–900. If the event list needs more space, ASK FOR THE DIRECTOR'S NEXT SCENE SEGMENT instead of compressing or deleting named events.
+ONE REQUEST = ONE SCENE. STOP at the approved last beat. No automatic Scene 02.
+
+LOCKED HEADER
+FWFS Part: [E04-P__]
+FWFS Scene: [E04-P__-S__]
+Scene title: [director-approved exact title]
+Story weekday / date: [approved; no invented absolute date]
+Start time and end time: [verified / TBD]
+Place / rooms / passage: [exact layout]
+POV: [single viewpoint or explicit transition]
+Present cast: [exact names]
+Absent cast: [who cannot appear]
+Prior canon links: [source document / last approved scene]
+DHIKA reference lines and indexed blocks: [L___–L___ / E03-B___]
+FWFS counterpart assignments: [director-approved names only]
+
+RAW DIRECTOR INSTRUCTIONS (UNEDITED REFERENCE)
+<<<RAW_DIRECTOR_WORDING_START>>>
+[Paste the Director's original event names, actions, dialogue and corrections, verbatim. This is source material. Do not paraphrase or silently omit any line.]
+<<<RAW_DIRECTOR_WORDING_END>>>
+
+APPROVED EVENT ORDER (FACTUAL WORKING MAP; SEPARATE FROM RAW)
+1. Opening practical reason: [who enters, why, when]
+2. First interaction / named event: [source ID, agent, recipient, concrete consequence]
+3. Required dialogue checkpoint: [user-approved dialogue / quote]
+4. Change in situation: [trigger and actor]
+5. Character-specific interpretation: [who knows what; no telepathy]
+6. Response / escalation / limit: [what actually happens vs is imagined; preserve Director status]
+7. Practical outcome: [why the ordinary errand does or does not finish]
+8. Exact stop point / next-scene handoff: [time, location, action, carry-forward secret]
+
+SCENE GUARDRAILS FROM STORY CANON
+- Preserve names, relation roles, ages, known locations, prior invitations, earlier encounter consequences, and any date conflict already resolved by the Director.
+- Do not import DHIKA identities directly: FWFS counterpart mapping must be approved first.
+- Keep source facts, Director decisions and new scene prose distinguishable. Do not add unapproved characters, encounters, places, events, confession, kiss, time jump or ending.
+- If a beat is too long for this response, do not summarize it away; STOP and ask for a shorter approved segment.
+- Line labels: E04-P__-S__-L001 onward, contiguous, with simple natural Hinglish dialogue.
+- Never claim Director approval or publication on your own.
+
+OUTPUT EXPECTED
+One complete scene only; source-faithful narrative in requested word budget; maintain exact scene ID and stop point; no recap of the whole episode.
