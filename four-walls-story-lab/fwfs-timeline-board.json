@@ -2,7 +2,7 @@
   "schema_version": "3.0",
   "series": "Four Walls, Four Secrets",
   "display_name": "Simple director timeline · Wednesday onward",
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "governing_rule": "Only currently decided events on the main timeline. Unresolved future scenes and speculative episode mappings stay off the calendar until the director decides.",
   "calendar_policy": "Weekdays only. Absolute calendar dates are not locked.",
   "episode_progress": [
@@ -13,8 +13,8 @@
     },
     {
       "episode": "Episode 03",
-      "status": "Almost complete",
-      "note": "Friday Shreya sequence; some scenes remain"
+      "status": "Scenes 06–08, 10–12 saved; Scene 09 still pending",
+      "note": "Director-final Scene 06, latest Scene 07–08, corrected 10–12 stored. Part 2 has missing final Scene 09; do not mark whole E03 final."
     },
     {
       "episode": "Episode 04",
@@ -97,9 +97,17 @@
           "id": "fri-shreya-dinner",
           "time": "7:30 PM",
           "title": "Shreya, Samar, Mahi (+ Mahendra) → Sinha home",
-          "detail": "Shivani and Aditya host; Episode 03 Friday sequence. Scenes 02–05 approved; other scenes still being completed.",
-          "stage": "Partially complete",
-          "source": "E03 Friday scenes and E02 Part 1 visit schedule"
+          "detail": "Scenes 02–06 include approved/director-final work. Latest supplied Scenes 07–08 and 10–12 are saved as numbered manuscripts (Scene 12 in Google Doc). Scene 09 numbered manuscript not found. Part 2 reader page: e03-part2-scenes06-12.html.",
+          "stage": "Partial draft collection; Scene 09 missing",
+          "source": "E03 Google Doc scene tabs · reader collection 2026-10-27"
+        },
+        {
+          "id": "fri-scenes07-12",
+          "time": "Dinner through late night",
+          "title": "E03 Scene sequence: 06–12 (Scene 09 outline)",
+          "detail": "Saved: Scene 06 finalized; Scenes 07,08,10,11,12 supplied and indexed. Scene 09 is not final-numbered; do not call Part 2 entirely complete. See e03-part2-scenes06-12.html.",
+          "stage": "Manuscripts saved; one gap",
+          "source": "Director text 26–27 October 2026"
         }
       ]
     },
@@ -150,5 +158,12 @@
     "original_board": "fwfs-timeline-board-v2-archive-20261026.json",
     "note": "Complete preceding calendar, including tentative encounters and 15-day lanes, preserved but not displayed as accepted events."
   },
-  "next_decision": "After Wednesday-through-Sunday calendar is agreed, decide which woman anchors Episode 04 and its story day. No assignment is presumed."
+  "next_decision": "After Wednesday-through-Sunday calendar is agreed, decide which woman anchors Episode 04 and its story day. No assignment is presumed.",
+  "editorial_open_items": [
+    {
+      "id": "e03-scene09_missing",
+      "status": "needs numbered manuscript",
+      "detail": "Source rough plot exists, but final Scene 09 was not found; reader has outline-only link."
+    }
+  ]
 }
