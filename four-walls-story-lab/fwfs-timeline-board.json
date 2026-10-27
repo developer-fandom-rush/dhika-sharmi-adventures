@@ -18,8 +18,8 @@
     },
     {
       "episode": "Episode 04",
-      "status": "Focus and day undecided",
-      "note": "No woman or day selected; do not pre-assign"
+      "status": "Director selected: Ankita focus · DHIKA Episode 03 reference · writing not started",
+      "note": "E04 plotting workspace at e04-director-prompt.html. Original DHIKA E03 240 lines/25 event blocks fully indexed. The Friday vs Saturday first Chotu encounter day remains open; no calendar-day choice inferred."
     }
   ],
   "days": [
@@ -158,7 +158,7 @@
     "original_board": "fwfs-timeline-board-v2-archive-20261026.json",
     "note": "Complete preceding calendar, including tentative encounters and 15-day lanes, preserved but not displayed as accepted events."
   },
-  "next_decision": "After Wednesday-through-Sunday calendar is agreed, decide which woman anchors Episode 04 and its story day. No assignment is presumed.",
+  "next_decision": "E04 Ankita focus / DHIKA E03 reference now selected. Review the 25-block source map; lock story day and first Part/Scene scope before drafting.",
   "editorial_open_items": [
     {
       "id": "e03-scene09_missing",
@@ -170,5 +170,21 @@
       "status": "Editorial review deferred by director; current source texts published as-is",
       "detail": "Source drafts remain unchanged, including Scene 01 'working draft' wording; Scene06/08 overlap and Samar departure movement may be revised later only on user instruction. Not a publication blocker."
     }
-  ]
+  ],
+  "production_workspaces": {
+    "e04": {
+      "status": "Ready for director planning",
+      "focus": "Ankita",
+      "secondary": "Chotu",
+      "source": "data/episodes/e03.json",
+      "source_line_count": 240,
+      "source_event_blocks": 25,
+      "ui": "e04-director-prompt.html",
+      "master_prompt": "e04-master-gpt-prompt.txt",
+      "one_scene_handover": "e04-grok-scene-handover-template.txt",
+      "source_map": "e04-dhika-e03-source-map.json",
+      "calendar_day": "UNRESOLVED: earlier Friday, later Saturday",
+      "note": "Do not add unapproved E04 story event to a day; user instructed mapping of source and planning first."
+    }
+  }
 }
