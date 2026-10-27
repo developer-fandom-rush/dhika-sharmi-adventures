@@ -1,0 +1,428 @@
+{
+  "schema_version": "1.0",
+  "title": "FWFS E04 / DHIKA Episode 03 source index",
+  "source_file": "data/episodes/e03.json",
+  "total_source_lines": 240,
+  "event_blocks": 25,
+  "notes": "Block labels and source ranges from DHIKA E03. Source inventory is not FWFS canon mapping. Dates, age/adult counterpart, prose targets require Director confirmation.",
+  "groups": [
+    {
+      "key": "A",
+      "title": "Initial Chotu return and first encounter",
+      "idRange": "E03-B001…E03-B012",
+      "sourceLines": "L001–L100",
+      "application": "Ankita/Chotu candidate; exact FWFS day + cast + scope await director selection"
+    },
+    {
+      "key": "B",
+      "title": "Tutoring and separate midweek progression",
+      "idRange": "E03-B013…E03-B020",
+      "sourceLines": "L101–L183",
+      "application": "Do NOT auto-assign student roles; adult counterpart / character and day must be verified"
+    },
+    {
+      "key": "C",
+      "title": "Sunday household work and follow-on Chotu encounter",
+      "idRange": "E03-B021…E03-B025",
+      "sourceLines": "L184–L240",
+      "application": "Candidate for later part/day, confirm whether same FWFS E04 or future episode"
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "E03-B001",
+      "source_line_start": 1,
+      "source_line_end": 4,
+      "exact_source_label": "header_and_source",
+      "source_characters": [
+        "dhika"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B002",
+      "source_line_start": 5,
+      "source_line_end": 10,
+      "exact_source_label": "new_outfit_chosen_for_chotu",
+      "source_characters": [
+        "john",
+        "aunty",
+        "uncle",
+        "dhika",
+        "chotu"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B003",
+      "source_line_start": 11,
+      "source_line_end": 23,
+      "exact_source_label": "delivery_return_and_first_visual_reaction",
+      "source_characters": [
+        "chotu",
+        "dhika",
+        "pappu",
+        "aunty"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B004",
+      "source_line_start": 24,
+      "source_line_end": 35,
+      "exact_source_label": "new_look_discussion_and_navel_attention",
+      "source_characters": [
+        "chotu",
+        "dhika"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B005",
+      "source_line_start": 36,
+      "source_line_end": 43,
+      "exact_source_label": "ice_cream_missing_chotu_private_doubts",
+      "source_characters": [
+        "dhika",
+        "chotu"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B006",
+      "source_line_start": 44,
+      "source_line_end": 52,
+      "exact_source_label": "return_ice_cream_and_seating",
+      "source_characters": [
+        "chotu",
+        "dhika"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B007",
+      "source_line_start": 53,
+      "source_line_end": 60,
+      "exact_source_label": "icecream_play_and_small_contacts",
+      "source_characters": [
+        "dhika",
+        "chotu"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B008",
+      "source_line_start": 61,
+      "source_line_end": 69,
+      "exact_source_label": "kiss_conversation_and_unplanned_stomach_contact",
+      "source_characters": [
+        "dhika",
+        "chotu"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B009",
+      "source_line_start": 70,
+      "source_line_end": 81,
+      "exact_source_label": "acknowledgment_apology_and_flying_kiss",
+      "source_characters": [
+        "dhika",
+        "chotu"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B010",
+      "source_line_start": 82,
+      "source_line_end": 91,
+      "exact_source_label": "lip_focus_shared_inner_thoughts_and_proximity",
+      "source_characters": [
+        "dhika",
+        "chotu"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B011",
+      "source_line_start": 92,
+      "source_line_end": 98,
+      "exact_source_label": "first_actual_lip_kiss_return_and_departure",
+      "source_characters": [
+        "chotu",
+        "dhika"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B012",
+      "source_line_start": 99,
+      "source_line_end": 100,
+      "exact_source_label": "next_morning_kiss_reflection_and_secrecy",
+      "source_characters": [
+        "chotu",
+        "john"
+      ],
+      "stage": "A",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B013",
+      "source_line_start": 101,
+      "source_line_end": 112,
+      "exact_source_label": "wednesday_twins_tutoring_baseline",
+      "source_characters": [
+        "pappu",
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage": "B",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B014",
+      "source_line_start": 113,
+      "source_line_end": 126,
+      "exact_source_label": "dupatta_removal_and_bobby_compliment",
+      "source_characters": [
+        "bantu",
+        "bobby",
+        "dhika"
+      ],
+      "stage": "B",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B015",
+      "source_line_start": 127,
+      "source_line_end": 136,
+      "exact_source_label": "changed_outfit_and_students_reactions",
+      "source_characters": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage": "B",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B016",
+      "source_line_start": 137,
+      "source_line_end": 151,
+      "exact_source_label": "john_conversation_about_tuition_outfit_and_paint_plan",
+      "source_characters": [
+        "pappu",
+        "john",
+        "dhika",
+        "bantu",
+        "chotu"
+      ],
+      "stage": "B",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B017",
+      "source_line_start": 152,
+      "source_line_end": 153,
+      "exact_source_label": "painting_arrangements_and_friday_class_arrival",
+      "source_characters": [
+        "dhika",
+        "bantu"
+      ],
+      "stage": "B",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B018",
+      "source_line_start": 154,
+      "source_line_end": 160,
+      "exact_source_label": "second_unplanned_saree_slip",
+      "source_characters": [
+        "bantu",
+        "bobby",
+        "dhika"
+      ],
+      "stage": "B",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B019",
+      "source_line_start": 161,
+      "source_line_end": 171,
+      "exact_source_label": "tears_bobby_support_and_reassurance",
+      "source_characters": [
+        "dhika",
+        "bantu",
+        "bobby"
+      ],
+      "stage": "B",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B020",
+      "source_line_start": 172,
+      "source_line_end": 183,
+      "exact_source_label": "post_incident_compliments_and_return_to_normal",
+      "source_characters": [
+        "dhika",
+        "bantu",
+        "bobby",
+        "john"
+      ],
+      "stage": "B",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B021",
+      "source_line_start": 184,
+      "source_line_end": 200,
+      "exact_source_label": "sunday_painting_and_chotu_help_request",
+      "source_characters": [
+        "john",
+        "pappu",
+        "dhika",
+        "chotu",
+        "maami"
+      ],
+      "stage": "C",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B022",
+      "source_line_start": 201,
+      "source_line_end": 213,
+      "exact_source_label": "post_kiss_reunion_and_room_work",
+      "source_characters": [
+        "chotu",
+        "dhika",
+        "maami",
+        "pappu"
+      ],
+      "stage": "C",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B023",
+      "source_line_start": 214,
+      "source_line_end": 224,
+      "exact_source_label": "wet_shirt_memory_knot_and_chotu_visual_reaction",
+      "source_characters": [
+        "dhika",
+        "chotu",
+        "john",
+        "pappu"
+      ],
+      "stage": "C",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B024",
+      "source_line_start": 225,
+      "source_line_end": 235,
+      "exact_source_label": "lunch_shelf_visual_scene_and_final_hook",
+      "source_characters": [
+        "dhika",
+        "chotu",
+        "john"
+      ],
+      "stage": "C",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    },
+    {
+      "block_id": "E03-B025",
+      "source_line_start": 236,
+      "source_line_end": 240,
+      "exact_source_label": "episode_end_source_lines",
+      "source_characters": [],
+      "stage": "C",
+      "fwfs_destination": "DIRECTOR TBD",
+      "fwfs_day": "TBD",
+      "counterparts": "TBD",
+      "status": "UNMAPPED"
+    }
+  ]
+}
