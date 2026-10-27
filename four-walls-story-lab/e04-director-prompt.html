@@ -1,0 +1,118 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FWFS E04 · Ankita Director's Room · Copyable Master Prompt</title>
+<meta name="description" content="Reusable GPT director prompt, one-scene Grok handover template, complete DHIKA E03 source event index, and chapter-planning workflow for FWFS Episode 04 Ankita.">
+<style>
+:root{color-scheme:dark;--bg:#0c1726;--panel:#15283e;--panel2:#1b324c;--border:#405a75;--text:#f0f4f8;--muted:#b7c9da;--accent:#f0cd92;--blue:#8dbfe7;--good:#97d4b2}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+a{color:var(--accent)}header{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;padding:12px clamp(15px,4vw,50px);background:#12233a;border-bottom:1px solid var(--border)}
+header strong{font-size:14px;letter-spacing:.04em}header nav{display:flex;gap:8px;flex-wrap:wrap}header nav a{border:1px solid #56748e;background:#213c56;padding:6px 11px;text-decoration:none;border-radius:7px;font-size:12px}
+main{max-width:1180px;margin:auto;padding:30px 16px 90px}.kicker{text-transform:uppercase;letter-spacing:.13em;font-weight:750;color:var(--accent);font-size:12px}
+h1{font-size:clamp(28px,4.8vw,44px);line-height:1.16;margin:8px 0 13px;letter-spacing:-.03em}h2{font-size:23px;margin:30px 0 12px}h3{font-size:17px;margin:4px 0 6px}
+p{margin:0}.muted{color:var(--muted)}.hero{max-width:890px}.pillrow{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 23px}.pill{font-size:12px;border:1px solid #59748e;border-radius:30px;padding:4px 10px}
+.buttons{display:flex;flex-wrap:wrap;gap:9px;margin:15px 0}button,.btn{cursor:pointer;border:1px solid #7590aa;background:#263d56;color:#f8fafd;font:inherit;font-size:13px;padding:10px 14px;border-radius:8px;text-decoration:none;display:inline-flex;gap:7px;align-items:center;justify-content:center}
+button:hover,.btn:hover{background:#365779}button.primary{background:#514227;border-color:#d6b477;color:#f9e9c9}button.primary:hover{background:#655233}
+button:focus-visible,.btn:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.panel{border:1px solid var(--border);background:var(--panel);border-radius:14px;padding:19px;margin:17px 0}.panel p{color:var(--muted)}
+.status{font-size:12px;color:var(--good);min-height:25px;padding-top:4px}.hint{font-size:13px;color:#e5d6b9;background:#25364a;border-left:3px solid var(--accent);padding:11px 15px;border-radius:5px;margin-top:12px}
+.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:9px}
+.step{border:1px solid var(--border);background:var(--panel2);border-radius:10px;padding:13px}
+.step small{font-size:11px;font-weight:800;color:var(--accent);letter-spacing:.06em}.step h3{font-size:14px}.step p{font-size:12px;color:var(--muted)}
+.promptwrap{border:1px solid #54708c;border-radius:11px;background:#101f33;overflow:hidden}
+.promptbar{display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap;padding:10px 13px;background:#1c324d;border-bottom:1px solid #49647d}
+.promptbar small{font-size:12px;color:var(--muted)}
+pre{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.8 ui-monospace,SFMono-Regular,Consolas,monospace;color:#dfeaf4;max-height:470px;overflow:auto;padding:17px;background:#101e30}
+.source-head{display:flex;justify-content:space-between;gap:11px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.source-head h2{margin:0}.groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:10px;margin:14px 0}
+.group{padding:13px 15px;border:1px solid var(--border);background:var(--panel);border-radius:10px}
+.group strong{display:block;color:var(--accent);font-size:13px;margin-bottom:5px}.group p{font-size:13px;color:var(--muted)}.group small{display:block;color:#8fb8d9;margin-top:7px}
+.filterrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:13px 0}.filterrow select{background:#263d56;border:1px solid #65819b;color:var(--text);padding:7px 11px;border-radius:7px}
+.tablewrap{max-width:100%;overflow-x:auto;border:1px solid var(--border);border-radius:11px;background:var(--panel)}
+table{width:100%;border-collapse:collapse;text-align:left;min-width:700px;font-size:12.5px}
+th{background:#233d57;padding:11px;border-bottom:1px solid #526b83;color:var(--accent)}
+td{padding:10px 11px;border-bottom:1px solid rgba(142,170,197,.17);vertical-align:top;overflow-wrap:anywhere}
+tr:last-child td{border-bottom:none}td:first-child{font-weight:800;white-space:nowrap}.range{white-space:nowrap;color:#b7cce0}
+.tip{padding:13px 16px;background:#1c3045;border-left:3px solid #a5c9e9;border-radius:7px;margin-top:15px;color:#d6e5ef;font-size:13px}
+footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;font-size:12px;color:var(--muted)}
+@media(max-width:600px){main{padding:25px 12px 65px}.panel{padding:14px}.buttons>*{flex:1}header nav a{padding:5px 8px}}
+</style></head><body>
+<header><strong>FWFS · DIRECTOR'S ROOM</strong><nav><a href="./">Story Lab Home</a><a href="e03-part2-complete.html">Published Episode 03</a><a href="fwfs-episode-timeline.html">Story Calendar</a></nav></header>
+<main>
+<div class="hero"><div class="kicker">Reusable workflow · Episode 04 · Ankita × Chotu</div><h1>Plan with GPT. Write one scene at a time with Grok.</h1>
+<p class="muted">A persistent copyable prompt, an independently editable scene-handover template, and the complete 25-block DHIKA E03 source map. No director events are silently reassigned or dropped.</p></div>
+<div class="pillrow"><span class="pill">FWFS E04 · Ankita focus</span><span class="pill">DHIKA E03 · L001–L240</span><span class="pill">25 source event blocks</span><span class="pill">Grok: ~600–800 words / scene</span><span class="pill">Friday/Saturday timing to lock</span></div>
+<section class="panel" id="launch"><h2 style="margin:0 0 8px">Start a new Director's Room chat</h2>
+<p>Click <b>Copy GPT Master Prompt</b>, then open ChatGPT, create a new chat if needed, and paste. ChatGPT does not provide this Story Lab page permission to automatically create and submit a new conversation.</p>
+<div class="buttons"><button class="primary" type="button" id="copy-master">Copy GPT Master Prompt</button><a class="btn" href="https://chatgpt.com/" target="_blank" rel="noopener">Open ChatGPT · Paste prompt</a><button type="button" id="copy-grok">Copy Grok Scene Template</button></div>
+<div class="status" id="copy-state" role="status" aria-live="polite">Loading saved prompt files…</div>
+<div class="hint">Important: This prompt is for GPT planning and QA, not for writing the episode prose. The director's submitted wording is retained separately as a verbatim source record; the assistant's structured analysis is a separate layer.</div>
+</section>
+<section aria-label="Standard production workflow"><h2>How each episode moves forward</h2>
+<div class="flow">
+<div class="step"><small>01 · READ</small><h3>Verify DHIKA source</h3><p>240 lines, 25 original-order blocks, exact labels and timestamps.</p></div>
+<div class="step"><small>02 · MAP</small><h3>Assign counterparts</h3><p>Only approved FWFS cast, roles, adult-status and established relationships.</p></div>
+<div class="step"><small>03 · CALENDAR</small><h3>Lock scene day</h3><p>Keep Friday/Saturday conflict visible; do not silently move events.</p></div>
+<div class="step"><small>04 · SPLIT</small><h3>Divide parts and scenes</h3><p>One place, one objective, one output boundary per scene.</p></div>
+<div class="step"><small>05 · DIRECTOR</small><h3>Approve one scene</h3><p>Exact raw events kept separately, with approved beat order.</p></div>
+<div class="step"><small>06 · HANDOFF</small><h3>Send Grok one scene</h3><p>Target 600–800 words; split rather than omit beats.</p></div>
+<div class="step"><small>07 · AUDIT</small><h3>Check Grok draft</h3><p>Compare source, omissions, cast, geography and timeline.</p></div>
+<div class="step"><small>08 · SAVE</small><h3>Approve and publish</h3><p>Update reader, calendar, version and status after approval.</p></div>
+</div></section>
+<section id="prompt"><h2>Saved GPT master prompt</h2>
+<div class="promptwrap"><div class="promptbar"><strong>e04-master-gpt-prompt.txt</strong><div><small id="master-meta">Loading…</small> <button type="button" id="copy-master-again">Copy full prompt</button></div></div>
+<pre id="master-preview">Loading the versioned master prompt from Story Lab…</pre></div></section>
+<section id="grok-template"><h2>One-scene Grok handover template</h2>
+<p class="muted">GPT fills this only after your approval. It includes the RAW DIRECTOR WORDING slot, approved beat sequence and an explicit stop point.</p>
+<div class="promptwrap" style="margin-top:11px"><div class="promptbar"><strong>e04-grok-scene-handover-template.txt</strong><div><small id="grok-meta">Loading…</small> <button type="button" id="copy-grok-again">Copy template</button></div></div>
+<pre id="grok-preview">Loading scene template…</pre></div></section>
+<section id="source"><div class="source-head"><div><h2>DHIKA Episode 03 · Exact source index</h2><p class="muted">Source labels below are taken from the canonical episode index; each future FWFS assignment starts as TBD.</p></div><a class="btn" href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/episodes/e03.json" target="_blank" rel="noopener">Read original indexed E03</a></div>
+<div class="groups" id="source-groups"></div><div class="filterrow"><label for="groupfilter">Source phase</label><select id="groupfilter"><option value="all">All 25 blocks</option><option value="A">Phase A · First encounter</option><option value="B">Phase B · Separate tutoring track</option><option value="C">Phase C · Sunday progression</option></select><span class="muted" id="source-count"></span></div>
+<div class="tablewrap"><table><thead><tr><th>Block ID</th><th>DHIKA lines</th><th>Exact source event label</th><th>FWFS destination</th></tr></thead><tbody id="source-rows"><tr><td colspan="4">Loading canonical source index…</td></tr></tbody></table></div>
+<div class="tip">Source blocks are evidence, not scene numbers. The director will determine which blocks belong to E04 Ankita, which remain for later episodes and where the day changes. Do not automatically assign tutoring/students to FWFS characters without checking adult counterparts.</div>
+</section>
+<footer>Source files in this repository: <a href="e04-master-gpt-prompt.txt">GPT master prompt</a> · <a href="e04-grok-scene-handover-template.txt">Grok handover template</a> · <a href="e04-dhika-e03-source-map.json">DHIKA E03 indexed map</a>. The original DHIKA and completed E03 manuscripts remain unchanged.</footer>
+</main>
+<script>
+(function(){"use strict";
+const state={master:null,grok:null,map:null};
+const el=id=>document.getElementById(id);
+const add=(parent,tag,cls,txt)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(txt!==undefined)x.textContent=txt;parent.appendChild(x);return x;};
+function setMsg(msg,bad){el("copy-state").textContent=msg;el("copy-state").style.color=bad?"#ffbeaf":"#a9d9c2";}
+function fallbackCopy(text){
+const ta=document.createElement("textarea");ta.value=text;ta.style.position="fixed";ta.style.left="-9999px";document.body.appendChild(ta);ta.select();
+let ok=false;try{ok=document.execCommand("copy");}catch(_){}
+ta.remove();return ok;
+}
+async function copy(which){const v=state[which];if(!v){setMsg("Prompt has not finished loading. Open its source link below.",true);return;}
+try{if(navigator.clipboard&&window.isSecureContext)await navigator.clipboard.writeText(v);
+else if(!fallbackCopy(v))throw Error("Clipboard access not granted");
+setMsg((which==="master"?"GPT master prompt":"Grok scene template")+" copied. Open ChatGPT and paste to begin.");}
+catch(err){if(fallbackCopy(v)){setMsg("Copied using clipboard fallback.");return;}setMsg("Clipboard blocked by browser. Select and copy the visible prompt text below.",true);}}
+for(const id of ["copy-master","copy-master-again"])el(id).addEventListener("click",()=>copy("master"));
+for(const id of ["copy-grok","copy-grok-again"])el(id).addEventListener("click",()=>copy("grok"));
+Promise.all([
+fetch("e04-master-gpt-prompt.txt",{cache:"no-store"}).then(x=>{if(!x.ok)throw Error("Master HTTP "+x.status);return x.text()}),
+fetch("e04-grok-scene-handover-template.txt",{cache:"no-store"}).then(x=>{if(!x.ok)throw Error("Template HTTP "+x.status);return x.text()}),
+fetch("e04-dhika-e03-source-map.json",{cache:"no-store"}).then(x=>{if(!x.ok)throw Error("Map HTTP "+x.status);return x.json()})
+]).then(([master,grok,map])=>{
+if(map.blocks?.length!==25||map.total_source_lines!==240)throw Error("Source map requires 25 blocks and 240 lines");
+state.master=master;state.grok=grok;state.map=map;
+el("master-preview").textContent=master;el("grok-preview").textContent=grok;
+el("master-meta").textContent=master.length.toLocaleString()+" characters";
+el("grok-meta").textContent=grok.length.toLocaleString()+" characters";
+setMsg("Master prompt and scene template ready to copy.");
+map.groups.forEach(g=>{const node=add(el("source-groups"),"article","group");add(node,"strong","",g.title+" · "+g.sourceLines);add(node,"p","",g.application);add(node,"small","",g.idRange)});
+renderBlocks();
+}).catch(err=>{setMsg("Could not load one or more saved sources: "+err.message+". Use source links at the bottom.",true);});
+function renderBlocks(){
+const filter=el("groupfilter").value,rows=el("source-rows");rows.textContent="";
+const list=state.map.blocks.filter(x=>filter==="all"||x.stage===filter);
+list.forEach(x=>{
+const tr=add(rows,"tr");
+add(tr,"td","",x.block_id);add(tr,"td","range","L"+String(x.source_line_start).padStart(3,"0")+"–L"+String(x.source_line_end).padStart(3,"0"));add(tr,"td","",x.exact_source_label);add(tr,"td","muted",x.fwfs_destination);
+});
+el("source-count").textContent=list.length+" source blocks shown";
+}
+el("groupfilter").addEventListener("change",()=>{if(state.map)renderBlocks()});
+})();
+</script>
+</body></html>
