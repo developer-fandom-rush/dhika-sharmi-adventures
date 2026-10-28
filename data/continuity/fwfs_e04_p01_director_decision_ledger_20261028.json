@@ -27,6 +27,22 @@
         "data/episodes/e03.json",
         "data/stories/e01_all_seven_parts_continuous_reader_v1.json"
       ]
+    },
+    {
+      "id": "E04-P01-D002",
+      "source_range": "DHIKA E03 L014–L015",
+      "director_raw_input": "Dhika story mai bhi nhi tha vo maine neeche likha hai na ki chotu loved this toh history wahi pr 5-6 words mai bata di simple 🤔\nFoolish 🙄 question tha yeah toh \nNext",
+      "decision": "Brief retrospective narration can establish an affectionate cheek-tap as familiar and liked, even if no earlier FWFS scene dramatized it. Preserve the source function; do not automatically make the gesture first-time or delete it.",
+      "decision_status": "DIRECTOR CLARIFICATION RECORDED FOR PLANNING; E04 MANUSCRIPT NOT CANON",
+      "approved_items": [
+        "Source-style brief retrospective habit in E04 is acceptable; no separate earlier shown scene required"
+      ],
+      "not_approved_or_not_determined": [
+        "Exact prose wording, scene length, Friday morning Rey/Ritvik whereabouts and Chirag's leave reason"
+      ],
+      "source_links": [
+        "data/episodes/e03.json"
+      ]
     }
   ],
   "next_source_set": {
@@ -76,8 +92,8 @@
           "FWFS-E01-P5-M-L006–L010"
         ],
         "evidence_status": "No established Ankita–Chirag cheek-tap habit",
-        "proposed_adaptation": "Retain original cheek-tap as a CANDIDATE new, spontaneous greeting if Director accepts it; do not claim it is an established Ankita–Chirag habit. Alternative no-touch greeting is also a decision, not an automatic omission.",
-        "decision": "UNRESOLVED: NEW GESTURE VS NO TOUCH; original source beat must not be silently dropped"
+        "proposed_adaptation": "Use source-style brief retrospective narrator exposition: Ankita affectionately taps Chirag's cheek when greeting him, without demanding an earlier standalone FWFS scene to prove it. Distinguish newly introduced backstory from already-written history.",
+        "decision": "DIRECTOR CLARIFICATION: a new brief retrospective habit can be established in current scene, not necessarily previously dramatized"
       },
       {
         "line": 15,
@@ -86,8 +102,8 @@
           "FWFS-E01-P5-M-L019"
         ],
         "evidence_status": "High-five in source is between Chotu and Rey, not Ankita",
-        "proposed_adaptation": "Do not falsely assert a habitual Ankita–Chirag physical greeting",
-        "decision": "PROPOSAL"
+        "proposed_adaptation": "One concise narrator phrase may establish this is a familiar affectionate habit and Chirag likes it. This is newly established retrospective continuity within E04, not a claim that earlier FWFS text already depicted it.",
+        "decision": "DIRECTOR CLARIFICATION; no separate earlier FWFS proof required"
       },
       {
         "line": 16,
@@ -134,12 +150,6 @@
         "topic": "Why Chirag took leave",
         "question": "FWFS Thursday's shopkeeper only says he took sudden leave; preserve as unexplained until Director decides, without importing DHIKA grandmother death.",
         "status": "OPEN; NEXT SOURCE SECTION L019–L023"
-      },
-      {
-        "id": "E04-P01-OPEN03",
-        "topic": "Source cheek-tap vs FWFS history",
-        "question": "Should original E03 L014 cheek-tap be retained as a first-time spontaneous greeting, or deliberately omitted? FWFS has no proven habitual cheek-tap.",
-        "status": "OPEN; AFTER HOUSEHOLD PRESENCE"
       }
     ]
   },
