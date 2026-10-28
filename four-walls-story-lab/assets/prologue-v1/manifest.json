@@ -1,0 +1,93 @@
+{
+  "reference_mapping": {
+    "Ankita": "Midnight-bet/assets/characters/MIRA.jpg",
+    "Shivani": "Midnight-bet/assets/characters/NAINA.jpg",
+    "Shreya": "Midnight-bet/assets/characters/RHEA.jpg",
+    "Taniya": "user supplied image(20261028-001838).png"
+  },
+  "pages": [
+    {
+      "id": "01-ankita",
+      "range": [
+        5,
+        13
+      ],
+      "refs": [
+        "MIRA.jpg"
+      ],
+      "desc": "Opening aerial of Noida apartment society lawn, decorators fairy lights and chairs; then Ankita age32 at laptop dining table, son Rey age4 searching under sofa for blue dinosaur, husband Ritvik age36 brings coffee from kitchen. Warm ordinary family morning. Ankita pale pink cotton kurta full sleeves and trousers; Ritvik navy polo. 5 vertical panels.",
+      "prompt": "Use case: illustration-story. Create a tall vertical realistic cinematic webtoon page for Four Walls, Four Secrets prologue. Photorealistic faces and environments, subtle painterly finish, no anime or caricature. Clean separated panels, natural Indian apartment interiors, warm Saturday morning, consistent facial likeness from supplied reference photographs. All adult women in their 30s. Reference outfits are NOT scene outfits, use the specified ordinary fully clothed outfits. No glamour posing. Opening aerial of Noida apartment society lawn, decorators fairy lights and chairs; then Ankita age32 at laptop dining table, son Rey age4 searching under sofa for blue dinosaur, husband Ritvik age36 brings coffee from kitchen. Warm ordinary family morning. Ankita pale pink cotton kurta full sleeves and trousers; Ritvik navy polo. 5 vertical panels.\nSource text in sequence (narration guides imagery; render EVERY dialogue line exactly including speaker names in legible speech bubbles or chat cards; do not paraphrase, do not add dialogue or thoughts; narration can remain outside image):\nNoida ke The Courtyard society mein Saturday ki subah kuch zyada hi halchal thi. Central lawn mein decorators fairy lights laga rahe the. Community hall ke bahar chairs ki unloading ho rahi thi, aur society ke WhatsApp groups mein Anika ki Sunday wedding celebration se zyada Saturday rehearsal ki discussions chal rahi thi.\nAnkita Bansal apne dining table par laptop kholkar ek client ke design revisions check kar rahi thi.\nRey: Mumma, mera blue wala dinosaur kahan hai?\nAnkita: Kal tumne sofa ke neeche rakha tha, champ.\nKitchen se Ritvik ki awaaz aayi.\nRitvik: Aur kal se tumhara dinosaur wahin incident resolution ka wait kar raha hai.\nAnkita hans padi.\nAnkita: Tum apne production incidents office tak hi rakho, please.\nRitvik ne coffee ka cup uske saamne rakha. Pichhli raat deployment emergency ki wajah se woh der se soya tha, lekin subah Rey ke saath time nikalne ka usne promise kiya tha."
+    },
+    {
+      "id": "02-four-seasons",
+      "range": [
+        14,
+        23
+      ],
+      "refs": [
+        "MIRA.jpg",
+        "RHEA.jpg",
+        "NAINA.jpg"
+      ],
+      "extra": true,
+      "desc": "Ankita looks at phone at same dining table, group chat inserts with portraits, then shows phone to husband Ritvik navy polo; they banter. Ankita pale pink cotton kurta. Reference1 Ankita, reference2 Shreya, reference3 Shivani, reference4 Taniya. 6 vertical panels, use clearly labeled chat messages rather than speech balloons for group messages.",
+      "prompt": "Use case: illustration-story. Create a tall vertical realistic cinematic webtoon page for Four Walls, Four Secrets prologue. Photorealistic faces and environments, subtle painterly finish, no anime or caricature. Clean separated panels, natural Indian apartment interiors, warm Saturday morning, consistent facial likeness from supplied reference photographs. All adult women in their 30s. Reference outfits are NOT scene outfits, use the specified ordinary fully clothed outfits. No glamour posing. Ankita looks at phone at same dining table, group chat inserts with portraits, then shows phone to husband Ritvik navy polo; they banter. Ankita pale pink cotton kurta. Reference1 Ankita, reference2 Shreya, reference3 Shivani, reference4 Taniya. 6 vertical panels, use clearly labeled chat messages rather than speech balloons for group messages.\nSource text in sequence (narration guides imagery; render EVERY dialogue line exactly including speaker names in legible speech bubbles or chat cards; do not paraphrase, do not add dialogue or thoughts; narration can remain outside image):\nPhone vibrate hua: Four Seasons — 14 unread messages.\nShreya (group): Ladies! Saturday rehearsal ke liye outfits FINAL kar lo. Last-minute drama nahi chalega.\nTaniya (group): Shreya, last-minute drama tumhari personality ka permanent feature hai.\nShivani (group): Can we first confirm the rehearsal timing? Kal teen different messages aaye the.\nAnkita (group): Good morning, girls. Main 11 baje free ho jaungi.\nShreya (group): Ankita madam, aap 11 baje free nahi hongi. Aapko 10:30 baje mere boutique mein hona hai.\nAnkita ne apna phone Ritvik ko dikhaya.\nRitvik: Tumhari friends se negotiation karne ka courage mere paas nahi hai.\nAnkita: Aur production incidents handle kar lete ho?\nRitvik: Servers predictable hain. Shreya nahi."
+    },
+    {
+      "id": "03-shivani",
+      "range": [
+        24,
+        30
+      ],
+      "refs": [
+        "NAINA.jpg"
+      ],
+      "desc": "Shivani age33, sage green cotton kurta full sleeves and trousers, accounts laptop on breakfast table; Aditya age38 in light blue shirt holding newspaper. She smiles closes laptop and enjoys familiar comfortable silence. 4 vertical panels.",
+      "prompt": "Use case: illustration-story. Create a tall vertical realistic cinematic webtoon page for Four Walls, Four Secrets prologue. Photorealistic faces and environments, subtle painterly finish, no anime or caricature. Clean separated panels, natural Indian apartment interiors, warm Saturday morning, consistent facial likeness from supplied reference photographs. All adult women in their 30s. Reference outfits are NOT scene outfits, use the specified ordinary fully clothed outfits. No glamour posing. Shivani age33, sage green cotton kurta full sleeves and trousers, accounts laptop on breakfast table; Aditya age38 in light blue shirt holding newspaper. She smiles closes laptop and enjoys familiar comfortable silence. 4 vertical panels.\nSource text in sequence (narration guides imagery; render EVERY dialogue line exactly including speaker names in legible speech bubbles or chat cards; do not paraphrase, do not add dialogue or thoughts; narration can remain outside image):\nSociety ke doosre tower mein Shivani Sinha breakfast ke saath apne accounts review kar rahi thi. Aditya newspaper padh raha tha.\nAditya: Tum Saturday ko bhi balance sheet dekhogi?\nShivani: Bas ek client reconciliation hai.\nAditya: Tumhare 'bas ek' ka matlab minimum do ghante hota hai.\nShivani ne muskurakar laptop band kar diya.\nShivani: Fine. Breakfast pehle.\nDono ke beech ki comfortable khamoshi unki shaadi ka ek purana, familiar hissa thi."
+    },
+    {
+      "id": "04-shreya",
+      "range": [
+        31,
+        40
+      ],
+      "refs": [
+        "RHEA.jpg"
+      ],
+      "desc": "Shreya age31 confident in burgundy casual cotton kurta and trousers checking three garment covers; daughter Mahi age5 in yellow tshirt leggings practices dance; husband Samar age36 white shirt ends hospital phone call; father-in-law Mahendra age66 grey hair spectacles beige kurta comes from balcony folding newspaper. Warm family comedy, everyone laughs. 6 vertical panels.",
+      "prompt": "Use case: illustration-story. Create a tall vertical realistic cinematic webtoon page for Four Walls, Four Secrets prologue. Photorealistic faces and environments, subtle painterly finish, no anime or caricature. Clean separated panels, natural Indian apartment interiors, warm Saturday morning, consistent facial likeness from supplied reference photographs. All adult women in their 30s. Reference outfits are NOT scene outfits, use the specified ordinary fully clothed outfits. No glamour posing. Shreya age31 confident in burgundy casual cotton kurta and trousers checking three garment covers; daughter Mahi age5 in yellow tshirt leggings practices dance; husband Samar age36 white shirt ends hospital phone call; father-in-law Mahendra age66 grey hair spectacles beige kurta comes from balcony folding newspaper. Warm family comedy, everyone laughs. 6 vertical panels.\nSource text in sequence (narration guides imagery; render EVERY dialogue line exactly including speaker names in legible speech bubbles or chat cards; do not paraphrase, do not add dialogue or thoughts; narration can remain outside image):\nShreya Mehta ke ghar mein situation bilkul alag thi. Mahi living room mein dance practice kar rahi thi, Samar hospital se aaye ek call ko finish kar raha tha, aur Shreya ek saath teen outfit covers check kar rahi thi.\nShreya: Samar! Tumne Mahi ki rehearsal shoes dekhi hain?\nSamar: Shoe rack mein.\nShreya: Wah. Aaj doctor sahib ne ghar ki koi cheez locate kar li.\nMahendra Mehta balcony se newspaper fold karte hue andar aaye.\nMahendra: Main Mahi ko rehearsal ke liye le jaa sakta hoon.\nShreya: Thank you, Papa. Aap hi mere ghar ke sabse dependable aadmi hain.\nSamar: Objection.\nMahi: Overruled, Papa!\nPoora living room hans pada."
+    },
+    {
+      "id": "05-taniya",
+      "range": [
+        41,
+        47
+      ],
+      "refs": [],
+      "extra": true,
+      "desc": "Taniya age34 selects earrings in bedroom mirror, fully dressed in teal modest daytime kurta and trousers; husband Dev age38 wearing a mustard striped shirt asks about his outfit; she looks at shirt and says change it, he amused. 4 vertical panels. Reference1 is Taniya facial likeness only.",
+      "prompt": "Use case: illustration-story. Create a tall vertical realistic cinematic webtoon page for Four Walls, Four Secrets prologue. Photorealistic faces and environments, subtle painterly finish, no anime or caricature. Clean separated panels, natural Indian apartment interiors, warm Saturday morning, consistent facial likeness from supplied reference photographs. All adult women in their 30s. Reference outfits are NOT scene outfits, use the specified ordinary fully clothed outfits. No glamour posing. Taniya age34 selects earrings in bedroom mirror, fully dressed in teal modest daytime kurta and trousers; husband Dev age38 wearing a mustard striped shirt asks about his outfit; she looks at shirt and says change it, he amused. 4 vertical panels. Reference1 is Taniya facial likeness only.\nSource text in sequence (narration guides imagery; render EVERY dialogue line exactly including speaker names in legible speech bubbles or chat cards; do not paraphrase, do not add dialogue or thoughts; narration can remain outside image):\nTaniya Arora apne bedroom mirror ke saamne earrings select kar rahi thi.\nDev: Tum wedding mein jaa rahi ho ya wedding ki marketing campaign launch kar rahi ho?\nTaniya: Dono mein presentation matter karti hai, Mr. Arora.\nDev: Phir meri presentation approve hai?\nTaniya ne uski shirt dekhi.\nTaniya: Change it.\nDev: Expected."
+    },
+    {
+      "id": "06-closing-chat",
+      "range": [
+        48,
+        53
+      ],
+      "refs": [
+        "MIRA.jpg",
+        "RHEA.jpg",
+        "NAINA.jpg"
+      ],
+      "extra": true,
+      "desc": "Closing phone group chat montage four women in separate homes, never together in same room: Ankita pink kurta laptop table; Shreya burgundy kurta garment covers; Shivani sage kurta breakfast table; Taniya teal kurta mirror earrings. Reference1 Ankita, reference2 Shreya, reference3 Shivani, reference4 Taniya. 5 vertical panels finishing with Courtyard towers wide view. Chat labels exact.",
+      "prompt": "Use case: illustration-story. Create a tall vertical realistic cinematic webtoon page for Four Walls, Four Secrets prologue. Photorealistic faces and environments, subtle painterly finish, no anime or caricature. Clean separated panels, natural Indian apartment interiors, warm Saturday morning, consistent facial likeness from supplied reference photographs. All adult women in their 30s. Reference outfits are NOT scene outfits, use the specified ordinary fully clothed outfits. No glamour posing. Closing phone group chat montage four women in separate homes, never together in same room: Ankita pink kurta laptop table; Shreya burgundy kurta garment covers; Shivani sage kurta breakfast table; Taniya teal kurta mirror earrings. Reference1 Ankita, reference2 Shreya, reference3 Shivani, reference4 Taniya. 5 vertical panels finishing with Courtyard towers wide view. Chat labels exact.\nSource text in sequence (narration guides imagery; render EVERY dialogue line exactly including speaker names in legible speech bubbles or chat cards; do not paraphrase, do not add dialogue or thoughts; narration can remain outside image):\nKuch hi der baad Four Seasons group par ek naya message aaya.\nShreya (group): 11 AM. Boutique. No excuses.\nShivani (group): I thought we agreed on 11:30.\nTaniya (group): Shivani, tumhari problem hai tum Shreya ki baaton ko legally binding samajhti ho.\nAnkita (group): See you all soon ❤️\nThe Courtyard mein chaaron families apni-apni Saturday routine mein busy thi. Unki dosti purani thi, marriages established thi, aur zindagiyan ek doosre se judi hui thi. Magar har ghar ki apni ek private duniya bhi thi — jiska poora pata kabhi-kabhi sabse kareebi doston ko bhi nahi hota."
+    }
+  ],
+  "visual_draft_notes": [
+    "Closing page uses a montage layout: read source text for canonical message order.",
+    "Generated phone dates and timestamps are decorative, not canon.",
+    "Original prologue paragraphs and dialogue remain authoritative.",
+    "No explicit scenes or clothing changes occur in this prologue."
+  ]
+}
