@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "title": "DHIKA E03 twins encounter → FWFS Karan–Aman adult colleagues",
   "date": "2026-10-28",
-  "status": "ASSISTANT EDITORIAL DECISION · PROPOSAL FOR PARTS 5–6, NO PROSE YET",
-  "recommendation": "DO NOT copy the twins' tuition plot verbatim. KEEP the eight-stage emotional structure while changing school/teacher relationship to the established adult professional UX project, and rework the duplicate wardrobe incident in light of Thursday's existing FWFS event.",
+  "status": "REVISED EDITORIAL PLAN · PRESERVE ORIGINAL TWINS ENCOUNTER CAUSAL BEATS WITH ADULT-COLLEAGUE CONTINUITY · NO MANUSCRIPT WRITTEN",
+  "recommendation": "KEEP the original DHIKA E03 L101–183 sequence as the plot baseline, including clothing decisions, two distinct awkward encounters across DHIKA original and FWFS, discomfort, visual attention, Karan's jokes, Aman's unexpected reassurance and Ritvik conversation. Change only original student/tuition context to the already written adult freelance-UX project, shift source weekdays to FWFS calendar, and prevent false claims about Ritvik's knowledge. Prior editorial suggestion to replace the second accidental wardrobe moment with a cable-only mishap is withdrawn as an unnecessary and unapproved plot redesign.",
   "reason": "DHIKA twins are described as teenage students and taught by Dhika; FWFS Karan and Aman are established adult colleagues from the Thursday project encounter. Their Monday 7–8 PM work appointment was explicitly agreed. The source's repeated clothing mishap also has an already-written Thursday counterpart in FWFS, so repeating it unchanged would be a continuity weakness.",
   "source_scope": {
     "file": "data/episodes/e03.json",
@@ -43,16 +43,16 @@
   ],
   "proposed_fwfs_parts": [
     {
-      "name": "E04 Part 5",
-      "day": "Monday evening, after office",
-      "source_range": "DHIKA E03 L101–L151",
-      "status": "PROPOSED ADAPTATION NOT WRITTEN"
+      "name": "E04 Part 5 — WORKING LABEL",
+      "day": "Monday 26 October 2026 evening, 7–8 PM conditional",
+      "source_range": "DHIKA E03 L101–151",
+      "status": "NOT WRITTEN; NEXT ANKITA ENCOUNTER / RECOMMENDED"
     },
     {
-      "name": "E04 Part 6",
-      "day": "Wednesday evening, after office",
-      "source_range": "DHIKA E03 L152–L183",
-      "status": "PROPOSED ADAPTATION NOT WRITTEN"
+      "name": "E04 Part 6 — WORKING LABEL",
+      "day": "Tuesday 27 Oct prep + Wednesday 28 Oct evening 7–8 PM tentative",
+      "source_range": "DHIKA E03 L152–183",
+      "status": "NOT WRITTEN; FUTURE SECOND ENCOUNTER / RECOMMENDED"
     }
   ],
   "phases": [
@@ -60,138 +60,65 @@
       "start": 101,
       "end": 112,
       "key": "return_and_welcome",
-      "source": "Dhika welcomes Bantu/Bobby for Wednesday college-style tuition; initial awkwardness, compliments and contrasting temperaments",
-      "fwfs": "Monday 7–8 PM first planned freelance UX review with adult colleagues Karan Malhotra and Aman Joshi. Ankita remains anxious about Thursday's accidental wardrobe event. All three focus on laptop/project notes rather than school tuition; Karan direct/relaxed, Aman shy but observant.",
-      "keep": [
-        "First reunion tension",
-        "Karan leads conversational easing",
-        "Aman's reserve",
-        "Ankita feels relief as work resumes"
-      ],
-      "change": [
-        "Teenage tuition → adult project session",
-        "Wednesday 3 PM → Monday 7 PM",
-        "Teacher/miss → adult colleagues"
-      ]
+      "retain": "First encounter after Thursday embarrassment; hesitant initial greeting, Ankita's nerves, Karan's easy manner and Aman's restraint. They gradually resume normal conversation.",
+      "required_change": "Monday, after-work 7–8 PM freelance UX session, not Wednesday 3 PM teenage tutoring; Rey's domestic schedule must remain plausible.",
+      "evidence": "FWFS E02 P3 L105 (Monday meeting) and L123–150 (Thursday accident)"
     },
     {
       "start": 113,
       "end": 126,
-      "key": "dupatta_clothing_bargain",
-      "source": "Clothing discomfort and a bargain involving casual dress followed by unusual praise from shy Bobby",
-      "fwfs": "Ankita adjusts her dupatta to work comfortably at the table without Karan bargaining for a clothing change. Karan lightly notices she looks different outside the office; reserved Aman unexpectedly praises the clarity of her project explanation, making her feel seen for her work.",
-      "keep": [
-        "Small physical comfort decision",
-        "Karan's playful reasoning",
-        "Aman surprises everyone by speaking openly",
-        "Ankita's startled appreciation"
-      ],
-      "change": [
-        "No appearance bargain or pressure to change clothes",
-        "No teacher–student praise",
-        "Work-based compliment and emotional confidence"
-      ]
+      "key": "dupatta_and_unexpected_compliment",
+      "retain": "Comfort/clothing decision, Karan encouraging easier interaction, Aman surprising her with an unusually open compliment, Ankita responding and making a clothing choice.",
+      "required_change": "Adult office-colleague dynamics: work session instead of teacher/student tutoring. Any outfit change is Ankita's free choice, not a student-driven obligation.",
+      "evidence": "DHIKA E03 L113–126 source progression; FWFS E02 P3 L079–109 relationship"
     },
     {
       "start": 127,
       "end": 136,
-      "key": "changed_outfit_and_compliments",
-      "source": "Dhika returns in knee-length skirt and sleeveless top; students react and tutoring continues",
-      "fwfs": "Keep Ankita in her chosen comfortable kurti during Monday session. Give her agency in proposing a more casual creative-collaboration routine for future evenings; Karan's teasing stays respectful. Aman briefly meets her gaze, then returns to the notes.",
-      "keep": [
-        "Shift from awkward formal interaction to familiar relaxed team atmosphere",
-        "Two different men react differently",
-        "Ankita lightly teases Aman to help him relax"
-      ],
-      "change": [
-        "No changing clothes because of a challenge",
-        "No teenager's 'hot miss' line",
-        "Don't duplicate Friday skirt as a new first appearance"
-      ]
+      "key": "casual_dress_and_two_reactions",
+      "retain": "Return in casual clothes, distinct reactions from confident Karan and shy Aman, Ankita's teasing and session continuation; don't erase appearance-focused beat solely because it is personally charged.",
+      "required_change": "Retain Monday professional work setting and separate Ankita's Friday skirt use from this Monday outfit choice. No original 'you are my teacher' dialogue.",
+      "evidence": "DHIKA E03 L127–136; FWFS E04 P1 Friday outfit"
     },
     {
       "start": 137,
       "end": 151,
-      "key": "ritvik_and_room_repaint",
-      "source": "Evening talk with John about tuition and clothing; Dhika notices Pappu's marked walls and proposes repainting with Chotu help",
-      "fwfs": "After Monday session, Ritvik asks about work progress and sees Ankita more relaxed. Preserve Rey's wall-paint/redecoration idea as its own new household project and possible Chirag-help hook; if Ankita mentions Chirag, show only her private unease, not an open confession. Avoid any claim Ritvik encouraged public revealing outfits.",
-      "keep": [
-        "Marriage domestic scene",
-        "Rey room redecoration motivation",
-        "Ankita's initiative to DIY paint",
-        "Future Chirag connection"
-      ],
-      "change": [
-        "Ritvik comments on freelance work, not teenage tuition/outfit wager",
-        "Do not leak Friday kiss to Ritvik",
-        "Painting logistics must fit calendar"
-      ]
+      "key": "ritvik_and_rey_room_paint_idea",
+      "retain": "After-session Ritvik conversation, home boredom, Rey's marked walls and desire for DIY painting, possibility of asking Chirag for help, plus Ankita's private emotional complication.",
+      "required_change": "Ritvik already knows THURSDAY's accidental exposure; do not depict Monday as her first confession of that event. He does not know Friday's kiss. Freelance session, not teenage tuition.",
+      "evidence": "DHIKA E03 L137–151; FWFS E02 P3 L137–149"
     },
     {
       "start": 152,
       "end": 153,
-      "key": "paint_supplies_and_second_visit",
-      "source": "Following day paint shop; Friday tuitions begin late in saree",
-      "fwfs": "Tuesday she can plan supplies; Wednesday evening 7–8 PM is the next sensible UX review if Monday/Wednesday/Friday sessions are adopted. She arrives in normal work clothing, and an interruption during screen/paper review creates pressure. Avoid making a second accidental exposure identical to the Thursday episode.",
-      "keep": [
-        "Separate midweek visit",
-        "Painting setup for later weekend",
-        "Task-related reason for changed seating/movement"
-      ],
-      "change": [
-        "Not automatic Tuesday/Friday tutor calendar",
-        "Office/project schedule replaces college timetable",
-        "Do not re-stage Thursday wardrobe accident unchanged"
-      ]
+      "key": "supplies_and_second_meeting",
+      "retain": "After-work painting/supply preparation and follow-on visit in a different outfit under time pressure.",
+      "required_change": "Possible Tuesday preparation, Wednesday evening second UX session (tentative). Not the source's Friday 3 PM student tuition.",
+      "evidence": "FWFS E02 P3 L105 (alternate weekdays conditional)"
     },
     {
       "start": 154,
       "end": 160,
-      "key": "unexpected_wardrobe_anxiety",
-      "source": "Repeated accidental saree pallu fall while teaching; boys notice; she is very upset",
-      "fwfs": "Create a different, specific project-room mishap: a loose dupatta catches under a laptop cable as Ankita leans to reposition a sheet. She immediately fixes it, but Thursday's embarrassment causes visible alarm. Karan stops the cable from pulling the laptop; Aman looks away and gives her space. No added exposure is required for the anxiety to be credible.",
-      "keep": [
-        "Rapid practical trigger",
-        "Different visual reactions from two people",
-        "Ankita's visible anxiety",
-        "Consequence of Thursday memory"
-      ],
-      "change": [
-        "Second identical exposure replaced with cable/dupatta accident",
-        "No sexualized college-student gaze"
-      ]
+      "key": "second_unplanned_dress_incident",
+      "retain": "Second unintended wardrobe mishap, brief discovery, Karan and Aman's distinct immediate expressions, Ankita's distress that it happened AGAIN.",
+      "required_change": "Replace students with the established adult colleagues; use professional project physical blocking. DO NOT automatically replace the key source event with a harmless cable-only mishap. Respect preceding Thursday accident as first incident.",
+      "evidence": "DHIKA E03 L153–160; FWFS E02 P3 L123–126 first incident"
     },
     {
       "start": 161,
       "end": 171,
-      "key": "reassurance_and_aman_opens_up",
-      "source": "Dhika cries and fears incident being discussed; Bobby speaks unusually at length and comforts her; Bantu gently jokes",
-      "fwfs": "Aman finds words, quietly says neither colleague will judge or discuss the earlier Thursday accident, and offers to reschedule if Ankita wants. Karan's mild joke breaks tension only after she signals comfort. Emotional point is a credible, respectful response, not sexual detail.",
-      "keep": [
-        "Aman's unexpected articulate empathy",
-        "Karan restores levity",
-        "Ankita starts to trust them"
-      ],
-      "change": [
-        "No privacy promise around a newly invented exposure",
-        "Respectful adult colleagues, avoid patronizing her"
-      ]
+      "key": "aman_support_and_karan_humour",
+      "retain": "Ankita is upset; Aman unexpectedly speaks at length to reassure her and not spread private matters; Karan helps recover the mood with a joke after reassurance.",
+      "required_change": "Adults' collegial empathy, not student-to-teacher declarations. Specific incident details and consequences must be true to approved FWFS context.",
+      "evidence": "DHIKA E03 L161–171; FWFS E02 P3 L126–135"
     },
     {
       "start": 172,
       "end": 183,
-      "key": "return_to_normal_and_privacy",
-      "source": "Reassurance, further teasing and compliments, then Dhika doesn't disclose this second incident to John",
-      "fwfs": "Ankita accepts their reassurance, calls out an overdone joke, and the UX meeting finishes normally. She can leave Ritvik the full project update without inventing a secret new bodily incident; Thursday was already discussed with him. Keep her Friday-Chirag secret separate from this professional thread.",
-      "keep": [
-        "Friendly recovery",
-        "Different personalities of Karan/Aman",
-        "Closure with a changed level of trust"
-      ],
-      "change": [
-        "Ritvik knows Thursday accidental incident",
-        "No false new secrecy about identical wardrobe mishap"
-      ]
+      "key": "recovery_and_after_dialogue",
+      "retain": "Ankita regains composure, Karan's teasing and Aman's reserved nature remain distinct; follow through on why her emotional trust changes.",
+      "required_change": "Ritvik knowing Thursday does not mean he knows Wednesday; decide new disclosure logic only from written events, not automatic source's secret. Saturday morning Chirag secret remains independent.",
+      "evidence": "DHIKA E03 L172–183; FWFS E02 P3 L141–150"
     }
   ],
   "per_line": [
@@ -694,5 +621,8 @@
       "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
     }
   ],
-  "commitment": "No teenage-student erotic scenes in FWFS. Character differences, spouse knowledge and weekday shifts must be independently accounted for. Retain all meaningful adult emotional beats without mechanically transplanting a teacher/student scenario."
+  "commitment": "No teenage-student erotic scenes in FWFS. Character differences, spouse knowledge and weekday shifts must be independently accounted for. Retain all meaningful adult emotional beats without mechanically transplanting a teacher/student scenario.",
+  "director_process_note": "Original DHIKA twins (Bantu/Bobby) are students and described as teenagers; this FWFS plan concerns adult professionals Karan Malhotra and Aman Joshi. Do not import original ages, teacher/student power relation, or source weekdays. Visual observations and reaction beats are source evidence, not licence to alter already-written FWFS episodes. This is a recommended source-faithful plan, not published prose.",
+  "previous_plan_superseded": "The previous plan to remove the second incident, forbid clothing choice and replace compliment dynamics with only work-based praise has been withdrawn. Those were editorial changes, not Director-approved decisions.",
+  "updated": "2026-10-28"
 }
