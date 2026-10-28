@@ -64,6 +64,27 @@
         "data/episodes/e03.json",
         "data/continuity/fwfs_e01_ankita_chotu_history_latest_20261027.json"
       ]
+    },
+    {
+      "id": "E04-P01-D004",
+      "source_range": "DHIKA E03 L020",
+      "director_raw_input": "FWFS E04 Director decision for DHIKA E03 L020: Option C. Dhika-style uncertainty; Ankita likes being noticed but is unsure why. Record and continue one source-specific question at a time, without writing prose.",
+      "decision": "For FWFS Friday first extended look: Ankita notices Chirag looking; she likes his attention but cannot fully explain her own reaction. Preserve DHIKA-style uncertainty instead of fully articulated attraction or marital-guilt explanation at this point. This coexists with earlier Tuesday reviewed deliberate test; no amnesia or reset of earlier events.",
+      "decision_status": "DIRECTOR APPROVED FOR E04 ADAPTATION PLANNING; NOT MANUSCRIPT CANON",
+      "approved_items": [
+        "L020: pleasure/attention plus uncertainty",
+        "Do not artificially resolve or label her inner response in this moment",
+        "Do not erase previous Saturday–Tuesday FWFS events"
+      ],
+      "not_approved_or_not_determined": [
+        "L026–L035 interaction sequence: whether initial reach is spontaneous and teasing follows consciously",
+        "Leave explanation L022",
+        "Detailed prose"
+      ],
+      "source_links": [
+        "data/episodes/e03.json",
+        "data/stories/e01_all_seven_parts_continuous_reader_v1.json"
+      ]
     }
   ],
   "next_source_set": {
@@ -167,7 +188,9 @@
         "status": "OPEN; NEXT SOURCE SECTION L019–L023"
       }
     ],
-    "review_policy": "One material question per turn; quote original source fragment with exact E03 line number; prioritize character thoughts, attraction, infidelity conflict, physical/visual beats and their impact on FWFS history. Routine logistical facts may be resolved without asking where evidence/Director direction suffices."
+    "review_policy": "One material question per turn; quote original source fragment with exact E03 line number; prioritize character thoughts, attraction, infidelity conflict, physical/visual beats and their impact on FWFS history. Routine logistical facts may be resolved without asking where evidence/Director direction suffices.",
+    "current_review_line": 26,
+    "review_notes": "L019–L021 mapped to verified history plus Director L020 Option C. L022 leave reason remains open but do not divert Director from consequential visual/inner-reaction questions until needed for writing. L026–L035 next consequential scene beat."
   },
   "sources_used": [
     "data/episodes/e03.json",
