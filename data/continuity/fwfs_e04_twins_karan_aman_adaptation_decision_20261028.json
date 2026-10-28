@@ -1,0 +1,698 @@
+{
+  "schema_version": "1.0",
+  "title": "DHIKA E03 twins encounter → FWFS Karan–Aman adult colleagues",
+  "date": "2026-10-28",
+  "status": "ASSISTANT EDITORIAL DECISION · PROPOSAL FOR PARTS 5–6, NO PROSE YET",
+  "recommendation": "DO NOT copy the twins' tuition plot verbatim. KEEP the eight-stage emotional structure while changing school/teacher relationship to the established adult professional UX project, and rework the duplicate wardrobe incident in light of Thursday's existing FWFS event.",
+  "reason": "DHIKA twins are described as teenage students and taught by Dhika; FWFS Karan and Aman are established adult colleagues from the Thursday project encounter. Their Monday 7–8 PM work appointment was explicitly agreed. The source's repeated clothing mishap also has an already-written Thursday counterpart in FWFS, so repeating it unchanged would be a continuity weakness.",
+  "source_scope": {
+    "file": "data/episodes/e03.json",
+    "first": 101,
+    "last": 183,
+    "count": 83,
+    "afterwards": "Original Sunday wall-paint arc L184 onwards, separate follow-on"
+  },
+  "fwfs_source_evidence": [
+    "data/stories/fwfs_e02_part03_ankita_next_day_reader_20261026.md",
+    "data/stories/fwfs_e02_integrated_reader_data_20261026.json",
+    "data/stories/fwfs_e04_part04_ankita_saturday_after_kiss_20261028.json"
+  ],
+  "cast": [
+    {
+      "original": "Dhika",
+      "fwfs": "Ankita"
+    },
+    {
+      "original": "Bantu",
+      "fwfs": "Karan Malhotra",
+      "age": "Adult colleague"
+    },
+    {
+      "original": "Bobby",
+      "fwfs": "Aman Joshi",
+      "age": "Adult colleague"
+    },
+    {
+      "original": "John",
+      "fwfs": "Ritvik"
+    },
+    {
+      "original": "Pappu",
+      "fwfs": "Rey"
+    }
+  ],
+  "proposed_fwfs_parts": [
+    {
+      "name": "E04 Part 5",
+      "day": "Monday evening, after office",
+      "source_range": "DHIKA E03 L101–L151",
+      "status": "PROPOSED ADAPTATION NOT WRITTEN"
+    },
+    {
+      "name": "E04 Part 6",
+      "day": "Wednesday evening, after office",
+      "source_range": "DHIKA E03 L152–L183",
+      "status": "PROPOSED ADAPTATION NOT WRITTEN"
+    }
+  ],
+  "phases": [
+    {
+      "start": 101,
+      "end": 112,
+      "key": "return_and_welcome",
+      "source": "Dhika welcomes Bantu/Bobby for Wednesday college-style tuition; initial awkwardness, compliments and contrasting temperaments",
+      "fwfs": "Monday 7–8 PM first planned freelance UX review with adult colleagues Karan Malhotra and Aman Joshi. Ankita remains anxious about Thursday's accidental wardrobe event. All three focus on laptop/project notes rather than school tuition; Karan direct/relaxed, Aman shy but observant.",
+      "keep": [
+        "First reunion tension",
+        "Karan leads conversational easing",
+        "Aman's reserve",
+        "Ankita feels relief as work resumes"
+      ],
+      "change": [
+        "Teenage tuition → adult project session",
+        "Wednesday 3 PM → Monday 7 PM",
+        "Teacher/miss → adult colleagues"
+      ]
+    },
+    {
+      "start": 113,
+      "end": 126,
+      "key": "dupatta_clothing_bargain",
+      "source": "Clothing discomfort and a bargain involving casual dress followed by unusual praise from shy Bobby",
+      "fwfs": "Ankita adjusts her dupatta to work comfortably at the table without Karan bargaining for a clothing change. Karan lightly notices she looks different outside the office; reserved Aman unexpectedly praises the clarity of her project explanation, making her feel seen for her work.",
+      "keep": [
+        "Small physical comfort decision",
+        "Karan's playful reasoning",
+        "Aman surprises everyone by speaking openly",
+        "Ankita's startled appreciation"
+      ],
+      "change": [
+        "No appearance bargain or pressure to change clothes",
+        "No teacher–student praise",
+        "Work-based compliment and emotional confidence"
+      ]
+    },
+    {
+      "start": 127,
+      "end": 136,
+      "key": "changed_outfit_and_compliments",
+      "source": "Dhika returns in knee-length skirt and sleeveless top; students react and tutoring continues",
+      "fwfs": "Keep Ankita in her chosen comfortable kurti during Monday session. Give her agency in proposing a more casual creative-collaboration routine for future evenings; Karan's teasing stays respectful. Aman briefly meets her gaze, then returns to the notes.",
+      "keep": [
+        "Shift from awkward formal interaction to familiar relaxed team atmosphere",
+        "Two different men react differently",
+        "Ankita lightly teases Aman to help him relax"
+      ],
+      "change": [
+        "No changing clothes because of a challenge",
+        "No teenager's 'hot miss' line",
+        "Don't duplicate Friday skirt as a new first appearance"
+      ]
+    },
+    {
+      "start": 137,
+      "end": 151,
+      "key": "ritvik_and_room_repaint",
+      "source": "Evening talk with John about tuition and clothing; Dhika notices Pappu's marked walls and proposes repainting with Chotu help",
+      "fwfs": "After Monday session, Ritvik asks about work progress and sees Ankita more relaxed. Preserve Rey's wall-paint/redecoration idea as its own new household project and possible Chirag-help hook; if Ankita mentions Chirag, show only her private unease, not an open confession. Avoid any claim Ritvik encouraged public revealing outfits.",
+      "keep": [
+        "Marriage domestic scene",
+        "Rey room redecoration motivation",
+        "Ankita's initiative to DIY paint",
+        "Future Chirag connection"
+      ],
+      "change": [
+        "Ritvik comments on freelance work, not teenage tuition/outfit wager",
+        "Do not leak Friday kiss to Ritvik",
+        "Painting logistics must fit calendar"
+      ]
+    },
+    {
+      "start": 152,
+      "end": 153,
+      "key": "paint_supplies_and_second_visit",
+      "source": "Following day paint shop; Friday tuitions begin late in saree",
+      "fwfs": "Tuesday she can plan supplies; Wednesday evening 7–8 PM is the next sensible UX review if Monday/Wednesday/Friday sessions are adopted. She arrives in normal work clothing, and an interruption during screen/paper review creates pressure. Avoid making a second accidental exposure identical to the Thursday episode.",
+      "keep": [
+        "Separate midweek visit",
+        "Painting setup for later weekend",
+        "Task-related reason for changed seating/movement"
+      ],
+      "change": [
+        "Not automatic Tuesday/Friday tutor calendar",
+        "Office/project schedule replaces college timetable",
+        "Do not re-stage Thursday wardrobe accident unchanged"
+      ]
+    },
+    {
+      "start": 154,
+      "end": 160,
+      "key": "unexpected_wardrobe_anxiety",
+      "source": "Repeated accidental saree pallu fall while teaching; boys notice; she is very upset",
+      "fwfs": "Create a different, specific project-room mishap: a loose dupatta catches under a laptop cable as Ankita leans to reposition a sheet. She immediately fixes it, but Thursday's embarrassment causes visible alarm. Karan stops the cable from pulling the laptop; Aman looks away and gives her space. No added exposure is required for the anxiety to be credible.",
+      "keep": [
+        "Rapid practical trigger",
+        "Different visual reactions from two people",
+        "Ankita's visible anxiety",
+        "Consequence of Thursday memory"
+      ],
+      "change": [
+        "Second identical exposure replaced with cable/dupatta accident",
+        "No sexualized college-student gaze"
+      ]
+    },
+    {
+      "start": 161,
+      "end": 171,
+      "key": "reassurance_and_aman_opens_up",
+      "source": "Dhika cries and fears incident being discussed; Bobby speaks unusually at length and comforts her; Bantu gently jokes",
+      "fwfs": "Aman finds words, quietly says neither colleague will judge or discuss the earlier Thursday accident, and offers to reschedule if Ankita wants. Karan's mild joke breaks tension only after she signals comfort. Emotional point is a credible, respectful response, not sexual detail.",
+      "keep": [
+        "Aman's unexpected articulate empathy",
+        "Karan restores levity",
+        "Ankita starts to trust them"
+      ],
+      "change": [
+        "No privacy promise around a newly invented exposure",
+        "Respectful adult colleagues, avoid patronizing her"
+      ]
+    },
+    {
+      "start": 172,
+      "end": 183,
+      "key": "return_to_normal_and_privacy",
+      "source": "Reassurance, further teasing and compliments, then Dhika doesn't disclose this second incident to John",
+      "fwfs": "Ankita accepts their reassurance, calls out an overdone joke, and the UX meeting finishes normally. She can leave Ritvik the full project update without inventing a secret new bodily incident; Thursday was already discussed with him. Keep her Friday-Chirag secret separate from this professional thread.",
+      "keep": [
+        "Friendly recovery",
+        "Different personalities of Karan/Aman",
+        "Closure with a changed level of trust"
+      ],
+      "change": [
+        "Ritvik knows Thursday accidental incident",
+        "No false new secrecy about identical wardrobe mishap"
+      ]
+    }
+  ],
+  "per_line": [
+    {
+      "source_line": 101,
+      "source_id": "DHIKA-E03-L101",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 102,
+      "source_id": "DHIKA-E03-L102",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 103,
+      "source_id": "DHIKA-E03-L103",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 104,
+      "source_id": "DHIKA-E03-L104",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 105,
+      "source_id": "DHIKA-E03-L105",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 106,
+      "source_id": "DHIKA-E03-L106",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 107,
+      "source_id": "DHIKA-E03-L107",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 108,
+      "source_id": "DHIKA-E03-L108",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 109,
+      "source_id": "DHIKA-E03-L109",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 110,
+      "source_id": "DHIKA-E03-L110",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 111,
+      "source_id": "DHIKA-E03-L111",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 112,
+      "source_id": "DHIKA-E03-L112",
+      "phase": "return_and_welcome",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 113,
+      "source_id": "DHIKA-E03-L113",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 114,
+      "source_id": "DHIKA-E03-L114",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 115,
+      "source_id": "DHIKA-E03-L115",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 116,
+      "source_id": "DHIKA-E03-L116",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 117,
+      "source_id": "DHIKA-E03-L117",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 118,
+      "source_id": "DHIKA-E03-L118",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 119,
+      "source_id": "DHIKA-E03-L119",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 120,
+      "source_id": "DHIKA-E03-L120",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 121,
+      "source_id": "DHIKA-E03-L121",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 122,
+      "source_id": "DHIKA-E03-L122",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 123,
+      "source_id": "DHIKA-E03-L123",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 124,
+      "source_id": "DHIKA-E03-L124",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 125,
+      "source_id": "DHIKA-E03-L125",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 126,
+      "source_id": "DHIKA-E03-L126",
+      "phase": "dupatta_clothing_bargain",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 127,
+      "source_id": "DHIKA-E03-L127",
+      "phase": "changed_outfit_and_compliments",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 128,
+      "source_id": "DHIKA-E03-L128",
+      "phase": "changed_outfit_and_compliments",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 129,
+      "source_id": "DHIKA-E03-L129",
+      "phase": "changed_outfit_and_compliments",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 130,
+      "source_id": "DHIKA-E03-L130",
+      "phase": "changed_outfit_and_compliments",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 131,
+      "source_id": "DHIKA-E03-L131",
+      "phase": "changed_outfit_and_compliments",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 132,
+      "source_id": "DHIKA-E03-L132",
+      "phase": "changed_outfit_and_compliments",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 133,
+      "source_id": "DHIKA-E03-L133",
+      "phase": "changed_outfit_and_compliments",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 134,
+      "source_id": "DHIKA-E03-L134",
+      "phase": "changed_outfit_and_compliments",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 135,
+      "source_id": "DHIKA-E03-L135",
+      "phase": "changed_outfit_and_compliments",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 136,
+      "source_id": "DHIKA-E03-L136",
+      "phase": "changed_outfit_and_compliments",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 137,
+      "source_id": "DHIKA-E03-L137",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 138,
+      "source_id": "DHIKA-E03-L138",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 139,
+      "source_id": "DHIKA-E03-L139",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 140,
+      "source_id": "DHIKA-E03-L140",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 141,
+      "source_id": "DHIKA-E03-L141",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 142,
+      "source_id": "DHIKA-E03-L142",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 143,
+      "source_id": "DHIKA-E03-L143",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 144,
+      "source_id": "DHIKA-E03-L144",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 145,
+      "source_id": "DHIKA-E03-L145",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 146,
+      "source_id": "DHIKA-E03-L146",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 147,
+      "source_id": "DHIKA-E03-L147",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 148,
+      "source_id": "DHIKA-E03-L148",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 149,
+      "source_id": "DHIKA-E03-L149",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 150,
+      "source_id": "DHIKA-E03-L150",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 151,
+      "source_id": "DHIKA-E03-L151",
+      "phase": "ritvik_and_room_repaint",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 152,
+      "source_id": "DHIKA-E03-L152",
+      "phase": "paint_supplies_and_second_visit",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 153,
+      "source_id": "DHIKA-E03-L153",
+      "phase": "paint_supplies_and_second_visit",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 154,
+      "source_id": "DHIKA-E03-L154",
+      "phase": "unexpected_wardrobe_anxiety",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 155,
+      "source_id": "DHIKA-E03-L155",
+      "phase": "unexpected_wardrobe_anxiety",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 156,
+      "source_id": "DHIKA-E03-L156",
+      "phase": "unexpected_wardrobe_anxiety",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 157,
+      "source_id": "DHIKA-E03-L157",
+      "phase": "unexpected_wardrobe_anxiety",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 158,
+      "source_id": "DHIKA-E03-L158",
+      "phase": "unexpected_wardrobe_anxiety",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 159,
+      "source_id": "DHIKA-E03-L159",
+      "phase": "unexpected_wardrobe_anxiety",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 160,
+      "source_id": "DHIKA-E03-L160",
+      "phase": "unexpected_wardrobe_anxiety",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 161,
+      "source_id": "DHIKA-E03-L161",
+      "phase": "reassurance_and_aman_opens_up",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 162,
+      "source_id": "DHIKA-E03-L162",
+      "phase": "reassurance_and_aman_opens_up",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 163,
+      "source_id": "DHIKA-E03-L163",
+      "phase": "reassurance_and_aman_opens_up",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 164,
+      "source_id": "DHIKA-E03-L164",
+      "phase": "reassurance_and_aman_opens_up",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 165,
+      "source_id": "DHIKA-E03-L165",
+      "phase": "reassurance_and_aman_opens_up",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 166,
+      "source_id": "DHIKA-E03-L166",
+      "phase": "reassurance_and_aman_opens_up",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 167,
+      "source_id": "DHIKA-E03-L167",
+      "phase": "reassurance_and_aman_opens_up",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 168,
+      "source_id": "DHIKA-E03-L168",
+      "phase": "reassurance_and_aman_opens_up",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 169,
+      "source_id": "DHIKA-E03-L169",
+      "phase": "reassurance_and_aman_opens_up",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 170,
+      "source_id": "DHIKA-E03-L170",
+      "phase": "reassurance_and_aman_opens_up",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 171,
+      "source_id": "DHIKA-E03-L171",
+      "phase": "reassurance_and_aman_opens_up",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 172,
+      "source_id": "DHIKA-E03-L172",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 173,
+      "source_id": "DHIKA-E03-L173",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 174,
+      "source_id": "DHIKA-E03-L174",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 175,
+      "source_id": "DHIKA-E03-L175",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 176,
+      "source_id": "DHIKA-E03-L176",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 177,
+      "source_id": "DHIKA-E03-L177",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 178,
+      "source_id": "DHIKA-E03-L178",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 179,
+      "source_id": "DHIKA-E03-L179",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 180,
+      "source_id": "DHIKA-E03-L180",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 181,
+      "source_id": "DHIKA-E03-L181",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 182,
+      "source_id": "DHIKA-E03-L182",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    },
+    {
+      "source_line": 183,
+      "source_id": "DHIKA-E03-L183",
+      "phase": "return_to_normal_and_privacy",
+      "planned_status": "SOURCE FUNCTION EVIDENCED; FULL FWFS ADAPTATION NOT AUTOMATICALLY APPROVED"
+    }
+  ],
+  "commitment": "No teenage-student erotic scenes in FWFS. Character differences, spouse knowledge and weekday shifts must be independently accounted for. Retain all meaningful adult emotional beats without mechanically transplanting a teacher/student scenario."
+}
