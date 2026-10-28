@@ -1,0 +1,540 @@
+{
+  "schema": "fwfs.e04.part2.initial_audit.v1",
+  "created": "2026-10-28",
+  "status": "SOURCE INVENTORY COMPLETE; DIRECTOR ADAPTATION NOT LOCKED",
+  "scope": {
+    "source": "data/episodes/e03.json",
+    "same_day_start": 44,
+    "same_day_end": 98,
+    "narrative_lines": 55,
+    "following_day_lines": [
+      99,
+      100
+    ]
+  },
+  "baseline": "FWFS Friday meeting selected; same two adults; events in DHIKA are references, not automatic FWFS canon",
+  "source_phases": [
+    {
+      "start": 44,
+      "end": 52,
+      "key": "second_return_and_seating",
+      "label": "Chotu returns with ice cream, Ankita invites him to share it; physical hand-to-sofa invitation occurs at L049",
+      "important": [
+        49
+      ],
+      "flag": "contact",
+      "count": 9
+    },
+    {
+      "start": 53,
+      "end": 60,
+      "key": "playful_conversation_and_small_contact",
+      "label": "Village and girlfriend jokes, chocolate-bar drips, small hand/knee interactions",
+      "important": [
+        55,
+        56,
+        58,
+        59
+      ],
+      "flag": "physical familiarity",
+      "count": 8
+    },
+    {
+      "start": 61,
+      "end": 69,
+      "key": "kiss_conversation_and_unplanned_contact",
+      "label": "Conversation about kissing, increased proximity and a sudden touch connected to the falling ice cream",
+      "important": [
+        61,
+        64,
+        65,
+        67,
+        68,
+        69
+      ],
+      "flag": "intimate gesture",
+      "count": 9
+    },
+    {
+      "start": 70,
+      "end": 81,
+      "key": "reaction_apology_reassurance_gesture",
+      "label": "Realisation and apology, Ankita's reassurance and teasing; girlfriend-history disclosure and playful flying kiss",
+      "important": [
+        70,
+        72,
+        73,
+        75,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "flag": "inner reaction / gesture",
+      "count": 12
+    },
+    {
+      "start": 82,
+      "end": 91,
+      "key": "shared_kiss_thoughts",
+      "label": "Both notice lips, private speculation, awkward silence, posture and clothing movement",
+      "important": [
+        83,
+        84,
+        85,
+        86,
+        89,
+        90,
+        91
+      ],
+      "flag": "mutual attraction / visual",
+      "count": 10
+    },
+    {
+      "start": 92,
+      "end": 98,
+      "key": "kiss_and_exit",
+      "label": "Unprompted quick kiss in original, returned kiss, startled reaction, bedroom retreat, Chotu pays and leaves",
+      "important": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "flag": "kiss / consequences",
+      "count": 7
+    },
+    {
+      "start": 99,
+      "end": 100,
+      "key": "next_day_reflection",
+      "label": "Following-day private reflection on kissing and marital concealment; should not be squeezed into previous encounter",
+      "important": [
+        99,
+        100
+      ],
+      "flag": "secrecy",
+      "count": 2
+    }
+  ],
+  "source_line_index": [
+    {
+      "source_id": "DHIKA-E03-L044",
+      "block": "E03-B006",
+      "phase": "second_return_and_seating",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L045",
+      "block": "E03-B006",
+      "phase": "second_return_and_seating",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L046",
+      "block": "E03-B006",
+      "phase": "second_return_and_seating",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L047",
+      "block": "E03-B006",
+      "phase": "second_return_and_seating",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L048",
+      "block": "E03-B006",
+      "phase": "second_return_and_seating",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L049",
+      "block": "E03-B006",
+      "phase": "second_return_and_seating",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L050",
+      "block": "E03-B006",
+      "phase": "second_return_and_seating",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L051",
+      "block": "E03-B006",
+      "phase": "second_return_and_seating",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L052",
+      "block": "E03-B006",
+      "phase": "second_return_and_seating",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L053",
+      "block": "E03-B007",
+      "phase": "playful_conversation_and_small_contact",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L054",
+      "block": "E03-B007",
+      "phase": "playful_conversation_and_small_contact",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L055",
+      "block": "E03-B007",
+      "phase": "playful_conversation_and_small_contact",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L056",
+      "block": "E03-B007",
+      "phase": "playful_conversation_and_small_contact",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L057",
+      "block": "E03-B007",
+      "phase": "playful_conversation_and_small_contact",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L058",
+      "block": "E03-B007",
+      "phase": "playful_conversation_and_small_contact",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L059",
+      "block": "E03-B007",
+      "phase": "playful_conversation_and_small_contact",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L060",
+      "block": "E03-B007",
+      "phase": "playful_conversation_and_small_contact",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L061",
+      "block": "E03-B008",
+      "phase": "kiss_conversation_and_unplanned_contact",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L062",
+      "block": "E03-B008",
+      "phase": "kiss_conversation_and_unplanned_contact",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L063",
+      "block": "E03-B008",
+      "phase": "kiss_conversation_and_unplanned_contact",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L064",
+      "block": "E03-B008",
+      "phase": "kiss_conversation_and_unplanned_contact",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L065",
+      "block": "E03-B008",
+      "phase": "kiss_conversation_and_unplanned_contact",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L066",
+      "block": "E03-B008",
+      "phase": "kiss_conversation_and_unplanned_contact",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L067",
+      "block": "E03-B008",
+      "phase": "kiss_conversation_and_unplanned_contact",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L068",
+      "block": "E03-B008",
+      "phase": "kiss_conversation_and_unplanned_contact",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L069",
+      "block": "E03-B008",
+      "phase": "kiss_conversation_and_unplanned_contact",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L070",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L071",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L072",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L073",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L074",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L075",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L076",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L077",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L078",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L079",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L080",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L081",
+      "block": "E03-B009",
+      "phase": "reaction_apology_reassurance_gesture",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L082",
+      "block": "E03-B010",
+      "phase": "shared_kiss_thoughts",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L083",
+      "block": "E03-B010",
+      "phase": "shared_kiss_thoughts",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L084",
+      "block": "E03-B010",
+      "phase": "shared_kiss_thoughts",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L085",
+      "block": "E03-B010",
+      "phase": "shared_kiss_thoughts",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L086",
+      "block": "E03-B010",
+      "phase": "shared_kiss_thoughts",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L087",
+      "block": "E03-B010",
+      "phase": "shared_kiss_thoughts",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L088",
+      "block": "E03-B010",
+      "phase": "shared_kiss_thoughts",
+      "has_focus": false,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L089",
+      "block": "E03-B010",
+      "phase": "shared_kiss_thoughts",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L090",
+      "block": "E03-B010",
+      "phase": "shared_kiss_thoughts",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L091",
+      "block": "E03-B010",
+      "phase": "shared_kiss_thoughts",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L092",
+      "block": "E03-B011",
+      "phase": "kiss_and_exit",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L093",
+      "block": "E03-B011",
+      "phase": "kiss_and_exit",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L094",
+      "block": "E03-B011",
+      "phase": "kiss_and_exit",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L095",
+      "block": "E03-B011",
+      "phase": "kiss_and_exit",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L096",
+      "block": "E03-B011",
+      "phase": "kiss_and_exit",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L097",
+      "block": "E03-B011",
+      "phase": "kiss_and_exit",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    },
+    {
+      "source_id": "DHIKA-E03-L098",
+      "block": "E03-B011",
+      "phase": "kiss_and_exit",
+      "has_focus": true,
+      "original_text_pointer": "data/episodes/e03.json"
+    }
+  ],
+  "unresolved_high_priority": [
+    {
+      "line": 49,
+      "kind": "physical interaction",
+      "question": "Retain spontaneous hand invitation to sofa as a new gesture, or revise while preserving closeness?"
+    },
+    {
+      "line": 69,
+      "kind": "unplanned touch",
+      "question": "Keep the exact incident and its immediately startled aftermath, or adapt its mechanism for the established Friday setting?"
+    },
+    {
+      "line": 81,
+      "kind": "affectionate gesture",
+      "question": "How does playful flying kiss change Ankita and Chirag's mutual interpretation?"
+    },
+    {
+      "line": 92,
+      "kind": "kiss",
+      "question": "What event boundary and conscious response should FWFS use for the quick kiss; don't silently import original assumptions about intent?"
+    },
+    {
+      "line": 99,
+      "kind": "following day",
+      "question": "Schedule next-day reflection outside E04 Part 2 with independent day and marriage context"
+    }
+  ],
+  "age_check": "FWFS Chirag is 22. DHIKA character is 19 and text later calls him teenager; do not transfer that descriptor.",
+  "household": "Rey school and Ritvik work are Friday morning Director defaults; time-of-day progression must remain coherent."
+}
