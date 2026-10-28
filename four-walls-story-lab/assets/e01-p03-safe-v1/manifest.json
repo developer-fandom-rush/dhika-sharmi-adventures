@@ -1,0 +1,46 @@
+{
+  "episode": "E01",
+  "part": "P03",
+  "status": "Limited non-graphic adaptation",
+  "source_sha": "0917528cf32cff08b8ce36cb8394557047b09aeb",
+  "prompt_document": "https://docs.google.com/document/d/1yuCV8zwGCCRzAN7FFnuVaJBedT_xJjdm8lOGVrQmr1w/edit?usp=drivesdk",
+  "omissions": "L002–L005 in each scene and private-item details in opening/closing lines are not illustrated. Closed parcel panel is simplified adaptation, not literal source reproduction.",
+  "pages": [
+    {
+      "id": "e01p03-prakash",
+      "start": "P3-P-L001",
+      "end": "P3-P-L006",
+      "file": "e01p03-prakash.png",
+      "prompt": "Use case illustration-story. Generate a tall realistic cinematic webtoon strip with THREE clearly separated panels. Photorealistic Indian apartment environment, subtle painterly finish, natural light, readable simple speech balloons. Reference image supplies ONLY the older man's facial identity, hairstyle and outfit; do NOT reproduce reference text, other characters, plot, or panel layout. Three sequential panels in Sinha residence Saturday 1:40 PM. Prakash age65 neat white side-part hair short white moustache oval glasses navy Nehru jacket cream kurta, same face as the older man in reference. Panel1 Harish age67 balding grey hair clean shaven rimless glasses steel-blue vest white kurta invites Prakash into the living room for wedding seating notes. Panel2 closeup of ordinary seating chart and clipboard on a COMMON living-room table; Prakash collects the notes. Panel3 Harish at hallway entrance asks exactly \"Prakash ji, notes mil gaye?\" and Prakash returns into the common hall carrying notes. Ordinary neighbourly errand, neutral expressions. All adults fully clothed. This image is ONLY an ordinary public/common-area wedding errand. No bedrooms, bathrooms, washing areas, private clothing, underwear, nudity, sexual acts, erotic fantasies, body fluids, suggestive gestures, arousal or fetish imagery. No hidden sexual event implied. No women imagined or added. Render ONLY specified exact dialogue; no invented speech, thoughts, timestamps or extra captions. Do not show source line IDs. Never insert omitted adult material using euphemisms or visual symbols.",
+      "blob_sha": "989d89b59f093b814a8888dba73d98003b645794",
+      "google_drive_url": "https://drive.google.com/file/d/1N4h9_3GssK1ybVfE0BlC4xJRqcJ8PDCN/view?usp=drivesdk"
+    },
+    {
+      "id": "e01p03-mahendra",
+      "start": "P3-M-L001",
+      "end": "P3-M-L006",
+      "file": "e01p03-mahendra.png",
+      "prompt": "Use case illustration-story. Generate a tall realistic cinematic webtoon strip with THREE clearly separated panels. Photorealistic Indian apartment environment, subtle painterly finish, natural light, readable simple speech balloons. Reference image supplies ONLY the older man's facial identity, hairstyle and outfit; do NOT reproduce reference text, other characters, plot, or panel layout. Three sequential panels in Mehta residence Saturday 2:20 PM. Mahendra age66 silver wavy hair rectangular spectacles beige kurta brown waistcoat, same face as older man in reference. Panel1 a plain CLOSED laundry parcel is delivered to common entrance table. Mahendra reads a delivery slip labelled \"Ankita\" and \"Wrong delivery\" without opening the parcel. Panel2 doorbell rings, an adult laundry attendant stands at apartment threshold holding delivery receipt. Panel3 Mahendra hands the CLOSED plain parcel back to the attendant in doorway. Do not show or imply what is inside the parcel. No dialogue because source contains no exact spoken exchange for this errand. Ordinary package handling with neutral expressions. Clearly a standalone non-graphic visual adaptation, not literal depiction of omitted events. All adults fully clothed. This image is ONLY an ordinary public/common-area wedding errand. No bedrooms, bathrooms, washing areas, private clothing, underwear, nudity, sexual acts, erotic fantasies, body fluids, suggestive gestures, arousal or fetish imagery. No hidden sexual event implied. No women imagined or added. Render ONLY specified exact dialogue; no invented speech, thoughts, timestamps or extra captions. Do not show source line IDs. Never insert omitted adult material using euphemisms or visual symbols.",
+      "blob_sha": "a5694a798a2396ef3cea720bc81ebac1384ed411",
+      "google_drive_url": "https://drive.google.com/file/d/1rArZn2QZuQEe-xJM0TsqVPm2kNTYjNGF/view?usp=drivesdk"
+    },
+    {
+      "id": "e01p03-harish",
+      "start": "P3-H-L001",
+      "end": "P3-H-L006",
+      "file": "e01p03-harish.png",
+      "prompt": "Use case illustration-story. Generate a tall realistic cinematic webtoon strip with THREE clearly separated panels. Photorealistic Indian apartment environment, subtle painterly finish, natural light, readable simple speech balloons. Reference image supplies ONLY the older man's facial identity, hairstyle and outfit; do NOT reproduce reference text, other characters, plot, or panel layout. Three sequential panels in Mehta residence Saturday 3:50 PM. Harish age67 balding salt-and-pepper hair clean-shaven rimless glasses steel-blue vest white kurta, same older man's face as reference. Mahendra age66 silver wavy hair rectangular spectacles beige kurta brown waistcoat. Panel1 Mahendra indicates COMMON living-room cupboard containing wedding sound-system supplies. Panel2 Harish collects a coiled electrical audio cable from common cupboard, focus on hands and cable only. Panel3 Mahendra near doorway asks exactly \"Harish ji, cable mil gaya?\" and Harish exits carrying cable. Neutral practical household errand. Shreya is absent and never depicted. All adults fully clothed. This image is ONLY an ordinary public/common-area wedding errand. No bedrooms, bathrooms, washing areas, private clothing, underwear, nudity, sexual acts, erotic fantasies, body fluids, suggestive gestures, arousal or fetish imagery. No hidden sexual event implied. No women imagined or added. Render ONLY specified exact dialogue; no invented speech, thoughts, timestamps or extra captions. Do not show source line IDs. Never insert omitted adult material using euphemisms or visual symbols.",
+      "blob_sha": "61b66d02933bbed8664f127439ff12cedab73b16",
+      "google_drive_url": "https://drive.google.com/file/d/1KEKd9zdOoOoXK7LNLfBYtNRisJRkAyvJ/view?usp=drivesdk"
+    },
+    {
+      "id": "e01p03-virendra",
+      "start": "P3-V-L001",
+      "end": "P3-V-L006",
+      "file": "e01p03-virendra.png",
+      "prompt": "Use case illustration-story. Generate a tall realistic cinematic webtoon strip with THREE clearly separated panels. Photorealistic Indian apartment environment, subtle painterly finish, natural light, readable simple speech balloons. Reference image supplies ONLY the older man's facial identity, hairstyle and outfit; do NOT reproduce reference text, other characters, plot, or panel layout. Three sequential panels in Arora residence Saturday 5:15 PM. Virendra age69 white crewcut broad white moustache upright stocky build olive polo khaki trousers no glasses, same older man's face as reference. Prakash age65 neat white side-part hair short white moustache oval glasses navy Nehru jacket cream kurta. Panel1 Prakash lets Virendra into COMMON living room to collect wedding-games register. Panel2 Prakash takes a phone call in hallway while Virendra picks up register from COMMON living-room table; focus on register labelled \"Wedding Games\". Panel3 Prakash calls exactly \"Colonel sahab, register mil gaya?\" and Virendra exits carrying register. Taniya remains elsewhere and is not depicted. Neutral practical neighbourly errand. All adults fully clothed. This image is ONLY an ordinary public/common-area wedding errand. No bedrooms, bathrooms, washing areas, private clothing, underwear, nudity, sexual acts, erotic fantasies, body fluids, suggestive gestures, arousal or fetish imagery. No hidden sexual event implied. No women imagined or added. Render ONLY specified exact dialogue; no invented speech, thoughts, timestamps or extra captions. Do not show source line IDs. Never insert omitted adult material using euphemisms or visual symbols.",
+      "blob_sha": "70c3bb98045563ede6213b467dad904dcf8812eb",
+      "google_drive_url": "https://drive.google.com/file/d/1j41rbTAiok2OMRmrkKb4AL0uZ2fRusQM/view?usp=drivesdk"
+    }
+  ]
+}

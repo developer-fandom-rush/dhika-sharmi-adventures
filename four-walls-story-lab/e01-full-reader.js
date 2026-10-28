@@ -35,6 +35,7 @@ function addContent(p,sourceText){
 }
 var p1Visuals=[{"end":"FWFS-E01-P01-L006","start":"FWFS-E01-P01-L001","file":"e01p01-01.png"},{"end":"FWFS-E01-P01-L010","start":"FWFS-E01-P01-L007","file":"e01p01-02.png"},{"end":"FWFS-E01-P01-L020","start":"FWFS-E01-P01-L011","file":"e01p01-03.png"},{"end":"FWFS-E01-P01-L030","start":"FWFS-E01-P01-L021","file":"e01p01-04.png"},{"end":"FWFS-E01-P01-L040","start":"FWFS-E01-P01-L031","file":"e01p01-05.png"},{"end":"FWFS-E01-P01-L048","start":"FWFS-E01-P01-L041","file":"e01p01-06.png"},{"end":"FWFS-E01-P01-L055","start":"FWFS-E01-P01-L049","file":"e01p01-07.png"}];
 var p2Visuals=[{"start":"FWFS-E01-P02-A-L001","end":"FWFS-E01-P02-A-L009","file":"e01p02-a-01.png","lead":"Ankita"},{"start":"FWFS-E01-P02-A-L010","end":"FWFS-E01-P02-A-L013","file":"e01p02-a-02.png","lead":"Ankita"},{"start":"FWFS-E01-P02-A-L014","end":"FWFS-E01-P02-A-L020","file":"e01p02-a-03.png","lead":"Ankita"},{"start":"FWFS-E01-P02-A-L021","end":"FWFS-E01-P02-A-L028","file":"e01p02-a-04.png","lead":"Ankita"},{"start":"FWFS-E01-P02-A-L029","end":"FWFS-E01-P02-A-L037","file":"e01p02-a-05.png","lead":"Ankita"},{"start":"FWFS-E01-P02-A-L038","end":"FWFS-E01-P02-A-L047","file":"e01p02-a-06.png","lead":"Ankita"},{"start":"FWFS-E01-P02-A-L048","end":"FWFS-E01-P02-A-L059","file":"e01p02-a-07.png","lead":"Ankita"},{"start":"FWFS-E01-P02-S-L001","end":"FWFS-E01-P02-S-L012","file":"e01p02-s-01.png","lead":"Shivani"},{"start":"FWFS-E01-P02-S-L013","end":"FWFS-E01-P02-S-L024","file":"e01p02-s-02.png","lead":"Shivani"},{"start":"FWFS-E01-P02-S-L025","end":"FWFS-E01-P02-S-L033","file":"e01p02-s-03.png","lead":"Shivani"},{"start":"FWFS-E01-P02-S-L034","end":"FWFS-E01-P02-S-L041","file":"e01p02-s-04.png","lead":"Shivani"},{"start":"FWFS-E01-P02-S-L042","end":"FWFS-E01-P02-S-L052","file":"e01p02-s-05.png","lead":"Shivani"},{"start":"FWFS-E01-P02-SH-L001","end":"FWFS-E01-P02-SH-L010","file":"e01p02-sh-01.png","lead":"Shreya"},{"start":"FWFS-E01-P02-SH-L011","end":"FWFS-E01-P02-SH-L018","file":"e01p02-sh-02.png","lead":"Shreya"},{"start":"FWFS-E01-P02-SH-L019","end":"FWFS-E01-P02-SH-L023","file":"e01p02-sh-03.png","lead":"Shreya"},{"start":"FWFS-E01-P02-SH-L024","end":"FWFS-E01-P02-SH-L030","file":"e01p02-sh-04.png","lead":"Shreya"},{"start":"FWFS-E01-P02-SH-L031","end":"FWFS-E01-P02-SH-L039","file":"e01p02-sh-05.png","lead":"Shreya"},{"start":"FWFS-E01-P02-T-L001","end":"FWFS-E01-P02-T-L011","file":"e01p02-t-01.png","lead":"Taniya"},{"start":"FWFS-E01-P02-T-L012","end":"FWFS-E01-P02-T-L020","file":"e01p02-t-02.png","lead":"Taniya"},{"start":"FWFS-E01-P02-T-L021","end":"FWFS-E01-P02-T-L031","file":"e01p02-t-03.png","lead":"Taniya"},{"start":"FWFS-E01-P02-T-L032","end":"FWFS-E01-P02-T-L039","file":"e01p02-t-04.png","lead":"Taniya"},{"start":"FWFS-E01-P02-T-L040","end":"FWFS-E01-P02-T-L049","file":"e01p02-t-05.png","lead":"Taniya"},{"start":"FWFS-E01-P02-T-L050","end":"FWFS-E01-P02-T-L058","file":"e01p02-t-06.png","lead":"Taniya"},{"start":"FWFS-E01-P02-T-L059","end":"FWFS-E01-P02-T-L069","file":"e01p02-t-07.png","lead":"Taniya"},{"start":"FWFS-E01-P02-T-L070","end":"FWFS-E01-P02-T-L076","file":"e01p02-t-08.png","lead":"Taniya"}];
+var p3Visuals=[{"start":"P3-P-L001","end":"P3-P-L006","file":"e01p03-prakash.png"},{"start":"P3-M-L001","end":"P3-M-L006","file":"e01p03-mahendra.png"},{"start":"P3-H-L001","end":"P3-H-L006","file":"e01p03-harish.png"},{"start":"P3-V-L001","end":"P3-V-L006","file":"e01p03-virendra.png"}];
 var data=null;
 function draw(){
  if(!data)return;
@@ -47,16 +48,16 @@ function draw(){
   chapter.blocks.forEach(function(b){
    if(!b.text||!b.text.trim())return;
    var p=e("p","e01-full-paragraph");addContent(p,b.text);section.appendChild(p);
-   if(chapter.part==="P01"||chapter.part==="P02"){
-    var page=(chapter.part==="P02"?p2Visuals:p1Visuals).find(function(v){return v.end===b.source_id});
+   if(chapter.part==="P01"||chapter.part==="P02"||chapter.part==="P03"){
+    var page=(chapter.part==="P03"?p3Visuals:chapter.part==="P02"?p2Visuals:p1Visuals).find(function(v){return v.end===b.source_id});
     if(page){
      var figure=e("figure","e01-webtoon");
      figure.setAttribute("data-source-start",page.start);figure.setAttribute("data-source-end",page.end);
-     var link=e("a");link.href=root+"four-walls-story-lab/assets/"+(chapter.part==="P02"?"e01-p02-v1/":"e01-p01-v1/")+page.file;link.target="_blank";link.rel="noopener";
+     var link=e("a");link.href=root+"four-walls-story-lab/assets/"+(chapter.part==="P03"?"e01-p03-safe-v1/":chapter.part==="P02"?"e01-p02-v1/":"e01-p01-v1/")+page.file;link.target="_blank";link.rel="noopener";
      var image=e("img");image.src=link.href;image.loading="lazy";image.alt="Episode 01 Part "+Number(chapter.part.slice(1))+" realistic webtoon · "+page.start+"–"+page.end;
      image.style.cssText="display:block;width:100%;height:auto;border-radius:10px";
      link.appendChild(image);figure.appendChild(link);
-     var caption=e("figcaption","",page.start+"–"+page.end+" · Tap to enlarge");
+     var caption=e("figcaption","",(chapter.part==="P03"?"Limited non-graphic adaptation · neutral errand elements only · "+page.start+" / "+page.end+" · Intermediate and private-item content not illustrated":page.start+"–"+page.end)+" · Tap to enlarge");
      caption.style.cssText="font-size:12px;color:#b8c9dc;margin-top:8px";figure.appendChild(caption);figure.style.cssText="margin:22px 0 34px";
      section.appendChild(figure);
     }
