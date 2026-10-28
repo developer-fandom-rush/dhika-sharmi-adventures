@@ -43,6 +43,27 @@
       "source_links": [
         "data/episodes/e03.json"
       ]
+    },
+    {
+      "id": "E04-P01-D003",
+      "source_range": "DHIKA E03 L016–L018",
+      "director_raw_input": "Ok\n\nSee these are not the questions you should be asking you should be asking about \nJo sexual related ho inner reaction \nErotica flavoured adultry setup \nThoughts \nVisual description and all pucho \nExact line number ka source ko quote krne kay baad",
+      "decision": "Director accepts the proposed ordinary Friday context (Rey at school; Ritvik at work), and corrects workflow: prioritize questions about source-line character interiority, attraction, implied infidelity, visual description, and intimate-event mapping, quoting a short exact excerpt and source line ID first. Do not consume Director's attention with trivial background logistics for which sensible grounded defaults exist.",
+      "decision_status": "DIRECTOR WORKFLOW DIRECTION RECORDED; NO PROSE AUTHORIZED",
+      "approved_items": [
+        "Rey at school Friday morning and Ritvik at work as working scene context",
+        "Future editorial questions focus on consequential emotional/romantic/sexual-subtext adaptation differences, one question at a time",
+        "Quote precise DHIKA line fragment before question"
+      ],
+      "not_approved_or_not_determined": [
+        "Exact internal response to Chotu's Friday visual attention at DHIKA E03 L020",
+        "Later intimacy/physical-contact scene decisions",
+        "Friday leave reason"
+      ],
+      "source_links": [
+        "data/episodes/e03.json",
+        "data/continuity/fwfs_e01_ankita_chotu_history_latest_20261027.json"
+      ]
     }
   ],
   "next_source_set": {
@@ -140,18 +161,13 @@
     ],
     "blocking_decisions": [
       {
-        "id": "E04-P01-OPEN01",
-        "topic": "Friday morning household",
-        "question": "At the time of Chotu's delivery, where are Rey and Ritvik? No FWFS source currently establishes Friday morning presence or absence.",
-        "status": "ASK DIRECTOR IF NOT FOUND"
-      },
-      {
         "id": "E04-P01-OPEN02",
         "topic": "Why Chirag took leave",
         "question": "FWFS Thursday's shopkeeper only says he took sudden leave; preserve as unexplained until Director decides, without importing DHIKA grandmother death.",
         "status": "OPEN; NEXT SOURCE SECTION L019–L023"
       }
-    ]
+    ],
+    "review_policy": "One material question per turn; quote original source fragment with exact E03 line number; prioritize character thoughts, attraction, infidelity conflict, physical/visual beats and their impact on FWFS history. Routine logistical facts may be resolved without asking where evidence/Director direction suffices."
   },
   "sources_used": [
     "data/episodes/e03.json",
