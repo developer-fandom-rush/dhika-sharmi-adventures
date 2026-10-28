@@ -1,0 +1,147 @@
+{
+  "schema": "fwfs.e04.part1.director_decisions.v1",
+  "document": "FWFS E04 Part 1 — Director decisions and evidence-only mapping",
+  "recorded_on": "2026-10-28",
+  "source_policy": "Use unchanged DHIKA source lines as evidence. Separate written FWFS, review copies, Director decisions, and proposals. Never invent prior continuity. No manuscript text changed.",
+  "episode": "FWFS E04",
+  "part": "P01",
+  "state": "DIRECTOR PLANNING; WRITING ON HOLD",
+  "director_decisions": [
+    {
+      "id": "E04-P01-D001",
+      "source_range": "DHIKA E03 L005–L010",
+      "director_raw_input": "Director decision for FWFS E04 Part 1 DHIKA E03 L005–010: Option A — new Friday skirt and sleeveless top, no invented previous Ritvik backstory.. Record this as my decision and continue with the next source set, without writing prose yet.",
+      "decision": "Select new Friday skirt plus sleeveless top as a deliberate current wardrobe choice. Do NOT invent a previously proposed/refused Ritvik outfit or transport John/Aunty/Uncle anecdote to FWFS.",
+      "decision_status": "DIRECTOR APPROVED FOR ADAPTATION PLANNING; NOT MANUSCRIPT CANON",
+      "approved_items": [
+        "Friday clothing category: new skirt + sleeveless top",
+        "Original source's earlier John/Aunty refusal has no FWFS substitute; do not fabricate it",
+        "No prose writing yet"
+      ],
+      "not_approved_or_not_determined": [
+        "Exact skirt length/colour, top fabric/neckline, makeup and wet-hair specifics unless separately confirmed",
+        "Mechanics of any later raised-arm moment",
+        "Scene boundaries, household presence, Chotu's leave reason, later physical beats"
+      ],
+      "source_links": [
+        "data/episodes/e03.json",
+        "data/stories/e01_all_seven_parts_continuous_reader_v1.json"
+      ]
+    }
+  ],
+  "next_source_set": {
+    "range": "DHIKA E03 L011–L018",
+    "stage": "EVIDENCE MAPPED / DIRECTOR REVIEW PENDING",
+    "writer_hold": true,
+    "lines": [
+      {
+        "line": 11,
+        "original_event": "Doorbell sounds",
+        "fwfs_evidence": [
+          "FWFS-E01-P5-M-L006",
+          "FWFS-E01-P5-M-L084",
+          "A-P7-GR-002"
+        ],
+        "evidence_status": "Historical familiar deliveries; Friday doorbell is a new planned event",
+        "proposed_adaptation": "Doorbell after Friday preparations; no physical greeting implied",
+        "decision": "PROPOSAL"
+      },
+      {
+        "line": 12,
+        "original_event": "Dhika expects Chotu and feels butterflies",
+        "fwfs_evidence": [
+          "P6-1-011",
+          "P6-1-012",
+          "A-P7-GR-031–039"
+        ],
+        "evidence_status": "Monday working and Tuesday revised review copy, not locked canon",
+        "proposed_adaptation": "Recognises likely visitor; anticipation informed by Tuesday's unresolved reaction",
+        "decision": "PROPOSAL"
+      },
+      {
+        "line": 13,
+        "original_event": "Chotu cheerfully calls didi through the door",
+        "fwfs_evidence": [
+          "FWFS-E01-P5-M-L007–L010",
+          "FWFS-E01-P5-M-L084–L086"
+        ],
+        "evidence_status": "Familiar greeting/playful tone observed in Saturday and Sunday reader-review",
+        "proposed_adaptation": "Cheerful known voice and nickname pattern; exact wording new",
+        "decision": "PROPOSAL"
+      },
+      {
+        "line": 14,
+        "original_event": "Dhika opens and lovingly taps Chotu's cheek",
+        "fwfs_evidence": [
+          "FWFS-E01-P5-M-L006–L010"
+        ],
+        "evidence_status": "No established Ankita–Chirag cheek-tap habit",
+        "proposed_adaptation": "Warm greeting with no assumed cheek-touch; new touch only with Director approval",
+        "decision": "PROPOSAL"
+      },
+      {
+        "line": 15,
+        "original_event": "Narrator: cheek-tap is habitual and liked",
+        "fwfs_evidence": [
+          "FWFS-E01-P5-M-L019"
+        ],
+        "evidence_status": "High-five in source is between Chotu and Rey, not Ankita",
+        "proposed_adaptation": "Do not falsely assert a habitual Ankita–Chirag physical greeting",
+        "decision": "PROPOSAL"
+      },
+      {
+        "line": 16,
+        "original_event": "Unpacking delivery, asks where Pappu is",
+        "fwfs_evidence": [
+          "FWFS-E01-P5-M-L002–L005",
+          "FWFS-E01-P5-M-L082–L088"
+        ],
+        "evidence_status": "Chotu knows Rey from rocket incidents; Friday whereabouts not established",
+        "proposed_adaptation": "Replace Pappu with Rey only if Director establishes realistic Friday location/presence",
+        "decision": "OPEN: FRIDAY HOUSEHOLD"
+      },
+      {
+        "line": 17,
+        "original_event": "Chotu has not yet noticed the new outfit",
+        "fwfs_evidence": [
+          "FWFS-E01-P5-M-L011–L015",
+          "A-P7-GR-001–022"
+        ],
+        "evidence_status": "Prior attention to Ankita established in reader-review and Tuesday review copy",
+        "proposed_adaptation": "He can notice Friday's different outfit after unpacking, but this is not the first time he has looked at her",
+        "decision": "PROPOSAL"
+      },
+      {
+        "line": 18,
+        "original_event": "Dhika says Pappu left with Aunty; quickly asks about sudden leave",
+        "fwfs_evidence": [
+          "FWFS E02 Part 3 L113–L115"
+        ],
+        "evidence_status": "Chotu leave confirmed Thursday, but cause and Friday family movement not verified",
+        "proposed_adaptation": "Ask why he was away; do not import the Aunty/temple errand or DHIKA bereavement as FWFS fact",
+        "decision": "OPEN: FAMILY / LEAVE REASON"
+      }
+    ],
+    "blocking_decisions": [
+      {
+        "id": "E04-P01-OPEN01",
+        "topic": "Friday morning household",
+        "question": "At the time of Chotu's delivery, where are Rey and Ritvik? No FWFS source currently establishes Friday morning presence or absence.",
+        "status": "ASK DIRECTOR IF NOT FOUND"
+      },
+      {
+        "id": "E04-P01-OPEN02",
+        "topic": "Why Chirag took leave",
+        "question": "FWFS Thursday's shopkeeper only says he took sudden leave; preserve as unexplained until Director decides, without importing DHIKA grandmother death.",
+        "status": "OPEN; NEXT SOURCE SECTION L019–L023"
+      }
+    ]
+  },
+  "sources_used": [
+    "data/episodes/e03.json",
+    "data/continuity/fwfs_e01_ankita_chotu_history_latest_20261027.json",
+    "data/stories/e01_all_seven_parts_continuous_reader_v1.json",
+    "data/stories/fwfs_e02_part03_ankita_next_day_reader_20261026.md",
+    "four-walls-story-lab/fwfs-episode-matrix.json"
+  ]
+}
