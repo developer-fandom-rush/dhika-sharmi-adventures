@@ -112,14 +112,28 @@
         "Use actual FWFS Tuesday paperwork incident as his reference, not DHIKA floor-cleaning"
       ],
       "not_approved_or_not_determined": [
-        "Visual detail or intensity '+1' referred to in a subsequent ambiguous voice transcript",
         "Specific thoughts/writing intensity",
         "Next scene prose"
       ],
       "source_links": [
         "data/episodes/e03.json",
         "data/stories/e01_all_seven_parts_continuous_reader_v1.json"
-      ]
+      ],
+      "source_line_039_exact": "Chotu: Why is didi suddenly looking different...... stupid me.... why did I look at her stomach. The other day also.... I saw her boobs while she was cleaning the floor.... isss they were looking so white...",
+      "source_line_039_events": [
+        "Chotu questions why Dhika looks different now",
+        "He self-criticizes looking at her stomach in the present encounter",
+        "He recalls an earlier floor-cleaning observation of her breasts",
+        "He specifically remembers their white appearance; this descriptive detail is in the source and must not be dropped"
+      ],
+      "fwfs_correspondence": {
+        "earlier_moment": "Tuesday document-verification at the coffee table, not floor cleaning",
+        "evidence": "A-P7-GR-007–022; colour descriptor specifically A-P7-GR-012",
+        "description_in_review": "Cream-colored upper breasts, not merely an unspecified previous glimpse",
+        "status": "GROK REVISED REVIEW COPY — NOT CANON",
+        "knowledge": "Chirag remembers what he noticed but remains uncertain whether Ankita deliberately created the moment (Director Option B)"
+      },
+      "correction_from_director": "Line 39 was presented incompletely. The original Chotu thought explicitly includes the appearance description 'they were looking so white'. Preserve the fact, visual detail, remembered event and his inner response in the source map; do not paraphrase it into a generic 'previous visual incident'."
     }
   ],
   "next_source_set": {
@@ -224,8 +238,8 @@
       }
     ],
     "review_policy": "One material question per turn; quote original source fragment with exact E03 line number; prioritize character thoughts, attraction, infidelity conflict, physical/visual beats and their impact on FWFS history. Routine logistical facts may be resolved without asking where evidence/Director direction suffices.",
-    "current_review_line": 43,
-    "review_notes": "L019–L021 mapped to verified history plus Director L020 Option C. L022 leave reason remains open but do not divert Director from consequential visual/inner-reaction questions until needed for writing. L026–L035 next consequential scene beat."
+    "current_review_line": 39,
+    "review_notes": "D006 SOURCE OMISSION CORRECTED: exact DHIKA L039 includes current stomach glance and specific recollection of an earlier white-appearance detail; FWFS Tuesday review A-P7-GR-012 has its own cream-colored descriptor. Keep the two worlds distinct. User has not approved a new +1 change; no new prose."
   },
   "sources_used": [
     "data/episodes/e03.json",
