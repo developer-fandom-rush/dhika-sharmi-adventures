@@ -24,8 +24,8 @@
       "line": 5,
       "source_id": "DHIKA-E03-L005",
       "source_event": "Original skirt recalls prior husband suggestion",
-      "fwfs_adaptation": "New Friday skirt; no invented Ritvik request",
-      "decision": "D001",
+      "fwfs_adaptation": "Keep original knee-length skirt's short retrospective context. Husband John → Ritvik; source Uncle → existing Mahendra Mehta. Brief retrospect only, not a new scene or unrelated laundry subplot.",
+      "decision": "D008 (OVERRIDES D001 backstory removal)",
       "tag": "wardrobe",
       "evidence": [
         "P6-1-006",
@@ -37,8 +37,8 @@
       "line": 6,
       "source_id": "DHIKA-E03-L006",
       "source_event": "Earlier refusal linked to older-household gaze; today different choice",
-      "fwfs_adaptation": "Do not import Aunty/Uncle incident or substitute Mahendra",
-      "decision": "D001",
+      "fwfs_adaptation": "Keep original reason for earlier refusal, connecting to existing Mahendra as Uncle; do not assert Ankita knew Mahendra's private thoughts. Friday choice can differ.",
+      "decision": "D008 (OVERRIDES D001 backstory removal)",
       "tag": "backstory",
       "evidence": [],
       "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
@@ -47,8 +47,8 @@
       "line": 7,
       "source_id": "DHIKA-E03-L007",
       "source_event": "Dhika wonders whether Chotu finds her attractive; shy uncertainty",
-      "fwfs_adaptation": "Ankita thinks about his notice against Saturday–Tuesday history; uncertainty continues",
-      "decision": "D004",
+      "fwfs_adaptation": "Retain original question whether Chotu finds the outfit beautiful and related uncertainty; Dhika → Ankita; Chotu → Chirag.",
+      "decision": "D008 / D004",
       "tag": "inner-reaction",
       "evidence": [
         "P6-1-011",
@@ -61,8 +61,8 @@
       "line": 8,
       "source_id": "DHIKA-E03-L008",
       "source_event": "Skirt and sleeveless top selected with restrained fit",
-      "fwfs_adaptation": "New skirt + sleeveless top; exact fit not locked",
-      "decision": "D001",
+      "fwfs_adaptation": "Retain original knee-length skirt and sleeveless top visual/fit mechanics, no needless wardrobe redesign.",
+      "decision": "D008",
       "tag": "wardrobe-visual",
       "evidence": [],
       "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
@@ -71,8 +71,8 @@
       "line": 9,
       "source_id": "DHIKA-E03-L009",
       "source_event": "Mirror and slight midriff visibility, movement could change it",
-      "fwfs_adaptation": "Physical garment behaviour needs consistency with later shelf reach",
-      "decision": "PROPOSED",
+      "fwfs_adaptation": "Retain source mirror, wet hair, small midriff observation and future reaching mechanics.",
+      "decision": "D008",
       "tag": "wardrobe-visual",
       "evidence": [],
       "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
@@ -81,8 +81,8 @@
       "line": 10,
       "source_id": "DHIKA-E03-L010",
       "source_event": "Light mascara and lipstick; appearance complete",
-      "fwfs_adaptation": "Source detail available for Friday, not claimed established routine",
-      "decision": "PROPOSED",
+      "fwfs_adaptation": "Retain original final makeup choice and ordinary appearance progression.",
+      "decision": "D008",
       "tag": "appearance",
       "evidence": [],
       "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
@@ -461,5 +461,6 @@
     "identification": "Same-day Chotu return, extended dialogue, contact and kiss, actual departure; L099–L100 is the following-day reflection",
     "status": "DISCOVERY ONLY / NOT DIRECTOR APPROVED"
   },
-  "audit_revision": "2026-10-28: Explicit visual descriptors preserved at lines 020, 023, 026, 027, 035, 039; prior references to generic gaze are not substitutes for these source details.; L022/23 resolved by Director D007 on 2026-10-28."
+  "audit_revision": "2026-10-28: Explicit visual descriptors preserved at lines 020, 023, 026, 027, 035, 039; prior references to generic gaze are not substitutes for these source details.; L022/23 resolved by Director D007 on 2026-10-28.; D008 latest source-faithful wardrobe/history direction supersedes D001 removal.",
+  "source_faithful_map": "data/continuity/fwfs_e04_source_faithful_minimal_change_map_20261028.json"
 }
