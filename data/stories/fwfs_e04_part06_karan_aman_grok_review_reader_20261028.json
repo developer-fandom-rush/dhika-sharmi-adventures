@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.1",
+  "title": "FWFS E04 Part 6 · Grok corrections merged · Director review copy",
+  "episode": "FWFS E04",
+  "part": "P06",
+  "story_date": "2026-10-27 to 2026-10-28",
+  "status": "PUBLISHED TO REVIEW READER / DIRECTOR APPROVAL PENDING / NOT CANON LOCKED",
+  "editorial_source": {
+    "document_url": "https://docs.google.com/document/d/1SLMDb1-8XV4w34AGjhm509wBzNMraxTM5dCSl-T5Lbs/edit?tab=t.hbe4d41uiuh3",
+    "tab_id": "t.hbe4d41uiuh3",
+    "document_revision": "AHj4eMS3Qn_UQY4rGanYkznCd1o0tVXIcKgGkCyP4nyMZM3LeqA5YWodbTrgvvGyEqyR_a2rq2VCndfI3b0yatfW3EKtut7ZkHI2CE-t7RU",
+    "notes": "Exact requested Grok tab, including appended last source-accuracy replacement section; source document not modified."
+  },
+  "source_evidence": "DHIKA E03 L152–183",
+  "notes": "Corrected review tab provides 38 numbered passages; 25 shorthand-only IDs restored from original draft; final appended Grok correction replaces 067–091; line 060 dupatta→saree pallu continuity fix.",
+  "lines": [
+    {
+      "id": "FWFS-E04-052",
+      "line_number": 52,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Tuesday office se nikalte hue Ankita stationery aur hardware lane ki taraf mud gayi. Rey ke room ke liye samples, masking tape aur ek small roller dekhna tha. Usne pehle se koi fixed weekend painting day announce nahi kiya tha. Outdoor air uske face par thandi thi.",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    },
+    {
+      "id": "FWFS-E04-053",
+      "line_number": 53,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Shopkeeper ne colour shade cards saamne rakh diye. Ankita ne Rey ko teen options ki photo bheji. Rey ka jawab turant aaya: “Space blue!” Ankita hansi. “Obviously,” usne dheere se kaha. Uske fingers cards ke smooth surface par slide hue.",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    },
+    {
+      "id": "FWFS-E04-054",
+      "line_number": 54,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Phone par Karan ka message aaya: Wednesday 7 PM works? Aman ne prototype ka alternate navigation ready kar liya.",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    },
+    {
+      "id": "FWFS-E04-055",
+      "line_number": 55,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita ne reply kiya: Works. Bring the updated clickable flow. And Karan, please label every screen properly this time.",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    },
+    {
+      "id": "FWFS-E04-056",
+      "line_number": 56,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Karan ne laughing emoji bheja. Kuch seconds baad Aman ka short message aaya: I fixed the transitions. Hope you'll like them.",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    },
+    {
+      "id": "FWFS-E04-057",
+      "line_number": 57,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita ne type kiya, I already appreciate the effort, phir message ko thoda chhota kar diya: See you tomorrow. Good work. Woh koi extra meaning attach nahi karna chahti thi; phir bhi uske reply par zaroorat se zyada soch rahi thi. Uske thumb screen par thodi der ruk gaye.",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    },
+    {
+      "id": "FWFS-E04-058",
+      "line_number": 58,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Paint cards handbag mein rakhkar woh ghar aayi. Rey ne dinner table par samples spread kar diye. Ritvik ne mazaak kiya ki ab usse bhi ek vote milna chahiye. Evening almost normal thi. Ankita ne notice kiya ki woh ab Chirag ke naam ke baare mein kam soch rahi thi — ya sochna nahi chahti thi.",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    },
+    {
+      "id": "FWFS-E04-059",
+      "line_number": 59,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Wednesday ke liye Ankita ne office ke baad project files organise kar li. Thursday ki incident ko lekar ek halka apprehension phir se aaya, lekin Monday ki easy meeting ne use confidence diya tha. Usne apne wardrobe se ek simple saree choose ki — soft fabric, comfortable drape, working session ke liye practical.",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    },
+    {
+      "id": "FWFS-E04-060",
+      "line_number": 60,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Usne saree ke pallu ke folds carefully set kiye. Pallu ko shoulder par secure kiya. Is baar koi accident nahi, usne socha. Lekin soch ke peeche thoda sa uncertainty tha.",
+      "version_source": "GROK_REVISED_MAIN_TAB_WITH_SINGLE_FABRIC_TERM_CONTINUITY_FIX"
+    },
+    {
+      "id": "FWFS-E04-061",
+      "line_number": 61,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Wednesday ko office ka kaam late khatam hua. Ankita ghar pahunchi toh ghadi saat ke kareeb thi. Usne cream-and-blue saree pehni hui thi; badalne ka time nahi mila. Karan aur Aman lobby mein hi mile, aur teenon lagbhag saath apartment tak aaye.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-062",
+      "line_number": 62,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Aaj direct office mode,” Karan ne laptop bag uthate hue kaha. “Monday wali casual consultant kahaan gayi?”",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-063",
+      "line_number": 63,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Traffic mein phas gayi,” Ankita ne jawab diya. “Aaj presentation khatam kara lo, phir fashion commentary karna.”",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-064",
+      "line_number": 64,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Rey apne room mein homework kar raha tha, Ritvik ne bataya tha ki woh late meeting se aayega. Ankita ne hall ke side table par paani rakha aur unhe prototype presentation ke liye foldable board kholne ko kaha.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-065",
+      "line_number": 65,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Aman ne screen share setup kiya. Karan board ki legs lock kar raha tha. Ankita ne paper flow printouts ek edge par clip kiye aur side mein khadi hokar user journey trace karne lagi.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-066",
+      "line_number": 66,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Yeh card yahan nahi,” usne kaha. “Agar customer ko back jaana ho toh option visibly accessible rehna chahiye.” Woh chart ki taraf aage badhi.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-067",
+      "line_number": 67,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Board ke top par laga clip poori tarah secure nahi tha. Ankita ne sheet sambhali aur user flow explain karte hue thoda aage jhuki. Karan ne stand ko seedha karne ke liye chair ek taraf kheench di. Usi movement mein saree ke pallu ka loose end chair ki backrest par atak gaya. Fabric ne halka sa resistance diya, lekin Ankita abhi explanation mein busy thi.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-068",
+      "line_number": 68,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita ne board ke doosre corner tak pahunchne ke liye half-step liya. Pallu ka fabric chair par hi ruk gaya. Shoulder par set folds ek saath kheench gaye. Soft material ne uske upper chest ke across slide kiya. Usne sudden tug feel kiya — fabric uske blouse ke edge se sarak raha tha.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-069",
+      "line_number": 69,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ek pal ke liye uska pallu poora shoulder se phisal gaya. Blouse ke upar ka hissa aur uske milky cleavage ka clear view dono men ke saamne aa gaya. Ankita ne turant board chhoda aur drape ko sambhaal liya. Incident sirf kuch seconds ka tha, lekin usse laga jaise room ki hawa ruk gayi ho. Uske skin par fabric ki movement aur sudden cool air abhi bhi register ho rahi thi.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-070",
+      "line_number": 70,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Thursday ki image ekdum se memory mein laut aayi — handbag, girti hui cheezein, dono ki aankhen. *Again? Un dono ke saamne phir?*\n\nUsne dekha ki Karan aur Aman dono ne notice kiya tha. Karan ki confident smile gaayab thi. Aman ki nazar ek second ke liye usi jagah atki thi jahan pallu sarak gaya tha, phir usne turant nazar hata li.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-071",
+      "line_number": 71,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Karan ne sabse pehle chair ko wahi rok diya. “Sorry, Ankita. Mujhe chair move karne se pehle dekhna chahiye tha. Clip bhi loose tha.” Uske voice mein practical concern tha, lekin aankhon mein yeh bhi tha ki usne dekh liya hai.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-072",
+      "line_number": 72,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Aman ne laptop ka mirrored display turant lock kar diya aur aankhen neeche rakhkar bola, “Take your time. Board main sambhaal leta hoon.” Usne deliberately distance diya, lekin Ankita ne notice kiya ki uski breathing bhi thodi change hui thi.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-073",
+      "line_number": 73,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita ne pallu tightly theek kiya. Haath abhi bhi slight tremble kar rahe the. Use dukh us accident se kam aur uske repeat hone se zyada hua. *Itni careful rehne ke baad bhi main yahin aa gayi. Aur is baar unhone clearly dekh liya.*\n\nUske cheeks garam the. Blouse ke andar uski own body abhi bhi alert thi.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-074",
+      "line_number": 74,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“I’m sorry,” uske muh se aaya. Phir use khud samajh nahi aaya ki woh apology kiske liye thi. “Pata nahi mere saath aise hi kyun hota hai… main nahi chahti thi ki tum dono…”\n\nAwaaz toot gayi. Usne aankhen neeche kar li.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-075",
+      "line_number": 75,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Karan ne turant mazaak nahi kiya. Usne stand fold karke wall ke paas rakh diya aur room mein practical silence bana diya. Aman ne chair table se door kar di taaki fabric dobara na atke. Dono ka response alag tha — Karan practical aur thoda guilty, Aman protective aur unusually quiet.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-076",
+      "line_number": 76,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita sofa par baith gayi. Woh professional session chala rahi thi, phir bhi achanak khud ko wapas Thursday ki tarah exposed feel kar rahi thi — is baar zyada clearly. Usne aankhen band karke ek deep breath li. Uske mind mein sirf yeh baat ghum rahi thi: *Unhone dekh liya.*",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-077",
+      "line_number": 77,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Kuch seconds silence raha. Phir Aman ne dheere se kaha, “Ankita… agar tumhe break chahiye toh bilkul theek hai. Hum wait kar sakte hain.”",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-078",
+      "line_number": 78,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita ne glass uthaya, lekin peene se pehle ruk gayi. “Tum dono kya soch rahe hoge. Thursday ko bhi… aur aaj phir…” Uske voice mein sharm aur frustration dono the.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-079",
+      "line_number": 79,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Karan ne jawab dena chaha, phir khud ko roka. Usual fast joke yahan galat padta. Usne Aman ki taraf dekha.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-080",
+      "line_number": 80,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Aman ne dheere, lekin clearly kaha, “Main apni baat bata sakta hoon? Thursday ke baad mujhe laga tum hamare saath kaam karna hi avoid karogi. Maine yeh bhi socha ki hum dono ki wajah se tumhe apne ghar mein awkward feel hua hoga. Aaj phir se tumhe is tarah dekh kar… bura lag raha hai.”",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-081",
+      "line_number": 81,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita ne sir uthaya. Aman normally ek sentence ke baad chup ho jaata tha. Aaj woh poori baat keh raha tha, bina bahane ke.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-082",
+      "line_number": 82,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Lekin,” Aman ne continue kiya, “hum tumhe respect karte hain. Thursday ho ya aaj, kisi accidental moment ko hum tumhari identity nahi bana denge. Aur jo is room mein hua, use kisi aur ke saamne repeat nahi karenge. Tum chaaho toh meeting yahin stop kar dete hain.”\n\nUske words simple the, lekin unka weight zyada tha kyunki woh Aman se aa rahe the.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-083",
+      "line_number": 83,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita ki aankhon mein paani aa gaya. Is baar usse sabse zyada Aman ke words ne touch kiya. Woh moment romantic gesture se pehle ek sincere protection tha. Usne saamne baithe reserved aadmi mein unexpected steadiness dekhi.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-084",
+      "line_number": 84,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Tum… itna bol lete ho?” Ankita ki awaaz halki si toot kar hansi mein badal gayi. Usne aankhen jaldi se wipe ki.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-085",
+      "line_number": 85,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Aman ne shy smile di. “Kabhi-kabhi. Jab important ho.” Eye contact short tha, lekin solid.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-086",
+      "line_number": 86,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Karan ne relief ki saans chhodi. “Main confirm karna chahta hoon — yeh wahi Aman hai jo stand-up meeting mein ‘looks good’ se zyada nahi bolta?”",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-087",
+      "line_number": 87,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Aman: “Karan…”",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-088",
+      "line_number": 88,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita ke honthon par pehli genuine smile aayi. Karan ne yeh dekha tab jaakar aage kaha, “Good. Ab jab hamara future CEO motivational speaker ban gaya hai, main prototype ka sabse bada criminal accept karta hoon — board ki lock maine check nahi ki.”",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-089",
+      "line_number": 89,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Aur meri saree ne tumhari UX testing fail kar di,” Ankita ne apni voice recover karte hue kaha. Usne haske kaha, lekin uske andar abhi bhi residual heat aur sharm thi.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-090",
+      "line_number": 90,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Correction,” Karan ne kaha. “Hardware failed. User ne issue correctly report kiya. Product team accountable hai.” Usne Ankita ki taraf soft, respectful look diya.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-091",
+      "line_number": 91,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita hansi — is baar khulkar. Thursday ki memory poori tarah erase nahi hui thi. Aaj ka incident bhi erase nahi hoga. Lekin dono ke baad uski understanding mein farq aa raha tha: Karan usse embarrassment se bahar nikaalne ke liye lightness laata tha, aur Aman silence mein bhi use space aur genuine care deta tha.\n\nUsne notice kiya ki uske shoulders ab thode free the, lekin uske mind mein ab bhi woh kuch seconds ki image thi — aur yeh jaankari ki unhone bhi woh image dekh li thi.",
+      "version_source": "GROK_EXPLICIT_REPLACEMENT_APPENDED_IN_SAME_TAB"
+    },
+    {
+      "id": "FWFS-E04-092",
+      "line_number": 92,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Aman ek paper tissue uski taraf badhane laga, phir ruk kar bola, “Can I?” Ankita ne haan mein sir hilaya. Usne tissue uske haath mein rakh diya; Ankita ne apni aankhon ke kone saaf kiye. Unki nazrein do seconds mili, aur Aman ne pehle hi side dekh liya.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-093",
+      "line_number": 93,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "*Woh mujhse nazar kyun chura leta hai? Respect? Shyness? Ya koi aur baat?* Ankita ne socha. Usse jawab nahi pata tha. Par uski curiosity ab sirf Thursday ki awkwardness tak simit nahi thi.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-094",
+      "line_number": 94,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Karan ne monitor ki taraf ishara kiya. “Main suggestion deta hoon: aaj ki testing ke liye hum sirf laptop use karenge. Board permanently banned.”",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-095",
+      "line_number": 95,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Permanently nahi,” Ankita boli. “Jab tak tum uski lock theek nahi karte. Aur pehle woh navigation mujhe dikhao, Aman. Tumne kaha tha tumne fix kiya hai.”",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-096",
+      "line_number": 96,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Aman ne file kholi. Is baar woh usse dekhte hue explain kar raha tha. Ankita bhi poori attention se sun rahi thi. Between the professional words, ek naya ease aa chuka tha—aur us ease ka apna unexplored tension bhi.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-097",
+      "line_number": 97,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Karan kabhi-kabhi uske expression ko read karne ki koshish karta, phir screen par wapas aa jaata. Usne notice kiya tha ki jab Aman bolta hai, Ankita uski baat dhyan se sunti hai. Karan ne abhi is observation ko koi label nahi diya.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-098",
+      "line_number": 98,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Meeting aage badhi. Three revised screens approved hue. Ek flow Wednesday ko hi solve ho gaya; baaki ke liye weekend asynchronous review rakhne ka plan bana. Kaam ka reason genuine tha, aur isi wajah se personal tension bhi zyada real lag rahi thi.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-099",
+      "line_number": 99,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Nikalte waqt Karan ne poochha, “Are you okay? Seriously.”",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-100",
+      "line_number": 100,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Haan,” Ankita ne kaha. “Aaj jo hua usse main upset hui thi. Lekin tum dono ne use aur uncomfortable nahi banaya. Thank you.”",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-101",
+      "line_number": 101,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Aman ne dheere se jawab diya, “Bas agli baar tum hamare saamne sirf work ki chinta karna. Baaki hum manage kar lenge.”",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-102",
+      "line_number": 102,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Aur agar phir board gira?” Ankita ne tease kiya.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-103",
+      "line_number": 103,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Main ghar se helmet laaunga,” Karan ne kaha. Teenon hans diye. Darwaza band hua toh ghar phir quiet ho gaya, lekin Ankita ki feeling Thursday wali loneliness se alag thi.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-104",
+      "line_number": 104,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ritvik ghar lauta toh Rey so chuka tha. Ankita ne project ka progress bataya—navigation approval, pending screens, paint samples aur office workload. Usne chair aur board wale accident ka zikr nahi kiya; woh abhi apni reaction ko khud samajhna chahti thi. Uske body mein abhi bhi thodi si alertness thi.",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    },
+    {
+      "id": "FWFS-E04-105",
+      "line_number": 105,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ritvik ne casually poochha, “Karan aur Aman ko project samajh aa raha hai na?”",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-106",
+      "line_number": 106,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Haan,” Ankita ne kaha. “Karan kaafi confident hai. Aman... aaj unexpectedly achha handle kar gaya.”",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-107",
+      "line_number": 107,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "“Good,” Ritvik muskuraya. “Team mein dono type ke log kaam aate hain.”",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-108",
+      "line_number": 108,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita ne haan ki, lekin woh baat uske dimaag mein chalte hue bhi simple nahi thi. Monday ka Aman usse softly compliment kar raha tha; Wednesday ka Aman bina awkwardness badhaye usse reassurance de raha tha. Karan dono din teasing aur accountability ke beech switch kar paa raha tha.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-109",
+      "line_number": 109,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Kitchen mein paani peete hue Ankita ne apna phone dekha. Project group mein Karan ne updated files share ki thi. Aman ka message neeche tha: *Please check whenever comfortable. No rush.*",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-110",
+      "line_number": 110,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Ankita ne reply kiya: *Thank you, both. Today mattered.* Phir phone rakh diya.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-111",
+      "line_number": 111,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Use pata tha ki 'today mattered' sirf prototype ke liye nahi tha. Lekin exactly kis wajah se mattered, woh abhi decide nahi kar paayi thi.",
+      "version_source": "ORIGINAL_DRAFT_RETAINED_AT_GROK_PLACEHOLDER"
+    },
+    {
+      "id": "FWFS-E04-112",
+      "line_number": 112,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Chirag ka Friday kiss ek alag memory thi—jisme usne apna response sabse chhupaya hua tha. Karan ka easy flirtation ek alag feeling tha. Aman's quiet steadiness teesri. In sabko ek hi shabd, attraction, kehkar khatam karna uske liye abhi sahi nahi lag raha tha. Uske skin par abhi bhi alag-alag sensations ki memory thi.",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    },
+    {
+      "id": "FWFS-E04-113",
+      "line_number": 113,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Usne bedroom ki light band ki. Mujhe aage apni boundaries samajhni hongi, usne socha. Aur phir ek aur honest khayal aaya: Shayad main unhe samajhne se isliye bhi bach rahi hoon kyunki mujhe pata nahi main kya choose karungi.\n\nUsne sheet ko tightly hold kiya.",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    },
+    {
+      "id": "FWFS-E04-114",
+      "line_number": 114,
+      "source_id": "DHIKA E03 L152–183",
+      "text": "Wednesday khatam ho gaya tha. Monday ke mukable teenon zyada comfortable the, lekin kahani ka asli question ab shuru hua tha: kya intimacy sirf ek accident se badhti hai, ya us accident ke baad koi tumhare saath kaise behave karta hai—usse?",
+      "version_source": "GROK_REVISED_MAIN_TAB"
+    }
+  ]
+}
