@@ -53,14 +53,14 @@ Every row corresponds to exactly one indexed original source line. For clarity, 
 | 017 | Chotu has not noticed outfit yet | Delay noticing newly selected Friday outfit until he looks up | PLANNED |
 | 018 | Dhika explains Pappu's outing, asks why sudden leave | Ankita says Rey at school; asks reason for leave; no invented aunt visit | D003 |
 | 019 | Chotu looks up and notices her new outfit | Maintain gaze transition after normal errand actions | PLANNED |
-| 020 | He notices her look, she likes attention without knowing why | Option C: pleasure plus uncertainty, not full self-explanation | D004 |
+| 020 | Chotu's gaze travels from wet hair to slender legs; Dhika likes being noticed without knowing why. | Friday attire allows a first full outfit reaction. Director L020 Option C: Ankita enjoys his notice but remains unsure of its meaning. | D004 |
 | 021 | Dhika teasingly brings him back to attention | Use known Chotu Babu playful tone | EVIDENCED |
 | 022 | Chotu explains death of grandmother and village absence | Original leave reason exists; not yet established for FWFS Chirag | OPEN-LEAVE-REASON |
-| 023 | Condolences and repeated glances at legs | Condolences conditional on L022 decision; retain notice as distinct beat if outfit supports it | OPEN-LEAVE-REASON |
+| 023 | After condolences, Chotu repeatedly steals glances at Dhika's 'milky legs' while unpacking; she catches it. | Keep this as its own repeated visual beat distinct from L020; Friday skirt visibility must match selected outfit. Condolences conditional on L022. | OPEN-LEAVE-REASON |
 | 024 | Chotu notices wet hair and expresses concern | New dialogue in source; caring tone supported | PROPOSED |
 | 025 | Dhika says she bathed and shakes wet hair | Normal Friday action if retained, do not imply shown earlier | PROPOSED |
-| 026 | While placing item high on shelf ordinary raised-arm reach alters top, attention caught | Option C: initial reach ordinary; garment behaviour must be physically plausible | D005 |
-| 027 | She notices Chotu looking, feels reaction | Option C: conscious choice begins only after notice | D005 |
+| 026 | Ordinary raised-arm reach to high shelf shifts top and makes midriff/navel visible; he looks. | Director Option C: reach begins as practical movement; no planned display before noticing the attention. | D005 |
+| 027 | Dhika catches Chotu looking at her navel, feels excited and turns to him. | This is the turning point where Ankita becomes consciously responsive (Option C), not an accident that stays unconscious. | D005 |
 | 028 | She softly asks what he is looking at | Verbal confrontation follows changed awareness | D005 |
 | 029 | Chotu nervously deflects, pretending concern about falling | Similar behaviour to Sunday deflection; new particular excuse | EVIDENCED |
 | 030 | Dhika playfully praises his concern | Warm familiar teasing, not marital confession | PLANNED |
@@ -68,15 +68,18 @@ Every row corresponds to exactly one indexed original source line. For clarity, 
 | 032 | Dhika explicitly teases him about stomach attention | Keep original purpose of teasing after L026–L027 awareness | D005 |
 | 033 | Chotu denies having seen anything | Distinct denial after teased observation | PLANNED |
 | 034 | Dhika privately infers Chotu likes her appearance | New confirmation layered over Saturday–Tuesday memories | D004 |
-| 035 | Dhika's eagerness to tease grows and she returns beside him | For FWFS, do not call this her first-ever curiosity; prior deliberate test exists | D004 |
+| 035 | Dhika feels growing eagerness to invite and tease Chotu's visual attention; moves beside him as packing ends. | Preserve the specific progression of agency and inner reaction; Tuesday E01 means it cannot be called her first such awareness. | D004 |
 | 036 | She observes a missing delivery item | Maintain practical cause for a second visit | PROPOSED |
 | 037 | Ice cream left at shop; Chotu runs back | Source item has E02 prelude, must appear in Friday order | PROPOSED |
 | 038 | Chotu runs and privately replays encounter | Shift to clearly marked Chirag POV; no mind reading | PLANNED |
-| 039 | Chotu revisits current stomach glance and recalls distinct earlier clothing-related observation including specific colour detail | Friday memory points to Tuesday documents event, not floor-cleaning; source visual descriptor documented separately; he cannot know Ankita's intent | D006 |
+| 039 | Chotu privately questions current stomach glance, recalls an earlier view of Dhika's breasts while she cleaned the floor, and remembers that they looked 'so white'. | Replace ONLY the earlier incident identity with FWFS Tuesday document photos (A-P7-GR-007–022); its review-source appearance is 'cream-colored' at A-P7-GR-012. Preserve DHIKA's literal 'so white' as source fact. He suspects but cannot know Ankita's intention (Option B). | D006 |
 | 040 | He self-corrects and questions earlier gaze | Option B uncertainty; distinguish Chirag's inference from established truth | D006 |
 | 041 | He worries that attention may damage her comfort and trust | His private restraint, with no presumed knowledge of Ankita's motives | D006 |
 | 042 | He continues reflecting while returning | Continuous errand time; no invented extra encounter | PLANNED |
 | 043 | Dhika alone is excited and apprehensive about what comes next | Ankita has unresolved Tuesday history; reaction remains a fresh Friday event | D004 |
+
+### Mandatory source-detail fidelity check
+The audit must separately register DHIKA E03 **L020** (wet hair to slender legs + unexplained pleasure), **L023** (repeated attention to "milky legs"), **L026–L027** (raised arms, changed top, visible navel, subsequent conscious reaction), **L035** (eagerness to tease), and **L039** (Chotu's remembered prior observation and explicit original descriptor "so white"). These are distinct source facts; do not reduce them to generic "they exchanged a look". In FWFS, L039 must refer to the **Tuesday document-verification scene** and its own previously written cream-coloured description, not an invented floor-cleaning memory. Do not silently change a quoted source descriptor into a new FWFS visual claim.
 
 ### Before submitting any draft
 Verify in order: E02 bridge used without repetitive recap; L005–010 clothing and interiority; L011–023 arrival/visuals/dialogue; L024–035 raised-arm and teasing causal order; L036–043 ice-cream errand / two isolated private reactions. Confirm **39/39 source IDs accounted for**. Mark L022 as pending until Director decides. Submit only when given a separate explicit writing release.
