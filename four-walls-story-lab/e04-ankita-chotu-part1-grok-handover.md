@@ -3,6 +3,8 @@
 
 **STATUS: PART 1 WRITING HANDOVER RELEASED BY DIRECTOR · READY TO SEND TO GROK.** All 39 source lines audited; L022 leave explanation decided. This is an editorial author brief, NOT a published manuscript or canon-locked prose.
 
+**Latest editorial routing:** the Director has selected original ice-cream story mechanics rather than a newly invented paint or science-project chain. For exact line-specific mandatory identity, chronology and memory corrections, consult [the 96-line minimal-change map](https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/continuity/fwfs_e04_source_faithful_minimal_change_map_20261028.json). Original DHIKA is the structural source; this handover is not a verbatim transcription.
+
 ### Original source and approved working scope
 - Original, read-only: https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/episodes/e03.json
 - Part 1 working source: **DHIKA E03 L005–L043, 39 narrative lines**. L001–L004 are header/blank, not narrative. There is no author-established Part 1 marker at L043.
@@ -14,7 +16,7 @@
 - Full per-line audit: https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/continuity/fwfs_e04_ankita_chotu_part1_source_audit_20261028.json
 
 ### Director-approved adaptation decisions — DO NOT CHANGE
-1. **E03 L005–L010:** new Friday skirt and sleeveless top; **no invented Ritvik-requested garment story**. Exact colour/fit not locked. Source's earlier John/Aunty refusal is *not* FWFS history.
+1. **E03 L005–L010 — LATEST DIRECTOR D008 OVERRIDES EARLIER D001 FOR THE SOURCE-FAITHFUL BRANCH:** retain the original knee-length skirt, sleeveless top and the source's short retrospective explanation about why the outfit was not worn previously. Husband John maps to Ritvik; the older male addressed as Uncle may map to **Mahendra Mehta**, an established Mehta-family elder whom Ankita calls Uncle in FWFS E01-P01 L011–L020. Keep it a brief retrospective, **not** an invented new earlier chapter or an unrelated laundry/Mahendra subplot. The original older D001 instruction against any prior outfit backstory is superseded here.
 2. **L014–L015:** a concise retrospective narrator sentence may establish a familiar affectionate cheek-tap; do not falsely insist it had to be dramatized in a previous FWFS scene.
 3. **L016–L018:** Rey at school; Ritvik at work. Chirag already knows Rey from the rocket project. Do not add Aunty/temple characters.
 4. **L020:** Ankita likes Chirag's attention **without fully understanding why**; do not replace with certainty or claim the feeling is new to her.
