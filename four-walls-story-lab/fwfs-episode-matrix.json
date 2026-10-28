@@ -16,7 +16,7 @@
     "start_wednesday_date": "2026-10-21",
     "annotation": "Chosen fictional working date per user's request. Does not rewrite dates in approved source prose."
   },
-  "approval_policy": "E04 Parts 1–4 published to Story Lab reader. Saturday Ankita aftermath is written (E04 P4), not proposed; other women's future Chotu slots remain tentative.",
+  "approval_policy": "Written = published reader; Scheduled = meeting agreed provisionally; Planned/Tentative = adaptation proposal not prose. E04 P1–4 written; E04 P5/6 merely working labels. After Wednesday scene, any further Chirag-help source beat remains unplaced.",
   "characters": [
     {
       "id": "ankita",
@@ -198,8 +198,8 @@
     ]
   },
   "next_director_decision": {
-    "focus": "After published FWFS E04 P4, plan Karan/Aman next professional session (Monday) as adult-colleague adaptation of DHIKA E03 twins material; preserve Sunday and parallel tracks.",
-    "episode04": "Parts 1–4 published in Story Lab reader; Friday encounter and Saturday aftermath written"
+    "focus": "No director approval needed to understand status: next actual writing is E04 P5 adult Karan/Aman source-faithful adaptation; E04 P6 remains a tentative continuation. Preserve original second-incident beat; do not impose cable-only substitution.",
+    "episode04": "P1–P4 written / P5–P6 unwritten proposals"
   },
   "legacy_board": "fwfs-timeline-board.json",
   "updated": "2026-10-28",
@@ -399,64 +399,41 @@
       "reader_url": "e04-ankita-chotu-reader.html#part4"
     },
     {
-      "id": "ankita-forward-4-16",
-      "character": "ankita",
-      "offset": 4,
-      "time": "Sunday 25 Oct · TBD",
-      "title": "Weekend routine / possible home project idea",
-      "state": "proposed",
-      "episode": "FWFS Ep-XX",
-      "dhika": "DHIKA E03 L137–151 domestic project setup",
-      "notes": "No fixed scene; can use Sunday for household normality and a domestic-project idea instead of inventing an activity.",
-      "source": "Adaptation proposal"
-    },
-    {
       "id": "ankita-forward-5-17",
       "character": "ankita",
       "offset": 5,
-      "time": "Monday 26 Oct · 7–8 PM (conditional)",
-      "title": "First Karan–Aman EPP session",
+      "time": "Monday 26 Oct · 7–8 PM (proposed, subject to convenience)",
+      "title": "First adult Karan–Aman freelance session · awkward reunion",
       "state": "scheduled",
-      "episode": "FWFS Ep-XX",
-      "dhika": "DHIKA E03 L101–136 next teaching pattern",
-      "notes": "Thursday FWFS E02 P3 L105 sets Monday 7–8 PM as a starting arrangement, subject to Ankita's convenience. This is professional UX/EPP work, not DHIKA classroom tuition.",
-      "source": "FWFS E02 P3 L105"
+      "episode": "FWFS E04 P5 · WORKING / NOT WRITTEN",
+      "dhika": "DHIKA E03 L101–151 (adaptation baseline)",
+      "notes": "E02 P3 L105 promises a possible Monday 7–8 PM start. Reunite after Thursday clothing accident; preserve DHIKA's emotional/clothing/teasing beats but as adult coworkers (not student tuition). Ritvik knows Thursday incident; Chirag Friday kiss remains private. Working Part 5 label, not published.",
+      "source": "data/stories/fwfs_e02_part03_ankita_next_day_reader_20261026.md",
+      "source_plot": "data/continuity/fwfs_e04_twins_karan_aman_adaptation_decision_20261028.json"
     },
     {
       "id": "ankita-forward-6-18",
       "character": "ankita",
       "offset": 6,
-      "time": "Tuesday 27 Oct · flexible",
-      "title": "Work follow-up / project preparation",
+      "time": "Tuesday 27 Oct · TBD",
+      "title": "Possible paint/supplies preparation after Monday room-project idea",
       "state": "proposed",
-      "episode": "FWFS Ep-XX",
-      "dhika": "DHIKA E03 L137–152 preparation pattern",
-      "notes": "Proposed bridge in Ankita track, with ordinary work/home responsibilities. Do not invent painting materials as canon.",
-      "source": "Source-inspired proposal"
+      "episode": "FWFS E04 P6 bridge · WORKING / NOT WRITTEN",
+      "dhika": "DHIKA E03 L152",
+      "notes": "Ankita's room painting plan is first discussed in the Monday E04 P5 proposal (DHIKA L137–151), therefore supplies cannot be canon scheduled on prior Sunday. Tuesday is a proposed follow-up, not written.",
+      "source": "data/episodes/e03.json"
     },
     {
       "id": "ankita-forward-7-19",
       "character": "ankita",
       "offset": 7,
-      "time": "Wednesday 28 Oct · 7–8 PM (tentative)",
-      "title": "Possible second EPP session",
+      "time": "Wednesday 28 Oct · evening 7–8 PM (tentative)",
+      "title": "Second adult Karan–Aman session · original second-accident beat",
       "state": "tentative",
-      "episode": "FWFS Ep-XX",
-      "dhika": "DHIKA E03 L152–183 later session pattern",
-      "notes": "Only if Mon/Wed/Fri option is confirmed; no scene written.",
-      "source": "FWFS E02 P3 L105 (weekdays unconfirmed)"
-    },
-    {
-      "id": "ankita-forward-7-20",
-      "character": "ankita",
-      "offset": 7,
-      "time": "Wednesday 28 Oct daytime · +5 days",
-      "title": "Optional later Chotu assistance / household project",
-      "state": "tentative",
-      "episode": "FWFS Ep-XX",
-      "dhika": "DHIKA E03 L184–235 later Chotu interaction",
-      "notes": "A five-day gap after Friday follows the source's approximate interval rather than its weekdays. This second meeting is merely an option, NOT selected.",
-      "source": "DHIKA E03 L184–235 / interval template"
+      "episode": "FWFS E04 P6 · WORKING / NOT WRITTEN",
+      "dhika": "DHIKA E03 L153–183",
+      "notes": "If alternate weekdays are confirmed, follow Monday with Wednesday; retain a *second distinct accidental clothing event* and Karan/Aman's different reactions, plus reassurance. Do not substitute the cable-only scenario as previously suggested. Unwritten source-based proposal.",
+      "source": "data/continuity/fwfs_e04_twins_karan_aman_adaptation_decision_20261028.json"
     }
   ],
   "source_checks": {
@@ -521,38 +498,38 @@
     },
     {
       "source": "DHIKA E03 L101–136",
-      "gap": "next feasible workday",
-      "fwfs": "Monday 26 October",
-      "beat": "Karan/Aman EPP session",
-      "status": "scheduled conditionally"
+      "gap": "+3 days from Friday; Monday start conditional",
+      "fwfs": "Monday 26 October · 7–8 PM proposed",
+      "beat": "Adult Karan/Aman after-work session, following Thursday incident",
+      "status": "scheduled provisionally · E04 P5 WORKING / NOT WRITTEN"
     },
     {
       "source": "DHIKA E03 L137–183",
-      "gap": "between visits",
-      "fwfs": "Tuesday 27 / Wednesday 28 October",
-      "beat": "Work/household preparation + optional second EPP session",
-      "status": "proposed"
+      "gap": "Monday evening (house idea) → Tuesday (supplies proposal) → Wednesday second work session (tentative)",
+      "fwfs": "Monday 26 to Wednesday 28 October",
+      "beat": "Ritvik and Rey room painting discussion; next day supplies; second Karan/Aman meeting and aftermath",
+      "status": "planned only · E04 P5–P6 WORKING / NOT WRITTEN"
     },
     {
       "source": "DHIKA E03 L184–235",
-      "gap": "~5 days after first visit",
-      "fwfs": "Wednesday 28 October",
-      "beat": "Later Chotu follow-up candidate",
-      "status": "tentative, not locked"
+      "gap": "After adult Karan/Aman second visit and painting preparation",
+      "fwfs": "Date NOT assigned",
+      "beat": "Possible subsequent Chirag painting assistance (source Sunday later visit)",
+      "status": "tentative · UNPLACED, no Wednesday date"
     }
   ],
   "episode_numbering_suggestions": [
     {
       "fwfs": "E04",
-      "date": "Fri 23 Oct–Sat 24 Oct",
-      "focus": "Ankita/Chotu Friday E04 P1–3 and Ankita Saturday aftermath P4",
-      "state": "published FWFS E04 P1–P4"
+      "date": "Fri 23 Oct–Sat 24 Oct written; Mon 26–Wed 28 possible continuation",
+      "focus": "P1–P3 Chirag Friday written; P4 Saturday aftermath written; P5 adult Karan–Aman first visit proposed; P6 midweek follow-up proposed",
+      "state": "P1–P4 PUBLISHED; P5–P6 NOT WRITTEN / WORKING"
     },
     {
       "fwfs": "E05",
-      "date": "Sat 24 Oct onward",
-      "focus": "Remaining Saturday family visits and other tracks; Ankita aftermath is already E04 P4",
-      "state": "suggestion only"
+      "date": "TBD",
+      "focus": "Other women and shared weekend events — separate scheduling; do not treat E04 P5–P6 as a finished episode",
+      "state": "suggestion, not locked"
     },
     {
       "fwfs": "E06",
@@ -565,6 +542,101 @@
       "date": "Wed 28 Oct onward",
       "focus": "Ankita E03 later interval-based beat; future events",
       "state": "suggestion only"
+    }
+  ],
+  "unplaced_future_events": [
+    {
+      "id": "ankita-later-chotu",
+      "character": "ankita",
+      "date": null,
+      "state": "tentative",
+      "earliest_condition": "After E04 P6 adult colleagues and house-painting setup, if that plot is adopted",
+      "source": "DHIKA E03 L184–235",
+      "notes": "Old +5 day candidate on Wed daytime was only a speculative interval and placed before the planned Wednesday evening incident. Removed exact-date pin rather than silently forcing a sequence clash."
+    }
+  ],
+  "episode04_part_plan": {
+    "status": "WRITTEN parts 1–4, PLANNED ONLY parts 5–6",
+    "parts": [
+      {
+        "part": 1,
+        "fwfs_date": "Friday 23 Oct morning",
+        "source": "DHIKA E03 L005–043",
+        "status": "written",
+        "context": "Chirag returns; question on his leave"
+      },
+      {
+        "part": 2,
+        "fwfs_date": "Friday 23 Oct morning",
+        "source": "DHIKA E03 L044–081",
+        "status": "written",
+        "context": "Original ice-cream plot retained"
+      },
+      {
+        "part": 3,
+        "fwfs_date": "Friday 23 Oct continuing",
+        "source": "DHIKA E03 L082–098",
+        "status": "written",
+        "context": "Original turning point and departure"
+      },
+      {
+        "part": 4,
+        "fwfs_date": "Saturday 24 Oct morning",
+        "source": "DHIKA E03 L099–100 expanded",
+        "status": "written",
+        "context": "Ankita reflects and keeps Ritvik uninformed"
+      },
+      {
+        "part": 5,
+        "fwfs_date": "Monday 26 Oct evening (conditional)",
+        "source": "DHIKA E03 L101–151",
+        "status": "planned_not_written",
+        "context": "First adult Karan–Aman project meeting; retain source relational beats but change teen tutoring to adults' UX work"
+      },
+      {
+        "part": 6,
+        "fwfs_date": "Tuesday 27 prep (proposed) + Wednesday 28 evening (tentative)",
+        "source": "DHIKA E03 L152–183",
+        "status": "planned_not_written",
+        "context": "Supplies/paint preparation followed by second Karan–Aman meeting and second accidental event"
+      }
+    ],
+    "future_source": {
+      "source": "DHIKA E03 L184–235",
+      "date": null,
+      "status": "not assigned; post-next-meeting source continuation"
+    }
+  },
+  "plot_evidence": [
+    {
+      "story_time": "Thursday 22 Oct",
+      "fwfs": "E02 P3 L105, L123–150",
+      "source": "data/stories/fwfs_e02_part03_ankita_next_day_reader_20261026.md",
+      "proves": "Adult Karan/Aman independent freelance project; Monday 7–8 PM proposed; first accidental pallu event; Ritvik was told."
+    },
+    {
+      "story_time": "Friday 23 Oct",
+      "fwfs": "E04 P1–P3",
+      "source": "data/stories/fwfs_e04_part01_ankita_chotu_qa_reader_v2_20261028.json",
+      "proves": "Chirag returned Friday and the ice-cream encounter leads to kiss; source DHIKA E03 L005–098"
+    },
+    {
+      "story_time": "Saturday 24 Oct",
+      "fwfs": "E04 P4",
+      "source": "data/stories/fwfs_e04_part04_ankita_saturday_after_kiss_20261028.json",
+      "proves": "Saturday private reflection; original DHIKA E03 L099–100, not a second Chotu visit."
+    },
+    {
+      "story_time": "Monday 26 Oct (proposed)",
+      "fwfs": "E04 P5 (unwritten)",
+      "source": "data/episodes/e03.json",
+      "proves": "Original twins next meeting occurs at DHIKA E03 L101–136; adult FWFS context derived from E02 P3 L105, not original Wednesday classroom."
+    },
+    {
+      "story_time": "Tuesday 27–Wednesday 28 (proposed)",
+      "fwfs": "E04 P6 (unwritten)",
+      "source": "data/episodes/e03.json",
+      "proves": "Original home/paint setup L137–152, second twins visit/pallu mishap/reassurance L153–183. Adaptations not manuscript."
     }
   ]
 }
