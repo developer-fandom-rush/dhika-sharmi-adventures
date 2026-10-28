@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "title": "FWFS Episode 04 · Ankita × Chotu · Part 3",
+  "story_time": "Friday, after the first encounter and ice-cream errand",
+  "status": "PUBLISHED READER · DIRECTOR-SELECTED SOURCE-FAITHFUL ADAPTATION (NOT A NEW PLOT)",
+  "source_reference": "data/episodes/e03.json",
+  "source_scope": {
+    "start": 82,
+    "end": 98,
+    "source_line_count": 17,
+    "note": "Editorial FWFS Part division; original DHIKA E03 has its own line numbers"
+  },
+  "identity_map": {
+    "Dhika": "Ankita",
+    "John": "Ritvik",
+    "Pappu": "Rey",
+    "Chotu": "Chotu (Chirag, age 22)"
+  },
+  "adaptation_policy": "Retain each original action, visual beat, thought and dialogue in same order; substitute cast names only; no additional invented incidents. Exact source line IDs accompany every adapted line. Reader publication does not alter DHIKA source or draft Google Doc.",
+  "lines": [
+    {
+      "id": "FWFS-E04-P03-L001",
+      "source_id": "DHIKA-E03-L082",
+      "source_line": 82,
+      "text": "She continued laughing innocently..."
+    },
+    {
+      "id": "FWFS-E04-P03-L002",
+      "source_id": "DHIKA-E03-L083",
+      "source_line": 83,
+      "text": "A little ice cream got smeared on her upper lips.... slowly but steady and laughing.... she licked to clean it..... Chotu noticed it.... Ankita saw chotu noticing it .."
+    },
+    {
+      "id": "FWFS-E04-P03-L003",
+      "source_id": "DHIKA-E03-L084",
+      "source_line": 84,
+      "text": "Suddenly both fell silent.... because both unknown to each other.... fell into a similar thought.... Chotu looking at Ankita's lips which Ankita didn't notice and Ankita looking at Chotu's lips which Chotu did not notice.."
+    },
+    {
+      "id": "FWFS-E04-P03-L004",
+      "source_id": "DHIKA-E03-L085",
+      "source_line": 85,
+      "text": "Chotu: did she mean it ??... that a girl would like my kiss..... will didi like.... is that why she gave me a flying kiss..... (  his innocent mind was racing towards non-innocent state)"
+    },
+    {
+      "id": "FWFS-E04-P03-L005",
+      "source_id": "DHIKA-E03-L086",
+      "source_line": 86,
+      "text": "Ankita: aww,.... chotu thinks girls may not like his kiss.... he is a cute fellow...they should like it... but how would his kiss be.... will it be nice..... will \"I\" like it..."
+    },
+    {
+      "id": "FWFS-E04-P03-L006",
+      "source_id": "DHIKA-E03-L087",
+      "source_line": 87,
+      "text": "Suddenly both came into reality and noticed they both were looking at each others lips..."
+    },
+    {
+      "id": "FWFS-E04-P03-L007",
+      "source_id": "DHIKA-E03-L088",
+      "source_line": 88,
+      "text": "Chotu on one hand.... shook his head and stood up..."
+    },
+    {
+      "id": "FWFS-E04-P03-L008",
+      "source_id": "DHIKA-E03-L089",
+      "source_line": 89,
+      "text": "Ankita on the other hand....nervous and excited by the thought of him noticing her lips... fell back on the sofa looking up at the ceiling dreamingly... what if he too wondered if \"I\" would like his kiss... she blushed a little because of her thought..."
+    },
+    {
+      "id": "FWFS-E04-P03-L009",
+      "source_id": "DHIKA-E03-L090",
+      "source_line": 90,
+      "text": "When she laid down..... her skirt raised a little and so did her top... Chotu looked deep at her..."
+    },
+    {
+      "id": "FWFS-E04-P03-L010",
+      "source_id": "DHIKA-E03-L091",
+      "source_line": 91,
+      "text": "She looked so beautiful and sexy for the first time in his mind..... her very little visible thighs were thick and so milky. Her stomach and navel looked so good..."
+    },
+    {
+      "id": "FWFS-E04-P03-L011",
+      "source_id": "DHIKA-E03-L092",
+      "source_line": 92,
+      "text": "Looking at her blushing.... in her dreaming state...eyes closed..... not knowing what took over his mind... he bent down and gave a quick kiss on her rosy Lips"
+    },
+    {
+      "id": "FWFS-E04-P03-L012",
+      "source_id": "DHIKA-E03-L093",
+      "source_line": 93,
+      "text": "and she kissed back....."
+    },
+    {
+      "id": "FWFS-E04-P03-L013",
+      "source_id": "DHIKA-E03-L094",
+      "source_line": 94,
+      "text": "The moment she kissed him... she opened her eyes, her eyes widened and she stood up with such a force that Chotu became afraid and moved back.."
+    },
+    {
+      "id": "FWFS-E04-P03-L014",
+      "source_id": "DHIKA-E03-L095",
+      "source_line": 95,
+      "text": "The moment she kissed him... she opened her eyes, her eyes widened and she stood up with such a force that Chotu became afraid and moved back....."
+    },
+    {
+      "id": "FWFS-E04-P03-L015",
+      "source_id": "DHIKA-E03-L096",
+      "source_line": 96,
+      "text": "Chotu's innocent self took over and he moved timidly towards the wall...."
+    },
+    {
+      "id": "FWFS-E04-P03-L016",
+      "source_id": "DHIKA-E03-L097",
+      "source_line": 97,
+      "text": "Ankita: smiling little blushingly.... I liked it.... she ran to her bedroom and closed the door."
+    },
+    {
+      "id": "FWFS-E04-P03-L017",
+      "source_id": "DHIKA-E03-L098",
+      "source_line": 98,
+      "text": "Still afraid and not knowing what to do....... he took the money and left the house, closing the main door behind."
+    }
+  ],
+  "editorial_notes": [
+    "Kiss sequence and immediate departure retained as original source events",
+    "Next-day reflection at DHIKA L099–L100 excluded from this Friday part"
+  ]
+}
