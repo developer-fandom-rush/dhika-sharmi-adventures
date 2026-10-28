@@ -85,6 +85,21 @@
         "data/episodes/e03.json",
         "data/stories/e01_all_seven_parts_continuous_reader_v1.json"
       ]
+    },
+    {
+      "id": "E04-P01-D005",
+      "source_range": "DHIKA E03 L026–L027",
+      "director_raw_input": "Option C. Initial movement ordinary; after noticing Chirag's attention, Ankita consciously changes her behaviour. No prose.",
+      "decision": "The initial reach is ordinary. Noticing Chirag's attention is the turning point after which Ankita acts consciously.",
+      "decision_status": "DIRECTOR APPROVED FOR ADAPTATION PLANNING ONLY",
+      "approved_items": [
+        "Ordinary initial movement",
+        "Conscious response follows noticing"
+      ],
+      "not_approved_or_not_determined": [
+        "Exact manuscript wording",
+        "Chirag's interpretation of the earlier meeting"
+      ]
     }
   ],
   "next_source_set": {
@@ -189,7 +204,7 @@
       }
     ],
     "review_policy": "One material question per turn; quote original source fragment with exact E03 line number; prioritize character thoughts, attraction, infidelity conflict, physical/visual beats and their impact on FWFS history. Routine logistical facts may be resolved without asking where evidence/Director direction suffices.",
-    "current_review_line": 26,
+    "current_review_line": 39,
     "review_notes": "L019–L021 mapped to verified history plus Director L020 Option C. L022 leave reason remains open but do not divert Director from consequential visual/inner-reaction questions until needed for writing. L026–L035 next consequential scene beat."
   },
   "sources_used": [
