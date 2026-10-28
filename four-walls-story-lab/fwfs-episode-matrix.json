@@ -16,7 +16,7 @@
     "start_wednesday_date": "2026-10-21",
     "annotation": "Chosen fictional working date per user's request. Does not rewrite dates in approved source prose."
   },
-  "approval_policy": "Only Friday Ankita–Chotu E04 is selected next; other women's Chotu slots are tentative and not locked. Written scene and proposed scene are never conflated.",
+  "approval_policy": "E04 Parts 1–4 published to Story Lab reader. Saturday Ankita aftermath is written (E04 P4), not proposed; other women's future Chotu slots remain tentative.",
   "characters": [
     {
       "id": "ankita",
@@ -137,6 +137,23 @@
       "context": "Friday Sinha dinner hosting, shared with Shreya's Friday E03 Part 2",
       "source": "four-walls-story-lab/e03-friday-scenes-manifest.json",
       "source_basis": "E03 Friday source scenes 06,09,11"
+    },
+    {
+      "id": "ankita-sat-aftermath-e04p4",
+      "character": "ankita",
+      "offset": 3,
+      "dhika": {
+        "episode": 3,
+        "part": "L099–100"
+      },
+      "fwfs": {
+        "episode": 4,
+        "part": 4
+      },
+      "status": "confirmed",
+      "context": "Saturday 24 Oct morning — Ankita reflects on Friday Chirag kiss, own participation and keeping it private from Ritvik",
+      "source": "data/stories/fwfs_e04_part04_ankita_saturday_after_kiss_20261028.json",
+      "source_basis": "Published FWFS E04 P4 reader · original source E03 L099–L100 (next morning)"
     }
   ],
   "invitation_background": {
@@ -181,11 +198,11 @@
     ]
   },
   "next_director_decision": {
-    "focus": "Plan Friday 23 October FWFS E04 Ankita/Chotu encounter, no new manuscript written without director scene confirmation",
-    "episode04": "selected (Friday AM); later encounters all tentative"
+    "focus": "After published FWFS E04 P4, plan Karan/Aman next professional session (Monday) as adult-colleague adaptation of DHIKA E03 twins material; preserve Sunday and parallel tracks.",
+    "episode04": "Parts 1–4 published in Story Lab reader; Friday encounter and Saturday aftermath written"
   },
   "legacy_board": "fwfs-timeline-board.json",
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "events": [
     {
       "id": "planned-event-1",
@@ -216,12 +233,13 @@
       "character": "ankita",
       "offset": 2,
       "time": "Friday morning",
-      "title": "Chotu first return meeting",
-      "state": "selected",
-      "episode": "FWFS E04 · selected for planning (not written)",
+      "title": "Chirag returns from village · ice-cream encounter",
+      "state": "written",
+      "episode": "FWFS E04 P1–P3",
       "dhika": "DHIKA E03 opening pattern",
-      "notes": "Friday 23 Oct 2026 morning. DHIKA E02 L150–155 setup and E03 opening as structural references; source weekdays not imported. The Saturday Shreya Chotu statement needs only a date-reference correction.",
-      "source": "Director 27 Oct / DHIKA E02 L152–155 to E03 L11–23"
+      "notes": "Friday 23 Oct morning: Part 1 QA-corrected from Grok; Parts 2–3 original ice-cream plot source-faithful; Chirag returned Friday morning (not Saturday).",
+      "source": "data/stories/fwfs_e04_part01_ankita_chotu_qa_reader_v2_20261028.json",
+      "reader_url": "e04-ankita-chotu-reader.html#part1"
     },
     {
       "id": "planned-event-4",
@@ -371,13 +389,14 @@
       "id": "ankita-forward-3-15",
       "character": "ankita",
       "offset": 3,
-      "time": "Saturday 24 Oct · TBD",
-      "title": "Next-day reflection and usual home routine",
-      "state": "proposed",
-      "episode": "FWFS Ep-XX (not assigned)",
-      "dhika": "DHIKA E03 L99–100 next-day beat",
-      "notes": "First day after Friday. Routine, internal processing only if written later; no Saturday EPP lesson assumed.",
-      "source": "DHIKA E03 L99–100; relative day+1"
+      "time": "Saturday 24 Oct · morning",
+      "title": "Friday kiss aftermath — private reflection and marriage questions",
+      "state": "written",
+      "episode": "FWFS E04 P4",
+      "dhika": "DHIKA E03 L099–L100",
+      "notes": "Published E04 P4: Ankita privately revisits Friday kiss, recalls that she kissed back, questions what it means for her marriage, keeps Ritvik uninformed. Saturday routine continues; Monday Karan/Aman freelance meeting is still future.",
+      "source": "data/stories/fwfs_e04_part04_ankita_saturday_after_kiss_20261028.json",
+      "reader_url": "e04-ankita-chotu-reader.html#part4"
     },
     {
       "id": "ankita-forward-4-16",
@@ -466,7 +485,7 @@
     "continuity_conflicts": [
       {
         "id": "return_day",
-        "resolution": "Working Shreya Saturday E03 P3 L150 now states Chotu was already back and Ankita called him Friday; both GitHub working reader and source Google Doc were corrected narrowly. Original DHIKA unchanged. Friday E04 remains unwritten."
+        "resolution": "Chirag returned from the village Friday 23 Oct morning; E04 P1–3 Friday published. Saturday 24 Oct Ankita P4 is aftermath only. Shreya's Saturday shopkeeper line says he was back Friday."
       },
       {
         "id": "sunday_music",
@@ -489,14 +508,16 @@
       "gap": "0",
       "fwfs": "Friday 23 October",
       "beat": "First Chotu return visit",
-      "status": "FWFS E04 selected"
+      "status": "written · FWFS E04 P1–P3",
+      "reader": "e04-ankita-chotu-reader.html#part1"
     },
     {
       "source": "DHIKA E03 L99–100",
       "gap": "+1 day",
       "fwfs": "Saturday 24 October",
-      "beat": "Next-day follow-up/reflection",
-      "status": "proposed"
+      "beat": "Saturday morning: Ankita reflects on the Friday kiss, her response and not telling Ritvik",
+      "status": "written · FWFS E04 P4",
+      "reader": "e04-ankita-chotu-reader.html#part4"
     },
     {
       "source": "DHIKA E03 L101–136",
@@ -523,14 +544,14 @@
   "episode_numbering_suggestions": [
     {
       "fwfs": "E04",
-      "date": "Fri 23 Oct AM",
-      "focus": "Ankita + Chotu first return",
-      "state": "selected for planning"
+      "date": "Fri 23 Oct–Sat 24 Oct",
+      "focus": "Ankita/Chotu Friday E04 P1–3 and Ankita Saturday aftermath P4",
+      "state": "published FWFS E04 P1–P4"
     },
     {
       "fwfs": "E05",
       "date": "Sat 24 Oct onward",
-      "focus": "Outstanding Saturday visit / Ankita aftermath; choose one primary focus",
+      "focus": "Remaining Saturday family visits and other tracks; Ankita aftermath is already E04 P4",
       "state": "suggestion only"
     },
     {
