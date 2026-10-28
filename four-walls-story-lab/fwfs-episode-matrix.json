@@ -16,7 +16,7 @@
     "start_wednesday_date": "2026-10-21",
     "annotation": "Chosen fictional working date per user's request. Does not rewrite dates in approved source prose."
   },
-  "approval_policy": "Written = published reader; Scheduled = meeting agreed provisionally; Planned/Tentative = adaptation proposal not prose. E04 P1–4 written; E04 P5/6 merely working labels. After Wednesday scene, any further Chirag-help source beat remains unplaced.",
+  "approval_policy": "P1–P3 existing reader; P4–P6 Grok revision in reader, awaiting Director review. A draft being shown on Story Lab does not count as canon approval or make conditional timeline meetings certain.",
   "characters": [
     {
       "id": "ankita",
@@ -198,8 +198,8 @@
     ]
   },
   "next_director_decision": {
-    "focus": "No director approval needed to understand status: next actual writing is E04 P5 adult Karan/Aman source-faithful adaptation; E04 P6 remains a tentative continuation. Preserve original second-incident beat; do not impose cable-only substitution.",
-    "episode04": "P1–P4 written / P5–P6 unwritten proposals"
+    "focus": "Director to review newly integrated Grok P4–P6 manuscripts; P6 L067–091 replaced from final appendix; P6 shorthand-only L061–066 L092–103 L105–111 restored from initial manuscript. No extra plot change was authorized.",
+    "episode04": "Grok revised P4–P6 visible in UI; Director approval pending"
   },
   "legacy_board": "fwfs-timeline-board.json",
   "updated": "2026-10-28",
@@ -390,12 +390,12 @@
       "character": "ankita",
       "offset": 3,
       "time": "Saturday 24 Oct · morning",
-      "title": "Friday kiss aftermath — private reflection and marriage questions",
+      "title": "Saturday kiss aftermath · Grok revised review copy",
       "state": "written",
       "episode": "FWFS E04 P4",
       "dhika": "DHIKA E03 L099–L100",
-      "notes": "Published E04 P4: Ankita privately revisits Friday kiss, recalls that she kissed back, questions what it means for her marriage, keeps Ritvik uninformed. Saturday routine continues; Monday Karan/Aman freelance meeting is still future.",
-      "source": "data/stories/fwfs_e04_part04_ankita_saturday_after_kiss_20261028.json",
+      "notes": "Grok-revised Part 4 (21 source-preserved numbered lines) now shown in E04 reader. Director approval pending; Friday Chirag kiss stays secret from Ritvik.",
+      "source": "data/stories/fwfs_e04_part04_grok_review_reader_20261028.json",
       "reader_url": "e04-ankita-chotu-reader.html#part4"
     },
     {
@@ -403,13 +403,14 @@
       "character": "ankita",
       "offset": 5,
       "time": "Monday 26 Oct · 7–8 PM (proposed, subject to convenience)",
-      "title": "First adult Karan–Aman freelance session · awkward reunion",
+      "title": "First Karan–Aman UX meeting · revised manuscript for review",
       "state": "scheduled",
-      "episode": "FWFS E04 P5 · WORKING / NOT WRITTEN",
+      "episode": "FWFS E04 P05 · GROK REVISION AVAILABLE / DIRECTOR REVIEW PENDING",
       "dhika": "DHIKA E03 L101–151 (adaptation baseline)",
-      "notes": "E02 P3 L105 promises a possible Monday 7–8 PM start. Reunite after Thursday clothing accident; preserve DHIKA's emotional/clothing/teasing beats but as adult coworkers (not student tuition). Ritvik knows Thursday incident; Chirag Friday kiss remains private. Working Part 5 label, not published.",
-      "source": "data/stories/fwfs_e02_part03_ankita_next_day_reader_20261026.md",
-      "source_plot": "data/continuity/fwfs_e04_twins_karan_aman_adaptation_decision_20261028.json"
+      "notes": "Monday adult colleague session is in 51-line Grok-revised reader. Existing meeting schedule conditional; manuscript is not approved canon.",
+      "source": "data/stories/fwfs_e04_part05_karan_aman_grok_review_reader_20261028.json",
+      "source_plot": "data/continuity/fwfs_e04_twins_karan_aman_adaptation_decision_20261028.json",
+      "reader_url": "e04-ankita-chotu-reader.html#part5"
     },
     {
       "id": "ankita-forward-6-18",
@@ -418,22 +419,24 @@
       "time": "Tuesday 27 Oct · TBD",
       "title": "Possible paint/supplies preparation after Monday room-project idea",
       "state": "proposed",
-      "episode": "FWFS E04 P6 bridge · WORKING / NOT WRITTEN",
+      "episode": "FWFS E04 P06 · PREPARATION IN GROK REVIEW DRAFT",
       "dhika": "DHIKA E03 L152",
-      "notes": "Ankita's room painting plan is first discussed in the Monday E04 P5 proposal (DHIKA L137–151), therefore supplies cannot be canon scheduled on prior Sunday. Tuesday is a proposed follow-up, not written.",
-      "source": "data/episodes/e03.json"
+      "notes": "Tuesday paint/supplies preparation is drafted within Grok Part 6, not yet approved canon.",
+      "source": "data/stories/fwfs_e04_part06_karan_aman_grok_review_reader_20261028.json",
+      "reader_url": "e04-ankita-chotu-reader.html#part6"
     },
     {
       "id": "ankita-forward-7-19",
       "character": "ankita",
       "offset": 7,
       "time": "Wednesday 28 Oct · evening 7–8 PM (tentative)",
-      "title": "Second adult Karan–Aman session · original second-accident beat",
+      "title": "Second Karan–Aman encounter · Grok corrected accident and reassurance",
       "state": "tentative",
-      "episode": "FWFS E04 P6 · WORKING / NOT WRITTEN",
+      "episode": "FWFS E04 P06 · GROK CORRECTIONS APPLIED / DIRECTOR REVIEW PENDING",
       "dhika": "DHIKA E03 L153–183",
-      "notes": "If alternate weekdays are confirmed, follow Monday with Wednesday; retain a *second distinct accidental clothing event* and Karan/Aman's different reactions, plus reassurance. Do not substitute the cable-only scenario as previously suggested. Unwritten source-based proposal.",
-      "source": "data/continuity/fwfs_e04_twins_karan_aman_adaptation_decision_20261028.json"
+      "notes": "Part 6 review reader contains 63 numbered passages, including explicit Grok line replacements 067–091 and restored original placeholders; not canon-approved.",
+      "source": "data/stories/fwfs_e04_part06_karan_aman_grok_review_reader_20261028.json",
+      "reader_url": "e04-ankita-chotu-reader.html#part6"
     }
   ],
   "source_checks": {
@@ -556,7 +559,7 @@
     }
   ],
   "episode04_part_plan": {
-    "status": "WRITTEN parts 1–4, PLANNED ONLY parts 5–6",
+    "status": "P1–P3 existing reader; P4–P6 Grok revised and available for Director review; none of these new revisions are canon locked",
     "parts": [
       {
         "part": 1,
@@ -583,22 +586,28 @@
         "part": 4,
         "fwfs_date": "Saturday 24 Oct morning",
         "source": "DHIKA E03 L099–100 expanded",
-        "status": "written",
-        "context": "Ankita reflects and keeps Ritvik uninformed"
+        "status": "grok_corrected_review_copy_available_not_canon",
+        "context": "Ankita reflects and keeps Ritvik uninformed",
+        "reader_url": "e04-ankita-chotu-reader.html#part4",
+        "source_file": "data/stories/fwfs_e04_part04_grok_review_reader_20261028.json"
       },
       {
         "part": 5,
         "fwfs_date": "Monday 26 Oct evening (conditional)",
         "source": "DHIKA E03 L101–151",
-        "status": "planned_not_written",
-        "context": "First adult Karan–Aman project meeting; retain source relational beats but change teen tutoring to adults' UX work"
+        "status": "grok_corrected_review_copy_available_not_canon",
+        "context": "First adult Karan–Aman project meeting; retain source relational beats but change teen tutoring to adults' UX work",
+        "reader_url": "e04-ankita-chotu-reader.html#part5",
+        "source_file": "data/stories/fwfs_e04_part05_karan_aman_grok_review_reader_20261028.json"
       },
       {
         "part": 6,
         "fwfs_date": "Tuesday 27 prep (proposed) + Wednesday 28 evening (tentative)",
         "source": "DHIKA E03 L152–183",
-        "status": "planned_not_written",
-        "context": "Supplies/paint preparation followed by second Karan–Aman meeting and second accidental event"
+        "status": "grok_corrected_review_copy_available_not_canon",
+        "context": "Supplies/paint preparation followed by second Karan–Aman meeting and second accidental event",
+        "reader_url": "e04-ankita-chotu-reader.html#part6",
+        "source_file": "data/stories/fwfs_e04_part06_karan_aman_grok_review_reader_20261028.json"
       }
     ],
     "future_source": {
