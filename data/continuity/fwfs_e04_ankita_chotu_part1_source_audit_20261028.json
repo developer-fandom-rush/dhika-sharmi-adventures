@@ -190,8 +190,8 @@
     {
       "line": 20,
       "source_id": "DHIKA-E03-L020",
-      "source_event": "He notices her look, she likes attention without knowing why",
-      "fwfs_adaptation": "Option C: pleasure plus uncertainty, not full self-explanation",
+      "source_event": "Chotu's gaze travels from wet hair to slender legs; Dhika likes being noticed without knowing why.",
+      "fwfs_adaptation": "Friday attire allows a first full outfit reaction. Director L020 Option C: Ankita enjoys his notice but remains unsure of its meaning.",
       "decision": "D004",
       "tag": "visual-inner-reaction",
       "evidence": [
@@ -227,8 +227,8 @@
     {
       "line": 23,
       "source_id": "DHIKA-E03-L023",
-      "source_event": "Condolences and repeated glances at legs",
-      "fwfs_adaptation": "Condolences conditional on L022 decision; retain notice as distinct beat if outfit supports it",
+      "source_event": "After condolences, Chotu repeatedly steals glances at Dhika's 'milky legs' while unpacking; she catches it.",
+      "fwfs_adaptation": "Keep this as its own repeated visual beat distinct from L020; Friday skirt visibility must match selected outfit. Condolences conditional on L022.",
       "decision": "OPEN-LEAVE-REASON",
       "tag": "visual-inner-reaction",
       "evidence": [
@@ -259,8 +259,8 @@
     {
       "line": 26,
       "source_id": "DHIKA-E03-L026",
-      "source_event": "While placing item high on shelf ordinary raised-arm reach alters top, attention caught",
-      "fwfs_adaptation": "Option C: initial reach ordinary; garment behaviour must be physically plausible",
+      "source_event": "Ordinary raised-arm reach to high shelf shifts top and makes midriff/navel visible; he looks.",
+      "fwfs_adaptation": "Director Option C: reach begins as practical movement; no planned display before noticing the attention.",
       "decision": "D005",
       "tag": "visual-movement",
       "evidence": [
@@ -271,8 +271,8 @@
     {
       "line": 27,
       "source_id": "DHIKA-E03-L027",
-      "source_event": "She notices Chotu looking, feels reaction",
-      "fwfs_adaptation": "Option C: conscious choice begins only after notice",
+      "source_event": "Dhika catches Chotu looking at her navel, feels excited and turns to him.",
+      "fwfs_adaptation": "This is the turning point where Ankita becomes consciously responsive (Option C), not an accident that stays unconscious.",
       "decision": "D005",
       "tag": "inner-reaction",
       "evidence": [
@@ -357,8 +357,8 @@
     {
       "line": 35,
       "source_id": "DHIKA-E03-L035",
-      "source_event": "Dhika's eagerness to tease grows and she returns beside him",
-      "fwfs_adaptation": "For FWFS, do not call this her first-ever curiosity; prior deliberate test exists",
+      "source_event": "Dhika feels growing eagerness to invite and tease Chotu's visual attention; moves beside him as packing ends.",
+      "fwfs_adaptation": "Preserve the specific progression of agency and inner reaction; Tuesday E01 means it cannot be called her first such awareness.",
       "decision": "D004",
       "tag": "inner-reaction",
       "evidence": [
@@ -399,8 +399,8 @@
     {
       "line": 39,
       "source_id": "DHIKA-E03-L039",
-      "source_event": "Chotu revisits current stomach glance and recalls distinct earlier clothing-related observation including specific colour detail",
-      "fwfs_adaptation": "Friday memory points to Tuesday documents event, not floor-cleaning; source visual descriptor documented separately; he cannot know Ankita's intent",
+      "source_event": "Chotu privately questions current stomach glance, recalls an earlier view of Dhika's breasts while she cleaned the floor, and remembers that they looked 'so white'.",
+      "fwfs_adaptation": "Replace ONLY the earlier incident identity with FWFS Tuesday document photos (A-P7-GR-007–022); its review-source appearance is 'cream-colored' at A-P7-GR-012. Preserve DHIKA's literal 'so white' as source fact. He suspects but cannot know Ankita's intention (Option B).",
       "decision": "D006",
       "tag": "visual-inner-reaction",
       "evidence": [
@@ -467,5 +467,6 @@
     "count": 55,
     "identification": "Same-day Chotu return, extended dialogue, contact and kiss, actual departure; L099–L100 is the following-day reflection",
     "status": "DISCOVERY ONLY / NOT DIRECTOR APPROVED"
-  }
+  },
+  "audit_revision": "2026-10-28: Explicit visual descriptors preserved at lines 020, 023, 026, 027, 035, 039; prior references to generic gaze are not substitutes for these source details."
 }
