@@ -1,7 +1,7 @@
 {
   "schema": "fwfs.e04.part2.initial_audit.v1",
   "created": "2026-10-28",
-  "status": "PART 2 UNDER REVIEW; L049 OPTION A LOCKED; ICE CREAM RETENTION RECOMMENDED; L050–L098 NOT LOCKED",
+  "status": "PART 2 L049 OPTION A LOCKED; ICE-CREAM PLOT VS GENUINE ALTERNATIVE UNDECIDED; NO PROSE",
   "scope": {
     "source": "data/episodes/e03.json",
     "same_day_start": 44,
@@ -542,14 +542,21 @@
     }
   ],
   "editorial_recommendation": {
-    "scope": "DHIKA E03 L044–L098",
-    "text": "Retain the ice cream/chocobar as a practical scene catalyst but do not assume all downstream actions and plot outcomes stay identical to original DHIKA. Adapt the L061–L098 narrative to Chirag's grandmother-related return, Ankita's already-reviewed Tuesday experiment, and Thursday embarrassment, keeping character awareness and consequences consistent. Specific later moments (including the surprising contact L067–L075, affectionate gesture L081, and eventual kiss L092–L098) remain proposed, not approved, pending discussion.",
-    "status": "EDITORIAL PROPOSAL ONLY — NOT A DIRECTOR DECISION"
+    "scope": "Part 2 plotting alternatives",
+    "text": "Use original ice cream as baseline. Explore a new causal premise only as an optional alternative; do not change the original or auto-lock an unapproved rewrite.",
+    "status": "NO ALTERNATIVE APPROVED"
   },
   "editorial_review_correction": {
     "source": "Director clarification after L049 Option A",
     "correction": "The user's conditional willingness to keep the original unchanged is not approval to duplicate or lock every remaining original beat. Prior discussion focused on adapting the psychological mechanism and historical consequences rather than literal replication. Do not equate preservation of ice cream with approval of all later actions.",
     "scope": "E03 L050–L098",
     "decision_status": "OPEN FOR DIRECTOR REVIEW"
+  },
+  "director_process_clarification": {
+    "scope": "DHIKA E03 L036–L098 (FWFS E04 Part 1 bridge and Part 2 continuation)",
+    "exact_meaning": "Retaining the ice-cream incident commits the scene structure to the existing source causal chain; the Director sees no need for cosmetic edits or repeated line-by-line questioning on unchanged beats. If the team wants a new plot, it must be a genuinely new situation with equivalently coherent visual cues, conversation, internal reactions, attraction and consequences, rather than merely renaming the ice cream. In that case, examine the source one line at a time to agree changes.",
+    "status": "DIRECTOR WORKFLOW CLARIFICATION; NO PLOT ALTERNATIVE CHOSEN",
+    "impacts_previous_phase": "Any chosen alternative to ice cream requires revising source bridge E03 L036–L043 and the currently released Part 1 Grok prompt; Part 1 remains ready for the ice-cream branch only.",
+    "prior_assistant_error": "Proposed replacing original incidental physical action without first obtaining agreement to redesign the broader sequence; do not treat that as an approved FWFS plot change."
   }
 }
