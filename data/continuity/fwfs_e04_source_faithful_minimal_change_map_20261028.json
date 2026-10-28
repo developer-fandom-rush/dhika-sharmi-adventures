@@ -1,0 +1,629 @@
+{
+  "title": "FWFS E04 / Ankita × Chirag: Minimal-change source map, no verbatim reproduction",
+  "created": "2026-10-28",
+  "source": "data/episodes/e03.json",
+  "status": "SOURCE-BASED EDITORIAL MAP · ORIGINAL ICE-CREAM PLOT SELECTED · MANUSCRIPT UNWRITTEN",
+  "scope": {
+    "source_line_start": 5,
+    "source_line_end": 100,
+    "source_line_count": 96,
+    "part1": {
+      "start": 5,
+      "end": 43
+    },
+    "part2": {
+      "start": 44,
+      "end": 98
+    },
+    "following_day": {
+      "start": 99,
+      "end": 100
+    }
+  },
+  "overrides": {
+    "older_D001": "The Director's newest instruction to preserve the original dress/reasoning supersedes the older 'no backstory' proposal for the selected source-faithful branch. Map the existing FWFS 'Uncle' to Mahendra Mehta where appropriate, without importing unrelated laundry knowledge.",
+    "event": "Keep ice-cream chain intact; do not introduce paint in production.",
+    "previous_test": "Source's floor-cleaning memory is replaced solely by Tuesday FWFS document-verification memory.",
+    "age": "Chirag is 22, not teenage.",
+    "return": "Friday morning, not Saturday."
+  },
+  "statistics": {
+    "source_lines": 96,
+    "changed_or_flagged": 19,
+    "preserve_source_beats": 77
+  },
+  "rows": [
+    {
+      "id": "DHIKA-E03-L005",
+      "line": 5,
+      "mode": "map_existing_history",
+      "instruction": "Original husband-requested skirt and elder-family visit: use Ankita/Ritvik and the existing Mehta family; Mahendra Mehta is the established 'Uncle' from FWFS E01-P01 L011–L020. Prior visit/refusal is short retrospective as original, not a newly dramatized scene.",
+      "evidence": [
+        "FWFS-E01-P01-L011–L020"
+      ]
+    },
+    {
+      "id": "DHIKA-E03-L006",
+      "line": 6,
+      "mode": "map_existing_history",
+      "instruction": "Original internal refusal linked to elder's presence; retain concern/choice function, map Uncle to Mahendra but do not conflate this with unrelated missing laundry items or state she knew Mahendra's private thoughts.",
+      "evidence": [
+        "FWFS-E01-P01-L016–L020"
+      ]
+    },
+    {
+      "id": "DHIKA-E03-L007",
+      "line": 7,
+      "mode": "names_only",
+      "instruction": "Dhika → Ankita, Chotu → Chirag/Chotu; same private question and hesitation"
+    },
+    {
+      "id": "DHIKA-E03-L008",
+      "line": 8,
+      "mode": "names_only",
+      "instruction": "Retain the original wardrobe and visual logic; do not invent different garment mechanics"
+    },
+    {
+      "id": "DHIKA-E03-L009",
+      "line": 9,
+      "mode": "names_only",
+      "instruction": "Same wet-hair/mirror/top movement setup as source"
+    },
+    {
+      "id": "DHIKA-E03-L010",
+      "line": 10,
+      "mode": "names_only",
+      "instruction": "Same makeup and visual finish as source"
+    },
+    {
+      "id": "DHIKA-E03-L011",
+      "line": 11,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L012",
+      "line": 12,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L013",
+      "line": 13,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L014",
+      "line": 14,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L015",
+      "line": 15,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L016",
+      "line": 16,
+      "mode": "family_continuity",
+      "instruction": "Pappu → Rey, who is at school Friday; Chirag knows him through the previous rocket project"
+    },
+    {
+      "id": "DHIKA-E03-L017",
+      "line": 17,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L018",
+      "line": 18,
+      "mode": "family_continuity",
+      "instruction": "No fabricated aunt outing; Ankita says Rey is at school and asks about sudden leave"
+    },
+    {
+      "id": "DHIKA-E03-L019",
+      "line": 19,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L020",
+      "line": 20,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L021",
+      "line": 21,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L022",
+      "line": 22,
+      "mode": "timeline_continuity",
+      "instruction": "Grandmother died, Chirag went to village, returned Friday morning not Saturday; Director approved D007"
+    },
+    {
+      "id": "DHIKA-E03-L023",
+      "line": 23,
+      "mode": "timeline_continuity",
+      "instruction": "Condolences valid because L022 now approved"
+    },
+    {
+      "id": "DHIKA-E03-L024",
+      "line": 24,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L025",
+      "line": 25,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L026",
+      "line": 26,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L027",
+      "line": 27,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L028",
+      "line": 28,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L029",
+      "line": 29,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L030",
+      "line": 30,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L031",
+      "line": 31,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L032",
+      "line": 32,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L033",
+      "line": 33,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L034",
+      "line": 34,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L035",
+      "line": 35,
+      "mode": "character_memory",
+      "instruction": "Prior Tuesday deliberate test exists in review copy, so 'first ever curiosity' claim can't erase FWFS experience"
+    },
+    {
+      "id": "DHIKA-E03-L036",
+      "line": 36,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L037",
+      "line": 37,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L038",
+      "line": 38,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L039",
+      "line": 39,
+      "mode": "replace_single_recollection",
+      "instruction": "Source prior floor-cleaning incident → FWFS Tuesday document verification while Ankita bent over papers. Preserve original source's specific visual observation in editorial evidence and rely on FWFS Tuesday's own descriptor; no new floor-cleaning episode.",
+      "evidence": [
+        "A-P7-GR-007–022",
+        "A-P7-GR-012"
+      ],
+      "review_status": "TUESDAY GROK REVIEW COPY — NOT LOCKED CANON"
+    },
+    {
+      "id": "DHIKA-E03-L040",
+      "line": 40,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L041",
+      "line": 41,
+      "mode": "character_memory",
+      "instruction": "Chirag's private suspicion about Tuesday is uncertain per Director D006; cannot know Ankita's inner choice"
+    },
+    {
+      "id": "DHIKA-E03-L042",
+      "line": 42,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L043",
+      "line": 43,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L044",
+      "line": 44,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L045",
+      "line": 45,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L046",
+      "line": 46,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L047",
+      "line": 47,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L048",
+      "line": 48,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L049",
+      "line": 49,
+      "mode": "director_approved",
+      "instruction": "Retain original sofa seating gesture; Director Option A"
+    },
+    {
+      "id": "DHIKA-E03-L050",
+      "line": 50,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L051",
+      "line": 51,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L052",
+      "line": 52,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L053",
+      "line": 53,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L054",
+      "line": 54,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L055",
+      "line": 55,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L056",
+      "line": 56,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L057",
+      "line": 57,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L058",
+      "line": 58,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L059",
+      "line": 59,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L060",
+      "line": 60,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L061",
+      "line": 61,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L062",
+      "line": 62,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L063",
+      "line": 63,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L064",
+      "line": 64,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L065",
+      "line": 65,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L066",
+      "line": 66,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L067",
+      "line": 67,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L068",
+      "line": 68,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L069",
+      "line": 69,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L070",
+      "line": 70,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L071",
+      "line": 71,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L072",
+      "line": 72,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L073",
+      "line": 73,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L074",
+      "line": 74,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L075",
+      "line": 75,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L076",
+      "line": 76,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L077",
+      "line": 77,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L078",
+      "line": 78,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L079",
+      "line": 79,
+      "mode": "avoid_unverified_claim",
+      "instruction": "Original author aside about Dhika's first kiss after marriage is not automatically true for Ankita; keep joke/emotional meaning without unsupported Ankita biography"
+    },
+    {
+      "id": "DHIKA-E03-L080",
+      "line": 80,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L081",
+      "line": 81,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L082",
+      "line": 82,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L083",
+      "line": 83,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L084",
+      "line": 84,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L085",
+      "line": 85,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L086",
+      "line": 86,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L087",
+      "line": 87,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L088",
+      "line": 88,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L089",
+      "line": 89,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L090",
+      "line": 90,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L091",
+      "line": 91,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L092",
+      "line": 92,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L093",
+      "line": 93,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L094",
+      "line": 94,
+      "mode": "source_duplicate_not_new_event",
+      "instruction": "Source L094 and L095 repeat near-identical reaction wording: one startling reaction, not two separate kisses"
+    },
+    {
+      "id": "DHIKA-E03-L095",
+      "line": 95,
+      "mode": "source_duplicate_not_new_event",
+      "instruction": "Duplicate line L094 in original; preserve provenance without inflating beat count"
+    },
+    {
+      "id": "DHIKA-E03-L096",
+      "line": 96,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L097",
+      "line": 97,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L098",
+      "line": 98,
+      "mode": "retain_source_beat",
+      "instruction": "No new plot change proposed. Preserve original causal action, dialogue function, visual observation, or inner response, with FWFS identities and coherent Friday timing."
+    },
+    {
+      "id": "DHIKA-E03-L099",
+      "line": 99,
+      "mode": "next_day",
+      "instruction": "Next-morning reflection outside Friday's encounter; original calls Chotu a teenager, but FWFS Chirag is 22, so this descriptor must not transfer. Husband John → Ritvik."
+    },
+    {
+      "id": "DHIKA-E03-L100",
+      "line": 100,
+      "mode": "next_day",
+      "instruction": "Ankita's secrecy and reaction to quick kiss are following-day material; husband John → Ritvik, other consequences follow FWFS marriage history."
+    }
+  ],
+  "context_references": [
+    "data/continuity/fwfs_e04_p01_director_decision_ledger_20261028.json",
+    "data/continuity/fwfs_e04_ankita_chotu_part2_initial_audit_20261028.json",
+    "four-walls-story-lab/e04-part2-icecream-vs-paint-plot-comparison.md"
+  ]
+}
