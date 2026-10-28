@@ -33,6 +33,7 @@ function addContent(p,sourceText){
   if(chosen){var s=e("span","key-"+chosen,segment);p.appendChild(s);}else p.appendChild(document.createTextNode(segment));
  });
 }
+var p1Visuals=[{"end":"FWFS-E01-P01-L006","start":"FWFS-E01-P01-L001","file":"e01p01-01.png"},{"end":"FWFS-E01-P01-L010","start":"FWFS-E01-P01-L007","file":"e01p01-02.png"},{"end":"FWFS-E01-P01-L020","start":"FWFS-E01-P01-L011","file":"e01p01-03.png"},{"end":"FWFS-E01-P01-L030","start":"FWFS-E01-P01-L021","file":"e01p01-04.png"},{"end":"FWFS-E01-P01-L040","start":"FWFS-E01-P01-L031","file":"e01p01-05.png"},{"end":"FWFS-E01-P01-L048","start":"FWFS-E01-P01-L041","file":"e01p01-06.png"},{"end":"FWFS-E01-P01-L055","start":"FWFS-E01-P01-L049","file":"e01p01-07.png"}];
 var data=null;
 function draw(){
  if(!data)return;
@@ -45,6 +46,21 @@ function draw(){
   chapter.blocks.forEach(function(b){
    if(!b.text||!b.text.trim())return;
    var p=e("p","e01-full-paragraph");addContent(p,b.text);section.appendChild(p);
+   if(chapter.part==="P01"){
+    var page=p1Visuals.find(function(v){return v.end===b.source_id});
+    if(page){
+     var figure=e("figure","e01-webtoon");
+     figure.setAttribute("data-source-start",page.start);figure.setAttribute("data-source-end",page.end);
+     var link=e("a");link.href=root+"four-walls-story-lab/assets/e01-p01-v1/"+page.file;link.target="_blank";link.rel="noopener";
+     var image=e("img");image.src=link.href;image.loading="lazy";image.alt="Episode 01 Part 1 realistic webtoon · "+page.start+"–"+page.end;
+     image.style.cssText="display:block;width:100%;height:auto;border-radius:10px";
+     link.appendChild(image);figure.appendChild(link);
+     var caption=e("figcaption","",page.start+"–"+page.end+" · Tap to enlarge");
+     caption.style.cssText="font-size:12px;color:#b8c9dc;margin-top:8px";figure.appendChild(caption);figure.style.cssText="margin:22px 0 34px";
+     section.appendChild(figure);
+    }
+   }
+
   });
   area.appendChild(section);
  });
