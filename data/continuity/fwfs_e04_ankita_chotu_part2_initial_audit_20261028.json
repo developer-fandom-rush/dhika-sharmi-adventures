@@ -1,7 +1,7 @@
 {
   "schema": "fwfs.e04.part2.initial_audit.v1",
   "created": "2026-10-28",
-  "status": "PART 2 UNDER REVIEW; L049 APPROVED; NO PROSE",
+  "status": "PART 2 UNDER REVIEW; L049 OPTION A LOCKED; ICE CREAM RETENTION RECOMMENDED; L050–L098 NOT LOCKED",
   "scope": {
     "source": "data/episodes/e03.json",
     "same_day_start": 44,
@@ -543,7 +543,13 @@
   ],
   "editorial_recommendation": {
     "scope": "DHIKA E03 L044–L098",
-    "text": "Keep the original ice cream scene as the event connecting conversation and changes in familiarity. No replacement subplot is proposed.",
-    "status": "ASSISTANT SUGGESTION, NOT DIRECTOR-APPROVED"
+    "text": "Retain the ice cream/chocobar as a practical scene catalyst but do not assume all downstream actions and plot outcomes stay identical to original DHIKA. Adapt the L061–L098 narrative to Chirag's grandmother-related return, Ankita's already-reviewed Tuesday experiment, and Thursday embarrassment, keeping character awareness and consequences consistent. Specific later moments (including the surprising contact L067–L075, affectionate gesture L081, and eventual kiss L092–L098) remain proposed, not approved, pending discussion.",
+    "status": "EDITORIAL PROPOSAL ONLY — NOT A DIRECTOR DECISION"
+  },
+  "editorial_review_correction": {
+    "source": "Director clarification after L049 Option A",
+    "correction": "The user's conditional willingness to keep the original unchanged is not approval to duplicate or lock every remaining original beat. Prior discussion focused on adapting the psychological mechanism and historical consequences rather than literal replication. Do not equate preservation of ice cream with approval of all later actions.",
+    "scope": "E03 L050–L098",
+    "decision_status": "OPEN FOR DIRECTOR REVIEW"
   }
 }
