@@ -1,0 +1,471 @@
+{
+  "schema": "fwfs.e04.part1.line_audit.v1",
+  "created": "2026-10-28",
+  "title": "FWFS Episode 04 · Ankita–Chotu · DHIKA E03 Part 1 source audit",
+  "source": {
+    "file": "data/episodes/e03.json",
+    "first_line": 5,
+    "last_line": 43,
+    "count": 39,
+    "header_lines": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "EDITORIAL WORKING DIVISION—not source-authored Part 1"
+  },
+  "prelude": "DHIKA E02 L150–155; adapted FWFS E02 Part 3 ends with Friday morning Chotu thought at L150",
+  "storyline": "Friday morning, 23 October 2026; Bansal Apartment; Rey school; Ritvik work; Chirag age 22; Chotu's absence confirmed Thursday, reason remains unverified",
+  "status": "LINE-AUDITED, DIRECTOR REVIEW PENDING L022; NOT RELEASED AS CANON PROSE",
+  "director_decisions_file": "data/continuity/fwfs_e04_p01_director_decision_ledger_20261028.json",
+  "entries": [
+    {
+      "line": 5,
+      "source_id": "DHIKA-E03-L005",
+      "source_event": "Original skirt recalls prior husband suggestion",
+      "fwfs_adaptation": "New Friday skirt; no invented Ritvik request",
+      "decision": "D001",
+      "tag": "wardrobe",
+      "evidence": [
+        "P6-1-006",
+        "A-P7-GR-001"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 6,
+      "source_id": "DHIKA-E03-L006",
+      "source_event": "Earlier refusal linked to older-household gaze; today different choice",
+      "fwfs_adaptation": "Do not import Aunty/Uncle incident or substitute Mahendra",
+      "decision": "D001",
+      "tag": "backstory",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 7,
+      "source_id": "DHIKA-E03-L007",
+      "source_event": "Dhika wonders whether Chotu finds her attractive; shy uncertainty",
+      "fwfs_adaptation": "Ankita thinks about his notice against Saturday–Tuesday history; uncertainty continues",
+      "decision": "D004",
+      "tag": "inner-reaction",
+      "evidence": [
+        "P6-1-011",
+        "A-P7-GR-009",
+        "A-P7-GR-022"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 8,
+      "source_id": "DHIKA-E03-L008",
+      "source_event": "Skirt and sleeveless top selected with restrained fit",
+      "fwfs_adaptation": "New skirt + sleeveless top; exact fit not locked",
+      "decision": "D001",
+      "tag": "wardrobe-visual",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 9,
+      "source_id": "DHIKA-E03-L009",
+      "source_event": "Mirror and slight midriff visibility, movement could change it",
+      "fwfs_adaptation": "Physical garment behaviour needs consistency with later shelf reach",
+      "decision": "PROPOSED",
+      "tag": "wardrobe-visual",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 10,
+      "source_id": "DHIKA-E03-L010",
+      "source_event": "Light mascara and lipstick; appearance complete",
+      "fwfs_adaptation": "Source detail available for Friday, not claimed established routine",
+      "decision": "PROPOSED",
+      "tag": "appearance",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 11,
+      "source_id": "DHIKA-E03-L011",
+      "source_event": "Doorbell rings",
+      "fwfs_adaptation": "Start new Friday delivery encounter",
+      "decision": "PLANNED",
+      "tag": "transition",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 12,
+      "source_id": "DHIKA-E03-L012",
+      "source_event": "Dhika anticipates Chotu; fluttering nerves",
+      "fwfs_adaptation": "Existing Tuesday review supplies unsettled anticipation",
+      "decision": "D004",
+      "tag": "inner-reaction",
+      "evidence": [
+        "A-P7-GR-031–039"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 13,
+      "source_id": "DHIKA-E03-L013",
+      "source_event": "Chotu cheerfully calls from doorway",
+      "fwfs_adaptation": "Familiar Chirag greeting and teasing in E01",
+      "decision": "EVIDENCED",
+      "tag": "dialogue",
+      "evidence": [
+        "FWFS-E01-P5-M-L007–L010",
+        "FWFS-E01-P5-M-L084–L086"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 14,
+      "source_id": "DHIKA-E03-L014",
+      "source_event": "Dhika opens and affectionately taps Chotu's cheek",
+      "fwfs_adaptation": "Allowed as a brief retrospective familiar gesture in E04",
+      "decision": "D002",
+      "tag": "touch",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 15,
+      "source_id": "DHIKA-E03-L015",
+      "source_event": "Narrator says gesture is habitual and liked",
+      "fwfs_adaptation": "One short narrator clause can establish habit; no earlier scene required",
+      "decision": "D002",
+      "tag": "history",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 16,
+      "source_id": "DHIKA-E03-L016",
+      "source_event": "Chotu unpacks and asks about Pappu",
+      "fwfs_adaptation": "Ask about Rey; Friday Rey at school",
+      "decision": "D003",
+      "tag": "household",
+      "evidence": [
+        "FWFS-E01-P5-M-L002–L010",
+        "FWFS-E01-P5-M-L082–L088"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 17,
+      "source_id": "DHIKA-E03-L017",
+      "source_event": "Chotu has not noticed outfit yet",
+      "fwfs_adaptation": "Delay noticing newly selected Friday outfit until he looks up",
+      "decision": "PLANNED",
+      "tag": "attention",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 18,
+      "source_id": "DHIKA-E03-L018",
+      "source_event": "Dhika explains Pappu's outing, asks why sudden leave",
+      "fwfs_adaptation": "Ankita says Rey at school; asks reason for leave; no invented aunt visit",
+      "decision": "D003",
+      "tag": "dialogue",
+      "evidence": [
+        "FWFS E02 P3 L113–115"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 19,
+      "source_id": "DHIKA-E03-L019",
+      "source_event": "Chotu looks up and notices her new outfit",
+      "fwfs_adaptation": "Maintain gaze transition after normal errand actions",
+      "decision": "PLANNED",
+      "tag": "visual",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 20,
+      "source_id": "DHIKA-E03-L020",
+      "source_event": "He notices her look, she likes attention without knowing why",
+      "fwfs_adaptation": "Option C: pleasure plus uncertainty, not full self-explanation",
+      "decision": "D004",
+      "tag": "visual-inner-reaction",
+      "evidence": [
+        "FWFS-E01-P5-M-L011–L015",
+        "A-P7-GR-021–022"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 21,
+      "source_id": "DHIKA-E03-L021",
+      "source_event": "Dhika teasingly brings him back to attention",
+      "fwfs_adaptation": "Use known Chotu Babu playful tone",
+      "decision": "EVIDENCED",
+      "tag": "dialogue",
+      "evidence": [
+        "FWFS-E01-P5-M-L008–L018"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 22,
+      "source_id": "DHIKA-E03-L022",
+      "source_event": "Chotu explains death of grandmother and village absence",
+      "fwfs_adaptation": "Original leave reason exists; not yet established for FWFS Chirag",
+      "decision": "OPEN-LEAVE-REASON",
+      "tag": "biography",
+      "evidence": [
+        "FWFS E02 P3 L114–115"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 23,
+      "source_id": "DHIKA-E03-L023",
+      "source_event": "Condolences and repeated glances at legs",
+      "fwfs_adaptation": "Condolences conditional on L022 decision; retain notice as distinct beat if outfit supports it",
+      "decision": "OPEN-LEAVE-REASON",
+      "tag": "visual-inner-reaction",
+      "evidence": [
+        "A-P7-GR-011–022"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 24,
+      "source_id": "DHIKA-E03-L024",
+      "source_event": "Chotu notices wet hair and expresses concern",
+      "fwfs_adaptation": "New dialogue in source; caring tone supported",
+      "decision": "PROPOSED",
+      "tag": "dialogue",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 25,
+      "source_id": "DHIKA-E03-L025",
+      "source_event": "Dhika says she bathed and shakes wet hair",
+      "fwfs_adaptation": "Normal Friday action if retained, do not imply shown earlier",
+      "decision": "PROPOSED",
+      "tag": "movement",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 26,
+      "source_id": "DHIKA-E03-L026",
+      "source_event": "While placing item high on shelf ordinary raised-arm reach alters top, attention caught",
+      "fwfs_adaptation": "Option C: initial reach ordinary; garment behaviour must be physically plausible",
+      "decision": "D005",
+      "tag": "visual-movement",
+      "evidence": [
+        "A-P7-GR-007–022"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 27,
+      "source_id": "DHIKA-E03-L027",
+      "source_event": "She notices Chotu looking, feels reaction",
+      "fwfs_adaptation": "Option C: conscious choice begins only after notice",
+      "decision": "D005",
+      "tag": "inner-reaction",
+      "evidence": [
+        "A-P7-GR-018–022"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 28,
+      "source_id": "DHIKA-E03-L028",
+      "source_event": "She softly asks what he is looking at",
+      "fwfs_adaptation": "Verbal confrontation follows changed awareness",
+      "decision": "D005",
+      "tag": "dialogue",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 29,
+      "source_id": "DHIKA-E03-L029",
+      "source_event": "Chotu nervously deflects, pretending concern about falling",
+      "fwfs_adaptation": "Similar behaviour to Sunday deflection; new particular excuse",
+      "decision": "EVIDENCED",
+      "tag": "inner-dialogue",
+      "evidence": [
+        "FWFS-E01-P5-M-L090–L094"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 30,
+      "source_id": "DHIKA-E03-L030",
+      "source_event": "Dhika playfully praises his concern",
+      "fwfs_adaptation": "Warm familiar teasing, not marital confession",
+      "decision": "PLANNED",
+      "tag": "dialogue",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 31,
+      "source_id": "DHIKA-E03-L031",
+      "source_event": "Chotu smiles awkwardly",
+      "fwfs_adaptation": "Preserve his reserved reaction",
+      "decision": "EVIDENCED",
+      "tag": "inner-reaction",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 32,
+      "source_id": "DHIKA-E03-L032",
+      "source_event": "Dhika explicitly teases him about stomach attention",
+      "fwfs_adaptation": "Keep original purpose of teasing after L026–L027 awareness",
+      "decision": "D005",
+      "tag": "dialogue-visual",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 33,
+      "source_id": "DHIKA-E03-L033",
+      "source_event": "Chotu denies having seen anything",
+      "fwfs_adaptation": "Distinct denial after teased observation",
+      "decision": "PLANNED",
+      "tag": "dialogue",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 34,
+      "source_id": "DHIKA-E03-L034",
+      "source_event": "Dhika privately infers Chotu likes her appearance",
+      "fwfs_adaptation": "New confirmation layered over Saturday–Tuesday memories",
+      "decision": "D004",
+      "tag": "inner-reaction",
+      "evidence": [
+        "A-P7-GR-021–022"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 35,
+      "source_id": "DHIKA-E03-L035",
+      "source_event": "Dhika's eagerness to tease grows and she returns beside him",
+      "fwfs_adaptation": "For FWFS, do not call this her first-ever curiosity; prior deliberate test exists",
+      "decision": "D004",
+      "tag": "inner-reaction",
+      "evidence": [
+        "P6-1-011–012"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 36,
+      "source_id": "DHIKA-E03-L036",
+      "source_event": "She observes a missing delivery item",
+      "fwfs_adaptation": "Maintain practical cause for a second visit",
+      "decision": "PROPOSED",
+      "tag": "errand",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 37,
+      "source_id": "DHIKA-E03-L037",
+      "source_event": "Ice cream left at shop; Chotu runs back",
+      "fwfs_adaptation": "Source item has E02 prelude, must appear in Friday order",
+      "decision": "PROPOSED",
+      "tag": "errand",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 38,
+      "source_id": "DHIKA-E03-L038",
+      "source_event": "Chotu runs and privately replays encounter",
+      "fwfs_adaptation": "Shift to clearly marked Chirag POV; no mind reading",
+      "decision": "PLANNED",
+      "tag": "pov",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 39,
+      "source_id": "DHIKA-E03-L039",
+      "source_event": "Chotu revisits current stomach glance and recalls distinct earlier clothing-related observation including specific colour detail",
+      "fwfs_adaptation": "Friday memory points to Tuesday documents event, not floor-cleaning; source visual descriptor documented separately; he cannot know Ankita's intent",
+      "decision": "D006",
+      "tag": "visual-inner-reaction",
+      "evidence": [
+        "A-P7-GR-007–022",
+        "A-P7-GR-012"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 40,
+      "source_id": "DHIKA-E03-L040",
+      "source_event": "He self-corrects and questions earlier gaze",
+      "fwfs_adaptation": "Option B uncertainty; distinguish Chirag's inference from established truth",
+      "decision": "D006",
+      "tag": "inner-reaction",
+      "evidence": [
+        "A-P7-GR-022"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 41,
+      "source_id": "DHIKA-E03-L041",
+      "source_event": "He worries that attention may damage her comfort and trust",
+      "fwfs_adaptation": "His private restraint, with no presumed knowledge of Ankita's motives",
+      "decision": "D006",
+      "tag": "inner-reaction",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 42,
+      "source_id": "DHIKA-E03-L042",
+      "source_event": "He continues reflecting while returning",
+      "fwfs_adaptation": "Continuous errand time; no invented extra encounter",
+      "decision": "PLANNED",
+      "tag": "transition",
+      "evidence": [],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    },
+    {
+      "line": 43,
+      "source_id": "DHIKA-E03-L043",
+      "source_event": "Dhika alone is excited and apprehensive about what comes next",
+      "fwfs_adaptation": "Ankita has unresolved Tuesday history; reaction remains a fresh Friday event",
+      "decision": "D004",
+      "tag": "inner-reaction",
+      "evidence": [
+        "A-P7-GR-031–039"
+      ],
+      "original_text_ref": "data/episodes/e03.json (read source.events[].raw_lines[] at line)"
+    }
+  ],
+  "open_decisions": [
+    {
+      "source_line": 22,
+      "kind": "CHARACTER HISTORY + DIRECT DIALOGUE",
+      "question": "Use DHIKA original grandmother-bereavement explanation as new FWFS reveal, or choose another reason? None established in FWFS.",
+      "status": "NEEDS DIRECTOR DECISION"
+    }
+  ],
+  "next_phase": {
+    "source": "DHIKA E03 L044–L098",
+    "count": 55,
+    "identification": "Same-day Chotu return, extended dialogue, contact and kiss, actual departure; L099–L100 is the following-day reflection",
+    "status": "DISCOVERY ONLY / NOT DIRECTOR APPROVED"
+  }
+}
