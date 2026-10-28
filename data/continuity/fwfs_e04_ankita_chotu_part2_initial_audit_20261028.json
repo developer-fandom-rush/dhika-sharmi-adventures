@@ -1,7 +1,7 @@
 {
   "schema": "fwfs.e04.part2.initial_audit.v1",
   "created": "2026-10-28",
-  "status": "PART 2 L049 OPTION A LOCKED; ICE-CREAM PLOT VS GENUINE ALTERNATIVE UNDECIDED; NO PROSE",
+  "status": "PART 2 EDITORIAL DIRECTION: ORIGINAL ICE-CREAM PLOT RETAINED / NO MANUSCRIPT WRITTEN",
   "scope": {
     "source": "data/episodes/e03.json",
     "same_day_start": 44,
@@ -542,9 +542,10 @@
     }
   ],
   "editorial_recommendation": {
-    "scope": "Part 2 plotting alternatives",
-    "text": "Use original ice cream as baseline. Explore a new causal premise only as an optional alternative; do not change the original or auto-lock an unapproved rewrite.",
-    "status": "NO ALTERNATIVE APPROVED"
+    "scope": "DHIKA E03 L036–L098",
+    "text": "Decisive editorial recommendation: retain the original ice-cream plot and its six causal phases; reject the previously proposed paint/science-project replacement as narratively weaker. Preserve all source beats in order. FWFS's distinct cast, past Tuesday event, Friday bereavement return, age and family continuity still require minimal factual adaptation. No wholesale new plot and no mandatory micro-choice questioning.",
+    "status": "ASSISTANT EDITORIAL DECISION / DIRECTOR HAS NOT FORMALLY OVERRIDDEN",
+    "source_document": "four-walls-story-lab/e04-part2-icecream-vs-paint-plot-comparison.md"
   },
   "editorial_review_correction": {
     "source": "Director clarification after L049 Option A",
@@ -553,10 +554,9 @@
     "decision_status": "OPEN FOR DIRECTOR REVIEW"
   },
   "director_process_clarification": {
-    "scope": "DHIKA E03 L036–L098 (FWFS E04 Part 1 bridge and Part 2 continuation)",
-    "exact_meaning": "Retaining the ice-cream incident commits the scene structure to the existing source causal chain; the Director sees no need for cosmetic edits or repeated line-by-line questioning on unchanged beats. If the team wants a new plot, it must be a genuinely new situation with equivalently coherent visual cues, conversation, internal reactions, attraction and consequences, rather than merely renaming the ice cream. In that case, examine the source one line at a time to agree changes.",
-    "status": "DIRECTOR WORKFLOW CLARIFICATION; NO PLOT ALTERNATIVE CHOSEN",
-    "impacts_previous_phase": "Any chosen alternative to ice cream requires revising source bridge E03 L036–L043 and the currently released Part 1 Grok prompt; Part 1 remains ready for the ice-cream branch only.",
-    "prior_assistant_error": "Proposed replacing original incidental physical action without first obtaining agreement to redesign the broader sequence; do not treat that as an approved FWFS plot change."
+    "scope": "DHIKA E03 L036–L098",
+    "exact_meaning": "The Director asked the assistant to decide original-vs-new based on six full causal sequences, not return that decision to the Director. Retaining ice cream means retain the well-working integrated scene structure, instead of inserting arbitrary small action changes. Only if genuinely redesigning must all affected lines be re-mapped.",
+    "status": "USER CLARIFICATION; NO PROSE CHANGE AUTHORIZED",
+    "impacts_previous_phase": "Part 1 L036–L043 ice cream errand stays coherent with Part 2 L044 onward under the recommended branch."
   }
 }
