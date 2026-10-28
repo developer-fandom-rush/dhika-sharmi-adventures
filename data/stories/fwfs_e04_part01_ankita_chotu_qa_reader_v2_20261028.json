@@ -5,7 +5,7 @@
   "source_date": "2026-10-28",
   "part": "E04-P01",
   "story_time": "Friday morning, working timeline 23 October 2026",
-  "status": "PUBLISHED IN STORY LAB AS QA-REVIEW COPY; NOT YET CANON-LOCKED",
+  "status": "PUBLISHED TO FWFS E04 STORY READER · QA-CORRECTED VERSION · DIRECTOR REQUESTED PUBLICATION",
   "original_draft_label": "CORRECTED DRAFT / DIRECTOR REVIEW PENDING",
   "source_scope": "DHIKA E03 L005–L043 (39 narrative lines)",
   "blocks": [
@@ -156,7 +156,7 @@
       "reason": "Replace vague photo memory with correct Tuesday coffee-table paperwork event and Chirag's uncertainty"
     }
   ],
-  "qa_note": "The user's original Doc remains untouched. This version is a targeted editor derivative based on the current Drive doc and previously approved Director decisions. Director can mark canon after reviewing.",
+  "qa_note": "Grok's latest original Google Doc is unchanged. This source-faithful copy applies targeted non-graphic continuity/dialogue repairs and is published to Story Lab as the Part 1 reader. Publication does not mean the original source or Google Doc was overwritten.",
   "next_phase": {
     "fwfs_part2": {
       "dhika_start": 44,
@@ -173,5 +173,13 @@
       "dhika_end": 100,
       "topic": "Reflection and secrecy to schedule after Friday"
     }
+  },
+  "publication": {
+    "date": "2026-10-28",
+    "destination": "four-walls-story-lab/e04-ankita-chotu-reader.html",
+    "part": "Part 1",
+    "content_source": "Grok latest Google Doc",
+    "is_derivative": true,
+    "source_file_unchanged": true
   }
 }
