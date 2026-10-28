@@ -1,7 +1,7 @@
 # FWFS Episode 04 — Ankita × Chotu — DHIKA E03 Part 1
 ## Copyable Grok handover · 39-of-39 source-line accountability
 
-**STATUS: DIRECTOR REVIEW / NOT RELEASED FOR PROSE YET.** One outstanding factual dialogue decision at DHIKA E03 L022. Do not invent it or state this work is canon. This is an editorial scene handover, not a prose chapter.
+**STATUS: PART 1 WRITING HANDOVER RELEASED BY DIRECTOR · READY TO SEND TO GROK.** All 39 source lines audited; L022 leave explanation decided. This is an editorial author brief, NOT a published manuscript or canon-locked prose.
 
 ### Original source and approved working scope
 - Original, read-only: https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/episodes/e03.json
@@ -21,6 +21,8 @@
 5. **L026–L027:** initial raised-arm shelf reach is **ordinary**, and *after* Ankita notices Chirag's gaze, her subsequent behaviour becomes conscious. Do not backdate her intention to before the reach.
 6. **L039–L041:** Chirag privately remembers the actual FWFS **Tuesday document-verification** moment, suspects it may have been deliberate on Ankita's part, **but does not know for certain**. Do not invent a FWFS floor-cleaning episode. Preserve L039's *specific descriptive observation* rather than reducing the memory to a generic glance; cross-check review-copy source `A-P7-GR-012` for the previously described cream-coloured appearance. Tuesday draft is **NOT CANON**, so mark this as review-baseline dependence.
 
+7. **L022–L023 (DIRECTOR D007):** Chirag's grandmother passed away; he travelled to his village during his sudden leave, and **returned on Friday morning only**, not Saturday. Ankita learns the reason now in their Friday encounter. Show her condolences in the same dialogue sequence. The earlier Thursday shopkeeper did not know or reveal this reason.
+
 ### Author instructions
 - Study the **actual indexed raw_lines** for every E03 source line 005 through 043 before composing; this audit is an index, not a replacement for the source. The source IDs are the original evidence, not prose output numbering.
 - Adapt every event/action/line function in order, with its initiating action, exact participant, observation, hesitation, private thought, consequence and next dependency. Never skip a visual detail, dialogue reaction, appearance or narrative POV shift simply to shorten. Use factual continuity notes for the physical and romantic subtext; do not invent a new intimate event.
@@ -30,7 +32,7 @@
 - Exact adapted prose is **not** a verbatim copy of DHIKA. Write fresh, scene-appropriate Hinglish prose in accordance with the Director's actual approved events. Give new lines unique `FWFS-E04-P01-L001` onward IDs; include a separate end-of-output **source coverage report** for E03 L005–043 listing any omitted or consciously adapted line. Do not pretend 39 source lines must equal exactly 39 prose lines.
 - The original 39 narrative source lines may need **multiple responses or scene segments** to preserve pace. Do not compress events to meet one response. Stop at the agreed final beat **E03 L043** (Ankita alone, reacting while Chirag is returning with missing ice cream). Part 2 starts at L044 with Chotu's second arrival.
 - **DO NOT WRITE Part 2, kiss, departure, or L099–L100 next-day reflection within this Part 1 handover.** Any source event later than L043 must remain in its own assigned segment.
-- **CURRENT HOLD / L022:** DHIKA states Chotu returned after his grandmother's death; FWFS previously only established an unexplained sudden leave. Do not assume the same bereavement is Chirag's history. Leave dialogue slot `[DIRECTOR DECISION L022 REQUIRED]` until the Director selects whether to adopt this as a *new Friday revelation* or change it. After that, this handover may be marked released for drafting.
+- **L022 RESOLVED:** Chirag returned Friday morning after visiting his village because his grandmother died. This is confirmed Director direction D007. Do not repeat any contradictory Saturday return claim.
 - No scene is canon-locked or published by generating a draft. Output ends with status **GROK DRAFT — DIRECTOR REVIEW PENDING**.
 
 ### Exhaustive line-by-line adaptation checklist
@@ -55,8 +57,8 @@ Every row corresponds to exactly one indexed original source line. For clarity, 
 | 019 | Chotu looks up and notices her new outfit | Maintain gaze transition after normal errand actions | PLANNED |
 | 020 | Chotu's gaze travels from wet hair to slender legs; Dhika likes being noticed without knowing why. | Friday attire allows a first full outfit reaction. Director L020 Option C: Ankita enjoys his notice but remains unsure of its meaning. | D004 |
 | 021 | Dhika teasingly brings him back to attention | Use known Chotu Babu playful tone | EVIDENCED |
-| 022 | Chotu explains death of grandmother and village absence | Original leave reason exists; not yet established for FWFS Chirag | OPEN-LEAVE-REASON |
-| 023 | After condolences, Chotu repeatedly steals glances at Dhika's 'milky legs' while unpacking; she catches it. | Keep this as its own repeated visual beat distinct from L020; Friday skirt visibility must match selected outfit. Condolences conditional on L022. | OPEN-LEAVE-REASON |
+| 022 | Chotu answers Dhika's question: his grandmother died after a long illness, and he went to his village. | Friday: Chirag tells Ankita his grandmother passed away and he had gone to his village; he returned Friday morning, not Saturday. This news is new to Ankita. | D007 |
+| 023 | After condolences, Chotu repeatedly steals glances at Dhika's 'milky legs' while unpacking; she catches it. | Friday: Ankita offers condolences for Chirag's grandmother, then recognises his continuing attention to her Friday outfit; preserve these two different events. | D007 / D004 |
 | 024 | Chotu notices wet hair and expresses concern | New dialogue in source; caring tone supported | PROPOSED |
 | 025 | Dhika says she bathed and shakes wet hair | Normal Friday action if retained, do not imply shown earlier | PROPOSED |
 | 026 | Ordinary raised-arm reach to high shelf shifts top and makes midriff/navel visible; he looks. | Director Option C: reach begins as practical movement; no planned display before noticing the attention. | D005 |
@@ -82,4 +84,4 @@ Every row corresponds to exactly one indexed original source line. For clarity, 
 The audit must separately register DHIKA E03 **L020** (wet hair to slender legs + unexplained pleasure), **L023** (repeated attention to "milky legs"), **L026–L027** (raised arms, changed top, visible navel, subsequent conscious reaction), **L035** (eagerness to tease), and **L039** (Chotu's remembered prior observation and explicit original descriptor "so white"). These are distinct source facts; do not reduce them to generic "they exchanged a look". In FWFS, L039 must refer to the **Tuesday document-verification scene** and its own previously written cream-coloured description, not an invented floor-cleaning memory. Do not silently change a quoted source descriptor into a new FWFS visual claim.
 
 ### Before submitting any draft
-Verify in order: E02 bridge used without repetitive recap; L005–010 clothing and interiority; L011–023 arrival/visuals/dialogue; L024–035 raised-arm and teasing causal order; L036–043 ice-cream errand / two isolated private reactions. Confirm **39/39 source IDs accounted for**. Mark L022 as pending until Director decides. Submit only when given a separate explicit writing release.
+Verify in order: E02 bridge used without repetitive recap; L005–010 clothing and interiority; L011–023 arrival/visuals/dialogue; L024–035 raised-arm and teasing causal order; L036–043 ice-cream errand / two isolated private reactions. Confirm **39/39 source IDs accounted for**. L022 is now Director-approved. This handover is released for writing. Submit the resulting Grok draft as **DRAFT / DIRECTOR REVIEW PENDING**, never automatically canon.
