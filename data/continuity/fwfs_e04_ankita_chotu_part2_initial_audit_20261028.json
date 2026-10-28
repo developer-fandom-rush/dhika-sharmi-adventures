@@ -1,7 +1,7 @@
 {
   "schema": "fwfs.e04.part2.initial_audit.v1",
   "created": "2026-10-28",
-  "status": "SOURCE INVENTORY COMPLETE; DIRECTOR ADAPTATION NOT LOCKED",
+  "status": "PART 2 UNDER REVIEW; L049 APPROVED; NO PROSE",
   "scope": {
     "source": "data/episodes/e03.json",
     "same_day_start": 44,
@@ -510,11 +510,6 @@
   ],
   "unresolved_high_priority": [
     {
-      "line": 49,
-      "kind": "physical interaction",
-      "question": "Retain spontaneous hand invitation to sofa as a new gesture, or revise while preserving closeness?"
-    },
-    {
       "line": 69,
       "kind": "unplanned touch",
       "question": "Keep the exact incident and its immediately startled aftermath, or adapt its mechanism for the established Friday setting?"
@@ -536,5 +531,19 @@
     }
   ],
   "age_check": "FWFS Chirag is 22. DHIKA character is 19 and text later calls him teenager; do not transfer that descriptor.",
-  "household": "Rey school and Ritvik work are Friday morning Director defaults; time-of-day progression must remain coherent."
+  "household": "Rey school and Ritvik work are Friday morning Director defaults; time-of-day progression must remain coherent.",
+  "director_decisions": [
+    {
+      "id": "E04-P02-D001",
+      "source_range": "DHIKA E03 L049",
+      "choice": "A",
+      "decision": "Retain original L049 sofa invitation and hand gesture.",
+      "status": "DIRECTOR APPROVED FOR PLANNING"
+    }
+  ],
+  "editorial_recommendation": {
+    "scope": "DHIKA E03 L044–L098",
+    "text": "Keep the original ice cream scene as the event connecting conversation and changes in familiarity. No replacement subplot is proposed.",
+    "status": "ASSISTANT SUGGESTION, NOT DIRECTOR-APPROVED"
+  }
 }
