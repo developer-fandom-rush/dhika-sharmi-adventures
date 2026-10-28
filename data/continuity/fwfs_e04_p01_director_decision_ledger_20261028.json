@@ -100,6 +100,26 @@
         "Exact manuscript wording",
         "Chirag's interpretation of the earlier meeting"
       ]
+    },
+    {
+      "id": "E04-P01-D006",
+      "source_range": "DHIKA E03 L039–L041",
+      "director_raw_input": "FWFS E04 Director decision for DHIKA E03 L039–L041: Option B. Chirag suspects Tuesday may have been intentional but remains uncertain. Save this decision to the GitHub Director ledger and ask only the next meaningful source-line question. No prose.",
+      "decision": "Chirag recalls Tuesday's document-verification encounter and suspects Ankita may have invited his attention deliberately, but he is not sure and must not be given knowledge of her private intention.",
+      "decision_status": "DIRECTOR APPROVED FOR ADAPTATION PLANNING ONLY; NO PROSE",
+      "approved_items": [
+        "Option B: suspicion without certainty",
+        "Use actual FWFS Tuesday paperwork incident as his reference, not DHIKA floor-cleaning"
+      ],
+      "not_approved_or_not_determined": [
+        "Visual detail or intensity '+1' referred to in a subsequent ambiguous voice transcript",
+        "Specific thoughts/writing intensity",
+        "Next scene prose"
+      ],
+      "source_links": [
+        "data/episodes/e03.json",
+        "data/stories/e01_all_seven_parts_continuous_reader_v1.json"
+      ]
     }
   ],
   "next_source_set": {
@@ -204,7 +224,7 @@
       }
     ],
     "review_policy": "One material question per turn; quote original source fragment with exact E03 line number; prioritize character thoughts, attraction, infidelity conflict, physical/visual beats and their impact on FWFS history. Routine logistical facts may be resolved without asking where evidence/Director direction suffices.",
-    "current_review_line": 39,
+    "current_review_line": 43,
     "review_notes": "L019–L021 mapped to verified history plus Director L020 Option C. L022 leave reason remains open but do not divert Director from consequential visual/inner-reaction questions until needed for writing. L026–L035 next consequential scene beat."
   },
   "sources_used": [
