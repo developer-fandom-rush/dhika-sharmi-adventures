@@ -52,8 +52,8 @@ tbody tr:nth-child(even) td{background:#152840}
 <thead id="matrix-header"></thead><tbody id="matrix-body"><tr><td>Loading GitHub mapping…</td></tr></tbody></table></div>
 <p class="helper" id="matrix-caption">Written = existing scene · Scheduled = fixed invitation/arrangement · Selected E04 = Friday target · Proposed/Tentative = not locked. Scroll horizontally.</p>
 <div class="after">
-<section class="note"><h2>Four tracks · 21–28 October 2026</h2><p>Wednesday: Ankita dinner / Shreya hosts. Thursday: Ankita with Karan/Aman. Friday AM: Ankita–Chotu E04 selected. Friday PM: Shreya visits Shivani, written E03. Saturday: Shreya music + Shivani at Taniya. Sunday: Shreya–Chotu plan, Shivani/Raghav/Rishabh, Taniya at Colonel. Monday: Shivani–Chotu plan + Taniya/Dev group. Tuesday: Taniya–Chotu tentative. Ankita: Sat 24 aftermath, Sun 25 routine, Mon 26 EPP, Tue 27 prep; Wed 28 later +5-day Chotu follow-up candidate (not locked).</p></section>
-<section class="note"><h2>Episode 04 next · Friday morning</h2><p>Friday 23 October morning Ankita/Chotu is selected for planning, not written. The Saturday shopkeeper reference has been narrowly corrected to refer to an earlier Friday invitation. Shreya, Shivani and Taniya's later Chotu slots remain tentative.</p></section>
+<section class="note"><h2>Four tracks · 21–28 October 2026</h2><p>Wednesday: Ankita dinner / Shreya hosts. Thursday: Ankita with Karan/Aman. Friday AM: Ankita–Chotu E04 P1–3 written. Friday PM: Shreya visits Shivani, written E03. Saturday: Shreya music + Shivani at Taniya. Sunday: Shreya–Chotu plan, Shivani/Raghav/Rishabh, Taniya at Colonel. Monday: Shivani–Chotu plan + Taniya/Dev group. Tuesday: Taniya–Chotu tentative. Ankita: Sat 24 E04 P4 kiss aftermath written, Sun 25 routine, Mon 26 EPP, Tue 27 prep; Wed 28 later +5-day Chotu follow-up candidate (not locked).</p></section>
+<section class="note"><h2>Episode 04 · Friday and Saturday</h2><p>Friday 23 October: Ankita/Chirag E04 P1–3 written. Saturday 24 October morning: Ankita reflects on Friday kiss, her own response, marriage and not telling Ritvik — <a href="e04-ankita-chotu-reader.html#part4">Read E04 Part 4</a>. Shreya, Shivani and Taniya's later Chotu slots remain tentative.</p></section>
 </div>
 <p class="notice">Four fixed visits and all four Chotu encounter slots are stored with source/planning status. DHIKA E03 is a planning template, not a direct episode-number assignment. <a href="fwfs-episode-matrix.json">View exact mapping data</a>. The earlier detailed calendar is preserved separately in the repository.</p>
 </main>
@@ -91,6 +91,7 @@ function render(){
      add(box,el("div","event-title",e.title));
      add(box,el("div","event-time",e.time));
      if(!m)add(box,el("div","episode-ref",e.episode+" | "+e.dhika));
+     if(e.reader_url){var link=el("a","episode-ref","Read "+e.episode);link.href=e.reader_url;link.style.display="inline-block";link.style.marginTop="7px";box.appendChild(link);}
    });
   }
  });
