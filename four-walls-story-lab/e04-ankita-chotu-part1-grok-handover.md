@@ -3,6 +3,8 @@
 
 **STATUS: PART 1 WRITING HANDOVER RELEASED BY DIRECTOR · READY TO SEND TO GROK.** All 39 source lines audited; L022 leave explanation decided. This is an editorial author brief, NOT a published manuscript or canon-locked prose.
 
+**Author permission (Director statement):** The Director states the DHIKA story and FWFS are their own writing and explicitly authorizes using the DHIKA text as adaptation/reference material. Do not invent a copyright obstacle or claim the user lacks permission. Keep source attribution and requested edit boundaries clear.
+
 **Latest editorial routing:** the Director has selected original ice-cream story mechanics rather than a newly invented paint or science-project chain. For exact line-specific mandatory identity, chronology and memory corrections, consult [the 96-line minimal-change map](https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/data/continuity/fwfs_e04_source_faithful_minimal_change_map_20261028.json). Original DHIKA is the structural source; this handover is not a verbatim transcription.
 
 ### Original source and approved working scope
@@ -42,12 +44,12 @@ Every row corresponds to exactly one indexed original source line. For clarity, 
 
 | DHIKA E03 line | Precise original event function (editorial paraphrase) | FWFS mapping / approved constraint | Status |
 |---:|---|---|---|
-| 005 | Original skirt recalls prior husband suggestion | New Friday skirt; no invented Ritvik request | D001 |
-| 006 | Earlier refusal linked to older-household gaze; today different choice | Do not import Aunty/Uncle incident or substitute Mahendra | D001 |
-| 007 | Dhika wonders whether Chotu finds her attractive; shy uncertainty | Ankita thinks about his notice against Saturday–Tuesday history; uncertainty continues | D004 |
-| 008 | Skirt and sleeveless top selected with restrained fit | New skirt + sleeveless top; exact fit not locked | D001 |
-| 009 | Mirror and slight midriff visibility, movement could change it | Physical garment behaviour needs consistency with later shelf reach | PROPOSED |
-| 010 | Light mascara and lipstick; appearance complete | Source detail available for Friday, not claimed established routine | PROPOSED |
+| 005 | Original skirt recalls prior husband suggestion | Keep original knee-length skirt's short retrospective context. Husband John → Ritvik; source Uncle → existing Mahendra Mehta. Brief retrospect only, not a new scene or unrelated laundry subplot. | D008 (OVERRIDES D001 backstory removal) |
+| 006 | Earlier refusal linked to older-household gaze; today different choice | Keep original reason for earlier refusal, connecting to existing Mahendra as Uncle; do not assert Ankita knew Mahendra's private thoughts. Friday choice can differ. | D008 (OVERRIDES D001 backstory removal) |
+| 007 | Dhika wonders whether Chotu finds her attractive; shy uncertainty | Retain original question whether Chotu finds the outfit beautiful and related uncertainty; Dhika → Ankita; Chotu → Chirag. | D008 / D004 |
+| 008 | Skirt and sleeveless top selected with restrained fit | Retain original knee-length skirt and sleeveless top visual/fit mechanics, no needless wardrobe redesign. | D008 |
+| 009 | Mirror and slight midriff visibility, movement could change it | Retain source mirror, wet hair, small midriff observation and future reaching mechanics. | D008 |
+| 010 | Light mascara and lipstick; appearance complete | Retain original final makeup choice and ordinary appearance progression. | D008 |
 | 011 | Doorbell rings | Start new Friday delivery encounter | PLANNED |
 | 012 | Dhika anticipates Chotu; fluttering nerves | Existing Tuesday review supplies unsettled anticipation | D004 |
 | 013 | Chotu cheerfully calls from doorway | Familiar Chirag greeting and teasing in E01 | EVIDENCED |
