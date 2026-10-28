@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0",
+  "title": "FWFS Episode 04 · Ankita × Chotu · Part 2",
+  "story_time": "Friday, after the first encounter and ice-cream errand",
+  "status": "PUBLISHED READER · DIRECTOR-SELECTED SOURCE-FAITHFUL ADAPTATION (NOT A NEW PLOT)",
+  "source_reference": "data/episodes/e03.json",
+  "source_scope": {
+    "start": 44,
+    "end": 81,
+    "source_line_count": 38,
+    "note": "Editorial FWFS Part division; original DHIKA E03 has its own line numbers"
+  },
+  "identity_map": {
+    "Dhika": "Ankita",
+    "John": "Ritvik",
+    "Pappu": "Rey",
+    "Chotu": "Chotu (Chirag, age 22)"
+  },
+  "adaptation_policy": "Retain each original action, visual beat, thought and dialogue in same order; substitute cast names only; no additional invented incidents. Exact source line IDs accompany every adapted line. Reader publication does not alter DHIKA source or draft Google Doc.",
+  "lines": [
+    {
+      "id": "FWFS-E04-P02-L001",
+      "source_id": "DHIKA-E03-L044",
+      "source_line": 44,
+      "text": "Chotu: didi...... open the door.... I brought your ice creams...."
+    },
+    {
+      "id": "FWFS-E04-P02-L002",
+      "source_id": "DHIKA-E03-L045",
+      "source_line": 45,
+      "text": "Ankita: opening the door.... thank you chotu.... can you put them in freezer and bring the chocobars here... she went and took the sofa..."
+    },
+    {
+      "id": "FWFS-E04-P02-L003",
+      "source_id": "DHIKA-E03-L046",
+      "source_line": 46,
+      "text": "Chotu: he kept the cup in freezer and took the chocobars to her.... here didi... she only took one from him."
+    },
+    {
+      "id": "FWFS-E04-P02-L004",
+      "source_id": "DHIKA-E03-L047",
+      "source_line": 47,
+      "text": "Ankita: that one is for you.... sit and eat..."
+    },
+    {
+      "id": "FWFS-E04-P02-L005",
+      "source_id": "DHIKA-E03-L048",
+      "source_line": 48,
+      "text": "Chotu: smiling like a child... thank you didi.... he proceed to sit on the floor."
+    },
+    {
+      "id": "FWFS-E04-P02-L006",
+      "source_id": "DHIKA-E03-L049",
+      "source_line": 49,
+      "text": "Ankita: sit here.... she caught hold of his hands and pulled and made him sit on the 3 seater sofa facing her... both were facing each other."
+    },
+    {
+      "id": "FWFS-E04-P02-L007",
+      "source_id": "DHIKA-E03-L050",
+      "source_line": 50,
+      "text": "Chotu: but didi......"
+    },
+    {
+      "id": "FWFS-E04-P02-L008",
+      "source_id": "DHIKA-E03-L051",
+      "source_line": 51,
+      "text": "Ankita: duttt.... no buts... sit and eat.... she had her legs folded in cross fashion.... (  like while sitting down and eating). so was chotu.."
+    },
+    {
+      "id": "FWFS-E04-P02-L009",
+      "source_id": "DHIKA-E03-L052",
+      "source_line": 52,
+      "text": "Both started eating the chocobar.... and she decided to play with him..."
+    },
+    {
+      "id": "FWFS-E04-P02-L010",
+      "source_id": "DHIKA-E03-L053",
+      "source_line": 53,
+      "text": "Ankita: So chotu..... what else did you do in the village... did you meet all your girl friends ??? hehe"
+    },
+    {
+      "id": "FWFS-E04-P02-L011",
+      "source_id": "DHIKA-E03-L054",
+      "source_line": 54,
+      "text": "Chotu: what.... yaya didi..... I met all my 10 girl friends... he responded playfully...."
+    },
+    {
+      "id": "FWFS-E04-P02-L012",
+      "source_id": "DHIKA-E03-L055",
+      "source_line": 55,
+      "text": "Chocobar was melting and a drop from Chotu's bar was about to fell.... Ankita casually (  her sweet innocent nature )caught it in her fingers and licked in her mouth... Chotu noticed it,.. but did not mind.."
+    },
+    {
+      "id": "FWFS-E04-P02-L013",
+      "source_id": "DHIKA-E03-L056",
+      "source_line": 56,
+      "text": "Ankita: hitting him lightly on his knee...uh haan.... 10 ... is it enough chotu... hehe."
+    },
+    {
+      "id": "FWFS-E04-P02-L014",
+      "source_id": "DHIKA-E03-L057",
+      "source_line": 57,
+      "text": "Chotu: for now that all I got didi... hehe"
+    },
+    {
+      "id": "FWFS-E04-P02-L015",
+      "source_id": "DHIKA-E03-L058",
+      "source_line": 58,
+      "text": "Now a drop from Ankita's bar dripped and fell on her palm..... Since the palm was very close to Chotu.... he swept it from her palm and licked in his mouth... he also did this innocently and Ankita did not mind.."
+    },
+    {
+      "id": "FWFS-E04-P02-L016",
+      "source_id": "DHIKA-E03-L059",
+      "source_line": 59,
+      "text": "Ankita: oi.... don't make my palm dirty... she teased... hehe"
+    },
+    {
+      "id": "FWFS-E04-P02-L017",
+      "source_id": "DHIKA-E03-L060",
+      "source_line": 60,
+      "text": "Chotu: hehe... no didi..if anything, I cleaned it."
+    },
+    {
+      "id": "FWFS-E04-P02-L018",
+      "source_id": "DHIKA-E03-L061",
+      "source_line": 61,
+      "text": "Ankita: hehe.. so your gfs did you kiss any of them chotu..."
+    },
+    {
+      "id": "FWFS-E04-P02-L019",
+      "source_id": "DHIKA-E03-L062",
+      "source_line": 62,
+      "text": "Chotu: not expecting her to talk about kiss..... uh what..... he stammered a little.."
+    },
+    {
+      "id": "FWFS-E04-P02-L020",
+      "source_id": "DHIKA-E03-L063",
+      "source_line": 63,
+      "text": "Ankita: giggling.. hehehe"
+    },
+    {
+      "id": "FWFS-E04-P02-L021",
+      "source_id": "DHIKA-E03-L064",
+      "source_line": 64,
+      "text": "They both were sitting opposite to each other and because of her giggling and excitement.... she kept moving closer and now her both knees where hitting his bare knees. (  Chotu always wears shorts)"
+    },
+    {
+      "id": "FWFS-E04-P02-L022",
+      "source_id": "DHIKA-E03-L065",
+      "source_line": 65,
+      "text": "Ankita: teasing him further.... have you ever kissed a girl for real Chotu....."
+    },
+    {
+      "id": "FWFS-E04-P02-L023",
+      "source_id": "DHIKA-E03-L066",
+      "source_line": 66,
+      "text": "Chotu: feeling comfortable suddenly...... he played along..... oh yeah didi.... I kiss all 10 of my girl friends..."
+    },
+    {
+      "id": "FWFS-E04-P02-L024",
+      "source_id": "DHIKA-E03-L067",
+      "source_line": 67,
+      "text": "Both started laughing and eating the ice cream.... They both were immersed in conversation and laughter when suddenly a drop a her ice cream fell and landed on her bare stomach, very close to her navel...."
+    },
+    {
+      "id": "FWFS-E04-P02-L025",
+      "source_id": "DHIKA-E03-L068",
+      "source_line": 68,
+      "text": "Ankita felt the sudden chill of the ice cream on her stomach....and looked down."
+    },
+    {
+      "id": "FWFS-E04-P02-L026",
+      "source_id": "DHIKA-E03-L069",
+      "source_line": 69,
+      "text": "Without thinking.... with in the fraction of second the drop fell.... Chotu swept the drop directly from her stomach and licked his finger."
+    },
+    {
+      "id": "FWFS-E04-P02-L027",
+      "source_id": "DHIKA-E03-L070",
+      "source_line": 70,
+      "text": "As soon as he put his finger in his mouth.... his eyes widened.... he realized what he did. he got tense..."
+    },
+    {
+      "id": "FWFS-E04-P02-L028",
+      "source_id": "DHIKA-E03-L071",
+      "source_line": 71,
+      "text": "Ankita burst into laughter....."
+    },
+    {
+      "id": "FWFS-E04-P02-L029",
+      "source_id": "DHIKA-E03-L072",
+      "source_line": 72,
+      "text": "Chotu: sorry didi sorry ...... i did it unknowingly....sorry sorry....."
+    },
+    {
+      "id": "FWFS-E04-P02-L030",
+      "source_id": "DHIKA-E03-L073",
+      "source_line": 73,
+      "text": "Ankita: hehehehe.... chotu......you are eating ice cream from my stomach.... hehehe... she laughed so innocently... she didn't take it in a bad way.."
+    },
+    {
+      "id": "FWFS-E04-P02-L031",
+      "source_id": "DHIKA-E03-L074",
+      "source_line": 74,
+      "text": "Chotu: smiling awkwardly..... I didn't mean to didi... it happened all of a sudden..."
+    },
+    {
+      "id": "FWFS-E04-P02-L032",
+      "source_id": "DHIKA-E03-L075",
+      "source_line": 75,
+      "text": "Ankita: hehe... its okay Chotu... don't worry.... was it tasty... she teased"
+    },
+    {
+      "id": "FWFS-E04-P02-L033",
+      "source_id": "DHIKA-E03-L076",
+      "source_line": 76,
+      "text": "Chotu: uhnn..... yes didi.... the ice cream is tasty..."
+    },
+    {
+      "id": "FWFS-E04-P02-L034",
+      "source_id": "DHIKA-E03-L077",
+      "source_line": 77,
+      "text": "Ankita: so, Chotu.... now tell me the truth.... have you ever kissed a girl ?"
+    },
+    {
+      "id": "FWFS-E04-P02-L035",
+      "source_id": "DHIKA-E03-L078",
+      "source_line": 78,
+      "text": "Chotu: haa... feeling shy...... no didi..... I have not.."
+    },
+    {
+      "id": "FWFS-E04-P02-L036",
+      "source_id": "DHIKA-E03-L079",
+      "source_line": 79,
+      "text": "Ankita: Why Chotu.... are you afraid...hehe.... she teased him again... (  This is the same girl who had her first kiss after marriage)"
+    },
+    {
+      "id": "FWFS-E04-P02-L037",
+      "source_id": "DHIKA-E03-L080",
+      "source_line": 80,
+      "text": "Chotu: No didi..... I had only one gf earlier.... but I thought what if she didn't like my kiss"
+    },
+    {
+      "id": "FWFS-E04-P02-L038",
+      "source_id": "DHIKA-E03-L081",
+      "source_line": 81,
+      "text": "Ankita: giggling.... girls must be lucky to get a kiss from my Chotu babu..... she said lovingly... and gave him a flying kiss but without using hands.. (  she was in a very jovial mood)"
+    }
+  ],
+  "editorial_notes": [
+    "Original ice-cream plot preserved; L049 Director Option A retained",
+    "Friday/Chirag bereavement context established in Part 1; no new plot introduced"
+  ]
+}
