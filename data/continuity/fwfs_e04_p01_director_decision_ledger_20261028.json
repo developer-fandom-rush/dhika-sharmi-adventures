@@ -155,6 +155,18 @@
         "data/episodes/e03.json",
         "data/stories/fwfs_e02_part03_ankita_next_day_reader_20261026.md"
       ]
+    },
+    {
+      "id": "E04-P01-D008",
+      "source_range": "DHIKA E03 L005–L010, L036–L043 and continuation L044–L098",
+      "director_raw_input": "Keep original ice-cream plot and original dress, reasoning, visuals and causal beats. Adapt names and Friday timeline. Source's floor-cleaning memory becomes Tuesday's paperwork bending incident.",
+      "decision": "For source-faithful ice-cream branch retain established plot. Original Uncle may map to already established Mahendra Mehta. This supersedes D001's rejection of outfit backstory. Preserve Tuesday paperwork memory in place of source floor-cleaning memory; no unrelated laundry recap.",
+      "decision_status": "LATEST DIRECTOR DIRECTION / PLANNING; D001 PARTIALLY SUPERSEDED; NO MANUSCRIPT PUBLISHED",
+      "source_links": [
+        "data/episodes/e03.json",
+        "data/stories/e01_all_seven_parts_continuous_reader_v1.json",
+        "data/continuity/fwfs_e04_source_faithful_minimal_change_map_20261028.json"
+      ]
     }
   ],
   "next_source_set": {
@@ -261,5 +273,7 @@
     "data/stories/e01_all_seven_parts_continuous_reader_v1.json",
     "data/stories/fwfs_e02_part03_ankita_next_day_reader_20261026.md",
     "four-walls-story-lab/fwfs-episode-matrix.json"
-  ]
+  ],
+  "latest_director_plot_direction": "Original ice-cream chain retained as plot; no alternative forced. Source-faithful editing map, not verbatim republication or manuscript.",
+  "source_faithful_map": "data/continuity/fwfs_e04_source_faithful_minimal_change_map_20261028.json"
 }
