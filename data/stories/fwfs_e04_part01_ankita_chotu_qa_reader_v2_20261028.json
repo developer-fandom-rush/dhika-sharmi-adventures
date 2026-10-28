@@ -1,0 +1,177 @@
+{
+  "title": "FWFS E04 Part 1 — Friday Morning Return",
+  "version": "QA-corrected derivative v2",
+  "source_kind": "Grok Google Doc, explicitly provided by Director; original left unchanged",
+  "source_date": "2026-10-28",
+  "part": "E04-P01",
+  "story_time": "Friday morning, working timeline 23 October 2026",
+  "status": "PUBLISHED IN STORY LAB AS QA-REVIEW COPY; NOT YET CANON-LOCKED",
+  "original_draft_label": "CORRECTED DRAFT / DIRECTOR REVIEW PENDING",
+  "source_scope": "DHIKA E03 L005–L043 (39 narrative lines)",
+  "blocks": [
+    {
+      "id": "FWFS-E04-P01-S01-L001",
+      "source": "DHIKA L005–L006",
+      "original_text": "Ankita ne aaj subah bathroom se nikalte hi woh knee-length skirt dekhi. Pehle kabhi usne socha tha ki aise kapde ghar ke bahar ya kisi relative ke saamne nahi pehenne chahiye — Mahendra uncle jaise logon ke saamne toh bilkul nahi. Unki nazar se bachte hue hi usne hamesha safe choices ki thi. Lekin aaj subah, ghar khali tha. Rey school gaya tha, Ritvik office. Aaj usne khud se decide kiya.",
+      "text": "Ankita ne aaj subah bathroom se nikalte hi woh knee-length skirt dekhi. Kabhi Ritvik ne suggest kiya tha ki woh ise pehenkar Mehta ghar chale, lekin us waqt Ankita ne mana kar diya tha. Mahendra uncle jaise ghar ke bade logon ke saamne use aise kapdon mein jaana theek nahi laga tha. Yeh uski apni jhijhak thi; use kisi aur ke private khayalon ka pata nahi tha. Lekin aaj ghar mein Rey school aur Ritvik office gaye hue the. Aaj usne skirt pehenne ka faisla apne liye kiya.",
+      "qa_patch": true
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L002",
+      "source": "DHIKA L007",
+      "original_text": "*Agar Chotu dekh le na… usko kaisa lagega? Kya usko lagega main sundar lag rahi hoon?*  \nDil mein sharm si uthi, lekin usne skirt haath mein le li.",
+      "text": "*Agar Chotu dekh le na… usko kaisa lagega? Kya usko lagega main sundar lag rahi hoon?*  \nDil mein sharm si uthi, lekin usne skirt haath mein le li."
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L003",
+      "source": "DHIKA L008–L009",
+      "original_text": "Usne sleeveless top pehna — deep cut nahi, lekin skirt aur top ke beech halka sa gap reh gaya. Mirror ke saamne khadi hui to thoda sa pet dikh raha tha. Usne mind nahi kiya. (Reader note: agar haath upar uthaye to top aur upar khisak sakti thi — yeh baat Ankita ke conscious mind mein abhi nahi thi.)",
+      "text": "Usne sleeveless top pehna — deep cut nahi, lekin skirt aur top ke beech halka sa gap reh gaya. Mirror ke saamne khadi hui toh thoda sa pet dikh raha tha. Usne mind nahi kiya. Abhi use ehsaas nahi tha ki upar shelf tak haath badhate waqt top aur upar khisak sakta hai.",
+      "qa_patch": true
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L004",
+      "source": "DHIKA L010",
+      "original_text": "Thoda mascara, halka rose lipstick. Geela baal abhi bhi kandhon pe thoda chipka hua tha. Woh mirror mein dekhte hue ruk gayi.",
+      "text": "Thoda mascara, halka rose lipstick. Geela baal abhi bhi kandhon pe thoda chipka hua tha. Woh mirror mein dekhte hue ruk gayi."
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L005",
+      "source": "DHIKA L011–L012",
+      "original_text": "Ding-dong.  \nAnkita ke pet mein halki si sparrows udd gayi. Usne jaana tha kaun hai.",
+      "text": "Ding-dong.  \nAnkita ke pet mein halki si sparrows udd gayi. Usne jaana tha kaun hai."
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L006",
+      "source": "DHIKA L013",
+      "original_text": "Chirag (door se): “Didi… kitni der se khada hoon…”  \nAwaaz mein khushi thi.",
+      "text": "Chirag (door se): “Didi… kitni der se khada hoon…”  \nAwaaz mein khushi thi."
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L007",
+      "source": "DHIKA L014–L015",
+      "original_text": "Ankita ne door open kiya. Usne Chirag ke gaalon pe apna haath rakha — yeh chhota sa affectionate touch unke beech pehle se familiar tha, aur Chirag ko pasand tha.  \nAnkita: “Mere Chotu babu.”",
+      "text": "Ankita ne door open kiya. Usne Chirag ke gaalon pe apna haath rakha — yeh chhota sa affectionate touch unke beech pehle se familiar tha, aur Chirag ko pasand tha.  \nAnkita: “Mere Chotu babu.”"
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L008",
+      "source": "DHIKA L016–L018",
+      "original_text": "Chirag andar aaya, bags neeche rakhe, baithne laga. Abhi tak usne Ankita ka naya dress notice nahi kiya tha.  \nChirag: “Rey kahan hai?”  \nAnkita: “School gaya hai. Ritvik bhi office. Itni sudden leave kyun le li thi?”",
+      "text": "Chirag andar aaya, bags neeche rakhe, baithne laga. Abhi tak usne Ankita ka naya dress notice nahi kiya tha.  \nChirag: “Rey kahan hai?”  \nAnkita: “School gaya hai. Ritvik bhi office. Itni sudden leave kyun le li thi?”"
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L009",
+      "source": "DHIKA L019–L020",
+      "original_text": "Chirag ne sir uthaya jawab dene ke liye — aur tab uski nazar Ankita pe padi.  \nGeela baal se lekar uske patle pair tak. Nazar dheere-dheere ghumi.  \nAnkita ne dekha. Aur usse accha laga. Kyun laga, yeh usse khud poori tarah nahi pata tha.",
+      "text": "Chirag ne sir uthaya jawab dene ke liye — aur tab uski nazar Ankita pe padi.  \nGeela baal se lekar uske patle pair tak. Nazar dheere-dheere ghumi.  \nAnkita ne dekha. Aur usse accha laga. Kyun laga, yeh usse khud poori tarah nahi pata tha."
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L010",
+      "source": "DHIKA L021",
+      "original_text": "Ankita (haske): “Earth to Chotu babu… 1… 2… 3…”",
+      "text": "Ankita (haske): “Earth to Chotu babu… 1… 2… 3…”"
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L011",
+      "source": "DHIKA L022–L023",
+      "original_text": "Chirag: “Haan didi… meri dadi… unki tabiyat kharab thi kaafi din se. Village gaya tha. Kal raat unka inteqaal ho gaya.”  \nAnkita ne dil se condolence di. Chirag ne shukriya kaha, lekin bags kholte hue uski nazar baar-baar Ankita ke milky legs pe chali ja rahi thi. Ankita ne notice kiya.",
+      "text": "Chirag: “Haan didi… meri dadi ki tabiyat kaafi din se kharab thi. Main village gaya tha. Wahi unka inteqaal ho gaya. Aaj subah hi wapas aaya hoon.”\nAnkita ki muskaan thahar gayi. Usne dil se condolence di. Chirag ne shukriya kaha, lekin bags kholte hue uski nazar baar-baar Ankita ke legs par ja rahi thi. Ankita ne notice kiya.",
+      "qa_patch": true
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L012",
+      "source": "DHIKA L024–L025",
+      "original_text": "Chirag: “Didi… baal geele hain… sardi lag jayegi.”  \nAnkita ne sir hilaya. Thodi si paani ki boondein udd gayi.  \nAnkita: “Abhi naha ke aayi hoon.”",
+      "text": "Chirag: “Didi… baal geele hain… sardi lag jayegi.”  \nAnkita ne sir hilaya. Thodi si paani ki boondein udd gayi.  \nAnkita: “Abhi naha ke aayi hoon.”"
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L013",
+      "source": "DHIKA L026",
+      "original_text": "Ankita kitchen ki taraf badhi. Delivery ke kuch packets upar wale shelf par rakhne the. Usne haath upar uthaya. Top thodi si upar khisak gayi. Navel saaf dikh raha tha. Chirag ki nazar wahan atak gayi.",
+      "text": "Ankita kitchen ki taraf badhi. Delivery ke kuch packets upar wale shelf par rakhne the. Usne haath upar uthaya. Top thodi si upar khisak gayi. Navel saaf dikh raha tha. Chirag ki nazar wahan atak gayi."
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L014",
+      "source": "DHIKA L027",
+      "original_text": "Ankita ne peeche mudkar dekha. Chirag dekh raha tha. Uske andar ek ajeeb si excitement daud gayi — nayi si, teekhi si. Usne top ko thoda neeche kiya, lekin utna nahi jitna pehle karti.",
+      "text": "Ankita ne peeche mudkar dekha. Chirag dekh raha tha. Uske andar ek ajeeb si excitement daud gayi — nayi si, teekhi si. Usne top ko thoda neeche kiya, lekin utna nahi jitna pehle karti."
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L015",
+      "source": "DHIKA L028–L035 — restored teasing & inner reaction block",
+      "original_text": "Ankita wapas uske paas aa kar khadi ho gayi. Ab uske andar ek alag si feeling chal rahi thi. Pehle kabhi usne kisi ke saamne itna casually apna body show nahi kiya tha. Aaj Chirag ke saamne usse excitement ho rahi thi — thoda sa tease karne ka mann bhi. Yeh feeling uske liye nayi thi.  \nAnkita (halki si muskaan ke saath): “Uhhhh Chotu… jaise hamesha, kuch bhool gaye na?”  \nChirag ka chehra change hua.  \nChirag: “Oh yes… ice-creams. Freezer mein chhod aaya tha shop pe. Dus minute didi… abhi laata hoon.”",
+      "text": "Ankita ne dheere se poocha, “Chotuuu… kya dekh rahe ho?”\nChirag ekdum chaunk gaya. “Kuch nahi didi! Bas dekh raha tha aapko shelf se samaan rakhte hue… kahin gir na jao.”\nAnkita muskurayi. “Awww… mera Chotu babu meri itni fikr karta hai?”\nChirag ne awkward si smile di aur nazar phir packets par tikane ki koshish ki.\nAnkita ne thoda aur tease kiya. “Mujhe toh laga tum mere pet ko dekh rahe the.”\n“Nahi didi… aisa kuch nahi,” Chirag ne jaldi se kaha.\nAnkita hansi rok kar palat gayi. Usse ab samajh aa gaya tha ki Chirag ki nazar kahan ruki thi. Tuesday ko usne uski reaction jaanchne ki koshish ki thi; aaj ka shelf wala movement shuru mein bas kaam tha. Lekin Chirag ke chaunkne aur jhijhakne se uski curiosity aur badh gayi. Woh khud bhi abhi nahi samajh paa rahi thi ki is chhoti si teasing mein use itni dilchaspi kyun ho rahi hai. Woh wapas Chirag ke paas aa khadi hui jab woh packets arrange kar raha tha.",
+      "qa_patch": true
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L016",
+      "source": "DHIKA L036–L037",
+      "original_text": "Woh uthkar bhaga.",
+      "text": "“Uhhhh Chotu… jaise hamesha, kuch bhool gaye na?” Ankita ne kaha.\nChirag ka chehra badla. “Oh yes… ice-creams! Shop ke freezer mein chhod aaya tha. Dus minute, didi… abhi laata hoon.”\nWoh uthkar jaldi se bahar nikal gaya.",
+      "qa_patch": true
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L017",
+      "source": "DHIKA L038–L041 — Chirag private POV",
+      "original_text": "Raste bhar Chirag ka dimaag ek hi jagah ghoom raha tha.  \n*Didi aaj alag kyun lag rahi hain? Main paagal hoon… uska pet kyun dekh liya? Teen din pehle Tuesday ko bhi… jab documents check kar rahe the, photos mein… uske… itne cream colour ke… itne white…*  \nUsne sir hilaya, soch ko hatane ki koshish ki.  \n*Main aisa soch nahi sakta. Didi mujhpe comfortable feel karti hain. Main usko spoil nahi karunga.*",
+      "text": "Raste bhar Chirag ka dimaag ek hi jagah ghoom raha tha.\n*Didi aaj alag kyun lag rahi hain? Maine unke pet ko kyun dekh liya? Teen din pehle Tuesday ko bhi… jab woh documents arrange karte hue coffee table par jhuki thi… ek jhalak mili thi. Cream-coloured skin ka woh hissa… aur mujhe samajh nahi aaya ki woh moment jaan-bujhkar tha ya sirf meri soch.*\nUsne sir hilaya, soch ko hatane ki koshish ki.\n*Main aisa soch nahi sakta. Didi mujh par trust karti hain. Main woh trust kharab nahi karunga.*",
+      "qa_patch": true
+    },
+    {
+      "id": "FWFS-E04-P01-S01-L018",
+      "source": "DHIKA L042–L043",
+      "original_text": "Woh daudta raha, lekin soch uske peeche-peeche chalti rahi.  \nGhar mein Ankita akeli thi. Uske andar excitement thi, aur thoda darr bhi. Agla kya hoga, yeh usse nahi pata tha. Tuesday ki baatein abhi bhi dimaag mein thi — woh conscious choices, woh testing, woh unresolved feeling. Aaj subah kuch naya shuru ho raha tha, aur woh usse rok nahi pa rahi thi.",
+      "text": "Woh daudta raha, lekin soch uske peeche-peeche chalti rahi.  \nGhar mein Ankita akeli thi. Uske andar excitement thi, aur thoda darr bhi. Agla kya hoga, yeh usse nahi pata tha. Tuesday ki baatein abhi bhi dimaag mein thi — woh conscious choices, woh testing, woh unresolved feeling. Aaj subah kuch naya shuru ho raha tha, aur woh usse rok nahi pa rahi thi."
+    }
+  ],
+  "qa_patches": [
+    {
+      "id": "001",
+      "source": "E03 L005–L006",
+      "reason": "Previous outfit history with Ritvik/Mahendra grounded as a retrospective; do not impute Ankita's knowledge of Mahendra's inner thoughts"
+    },
+    {
+      "id": "003",
+      "source": "E03 L008–L009",
+      "reason": "Remove editorial Reader note from live prose"
+    },
+    {
+      "id": "011",
+      "source": "E03 L022–L023",
+      "reason": "Friday morning return confirmed; avoid asserting an unapproved exact night for death"
+    },
+    {
+      "id": "015",
+      "source": "E03 L028–L035",
+      "reason": "Restore the full tease → Chirag's deflection → caring joke → denial → Ankita's interpretation progression instead of omitting dialogue"
+    },
+    {
+      "id": "016",
+      "source": "E03 L036–L037",
+      "reason": "Move forgotten-ice-cream reminder into correctly mapped source block"
+    },
+    {
+      "id": "017",
+      "source": "E03 L038–L041",
+      "reason": "Replace vague photo memory with correct Tuesday coffee-table paperwork event and Chirag's uncertainty"
+    }
+  ],
+  "qa_note": "The user's original Doc remains untouched. This version is a targeted editor derivative based on the current Drive doc and previously approved Director decisions. Director can mark canon after reviewing.",
+  "next_phase": {
+    "fwfs_part2": {
+      "dhika_start": 44,
+      "dhika_end": 81,
+      "topic": "Chirag returns; shared ice cream, conversation, small incidents and affectionate gesture"
+    },
+    "fwfs_part3": {
+      "dhika_start": 82,
+      "dhika_end": 98,
+      "topic": "Mutual attention, unspoken questions, first kiss and immediate departure"
+    },
+    "next_day": {
+      "dhika_start": 99,
+      "dhika_end": 100,
+      "topic": "Reflection and secrecy to schedule after Friday"
+    }
+  }
+}
