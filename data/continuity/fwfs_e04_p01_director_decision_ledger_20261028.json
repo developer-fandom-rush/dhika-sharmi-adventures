@@ -5,7 +5,7 @@
   "source_policy": "Use unchanged DHIKA source lines as evidence. Separate written FWFS, review copies, Director decisions, and proposals. Never invent prior continuity. No manuscript text changed.",
   "episode": "FWFS E04",
   "part": "P01",
-  "state": "DIRECTOR PLANNING; WRITING ON HOLD",
+  "state": "PART 1 DIRECTOR DECISIONS COMPLETE / GROK WRITING HANDOVER RELEASED; NO MANUSCRIPT CANON",
   "director_decisions": [
     {
       "id": "E04-P01-D001",
@@ -134,6 +134,27 @@
         "knowledge": "Chirag remembers what he noticed but remains uncertain whether Ankita deliberately created the moment (Director Option B)"
       },
       "correction_from_director": "Line 39 was presented incompletely. The original Chotu thought explicitly includes the appearance description 'they were looking so white'. Preserve the fact, visual detail, remembered event and his inner response in the source map; do not paraphrase it into a generic 'previous visual incident'."
+    },
+    {
+      "id": "E04-P01-D007",
+      "source_range": "DHIKA E03 L022–L023",
+      "director_raw_input": "yeah, that reason is very good, right? That grandmother died, and so he was, he went back to village. And mention that he came back on Friday only, not on Saturday. He came back on Friday, and today as he came back to Friday morning, and now he is with Dika, sorry, with Ankita. So I guess part one is ready.",
+      "decision": "Chirag's grandmother died; he travelled to his village and returned on Friday morning. This is revealed to Ankita on Friday during this visit, not treated as previously known. Friday is the sole return day; do not describe Saturday as his return.",
+      "decision_status": "DIRECTOR APPROVED FOR E04 PART 1; WRITING HANDOVER RELEASED",
+      "approved_items": [
+        "Grandmother's death is leave reason",
+        "Village trip happened during leave",
+        "Chirag returned Friday morning, not Saturday",
+        "Ankita learns reason during E04 Friday encounter"
+      ],
+      "not_approved_or_not_determined": [
+        "Exact clock time Friday",
+        "Part 2 relationship/contact decisions"
+      ],
+      "source_links": [
+        "data/episodes/e03.json",
+        "data/stories/fwfs_e02_part03_ankita_next_day_reader_20261026.md"
+      ]
     }
   ],
   "next_source_set": {
@@ -229,17 +250,10 @@
         "decision": "OPEN: FAMILY / LEAVE REASON"
       }
     ],
-    "blocking_decisions": [
-      {
-        "id": "E04-P01-OPEN02",
-        "topic": "Why Chirag took leave",
-        "question": "FWFS Thursday's shopkeeper only says he took sudden leave; preserve as unexplained until Director decides, without importing DHIKA grandmother death.",
-        "status": "OPEN; NEXT SOURCE SECTION L019–L023"
-      }
-    ],
+    "blocking_decisions": [],
     "review_policy": "One material question per turn; quote original source fragment with exact E03 line number; prioritize character thoughts, attraction, infidelity conflict, physical/visual beats and their impact on FWFS history. Routine logistical facts may be resolved without asking where evidence/Director direction suffices.",
-    "current_review_line": 39,
-    "review_notes": "D006 SOURCE OMISSION CORRECTED: exact DHIKA L039 includes current stomach glance and specific recollection of an earlier white-appearance detail; FWFS Tuesday review A-P7-GR-012 has its own cream-colored descriptor. Keep the two worlds distinct. User has not approved a new +1 change; no new prose."
+    "current_review_line": 49,
+    "review_notes": "L022 director answered: grandmother death, village leave, Chirag returned Friday morning only. Part 1 ready for Grok handover. Next source set E03 L044–L098; review L049 physical greeting/sitting action first."
   },
   "sources_used": [
     "data/episodes/e03.json",
