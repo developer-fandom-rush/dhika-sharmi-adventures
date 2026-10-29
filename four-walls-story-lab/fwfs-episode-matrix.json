@@ -16,7 +16,7 @@
     "start_wednesday_date": "2026-10-21",
     "annotation": "Chosen fictional working date per user's request. Does not rewrite dates in approved source prose."
   },
-  "approval_policy": "E04 P1–P7 available in reader, P4–P7 under review. E05 P1 (Shivani family lunch) and P2 (tuition request) available as working drafts, director review pending; publication does not imply canon approval.",
+  "approval_policy": "Director approved/published all currently saved FWFS E01–E05 prose as written on 29 Oct 2026, without rewriting manuscripts. Proposed Taniya future encounter is only a director/writer brief; E05 P2 source-covered through DHIKA E02 L121, remaining L122–150 not written.",
   "characters": [
     {
       "id": "ankita",
@@ -376,11 +376,12 @@
       "time": "1:00 PM",
       "title": "Shivani visits Taniya / Prakash at Arora · Three Gazes draft",
       "state": "written",
-      "episode": "FWFS E05 P1 · DIRECTOR REVIEW PENDING",
+      "episode": "FWFS E05 P1 · DIRECTOR APPROVED",
       "dhika": "DHIKA E02 visit framework",
-      "notes": "Invitation fixed, episode and scenes not written 150-line draft grouped under E05 P1; Prakash garment knowledge remains reader-only. Mahendra cameo is draft-only.",
+      "notes": "Invitation fixed, episode and scenes not written 150-line draft grouped under E05 P1; Prakash garment knowledge remains reader-only. Mahendra cameo is draft-only. Existing saved prose approved/published 29 Oct 2026; legacy proposal timing may remain and does not automatically create an unwritten scene.",
       "source": "data/stories/fwfs_e03_shivani_three_gazes_plot_corrected_director_draft_20261029.md",
-      "reader_url": "e05-shivani-reading-room.html#part1"
+      "reader_url": "e05-shivani-reading-room.html#part1",
+      "review_status": "published_director_approved_as_written_2026_10_29"
     },
     {
       "id": "planned-event-10",
@@ -413,23 +414,24 @@
       "time": "1:00 PM",
       "title": "Taniya hosts Shivani and Aditya · Three Gazes draft",
       "state": "written",
-      "episode": "FWFS E05 P1 · DIRECTOR REVIEW PENDING",
+      "episode": "FWFS E05 P1 · DIRECTOR APPROVED",
       "dhika": "DHIKA E02 visit framework",
-      "notes": "Saturday lunch invitation fixed; prose not yet written 150-line draft grouped under E05 P1; Prakash garment knowledge remains reader-only. Mahendra cameo is draft-only.",
+      "notes": "Saturday lunch invitation fixed; prose not yet written 150-line draft grouped under E05 P1; Prakash garment knowledge remains reader-only. Mahendra cameo is draft-only. Existing saved prose approved/published 29 Oct 2026; legacy proposal timing may remain and does not automatically create an unwritten scene.",
       "source": "data/stories/fwfs_e03_shivani_three_gazes_plot_corrected_director_draft_20261029.md",
-      "reader_url": "e05-shivani-reading-room.html#part1"
+      "reader_url": "e05-shivani-reading-room.html#part1",
+      "review_status": "published_director_approved_as_written_2026_10_29"
     },
     {
       "id": "planned-event-13",
       "character": "taniya",
       "offset": 4,
       "time": "5:00 PM",
-      "title": "Taniya and Dev visit Colonel Rathore",
-      "state": "scheduled",
-      "episode": "FWFS Ep-XX",
+      "title": "Taniya visits Colonel Rathore with Vihaan & Laksh (Dev does not attend)",
+      "state": "director_selected_prose_pending",
+      "episode": "NEXT DAYWISE EPISODE (SUNDAY) · UNWRITTEN",
       "dhika": "DHIKA E02 visit framework",
-      "notes": "Sunday tea visit promised; scene not written",
-      "source": "FWFS E02 P1 L071–073"
+      "notes": "Sunday tea visit promised; scene not written Director 29 Oct changes attendance only. Original E02 invitation still named Taniya and Dev; Dev opts not to attend, Vihaan and Laksh accompany. No Colonel visit prose exists yet.",
+      "source": "data/stories/fwfs_e06_taniya_colonel_and_cousin_devars_director_brief_20261029.md"
     },
     {
       "id": "planned-event-14",
@@ -464,9 +466,10 @@
       "state": "written",
       "episode": "FWFS E04 P4",
       "dhika": "DHIKA E03 L099–L100",
-      "notes": "Grok-revised Part 4 (21 source-preserved numbered lines) now shown in E04 reader. Director approval pending; Friday Chirag kiss stays secret from Ritvik.",
+      "notes": "Grok-revised Part 4 (21 source-preserved numbered lines) now shown in E04 reader. Director approval pending; Friday Chirag kiss stays secret from Ritvik. Existing saved prose approved/published 29 Oct 2026; legacy proposal timing may remain and does not automatically create an unwritten scene.",
       "source": "data/stories/fwfs_e04_part04_grok_review_reader_20261028.json",
-      "reader_url": "e04-ankita-chotu-reader.html#part4"
+      "reader_url": "e04-ankita-chotu-reader.html#part4",
+      "review_status": "published_director_approved_as_written_2026_10_29"
     },
     {
       "id": "ankita-forward-5-17",
@@ -475,12 +478,13 @@
       "time": "Monday 26 Oct · 7–8 PM (proposed, subject to convenience)",
       "title": "First Karan–Aman UX meeting · revised manuscript for review",
       "state": "scheduled",
-      "episode": "FWFS E04 P05 · GROK REVISION AVAILABLE / DIRECTOR REVIEW PENDING",
+      "episode": "FWFS E04 P05 · GROK REVISION AVAILABLE / · DIRECTOR APPROVED",
       "dhika": "DHIKA E03 L101–151 (adaptation baseline)",
-      "notes": "Monday adult colleague session is in 51-line Grok-revised reader. Existing meeting schedule conditional; manuscript is not approved canon.",
+      "notes": "Monday adult colleague session is in 51-line Grok-revised reader. Existing meeting schedule conditional; manuscript is not approved canon. Existing saved prose approved/published 29 Oct 2026; legacy proposal timing may remain and does not automatically create an unwritten scene.",
       "source": "data/stories/fwfs_e04_part05_karan_aman_grok_review_reader_20261028.json",
       "source_plot": "data/continuity/fwfs_e04_twins_karan_aman_adaptation_decision_20261028.json",
-      "reader_url": "e04-ankita-chotu-reader.html#part5"
+      "reader_url": "e04-ankita-chotu-reader.html#part5",
+      "review_status": "published_director_approved_as_written_2026_10_29"
     },
     {
       "id": "ankita-forward-6-18",
@@ -491,9 +495,10 @@
       "state": "proposed",
       "episode": "FWFS E04 P06 · PREPARATION IN GROK REVIEW DRAFT",
       "dhika": "DHIKA E03 L152",
-      "notes": "Tuesday paint/supplies preparation is drafted within Grok Part 6, not yet approved canon.",
+      "notes": "Tuesday paint/supplies preparation is drafted within Grok Part 6, not yet approved canon. Existing saved prose approved/published 29 Oct 2026; legacy proposal timing may remain and does not automatically create an unwritten scene.",
       "source": "data/stories/fwfs_e04_part06_karan_aman_grok_review_reader_20261028.json",
-      "reader_url": "e04-ankita-chotu-reader.html#part6"
+      "reader_url": "e04-ankita-chotu-reader.html#part6",
+      "review_status": "published_director_approved_as_written_2026_10_29"
     },
     {
       "id": "ankita-forward-7-19",
@@ -502,11 +507,12 @@
       "time": "Wednesday 28 Oct · evening 7–8 PM (tentative)",
       "title": "Second Karan–Aman encounter · Grok corrected accident and reassurance",
       "state": "tentative",
-      "episode": "FWFS E04 P06 · GROK CORRECTIONS APPLIED / DIRECTOR REVIEW PENDING",
+      "episode": "FWFS E04 P06 · GROK CORRECTIONS APPLIED / · DIRECTOR APPROVED",
       "dhika": "DHIKA E03 L153–183",
-      "notes": "Part 6 review reader contains 63 numbered passages, including explicit Grok line replacements 067–091 and restored original placeholders; not canon-approved.",
+      "notes": "Part 6 review reader contains 63 numbered passages, including explicit Grok line replacements 067–091 and restored original placeholders; not canon-approved. Existing saved prose approved/published 29 Oct 2026; legacy proposal timing may remain and does not automatically create an unwritten scene.",
       "source": "data/stories/fwfs_e04_part06_karan_aman_grok_review_reader_20261028.json",
-      "reader_url": "e04-ankita-chotu-reader.html#part6"
+      "reader_url": "e04-ankita-chotu-reader.html#part6",
+      "review_status": "published_director_approved_as_written_2026_10_29"
     },
     {
       "id": "shivani-mon-tuition-e05p2",
@@ -515,11 +521,12 @@
       "time": "Monday 26 Oct · noon",
       "title": "Raghav and Rishabh request three weekly tuition sessions",
       "state": "written",
-      "episode": "FWFS E05 P2 · DIRECTOR REVIEW PENDING",
+      "episode": "FWFS E05 P2 · DIRECTOR APPROVED",
       "dhika": "DHIKA E02 L079–109",
-      "notes": "31-beat working draft only, request + agreement + Aditya called; later home-visit incident not drafted.",
+      "notes": "31-beat working draft only, request + agreement + Aditya called; later home-visit incident not drafted. Existing saved prose approved/published 29 Oct 2026; legacy proposal timing may remain and does not automatically create an unwritten scene.",
       "source": "data/stories/fwfs_e03_shivani_raghav_rishabh_tuition_request_source_faithful_draft_20261029.md",
-      "reader_url": "e05-shivani-reading-room.html#part2"
+      "reader_url": "e05-shivani-reading-room.html#part2",
+      "review_status": "published_director_approved_as_written_2026_10_29"
     },
     {
       "id": "ankita-sat-pantry-e04p7",
@@ -528,11 +535,24 @@
       "time": "Saturday 31 Oct · morning",
       "title": "The First Pantry Shelf · Ankita and Chirag",
       "state": "written",
-      "episode": "FWFS E04 P7 · DIRECTOR REVIEW PENDING",
+      "episode": "FWFS E04 P7 · DIRECTOR APPROVED",
       "dhika": "FWFS original continuation",
-      "notes": "Corrected 80-line Google Doc Tab 3 review manuscript; E04 reader updated without touching original Google Doc.",
+      "notes": "Corrected 80-line Google Doc Tab 3 review manuscript; E04 reader updated without touching original Google Doc. Existing saved prose approved/published 29 Oct 2026; legacy proposal timing may remain and does not automatically create an unwritten scene.",
       "source": "data/stories/fwfs_e04_part07_ankita_pantry_targeted_revision_20261029.json",
-      "reader_url": "e04-ankita-chotu-reader.html#part7"
+      "reader_url": "e04-ankita-chotu-reader.html#part7",
+      "review_status": "published_director_approved_as_written_2026_10_29"
+    },
+    {
+      "id": "taniya-devars-hostel-return-after-colonel",
+      "character": "taniya",
+      "offset": 5,
+      "time": "After Sunday · Monday 26 Oct candidate; exact slot OPEN",
+      "title": "Vihaan, Laksh, Arjun and Dhruv return from campus hostel and seek marketing mentorship; Taniya home scene",
+      "state": "director_selected_outline_only",
+      "episode": "TANIYA FOLLOW-UP · NOT WRITTEN",
+      "dhika": "DHIKA E02 L079–L150 structural reference",
+      "notes": "Director-directed next Taniya encounter, not a completed manuscript; no first-home tour; brief wardrobe accident, no detailed physical exposure; preserve family relationships and existing E01 encounters.",
+      "source": "data/stories/fwfs_e06_taniya_colonel_and_cousin_devars_director_brief_20261029.md"
     }
   ],
   "source_checks": {
@@ -622,19 +642,19 @@
       "fwfs": "E04",
       "date": "Friday 23 Oct through Saturday 31 Oct (draft/story-time sequence)",
       "focus": "P1–P3 Friday; P4 Saturday aftermath; P5–P6 Monday–Wednesday; P7 following Saturday pantry",
-      "state": "P1–P7 READER AVAILABLE; P4–P7 DIRECTOR REVIEW PENDING"
+      "state": "P1–P7 PUBLISHED / DIRECTOR APPROVED AS WRITTEN 29 OCT 2026"
     },
     {
       "fwfs": "E05",
       "date": "Saturday 24 Oct and Monday 26 Oct (out-of-episode chronology alongside E04)",
       "focus": "P1 Shivani/Taniya family lunch; P2 Shivani Raghav–Rishabh tuition request",
-      "state": "TWO DRAFT PARTS SAVED IN REVIEW READER; NOT CANON LOCKED"
+      "state": "P1–P2 PUBLISHED / DIRECTOR APPROVED AS WRITTEN 29 OCT 2026; P2 later original DHIKA L122–150 not yet adapted"
     },
     {
       "fwfs": "E06",
       "date": "Sun 25–Tue 27 Oct",
-      "focus": "Outstanding Shivani / Taniya scenes and parallel events",
-      "state": "suggestion only"
+      "focus": "Sunday 25 Oct · Taniya with Vihaan/Laksh visit Colonel Rathore; after-visit four-devar home sequence to follow.",
+      "state": "Director outline only; Grok prose pending."
     },
     {
       "fwfs": "E07+",
@@ -752,5 +772,13 @@
       "source": "data/episodes/e03.json",
       "proves": "Original home/paint setup L137–152, second twins visit/pallu mishap/reassurance L153–183. Adaptations not manuscript."
     }
-  ]
+  ],
+  "director_progression_2026_10_29": {
+    "Ankita": "Next DHIKA E04 direction selected by director; E04 P7 is FWFS-original continuation, not line-by-line E03 completion.",
+    "Shreya": "Next DHIKA E03 reference",
+    "Shivani": "Next DHIKA E03 reference after finishing E02 remaining first-visit incident",
+    "Taniya": "New Sunday Colonel visit (Taniya + Vihaan + Laksh; Dev absent) and then 4 cousin-devars' campus-return mentorship/home sequence; these remain unwritten story briefs.",
+    "publication": "Existing E01–E05 saved prose Director Approved / Published. New Taniya plot brief not prose.",
+    "clock": "One shared daywise calendar. Friday = 23 Oct, Saturday = 24 Oct, Sunday = 25 Oct, Monday = 26 Oct. Maintain already-published text dates unless explicitly re-edited."
+  }
 }
