@@ -164,7 +164,7 @@ function select(ep,part,write=true){
  const picker=document.getElementById("fwfs-episode-picker");if(picker)picker.value=ep;
  window.setFWFSStoryMenu?.(ep);
  window.fwfsNavigate?.();
- if(write&&location.hash!==stateHash(ep,part))history.replaceState(null,"",stateHash(ep,part));
+ if(location.hash!==stateHash(ep,part))history.replaceState(null,"",stateHash(ep,part));
  render();
 }
 function chooseHash(){
