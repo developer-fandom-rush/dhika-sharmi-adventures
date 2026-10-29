@@ -2383,7 +2383,7 @@ var storyMenu={
 "04":[["Part 1 · Friday arrival","fwfs:1"],["Part 2 · Ice cream","fwfs:2"],["Part 3 · Continuation","fwfs:3"],["Part 4 · Saturday","fwfs:4"],["Part 5 · Monday","fwfs:5"],["Part 6 · Midweek","fwfs:6"],["Part 7 · Pantry","fwfs:7"]],
 "05":[["Part 1 · Three Gazes","fwfs:1"],["Part 2 · Tuition & Home Visit","fwfs:2"]]
 };
-window.fwfsNavigate=function(){navigate("story-fwfs-unified");};
+window.fwfsNavigate=function(){var view=document.querySelector('[data-view="story-fwfs-unified"]');if(view&&view.hidden)navigate("story-fwfs-unified");};
 window.setFWFSStoryMenu=function(n){setStoryMenu(n);};
 
 function buttonFor(parent,label,key){var b=document.createElement("button");b.type="button";b.className="side-button";b.setAttribute("data-go",key);b.textContent=label;parent.appendChild(b);}
