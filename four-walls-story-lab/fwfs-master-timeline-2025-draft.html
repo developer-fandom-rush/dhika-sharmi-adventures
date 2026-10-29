@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>FWFS · 2025 Shared Calendar · Director Draft</title>
-<meta name="description" content="FWFS four-woman calendar proposal starting 21 October 2025, aligned to DHIKA E01–E03 encounter gaps.">
+<meta name="description" content="FWFS and DHIKA share a common Day 1 on 21 October 2025. Preserve the source-relative gaps for each woman; blank cells remain unassigned.">
 <style>
 :root{color-scheme:dark;--bg:#0d1828;--paper:#14273b;--head:#203752;--border:#425d79;--text:#f1f4f7;--secondary:#b9cada;--accent:#f0d0a1;--approved:#a5d9bc;--review:#efce9d;--scheduled:#a5c4e3}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.65 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
@@ -29,15 +29,15 @@ th:nth-child(1){width:122px}th:nth-child(2){width:230px}th:nth-child(n+3){width:
 <main>
 <div class="kicker">Director Discussion · Not Canon Locked</div>
 <h1>FWFS · Four-Woman Timeline</h1>
-<p class="muted">Calendar begins <strong>Tuesday, 21 October 2025</strong>. DHIKA Episodes 01–03 provide the relative-day reference; FWFS character events remain in their already-written weekday order. One date can have multiple women/events.</p>
-<div class="legend"><span>Written = manuscript exists</span><span class="approved">Approved = previously accepted</span><span class="review">Review = draft, not final</span><span class="scheduled">Scheduled = planned, no completed prose</span><span>Empty cell = unassigned</span></div>
+<p class="muted"><strong>Shared Day 1 = Tuesday, 21 October 2025</strong> for BOTH DHIKA and FWFS Episode 01. Every following date moves by the source-relative story-day gap. One day can include several women; unwritten encounters remain blank.</p>
+<div class="legend"><span>2025 weekdays are calendar-correct; original source weekday words are shown separately</span><span>Written = manuscript exists</span><span class="approved">Approved = previously accepted</span><span class="review">Review = draft, not final</span><span class="scheduled">Scheduled = planned, no completed prose</span><span>Empty cell = unassigned</span></div>
 <div class="toolbar"><span class="muted">View:</span><button type="button" data-view-mode="all" aria-pressed="true">All four women</button><button type="button" data-view-mode="ankita" aria-pressed="false">Ankita</button><button type="button" data-view-mode="shivani" aria-pressed="false">Shivani</button><button type="button" data-view-mode="shreya" aria-pressed="false">Shreya</button><button type="button" data-view-mode="taniya" aria-pressed="false">Taniya</button></div>
 <p id="status" class="muted">Loading source-backed timeline…</p>
 <div class="table-wrap"><table aria-label="Date-by-date DHIKA and four-woman FWFS timeline"><thead id="headers"></thead><tbody id="rows"></tbody></table></div>
 <div class="notes"><strong>Important scheduling decisions still open:</strong>
-<p>E05 Shivani Saturday lunch has a Sunday reflection, but Monday's twins meeting begins two days after Saturday. This is not the one-day Sunday→Monday Uncle→Twins gap in the DHIKA original. Do not force a change without Director approval.</p>
-<p>Existing manuscripts still mention 2026 dates; the 2025 dates on this chart are a proposed rebase only. Episode 01 backstory lacks a proven absolute date. E05 Part 2 L122–L150 follow-up has not been drafted, and Taniya's Colonel Sunday tea has no completed prose.</p></div>
-<p class="foot">Read-only draft matrix. Does not overwrite the existing 2026 event log or original manuscripts.</p>
+<p><strong>Same starting date, different arcs:</strong> DHIKA source opens with a Friday, FWFS E01 with a Saturday, but 21 October 2025 is Tuesday. For this <em>day-gap planning chart</em>, both start on the same Day 1. Their original weekday words are displayed as legacy labels, not silently changed to match the 2025 calendar.</p>
+<p>FWFS's Saturday Arora lunch falls on <strong>shared Day 8</strong> and Monday tuition request on <strong>shared Day 10</strong>, preserving the written two-day separation. Existing manuscripts still use legacy dates; their prose has not been overwritten. Taniya's Colonel tea and Shivani's subsequent tuition class remain unwritten.</p></div>
+<p class="foot">Shared-start chronology; relative gaps verified against DHIKA E01–E03 and existing FWFS manuscripts. Draft only; no original manuscripts rewritten.</p>
 </main><script>
 (function(){"use strict";
 const people=[["ankita","Ankita"],["shivani","Shivani"],["shreya","Shreya"],["taniya","Taniya"]];
@@ -47,9 +47,9 @@ function e(tag,klass,txt){const x=document.createElement(tag);if(klass)x.classNa
 function draw(){
  if(!data)return;headers.textContent="";rows.textContent="";
  const list=mode==="all"?people:people.filter(p=>p[0]===mode);
- const head=e("tr");for(const n of ["Date","DHIKA E01–03 source",...list.map(z=>z[1])])head.appendChild(e("th","",n));headers.appendChild(head);
+ const head=e("tr");for(const n of ["Day / 2025 date","DHIKA E01–03 source",...list.map(z=>z[1])])head.appendChild(e("th","",n));headers.appendChild(head);
  for(const d of data.days){
- const tr=e("tr");const date=e("td","date",d.day);date.appendChild(e("small","",d.date));tr.appendChild(date);
+ const tr=e("tr");const date=e("td","date","Day "+d.dayIndex+" · "+d.day);date.appendChild(e("small","",d.date));date.appendChild(e("small","","Source days: DHIKA "+(d.sourceDays.dhika||"—")+" / FWFS "+d.sourceDays.fwfs));tr.appendChild(date);
  tr.appendChild(e("td","source",d.dhika==="—"?"—":d.dhika));
  for(const [id] of list){
  const td=e("td");const entries=d.cells[id]||[];
@@ -59,9 +59,9 @@ function draw(){
  }tr.appendChild(td);
  }rows.appendChild(tr);
  }
- status.textContent=data.days.length+" dates · "+list.length+" woman/women displayed · Calendar proposal only";
+ status.textContent=data.days.length+" shared days · "+list.length+" woman/women displayed · Original weekday labels not yet rebased";
 }
 document.querySelectorAll("[data-view-mode]").forEach(b=>b.addEventListener("click",()=>{mode=b.dataset.viewMode;document.querySelectorAll("[data-view-mode]").forEach(z=>z.setAttribute("aria-pressed",String(z===b)));draw()}));
-fetch("fwfs-master-timeline-2025-draft.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(d=>{if(d.anchor!=="2025-10-21"||d.days?.length!==13)throw Error("Source date/range mismatch");data=d;draw()}).catch(err=>status.textContent="Unable to load timeline: "+err.message);
+fetch("fwfs-master-timeline-2025-draft.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(d=>{if(d.anchor!=="2025-10-21"||d.days?.length!==15)throw Error("Source date/range mismatch");data=d;draw()}).catch(err=>status.textContent="Unable to load timeline: "+err.message);
 })();
 </script></body></html>
