@@ -1,15 +1,15 @@
-# FWFS Episode 05 — Shivani · Part 2 · Raghav/Rishabh tuition request and first short visit
+# FWFS Episode 05 — Shivani · Part 2 · Tuition Request and First Visit
 
-**Status:** DRAFT / DIRECTOR REVIEW PENDING; *source-faithful replacement candidate, not yet director-approved*.
-**Source:** Original DHIKA Episode 02 **L079–L121**, 43 consecutive original narrative lines. Each beat stays at the same source line position.
-**Substitution policy:** Dhika→Shivani, Bantu→Raghav, Bobby→Rishabh, John→Aditya; college→CA office, Physics→accounting/auditing, students→adult interns. Saturday bike memory, office timetable and household-presence wording changed only to avoid false existing FWFS continuity.
-**Original reference not recopied beyond L121:** The later DHIKA L122–L150 incident and aftermath are not in this saved draft; no new event is invented in their place.
-**Compared with prior assistant version:** Earlier Part 2 was a newly composed Hindi adaptation (L079–L109), **not** verbatim DHIKA wording. This revised English draft restores source phrasing as closely as those mapped roles permit, and includes the original first home-arrival beats L110–L121.
+**Status:** DRAFT / DIRECTOR REVIEW PENDING.
+**Source:** Dhika E02 L079–L121, same 43 consecutive original beats and order.
+**Editing rule:** Original English wording retained wherever names and relationships allow. Dhika→Shivani, Bantu→Raghav, Bobby→Rishabh, John→Aditya; college/student/Physics background becomes the established CA office, interns and Accounting; house-arrival, weekday and bike memory adjusted only where original facts contradicted Shivani's existing continuity. No new subplot, new scene or extra character added.
+**Scope:** The original subsequent incident (Dhika E02 L122–L150) is NOT copied into this Part 2; the request and first arrival conclude at L121.
+**Source fidelity:** not word-for-word identical; necessary contextual substitutions are disclosed above. This version supersedes the earlier assistant-written 31-line Hindi adaptation for the E05 reader.
 
 ---
 
 **L079**
-It was Monday around noon at her CA office, when Shivani was working attentively on the client files and heard a voice.
+She did not think much about it on Monday at the CA office, it was about 12 in the noon and she was at her desk, working attentively when she heard a voice.
 
 **L080**
 Raghav: Hi ma'am...... you are looking very beautiful. She was wearing a cream green color saree with bright colored blouse.
@@ -30,7 +30,7 @@ Shivani: hehehe...... enough stop it.
 Raghav: Ma'am, we want to ask you a favor.
 
 **L086**
-She remembered the last time Raghav and Rishabh helped with a ride home, how unexpectedly awkward it had become and how Rishabh later sent an apology.
+She remembered last time when they offered her a ride home and how awkward the bike ride had become, and Rishabh's apology later.
 
 **L087**
 Shivani: hehe.... need another ride to home Rishabh ?.. she asked teasingly.
@@ -39,7 +39,7 @@ Shivani: hehe.... need another ride to home Rishabh ?.. she asked teasingly.
 Rishabh: ha.... uh.... no ma'am.... he was startled. He wasn't expecting her to talk to him. He was trying to catch a glimpse of her hips. .
 
 **L089**
-Raghav: Ma'am..... you know how much we both like Advanced Accounting and Auditing..... but we want to study more than what we cover in internship.
+Raghav: Ma'am..... you know how much we both like Accounting..... but we want to study more than what they are teaching us in the internship.
 
 **L090**
 Shivani: Puzzled..... why Raghav ?
@@ -51,7 +51,7 @@ Raghav: Ma'am.... our aim is to become qualified accounting and audit profession
 Shivani: Amazed.... wow bantu and bobby ... thinking about future already.... how can I help you.
 
 **L093**
-*****Raghav had already laid out a plan to spend more time with Shivani and needed Rishabh's help too. Even though she liked both of them, he knew that Shivani had a special soft spot for Rishabh because of his introvert nature..... she always liked teasing him..... to try and bring him out of his uncomfortable zone.
+****Raghav had already laid out a plan to spend more time with Shivani and needed Rishabh's help too. Even though she liked both of them, he knew that Shivani had a special soft spot for Rishabh because of his introvert nature..... she always liked teasing him..... to try and bring him out of his uncomfortable zone.
 
 **L094**
 Rishabh: errr.. can you teach us ma'am.
@@ -66,7 +66,7 @@ Raghav: giving a you are stupid look at Rishabh.... ma'am... what he meant is...
 Shivani: hehe... she looked at bobby who was scratching his head.
 
 **L098**
-*****Shivani always thought high of Raghav and Rishabh as they were very polite and very studious. She was amazed when they told her about their future plans, she felt really happy and thought she would help in any way she can.
+****Shivani always thought high of Raghav and Rishabh as they were very polite and very studious. She was amazed when they told her about their future plans, she felt really happy and thought she would help in any way she can.
 
 **L099**
 Shivani: I would be very happy to help my two favorite interns.
@@ -75,31 +75,31 @@ Shivani: I would be very happy to help my two favorite interns.
 Rishabh: giggling like a child..... when ma'am. he asked bluntly.
 
 **L101**
-Shivani: (not thinking about when)..... you guys say ? she didn't want to work on weekends, but did not tell them that.
+Shivani: (  not thinking about when)..... you guys say ? she didn't want to work on weekends, but did not tell them that.
 
 **L102**
-Raghav: Ma'am..... we asked our dad already and he said we could spend an hour 3 days a week on this. Rest of the time, he wants us to focus on current subjects and internship.
+Raghav: Ma'am..... we asked our dad already and he said we could spend an hour 3 days a week on this. Rest of the time, he wants us to focus on current subjects.
 
 **L103**
-Shivani: 3 days a week !!!!!!..... she thought to herself and then thought..... if I don't help my interns who will... anyway she was free in the evening after office time.
+Shivani: 3 days a week !!!!!!..... she thought to herself and then thought..... if I don't help my interns who will... anyway she was free evenings after office.
 
 **L104**
 Raghav: ma'am.....
 
 **L105**
-Shivani: haan Raghav.... okay sure. I can do alternate weekdays after office. shall we start from Wednesday, evening 7 to 8 PM?
+Shivani: haan Raghav.... okay sure. I can do alternate weekdays after we leave office. shall we start from Wednesday, evening 7 to 8 PM?
 
 **L106**
-Raghav: yes ma'am.... thank you... can we come today with you ma'am... we know your society from the ride, but not your flat..
+Raghav: yes ma'am.... thank you... can we come today with you ma'am... we know the society but not your apartment door.
 
 **L107**
-Shivani: she thought about it and said okay sure.... I will show you my flat and then you can come from Wednesday.
+Shivani: she thought about it and said okay sure.... I will show you my apartment and then you can come from Wednesday.
 
 **L108**
-Raghav: okay ma'am.... thank you. We will come see you when office ends. They said their thank yous and byes and went back to work.
+Raghav: okay ma'am.... thank you. We will come see you when office ends. They said their thank yous and byes and left for work.
 
 **L109**
-That's when Shivani thought she did not ask about this to Aditya. When she called Aditya... he said whatever she likes and its her wish, that he doesn't have any problem. He already knew about the twins and he too was surprised to hear about their ambition . He spoke a couple of minutes and then kept the call.
+That's when Shivani thought she did not ask about this to Aditya. When she called john... he said whatever she likes and its her wish, that he doesn't have any problem. He already knew about the twins and he too was surprised to hear about their ambition . He spoke a couple of minutes and then kept the call.
 
 **L110**
 Shivani drove her scooty and the twins followed behind her. Near her apartments, she stopped in front of the store to get couple of items .... also to check on Chotu.
@@ -123,7 +123,7 @@ Shivani: Did he get afraid of what he saw !!!!! and took leaves.... she thought.
 She took the items and put in front of the scooty and went to her apartments. The twins followed. When they all got down from their vehicles, the twins offered to take the groceries from her but she wouldn't let them. It is okay enough that Chotu who works as a delivery boy does the job... she didn't want to trouble her interns too.
 
 **L117**
-She carried all by herself. Her handbag on one shoulder, grocery bag on one hand and a file bag on other hand. They reached the apartment door. The Sinha flat was quiet; Aditya was still at office and Harish was not in the living room.
+She carried all by herself. Her handbag on one shoulder, grocery bag on one hand and a file bag on other hand. They reached the apartment door. The Sinha flat was quiet.
 
 **L118**
 Shivani: Rishabh... can you please open the door... the key is in my handbag.
@@ -139,4 +139,4 @@ He didn't say anything but took the key and opened the door. She let Raghav and 
 
 ---
 
-**Director review:** exact original source phrases are retained where possible; names and incompatible role/context facts are adjusted. Do not label the full source L079–L150 completed until subsequent source adaptation is reviewed.
+**End of Part 2 — Director review pending.**
