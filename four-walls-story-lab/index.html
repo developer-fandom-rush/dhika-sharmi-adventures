@@ -167,7 +167,8 @@
 .p7-ankita-segment[data-channel="shreya-dialogue"]{border-left-color:#c69b65;background:rgba(180,145,90,.09)}
 
 .fwfs-webtoon{margin:22px 0 34px}.fwfs-webtoon img{display:block;width:100%;height:auto;border-radius:10px}.fwfs-webtoon figcaption{font-size:12px;color:#b8c9dc;margin-top:8px}
-</style><link rel="stylesheet" href="./e01-evidence-vault.css"><link rel="stylesheet" href="./e01-full-reader.css"></head><body><div class="app">
+</style><link rel="stylesheet" href="./e01-evidence-vault.css"><link rel="stylesheet" href="./e01-full-reader.css"><link rel="stylesheet" href="./fwfs-unified-reader.css">
+</head><body><div class="app">
 <aside class="sidebar">
 <div class="brand"><div class="logotype">FOUR WALLS<em> / </em>STORY LAB</div><p>Series → Episode → Part</p><div class="nav-part-menu"><a class="side-button e02-sidebar-link" href="e04-ankita-chotu-reader.html">NEW · E04 · Read Parts 1–7</a><a class="side-button e02-sidebar-link" href="e05-shivani-reading-room.html">NEW · E05 · Shivani Parts 1–2</a></div></div>
 <details class="nav-cluster" id="dhika-cluster"><summary>📚 DHIKA — Original Source</summary>
@@ -176,12 +177,12 @@
 <div class="nav-part-menu" id="dhika-part-nav">Loading source index…</div>
 <p class="nav-small-note">DHIKA original, read-only. E02 is active for director planning.</p></details>
 <details class="nav-cluster" open id="fwfs-timeline-cluster"><summary>📅 Episode Timeline (4 Women)</summary><div class="nav-part-menu"><a class="side-button e02-sidebar-link" href="fwfs-episode-timeline.html">Open four-woman episode timeline</a></div></details>
-<details class="nav-cluster" open id="fwfs-cluster"><summary>✍ FOUR WALLS — New Story</summary>
+<details class="nav-cluster" open id="fwfs-cluster"><summary>📖 FWFS — Episodes 01–05</summary>
 <label for="fwfs-episode-picker" class="nav-picker-label">Episode</label>
-<select id="fwfs-episode-picker" class="nav-episode-picker" aria-label="Choose Four Walls story episode"><option value="00">Episode 00 — Prologue</option><option value="01" selected>Episode 01 — Approved</option><option value="02">Episode 02 — Approved / Four Homes</option><option value="03">Episode 03 — Shivani / Shreya</option><option value="04">Episode 04 — Ankita · Parts 1–7</option><option value="05">Episode 05 — Shivani · Two Drafts</option></select>
-<div class="nav-part-menu" id="fwfs-part-nav"></div></details>
-<details class="nav-cluster" id="history-cluster" open><summary>🕰 History</summary><div class="nav-part-menu"><button class="side-button" data-go="story-history-ankita-chotu-latest">Ankita and chotu (latest)</button><button class="side-button" data-go="story-e04-ankita-chotu-dhika-e03">Episode 04 · Read Parts 1–7</button><a class="side-button e02-sidebar-link" href="e05-shivani-reading-room.html">Episode 05 · Shivani Review</a></div><p class="nav-small-note">Episode 01 · chronological, source-exact evidence · latest review reader, not canon-locked</p></details>
-<details class="nav-cluster" id="profiles-cluster"><summary>👥 Characters & Story Tools</summary>
+<select id="fwfs-episode-picker" class="nav-episode-picker" aria-label="Choose Four Walls story episode"><option value="01" selected>Episode 01 — Four Walls</option><option value="02">Episode 02 — Four Homes</option><option value="03">Episode 03 — Shivani / Shreya</option><option value="04">Episode 04 — Ankita</option><option value="05">Episode 05 — Shivani</option></select>
+<div class="nav-part-menu" id="fwfs-part-nav"></div><p class="nav-small-note">Read any episode and part here. No new page or back button.</p></details>
+<details class="nav-cluster" id="history-cluster" style="display:none"><summary>🕰 History</summary><div class="nav-part-menu"><button class="side-button" data-go="story-history-ankita-chotu-latest">Ankita and chotu (latest)</button><button class="side-button" data-go="story-e04-ankita-chotu-dhika-e03">Episode 04 · Read Parts 1–7</button><a class="side-button e02-sidebar-link" href="e05-shivani-reading-room.html">Episode 05 · Shivani Review</a></div><p class="nav-small-note">Episode 01 · chronological, source-exact evidence · latest review reader, not canon-locked</p></details>
+<details class="nav-cluster" id="profiles-cluster" style="display:none"><summary>👥 Characters & Story Tools</summary>
 <div class="nav-part-menu">
 <button class="side-button" data-go="story-characters">Profiles and relationships</button>
 <button class="side-button" data-go="story-scenes">Approved scenes</button>
@@ -191,7 +192,7 @@
 <button class="side-button" data-go="story-e01-review">Episode 01 QA</button>
 <button class="side-button" data-go="story-attraction-index">E01 editorial index</button>
 </div></details>
-<details class="nav-cluster" id="fwfs-reference-tools"><summary>🗂 Grok Prompts &amp; Earlier References</summary><div class="nav-part-menu">
+<details class="nav-cluster" id="fwfs-reference-tools" style="display:none"><summary>🗂 Grok Prompts &amp; Earlier References</summary><div class="nav-part-menu">
 <button class="side-button" data-go="story-e01-grok-editor">Part 5 · Grok instructions</button>
 <button class="side-button" data-go="story-part5-chotu">Part 5 · Original draft</button>
 <button class="side-button" data-go="story-part5-ankita-grok">Part 5 · Ankita Grok source</button>
@@ -1924,6 +1925,22 @@
 <div class="reader-rows" id="dhika-reader-raw">Select a source part from the left.</div>
 <div class="sourcefoot"><a target="_blank" rel="noopener" href="https://github.com/developer-fandom-rush/dhika-sharmi-adventures/blob/main/raw/Dhika.txt">Read-only raw source ↗</a></div>
 </section>
+<section class="view" data-view="story-fwfs-unified" hidden>
+<div id="fwfs-reader">
+  <div class="fwfs-r-head">
+   <div><div class="fwfs-r-kicker">FOUR WALLS · ONE READER · SAME PAGE</div><h1 class="fwfs-r-title">FWFS · Episodes 01–05</h1>
+   <p class="fwfs-r-meta">Select an episode, then a part. The story appears below without opening another page.</p></div>
+  </div>
+  <div class="fwfs-r-episodes" role="group" aria-label="FWFS episodes 01 to 05"></div>
+  <div class="fwfs-r-parts" role="group" aria-label="Parts of selected FWFS episode"></div>
+  <div class="fwfs-r-toolbar"><span class="fwfs-r-label">Choose a part</span>
+    <div class="fwfs-r-actions"><button type="button" data-fwfs-prev>← Previous part</button><button type="button" data-fwfs-next>Next part →</button></div>
+  </div>
+  <div class="fwfs-r-notice fwfs-r-status">Source manuscript remains unchanged; approval status shown per part.</div>
+  <div class="fwfs-r-counter" aria-live="polite">Select an episode.</div>
+  <div class="fwfs-r-body" aria-live="polite"></div>
+  <p class="fwfs-r-citation">Original files remain in the repo; this is a unified reading interface. Open DHIKA separately using the existing DHIKA selector.</p>
+</div></section>
 <section class="view" data-view="story-e04-ankita-chotu-dhika-e03" hidden>
 <div class="kicker">FWFS EPISODE 04 / ANKITA × CHOTU / DIRECTOR'S ROOM</div>
 <h1>Episode 04 · Ankita × Chotu · DHIKA Episode 03</h1>
@@ -2360,15 +2377,17 @@ function loadAnkitaDraft(key){
 /* Nested episode selectors and lazy source reader. */
 var sourceIndex=null, masterPromise=null, selectedDHIKA=2;
 var storyMenu={
-"00":[["Prologue","story-prologue"]],
-"01":[["Episode 01 · Full Story","story-e01-full-reader"],["E01 · Source-Exact Tracker","story-e01-evidence-vault"],["E01 · Canon Verification","story-e01-finalisation-audit"]],
-"02":[["Episode 02 · Reading order","story-e02-hub"],["Part 1 · Four Homes","story-e02-working-p01"],["Part 2 · Dinner (Scenes 1–14)","story-e02-part2"],["Part 3 · Ankita Thursday","story-e02-part3"]],
-"03":[["Shivani · Part 1 (revised, current)","story-e03-shivani-part1"],["E03 Friday · Full 12-Scene Reader","href:e03-part2-complete.html"],["Shreya · Scenes 02–05 · Approved","story-e03-shreya-scenes02-05"],["Shreya · Part 3 Saturday · Approved","href:e03-part03-shreya-next-day.html"],["Story clock & DHIKA mapping","href:fwfs-episode-timeline.html"]],
-"04":[["READ Episode 04 · Parts 1–7","href:e04-ankita-chotu-reader.html"],["Part 1 · QA-corrected draft","href:e04-ankita-chotu-reader.html#part1"],["Part 2 · Ice-cream sequence","href:e04-ankita-chotu-reader.html#part2"],["Part 3 · Kiss and departure","href:e04-ankita-chotu-reader.html#part3"],["Part 4 · Saturday · Grok revised","href:e04-ankita-chotu-reader.html#part4"],["Part 5 · Karan–Aman Monday · REVIEW","href:e04-ankita-chotu-reader.html#part5"],["Part 6 · Second incident · REVIEW","href:e04-ankita-chotu-reader.html#part6"],["Part 7 · The First Pantry Shelf · REVIEW","href:e04-ankita-chotu-reader.html#part7"],["Source & Grok correction tab","href:e04-ankita-chotu-reader.html#part6"],["Next Karan–Aman plot map","href:../data/continuity/fwfs_e04_twins_karan_aman_adaptation_decision_20261028.json"],["Source / Director decisions","story-e04-ankita-chotu-dhika-e03"],["Grok handover · earlier instructions","href:e04-ankita-chotu-director.html"],["FWFS Timeline","href:fwfs-episode-timeline.html"]],
-"05":[["READ Episode 05 · Shivani Parts 1–2","story-e05-shivani"],["Part 1 · Three Gazes · REVIEW","href:e05-shivani-reading-room.html#part1"],["Part 2 · Tuition Request · REVIEW","href:e05-shivani-reading-room.html#part2"],["Full Episode 05 reader","href:e05-shivani-reading-room.html"]]
+"01":[["Part 1 · The Four Walls","fwfs:1"],["Part 2 · Four Women","fwfs:2"],["Part 3 · Private Secrets","fwfs:3"],["Part 4 · Encounters","fwfs:4"],["Part 5 · Four Tracks","fwfs:5"],["Part 6 · Decisions","fwfs:6"],["Part 7 · Four Encounters","fwfs:7"]],
+"02":[["Part 1 · Four Homes","fwfs:1"],["Part 2 · Mahendra Dinner","fwfs:2"],["Part 3 · Ankita Thursday","fwfs:3"]],
+"03":[["Part 1 · Shivani Tuesday","fwfs:1"],["Part 2 · Shreya Friday","fwfs:2"],["Part 3 · Shreya Saturday","fwfs:3"]],
+"04":[["Part 1 · Friday arrival","fwfs:1"],["Part 2 · Ice cream","fwfs:2"],["Part 3 · Continuation","fwfs:3"],["Part 4 · Saturday","fwfs:4"],["Part 5 · Monday","fwfs:5"],["Part 6 · Midweek","fwfs:6"],["Part 7 · Pantry","fwfs:7"]],
+"05":[["Part 1 · Three Gazes","fwfs:1"],["Part 2 · Tuition & Home Visit","fwfs:2"]]
 };
+window.fwfsNavigate=function(){navigate("story-fwfs-unified");};
+window.setFWFSStoryMenu=function(n){setStoryMenu(n);};
+
 function buttonFor(parent,label,key){var b=document.createElement("button");b.type="button";b.className="side-button";b.setAttribute("data-go",key);b.textContent=label;parent.appendChild(b);}
-function setStoryMenu(n){var p=document.getElementById("fwfs-part-nav");p.textContent="";(storyMenu[n]||[]).forEach(function(z){if(z[1].indexOf("href:")===0){var a=document.createElement("a");a.className="side-button e02-sidebar-link";a.href=z[1].slice(5);a.textContent=z[0];p.appendChild(a);}else buttonFor(p,z[0],z[1]);});}
+function setStoryMenu(n){var p=document.getElementById("fwfs-part-nav");p.textContent="";(storyMenu[n]||[]).forEach(function(z){if(z[1].indexOf("fwfs:")===0){var b=document.createElement("button");b.type="button";b.className="side-button";b.dataset.fwfsNavpart=z[1].slice(5);b.dataset.fwfsNavEp=n;b.textContent=z[0];p.appendChild(b);}else if(z[1].indexOf("href:")===0){var a=document.createElement("a");a.className="side-button e02-sidebar-link";a.href=z[1].slice(5);a.textContent=z[0];p.appendChild(a);}else buttonFor(p,z[0],z[1]);});}
 function sourceEpisode(n){return sourceIndex&&sourceIndex.episodes.find(function(ep){return ep.episode===n;});}
 function setSourceMenu(n){selectedDHIKA=n;var out=document.getElementById("dhika-part-nav");out.textContent="";var ep=sourceEpisode(n);if(!ep){out.textContent="Episode index unavailable";return;}
  ep.parts.forEach(function(p,i){var b=document.createElement("button");b.type="button";b.className="side-button";b.dataset.sourcePart=String(i+1);b.textContent="Part "+String(i+1).padStart(2,"0")+" · L"+p.start+"–"+p.end;out.appendChild(b);});
@@ -2387,13 +2406,13 @@ function openPart(n,p){var ep=sourceEpisode(n);if(!ep||!ep.parts[p-1])return;set
  document.querySelectorAll("[data-source-part]").forEach(function(b){b.classList.toggle("active",Number(b.dataset.sourcePart)===p)});
  episodeText(ep).then(function(lines){pane.textContent="";var frag=document.createDocumentFragment();for(var k=part.start;k<=part.end;k++){var d=document.createElement("div");d.className="rawline";var label=document.createElement("span");label.className="rawlabel";label.textContent="E"+String(n).padStart(2,"0")+"-L"+String(k).padStart(3,"0");var content=document.createElement("span");content.className="rawtxt";content.textContent=lines[k-1]||" ";d.append(label,content);frag.appendChild(d);}pane.appendChild(frag);}).catch(function(e){pane.textContent="Original text could not load: "+e.message;});
 }
-document.getElementById("fwfs-episode-picker").addEventListener("change",function(){setStoryMenu(this.value);document.getElementById("fwfs-cluster").open=true;document.getElementById("dhika-cluster").open=false;if(this.value==="04"){navigate("story-e04-ankita-chotu-dhika-e03");return;}navigate(storyMenu[this.value][0][1]);});
+document.getElementById("fwfs-episode-picker").addEventListener("change",function(){setStoryMenu(this.value);document.getElementById("fwfs-cluster").open=true;document.getElementById("dhika-cluster").open=false;navigate("story-fwfs-unified");if(window.FWFSReader)window.FWFSReader.selectEpisode(this.value);});
 document.getElementById("dhika-episode-picker").addEventListener("change",function(){var n=Number(this.value);setSourceMenu(n);document.getElementById("dhika-cluster").open=true;document.getElementById("fwfs-cluster").open=false;if(n===1)navigate("dhika-1");else if(n===2)navigate("story-e02-p01");else{navigate("dhika-browser");openPart(n,1);}});
 document.addEventListener("click",function(e){var b=e.target.closest("[data-source-part]");if(!b)return;var n=selectedDHIKA,p=Number(b.dataset.sourcePart);if(n===1)navigate("dhika-"+p);else if(n===2)navigate("story-e02-p"+String(p).padStart(2,"0"));else{navigate("dhika-browser");openPart(n,p);}});
 setStoryMenu("01");
 fetch(repoPath("data/analysis/dhika_episode_navigation_index.json")).then(function(r){if(!r.ok)throw Error("Index HTTP "+r.status);return r.json()}).then(function(d){sourceIndex=d;var sel=document.getElementById("dhika-episode-picker");sel.textContent="";d.episodes.forEach(function(ep){var o=document.createElement("option");o.value=ep.episode;o.textContent="Episode "+String(ep.episode).padStart(2,"0")+(ep.episode===2?" · Active":" · Browse");sel.appendChild(o);});setSourceMenu(2);var hash=location.hash.substring(1),match=hash.match(/^dhika-e([0-9]+)-p([0-9]+)$/);if(match){navigate("dhika-browser");openPart(Number(match[1]),Number(match[2]));document.getElementById("dhika-cluster").open=true;}else if(hash==="dhika-e01-evidence-vault"){document.getElementById("dhika-episode-picker").value="1";setSourceMenu(1);document.getElementById("dhika-cluster").open=true;}else if(hash==="dhika-browser"){navigate("dhika-browser");openPart(3,1);}else if(/^dhika-[1-7]$/.test(hash)){setSourceMenu(1);}else if(/^story-part[1-7]/.test(hash)||hash==="story-e01-review"||hash==="story-e01-part4-index"||hash==="story-e01-director-desk"||hash==="story-e01-grok-editor"){document.getElementById("fwfs-episode-picker").value="01";setStoryMenu("01");document.getElementById("fwfs-cluster").open=true;}else if(hash==="story-e02-hub"||hash==="story-e02-working-p01"||hash==="story-e02-part2"||hash==="story-e02-part3"||/^story-e02-p0[1-6]$/.test(hash)||/^story-e02-ankita-/.test(hash)){document.getElementById("fwfs-episode-picker").value="02";setStoryMenu("02");document.getElementById("fwfs-cluster").open=true;}else if(/^story-e03-(shivani-|shreya-)/.test(hash)){document.getElementById("fwfs-episode-picker").value="03";setStoryMenu("03");document.getElementById("fwfs-cluster").open=true;}else if(hash==="story-e04-ankita-chotu-dhika-e03"){document.getElementById("fwfs-episode-picker").value="04";setStoryMenu("04");document.getElementById("fwfs-cluster").open=true;}else if(hash==="story-e05-shivani"){document.getElementById("fwfs-episode-picker").value="05";setStoryMenu("05");document.getElementById("fwfs-cluster").open=true;}else if(hash==="story-prologue"){document.getElementById("fwfs-episode-picker").value="00";setStoryMenu("00");document.getElementById("fwfs-cluster").open=true;}}).catch(function(e){document.getElementById("dhika-part-nav").textContent="Episode index unavailable: "+e.message;});
 
 
-var h=location.hash.substring(1);if(/^story-e02-ankita-/.test(h))h="story-e02-hub";if(h==="story-part5-continuation")h="story-part5-chotu";if(document.querySelector('[data-view="'+h+'"]')||/^story-part2-(ankita|shivani|shreya|tanya)$/.test(h))navigate(h);else if(!h)navigate("story-e01-full-reader");
+var h=location.hash.substring(1);if(/^story-e02-ankita-/.test(h))h="story-e02-hub";if(h==="story-part5-continuation")h="story-part5-chotu";if(document.querySelector('[data-view="'+h+'"]')||/^story-part2-(ankita|shivani|shreya|tanya)$/.test(h))navigate(h);else if(!h||/^fwfs-e0[1-5]-p\d{1,2}$/.test(h))navigate("story-fwfs-unified");
 })();
-</script><script src="./e01-evidence-vault.js"></script><script src="./e01-full-reader.js"></script><script src="./ankita-chotu-history.js"></script></body></html>
+</script><script src="./fwfs-unified-reader.js"></script><script src="./e01-evidence-vault.js"></script><script src="./e01-full-reader.js"></script><script src="./ankita-chotu-history.js"></script></body></html>
