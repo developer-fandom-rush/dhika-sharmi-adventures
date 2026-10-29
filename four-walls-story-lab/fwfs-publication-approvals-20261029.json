@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "series": "Four Walls, Four Secrets",
+  "director_instruction": "2026-10-29 current conversation: material already written is final/approved/published in UI, without rewriting prose.",
+  "decision_date": "2026-10-29",
+  "status_label": "PUBLISHED · DIRECTOR APPROVED",
+  "scope": "Existing saved story parts in Episodes 01–05 only, as currently written. Approval applies to exact available text, not to unwritten original-DHIKA remaining beats or future proposed events.",
+  "episode_parts": {
+    "01": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "02": [
+      1,
+      2,
+      3
+    ],
+    "03": [
+      1,
+      2,
+      3
+    ],
+    "04": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "05": [
+      1,
+      2
+    ]
+  },
+  "exceptions_to_completion": {
+    "05-02": "Published approved current 43-line excerpt covers DHIKA E02 L079–L121; subsequent L122–L150 not yet written as E05 prose.",
+    "05-01": "Published director-approved current 150-line version; retains past source-provenance annotations as historical metadata.",
+    "04-07": "Published current 80-line pantry scene, independent FWFS original continuation, not a line-by-line substitute for DHIKA E03 L184–235."
+  },
+  "unwritten_new_content": "Taniya Colonel Sunday visit, new four-devar home return/request, and future Chirag encounters remain unapproved story briefs until manuscripts exist.",
+  "prose_policy": "Do not edit manuscript or original source headers for approval-only metadata update."
+}
