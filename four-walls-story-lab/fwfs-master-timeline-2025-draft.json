@@ -43,8 +43,13 @@
       "cells": {
         "ankita": [
           {
-            "ref": "E01 P1–P3",
-            "what": "Shared opening; Ankita first arc",
+            "ref": "E01 P1–P2",
+            "what": "Four friends' shared opening and Ankita's first arc",
+            "status": "written"
+          },
+          {
+            "ref": "E01 P3 · 2:20 PM",
+            "what": "Mahendra → Ankita, Mehta residence (reader-known history)",
             "status": "written"
           },
           {
@@ -55,8 +60,13 @@
         ],
         "shivani": [
           {
-            "ref": "E01 P1–P3",
-            "what": "Shared opening, Prakash reader-known event",
+            "ref": "E01 P1–P2",
+            "what": "Shared opening and Shivani introduction",
+            "status": "written"
+          },
+          {
+            "ref": "E01 P3 · 1:40 PM",
+            "what": "Prakash → Shivani, Sinha residence (reader-known history)",
             "status": "written"
           },
           {
@@ -67,15 +77,25 @@
         ],
         "shreya": [
           {
-            "ref": "E01 P1–P3",
-            "what": "Shared opening, Shreya wedding and boutique; Harish event",
+            "ref": "E01 P1–P2",
+            "what": "Shared opening; Shreya's boutique and wedding activities",
+            "status": "written"
+          },
+          {
+            "ref": "E01 P3 · 3:50 PM",
+            "what": "Harish → Shreya, Mehta residence (reader-known history)",
             "status": "written"
           }
         ],
         "taniya": [
           {
-            "ref": "E01 P1–P3",
-            "what": "Shared opening, Taniya wedding and Colonel event",
+            "ref": "E01 P1–P2",
+            "what": "Shared opening; Taniya's wedding activities",
+            "status": "written"
+          },
+          {
+            "ref": "E01 P3 · 5:15 PM",
+            "what": "Colonel Virendra → Taniya, Arora residence (reader-known history)",
             "status": "written"
           }
         ]
@@ -372,8 +392,8 @@
         "shreya": [],
         "taniya": [
           {
-            "ref": "E05 P1",
-            "what": "Sunday reflections; Colonel 5 PM visit still UNWRITTEN",
+            "ref": "E05 P1 · Sunday follow-up",
+            "what": "Taniya reflects on the Saturday lunch; the separate Colonel tea scene is not written",
             "status": "review"
           }
         ]
