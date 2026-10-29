@@ -1,0 +1,34 @@
+
+/* FWFS inline reader: same document, like the DHIKA part browser. */
+#fwfs-reader{max-width:1130px;margin:0 auto}
+#fwfs-reader .fwfs-r-head{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:14px}
+#fwfs-reader .fwfs-r-kicker{font-size:12px;letter-spacing:.13em;color:#f1ce97;font-weight:800;text-transform:uppercase}
+#fwfs-reader .fwfs-r-head h1{font-size:clamp(26px,4vw,40px);margin:6px 0}
+#fwfs-reader .fwfs-r-status{color:#b7c8d9;font-size:13px}
+#fwfs-reader .fwfs-r-episodes,#fwfs-reader .fwfs-r-parts{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}
+#fwfs-reader button{border:1px solid #617d9a;background:#233a55;color:#f1f6fb;padding:9px 13px;border-radius:9px;cursor:pointer;font:inherit;font-size:13px}
+#fwfs-reader button[aria-selected="true"]{background:#715435;color:#fff0cb;border-color:#efcb92;font-weight:800}
+#fwfs-reader .fwfs-r-toolbar{display:flex;gap:9px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:12px 14px;background:#14273b;border:1px solid #39536f;border-radius:10px;margin-bottom:12px}
+#fwfs-reader .fwfs-r-label{font-size:13px;color:#e9cfa8;font-weight:800}
+#fwfs-reader .fwfs-r-actions{display:flex;gap:8px;flex-wrap:wrap}
+#fwfs-reader .fwfs-r-body{border:1px solid #3f5a74;background:#14273c;border-radius:13px;padding:6px 19px;min-height:280px}
+#fwfs-reader .fwfs-r-row{display:grid;grid-template-columns:94px minmax(0,1fr);gap:11px;border-bottom:1px solid #32475f;padding:17px 8px;overflow-wrap:anywhere}
+#fwfs-reader .fwfs-r-row:last-child{border-bottom:0}
+#fwfs-reader .fwfs-r-row:nth-child(odd){background:rgba(255,255,255,.015)}
+#fwfs-reader .fwfs-r-num{font-size:12px;color:#f0cc91;font-weight:800;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+#fwfs-reader .fwfs-r-prose{font-size:16px;line-height:1.85;white-space:pre-wrap;color:#eef3f8;overflow-wrap:anywhere}
+#fwfs-reader .fwfs-r-subhead{font-weight:800;font-size:16px;color:#f1d3a5;background:#253c56;border-radius:8px;padding:10px 13px;margin:17px 2px 5px}
+#fwfs-reader .fwfs-r-notice{border-left:3px solid #c6a472;background:#1e3045;padding:11px 13px;border-radius:6px;color:#d5e1ed;margin:10px 0 17px;font-size:13px}
+#fwfs-reader .fwfs-r-meta{font-size:13px;color:#b8c8dc;margin-bottom:12px}
+#fwfs-reader .fwfs-r-counter{font-size:12px;color:#b8c8dc}
+#fwfs-reader .fwfs-r-error{color:#ffbfaa;padding:30px 5px}
+#fwfs-reader .fwfs-r-citation{margin:18px 0 0;font-size:12px;color:#b7c9da}
+#fwfs-reader .fwfs-r-citation a{color:#f0d29e}
+#fwfs-reader button:focus-visible{outline:2px solid #e6c58b;outline-offset:2px}
+@media(max-width:640px){
+#fwfs-reader .fwfs-r-body{padding:4px 7px}
+#fwfs-reader .fwfs-r-row{grid-template-columns:53px minmax(0,1fr);gap:5px;padding:14px 4px}
+#fwfs-reader .fwfs-r-prose{font-size:15px}
+#fwfs-reader .fwfs-r-toolbar{padding:9px}
+#fwfs-reader .fwfs-r-episodes button{flex:1}
+}
