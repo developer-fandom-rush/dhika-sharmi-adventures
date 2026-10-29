@@ -16,7 +16,7 @@
     "start_wednesday_date": "2026-10-21",
     "annotation": "Chosen fictional working date per user's request. Does not rewrite dates in approved source prose."
   },
-  "approval_policy": "P1–P3 existing reader; P4–P6 Grok revision in reader, awaiting Director review. A draft being shown on Story Lab does not count as canon approval or make conditional timeline meetings certain.",
+  "approval_policy": "E04 P1–P7 available in reader, P4–P7 under review. E05 P1 (Shivani family lunch) and P2 (tuition request) available as working drafts, director review pending; publication does not imply canon approval.",
   "characters": [
     {
       "id": "ankita",
@@ -154,6 +154,74 @@
       "context": "Saturday 24 Oct morning — Ankita reflects on Friday Chirag kiss, own participation and keeping it private from Ritvik",
       "source": "data/stories/fwfs_e04_part04_ankita_saturday_after_kiss_20261028.json",
       "source_basis": "Published FWFS E04 P4 reader · original source E03 L099–L100 (next morning)"
+    },
+    {
+      "id": "shivani-sat-arora-e05p1",
+      "character": "shivani",
+      "offset": 3,
+      "fwfs": {
+        "episode": 5,
+        "part": 1
+      },
+      "dhika": {
+        "episode": 2,
+        "part": "24–73 structural reference"
+      },
+      "status": "draft",
+      "context": "Saturday Arora household lunch, Taniya hosts, Prakash and Harish with brief Mahendra visit",
+      "source": "data/stories/fwfs_e03_shivani_three_gazes_plot_corrected_director_draft_20261029.md",
+      "source_basis": "150-line Grok director draft continuity-edited and published for review; original E03 draft name retained for provenance."
+    },
+    {
+      "id": "shivani-mon-tuition-e05p2",
+      "character": "shivani",
+      "offset": 5,
+      "fwfs": {
+        "episode": 5,
+        "part": 2
+      },
+      "dhika": {
+        "episode": 2,
+        "part": "L079–109"
+      },
+      "status": "draft",
+      "context": "Monday noon CA office tuition request; home incident later, not written",
+      "source": "data/stories/fwfs_e03_shivani_raghav_rishabh_tuition_request_source_faithful_draft_20261029.md",
+      "source_basis": "31 numbered beats in source-faithful adaptation; not final canon."
+    },
+    {
+      "id": "taniya-sat-host-e05p1",
+      "character": "taniya",
+      "offset": 3,
+      "fwfs": {
+        "episode": 5,
+        "part": 1
+      },
+      "dhika": {
+        "episode": 2,
+        "part": "24–73 structural reference"
+      },
+      "status": "draft",
+      "context": "Saturday hosts Shivani/Aditya at Arora residence within same family-lunch draft",
+      "source": "data/stories/fwfs_e03_shivani_three_gazes_plot_corrected_director_draft_20261029.md",
+      "source_basis": "Same 150-line manuscript as Shivani's E05 Part 1."
+    },
+    {
+      "id": "ankita-sat-pantry-e04p7",
+      "character": "ankita",
+      "offset": 10,
+      "fwfs": {
+        "episode": 4,
+        "part": 7
+      },
+      "dhika": {
+        "episode": 3,
+        "part": "later structural continuation"
+      },
+      "status": "draft",
+      "context": "Saturday pantry scene with Chirag · The First Pantry Shelf · corrected Tab3 manuscript",
+      "source": "data/stories/fwfs_e04_part07_ankita_pantry_targeted_revision_20261029.json",
+      "source_basis": "Google Docs targeted revised Part 7 L001–L080, draft."
     }
   ],
   "invitation_background": {
@@ -202,7 +270,7 @@
     "episode04": "Grok revised P4–P6 visible in UI; Director approval pending"
   },
   "legacy_board": "fwfs-timeline-board.json",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "events": [
     {
       "id": "planned-event-1",
@@ -306,12 +374,13 @@
       "character": "shivani",
       "offset": 3,
       "time": "1:00 PM",
-      "title": "Visits Taniya at Arora for lunch",
-      "state": "scheduled",
-      "episode": "FWFS Ep-XX",
+      "title": "Shivani visits Taniya / Prakash at Arora · Three Gazes draft",
+      "state": "written",
+      "episode": "FWFS E05 P1 · DIRECTOR REVIEW PENDING",
       "dhika": "DHIKA E02 visit framework",
-      "notes": "Invitation fixed, episode and scenes not written",
-      "source": "FWFS E02 P1 L068–070"
+      "notes": "Invitation fixed, episode and scenes not written 150-line draft grouped under E05 P1; Prakash garment knowledge remains reader-only. Mahendra cameo is draft-only.",
+      "source": "data/stories/fwfs_e03_shivani_three_gazes_plot_corrected_director_draft_20261029.md",
+      "reader_url": "e05-shivani-reading-room.html#part1"
     },
     {
       "id": "planned-event-10",
@@ -342,12 +411,13 @@
       "character": "taniya",
       "offset": 3,
       "time": "1:00 PM",
-      "title": "Hosts Shivani and Aditya at Arora",
-      "state": "scheduled",
-      "episode": "FWFS Ep-XX",
+      "title": "Taniya hosts Shivani and Aditya · Three Gazes draft",
+      "state": "written",
+      "episode": "FWFS E05 P1 · DIRECTOR REVIEW PENDING",
       "dhika": "DHIKA E02 visit framework",
-      "notes": "Saturday lunch invitation fixed; prose not yet written",
-      "source": "FWFS E02 P1 L068–070"
+      "notes": "Saturday lunch invitation fixed; prose not yet written 150-line draft grouped under E05 P1; Prakash garment knowledge remains reader-only. Mahendra cameo is draft-only.",
+      "source": "data/stories/fwfs_e03_shivani_three_gazes_plot_corrected_director_draft_20261029.md",
+      "reader_url": "e05-shivani-reading-room.html#part1"
     },
     {
       "id": "planned-event-13",
@@ -437,6 +507,32 @@
       "notes": "Part 6 review reader contains 63 numbered passages, including explicit Grok line replacements 067–091 and restored original placeholders; not canon-approved.",
       "source": "data/stories/fwfs_e04_part06_karan_aman_grok_review_reader_20261028.json",
       "reader_url": "e04-ankita-chotu-reader.html#part6"
+    },
+    {
+      "id": "shivani-mon-tuition-e05p2",
+      "character": "shivani",
+      "offset": 5,
+      "time": "Monday 26 Oct · noon",
+      "title": "Raghav and Rishabh request three weekly tuition sessions",
+      "state": "written",
+      "episode": "FWFS E05 P2 · DIRECTOR REVIEW PENDING",
+      "dhika": "DHIKA E02 L079–109",
+      "notes": "31-beat working draft only, request + agreement + Aditya called; later home-visit incident not drafted.",
+      "source": "data/stories/fwfs_e03_shivani_raghav_rishabh_tuition_request_source_faithful_draft_20261029.md",
+      "reader_url": "e05-shivani-reading-room.html#part2"
+    },
+    {
+      "id": "ankita-sat-pantry-e04p7",
+      "character": "ankita",
+      "offset": 10,
+      "time": "Saturday 31 Oct · morning",
+      "title": "The First Pantry Shelf · Ankita and Chirag",
+      "state": "written",
+      "episode": "FWFS E04 P7 · DIRECTOR REVIEW PENDING",
+      "dhika": "FWFS original continuation",
+      "notes": "Corrected 80-line Google Doc Tab 3 review manuscript; E04 reader updated without touching original Google Doc.",
+      "source": "data/stories/fwfs_e04_part07_ankita_pantry_targeted_revision_20261029.json",
+      "reader_url": "e04-ankita-chotu-reader.html#part7"
     }
   ],
   "source_checks": {
@@ -524,15 +620,15 @@
   "episode_numbering_suggestions": [
     {
       "fwfs": "E04",
-      "date": "Fri 23 Oct–Sat 24 Oct written; Mon 26–Wed 28 possible continuation",
-      "focus": "P1–P3 Chirag Friday written; P4 Saturday aftermath written; P5 adult Karan–Aman first visit proposed; P6 midweek follow-up proposed",
-      "state": "P1–P4 PUBLISHED; P5–P6 NOT WRITTEN / WORKING"
+      "date": "Friday 23 Oct through Saturday 31 Oct (draft/story-time sequence)",
+      "focus": "P1–P3 Friday; P4 Saturday aftermath; P5–P6 Monday–Wednesday; P7 following Saturday pantry",
+      "state": "P1–P7 READER AVAILABLE; P4–P7 DIRECTOR REVIEW PENDING"
     },
     {
       "fwfs": "E05",
-      "date": "TBD",
-      "focus": "Other women and shared weekend events — separate scheduling; do not treat E04 P5–P6 as a finished episode",
-      "state": "suggestion, not locked"
+      "date": "Saturday 24 Oct and Monday 26 Oct (out-of-episode chronology alongside E04)",
+      "focus": "P1 Shivani/Taniya family lunch; P2 Shivani Raghav–Rishabh tuition request",
+      "state": "TWO DRAFT PARTS SAVED IN REVIEW READER; NOT CANON LOCKED"
     },
     {
       "fwfs": "E06",
@@ -559,7 +655,7 @@
     }
   ],
   "episode04_part_plan": {
-    "status": "P1–P3 existing reader; P4–P6 Grok revised and available for Director review; none of these new revisions are canon locked",
+    "status": "P1–P7 available to read; P4–P7 in director review, not canon locked",
     "parts": [
       {
         "part": 1,
@@ -608,6 +704,15 @@
         "context": "Supplies/paint preparation followed by second Karan–Aman meeting and second accidental event",
         "reader_url": "e04-ankita-chotu-reader.html#part6",
         "source_file": "data/stories/fwfs_e04_part06_karan_aman_grok_review_reader_20261028.json"
+      },
+      {
+        "part": 7,
+        "fwfs_date": "Saturday 31 Oct (working story time)",
+        "source": "FWFS E04 Part 7 · corrected Google Doc",
+        "status": "google_doc_corrected_review_copy_available_not_canon",
+        "context": "Ankita and Chirag pantry cleanup and recipe diary",
+        "reader_url": "e04-ankita-chotu-reader.html#part7",
+        "source_file": "data/stories/fwfs_e04_part07_ankita_pantry_targeted_revision_20261029.json"
       }
     ],
     "future_source": {
