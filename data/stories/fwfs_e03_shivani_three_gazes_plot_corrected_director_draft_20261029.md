@@ -180,3 +180,187 @@ Lekin uski choot ne jawab diya. Geelapan badh gaya tha. Woh shift hokar baithi.
 
 **L050**
 Taniya kitchen gayi. Dev phone par baat karne laga. Aditya Prakash se kisi document ke baare mein poochne laga. Short window bani.
+
+**L051**
+Harish thoda aage jhuke. Awaaz low thi.
+Harish: “Shivani… tum thodi distracted lag rahi ho.”
+
+**L052**
+Shivani ne unki aankhon mein dekha.
+Shivani: “Main theek hoon.”
+Awaaz uski bhi low thi. Unke beech sirf aaj ka charged silence tha.
+
+**L053**
+Harish ne aur kuch nahi kaha. Bas ek second aur dekha. Unke trousers mein movement clear tha. Shivani ne usse bhi register kiya.
+
+**L054**
+Uske andar gussa aur pleasure ek dusre se lipat gaye. Woh chahti thi ki woh uth kar bahar chali jaye. Uske body ne kaha ki aur der baitho.
+
+**L055**
+Prakash wapas aaye. Unhone Shivani ke glass mein pani bhara. Unka body uske bilkul kareeb tha. Unki smell — light perfume aur skin — us tak pahunchi.
+
+**L056**
+Shivani ne saans roki. Prakash ne glass rakha aur dheere se kaha,
+Prakash: “Agar accounts chahiye ho toh bata dena. Main personally tables bhej dunga.”
+
+**L057**
+Unke words normal the. Unki awaaz mein kuch aur tha. Shivani ne sirf nod kiya. Bolne ki himmat nahi thi.
+
+**L058**
+Uske nipples itne sensitive the ki blouse ka halka touch bhi feel ho raha tha. Usne pallu ko chest ke across tightly kheench liya.
+
+**L059**
+Taniya wapas aayi. Usne teeno — Shivani, Prakash, Harish — ka atmosphere sense kiya. Kuch alag tha. Usne Dev ki taraf dekha. Dev bhi Shivani ki taraf dekh raha tha, thodi der se.
+
+**L060**
+Taniya ke andar pehli baar ek chhoti si, uncomfortable si wave aayi. Usne usse abhi naam nahi diya.
+
+**L061**
+Lunch khatam hone laga. Dessert plates hatayi gayi. Coffee ke cups khali the.
+
+**L062**
+Shivani ne bag uthaya. Uske legs soft feel ho rahe the. Khade hote waqt usne thodi si imbalance feel ki.
+
+**L063**
+Prakash door tak aaye.
+Prakash: “Phir jaldi aana, beta.”
+Unhone uska haath thama goodbye ke liye. Is baar grip thodi der ruki. Unke thumb ne uske hand ke back par halka sa pressure diya.
+
+**L064**
+Shivani ne apna haath nahi jhatka. Usne pressure feel kiya aur uske body ne phir se respond kiya. Ek strong throb.
+
+**L065**
+Harish bhi khade the. Unhone sirf nod kiya. Unki aankhon mein wohi quiet knowledge thi.
+
+**L066**
+Aditya ne bye kaha. Taniya ne Shivani ko hug kiya. Hug thoda tight tha.
+Taniya (low): “Baad mein call karti hoon.”
+
+**L067**
+Shivani ne haske kaha, “Haan.”
+Uske voice mein ab bhi thodi kasav thi.
+
+**L068**
+Car mein baithte hi Aditya ne poochha, “Thak gayi kya? Bahut quiet thi aaj.”
+Shivani: “Haan. Thodi neend poori nahi thi.”
+Jhoot. Uske undergarments geele the.
+
+**L069**
+Raaste bhar woh window se bahar dekhti rahi. Uske mind mein teen men ghum rahe the. Unki nazrein. Unke trousers ke andar ki harkatein. Uske khud ke body ka response.
+
+**L070**
+Ghar pahunch kar usne pehle bathroom gaya. Saree aur blouse utare. Petticoat aur blouse ke andar ke kapde clearly wet the.
+
+**L071**
+Usne mirror mein khud ko dekha. Nipples ab bhi hard the. Skin flushed thi.
+*Yeh main hoon? Jo logon ke dekhne se itna react kar rahi hoon?*
+
+**L072**
+Usne shower on kiya. Garam pani uske body par girne laga. Usne aankhen band ki. Prakash ka haath, Harish ki nazar, Mahendra ka last look — sab ek saath aa gaye.
+
+**L073**
+Uske haath uske own breasts par chale gaye. Usne soft pressure diya. Ek low sound uske muh se nikal gayi.
+
+**L074**
+Woh naraaz thi.
+Woh excited thi.
+Woh confuse thi.
+Aur sabse zyada, woh secretly khush thi ki uska body ab bhi itna react karta hai.
+
+**L075**
+Usne haath neeche kiya. Fingers uske wet folds tak gaye. Woh already swollen thi. Ek single touch se uske knees soft ho gaye.
+
+**L076**
+Shivani ne wall ka support liya. Usne khud ko touch kiya — dheere, phir thoda tez. Uske dimaag mein un teenon ki images thi. Unka desire. Unka control ka lack.
+
+**L077**
+Woh close aa gayi. Saansein tez thi.
+*Galat hai…*
+*Lekin ruk nahi pa rahi…*
+
+**L078**
+Orgasm aaya toh usne muh pe haath rakh liya. Body kaampi. Legs weak ho gaye. Pani uske upar girta raha.
+
+**L079**
+Baad mein usne towel liya. Mirror mein uske aankhen alag dikh rahi thi. Thakaa hua, satisfied, aur thoda sa scared.
+
+**L080**
+Usne fresh clothes pehne. Aditya living room mein TV dekh raha tha. Usne normal face banaya aur uske paas jaa kar baith gayi.
+
+**L081**
+Aditya ne uske kandhe par haath rakha. “Ab theek lag rahi ho.”
+Shivani ne sirf smile di. Bol nahi paayi.
+
+**L082**
+Raat ko bed par lette hue usne ceiling ki taraf dekha. Teen gazes ab bhi uske skin par feel ho rahe the.
+
+**L083**
+Usne socha, *Main apni aaj ki feeling kisi ko nahi bataungi. Main yeh experience private rakhna chahti hoon.*
+Phir uske baad ek aur soch aayi — *Lekin main is feeling ko kaise band karoon?*
+
+**L084**
+Uske thighs ne phir se respond kiya.
+Woh side mud gayi. Aditya so raha tha. Usne apne lips press kiye.
+
+**L085**
+Kal subah sab normal dikhega.
+Lekin aaj ke baad, Shivani jaanti thi ki uska body ab un teen men ki yaad se quietly excited rehta hoga.
+
+**L086**
+Taniya usi raat apne bedroom mein Dev ke saath leti thi. Uske mind mein Shivani ka red face aur Prakash ki nazar ghum rahi thi. Usne Dev ki taraf dekha. Dev so raha tha.
+
+**L087**
+Taniya ne aankhen band ki. Uske andar bhi ek naya, unsettled sa sawaal paida ho chuka tha.
+
+**L088**
+Arora house ke drawing room mein Prakash akele whiskey pi rahe the. Unke face par soft smile thi. Unhe laga ki Shivani ne unka behaviour notice kiya hoga.
+
+**L089**
+Harish apne ghar jaane ke raaste mein the. Unke dimaag mein bhi woh short eye contact tha. Unka body abhi bhi fully shaant nahi hua tha.
+
+**L090**
+Mahendra apni car mein the. Unhone steering par haath rakha. Unke mind mein Shivani ka peach saree aur uska quiet face tha. Unhone soft sa breath liya.
+
+**L091**
+Teen older men.
+Ek young married woman.
+Koi secret disclose nahi hua.
+Lekin teen alag bodies ne uske body ko yaad rakh liya tha.
+
+**L092**
+Shivani ne aakhri baar side change kiya. Uske fingers uske own stomach par the.
+Woh ab bhi thodi geeli thi.
+
+**L093**
+Usne aankhen band ki.
+Annoyance thi.
+Excitement thi.
+Aur uske neeche, ek quiet, forbidden si khushi thi jo woh kisi ko nahi batayegi.
+
+**L094**
+Neend dheere-dheere aayi.
+Uske lips thode se khule the.
+
+**L095**
+Saturday khatam ho gaya tha.
+Lekin teen gazes uske andar ab bhi zinda the.
+
+**L096**
+Aur Shivani, pehli baar, is baat se munh nahi moda rahi thi.
+
+**L097**
+Usne unhe feel kiya tha.
+Usne unke reactions dekhe the.
+Usne apne body ko unke desire ke under respond karte hue paaya tha.
+
+**L098**
+Woh naraaz thi.
+Woh wet thi.
+Woh curious thi.
+
+**L099**
+Aur sabse badi baat —
+woh is feeling ko dobara feel karna chahti thi, chahe kitna bhi galat kyun na ho.
+
+**L100**
+Yahi se uska naya, khatarnak sa chapter shuru hua.
