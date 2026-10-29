@@ -1,0 +1,333 @@
+{
+  "schema": "fwfs.master_timeline_2025.director_proposal.v1",
+  "status": "DRAFT · FOR DIRECTOR DISCUSSION · NOT CANON LOCKED",
+  "anchor": "2025-10-21",
+  "date_policy": "Calendar begins 21 Oct 2025 (Tuesday); map preexisting FWFS weekday labels to corresponding 2025 weekdays. Draft manuscripts still contain 2026 dates and are unedited.",
+  "source_policy": "DHIKA E01–E03 relative day progression used as reference, not an absolute 2025 event chronology from the original story.",
+  "pre_anchor": "FWFS E01 P1–P7 sources exist but cannot be assigned reliable absolute calendar dates within the new anchor without director decision.",
+  "source_dhika": {
+    "E01": "data/episodes/e01.json",
+    "E02": "data/episodes/e02.json",
+    "E03": "data/episodes/e03.json"
+  },
+  "notes": [
+    "DHIKA E01 Friday first main event maps to Fri 24 Oct 2025; 21–23 Oct are FWFS-only mapped setup dates.",
+    "FWFS E05 P1 contains Saturday 25 Oct and Sunday 26 Oct aftermath; original draft still literally names 24 Oct 2026.",
+    "FWFS E05 P2 current UI manuscript covers DHIKA E02 L079–L121; L122–L150 later incident is not yet adapted.",
+    "Taniya's Sunday 5 PM tea invitation is scheduled, not completed prose.",
+    "Some stored FWFS timeline fields still refer to old 2026 dates; this draft does not override them."
+  ],
+  "days": [
+    {
+      "date": "2025-10-21",
+      "dhika": "—",
+      "cells": {
+        "ankita": [
+          {
+            "ref": "E02 P1",
+            "what": "Four Homes Tuesday setup",
+            "status": "written"
+          }
+        ],
+        "shivani": [
+          {
+            "ref": "E02 P1 / E03 P1",
+            "what": "Home setup; Shivani's Tuesday-night continuation",
+            "status": "written"
+          }
+        ],
+        "shreya": [
+          {
+            "ref": "E02 P1",
+            "what": "Mehta home Tuesday setup",
+            "status": "written"
+          }
+        ],
+        "taniya": [
+          {
+            "ref": "E02 P1",
+            "what": "Arora home Tuesday setup",
+            "status": "written"
+          }
+        ]
+      },
+      "day": "Tue"
+    },
+    {
+      "date": "2025-10-22",
+      "dhika": "—",
+      "cells": {
+        "ankita": [
+          {
+            "ref": "E02 P2",
+            "what": "Mehta family dinner with Ritvik and Rey",
+            "status": "approved"
+          }
+        ],
+        "shivani": [
+          {
+            "ref": "E02 P1",
+            "what": "Taniya's Saturday invitation accepted",
+            "status": "written"
+          }
+        ],
+        "shreya": [
+          {
+            "ref": "E02 P2",
+            "what": "Hosts Ankita's family at dinner",
+            "status": "approved"
+          }
+        ],
+        "taniya": [
+          {
+            "ref": "E02 P1",
+            "what": "Invites Shivani and Aditya; Colonel's Sunday tea invitation received",
+            "status": "written"
+          }
+        ]
+      },
+      "day": "Wed"
+    },
+    {
+      "date": "2025-10-23",
+      "dhika": "—",
+      "cells": {
+        "ankita": [
+          {
+            "ref": "E02 P3",
+            "what": "Karan and Aman Thursday continuation",
+            "status": "approved"
+          }
+        ],
+        "shivani": [],
+        "shreya": [],
+        "taniya": []
+      },
+      "day": "Thu"
+    },
+    {
+      "date": "2025-10-24",
+      "dhika": "DHIKA E01: Bantu/Bobby college and ride → Chotu home visit",
+      "cells": {
+        "ankita": [
+          {
+            "ref": "E04 P1–P3",
+            "what": "Chirag Friday morning return, ice-cream and continuation",
+            "status": "written"
+          }
+        ],
+        "shivani": [
+          {
+            "ref": "E03 P2",
+            "what": "Sinha home hosts Shreya and family, 7:30 PM",
+            "status": "written"
+          }
+        ],
+        "shreya": [
+          {
+            "ref": "E03 P2",
+            "what": "Shreya/Samar/Mahi/Mahendra at Sinha house, 7:30 PM",
+            "status": "written"
+          }
+        ],
+        "taniya": []
+      },
+      "day": "Fri"
+    },
+    {
+      "date": "2025-10-25",
+      "dhika": "DHIKA E01 end → E02 opening: next-day aftermath, John returns",
+      "cells": {
+        "ankita": [
+          {
+            "ref": "E04 P4",
+            "what": "Saturday morning aftermath",
+            "status": "review"
+          }
+        ],
+        "shivani": [
+          {
+            "ref": "E05 P1",
+            "what": "1 PM Arora family lunch with Aditya; Harish and Mahendra enter in draft",
+            "status": "review"
+          }
+        ],
+        "shreya": [
+          {
+            "ref": "E03 P3",
+            "what": "Saturday music meeting with Aarav/Neel; later lessons arranged",
+            "status": "approved"
+          }
+        ],
+        "taniya": [
+          {
+            "ref": "E05 P1",
+            "what": "Hosts Shivani and Aditya at Arora home",
+            "status": "review"
+          }
+        ]
+      },
+      "day": "Sat"
+    },
+    {
+      "date": "2025-10-26",
+      "dhika": "DHIKA E02 L024–078: Sunday uncle lunch, discovery and aftermath",
+      "cells": {
+        "ankita": [],
+        "shivani": [
+          {
+            "ref": "E05 P1 (aftermath)",
+            "what": "Sunday follow-up memories and Taniya's message",
+            "status": "review"
+          }
+        ],
+        "shreya": [],
+        "taniya": [
+          {
+            "ref": "E02 P1 invitation",
+            "what": "5 PM tea at Colonel Virendra Rathore's residence",
+            "status": "scheduled"
+          }
+        ]
+      },
+      "day": "Sun"
+    },
+    {
+      "date": "2025-10-27",
+      "dhika": "DHIKA E02 L079–150: Monday twins' tuition request, home visit and subsequent incident",
+      "cells": {
+        "ankita": [
+          {
+            "ref": "E04 P5",
+            "what": "Karan/Aman first Monday project session",
+            "status": "review"
+          }
+        ],
+        "shivani": [
+          {
+            "ref": "E05 P2",
+            "what": "Raghav/Rishabh tuition request at noon; short home orientation; 43 beats",
+            "status": "review"
+          }
+        ],
+        "shreya": [
+          {
+            "ref": "E03 P3 schedule",
+            "what": "Aarav/Neel music session 7–8 PM (scheduled, prose not written)",
+            "status": "scheduled"
+          }
+        ],
+        "taniya": []
+      },
+      "day": "Mon"
+    },
+    {
+      "date": "2025-10-28",
+      "dhika": "DHIKA E03 L005–098: Tuesday Chotu visit",
+      "cells": {
+        "ankita": [
+          {
+            "ref": "E04 P6",
+            "what": "Project supplies and preparation",
+            "status": "review"
+          }
+        ],
+        "shivani": [],
+        "shreya": [],
+        "taniya": []
+      },
+      "day": "Tue"
+    },
+    {
+      "date": "2025-10-29",
+      "dhika": "DHIKA E03 L099–151: Wednesday reflection, first twins tuition",
+      "cells": {
+        "ankita": [
+          {
+            "ref": "E04 P6",
+            "what": "Karan/Aman second meeting",
+            "status": "review"
+          }
+        ],
+        "shivani": [
+          {
+            "ref": "E05 P2 schedule",
+            "what": "First tuition hour 7–8 PM scheduled, encounter prose not written",
+            "status": "scheduled"
+          }
+        ],
+        "shreya": [
+          {
+            "ref": "E03 P3 schedule",
+            "what": "Aarav/Neel music session 7–8 PM scheduled, prose not written",
+            "status": "scheduled"
+          }
+        ],
+        "taniya": []
+      },
+      "day": "Wed"
+    },
+    {
+      "date": "2025-10-30",
+      "dhika": "DHIKA E03 L152: Thursday project preparation",
+      "cells": {
+        "ankita": [],
+        "shivani": [],
+        "shreya": [],
+        "taniya": []
+      },
+      "day": "Thu"
+    },
+    {
+      "date": "2025-10-31",
+      "dhika": "DHIKA E03 L153–183: Friday second twins class",
+      "cells": {
+        "ankita": [],
+        "shivani": [
+          {
+            "ref": "E05 P2 schedule",
+            "what": "Friday 7–8 PM tuition scheduled, prose not written",
+            "status": "scheduled"
+          }
+        ],
+        "shreya": [
+          {
+            "ref": "E03 P3 schedule",
+            "what": "Friday 7–8 PM music session scheduled, prose not written",
+            "status": "scheduled"
+          }
+        ],
+        "taniya": []
+      },
+      "day": "Fri"
+    },
+    {
+      "date": "2025-11-01",
+      "dhika": "DHIKA E03 L184: Saturday routine and break",
+      "cells": {
+        "ankita": [
+          {
+            "ref": "E04 P7",
+            "what": "The First Pantry Shelf, Ankita and Chirag",
+            "status": "review"
+          }
+        ],
+        "shivani": [],
+        "shreya": [],
+        "taniya": []
+      },
+      "day": "Sat"
+    },
+    {
+      "date": "2025-11-02",
+      "dhika": "DHIKA E03 L185–235: Sunday Chotu painting visit",
+      "cells": {
+        "ankita": [],
+        "shivani": [],
+        "shreya": [],
+        "taniya": []
+      },
+      "day": "Sun"
+    }
+  ]
+}
