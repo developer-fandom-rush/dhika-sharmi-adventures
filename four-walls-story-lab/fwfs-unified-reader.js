@@ -68,7 +68,7 @@ if(mode==="strong"){
  return{id:"L"+m[1],text:body};
  });
 }else if(mode==="e02p1"){
- const re=/^FWFS-E02-P01-L(\d{3})\s+/gm;
+ const re=/^(?:\*\*)?FWFS-E02-P01-L(\d{3})(?:\*\*)?\s+/gm;
  rows=rowsFromSource(text,re,expected).map(r=>({id:"L"+r.id,text:r.text}));
 }else if(mode==="decimal"){
  const re=/^(\d{3})\.\s*/gm;
