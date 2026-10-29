@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-10-29",
+  "mode": "DAY-WISE CROSS-CHARACTER STORY CLOCK",
+  "director_progression_targets": {
+    "Ankita": "DHIKA Episode 03 considered complete by Director for arc progression; next storyline uses DHIKA E04 as reference, but E04 P7 is new FWFS continuation rather than verbatim E03 L184–235.",
+    "Shreya": "Next original plot reference DHIKA Episode 03; source-backed FWFS E03 P3 Saturday music/home scene done.",
+    "Shivani": "Next original plot reference DHIKA Episode 03; existing E05 Part 2 through original DHIKA Episode 02 L121 only.",
+    "Taniya": "Original DHIKA Episode 02 visit and follow-up functions outstanding; Sunday Colonel visit next, four devars' group-encounter afterwards."
+  },
+  "publication": {
+    "episodes_01_to_05": "PUBLISHED · DIRECTOR APPROVED AS WRITTEN",
+    "director_decision_date": "2026-10-29",
+    "prose_unchanged": true,
+    "unwritten_parts_approved": false
+  },
+  "dates": [
+    {
+      "day": "Friday",
+      "date": "2026-10-23",
+      "events": [
+        {
+          "who": "Ankita",
+          "story": "FWFS E04 P1–3",
+          "status": "written_approved",
+          "event": "Chirag Friday arrival/ice cream/kiss"
+        },
+        {
+          "who": "Shreya and Shivani",
+          "story": "FWFS E03 P2 shared",
+          "status": "written_approved",
+          "event": "Sinha family dinner"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "date": "2026-10-24",
+      "events": [
+        {
+          "who": "Ankita",
+          "story": "FWFS E04 P4",
+          "status": "written_approved",
+          "event": "Reflection after Friday Chirag kiss"
+        },
+        {
+          "who": "Shreya",
+          "story": "FWFS E03 P3",
+          "status": "written_approved",
+          "event": "Aarav/Neel music request, home setup and incident"
+        },
+        {
+          "who": "Shivani and Taniya",
+          "story": "FWFS E05 P1",
+          "status": "written_approved",
+          "event": "Arora Saturday lunch, Three Gazes"
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "date": "2026-10-25",
+      "events": [
+        {
+          "who": "Taniya",
+          "story": "Proposed next day-wise episode 06 P1",
+          "status": "selected_outline_only",
+          "event": "5 PM Colonel Virendra Rathore tea; Taniya accompanied by Vihaan and Laksh; Dev does not attend."
+        },
+        {
+          "who": "Shreya",
+          "story": "unassigned",
+          "status": "tentative",
+          "event": "Possible Chirag meeting from pre-existing planning; exact day and time not written."
+        },
+        {
+          "who": "Shivani",
+          "story": "unassigned",
+          "status": "superseded_old_plan_to_review",
+          "event": "Older Sunday Raghav/Rishabh meeting slot conflicts with existing Monday E05 P2 manuscript."
+        }
+      ]
+    },
+    {
+      "day": "Monday",
+      "date": "2026-10-26",
+      "events": [
+        {
+          "who": "Shivani",
+          "story": "FWFS E05 P2 (historical numbering retained)",
+          "status": "written_approved",
+          "event": "Raghav/Rishabh tuition request and first arrival; explicit 43 source beats; later incident unwritten."
+        },
+        {
+          "who": "Ankita",
+          "story": "FWFS E04 P5",
+          "status": "written_approved",
+          "event": "Karan/Aman first project session; Monday is saved story date despite original DHIKA next-day spacing discrepancy."
+        },
+        {
+          "who": "Taniya",
+          "story": "Next day-wise episode AFTER Sunday visit; number TBD",
+          "status": "selected_outline_only",
+          "event": "Four cousin-devars return from hostel/campus; request marketing mentorship; first home group scene; afternoon/evening exact hour open."
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "date": "2026-10-27",
+      "events": [
+        {
+          "who": "Ankita",
+          "story": "FWFS E04 P6",
+          "status": "written_approved",
+          "event": "Supplies preparation"
+        },
+        {
+          "who": "Taniya",
+          "story": "pre-existing old plan",
+          "status": "tentative",
+          "event": "Chirag encounter/meeting reschedule candidate, now dependent on Sunday/Monday writer sequence."
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "date": "2026-10-28",
+      "events": [
+        {
+          "who": "Ankita",
+          "story": "FWFS E04 P6",
+          "status": "written_approved",
+          "event": "Karan/Aman second project session"
+        },
+        {
+          "who": "Shreya",
+          "story": "from E03 P3 agreement",
+          "status": "planned",
+          "event": "Aarav/Neel 7–8 PM lesson planned but not written."
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "date": "2026-10-31",
+      "events": [
+        {
+          "who": "Ankita",
+          "story": "FWFS E04 P7",
+          "status": "written_approved_working_date",
+          "event": "The First Pantry Shelf with Chirag; manuscript itself says Saturday, not date 31 explicitly."
+        }
+      ]
+    }
+  ],
+  "critical_calendar_issues": [
+    "E05 is an existing grouped index: Part 1 is Saturday, Part 2 Monday. An episode-per-day reindex of approved texts must be an explicit editorial decision, not silently overwrite existing references.",
+    "Director's Anand/Ankita original DHIKA E03 completed-status is a progression decision, not proof that all DHIKA E03 source lines were copied: E03 L184–235 were not adapted verbatim.",
+    "Existing FWFS E04 Karan/Aman Mon 26 + Wed 28 diverge from original DHIKA E03 Wed + Fri relative to Tuesday Chotu encounter. Leave manuscript dates unchanged unless author specifically instructs correction.",
+    "Taniya Sunday visit changes attendees only. Original Wednesday invitation for Taniya and Dev remains evidence, but Dev cannot attend in the new director plot.",
+    "Chirag memory: E01 prior acquaintances with all four, E04 Fri 23 Oct Ankita kiss; do not hallucinate kisses with other women before their stories exist."
+  ],
+  "next_story_order": [
+    {
+      "priority": 1,
+      "day": "2026-10-25",
+      "title": "Taniya · Colonel tea",
+      "type": "unwritten_new_scene",
+      "source": "data/stories/fwfs_e06_taniya_colonel_and_cousin_devars_director_brief_20261029.md"
+    },
+    {
+      "priority": 2,
+      "day": "2026-10-26",
+      "title": "Taniya · Four-devar mentorship and home return",
+      "type": "unwritten_new_scene",
+      "source": "data/stories/fwfs_e06_taniya_colonel_and_cousin_devars_director_brief_20261029.md"
+    },
+    {
+      "priority": 3,
+      "day": "TBD",
+      "title": "Shreya · First DHIKA E03-based lesson/Chirag",
+      "type": "planned"
+    },
+    {
+      "priority": 4,
+      "day": "TBD",
+      "title": "Shivani · Remaining twins incident and then DHIKA E03",
+      "type": "planned"
+    },
+    {
+      "priority": 5,
+      "day": "after mapped prior encounters",
+      "title": "Ankita · Move to DHIKA E04 reference",
+      "type": "director_direction"
+    }
+  ]
+}
