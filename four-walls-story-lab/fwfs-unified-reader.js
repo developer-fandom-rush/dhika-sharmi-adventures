@@ -165,6 +165,7 @@ function select(ep,part,write=true){
  window.setFWFSStoryMenu?.(ep);
  window.fwfsNavigate?.();
  if(location.hash!==stateHash(ep,part))history.replaceState(null,"",stateHash(ep,part));
+ if(write&&host)host.scrollIntoView({behavior:"auto",block:"start"});
  render();
 }
 function chooseHash(){
