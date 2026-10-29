@@ -121,7 +121,7 @@ if(d.kind==="e04"){const src=await getJSON(ROOT+FILE04[d.part]);const lines=d.pa
 throw Error("Unrecognized reader source");
 }
 function stateHash(ep,part){return"#fwfs-e"+ep+"-p"+String(part).padStart(2,"0");}
-function status(part){return part[1].status||(part[1].kind==="e04"&&part[1].part>=4?"Director review draft; not canon locked.":"Source reader; source approval status is preserved.");}
+function status(part){var note="PUBLISHED · DIRECTOR APPROVED (29 October 2026) · Saved prose unchanged.";if(currentEp==="05"&&currentPart===2)note+=" This Part 2 is complete only through DHIKA E02 L121; L122–L150 is not written here.";if(currentEp==="04"&&currentPart===7)note+=" Original FWFS pantry continuation, not DHIKA E03 L184–L235 verbatim.";return note;}
 function episodeButtons(){
  const box=host.querySelector(".fwfs-r-episodes");box.textContent="";
  Object.keys(EP).forEach(ep=>{const b=h("button","", "Episode "+ep);b.type="button";b.dataset.fwfsEp=ep;b.setAttribute("aria-selected",String(ep===currentEp));box.appendChild(b)});
