@@ -364,3 +364,193 @@ woh is feeling ko dobara feel karna chahti thi, chahe kitna bhi galat kyun na ho
 
 **L100**
 Yahi se uska naya, khatarnak sa chapter shuru hua.
+
+**L101**
+Subah uthte hi pehli yaad Prakash ke thumb ka pressure thi.
+
+**L102**
+Usne brush karte hue apne aap ko dekha. Same face. Same body. Lekin ab us body ne teen purane mardon ke saamne react kiya tha.
+
+**L103**
+Coffee banate hue uske mind mein Harish ki low awaaz aa rahi thi — “Tum thodi distracted lag rahi ho.”
+
+**L104**
+Aditya ne peeche se uska kamar se pakda. Normal, familiar touch. Shivani ne smile diya, lekin uska body ab bhi kal ki garmi yaad rakhe hue tha.
+
+**L105**
+WhatsApp pe Taniya ka message aaya: “Kal thoda off lagi tu. Sab theek na?”
+Shivani ne reply kiya: “Haan. Bas thak gayi thi.”
+Delete karne ka mann kiya, lekin bhej diya.
+
+**L106**
+Dopahar mein accounting file kholte hue bhi uske nipples sensitive the. Blouse ka touch bar-bar yaad dilata raha.
+
+**L107**
+Usne socha, *Agar Mahendra aur der rukte… toh kya hota?*
+Soch ke saath hi uske beech mein throb hua. Usne pen zor se pakad liya.
+
+**L108**
+Shaam ko Aditya ke aane se pehle usne bathroom mein jaakar khud ko check kiya. Ab bhi thodi wetness thi. Kal wala orgasm poora settle nahi hua tha.
+
+**L109**
+Usne khud se kaha, *Bas. Ab kaafi ho gaya.*
+Body ne jawab nahi diya.
+
+**L110**
+Raat ko bed par Aditya so gaya. Shivani ne uska haath apne pet par rakha. Normal biwi wala touch. Lekin uske dimaag mein kisi aur ke haath the.
+
+**L111**
+Prakash.
+Harish.
+Mahendra.
+
+**L112**
+Teenon ka desire.
+Teenon ka lack of control.
+Aur uska khud ka body jo unke under khul gaya tha.
+
+**L113**
+Usne aankhen band ki. Is baar usne resist nahi kiya. Usne us feeling ko aane diya.
+
+**L114**
+Annoyance ab bhi thi.
+Lekin uske neeche jo khushi thi, woh ab saaf thi.
+
+**L115**
+Woh chahti thi ki woh men usse dekhte rahein.
+Woh chahti thi ki unka body uske liye react kare.
+Woh chahti thi ki uska khud ka body unka reaction feel kare.
+
+**L116**
+Yeh soch usse dara rahi thi.
+Yeh soch usse geela kar rahi thi.
+
+**L117**
+Usne apne haath ko neeche bheja. Is baar dheere nahi. Seedha, hungry.
+
+**L118**
+Do minute baad usne phir se muh pe haath rakh liya. Orgasm chhota tha, lekin tez tha. Kal wale ka residual.
+
+**L119**
+Baad mein woh shaant padi rahi. Saans normal ho rahi thi.
+Uske aankhon mein pani nahi tha. Sirf ek clear, dangerous si clarity thi.
+
+**L120**
+*Main disclose nahi karungi.*
+*Main kisi ko nahi bataungi.*
+*Lekin main isse feel karna band nahi karungi.*
+
+**L121**
+Taniya usi raat Dev ke saath sex ke baad alag mud kar leti thi. Uske mind mein ab bhi Shivani ka face tha.
+
+**L122**
+Usne socha, *Papa ji itni der kyun dekh rahe the?*
+*Dev bhi…*
+
+**L123**
+Usne apne husband ka haath apne pet par se hataya. Kuch nahi kaha.
+
+**L124**
+Prakash ne raat ko whiskey ka doosra glass liya. Unhe yaad tha Shivani ne unka twitch kaise register kiya tha. Unke face par smile thi.
+
+**L125**
+Harish ne apne bedroom mein lights band ki. Unke body mein ab bhi restlessness thi. Unhone Shivani ke eye contact ko dobara feel kiya.
+
+**L126**
+Mahendra ne apni wife ke saath bed par lette hue bhi Shivani ka peach saree yaad kiya. Unhone side change kiya.
+
+**L127**
+Teen alag ghar.
+Teen alag men.
+Ek common yaad — Shivani ka body unke desire ke under respond karte hue.
+
+**L128**
+Shivani ne aakhri baar aankhen kholi. Andhera tha.
+Usne soft voice mein, kisi ko nahi sunate hue, kaha:
+
+**L129**
+“Main theek nahi hoon… aur mujhe isse farq nahi padta.”
+
+**L130**
+Usne sheet ko tightly pakad liya.
+Neend is baar jaldi aa gayi.
+
+**L131**
+Lekin neend mein bhi uske lips thode se open the, jaise koi naam lene wala ho.
+
+**L132**
+Prakash.
+Harish.
+Mahendra.
+
+**L133**
+Teen gazes.
+Ek wet, conflicted, secretly happy aurat.
+
+**L134**
+Yahi uska naya balance tha.
+
+**L135**
+Aur woh ab is balance ko todna nahi chahti thi.
+
+**L136**
+Kam se kam aaj nahi.
+
+**L137**
+Kam se kam is raat nahi.
+
+**L138**
+Usne apne aap ko allow kiya ki woh feel kare.
+
+**L139**
+Without guilt.
+Without disclosure.
+Without rukawat.
+
+**L140**
+Sirf body.
+Sirf heat.
+Sirf woh teen jo usse dekh chuke the.
+
+**L141**
+Shivani so gayi.
+
+**L142**
+Uske undergarments phir se thode geele the.
+
+**L143**
+Aur uske face par, andhere mein, ek chhoti si soft smile thi jo usne khud nahi dekhi.
+
+**L144**
+Monday subah alag hoga.
+Lekin Saturday raat ne uske andar ek naya rasta khol diya tha.
+
+**L145**
+Teen purane mard.
+Unka desire.
+Uske body ka jawab.
+
+**L146**
+Shivani ne is raste par pehla kadam rakh diya tha.
+
+**L147**
+Bina kisi ko bataye.
+Bina kisi ko allow kiye.
+Sirf apne liye.
+
+**L148**
+Aur yeh baat, sabse zyada, usse andar tak excite kar rahi thi.
+
+**L149**
+Woh ab weak nahi thi.
+Woh hungry thi.
+
+**L150**
+Aur uski hunger ne abhi sirf shuruat ki thi.
+
+---
+
+**End of Draft**
+**Status: DRAFT / DIRECTOR REVIEW PENDING**
+**Plot & Continuity QA corrections applied. Existing mature prose and plot order preserved.**
+**Knowledge guardrail:** Shivani does not know Prakash's earlier E01 private garment violation. The earlier private incident with Harish involving Shreya is not assigned to Shivani.
