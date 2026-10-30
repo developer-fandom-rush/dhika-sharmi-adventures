@@ -1,0 +1,707 @@
+{
+  "schema_version": "2.0",
+  "title": "FWFS E04 Part 7 V2 — The First Pantry Shelf: Director Choreography Cut",
+  "episode": "FWFS E04",
+  "part": "P07-V2",
+  "story_date": "Saturday, 31 October 2026",
+  "status": "DIRECTOR REVIEW DRAFT / NOT CANON LOCKED",
+  "original_source_path": "data/stories/fwfs_e04_part07_ankita_pantry_targeted_revision_20261029.json",
+  "original_source_status": "DRAFT / DIRECTOR REVIEW PENDING / NOT CANON LOCKED",
+  "editorial_objective": "Focused pantry choreography, original Chotu visual/reaction mechanics retained, post-kiss awkwardness shown through behaviour, original unfinished ending replaced by open hook. Original manuscript remains untouched.",
+  "continuity": {
+    "friday_kiss": "Friday, 23 Oct 2026",
+    "saturday_reflection": "Saturday, 24 Oct 2026 (E04 P04)",
+    "intervening": "Monday–Wednesday 26–28 Oct (E04 P05–P06)",
+    "this_encounter": "Saturday, 31 Oct 2026",
+    "character_age": "Chirag/Chotu 22; adult"
+  },
+  "scene_segments": [
+    {
+      "key": "A",
+      "range": "001–009",
+      "title": "Pantry reason and preparation"
+    },
+    {
+      "key": "B",
+      "range": "010–017",
+      "title": "Unusually quiet reunion"
+    },
+    {
+      "key": "C",
+      "range": "018–023",
+      "title": "Spilled packet and immediate reactions"
+    },
+    {
+      "key": "D",
+      "range": "024–032",
+      "title": "Upper shelf and original visual-reaction mechanism"
+    },
+    {
+      "key": "E",
+      "range": "033–040",
+      "title": "Notebook discovery and shifted attention"
+    },
+    {
+      "key": "F",
+      "range": "041–054",
+      "title": "Work continues and unfinished Friday question"
+    }
+  ],
+  "preservation_audit": {
+    "retained_verbatim_visual_mechanism_source_lines": [
+      19,
+      20,
+      21,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "preserved_in_future_beat_reserve_original_lines": "38–80",
+    "moved_not_deleted": "Cooking, extra kitchen visual scene, full feelings conversation, departure and nighttime aftermath; retained verbatim below for future treatment, not canon in this cut.",
+    "new_explicit_content_added": false
+  },
+  "lines": [
+    {
+      "id": "FWFS-E04-P07-V2-L001",
+      "line_number": 1,
+      "origin_id": "FWFS-E04-P07-L001",
+      "editorial_action": "choreography_or_timeline_repair",
+      "text": "Saturday, 31 October 2026. Bansal Apartment. Ritvik office ke kaam se nikal gaya tha. Rey inter-school science fair mein tha. Friday ke kiss ko ek hafta beet chuka tha; uske baad Ankita aur Chotu ki dhang se mulaqat nahi hui thi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L002",
+      "line_number": 2,
+      "origin_id": "FWFS-E04-P07-L002",
+      "editorial_action": "source_retained",
+      "text": "Kitchen ka left pantry cabinet Ankita ke saamne khula pada tha — teen mahine se theek se saaf nahi hua tha. Upar ki shelf par purane dal packets, beech mein rusted tin boxes, neeche plastic containers jinke labels udd chuke the. Corner mein do bhaari cardboard cartons."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L003",
+      "line_number": 3,
+      "origin_id": "FWFS-E04-P07-L003",
+      "editorial_action": "source_retained",
+      "text": "Ankita ne soft cotton ka sleeveless top aur dark knee-length skirt pehna tha. Baal simple clip se bandhe the. Usne stool nikala aur pehla carton khola. Andar se dry masale ke dibbe nikle. Fingers sticky ho gaye."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L004",
+      "line_number": 4,
+      "origin_id": "FWFS-E04-P07-L004",
+      "editorial_action": "source_retained",
+      "text": "Doosra carton uthaate waqt uske shoulders mein pressure aaya. Glass jars ki khankhanahat sunai di. Inventory list lambi hoti gayi. Akeli aaj yeh kaam khatam nahi hoga."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L005",
+      "line_number": 5,
+      "origin_id": "FWFS-E04-P07-L005",
+      "editorial_action": "choreography_or_timeline_repair",
+      "text": "Chotu ka khayal aaya — stock samajhta hai, heavy cheezein utha sakta hai. Pichhle Friday ke baad uska khayal kabhi poori tarah gaya hi nahi tha. Ankita ne shop ko call kiya. Shopkeeper ne bataya Chotu aaj shift par hai, aur deliveries kam hain."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L006",
+      "line_number": 6,
+      "origin_id": "FWFS-E04-P07-L006",
+      "editorial_action": "source_retained",
+      "text": "Ankita ne casually containers, labels, masking tape aur do medium boxes ka order diya. Saath mein poocha ki ek-do ghante ke liye help mil sakti hai kya. Confirm hote hi uske pet mein halki si garmi fail gayi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L007",
+      "line_number": 7,
+      "origin_id": "FWFS-E04-P07-L007",
+      "editorial_action": "source_retained",
+      "text": "Friday wala kiss yaad aaya — uske soft lips, uska khud ka muh aage badha dena, phir uska darra hua chehra. *Aaj sirf kaam hai,* usne khud se kaha. Lekin body ne alag jawab diya. Uske nipples top ke andar pehle se thode sensitive the."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L008",
+      "line_number": 8,
+      "origin_id": "FWFS-E04-P07-L008",
+      "editorial_action": "choreography_or_timeline_repair",
+      "text": "Ankita ne working area clear kiya. Mat bichhaya. Neeche ke cartons ek taraf shift kiye aur upar ki shelf ke liye stool aise rakha ki cabinet ka darwaza khul sake. Haath dhoye. Mirror mein ek nazar — face clean, lips natural; aankhon mein wahi restless look."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L009",
+      "line_number": 9,
+      "origin_id": "FWFS-E04-P07-L009",
+      "editorial_action": "source_retained",
+      "text": "Ding-dong."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L010",
+      "line_number": 10,
+      "origin_id": "FWFS-E04-P07-L010",
+      "editorial_action": "source_retained",
+      "text": "Ankita ne door khola. Chotu khada tha, dono haath mein boxes. Usual cheerful “Didi!” ki jagah aaj sirf low “Hello didi.” Aankhen thodi neeche, shoulders thode tight."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L011",
+      "line_number": 11,
+      "origin_id": "FWFS-E04-P07-L011",
+      "editorial_action": "source_retained",
+      "text": "Ankita: “Itne boxes? Shop ka stock hi nikal laaye kya?”"
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L012",
+      "line_number": 12,
+      "origin_id": "FWFS-E04-P07-L012",
+      "editorial_action": "source_retained",
+      "text": "Chotu: “Aapne teen sizes likhe the. Galat na ho isliye sab le aaya.”  \nAwaaz normal thi, lekin usme koi teasing nahi thi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L013",
+      "line_number": 13,
+      "origin_id": "FWFS-E04-P07-L013",
+      "editorial_action": "source_retained",
+      "text": "Ankita: “Aur aaj itne serious kyun ho?”  \nUsne haske poocha, deliberately soft."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L014",
+      "line_number": 14,
+      "origin_id": "FWFS-E04-P07-L014",
+      "editorial_action": "source_retained",
+      "text": "Chotu ne halki si smile di. “Pehle kaam nipet doon, phir aapki daant sun lunga.”  \nWoh andar aaya. Shoes utaare. Boxes counter par rakhe."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L015",
+      "line_number": 15,
+      "origin_id": "FWFS-E04-P07-L015",
+      "editorial_action": "choreography_or_timeline_repair",
+      "text": "Ankita ne pantry dikhaya. “Pehle neeche ke cartons kholte hain, dates aur labels note karte hain. Phir middle shelf, aur bilkul aakhir mein upar wali shelf. Jo kharab ho, alag.” Chotu ne list kholi, boxes counter par rakhe aur kaam shuru kiya."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L016",
+      "line_number": 16,
+      "origin_id": "FWFS-E04-P07-L016",
+      "editorial_action": "choreography_or_timeline_repair",
+      "text": "Ankita neeche ke jars nikalkar counter par rakh rahi thi. Chotu har jar ki expiry padhkar list likh raha tha; duplicate packets ko ek taraf rakhte ja rahe the. Kabhi-kabhi dono ek hi carton ki taraf haath badhate. Har baar Chotu apna haath thoda jaldi peeche kheench leta."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L017",
+      "line_number": 17,
+      "origin_id": "FWFS-E04-P07-L017",
+      "editorial_action": "source_retained",
+      "text": "Ankita ne notice kiya. Uske andar thoda sa irritation aur thoda sa thrill dono the."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L018",
+      "line_number": 18,
+      "origin_id": "FWFS-E04-P07-L018",
+      "editorial_action": "choreography_or_timeline_repair",
+      "text": "Neeche wale carton ka aakhri bada dal packet nikaalte waqt uska kona khule mat se atka aur packet haath se phisal gaya. Beige grains floor par phail gaye. Ankita: “Arre yaar…”"
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L019",
+      "line_number": 19,
+      "origin_id": "FWFS-E04-P07-L019",
+      "editorial_action": "source_retained",
+      "text": "Dono ek saath jhuke. Unke haath almost takra gaye. Chotu ne apna haath turant hata liya, lekin uski nazar Ankita ke sleeveless top ki neckline par chali gayi — jahan se thoda sa cleavage dikh raha tha."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L020",
+      "line_number": 20,
+      "origin_id": "FWFS-E04-P07-L020",
+      "editorial_action": "source_retained",
+      "text": "Ankita ne uski nazar feel ki. Usne grains hatane mein time liya. Unke shoulders ek doosre ke bilkul kareeb the. Uske sleeveless top ka fabric Chotu ke arm se halka sa raga."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L021",
+      "line_number": 21,
+      "origin_id": "FWFS-E04-P07-L021",
+      "editorial_action": "source_retained",
+      "text": "Chotu ke andar ek sudden current daud gaya. Uske shorts mein turant pressure badh gaya. Woh jaldi se khada hua. Dono ne milkar saare grains uthaye, packet tightly bandha, aur mat saaf kiya."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L022",
+      "line_number": 22,
+      "origin_id": "FWFS-E04-P07-L022",
+      "editorial_action": "choreography_or_timeline_repair",
+      "text": "Dono ne saare grains sametkar mat saaf kiya. Chotu ne packet dobara seal karke expiry list ke paas rakh diya. Phir middle shelf ke containers par date padhne laga, jaise kuch hua hi na ho. Lekin uske kaan abhi bhi laal the."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L023",
+      "line_number": 23,
+      "origin_id": "FWFS-E04-P07-L023",
+      "editorial_action": "source_retained",
+      "text": "Ankita ne uska colour change notice kiya. Uske apne thighs ke beech halki si geeli si feeling shuru ho gayi thi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L024",
+      "line_number": 24,
+      "origin_id": "FWFS-E04-P07-L024",
+      "editorial_action": "choreography_or_timeline_repair",
+      "text": "Neeche ke cartons aur middle shelf ki sorting khatam hui. Ab upar wali shelf baaki thi. Ankita stool par chadhi; Chotu seedha neeche khada hokar usse ek-ek jar leta, counter par date note karta aur alag tray mein rakhta. Har baar Ankita haath upar uthati, sleeveless top thoda upar khisak jaata."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L025",
+      "line_number": 25,
+      "origin_id": "FWFS-E04-P07-L025",
+      "editorial_action": "source_retained",
+      "text": "Pehli baar Chotu ne nazar hata li.  \nDoosri baar uski nazar ruk gayi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L026",
+      "line_number": 26,
+      "origin_id": "FWFS-E04-P07-L026",
+      "editorial_action": "source_retained",
+      "text": "Top uske navel se upar chala gaya tha. Soft, clean stomach, thodi si sweat ki chamak, navel ki deep hole. Aur uske bilkul upar — top ke neeche lower curve of her breasts ka clear shape."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L027",
+      "line_number": 27,
+      "origin_id": "FWFS-E04-P07-L027",
+      "editorial_action": "source_retained",
+      "text": "Chotu ki breathing heavy ho gayi. Usne list par focus karne ki koshish ki, lekin aankhen wapas chali gayi. Uske shorts ab clearly tight the. Ek slow, involuntary twitch hua."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L028",
+      "line_number": 28,
+      "origin_id": "FWFS-E04-P07-L028",
+      "editorial_action": "source_retained",
+      "text": "Ankita ne peeche mudkar dekha. Chotu ki nazar bilkul uske exposed midriff par thi. Unki aankhen mili. Ek poora second dono chup rahe. Phir Ankita ne top ko thoda neeche kiya — lekin jaan-bujhkar poora nahi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L029",
+      "line_number": 29,
+      "origin_id": "FWFS-E04-P07-L029",
+      "editorial_action": "source_retained",
+      "text": "Uske andar ek teekhi si excitement daud gayi. *Woh dekh raha hai… aur mujhe bura nahi lag raha. Mujhe… accha lag raha hai.*  \nYeh soch uske nipples ko aur tight kar gayi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L030",
+      "line_number": 30,
+      "origin_id": "FWFS-E04-P07-L030",
+      "editorial_action": "source_retained",
+      "text": "Usne phir se haath upar uthaya. Is baar aur slow. Top phir se khisak gaya — is baar navel ke kaafi upar, almost underbust tak. Skin ki chamak, halki si sweat ki line jo navel mein jaa kar rukti thi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L031",
+      "line_number": 31,
+      "origin_id": "FWFS-E04-P07-L031",
+      "editorial_action": "source_retained",
+      "text": "Chotu ne ab nazar nahi hatayi. Usne dheere-dheere us skin ko piya. Uske dimaag mein Friday wala kiss aur aaj ka yeh nazara ek saath ghum rahe the. Shorts ke andar uska cock ab fully hard ho chuka tha, pulsating."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L032",
+      "line_number": 32,
+      "origin_id": "FWFS-E04-P07-L032",
+      "editorial_action": "source_retained",
+      "text": "Ankita ne uski nazar aur uske shorts dono notice kiye. Uske apne cheeks garam the. Usne top theek nahi kiya. Bas ek chhoti si smile di aur agli jar utaari."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L033",
+      "line_number": 33,
+      "origin_id": "FWFS-E04-P07-L033",
+      "editorial_action": "choreography_or_timeline_repair",
+      "text": "Upar ki shelf ka aakhri cardboard box nikaalte waqt Chotu ne neeche se uska wazan sambhala. Box counter par aaya toh uske neeche atki ek soft-cover notebook phisal kar mat par gir gayi — peele pages, folded edges. Ankita: “Yeh kya…?”"
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L034",
+      "line_number": 34,
+      "origin_id": "FWFS-E04-P07-L034",
+      "editorial_action": "source_retained",
+      "text": "Chotu: “Didi, yeh bhi kitchen ki hai?”"
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L035",
+      "line_number": 35,
+      "origin_id": "FWFS-E04-P07-L035",
+      "editorial_action": "source_retained",
+      "text": "Ankita ne notebook kholi. Uski hi handwriting. Purani recipes. Ek page par chhoti si note likhi thi — “Ritvik ko yeh wala halwa bahut pasand hai. Shaadi ke pehle pehli baar banaya tha. Aaj bhi usi tarah banana.” Agle page par jeera aloo ki recipe thi. Uske paas likha tha: “Namak aadha chammach; aakhir mein taste karke adjust karna.”  \nUske fingers us note par ruk gaye."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L036",
+      "line_number": 36,
+      "origin_id": "FWFS-E04-P07-L036",
+      "editorial_action": "source_retained",
+      "text": "Ankita: “Haan. Shaadi se pehle… aur baad mein bhi kuch time. Phir chhoot gaya. Bhool hi gayi thi.”  \nUske voice mein ek soft personal weight tha."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L037",
+      "line_number": 37,
+      "origin_id": "FWFS-E04-P07-L037",
+      "editorial_action": "source_retained",
+      "text": "Chotu: “Phir aaj ek toh banani chahiye.”"
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L038",
+      "line_number": 38,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Ankita ne notebook ke doosre page par bani purani inventory list dekhi. Chotu ki nazar uske chehre par gayi; woh Friday se pehli baar kaam se zyada kisi aur baat mein khoyi lag rahi thi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L039",
+      "line_number": 39,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Chotu: “Didi, yeh diary yahin rakh doon? Baaki boxes pehle side mein kar deta hoon.” Usne bina notebook chhuye saaf jagah bana di."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L040",
+      "line_number": 40,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Ankita: “Haan. Aur woh labels idhar de do.” Woh notebook ke Ritvik wale note par ek pal aur ruki, phir page band nahi kiya."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L041",
+      "line_number": 41,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Chotu ne masking tape ka ek tukda kaata. Corner uski ungli se chipak gaya. Normally woh is par joke karta; aaj bas halki si smile aayi aur usne tape seedha kiya."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L042",
+      "line_number": 42,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Ankita ne dekha ki Chotu uski aankhon mein dekhne se ab bhi bach raha tha. Usne poocha, “Friday ke baad se itne careful kyun ho?”"
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L043",
+      "line_number": 43,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Chotu ki pen list par ruk gayi. “Main… aapko uncomfortable nahi karna chahta, didi.” Usne baaki sentence bolne ki koshish ki, phir chup ho gaya."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L044",
+      "line_number": 44,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Ankita ne turant jawab nahi diya. Pantry ke khule cabinet, half-filled trays aur counter par rakhi diary ke beech ek chhoti si khamoshi aa gayi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L045",
+      "line_number": 45,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Chotu ne baaki jars ko do trays mein divide kiya. Ankita ne usse upar wali khali shelf ke corners ponchne ko kaha, aur woh stool sambhal kar us par chadh gaya. Ab Chotu kaam kar raha tha aur Ankita neeche se saaf cartons pakda rahi thi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L046",
+      "line_number": 46,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Ankita ki nazar uske badle hue behaviour par thi — Friday ka cheerful Chotu, aur aaj ka har movement soch-samajhkar karne wala Chotu. Jab woh neeche utra, dono ki aankhen ek pal ko mili aur phir alag ho gayin."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L047",
+      "line_number": 47,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Chotu ne last tray neeche rakhi aur list check ki. Kuch naye lids, masale aur notebook ki recipes ke liye samaan ab bhi chahiye tha. Usne nayi shopping list ka page khola."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L048",
+      "line_number": 48,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Ankita: “Recipe wali diary abhi yahin rehne do. Pantry poori saaf ho jaaye, phir dekhenge kya banana hai.” Kaam ka reason saaf tha, lekin uski awaaz pehle se dheemi thi."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L049",
+      "line_number": 49,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Chotu: “Theek hai didi. Agli baar missing cheezein le aaunga.” Usne list fold ki, magar bag uthaane se pehle ruk gaya."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L050",
+      "line_number": 50,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Ankita ne diary ko counter ke corner par rakha. Uski purani handwriting aur Friday ke unanswered moment, dono alag-alag sawaal bankar saamne the."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L051",
+      "line_number": 51,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Chotu: “Didi… ek baat poochhni thi. Pichhle Friday ko…”"
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L052",
+      "line_number": 52,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Ankita ka haath notebook ke page par thahar gaya. Woh uski taraf mudi. Chotu ne ek baar seedha dekha — phir baat adhoori chhod di."
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L053",
+      "line_number": 53,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Doorbell nahi baji. Phone bhi nahi. Unke beech sirf pantry ki ghadi ki tick-tick thi. Ankita ne poochha, “Kya, Chotu?”"
+    },
+    {
+      "id": "FWFS-E04-P07-V2-L054",
+      "line_number": 54,
+      "origin_id": null,
+      "editorial_action": "new_non_graphic_bridge_or_cliffhanger",
+      "text": "Chotu ke honth hile, lekin jawab aane se pehle usne apni nazar diary ke open page ki taraf kar di. Ankita uske agle shabd ka intezar karti reh gayi."
+    }
+  ],
+  "shot_list": [
+    {
+      "v2_line_range": "001–009",
+      "camera": "wide establishing → hand insert → close reaction",
+      "focus": "Saturday 31 Oct; pantry shelves; outfit; phone call; Friday memory"
+    },
+    {
+      "v2_line_range": "010–017",
+      "camera": "doorway medium → over shoulder → hands close-up",
+      "focus": "Chotu unusually quiet, shifts grip on boxes; Ankita teases; work stations established"
+    },
+    {
+      "v2_line_range": "018–023",
+      "camera": "floor-level → two-person medium → Chotu face",
+      "focus": "Dal spill; synchronized crouch; eye-line; sudden retreat and involuntary reaction; both clean"
+    },
+    {
+      "v2_line_range": "024–032",
+      "camera": "wide shelf geometry → eye-line reverse shots → close reactions",
+      "focus": "Stool at upper pantry; jars handed down; outfit movement and Chotu's reactions preserved exactly from source"
+    },
+    {
+      "v2_line_range": "033–040",
+      "camera": "falling notebook insert → Ankita's face → two-shot",
+      "focus": "Notebook is physically dislodged from same last box, Ritvik note changes her attention"
+    },
+    {
+      "v2_line_range": "041–049",
+      "camera": "masking tape hands → paired close-up → wide reset",
+      "focus": "Almost-discussion interrupted by completing shelf task, no premature full confession"
+    },
+    {
+      "v2_line_range": "050–054",
+      "camera": "shopping list insert → held two-shot → frozen close-up",
+      "focus": "Departure not shown; unfinished Friday question and open visual hook"
+    }
+  ],
+  "future_beat_reserve": {
+    "status": "SOURCE ONLY — DO NOT RENDER AS V2 STORY; NOT LOST",
+    "reason": "Prevents second scene (cooking + full confession + closing) from prematurely resolving pantry encounter. Contains all original P07 L038–L080 in original order including Chotu's physical reactions.",
+    "lines": [
+      {
+        "origin_id": "FWFS-E04-P07-L038",
+        "original_line": 38,
+        "text": "Ankita ne uski taraf dekha. “Pehle yeh decide karo — tumhe sach bolna aata hai ya bas baat banana.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L039",
+        "original_line": 39,
+        "text": "Chotu thoda sa mud gaya. “Main sach hi bolta hoon didi.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L040",
+        "original_line": 40,
+        "text": "Ankita: “Toh batao. Friday ke baad se tum itne careful kyun ho gaye? Mujhse aankhen bhi nahi milaate properly.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L041",
+        "original_line": 41,
+        "text": "Chotu ke haath list par ruk gaye. “Main… galat baat keh dene se darta hoon. Ya… aisa kuch karne se jo aapko bura lage.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L042",
+        "original_line": 42,
+        "text": "Ankita: “Kaunsi galat baat?”  \nWoh uske bilkul saamne aa gayi."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L043",
+        "original_line": 43,
+        "text": "Chotu ne aankhen uthayi. “Jo Friday ko hua. Main nahi chahta ki aap socho main uska fayda uthana chahta hoon. Main aapko respect karta hoon.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L044",
+        "original_line": 44,
+        "text": "Ankita: “Main uncomfortable nahi hoon, Chotu. Confused hoon. Aur… curious bhi. Bahut.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L045",
+        "original_line": 45,
+        "text": "Unki aankhen mili. Kitchen ki hawa bhaari lag rahi thi. Chotu ke shorts ka tent ab clearly dikh raha tha — slow, rhythmic pulse."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L046",
+        "original_line": 46,
+        "text": "Ankita ne notebook se jeera aloo choose kiya. “Halwa ke liye abhi gajar aur doodh nahi hain. Woh agli baar banayenge. Abhi jo cheezein hain unhi se jeera aloo try karte hain.”  \nAb dono pehle wali baatcheet ko yaad rakhte hue ek doosre ka behaviour feel kar rahe the."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L047",
+        "original_line": 47,
+        "text": "Dono ne saath kaam kiya. Chotu ne aloo chheele. Ankita ne masale measure kiye. Har baar unke haath touch hote, dono ke andar current sa guzarta — ab us current ke peeche Friday aur aaj ki baat dono thi."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L048",
+        "original_line": 48,
+        "text": "Jab tadka chal raha tha, Ankita ne baal dubara clip kiye. Haath upar uthate hi top poora upar chala gaya — navel, soft stomach, aur underbust ki clear line.  \nChotu ki nazar is baar bilkul nahi hati. Usne openly dekha. Uske cock ne ek strong twitch diya. Ankita ne bhi us reaction ko pehle se zyada clearly feel kiya."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L049",
+        "original_line": 49,
+        "text": "Ankita (halki si saans mein): “Ab itna dekh liya… toh bol bhi do.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L050",
+        "original_line": 50,
+        "text": "Chotu ka voice low aur thoda rough aaaya. “Didi… aap… bahut hot lag rahi ho. Main… control nahi kar paa raha.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L051",
+        "original_line": 51,
+        "text": "Ankita ke nipples ab fully hard the. Usne apne lower lip ko kaata. Uske andar ki garmi ne ek soft throb diya."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L052",
+        "original_line": 52,
+        "text": "Jeera aloo ready hua. Taste kiya toh namak clearly zyada tha.  \nAnkita ne jeera aloo wala page khola. “Yahan aadha chammach likha hai, aur maine andaaze se poora chammach daal diya. Agli baar naap kar daalungi.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L053",
+        "original_line": 53,
+        "text": "Chotu: “Toh agli baar sahi se banayenge.”  \nUsne “agli baar” ke words soft rakhe."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L054",
+        "original_line": 54,
+        "text": "Ankita has padi, lekin uski hansi mein ab nervousness thi. “Ab MasterChef mat bano. Chai banati hoon.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L055",
+        "original_line": 55,
+        "text": "Woh chai banane gayi. Chotu peeche khada raha. Uske shorts ab uncomfortable level tak tight the."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L056",
+        "original_line": 56,
+        "text": "Chai ke cup counter par aaye. Dono ne chupchaap ghoont liye. Unke beech ka silence ab charged tha."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L057",
+        "original_line": 57,
+        "text": "Ankita: “Aaj itna kaafi hai. Baaki shelves kal ya parso.”  \nUsne shopping list banayi — missing spices, naye containers, chopping board. Jeera aloo ke liye namak naapne ka note aur halwa ke liye gajar aur doodh bhi list mein aaye."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L058",
+        "original_line": 58,
+        "text": "Chotu ne list li. “Kal shaam tak sab le aunga.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L059",
+        "original_line": 59,
+        "text": "Ankita ne uski taraf dekha. “Chotu…”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L060",
+        "original_line": 60,
+        "text": "Chotu: “Haan didi?”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L061",
+        "original_line": 61,
+        "text": "Ankita: “Tum ab is… jo hamare beech hai… usse kaise samajhte ho?”  \nUsne uske jawab ka intezar kiya, bina khud uska matlab tay kiye."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L062",
+        "original_line": 62,
+        "text": "Chotu ne thoda time liya. “Main samajhta hoon ki yeh simple nahi hai. Aur main darta hoon ki agar main apni feeling bata doon, toh aap mujhse door ho jaogi. Main aapko door nahi karna chahta.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L063",
+        "original_line": 63,
+        "text": "Ankita ke dil ne zor se dhadka.  \nAnkita: “Main bhi nahi chahti door hona.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L064",
+        "original_line": 64,
+        "text": "Unke beech sirf ek foot ka faasla tha. Chotu ka tent ab openly pulsating tha. Ankita ki panty poori tarah geeli ho chuki thi."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L065",
+        "original_line": 65,
+        "text": "Ankita: “Kal… samaan le aana. Phir baaki kaam complete karte hain. Aur… woh recipe bhi sahi se try karte hain.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L066",
+        "original_line": 66,
+        "text": "Chotu: “Haan didi.”  \nUsne shopping list aur apna khali bag sambhala. Door ki taraf badha, phir ruk gaya."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L067",
+        "original_line": 67,
+        "text": "Chotu: “Didi… aap sure ho na ki aap theek ho? Mere… is haalat se?”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L068",
+        "original_line": 68,
+        "text": "Ankita ne uske shorts ki taraf ek short nazar daali, phir uski aankhon mein. Soft, honest smile ke saath.  \nAnkita: “Haan. Main theek hoon. Tum bhi… theek raho.”"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L069",
+        "original_line": 69,
+        "text": "Chotu ne deep breath li aur nikal gaya. Door band hote hi Ankita ne counter ko pakad liya. Uske legs soft feel ho rahe the."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L070",
+        "original_line": 70,
+        "text": "Usne diary uthayi aur bedroom le gayi. Pages ulte. Woh purani note phir se padhi — “Ritvik ko yeh wala halwa bahut pasand hai…”  \nUske fingers us line par ruk gaye. Usne diary ko bedroom ke drawer mein sambhal kar rakh diya."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L071",
+        "original_line": 71,
+        "text": "Raat ko Ritvik aaya. Ankita normal soft thi. Dinner table par Rey ke fair ki baat hui, office ki halki baat hui. Usne kitchen project ka zikr kiya — Chotu help kar raha hai, samaan aayega. Ritvik ne simple haan kahi aur TV on kar diya."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L072",
+        "original_line": 72,
+        "text": "Ankita ne uske saath sofa par baith kar thodi der normal married evening bitayi. Usne kuch extra nahi kaha. Ritvik se usne jhooth nahi bola tha—Chotu sach mein kitchen ki help kar raha tha. Phir bhi use laga ki aaj ki baat ka ek zaroori hissa usne chhupa liya. Friday ka kiss aur aaj ki baat dono uske andar hi rahe."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L073",
+        "original_line": 73,
+        "text": "Bed par lette hue Ankita ne ceiling ki taraf dekha. Uske body mein abhi bhi garmi thi. Panty change karni padi thi."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L074",
+        "original_line": 74,
+        "text": "Chotu ke words yaad aa rahe the — *Main aapko door nahi karna chahta.*  \nAur uska khud ka jawab — *Main bhi nahi chahti.*"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L075",
+        "original_line": 75,
+        "text": "Usne socha, *Kal jab woh aayega… main usse kitna kareeb aane dungi? Aur main khud kitni kareeb jana chahti hoon?*"
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L076",
+        "original_line": 76,
+        "text": "Usne side change kiya. Sheet uske bare legs ke against soft thi. Uske mind mein aaj ka moment baar-baar chal raha tha — top ka upar jana, uski bhookhi nazar, uska pulsating tent, uski raw awaaz, aur diary wali purani note."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L077",
+        "original_line": 77,
+        "text": "Ankita ne apne lower lip ko dabaya. Uske fingers dheere se apne stomach par phire — wahi jagah jahan aaj Chotu ki nazar tikti rahi thi."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L078",
+        "original_line": 78,
+        "text": "Usne aankhen band ki. Kal phir se woh aayega. Pantry abhi poora nahi hua. Recipe abhi perfect nahi. Aur unke beech ka sawal ab khula hua tha — seedha aur personal."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L079",
+        "original_line": 79,
+        "text": "Neend se pehle uske lips thode se khule the."
+      },
+      {
+        "origin_id": "FWFS-E04-P07-L080",
+        "original_line": 80,
+        "text": "Recipe diary ab bedroom ke drawer mein rakhi thi. Uske pages mein purani recipes thi.  \nAur uske bahar, do logon ke beech, ek nayi recipe shuru ho chuki thi — jo abhi adhuri thi."
+      }
+    ]
+  }
+}
